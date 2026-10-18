@@ -24,7 +24,7 @@ SHA_RE = re.compile(r"^[0-9a-f]{64}$")
 
 def get(url):
     req = urllib.request.Request(url, headers=HEADERS)
-    for attempt in range(4):
+    for attempt in range(6):
         try:
             with urllib.request.urlopen(req, timeout=24) as response:
                 if response.status != 200:
@@ -34,9 +34,9 @@ def get(url):
                     raise ValueError("large response / truncated")
                 return raw, response.headers.get("Content-Type", "")
         except urllib.error.HTTPError as exc:
-            if exc.code not in (429, 502, 503, 504) or attempt == 3:
+            if exc.code not in (429, 502, 503, 504) or attempt == 5:
                 raise
-            pause = 2 ** (attempt + 1)
+            pause = min(60, 2 ** (attempt + 1))
             print(f"Transient HTTP {exc.code}; backing off for {pause} seconds before retry", flush=True)
             time.sleep(pause)
 
@@ -149,7 +149,7 @@ def main():
             item["error"] = type(exc).__name__ + ": " + str(exc)[:160]
             print(f"[{index}/{len(records)}] PENDING {ident}: {item['error']}", flush=True)
         result.append(item)
-        time.sleep(0.6)
+        time.sleep(1.25)
     report = {
         "checked": len(records), "passed": sum(1 for r in result if r["success"]),
         "failed": sum(1 for r in result if not r["success"]), "results": result
