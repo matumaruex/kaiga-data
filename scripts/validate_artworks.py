@@ -46,6 +46,44 @@ for art in data.get("artworks", []):
             image_source["image_source"].get("download_url")
         ):
             errors.append(f"{ident}: 表示画像URLが画像台帳と不一致")
+    # 制作意図と学術解釈、感情タグを混同しないための契約。
+    meaning = art["curation"].get("meaning_basis")
+    groups = art["curation"].get("emotion_categories")
+    if not isinstance(meaning, dict) or not isinstance(groups, dict):
+        errors.append(f"{ident}: 制作意図・根拠・主補助タグの分類がない")
+    else:
+        author = meaning.get("author_intent", {})
+        if not isinstance(author, dict):
+            errors.append(f"{ident}: 作者の意思の状態が不正")
+        elif author.get("status") == "not_verified_for_this_work":
+            if author.get("summary") is not None or author.get("source_url") is not None:
+                errors.append(f"{ident}: 作者の意図が未確認なのに資料や本文を断定")
+        elif author.get("status") == "related_motif_or_series":
+            if not isinstance(author.get("summary"), str) or not author["summary"].strip() or not str(author.get("source_url") or "").startswith("https://"):
+                errors.append(f"{ident}: 関連題材への本人証言に出典がない")
+        else:
+            errors.append(f"{ident}: 本人記録の分類が不正")
+        scholarly = meaning.get("scholarly_interpretation", {})
+        if not isinstance(scholarly, dict) or not isinstance(scholarly.get("summary"), str) or not scholarly["summary"].strip() or not str(scholarly.get("source_url") or "").startswith("https://"):
+            errors.append(f"{ident}: 専門家の解釈・根拠の記載がない")
+        for label in ("creation_context", "visual_clues", "uncertainty_note"):
+            if not isinstance(meaning.get(label), str) or not meaning[label].strip():
+                errors.append(f"{ident}: {label}が空")
+        primary = groups.get("primary")
+        secondary = groups.get("secondary")
+        if not isinstance(primary, list) or not 1 <= len(primary) <= 2 or not isinstance(secondary, list) or len(secondary) > 2:
+            errors.append(f"{ident}: 主1〜2・補助0〜2の制限違反")
+        else:
+            tags = primary + secondary
+            if len(tags) != len(set(tags)) or set(tags) != set(art["curation"].get("emotions", [])):
+                errors.append(f"{ident}: 主補助タグと旧検索索引が不一致")
+            weights = art["curation"].get("emotion_strengths", {})
+            for tag in primary:
+                if type(weights.get(tag)) is not int or weights[tag] not in (2, 3):
+                    errors.append(f"{ident}: 主タグ {tag} に根拠強度2〜3がない")
+            for tag in secondary:
+                if weights.get(tag) != 1:
+                    errors.append(f"{ident}: 補助タグ {tag} は強度1とする")
     for category in ("emotions", "tones", "themes"):
         values = art["curation"][category]
         if len(values) != len(set(values)):
