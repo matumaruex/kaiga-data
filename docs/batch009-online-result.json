@@ -4,9 +4,9 @@
   "source": "Met Open Access Object API / matching primary JPEG",
   "note": "HTTP+JPEG+SHA256 verification is distinct from human visual approval and interpretation.",
   "checked": 18,
-  "metadata_pass": 16,
-  "images_pass": 16,
-  "eligible_for_curatorial_review": 14,
+  "metadata_pass": 17,
+  "images_pass": 17,
+  "eligible_for_curatorial_review": 15,
   "results": [
     {
       "id": "met-10070",
@@ -343,12 +343,10 @@
     {
       "id": "met-764092",
       "official_object_id": 764092,
-      "museum_record_verified": false,
-      "image_verified": false,
-      "eligible_for_review": false,
-      "warnings": [
-        "Official metadata mismatch: artist"
-      ],
+      "museum_record_verified": true,
+      "image_verified": true,
+      "eligible_for_review": true,
+      "warnings": [],
       "objectID": 764092,
       "title": "Our Lady of Mercy, called “The Pilgrim of Quito”",
       "artistDisplayName": "Unknown",
@@ -366,9 +364,13 @@
         "title": true,
         "accession": true,
         "public_domain": true,
-        "painting": true,
-        "artist": false
-      }
+        "painting": true
+      },
+      "image_url_verified": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-22602-001.jpg",
+      "image_content_type": "image/jpeg",
+      "image_bytes": 132843,
+      "image_sha256": "20d7c10f3d38b5e1c0891749ed3f1ae6b94b1205da88c394d8702b7e023e0cb9",
+      "image_identity_basis": "primaryImageSmall from matching official Met object ID"
     },
     {
       "id": "met-847023",
