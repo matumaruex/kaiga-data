@@ -1,0 +1,343 @@
+{
+  "schema_version": "1.1.0",
+  "batch": "batch-003",
+  "created_on": "2026-10-18",
+  "status": "candidates_not_for_exhibition",
+  "description": "旧美術館アプリの画像検証済み5作品を、制作意図優先の観点から調査した新候補。画像ハッシュは既に確認済み、現在のAIC APIの公式メタデータ再照合・描写と解釈の最終審査は未完了。",
+  "works": [
+    {
+      "id": "aic-14620",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 14620,
+        "official_artwork_url": "https://www.artic.edu/artworks/14620",
+        "api_url": "https://api.artic.edu/api/v1/artworks/14620",
+        "official_metadata_status": "pending_recheck_2026_10_18",
+        "existing_app_metadata_checked_on": "2026-10-17"
+      },
+      "facts_provisional": {
+        "title": "Cliff Walk at Pourville",
+        "title_ja": "プールヴィルの断崖の散歩",
+        "artist_ja": "クロード・モネ",
+        "creation_date": "1882年",
+        "artwork_type": "Painting",
+        "public_domain_status": "existing_app_reported_true_live_api_recheck_pending",
+        "accession_number": "1933.443"
+      },
+      "image": {
+        "registry_id": "aic-14620",
+        "sha256_verified": "d56c052e6279e6535db659b6487ce5ead03f5c52d421e5ecd35df2cb6abbffd2",
+        "verified_source_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/14620.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Cliff_Walk_at_Pourville_-_Google_Art_Project.jpg",
+        "http_sha256_checked_on": "2026-10-18"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "related_motif_or_series",
+          "summary": "モネは1882年のノルマンディー沿岸で同一の景色を複数の視点から描き、地平線や人物の位置を研究した。複数回の制作に言及した本人の手紙はこの旅の制作方法を示すが、この一枚の感情を説明する発言ではない。",
+          "source_url": "https://publications.artic.edu/monet/reader/paintingsanddrawings/section/135468/p-16"
+        },
+        "scholarly_interpretation": {
+          "summary": "シカゴ美術館の学術カタログは、晴れた海辺の休暇の情景という読みと、自然の大きさに対する人間の小ささという『崇高』の読みを併記。明るさだけに回収できない。",
+          "source_url": "https://publications.artic.edu/monet/reader/paintingsanddrawings/section/135468/p-16"
+        },
+        "creation_context": "1882年の海岸風景画群に属する。日本の浮世絵による鳥瞰・画面の切り方の影響が指摘され、人物が配置された作例。",
+        "visual_clues": "鮮やかな草地と青い海・空、崖の上の小さな女性2人。",
+        "uncertainty_note": "人物の正確な身元は断定されていない。制作意図を個人的な幸福・不安の告白とはみなさない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": [
+          "不安"
+        ]
+      },
+      "search_profile": {
+        "summary_for_ai": "シカゴ美術館の学術カタログは、晴れた海辺の休暇の情景という読みと、自然の大きさに対する人間の小ささという『崇高』の読みを併記。明るさだけに回収できない。 楽しい休暇と自然の崇高さという専門家の異なる読みがある。",
+        "fitting_situations": [
+          {
+            "situation": "明るい風景を見ながらも、自然の大きさや小さな人影の意味を考えたい",
+            "reason": "楽しい休暇と自然の崇高さという専門家の異なる読みがある。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "人物の正確な身元は断定されていない。制作意図を個人的な幸福・不安の告白とはみなさない。"
+        ]
+      },
+      "review": {
+        "status": "candidate_meaning_drafted_metadata_live_check_pending",
+        "human_approved": false,
+        "visual_confirmed_by_human": false
+      }
+    },
+    {
+      "id": "aic-90048",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 90048,
+        "official_artwork_url": "https://www.artic.edu/artworks/90048",
+        "api_url": "https://api.artic.edu/api/v1/artworks/90048",
+        "official_metadata_status": "pending_recheck_2026_10_18",
+        "existing_app_metadata_checked_on": "2026-10-17"
+      },
+      "facts_provisional": {
+        "title": "Distant View of Niagara Falls",
+        "title_ja": "ナイアガラの滝の遠景",
+        "artist_ja": "トマス・コール",
+        "creation_date": "1830年",
+        "artwork_type": "Painting",
+        "public_domain_status": "existing_app_reported_true_live_api_recheck_pending",
+        "accession_number": "1946.396"
+      },
+      "image": {
+        "registry_id": "aic-90048",
+        "sha256_verified": "4ac9fab5fba5fabdec1bbc6a33524d78f0d39ed239be1a4ad17acef533f98b08",
+        "verified_source_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/90048.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Distant_View_of_Niagara_Falls_1830_Thomas_Cole.jpg",
+        "http_sha256_checked_on": "2026-10-18"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "美術館の教育資料は、すでに観光化していた滝から施設や工場を意図的に省き、畏敬を抱かせる手つかずの大自然として理想化した点を説明する。単なる景色の再現ではない。",
+          "source_url": "https://www.artic.edu/assets/f85bee6b-d18b-5577-a9e6-f429421b4654"
+        },
+        "creation_context": "1830年。ハドソン・リバー派に関わるコールが、米国の自然の壮大さと国家的な風景観を描く。先住民2人を小さく描くが、当時の歴史的な追放・入植の現実もある。",
+        "visual_clues": "秋の木々、巨大な滝、暗い雲、遠くで眺める小さな人物。",
+        "uncertainty_note": "『自然が神聖』という当時の思想と画家への美術館の帰属は支持されるが、この作品への本人の一人称の声明は未確認。理想化が歴史的現実を隠している。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": [
+          "不安"
+        ]
+      },
+      "search_profile": {
+        "summary_for_ai": "美術館の教育資料は、すでに観光化していた滝から施設や工場を意図的に省き、畏敬を抱かせる手つかずの大自然として理想化した点を説明する。単なる景色の再現ではない。 観光化の痕跡を意図的に省いた美術館研究から作品と時代の食い違いが分かる。",
+        "fitting_situations": [
+          {
+            "situation": "当たり前の風景写真ではなく、画家が何を隠し何を強調したかを知りたい",
+            "reason": "観光化の痕跡を意図的に省いた美術館研究から作品と時代の食い違いが分かる。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "『自然が神聖』という当時の思想と画家への美術館の帰属は支持されるが、この作品への本人の一人称の声明は未確認。理想化が歴史的現実を隠している。"
+        ]
+      },
+      "review": {
+        "status": "candidate_meaning_drafted_metadata_live_check_pending",
+        "human_approved": false,
+        "visual_confirmed_by_human": false
+      }
+    },
+    {
+      "id": "aic-94841",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 94841,
+        "official_artwork_url": "https://www.artic.edu/artworks/94841",
+        "api_url": "https://api.artic.edu/api/v1/artworks/94841",
+        "official_metadata_status": "pending_recheck_2026_10_18",
+        "existing_app_metadata_checked_on": "2026-10-17"
+      },
+      "facts_provisional": {
+        "title": "The Song of the Lark",
+        "title_ja": "ひばりの歌",
+        "artist_ja": "ジュール・ブルトン",
+        "creation_date": "1884年",
+        "artwork_type": "Painting",
+        "public_domain_status": "existing_app_reported_true_live_api_recheck_pending",
+        "accession_number": "1894.1033"
+      },
+      "image": {
+        "registry_id": "aic-94841",
+        "sha256_verified": "3efe9337c491c9732cca17b567382d6a1cc83b9874250fb8650e981e2fabb127",
+        "verified_source_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/94841.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Jules_Breton,_le_chant_de_l%27alouette.1884.jpg",
+        "http_sha256_checked_on": "2026-10-18"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "シカゴ美術館はブルトンが農村生活を理想化して描き、故郷の人々の自然との結び付きやたくましさを高く評価したと解説。『ひばりの歌』は労働に向かう農村の女性が鳥の声に足を止める情景。",
+          "source_url": "https://shop.artic.edu/collections/under-75/products/291148"
+        },
+        "creation_context": "1884年。フランス北部の農村生活に親しんだ画家による写実的かつ理想化された農婦の表現。具体的なモデルの感情は不明。",
+        "visual_clues": "農具を持った若い女性、広い畑、地平の太陽。",
+        "uncertainty_note": "疲れた農婦が心の底から希望を感じていると断定できない。幸せ・救い・勇気は鑑賞者側の接続であり、作者の明言ではない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "希望"
+        ],
+        "secondary": [
+          "喜び"
+        ]
+      },
+      "search_profile": {
+        "summary_for_ai": "シカゴ美術館はブルトンが農村生活を理想化して描き、故郷の人々の自然との結び付きやたくましさを高く評価したと解説。『ひばりの歌』は労働に向かう農村の女性が鳥の声に足を止める情景。 働く人々の生活と自然との結び付きを理想化して重視した画家の関心と接続する。",
+        "fitting_situations": [
+          {
+            "situation": "厳しい日々の中にも自然の小さな美しさを見つけたい",
+            "reason": "働く人々の生活と自然との結び付きを理想化して重視した画家の関心と接続する。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "疲れた農婦が心の底から希望を感じていると断定できない。幸せ・救い・勇気は鑑賞者側の接続であり、作者の明言ではない。"
+        ]
+      },
+      "review": {
+        "status": "candidate_meaning_drafted_metadata_live_check_pending",
+        "human_approved": false,
+        "visual_confirmed_by_human": false
+      }
+    },
+    {
+      "id": "aic-95998",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 95998,
+        "official_artwork_url": "https://www.artic.edu/artworks/95998",
+        "api_url": "https://api.artic.edu/api/v1/artworks/95998",
+        "official_metadata_status": "pending_recheck_2026_10_18",
+        "existing_app_metadata_checked_on": "2026-10-17"
+      },
+      "facts_provisional": {
+        "title": "Old Man with a Gold Chain",
+        "title_ja": "金の鎖をつけた老人",
+        "artist_ja": "レンブラント・ファン・レイン",
+        "creation_date": "1631年",
+        "artwork_type": "Painting",
+        "public_domain_status": "existing_app_reported_true_live_api_recheck_pending",
+        "accession_number": "1922.4467"
+      },
+      "image": {
+        "registry_id": "aic-95998",
+        "sha256_verified": "18acc50634ba8ba41ba863b4c78d993285ea5dd3425d6060cf08d9437fe9e8b5",
+        "verified_source_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/95998.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmenszoon_van_Rijn_-_Old_Man_with_a_Gold_Chain_-_1922.4467_-_Art_Institute_of_Chicago.jpg",
+        "http_sha256_checked_on": "2026-10-18"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "美術館が提供する解説は、金鎖・甲冑・羽飾りなど舞台的な衣装と光を使った人物研究と捉える。実在の悲しい軍人の生涯を描く肖像ではなく『トローニー』的作品として鑑賞できる。",
+          "source_url": "https://artsandculture.google.com/asset/old-man-with-a-gold-chain/FAEStDTOypM-CQ"
+        },
+        "creation_context": "1631年ごろ。若いレンブラントがライデンからアムステルダムへ移った時期の人物研究。高齢モデルの顔と華やかな扮装の対照が特徴。",
+        "visual_clues": "老人の肌と暗い衣服、金鎖、首当て、羽飾り帽子、強い光。",
+        "uncertainty_note": "以前は作者の父との同定もあったが、本人やモデルの心理は確定しない。別に存在する精密な模写との混同に注意。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": []
+      },
+      "search_profile": {
+        "summary_for_ai": "美術館が提供する解説は、金鎖・甲冑・羽飾りなど舞台的な衣装と光を使った人物研究と捉える。実在の悲しい軍人の生涯を描く肖像ではなく『トローニー』的作品として鑑賞できる。 衣装と光の演出が実在人物の内面そのものではないという発見がある。",
+        "fitting_situations": [
+          {
+            "situation": "絵の表情から人生を勝手に想像するのではなく、肖像の『作られた人物像』を知りたい",
+            "reason": "衣装と光の演出が実在人物の内面そのものではないという発見がある。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "以前は作者の父との同定もあったが、本人やモデルの心理は確定しない。別に存在する精密な模写との混同に注意。"
+        ]
+      },
+      "review": {
+        "status": "candidate_meaning_drafted_metadata_live_check_pending",
+        "human_approved": false,
+        "visual_confirmed_by_human": false
+      }
+    },
+    {
+      "id": "aic-154235",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 154235,
+        "official_artwork_url": "https://www.artic.edu/artworks/154235",
+        "api_url": "https://api.artic.edu/api/v1/artworks/154235",
+        "official_metadata_status": "pending_recheck_2026_10_18",
+        "existing_app_metadata_checked_on": "2026-10-17"
+      },
+      "facts_provisional": {
+        "title": "The Girl by the Window",
+        "title_ja": "窓辺の少女",
+        "artist_ja": "エドヴァルド・ムンク",
+        "creation_date": "1893年",
+        "artwork_type": "Painting",
+        "public_domain_status": "existing_app_reported_true_live_api_recheck_pending",
+        "accession_number": "2000.50"
+      },
+      "image": {
+        "registry_id": "aic-154235",
+        "sha256_verified": "ab9aec9972a30ba844f78890aedf2ca408c430394644fbe78a38711efb3ef40c",
+        "verified_source_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/154235.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Edvard_Munch_-_The_Girl_by_the_Window_-_2000.50_-_Art_Institute_of_Chicago.jpg",
+        "http_sha256_checked_on": "2026-10-18"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "related_artistic_program",
+          "summary": "ムンクは1890年の『サン＝クルー宣言』で、読む・編む人物の外見だけではなく、愛し、苦しみ、感情をもつ生きた人間を描こうと述べた。1893年の本作品一枚についての個別の制作宣言ではない。",
+          "source_url": "https://archive.artic.edu/munch/interior/"
+        },
+        "scholarly_interpretation": {
+          "summary": "シカゴ美術館の展覧会資料は、暗い室内、窓、月明かりや電灯の対比を使い、待つこと・欲望・感情的な緊張を描いた同時期の作品群と位置付ける。",
+          "source_url": "https://archive.artic.edu/munch/interior/"
+        },
+        "creation_context": "1893年ごろ。ムンクが単なる自然主義的な室内描写から、人間の内面と空間の緊張を探る時期。",
+        "visual_clues": "背を向けて窓に立つ少女、暗い室内、窓外の光。",
+        "uncertainty_note": "少女が特定の人の帰りを待つ、失恋したなどの個人的物語は確定されていない。『サン＝クルー宣言』は制作方針全体。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "不安",
+          "期待"
+        ],
+        "secondary": [
+          "孤独"
+        ]
+      },
+      "search_profile": {
+        "summary_for_ai": "シカゴ美術館の展覧会資料は、暗い室内、窓、月明かりや電灯の対比を使い、待つこと・欲望・感情的な緊張を描いた同時期の作品群と位置付ける。 作者が同時期に室内を感情的な緊張の表現へ転換したという学術研究と接続する。",
+        "fitting_situations": [
+          {
+            "situation": "何かを待ちながら、期待と不安が入り混じっている",
+            "reason": "作者が同時期に室内を感情的な緊張の表現へ転換したという学術研究と接続する。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "少女が特定の人の帰りを待つ、失恋したなどの個人的物語は確定されていない。『サン＝クルー宣言』は制作方針全体。"
+        ]
+      },
+      "review": {
+        "status": "candidate_meaning_drafted_metadata_live_check_pending",
+        "human_approved": false,
+        "visual_confirmed_by_human": false
+      }
+    }
+  ]
+}
