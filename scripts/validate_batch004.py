@@ -73,7 +73,7 @@ def main():
             if meta.get("mime")!="image/jpeg": raise ValueError("not JPEG")
             url=meta.get("thumburl") or meta["url"]
             raw,_=fetch(url)
-            if len(raw)<1024 or raw[:3]!=b"\\xff\\xd8\\xff": raise ValueError("invalid JPEG")
+            if len(raw)<1024 or raw[:3]!=bytes((0xff,0xd8,0xff)): raise ValueError("invalid JPEG")
             lic=meta.get("extmetadata",{}).get("LicenseShortName",{}).get("value","")
             record.update(image_ok=True,image={"download_url":url,"size_bytes":len(raw),"sha256":hashlib.sha256(raw).hexdigest(),"commons_page_url":a["image"]["commons_file_page"],"verified_file_title":page.get("title"),"license_short_name":lic})
             print(f"[{i}/{len(works)}] IMAGE OK {id_}: {len(raw)}B SHA256={record['image']['sha256']} LICENSE={lic} URL={url}",flush=True)
