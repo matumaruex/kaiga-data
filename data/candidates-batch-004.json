@@ -2,8 +2,8 @@
   "schema_version": "1.1.0",
   "batch": "batch-004",
   "created_on": "2026-10-18",
-  "status": "candidates_live_checks_pending",
-  "description": "制作意図優先で10作品を追加調査。本人の直接発言は未確認、専門解説の出典URLと不確実性を保持。現行公式API・画像実取得・SHA256の検証が完了するまでは23登録件数に含めない。",
+  "status": "official_metadata_and_commons_image_verified_meaning_provisional",
+  "description": "10作品の現行シカゴ公式APIのID・原題・作者・年代・PD分類と、所蔵番号が一致するCommons画像の実HTTP・JPEG・SHA256をすべて検証。制作意図・学術解釈は暫定的な編集判断。",
   "works": [
     {
       "id": "aic-27943",
@@ -22,7 +22,13 @@
         "commons_file_title": "File:Paul Gauguin - Mahana no atua (Day of the God) - 1926.198 - Art Institute of Chicago.jpg",
         "commons_file_page": "https://commons.wikimedia.org/wiki/File:Paul%20Gauguin%20-%20Mahana%20no%20atua%20(Day%20of%20the%20God)%20-%201926.198%20-%20Art%20Institute%20of%20Chicago.jpg",
         "expected_accession_number": "1926.198",
-        "download_status": "pending_http_sha256"
+        "download_status": "pending_http_sha256",
+        "sha256": "f2b681460799a8d1a376fd5d23edacff4717425611ee57e25ac791e84820b4ed",
+        "byte_length": 210941,
+        "verified_download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Paul_Gauguin_-_Mahana_no_atua_%28Day_of_the_God%29_-_1926.198_-_Art_Institute_of_Chicago.jpg/960px-Paul_Gauguin_-_Mahana_no_atua_%28Day_of_the_God%29_-_1926.198_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "license_short_name": "Public domain",
+        "http_sha256_checked_on": "2026-10-18",
+        "verification_run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       },
       "meaning_basis": {
         "author_intent": {
@@ -68,9 +74,20 @@
         ]
       },
       "review": {
-        "status": "candidate_metadata_image_pending",
+        "status": "candidate_official_and_image_verified",
         "interpretation_human_approved": false,
         "content_review_status": "AI_editorial_draft_not_human_approved"
+      },
+      "official_metadata_check": {
+        "id": 27943,
+        "title": "Mahana no atua (Day of the God)",
+        "artist_title": "Paul Gauguin",
+        "date_display": "1894",
+        "image_id": "a4bef587-48a4-d186-813d-f297441b1ab3",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "checked_on": "2026-10-18",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       }
     },
     {
@@ -90,7 +107,13 @@
         "commons_file_title": "File:Vincent van Gogh - The Drinkers - 1953.178 - Art Institute of Chicago.jpg",
         "commons_file_page": "https://commons.wikimedia.org/wiki/File:Vincent%20van%20Gogh%20-%20The%20Drinkers%20-%201953.178%20-%20Art%20Institute%20of%20Chicago.jpg",
         "expected_accession_number": "1953.178",
-        "download_status": "pending_http_sha256"
+        "download_status": "pending_http_sha256",
+        "sha256": "3ba978f5e0655b75872fbbac0e5637be07e76972009fbb8fb6220f688db2d824",
+        "byte_length": 281123,
+        "verified_download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Vincent_van_Gogh_-_The_Drinkers_-_1953.178_-_Art_Institute_of_Chicago.jpg/960px-Vincent_van_Gogh_-_The_Drinkers_-_1953.178_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "license_short_name": "Public domain",
+        "http_sha256_checked_on": "2026-10-18",
+        "verification_run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       },
       "meaning_basis": {
         "author_intent": {
@@ -136,9 +159,20 @@
         ]
       },
       "review": {
-        "status": "candidate_metadata_image_pending",
+        "status": "candidate_official_and_image_verified",
         "interpretation_human_approved": false,
         "content_review_status": "AI_editorial_draft_not_human_approved"
+      },
+      "official_metadata_check": {
+        "id": 79349,
+        "title": "The Drinkers",
+        "artist_title": "Vincent van Gogh",
+        "date_display": "1890",
+        "image_id": "107958b1-8367-df7c-be17-bb3a076479d8",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "checked_on": "2026-10-18",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       }
     },
     {
@@ -158,7 +192,13 @@
         "commons_file_title": "File:Pierre-Auguste Renoir - Acrobats at the Cirque Fernando (Francisca and Angelina Wartenberg) - 1922.440 - Art Institute of Chicago.jpg",
         "commons_file_page": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste%20Renoir%20-%20Acrobats%20at%20the%20Cirque%20Fernando%20(Francisca%20and%20Angelina%20Wartenberg)%20-%201922.440%20-%20Art%20Institute%20of%20Chicago.jpg",
         "expected_accession_number": "1922.440",
-        "download_status": "pending_http_sha256"
+        "download_status": "pending_http_sha256",
+        "sha256": "2ebce3aeb14d747bd5c85eb3627c928c1e97c428877319fb240f7eb98ccdcd49",
+        "byte_length": 354211,
+        "verified_download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Pierre-Auguste_Renoir_-_Acrobats_at_the_Cirque_Fernando_%28Francisca_and_Angelina_Wartenberg%29_-_1922.440_-_Art_Institute_of_Chicago.jpg/960px-Pierre-Auguste_Renoir_-_Acrobats_at_the_Cirque_Fernando_%28Francisca_and_Angelina_Wartenberg%29_-_1922.440_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "license_short_name": "Public domain",
+        "http_sha256_checked_on": "2026-10-18",
+        "verification_run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       },
       "meaning_basis": {
         "author_intent": {
@@ -204,9 +244,20 @@
         ]
       },
       "review": {
-        "status": "candidate_metadata_image_pending",
+        "status": "candidate_official_and_image_verified",
         "interpretation_human_approved": false,
         "content_review_status": "AI_editorial_draft_not_human_approved"
+      },
+      "official_metadata_check": {
+        "id": 81558,
+        "title": "Acrobats at the Cirque Fernando (Francisca and Angelina Wartenberg)",
+        "artist_title": "Pierre-Auguste Renoir",
+        "date_display": "1879",
+        "image_id": "321c45f5-22a3-84a2-44cc-cf66642d4cf2",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "checked_on": "2026-10-18",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       }
     },
     {
@@ -226,7 +277,13 @@
         "commons_file_title": "File:Domenico Theotokópoulos, called El Greco - The Assumption of the Virgin - 1906.99 - Art Institute of Chicago.jpg",
         "commons_file_page": "https://commons.wikimedia.org/wiki/File:Domenico%20Theotok%C3%B3poulos%2C%20called%20El%20Greco%20-%20The%20Assumption%20of%20the%20Virgin%20-%201906.99%20-%20Art%20Institute%20of%20Chicago.jpg",
         "expected_accession_number": "1906.99",
-        "download_status": "pending_http_sha256"
+        "download_status": "pending_http_sha256",
+        "sha256": "ca188fda262f0a38399f47a037739438699cf12ac5fd166eb4d2c756e5ee79ca",
+        "byte_length": 520391,
+        "verified_download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Domenico_Theotok%C3%B3poulos%2C_called_El_Greco_-_The_Assumption_of_the_Virgin_-_1906.99_-_Art_Institute_of_Chicago.jpg/960px-Domenico_Theotok%C3%B3poulos%2C_called_El_Greco_-_The_Assumption_of_the_Virgin_-_1906.99_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "license_short_name": "Public domain",
+        "http_sha256_checked_on": "2026-10-18",
+        "verification_run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       },
       "meaning_basis": {
         "author_intent": {
@@ -272,9 +329,20 @@
         ]
       },
       "review": {
-        "status": "candidate_metadata_image_pending",
+        "status": "candidate_official_and_image_verified",
         "interpretation_human_approved": false,
         "content_review_status": "AI_editorial_draft_not_human_approved"
+      },
+      "official_metadata_check": {
+        "id": 87479,
+        "title": "The Assumption of the Virgin",
+        "artist_title": "Domenico Theotokópoulos, called El Greco",
+        "date_display": "1577–79",
+        "image_id": "47fd1564-93f5-f30b-7786-013421133b4a",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "checked_on": "2026-10-18",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       }
     },
     {
@@ -294,7 +362,13 @@
         "commons_file_title": "File:Claude Monet - Stacks of Wheat (End of Day, Autumn) - 1933.444 - Art Institute of Chicago.jpg",
         "commons_file_page": "https://commons.wikimedia.org/wiki/File:Claude%20Monet%20-%20Stacks%20of%20Wheat%20(End%20of%20Day%2C%20Autumn)%20-%201933.444%20-%20Art%20Institute%20of%20Chicago.jpg",
         "expected_accession_number": "1933.444",
-        "download_status": "pending_http_sha256"
+        "download_status": "pending_http_sha256",
+        "sha256": "e7249fa10fd217cbb8ecc6f03a99fb875a49e9b10d9eba0a3a833e89f7c863b2",
+        "byte_length": 253324,
+        "verified_download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Claude_Monet_-_Stacks_of_Wheat_%28End_of_Day%2C_Autumn%29_-_1933.444_-_Art_Institute_of_Chicago.jpg/960px-Claude_Monet_-_Stacks_of_Wheat_%28End_of_Day%2C_Autumn%29_-_1933.444_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "license_short_name": "Public domain",
+        "http_sha256_checked_on": "2026-10-18",
+        "verification_run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       },
       "meaning_basis": {
         "author_intent": {
@@ -340,9 +414,20 @@
         ]
       },
       "review": {
-        "status": "candidate_metadata_image_pending",
+        "status": "candidate_official_and_image_verified",
         "interpretation_human_approved": false,
         "content_review_status": "AI_editorial_draft_not_human_approved"
+      },
+      "official_metadata_check": {
+        "id": 14624,
+        "title": "Stacks of Wheat (End of Day, Autumn)",
+        "artist_title": "Claude Monet",
+        "date_display": "1890–91",
+        "image_id": "4c364c64-2108-4e19-5fc5-1ab26ba924a7",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "checked_on": "2026-10-18",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       }
     },
     {
@@ -362,7 +447,13 @@
         "commons_file_title": "File:Claude Monet - Stacks of Wheat (Sunset, Snow Effect) - 1922.431 - Art Institute of Chicago.jpg",
         "commons_file_page": "https://commons.wikimedia.org/wiki/File:Claude%20Monet%20-%20Stacks%20of%20Wheat%20(Sunset%2C%20Snow%20Effect)%20-%201922.431%20-%20Art%20Institute%20of%20Chicago.jpg",
         "expected_accession_number": "1922.431",
-        "download_status": "pending_http_sha256"
+        "download_status": "pending_http_sha256",
+        "sha256": "4a0806bfa5c14a09e6f4411276d4795793626c4a2390c94f6ab765f616a5df4d",
+        "byte_length": 236184,
+        "verified_download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Claude_Monet_-_Stacks_of_Wheat_%28Sunset%2C_Snow_Effect%29_-_1922.431_-_Art_Institute_of_Chicago.jpg/960px-Claude_Monet_-_Stacks_of_Wheat_%28Sunset%2C_Snow_Effect%29_-_1922.431_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "license_short_name": "Public domain",
+        "http_sha256_checked_on": "2026-10-18",
+        "verification_run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       },
       "meaning_basis": {
         "author_intent": {
@@ -408,9 +499,20 @@
         ]
       },
       "review": {
-        "status": "candidate_metadata_image_pending",
+        "status": "candidate_official_and_image_verified",
         "interpretation_human_approved": false,
         "content_review_status": "AI_editorial_draft_not_human_approved"
+      },
+      "official_metadata_check": {
+        "id": 81545,
+        "title": "Stacks of Wheat (Sunset, Snow Effect)",
+        "artist_title": "Claude Monet",
+        "date_display": "1890–91",
+        "image_id": "be0d3e50-a600-6f33-ea8f-16a34d892442",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "checked_on": "2026-10-18",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       }
     },
     {
@@ -430,7 +532,13 @@
         "commons_file_title": "File:Vasily Kandinsky - Improvisation No. 30 (Cannons) - 1931.511 - Art Institute of Chicago.jpg",
         "commons_file_page": "https://commons.wikimedia.org/wiki/File:Vasily%20Kandinsky%20-%20Improvisation%20No.%2030%20(Cannons)%20-%201931.511%20-%20Art%20Institute%20of%20Chicago.jpg",
         "expected_accession_number": "1931.511",
-        "download_status": "pending_http_sha256"
+        "download_status": "pending_http_sha256",
+        "sha256": "00c71e5668ac44143d40504b68e2f3a7258460e9911f571bf596f9874dddc7a4",
+        "byte_length": 356580,
+        "verified_download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Vasily_Kandinsky_-_Improvisation_No._30_%28Cannons%29_-_1931.511_-_Art_Institute_of_Chicago.jpg/960px-Vasily_Kandinsky_-_Improvisation_No._30_%28Cannons%29_-_1931.511_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "license_short_name": "Public domain",
+        "http_sha256_checked_on": "2026-10-18",
+        "verification_run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       },
       "meaning_basis": {
         "author_intent": {
@@ -476,9 +584,20 @@
         ]
       },
       "review": {
-        "status": "candidate_metadata_image_pending",
+        "status": "candidate_official_and_image_verified",
         "interpretation_human_approved": false,
         "content_review_status": "AI_editorial_draft_not_human_approved"
+      },
+      "official_metadata_check": {
+        "id": 8991,
+        "title": "Improvisation No. 30 (Cannons)",
+        "artist_title": "Vasily Kandinsky",
+        "date_display": "1913",
+        "image_id": "b5bc6b66-9e6e-fe57-dcec-fc49e820e904",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "checked_on": "2026-10-18",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       }
     },
     {
@@ -498,7 +617,13 @@
         "commons_file_title": "File:Francisco José de Goya y Lucientes - Winter Scene - 1990.558 - Art Institute of Chicago.jpg",
         "commons_file_page": "https://commons.wikimedia.org/wiki/File:Francisco%20Jos%C3%A9%20de%20Goya%20y%20Lucientes%20-%20Winter%20Scene%20-%201990.558%20-%20Art%20Institute%20of%20Chicago.jpg",
         "expected_accession_number": "1990.558",
-        "download_status": "pending_http_sha256"
+        "download_status": "pending_http_sha256",
+        "sha256": "9759573dfc139ecd8c3f65aa8dd4b915f79981ba01d5918693b3fe58ff77c3df",
+        "byte_length": 245546,
+        "verified_download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Francisco_Jos%C3%A9_de_Goya_y_Lucientes_-_Winter_Scene_-_1990.558_-_Art_Institute_of_Chicago.jpg/960px-Francisco_Jos%C3%A9_de_Goya_y_Lucientes_-_Winter_Scene_-_1990.558_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "license_short_name": "Public domain",
+        "http_sha256_checked_on": "2026-10-18",
+        "verification_run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       },
       "meaning_basis": {
         "author_intent": {
@@ -544,9 +669,20 @@
         ]
       },
       "review": {
-        "status": "candidate_metadata_image_pending",
+        "status": "candidate_official_and_image_verified",
         "interpretation_human_approved": false,
         "content_review_status": "AI_editorial_draft_not_human_approved"
+      },
+      "official_metadata_check": {
+        "id": 93450,
+        "title": "Winter Scene",
+        "artist_title": "Francisco José de Goya y Lucientes",
+        "date_display": "c. 1786",
+        "image_id": "61c3e72f-b453-1ada-62a5-9539afbe0641",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "checked_on": "2026-10-18",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       }
     },
     {
@@ -566,7 +702,13 @@
         "commons_file_title": "File:Francisco José de Goya y Lucientes - El Maragato Threatens Friar Pedro de Zaldivia with His Gun - 1933.1071 - Art Institute of Chicago.jpg",
         "commons_file_page": "https://commons.wikimedia.org/wiki/File:Francisco%20Jos%C3%A9%20de%20Goya%20y%20Lucientes%20-%20El%20Maragato%20Threatens%20Friar%20Pedro%20de%20Zaldivia%20with%20His%20Gun%20-%201933.1071%20-%20Art%20Institute%20of%20Chicago.jpg",
         "expected_accession_number": "1933.1071",
-        "download_status": "pending_http_sha256"
+        "download_status": "pending_http_sha256",
+        "sha256": "d01b8581f662ea3863881f1e111844e11e59fc1bc0be7a24106995a268887349",
+        "byte_length": 172301,
+        "verified_download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Francisco_Jos%C3%A9_de_Goya_y_Lucientes_-_El_Maragato_Threatens_Friar_Pedro_de_Zaldivia_with_His_Gun_-_1933.1071_-_Art_Institute_of_Chicago.jpg/960px-Francisco_Jos%C3%A9_de_Goya_y_Lucientes_-_El_Maragato_Threatens_Friar_Pedro_de_Zaldivia_with_His_Gun_-_1933.1071_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "license_short_name": "Public domain",
+        "http_sha256_checked_on": "2026-10-18",
+        "verification_run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       },
       "meaning_basis": {
         "author_intent": {
@@ -612,9 +754,20 @@
         ]
       },
       "review": {
-        "status": "candidate_metadata_image_pending",
+        "status": "candidate_official_and_image_verified",
         "interpretation_human_approved": false,
         "content_review_status": "AI_editorial_draft_not_human_approved"
+      },
+      "official_metadata_check": {
+        "id": 20692,
+        "title": "El Maragato Threatens Friar Pedro de Zaldivia with His Gun",
+        "artist_title": "Francisco José de Goya y Lucientes",
+        "date_display": "c. 1806",
+        "image_id": "0de694b1-0faf-f35f-440a-4de463e068b5",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "checked_on": "2026-10-18",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       }
     },
     {
@@ -634,7 +787,13 @@
         "commons_file_title": "File:James McNeill Whistler - Nocturne, Blue and Gold—Southampton Water - 1900.52 - Art Institute of Chicago.jpg",
         "commons_file_page": "https://commons.wikimedia.org/wiki/File:James%20McNeill%20Whistler%20-%20Nocturne%2C%20Blue%20and%20Gold%E2%80%94Southampton%20Water%20-%201900.52%20-%20Art%20Institute%20of%20Chicago.jpg",
         "expected_accession_number": "1900.52",
-        "download_status": "pending_http_sha256"
+        "download_status": "pending_http_sha256",
+        "sha256": "e31e38a81632c6b7eed8ddb22fa71c3615abb153cd2eb464cbbf7ddff98c30c5",
+        "byte_length": 147527,
+        "verified_download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/James_McNeill_Whistler_-_Nocturne%2C_Blue_and_Gold%E2%80%94Southampton_Water_-_1900.52_-_Art_Institute_of_Chicago.jpg/960px-James_McNeill_Whistler_-_Nocturne%2C_Blue_and_Gold%E2%80%94Southampton_Water_-_1900.52_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "license_short_name": "Public domain",
+        "http_sha256_checked_on": "2026-10-18",
+        "verification_run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       },
       "meaning_basis": {
         "author_intent": {
@@ -680,9 +839,20 @@
         ]
       },
       "review": {
-        "status": "candidate_metadata_image_pending",
+        "status": "candidate_official_and_image_verified",
         "interpretation_human_approved": false,
         "content_review_status": "AI_editorial_draft_not_human_approved"
+      },
+      "official_metadata_check": {
+        "id": 56905,
+        "title": "Nocturne: Blue and Gold—Southampton Water",
+        "artist_title": "James McNeill Whistler",
+        "date_display": "1872",
+        "image_id": "50034c7f-ce51-00f1-430e-a6f7efc233fc",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "checked_on": "2026-10-18",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39112030857"
       }
     }
   ]
