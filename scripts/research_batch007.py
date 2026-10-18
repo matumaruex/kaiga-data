@@ -84,7 +84,7 @@ def check(c):
         item["warnings"].append("Unexpected image host")
         return item
     image, content_type = download(image_url)
-    if len(image) <= 5000 or image[:3] != b"\\xff\\xd8\\xff" or image[-2:] != b"\\xff\\xd9":
+    if len(image) <= 5000 or image[:3] != bytes((255, 216, 255)) or image[-2:] != bytes((255, 217)):
         raise ValueError("Image is not a complete JPEG")
     if "jpeg" not in content_type.lower() and "jpg" not in content_type.lower():
         raise ValueError("Image MIME not JPEG")
@@ -141,7 +141,7 @@ def main():
         "results": results,
     }
     RESULT.parent.mkdir(parents=True, exist_ok=True)
-    RESULT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    RESULT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
     print(f"TOTAL metadata={report['metadata_pass']}/11 images={report['images_pass']}/11 "
           f"review-ready={report['eligible_for_curatorial_review']}/11", flush=True)
     if args.require_all and report["eligible_for_curatorial_review"] < len(works) - 1:
