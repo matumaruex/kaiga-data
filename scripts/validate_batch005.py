@@ -29,6 +29,7 @@ def main():
     p.add_argument("--online",action="store_true")
     p.add_argument("--require-all",action="store_true")
     p.add_argument("--output",default="artifacts/batch005-research.json")
+    p.add_argument("--only-accessions",default="",help="comma-separated subset for online retry")
     args=p.parse_args()
     works=json.loads((ROOT/"data/candidates-batch-005.json").read_text(encoding="utf-8"))["works"]
     existing=json.loads((ROOT/"data/artworks.json").read_text(encoding="utf-8"))["artworks"]
@@ -47,7 +48,9 @@ def main():
     print(f"FORMAT OK {len(works)} research candidates, no automatic exhibition promotion",flush=True)
     if not args.online:return
     out=[]
+    selected={x.strip() for x in args.only_accessions.split(",") if x.strip()}
     for index,a in enumerate(works,1):
+        if selected and a["accession_number"] not in selected: continue
         x={"accession":a["accession_number"],"title_expected":a["expected_title"],"official_ok":False,"commons_ok":False}
         accession=a["accession_number"]
         try:
@@ -69,13 +72,17 @@ def main():
             x["official_error"]=type(e).__name__+": "+str(e)[:240]
             print(f"[{index}/{len(works)}] AIC PENDING {accession}: {x['official_error']}",flush=True)
         try:
-            results=commons({"action":"query","list":"search","srnamespace":"6","srsearch":accession+" Art Institute of Chicago","srlimit":"15"}).get("query",{}).get("search",[])
-            good=[y for y in results if accession in y.get("title","") and "Art Institute of Chicago" in y.get("title","").replace("_"," ") and y.get("title","").endswith((".jpg",".jpeg",".JPG"))]
-            if not good:
-                results=commons({"action":"query","list":"search","srnamespace":"6","srsearch":accession,"srlimit":"20"}).get("query",{}).get("search",[])
-                good=[y for y in results if accession in y.get("title","") and y.get("title","").lower().endswith((".jpg",".jpeg"))]
-            if len(good)!=1:raise ValueError("Commons accession matches "+str([z["title"] for z in good[:8]]))
-            title=good[0]["title"]
+            explicit=a.get("manual_commons_file_title")
+            if explicit:
+                title=explicit
+            else:
+                results=commons({"action":"query","list":"search","srnamespace":"6","srsearch":accession+" Art Institute of Chicago","srlimit":"15"}).get("query",{}).get("search",[])
+                good=[y for y in results if accession in y.get("title","") and "Art Institute of Chicago" in y.get("title","").replace("_"," ") and y.get("title","").endswith((".jpg",".jpeg",".JPG"))]
+                if not good:
+                    results=commons({"action":"query","list":"search","srnamespace":"6","srsearch":accession,"srlimit":"20"}).get("query",{}).get("search",[])
+                    good=[y for y in results if accession in y.get("title","") and y.get("title","").lower().endswith((".jpg",".jpeg"))]
+                if len(good)!=1:raise ValueError("Commons accession matches "+str([z["title"] for z in good[:8]]))
+                title=good[0]["title"]
             pages=commons({"action":"query","prop":"imageinfo","titles":title,"iiprop":"url|size|mime|extmetadata","iiurlwidth":"960"})["query"]["pages"]
             page=next(iter(pages.values()))
             info=page["imageinfo"][0]
@@ -85,7 +92,7 @@ def main():
             url=info.get("thumburl") or info["url"]
             raw=get(url)
             if len(raw)<1000 or raw[:3]!=bytes((255,216,255)):raise ValueError("jpeg signature invalid")
-            if a["expected_artist"].split()[-1].casefold() not in urllib.parse.unquote(title).casefold():raise ValueError("artist not in Commons file title")
+            if a["expected_artist"].split()[-1].casefold() not in urllib.parse.unquote(title).casefold() and not a.get("manual_commons_accession_verified_by"):raise ValueError("artist not in Commons file title")
             x["commons_ok"]=True
             x["image"]={"file_title":title,"commons_page":"https://commons.wikimedia.org/wiki/"+urllib.parse.quote(title.replace(" ","_"),safe=":/()'"),"verified_download_url":url,"sha256":hashlib.sha256(raw).hexdigest(),"byte_length":len(raw),"license_label":lic}
             print(f"[{index}/{len(works)}] IMAGE OK accession={accession} {title} SHA256={x['image']['sha256']} {len(raw)}B",flush=True)
