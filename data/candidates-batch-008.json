@@ -1,0 +1,517 @@
+{
+  "schema_version": "1.1.0",
+  "batch": "batch-008",
+  "created_on": "2026-10-18",
+  "description": "第8群: 60作品から喜び・期待・寂しさ・怒りを重点に、作者発言と専門家解釈、国・時代の偏りを見直す16作品の調査候補。Met個別作品ページ出典。API生レスポンス・画像取得・ハッシュ検証は後続。",
+  "works": [
+    {
+      "candidate_id": "met-55034",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 55034,
+      "official_url": "https://www.metmuseum.org/art/collection/search/55034",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/55034",
+      "title_original": "Shiva Carries the Corpse of Sati",
+      "title_ja_provisional": "サティの遺体を運ぶシヴァ",
+      "artist": "Unidentified artist",
+      "culture": "India (Kalighat)",
+      "creation_date_display": "ca. 1865–75",
+      "accession_number": "2000.313",
+      "museum_classification": "Paintings",
+      "provisional_emotions": {
+        "primary": [
+          "喪失感",
+          "怒り"
+        ],
+        "secondary": []
+      },
+      "scholarly_context_summary_ja": "妻サティを失ったシヴァが悲しみと怒りを抱えて遺体を運ぶ。カルカッタのカリガート巡礼絵画。",
+      "interpretation_caution_ja": "作者自身の死別や怒りではない。宗教物語中の神の感情。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/55034",
+      "author_intent_verification": "not_verified_for_this_work",
+      "museum_page_reviewed_on": "2026-10-18",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_sha256": null,
+      "image_subject_visual_checked": false,
+      "registration_status": "research_only_image_and_api_pending"
+    },
+    {
+      "candidate_id": "met-823278",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 823278,
+      "official_url": "https://www.metmuseum.org/art/collection/search/823278",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/823278",
+      "title_original": "Shiva enraged by Parvati's interruption of his meditation",
+      "title_ja_provisional": "瞑想を妨げられ怒るシヴァ",
+      "artist": "Unidentified artist",
+      "culture": "India (Guler)",
+      "creation_date_display": "early 19th century",
+      "accession_number": "2019.146",
+      "museum_classification": "Paintings",
+      "provisional_emotions": {
+        "primary": [
+          "怒り"
+        ],
+        "secondary": [
+          "期待"
+        ]
+      },
+      "scholarly_context_summary_ja": "パールヴァティーの音楽が瞑想中のシヴァを刺激し、逆立つ髪と手を腰に当てた姿勢で怒りを表現する。",
+      "interpretation_caution_ja": "穏やかな背景に逆行する髪の動きが焦点。怒りは物語上の人物のもので画家自身の感情ではない。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/823278",
+      "author_intent_verification": "not_verified_for_this_work",
+      "museum_page_reviewed_on": "2026-10-18",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_sha256": null,
+      "image_subject_visual_checked": false,
+      "registration_status": "research_only_image_and_api_pending"
+    },
+    {
+      "candidate_id": "met-439333",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 439333,
+      "official_url": "https://www.metmuseum.org/art/collection/search/439333",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/439333",
+      "title_original": "Wanderer in the Storm",
+      "title_ja_provisional": "嵐の中の旅人",
+      "artist": "Julius von Leypold",
+      "culture": "Germany",
+      "creation_date_display": "1835",
+      "accession_number": "2008.7",
+      "museum_classification": "Paintings",
+      "provisional_emotions": {
+        "primary": [
+          "寂しさ"
+        ],
+        "secondary": [
+          "孤独"
+        ]
+      },
+      "scholarly_context_summary_ja": "メトロポリタン美術館の解説はロマン主義のさまよう旅人と、人の孤独や自然の移ろいを明確に結びつける。",
+      "interpretation_caution_ja": "作者自身の人生の寂しさを直接示す証拠ではなく、ロマン主義美術の主題。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/439333",
+      "author_intent_verification": "not_verified_for_this_work",
+      "museum_page_reviewed_on": "2026-10-18",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_sha256": null,
+      "image_subject_visual_checked": false,
+      "registration_status": "research_only_image_and_api_pending"
+    },
+    {
+      "candidate_id": "met-37852",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 37852,
+      "official_url": "https://www.metmuseum.org/art/collection/search/37852",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/37852",
+      "title_original": "Ramkali Ragini: Folio from a ragamala series (Garland of Musical Modes)",
+      "title_ja_provisional": "ラームカリー・ラーギニー：遅れた恋人",
+      "artist": "Unidentified artist",
+      "culture": "India (Rajasthan, Bikaner)",
+      "creation_date_display": "ca. 1605–06",
+      "accession_number": "1981.460.3",
+      "museum_classification": "Paintings",
+      "provisional_emotions": {
+        "primary": [
+          "期待",
+          "不安"
+        ],
+        "secondary": [
+          "怒り"
+        ]
+      },
+      "scholarly_context_summary_ja": "遅刻する恋人を不安と高揚の中で待つ女性が、帰った相手を拒絶。詩の文脈と身ぶりが感情の変化を伝える。",
+      "interpretation_caution_ja": "期待→疑念→拒絶と多層的で、恋人への期待と幸福を同一視できない。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/37852",
+      "author_intent_verification": "not_verified_for_this_work",
+      "museum_page_reviewed_on": "2026-10-18",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_sha256": null,
+      "image_subject_visual_checked": false,
+      "registration_status": "research_only_image_and_api_pending"
+    },
+    {
+      "candidate_id": "met-37907",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 37907,
+      "official_url": "https://www.metmuseum.org/art/collection/search/37907",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/37907",
+      "title_original": "Kakubha Ragini: Page from a Dispersed Ragamala Series (Garland of Musical Modes)",
+      "title_ja_provisional": "カクバー・ラーギニー：恋人を待つ女性",
+      "artist": "Unidentified artist",
+      "culture": "India (Rajasthan, Mewar)",
+      "creation_date_display": "ca. 1680",
+      "accession_number": "52.93.4",
+      "museum_classification": "Paintings",
+      "provisional_emotions": {
+        "primary": [
+          "期待"
+        ],
+        "secondary": [
+          "寂しさ"
+        ]
+      },
+      "scholarly_context_summary_ja": "恋人を待つ女性が戸口に立ち、空の寝台と侍女の行動から不在と待つ時間を読む。",
+      "interpretation_caution_ja": "女性の心理は楽曲と詩の慣習に基づく解釈。孤独・失恋と即断しない。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/37907",
+      "author_intent_verification": "not_verified_for_this_work",
+      "museum_page_reviewed_on": "2026-10-18",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_sha256": null,
+      "image_subject_visual_checked": false,
+      "registration_status": "research_only_image_and_api_pending"
+    },
+    {
+      "candidate_id": "met-436530",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 436530,
+      "official_url": "https://www.metmuseum.org/art/collection/search/436530",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436530",
+      "title_original": "Oleanders",
+      "title_ja_provisional": "夾竹桃",
+      "artist": "Vincent van Gogh",
+      "culture": "Netherlands/France",
+      "creation_date_display": "1888",
+      "accession_number": "62.24",
+      "museum_classification": "Paintings",
+      "provisional_emotions": {
+        "primary": [
+          "喜び",
+          "希望"
+        ],
+        "secondary": []
+      },
+      "scholarly_context_summary_ja": "ゴッホが夾竹桃を生気に満ちた生命肯定の花として語り、画面にゾラの『生きる歓び』を添えた。",
+      "interpretation_caution_ja": "作者の花についての直接言及を元にするが、描いた瞬間の作者の心理状態を診断しない。既存ゴッホと画家偏りが出る点に留意。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/436530",
+      "author_intent_verification": "artist_related_motif_words",
+      "museum_page_reviewed_on": "2026-10-18",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_sha256": null,
+      "image_subject_visual_checked": false,
+      "registration_status": "research_only_image_and_api_pending"
+    },
+    {
+      "candidate_id": "met-57260",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 57260,
+      "official_url": "https://www.metmuseum.org/art/collection/search/57260",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/57260",
+      "title_original": "Ebisu and Daikoku Celebrating the New Year Festival",
+      "title_ja_provisional": "恵比寿と大黒天の新年祝い",
+      "artist": "Attributed to Katsushika Hokusai",
+      "culture": "Japan",
+      "creation_date_display": "18th–19th century",
+      "accession_number": "56.121.10",
+      "museum_classification": "Paintings",
+      "provisional_emotions": {
+        "primary": [
+          "喜び"
+        ],
+        "secondary": [
+          "期待"
+        ]
+      },
+      "scholarly_context_summary_ja": "恵比寿と大黒天という福の神が新年を祝う縁起物の題材。",
+      "interpretation_caution_ja": "北斎の真筆と確定できず『伝・北斎』とする。喜びの場面は確かだが作者意図は未確認。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/57260",
+      "author_intent_verification": "not_verified_for_this_work",
+      "museum_page_reviewed_on": "2026-10-18",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_sha256": null,
+      "image_subject_visual_checked": false,
+      "registration_status": "research_only_image_and_api_pending"
+    },
+    {
+      "candidate_id": "met-44702",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 44702,
+      "official_url": "https://www.metmuseum.org/art/collection/search/44702",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/44702",
+      "title_original": "Sparse trees and pavilion",
+      "title_ja_provisional": "疎林と亭",
+      "artist": "Wang Meng",
+      "culture": "China",
+      "creation_date_display": "late 1350s",
+      "accession_number": "1991.438.2",
+      "museum_classification": "Paintings",
+      "provisional_emotions": {
+        "primary": [
+          "寂しさ",
+          "孤独"
+        ],
+        "secondary": [
+          "安心"
+        ]
+      },
+      "scholarly_context_summary_ja": "王蒙の自作の詩と描写は戦乱から逃れた友人の仮住まいを表す。空の亭に孤独を詠む。",
+      "interpretation_caution_ja": "避難生活の厳しさと涼風の快さを併記する詩を単純な絶望として扱わない。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/44702",
+      "author_intent_verification": "inscription_on_work",
+      "museum_page_reviewed_on": "2026-10-18",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_sha256": null,
+      "image_subject_visual_checked": false,
+      "registration_status": "research_only_image_and_api_pending"
+    },
+    {
+      "candidate_id": "met-49454",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 49454,
+      "official_url": "https://www.metmuseum.org/art/collection/search/49454",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/49454",
+      "title_original": "Landscape",
+      "title_ja_provisional": "山水図（胡遠）",
+      "artist": "Hu Yuan",
+      "culture": "China",
+      "creation_date_display": "dated 1885",
+      "accession_number": "1986.267.31",
+      "museum_classification": "Paintings",
+      "provisional_emotions": {
+        "primary": [
+          "孤独"
+        ],
+        "secondary": [
+          "安心"
+        ]
+      },
+      "scholarly_context_summary_ja": "胡遠自身の画賛は人けのない山で一人の人物が湧き水に生気を取り戻すと詠う。",
+      "interpretation_caution_ja": "lonelyという語があっても孤独の苦痛ではない。『寂しさ』主タグは付けない。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/49454",
+      "author_intent_verification": "inscription_on_work",
+      "museum_page_reviewed_on": "2026-10-18",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_sha256": null,
+      "image_subject_visual_checked": false,
+      "registration_status": "research_only_image_and_api_pending"
+    },
+    {
+      "candidate_id": "met-853897",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 853897,
+      "official_url": "https://www.metmuseum.org/art/collection/search/853897",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853897",
+      "title_original": "Figures with dragons",
+      "title_ja_provisional": "龍を伴う人物図",
+      "artist": "Unidentified artist",
+      "culture": "Korea",
+      "creation_date_display": "late 19th–early 20th century",
+      "accession_number": "2024.89.7",
+      "museum_classification": "Paintings",
+      "provisional_emotions": {
+        "primary": [
+          "未練",
+          "希望"
+        ],
+        "secondary": []
+      },
+      "scholarly_context_summary_ja": "七夕の離れ離れの恋人や、死者が先立った配偶者と再会することを願う儀礼に関連する可能性を美術館が示唆。",
+      "interpretation_caution_ja": "図像の二通りの解釈はいずれも仮説。作者の意図を確定しない。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/853897",
+      "author_intent_verification": "not_verified_for_this_work",
+      "museum_page_reviewed_on": "2026-10-18",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_sha256": null,
+      "image_subject_visual_checked": false,
+      "registration_status": "research_only_image_and_api_pending"
+    },
+    {
+      "candidate_id": "met-670946",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 670946,
+      "official_url": "https://www.metmuseum.org/art/collection/search/670946",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/670946",
+      "title_original": "Setsubun Festival at Sensōji",
+      "title_ja_provisional": "浅草寺の節分",
+      "artist": "Suzuki Kiitsu",
+      "culture": "Japan",
+      "creation_date_display": "1857",
+      "accession_number": "2015.300.98",
+      "museum_classification": "Paintings",
+      "provisional_emotions": {
+        "primary": [
+          "喜び"
+        ],
+        "secondary": [
+          "期待"
+        ]
+      },
+      "scholarly_context_summary_ja": "浅草寺の節分という歳時行事を描いた江戸期の掛幅。",
+      "interpretation_caution_ja": "美術館に個別作品の喜びへの解説が少なく、単に祭りの題名だけで強い感情を断定しない。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/670946",
+      "author_intent_verification": "not_verified_for_this_work",
+      "museum_page_reviewed_on": "2026-10-18",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_sha256": null,
+      "image_subject_visual_checked": false,
+      "registration_status": "research_only_image_and_api_pending"
+    },
+    {
+      "candidate_id": "met-853336",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 853336,
+      "official_url": "https://www.metmuseum.org/art/collection/search/853336",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853336",
+      "title_original": "Komachi’s Residence",
+      "title_ja_provisional": "小町屋敷",
+      "artist": "Kawabata Ryūshi",
+      "culture": "Japan",
+      "creation_date_display": "1918",
+      "accession_number": "2021.398.35",
+      "museum_classification": "Paintings",
+      "provisional_emotions": {
+        "primary": [
+          "寂しさ"
+        ],
+        "secondary": [
+          "懐かしさ"
+        ]
+      },
+      "scholarly_context_summary_ja": "月光に照らされる人のいない小屋を描き、小野小町伝説の孤独と老いを想起させる。",
+      "interpretation_caution_ja": "美術館は解釈を仮説として扱う。川端龍子本人の寂しさと断定しない。画像公開条件も別途要確認。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/853336",
+      "author_intent_verification": "not_verified_for_this_work",
+      "museum_page_reviewed_on": "2026-10-18",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_sha256": null,
+      "image_subject_visual_checked": false,
+      "registration_status": "research_only_image_and_api_pending"
+    },
+    {
+      "candidate_id": "met-671026",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 671026,
+      "official_url": "https://www.metmuseum.org/art/collection/search/671026",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/671026",
+      "title_original": "Puppies in the Snow",
+      "title_ja_provisional": "雪中狗子図襖",
+      "artist": "Nagasawa Rosetsu",
+      "culture": "Japan",
+      "creation_date_display": "1792–99",
+      "accession_number": "2015.300.203.1, .2",
+      "museum_classification": "Paintings",
+      "provisional_emotions": {
+        "primary": [
+          "喜び"
+        ],
+        "secondary": []
+      },
+      "scholarly_context_summary_ja": "雪の中ではしゃぐ子犬たちの身振りを生き生きした筆致で表す。",
+      "interpretation_caution_ja": "本来4面、現在は一対の屏風。両面の画像と順番を調べるまでは登録保留。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/671026",
+      "author_intent_verification": "not_verified_for_this_work",
+      "museum_page_reviewed_on": "2026-10-18",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_sha256": null,
+      "image_subject_visual_checked": false,
+      "registration_status": "research_only_image_and_api_pending"
+    },
+    {
+      "candidate_id": "met-39551",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 39551,
+      "official_url": "https://www.metmuseum.org/art/collection/search/39551",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/39551",
+      "title_original": "Mandarin ducks and cotton rose hibiscus",
+      "title_ja_provisional": "鴛鴦芙蓉図",
+      "artist": "Lü Ji",
+      "culture": "China",
+      "creation_date_display": "late 15th century",
+      "accession_number": "2005.494.2",
+      "museum_classification": "Paintings",
+      "provisional_emotions": {
+        "primary": [
+          "喜び",
+          "希望"
+        ],
+        "secondary": []
+      },
+      "scholarly_context_summary_ja": "一対のオシドリが幸福な婚姻を象徴し、花の語呂合わせが新郎新婦の繁栄を祝う。",
+      "interpretation_caution_ja": "象徴上の祝福と、作者・依頼者本人の喜びを同一視しない。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/39551",
+      "author_intent_verification": "not_verified_for_this_work",
+      "museum_page_reviewed_on": "2026-10-18",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_sha256": null,
+      "image_subject_visual_checked": false,
+      "registration_status": "research_only_image_and_api_pending"
+    },
+    {
+      "candidate_id": "met-41154",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 41154,
+      "official_url": "https://www.metmuseum.org/art/collection/search/41154",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/41154",
+      "title_original": "Wind among the Trees on the Riverbank",
+      "title_ja_provisional": "江渚風林図",
+      "artist": "Ni Zan",
+      "culture": "China",
+      "creation_date_display": "1363",
+      "accession_number": "1989.363.39",
+      "museum_classification": "Paintings",
+      "provisional_emotions": {
+        "primary": [
+          "寂しさ",
+          "喪失感"
+        ],
+        "secondary": [
+          "懐かしさ"
+        ]
+      },
+      "scholarly_context_summary_ja": "妻の死と避難生活の時期に描かれ、自作の画賛は夕暮れの静けさと友人を思う感情を記す。",
+      "interpretation_caution_ja": "妻との死別を個別作品の唯一の意味と断定しない。美術館も孤立の表現を『可能性』とする。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/41154",
+      "author_intent_verification": "inscription_on_work",
+      "museum_page_reviewed_on": "2026-10-18",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_sha256": null,
+      "image_subject_visual_checked": false,
+      "registration_status": "research_only_image_and_api_pending"
+    },
+    {
+      "candidate_id": "met-40393",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 40393,
+      "official_url": "https://www.metmuseum.org/art/collection/search/40393",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/40393",
+      "title_original": "The Pleasures of Fishes",
+      "title_ja_provisional": "魚楽図",
+      "artist": "Zhou Dongqing",
+      "culture": "China",
+      "creation_date_display": "dated 1291",
+      "accession_number": "47.18.10",
+      "museum_classification": "Paintings",
+      "provisional_emotions": {
+        "primary": [
+          "喜び"
+        ],
+        "secondary": [
+          "好奇心"
+        ]
+      },
+      "scholarly_context_summary_ja": "作者の画賛が魚の喜びをどう知るかという荘子の問いを扱う。穏やかな画面と哲学的な問いのズレがある。",
+      "interpretation_caution_ja": "長大な巻物で代表画像だけでは十分な体験にならず、画像の分割管理を要する。魚の楽しさを人間の幸福と同義視しない。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/40393",
+      "author_intent_verification": "inscription_on_work",
+      "museum_page_reviewed_on": "2026-10-18",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_sha256": null,
+      "image_subject_visual_checked": false,
+      "registration_status": "research_only_image_and_api_pending"
+    }
+  ]
+}
