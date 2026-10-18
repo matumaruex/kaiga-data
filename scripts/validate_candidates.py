@@ -15,8 +15,8 @@ for art in candidates["works"]:
     if ident in ids:
         issues.append(f"{ident}: 候補内の重複")
     ids.add(ident)
-    if ident in live_ids:
-        issues.append(f"{ident}: 本登録にも重複")
+    # 候補は作成時の履歴（スナップショット）。昇格後も記録を残すため、本登録との重複は正常。
+    # 現在の登録状況は data/artworks.json を正とする。
     if ident != f'aic-{art["source"]["artwork_id"]}':
         issues.append(f"{ident}: 作品IDが不一致")
     if art["status"] != "candidate_unverified":
@@ -39,5 +39,5 @@ for art in candidates["works"]:
 if issues:
     print("NG:", *issues, sep="\n - ")
     raise SystemExit(1)
-print(f"OK：本登録{len(live_ids)}件、候補{len(ids)}件。重複なし、タグ・必須情報・未検証状態の形式チェック完了。")
+print(f"OK：本登録{len(live_ids)}件、候補履歴{len(ids)}件（すでに本登録された候補{len(ids & live_ids)}件）。候補内の重複なし、タグ・必須情報を検証。")
 print("※作品の現物、権利、画像、解釈の正しさはこの形式チェックでは確認できません。")
