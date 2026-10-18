@@ -32,6 +32,8 @@ jobs:
         run: python3 scripts/validate_batch003.py
       - name: Verify batch-004 candidate structure
         run: python3 scripts/validate_batch004.py
+      - name: Verify batch-005 candidate structure
+        run: python3 scripts/validate_batch005.py
       - name: Verify alternative-image registry
         run: python3 scripts/check_image_sources.py
       - name: Validate selection test cases
@@ -161,5 +163,30 @@ jobs:
         with:
           name: batch004-official-image-report
           path: artifacts/batch004-live-verification.json
+          if-no-files-found: ignore
+          retention-days: 14
+
+  research-batch005-official-commons:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[research-batch005]')
+    needs: validate-format
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout dataset
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: "3.12"
+      - name: Research AIC official records and Commons JPEGs for batch 005
+        run: python3 scripts/validate_batch005.py --online
+      - name: Save batch005 research evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: batch005-research-report
+          path: artifacts/batch005-research.json
           if-no-files-found: ignore
           retention-days: 14
