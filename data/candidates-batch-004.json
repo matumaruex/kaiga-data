@@ -1,0 +1,689 @@
+{
+  "schema_version": "1.1.0",
+  "batch": "batch-004",
+  "created_on": "2026-10-18",
+  "status": "candidates_live_checks_pending",
+  "description": "制作意図優先で10作品を追加調査。本人の直接発言は未確認、専門解説の出典URLと不確実性を保持。現行公式API・画像実取得・SHA256の検証が完了するまでは23登録件数に含めない。",
+  "works": [
+    {
+      "id": "aic-27943",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 27943,
+        "api_url": "https://api.artic.edu/api/v1/artworks/27943",
+        "official_artwork_url": "https://www.artic.edu/artworks/27943"
+      },
+      "facts_provisional": {
+        "title": "Day of the God (Mahana no Atua)",
+        "title_ja": "神の日（マハナ・ノ・アトゥア）",
+        "accession_number": "1926.198"
+      },
+      "image": {
+        "commons_file_title": "File:Paul Gauguin - Mahana no atua (Day of the God) - 1926.198 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Paul%20Gauguin%20-%20Mahana%20no%20atua%20(Day%20of%20the%20God)%20-%201926.198%20-%20Art%20Institute%20of%20Chicago.jpg",
+        "expected_accession_number": "1926.198",
+        "download_status": "pending_http_sha256"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "タヒチの宗教儀礼を思わせる神像と人物を組み合わせた1894年の絵。実際にはパリで描かれ、島での生活をそのまま記録した風俗画ではなく、画家が組み立てた神話的世界である。",
+          "source_url": "https://publications.artic.edu/gauguin/reader/gauguinart/section/140370"
+        },
+        "creation_context": "1893年のタヒチ帰還後にフランスで制作。ポリネシア文化と異文化の造形を取り入れた画家自身の構成であり、当時の植民地主義的なまなざしも批判的に考える必要がある。",
+        "visual_clues": "中央の神像、浜辺の女性、鮮やかな水面の色帯と人物。",
+        "uncertainty_note": "実際のタヒチの信仰を正確に再現した絵ではない。女性の心情や『幸福な楽園』という評価を事実にしない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": [
+          "不安"
+        ]
+      },
+      "tones": [
+        "緊張",
+        "余韻"
+      ],
+      "themes": [
+        "自然",
+        "共同体"
+      ],
+      "search_profile": {
+        "summary_for_ai": "タヒチの宗教儀礼を思わせる神像と人物を組み合わせた1894年の絵。実際にはパリで描かれ、島での生活をそのまま記録した風俗画ではなく、画家が組み立てた神話的世界である。",
+        "fitting_situations": [
+          {
+            "situation": "未知の信仰や文化への憧れと、それを作り直してしまう人間の視点について考えたい",
+            "reason": "鮮やかな楽園風の画面の裏に、実際と異なる組み立てられた神話という制作背景がある。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "実際のタヒチの信仰を正確に再現した絵ではない。女性の心情や『幸福な楽園』という評価を事実にしない。"
+        ]
+      },
+      "review": {
+        "status": "candidate_metadata_image_pending",
+        "interpretation_human_approved": false,
+        "content_review_status": "AI_editorial_draft_not_human_approved"
+      }
+    },
+    {
+      "id": "aic-79349",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 79349,
+        "api_url": "https://api.artic.edu/api/v1/artworks/79349",
+        "official_artwork_url": "https://www.artic.edu/artworks/79349"
+      },
+      "facts_provisional": {
+        "title": "The Drinkers",
+        "title_ja": "酒を飲む人々",
+        "accession_number": "1953.178"
+      },
+      "image": {
+        "commons_file_title": "File:Vincent van Gogh - The Drinkers - 1953.178 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Vincent%20van%20Gogh%20-%20The%20Drinkers%20-%201953.178%20-%20Art%20Institute%20of%20Chicago.jpg",
+        "expected_accession_number": "1953.178",
+        "download_status": "pending_http_sha256"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "療養先でドーミエの『酒を飲む人々』の版画を油彩で翻案した作品。ユーモラスに見える人物群は、飲酒の害を風刺する原作の文脈を持つ。単なる陽気な宴会ではない。",
+          "source_url": "https://archive.artic.edu/casewine/artwork/79349"
+        },
+        "creation_context": "1890年、サン＝レミ療養中。ほかの画家の白黒の版画を色彩で描き直す創作に取り組んだ。",
+        "visual_clues": "テーブルに囲まれた異なる年齢の人物と緑がかった色調。",
+        "uncertainty_note": "本人の飲酒問題をこの場面に直接投影した証拠ではない。原作の風刺とゴッホの色彩による翻案は区別する。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "不安"
+        ],
+        "secondary": [
+          "好奇心"
+        ]
+      },
+      "tones": [
+        "にぎわい",
+        "重苦しさ"
+      ],
+      "themes": [
+        "日常",
+        "時間"
+      ],
+      "search_profile": {
+        "summary_for_ai": "療養先でドーミエの『酒を飲む人々』の版画を油彩で翻案した作品。ユーモラスに見える人物群は、飲酒の害を風刺する原作の文脈を持つ。単なる陽気な宴会ではない。",
+        "fitting_situations": [
+          {
+            "situation": "楽しく見えるものの背後に、別の意味や苦しさがあることを考えたい",
+            "reason": "飲酒の楽しげな場面と風刺・健康被害という主題のずれに資料上の根拠がある。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "本人の飲酒問題をこの場面に直接投影した証拠ではない。原作の風刺とゴッホの色彩による翻案は区別する。"
+        ]
+      },
+      "review": {
+        "status": "candidate_metadata_image_pending",
+        "interpretation_human_approved": false,
+        "content_review_status": "AI_editorial_draft_not_human_approved"
+      }
+    },
+    {
+      "id": "aic-81558",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 81558,
+        "api_url": "https://api.artic.edu/api/v1/artworks/81558",
+        "official_artwork_url": "https://www.artic.edu/artworks/81558"
+      },
+      "facts_provisional": {
+        "title": "Acrobats at the Cirque Fernando (Francisca and Angelina Wartenberg)",
+        "title_ja": "フェルナンド・サーカスの曲芸師たち",
+        "accession_number": "1922.440"
+      },
+      "image": {
+        "commons_file_title": "File:Pierre-Auguste Renoir - Acrobats at the Cirque Fernando (Francisca and Angelina Wartenberg) - 1922.440 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste%20Renoir%20-%20Acrobats%20at%20the%20Cirque%20Fernando%20(Francisca%20and%20Angelina%20Wartenberg)%20-%201922.440%20-%20Art%20Institute%20of%20Chicago.jpg",
+        "expected_accession_number": "1922.440",
+        "download_status": "pending_http_sha256"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "曲芸師の実在する姉妹フランシスカとアンジェリナの肖像的な側面が確認される。専門研究は、サーカスの派手な見せ物と、仮面の奥の繊細な個人を描く点の両方を指摘する。",
+          "source_url": "https://publications.artic.edu/renoir/reader/paintingsanddrawings/section/135637"
+        },
+        "creation_context": "1879年、パリのサーカスで働く姉妹を描く。のちにモデル本人がオレンジを観客から贈られたことを回想している。",
+        "visual_clues": "晴れやかな衣装を身につけた若い曲芸師2人、足元のオレンジ、後方の観客。",
+        "uncertainty_note": "作者が2人の喜びや恐怖を代弁したとの記録はない。華やかな成功を示すだけの絵として固定しない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "喜び"
+        ],
+        "secondary": [
+          "不安"
+        ]
+      },
+      "tones": [
+        "高揚",
+        "緊張"
+      ],
+      "themes": [
+        "共同体",
+        "日常"
+      ],
+      "search_profile": {
+        "summary_for_ai": "曲芸師の実在する姉妹フランシスカとアンジェリナの肖像的な側面が確認される。専門研究は、サーカスの派手な見せ物と、仮面の奥の繊細な個人を描く点の両方を指摘する。",
+        "fitting_situations": [
+          {
+            "situation": "人前で頑張って認められた時の喜びと、舞台の裏側の複雑さを考えたい",
+            "reason": "観客からオレンジを受け取った回想と、肖像としての繊細な表現を専門研究が示す。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "作者が2人の喜びや恐怖を代弁したとの記録はない。華やかな成功を示すだけの絵として固定しない。"
+        ]
+      },
+      "review": {
+        "status": "candidate_metadata_image_pending",
+        "interpretation_human_approved": false,
+        "content_review_status": "AI_editorial_draft_not_human_approved"
+      }
+    },
+    {
+      "id": "aic-87479",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 87479,
+        "api_url": "https://api.artic.edu/api/v1/artworks/87479",
+        "official_artwork_url": "https://www.artic.edu/artworks/87479"
+      },
+      "facts_provisional": {
+        "title": "The Assumption of the Virgin",
+        "title_ja": "聖母被昇天",
+        "accession_number": "1906.99"
+      },
+      "image": {
+        "commons_file_title": "File:Domenico Theotokópoulos, called El Greco - The Assumption of the Virgin - 1906.99 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Domenico%20Theotok%C3%B3poulos%2C%20called%20El%20Greco%20-%20The%20Assumption%20of%20the%20Virgin%20-%201906.99%20-%20Art%20Institute%20of%20Chicago.jpg",
+        "expected_accession_number": "1906.99",
+        "download_status": "pending_http_sha256"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "エル・グレコがスペインで受けた最初の大規模な宗教画注文の中心作。聖母の被昇天と、寄進者たちの救済への期待が祭壇画全体の文脈で結びつく。",
+          "source_url": "https://archive.artic.edu/360degrees/artwork/87479"
+        },
+        "creation_context": "1577～79年、トレドのサント・ドミンゴ・エル・アンティグオ修道院の主祭壇画群に配置された。",
+        "visual_clues": "天上へ昇る聖母、驚く使徒、天上と地上を結ぶ構成。",
+        "uncertainty_note": "信仰上の救済の図像を、作者個人の『気分が晴れた』という感情に変換しない。展示では宗教的文脈を尊重する。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "希望"
+        ],
+        "secondary": [
+          "期待"
+        ]
+      },
+      "tones": [
+        "高揚",
+        "余韻"
+      ],
+      "themes": [
+        "時間",
+        "共同体"
+      ],
+      "search_profile": {
+        "summary_for_ai": "エル・グレコがスペインで受けた最初の大規模な宗教画注文の中心作。聖母の被昇天と、寄進者たちの救済への期待が祭壇画全体の文脈で結びつく。",
+        "fitting_situations": [
+          {
+            "situation": "希望や救いが、個人の感情よりも大きな信仰の物語として描かれた意味を知りたい",
+            "reason": "寄進者の救済の願いと祭壇画の物語との結び付きが美術館資料で確認できる。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "信仰上の救済の図像を、作者個人の『気分が晴れた』という感情に変換しない。展示では宗教的文脈を尊重する。"
+        ]
+      },
+      "review": {
+        "status": "candidate_metadata_image_pending",
+        "interpretation_human_approved": false,
+        "content_review_status": "AI_editorial_draft_not_human_approved"
+      }
+    },
+    {
+      "id": "aic-14624",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 14624,
+        "api_url": "https://api.artic.edu/api/v1/artworks/14624",
+        "official_artwork_url": "https://www.artic.edu/artworks/14624"
+      },
+      "facts_provisional": {
+        "title": "Stacks of Wheat (End of Day, Autumn)",
+        "title_ja": "積みわら（秋、一日の終わり）",
+        "accession_number": "1933.444"
+      },
+      "image": {
+        "commons_file_title": "File:Claude Monet - Stacks of Wheat (End of Day, Autumn) - 1933.444 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Claude%20Monet%20-%20Stacks%20of%20Wheat%20(End%20of%20Day%2C%20Autumn)%20-%201933.444%20-%20Art%20Institute%20of%20Chicago.jpg",
+        "expected_accession_number": "1933.444",
+        "download_status": "pending_http_sha256"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "積みわらを同じモチーフで繰り返し描く連作の一つ。夕刻・秋の光が同じ形の対象をどう変えるかを追う色彩の研究であり、穏やかな農村の心情だけの表現ではない。",
+          "source_url": "https://publications.artic.edu/monet/reader/paintingsanddrawings/section/135598"
+        },
+        "creation_context": "1890〜91年、ジヴェルニー付近の積みわらを繰り返し描いた連作。",
+        "visual_clues": "秋の日暮れの光を受ける積みわらと色の対照。",
+        "uncertainty_note": "この一枚を作者が『寂しい気持ち』で描いたとする証拠はない。連作の理論と個々の気分を混同しない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": [
+          "安心"
+        ]
+      },
+      "tones": [
+        "余韻",
+        "静けさ"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "search_profile": {
+        "summary_for_ai": "積みわらを同じモチーフで繰り返し描く連作の一つ。夕刻・秋の光が同じ形の対象をどう変えるかを追う色彩の研究であり、穏やかな農村の心情だけの表現ではない。",
+        "fitting_situations": [
+          {
+            "situation": "毎日同じものでも時間や光によって別の表情になることを実感したい",
+            "reason": "季節と時刻による光の変化を描き分けた連作という確かな制作背景がある。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "この一枚を作者が『寂しい気持ち』で描いたとする証拠はない。連作の理論と個々の気分を混同しない。"
+        ]
+      },
+      "review": {
+        "status": "candidate_metadata_image_pending",
+        "interpretation_human_approved": false,
+        "content_review_status": "AI_editorial_draft_not_human_approved"
+      }
+    },
+    {
+      "id": "aic-81545",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 81545,
+        "api_url": "https://api.artic.edu/api/v1/artworks/81545",
+        "official_artwork_url": "https://www.artic.edu/artworks/81545"
+      },
+      "facts_provisional": {
+        "title": "Stacks of Wheat (Sunset, Snow Effect)",
+        "title_ja": "積みわら（雪景色、日没）",
+        "accession_number": "1922.431"
+      },
+      "image": {
+        "commons_file_title": "File:Claude Monet - Stacks of Wheat (Sunset, Snow Effect) - 1922.431 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Claude%20Monet%20-%20Stacks%20of%20Wheat%20(Sunset%2C%20Snow%20Effect)%20-%201922.431%20-%20Art%20Institute%20of%20Chicago.jpg",
+        "expected_accession_number": "1922.431",
+        "download_status": "pending_http_sha256"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "同じ積みわらを夕焼けと雪の条件下で描く。シカゴ美術館の技術研究は制作途中に積みわらの位置などを変更した痕跡を確認しており、一瞬の記録だけではない。",
+          "source_url": "https://publications.artic.edu/monet/reader/paintingsanddrawings/section/135603/p-27"
+        },
+        "creation_context": "1890〜91年の積みわら連作に属し、画家が絵の構成と光を検討した作品。",
+        "visual_clues": "積雪と夕日の暖色・寒色、静かな積みわらの組み合わせ。",
+        "uncertainty_note": "日没の静けさを『作者の孤独』とする根拠はない。連作の時間差表現が主眼。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": [
+          "安心"
+        ]
+      },
+      "tones": [
+        "静けさ",
+        "余韻"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "search_profile": {
+        "summary_for_ai": "同じ積みわらを夕焼けと雪の条件下で描く。シカゴ美術館の技術研究は制作途中に積みわらの位置などを変更した痕跡を確認しており、一瞬の記録だけではない。",
+        "fitting_situations": [
+          {
+            "situation": "似た風景でも状況が少し変わるだけで印象が変わる面白さを知りたい",
+            "reason": "雪・日没という条件での色彩研究と、制作過程の変更が専門調査で確認されている。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "日没の静けさを『作者の孤独』とする根拠はない。連作の時間差表現が主眼。"
+        ]
+      },
+      "review": {
+        "status": "candidate_metadata_image_pending",
+        "interpretation_human_approved": false,
+        "content_review_status": "AI_editorial_draft_not_human_approved"
+      }
+    },
+    {
+      "id": "aic-8991",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 8991,
+        "api_url": "https://api.artic.edu/api/v1/artworks/8991",
+        "official_artwork_url": "https://www.artic.edu/artworks/8991"
+      },
+      "facts_provisional": {
+        "title": "Improvisation No. 30 (Cannons)",
+        "title_ja": "即興 第30番（大砲）",
+        "accession_number": "1931.511"
+      },
+      "image": {
+        "commons_file_title": "File:Vasily Kandinsky - Improvisation No. 30 (Cannons) - 1931.511 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Vasily%20Kandinsky%20-%20Improvisation%20No.%2030%20(Cannons)%20-%201931.511%20-%20Art%20Institute%20of%20Chicago.jpg",
+        "expected_accession_number": "1931.511",
+        "download_status": "pending_http_sha256"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "1913年のカンディンスキーによる抽象絵画。大砲を思わせる細部と、即興的な形と色の構成が同居する。戦争の記録画として単純化せず、絵画に精神的・音楽的作用を求める画家の探究と見る。",
+          "source_url": "https://www.artic.edu/artworks/8991/improvisation-no-30-cannons"
+        },
+        "creation_context": "第一次世界大戦前夜に抽象表現を展開していた時期。『即興』は絵画の構成を音楽的な表現になぞらえた分類でもある。",
+        "visual_clues": "渦を巻く色と線、抽象形態の中に見える大砲のような線。",
+        "uncertainty_note": "画家がこの絵で実際の戦場や特定の恐怖を描いたと断定しない。大砲の読みと抽象表現の複雑さを両立する。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": [
+          "不安"
+        ]
+      },
+      "tones": [
+        "緊張",
+        "高揚"
+      ],
+      "themes": [
+        "時間",
+        "自然"
+      ],
+      "search_profile": {
+        "summary_for_ai": "1913年のカンディンスキーによる抽象絵画。大砲を思わせる細部と、即興的な形と色の構成が同居する。戦争の記録画として単純化せず、絵画に精神的・音楽的作用を求める画家の探究と見る。",
+        "fitting_situations": [
+          {
+            "situation": "目に見える出来事を描かなくても、色や構成で内面を表現する試みに触れたい",
+            "reason": "戦争を連想させる形と音楽的な非具象表現が同居する制作期の作品。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "画家がこの絵で実際の戦場や特定の恐怖を描いたと断定しない。大砲の読みと抽象表現の複雑さを両立する。"
+        ]
+      },
+      "review": {
+        "status": "candidate_metadata_image_pending",
+        "interpretation_human_approved": false,
+        "content_review_status": "AI_editorial_draft_not_human_approved"
+      }
+    },
+    {
+      "id": "aic-93450",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 93450,
+        "api_url": "https://api.artic.edu/api/v1/artworks/93450",
+        "official_artwork_url": "https://www.artic.edu/artworks/93450"
+      },
+      "facts_provisional": {
+        "title": "Winter Scene",
+        "title_ja": "冬景色",
+        "accession_number": "1990.558"
+      },
+      "image": {
+        "commons_file_title": "File:Francisco José de Goya y Lucientes - Winter Scene - 1990.558 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Francisco%20Jos%C3%A9%20de%20Goya%20y%20Lucientes%20-%20Winter%20Scene%20-%201990.558%20-%20Art%20Institute%20of%20Chicago.jpg",
+        "expected_accession_number": "1990.558",
+        "download_status": "pending_http_sha256"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "18世紀末スペインの寒風と悪天候の中を歩く人々を描く。美術館が記録する版画・タペストリー図案の文脈があるため、自然の厳しさと生活上の困難を扱う風俗的な情景と読める。",
+          "source_url": "https://www.artic.edu/artworks/93450/winter-scene"
+        },
+        "creation_context": "1786年頃のゴヤ。宮廷向けタペストリー原画などを制作していた時期の風景と人物像。",
+        "visual_clues": "吹雪を避ける人々の身ぶり、風にさらされる衣服と寒空。",
+        "uncertainty_note": "当時の特定の飢饉や作者自身の苦しみを象徴するという主張は資料なしには採用しない。タペストリー原画との関係は個別作品の最終照合が必要。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "不安"
+        ],
+        "secondary": [
+          "希望"
+        ]
+      },
+      "tones": [
+        "緊張",
+        "重苦しさ"
+      ],
+      "themes": [
+        "共同体",
+        "自然"
+      ],
+      "search_profile": {
+        "summary_for_ai": "18世紀末スペインの寒風と悪天候の中を歩く人々を描く。美術館が記録する版画・タペストリー図案の文脈があるため、自然の厳しさと生活上の困難を扱う風俗的な情景と読める。",
+        "fitting_situations": [
+          {
+            "situation": "厳しい環境にさらされた人がどう助け合うかを考えたい",
+            "reason": "冬の厳しさという描写を、社会的・風俗的な表現の文脈と結びつけて読む。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "当時の特定の飢饉や作者自身の苦しみを象徴するという主張は資料なしには採用しない。タペストリー原画との関係は個別作品の最終照合が必要。"
+        ]
+      },
+      "review": {
+        "status": "candidate_metadata_image_pending",
+        "interpretation_human_approved": false,
+        "content_review_status": "AI_editorial_draft_not_human_approved"
+      }
+    },
+    {
+      "id": "aic-20692",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 20692,
+        "api_url": "https://api.artic.edu/api/v1/artworks/20692",
+        "official_artwork_url": "https://www.artic.edu/artworks/20692"
+      },
+      "facts_provisional": {
+        "title": "El Maragato Threatens Friar Pedro de Zaldivia with His Gun",
+        "title_ja": "エル・マラガトが修道士ペドロを銃で脅す",
+        "accession_number": "1933.1071"
+      },
+      "image": {
+        "commons_file_title": "File:Francisco José de Goya y Lucientes - El Maragato Threatens Friar Pedro de Zaldivia with His Gun - 1933.1071 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Francisco%20Jos%C3%A9%20de%20Goya%20y%20Lucientes%20-%20El%20Maragato%20Threatens%20Friar%20Pedro%20de%20Zaldivia%20with%20His%20Gun%20-%201933.1071%20-%20Art%20Institute%20of%20Chicago.jpg",
+        "expected_accession_number": "1933.1071",
+        "download_status": "pending_http_sha256"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "実際に報じられた盗賊エル・マラガトと修道士ペドロの事件をもとにした連続場面の一枚。危機の瞬間を描くが、連作では修道士による盗賊の制圧へと展開する。",
+          "source_url": "https://www.artic.edu/artworks/20692/el-maragato-threatens-friar-pedro-de-zaldivia-with-his-gun"
+        },
+        "creation_context": "1806年ごろ、社会的な話題となった事件をゴヤが小型の連作にした。これはその発端にあたる。",
+        "visual_clues": "修道士に向けた銃と身を構える人物、簡潔な背景。",
+        "uncertainty_note": "暴力表現がある。特定の感情だけで機械的に推薦しない。ゴヤ本人がこの連作で激怒したとする証拠はない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "不安"
+        ],
+        "secondary": [
+          "希望"
+        ]
+      },
+      "tones": [
+        "緊張",
+        "重苦しさ"
+      ],
+      "themes": [
+        "共同体",
+        "日常"
+      ],
+      "search_profile": {
+        "summary_for_ai": "実際に報じられた盗賊エル・マラガトと修道士ペドロの事件をもとにした連続場面の一枚。危機の瞬間を描くが、連作では修道士による盗賊の制圧へと展開する。",
+        "fitting_situations": [
+          {
+            "situation": "脅迫や理不尽な力に直面した時の恐怖と抵抗の物語について考えたい",
+            "reason": "盗賊の銃撃の脅しと修道士の反撃という歴史的エピソードを物語化した連作。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "暴力表現がある。特定の感情だけで機械的に推薦しない。ゴヤ本人がこの連作で激怒したとする証拠はない。"
+        ]
+      },
+      "review": {
+        "status": "candidate_metadata_image_pending",
+        "interpretation_human_approved": false,
+        "content_review_status": "AI_editorial_draft_not_human_approved"
+      }
+    },
+    {
+      "id": "aic-56905",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 56905,
+        "api_url": "https://api.artic.edu/api/v1/artworks/56905",
+        "official_artwork_url": "https://www.artic.edu/artworks/56905"
+      },
+      "facts_provisional": {
+        "title": "Nocturne: Blue and Gold—Southampton Water",
+        "title_ja": "夜想曲 青と金―サウサンプトン水域",
+        "accession_number": "1900.52"
+      },
+      "image": {
+        "commons_file_title": "File:James McNeill Whistler - Nocturne, Blue and Gold—Southampton Water - 1900.52 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:James%20McNeill%20Whistler%20-%20Nocturne%2C%20Blue%20and%20Gold%E2%80%94Southampton%20Water%20-%201900.52%20-%20Art%20Institute%20of%20Chicago.jpg",
+        "expected_accession_number": "1900.52",
+        "download_status": "pending_http_sha256"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "船のある港の景色を描きながら、場所の説明や事件の物語よりも色彩と形の調和を目指した初期の夜想曲。音楽用語を絵の題名に使う作家の制作方針が理解の手がかりになる。",
+          "source_url": "https://whistlerpaintings.gla.ac.uk/catalogue/display/?mid=y117"
+        },
+        "creation_context": "1872年の英国の水辺。ホイッスラーが調和する色彩・画面の調子を優先する独自の絵画観を強めていた。",
+        "visual_clues": "霧に包まれたような青色の夜景、小舟と船影、点のような金色の光。",
+        "uncertainty_note": "観る人が寂しさを感じてもよいが、作者が孤独な港を描く意図だったとは断言しない。美術館の研究・作家の芸術理念を分ける。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": [
+          "安心"
+        ]
+      },
+      "tones": [
+        "静けさ",
+        "余韻"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "search_profile": {
+        "summary_for_ai": "船のある港の景色を描きながら、場所の説明や事件の物語よりも色彩と形の調和を目指した初期の夜想曲。音楽用語を絵の題名に使う作家の制作方針が理解の手がかりになる。",
+        "fitting_situations": [
+          {
+            "situation": "はっきりした物語がなくても、色や光だけで心が動く絵に出会いたい",
+            "reason": "画家の芸術論は色と形の調和を物語より優先し、音楽になぞらえた作品名に反映される。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "観る人が寂しさを感じてもよいが、作者が孤独な港を描く意図だったとは断言しない。美術館の研究・作家の芸術理念を分ける。"
+        ]
+      },
+      "review": {
+        "status": "candidate_metadata_image_pending",
+        "interpretation_human_approved": false,
+        "content_review_status": "AI_editorial_draft_not_human_approved"
+      }
+    }
+  ]
+}
