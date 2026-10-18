@@ -7,6 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 data = json.loads((ROOT / "data/artworks.json").read_text(encoding="utf-8"))
 vocab = json.loads((ROOT / "data/emotions.json").read_text(encoding="utf-8"))
+image_registry = json.loads((ROOT / "data/image-sources.json").read_text(encoding="utf-8"))
 errors = []
 seen = set()
 
@@ -27,8 +28,24 @@ for art in data.get("artworks", []):
     image = art["image"]
     if not re.fullmatch(r"[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12}", image["image_id"]):
         errors.append(f"{ident}: 画像IDの形式が不正")
-    if image["image_id"] not in image["display_url"]:
-        errors.append(f"{ident}: 画像URLとIDが不一致")
+    image_source = next((x for x in image_registry["records"] if x["id"] == ident), None)
+    if image_source is None:
+        errors.append(f"{ident}: 画像出典台帳に作品がない")
+    elif image.get("display_url", "").startswith("https://www.artic.edu/iiif/"):
+        if image["image_id"] not in image["display_url"]:
+            errors.append(f"{ident}: 公式画像URLとIDが不一致")
+    else:
+        if not image.get("display_url", "").startswith("https://"):
+            errors.append(f"{ident}: 表示画像のURLが不正")
+        if image.get("source_registry_id") != ident or not image.get("local_path", "").endswith(f"/{ident[4:]}.jpg"):
+            errors.append(f"{ident}: 別ソース画像の参照が不正")
+        if image_source and image.get("sha256") != image_source["image_source"].get("sha256"):
+            errors.append(f"{ident}: 画像のSHA256が画像台帳と一致しない")
+        if image_source and image.get("display_url") not in (
+            image_source["image_source"].get("verified_download_url"),
+            image_source["image_source"].get("download_url")
+        ):
+            errors.append(f"{ident}: 表示画像URLが画像台帳と不一致")
     for category in ("emotions", "tones", "themes"):
         values = art["curation"][category]
         if len(values) != len(set(values)):
