@@ -35,6 +35,28 @@ for art in candidates["works"]:
             issues.append(f"{ident}: {group}に未登録のタグ")
     if not c["interpretation"] or not c["alternate_reading"] or not c["review_concern"]:
         issues.append(f"{ident}: 解釈・別解・注意点が不足")
+    # AIによる再選定と通常のタグ検索が同じ元データを使えるか
+    profile = art["curation"].get("search_profile")
+    if not isinstance(profile, dict):
+        issues.append(f"{ident}: 検索プロフィールがない")
+    else:
+        if not isinstance(profile.get("summary_for_ai"), str) or not profile["summary_for_ai"].strip():
+            issues.append(f"{ident}: AI向け説明が空")
+        situations = profile.get("fitting_situations", [])
+        if not isinstance(situations, list) or not situations:
+            issues.append(f"{ident}: 適合する状況の説明がない")
+        else:
+            for situation in situations:
+                if not isinstance(situation, dict) or any(
+                    not isinstance(situation.get(field), str) or not situation[field].strip()
+                    for field in ("situation", "reason")
+                ) or type(situation.get("strength")) is not int or situation["strength"] not in (1, 2, 3):
+                    issues.append(f"{ident}: 状況と理由または強度が不正")
+        cautions = profile.get("selection_cautions", [])
+        if not isinstance(cautions, list) or not cautions or any(not isinstance(c, str) or not c.strip() for c in cautions):
+            issues.append(f"{ident}: 選定上の注意点が空")
+        if profile.get("review_status") not in ("draft_not_human_approved", "draft_source_unverified", "human_approved"):
+            issues.append(f"{ident}: 検索プロフィールのレビュー状態が不正")
     snapshots = art.get("archived_api_metadata")
     if snapshots is not None:
         rows = snapshots.get("archive_sources", [])
