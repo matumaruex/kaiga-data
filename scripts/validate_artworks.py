@@ -58,7 +58,7 @@ for art in data.get("artworks", []):
         elif author.get("status") == "not_verified_for_this_work":
             if author.get("summary") is not None or author.get("source_url") is not None:
                 errors.append(f"{ident}: 作者の意図が未確認なのに資料や本文を断定")
-        elif author.get("status") in ("related_motif_or_series", "related_artistic_program"):
+        elif author.get("status") in ("related_motif_or_series", "related_artistic_program", "direct_for_this_work"):
             if not isinstance(author.get("summary"), str) or not author["summary"].strip() or not str(author.get("source_url") or "").startswith("https://"):
                 errors.append(f"{ident}: 関連題材への本人証言に出典がない")
         else:
