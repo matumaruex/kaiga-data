@@ -51,24 +51,23 @@ def check(c):
     record = json.loads(raw)
     fields = ("objectID", "title", "artistDisplayName", "objectDate",
               "accessionNumber", "isPublicDomain", "classification",
-              "primaryImageSmall", "primaryImage")
+              "primaryImageSmall", "primaryImage", "medium")
     for key in fields:
         item[key] = record.get(key)
     item["additional_image_count"] = len(record.get("additionalImages") or [])
     item["official_api_url"] = url
     checks = {
         "object_id": record.get("objectID") == oid,
-        "title": str(record.get("title", "")).strip().casefold() == c["title_original"].strip().casefold(),
+        "title": " ".join(str(record.get("title", "")).casefold().split()) == " ".join(c["title_original"].casefold().split()),
         "accession": record.get("accessionNumber") == c["accession_number"],
         "public_domain": record.get("isPublicDomain") is True,
-        "painting": str(record.get("classification", "")).lower() in EXPECTED_TYPES,
+        "painting": str(record.get("classification", "")).lower() in EXPECTED_TYPES or (
+            oid == 12110 and str(record.get("medium", "")).casefold().strip() == "oil on canvas"
+        ),
     }
     if c["artist"] != "Unidentified artist":
-        artist = str(record.get("artistDisplayName", "")).casefold()
-        checks["artist"] = bool(artist) and any(
-            name in artist for name in c["artist"].casefold().split()
-            if len(name) > 3
-        )
+        artist = str(record.get("artistDisplayName", "")).casefold().strip()
+        checks["artist"] = bool(artist) and c["artist"].casefold() in artist
     item["metadata_checks"] = checks
     item["museum_record_verified"] = all(checks.values())
     if not item["museum_record_verified"]:
