@@ -58,6 +58,15 @@ def validate(records, exhibition_ids, candidate_ids):
         src = art.get("image_source", {})
         if not ident.startswith("aic-") or not art.get("official_artwork_url", "").endswith(ident[4:]):
             issues.append(f"{ident}: artwork identity")
+        accession = art.get("accession_number", "")
+        if not re.fullmatch(r"[0-9]{4}\\.[0-9]+", accession):
+            issues.append(f"{ident}: unknown Chicago accession number")
+        if not src.get("license_url", "").startswith("https://"):
+            issues.append(f"{ident}: missing license evidence URL")
+        if src.get("last_http_sha_checked_on") and not SHA_RE.fullmatch(src.get("sha256") or ""):
+            issues.append(f"{ident}: missing verified image digest")
+        if src.get("last_http_sha_checked_on") and (src.get("byte_length") or 0) < 1024:
+            issues.append(f"{ident}: missing verified image size")
         if src.get("type") == "pinned_public_mirror":
             if not src.get("download_url", "").startswith("https://raw.githubusercontent.com/haranishi/hundred-days/"):
                 issues.append(f"{ident}: mirror is not pinned/public")
@@ -66,6 +75,8 @@ def validate(records, exhibition_ids, candidate_ids):
             if art.get("verification") not in ("source_app_tested_recheck_pending", "source_app_tested_mirror_rechecked"):
                 issues.append(f"{ident}: status for mirror")
         elif src.get("type") == "wikimedia_commons":
+            if accession and accession not in src.get("file_title", ""):
+                issues.append(f"{ident}: Commons image is not the verified Chicago edition")
             if not src.get("file_title", "").startswith("File:"):
                 issues.append(f"{ident}: missing Commons filename")
             if not src.get("commons_file_page", "").startswith("https://commons.wikimedia.org/wiki/File:"):
