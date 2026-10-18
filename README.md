@@ -40,7 +40,7 @@ python3 scripts/validate_artworks.py
 4. 実際の入力文による選定テストを実施
 5. 合格した品質基準に従い50→100作品と拡張する
 
-**大量追加の前に、利用者の許可を取る。**
+**15〜20作品ずつ作業を区切り、各回に出典・画像・解釈をレビューして報告する。毎回の許可は必須にせず、方針転換・費用発生・外部公開など重要な判断のみ確認する。**
 
 ## 第2バッチ（2026-10-18）：15作品の候補
 
@@ -77,6 +77,21 @@ python3 scripts/validate_artworks.py
 
 ### 自動チェック
 
-[GitHub Actionsの確認ワークフロー](.github/workflows/check-artworks.yml)を用意した。候補・検証スクリプト等の更新時と手動実行時に、形式チェックと公式APIへの読み取り専用チェックを試みる。実行状況はGitHubのActions画面で確認する。
+[GitHub Actionsの確認ワークフロー](.github/workflows/check-artworks.yml)を用意した。通常のpush時は**形式チェック・感情カバレッジ・固定テスト入力の構造チェックのみ**、手動実行時はこれらに加えて**現在の公式APIの照合**を行う。接続失敗などで全候補を確認できなければオンライン確認ジョブは成功と扱わない。実行状況はGitHubのActions画面で確認する。
 
 **注意：GitHub Actionsの成功だけで画像の視認・著作権の総合判断・感情との適合性が保証されるわけではない。** API通信不良時も検証スクリプトが未確認として記録するため、ログ内の成功/未確認件数を必ず参照すること。
+
+## 作品を大量追加する前の選定品質テスト
+
+作品タグを付けるだけでなく、実際の気持ちの文章に合う展示になるかを検証する。
+- [選定品質の試験計画・不足感情](docs/selection-quality-plan.md)
+- [固定テスト入力12件](data/evaluation-cases.json)
+- [タグ別の作品数を調べるスクリプト](scripts/audit_coverage.py)
+- [固定テスト入力の形式チェック](scripts/validate_evaluation_cases.py)
+
+```bash
+python3 scripts/audit_coverage.py
+python3 scripts/validate_evaluation_cases.py
+```
+
+今は絵画の**展示選定アルゴリズム自体は未実装**。テストデータ・チェックがあることと、展示選定の品質が合格していることは別。
