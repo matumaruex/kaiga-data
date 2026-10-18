@@ -28,6 +28,8 @@ jobs:
         run: python3 scripts/validate_artworks.py
       - name: Verify candidate data structure
         run: python3 scripts/validate_candidates.py
+      - name: Verify alternative-image registry
+        run: python3 scripts/check_image_sources.py
       - name: Validate selection test cases
         run: python3 scripts/validate_evaluation_cases.py
       - name: Report emotion coverage
@@ -74,3 +76,28 @@ jobs:
           python-version: "3.12"
       - name: Test public image delivery for potential future museums
         run: python3 scripts/probe_image_hosts.py
+
+  verify-image-sources:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[verify-images]')
+    needs: validate-format
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout dataset
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: "3.12"
+      - name: Check Commons and pinned image sources live
+        run: python3 scripts/check_image_sources.py --online --require-all
+      - name: Save verified source report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: checked-image-sources
+          path: artifacts/verified-image-sources.json
+          if-no-files-found: ignore
+          retention-days: 14
