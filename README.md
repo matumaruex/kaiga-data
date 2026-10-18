@@ -61,7 +61,7 @@ python3 scripts/enrich_candidates.py --write
 python3 scripts/validate_artworks.py
 ```
 
-**注意：** 1行目はdry-runでファイルを変更しない。2行目は条件合格した作品だけをローカルの `data/artworks.json` に追記する（GitHubへの自動コミットなし）。その後必ず差分・画像・解釈を見直してから共有リポジトリに反映すること。
+**注意：** 1行目はdry-runでファイルを変更しない。2行目は条件合格した作品をローカルの `data/metadata-verified-batch-002.json` という**別の審査用ファイル**へ出力する（GitHubへの自動コミットなし）。画像の実表示・作品内容・解釈を見直してから、承認作品だけを本登録すること。
 
 候補ファイルは作成時点の履歴で、昇格後もそのまま保存する。本登録されたかどうかの最新版は `data/artworks.json` を参照する。
 
