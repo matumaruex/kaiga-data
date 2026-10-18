@@ -37,7 +37,26 @@
         ],
         "interpretation": "ダンテのベアトリーチェの死と、画家自身が経験した妻との死別が重なり、取り戻せない相手を思う展示で特に有力。",
         "alternate_reading": "死別だけではなく、超越や再会への希望を読む鑑賞も成立する。",
-        "review_concern": "シカゴ所蔵版とロンドン所蔵の先行版を混同しない。"
+        "review_concern": "シカゴ所蔵版とロンドン所蔵の先行版を混同しない。",
+        "search_profile": {
+          "summary_for_ai": "ベアトリーチェの死と画家自身の死別経験を重ねて読みうる作品。取り戻せない相手への思い、喪失、記憶との関係が強い。",
+          "fitting_situations": [
+            {
+              "situation": "大切な人と死別し、記憶とともに過ごしている",
+              "reason": "作品の文学的背景と作家の死別体験が深く結び付く",
+              "strength": 3
+            },
+            {
+              "situation": "もう会えない人を思い出し、未練や寂しさを感じる",
+              "reason": "失われた相手を思う心情が重なるが、別れの理由は区別が必要",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "相手が生きている失恋を死別と混同しない。所蔵版の違いに注意。"
+          ],
+          "review_status": "draft_source_unverified"
+        }
       },
       "verification": {
         "existence_in_official_sample": true,
@@ -117,7 +136,26 @@
         ],
         "interpretation": "荒れる海で力を合わせる漁師の姿は、しんどい状況でも誰かと踏ん張っている気持ちに響きうる。",
         "alternate_reading": "激しい労働や自然の脅威だけでなく、海の壮大さを味わう風景画としての読みもある。",
-        "review_concern": "画面には労働の過酷さがあるため、単純な励まし用として固定しない。"
+        "review_concern": "画面には労働の過酷さがあるため、単純な励まし用として固定しない。",
+        "search_profile": {
+          "summary_for_ai": "厳しい海で協力して働く人々の題材。不安や困難のなかで持ちこたえ、誰かと力を合わせる感覚を喚起しうる。",
+          "fitting_situations": [
+            {
+              "situation": "不安な状況だけど誰かと協力しながら頑張っている",
+              "reason": "危険な海と漁師たちの協働という題材が重なる",
+              "strength": 3
+            },
+            {
+              "situation": "大変な生活の中でも希望を失いたくない",
+              "reason": "踏ん張る姿に希望を読むことは可能だが、安易な励ましではない",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "悲しみや不安を一律に前向きな教訓へ変えない。"
+          ],
+          "review_status": "draft_source_unverified"
+        }
       },
       "verification": {
         "existence_in_official_sample": true,
@@ -197,7 +235,26 @@
         ],
         "interpretation": "大人が子の足を洗う親密な仕草は、守られていた記憶や誰かを大切にしたい気持ちを呼び起こしうる。",
         "alternate_reading": "親子関係に複雑な経験を持つ人には、安心ではなく痛みや距離を感じさせる可能性もある。",
-        "review_concern": "親子のように見えるが、モデルが母親と断定できるとは限らない。『世話をする人と子』の親密な行為として説明し、家族の関係性を決めつけない。"
+        "review_concern": "親子のように見えるが、モデルが母親と断定できるとは限らない。『世話をする人と子』の親密な行為として説明し、家族の関係性を決めつけない。",
+        "search_profile": {
+          "summary_for_ai": "大人が子どもを世話する親密な場面。守られる記憶、世話する優しさ、安心を感じうる一方、家族の記憶がつらい人には別の響き方もある。",
+          "fitting_situations": [
+            {
+              "situation": "誰かに優しく世話をしてもらった時間が懐かしい",
+              "reason": "身近なケアの行為に守られていた記憶を重ねられる",
+              "strength": 2
+            },
+            {
+              "situation": "大切な人を気遣う、ささやかな愛情を感じたい",
+              "reason": "世話をする行為と親密さが結び付く",
+              "strength": 3
+            }
+          ],
+          "selection_cautions": [
+            "人物を実の母子と確定しない。家族関係に痛みがある利用者には慎重に使う。"
+          ],
+          "review_status": "draft_source_unverified"
+        }
       },
       "verification": {
         "existence_in_official_sample": true,
@@ -278,7 +335,26 @@
         ],
         "interpretation": "絵の明るい色や川辺の情景に穏やかな休日を感じる一方、近くにいる二人が必ずしも親密には見えない点が『一緒にいても距離を感じる』感情と重なりうる。",
         "alternate_reading": "二人の関係を温かな姉妹愛と決めつけず、見知らぬ人物同士が並ぶ絵や、絵画の色彩表現としても鑑賞できる。",
-        "review_concern": "美術館の学術カタログによれば二人は実際の姉妹ではなく、親密な交流も明確には描かれていない。『喜び』『愛情』との安易な結びつけを避ける。"
+        "review_concern": "美術館の学術カタログによれば二人は実際の姉妹ではなく、親密な交流も明確には描かれていない。『喜び』『愛情』との安易な結びつけを避ける。",
+        "search_profile": {
+          "summary_for_ai": "色彩豊かな川辺に並ぶ2人。穏やかな休日にも見える一方、距離感や視線の違いを通して近くにいる相手との隔たりを考えられる。",
+          "fitting_situations": [
+            {
+              "situation": "誰かと同じ場所にいるのに少し距離を感じる",
+              "reason": "並んだ2人を親密な交流と決めつけられないため",
+              "strength": 2
+            },
+            {
+              "situation": "穏やかな休日の雰囲気を感じたい",
+              "reason": "川辺の余暇という場面に合うが、喜びの表現とまでは限らない",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "実際の姉妹ではない。親密な姉妹愛を事実として説明しない。"
+          ],
+          "review_status": "draft_source_unverified"
+        }
       },
       "verification": {
         "existence_in_official_sample": true,
@@ -357,7 +433,26 @@
         ],
         "interpretation": "自分だけの時間を過ごす人物の姿から、他人の評価から少し離れたい気持ちを連想できる。",
         "alternate_reading": "身支度の優雅さや印象派の筆触に魅力を感じる鑑賞もできる。",
-        "review_concern": "内面の孤独は絵から確定できない。"
+        "review_concern": "内面の孤独は絵から確定できない。",
+        "search_profile": {
+          "summary_for_ai": "自分の身支度に向かう女性の場面を、一人の時間や私的な落ち着きとして読むことができる。孤独は必須の解釈ではない。",
+          "fitting_situations": [
+            {
+              "situation": "人と離れて、自分のためだけの時間を過ごしたい",
+              "reason": "内向きの身支度という場面と自発的な独りの時間が重なる",
+              "strength": 2
+            },
+            {
+              "situation": "日常の何気ない瞬間を眺めたい",
+              "reason": "日常の小さな所作へ注意を向けられる",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "一人の人物が描かれているだけでつらい孤独と決めつけない。"
+          ],
+          "review_status": "draft_source_unverified"
+        }
       },
       "verification": {
         "existence_in_official_sample": true,
@@ -437,7 +532,26 @@
         ],
         "interpretation": "読書に向かう人を眺めることで、一人で過ごす時間の充実や、外界から離れたい思いを重ねられる。",
         "alternate_reading": "読む姿を美しく描いた肖像・風俗表現であり、深い感情を意図したとは限らない。",
-        "review_concern": "『孤独』を強いタグにしない。"
+        "review_concern": "『孤独』を強いタグにしない。",
+        "search_profile": {
+          "summary_for_ai": "読書する人物を通して、外の喧噪から離れた時間や自分の関心に集中する静けさを考えられる。",
+          "fitting_situations": [
+            {
+              "situation": "誰にも邪魔されずに本を読んで落ち着きたい",
+              "reason": "読書という行為と自分だけの時間が直接結びつく",
+              "strength": 2
+            },
+            {
+              "situation": "一人で好きなことに没頭したい",
+              "reason": "集中して過ごす独りの時間として見られる",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "読書する姿だけで疎外感や悲痛な孤独を推測しない。"
+          ],
+          "review_status": "draft_source_unverified"
+        }
       },
       "verification": {
         "existence_in_official_sample": true,
@@ -517,7 +631,26 @@
         ],
         "interpretation": "大勢が集まる夜の場に違和感や距離を感じるという、賑わいと孤独が交錯する展示に使える。",
         "alternate_reading": "社交と娯楽の躍動を感じる絵としても読める。",
-        "review_concern": "公式の展覧会解説が不穏な社交空間・疎外感に言及。『群衆の中の孤独』は比較的根拠が強いが、全鑑賞者が同じとは限らない。"
+        "review_concern": "公式の展覧会解説が不穏な社交空間・疎外感に言及。『群衆の中の孤独』は比較的根拠が強いが、全鑑賞者が同じとは限らない。",
+        "search_profile": {
+          "summary_for_ai": "華やかな夜の社交場であっても不穏さや人間関係の隔たりを感じられる作品。人混みの中での孤独に特に関連する。",
+          "fitting_situations": [
+            {
+              "situation": "友人と集まっているのに、居場所がない気がする",
+              "reason": "にぎわいと疎外感が同居する社交場の描写が重なる",
+              "strength": 3
+            },
+            {
+              "situation": "楽しいはずの場がなぜか落ち着かず不安になる",
+              "reason": "夜の社交空間の緊張感に重ねられる",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "社交の場をすべて否定的に描いていると断定しない。"
+          ],
+          "review_status": "draft_source_unverified"
+        }
       },
       "verification": {
         "existence_in_official_sample": true,
@@ -594,7 +727,26 @@
         ],
         "interpretation": "日常の静物を注意深く見つめることに、心を整えたり見慣れた世界を再発見する楽しさを感じられる。",
         "alternate_reading": "均衡を崩す構図に落ち着かなさや緊張を感じることもある。",
-        "review_concern": "『りんご＝愛情・豊かさ』など安易な象徴解釈をしない。"
+        "review_concern": "『りんご＝愛情・豊かさ』など安易な象徴解釈をしない。",
+        "search_profile": {
+          "summary_for_ai": "身近な果物や静物を見つめる作品。日常の形や配置を再発見する好奇心、単純な対象に集中する時間と相性がある。",
+          "fitting_situations": [
+            {
+              "situation": "ありふれたものを違う角度から見てみたい",
+              "reason": "日常的な静物を新しく構成して描く特徴と合う",
+              "strength": 2
+            },
+            {
+              "situation": "落ち着いて身近なものを眺めていたい",
+              "reason": "静物鑑賞の穏やかな時間に重なるが確定的な印象ではない",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "リンゴを恋愛・愛情などの象徴だと勝手に確定しない。"
+          ],
+          "review_status": "draft_source_unverified"
+        }
       },
       "verification": {
         "existence_in_official_sample": true,
@@ -676,7 +828,26 @@
         "content_warnings": [
           "暴力的題材",
           "斬首の描写の可能性"
-        ]
+        ],
+        "search_profile": {
+          "summary_for_ai": "ユディトの物語を題材とする緊張した絵画。理不尽さへの怒り、抵抗、決断を連想できるが、暴力的な題材への配慮が必要。",
+          "fitting_situations": [
+            {
+              "situation": "理不尽なことに対して怒りや抵抗感がある",
+              "reason": "危険に対抗する物語の文脈から連想が可能",
+              "strength": 2
+            },
+            {
+              "situation": "大きな決断を前に怖さと緊張がある",
+              "reason": "危険と決断が同居する主題との接点がある",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "斬首を含む暴力的主題。画像の実確認まで配慮が必要。怒りへの自動推薦は慎重に。"
+          ],
+          "review_status": "draft_source_unverified"
+        }
       },
       "verification": {
         "existence_in_official_sample": true,
@@ -755,7 +926,26 @@
         ],
         "interpretation": "予期していなかった知らせを受け取るという題材が、将来に期待と不安が同居する感覚を連想させる。",
         "alternate_reading": "宗教的な信仰表現として鑑賞する方が自然な人も多い。",
-        "review_concern": "宗教主題を単純な心理描写へ還元しない。"
+        "review_concern": "宗教主題を単純な心理描写へ還元しない。",
+        "search_profile": {
+          "summary_for_ai": "受胎告知という宗教的な知らせを描く作品。予想外の変化を受け取るときの期待と戸惑いを連想できるが、宗教的意味が優先する場合もある。",
+          "fitting_situations": [
+            {
+              "situation": "思いがけない知らせがあり、嬉しさと不安が入り混じっている",
+              "reason": "未来を変える知らせを受け取るという題材が重なる",
+              "strength": 2
+            },
+            {
+              "situation": "新しい人生が始まる気がして期待している",
+              "reason": "予兆や転機として読めるが宗教主題の置き換えではない",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "キリスト教の固有の意味を、一般的な心理表現としてだけ説明しない。"
+          ],
+          "review_status": "draft_source_unverified"
+        }
       },
       "verification": {
         "existence_in_official_sample": true,
@@ -834,7 +1024,26 @@
         ],
         "interpretation": "朝の風景は、何かが始まる直前の静かな期待や、心を整えたい時に合いうる。",
         "alternate_reading": "静謐さよりももの寂しさや時間の儚さを読み取る人もいる。",
-        "review_concern": "題名だけで光の色調や現地の風景を断定しない。"
+        "review_concern": "題名だけで光の色調や現地の風景を断定しない。",
+        "search_profile": {
+          "summary_for_ai": "早朝の風景を描く作品。何かが始まる前の静けさや期待を呼び起こしうるが、光や色調の印象は実画像確認が必要。",
+          "fitting_situations": [
+            {
+              "situation": "新しい一日を少し穏やかな気持ちで迎えたい",
+              "reason": "朝という時間帯を題材としているため",
+              "strength": 2
+            },
+            {
+              "situation": "大きな変化の前に期待と落ち着きを感じたい",
+              "reason": "新しい始まりの比喩として読むことができる",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "題名だけから画面の光、色彩、希望の強さを断定しない。"
+          ],
+          "review_status": "draft_source_unverified"
+        }
       },
       "verification": {
         "existence_in_official_sample": true,
@@ -913,7 +1122,26 @@
         ],
         "interpretation": "自画像と向き合う行為そのものが、自分の姿や他者からの見られ方を考える鑑賞のきっかけになる。",
         "alternate_reading": "人物表情の強い心理解釈をせず、筆遣いや自画像制作の探究として鑑賞できる。",
-        "review_concern": "ゴッホの精神状態について絵だけから診断しない。"
+        "review_concern": "ゴッホの精神状態について絵だけから診断しない。",
+        "search_profile": {
+          "summary_for_ai": "画家自身が自分の姿と向き合う自画像。自己認識や他者からどう見られるかという問いを促すが、表情から病状を推測してはいけない。",
+          "fitting_situations": [
+            {
+              "situation": "自分がどんな人間なのかわからなくなっている",
+              "reason": "自画像と向き合う行為が自己像を考えるきっかけになる",
+              "strength": 2
+            },
+            {
+              "situation": "他人から見える自分と本当の自分の違いが気になる",
+              "reason": "自画像という形式に自己表現の問題を重ねられる",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "画家の精神状態や診断を作品から断定しない。画像IDの過去資料間で不一致あり。"
+          ],
+          "review_status": "draft_source_unverified"
+        }
       },
       "verification": {
         "existence_in_official_sample": true,
@@ -994,7 +1222,26 @@
         ],
         "interpretation": "生活の場と自然が近接する風景が、昔見た場所への郷愁や、落ち着ける場所を探す気持ちと重なりうる。",
         "alternate_reading": "実際には自然の細かな描写や景観構成を楽しむ絵としても鑑賞できる。",
-        "review_concern": "現地の固有の記憶を呼び起こすかは利用者依存。"
+        "review_concern": "現地の固有の記憶を呼び起こすかは利用者依存。",
+        "search_profile": {
+          "summary_for_ai": "水車小屋と自然のある風景。生活と土地が近い情景から、安心できる場所や故郷への懐かしさを連想できる。",
+          "fitting_situations": [
+            {
+              "situation": "昔暮らしていた場所やなじみのある風景が恋しい",
+              "reason": "生活の建物と自然の風景が郷愁を呼びうる",
+              "strength": 2
+            },
+            {
+              "situation": "落ち着ける場所を探している",
+              "reason": "生活の場と自然の組み合わせに居場所を感じうる",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "見る人それぞれの記憶を実際の風景の歴史と混同しない。"
+          ],
+          "review_status": "draft_source_unverified"
+        }
       },
       "verification": {
         "existence_in_official_sample": true,
@@ -1074,7 +1321,26 @@
         ],
         "interpretation": "なじみのある土地を遠くから見渡すような風景が、帰りたい場所や過ぎた時間に思いを向ける鑑賞に向く。",
         "alternate_reading": "風景を地理的・絵画技法的に味わうこともできる。",
-        "review_concern": "作品の具体的な景色と制作年はAPIで追加確認する。"
+        "review_concern": "作品の具体的な景色と制作年はAPIで追加確認する。",
+        "search_profile": {
+          "summary_for_ai": "ある土地の風景を描く作品。時間の経過や帰れない場所への思いなど、郷愁を扱う展示の候補になりうる。",
+          "fitting_situations": [
+            {
+              "situation": "昔の故郷へ戻れないことが少し寂しい",
+              "reason": "特定の土地の風景を過去の場所の記憶に重ねられる",
+              "strength": 2
+            },
+            {
+              "situation": "心の中の帰りたい景色を思い出したい",
+              "reason": "なじみの景色への思いと風景画を結び付けられる",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "制作年や具体的な画面描写は現在の公式データ・画像で確認が必要。"
+          ],
+          "review_status": "draft_source_unverified"
+        }
       },
       "verification": {
         "existence_in_official_sample": true,
@@ -1154,7 +1420,26 @@
         ],
         "interpretation": "海や生活の営みの中で人が交渉する場面が、他者と折り合う緊張や日々を生きる実感につながる。",
         "alternate_reading": "港の活気や自然光を楽しむ風景画としての読みもある。",
-        "review_concern": "競争・対立を作品の主要主題と断言しない。"
+        "review_concern": "競争・対立を作品の主要主題と断言しない。",
+        "search_profile": {
+          "summary_for_ai": "漁船と魚の売買という生活の営み。人とやり取りする緊張や働く日々の現実を連想できるが、競争や対立は断定できない。",
+          "fitting_situations": [
+            {
+              "situation": "仕事や人との交渉で緊張している",
+              "reason": "売買という対人のやり取りを題材にしている",
+              "strength": 2
+            },
+            {
+              "situation": "日々の暮らしを続ける人々の力を感じたい",
+              "reason": "生活を支える営みに重ねられるが鑑賞者の読みを含む",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "魚の取引を必ず対立や争いとみなさない。"
+          ],
+          "review_status": "draft_source_unverified"
+        }
       },
       "verification": {
         "existence_in_official_sample": true,
