@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""公式APIで作品分類・画像・PDを確認し、条件を満たす候補だけを本登録へ昇格。
-初期状態は dry-run。--write の時のみ data/artworks.json を更新する。
+"""公式APIで作品分類・画像・PDを確認し、候補を正式採用前のレビュー用ファイルへ出力する。
+初期状態は dry-run。--write でも data/artworks.json を変更しない。
 第三者の追加ライセンスがある作品、通信不良作品を推測で登録しない。
 """
 import argparse
@@ -29,7 +29,7 @@ def verify(candidate, official):
     src = candidate["source"]
     if official.get("id") != src["artwork_id"]:
         return "ID不一致"
-    if official.get("title", "").strip() != candidate["facts_from_museum_sample"]["title"].strip():
+    if (official.get("title") or "").strip() != candidate["facts_from_museum_sample"]["title"].strip():
         return "公式CSVと現在の作品名が一致しない（手動確認）"
     artist = candidate["facts_from_museum_sample"]["artist"]
     if official.get("artist_title") != artist and artist not in (official.get("artist_display") or ""):
@@ -93,7 +93,7 @@ def promote(candidate, official):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--write", action="store_true", help="API検証に合格した候補だけ本登録ファイルに追記")
+    parser.add_argument("--write", action="store_true", help="API検証に合格した候補を手動審査用の別ファイルへ保存")
     args = parser.parse_args()
     data_path = ROOT / "data/artworks.json"
     candidates = json.loads((ROOT / "data/candidates-batch-002.json").read_text(encoding="utf-8"))["works"]
@@ -118,19 +118,26 @@ def main():
         time.sleep(1.1)
     print(f"確認結果: 合格{len(promoted)}件、未合格{len(candidates)-len(promoted)}件")
     if not args.write:
-        print("dry-run: GitHubへ保存する前の確認のみ。--write でローカルのJSONを更新。")
+        print("dry-run: ファイル変更なし。--write で本登録とは別のレビュー用JSONを生成。")
         return
     if not promoted:
         print("合格作品なし。変更しません。")
         return
-    data["artworks"].extend(promoted)
-    # 本登録ファイルのみを変更し、候補ファイルは監査可能な履歴として残す。
+    # 本登録とは別のレビュー用ファイルに出力する。ここから先は画像視認と内容レビューが必要。
     # コミットやデプロイは勝手にしない。
-    updated = json.dumps(data, ensure_ascii=False, indent=2) + "\n"
-    temp = data_path.with_suffix(".tmp")
+    out_path = ROOT / "data/metadata-verified-batch-002.json"
+    review_data = {
+        "schema_version": data["schema_version"],
+        "batch": "batch-002",
+        "status": "review_pending_not_for_exhibition",
+        "generated_on": datetime.date.today().isoformat(),
+        "artworks": promoted,
+    }
+    updated = json.dumps(review_data, ensure_ascii=False, indent=2) + "\\n"
+    temp = out_path.with_suffix(".tmp")
     temp.write_text(updated, encoding="utf-8")
-    temp.replace(data_path)
-    print(f"data/artworks.json に{len(promoted)}件追記。差分・解釈・画像の人間確認後にコミットしてください。")
+    temp.replace(out_path)
+    print(f"{out_path.relative_to(ROOT)} に{len(promoted)}件保存。画像実表示・解釈を確認してから本登録してください。")
 
 if __name__ == "__main__":
     main()
