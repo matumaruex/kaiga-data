@@ -1,0 +1,127 @@
+{
+  "version": "1.0.0",
+  "purpose": "実際の感情入力に作品選定が適合しているかを人間が評価する、固定テスト集。実際のユーザー情報ではなく架空の文章。",
+  "warning": "作品IDや特定の絵を正解として固定しない。複合感情・文脈・関連の弱い作品を区別し、展示の強制的なハッピーエンドを避ける。",
+  "cases": [
+    {
+      "id": "breakup",
+      "text": "恋人と別れた。まだ好きなのに連絡できない。何をしていても思い出す。",
+      "key_context": "生存している相手との別れ・未練",
+      "target_emotions": [
+        "未練",
+        "喪失感",
+        "寂しさ"
+      ],
+      "wrong_direction": "死別の物語だけに偏る、無理に忘れさせる、暗い色だけで選ぶ"
+    },
+    {
+      "id": "bereavement",
+      "text": "大事な人が亡くなった。あの人がいない家に帰るのがつらい。",
+      "key_context": "死別と生活の空白",
+      "target_emotions": [
+        "喪失感",
+        "寂しさ",
+        "愛情"
+      ],
+      "wrong_direction": "失恋と同一視する、励ましや前向きさを押し付ける"
+    },
+    {
+      "id": "lonely_in_crowd",
+      "text": "友達と一緒にいるのに、誰にもわかってもらえてない気がする。",
+      "key_context": "周りに人がいるのに感じる孤独",
+      "target_emotions": [
+        "孤独",
+        "寂しさ"
+      ],
+      "wrong_direction": "無人の風景だけを機械的に選ぶ"
+    },
+    {
+      "id": "quiet_solitude",
+      "text": "今日は誰にも話しかけられず、ひとりで静かに過ごしたい。",
+      "key_context": "苦痛ではない自発的な独りの時間",
+      "target_emotions": [
+        "安心"
+      ],
+      "wrong_direction": "寂しさ・孤独の苦痛と決めつける"
+    },
+    {
+      "id": "nostalgia",
+      "text": "昔の家を思い出した。戻れないけど、あの頃が懐かしい。",
+      "key_context": "郷愁と時間の不可逆性",
+      "target_emotions": [
+        "懐かしさ",
+        "寂しさ"
+      ],
+      "wrong_direction": "単に家が描かれている作品だけで選ぶ"
+    },
+    {
+      "id": "intimacy",
+      "text": "一緒に食事していると、何も特別なことがなくても幸せだなと思う。",
+      "key_context": "日常の親密さ・穏やかな幸福",
+      "target_emotions": [
+        "安心",
+        "喜び"
+      ],
+      "wrong_direction": "過度な恋愛表現や劇的な作品に寄りすぎる"
+    },
+    {
+      "id": "new_beginning",
+      "text": "新しい場所で生活が始まる。楽しみだけど、少しこわい。",
+      "key_context": "期待と不安が同時にある",
+      "target_emotions": [
+        "期待",
+        "不安",
+        "希望"
+      ],
+      "wrong_direction": "楽しい・怖いどちらか一方に切り捨てる"
+    },
+    {
+      "id": "anger",
+      "text": "不公平な扱いを受けた。悔しくて、怒りが収まらない。",
+      "key_context": "理不尽さ・怒り・悔しさ",
+      "target_emotions": [
+        "怒り"
+      ],
+      "wrong_direction": "暴力を肯定する、怒りを否定する説教をする"
+    },
+    {
+      "id": "joy",
+      "text": "ずっと努力してきたことがやっと実った！嬉しくて仕方ない。",
+      "key_context": "達成・高揚・喜び",
+      "target_emotions": [
+        "喜び",
+        "期待"
+      ],
+      "wrong_direction": "単にカラフルな作品を機械的に集める"
+    },
+    {
+      "id": "ambiguity",
+      "text": "安心しているはずなのに、なぜか少し寂しい。",
+      "key_context": "安心と寂しさの同居",
+      "target_emotions": [
+        "安心",
+        "寂しさ"
+      ],
+      "wrong_direction": "単一感情に決めつける"
+    },
+    {
+      "id": "uncertain_mood",
+      "text": "なんとなく落ち着かない。理由も自分でわからない。",
+      "key_context": "理由の不明な不安定さ",
+      "target_emotions": [
+        "不安"
+      ],
+      "wrong_direction": "入力していない原因を推測して断言する"
+    },
+    {
+      "id": "curiosity",
+      "text": "まだ見たことのない世界を知りたい。何か驚くようなものを見たい。",
+      "key_context": "探究心と発見",
+      "target_emotions": [
+        "好奇心",
+        "期待"
+      ],
+      "wrong_direction": "有名作品ばかりで意外性をなくす"
+    }
+  ]
+}
