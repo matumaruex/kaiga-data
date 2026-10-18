@@ -36,13 +36,11 @@
       "curation": {
         "emotions": [
           "安心",
-          "懐かしさ",
-          "好奇心"
+          "懐かしさ"
         ],
         "emotion_strengths": {
           "安心": 2,
-          "懐かしさ": 1,
-          "好奇心": 1
+          "懐かしさ": 1
         },
         "tones": [
           "静けさ",
@@ -53,28 +51,45 @@
           "日常",
           "時間"
         ],
-        "interpretation": "水車と大屋根のある田園の景色が、平穏な場所や昔の風景を思い出したい気分に重なる可能性がある。",
-        "alternate_reading": "実際には自然の細かな描写や景観構成を楽しむ絵としても鑑賞できる。",
-        "source_context_note": "17世紀のオランダの田園、水車小屋の赤い大屋根、橋、木々、流れる水が構成する風景。特定の個人的な故郷の物語ではなく、建物と水辺の景観を丁寧に描く。",
+        "interpretation": "自然と人の仕事が共にある落ち着いた風景を、平穏さに接続する。ただし作者の感情の証拠ではない。",
+        "alternate_reading": "安心は鑑賞との接点であって、ホッベマ本人が『安心』を表したと証明できない。",
+        "source_context_note": "自然と人の営みが隣接するオランダの水車を題材にした風景画。画面は現地の暮らしの物語よりも景観の描写に力点がある。",
         "evidence_url": "https://www.artic.edu/artworks/869",
         "search_profile": {
-          "summary_for_ai": "赤い大屋根の水車小屋と流れ落ちる水、橋、木々を描く田園風景。落ち着きや風景への懐かしさを連想させる。",
+          "summary_for_ai": "作品固有の作者発言は未確認。赤い屋根の水車小屋、水流、樹木を精緻に構成した17世紀オランダの田園風景画。作者が自分の故郷や安らぎを象徴させたという一次資料は確認できない。 選定上は：自然と人の仕事が共にある落ち着いた風景を、平穏さに接続する。ただし作者の感情の証拠ではない。",
           "fitting_situations": [
             {
-              "situation": "昔暮らしていた場所やなじみのある風景が恋しい",
-              "reason": "生活の建物と自然の風景が郷愁を呼びうる",
-              "strength": 2
-            },
-            {
-              "situation": "落ち着ける場所を探している",
-              "reason": "生活の場と自然の組み合わせに居場所を感じうる",
+              "situation": "忙しさから離れ、穏やかな生活の景色に触れたい",
+              "reason": "自然と暮らしを重ねたオランダ風景画を、平穏の手掛かりとして見る",
               "strength": 2
             }
           ],
           "selection_cautions": [
-            "描かれた地域と利用者の故郷を同一視しない。『懐かしさ』は見る人の記憶による弱めの連想。"
+            "作者個人の郷愁を実証した作品として扱わない。"
           ],
           "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "赤い屋根の水車小屋、水流、樹木を精緻に構成した17世紀オランダの田園風景画。作者が自分の故郷や安らぎを象徴させたという一次資料は確認できない。",
+            "source_url": "https://www.artic.edu/artworks/869"
+          },
+          "creation_context": "自然と人の営みが隣接するオランダの水車を題材にした風景画。画面は現地の暮らしの物語よりも景観の描写に力点がある。",
+          "visual_clues": "赤い屋根の水車、水流、橋、緑の木々が同一の風景に収まる。",
+          "uncertainty_note": "安心は鑑賞との接点であって、ホッベマ本人が『安心』を表したと証明できない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "安心"
+          ],
+          "secondary": [
+            "懐かしさ"
+          ]
         }
       },
       "review": {
@@ -84,7 +99,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主1〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。"
       }
     },
     {
@@ -120,13 +135,11 @@
       "curation": {
         "emotions": [
           "懐かしさ",
-          "安心",
-          "寂しさ"
+          "好奇心"
         ],
         "emotion_strengths": {
           "懐かしさ": 2,
-          "安心": 1,
-          "寂しさ": 1
+          "好奇心": 1
         },
         "tones": [
           "静けさ",
@@ -137,28 +150,45 @@
           "記憶",
           "時間"
         ],
-        "interpretation": "なじみのある土地と教会の景色に、過ぎた時間や戻りたい風景を重ねられる。一方、動きのある空や筆触から、必ずしも静かな安心だけを感じるとは限らない。",
-        "alternate_reading": "風景を地理的・絵画技法的に味わうこともできる。",
-        "source_context_note": "1836年頃のコンスタブルの風景画。サフォーク州ストーク・バイ・ネイランドの教会と周辺の樹木・草原を描く。画家のよく知るイングランド東部の景観で、完成画の前段階に近い油彩習作としても理解できる。",
-        "evidence_url": "https://www.artic.edu/artworks/4758/stoke-by-nayland",
+        "interpretation": "作者が何度も戻った身近な土地という背景を、昔の場所を思う気持ちに接続する。",
+        "alternate_reading": "土地への愛着と『帰りたい』『寂しい』という制作意図は同義ではない。",
+        "source_context_note": "画家はこの地方を長年描き、晩年にも教会の見える構図に戻った。シカゴ所蔵作は完成作品に至る前の大画面の習作。",
+        "evidence_url": "https://www.nationaltrustcollections.org.uk/object/515728",
         "search_profile": {
-          "summary_for_ai": "サフォークの教会と周囲の木々・風景を描いたコンスタブルの大きな油彩習作。慣れ親しんだ土地の記憶や変わりゆく空を連想できる。",
+          "summary_for_ai": "作品固有の作者発言は未確認。コンスタブルが繰り返し描いたサフォークのストーク＝バイ＝ネイランドの教会周辺を、大きな油彩習作にまとめた。故郷の絆は制作の場所・反復から考えられるが、特定の心理を断定しない。 選定上は：作者が何度も戻った身近な土地という背景を、昔の場所を思う気持ちに接続する。",
           "fitting_situations": [
             {
-              "situation": "昔よく知っていた土地の風景が恋しい",
-              "reason": "画家が描き慣れたサフォークの村と教会の景色が重なる",
+              "situation": "長く親しんだ場所の記憶と向き合いたい",
+              "reason": "同じ土地を繰り返し題材にした作者の制作背景がある",
               "strength": 2
-            },
-            {
-              "situation": "懐かしい風景でも、どこか落ち着かなさがある",
-              "reason": "空と木々の表現から静けさだけでない気分を読み取れる",
-              "strength": 1
             }
           ],
           "selection_cautions": [
-            "メトロポリタン美術館の同名の『Stoke-by-Nayland』油彩習作（別作品）と混同しない。"
+            "同名のメトロポリタン美術館所蔵作と混同しない。故郷への悲哀を作者の明言としない。"
           ],
           "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "コンスタブルが繰り返し描いたサフォークのストーク＝バイ＝ネイランドの教会周辺を、大きな油彩習作にまとめた。故郷の絆は制作の場所・反復から考えられるが、特定の心理を断定しない。",
+            "source_url": "https://www.nationaltrustcollections.org.uk/object/515728"
+          },
+          "creation_context": "画家はこの地方を長年描き、晩年にも教会の見える構図に戻った。シカゴ所蔵作は完成作品に至る前の大画面の習作。",
+          "visual_clues": "教会の塔と樹木、広い空が大胆な筆触で扱われている。",
+          "uncertainty_note": "土地への愛着と『帰りたい』『寂しい』という制作意図は同義ではない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "懐かしさ"
+          ],
+          "secondary": [
+            "好奇心"
+          ]
         }
       },
       "review": {
@@ -168,7 +198,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主1〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。"
       }
     },
     {
@@ -208,7 +238,7 @@
         ],
         "emotion_strengths": {
           "不安": 2,
-          "好奇心": 2
+          "好奇心": 1
         },
         "tones": [
           "にぎわい",
@@ -219,28 +249,45 @@
           "自然",
           "共同体"
         ],
-        "interpretation": "波間で営みを続ける人々と、大きな海・光・船の迫力を感じられる。自然の力への不安や活気に結びつくが、交渉の心理描写ではない。",
-        "alternate_reading": "港の活気や自然光を楽しむ風景画としての読みもある。",
-        "source_context_note": "1837/38年のターナーの海景画。帆船や小舟のあいだで魚を取引する題名だが、画面には大きな帆、波、空の明暗が目立つ。取引に伴う対人不安を主題として断定するのは不適切。",
-        "evidence_url": "https://commons.wikimedia.org/wiki/File:Joseph_Mallord_William_Turner_-_Fishing_Boats_with_Hucksters_Bargaining_for_Fish_-_1922.4472_-_Art_Institute_of_Chicago.jpg",
+        "interpretation": "海の圧倒的な力という美術館の解説から、不確実さへの不安に接続する。",
+        "alternate_reading": "『商談の不安』ではなく自然の力との対比が主な根拠。本人の当該作品への直接発言は未確認。",
+        "source_context_note": "1837〜38年ごろのターナーの海景。魚の値段を交渉する小さな人々を、大きな海と空の中に配置している。",
+        "evidence_url": "https://archive.artic.edu/sciarttech/global_pages/g3.3.html",
         "search_profile": {
-          "summary_for_ai": "帆を広げた漁船、小舟、波と光に満ちたターナーの海景。魚の売買も描くが、主な鑑賞軸は海の変化と生きる営みの迫力。",
+          "summary_for_ai": "作品固有の作者発言は未確認。シカゴ美術館の教育資料は、荒れる海・膨らむ帆・脅威を感じさせる空と、自然の制御できない力を描き出す光や絵具の技法を中心に説明する。 選定上は：海の圧倒的な力という美術館の解説から、不確実さへの不安に接続する。",
           "fitting_situations": [
             {
-              "situation": "先が見えない状況で緊張しながら動いている",
-              "reason": "波と大きな船が生む不安定さを比喩的に鑑賞できる",
-              "strength": 2
-            },
-            {
-              "situation": "荒々しい自然や光の変化に心を動かされたい",
-              "reason": "船、波、空の強い動きが画面の中心にある",
+              "situation": "自分より大きな状況を前に戸惑っている",
+              "reason": "自然の圧倒的な力に対する人間の小ささという作品の読みと重なる",
               "strength": 2
             }
           ],
           "selection_cautions": [
-            "魚の売買から単純に『人間関係の対立』や『商談の不安』を導かない。"
+            "人間関係の交渉を作者の主題と断定しない。"
           ],
           "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "シカゴ美術館の教育資料は、荒れる海・膨らむ帆・脅威を感じさせる空と、自然の制御できない力を描き出す光や絵具の技法を中心に説明する。",
+            "source_url": "https://archive.artic.edu/sciarttech/global_pages/g3.3.html"
+          },
+          "creation_context": "1837〜38年ごろのターナーの海景。魚の値段を交渉する小さな人々を、大きな海と空の中に配置している。",
+          "visual_clues": "船の帆と波、空の明暗が人間の姿を包み込む。",
+          "uncertainty_note": "『商談の不安』ではなく自然の力との対比が主な根拠。本人の当該作品への直接発言は未確認。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "不安"
+          ],
+          "secondary": [
+            "好奇心"
+          ]
         }
       },
       "review": {
@@ -250,7 +297,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主1〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。"
       }
     },
     {
@@ -285,12 +332,12 @@
       },
       "curation": {
         "emotions": [
-          "安心",
-          "好奇心"
+          "好奇心",
+          "安心"
         ],
         "emotion_strengths": {
-          "安心": 2,
-          "好奇心": 1
+          "好奇心": 2,
+          "安心": 1
         },
         "tones": [
           "静けさ",
@@ -300,28 +347,45 @@
           "日常",
           "他者との距離"
         ],
-        "interpretation": "人目から離れた身支度の時間や、鏡に向かうときの自分だけの時間を連想できる。孤独の苦痛や『他人の評価から離れたい』気持ちは画面からは決められない。",
-        "alternate_reading": "身支度の優雅さや印象派の筆触に魅力を感じる鑑賞もできる。",
-        "source_context_note": "1875〜80年作。後ろ向きの女性が化粧台の前で髪に手をやる。花模様の背景や鏡が淡い筆触で描かれ、当時の都会の女性の私的な身支度が絵画の題材になっている。オルセー美術館もモリゾの身支度を描く連作の文脈で紹介している。",
-        "evidence_url": "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/berthe-morisot-1841-1895",
+        "interpretation": "何気ない女性の身支度を絵画表現の対象にする視点に、日常の発見という好奇心をつなぐ。",
+        "alternate_reading": "本人が静けさや安心感を鑑賞者に与えようとしたとは確認できない。",
+        "source_context_note": "1875〜80年ごろのモリゾ作品。身支度という私的な時間を淡い色彩・筆触によって表現している。",
+        "evidence_url": "https://shop.artic.edu/products/42642",
         "search_profile": {
-          "summary_for_ai": "背を向けて髪を整える女性と鏡、柔らかい筆触の花模様。都会の女性の私的な身支度を描き、自分だけの時間や静けさを連想させる。",
+          "summary_for_ai": "作品固有の作者発言は未確認。シカゴ美術館は、控えめな筆触と色調によって近代の日常生活の気配を凝縮した絵と紹介する。女性の心の孤独を語る資料ではない。 選定上は：何気ない女性の身支度を絵画表現の対象にする視点に、日常の発見という好奇心をつなぐ。",
           "fitting_situations": [
             {
-              "situation": "自分だけの時間を静かに過ごしたい",
-              "reason": "身支度する人物を後ろ姿で描いた私的な場面が重なる",
-              "strength": 2
-            },
-            {
-              "situation": "日常の細かい所作をゆっくり眺めたい",
-              "reason": "身支度の小さな動作と印象派の筆触が中心にある",
+              "situation": "毎日の見慣れた時間を違う角度で見たい",
+              "reason": "身支度の場面を淡い色調の近代絵画として表現した点と重なる",
               "strength": 2
             }
           ],
           "selection_cautions": [
-            "女性が1人だからといって、苦痛としての孤独を推測しない。"
+            "ひとりの人物だから孤独と決めつけない。感情は鑑賞者にとっての接点。"
           ],
           "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "シカゴ美術館は、控えめな筆触と色調によって近代の日常生活の気配を凝縮した絵と紹介する。女性の心の孤独を語る資料ではない。",
+            "source_url": "https://shop.artic.edu/products/42642"
+          },
+          "creation_context": "1875〜80年ごろのモリゾ作品。身支度という私的な時間を淡い色彩・筆触によって表現している。",
+          "visual_clues": "鏡に向かう女性の背中、淡い色調、室内の布・花の質感。",
+          "uncertainty_note": "本人が静けさや安心感を鑑賞者に与えようとしたとは確認できない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": [
+            "安心"
+          ]
         }
       },
       "review": {
@@ -331,7 +395,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主1〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。"
       }
     },
     {
@@ -366,12 +430,12 @@
       },
       "curation": {
         "emotions": [
-          "安心",
-          "好奇心"
+          "好奇心",
+          "安心"
         ],
         "emotion_strengths": {
-          "安心": 1,
-          "好奇心": 2
+          "好奇心": 2,
+          "安心": 1
         },
         "tones": [
           "静けさ",
@@ -382,28 +446,45 @@
           "他者との距離",
           "休息"
         ],
-        "interpretation": "外界を完全に遮断した読書ではなく、街の中で読み物に向かうひととき。人混みで自分の関心へ注意を向ける感覚につなげられる。",
-        "alternate_reading": "読む姿を美しく描いた肖像・風俗表現であり、深い感情を意図したとは限らない。",
-        "source_context_note": "1879/80年ごろ。女性は新聞・雑誌のような読み物を持ち、帽子と手袋を着け、ビールのグラスがそばにある。ゲティ美術館の学芸員解説は屋外カフェ風の場面だが画面が演出されたことにも注意している。",
-        "evidence_url": "https://www.getty.edu/art/mobile/center/manet/stop.php?id=370075",
+        "interpretation": "現代の都市的な生活にある小さな場面を見つめ直すという芸術上の関心と好奇心をつなぐ。",
+        "alternate_reading": "読書しているから『孤独』、安らいでいるという心情は確認できない。",
+        "source_context_note": "1879〜80年作。近代的な服装の女性の読書と飲み物が画面にあり、室内の隠遁とは異なる都市の日常が題材。",
+        "evidence_url": "https://archive.artic.edu/500ways/artwork/14591",
         "search_profile": {
-          "summary_for_ai": "手袋と帽子を着けた女性が屋外カフェ風の場で読み物を持つ。飲み物や背景の草花も描かれ、街の中で好きなことに集中する時間を連想させる。",
+          "summary_for_ai": "作品固有の作者発言は未確認。マネは現代の都市生活を描いた画家であり、帽子・手袋を着け、カフェのような場で読み物を持つ女性の姿が都市的な日常を示す。ただしこの作品で何を感じてほしかったかという明言は未確認。 選定上は：現代の都市的な生活にある小さな場面を見つめ直すという芸術上の関心と好奇心をつなぐ。",
           "fitting_situations": [
             {
-              "situation": "カフェなど外の場所で、一人で好きなことに没頭したい",
-              "reason": "身なりを整えた人物が読み物を手にしている場面に重なる",
-              "strength": 2
-            },
-            {
-              "situation": "街のにぎわいと自分の静かな時間を両立したい",
-              "reason": "公共のように見える場と私的な読書の組み合わせがある",
+              "situation": "身近な都市生活や人のふるまいに発見を求める",
+              "reason": "近代の暮らしを題材にした作品として鑑賞できる",
               "strength": 2
             }
           ],
           "selection_cautions": [
-            "静かな自室で本を読んでいる絵ではない。深刻な孤独や疎外感を強い関連として扱わない。"
+            "公共のような場面を『誰にも邪魔されない自室』や『孤独』とは説明しない。"
           ],
           "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "マネは現代の都市生活を描いた画家であり、帽子・手袋を着け、カフェのような場で読み物を持つ女性の姿が都市的な日常を示す。ただしこの作品で何を感じてほしかったかという明言は未確認。",
+            "source_url": "https://archive.artic.edu/500ways/artwork/14591"
+          },
+          "creation_context": "1879〜80年作。近代的な服装の女性の読書と飲み物が画面にあり、室内の隠遁とは異なる都市の日常が題材。",
+          "visual_clues": "読み物、帽子、手袋、飲み物など日常の細部が同時に描かれる。",
+          "uncertainty_note": "読書しているから『孤独』、安らいでいるという心情は確認できない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": [
+            "安心"
+          ]
         }
       },
       "review": {
@@ -413,7 +494,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主1〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。"
       }
     },
     {
@@ -449,13 +530,11 @@
       "curation": {
         "emotions": [
           "安心",
-          "喜び",
-          "好奇心"
+          "喜び"
         ],
         "emotion_strengths": {
           "安心": 2,
-          "喜び": 2,
-          "好奇心": 1
+          "喜び": 1
         },
         "tones": [
           "にぎわい",
@@ -466,28 +545,45 @@
           "日常",
           "自然"
         ],
-        "interpretation": "花と川辺の豊かな色彩、人物の装いが穏やかな屋外の時間を感じさせる。人物同士の心理的な距離を物語として決めつけず、まず色彩と余暇の光景を楽しむ作品。",
-        "alternate_reading": "人物間に心の隔たりを読む人もいるが、画面から事実とは断定できない。主な鑑賞軸は色彩、装い、余暇の景観。",
-        "source_context_note": "1881年、セーヌ川沿いのシャトゥのテラスを舞台にした作品。年長のモデルは女優志望だったジャンヌ・ダルローで、実際の姉妹を描いたわけではない。題名『二人の姉妹』は画商が用いた。美術館の研究は新緑や花と人物の筆触の違いも重視する。",
+        "interpretation": "表面は穏やかな余暇だが人物の関係は不明という、見た目と解釈のずれを踏まえた選定。",
+        "alternate_reading": "『2人が喜んでいる』『家族愛を描いた』は資料で証明できない。穏やかさも専門家の分析・鑑賞への接点。",
+        "source_context_note": "1881年のセーヌ川沿いの余暇の情景。年長の女性のモデルはジャンヌ・ダルローで、少女との関係は未確定。",
         "evidence_url": "https://publications.artic.edu/renoir/api/epub/135446/135639/print_view",
         "search_profile": {
-          "summary_for_ai": "ルノワールの川辺のテラスにいる若い女性と子ども。明るい花々と装い、穏やかな余暇の空気を描く。モデルは実際の姉妹ではない。",
+          "summary_for_ai": "作品固有の作者発言は未確認。シカゴ美術館の学術研究では、穏やかなテラスの風景の一方、人物の心理的な親密さが明示されず、筆触の違いと構図の対比を指摘する。題名の『姉妹』は画商によるもので、実際の姉妹ではない。 選定上は：表面は穏やかな余暇だが人物の関係は不明という、見た目と解釈のずれを踏まえた選定。",
           "fitting_situations": [
             {
-              "situation": "穏やかな休日の彩りや楽しい空気を味わいたい",
-              "reason": "花と川辺のテラスを描く明るい色調、余暇の場面と重なる",
-              "strength": 2
-            },
-            {
-              "situation": "何気ない日常の美しさに少し気持ちが明るくなる",
-              "reason": "鮮やかな花や洋服の色彩が視覚的な楽しさを生む",
+              "situation": "穏やかさの中の言葉にしづらい違和感を味わいたい",
+              "reason": "美術館の研究は田園的な穏やかさと人物同士の非交流の両面に触れている",
               "strength": 2
             }
           ],
           "selection_cautions": [
-            "2人は実の姉妹と確認された関係ではない。『近くにいても孤独』という意味を優先しない。"
+            "『実の姉妹の愛情』と断定しない。2人の感情を勝手に代弁しない。"
           ],
           "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "シカゴ美術館の学術研究では、穏やかなテラスの風景の一方、人物の心理的な親密さが明示されず、筆触の違いと構図の対比を指摘する。題名の『姉妹』は画商によるもので、実際の姉妹ではない。",
+            "source_url": "https://publications.artic.edu/renoir/api/epub/135446/135639/print_view"
+          },
+          "creation_context": "1881年のセーヌ川沿いの余暇の情景。年長の女性のモデルはジャンヌ・ダルローで、少女との関係は未確定。",
+          "visual_clues": "色鮮やかな衣装と花、川辺、並ぶ2人の異なる表情。",
+          "uncertainty_note": "『2人が喜んでいる』『家族愛を描いた』は資料で証明できない。穏やかさも専門家の分析・鑑賞への接点。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "安心"
+          ],
+          "secondary": [
+            "喜び"
+          ]
         }
       },
       "review": {
@@ -497,7 +593,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主1〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。"
       }
     },
     {
@@ -533,12 +629,10 @@
       "curation": {
         "emotions": [
           "希望",
-          "不安",
           "期待"
         ],
         "emotion_strengths": {
-          "希望": 1,
-          "不安": 1,
+          "希望": 2,
           "期待": 1
         },
         "tones": [
@@ -549,28 +643,45 @@
           "愛情",
           "時間"
         ],
-        "interpretation": "予期しない変化を受け入れる瞬間としても鑑賞できるが、宗教的な受胎告知を日常の朗報や恋愛成就として扱わない。",
-        "alternate_reading": "宗教的な信仰表現として鑑賞する方が自然な人も多い。",
-        "source_context_note": "1490〜95年ごろの聖母マリアへの受胎告知を描く板絵。天使ガブリエルの知らせとマリアの受容というキリスト教の受肉の主題を持つ。シカゴ美術館は本来は祭壇画の右側断片と説明している。",
+        "interpretation": "将来への希望を、単なる明るい知らせではなく宗教的な受容や信仰の文脈で扱う。",
+        "alternate_reading": "作者自身が『希望という気持ちを描いた』と述べた資料は未確認。希望はキリスト教の救済という宗教的文脈からの限定的な接続。",
+        "source_context_note": "1490〜95年頃、ジャン・エイが宮廷と関係する宗教画として制作。現存作は大きな祭壇画の一部で、左右の主題が関連する。",
         "evidence_url": "https://archive.artic.edu/kings-queens/artwork/16327",
         "search_profile": {
-          "summary_for_ai": "天使ガブリエルが聖母マリアに受胎を告げる宗教画。本来は祭壇画の一部。信仰・受容・転機を示すが、単純な喜びのイメージとは異なる。",
+          "summary_for_ai": "作品固有の作者発言は未確認。キリスト教の受胎告知と、マリアによる受容の場面。シカゴ美術館によれば元は祭壇画の右側部分で、受肉という信仰上の出来事を示す。 選定上は：将来への希望を、単なる明るい知らせではなく宗教的な受容や信仰の文脈で扱う。",
           "fitting_situations": [
             {
-              "situation": "人生の大きな変化を受け止めようとしている",
-              "reason": "知らせと受容という宗教的場面を比喩的に鑑賞できる",
-              "strength": 1
-            },
-            {
-              "situation": "宗教的な意味を含めて未来への期待や畏れを考えたい",
-              "reason": "受胎告知の主題そのものに関心がある",
+              "situation": "信仰や大きな変化を受け入れる心のあり方を考えたい",
+              "reason": "受胎告知の図像が、受容と救済の歴史的な意味を持つ",
               "strength": 2
             }
           ],
           "selection_cautions": [
-            "本来は祭壇画の断片。信仰上の固有の意味があり、普通の『嬉しい知らせ』の代用にしない。"
+            "日常の嬉しい知らせに機械的に結びつけない。祭壇画の一部である意味を消さない。"
           ],
           "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "キリスト教の受胎告知と、マリアによる受容の場面。シカゴ美術館によれば元は祭壇画の右側部分で、受肉という信仰上の出来事を示す。",
+            "source_url": "https://archive.artic.edu/kings-queens/artwork/16327"
+          },
+          "creation_context": "1490〜95年頃、ジャン・エイが宮廷と関係する宗教画として制作。現存作は大きな祭壇画の一部で、左右の主題が関連する。",
+          "visual_clues": "天使の告知とマリアの応答、室内の建築構成。",
+          "uncertainty_note": "作者自身が『希望という気持ちを描いた』と述べた資料は未確認。希望はキリスト教の救済という宗教的文脈からの限定的な接続。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "希望"
+          ],
+          "secondary": [
+            "期待"
+          ]
         }
       },
       "review": {
@@ -580,7 +691,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主1〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。"
       }
     },
     {
@@ -617,13 +728,11 @@
         "emotions": [
           "喪失感",
           "未練",
-          "寂しさ",
           "希望"
         ],
         "emotion_strengths": {
           "喪失感": 3,
           "未練": 2,
-          "寂しさ": 2,
           "希望": 1
         },
         "tones": [
@@ -635,28 +744,46 @@
           "別れ",
           "記憶"
         ],
-        "interpretation": "死別の痛みと取り戻せない相手への思い、なお心の中で続く関係を重ねられる。下部の再会の情景は、悲嘆の中に救済や再会のイメージを含む。",
-        "alternate_reading": "死別の悲しみだけでなく、宗教的な救済・理想化された愛や再会のイメージを読むこともできる。",
-        "source_context_note": "シカゴ所蔵作は、ロンドンの先行作を踏まえた1871/72年の別バージョン。ベアトリーチェの死にロセッティの亡妻エリザベス・シダルの記憶が重なる。画面下の小画面（プレデッラ）には天国で再会するダンテとベアトリーチェを描く。",
+        "interpretation": "作者の具体的な喪失体験が題材と結びつく稀に根拠の強い作品。死別後の思いに特に関連する。",
+        "alternate_reading": "本人の手紙からこの版の感情を逐語的に確定したわけではない。死別と再会は美術館の説明が支持する。",
+        "source_context_note": "作者は1862年に妻を失い、ダンテの『新生』に着想して複数の版を描いた。シカゴ版はロンドン所蔵の初版とは別の1871〜72年作。",
         "evidence_url": "https://archive.artic.edu/apostlesbeauty/artwork/16551",
         "search_profile": {
-          "summary_for_ai": "シカゴ所蔵の『祝福されたベアトリーチェ』別版。死にゆくベアトリーチェと亡妻の記憶、下部の天国での再会が重なる。死別・喪失の複雑さに強く結び付く。",
+          "summary_for_ai": "作品固有の作者発言は未確認。ダンテのベアトリーチェの死を描きつつ、亡妻エリザベス・シダルへのロセッティ自身の思いが重なる。シカゴ所蔵版の下部には天国での2人の再会を表す小画面があり、喪失と救済が併存する。 選定上は：作者の具体的な喪失体験が題材と結びつく稀に根拠の強い作品。死別後の思いに特に関連する。",
           "fitting_situations": [
             {
-              "situation": "大切な人と死別し、記憶とともに過ごしている",
-              "reason": "作品の文学的背景と作家の死別体験が深く結び付く",
+              "situation": "亡くした大切な相手と心の中で向き合い続けている",
+              "reason": "作者の亡妻の記憶とベアトリーチェの死の物語が美術館資料で結ばれる",
               "strength": 3
-            },
-            {
-              "situation": "もう会えない人を思い出し、未練や寂しさを感じる",
-              "reason": "失われた相手を思う心情が重なるが、別れの理由は区別が必要",
-              "strength": 2
             }
           ],
           "selection_cautions": [
-            "相手が生きている失恋を死別と混同しない。所蔵版の違いに注意。"
+            "生きている相手との失恋と死別を混同しない。ロンドンの初版と混同しない。"
           ],
           "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "ダンテのベアトリーチェの死を描きつつ、亡妻エリザベス・シダルへのロセッティ自身の思いが重なる。シカゴ所蔵版の下部には天国での2人の再会を表す小画面があり、喪失と救済が併存する。",
+            "source_url": "https://archive.artic.edu/apostlesbeauty/artwork/16551"
+          },
+          "creation_context": "作者は1862年に妻を失い、ダンテの『新生』に着想して複数の版を描いた。シカゴ版はロンドン所蔵の初版とは別の1871〜72年作。",
+          "visual_clues": "死にゆく女性の姿と、画面下部の再会を描く小画面。",
+          "uncertainty_note": "本人の手紙からこの版の感情を逐語的に確定したわけではない。死別と再会は美術館の説明が支持する。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喪失感",
+            "未練"
+          ],
+          "secondary": [
+            "希望"
+          ]
         }
       },
       "review": {
@@ -666,7 +793,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主1〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。"
       }
     },
     {
@@ -701,8 +828,8 @@
       },
       "curation": {
         "emotions": [
-          "安心",
-          "好奇心"
+          "好奇心",
+          "安心"
         ],
         "tones": [
           "静けさ",
@@ -714,32 +841,49 @@
           "休息",
           "時間"
         ],
-        "interpretation": "岸辺や地平線が見えず水面に意識が向くため、忙しさから距離を置き、静かに自分の感覚に戻りたい気分の展示に合いうる。",
-        "alternate_reading": "水面の揺らぎや輪郭の曖昧さに、落ち着きよりも不確かさを感じる人もいる。",
-        "source_context_note": "美術館の学術解説では、睡蓮そのものだけでなく、水面の反射や光と天候の変化がモネにとって重要だったことが説明されている。",
+        "interpretation": "穏やかな花の絵に見えて、作者の中心的な関心は水面の光の変化にあったという発見につなぐ。",
+        "alternate_reading": "モネは連作で光や反射を重視したが、1906年のこの1点を『安心させるため』に描いたという証拠はない。",
+        "source_context_note": "自宅の水の庭を数年にわたり描いた連作の一つ。水面を『鏡』として捉える考えを、後年公開された画家のインタビューが伝える。",
         "emotion_strengths": {
-          "安心": 3,
-          "好奇心": 1
+          "好奇心": 2,
+          "安心": 1
         },
-        "evidence_url": "https://publications.artic.edu/node/135621",
+        "evidence_url": "https://publications.artic.edu/api/epub/monet/135621/print_view",
         "search_profile": {
-          "summary_for_ai": "水面に浮かぶ睡蓮と光の変化に意識を向ける作品。休息や余韻を求める気持ちに合うが、揺らぎを不確かさと読む余地もある。",
+          "summary_for_ai": "本人の関連題材への記録あり。モネの1906年作は、水面の反射・時間で変わる光や天候を探る睡蓮連作の一部。学術研究は瞬間的に見える画面の背後に、長い制作・入念な塗り重ねがあると示している。 選定上は：穏やかな花の絵に見えて、作者の中心的な関心は水面の光の変化にあったという発見につなぐ。",
           "fitting_situations": [
             {
-              "situation": "疲れたので、何も考えず静かに過ごしたい",
-              "reason": "水面に集中する構図と静かな鑑賞体験が重なる",
+              "situation": "当たり前の景色の中にも新しい発見をしたい",
+              "reason": "モネが水面の反射の変化を研究したという作者の語りと結びつく",
               "strength": 3
-            },
-            {
-              "situation": "気持ちが揺れているので、静かに自分の感覚を見つめたい",
-              "reason": "揺れる水面を比喩的に読む可能性があるが鑑賞者依存",
-              "strength": 1
             }
           ],
           "selection_cautions": [
-            "『希望』や『喜び』を直接表現する作品として扱わない。"
+            "水面の見た目の静けさを、作者が『安心』を伝えた証拠とはしない。"
           ],
           "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "related_motif_or_series",
+            "summary": "睡蓮の題材では、花以上に水面に映る空や、刻々と変わる光・天候を表現したことを後年のインタビューで語っている。",
+            "source_url": "https://publications.artic.edu/api/epub/monet/135621/print_view"
+          },
+          "scholarly_interpretation": {
+            "summary": "モネの1906年作は、水面の反射・時間で変わる光や天候を探る睡蓮連作の一部。学術研究は瞬間的に見える画面の背後に、長い制作・入念な塗り重ねがあると示している。",
+            "source_url": "https://publications.artic.edu/api/epub/monet/135621/print_view"
+          },
+          "creation_context": "自宅の水の庭を数年にわたり描いた連作の一つ。水面を『鏡』として捉える考えを、後年公開された画家のインタビューが伝える。",
+          "visual_clues": "岸や地平線が見えず、水面と反射、睡蓮が画面を満たす。",
+          "uncertainty_note": "モネは連作で光や反射を重視したが、1906年のこの1点を『安心させるため』に描いたという証拠はない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": [
+            "安心"
+          ]
         }
       },
       "review": {
@@ -749,7 +893,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "元の『希望』はこの絵との直接的な関連が弱いため削除。『安心』は鑑賞上の落ち着きとして強め、『好奇心』は水面の表現への関心として弱め。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主1〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。"
       }
     },
     {
@@ -785,7 +929,6 @@
       "curation": {
         "emotions": [
           "孤独",
-          "不安",
           "好奇心"
         ],
         "tones": [
@@ -797,33 +940,49 @@
           "他者との距離",
           "時間"
         ],
-        "interpretation": "人が行き交う街路でも視線が交わらないことから、雑踏の中で誰かと距離を感じる気持ちにつなげて鑑賞できる。",
-        "alternate_reading": "都市の活力、洗練された服装、雨天の散歩の楽しさとして鑑賞することもできる。",
-        "source_context_note": "美術館は、近代パリの大通りと人物の匿名性、互いに距離を置く様子を作品の特徴として説明している。",
+        "interpretation": "近代都市で人々が匿名化するという美術館の研究から、群衆の中の孤独に接続する。",
+        "alternate_reading": "『孤独』は近代都市の匿名性という研究からの接続。作者本人の心理を表現したと断定しない。",
+        "source_context_note": "1877年のパリの都市改造期を題材に、現実らしさと構成された場面を重ねた作品。大きな画面と精緻な空間構成が特徴。",
         "emotion_strengths": {
           "孤独": 3,
-          "不安": 1,
           "好奇心": 1
         },
-        "evidence_url": "https://archive.artic.edu/500ways/artwork/20684?from=14591",
+        "evidence_url": "https://publications.artic.edu/caillebotte/reader/paintingsanddrawings/section/574/p-42",
         "search_profile": {
-          "summary_for_ai": "近代都市の雨の交差点を行く人々。大勢が近くにいても関係が交わらない感覚を表し、都市の匿名性や他者との距離を考えさせる。",
+          "summary_for_ai": "作品固有の作者発言は未確認。美術館の学術研究は、パリの改造された大通りを異例の大画面と写真のような構図で示した近代都市の作品と説明する。離れた人物たちの匿名性は専門家の読みであり、作者が孤独を明言した証拠ではない。 選定上は：近代都市で人々が匿名化するという美術館の研究から、群衆の中の孤独に接続する。",
           "fitting_situations": [
             {
-              "situation": "人に囲まれているのに、誰ともつながれていない気がする",
-              "reason": "同じ画面内の人々が関わらず通り過ぎるという構図が重なる",
-              "strength": 3
-            },
-            {
-              "situation": "新しい街で周りの人になじめず、少し不安を感じる",
-              "reason": "都市の広がりと匿名性から連想できるが、作品主題そのものとは限らない",
-              "strength": 1
+              "situation": "人に囲まれているのに、つながれないと感じる",
+              "reason": "都市空間の匿名性を描く作品として専門家が位置づけている",
+              "strength": 2
             }
           ],
           "selection_cautions": [
-            "『孤独』でも死別・失恋・自ら望む一人の時間とは区別する。"
+            "作者が悲しかった証拠でも、死別の題材でもない。孤独は研究と利用者の接点。"
           ],
           "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "美術館の学術研究は、パリの改造された大通りを異例の大画面と写真のような構図で示した近代都市の作品と説明する。離れた人物たちの匿名性は専門家の読みであり、作者が孤独を明言した証拠ではない。",
+            "source_url": "https://publications.artic.edu/caillebotte/reader/paintingsanddrawings/section/574/p-42"
+          },
+          "creation_context": "1877年のパリの都市改造期を題材に、現実らしさと構成された場面を重ねた作品。大きな画面と精緻な空間構成が特徴。",
+          "visual_clues": "傘を持つ群衆と広い交差点、互いに交わらない視線、正確な遠近法。",
+          "uncertainty_note": "『孤独』は近代都市の匿名性という研究からの接続。作者本人の心理を表現したと断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "孤独"
+          ],
+          "secondary": [
+            "好奇心"
+          ]
         }
       },
       "review": {
@@ -833,7 +992,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "美術館の説明にも人物の匿名性・距離があり『孤独』の根拠が比較的強い。『不安』『好奇心』は鑑賞上の連想に留まる。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主1〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。"
       }
     },
     {
@@ -869,13 +1028,11 @@
       "curation": {
         "emotions": [
           "不安",
-          "希望",
-          "安心"
+          "希望"
         ],
         "emotion_strengths": {
           "不安": 3,
-          "希望": 2,
-          "安心": 1
+          "希望": 2
         },
         "tones": [
           "緊張",
@@ -886,28 +1043,44 @@
           "共同体",
           "日常"
         ],
-        "interpretation": "足元の不安定さと、協力して作業を続ける人々のたくましさが同時に見える。厳しい状況の中で踏ん張っている気持ちに重なる。",
-        "alternate_reading": "激しい労働や自然の脅威だけでなく、海の壮大さを味わう風景画としての読みもある。",
-        "source_context_note": "1885年作。波に揺れる小舟の上で2人の漁師がニシンの網を引き上げ、船を安定させようとする。シカゴ美術館は危険な海と日常の共同作業、生存に必要な連携と人間の強さを解説している。",
+        "interpretation": "危険な海での協力と持ちこたえる営みという専門家の解釈に、不安と希望を接続する。",
+        "alternate_reading": "希望は生存のための協力からの読みであり、作者が誰かを励ます目的で描いたと確定したものではない。",
+        "source_context_note": "ホーマーは米東海岸や英国の漁村での経験を重ね、1880年代から海と人間の営みを重要な主題とした。",
         "evidence_url": "https://archive.artic.edu/homer_exhb/artwork/25865",
         "search_profile": {
-          "summary_for_ai": "厳しい海で協力して働く人々の題材。不安や困難のなかで持ちこたえ、誰かと力を合わせる感覚を喚起しうる。",
+          "summary_for_ai": "作品固有の作者発言は未確認。海で2人の漁師が危険な状況の中、互いに作業を分担する。シカゴ美術館は自然と人間の対決と、生活を支える協力を英雄的に描く作品と説明する。 選定上は：危険な海での協力と持ちこたえる営みという専門家の解釈に、不安と希望を接続する。",
           "fitting_situations": [
             {
-              "situation": "不安な状況だけど誰かと協力しながら頑張っている",
-              "reason": "危険な海と漁師たちの協働という題材が重なる",
-              "strength": 3
-            },
-            {
-              "situation": "大変な生活の中でも希望を失いたくない",
-              "reason": "踏ん張る姿に希望を読むことは可能だが、安易な励ましではない",
+              "situation": "厳しい状況でも誰かと支え合っている",
+              "reason": "作者が漁師の危険な仕事と協働を力強く表現したと美術館が説明する",
               "strength": 2
             }
           ],
           "selection_cautions": [
-            "悲しみや不安を一律に前向きな教訓へ変えない。"
+            "ただの希望・成功・励ましの象徴として押しつけない。"
           ],
           "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "海で2人の漁師が危険な状況の中、互いに作業を分担する。シカゴ美術館は自然と人間の対決と、生活を支える協力を英雄的に描く作品と説明する。",
+            "source_url": "https://archive.artic.edu/homer_exhb/artwork/25865"
+          },
+          "creation_context": "ホーマーは米東海岸や英国の漁村での経験を重ね、1880年代から海と人間の営みを重要な主題とした。",
+          "visual_clues": "小舟を揺らす海、2人の漁師、重い網と遠くの船影。",
+          "uncertainty_note": "希望は生存のための協力からの読みであり、作者が誰かを励ます目的で描いたと確定したものではない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "不安",
+            "希望"
+          ],
+          "secondary": []
         }
       },
       "review": {
@@ -917,7 +1090,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主1〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。"
       }
     },
     {
@@ -952,9 +1125,8 @@
       },
       "curation": {
         "emotions": [
-          "安心",
           "好奇心",
-          "孤独"
+          "安心"
         ],
         "tones": [
           "にぎわい",
@@ -965,33 +1137,49 @@
           "他者との距離",
           "日常"
         ],
-        "interpretation": "同じ場所で余暇を過ごす多様な人々を眺めながら、集団の中の一員である感覚と、互いに交わらない距離感の両方を考えられる。",
-        "alternate_reading": "単に穏やかな休日や楽しげな人々の光景としても鑑賞できる。",
-        "source_context_note": "美術館は、グランド・ジャット島を舞台として多様な人物を構成し、点描技法と作品の制作過程が重要だと説明している。",
+        "interpretation": "一見すると穏やかな休日風景だが作者の核心は色彩の科学的研究という意外性を扱う。",
+        "alternate_reading": "人々が無表情だから孤独、休日だから喜びを作者が描いたという推測は避ける。",
+        "source_context_note": "制作前に多数の素描・小油彩を準備し、1884〜86年の大作で色と視覚に関する実験を進めた。",
         "emotion_strengths": {
-          "安心": 2,
           "好奇心": 2,
-          "孤独": 1
+          "安心": 1
         },
         "evidence_url": "https://archive.artic.edu/seurat/seurat_themes.html",
         "search_profile": {
-          "summary_for_ai": "公園で過ごす人々を描く。休日の穏やかさと、大勢いるのに人間関係が希薄に見える距離感を同時に感じられる。",
+          "summary_for_ai": "作品固有の作者発言は未確認。グランド・ジャット島で過ごす人々を大画面に配置し、補色を並べて混色させる色彩理論・点描法を徹底的に試した作品。穏やかな休日を感情的に祝福したという根拠はない。 選定上は：一見すると穏やかな休日風景だが作者の核心は色彩の科学的研究という意外性を扱う。",
           "fitting_situations": [
             {
-              "situation": "人の多い場所を眺めながら、のんびり休日を過ごしたい",
-              "reason": "余暇を過ごす人々と落ち着いた場面が合う",
-              "strength": 2
-            },
-            {
-              "situation": "誰かと同じ場所にいても、少しだけ隔たりを感じる",
-              "reason": "人物間の非交流として読む余地があるが、確定的な主題ではない",
-              "strength": 1
+              "situation": "見慣れた風景の背後にある発明や仕組みを知りたい",
+              "reason": "多数の習作と色彩理論による表現の探究が作品の重要な背景",
+              "strength": 3
             }
           ],
           "selection_cautions": [
-            "人物の距離を『失恋の悲しみ』と直結させない。"
+            "孤独や陽気さを作品の確定的主題として置かない。"
           ],
           "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "グランド・ジャット島で過ごす人々を大画面に配置し、補色を並べて混色させる色彩理論・点描法を徹底的に試した作品。穏やかな休日を感情的に祝福したという根拠はない。",
+            "source_url": "https://archive.artic.edu/seurat/seurat_themes.html"
+          },
+          "creation_context": "制作前に多数の素描・小油彩を準備し、1884〜86年の大作で色と視覚に関する実験を進めた。",
+          "visual_clues": "遠目には休日の群像、近くでは細かな色点と精密な人物配置が見える。",
+          "uncertainty_note": "人々が無表情だから孤独、休日だから喜びを作者が描いたという推測は避ける。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": [
+            "安心"
+          ]
         }
       },
       "review": {
@@ -1001,7 +1189,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "元の『寂しさ』は失恋・欠落を直接示す証拠が弱いので削除。人物の距離や非交流を読む弱い『孤独』に変更した。穏やかな休日と点描による観察への『安心』『好奇心』は中程度。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主1〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。"
       }
     },
     {
@@ -1037,7 +1225,6 @@
       "curation": {
         "emotions": [
           "安心",
-          "懐かしさ",
           "寂しさ"
         ],
         "tones": [
@@ -1049,33 +1236,49 @@
           "休息",
           "日常"
         ],
-        "interpretation": "人の姿のない私室が、自分だけの居場所を求める気持ちや、ひとりで落ち着きたい感覚と重なりうる。",
-        "alternate_reading": "色彩の強さや不自然な遠近感を、安らぎよりも緊張として感じる鑑賞者もいる。",
-        "source_context_note": "ゴッホは最初の『寝室』（1888年）について色彩で休息を表したいと書いており、シカゴ所蔵の1889年作は、その題材の第2版に当たる。",
+        "interpretation": "作者の休息の意図と、後年に再び同じ部屋を描いた境遇との間にあるずれを、鑑賞の入口にする。",
+        "alternate_reading": "1888年の『休息』という説明を1889年の第2版にそのまま心理的に同一視せず、再制作の背景との差を残す。",
+        "source_context_note": "最初の作品はアルルの黄色い家で描いた。シカゴの第2版は療養期の再制作で、壁の肖像も初版から変わる。",
         "emotion_strengths": {
           "安心": 3,
-          "懐かしさ": 1,
           "寂しさ": 1
         },
-        "evidence_url": "https://www.nortonsimon.org/exhibitions/2010-2019/vangoghbedroom",
+        "evidence_url": "https://archive.artic.edu/van-gogh-bedrooms/portraits",
         "search_profile": {
-          "summary_for_ai": "人のいない寝室を描き、休息や自分だけの居場所を連想させる。色彩の強さや独特な遠近感から、静けさの中の不安も読み取れる。",
+          "summary_for_ai": "本人の関連題材への記録あり。ゴッホは最初の『寝室』（1888年）について、色彩によって眠り・休息を示したいと弟に書いた。シカゴの1889年版は同じ題材の再制作だが、共同制作の夢が破れた後という制作状況に違いがある。 選定上は：作者の休息の意図と、後年に再び同じ部屋を描いた境遇との間にあるずれを、鑑賞の入口にする。",
           "fitting_situations": [
             {
-              "situation": "他人と距離を置き、自分だけの部屋で静かに落ち着きたい",
-              "reason": "作者の休息への意図と、私室という題材が合う",
+              "situation": "休息を求めているが、どこか落ち着かなさもある",
+              "reason": "初版での作者自身の休息の言葉と、シカゴ版を描き直した背景を併せて理解できる",
               "strength": 3
-            },
-            {
-              "situation": "昔の部屋や安心できた場所を思い出している",
-              "reason": "個人的な居場所の記憶に重ねられるが、鑑賞者依存の解釈",
-              "strength": 1
             }
           ],
           "selection_cautions": [
-            "失恋・死別を直接描いた作品ではない。寂しさの語だけで強く優先しない。"
+            "初版1888年の手紙をシカゴ版1889年の直接の制作声明と取り違えない。"
           ],
           "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "related_motif_or_series",
+            "summary": "1888年の最初の『寝室』について、色彩の単純化で休息や眠りを感じさせたいと手紙で説明した。",
+            "source_url": "https://ontrafel.vangogh.nl/en/story/37/the-colour-has-to-do-the-job-here/"
+          },
+          "scholarly_interpretation": {
+            "summary": "ゴッホは最初の『寝室』（1888年）について、色彩によって眠り・休息を示したいと弟に書いた。シカゴの1889年版は同じ題材の再制作だが、共同制作の夢が破れた後という制作状況に違いがある。",
+            "source_url": "https://archive.artic.edu/van-gogh-bedrooms/portraits"
+          },
+          "creation_context": "最初の作品はアルルの黄色い家で描いた。シカゴの第2版は療養期の再制作で、壁の肖像も初版から変わる。",
+          "visual_clues": "シンプルな室内、強い色の対比、傾いた遠近感、誰もいないベッドと椅子。",
+          "uncertainty_note": "1888年の『休息』という説明を1889年の第2版にそのまま心理的に同一視せず、再制作の背景との差を残す。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "安心"
+          ],
+          "secondary": [
+            "寂しさ"
+          ]
         }
       },
       "review": {
@@ -1085,7 +1288,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "「安心」はゴッホが休息を意図したという資料があり強い。『懐かしさ』『寂しさ』は見る人による連想のため弱い。シカゴ本は1889年の第2版である点にも注意。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主1〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。"
       }
     },
     {
@@ -1121,13 +1324,11 @@
       "curation": {
         "emotions": [
           "孤独",
-          "不安",
-          "好奇心"
+          "不安"
         ],
         "emotion_strengths": {
           "孤独": 3,
-          "不安": 2,
-          "好奇心": 2
+          "不安": 1
         },
         "tones": [
           "にぎわい",
@@ -1138,28 +1339,45 @@
           "他者との距離",
           "日常"
         ],
-        "interpretation": "大勢が同じ場にいても関係がかみ合わない、にぎわいと距離感が同時に存在する場面。『人の中にいる孤独』を考える際に有力。",
-        "alternate_reading": "社交と娯楽の躍動を感じる絵としても読める。",
-        "source_context_note": "19世紀末パリのムーラン・ルージュを描く作品。にぎわう社交場で、人物間の視線のずれや奇妙な光、手前の強い色彩によって居心地の悪さも生じる。シカゴ美術館の展覧会解説が社交の疎外感を取り上げている。",
+        "interpretation": "作者がよく知る華やかな場を、疎外感と同時に描いたという矛盾が強い接点になる。",
+        "alternate_reading": "作者本人が人混みの中で孤独を感じていたという心理の断定ではない。作品の表現効果についての専門家の評価。",
+        "source_context_note": "1890年代のムーラン・ルージュを知る作者が、その場の踊り手・知人や自分自身も描いた。外から想像した社交場ではない。",
         "evidence_url": "https://archive.artic.edu/toulouse_lautrec/themes.html",
         "search_profile": {
-          "summary_for_ai": "華やかな夜の社交場であっても不穏さや人間関係の隔たりを感じられる作品。人混みの中での孤独に特に関連する。",
+          "summary_for_ai": "作品固有の作者発言は未確認。シカゴ美術館は、モンマルトルの社交場に集う実在の人物を歪んだ遠近感と強い色彩で描き、魅力と疎外感を同時に生む作品と解説する。 選定上は：作者がよく知る華やかな場を、疎外感と同時に描いたという矛盾が強い接点になる。",
           "fitting_situations": [
             {
-              "situation": "友人と集まっているのに、居場所がない気がする",
-              "reason": "にぎわいと疎外感が同居する社交場の描写が重なる",
+              "situation": "にぎやかな集まりの中にいても疎外感がある",
+              "reason": "美術館の研究ではこの社交場の描写を魅力的でありながら疎外的と捉える",
               "strength": 3
-            },
-            {
-              "situation": "楽しいはずの場がなぜか落ち着かず不安になる",
-              "reason": "夜の社交空間の緊張感に重ねられる",
-              "strength": 2
             }
           ],
           "selection_cautions": [
-            "社交の場をすべて否定的に描いていると断定しない。"
+            "作者の私生活上の孤独や精神状態まで絵から断定しない。"
           ],
           "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "シカゴ美術館は、モンマルトルの社交場に集う実在の人物を歪んだ遠近感と強い色彩で描き、魅力と疎外感を同時に生む作品と解説する。",
+            "source_url": "https://archive.artic.edu/toulouse_lautrec/themes.html"
+          },
+          "creation_context": "1890年代のムーラン・ルージュを知る作者が、その場の踊り手・知人や自分自身も描いた。外から想像した社交場ではない。",
+          "visual_clues": "斜めに切り取られた集団、手前の不自然な光、人物のずれた視線。",
+          "uncertainty_note": "作者本人が人混みの中で孤独を感じていたという心理の断定ではない。作品の表現効果についての専門家の評価。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "孤独"
+          ],
+          "secondary": [
+            "不安"
+          ]
         }
       },
       "review": {
@@ -1169,7 +1387,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主1〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。"
       }
     },
     {
@@ -1205,13 +1423,11 @@
       "curation": {
         "emotions": [
           "安心",
-          "懐かしさ",
-          "希望"
+          "好奇心"
         ],
         "emotion_strengths": {
           "安心": 2,
-          "懐かしさ": 1,
-          "希望": 1
+          "好奇心": 1
         },
         "tones": [
           "静けさ",
@@ -1221,28 +1437,45 @@
           "自然",
           "時間"
         ],
-        "interpretation": "木々のあいだに光がある静かな早朝の風景。落ち着きや一日の始まりへの気持ちを連想できるが、希望を作品の中心主題と決めつけない。",
-        "alternate_reading": "静謐さよりももの寂しさや時間の儚さを読み取る人もいる。",
-        "source_context_note": "1892年作。フロリダのターポン・スプリングスの朝、背の高い木々と低い屋根の建物、人影や水辺を描く。穏やかな土地の空気を画面にまとめた作品で、特定の『新しい出発』の物語はない。",
+        "interpretation": "晩年の自然観と早朝の風景の組み合わせから、静かに向き合う感覚に関連する。",
+        "alternate_reading": "新しい人生の『希望』を示す作品と断定しない。信仰・霊性も本人がこの特定作品で語ったと証明はできない。",
+        "source_context_note": "1892年のフロリダ、ターポン・スプリングスの朝の光景。作者はこの地で多くの風景を制作し、自然を精神的な体験に結び付けていた。",
         "evidence_url": "https://www.si.edu/object/early-morning-tarpon-springs-painting%3Asiris_ari_254879",
         "search_profile": {
-          "summary_for_ai": "フロリダの朝の木々、屋根、離れた人影が描かれた穏やかな風景。新しい朝の静けさに合うが、『希望』そのものを語る作品ではない。",
+          "summary_for_ai": "作品固有の作者発言は未確認。ジョージ・イネスの晩年の風景表現は、自然に精神的な意味を見いだし、形の細部より全体の気配を重視した。フロリダの朝を描いたこの作品も、光と風景の静かなまとまりを中心に理解できる。 選定上は：晩年の自然観と早朝の風景の組み合わせから、静かに向き合う感覚に関連する。",
           "fitting_situations": [
             {
-              "situation": "朝の静けさに気持ちを整えたい",
-              "reason": "背の高い木と朝の光景が落ち着いた鑑賞に向く",
+              "situation": "心を静めながら、自然の中の精神的な広がりを感じたい",
+              "reason": "晩年の風景で自然を精神的な思索と結ぶ作者の制作傾向がある",
               "strength": 2
-            },
-            {
-              "situation": "慣れ親しんだ町や風景を思い出している",
-              "reason": "家屋のある風景が個人の記憶につながる可能性がある",
-              "strength": 1
             }
           ],
           "selection_cautions": [
-            "小さな人影を孤独や特定のドラマに直結させない。朝＝必ず希望という解釈を避ける。"
+            "『朝の絵だから希望を描いた』とは主張しない。個別作品の直接的な作者声明は未確認。"
           ],
           "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "ジョージ・イネスの晩年の風景表現は、自然に精神的な意味を見いだし、形の細部より全体の気配を重視した。フロリダの朝を描いたこの作品も、光と風景の静かなまとまりを中心に理解できる。",
+            "source_url": "https://www.si.edu/object/early-morning-tarpon-springs-painting%3Asiris_ari_254879"
+          },
+          "creation_context": "1892年のフロリダ、ターポン・スプリングスの朝の光景。作者はこの地で多くの風景を制作し、自然を精神的な体験に結び付けていた。",
+          "visual_clues": "高い木々、淡い朝の光、小さな人影と低い建物。",
+          "uncertainty_note": "新しい人生の『希望』を示す作品と断定しない。信仰・霊性も本人がこの特定作品で語ったと証明はできない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "安心"
+          ],
+          "secondary": [
+            "好奇心"
+          ]
         }
       },
       "review": {
@@ -1252,7 +1485,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主1〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。"
       }
     },
     {
@@ -1287,14 +1520,10 @@
       },
       "curation": {
         "emotions": [
-          "好奇心",
-          "不安",
-          "孤独"
+          "好奇心"
         ],
         "emotion_strengths": {
-          "好奇心": 2,
-          "不安": 1,
-          "孤独": 1
+          "好奇心": 2
         },
         "tones": [
           "緊張",
@@ -1304,28 +1533,43 @@
           "他者との距離",
           "日常"
         ],
-        "interpretation": "自画像と向き合うことで自己像や他者に見せる姿について考えられるが、悲しみ・孤独・不安は絵から自動的には読み取れない。",
-        "alternate_reading": "人物表情の強い心理解釈をせず、筆遣いや自画像制作の探究として鑑賞できる。",
-        "source_context_note": "1887年のゴッホの自画像。自分をモデルに肖像を描く行為と筆触・色彩の研究に注意を向ける。表情や後年の病状を結び付けて心理状態を診断しない。",
-        "evidence_url": "https://www.artic.edu/artworks/80607",
+        "interpretation": "作者の美術的な学びや技法実験の文脈から、新しい視点への関心に結び付ける。",
+        "alternate_reading": "人物の表情を後年の苦悩の予兆と読み、心理状態を診断しない。",
+        "source_context_note": "パリで弟テオと暮らし、多様な画家の新しい色彩表現に触れていた時期の自画像。",
+        "evidence_url": "https://archive.artic.edu/vangogh/paris.html",
         "search_profile": {
-          "summary_for_ai": "ゴッホが自分を描いた自画像。自分の姿を見つめ直す問いと筆触の実験を鑑賞できる。作者の精神状態や孤独を決めつけない。",
+          "summary_for_ai": "作品固有の作者発言は未確認。1887年のパリでゴッホは印象派・新印象派の色彩や筆遣いを集中的に学んだ。同時期の自画像は、自己を題材にした表現の実験として理解できる。 選定上は：作者の美術的な学びや技法実験の文脈から、新しい視点への関心に結び付ける。",
           "fitting_situations": [
             {
-              "situation": "自分の見え方や自分らしさを考えている",
-              "reason": "自画像という形式そのものが自己像を問いかける",
-              "strength": 2
-            },
-            {
-              "situation": "顔の表情や色彩、筆遣いの違いに興味がある",
-              "reason": "自画像を通して絵画表現に向き合える",
+              "situation": "自分の見え方や表現の仕方を探っている",
+              "reason": "作者が同時期に色彩・筆触の技法を研究していたことが知られている",
               "strength": 2
             }
           ],
           "selection_cautions": [
-            "不安や孤独を作者の病状の証拠として扱わない。後年の伝記を絵に投影しない。"
+            "孤独や病状を制作意図に置き換えない。"
           ],
           "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "1887年のパリでゴッホは印象派・新印象派の色彩や筆遣いを集中的に学んだ。同時期の自画像は、自己を題材にした表現の実験として理解できる。",
+            "source_url": "https://archive.artic.edu/vangogh/paris.html"
+          },
+          "creation_context": "パリで弟テオと暮らし、多様な画家の新しい色彩表現に触れていた時期の自画像。",
+          "visual_clues": "正面を見つめる顔と、短い筆触や色彩の組み合わせ。",
+          "uncertainty_note": "人物の表情を後年の苦悩の予兆と読み、心理状態を診断しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": []
         }
       },
       "review": {
@@ -1335,7 +1579,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主1〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。"
       }
     },
     {
@@ -1370,12 +1614,10 @@
       },
       "curation": {
         "emotions": [
-          "好奇心",
-          "安心"
+          "好奇心"
         ],
         "emotion_strengths": {
-          "好奇心": 3,
-          "安心": 1
+          "好奇心": 3
         },
         "tones": [
           "静けさ",
@@ -1384,28 +1626,43 @@
         "themes": [
           "日常"
         ],
-        "interpretation": "身近な物を見慣れた角度とは違う視点で捉え直すおもしろさと、構図のわずかな不安定さを一緒に感じられる。",
-        "alternate_reading": "均衡を崩す構図に落ち着かなさや緊張を感じることもある。",
-        "source_context_note": "1893年ごろの静物画。りんごの籠・瓶・皿・布を描くが、物の傾きや卓上の整合しない視点によって、ただの落ち着いた静物ではなく見ることそのものを考えさせる。",
-        "evidence_url": "https://archive.artic.edu/cezannetopicasso/works.html",
+        "interpretation": "身近なりんごを描く絵が、実は世界の見方そのものを変える試みだったという発見に結び付く。",
+        "alternate_reading": "作者が『安心』を伝えたとする資料はない。研究で説明される絵画的な問いと、鑑賞者の知的な関心を結ぶ。",
+        "source_context_note": "1893年ごろに制作された静物。見慣れた果物を描きながら、遠近感の整合しない構成が強い表現上の特色となった。",
+        "evidence_url": "https://smarthistory.org/cezanne-the-basket-of-apples/",
         "search_profile": {
-          "summary_for_ai": "りんごの籠や瓶、布を描いたセザンヌの静物。机や物の角度が微妙にずれ、身近な対象を新たに見つめ直す好奇心につながる。",
+          "summary_for_ai": "作品固有の作者発言は未確認。りんごの籠・瓶・皿・布の配置とずれた卓上の線を通して、単一視点で奥行きを作る従来の方法を問い直す静物画と専門家は分析する。 選定上は：身近なりんごを描く絵が、実は世界の見方そのものを変える試みだったという発見に結び付く。",
           "fitting_situations": [
             {
-              "situation": "ありふれたものを違う角度から見てみたい",
-              "reason": "日常的な静物を新しく構成して描く特徴と合う",
-              "strength": 2
-            },
-            {
-              "situation": "落ち着いて身近なものを眺めていたい",
-              "reason": "静物鑑賞の穏やかな時間に重なるが確定的な印象ではない",
-              "strength": 1
+              "situation": "当たり前だと思っていた見方を疑いたい",
+              "reason": "専門家が複数の視点・遠近法の再検討を作品の特色として説明している",
+              "strength": 3
             }
           ],
           "selection_cautions": [
-            "リンゴを恋愛・愛情などの象徴だと勝手に確定しない。"
+            "りんごを恋愛・幸福の象徴だと作り上げない。"
           ],
           "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "りんごの籠・瓶・皿・布の配置とずれた卓上の線を通して、単一視点で奥行きを作る従来の方法を問い直す静物画と専門家は分析する。",
+            "source_url": "https://smarthistory.org/cezanne-the-basket-of-apples/"
+          },
+          "creation_context": "1893年ごろに制作された静物。見慣れた果物を描きながら、遠近感の整合しない構成が強い表現上の特色となった。",
+          "visual_clues": "傾いた籠、ずれるテーブルの縁、複数の方向から見たような物の配置。",
+          "uncertainty_note": "作者が『安心』を伝えたとする資料はない。研究で説明される絵画的な問いと、鑑賞者の知的な関心を結ぶ。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": []
         }
       },
       "review": {
@@ -1415,7 +1672,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主1〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。"
       }
     },
     {
@@ -1451,13 +1708,11 @@
       "curation": {
         "emotions": [
           "安心",
-          "懐かしさ",
-          "喜び"
+          "懐かしさ"
         ],
         "emotion_strengths": {
           "安心": 3,
-          "懐かしさ": 2,
-          "喜び": 1
+          "懐かしさ": 1
         },
         "tones": [
           "静けさ",
@@ -1468,28 +1723,45 @@
           "日常",
           "休息"
         ],
-        "interpretation": "足を洗うという日常の手当てから、人に守られる感覚、または誰かを大切にする気持ちを連想できる。描かれた2人の実際の親族関係は決めつけない。",
-        "alternate_reading": "親子関係に複雑な経験を持つ人には、安心ではなく痛みや距離を感じさせる可能性もある。",
-        "source_context_note": "1893年作。大人が子どもの足を洗う行為を描く。親密な仕草と上から見下ろす構図・平坦な模様には日本の版画表現の影響があるとシカゴ美術館は説明している。",
-        "evidence_url": "https://shop.artic.edu/collections/post-impressionism/products/292372",
+        "interpretation": "無理に美化せず日常のケアを描く制作上の関心が、安心やいたわりと接続する。",
+        "alternate_reading": "2人が実際の親子だと断定しない。世話の表現が必ずしも見る人に安心を与えるとは限らない。",
+        "source_context_note": "1893年のカサット作品。女性と子どもの日常のケアを重視し、高い視点や反復する模様で画面を組み立てた。",
+        "evidence_url": "https://www.artic.edu/assets/f85bee6b-d18b-5577-a9e6-f429421b4654",
         "search_profile": {
-          "summary_for_ai": "大人が子どもを世話する親密な場面。守られる記憶、世話する優しさ、安心を感じうる一方、家族の記憶がつらい人には別の響き方もある。",
+          "summary_for_ai": "作品固有の作者発言は未確認。シカゴ美術館の研究資料は、子どもの世話をする人物の自然な身ぶりや親密さと、感傷化を避けた表現・日本版画に学んだ構図を特徴として説明する。 選定上は：無理に美化せず日常のケアを描く制作上の関心が、安心やいたわりと接続する。",
           "fitting_situations": [
             {
-              "situation": "誰かに優しく世話をしてもらった時間が懐かしい",
-              "reason": "身近なケアの行為に守られていた記憶を重ねられる",
+              "situation": "誰かに世話される、あるいは世話をする日常の親密さを思う",
+              "reason": "自然な手の動きと子どもの落ち着きを美術館資料が特徴としている",
               "strength": 2
-            },
-            {
-              "situation": "大切な人を気遣う、ささやかな愛情を感じたい",
-              "reason": "世話をする行為と親密さが結び付く",
-              "strength": 3
             }
           ],
           "selection_cautions": [
-            "人物を実の母子と確定しない。家族関係に痛みがある利用者には慎重に使う。"
+            "母子の実際の血縁や作者個人の家族体験を捏造しない。"
           ],
           "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "シカゴ美術館の研究資料は、子どもの世話をする人物の自然な身ぶりや親密さと、感傷化を避けた表現・日本版画に学んだ構図を特徴として説明する。",
+            "source_url": "https://www.artic.edu/assets/f85bee6b-d18b-5577-a9e6-f429421b4654"
+          },
+          "creation_context": "1893年のカサット作品。女性と子どもの日常のケアを重視し、高い視点や反復する模様で画面を組み立てた。",
+          "visual_clues": "洗面器を挟む大人と子ども、子の足を支える手、上からの視点。",
+          "uncertainty_note": "2人が実際の親子だと断定しない。世話の表現が必ずしも見る人に安心を与えるとは限らない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "安心"
+          ],
+          "secondary": [
+            "懐かしさ"
+          ]
         }
       },
       "review": {
@@ -1499,7 +1771,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主1〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。"
       }
     }
   ],
@@ -1511,5 +1783,6 @@
       "aic-4575"
     ],
     "note": "AIによる一次内容レビュー後の試験用本登録。人間による最終承認・アプリ公開可否とは別。Commons画像はHTTP/JPEG/SHA256で検証済み。"
-  }
+  },
+  "curation_method": "authorial-intent-first-v1"
 }
