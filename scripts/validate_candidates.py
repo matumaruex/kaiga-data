@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """未検証候補と展示データの整合性を検証。ネットワーク検証はしない。"""
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -19,11 +20,31 @@ for art in candidates["works"]:
     # 現在の登録状況は data/artworks.json を正とする。
     if ident != f'aic-{art["source"]["artwork_id"]}':
         issues.append(f"{ident}: 作品IDが不一致")
-    if art["status"] != "candidate_unverified":
-        issues.append(f"{ident}: 未検証候補なのに状態が違う")
     v = art["verification"]
-    if any(v[k] for k in ("api_metadata_checked", "is_public_domain_confirmed", "image_id_confirmed", "image_live_checked", "curation_human_approved")):
-        issues.append(f"{ident}: 未確認項目が確認済みと記録されている")
+    if art["status"] == "candidate_unverified":
+        if any(v[k] for k in ("api_metadata_checked", "is_public_domain_confirmed", "image_id_confirmed", "image_live_checked", "curation_human_approved")):
+            issues.append(f"{ident}: 未検証候補なのに確認済みフラグがある")
+    elif art["status"] == "candidate_metadata_verified_image_pending":
+        if not all(v[k] is True for k in ("api_metadata_checked", "is_public_domain_confirmed", "image_id_confirmed")):
+            issues.append(f"{ident}: 公式メタデータ検証フラグが不足")
+        if v["image_live_checked"] is not False or v["curation_human_approved"] is not False:
+            issues.append(f"{ident}: 画像または感情解釈が確認済みと誤記されている")
+        check = art.get("official_metadata_check", {})
+        image_id = check.get("official_api_image_id", "")
+        if not re.fullmatch(r"[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}", image_id):
+            issues.append(f"{ident}: 現行公式画像IDの形式が不正")
+        if image_id not in check.get("official_iiif_image_url", ""):
+            issues.append(f"{ident}: 現行公式画像URLとIDが不一致")
+        if check.get("official_api_title") != art["facts_from_museum_sample"]["title"]:
+            issues.append(f"{ident}: 現行公式タイトルに不整合")
+        if check.get("official_api_public_domain_flag") is not True or check.get("official_api_artwork_type") != "Painting":
+            issues.append(f"{ident}: 公式PD・作品種別の証拠が不正")
+        if check.get("image_http_verified") is not False or check.get("image_http_status") != 403:
+            issues.append(f"{ident}: 画像未検証の状態記録に矛盾")
+        if not check.get("evidence_workflow_run", "").startswith("https://github.com/"):
+            issues.append(f"{ident}: 公式照合の実行記録がない")
+    else:
+        issues.append(f"{ident}: 候補の状態が不正")
     if not art["facts_from_museum_sample"].get("title") or not art["facts_from_museum_sample"].get("artist"):
         issues.append(f"{ident}: 作品名・画家名が空")
     c = art["curation"]
@@ -77,7 +98,9 @@ for art in candidates["works"]:
             issues.append(f"{ident}: 過去複製にPD/作品分類の不一致")
         if v.get("has_conflicting_historical_image_ids") != (not consistent):
             issues.append(f"{ident}: 画像ID衝突フラグが矛盾")
-        if v.get("api_metadata_checked") or v.get("is_public_domain_confirmed") or v.get("image_id_confirmed"):
+        if art["status"] == "candidate_unverified" and (
+            v.get("api_metadata_checked") or v.get("is_public_domain_confirmed") or v.get("image_id_confirmed")
+        ):
             issues.append(f"{ident}: 過去の複製のみで公式現在データ確認済みにしている")
 
 if issues:
