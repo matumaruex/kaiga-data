@@ -35,6 +35,28 @@ for art in candidates["works"]:
             issues.append(f"{ident}: {group}に未登録のタグ")
     if not c["interpretation"] or not c["alternate_reading"] or not c["review_concern"]:
         issues.append(f"{ident}: 解釈・別解・注意点が不足")
+    snapshots = art.get("archived_api_metadata")
+    if snapshots is not None:
+        rows = snapshots.get("archive_sources", [])
+        if len(rows) != 2 or len(set(r["source"] for r in rows)) != 2:
+            issues.append(f"{ident}: 過去APIスナップショットの数/出典に異常")
+        images = {r["image_id"] for r in rows}
+        consistent = len(images) == 1
+        if snapshots.get("image_id_consistent_between_archives") != consistent:
+            issues.append(f"{ident}: 画像ID一致フラグに矛盾")
+        expected_id = next(iter(images)) if consistent else None
+        if snapshots.get("image_id_candidate") != expected_id:
+            issues.append(f"{ident}: 画像ID候補の不整合")
+        if bool(snapshots.get("image_url_candidate")) != consistent:
+            issues.append(f"{ident}: 画像URL候補の有無が矛盾")
+        if consistent and expected_id not in snapshots.get("image_url_candidate", ""):
+            issues.append(f"{ident}: 画像URLとIDが不一致")
+        if not all(r.get("is_public_domain") is True and r.get("artwork_type_title") == "Painting" for r in rows):
+            issues.append(f"{ident}: 過去複製にPD/作品分類の不一致")
+        if v.get("has_conflicting_historical_image_ids") != (not consistent):
+            issues.append(f"{ident}: 画像ID衝突フラグが矛盾")
+        if v.get("api_metadata_checked") or v.get("is_public_domain_confirmed") or v.get("image_id_confirmed"):
+            issues.append(f"{ident}: 過去の複製のみで公式現在データ確認済みにしている")
 
 if issues:
     print("NG:", *issues, sep="\n - ")
