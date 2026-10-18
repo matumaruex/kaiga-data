@@ -69,7 +69,7 @@ def check(c):
                 and any(m in str(record.get("medium", "")).lower() for m in ("oil", "tempera"))
             ),
     }
-    if c["artist"] != "Unidentified artist":
+    if not c["artist"].casefold().startswith(("unidentified", "unknown")):
         artist = str(record.get("artistDisplayName", "")).casefold().strip()
         checks["artist"] = bool(artist) and c["artist"].casefold().removeprefix("attributed to ").strip() in artist
     item["metadata_checks"] = checks
