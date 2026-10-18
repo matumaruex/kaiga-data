@@ -30,6 +30,8 @@ jobs:
         run: python3 scripts/validate_candidates.py
       - name: Verify batch-003 candidate structure
         run: python3 scripts/validate_batch003.py
+      - name: Verify batch-004 candidate structure
+        run: python3 scripts/validate_batch004.py
       - name: Verify alternative-image registry
         run: python3 scripts/check_image_sources.py
       - name: Validate selection test cases
@@ -134,5 +136,30 @@ jobs:
         with:
           name: batch003-official-metadata
           path: artifacts/batch003-api-check.json
+          if-no-files-found: ignore
+          retention-days: 14
+
+  verify-batch004-official-and-commons:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[verify-batch004]')
+    needs: validate-format
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout dataset
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: "3.12"
+      - name: Live official API and Commons artwork JPEG verification
+        run: python3 scripts/validate_batch004.py --online --require-all
+      - name: Save batch004 report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: batch004-official-image-report
+          path: artifacts/batch004-live-verification.json
           if-no-files-found: ignore
           retention-days: 14
