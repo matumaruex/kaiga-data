@@ -4,9 +4,9 @@
   "source": "Met Open Access Object API / matching primary JPEG",
   "note": "HTTP+JPEG+SHA256 verification is distinct from human visual approval and interpretation.",
   "checked": 16,
-  "metadata_pass": 14,
-  "images_pass": 14,
-  "eligible_for_curatorial_review": 12,
+  "metadata_pass": 15,
+  "images_pass": 15,
+  "eligible_for_curatorial_review": 13,
   "results": [
     {
       "id": "met-55034",
@@ -205,12 +205,10 @@
     {
       "id": "met-57260",
       "official_object_id": 57260,
-      "museum_record_verified": false,
-      "image_verified": false,
-      "eligible_for_review": false,
-      "warnings": [
-        "Official metadata mismatch: artist"
-      ],
+      "museum_record_verified": true,
+      "image_verified": true,
+      "eligible_for_review": true,
+      "warnings": [],
       "objectID": 57260,
       "title": "Ebisu and Daikoku Celebrating the New Year Festival",
       "artistDisplayName": "Katsushika Hokusai",
@@ -229,8 +227,13 @@
         "accession": true,
         "public_domain": true,
         "painting": true,
-        "artist": false
-      }
+        "artist": true
+      },
+      "image_url_verified": "https://images.metmuseum.org/CRDImages/as/web-large/DP-24902-001.jpg",
+      "image_content_type": "image/jpeg",
+      "image_bytes": 116993,
+      "image_sha256": "ae4ebe6a05fd6f551a440be4ef1dbef268dee4bc553bf840b42c87f2d1f2844e",
+      "image_identity_basis": "primaryImageSmall from matching official Met object ID"
     },
     {
       "id": "met-44702",
