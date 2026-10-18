@@ -2,15 +2,15 @@
   "schema_version": "1.1.0",
   "batch": "batch-006",
   "created_on": "2026-10-18",
-  "status": "research_candidates_not_verified",
-  "description": "感情の不足を補うことを目的としつつ、画面だけで作者の心理を推測しない10候補。AIC ID・公開条件・Commons JPEG取得前に登録数へ含めない。",
+  "status": "official_metadata_10_of_10_images_8_of_10_verified_provisional",
+  "description": "AIC公式情報は10/10確認、画像8/10はCommonsファイルを実取得しJPEG・SHA256一致。2作品は画像未確認のため保留。作品の学術的解釈は再検討余地あり。",
   "works": [
     {
       "candidate_title": "Fragment from Christ Carrying the Cross: Mourning Virgin",
       "expected_artist": "Jean Hey",
       "expected_accession_number": "2004.244",
       "title_ja": "十字架を運ぶキリストの断片：悲しむ聖母",
-      "official_artwork_id": null,
+      "official_artwork_id": 183006,
       "meaning_basis": {
         "author_intent": {
           "status": "not_verified_for_this_work",
@@ -55,16 +55,28 @@
         ]
       },
       "review": {
-        "status": "research_pending_official_id_and_image",
+        "status": "official_metadata_verified_image_pending",
         "human_approved": false
+      },
+      "official_metadata_check": {
+        "id": 183006,
+        "title": "Fragment from Christ Carrying the Cross: Mourning Virgin",
+        "main_reference_number": "2004.244",
+        "date_display": "c. 1500",
+        "artist_title": "Jean Hey, (the Master of Moulins)",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "image_id": "5b05140d-7b91-ef9c-68fc-9ee13db64b21",
+        "checked_on": "2026-10-18",
+        "api_verified_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39115901904"
       }
     },
     {
       "candidate_title": "The Lamentation",
       "expected_artist": "Andrea Vaccaro",
-      "expected_accession_number": null,
+      "expected_accession_number": "1970.1013",
       "title_ja": "キリストへの哀悼",
-      "official_artwork_id": null,
+      "official_artwork_id": 35195,
       "meaning_basis": {
         "author_intent": {
           "status": "not_verified_for_this_work",
@@ -109,16 +121,38 @@
         ]
       },
       "review": {
-        "status": "research_pending_official_id_and_image",
+        "status": "candidate_official_and_image_verified_meaning_provisional",
         "human_approved": false
+      },
+      "official_metadata_check": {
+        "id": 35195,
+        "title": "The Lamentation",
+        "main_reference_number": "1970.1013",
+        "date_display": "1652",
+        "artist_title": "Andrea Vaccaro",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "image_id": "76017100-be7f-4c3c-2622-064f1472c889",
+        "checked_on": "2026-10-18",
+        "api_verified_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39115901904"
+      },
+      "image_verification": {
+        "byte_length": 199843,
+        "sha256": "b11cc4b11a7577c139f6540700117218a7d6840757c800a7877d88bd1024d684",
+        "verified_download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Andrea_Vaccaro_-_The_Lamentation_-_1970.1013_-_Art_Institute_of_Chicago.jpg/960px-Andrea_Vaccaro_-_The_Lamentation_-_1970.1013_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "file_title": "File:Andrea Vaccaro - The Lamentation - 1970.1013 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Andrea_Vaccaro_-_The_Lamentation_-_1970.1013_-_Art_Institute_of_Chicago.jpg",
+        "license_label": "Public domain / Commons open licensed",
+        "checked_on": "2026-10-18",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39115901904"
       }
     },
     {
       "candidate_title": "Melancholia",
       "expected_artist": "Domenico Fetti",
-      "expected_accession_number": null,
+      "expected_accession_number": "2019.722",
       "title_ja": "メランコリア",
-      "official_artwork_id": null,
+      "official_artwork_id": 250762,
       "meaning_basis": {
         "author_intent": {
           "status": "not_verified_for_this_work",
@@ -163,16 +197,28 @@
         ]
       },
       "review": {
-        "status": "research_pending_official_id_and_image",
+        "status": "official_metadata_verified_image_pending",
         "human_approved": false
+      },
+      "official_metadata_check": {
+        "id": 250762,
+        "title": "Melancholia",
+        "main_reference_number": "2019.722",
+        "date_display": "c. 1615",
+        "artist_title": "Domenico Fetti",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "image_id": "73a93ee5-b169-73f4-4db9-6e738eca7fce",
+        "checked_on": "2026-10-18",
+        "api_verified_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39115901904"
       }
     },
     {
       "candidate_title": "The Denial of Saint Peter",
       "expected_artist": "Hendrick Terbrugghen",
-      "expected_accession_number": null,
+      "expected_accession_number": "1969.3",
       "title_ja": "聖ペテロの否認",
-      "official_artwork_id": null,
+      "official_artwork_id": 30901,
       "meaning_basis": {
         "author_intent": {
           "status": "not_verified_for_this_work",
@@ -216,8 +262,30 @@
         ]
       },
       "review": {
-        "status": "research_pending_official_id_and_image",
+        "status": "candidate_official_and_image_verified_meaning_provisional",
         "human_approved": false
+      },
+      "official_metadata_check": {
+        "id": 30901,
+        "title": "The Denial of Saint Peter",
+        "main_reference_number": "1969.3",
+        "date_display": "c. 1626",
+        "artist_title": "Hendrick Terbrugghen",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "image_id": "4bddb973-9b39-42e4-6c53-795ecdc26dc6",
+        "checked_on": "2026-10-18",
+        "api_verified_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39115901904"
+      },
+      "image_verification": {
+        "byte_length": 107169,
+        "sha256": "4ec45bb047625865b40f0ba0f075926d6b146ba37e807ecac88b88250975562d",
+        "verified_download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Hendrick_Terbrugghen_-_The_Denial_of_Saint_Peter_-_1969.3_-_Art_Institute_of_Chicago.jpg/960px-Hendrick_Terbrugghen_-_The_Denial_of_Saint_Peter_-_1969.3_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "file_title": "File:Hendrick Terbrugghen - The Denial of Saint Peter - 1969.3 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Hendrick_Terbrugghen_-_The_Denial_of_Saint_Peter_-_1969.3_-_Art_Institute_of_Chicago.jpg",
+        "license_label": "Public domain / Commons open licensed",
+        "checked_on": "2026-10-18",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39115901904"
       }
     },
     {
@@ -225,7 +293,7 @@
       "expected_artist": "Benjamin West",
       "expected_accession_number": "1900.445",
       "title_ja": "プロクリスの死",
-      "official_artwork_id": null,
+      "official_artwork_id": 57148,
       "meaning_basis": {
         "author_intent": {
           "status": "not_verified_for_this_work",
@@ -269,16 +337,38 @@
         ]
       },
       "review": {
-        "status": "research_pending_official_id_and_image",
+        "status": "candidate_official_and_image_verified_meaning_provisional",
         "human_approved": false
+      },
+      "official_metadata_check": {
+        "id": 57148,
+        "title": "The Death of Procris",
+        "main_reference_number": "1900.445",
+        "date_display": "1770, retouched 1803",
+        "artist_title": "Benjamin West",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "image_id": "6fb6c48d-5877-1077-0f9d-6a17cee3c4f8",
+        "checked_on": "2026-10-18",
+        "api_verified_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39115901904"
+      },
+      "image_verification": {
+        "byte_length": 270998,
+        "sha256": "53faf4cb470007556d651d2d35ab82a89906a6e36db556d170e0fc4cbc745e48",
+        "verified_download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Benjamin_West_-_The_Death_of_Procris_-_1900.445_-_Art_Institute_of_Chicago.jpg/960px-Benjamin_West_-_The_Death_of_Procris_-_1900.445_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "file_title": "File:Benjamin West - The Death of Procris - 1900.445 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Benjamin_West_-_The_Death_of_Procris_-_1900.445_-_Art_Institute_of_Chicago.jpg",
+        "license_label": "Public domain / Commons open licensed",
+        "checked_on": "2026-10-18",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39115901904"
       }
     },
     {
       "candidate_title": "The Death of Orpheus",
       "expected_artist": "Henri Leopold Lévy",
-      "expected_accession_number": null,
+      "expected_accession_number": "1977.4",
       "title_ja": "オルフェウスの死",
-      "official_artwork_id": null,
+      "official_artwork_id": 93782,
       "meaning_basis": {
         "author_intent": {
           "status": "not_verified_for_this_work",
@@ -287,18 +377,18 @@
         },
         "scholarly_interpretation": {
           "summary": "ギリシア神話の詩人オルフェウスの暴力的な死を題材にした絵。伝承には彼を襲う集団の激情が描かれるが、怒りの具体的な動機は伝承・解釈によって異なる。",
-          "source_url": "https://www.artic.edu/collection?classification_ids=european+painting%3Bpainting%3Boil+paintings+%28visual+works%29&page=8&sort_by=artist_title"
+          "source_url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Orpheus"
         },
         "creation_context": "1870年頃、19世紀フランスの歴史画・神話画の伝統から、暴力と詩・音楽の対比を構成した作品。",
         "visual_clues": "神話の人物と暴力が起きる場面。",
-        "uncertainty_note": "作者の怒りを表現した証拠ではない。怒りは神話の人物・行為に関するもの。暴力描写があるため展示選定の注意が必要。"
+        "uncertainty_note": "絵の中心はオルフェウスの死の結果で、怒りをあらわにした人物ではない。『怒り』は殺害に至る神話の伝承に関わる弱い接点で、レヴィ本人の怒りを表した直接証言は未確認。切断された首を描くため展示時の注意が必要。"
       },
       "emotion_categories": {
         "primary": [
-          "怒り"
+          "喪失感"
         ],
         "secondary": [
-          "喪失感"
+          "怒り"
         ]
       },
       "tones": [
@@ -319,22 +409,44 @@
           }
         ],
         "selection_cautions": [
-          "作者の怒りを表現した証拠ではない。怒りは神話の人物・行為に関するもの。暴力描写があるため展示選定の注意が必要。"
+          "絵の中心はオルフェウスの死の結果で、怒りをあらわにした人物ではない。『怒り』は殺害に至る神話の伝承に関わる弱い接点で、レヴィ本人の怒りを表した直接証言は未確認。切断された首を描くため展示時の注意が必要。"
         ]
       },
       "review": {
-        "status": "research_pending_official_id_and_image",
+        "status": "candidate_official_and_image_verified_meaning_provisional",
         "human_approved": false
       },
       "manual_commons_file_title": "File:Henri Leopold Lévy - The Death of Orpheus - 1977.4 - Art Institute of Chicago.jpg",
-      "manual_commons_evidence": "Commons file page lists corresponding AIC accession: pending"
+      "manual_commons_evidence": "Commons file page lists corresponding AIC accession: pending",
+      "official_metadata_check": {
+        "id": 93782,
+        "title": "The Death of Orpheus",
+        "main_reference_number": "1977.4",
+        "date_display": "c. 1870",
+        "artist_title": "Henri Leopold Lévy",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "image_id": "f521c3d4-4ced-a6a0-6836-e12e48cb0a9f",
+        "checked_on": "2026-10-18",
+        "api_verified_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39115901904"
+      },
+      "image_verification": {
+        "byte_length": 218273,
+        "sha256": "7a6f2d3d4196e722ca5ba2dc2e2fa627dbc9fc9a09143f4bf5b5535adff80dc9",
+        "verified_download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Henri_Leopold_L%C3%A9vy_-_The_Death_of_Orpheus_-_1977.4_-_Art_Institute_of_Chicago.jpg/960px-Henri_Leopold_L%C3%A9vy_-_The_Death_of_Orpheus_-_1977.4_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "file_title": "File:Henri Leopold Lévy - The Death of Orpheus - 1977.4 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Henri_Leopold_L%C3%A9vy_-_The_Death_of_Orpheus_-_1977.4_-_Art_Institute_of_Chicago.jpg",
+        "license_label": "Public domain / Commons open licensed",
+        "checked_on": "2026-10-18",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39115901904"
+      }
     },
     {
       "candidate_title": "The Expulsion of Adam and Eve from Paradise",
       "expected_artist": "Benjamin West",
-      "expected_accession_number": null,
+      "expected_accession_number": "1984.175",
       "title_ja": "楽園から追放されるアダムとイブ",
-      "official_artwork_id": null,
+      "official_artwork_id": 102227,
       "meaning_basis": {
         "author_intent": {
           "status": "not_verified_for_this_work",
@@ -380,18 +492,40 @@
         ]
       },
       "review": {
-        "status": "research_pending_official_id_and_image",
+        "status": "candidate_official_and_image_verified_meaning_provisional",
         "human_approved": false
       },
       "manual_commons_file_title": "File:Benjamin West - The Expulsion of Adam and Eve from Paradise - 1984.175 - Art Institute of Chicago.jpg",
-      "manual_commons_evidence": "Commons file page lists corresponding AIC accession: pending"
+      "manual_commons_evidence": "Commons file page lists corresponding AIC accession: pending",
+      "official_metadata_check": {
+        "id": 102227,
+        "title": "The Expulsion of Adam and Eve from Paradise",
+        "main_reference_number": "1984.175",
+        "date_display": "1791, retouched 1803",
+        "artist_title": "Benjamin West",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "image_id": "91a0f717-5508-af8a-4cef-9cbbc790287d",
+        "checked_on": "2026-10-18",
+        "api_verified_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39115901904"
+      },
+      "image_verification": {
+        "byte_length": 157011,
+        "sha256": "874818326adada9ad6247fd4f9b860c92741423b0964087ee62a38a4f9456929",
+        "verified_download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Benjamin_West_-_The_Expulsion_of_Adam_and_Eve_from_Paradise_-_1984.175_-_Art_Institute_of_Chicago.jpg/960px-Benjamin_West_-_The_Expulsion_of_Adam_and_Eve_from_Paradise_-_1984.175_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "file_title": "File:Benjamin West - The Expulsion of Adam and Eve from Paradise - 1984.175 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Benjamin_West_-_The_Expulsion_of_Adam_and_Eve_from_Paradise_-_1984.175_-_Art_Institute_of_Chicago.jpg",
+        "license_label": "Public domain / Commons open licensed",
+        "checked_on": "2026-10-18",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39115901904"
+      }
     },
     {
       "candidate_title": "Woman at the Piano",
       "expected_artist": "Pierre-Auguste Renoir",
       "expected_accession_number": "1937.1025",
       "title_ja": "ピアノを弾く女性",
-      "official_artwork_id": null,
+      "official_artwork_id": 25825,
       "meaning_basis": {
         "author_intent": {
           "status": "not_verified_for_this_work",
@@ -436,23 +570,45 @@
         ]
       },
       "review": {
-        "status": "research_pending_official_id_and_image",
+        "status": "candidate_official_and_image_verified_meaning_provisional",
         "human_approved": false
       },
       "manual_commons_file_title": "File:Pierre-Auguste Renoir - Woman at the Piano - 1937.1025 - Art Institute of Chicago.jpg",
-      "manual_commons_evidence": "Commons file page lists corresponding AIC accession: 1937.1025"
+      "manual_commons_evidence": "Commons file page lists corresponding AIC accession: 1937.1025",
+      "official_metadata_check": {
+        "id": 25825,
+        "title": "Woman at the Piano",
+        "main_reference_number": "1937.1025",
+        "date_display": "1875–76",
+        "artist_title": "Pierre-Auguste Renoir",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "image_id": "8f06717c-9ede-f22b-d13b-327a50c22f9c",
+        "checked_on": "2026-10-18",
+        "api_verified_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39115901904"
+      },
+      "image_verification": {
+        "byte_length": 495549,
+        "sha256": "3a80704e0fbe2a78396edd9de3609e40541087459cbf6c8175a4b60d29d17db7",
+        "verified_download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Pierre-Auguste_Renoir_-_Woman_at_the_Piano_-_1937.1025_-_Art_Institute_of_Chicago.jpg/960px-Pierre-Auguste_Renoir_-_Woman_at_the_Piano_-_1937.1025_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "file_title": "File:Pierre-Auguste Renoir - Woman at the Piano - 1937.1025 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Woman_at_the_Piano_-_1937.1025_-_Art_Institute_of_Chicago.jpg",
+        "license_label": "Public domain / Commons open licensed",
+        "checked_on": "2026-10-18",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39115901904"
+      }
     },
     {
       "candidate_title": "Madame Léon Clapisson",
       "expected_artist": "Pierre-Auguste Renoir",
       "expected_accession_number": "1933.1174",
       "title_ja": "レオン・クラピッソン夫人",
-      "official_artwork_id": null,
+      "official_artwork_id": 16622,
       "meaning_basis": {
         "author_intent": {
-          "status": "not_verified_for_this_work",
-          "summary": null,
-          "source_url": null
+          "status": "related_motif_or_series",
+          "summary": "画家は1882年の依頼肖像の初期制作について、思うようにいかない苦労を友人宛ての手紙で述べている。シカゴ所蔵作は、その初期版のあとに依頼者の希望へ合わせ描き直した版。",
+          "source_url": "https://publications.artic.edu/api/epub/paintingsanddrawings/135645/print_view"
         },
         "scholarly_interpretation": {
           "summary": "ルノワールは注文主を描く際、初めの屋外版では望まれる姿をうまく表せず、友人への手紙に仕事の難しさをこぼした。その後、都市的で保守的な表現へやり直したシカゴの肖像画。",
@@ -492,16 +648,38 @@
         ]
       },
       "review": {
-        "status": "research_pending_official_id_and_image",
+        "status": "candidate_official_and_image_verified_meaning_provisional",
         "human_approved": false
+      },
+      "official_metadata_check": {
+        "id": 16622,
+        "title": "Madame Léon Clapisson",
+        "main_reference_number": "1933.1174",
+        "date_display": "1883",
+        "artist_title": "Pierre-Auguste Renoir",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "image_id": "a7af09dc-5743-062e-4802-b6435e67eaa5",
+        "checked_on": "2026-10-18",
+        "api_verified_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39115901904"
+      },
+      "image_verification": {
+        "byte_length": 408470,
+        "sha256": "3ea885e49a9f44ee1f0df7f499570395608e1471ccba4b9e1f9c9bde5b7a17ee",
+        "verified_download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Pierre-Auguste_Renoir_-_Madame_L%C3%A9on_Clapisson_-_1933.1174_-_Art_Institute_of_Chicago.jpg/960px-Pierre-Auguste_Renoir_-_Madame_L%C3%A9on_Clapisson_-_1933.1174_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "file_title": "File:Pierre-Auguste Renoir - Madame Léon Clapisson - 1933.1174 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Madame_L%C3%A9on_Clapisson_-_1933.1174_-_Art_Institute_of_Chicago.jpg",
+        "license_label": "Public domain / Commons open licensed",
+        "checked_on": "2026-10-18",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39115901904"
       }
     },
     {
       "candidate_title": "The Wrestler's Challenge",
       "expected_artist": "Mihály Munkácsy",
-      "expected_accession_number": null,
+      "expected_accession_number": "1901.435",
       "title_ja": "力士の挑戦",
-      "official_artwork_id": null,
+      "official_artwork_id": 39493,
       "meaning_basis": {
         "author_intent": {
           "status": "not_verified_for_this_work",
@@ -546,8 +724,30 @@
         ]
       },
       "review": {
-        "status": "research_pending_official_id_and_image",
+        "status": "candidate_official_and_image_verified_meaning_provisional",
         "human_approved": false
+      },
+      "official_metadata_check": {
+        "id": 39493,
+        "title": "The Wrestler's Challenge",
+        "main_reference_number": "1901.435",
+        "date_display": "1875",
+        "artist_title": "Mihály Munkácsy",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "image_id": "efe1099f-d131-b964-b1f4-7eec47b9af0f",
+        "checked_on": "2026-10-18",
+        "api_verified_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39115901904"
+      },
+      "image_verification": {
+        "byte_length": 99116,
+        "sha256": "62175cdfc2d0249070b905ff5638c2c9d3738fdd50d13b94bf0fe6fd2d7ad81f",
+        "verified_download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Mih%C3%A1ly_Munk%C3%A1csy_-_The_Wrestler%27s_Challenge_-_1901.435_-_Art_Institute_of_Chicago.jpg/960px-Mih%C3%A1ly_Munk%C3%A1csy_-_The_Wrestler%27s_Challenge_-_1901.435_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "file_title": "File:Mihály Munkácsy - The Wrestler's Challenge - 1901.435 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Mih%C3%A1ly_Munk%C3%A1csy_-_The_Wrestler's_Challenge_-_1901.435_-_Art_Institute_of_Chicago.jpg",
+        "license_label": "Public domain / Commons open licensed",
+        "checked_on": "2026-10-18",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39115901904"
       }
     }
   ]
