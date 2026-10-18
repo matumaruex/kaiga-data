@@ -124,8 +124,8 @@ def main():
         print("合格作品なし。変更しません。")
         return
     data["artworks"].extend(promoted)
-    import subprocess
-    # 変更ファイルはここだけ。コミットやデプロイは勝手にしない。
+    # 本登録ファイルのみを変更し、候補ファイルは監査可能な履歴として残す。
+    # コミットやデプロイは勝手にしない。
     updated = json.dumps(data, ensure_ascii=False, indent=2) + "\n"
     temp = data_path.with_suffix(".tmp")
     temp.write_text(updated, encoding="utf-8")
