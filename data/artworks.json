@@ -5904,6 +5904,1003 @@
         "curatorial_review_status": "provisional",
         "curatorial_review_note": "第7群。Met公式APIとprimary JPEGをGitHub Actionsで実取得しSHA256照合。作者発言/物語主題/鑑賞タグを別扱い。画像の人間による視認、展示用の最終編集と公開確認は未了。"
       }
+    },
+    {
+      "id": "met-55034",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 55034,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/55034",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/55034",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Shiva Carries the Corpse of Sati",
+        "title_ja_provisional": "サティの遺体を運ぶシヴァ",
+        "artist": "Unidentified artist",
+        "creation_date_display": "ca. 1865–75",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India (Kalighat)",
+        "accession_number": "2000.313"
+      },
+      "image": {
+        "image_id": "met-55034-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-43062-001.jpg",
+        "source_registry_id": "met-55034",
+        "local_path": "/artworks/met-55034.jpg",
+        "sha256": "6627d9676aabfbb7bfaee71fdbe65cf5e3bfde6d586c61584b44fc8095fe05fb",
+        "byte_length": 145692,
+        "live_image_checked": true,
+        "live_check_scope": "The Met official primaryImageSmall JPEG HTTP+SHA256, human visual approval pending",
+        "source_accession_number": "2000.313"
+      },
+      "curation": {
+        "emotions": [
+          "喪失感",
+          "怒り"
+        ],
+        "emotion_strengths": {
+          "喪失感": 2,
+          "怒り": 2
+        },
+        "tones": [
+          "重苦しさ",
+          "緊張"
+        ],
+        "themes": [
+          "別れ",
+          "愛情"
+        ],
+        "interpretation": "妻サティを失ったシヴァが悲しみと怒りを抱えて遺体を運ぶ。カルカッタのカリガート巡礼絵画。",
+        "alternate_reading": "作者自身の死別や怒りではない。宗教物語中の神の感情。 死者の身体・自死に関する宗教物語。閲覧者への配慮が必要。",
+        "source_context_note": "19世紀後半のカルカッタ、カリガート寺院周辺で巡礼者向けに制作された宗教画。シヴァとサティの神話を一枚の絵にした。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/55034",
+        "search_profile": {
+          "summary_for_ai": "妻サティを失ったシヴァが悲しみと怒りを抱えて遺体を運ぶ。カルカッタのカリガート巡礼絵画。 作者自身の死別や怒りではない。宗教物語中の神の感情。 死者の身体・自死に関する宗教物語。閲覧者への配慮が必要。",
+          "fitting_situations": [
+            {
+              "situation": "大切な人を失い、悲しみと理不尽さへの怒りが同時にある",
+              "reason": "シヴァが妻の死を悲しみ怒りを抱えて運ぶことを美術館解説が明記。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作者自身の死別や怒りではない。宗教物語中の神の感情。 死者の身体・自死に関する宗教物語。閲覧者への配慮が必要。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "妻サティを失ったシヴァが悲しみと怒りを抱えて遺体を運ぶ。カルカッタのカリガート巡礼絵画。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/55034"
+          },
+          "creation_context": "19世紀後半のカルカッタ、カリガート寺院周辺で巡礼者向けに制作された宗教画。シヴァとサティの神話を一枚の絵にした。",
+          "visual_clues": "サティの遺体を肩に載せて運ぶシヴァ。神話上の悲劇とその後の怒りを凝縮した場面。",
+          "uncertainty_note": "作者自身の死別や怒りではない。宗教物語中の神の感情。 死者の身体・自死に関する宗教物語。閲覧者への配慮が必要。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喪失感",
+            "怒り"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第8群: The Metの現行公式APIに作品名・画家・分類・PD・所蔵番号一致。公式JPEG実取得SHA256記録。作者の詩と関連作の言葉を区別し、人物の感情を作者自身と混同しない。画像の目視・公開最終確認は未実施。"
+      }
+    },
+    {
+      "id": "met-823278",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 823278,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/823278",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/823278",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Shiva enraged by Parvati's interruption of his meditation",
+        "title_ja_provisional": "瞑想を妨げられ怒るシヴァ",
+        "artist": "Unidentified artist",
+        "creation_date_display": "early 19th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India (Guler)",
+        "accession_number": "2019.146"
+      },
+      "image": {
+        "image_id": "met-823278-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-18172-001.jpg",
+        "source_registry_id": "met-823278",
+        "local_path": "/artworks/met-823278.jpg",
+        "sha256": "d4a4d0dac34d12f4b3ef87b651dcefc21c673b4b3a81435f8c5ed30dc65fd66d",
+        "byte_length": 368051,
+        "live_image_checked": true,
+        "live_check_scope": "The Met official primaryImageSmall JPEG HTTP+SHA256, human visual approval pending",
+        "source_accession_number": "2019.146"
+      },
+      "curation": {
+        "emotions": [
+          "怒り"
+        ],
+        "emotion_strengths": {
+          "怒り": 2
+        },
+        "tones": [
+          "緊張",
+          "重苦しさ"
+        ],
+        "themes": [
+          "愛情",
+          "他者との距離"
+        ],
+        "interpretation": "パールヴァティーの音楽が瞑想中のシヴァを刺激し、逆立つ髪と手を腰に当てた姿勢で怒りを表現する。",
+        "alternate_reading": "穏やかな背景に逆行する髪の動きが焦点。怒りは物語上の人物のもので画家自身の感情ではない。",
+        "source_context_note": "19世紀初頭インド北部グレールのパハーリー派絵画。瞑想するシヴァと音楽を奏でる妻パールヴァティーを題材とする。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/823278",
+        "search_profile": {
+          "summary_for_ai": "パールヴァティーの音楽が瞑想中のシヴァを刺激し、逆立つ髪と手を腰に当てた姿勢で怒りを表現する。 穏やかな背景に逆行する髪の動きが焦点。怒りは物語上の人物のもので画家自身の感情ではない。",
+          "fitting_situations": [
+            {
+              "situation": "平穏を乱された怒りを抱える一方、周囲の人は別の思いで近づいてくる",
+              "reason": "穏やかな背景と逆向きに飛ぶ髪を対比して怒りを描くと美術館が解説。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "穏やかな背景に逆行する髪の動きが焦点。怒りは物語上の人物のもので画家自身の感情ではない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "パールヴァティーの音楽が瞑想中のシヴァを刺激し、逆立つ髪と手を腰に当てた姿勢で怒りを表現する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/823278"
+          },
+          "creation_context": "19世紀初頭インド北部グレールのパハーリー派絵画。瞑想するシヴァと音楽を奏でる妻パールヴァティーを題材とする。",
+          "visual_clues": "穏やかな自然の中、腰に当てた手と空へ逆立つ長髪がシヴァの怒りを示し、煙は反対方向へ漂う。",
+          "uncertainty_note": "穏やかな背景に逆行する髪の動きが焦点。怒りは物語上の人物のもので画家自身の感情ではない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "怒り"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第8群: The Metの現行公式APIに作品名・画家・分類・PD・所蔵番号一致。公式JPEG実取得SHA256記録。作者の詩と関連作の言葉を区別し、人物の感情を作者自身と混同しない。画像の目視・公開最終確認は未実施。"
+      }
+    },
+    {
+      "id": "met-439333",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 439333,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/439333",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/439333",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Wanderer in the Storm",
+        "title_ja_provisional": "嵐の中の旅人",
+        "artist": "Julius von Leypold",
+        "creation_date_display": "1835",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Germany",
+        "accession_number": "2008.7"
+      },
+      "image": {
+        "image_id": "met-439333-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-34308-001.jpg",
+        "source_registry_id": "met-439333",
+        "local_path": "/artworks/met-439333.jpg",
+        "sha256": "2d9872e6a948320956786d448e9c6d8d9d4d1c246ebc9d26632610e734f110b9",
+        "byte_length": 114309,
+        "live_image_checked": true,
+        "live_check_scope": "The Met official primaryImageSmall JPEG HTTP+SHA256, human visual approval pending",
+        "source_accession_number": "2008.7"
+      },
+      "curation": {
+        "emotions": [
+          "寂しさ",
+          "孤独"
+        ],
+        "emotion_strengths": {
+          "寂しさ": 2,
+          "孤独": 1
+        },
+        "tones": [
+          "重苦しさ",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "他者との距離"
+        ],
+        "interpretation": "メトロポリタン美術館の解説はロマン主義のさまよう旅人と、人の孤独や自然の移ろいを明確に結びつける。",
+        "alternate_reading": "作者自身の人生の寂しさを直接示す証拠ではなく、ロマン主義美術の主題。",
+        "source_context_note": "ドイツ・ロマン派の人物風景画。旅人の落ち着かない憧れ、孤独、自然の移ろいに関心をもつ伝統の中で描かれた。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/439333",
+        "search_profile": {
+          "summary_for_ai": "メトロポリタン美術館の解説はロマン主義のさまよう旅人と、人の孤独や自然の移ろいを明確に結びつける。 作者自身の人生の寂しさを直接示す証拠ではなく、ロマン主義美術の主題。",
+          "fitting_situations": [
+            {
+              "situation": "一人で進んでいるが、どこにも落ち着けない寂しさがある",
+              "reason": "Metの解説が旅人の孤独と自然の無常を明示し、ドイツ・ロマン派の思慕と結ぶ。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作者自身の人生の寂しさを直接示す証拠ではなく、ロマン主義美術の主題。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "メトロポリタン美術館の解説はロマン主義のさまよう旅人と、人の孤独や自然の移ろいを明確に結びつける。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/439333"
+          },
+          "creation_context": "ドイツ・ロマン派の人物風景画。旅人の落ち着かない憧れ、孤独、自然の移ろいに関心をもつ伝統の中で描かれた。",
+          "visual_clues": "荒れた自然を一人で進む小さな旅人。",
+          "uncertainty_note": "作者自身の人生の寂しさを直接示す証拠ではなく、ロマン主義美術の主題。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "寂しさ"
+          ],
+          "secondary": [
+            "孤独"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第8群: The Metの現行公式APIに作品名・画家・分類・PD・所蔵番号一致。公式JPEG実取得SHA256記録。作者の詩と関連作の言葉を区別し、人物の感情を作者自身と混同しない。画像の目視・公開最終確認は未実施。"
+      }
+    },
+    {
+      "id": "met-37852",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 37852,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/37852",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/37852",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Ramkali Ragini: Folio from a ragamala series (Garland of Musical Modes)",
+        "title_ja_provisional": "ラームカリー・ラーギニー：遅れた恋人",
+        "artist": "Unidentified artist",
+        "creation_date_display": "ca. 1605–06",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India (Rajasthan, Bikaner)",
+        "accession_number": "1981.460.3"
+      },
+      "image": {
+        "image_id": "met-37852-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156175.jpg",
+        "source_registry_id": "met-37852",
+        "local_path": "/artworks/met-37852.jpg",
+        "sha256": "a442a9c5d53f31904b64be0d26f877a5df2898bd54b8aad557bc1d445aaab3ee",
+        "byte_length": 106378,
+        "live_image_checked": true,
+        "live_check_scope": "The Met official primaryImageSmall JPEG HTTP+SHA256, human visual approval pending",
+        "source_accession_number": "1981.460.3"
+      },
+      "curation": {
+        "emotions": [
+          "期待",
+          "不安"
+        ],
+        "emotion_strengths": {
+          "期待": 2,
+          "不安": 2
+        },
+        "tones": [
+          "緊張",
+          "高揚"
+        ],
+        "themes": [
+          "愛情",
+          "他者との距離"
+        ],
+        "interpretation": "遅刻する恋人を不安と高揚の中で待つ女性が、帰った相手を拒絶。詩の文脈と身ぶりが感情の変化を伝える。",
+        "alternate_reading": "期待→疑念→拒絶と多層的で、恋人への期待と幸福を同一視できない。",
+        "source_context_note": "17世紀初頭のラージャスターン地方のラーガマーラー絵画。音楽に結びつく恋の型を、行動や身振りで示す。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/37852",
+        "search_profile": {
+          "summary_for_ai": "遅刻する恋人を不安と高揚の中で待つ女性が、帰った相手を拒絶。詩の文脈と身ぶりが感情の変化を伝える。 期待→疑念→拒絶と多層的で、恋人への期待と幸福を同一視できない。",
+          "fitting_situations": [
+            {
+              "situation": "楽しみに待つうち、不安や疑念が生じてしまった",
+              "reason": "関係する詩が女性の高揚と遅い来訪への疑念を描写し、図像は拒絶と謝罪を表す。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "期待→疑念→拒絶と多層的で、恋人への期待と幸福を同一視できない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "遅刻する恋人を不安と高揚の中で待つ女性が、帰った相手を拒絶。詩の文脈と身ぶりが感情の変化を伝える。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/37852"
+          },
+          "creation_context": "17世紀初頭のラージャスターン地方のラーガマーラー絵画。音楽に結びつく恋の型を、行動や身振りで示す。",
+          "visual_clues": "遅く帰った恋人に拒絶の身振りを示す女性と、謝る相手。",
+          "uncertainty_note": "期待→疑念→拒絶と多層的で、恋人への期待と幸福を同一視できない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "期待",
+            "不安"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第8群: The Metの現行公式APIに作品名・画家・分類・PD・所蔵番号一致。公式JPEG実取得SHA256記録。作者の詩と関連作の言葉を区別し、人物の感情を作者自身と混同しない。画像の目視・公開最終確認は未実施。"
+      }
+    },
+    {
+      "id": "met-37907",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 37907,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/37907",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/37907",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Kakubha Ragini:  Page from a Dispersed Ragamala Series (Garland of Musical Modes)",
+        "title_ja_provisional": "カクバー・ラーギニー：恋人を待つ女性",
+        "artist": "Unidentified artist",
+        "creation_date_display": "ca. 1680",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India (Rajasthan, Mewar)",
+        "accession_number": "52.93.4"
+      },
+      "image": {
+        "image_id": "met-37907-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/52_93_4.JPG",
+        "source_registry_id": "met-37907",
+        "local_path": "/artworks/met-37907.jpg",
+        "sha256": "d3e11f6a289cdd3187054ff992f3fb81c8c6c7fcd474bec0cf7c45c92a9a2ef7",
+        "byte_length": 72370,
+        "live_image_checked": true,
+        "live_check_scope": "The Met official primaryImageSmall JPEG HTTP+SHA256, human visual approval pending",
+        "source_accession_number": "52.93.4"
+      },
+      "curation": {
+        "emotions": [
+          "期待",
+          "寂しさ"
+        ],
+        "emotion_strengths": {
+          "期待": 2,
+          "寂しさ": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "愛情",
+          "他者との距離"
+        ],
+        "interpretation": "恋人を待つ女性が戸口に立ち、空の寝台と侍女の行動から不在と待つ時間を読む。",
+        "alternate_reading": "女性の心理は楽曲と詩の慣習に基づく解釈。孤独・失恋と即断しない。",
+        "source_context_note": "17世紀後半のラージャスターン、メーワール地方のラーガマーラー図。女性が恋人を待つ慣習的主題。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/37907",
+        "search_profile": {
+          "summary_for_ai": "恋人を待つ女性が戸口に立ち、空の寝台と侍女の行動から不在と待つ時間を読む。 女性の心理は楽曲と詩の慣習に基づく解釈。孤独・失恋と即断しない。",
+          "fitting_situations": [
+            {
+              "situation": "会いたい相手が来るかもしれないと待ち続けている",
+              "reason": "美術館が空の寝台と女官の身振りを恋人待ちの主題の手掛かりとして説明。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "女性の心理は楽曲と詩の慣習に基づく解釈。孤独・失恋と即断しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "恋人を待つ女性が戸口に立ち、空の寝台と侍女の行動から不在と待つ時間を読む。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/37907"
+          },
+          "creation_context": "17世紀後半のラージャスターン、メーワール地方のラーガマーラー図。女性が恋人を待つ慣習的主題。",
+          "visual_clues": "戸口で外を見つめる女性、空の寝台、涼をとらせる侍女。",
+          "uncertainty_note": "女性の心理は楽曲と詩の慣習に基づく解釈。孤独・失恋と即断しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "期待"
+          ],
+          "secondary": [
+            "寂しさ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第8群: The Metの現行公式APIに作品名・画家・分類・PD・所蔵番号一致。公式JPEG実取得SHA256記録。作者の詩と関連作の言葉を区別し、人物の感情を作者自身と混同しない。画像の目視・公開最終確認は未実施。"
+      }
+    },
+    {
+      "id": "met-436530",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436530,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436530",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436530",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Oleanders",
+        "title_ja_provisional": "夾竹桃",
+        "artist": "Vincent van Gogh",
+        "creation_date_display": "1888",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Netherlands/France",
+        "accession_number": "62.24"
+      },
+      "image": {
+        "image_id": "met-436530-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1494.jpg",
+        "source_registry_id": "met-436530",
+        "local_path": "/artworks/met-436530.jpg",
+        "sha256": "ced5841afad60fcc6cb4d5fc18750edf8f0f48903babf587b13737a874d4a64f",
+        "byte_length": 129656,
+        "live_image_checked": true,
+        "live_check_scope": "The Met official primaryImageSmall JPEG HTTP+SHA256, human visual approval pending",
+        "source_accession_number": "62.24"
+      },
+      "curation": {
+        "emotions": [
+          "喜び",
+          "希望"
+        ],
+        "emotion_strengths": {
+          "喜び": 2,
+          "希望": 1
+        },
+        "tones": [
+          "高揚",
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "愛情"
+        ],
+        "interpretation": "ゴッホが夾竹桃を生気に満ちた生命肯定の花として語り、画面にゾラの『生きる歓び』を添えた。",
+        "alternate_reading": "作者の花についての直接言及を元にするが、描いた瞬間の作者の心理状態を診断しない。既存ゴッホと画家偏りが出る点に留意。",
+        "source_context_note": "1888年アルルのゴッホによる花の静物画。作者が生命力を感じた夾竹桃とゾラの『生きる歓び』を並置する。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436530",
+        "search_profile": {
+          "summary_for_ai": "ゴッホが夾竹桃を生気に満ちた生命肯定の花として語り、画面にゾラの『生きる歓び』を添えた。 作者の花についての直接言及を元にするが、描いた瞬間の作者の心理状態を診断しない。既存ゴッホと画家偏りが出る点に留意。",
+          "fitting_situations": [
+            {
+              "situation": "生命力や小さな喜びを感じ直したい",
+              "reason": "ゴッホが花の生命力を肯定する言葉を残し、作品が『生きる歓び』という小説とともに構成されている。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作者の花についての直接言及を元にするが、描いた瞬間の作者の心理状態を診断しない。既存ゴッホと画家偏りが出る点に留意。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "related_motif_or_series",
+            "summary": "ゴッホは夾竹桃を生命肯定的で力強く伸びる花として捉えていたと美術館が説明。作品固有の制作時の喜びを発言したとまでは言えない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436530"
+          },
+          "scholarly_interpretation": {
+            "summary": "ゴッホが夾竹桃を生気に満ちた生命肯定の花として語り、画面にゾラの『生きる歓び』を添えた。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436530"
+          },
+          "creation_context": "1888年アルルのゴッホによる花の静物画。作者が生命力を感じた夾竹桃とゾラの『生きる歓び』を並置する。",
+          "visual_clues": "花瓶の夾竹桃と机上の本を近接して描く。",
+          "uncertainty_note": "作者の花についての直接言及を元にするが、描いた瞬間の作者の心理状態を診断しない。既存ゴッホと画家偏りが出る点に留意。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喜び"
+          ],
+          "secondary": [
+            "希望"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第8群: The Metの現行公式APIに作品名・画家・分類・PD・所蔵番号一致。公式JPEG実取得SHA256記録。作者の詩と関連作の言葉を区別し、人物の感情を作者自身と混同しない。画像の目視・公開最終確認は未実施。"
+      }
+    },
+    {
+      "id": "met-44702",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 44702,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/44702",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/44702",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Sparse trees and pavilion",
+        "title_ja_provisional": "疎林と亭",
+        "artist": "Wang Meng",
+        "creation_date_display": "late 1350s",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "China",
+        "accession_number": "1991.438.2"
+      },
+      "image": {
+        "image_id": "met-44702-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP160429.jpg",
+        "source_registry_id": "met-44702",
+        "local_path": "/artworks/met-44702.jpg",
+        "sha256": "ce6678ad388cf40d9a82ee7dce83262c4be454364d0785c8e9ce61a166572748",
+        "byte_length": 328718,
+        "live_image_checked": true,
+        "live_check_scope": "The Met official primaryImageSmall JPEG HTTP+SHA256, human visual approval pending",
+        "source_accession_number": "1991.438.2"
+      },
+      "curation": {
+        "emotions": [
+          "寂しさ",
+          "孤独"
+        ],
+        "emotion_strengths": {
+          "寂しさ": 2,
+          "孤独": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "居場所",
+          "他者との距離",
+          "記憶"
+        ],
+        "interpretation": "王蒙の自作の詩と描写は戦乱から逃れた友人の仮住まいを表す。空の亭に孤独を詠む。",
+        "alternate_reading": "避難生活の厳しさと涼風の快さを併記する詩を単純な絶望として扱わない。",
+        "source_context_note": "14世紀後半の元代に王蒙が反乱から避難してきた友人陳汝直に描き贈った扇面。作者自身の詩が付く。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/44702",
+        "search_profile": {
+          "summary_for_ai": "王蒙の自作の詩と描写は戦乱から逃れた友人の仮住まいを表す。空の亭に孤独を詠む。 避難生活の厳しさと涼風の快さを併記する詩を単純な絶望として扱わない。",
+          "fitting_situations": [
+            {
+              "situation": "居場所を離れ、仮の生活で孤立を感じる",
+              "reason": "戦乱から逃れた友人の境遇に対し、王蒙自身の詩が孤独な亭と人けのない景色を描いている。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "避難生活の厳しさと涼風の快さを併記する詩を単純な絶望として扱わない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "direct_for_this_work",
+            "summary": "作者の画賛は草亭の孤独と荒れた場所の静かな空気を詠み、避難生活中の友人に贈られた。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/44702"
+          },
+          "scholarly_interpretation": {
+            "summary": "王蒙の自作の詩と描写は戦乱から逃れた友人の仮住まいを表す。空の亭に孤独を詠む。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/44702"
+          },
+          "creation_context": "14世紀後半の元代に王蒙が反乱から避難してきた友人陳汝直に描き贈った扇面。作者自身の詩が付く。",
+          "visual_clues": "人けの少ない林と草亭を描く扇面。詩は空の林と孤独な亭を詠う。",
+          "uncertainty_note": "避難生活の厳しさと涼風の快さを併記する詩を単純な絶望として扱わない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "寂しさ"
+          ],
+          "secondary": [
+            "孤独"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第8群: The Metの現行公式APIに作品名・画家・分類・PD・所蔵番号一致。公式JPEG実取得SHA256記録。作者の詩と関連作の言葉を区別し、人物の感情を作者自身と混同しない。画像の目視・公開最終確認は未実施。"
+      }
+    },
+    {
+      "id": "met-49454",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 49454,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/49454",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/49454",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Landscape",
+        "title_ja_provisional": "山水図（胡遠）",
+        "artist": "Hu Yuan",
+        "creation_date_display": "dated 1885",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "China",
+        "accession_number": "1986.267.31"
+      },
+      "image": {
+        "image_id": "met-49454-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP161403.jpg",
+        "source_registry_id": "met-49454",
+        "local_path": "/artworks/met-49454.jpg",
+        "sha256": "0b39d2ddc007e1caec19dd2b12b23573e30d95e962f4fdcda5b047b003608ef3",
+        "byte_length": 53597,
+        "live_image_checked": true,
+        "live_check_scope": "The Met official primaryImageSmall JPEG HTTP+SHA256, human visual approval pending",
+        "source_accession_number": "1986.267.31"
+      },
+      "curation": {
+        "emotions": [
+          "孤独",
+          "安心"
+        ],
+        "emotion_strengths": {
+          "孤独": 2,
+          "安心": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "休息",
+          "他者との距離"
+        ],
+        "interpretation": "胡遠自身の画賛は人けのない山で一人の人物が湧き水に生気を取り戻すと詠う。",
+        "alternate_reading": "lonelyという語があっても孤独の苦痛ではない。『寂しさ』主タグは付けない。",
+        "source_context_note": "1885年の胡遠の扇面山水画。作者による画賛は、人のいない山と湧き水で気分を新たにする旅人を述べる。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/49454",
+        "search_profile": {
+          "summary_for_ai": "胡遠自身の画賛は人けのない山で一人の人物が湧き水に生気を取り戻すと詠う。 lonelyという語があっても孤独の苦痛ではない。『寂しさ』主タグは付けない。",
+          "fitting_situations": [
+            {
+              "situation": "人と離れた静かなところで気分を回復したい",
+              "reason": "作者の詩には一人きりの人物が春の水に生気を取り戻すとあり、孤独を苦痛とみなさない例。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "lonelyという語があっても孤独の苦痛ではない。『寂しさ』主タグは付けない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "direct_for_this_work",
+            "summary": "胡遠自身の題詩が人けのない山にいる人物が泉に元気を得ることを述べる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/49454"
+          },
+          "scholarly_interpretation": {
+            "summary": "胡遠自身の画賛は人けのない山で一人の人物が湧き水に生気を取り戻すと詠う。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/49454"
+          },
+          "creation_context": "1885年の胡遠の扇面山水画。作者による画賛は、人のいない山と湧き水で気分を新たにする旅人を述べる。",
+          "visual_clues": "人気のない山で湧き水に触れる一人の人物を描き、詩を添える。",
+          "uncertainty_note": "lonelyという語があっても孤独の苦痛ではない。『寂しさ』主タグは付けない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "孤独"
+          ],
+          "secondary": [
+            "安心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第8群: The Metの現行公式APIに作品名・画家・分類・PD・所蔵番号一致。公式JPEG実取得SHA256記録。作者の詩と関連作の言葉を区別し、人物の感情を作者自身と混同しない。画像の目視・公開最終確認は未実施。"
+      }
+    },
+    {
+      "id": "met-39551",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 39551,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/39551",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/39551",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Mandarin ducks and cotton rose hibiscus",
+        "title_ja_provisional": "鴛鴦芙蓉図",
+        "artist": "Lü Ji",
+        "creation_date_display": "late 15th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "China",
+        "accession_number": "2005.494.2"
+      },
+      "image": {
+        "image_id": "met-39551-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-16766-002.jpg",
+        "source_registry_id": "met-39551",
+        "local_path": "/artworks/met-39551.jpg",
+        "sha256": "59e2f869d688d6730ff3f0e9e884bb020f3ed2d88a95c96604cb4f96bb587cc4",
+        "byte_length": 71453,
+        "live_image_checked": true,
+        "live_check_scope": "The Met official primaryImageSmall JPEG HTTP+SHA256, human visual approval pending",
+        "source_accession_number": "2005.494.2"
+      },
+      "curation": {
+        "emotions": [
+          "喜び",
+          "希望"
+        ],
+        "emotion_strengths": {
+          "喜び": 2,
+          "希望": 1
+        },
+        "tones": [
+          "高揚",
+          "にぎわい"
+        ],
+        "themes": [
+          "愛情",
+          "共同体"
+        ],
+        "interpretation": "一対のオシドリが幸福な婚姻を象徴し、花の語呂合わせが新郎新婦の繁栄を祝う。",
+        "alternate_reading": "象徴上の祝福と、作者・依頼者本人の喜びを同一視しない。",
+        "source_context_note": "15世紀末の明朝宮廷の花鳥画。鴛鴦と花の語呂合わせを用いて婚礼の幸福と夫婦繁栄を願う。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/39551",
+        "search_profile": {
+          "summary_for_ai": "一対のオシドリが幸福な婚姻を象徴し、花の語呂合わせが新郎新婦の繁栄を祝う。 象徴上の祝福と、作者・依頼者本人の喜びを同一視しない。",
+          "fitting_situations": [
+            {
+              "situation": "誰かの門出を祝福したい",
+              "reason": "美術館は鴛鴦の幸福な結婚の象徴と花の掛詞を説明し、婚礼祝賀に適した意味を示す。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "象徴上の祝福と、作者・依頼者本人の喜びを同一視しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "一対のオシドリが幸福な婚姻を象徴し、花の語呂合わせが新郎新婦の繁栄を祝う。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/39551"
+          },
+          "creation_context": "15世紀末の明朝宮廷の花鳥画。鴛鴦と花の語呂合わせを用いて婚礼の幸福と夫婦繁栄を願う。",
+          "visual_clues": "対になったオシドリと、縁起のよい語呂合わせを生む芙蓉・桂などの花。",
+          "uncertainty_note": "象徴上の祝福と、作者・依頼者本人の喜びを同一視しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喜び"
+          ],
+          "secondary": [
+            "希望"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第8群: The Metの現行公式APIに作品名・画家・分類・PD・所蔵番号一致。公式JPEG実取得SHA256記録。作者の詩と関連作の言葉を区別し、人物の感情を作者自身と混同しない。画像の目視・公開最終確認は未実施。"
+      }
+    },
+    {
+      "id": "met-41154",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 41154,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/41154",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/41154",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Wind among the Trees on the Riverbank",
+        "title_ja_provisional": "江渚風林図",
+        "artist": "Ni Zan",
+        "creation_date_display": "1363",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "China",
+        "accession_number": "1989.363.39"
+      },
+      "image": {
+        "image_id": "met-41154-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DT6291.jpg",
+        "source_registry_id": "met-41154",
+        "local_path": "/artworks/met-41154.jpg",
+        "sha256": "49ef8e3e2adde59e11fdfd99c31a4b6c73247c49de30d31a9e7502fda1c8e4e4",
+        "byte_length": 63871,
+        "live_image_checked": true,
+        "live_check_scope": "The Met official primaryImageSmall JPEG HTTP+SHA256, human visual approval pending",
+        "source_accession_number": "1989.363.39"
+      },
+      "curation": {
+        "emotions": [
+          "寂しさ",
+          "喪失感"
+        ],
+        "emotion_strengths": {
+          "寂しさ": 2,
+          "喪失感": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "別れ",
+          "記憶",
+          "他者との距離"
+        ],
+        "interpretation": "妻の死と避難生活の時期に描かれ、自作の画賛は夕暮れの静けさと友人を思う感情を記す。",
+        "alternate_reading": "妻との死別を個別作品の唯一の意味と断定しない。美術館も孤立の表現を『可能性』とする。",
+        "source_context_note": "1363年、戦乱のため避難生活を送っていた倪瓚が友人に描いた山水。妻の死と同年の作で作者自身の画賛がある。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/41154",
+        "search_profile": {
+          "summary_for_ai": "妻の死と避難生活の時期に描かれ、自作の画賛は夕暮れの静けさと友人を思う感情を記す。 妻との死別を個別作品の唯一の意味と断定しない。美術館も孤立の表現を『可能性』とする。",
+          "fitting_situations": [
+            {
+              "situation": "大切な人を思いながら夕暮れに一人でいる",
+              "reason": "作者自身の画賛が静かな門と友人のことを思う夕刻を詠い、Metは孤独感を表す可能性を指摘。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "妻との死別を個別作品の唯一の意味と断定しない。美術館も孤立の表現を『可能性』とする。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "direct_for_this_work",
+            "summary": "作者の画賛が閉ざされた門、暮れゆく河岸、友を思う心を詠んでいる。妻の死別そのものが本作の主題と断定はできない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/41154"
+          },
+          "scholarly_interpretation": {
+            "summary": "妻の死と避難生活の時期に描かれ、自作の画賛は夕暮れの静けさと友人を思う感情を記す。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/41154"
+          },
+          "creation_context": "1363年、戦乱のため避難生活を送っていた倪瓚が友人に描いた山水。妻の死と同年の作で作者自身の画賛がある。",
+          "visual_clues": "風にさらされる疎らな木々と、沈む夕刻の河岸。作者の詩は閉ざされた門と友人への思いを語る。",
+          "uncertainty_note": "妻との死別を個別作品の唯一の意味と断定しない。美術館も孤立の表現を『可能性』とする。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "寂しさ"
+          ],
+          "secondary": [
+            "喪失感"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第8群: The Metの現行公式APIに作品名・画家・分類・PD・所蔵番号一致。公式JPEG実取得SHA256記録。作者の詩と関連作の言葉を区別し、人物の感情を作者自身と混同しない。画像の目視・公開最終確認は未実施。"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-18",
