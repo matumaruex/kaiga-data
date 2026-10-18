@@ -19,7 +19,7 @@ def commons(q):
  return json.loads(get("https://commons.wikimedia.org/w/api.php?"+urllib.parse.urlencode({"format":"json",**q})))
 def norm(s):return re.sub(r"[^a-z0-9]+","",str(s).casefold())
 def main():
- p=argparse.ArgumentParser();p.add_argument("--online",action="store_true");p.add_argument("--output",default="artifacts/batch006-research.json");a=p.parse_args()
+ p=argparse.ArgumentParser();p.add_argument("--online",action="store_true");p.add_argument("--only-titles",default="");p.add_argument("--output",default="artifacts/batch006-research.json");a=p.parse_args()
  works=json.loads((ROOT/"data/candidates-batch-006.json").read_text(encoding="utf-8"))["works"]
  live={x["id"] for x in json.loads((ROOT/"data/artworks.json").read_text(encoding="utf-8"))["artworks"]}
  vocab=set(json.loads((ROOT/"data/emotions.json").read_text(encoding="utf-8"))["emotions"])
@@ -31,7 +31,9 @@ def main():
  print("STRUCTURE OK "+str(len(works)),flush=True)
  if not a.online:return
  out=[]
+ selected=set(x.strip() for x in a.only_titles.split(";") if x.strip())
  for i,w in enumerate(works,1):
+  if selected and w["candidate_title"] not in selected: continue
   k=w["candidate_title"];expected=w["expected_accession_number"];rec={"candidate_title":k,"expected_accession_number":expected,"official_ok":False,"image_ok":False}
   try:
    results=api(k)
@@ -55,8 +57,11 @@ def main():
     if not can:
      results=commons({"action":"query","list":"search","srnamespace":"6","srsearch":acc,"srlimit":"30"}).get("query",{}).get("search",[])
      can=[v["title"] for v in results if acc in v["title"] and v["title"].lower().endswith((".jpg",".jpeg"))]
-    if len(can)!=1:raise ValueError("unique accession image not found: "+str(can[:5]))
-    title=can[0]
+    if w.get("manual_commons_file_title"):
+     title=w["manual_commons_file_title"]
+    else:
+     if len(can)!=1:raise ValueError("unique accession image not found: "+str(can[:5]))
+     title=can[0]
     z=commons({"action":"query","prop":"imageinfo","titles":title,"iiprop":"url|mime|extmetadata","iiurlwidth":"960"})
     info=next(iter(z["query"]["pages"].values()))["imageinfo"][0]
     if info.get("mime")!="image/jpeg":raise ValueError("not JPEG")
