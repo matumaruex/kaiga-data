@@ -1045,6 +1045,10 @@
     "registered_count": 44,
     "verified_images_individually": 45,
     "held_sensitive_count": 1,
-    "note": "共有DB試験登録44点、保留ユディト1点、画像台帳45点。直近11枚は2回の公式API・Commons画像検証で取得済み。全45枚の一括再取得は別テスト。"
+    "note": "共有DB試験登録44点、保留ユディト1点、画像台帳45点。直近11枚は2回の公式API・Commons画像検証で取得済み。全45枚の一括再取得は別テスト。",
+    "most_recent_registration": 44,
+    "most_recent_registry_count": 45,
+    "source_download_verification": "33 previous + 11 new (45 total including sensitive held) checked in earlier evidence runs",
+    "artifact_packaging_policy": "image JPEG checked all by SHA256 before artifact publishing"
   }
 }
