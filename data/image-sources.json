@@ -1,0 +1,454 @@
+{
+  "schema_version": "1.0.0",
+  "updated_on": "2026-10-18",
+  "purpose": "作品の正式情報はシカゴ美術館、画像の入手先はCommonsや既存アプリで検証済みの公開ミラー。画像入手先と美術館情報は独立。",
+  "source_of_existing_app": "https://github.com/matumaruex/bijutsukan/tree/d4221169de75a7abd3a838085d02f62f4f8bb9dd",
+  "record_status_counts": {
+    "app_reused": 16,
+    "commons_found_pending_http": 8,
+    "app_reused_in_curated_db": 11,
+    "app_reused_app_only": 5
+  },
+  "records": [
+    {
+      "id": "aic-869",
+      "title": "The Watermill with the Great Red Roof",
+      "official_artwork_url": "https://www.artic.edu/artworks/869",
+      "origin": "commons_artwork_match",
+      "in_shared_catalog": true,
+      "verification": "commons_page_found_image_http_pending",
+      "image_source": {
+        "type": "wikimedia_commons",
+        "file_title": "File:Meindert Hobbema - The Watermill with the Great Red Roof - 1894.1031 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Meindert%20Hobbema%20-%20The%20Watermill%20with%20the%20Great%20Red%20Roof%20-%201894.1031%20-%20Art%20Institute%20of%20Chicago.jpg",
+        "license_label": "CommonsのファイルページにPD/CC0表記あり（個別条件は配信前に再確認）",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
+        "sha256": null,
+        "byte_length": null
+      }
+    },
+    {
+      "id": "aic-4575",
+      "title": "Judith",
+      "official_artwork_url": "https://www.artic.edu/artworks/4575",
+      "origin": "commons_artwork_match",
+      "in_shared_catalog": true,
+      "verification": "commons_page_found_image_http_pending",
+      "image_source": {
+        "type": "wikimedia_commons",
+        "file_title": "File:Jan Sanders van Hemessen - Judith - 1956.1109 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Jan%20Sanders%20van%20Hemessen%20-%20Judith%20-%201956.1109%20-%20Art%20Institute%20of%20Chicago.jpg",
+        "license_label": "CommonsのファイルページにPD/CC0表記あり（個別条件は配信前に再確認）",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
+        "sha256": null,
+        "byte_length": null
+      }
+    },
+    {
+      "id": "aic-4758",
+      "title": "Stoke-by-Nayland",
+      "official_artwork_url": "https://www.artic.edu/artworks/4758",
+      "origin": "commons_artwork_match",
+      "in_shared_catalog": true,
+      "verification": "commons_page_found_image_http_pending",
+      "image_source": {
+        "type": "wikimedia_commons",
+        "file_title": "File:John Constable - Stoke-by-Nayland - 1922.4453 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:John%20Constable%20-%20Stoke-by-Nayland%20-%201922.4453%20-%20Art%20Institute%20of%20Chicago.jpg",
+        "license_label": "CommonsのファイルページにPD/CC0表記あり（個別条件は配信前に再確認）",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
+        "sha256": null,
+        "byte_length": null
+      }
+    },
+    {
+      "id": "aic-4796",
+      "title": "Fishing Boats with Hucksters Bargaining for Fish",
+      "official_artwork_url": "https://www.artic.edu/artworks/4796",
+      "origin": "commons_artwork_match",
+      "in_shared_catalog": true,
+      "verification": "commons_page_found_image_http_pending",
+      "image_source": {
+        "type": "wikimedia_commons",
+        "file_title": "File:Joseph Mallord William Turner - Fishing Boats with Hucksters Bargaining for Fish - 1922.4472 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Joseph%20Mallord%20William%20Turner%20-%20Fishing%20Boats%20with%20Hucksters%20Bargaining%20for%20Fish%20-%201922.4472%20-%20Art%20Institute%20of%20Chicago.jpg",
+        "license_label": "CommonsのファイルページにPD/CC0表記あり（個別条件は配信前に再確認）",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
+        "sha256": null,
+        "byte_length": null
+      }
+    },
+    {
+      "id": "aic-11723",
+      "title": "Woman at Her Toilette",
+      "official_artwork_url": "https://www.artic.edu/artworks/11723",
+      "origin": "existing_museum_app",
+      "in_shared_catalog": true,
+      "verification": "source_app_tested_recheck_pending",
+      "image_source": {
+        "type": "pinned_public_mirror",
+        "download_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/11723.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Berthe_Morisot_-_Woman_at_Her_Toilette_-_1924.127_-_Art_Institute_of_Chicago.jpg",
+        "license_label": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sha256": "d9c5937a41cd3553652247b5d93878745bdfac48d22abb7ddadab2d70f7754d1",
+        "byte_length": 203206,
+        "source_app_commit": "d4221169de75a7abd3a838085d02f62f4f8bb9dd",
+        "source_app_image_path": "public/artworks/11723.jpg"
+      }
+    },
+    {
+      "id": "aic-14591",
+      "title": "Woman Reading",
+      "official_artwork_url": "https://www.artic.edu/artworks/14591",
+      "origin": "commons_artwork_match",
+      "in_shared_catalog": true,
+      "verification": "commons_page_found_image_http_pending",
+      "image_source": {
+        "type": "wikimedia_commons",
+        "file_title": "File:Édouard Manet - Woman Reading - 1933.435 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:%C3%89douard%20Manet%20-%20Woman%20Reading%20-%201933.435%20-%20Art%20Institute%20of%20Chicago.jpg",
+        "license_label": "CommonsのファイルページにPD/CC0表記あり（個別条件は配信前に再確認）",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
+        "sha256": null,
+        "byte_length": null
+      }
+    },
+    {
+      "id": "aic-14620",
+      "title": "Cliff Walk at Pourville",
+      "official_artwork_url": "https://www.artic.edu/artworks/14620",
+      "origin": "existing_museum_app",
+      "in_shared_catalog": false,
+      "verification": "source_app_tested_recheck_pending",
+      "image_source": {
+        "type": "pinned_public_mirror",
+        "download_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/14620.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Cliff_Walk_at_Pourville_-_Google_Art_Project.jpg",
+        "license_label": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sha256": "d56c052e6279e6535db659b6487ce5ead03f5c52d421e5ecd35df2cb6abbffd2",
+        "byte_length": 301452,
+        "source_app_commit": "d4221169de75a7abd3a838085d02f62f4f8bb9dd",
+        "source_app_image_path": "public/artworks/14620.jpg"
+      }
+    },
+    {
+      "id": "aic-14655",
+      "title": "Two Sisters (On the Terrace)",
+      "official_artwork_url": "https://www.artic.edu/artworks/14655",
+      "origin": "existing_museum_app",
+      "in_shared_catalog": true,
+      "verification": "source_app_tested_recheck_pending",
+      "image_source": {
+        "type": "pinned_public_mirror",
+        "download_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/14655.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Two_Sisters_(On_the_Terrace)_-_Google_Art_Project.jpg",
+        "license_label": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sha256": "e675d810215f8129df0cfd5769a1cd48d4a1a31b0077c1a47c550ae72b2365b8",
+        "byte_length": 409346,
+        "source_app_commit": "d4221169de75a7abd3a838085d02f62f4f8bb9dd",
+        "source_app_image_path": "public/artworks/14655.jpg"
+      }
+    },
+    {
+      "id": "aic-16327",
+      "title": "The Annunciation",
+      "official_artwork_url": "https://www.artic.edu/artworks/16327",
+      "origin": "commons_artwork_match",
+      "in_shared_catalog": true,
+      "verification": "commons_page_found_image_http_pending",
+      "image_source": {
+        "type": "wikimedia_commons",
+        "file_title": "File:Jean Hey, (the Master of Moulins) - The Annunciation - 1933.1062 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Jean%20Hey%2C%20(the%20Master%20of%20Moulins)%20-%20The%20Annunciation%20-%201933.1062%20-%20Art%20Institute%20of%20Chicago.jpg",
+        "license_label": "CommonsのファイルページにPD/CC0表記あり（個別条件は配信前に再確認）",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
+        "sha256": null,
+        "byte_length": null
+      }
+    },
+    {
+      "id": "aic-16551",
+      "title": "Beata Beatrix",
+      "official_artwork_url": "https://www.artic.edu/artworks/16551",
+      "origin": "commons_artwork_match",
+      "in_shared_catalog": true,
+      "verification": "commons_page_found_image_http_pending",
+      "image_source": {
+        "type": "wikimedia_commons",
+        "file_title": "File:Dante Gabriel Rossetti - Beata Beatrix - 1925.722 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Dante%20Gabriel%20Rossetti%20-%20Beata%20Beatrix%20-%201925.722%20-%20Art%20Institute%20of%20Chicago.jpg",
+        "license_label": "CommonsのファイルページにPD/CC0表記あり（個別条件は配信前に再確認）",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
+        "sha256": null,
+        "byte_length": null
+      }
+    },
+    {
+      "id": "aic-16568",
+      "title": "Water Lilies",
+      "official_artwork_url": "https://www.artic.edu/artworks/16568",
+      "origin": "existing_museum_app",
+      "in_shared_catalog": true,
+      "verification": "source_app_tested_recheck_pending",
+      "image_source": {
+        "type": "pinned_public_mirror",
+        "download_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/16568.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Water_Lilies_-_1933.1157_-_Art_Institute_of_Chicago.jpg",
+        "license_label": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sha256": "8e87b1ca2d8f4727fcb29b30c1b96b3aaf311ec8589a9e377a3cb9ae9adf42de",
+        "byte_length": 363975,
+        "source_app_commit": "d4221169de75a7abd3a838085d02f62f4f8bb9dd",
+        "source_app_image_path": "public/artworks/16568.jpg"
+      }
+    },
+    {
+      "id": "aic-20684",
+      "title": "Paris Street; Rainy Day",
+      "official_artwork_url": "https://www.artic.edu/artworks/20684",
+      "origin": "existing_museum_app",
+      "in_shared_catalog": true,
+      "verification": "source_app_tested_recheck_pending",
+      "image_source": {
+        "type": "pinned_public_mirror",
+        "download_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/20684.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Gustave_Caillebotte_-_Paris_Street,_Rainy_Day_-_1964.336_-_Art_Institute_of_Chicago.jpg",
+        "license_label": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sha256": "85092b047a0653a751aa4d9933abc47c0ba8361bef1ccf12707bfdf9f2327685",
+        "byte_length": 195160,
+        "source_app_commit": "d4221169de75a7abd3a838085d02f62f4f8bb9dd",
+        "source_app_image_path": "public/artworks/20684.jpg"
+      }
+    },
+    {
+      "id": "aic-25865",
+      "title": "The Herring Net",
+      "official_artwork_url": "https://www.artic.edu/artworks/25865",
+      "origin": "existing_museum_app",
+      "in_shared_catalog": true,
+      "verification": "source_app_tested_recheck_pending",
+      "image_source": {
+        "type": "pinned_public_mirror",
+        "download_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/25865.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Winslow_Homer_-_The_Herring_Net_-_Google_Art_Project.jpg",
+        "license_label": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sha256": "bf40b803d46984f847d39578f59088cc717318e47a9c62fda6602ea07287a504",
+        "byte_length": 125154,
+        "source_app_commit": "d4221169de75a7abd3a838085d02f62f4f8bb9dd",
+        "source_app_image_path": "public/artworks/25865.jpg"
+      }
+    },
+    {
+      "id": "aic-27992",
+      "title": "A Sunday on La Grande Jatte — 1884",
+      "official_artwork_url": "https://www.artic.edu/artworks/27992",
+      "origin": "existing_museum_app",
+      "in_shared_catalog": true,
+      "verification": "source_app_tested_recheck_pending",
+      "image_source": {
+        "type": "pinned_public_mirror",
+        "download_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/27992.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Georges_Seurat_-_A_Sunday_on_La_Grande_Jatte_--_1884_-_Google_Art_Project.jpg",
+        "license_label": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sha256": "27edcc5c9d04e2271fe7db62312f8574d4354809aadc77d45fc288cd0450a656",
+        "byte_length": 229143,
+        "source_app_commit": "d4221169de75a7abd3a838085d02f62f4f8bb9dd",
+        "source_app_image_path": "public/artworks/27992.jpg"
+      }
+    },
+    {
+      "id": "aic-28560",
+      "title": "The Bedroom",
+      "official_artwork_url": "https://www.artic.edu/artworks/28560",
+      "origin": "existing_museum_app",
+      "in_shared_catalog": true,
+      "verification": "source_app_tested_recheck_pending",
+      "image_source": {
+        "type": "pinned_public_mirror",
+        "download_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/28560.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_Bedroom_-_1926.417_-_Art_Institute_of_Chicago.jpg",
+        "license_label": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sha256": "34c2a15bbc1721cd49d9e51f1522b0ec27fedd504d6e491b00e6ddad1f59f832",
+        "byte_length": 317192,
+        "source_app_commit": "d4221169de75a7abd3a838085d02f62f4f8bb9dd",
+        "source_app_image_path": "public/artworks/28560.jpg"
+      }
+    },
+    {
+      "id": "aic-61128",
+      "title": "At the Moulin Rouge",
+      "official_artwork_url": "https://www.artic.edu/artworks/61128",
+      "origin": "existing_museum_app",
+      "in_shared_catalog": true,
+      "verification": "source_app_tested_recheck_pending",
+      "image_source": {
+        "type": "pinned_public_mirror",
+        "download_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/61128.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Henri_de_Toulouse-Lautrec_-_At_the_Moulin_Rouge_-_1928.610_-_Art_Institute_of_Chicago.jpg",
+        "license_label": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sha256": "b31d99eb8d49ef6dc284997eac00efdddd474cea8b833268ae6e6ed1bc5b5ab0",
+        "byte_length": 183737,
+        "source_app_commit": "d4221169de75a7abd3a838085d02f62f4f8bb9dd",
+        "source_app_image_path": "public/artworks/61128.jpg"
+      }
+    },
+    {
+      "id": "aic-64729",
+      "title": "Early Morning, Tarpon Springs",
+      "official_artwork_url": "https://www.artic.edu/artworks/64729",
+      "origin": "commons_artwork_match",
+      "in_shared_catalog": true,
+      "verification": "commons_page_found_image_http_pending",
+      "image_source": {
+        "type": "wikimedia_commons",
+        "file_title": "File:George Inness - Early Morning, Tarpon Springs - 1911.32 - Art Institute of Chicago.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:George%20Inness%20-%20Early%20Morning%2C%20Tarpon%20Springs%20-%201911.32%20-%20Art%20Institute%20of%20Chicago.jpg",
+        "license_label": "CommonsのファイルページにPD/CC0表記あり（個別条件は配信前に再確認）",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
+        "sha256": null,
+        "byte_length": null
+      }
+    },
+    {
+      "id": "aic-80607",
+      "title": "Self-Portrait",
+      "official_artwork_url": "https://www.artic.edu/artworks/80607",
+      "origin": "existing_museum_app",
+      "in_shared_catalog": true,
+      "verification": "source_app_tested_recheck_pending",
+      "image_source": {
+        "type": "pinned_public_mirror",
+        "download_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/80607.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-Portrait_-_1954.326_-_Art_Institute_of_Chicago.jpg",
+        "license_label": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sha256": "bfa0ac1981c9c17a757531ba50d40068972acf2875e323fe72839d2d341986b5",
+        "byte_length": 591800,
+        "source_app_commit": "d4221169de75a7abd3a838085d02f62f4f8bb9dd",
+        "source_app_image_path": "public/artworks/80607.jpg"
+      }
+    },
+    {
+      "id": "aic-90048",
+      "title": "Distant View of Niagara Falls",
+      "official_artwork_url": "https://www.artic.edu/artworks/90048",
+      "origin": "existing_museum_app",
+      "in_shared_catalog": false,
+      "verification": "source_app_tested_recheck_pending",
+      "image_source": {
+        "type": "pinned_public_mirror",
+        "download_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/90048.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Distant_View_of_Niagara_Falls_1830_Thomas_Cole.jpg",
+        "license_label": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sha256": "4ac9fab5fba5fabdec1bbc6a33524d78f0d39ed239be1a4ad17acef533f98b08",
+        "byte_length": 211781,
+        "source_app_commit": "d4221169de75a7abd3a838085d02f62f4f8bb9dd",
+        "source_app_image_path": "public/artworks/90048.jpg"
+      }
+    },
+    {
+      "id": "aic-94841",
+      "title": "The Song of the Lark",
+      "official_artwork_url": "https://www.artic.edu/artworks/94841",
+      "origin": "existing_museum_app",
+      "in_shared_catalog": false,
+      "verification": "source_app_tested_recheck_pending",
+      "image_source": {
+        "type": "pinned_public_mirror",
+        "download_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/94841.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Jules_Breton,_le_chant_de_l%27alouette.1884.jpg",
+        "license_label": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sha256": "3efe9337c491c9732cca17b567382d6a1cc83b9874250fb8650e981e2fabb127",
+        "byte_length": 277751,
+        "source_app_commit": "d4221169de75a7abd3a838085d02f62f4f8bb9dd",
+        "source_app_image_path": "public/artworks/94841.jpg"
+      }
+    },
+    {
+      "id": "aic-95998",
+      "title": "Old Man with a Gold Chain",
+      "official_artwork_url": "https://www.artic.edu/artworks/95998",
+      "origin": "existing_museum_app",
+      "in_shared_catalog": false,
+      "verification": "source_app_tested_recheck_pending",
+      "image_source": {
+        "type": "pinned_public_mirror",
+        "download_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/95998.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmenszoon_van_Rijn_-_Old_Man_with_a_Gold_Chain_-_1922.4467_-_Art_Institute_of_Chicago.jpg",
+        "license_label": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sha256": "18acc50634ba8ba41ba863b4c78d993285ea5dd3425d6060cf08d9437fe9e8b5",
+        "byte_length": 229489,
+        "source_app_commit": "d4221169de75a7abd3a838085d02f62f4f8bb9dd",
+        "source_app_image_path": "public/artworks/95998.jpg"
+      }
+    },
+    {
+      "id": "aic-111436",
+      "title": "The Basket of Apples",
+      "official_artwork_url": "https://www.artic.edu/artworks/111436",
+      "origin": "existing_museum_app",
+      "in_shared_catalog": true,
+      "verification": "source_app_tested_recheck_pending",
+      "image_source": {
+        "type": "pinned_public_mirror",
+        "download_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/111436.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg",
+        "license_label": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sha256": "17fa8e013cc995178c05dfccdd26c7135d209295b3189c113e5d3831be019746",
+        "byte_length": 262722,
+        "source_app_commit": "d4221169de75a7abd3a838085d02f62f4f8bb9dd",
+        "source_app_image_path": "public/artworks/111436.jpg"
+      }
+    },
+    {
+      "id": "aic-111442",
+      "title": "The Child's Bath",
+      "official_artwork_url": "https://www.artic.edu/artworks/111442",
+      "origin": "existing_museum_app",
+      "in_shared_catalog": true,
+      "verification": "source_app_tested_recheck_pending",
+      "image_source": {
+        "type": "pinned_public_mirror",
+        "download_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/111442.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Mary_Cassatt_-_The_Child%27s_Bath_-_1910.2_-_Art_Institute_of_Chicago.jpg",
+        "license_label": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sha256": "0ab321a1adb37519c550059e96496a42b22dbc441b856e3589533815de88346d",
+        "byte_length": 461931,
+        "source_app_commit": "d4221169de75a7abd3a838085d02f62f4f8bb9dd",
+        "source_app_image_path": "public/artworks/111442.jpg"
+      }
+    },
+    {
+      "id": "aic-154235",
+      "title": "The Girl by the Window",
+      "official_artwork_url": "https://www.artic.edu/artworks/154235",
+      "origin": "existing_museum_app",
+      "in_shared_catalog": false,
+      "verification": "source_app_tested_recheck_pending",
+      "image_source": {
+        "type": "pinned_public_mirror",
+        "download_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/154235.jpg",
+        "commons_file_page": "https://commons.wikimedia.org/wiki/File:Edvard_Munch_-_The_Girl_by_the_Window_-_2000.50_-_Art_Institute_of_Chicago.jpg",
+        "license_label": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "sha256": "ab9aec9972a30ba844f78890aedf2ca408c430394644fbe78a38711efb3ef40c",
+        "byte_length": 428255,
+        "source_app_commit": "d4221169de75a7abd3a838085d02f62f4f8bb9dd",
+        "source_app_image_path": "public/artworks/154235.jpg"
+      }
+    }
+  ]
+}
