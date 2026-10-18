@@ -35,7 +35,8 @@ def main():
     errors=[]
     for a in works:
         id_=a["id"];src=a["source"];image=a["image"];tags=a["emotion_categories"]
-        if id_ in existing or id_ in ids or id_!="aic-"+str(src["artwork_id"]): errors.append(id_+" duplicate or bad ID")
+        if id_ in ids or id_!="aic-"+str(src["artwork_id"]): errors.append(id_+" duplicate or bad ID")
+        if id_ in existing and a["review"]["status"]!="candidate_official_and_image_verified": errors.append(id_+" registered despite pending checks")
         ids.add(id_)
         if not a["facts_provisional"]["accession_number"] in image["commons_file_title"]: errors.append(id_+" image accession mismatch")
         if not (1<=len(tags["primary"])<=2 and len(tags["secondary"])<=2): errors.append(id_+" primary/secondary limit")
@@ -44,6 +45,15 @@ def main():
         if a["meaning_basis"]["author_intent"]["status"]!="not_verified_for_this_work" or a["meaning_basis"]["author_intent"]["summary"] is not None: errors.append(id_+" fabricated author quote")
         if not a["meaning_basis"]["scholarly_interpretation"]["source_url"].startswith("https://"): errors.append(id_+" no expert source")
         if a["review"]["interpretation_human_approved"] is not False: errors.append(id_+" approval flag")
+        if a["review"]["status"] == "candidate_official_and_image_verified":
+            official=a.get("official_metadata_check",{})
+            if official.get("id")!=src["artwork_id"] or not official.get("is_public_domain") or official.get("artwork_type_title")!="Painting":
+                errors.append(id_+" unverified official metadata")
+            if not a["image"].get("sha256") or len(a["image"].get("sha256",""))!=64 or not a["image"].get("verified_download_url"):
+                errors.append(id_+" verified image metadata missing")
+        elif a["review"]["status"] != "candidate_metadata_image_pending":
+            errors.append(id_+" unknown candidate status")
+
     if errors: raise ValueError("; ".join(errors))
     print("STRUCTURE OK: "+str(len(works))+" candidate records; no new exhibition entries.",flush=True)
     if not args.online: return
