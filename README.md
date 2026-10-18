@@ -3,7 +3,7 @@
 実在する絵画の作品情報と、気持ちに合わせた展示のための**試験的な解釈データ**を管理する、2人で共有するデータリポジトリです。美術館アプリ本体のデザインや3D空間はここに置きません。
 
 ## 初回登録（2026-10-18）
-- **4作品**を `data/artworks.json` に登録（pilot-001）
+- **4作品**を `data/artworks.json` に登録（pilot-001、2026-10-18に一次見直し済み）
 - **出典**：Art Institute of Chicago（シカゴ美術館）の作品API
 - 4作品とも公式APIで `is_public_domain: true`、作品種別 `Painting`、`image_id` を確認した
 - 画像URLは美術館のIIIF公式仕様で組み立てた。**ブラウザでの実表示・HTTP到達性は未検証**
@@ -16,6 +16,7 @@
 - `data/emotions.json`：感情（emotions）／空気感（tones）／主題（themes）の分類
 - `scripts/validate_artworks.py`：重複・ID・タグ・必須項目などをローカル検証
 - `docs/review-guide.md`：追加の前に確認するレビュー手順
+- `docs/review-report-pilot-001.md`：試験登録4作品の見直し結果
 
 ## 検証
 ```bash
