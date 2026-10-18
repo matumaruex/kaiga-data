@@ -49,3 +49,55 @@
 5. 問題なしならGitHubへコミット
 
 今回は **GitHubへの候補登録まで** を実施。ネットワーク未検証の作品を確定扱いしない。
+
+
+## 追加調査（2026-10-18）
+
+### 作品画像IDと権利情報をさらに照合
+公式APIへの直接アクセスがこの環境からできなかったため、第三者が保存した**過去のシカゴ美術館APIレスポンス2組**を照合した。
+
+- [過去APIレスポンス複製A](https://github.com/monocle/musee/blob/main/backend/src/artworks_response_1.json)
+- [過去APIレスポンス複製B](https://github.com/max881230/mp2/blob/main/public/data/paintings.json)
+
+調査結果：
+- 15作品すべて、2つの複製で「Painting」「is_public_domain=true」が一致
+- **13作品**：画像IDまで一致。画像URLの候補を生成して候補データに保存
+- **2作品**：画像IDに相違があり、混同の可能性があるため保留
+  - Mary Cassatt `aic-111442` The Child's Bath
+  - Vincent van Gogh `aic-80607` Self-Portrait
+
+**重要：** この突合は過去のAPIコピー同士の照合であり、現在の公式APIが返す画像IDや公開状態の確認ではない。URLは未疎通確認。ゆえにすべて `candidate_unverified` のまま本登録は保留。
+
+### 感情解釈の再チェック
+
+**ロセッティ『Beata Beatrix』（16551）**
+- [シカゴ美術館所蔵版の公式解説](https://archive.artic.edu/apostlesbeauty/artwork/16551)が、死んだベアトリーチェと画家の亡妻への個人的な思いを説明。喪失・未練との結び付けは強い。
+- ロンドンのテート所蔵初版とシカゴ所蔵の複製版を混同しない。
+
+**ホーマー『The Herring Net』（25865）**
+- [シカゴ美術館公式解説](https://archive.artic.edu/homer_exhb/artwork/25865)で、2人の漁師の協働・海の危険・生き抜く努力を確認。不安だけではなく、協力や耐える力を読むことができる。
+
+**ルノワール『Two Sisters』（14655）**
+- [美術館の学術カタログ](https://publications.artic.edu/renoir/api/epub/135446/135639/print_view)によると2人は実際の姉妹ではなく、温かい交流を明確に描いた作品とも言えない。
+- もともとの「2人の親密さ、喜び」の解釈を弱め、**人物間の距離**を主題に追加した。
+
+**ロートレック『At the Moulin Rouge』（61128）**
+- [美術館展覧会の公式解説](https://archive.artic.edu/toulouse_lautrec/themes.html)が、歪んだ遠近・きつい色調・疎外的な社交関係を説明。**群衆の中の孤独**を2から3に変更。
+
+**カサット『The Child's Bath』（111442）**
+- [美術館が提供したGoogle Arts & Culture上の作品解説](https://artsandculture.google.com/asset/the-child-s-bath/FQGpjnFFEcrMyw?hl=en-GB)で、子を世話する人物と子どもの親密な場面を確認。
+- しかし人物が実際の母と子と断定できるわけではないため、家族関係の事実を作らない。
+
+**ユディト（4575）**
+- 題材に斬首が含まれるため、将来の展示アプリ向けに「暴力的題材」の注意タグを追加。実画像の描写については未確認。
+
+### 自動チェック
+- `scripts/validate_candidates.py` に過去APIスナップショット2件の一致検査、画像IDの不一致検出、未検証状態のチェックを追加。
+- `scripts/enrich_candidates.py` は美術館APIの推奨アクセス間隔を考慮し、1作品ごとに1.1秒の待ち時間を設定。
+- [GitHub Actionsの確認ワークフロー](../.github/workflows/check-artworks.yml)を追加。実行時に静的チェックと公式APIへの照合（dry-run）を行う。**実際のワークフロー成功は未確認**。
+
+### 次の優先事項
+1. GitHub Actionsで現在の美術館公式APIを照合できるか確認。
+2. 画像ID不一致の2作品は**現在の公式API値**を使って解決。
+3. IIIF画像を実際に表示して内容・比率・暴力表現などを確認。
+4. 良好な作品のみ人間のチェックを経て本登録する。
