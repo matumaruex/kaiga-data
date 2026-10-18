@@ -5007,6 +5007,903 @@
         "curatorial_review_status": "provisional",
         "curatorial_review_note": "公式APIで作品名・作者・制作年代・PD・絵画分類・画像IDを2026-10-18に確認。Commons由来JPEGハッシュ確認済み。制作意図と学術解説を区別したAI編集の試験用登録。美術史的な最終確定やアプリ展示は未実施。"
       }
+    },
+    {
+      "id": "met-749407",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 749407,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/749407",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/749407",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "The Fury of Monk Raigō",
+        "title_ja_provisional": "頼豪阿闍梨図",
+        "artist": "Kobayashi Kiyochika",
+        "creation_date_display": "ca. 1900",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2017.292"
+      },
+      "image": {
+        "image_id": "met-749407-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-14063-022.jpg",
+        "source_registry_id": "met-749407",
+        "local_path": "/artworks/met-749407.jpg",
+        "sha256": "b8791008becc45daf6d969bab7d87af502022732561adcd40dc14a1a0ac2c630",
+        "byte_length": 153651,
+        "live_image_checked": true,
+        "live_check_scope": "The Met official API primaryImageSmall; HTTP/JPEG/SHA256, not human visual approval",
+        "source_accession_number": "2017.292"
+      },
+      "curation": {
+        "emotions": [
+          "怒り",
+          "不安"
+        ],
+        "emotion_strengths": {
+          "怒り": 2,
+          "不安": 1
+        },
+        "tones": [
+          "緊張",
+          "重苦しさ"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "interpretation": "約束を反故にされた頼豪が修法中に激怒し、法具や経本が散乱する場面。美術館解説が怒りを物語の中心と明記。",
+        "alternate_reading": "画家本人が激怒していた証拠ではなく、伝承上の人物の感情。作品の作者個人の怒りと混同しない。",
+        "source_context_note": "明治期の小林清親が、中世僧侶・頼豪の怒りと怨念をめぐる伝承を絵画化した掛幅。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/749407",
+        "search_profile": {
+          "summary_for_ai": "約束を反故にされた頼豪が修法中に激怒し、法具や経本が散乱する場面。美術館解説が怒りを物語の中心と明記。 画家本人が激怒していた証拠ではなく、伝承上の人物の感情。作品の作者個人の怒りと混同しない。",
+          "fitting_situations": [
+            {
+              "situation": "約束を裏切られ、怒りが抑えられない",
+              "reason": "約束を破られた頼豪の激怒が、散乱する法具と儀礼の崩壊として具体的に描かれる。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "画家本人が激怒していた証拠ではなく、伝承上の人物の感情。作品の作者個人の怒りと混同しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "約束を反故にされた頼豪が修法中に激怒し、法具や経本が散乱する場面。美術館解説が怒りを物語の中心と明記。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/749407"
+          },
+          "creation_context": "明治期の小林清親が、中世僧侶・頼豪の怒りと怨念をめぐる伝承を絵画化した掛幅。",
+          "visual_clues": "身を反らせる僧、炎と煙、床に散乱する経本と法具。整然とした儀礼の場が一瞬で乱れる。",
+          "uncertainty_note": "画家本人が激怒していた証拠ではなく、伝承上の人物の感情。作品の作者個人の怒りと混同しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "怒り"
+          ],
+          "secondary": [
+            "不安"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第7群。Met公式APIとprimary JPEGをGitHub Actionsで実取得しSHA256照合。作者発言/物語主題/鑑賞タグを別扱い。画像の人間による視認、展示用の最終編集と公開確認は未了。"
+      }
+    },
+    {
+      "id": "met-737735",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 737735,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/737735",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/737735",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Viewing the Moon in an Empty Room",
+        "title_ja_provisional": "空房對月圖",
+        "artist": "Gu Luo",
+        "creation_date_display": "1829",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "China",
+        "accession_number": "2024.549.7"
+      },
+      "image": {
+        "image_id": "met-737735-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-42601-001.jpg",
+        "source_registry_id": "met-737735",
+        "local_path": "/artworks/met-737735.jpg",
+        "sha256": "399f39f3339cbe11c7da04286e474e058c26d06a6d78a4fd5621de966fd698f2",
+        "byte_length": 72994,
+        "live_image_checked": true,
+        "live_check_scope": "The Met official API primaryImageSmall; HTTP/JPEG/SHA256, not human visual approval",
+        "source_accession_number": "2024.549.7"
+      },
+      "curation": {
+        "emotions": [
+          "喪失感",
+          "寂しさ"
+        ],
+        "emotion_strengths": {
+          "喪失感": 2,
+          "寂しさ": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "別れ",
+          "愛情",
+          "記憶"
+        ],
+        "interpretation": "作者の画賛によれば哀悼の詩に由来し、空の部屋と月が大切な人を失う感覚を示す。父と幼い息子が月を見る。",
+        "alternate_reading": "詩をもとにした主題であり、作者自身が身近な人を亡くしたとは断定できない。",
+        "source_context_note": "清代の顧洛による1829年の画帖の一葉。題材は哀悼の詩に触発されている。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/737735",
+        "search_profile": {
+          "summary_for_ai": "作者の画賛によれば哀悼の詩に由来し、空の部屋と月が大切な人を失う感覚を示す。父と幼い息子が月を見る。 詩をもとにした主題であり、作者自身が身近な人を亡くしたとは断定できない。",
+          "fitting_situations": [
+            {
+              "situation": "失った人を思う気持ちを、静かな余白のなかで受け止めたい",
+              "reason": "作者自身の画賛が哀悼の詩への着想を語り、空の部屋と月が不在を想起させる。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "詩をもとにした主題であり、作者自身が身近な人を亡くしたとは断定できない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "direct_for_this_work",
+            "summary": "作者の画賛が哀悼の詩から着想したと説明している。ただし作者自身の死別体験ではない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/737735"
+          },
+          "scholarly_interpretation": {
+            "summary": "作者の画賛によれば哀悼の詩に由来し、空の部屋と月が大切な人を失う感覚を示す。父と幼い息子が月を見る。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/737735"
+          },
+          "creation_context": "清代の顧洛による1829年の画帖の一葉。題材は哀悼の詩に触発されている。",
+          "visual_clues": "父親と幼い息子が月を眺める開けた室内と、空白や霧に満ちた風景。",
+          "uncertainty_note": "詩をもとにした主題であり、作者自身が身近な人を亡くしたとは断定できない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喪失感"
+          ],
+          "secondary": [
+            "寂しさ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第7群。Met公式APIとprimary JPEGをGitHub Actionsで実取得しSHA256照合。作者発言/物語主題/鑑賞タグを別扱い。画像の人間による視認、展示用の最終編集と公開確認は未了。"
+      }
+    },
+    {
+      "id": "met-816203",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 816203,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/816203",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/816203",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Festive Dancing at a Samurai Residence (Fūryū odori zu byōbu)",
+        "title_ja_provisional": "風流踊図屏風",
+        "artist": "Unidentified artist",
+        "creation_date_display": "ca. 1660",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2018.853.16"
+      },
+      "image": {
+        "image_id": "met-816203-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-17861-001.jpg",
+        "source_registry_id": "met-816203",
+        "local_path": "/artworks/met-816203.jpg",
+        "sha256": "1fb9cbab1887bb5e52fe95764060c1428dcc93cc6780c9c5e76021bad8dbc6c7",
+        "byte_length": 76111,
+        "live_image_checked": true,
+        "live_check_scope": "The Met official API primaryImageSmall; HTTP/JPEG/SHA256, not human visual approval",
+        "source_accession_number": "2018.853.16"
+      },
+      "curation": {
+        "emotions": [
+          "喜び",
+          "期待"
+        ],
+        "emotion_strengths": {
+          "喜び": 2,
+          "期待": 1
+        },
+        "tones": [
+          "にぎわい",
+          "高揚"
+        ],
+        "themes": [
+          "共同体",
+          "日常"
+        ],
+        "interpretation": "武家屋敷で笛・鼓・三味線に合わせて踊る風流踊。江戸時代の祭礼や私的集まりで楽しまれた流行の踊りを描く。",
+        "alternate_reading": "踊りの文化的な楽しさが主題。個々の人物の内心や作者の高揚を断言しない。",
+        "source_context_note": "江戸前期の風流踊を描く四曲屏風。画家は未詳で、娯楽文化の風俗画という歴史的背景がある。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/816203",
+        "search_profile": {
+          "summary_for_ai": "武家屋敷で笛・鼓・三味線に合わせて踊る風流踊。江戸時代の祭礼や私的集まりで楽しまれた流行の踊りを描く。 踊りの文化的な楽しさが主題。個々の人物の内心や作者の高揚を断言しない。",
+          "fitting_situations": [
+            {
+              "situation": "人とともに喜びや高揚を分かち合う場面を見たい",
+              "reason": "祭りや集まりで流行の踊りを楽しむ場面が絵画の主要主題となっている。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "踊りの文化的な楽しさが主題。個々の人物の内心や作者の高揚を断言しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "武家屋敷で笛・鼓・三味線に合わせて踊る風流踊。江戸時代の祭礼や私的集まりで楽しまれた流行の踊りを描く。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/816203"
+          },
+          "creation_context": "江戸前期の風流踊を描く四曲屏風。画家は未詳で、娯楽文化の風俗画という歴史的背景がある。",
+          "visual_clues": "武家屋敷の庭に集まる人々が、笛・鼓・三味線の音楽に合わせて踊る横長の屏風画。",
+          "uncertainty_note": "踊りの文化的な楽しさが主題。個々の人物の内心や作者の高揚を断言しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喜び"
+          ],
+          "secondary": [
+            "期待"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第7群。Met公式APIとprimary JPEGをGitHub Actionsで実取得しSHA256照合。作者発言/物語主題/鑑賞タグを別扱い。画像の人間による視認、展示用の最終編集と公開確認は未了。"
+      }
+    },
+    {
+      "id": "met-42346",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 42346,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/42346",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/42346",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Landscape with Pavilion",
+        "title_ja_provisional": "山水図",
+        "artist": "Kenkō Shōkei",
+        "creation_date_display": "1478–80",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "1985.7"
+      },
+      "image": {
+        "image_id": "met-42346-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-36543-002.jpg",
+        "source_registry_id": "met-42346",
+        "local_path": "/artworks/met-42346.jpg",
+        "sha256": "2dcae14b98de6a41ea10e1d14e884d73da99c1ab389ce6d5da2d91e766e8901b",
+        "byte_length": 160406,
+        "live_image_checked": true,
+        "live_check_scope": "The Met official API primaryImageSmall; HTTP/JPEG/SHA256, not human visual approval",
+        "source_accession_number": "1985.7"
+      },
+      "curation": {
+        "emotions": [
+          "安心",
+          "孤独"
+        ],
+        "emotion_strengths": {
+          "安心": 2,
+          "孤独": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "居場所",
+          "他者との距離"
+        ],
+        "interpretation": "山中の亭に憩う人物。別人の僧・桃源瑞仙の画賛が俗世を離れた隠者の理想と静寂を表す。",
+        "alternate_reading": "『孤独』は弱い関連に限る。世間との距離は自分で選んだもので、寂しく苦しんでいる人物とは限らない。画賛の筆者と絵の作者を区別。",
+        "source_context_note": "室町期、禅僧賢江祥啓が中国山水画を学んでいた時期の作品。画賛の筆者は桃源瑞仙で絵の作者とは異なる。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/42346",
+        "search_profile": {
+          "summary_for_ai": "山中の亭に憩う人物。別人の僧・桃源瑞仙の画賛が俗世を離れた隠者の理想と静寂を表す。 『孤独』は弱い関連に限る。世間との距離は自分で選んだもので、寂しく苦しんでいる人物とは限らない。画賛の筆者と絵の作者を区別。",
+          "fitting_situations": [
+            {
+              "situation": "人との距離を自分で選び、静かな場所で過ごしたい",
+              "reason": "絵と僧・桃源瑞仙の画賛が、世俗から離れる隠者の理想を描いている。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "『孤独』は弱い関連に限る。世間との距離は自分で選んだもので、寂しく苦しんでいる人物とは限らない。画賛の筆者と絵の作者を区別。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "山中の亭に憩う人物。別人の僧・桃源瑞仙の画賛が俗世を離れた隠者の理想と静寂を表す。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/42346"
+          },
+          "creation_context": "室町期、禅僧賢江祥啓が中国山水画を学んでいた時期の作品。画賛の筆者は桃源瑞仙で絵の作者とは異なる。",
+          "visual_clues": "山中の湖畔の亭に腰を落ち着ける人物と滝。画賛が隠遁の理想を補っている。",
+          "uncertainty_note": "『孤独』は弱い関連に限る。世間との距離は自分で選んだもので、寂しく苦しんでいる人物とは限らない。画賛の筆者と絵の作者を区別。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "安心"
+          ],
+          "secondary": [
+            "孤独"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第7群。Met公式APIとprimary JPEGをGitHub Actionsで実取得しSHA256照合。作者発言/物語主題/鑑賞タグを別扱い。画像の人間による視認、展示用の最終編集と公開確認は未了。"
+      }
+    },
+    {
+      "id": "met-73161",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 73161,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/73161",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/73161",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Drenched in Moonlight",
+        "title_ja_provisional": "浸月圖",
+        "artist": "Tong Yu",
+        "creation_date_display": "18th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "China",
+        "accession_number": "2005.510.1"
+      },
+      "image": {
+        "image_id": "met-73161-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP146993.jpg",
+        "source_registry_id": "met-73161",
+        "local_path": "/artworks/met-73161.jpg",
+        "sha256": "be66945ed564b55e95f1686d0dab83761ba0c75087be8239cb25d62ce0b41e8f",
+        "byte_length": 27281,
+        "live_image_checked": true,
+        "live_check_scope": "The Met official API primaryImageSmall; HTTP/JPEG/SHA256, not human visual approval",
+        "source_accession_number": "2005.510.1"
+      },
+      "curation": {
+        "emotions": [
+          "安心"
+        ],
+        "emotion_strengths": {
+          "安心": 2
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "interpretation": "画家本人の詩が、雪後の静けさのなか、月夜の梅が時の流れを気にせず枝を伸ばす姿を語る。",
+        "alternate_reading": "静謐な作品で、孤独の苦痛や作者の死別を示す根拠はない。懐かしさは弱い補助候補に限る。",
+        "source_context_note": "清代の童鈺による墨梅と自作の詩。画賛と絵の意味を一緒に読める。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/73161",
+        "search_profile": {
+          "summary_for_ai": "画家本人の詩が、雪後の静けさのなか、月夜の梅が時の流れを気にせず枝を伸ばす姿を語る。 静謐な作品で、孤独の苦痛や作者の死別を示す根拠はない。懐かしさは弱い補助候補に限る。",
+          "fitting_situations": [
+            {
+              "situation": "季節の移ろいを眺めながら穏やかな時間を過ごしたい",
+              "reason": "作者本人の詩が雪後の静けさと梅の自然な生命力を語っている。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "静謐な作品で、孤独の苦痛や作者の死別を示す根拠はない。懐かしさは弱い補助候補に限る。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "direct_for_this_work",
+            "summary": "画家自身の詩が雪後の静けさと梅を述べ、作品と一体になっている。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/73161"
+          },
+          "scholarly_interpretation": {
+            "summary": "画家本人の詩が、雪後の静けさのなか、月夜の梅が時の流れを気にせず枝を伸ばす姿を語る。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/73161"
+          },
+          "creation_context": "清代の童鈺による墨梅と自作の詩。画賛と絵の意味を一緒に読める。",
+          "visual_clues": "月夜の梅の枝と、作者が書き添えた詩。",
+          "uncertainty_note": "静謐な作品で、孤独の苦痛や作者の死別を示す根拠はない。懐かしさは弱い補助候補に限る。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "安心"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第7群。Met公式APIとprimary JPEGをGitHub Actionsで実取得しSHA256照合。作者発言/物語主題/鑑賞タグを別扱い。画像の人間による視認、展示用の最終編集と公開確認は未了。"
+      }
+    },
+    {
+      "id": "met-74692",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 74692,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/74692",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/74692",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Woman Leaving Her Lover",
+        "title_ja_provisional": "恋人のもとを去る女性",
+        "artist": "Unidentified artist",
+        "creation_date_display": "ca. 1790–1820",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India",
+        "accession_number": "2008.359.35"
+      },
+      "image": {
+        "image_id": "met-74692-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP166102.jpg",
+        "source_registry_id": "met-74692",
+        "local_path": "/artworks/met-74692.jpg",
+        "sha256": "491a9ad7b0ad64dc00696af0fafe724eefd81ed8c9a42850f09e4458637109bd",
+        "byte_length": 95564,
+        "live_image_checked": true,
+        "live_check_scope": "The Met official API primaryImageSmall; HTTP/JPEG/SHA256, not human visual approval",
+        "source_accession_number": "2008.359.35"
+      },
+      "curation": {
+        "emotions": [
+          "未練",
+          "不安"
+        ],
+        "emotion_strengths": {
+          "未練": 2,
+          "不安": 1
+        },
+        "tones": [
+          "余韻",
+          "重苦しさ"
+        ],
+        "themes": [
+          "別れ",
+          "愛情",
+          "他者との距離"
+        ],
+        "interpretation": "パハーリー地方の詩的絵画。恋人との別離の苦しみが当時よく扱われたと美術館が明記。",
+        "alternate_reading": "『未練』は別離の場面からの仮説。再会を望んだか、作者本人が失恋したかは未確認。",
+        "source_context_note": "18世紀末〜19世紀初頭のインド・パハーリー地方の絵画。作者は未詳で詩的な恋人の離別が主要題材。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/74692",
+        "search_profile": {
+          "summary_for_ai": "パハーリー地方の詩的絵画。恋人との別離の苦しみが当時よく扱われたと美術館が明記。 『未練』は別離の場面からの仮説。再会を望んだか、作者本人が失恋したかは未確認。",
+          "fitting_situations": [
+            {
+              "situation": "恋人との別れのつらさを言葉にできない",
+              "reason": "パハーリー地方の別離の苦しみを扱う詩的な絵画の伝統に属する。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "『未練』は別離の場面からの仮説。再会を望んだか、作者本人が失恋したかは未確認。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "パハーリー地方の詩的絵画。恋人との別離の苦しみが当時よく扱われたと美術館が明記。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/74692"
+          },
+          "creation_context": "18世紀末〜19世紀初頭のインド・パハーリー地方の絵画。作者は未詳で詩的な恋人の離別が主要題材。",
+          "visual_clues": "恋人のもとを去る女性を描いたインド北部の細密画。",
+          "uncertainty_note": "『未練』は別離の場面からの仮説。再会を望んだか、作者本人が失恋したかは未確認。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "未練"
+          ],
+          "secondary": [
+            "不安"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第7群。Met公式APIとprimary JPEGをGitHub Actionsで実取得しSHA256照合。作者発言/物語主題/鑑賞タグを別扱い。画像の人間による視認、展示用の最終編集と公開確認は未了。"
+      }
+    },
+    {
+      "id": "met-37941",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 37941,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/37941",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/37941",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "A Courtesan and Her Lover Estranged by a Quarrel:  Page from a Rasamanjari series",
+        "title_ja_provisional": "口論で仲違いした遊女と恋人",
+        "artist": "Devidasa of Nurpur",
+        "creation_date_display": "dated 1694–95",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India",
+        "accession_number": "57.51.14"
+      },
+      "image": {
+        "image_id": "met-37941-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP153147.jpg",
+        "source_registry_id": "met-37941",
+        "local_path": "/artworks/met-37941.jpg",
+        "sha256": "cbf15e8636dd04e4fbe1c35ed7c9487707e1f033b1248b4673b242db001aafd4",
+        "byte_length": 92666,
+        "live_image_checked": true,
+        "live_check_scope": "The Met official API primaryImageSmall; HTTP/JPEG/SHA256, not human visual approval",
+        "source_accession_number": "57.51.14"
+      },
+      "curation": {
+        "emotions": [
+          "不安",
+          "未練"
+        ],
+        "emotion_strengths": {
+          "不安": 2,
+          "未練": 1
+        },
+        "tones": [
+          "緊張",
+          "余韻"
+        ],
+        "themes": [
+          "別れ",
+          "愛情",
+          "他者との距離"
+        ],
+        "interpretation": "恋人が急いで立ち去ったことを半開きの戸で示し、暗い門が二人の間の断絶を可視化する。文学『ラサマンジャリ』に由来。",
+        "alternate_reading": "口論は描かれるが、人物が怒りの最中だと断定できない。未練・怒りは弱い補助候補で再審査。",
+        "source_context_note": "1694〜95年のインド・パンジャーブ丘陵の細密画。恋愛詩『ラサマンジャリ』の一場面。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/37941",
+        "search_profile": {
+          "summary_for_ai": "恋人が急いで立ち去ったことを半開きの戸で示し、暗い門が二人の間の断絶を可視化する。文学『ラサマンジャリ』に由来。 口論は描かれるが、人物が怒りの最中だと断定できない。未練・怒りは弱い補助候補で再審査。",
+          "fitting_situations": [
+            {
+              "situation": "口論のあとに残る距離や関係の不確かさを感じている",
+              "reason": "『ラサマンジャリ』の恋愛場面をもとに、恋人の急な退出と空間的な隔たりを描いている。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "口論は描かれるが、人物が怒りの最中だと断定できない。未練・怒りは弱い補助候補で再審査。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "恋人が急いで立ち去ったことを半開きの戸で示し、暗い門が二人の間の断絶を可視化する。文学『ラサマンジャリ』に由来。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/37941"
+          },
+          "creation_context": "1694〜95年のインド・パンジャーブ丘陵の細密画。恋愛詩『ラサマンジャリ』の一場面。",
+          "visual_clues": "半開きの戸と暗い門が、離れてしまった恋人たちの亀裂を視覚的に示す。",
+          "uncertainty_note": "口論は描かれるが、人物が怒りの最中だと断定できない。未練・怒りは弱い補助候補で再審査。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "不安"
+          ],
+          "secondary": [
+            "未練"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第7群。Met公式APIとprimary JPEGをGitHub Actionsで実取得しSHA256照合。作者発言/物語主題/鑑賞タグを別扱い。画像の人間による視認、展示用の最終編集と公開確認は未了。"
+      }
+    },
+    {
+      "id": "met-12110",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 12110,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/12110",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/12110",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "The Hermit (Il solitario)",
+        "title_ja_provisional": "隠者",
+        "artist": "John Singer Sargent",
+        "creation_date_display": "1908",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "American",
+        "accession_number": "11.31"
+      },
+      "image": {
+        "image_id": "met-12110-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-34372-001.jpg",
+        "source_registry_id": "met-12110",
+        "local_path": "/artworks/met-12110.jpg",
+        "sha256": "8ae46a195eda5ada69e000430b881fe9ee9bb46f135d119650dca6ccc92ad47f",
+        "byte_length": 264635,
+        "live_image_checked": true,
+        "live_check_scope": "The Met official API primaryImageSmall; HTTP/JPEG/SHA256, not human visual approval",
+        "source_accession_number": "11.31"
+      },
+      "curation": {
+        "emotions": [
+          "安心",
+          "孤独"
+        ],
+        "emotion_strengths": {
+          "安心": 2,
+          "孤独": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "居場所",
+          "他者との距離"
+        ],
+        "interpretation": "作者はメトロポリタン美術館館長への手紙でキリスト教的な連想を避け、『静けさと汎神論』を思わせる題名を望んだ。",
+        "alternate_reading": "孤独＝悲嘆と解釈しない。本人の言葉は静けさ・汎神論についてで、寂しさではない。",
+        "source_context_note": "サージェントがイタリア北部の渓谷でのスケッチをもとに制作。本人の館長宛書簡が主題理解の根拠となる。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/12110",
+        "search_profile": {
+          "summary_for_ai": "作者はメトロポリタン美術館館長への手紙でキリスト教的な連想を避け、『静けさと汎神論』を思わせる題名を望んだ。 孤独＝悲嘆と解釈しない。本人の言葉は静けさ・汎神論についてで、寂しさではない。",
+          "fitting_situations": [
+            {
+              "situation": "一人でいることを悲しみではなく、静けさとして見つめたい",
+              "reason": "画家本人が題名について、キリスト教的連想よりも静けさと汎神論を望んだと述べた。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "孤独＝悲嘆と解釈しない。本人の言葉は静けさ・汎神論についてで、寂しさではない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "direct_for_this_work",
+            "summary": "作者は本作の題名について館長への手紙でキリスト教的連想を避け、静けさと汎神論を示唆する語を望んだ。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/12110"
+          },
+          "scholarly_interpretation": {
+            "summary": "作者はメトロポリタン美術館館長への手紙でキリスト教的な連想を避け、『静けさと汎神論』を思わせる題名を望んだ。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/12110"
+          },
+          "creation_context": "サージェントがイタリア北部の渓谷でのスケッチをもとに制作。本人の館長宛書簡が主題理解の根拠となる。",
+          "visual_clues": "林の中の人影、二頭の鹿、斑状の日光による風景。",
+          "uncertainty_note": "孤独＝悲嘆と解釈しない。本人の言葉は静けさ・汎神論についてで、寂しさではない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "安心"
+          ],
+          "secondary": [
+            "孤独"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第7群。Met公式APIとprimary JPEGをGitHub Actionsで実取得しSHA256照合。作者発言/物語主題/鑑賞タグを別扱い。画像の人間による視認、展示用の最終編集と公開確認は未了。"
+      }
+    },
+    {
+      "id": "met-40429",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 40429,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/40429",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/40429",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Pavilion by the Lake",
+        "title_ja_provisional": "湖畔の亭",
+        "artist": "Samoje",
+        "creation_date_display": "late 18th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Korea",
+        "accession_number": "15.96.2"
+      },
+      "image": {
+        "image_id": "met-40429-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/15_96_2.JPG",
+        "source_registry_id": "met-40429",
+        "local_path": "/artworks/met-40429.jpg",
+        "sha256": "1e16b49342f91f413a4a86da56437aff754389d4bc7b27bdcba2d00847c26d9d",
+        "byte_length": 85605,
+        "live_image_checked": true,
+        "live_check_scope": "The Met official API primaryImageSmall; HTTP/JPEG/SHA256, not human visual approval",
+        "source_accession_number": "15.96.2"
+      },
+      "curation": {
+        "emotions": [
+          "安心"
+        ],
+        "emotion_strengths": {
+          "安心": 2
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "interpretation": "朝鮮後期の文人画の様式を取り入れた、簡潔で肩の力の抜けた風景画。明代の画譜に基づく可能性がある。",
+        "alternate_reading": "作者の個人的な安堵を語る資料ではない。作品の静かな構成との接点に留める。",
+        "source_context_note": "朝鮮後期の画家サモジェの山水画。明代画譜の図様の影響も指摘される。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/40429",
+        "search_profile": {
+          "summary_for_ai": "朝鮮後期の文人画の様式を取り入れた、簡潔で肩の力の抜けた風景画。明代の画譜に基づく可能性がある。 作者の個人的な安堵を語る資料ではない。作品の静かな構成との接点に留める。",
+          "fitting_situations": [
+            {
+              "situation": "情報や刺激の少ない落ち着いた景色を眺めたい",
+              "reason": "朝鮮後期の文人画的な静かな構成と、簡潔な筆致が鑑賞上の休息への接点になる。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作者の個人的な安堵を語る資料ではない。作品の静かな構成との接点に留める。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "朝鮮後期の文人画の様式を取り入れた、簡潔で肩の力の抜けた風景画。明代の画譜に基づく可能性がある。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/40429"
+          },
+          "creation_context": "朝鮮後期の画家サモジェの山水画。明代画譜の図様の影響も指摘される。",
+          "visual_clues": "湖畔の亭を簡潔な筆触で描く、余白の多い朝鮮文人画風の風景。",
+          "uncertainty_note": "作者の個人的な安堵を語る資料ではない。作品の静かな構成との接点に留める。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "安心"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第7群。Met公式APIとprimary JPEGをGitHub Actionsで実取得しSHA256照合。作者発言/物語主題/鑑賞タグを別扱い。画像の人間による視認、展示用の最終編集と公開確認は未了。"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-18",
