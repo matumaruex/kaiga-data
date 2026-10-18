@@ -5,10 +5,10 @@
   "source_of_existing_app": "https://github.com/matumaruex/bijutsukan/tree/d4221169de75a7abd3a838085d02f62f4f8bb9dd",
   "record_status_counts": {
     "app_reused": 16,
-    "commons_found_pending_http": 0,
     "app_reused_in_curated_db": 16,
     "app_reused_app_only": 0,
-    "commons_verified_with_http_and_sha256": 18
+    "commons_http_verified": 29,
+    "commons_found_pending_http": 0
   },
   "records": [
     {
@@ -126,7 +126,7 @@
       "title": "Woman Mending",
       "official_artwork_url": "https://www.artic.edu/artworks/11312",
       "origin": "commons_batch005_accession_verified",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "commons_image_http_verified",
       "accession_number": "1959.636",
       "image_source": {
@@ -194,7 +194,7 @@
       "title": "The Beach at Sainte-Adresse",
       "official_artwork_url": "https://www.artic.edu/artworks/14598",
       "origin": "commons_batch005_accession_verified",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "commons_image_http_verified",
       "accession_number": "1933.439",
       "image_source": {
@@ -306,7 +306,7 @@
       "title": "Apples and Grapes",
       "official_artwork_url": "https://www.artic.edu/artworks/16549",
       "origin": "commons_batch005_accession_verified",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "commons_image_http_verified",
       "accession_number": "1933.1152",
       "image_source": {
@@ -352,7 +352,7 @@
       "title": "The Artist's House at Argenteuil",
       "official_artwork_url": "https://www.artic.edu/artworks/16554",
       "origin": "commons_batch005_accession_verified",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "commons_image_http_verified",
       "accession_number": "1933.1153",
       "image_source": {
@@ -398,7 +398,7 @@
       "title": "Arrival of the Normandy Train, Gare Saint-Lazare",
       "official_artwork_url": "https://www.artic.edu/artworks/16571",
       "origin": "commons_batch005_accession_verified",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "commons_image_http_verified",
       "accession_number": "1933.1158",
       "image_source": {
@@ -422,7 +422,7 @@
       "title": "Arlésiennes (Mistral)",
       "official_artwork_url": "https://www.artic.edu/artworks/19339",
       "origin": "commons_batch005_accession_verified",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "commons_image_http_verified",
       "accession_number": "1934.391",
       "image_source": {
@@ -534,7 +534,7 @@
       "title": "Madame Roulin Rocking the Cradle (La berceuse)",
       "official_artwork_url": "https://www.artic.edu/artworks/27949",
       "origin": "commons_batch005_accession_verified",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "commons_image_http_verified",
       "accession_number": "1926.200",
       "image_source": {
@@ -712,7 +712,7 @@
       "title": "On the Bank of the Seine, Bennecourt",
       "official_artwork_url": "https://www.artic.edu/artworks/81539",
       "origin": "commons_batch005_accession_verified",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "commons_image_http_verified",
       "accession_number": "1922.427",
       "image_source": {
@@ -758,7 +758,7 @@
       "title": "Young Peasant Having Her Coffee",
       "official_artwork_url": "https://www.artic.edu/artworks/81548",
       "origin": "commons_batch005_accession_verified",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "commons_image_http_verified",
       "accession_number": "1922.433",
       "image_source": {
@@ -782,7 +782,7 @@
       "title": "The Place du Havre, Paris",
       "official_artwork_url": "https://www.artic.edu/artworks/81551",
       "origin": "commons_batch005_accession_verified",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "commons_image_http_verified",
       "accession_number": "1922.434",
       "image_source": {
@@ -806,7 +806,7 @@
       "title": "Woman and Child at the Well",
       "official_artwork_url": "https://www.artic.edu/artworks/81552",
       "origin": "commons_batch005_accession_verified",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "commons_image_http_verified",
       "accession_number": "1922.436",
       "image_source": {
@@ -1041,6 +1041,10 @@
     "batch005_evidence_urls": [
       "https://github.com/matumaruex/kaiga-data/actions/runs/39113155150",
       "https://github.com/matumaruex/kaiga-data/actions/runs/39113384202"
-    ]
+    ],
+    "registered_count": 44,
+    "verified_images_individually": 45,
+    "held_sensitive_count": 1,
+    "note": "共有DB試験登録44点、保留ユディト1点、画像台帳45点。直近11枚は2回の公式API・Commons画像検証で取得済み。全45枚の一括再取得は別テスト。"
   }
 }
