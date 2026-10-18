@@ -2,6 +2,11 @@
 
 実在する絵画の作品情報と、気持ちに合わせた展示のための**試験的な解釈データ**を管理する、2人で共有するデータリポジトリです。美術館アプリ本体のデザインや3D空間はここに置きません。
 
+## 画像45枚の一括再確認（2026-10-18）
+- **45/45枚のJPEGを実取得してSHA256が一致**。共有DBに試験登録44作品と保留1作品の画像を確認。[最新の画像検証結果](https://github.com/matumaruex/kaiga-data/actions/runs/39113852247)
+- **[検証済み画像45枚のZIP（GitHub Actions）](https://github.com/matumaruex/kaiga-data/actions/runs/39113852247/artifacts/12130978282)**。保存期間14日。画像は共有データリポジトリ自体には同梱していない。
+- HTML画像ページを単に見つけただけでなく、実ファイルのJPEG形式とバイト単位の同一性を確認。**人間の鑑賞・制作意図・最終的な配布権利は別の確認事項**。
+
 ## 第5群の11作品を追加（2026-10-18）
 - **現在44 / 100作品、残り56作品**を目安に資料を整備中。第5群11点はAIC公式API（作品ID・所蔵番号・PD・画像ID）とWikimedia CommonsのJPEG実取得／SHA256が**11/11成功**。
 - [第5群の個別レビュー](docs/review-report-batch-005.md) ／ [公式記録11/11・画像6/11を照合](https://github.com/matumaruex/kaiga-data/actions/runs/39113155150) ／ [画像の別名5作品を追加検証5/5](https://github.com/matumaruex/kaiga-data/actions/runs/39113384202)
