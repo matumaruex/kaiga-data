@@ -4,9 +4,9 @@
   "source": "Met Open Access Object API / matching primary JPEG",
   "note": "HTTP+JPEG+SHA256 verification is distinct from human visual approval and interpretation.",
   "checked": 31,
-  "metadata_pass": 23,
-  "images_pass": 23,
-  "eligible_for_curatorial_review": 21,
+  "metadata_pass": 25,
+  "images_pass": 25,
+  "eligible_for_curatorial_review": 23,
   "results": [
     {
       "id": "met-37881",
@@ -264,8 +264,8 @@
       },
       "image_url_verified": "https://images.metmuseum.org/CRDImages/as/web-large/DP-13538-001.jpg",
       "image_content_type": "image/jpeg",
-      "image_bytes": 41779,
-      "image_sha256": "316a9aba4713af488b6455d60d83e30de0919137c4c906c678c3690b3144ac30",
+      "image_bytes": 66248,
+      "image_sha256": "42fce7f4b70820a31985bc13c6ee81ada70e315b9a4491f16b58130d062e51fd",
       "image_identity_basis": "primaryImageSmall from matching official Met object ID"
     },
     {
@@ -796,12 +796,10 @@
     {
       "id": "met-53460",
       "official_object_id": 53460,
-      "museum_record_verified": false,
-      "image_verified": false,
-      "eligible_for_review": false,
-      "warnings": [
-        "Official metadata mismatch: artist"
-      ],
+      "museum_record_verified": true,
+      "image_verified": true,
+      "eligible_for_review": true,
+      "warnings": [],
       "objectID": 53460,
       "title": "On a Rustic Bridge, Carrying a Zither",
       "artistDisplayName": "Urakami (Uragami) Gyokudō 浦上玉堂",
@@ -820,18 +818,21 @@
         "accession": true,
         "public_domain": true,
         "painting": true,
-        "artist": false
-      }
+        "artist": true
+      },
+      "image_url_verified": "https://images.metmuseum.org/CRDImages/as/web-large/DP-12232-212.jpg",
+      "image_content_type": "image/jpeg",
+      "image_bytes": 108074,
+      "image_sha256": "00ca52c34d425eede1a7e3ab4f69d2021afd848158fce670f4b1ba36d15649c3",
+      "image_identity_basis": "primaryImageSmall from matching official Met object ID"
     },
     {
       "id": "met-437035",
       "official_object_id": 437035,
-      "museum_record_verified": false,
-      "image_verified": false,
-      "eligible_for_review": false,
-      "warnings": [
-        "Official metadata mismatch: artist"
-      ],
+      "museum_record_verified": true,
+      "image_verified": true,
+      "eligible_for_review": true,
+      "warnings": [],
       "objectID": 437035,
       "title": "The Lamentation",
       "artistDisplayName": "Master of the Virgin among Virgins",
@@ -850,8 +851,13 @@
         "accession": true,
         "public_domain": true,
         "painting": true,
-        "artist": false
-      }
+        "artist": true
+      },
+      "image_url_verified": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23271-001.jpg",
+      "image_content_type": "image/jpeg",
+      "image_bytes": 118940,
+      "image_sha256": "78c649640c0c47891ba01ba06516757d68795d8722736a4bb2c90260c3d4f232",
+      "image_identity_basis": "primaryImageSmall from matching official Met object ID"
     },
     {
       "id": "met-439553",
