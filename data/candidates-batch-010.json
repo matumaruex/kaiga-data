@@ -925,7 +925,9 @@
       "creation_date_display": null,
       "image_bytes": 118940,
       "official_primary_image_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23271-001.jpg",
-      "curatorial_review_note": "Met API作品ID・題名・所蔵番号・PD・絵画・official JPEG実取得とSHA256照合に合格。感情索引は試験用で人間の最終承認なし。"
+      "curatorial_review_note": "Met API作品ID・題名・所蔵番号・PD・絵画・official JPEG実取得とSHA256照合に合格。感情索引は試験用で人間の最終承認なし。 Met公式作品ページは工房作とするが、API作者欄は工房語を省いている。",
+      "artist_display_at_museum_page": "Workshop of the Master of the Virgin among Virgins",
+      "attribution_discrepancy_note": "Met公式作品ページにはWorkshop of the Master of the Virgin among Virginsと記載。API artistDisplayName はMaster of the Virgin among Virginsと工房部分がない。API同定は記録のまま保存し、公開表示では公式作品ページの工房帰属を優先する。"
     },
     {
       "candidate_id": "met-439553",
