@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "batch": "pilot-001",
   "created_on": "2026-10-18",
   "artworks": [
@@ -29,8 +29,8 @@
       "curation": {
         "emotions": [
           "安心",
-          "寂しさ",
-          "懐かしさ"
+          "懐かしさ",
+          "寂しさ"
         ],
         "tones": [
           "静けさ",
@@ -43,13 +43,22 @@
         ],
         "interpretation": "人の姿のない私室が、自分だけの居場所を求める気持ちや、ひとりで落ち着きたい感覚と重なりうる。",
         "alternate_reading": "色彩の強さや不自然な遠近感を、安らぎよりも緊張として感じる鑑賞者もいる。",
-        "source_context_note": "美術館の作品解説では、ゴッホがこの寝室を休息や静けさを表すものとして考えていたと説明される。"
+        "source_context_note": "ゴッホは最初の『寝室』（1888年）について色彩で休息を表したいと書いており、シカゴ所蔵の1889年作は、その題材の第2版に当たる。",
+        "emotion_strengths": {
+          "安心": 3,
+          "懐かしさ": 1,
+          "寂しさ": 1
+        },
+        "evidence_url": "https://www.nortonsimon.org/exhibitions/2010-2019/vangoghbedroom"
       },
       "review": {
         "facts_checked_against_museum_api": true,
         "source_public_domain_flag_checked": true,
         "visual_checked": false,
-        "interpretation_human_approved": false
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "「安心」はゴッホが休息を意図したという資料があり強い。『懐かしさ』『寂しさ』は見る人による連想のため弱い。シカゴ本は1889年の第2版である点にも注意。"
       }
     },
     {
@@ -92,13 +101,22 @@
         ],
         "interpretation": "人が行き交う街路でも視線が交わらないことから、雑踏の中で誰かと距離を感じる気持ちにつなげて鑑賞できる。",
         "alternate_reading": "都市の活力、洗練された服装、雨天の散歩の楽しさとして鑑賞することもできる。",
-        "source_context_note": "美術館は近代化したパリの交差点、傘、濡れた石畳、移動中の人物を作品の特徴として説明している。"
+        "source_context_note": "美術館は、近代パリの大通りと人物の匿名性、互いに距離を置く様子を作品の特徴として説明している。",
+        "emotion_strengths": {
+          "孤独": 3,
+          "不安": 1,
+          "好奇心": 1
+        },
+        "evidence_url": "https://archive.artic.edu/500ways/artwork/20684?from=14591"
       },
       "review": {
         "facts_checked_against_museum_api": true,
         "source_public_domain_flag_checked": true,
         "visual_checked": false,
-        "interpretation_human_approved": false
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "美術館の説明にも人物の匿名性・距離があり『孤独』の根拠が比較的強い。『不安』『好奇心』は鑑賞上の連想に留まる。"
       }
     },
     {
@@ -127,8 +145,8 @@
       "curation": {
         "emotions": [
           "安心",
-          "寂しさ",
-          "好奇心"
+          "好奇心",
+          "孤独"
         ],
         "tones": [
           "にぎわい",
@@ -141,13 +159,22 @@
         ],
         "interpretation": "同じ場所で余暇を過ごす多様な人々を眺めながら、集団の中の一員である感覚と、互いに交わらない距離感の両方を考えられる。",
         "alternate_reading": "単に穏やかな休日や楽しげな人々の光景としても鑑賞できる。",
-        "source_context_note": "美術館はセーヌ河岸で休日を過ごす人々と、点描技法による構成を説明している。"
+        "source_context_note": "美術館は、グランド・ジャット島を舞台として多様な人物を構成し、点描技法と作品の制作過程が重要だと説明している。",
+        "emotion_strengths": {
+          "安心": 2,
+          "好奇心": 2,
+          "孤独": 1
+        },
+        "evidence_url": "https://archive.artic.edu/seurat/seurat_themes.html"
       },
       "review": {
         "facts_checked_against_museum_api": true,
         "source_public_domain_flag_checked": true,
         "visual_checked": false,
-        "interpretation_human_approved": false
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "元の『寂しさ』は失恋・欠落を直接示す証拠が弱いので削除。人物の距離や非交流を読む弱い『孤独』に変更した。穏やかな休日と点描による観察への『安心』『好奇心』は中程度。"
       }
     },
     {
@@ -176,7 +203,6 @@
       "curation": {
         "emotions": [
           "安心",
-          "希望",
           "好奇心"
         ],
         "tones": [
@@ -191,14 +217,23 @@
         ],
         "interpretation": "岸辺や地平線が見えず水面に意識が向くため、忙しさから距離を置き、静かに自分の感覚に戻りたい気分の展示に合いうる。",
         "alternate_reading": "水面の揺らぎや輪郭の曖昧さに、落ち着きよりも不確かさを感じる人もいる。",
-        "source_context_note": "美術館は、水面だけに視点を集中させた構成と制作中の試行錯誤を説明している。"
+        "source_context_note": "美術館の学術解説では、睡蓮そのものだけでなく、水面の反射や光と天候の変化がモネにとって重要だったことが説明されている。",
+        "emotion_strengths": {
+          "安心": 3,
+          "好奇心": 1
+        },
+        "evidence_url": "https://publications.artic.edu/node/135621"
       },
       "review": {
         "facts_checked_against_museum_api": true,
         "source_public_domain_flag_checked": true,
         "visual_checked": false,
-        "interpretation_human_approved": false
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "元の『希望』はこの絵との直接的な関連が弱いため削除。『安心』は鑑賞上の落ち着きとして強め、『好奇心』は水面の表現への関心として弱め。"
       }
     }
-  ]
+  ],
+  "last_reviewed_on": "2026-10-18"
 }
