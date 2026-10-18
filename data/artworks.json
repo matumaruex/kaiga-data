@@ -6901,6 +6901,1314 @@
         "curatorial_review_status": "provisional",
         "curatorial_review_note": "第8群: The Metの現行公式APIに作品名・画家・分類・PD・所蔵番号一致。公式JPEG実取得SHA256記録。作者の詩と関連作の言葉を区別し、人物の感情を作者自身と混同しない。画像の目視・公開最終確認は未実施。"
       }
+    },
+    {
+      "id": "met-10070",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 10070,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/10070",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/10070",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Spanish Girl in Reverie",
+        "title_ja_provisional": "帰還を待つスペインの娘",
+        "artist": "Washington Allston",
+        "creation_date_display": "1831",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "United States",
+        "accession_number": "01.7.2"
+      },
+      "image": {
+        "image_id": "met-10070-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/ap01.7.2.jpg",
+        "source_registry_id": "met-10070",
+        "local_path": "/artworks/met-10070.jpg",
+        "sha256": "7056e196fdee35b3d383dc86709675f5beb799e2ee42cff669d2c040bdc87c78",
+        "byte_length": 93480,
+        "live_image_checked": true,
+        "live_check_scope": "Met official primary JPEG HTTP, complete format and SHA256; human visual review pending",
+        "source_accession_number": "01.7.2"
+      },
+      "curation": {
+        "emotions": [
+          "期待",
+          "希望",
+          "不安"
+        ],
+        "emotion_strengths": {
+          "期待": 2,
+          "希望": 2,
+          "不安": 1
+        },
+        "tones": [
+          "緊張",
+          "余韻"
+        ],
+        "themes": [
+          "愛情",
+          "別れ"
+        ],
+        "interpretation": "画家が出品時に自身の詩を併せ、戦争に行った恋人イシドールの帰還を待つイネスを描いた。憧れ・希望・不安が重なる。",
+        "alternate_reading": "詩の人物の希望を作者の実生活・恋愛感情と同一視しない。",
+        "source_context_note": "1831年に画家が自身の詩を添えて発表。遠くにいる恋人が戦争から帰るのを待つイネスの心理を、幻想的な人物像と風景で示す。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/10070",
+        "search_profile": {
+          "summary_for_ai": "画家が出品時に自身の詩を併せ、戦争に行った恋人イシドールの帰還を待つイネスを描いた。憧れ・希望・不安が重なる。 詩の人物の希望を作者の実生活・恋愛感情と同一視しない。",
+          "fitting_situations": [
+            {
+              "situation": "帰ってくるか分からない大切な人を待つ",
+              "reason": "出品時に画家自身が添えた詩とMetの解説が、恋人への憧れ・希望・不安を明示。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "詩の人物の希望を作者の実生活・恋愛感情と同一視しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "direct_for_this_work",
+            "summary": "画家の詩が当該作品と一緒に出品され、人物が恋人の帰還を待つことを説明する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/10070"
+          },
+          "scholarly_interpretation": {
+            "summary": "画家が出品時に自身の詩を併せ、戦争に行った恋人イシドールの帰還を待つイネスを描いた。憧れ・希望・不安が重なる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/10070"
+          },
+          "creation_context": "1831年に画家が自身の詩を添えて発表。遠くにいる恋人が戦争から帰るのを待つイネスの心理を、幻想的な人物像と風景で示す。",
+          "visual_clues": "一人で佇む女性の明るい輪郭と遠くへ開ける風景。",
+          "uncertainty_note": "詩の人物の希望を作者の実生活・恋愛感情と同一視しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "期待",
+            "希望"
+          ],
+          "secondary": [
+            "不安"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第9群試験登録。公式Met作品ID・PD・画像JPEG取得・SHA256を確認。個別の作者発言と物語・専門家解釈の区別を維持。人間による画像視認・解釈・公開権利の最終承認は別。"
+      }
+    },
+    {
+      "id": "met-11145",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 11145,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/11145",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11145",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Veteran in a New Field",
+        "title_ja_provisional": "新しい畑の退役軍人",
+        "artist": "Winslow Homer",
+        "creation_date_display": "1865",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "United States",
+        "accession_number": "67.187.131"
+      },
+      "image": {
+        "image_id": "met-11145-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP102298.jpg",
+        "source_registry_id": "met-11145",
+        "local_path": "/artworks/met-11145.jpg",
+        "sha256": "45836d2b483d2aadf7620af623d36f50d3c246b3f118ce99c81fb8b9d2c9aa3b",
+        "byte_length": 112376,
+        "live_image_checked": true,
+        "live_check_scope": "Met official primary JPEG HTTP, complete format and SHA256; human visual review pending",
+        "source_accession_number": "67.187.131"
+      },
+      "curation": {
+        "emotions": [
+          "希望",
+          "喪失感"
+        ],
+        "emotion_strengths": {
+          "希望": 2,
+          "喪失感": 2
+        },
+        "tones": [
+          "余韻",
+          "落ち着き"
+        ],
+        "themes": [
+          "時間",
+          "日常",
+          "記憶"
+        ],
+        "interpretation": "南北戦争後の退役軍人が農作業に戻る。画面端の軍服・鎌・豊かな収穫が、悲しみと再生の緊張を示すとMetが解説。",
+        "alternate_reading": "平和な農作業に見えて死への暗示も含む。画家本人が未来を楽観したという証言ではない。",
+        "source_context_note": "南北戦争終結後の米国1865年に制作。軍服を捨て畑仕事に戻った退役軍人を描き、再生と戦死者への追悼が隣り合う。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/11145",
+        "search_profile": {
+          "summary_for_ai": "南北戦争後の退役軍人が農作業に戻る。画面端の軍服・鎌・豊かな収穫が、悲しみと再生の緊張を示すとMetが解説。 平和な農作業に見えて死への暗示も含む。画家本人が未来を楽観したという証言ではない。",
+          "fitting_situations": [
+            {
+              "situation": "大きな喪失を経験したあとでも、生活を立て直す可能性を感じたい",
+              "reason": "Metの説明は鎌の死の象徴と収穫の再生の象徴、戦争からの回復を併記。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "平和な農作業に見えて死への暗示も含む。画家本人が未来を楽観したという証言ではない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "南北戦争後の退役軍人が農作業に戻る。画面端の軍服・鎌・豊かな収穫が、悲しみと再生の緊張を示すとMetが解説。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/11145"
+          },
+          "creation_context": "南北戦争終結後の米国1865年に制作。軍服を捨て畑仕事に戻った退役軍人を描き、再生と戦死者への追悼が隣り合う。",
+          "visual_clues": "刈り取られた豊かな作物と鎌、画面隅に置かれた兵士の服や水筒。",
+          "uncertainty_note": "平和な農作業に見えて死への暗示も含む。画家本人が未来を楽観したという証言ではない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "希望",
+            "喪失感"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第9群試験登録。公式Met作品ID・PD・画像JPEG取得・SHA256を確認。個別の作者発言と物語・専門家解釈の区別を維持。人間による画像視認・解釈・公開権利の最終承認は別。"
+      }
+    },
+    {
+      "id": "met-435962",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 435962,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/435962",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435962",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Hagar in the Wilderness",
+        "title_ja_provisional": "荒野のハガル",
+        "artist": "Camille Corot",
+        "creation_date_display": "1835",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "France",
+        "accession_number": "38.64"
+      },
+      "image": {
+        "image_id": "met-435962-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2013.jpg",
+        "source_registry_id": "met-435962",
+        "local_path": "/artworks/met-435962.jpg",
+        "sha256": "d2d47291ba131dbc602379b12a09debc0a7cc657a04ce1a7458d87f4bf222d43",
+        "byte_length": 86415,
+        "live_image_checked": true,
+        "live_check_scope": "Met official primary JPEG HTTP, complete format and SHA256; human visual review pending",
+        "source_accession_number": "38.64"
+      },
+      "curation": {
+        "emotions": [
+          "希望",
+          "不安"
+        ],
+        "emotion_strengths": {
+          "希望": 2,
+          "不安": 2
+        },
+        "tones": [
+          "重苦しさ",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "愛情",
+          "別れ"
+        ],
+        "interpretation": "荒野で子と彷徨う母の前に、救済の水源へ導く天使が現れる。Met音声解説は、当時の評論家が母にはまだ見えない希望を指摘したと紹介。",
+        "alternate_reading": "希望は聖書の救済物語と画面の対照であり、作者が失望から立ち直った実体験を描いた証拠ではない。",
+        "source_context_note": "旧約聖書に由来するハガルと息子イシュマエルの荒野での窮地。1835年当時の評論家が母にはまだ見えない救済の天使を希望の象徴とした。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/435962",
+        "search_profile": {
+          "summary_for_ai": "荒野で子と彷徨う母の前に、救済の水源へ導く天使が現れる。Met音声解説は、当時の評論家が母にはまだ見えない希望を指摘したと紹介。 希望は聖書の救済物語と画面の対照であり、作者が失望から立ち直った実体験を描いた証拠ではない。",
+          "fitting_situations": [
+            {
+              "situation": "どうにもならない状況にいるが、まだ見えない助けがあるかもしれない",
+              "reason": "救済の水場を示す天使についてMetの音声解説が『母にはまだ見えない希望』という当時の批評を紹介。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "希望は聖書の救済物語と画面の対照であり、作者が失望から立ち直った実体験を描いた証拠ではない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "荒野で子と彷徨う母の前に、救済の水源へ導く天使が現れる。Met音声解説は、当時の評論家が母にはまだ見えない希望を指摘したと紹介。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/435962"
+          },
+          "creation_context": "旧約聖書に由来するハガルと息子イシュマエルの荒野での窮地。1835年当時の評論家が母にはまだ見えない救済の天使を希望の象徴とした。",
+          "visual_clues": "巨大な乾いた風景に小さく描かれた母子、彼方に現れる天使。",
+          "uncertainty_note": "希望は聖書の救済物語と画面の対照であり、作者が失望から立ち直った実体験を描いた証拠ではない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "希望",
+            "不安"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第9群試験登録。公式Met作品ID・PD・画像JPEG取得・SHA256を確認。個別の作者発言と物語・専門家解釈の区別を維持。人間による画像視認・解釈・公開権利の最終承認は別。"
+      }
+    },
+    {
+      "id": "met-435967",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 435967,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/435967",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435967",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Burning of Sodom (formerly \"The Destruction of Sodom\")",
+        "title_ja_provisional": "ソドムの炎上",
+        "artist": "Camille Corot",
+        "creation_date_display": "1843 and 1857",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "France",
+        "accession_number": "29.100.18"
+      },
+      "image": {
+        "image_id": "met-435967-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2014.jpg",
+        "source_registry_id": "met-435967",
+        "local_path": "/artworks/met-435967.jpg",
+        "sha256": "4acef4338cbeca31a7047d3d6ca4a49ef4653e5e0885de6e3aa195c14d699c8d",
+        "byte_length": 59899,
+        "live_image_checked": true,
+        "live_check_scope": "Met official primary JPEG HTTP, complete format and SHA256; human visual review pending",
+        "source_accession_number": "29.100.18"
+      },
+      "curation": {
+        "emotions": [
+          "未練",
+          "不安"
+        ],
+        "emotion_strengths": {
+          "未練": 2,
+          "不安": 1
+        },
+        "tones": [
+          "重苦しさ",
+          "緊張"
+        ],
+        "themes": [
+          "別れ",
+          "時間"
+        ],
+        "interpretation": "家を離れる途中、警告を顧みず振り返り塩の柱になるロトの妻。画家は後年この絵の構図と色調を改変した。",
+        "alternate_reading": "妻の振り返りを現代人の復縁希望とは扱わず、宗教物語上の後悔・執着という限定的な接点に留める。暴力的な破壊の場面に注意。 都市の破壊を描く宗教画。未練は執着への検索上の接点であり現代的な復縁とは異なる。",
+        "source_context_note": "炎上するソドムを脱出するロト一家の宗教画。妻は禁じられた振り返りをして塩の柱となる。作者コローは後年構図を大きく改変。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/435967",
+        "search_profile": {
+          "summary_for_ai": "家を離れる途中、警告を顧みず振り返り塩の柱になるロトの妻。画家は後年この絵の構図と色調を改変した。 妻の振り返りを現代人の復縁希望とは扱わず、宗教物語上の後悔・執着という限定的な接点に留める。暴力的な破壊の場面に注意。 都市の破壊を描く宗教画。未練は執着への検索上の接点であり現代的な復縁とは異なる。",
+          "fitting_situations": [
+            {
+              "situation": "離れるべきものがあるのに、どうしても振り返ってしまう",
+              "reason": "Metの解説は妻が後悔を抱いて振り返る物語と、結果として塩の柱になる場面を明示。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "妻の振り返りを現代人の復縁希望とは扱わず、宗教物語上の後悔・執着という限定的な接点に留める。暴力的な破壊の場面に注意。 都市の破壊を描く宗教画。未練は執着への検索上の接点であり現代的な復縁とは異なる。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "家を離れる途中、警告を顧みず振り返り塩の柱になるロトの妻。画家は後年この絵の構図と色調を改変した。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/435967"
+          },
+          "creation_context": "炎上するソドムを脱出するロト一家の宗教画。妻は禁じられた振り返りをして塩の柱となる。作者コローは後年構図を大きく改変。",
+          "visual_clues": "滅びる町を振り返る妻と、逃れようとするロト一家との対照。",
+          "uncertainty_note": "妻の振り返りを現代人の復縁希望とは扱わず、宗教物語上の後悔・執着という限定的な接点に留める。暴力的な破壊の場面に注意。 都市の破壊を描く宗教画。未練は執着への検索上の接点であり現代的な復縁とは異なる。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "未練"
+          ],
+          "secondary": [
+            "不安"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第9群試験登録。公式Met作品ID・PD・画像JPEG取得・SHA256を確認。個別の作者発言と物語・専門家解釈の区別を維持。人間による画像視認・解釈・公開権利の最終承認は別。"
+      }
+    },
+    {
+      "id": "met-436840",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436840,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436840",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436840",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Self-Portrait with Two Pupils, Marie Gabrielle Capet (1761–1818) and Marie Marguerite Carraux de Rosemond (1765–1788)",
+        "title_ja_provisional": "弟子二人と描く自画像",
+        "artist": "Adélaïde Labille-Guiard",
+        "creation_date_display": "1785",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "France",
+        "accession_number": "53.225.5"
+      },
+      "image": {
+        "image_id": "met-436840-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320103.jpg",
+        "source_registry_id": "met-436840",
+        "local_path": "/artworks/met-436840.jpg",
+        "sha256": "18f310ea6192e230cd94dd7b2e58e42c78df8639b12a5f8bdbfc47aaa5ac025d",
+        "byte_length": 102704,
+        "live_image_checked": true,
+        "live_check_scope": "Met official primary JPEG HTTP, complete format and SHA256; human visual review pending",
+        "source_accession_number": "53.225.5"
+      },
+      "curation": {
+        "emotions": [
+          "希望",
+          "期待"
+        ],
+        "emotion_strengths": {
+          "希望": 2,
+          "期待": 1
+        },
+        "tones": [
+          "高揚",
+          "余韻"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "interpretation": "女性芸術家のアカデミー入会枠が厳しく制限された時代、弟子2人と職業画家としての自分を大画面に描く。Metは女性画家の地位を後押ししたという読みを提示。",
+        "alternate_reading": "女性の地位を訴える制作意図は美術館の専門的解釈であって、画家自身の直接発言の引用ではない。 作家本人が『希望』という感情を込めた直接声明ではなく、社会的機会の拡張への接点。",
+        "source_context_note": "18世紀フランス、女性の職業画家を認めるアカデミー枠が限定される中、女性画家が弟子を伴う職業的自画像を大画面でサロンに展示した。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436840",
+        "search_profile": {
+          "summary_for_ai": "女性芸術家のアカデミー入会枠が厳しく制限された時代、弟子2人と職業画家としての自分を大画面に描く。Metは女性画家の地位を後押ししたという読みを提示。 女性の地位を訴える制作意図は美術館の専門的解釈であって、画家自身の直接発言の引用ではない。 作家本人が『希望』という感情を込めた直接声明ではなく、社会的機会の拡張への接点。",
+          "fitting_situations": [
+            {
+              "situation": "自分の仕事や表現が今より広く認められる未来を望みたい",
+              "reason": "Metは本作を女性画家の社会的地位の擁護として読む専門家解釈を掲載。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "女性の地位を訴える制作意図は美術館の専門的解釈であって、画家自身の直接発言の引用ではない。 作家本人が『希望』という感情を込めた直接声明ではなく、社会的機会の拡張への接点。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "女性芸術家のアカデミー入会枠が厳しく制限された時代、弟子2人と職業画家としての自分を大画面に描く。Metは女性画家の地位を後押ししたという読みを提示。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436840"
+          },
+          "creation_context": "18世紀フランス、女性の職業画家を認めるアカデミー枠が限定される中、女性画家が弟子を伴う職業的自画像を大画面でサロンに展示した。",
+          "visual_clues": "華麗な服を着て描く女性画家と、後ろで学ぶ二人の女性弟子。",
+          "uncertainty_note": "女性の地位を訴える制作意図は美術館の専門的解釈であって、画家自身の直接発言の引用ではない。 作家本人が『希望』という感情を込めた直接声明ではなく、社会的機会の拡張への接点。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "希望"
+          ],
+          "secondary": [
+            "期待"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第9群試験登録。公式Met作品ID・PD・画像JPEG取得・SHA256を確認。個別の作者発言と物語・専門家解釈の区別を維持。人間による画像視認・解釈・公開権利の最終承認は別。"
+      }
+    },
+    {
+      "id": "met-437903",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437903,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437903",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437903",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Marie Joséphine Charlotte du Val d'Ognes (1786–1868)",
+        "title_ja_provisional": "絵を描くシャルロット・デュ・ヴァル・ドーニュ",
+        "artist": "Marie Denise Villers",
+        "creation_date_display": "1801",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "France",
+        "accession_number": "17.120.204"
+      },
+      "image": {
+        "image_id": "met-437903-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-416-001.jpg",
+        "source_registry_id": "met-437903",
+        "local_path": "/artworks/met-437903.jpg",
+        "sha256": "aa0ab40c399e39bd3e0a3ae9c9bc6d3a28f8be90437b7dd4c152134d6e789f9d",
+        "byte_length": 92193,
+        "live_image_checked": true,
+        "live_check_scope": "Met official primary JPEG HTTP, complete format and SHA256; human visual review pending",
+        "source_accession_number": "17.120.204"
+      },
+      "curation": {
+        "emotions": [
+          "好奇心",
+          "希望"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2,
+          "希望": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "interpretation": "女性作家がサロン出品の制度的な機会を得て描いた女性の創作場面。割れた窓と遠景の二人が強い違和感を生む。作家名が男性画家に誤帰属されていた事実も明らか。",
+        "alternate_reading": "希望は女性画家の社会史を入口にする鑑賞上の接点。画中の女性が未来を期待していることを証明していない。 作者の制作意図として『希望』が明言されたわけではない。希望は補助的な社会史の入口に留める。",
+        "source_context_note": "1801年にマリー＝ドニーズ・ヴィレールがサロンへ出品した女性の制作場面。長年ジャック＝ルイ・ダヴィッドの作品と誤認され、女性画家による制作と再認定された。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437903",
+        "search_profile": {
+          "summary_for_ai": "女性作家がサロン出品の制度的な機会を得て描いた女性の創作場面。割れた窓と遠景の二人が強い違和感を生む。作家名が男性画家に誤帰属されていた事実も明らか。 希望は女性画家の社会史を入口にする鑑賞上の接点。画中の女性が未来を期待していることを証明していない。 作者の制作意図として『希望』が明言されたわけではない。希望は補助的な社会史の入口に留める。",
+          "fitting_situations": [
+            {
+              "situation": "当たり前だと思っていた芸術史の作者や意味が覆る経験をしたい",
+              "reason": "Metの研究が作者の誤帰属と女性画家の公開出品、割れた窓という違和感を具体的に説明。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "希望は女性画家の社会史を入口にする鑑賞上の接点。画中の女性が未来を期待していることを証明していない。 作者の制作意図として『希望』が明言されたわけではない。希望は補助的な社会史の入口に留める。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "女性作家がサロン出品の制度的な機会を得て描いた女性の創作場面。割れた窓と遠景の二人が強い違和感を生む。作家名が男性画家に誤帰属されていた事実も明らか。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437903"
+          },
+          "creation_context": "1801年にマリー＝ドニーズ・ヴィレールがサロンへ出品した女性の制作場面。長年ジャック＝ルイ・ダヴィッドの作品と誤認され、女性画家による制作と再認定された。",
+          "visual_clues": "作業を止め鑑賞者を見返す女性、割れた窓、その向こうの二人の人物。",
+          "uncertainty_note": "希望は女性画家の社会史を入口にする鑑賞上の接点。画中の女性が未来を期待していることを証明していない。 作者の制作意図として『希望』が明言されたわけではない。希望は補助的な社会史の入口に留める。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": [
+            "希望"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第9群試験登録。公式Met作品ID・PD・画像JPEG取得・SHA256を確認。個別の作者発言と物語・専門家解釈の区別を維持。人間による画像視認・解釈・公開権利の最終承認は別。"
+      }
+    },
+    {
+      "id": "met-436869",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436869,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436869",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436869",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Lachrymae",
+        "title_ja_provisional": "涙（ラクリマエ）",
+        "artist": "Frederic, Lord Leighton",
+        "creation_date_display": "1894–95",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "United Kingdom",
+        "accession_number": "96.28"
+      },
+      "image": {
+        "image_id": "met-436869-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP124813.jpg",
+        "source_registry_id": "met-436869",
+        "local_path": "/artworks/met-436869.jpg",
+        "sha256": "9454465bee5f984fdec018a9d50a8a774d3bf0e9c1f5d5355b625beeb874b1e1",
+        "byte_length": 32246,
+        "live_image_checked": true,
+        "live_check_scope": "Met official primary JPEG HTTP, complete format and SHA256; human visual review pending",
+        "source_accession_number": "96.28"
+      },
+      "curation": {
+        "emotions": [
+          "喪失感",
+          "未練"
+        ],
+        "emotion_strengths": {
+          "喪失感": 2,
+          "未練": 1
+        },
+        "tones": [
+          "重苦しさ",
+          "余韻"
+        ],
+        "themes": [
+          "別れ",
+          "記憶"
+        ],
+        "interpretation": "碑の前でうなだれる黒衣の女性、枯れた花輪、糸杉など喪に関わる図像をMetが解説。",
+        "alternate_reading": "誰を失ったかは示されず、画家自身の死別を示す絵とはしない。",
+        "source_context_note": "古典文化への関心が強かったレイトンの晩年の作品。『涙』というラテン語由来の題名と墓碑・枯れた輪・糸杉で追悼を表す。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436869",
+        "search_profile": {
+          "summary_for_ai": "碑の前でうなだれる黒衣の女性、枯れた花輪、糸杉など喪に関わる図像をMetが解説。 誰を失ったかは示されず、画家自身の死別を示す絵とはしない。",
+          "fitting_situations": [
+            {
+              "situation": "失った人を思い出し、弔う時間を持ちたい",
+              "reason": "Metが作品名の涙、黒衣の人物、枯れた花輪、糸杉を哀悼の符号として説明。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "誰を失ったかは示されず、画家自身の死別を示す絵とはしない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "碑の前でうなだれる黒衣の女性、枯れた花輪、糸杉など喪に関わる図像をMetが解説。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436869"
+          },
+          "creation_context": "古典文化への関心が強かったレイトンの晩年の作品。『涙』というラテン語由来の題名と墓碑・枯れた輪・糸杉で追悼を表す。",
+          "visual_clues": "黒衣の女性が墓碑へ身を寄せ、足元に枯れた花輪が落ちる。",
+          "uncertainty_note": "誰を失ったかは示されず、画家自身の死別を示す絵とはしない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喪失感"
+          ],
+          "secondary": [
+            "未練"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第9群試験登録。公式Met作品ID・PD・画像JPEG取得・SHA256を確認。個別の作者発言と物語・専門家解釈の区別を維持。人間による画像視認・解釈・公開権利の最終承認は別。"
+      }
+    },
+    {
+      "id": "met-436582",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436582,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436582",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436582",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Head of a Young Woman",
+        "title_ja_provisional": "若い女性の頭部",
+        "artist": "Jean-Baptiste Greuze",
+        "creation_date_display": "possibly 1780s",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "France",
+        "accession_number": "67.187.72"
+      },
+      "image": {
+        "image_id": "met-436582-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-18078-001.jpg",
+        "source_registry_id": "met-436582",
+        "local_path": "/artworks/met-436582.jpg",
+        "sha256": "2af8a771e6711a5c25534d71c4a86e5efcedf2ca644c98939aa54899ae8ad92c",
+        "byte_length": 94673,
+        "live_image_checked": true,
+        "live_check_scope": "Met official primary JPEG HTTP, complete format and SHA256; human visual review pending",
+        "source_accession_number": "67.187.72"
+      },
+      "curation": {
+        "emotions": [
+          "寂しさ",
+          "未練"
+        ],
+        "emotion_strengths": {
+          "寂しさ": 2,
+          "未練": 1
+        },
+        "tones": [
+          "余韻",
+          "重苦しさ"
+        ],
+        "themes": [
+          "他者との距離",
+          "愛情"
+        ],
+        "interpretation": "顔を上げた女性の表情を通して、悲しい憧れ・切望を表現する18世紀の『表情習作』。",
+        "alternate_reading": "誰かを失って後悔する物語が確定するわけではない。『未練』は弱い補助に限る。 特定の失恋や後悔の物語を示す作品ではないので、未練は弱い補助タグ。",
+        "source_context_note": "18世紀後半の感傷主義の影響を受けた感情表現の人物習作。独立作品として評価された。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436582",
+        "search_profile": {
+          "summary_for_ai": "顔を上げた女性の表情を通して、悲しい憧れ・切望を表現する18世紀の『表情習作』。 誰かを失って後悔する物語が確定するわけではない。『未練』は弱い補助に限る。 特定の失恋や後悔の物語を示す作品ではないので、未練は弱い補助タグ。",
+          "fitting_situations": [
+            {
+              "situation": "理由を言葉にできない切なさや、誰かを求める気持ちがある",
+              "reason": "Metが若い女性の表情を『悲しい憧れ』を思わせる感情表現と解説。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "誰かを失って後悔する物語が確定するわけではない。『未練』は弱い補助に限る。 特定の失恋や後悔の物語を示す作品ではないので、未練は弱い補助タグ。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "顔を上げた女性の表情を通して、悲しい憧れ・切望を表現する18世紀の『表情習作』。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436582"
+          },
+          "creation_context": "18世紀後半の感傷主義の影響を受けた感情表現の人物習作。独立作品として評価された。",
+          "visual_clues": "上方へ向けられた目と傾いた頭、渦巻く髪と布が切望を凝縮する。",
+          "uncertainty_note": "誰かを失って後悔する物語が確定するわけではない。『未練』は弱い補助に限る。 特定の失恋や後悔の物語を示す作品ではないので、未練は弱い補助タグ。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "寂しさ"
+          ],
+          "secondary": [
+            "未練"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第9群試験登録。公式Met作品ID・PD・画像JPEG取得・SHA256を確認。個別の作者発言と物語・専門家解釈の区別を維持。人間による画像視認・解釈・公開権利の最終承認は別。"
+      }
+    },
+    {
+      "id": "met-437323",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437323,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437323",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437323",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "A Brazilian Landscape",
+        "title_ja_provisional": "ブラジルの風景",
+        "artist": "Frans Post",
+        "creation_date_display": "1650",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Netherlands (subject: Brazil)",
+        "accession_number": "1981.318"
+      },
+      "image": {
+        "image_id": "met-437323-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145952.jpg",
+        "source_registry_id": "met-437323",
+        "local_path": "/artworks/met-437323.jpg",
+        "sha256": "9a3fa2870cc25a2df4f8292142143c0f7ea0718fb44711c208c40341e5a475eb",
+        "byte_length": 56003,
+        "live_image_checked": true,
+        "live_check_scope": "Met official primary JPEG HTTP, complete format and SHA256; human visual review pending",
+        "source_accession_number": "1981.318"
+      },
+      "curation": {
+        "emotions": [
+          "懐かしさ",
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "懐かしさ": 2,
+          "好奇心": 1
+        },
+        "tones": [
+          "余韻",
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "記憶",
+          "共同体"
+        ],
+        "interpretation": "ブラジル植民地を離れたオランダ人画家の風景。Met専門家は、この景観を植民地支配に関する郷愁と幻想として批判的に解説。",
+        "alternate_reading": "郷愁の背景には植民地主義の所有・征服の視線があり、現地社会の平和な記録や普遍的な故郷の愛着と誤解させない。 植民地主義、先住民の土地収奪、奴隷化を背景に持つ。先住民側の郷愁や現地生活の正確な記録と解釈しない。",
+        "source_context_note": "オランダが北ブラジルを植民地支配していた時期の絵。帰国後の画家がスケッチや記憶をもとに描き、支配の現実を隠す理想化も含む。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437323",
+        "search_profile": {
+          "summary_for_ai": "ブラジル植民地を離れたオランダ人画家の風景。Met専門家は、この景観を植民地支配に関する郷愁と幻想として批判的に解説。 郷愁の背景には植民地主義の所有・征服の視線があり、現地社会の平和な記録や普遍的な故郷の愛着と誤解させない。 植民地主義、先住民の土地収奪、奴隷化を背景に持つ。先住民側の郷愁や現地生活の正確な記録と解釈しない。",
+          "fitting_situations": [
+            {
+              "situation": "かつての土地への郷愁が、必ずしも無害な感情ではないことに気づきたい",
+              "reason": "Metの音声解説は植民地を失ったオランダ社会の郷愁と、所有の幻想を同時に指摘。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "郷愁の背景には植民地主義の所有・征服の視線があり、現地社会の平和な記録や普遍的な故郷の愛着と誤解させない。 植民地主義、先住民の土地収奪、奴隷化を背景に持つ。先住民側の郷愁や現地生活の正確な記録と解釈しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "ブラジル植民地を離れたオランダ人画家の風景。Met専門家は、この景観を植民地支配に関する郷愁と幻想として批判的に解説。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437323"
+          },
+          "creation_context": "オランダが北ブラジルを植民地支配していた時期の絵。帰国後の画家がスケッチや記憶をもとに描き、支配の現実を隠す理想化も含む。",
+          "visual_clues": "ブラジルの植物・イグアナと先住民を、オランダ風景画の約束事で遠景へ配置。",
+          "uncertainty_note": "郷愁の背景には植民地主義の所有・征服の視線があり、現地社会の平和な記録や普遍的な故郷の愛着と誤解させない。 植民地主義、先住民の土地収奪、奴隷化を背景に持つ。先住民側の郷愁や現地生活の正確な記録と解釈しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "懐かしさ"
+          ],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第9群試験登録。公式Met作品ID・PD・画像JPEG取得・SHA256を確認。個別の作者発言と物語・専門家解釈の区別を維持。人間による画像視認・解釈・公開権利の最終承認は別。"
+      }
+    },
+    {
+      "id": "met-764092",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 764092,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/764092",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764092",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Our Lady of Mercy, called “The Pilgrim of Quito”",
+        "title_ja_provisional": "慈悲の聖母「キトの巡礼者」",
+        "artist": "Unknown Cuzco artist",
+        "creation_date_display": "ca. 1730–40",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Peru (Cuzco)",
+        "accession_number": "2018.652.4"
+      },
+      "image": {
+        "image_id": "met-764092-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-22602-001.jpg",
+        "source_registry_id": "met-764092",
+        "local_path": "/artworks/met-764092.jpg",
+        "sha256": "20d7c10f3d38b5e1c0891749ed3f1ae6b94b1205da88c394d8702b7e023e0cb9",
+        "byte_length": 132843,
+        "live_image_checked": true,
+        "live_check_scope": "Met official primary JPEG HTTP, complete format and SHA256; human visual review pending",
+        "source_accession_number": "2018.652.4"
+      },
+      "curation": {
+        "emotions": [
+          "希望",
+          "安心"
+        ],
+        "emotion_strengths": {
+          "希望": 2,
+          "安心": 1
+        },
+        "tones": [
+          "余韻",
+          "静けさ"
+        ],
+        "themes": [
+          "愛情",
+          "共同体"
+        ],
+        "interpretation": "キトで崇敬された聖母像が南米各地を巡り、信仰と守護の希望を担った歴史を伝えるクスコ派の宗教画。",
+        "alternate_reading": "救済への期待は信仰実践の側面で、描き手自身が希望に満ちていたという資料はない。 作者の個人的希望や現代の一般的な楽観とは違い、宗教的な守護への願い。",
+        "source_context_note": "18世紀ペルー・クスコの作者不詳による聖母子の巡礼画。慈悲の聖母を各地へ運び信仰と寄進を募ったメルセダリア会の歴史と奇跡の伝承を伝える。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/764092",
+        "search_profile": {
+          "summary_for_ai": "キトで崇敬された聖母像が南米各地を巡り、信仰と守護の希望を担った歴史を伝えるクスコ派の宗教画。 救済への期待は信仰実践の側面で、描き手自身が希望に満ちていたという資料はない。 作者の個人的希望や現代の一般的な楽観とは違い、宗教的な守護への願い。",
+          "fitting_situations": [
+            {
+              "situation": "守られたい、助けがほしいという願いを歴史的な宗教文化から考えたい",
+              "reason": "Metは巡礼画・奇跡の救済・慈悲の聖母に対する信仰行為という具体的意味を説明。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "救済への期待は信仰実践の側面で、描き手自身が希望に満ちていたという資料はない。 作者の個人的希望や現代の一般的な楽観とは違い、宗教的な守護への願い。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "キトで崇敬された聖母像が南米各地を巡り、信仰と守護の希望を担った歴史を伝えるクスコ派の宗教画。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/764092"
+          },
+          "creation_context": "18世紀ペルー・クスコの作者不詳による聖母子の巡礼画。慈悲の聖母を各地へ運び信仰と寄進を募ったメルセダリア会の歴史と奇跡の伝承を伝える。",
+          "visual_clues": "華やかに飾られた聖母子像がラバに乗って旅をし、修道士が先導する。遠景には救済の奇跡の小場面。",
+          "uncertainty_note": "救済への期待は信仰実践の側面で、描き手自身が希望に満ちていたという資料はない。 作者の個人的希望や現代の一般的な楽観とは違い、宗教的な守護への願い。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "希望"
+          ],
+          "secondary": [
+            "安心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第9群試験登録。公式Met作品ID・PD・画像JPEG取得・SHA256を確認。個別の作者発言と物語・専門家解釈の区別を維持。人間による画像視認・解釈・公開権利の最終承認は別。"
+      }
+    },
+    {
+      "id": "met-847023",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 847023,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/847023",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/847023",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Return of Persephone",
+        "title_ja_provisional": "ペルセポネの帰還",
+        "artist": "Frederic, Lord Leighton",
+        "creation_date_display": "ca. 1890–91",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "United Kingdom",
+        "accession_number": "2021.10.1"
+      },
+      "image": {
+        "image_id": "met-847023-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-21913-001.jpg",
+        "source_registry_id": "met-847023",
+        "local_path": "/artworks/met-847023.jpg",
+        "sha256": "96240b2b1f1778fce8c161b326df05cc309207375106e907dfb53586c026725a",
+        "byte_length": 139443,
+        "live_image_checked": true,
+        "live_check_scope": "Met official primary JPEG HTTP, complete format and SHA256; human visual review pending",
+        "source_accession_number": "2021.10.1"
+      },
+      "curation": {
+        "emotions": [
+          "喜び",
+          "希望",
+          "喪失感"
+        ],
+        "emotion_strengths": {
+          "喜び": 2,
+          "希望": 2,
+          "喪失感": 1
+        },
+        "tones": [
+          "高揚",
+          "余韻"
+        ],
+        "themes": [
+          "愛情",
+          "時間",
+          "別れ"
+        ],
+        "interpretation": "冥界から戻る娘ペルセポネを母デメテルが両腕を広げて迎える。再会が季節の更新を象徴するとMetが解説。",
+        "alternate_reading": "物語上の再会と女神の感情を画家本人の実体験と取り違えない。別作品のための油彩習作。",
+        "source_context_note": "ギリシャ神話の冥界から帰るペルセポネを母デメテルが迎える場面の油彩習作。再会が季節の更新を象徴する。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/847023",
+        "search_profile": {
+          "summary_for_ai": "冥界から戻る娘ペルセポネを母デメテルが両腕を広げて迎える。再会が季節の更新を象徴するとMetが解説。 物語上の再会と女神の感情を画家本人の実体験と取り違えない。別作品のための油彩習作。",
+          "fitting_situations": [
+            {
+              "situation": "長く離れた人と再会できた喜びと、これから始まる時間を考えたい",
+              "reason": "Metが母娘の再会と季節の再生を主題として解説している。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "物語上の再会と女神の感情を画家本人の実体験と取り違えない。別作品のための油彩習作。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "冥界から戻る娘ペルセポネを母デメテルが両腕を広げて迎える。再会が季節の更新を象徴するとMetが解説。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/847023"
+          },
+          "creation_context": "ギリシャ神話の冥界から帰るペルセポネを母デメテルが迎える場面の油彩習作。再会が季節の更新を象徴する。",
+          "visual_clues": "両腕を大きく広げる母と冥界から現れる娘、春を示唆する花枝。",
+          "uncertainty_note": "物語上の再会と女神の感情を画家本人の実体験と取り違えない。別作品のための油彩習作。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喜び",
+            "希望"
+          ],
+          "secondary": [
+            "喪失感"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第9群試験登録。公式Met作品ID・PD・画像JPEG取得・SHA256を確認。個別の作者発言と物語・専門家解釈の区別を維持。人間による画像視認・解釈・公開権利の最終承認は別。"
+      }
+    },
+    {
+      "id": "met-439122",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 439122,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/439122",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/439122",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Gothic Windows in the Ruins of the Monastery at Oybin",
+        "title_ja_provisional": "オイビン修道院跡のゴシック窓",
+        "artist": "Carl Gustav Carus",
+        "creation_date_display": "ca. 1828",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Germany",
+        "accession_number": "2007.192"
+      },
+      "image": {
+        "image_id": "met-439122-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-34306-001.jpg",
+        "source_registry_id": "met-439122",
+        "local_path": "/artworks/met-439122.jpg",
+        "sha256": "26c5a9cd9a3c805b8536db005464a7c58fa6775ec456230898973d0616136298",
+        "byte_length": 104626,
+        "live_image_checked": true,
+        "live_check_scope": "Met official primary JPEG HTTP, complete format and SHA256; human visual review pending",
+        "source_accession_number": "2007.192"
+      },
+      "curation": {
+        "emotions": [
+          "希望",
+          "喪失感"
+        ],
+        "emotion_strengths": {
+          "希望": 2,
+          "喪失感": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "interpretation": "廃墟の窓越しの淡い朝空と若木。Metは生命の循環への瞑想と希望の両方を示す作品と説明。",
+        "alternate_reading": "希望を象徴する意匠は確認できるが、作者の私生活への心理的な推定はしない。",
+        "source_context_note": "修道院跡のゴシック窓から朝の空を眺める19世紀ドイツ・ロマン派作品。廃墟の中の若木は生命の循環を示唆。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/439122",
+        "search_profile": {
+          "summary_for_ai": "廃墟の窓越しの淡い朝空と若木。Metは生命の循環への瞑想と希望の両方を示す作品と説明。 希望を象徴する意匠は確認できるが、作者の私生活への心理的な推定はしない。",
+          "fitting_situations": [
+            {
+              "situation": "失われたものの痕跡があっても、そこに新しい生命が育つのを感じたい",
+              "reason": "Metの個別解説が希望と瞑想の両立を明言し、若木を生命の循環に結びつける。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "希望を象徴する意匠は確認できるが、作者の私生活への心理的な推定はしない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "廃墟の窓越しの淡い朝空と若木。Metは生命の循環への瞑想と希望の両方を示す作品と説明。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/439122"
+          },
+          "creation_context": "修道院跡のゴシック窓から朝の空を眺める19世紀ドイツ・ロマン派作品。廃墟の中の若木は生命の循環を示唆。",
+          "visual_clues": "暗い廃墟の窓枠と、その向こうの明るい朝の空。近くに育つ若木。",
+          "uncertainty_note": "希望を象徴する意匠は確認できるが、作者の私生活への心理的な推定はしない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "希望"
+          ],
+          "secondary": [
+            "喪失感"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第9群試験登録。公式Met作品ID・PD・画像JPEG取得・SHA256を確認。個別の作者発言と物語・専門家解釈の区別を維持。人間による画像視認・解釈・公開権利の最終承認は別。"
+      }
+    },
+    {
+      "id": "met-435702",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 435702,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/435702",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435702",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Horse Fair",
+        "title_ja_provisional": "馬の市",
+        "artist": "Rosa Bonheur",
+        "creation_date_display": "1852–55",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "France",
+        "accession_number": "87.25"
+      },
+      "image": {
+        "image_id": "met-435702-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23550-001.jpg",
+        "source_registry_id": "met-435702",
+        "local_path": "/artworks/met-435702.jpg",
+        "sha256": "525c8b861d616b8c55bff075d6808a47a4a4d29de5ddadfb903be5b3b24dd16f",
+        "byte_length": 84750,
+        "live_image_checked": true,
+        "live_check_scope": "Met official primary JPEG HTTP, complete format and SHA256; human visual review pending",
+        "source_accession_number": "87.25"
+      },
+      "curation": {
+        "emotions": [
+          "好奇心",
+          "喜び"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2,
+          "喜び": 1
+        },
+        "tones": [
+          "にぎわい",
+          "高揚"
+        ],
+        "themes": [
+          "共同体",
+          "日常"
+        ],
+        "interpretation": "馬が大きく動く市場を描いたボヌールの大画面。女性が参加しづらい市場で繰り返し現場観察した制作過程と、活気に満ちた馬の動き。",
+        "alternate_reading": "期待や喜びは馬の市場への鑑賞上の入口であり、作家が昂揚を意図した直接声明ではない。 画家本人の喜びを直接示す発言は未確認で、喜びは動き・賑わいへの補助的鑑賞の入口。",
+        "source_context_note": "女性画家ローザ・ボヌールが当時女性には立ち入りにくかった馬市へ長期にわたり現場取材し、馬の動勢を大画面に描いた。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/435702",
+        "search_profile": {
+          "summary_for_ai": "馬が大きく動く市場を描いたボヌールの大画面。女性が参加しづらい市場で繰り返し現場観察した制作過程と、活気に満ちた馬の動き。 期待や喜びは馬の市場への鑑賞上の入口であり、作家が昂揚を意図した直接声明ではない。 画家本人の喜びを直接示す発言は未確認で、喜びは動き・賑わいへの補助的鑑賞の入口。",
+          "fitting_situations": [
+            {
+              "situation": "普段は見られない現場に画家が通い詰めるほど惹かれたものを知りたい",
+              "reason": "Metの作品研究が女性画家の現場観察と動きの綿密な研究を説明。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "期待や喜びは馬の市場への鑑賞上の入口であり、作家が昂揚を意図した直接声明ではない。 画家本人の喜びを直接示す発言は未確認で、喜びは動き・賑わいへの補助的鑑賞の入口。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "馬が大きく動く市場を描いたボヌールの大画面。女性が参加しづらい市場で繰り返し現場観察した制作過程と、活気に満ちた馬の動き。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/435702"
+          },
+          "creation_context": "女性画家ローザ・ボヌールが当時女性には立ち入りにくかった馬市へ長期にわたり現場取材し、馬の動勢を大画面に描いた。",
+          "visual_clues": "駆ける馬の群れと馬を導く人々、土手から市場を眺める観客。",
+          "uncertainty_note": "期待や喜びは馬の市場への鑑賞上の入口であり、作家が昂揚を意図した直接声明ではない。 画家本人の喜びを直接示す発言は未確認で、喜びは動き・賑わいへの補助的鑑賞の入口。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": [
+            "喜び"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第9群試験登録。公式Met作品ID・PD・画像JPEG取得・SHA256を確認。個別の作者発言と物語・専門家解釈の区別を維持。人間による画像視認・解釈・公開権利の最終承認は別。"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-18",
