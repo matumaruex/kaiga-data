@@ -2,8 +2,8 @@
   "schema_version": "1.0.0",
   "batch_id": "pilot-002-candidates",
   "created_on": "2026-10-18",
-  "status": "candidates_not_ready_for_exhibition",
-  "description": "15作品の公式サンプルCSVと2つの非公式・過去APIデータ複製を突合。基本事実15件は一致、画像IDは13件一致・2件不一致。現在の公式API・画像の実確認が済んでいないため展示用には昇格しない。",
+  "status": "metadata_verified_image_pending",
+  "description": "15候補の現在の公式APIで作品ID・名称・作者・Painting分類・PDフラグ・画像ID・年代情報を2026-10-18に確認。画像配信は15件ともHTTP403で未検証のため、展示用にはまだ昇格しない。感情解釈も暫定。",
   "works": [
     {
       "id": "aic-16551",
@@ -55,21 +55,22 @@
           "selection_cautions": [
             "相手が生きている失恋を死別と混同しない。所蔵版の違いに注意。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         }
       },
       "verification": {
         "existence_in_official_sample": true,
-        "api_metadata_checked": false,
-        "is_public_domain_confirmed": false,
-        "image_id_confirmed": false,
+        "api_metadata_checked": true,
+        "is_public_domain_confirmed": true,
+        "image_id_confirmed": true,
         "image_live_checked": false,
         "curation_human_approved": false,
         "historical_archive_crosschecked": true,
         "historical_archive_count": 2,
-        "has_conflicting_historical_image_ids": false
+        "has_conflicting_historical_image_ids": false,
+        "official_api_and_image_http_checked_on": "2026-10-18"
       },
-      "status": "candidate_unverified",
+      "status": "candidate_metadata_verified_image_pending",
       "archived_api_metadata": {
         "archive_sources": [
           {
@@ -102,6 +103,18 @@
         "image_id_candidate": "194674a2-f451-65f7-ba46-6aac4d894f0b",
         "image_url_candidate": "https://www.artic.edu/iiif/2/194674a2-f451-65f7-ba46-6aac4d894f0b/full/843,/0/default.jpg",
         "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      },
+      "official_metadata_check": {
+        "checked_on": "2026-10-18",
+        "official_api_image_id": "194674a2-f451-65f7-ba46-6aac4d894f0b",
+        "official_api_title": "Beata Beatrix",
+        "official_iiif_image_url": "https://www.artic.edu/iiif/2/194674a2-f451-65f7-ba46-6aac4d894f0b/full/843,/0/default.jpg",
+        "official_api_public_domain_flag": true,
+        "official_api_artwork_type": "Painting",
+        "image_http_status": 403,
+        "image_http_verified": false,
+        "evidence_workflow_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39097828166",
+        "note": "作品ID・タイトル・作者・Painting分類・PDフラグ・画像ID・年代表示は現在の美術館APIと照合済み。ただし画像サーバーがHTTP403を返し画像実取得・実表示は未確認。"
       }
     },
     {
@@ -154,21 +167,22 @@
           "selection_cautions": [
             "悲しみや不安を一律に前向きな教訓へ変えない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         }
       },
       "verification": {
         "existence_in_official_sample": true,
-        "api_metadata_checked": false,
-        "is_public_domain_confirmed": false,
-        "image_id_confirmed": false,
+        "api_metadata_checked": true,
+        "is_public_domain_confirmed": true,
+        "image_id_confirmed": true,
         "image_live_checked": false,
         "curation_human_approved": false,
         "historical_archive_crosschecked": true,
         "historical_archive_count": 2,
-        "has_conflicting_historical_image_ids": false
+        "has_conflicting_historical_image_ids": false,
+        "official_api_and_image_http_checked_on": "2026-10-18"
       },
-      "status": "candidate_unverified",
+      "status": "candidate_metadata_verified_image_pending",
       "archived_api_metadata": {
         "archive_sources": [
           {
@@ -201,6 +215,18 @@
         "image_id_candidate": "5dca7347-c6dc-24dd-d073-d705b9cdc575",
         "image_url_candidate": "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/843,/0/default.jpg",
         "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      },
+      "official_metadata_check": {
+        "checked_on": "2026-10-18",
+        "official_api_image_id": "5dca7347-c6dc-24dd-d073-d705b9cdc575",
+        "official_api_title": "The Herring Net",
+        "official_iiif_image_url": "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/843,/0/default.jpg",
+        "official_api_public_domain_flag": true,
+        "official_api_artwork_type": "Painting",
+        "image_http_status": 403,
+        "image_http_verified": false,
+        "evidence_workflow_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39097828166",
+        "note": "作品ID・タイトル・作者・Painting分類・PDフラグ・画像ID・年代表示は現在の美術館APIと照合済み。ただし画像サーバーがHTTP403を返し画像実取得・実表示は未確認。"
       }
     },
     {
@@ -253,21 +279,22 @@
           "selection_cautions": [
             "人物を実の母子と確定しない。家族関係に痛みがある利用者には慎重に使う。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         }
       },
       "verification": {
         "existence_in_official_sample": true,
-        "api_metadata_checked": false,
-        "is_public_domain_confirmed": false,
-        "image_id_confirmed": false,
+        "api_metadata_checked": true,
+        "is_public_domain_confirmed": true,
+        "image_id_confirmed": true,
         "image_live_checked": false,
         "curation_human_approved": false,
         "historical_archive_crosschecked": true,
         "historical_archive_count": 2,
-        "has_conflicting_historical_image_ids": true
+        "has_conflicting_historical_image_ids": true,
+        "official_api_and_image_http_checked_on": "2026-10-18"
       },
-      "status": "candidate_unverified",
+      "status": "candidate_metadata_verified_image_pending",
       "archived_api_metadata": {
         "archive_sources": [
           {
@@ -301,6 +328,18 @@
         "image_id_candidate": null,
         "image_url_candidate": null,
         "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      },
+      "official_metadata_check": {
+        "checked_on": "2026-10-18",
+        "official_api_image_id": "3b885ae0-4d46-5fe4-d70a-00474827f02c",
+        "official_api_title": "The Child's Bath",
+        "official_iiif_image_url": "https://www.artic.edu/iiif/2/3b885ae0-4d46-5fe4-d70a-00474827f02c/full/843,/0/default.jpg",
+        "official_api_public_domain_flag": true,
+        "official_api_artwork_type": "Painting",
+        "image_http_status": 403,
+        "image_http_verified": false,
+        "evidence_workflow_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39097828166",
+        "note": "作品ID・タイトル・作者・Painting分類・PDフラグ・画像ID・年代表示は現在の美術館APIと照合済み。ただし画像サーバーがHTTP403を返し画像実取得・実表示は未確認。"
       }
     },
     {
@@ -353,21 +392,22 @@
           "selection_cautions": [
             "実際の姉妹ではない。親密な姉妹愛を事実として説明しない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         }
       },
       "verification": {
         "existence_in_official_sample": true,
-        "api_metadata_checked": false,
-        "is_public_domain_confirmed": false,
-        "image_id_confirmed": false,
+        "api_metadata_checked": true,
+        "is_public_domain_confirmed": true,
+        "image_id_confirmed": true,
         "image_live_checked": false,
         "curation_human_approved": false,
         "historical_archive_crosschecked": true,
         "historical_archive_count": 2,
-        "has_conflicting_historical_image_ids": false
+        "has_conflicting_historical_image_ids": false,
+        "official_api_and_image_http_checked_on": "2026-10-18"
       },
-      "status": "candidate_unverified",
+      "status": "candidate_metadata_verified_image_pending",
       "archived_api_metadata": {
         "archive_sources": [
           {
@@ -400,6 +440,18 @@
         "image_id_candidate": "3a608f55-d76e-fa96-d0b1-0789fbc48f1e",
         "image_url_candidate": "https://www.artic.edu/iiif/2/3a608f55-d76e-fa96-d0b1-0789fbc48f1e/full/843,/0/default.jpg",
         "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      },
+      "official_metadata_check": {
+        "checked_on": "2026-10-18",
+        "official_api_image_id": "3a608f55-d76e-fa96-d0b1-0789fbc48f1e",
+        "official_api_title": "Two Sisters (On the Terrace)",
+        "official_iiif_image_url": "https://www.artic.edu/iiif/2/3a608f55-d76e-fa96-d0b1-0789fbc48f1e/full/843,/0/default.jpg",
+        "official_api_public_domain_flag": true,
+        "official_api_artwork_type": "Painting",
+        "image_http_status": 403,
+        "image_http_verified": false,
+        "evidence_workflow_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39097828166",
+        "note": "作品ID・タイトル・作者・Painting分類・PDフラグ・画像ID・年代表示は現在の美術館APIと照合済み。ただし画像サーバーがHTTP403を返し画像実取得・実表示は未確認。"
       }
     },
     {
@@ -451,21 +503,22 @@
           "selection_cautions": [
             "一人の人物が描かれているだけでつらい孤独と決めつけない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         }
       },
       "verification": {
         "existence_in_official_sample": true,
-        "api_metadata_checked": false,
-        "is_public_domain_confirmed": false,
-        "image_id_confirmed": false,
+        "api_metadata_checked": true,
+        "is_public_domain_confirmed": true,
+        "image_id_confirmed": true,
         "image_live_checked": false,
         "curation_human_approved": false,
         "historical_archive_crosschecked": true,
         "historical_archive_count": 2,
-        "has_conflicting_historical_image_ids": false
+        "has_conflicting_historical_image_ids": false,
+        "official_api_and_image_http_checked_on": "2026-10-18"
       },
-      "status": "candidate_unverified",
+      "status": "candidate_metadata_verified_image_pending",
       "archived_api_metadata": {
         "archive_sources": [
           {
@@ -498,6 +551,18 @@
         "image_id_candidate": "78c80988-6524-cec7-c661-a4c0a706d06f",
         "image_url_candidate": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
         "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      },
+      "official_metadata_check": {
+        "checked_on": "2026-10-18",
+        "official_api_image_id": "78c80988-6524-cec7-c661-a4c0a706d06f",
+        "official_api_title": "Woman at Her Toilette",
+        "official_iiif_image_url": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
+        "official_api_public_domain_flag": true,
+        "official_api_artwork_type": "Painting",
+        "image_http_status": 403,
+        "image_http_verified": false,
+        "evidence_workflow_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39097828166",
+        "note": "作品ID・タイトル・作者・Painting分類・PDフラグ・画像ID・年代表示は現在の美術館APIと照合済み。ただし画像サーバーがHTTP403を返し画像実取得・実表示は未確認。"
       }
     },
     {
@@ -550,21 +615,22 @@
           "selection_cautions": [
             "読書する姿だけで疎外感や悲痛な孤独を推測しない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         }
       },
       "verification": {
         "existence_in_official_sample": true,
-        "api_metadata_checked": false,
-        "is_public_domain_confirmed": false,
-        "image_id_confirmed": false,
+        "api_metadata_checked": true,
+        "is_public_domain_confirmed": true,
+        "image_id_confirmed": true,
         "image_live_checked": false,
         "curation_human_approved": false,
         "historical_archive_crosschecked": true,
         "historical_archive_count": 2,
-        "has_conflicting_historical_image_ids": false
+        "has_conflicting_historical_image_ids": false,
+        "official_api_and_image_http_checked_on": "2026-10-18"
       },
-      "status": "candidate_unverified",
+      "status": "candidate_metadata_verified_image_pending",
       "archived_api_metadata": {
         "archive_sources": [
           {
@@ -597,6 +663,18 @@
         "image_id_candidate": "fd991fea-0c13-8444-7879-aba467f1d9db",
         "image_url_candidate": "https://www.artic.edu/iiif/2/fd991fea-0c13-8444-7879-aba467f1d9db/full/843,/0/default.jpg",
         "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      },
+      "official_metadata_check": {
+        "checked_on": "2026-10-18",
+        "official_api_image_id": "fd991fea-0c13-8444-7879-aba467f1d9db",
+        "official_api_title": "Woman Reading",
+        "official_iiif_image_url": "https://www.artic.edu/iiif/2/fd991fea-0c13-8444-7879-aba467f1d9db/full/843,/0/default.jpg",
+        "official_api_public_domain_flag": true,
+        "official_api_artwork_type": "Painting",
+        "image_http_status": 403,
+        "image_http_verified": false,
+        "evidence_workflow_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39097828166",
+        "note": "作品ID・タイトル・作者・Painting分類・PDフラグ・画像ID・年代表示は現在の美術館APIと照合済み。ただし画像サーバーがHTTP403を返し画像実取得・実表示は未確認。"
       }
     },
     {
@@ -649,21 +727,22 @@
           "selection_cautions": [
             "社交の場をすべて否定的に描いていると断定しない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         }
       },
       "verification": {
         "existence_in_official_sample": true,
-        "api_metadata_checked": false,
-        "is_public_domain_confirmed": false,
-        "image_id_confirmed": false,
+        "api_metadata_checked": true,
+        "is_public_domain_confirmed": true,
+        "image_id_confirmed": true,
         "image_live_checked": false,
         "curation_human_approved": false,
         "historical_archive_crosschecked": true,
         "historical_archive_count": 2,
-        "has_conflicting_historical_image_ids": false
+        "has_conflicting_historical_image_ids": false,
+        "official_api_and_image_http_checked_on": "2026-10-18"
       },
-      "status": "candidate_unverified",
+      "status": "candidate_metadata_verified_image_pending",
       "archived_api_metadata": {
         "archive_sources": [
           {
@@ -696,6 +775,18 @@
         "image_id_candidate": "defb4004-b500-218d-3d9b-9a02423f097d",
         "image_url_candidate": "https://www.artic.edu/iiif/2/defb4004-b500-218d-3d9b-9a02423f097d/full/843,/0/default.jpg",
         "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      },
+      "official_metadata_check": {
+        "checked_on": "2026-10-18",
+        "official_api_image_id": "defb4004-b500-218d-3d9b-9a02423f097d",
+        "official_api_title": "At the Moulin Rouge",
+        "official_iiif_image_url": "https://www.artic.edu/iiif/2/defb4004-b500-218d-3d9b-9a02423f097d/full/843,/0/default.jpg",
+        "official_api_public_domain_flag": true,
+        "official_api_artwork_type": "Painting",
+        "image_http_status": 403,
+        "image_http_verified": false,
+        "evidence_workflow_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39097828166",
+        "note": "作品ID・タイトル・作者・Painting分類・PDフラグ・画像ID・年代表示は現在の美術館APIと照合済み。ただし画像サーバーがHTTP403を返し画像実取得・実表示は未確認。"
       }
     },
     {
@@ -745,21 +836,22 @@
           "selection_cautions": [
             "リンゴを恋愛・愛情などの象徴だと勝手に確定しない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         }
       },
       "verification": {
         "existence_in_official_sample": true,
-        "api_metadata_checked": false,
-        "is_public_domain_confirmed": false,
-        "image_id_confirmed": false,
+        "api_metadata_checked": true,
+        "is_public_domain_confirmed": true,
+        "image_id_confirmed": true,
         "image_live_checked": false,
         "curation_human_approved": false,
         "historical_archive_crosschecked": true,
         "historical_archive_count": 2,
-        "has_conflicting_historical_image_ids": false
+        "has_conflicting_historical_image_ids": false,
+        "official_api_and_image_http_checked_on": "2026-10-18"
       },
-      "status": "candidate_unverified",
+      "status": "candidate_metadata_verified_image_pending",
       "archived_api_metadata": {
         "archive_sources": [
           {
@@ -792,6 +884,18 @@
         "image_id_candidate": "52ac8996-3460-cf71-cb42-5c4d0aa29b74",
         "image_url_candidate": "https://www.artic.edu/iiif/2/52ac8996-3460-cf71-cb42-5c4d0aa29b74/full/843,/0/default.jpg",
         "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      },
+      "official_metadata_check": {
+        "checked_on": "2026-10-18",
+        "official_api_image_id": "52ac8996-3460-cf71-cb42-5c4d0aa29b74",
+        "official_api_title": "The Basket of Apples",
+        "official_iiif_image_url": "https://www.artic.edu/iiif/2/52ac8996-3460-cf71-cb42-5c4d0aa29b74/full/843,/0/default.jpg",
+        "official_api_public_domain_flag": true,
+        "official_api_artwork_type": "Painting",
+        "image_http_status": 403,
+        "image_http_verified": false,
+        "evidence_workflow_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39097828166",
+        "note": "作品ID・タイトル・作者・Painting分類・PDフラグ・画像ID・年代表示は現在の美術館APIと照合済み。ただし画像サーバーがHTTP403を返し画像実取得・実表示は未確認。"
       }
     },
     {
@@ -846,21 +950,22 @@
           "selection_cautions": [
             "斬首を含む暴力的主題。画像の実確認まで配慮が必要。怒りへの自動推薦は慎重に。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         }
       },
       "verification": {
         "existence_in_official_sample": true,
-        "api_metadata_checked": false,
-        "is_public_domain_confirmed": false,
-        "image_id_confirmed": false,
+        "api_metadata_checked": true,
+        "is_public_domain_confirmed": true,
+        "image_id_confirmed": true,
         "image_live_checked": false,
         "curation_human_approved": false,
         "historical_archive_crosschecked": true,
         "historical_archive_count": 2,
-        "has_conflicting_historical_image_ids": false
+        "has_conflicting_historical_image_ids": false,
+        "official_api_and_image_http_checked_on": "2026-10-18"
       },
-      "status": "candidate_unverified",
+      "status": "candidate_metadata_verified_image_pending",
       "archived_api_metadata": {
         "archive_sources": [
           {
@@ -893,6 +998,18 @@
         "image_id_candidate": "5b9758c9-24ef-8661-fac0-c9a4229eefd4",
         "image_url_candidate": "https://www.artic.edu/iiif/2/5b9758c9-24ef-8661-fac0-c9a4229eefd4/full/843,/0/default.jpg",
         "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      },
+      "official_metadata_check": {
+        "checked_on": "2026-10-18",
+        "official_api_image_id": "5b9758c9-24ef-8661-fac0-c9a4229eefd4",
+        "official_api_title": "Judith",
+        "official_iiif_image_url": "https://www.artic.edu/iiif/2/5b9758c9-24ef-8661-fac0-c9a4229eefd4/full/843,/0/default.jpg",
+        "official_api_public_domain_flag": true,
+        "official_api_artwork_type": "Painting",
+        "image_http_status": 403,
+        "image_http_verified": false,
+        "evidence_workflow_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39097828166",
+        "note": "作品ID・タイトル・作者・Painting分類・PDフラグ・画像ID・年代表示は現在の美術館APIと照合済み。ただし画像サーバーがHTTP403を返し画像実取得・実表示は未確認。"
       }
     },
     {
@@ -944,21 +1061,22 @@
           "selection_cautions": [
             "キリスト教の固有の意味を、一般的な心理表現としてだけ説明しない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         }
       },
       "verification": {
         "existence_in_official_sample": true,
-        "api_metadata_checked": false,
-        "is_public_domain_confirmed": false,
-        "image_id_confirmed": false,
+        "api_metadata_checked": true,
+        "is_public_domain_confirmed": true,
+        "image_id_confirmed": true,
         "image_live_checked": false,
         "curation_human_approved": false,
         "historical_archive_crosschecked": true,
         "historical_archive_count": 2,
-        "has_conflicting_historical_image_ids": false
+        "has_conflicting_historical_image_ids": false,
+        "official_api_and_image_http_checked_on": "2026-10-18"
       },
-      "status": "candidate_unverified",
+      "status": "candidate_metadata_verified_image_pending",
       "archived_api_metadata": {
         "archive_sources": [
           {
@@ -991,6 +1109,18 @@
         "image_id_candidate": "77951d0c-d781-eac6-f4ff-f13cc5cfc0cf",
         "image_url_candidate": "https://www.artic.edu/iiif/2/77951d0c-d781-eac6-f4ff-f13cc5cfc0cf/full/843,/0/default.jpg",
         "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      },
+      "official_metadata_check": {
+        "checked_on": "2026-10-18",
+        "official_api_image_id": "77951d0c-d781-eac6-f4ff-f13cc5cfc0cf",
+        "official_api_title": "The Annunciation",
+        "official_iiif_image_url": "https://www.artic.edu/iiif/2/77951d0c-d781-eac6-f4ff-f13cc5cfc0cf/full/843,/0/default.jpg",
+        "official_api_public_domain_flag": true,
+        "official_api_artwork_type": "Painting",
+        "image_http_status": 403,
+        "image_http_verified": false,
+        "evidence_workflow_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39097828166",
+        "note": "作品ID・タイトル・作者・Painting分類・PDフラグ・画像ID・年代表示は現在の美術館APIと照合済み。ただし画像サーバーがHTTP403を返し画像実取得・実表示は未確認。"
       }
     },
     {
@@ -1042,21 +1172,22 @@
           "selection_cautions": [
             "題名だけから画面の光、色彩、希望の強さを断定しない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         }
       },
       "verification": {
         "existence_in_official_sample": true,
-        "api_metadata_checked": false,
-        "is_public_domain_confirmed": false,
-        "image_id_confirmed": false,
+        "api_metadata_checked": true,
+        "is_public_domain_confirmed": true,
+        "image_id_confirmed": true,
         "image_live_checked": false,
         "curation_human_approved": false,
         "historical_archive_crosschecked": true,
         "historical_archive_count": 2,
-        "has_conflicting_historical_image_ids": false
+        "has_conflicting_historical_image_ids": false,
+        "official_api_and_image_http_checked_on": "2026-10-18"
       },
-      "status": "candidate_unverified",
+      "status": "candidate_metadata_verified_image_pending",
       "archived_api_metadata": {
         "archive_sources": [
           {
@@ -1089,6 +1220,18 @@
         "image_id_candidate": "ef96e79b-f481-8114-0804-4bd39c101983",
         "image_url_candidate": "https://www.artic.edu/iiif/2/ef96e79b-f481-8114-0804-4bd39c101983/full/843,/0/default.jpg",
         "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      },
+      "official_metadata_check": {
+        "checked_on": "2026-10-18",
+        "official_api_image_id": "ef96e79b-f481-8114-0804-4bd39c101983",
+        "official_api_title": "Early Morning, Tarpon Springs",
+        "official_iiif_image_url": "https://www.artic.edu/iiif/2/ef96e79b-f481-8114-0804-4bd39c101983/full/843,/0/default.jpg",
+        "official_api_public_domain_flag": true,
+        "official_api_artwork_type": "Painting",
+        "image_http_status": 403,
+        "image_http_verified": false,
+        "evidence_workflow_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39097828166",
+        "note": "作品ID・タイトル・作者・Painting分類・PDフラグ・画像ID・年代表示は現在の美術館APIと照合済み。ただし画像サーバーがHTTP403を返し画像実取得・実表示は未確認。"
       }
     },
     {
@@ -1140,21 +1283,22 @@
           "selection_cautions": [
             "画家の精神状態や診断を作品から断定しない。画像IDの過去資料間で不一致あり。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         }
       },
       "verification": {
         "existence_in_official_sample": true,
-        "api_metadata_checked": false,
-        "is_public_domain_confirmed": false,
-        "image_id_confirmed": false,
+        "api_metadata_checked": true,
+        "is_public_domain_confirmed": true,
+        "image_id_confirmed": true,
         "image_live_checked": false,
         "curation_human_approved": false,
         "historical_archive_crosschecked": true,
         "historical_archive_count": 2,
-        "has_conflicting_historical_image_ids": true
+        "has_conflicting_historical_image_ids": true,
+        "official_api_and_image_http_checked_on": "2026-10-18"
       },
-      "status": "candidate_unverified",
+      "status": "candidate_metadata_verified_image_pending",
       "archived_api_metadata": {
         "archive_sources": [
           {
@@ -1188,6 +1332,18 @@
         "image_id_candidate": null,
         "image_url_candidate": null,
         "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      },
+      "official_metadata_check": {
+        "checked_on": "2026-10-18",
+        "official_api_image_id": "47c5bcb8-62ef-e5d7-55e7-f5121f409a30",
+        "official_api_title": "Self-Portrait",
+        "official_iiif_image_url": "https://www.artic.edu/iiif/2/47c5bcb8-62ef-e5d7-55e7-f5121f409a30/full/843,/0/default.jpg",
+        "official_api_public_domain_flag": true,
+        "official_api_artwork_type": "Painting",
+        "image_http_status": 403,
+        "image_http_verified": false,
+        "evidence_workflow_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39097828166",
+        "note": "作品ID・タイトル・作者・Painting分類・PDフラグ・画像ID・年代表示は現在の美術館APIと照合済み。ただし画像サーバーがHTTP403を返し画像実取得・実表示は未確認。"
       }
     },
     {
@@ -1240,21 +1396,22 @@
           "selection_cautions": [
             "見る人それぞれの記憶を実際の風景の歴史と混同しない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         }
       },
       "verification": {
         "existence_in_official_sample": true,
-        "api_metadata_checked": false,
-        "is_public_domain_confirmed": false,
-        "image_id_confirmed": false,
+        "api_metadata_checked": true,
+        "is_public_domain_confirmed": true,
+        "image_id_confirmed": true,
         "image_live_checked": false,
         "curation_human_approved": false,
         "historical_archive_crosschecked": true,
         "historical_archive_count": 2,
-        "has_conflicting_historical_image_ids": false
+        "has_conflicting_historical_image_ids": false,
+        "official_api_and_image_http_checked_on": "2026-10-18"
       },
-      "status": "candidate_unverified",
+      "status": "candidate_metadata_verified_image_pending",
       "archived_api_metadata": {
         "archive_sources": [
           {
@@ -1287,6 +1444,18 @@
         "image_id_candidate": "237c25a2-6051-a8e7-1610-a01938d4deab",
         "image_url_candidate": "https://www.artic.edu/iiif/2/237c25a2-6051-a8e7-1610-a01938d4deab/full/843,/0/default.jpg",
         "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      },
+      "official_metadata_check": {
+        "checked_on": "2026-10-18",
+        "official_api_image_id": "237c25a2-6051-a8e7-1610-a01938d4deab",
+        "official_api_title": "The Watermill with the Great Red Roof",
+        "official_iiif_image_url": "https://www.artic.edu/iiif/2/237c25a2-6051-a8e7-1610-a01938d4deab/full/843,/0/default.jpg",
+        "official_api_public_domain_flag": true,
+        "official_api_artwork_type": "Painting",
+        "image_http_status": 403,
+        "image_http_verified": false,
+        "evidence_workflow_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39097828166",
+        "note": "作品ID・タイトル・作者・Painting分類・PDフラグ・画像ID・年代表示は現在の美術館APIと照合済み。ただし画像サーバーがHTTP403を返し画像実取得・実表示は未確認。"
       }
     },
     {
@@ -1339,21 +1508,22 @@
           "selection_cautions": [
             "制作年や具体的な画面描写は現在の公式データ・画像で確認が必要。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         }
       },
       "verification": {
         "existence_in_official_sample": true,
-        "api_metadata_checked": false,
-        "is_public_domain_confirmed": false,
-        "image_id_confirmed": false,
+        "api_metadata_checked": true,
+        "is_public_domain_confirmed": true,
+        "image_id_confirmed": true,
         "image_live_checked": false,
         "curation_human_approved": false,
         "historical_archive_crosschecked": true,
         "historical_archive_count": 2,
-        "has_conflicting_historical_image_ids": false
+        "has_conflicting_historical_image_ids": false,
+        "official_api_and_image_http_checked_on": "2026-10-18"
       },
-      "status": "candidate_unverified",
+      "status": "candidate_metadata_verified_image_pending",
       "archived_api_metadata": {
         "archive_sources": [
           {
@@ -1386,6 +1556,18 @@
         "image_id_candidate": "400ce9e8-2f67-44e2-dd68-e6c98880d27f",
         "image_url_candidate": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f/full/843,/0/default.jpg",
         "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      },
+      "official_metadata_check": {
+        "checked_on": "2026-10-18",
+        "official_api_image_id": "400ce9e8-2f67-44e2-dd68-e6c98880d27f",
+        "official_api_title": "Stoke-by-Nayland",
+        "official_iiif_image_url": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f/full/843,/0/default.jpg",
+        "official_api_public_domain_flag": true,
+        "official_api_artwork_type": "Painting",
+        "image_http_status": 403,
+        "image_http_verified": false,
+        "evidence_workflow_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39097828166",
+        "note": "作品ID・タイトル・作者・Painting分類・PDフラグ・画像ID・年代表示は現在の美術館APIと照合済み。ただし画像サーバーがHTTP403を返し画像実取得・実表示は未確認。"
       }
     },
     {
@@ -1438,21 +1620,22 @@
           "selection_cautions": [
             "魚の取引を必ず対立や争いとみなさない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         }
       },
       "verification": {
         "existence_in_official_sample": true,
-        "api_metadata_checked": false,
-        "is_public_domain_confirmed": false,
-        "image_id_confirmed": false,
+        "api_metadata_checked": true,
+        "is_public_domain_confirmed": true,
+        "image_id_confirmed": true,
         "image_live_checked": false,
         "curation_human_approved": false,
         "historical_archive_crosschecked": true,
         "historical_archive_count": 2,
-        "has_conflicting_historical_image_ids": false
+        "has_conflicting_historical_image_ids": false,
+        "official_api_and_image_http_checked_on": "2026-10-18"
       },
-      "status": "candidate_unverified",
+      "status": "candidate_metadata_verified_image_pending",
       "archived_api_metadata": {
         "archive_sources": [
           {
@@ -1485,8 +1668,22 @@
         "image_id_candidate": "8641479e-c93e-f1a8-9925-19be061706da",
         "image_url_candidate": "https://www.artic.edu/iiif/2/8641479e-c93e-f1a8-9925-19be061706da/full/843,/0/default.jpg",
         "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      },
+      "official_metadata_check": {
+        "checked_on": "2026-10-18",
+        "official_api_image_id": "8641479e-c93e-f1a8-9925-19be061706da",
+        "official_api_title": "Fishing Boats with Hucksters Bargaining for Fish",
+        "official_iiif_image_url": "https://www.artic.edu/iiif/2/8641479e-c93e-f1a8-9925-19be061706da/full/843,/0/default.jpg",
+        "official_api_public_domain_flag": true,
+        "official_api_artwork_type": "Painting",
+        "image_http_status": 403,
+        "image_http_verified": false,
+        "evidence_workflow_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39097828166",
+        "note": "作品ID・タイトル・作者・Painting分類・PDフラグ・画像ID・年代表示は現在の美術館APIと照合済み。ただし画像サーバーがHTTP403を返し画像実取得・実表示は未確認。"
       }
     }
   ],
-  "archived_metadata_crosscheck_on": "2026-10-18"
+  "archived_metadata_crosscheck_on": "2026-10-18",
+  "current_official_metadata_checked_on": "2026-10-18",
+  "current_official_metadata_check_workflow_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39097828166"
 }
