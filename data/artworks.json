@@ -4,68 +4,75 @@
   "created_on": "2026-10-18",
   "artworks": [
     {
-      "id": "aic-28560",
+      "id": "aic-869",
       "source": {
         "museum": "Art Institute of Chicago",
-        "artwork_id": 28560,
-        "artwork_url": "https://www.artic.edu/artworks/28560",
-        "api_url": "https://api.artic.edu/api/v1/artworks/28560",
+        "artwork_id": 869,
+        "artwork_url": "https://www.artic.edu/artworks/869",
+        "api_url": "https://api.artic.edu/api/v1/artworks/869",
         "record_checked_on": "2026-10-18"
       },
       "facts": {
-        "title_original": "The Bedroom",
-        "title_ja_provisional": "寝室",
-        "artist": "Vincent van Gogh",
-        "creation_date_display": "1889",
+        "title_original": "The Watermill with the Great Red Roof",
+        "title_ja_provisional": "大きな赤い屋根の水車小屋",
+        "artist": "Meindert Hobbema",
+        "creation_date_display": "1662/65",
         "type": "Painting",
         "is_public_domain_at_source": true
       },
       "image": {
-        "image_id": "6644829f-f292-c5c4-a73c-0356a6fdbf0d",
+        "image_id": "237c25a2-6051-a8e7-1610-a01938d4deab",
         "iiif_base": "https://www.artic.edu/iiif/2",
-        "display_url": "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/843,/0/default.jpg",
-        "live_image_checked": false
+        "iiif_reference_url": "https://www.artic.edu/iiif/2/237c25a2-6051-a8e7-1610-a01938d4deab/full/843,/0/default.jpg",
+        "display_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Meindert_Hobbema_-_The_Watermill_with_the_Great_Red_Roof_-_1894.1031_-_Art_Institute_of_Chicago.jpg/960px-Meindert_Hobbema_-_The_Watermill_with_the_Great_Red_Roof_-_1894.1031_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_registry_id": "aic-869",
+        "local_path": "/artworks/869.jpg",
+        "sha256": "965d92306503ab6c30d27d58458345160652aca32cf7d3b943c19e94b773972d",
+        "byte_length": 194911,
+        "live_image_checked": true,
+        "live_check_scope": "Wikimedia/public mirror JPEG HTTP+SHA256; not browser view",
+        "source_accession_number": "1894.1031"
       },
       "curation": {
         "emotions": [
           "安心",
           "懐かしさ",
-          "寂しさ"
+          "好奇心"
         ],
+        "emotion_strengths": {
+          "安心": 2,
+          "懐かしさ": 1,
+          "好奇心": 1
+        },
         "tones": [
           "静けさ",
           "落ち着き"
         ],
         "themes": [
-          "居場所",
-          "休息",
-          "日常"
+          "自然",
+          "日常",
+          "時間"
         ],
-        "interpretation": "人の姿のない私室が、自分だけの居場所を求める気持ちや、ひとりで落ち着きたい感覚と重なりうる。",
-        "alternate_reading": "色彩の強さや不自然な遠近感を、安らぎよりも緊張として感じる鑑賞者もいる。",
-        "source_context_note": "ゴッホは最初の『寝室』（1888年）について色彩で休息を表したいと書いており、シカゴ所蔵の1889年作は、その題材の第2版に当たる。",
-        "emotion_strengths": {
-          "安心": 3,
-          "懐かしさ": 1,
-          "寂しさ": 1
-        },
-        "evidence_url": "https://www.nortonsimon.org/exhibitions/2010-2019/vangoghbedroom",
+        "interpretation": "水車と大屋根のある田園の景色が、平穏な場所や昔の風景を思い出したい気分に重なる可能性がある。",
+        "alternate_reading": "実際には自然の細かな描写や景観構成を楽しむ絵としても鑑賞できる。",
+        "source_context_note": "17世紀のオランダの田園、水車小屋の赤い大屋根、橋、木々、流れる水が構成する風景。特定の個人的な故郷の物語ではなく、建物と水辺の景観を丁寧に描く。",
+        "evidence_url": "https://www.artic.edu/artworks/869",
         "search_profile": {
-          "summary_for_ai": "人のいない寝室を描き、休息や自分だけの居場所を連想させる。色彩の強さや独特な遠近感から、静けさの中の不安も読み取れる。",
+          "summary_for_ai": "赤い大屋根の水車小屋と流れ落ちる水、橋、木々を描く田園風景。落ち着きや風景への懐かしさを連想させる。",
           "fitting_situations": [
             {
-              "situation": "他人と距離を置き、自分だけの部屋で静かに落ち着きたい",
-              "reason": "作者の休息への意図と、私室という題材が合う",
-              "strength": 3
+              "situation": "昔暮らしていた場所やなじみのある風景が恋しい",
+              "reason": "生活の建物と自然の風景が郷愁を呼びうる",
+              "strength": 2
             },
             {
-              "situation": "昔の部屋や安心できた場所を思い出している",
-              "reason": "個人的な居場所の記憶に重ねられるが、鑑賞者依存の解釈",
-              "strength": 1
+              "situation": "落ち着ける場所を探している",
+              "reason": "生活の場と自然の組み合わせに居場所を感じうる",
+              "strength": 2
             }
           ],
           "selection_cautions": [
-            "失恋・死別を直接描いた作品ではない。寂しさの語だけで強く優先しない。"
+            "描かれた地域と利用者の故郷を同一視しない。『懐かしさ』は見る人の記憶による弱めの連想。"
           ],
           "review_status": "draft_not_human_approved"
         }
@@ -77,7 +84,665 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "「安心」はゴッホが休息を意図したという資料があり強い。『懐かしさ』『寂しさ』は見る人による連想のため弱い。シカゴ本は1889年の第2版である点にも注意。"
+        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+      }
+    },
+    {
+      "id": "aic-4758",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 4758,
+        "artwork_url": "https://www.artic.edu/artworks/4758",
+        "api_url": "https://api.artic.edu/api/v1/artworks/4758",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Stoke-by-Nayland",
+        "title_ja_provisional": "ストーク＝バイ＝ネイランド",
+        "artist": "John Constable",
+        "creation_date_display": "1836",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "400ce9e8-2f67-44e2-dd68-e6c98880d27f",
+        "iiif_base": "https://www.artic.edu/iiif/2",
+        "iiif_reference_url": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f/full/843,/0/default.jpg",
+        "display_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/John_Constable_-_Stoke-by-Nayland_-_1922.4453_-_Art_Institute_of_Chicago.jpg/960px-John_Constable_-_Stoke-by-Nayland_-_1922.4453_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_registry_id": "aic-4758",
+        "local_path": "/artworks/4758.jpg",
+        "sha256": "e47ed2634ea297d2f7d55037c82312f7e6b752658714fe853068002fe873b02e",
+        "byte_length": 293399,
+        "live_image_checked": true,
+        "live_check_scope": "Wikimedia/public mirror JPEG HTTP+SHA256; not browser view",
+        "source_accession_number": "1922.4453"
+      },
+      "curation": {
+        "emotions": [
+          "懐かしさ",
+          "安心",
+          "寂しさ"
+        ],
+        "emotion_strengths": {
+          "懐かしさ": 2,
+          "安心": 1,
+          "寂しさ": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "記憶",
+          "時間"
+        ],
+        "interpretation": "なじみのある土地と教会の景色に、過ぎた時間や戻りたい風景を重ねられる。一方、動きのある空や筆触から、必ずしも静かな安心だけを感じるとは限らない。",
+        "alternate_reading": "風景を地理的・絵画技法的に味わうこともできる。",
+        "source_context_note": "1836年頃のコンスタブルの風景画。サフォーク州ストーク・バイ・ネイランドの教会と周辺の樹木・草原を描く。画家のよく知るイングランド東部の景観で、完成画の前段階に近い油彩習作としても理解できる。",
+        "evidence_url": "https://www.artic.edu/artworks/4758/stoke-by-nayland",
+        "search_profile": {
+          "summary_for_ai": "サフォークの教会と周囲の木々・風景を描いたコンスタブルの大きな油彩習作。慣れ親しんだ土地の記憶や変わりゆく空を連想できる。",
+          "fitting_situations": [
+            {
+              "situation": "昔よく知っていた土地の風景が恋しい",
+              "reason": "画家が描き慣れたサフォークの村と教会の景色が重なる",
+              "strength": 2
+            },
+            {
+              "situation": "懐かしい風景でも、どこか落ち着かなさがある",
+              "reason": "空と木々の表現から静けさだけでない気分を読み取れる",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "メトロポリタン美術館の同名の『Stoke-by-Nayland』油彩習作（別作品）と混同しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+      }
+    },
+    {
+      "id": "aic-4796",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 4796,
+        "artwork_url": "https://www.artic.edu/artworks/4796",
+        "api_url": "https://api.artic.edu/api/v1/artworks/4796",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Fishing Boats with Hucksters Bargaining for Fish",
+        "title_ja_provisional": "魚を取引する漁船と商人たち",
+        "artist": "Joseph Mallord William Turner",
+        "creation_date_display": "1837/38",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "8641479e-c93e-f1a8-9925-19be061706da",
+        "iiif_base": "https://www.artic.edu/iiif/2",
+        "iiif_reference_url": "https://www.artic.edu/iiif/2/8641479e-c93e-f1a8-9925-19be061706da/full/843,/0/default.jpg",
+        "display_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Joseph_Mallord_William_Turner_-_Fishing_Boats_with_Hucksters_Bargaining_for_Fish_-_1922.4472_-_Art_Institute_of_Chicago.jpg/960px-Joseph_Mallord_William_Turner_-_Fishing_Boats_with_Hucksters_Bargaining_for_Fish_-_1922.4472_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_registry_id": "aic-4796",
+        "local_path": "/artworks/4796.jpg",
+        "sha256": "e912bf9ac13b96148048128ab19252f2ff9fcf9c4ba87f0c26843b2fc7077a0e",
+        "byte_length": 188836,
+        "live_image_checked": true,
+        "live_check_scope": "Wikimedia/public mirror JPEG HTTP+SHA256; not browser view",
+        "source_accession_number": "1922.4472"
+      },
+      "curation": {
+        "emotions": [
+          "不安",
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "不安": 2,
+          "好奇心": 2
+        },
+        "tones": [
+          "にぎわい",
+          "緊張"
+        ],
+        "themes": [
+          "日常",
+          "自然",
+          "共同体"
+        ],
+        "interpretation": "波間で営みを続ける人々と、大きな海・光・船の迫力を感じられる。自然の力への不安や活気に結びつくが、交渉の心理描写ではない。",
+        "alternate_reading": "港の活気や自然光を楽しむ風景画としての読みもある。",
+        "source_context_note": "1837/38年のターナーの海景画。帆船や小舟のあいだで魚を取引する題名だが、画面には大きな帆、波、空の明暗が目立つ。取引に伴う対人不安を主題として断定するのは不適切。",
+        "evidence_url": "https://commons.wikimedia.org/wiki/File:Joseph_Mallord_William_Turner_-_Fishing_Boats_with_Hucksters_Bargaining_for_Fish_-_1922.4472_-_Art_Institute_of_Chicago.jpg",
+        "search_profile": {
+          "summary_for_ai": "帆を広げた漁船、小舟、波と光に満ちたターナーの海景。魚の売買も描くが、主な鑑賞軸は海の変化と生きる営みの迫力。",
+          "fitting_situations": [
+            {
+              "situation": "先が見えない状況で緊張しながら動いている",
+              "reason": "波と大きな船が生む不安定さを比喩的に鑑賞できる",
+              "strength": 2
+            },
+            {
+              "situation": "荒々しい自然や光の変化に心を動かされたい",
+              "reason": "船、波、空の強い動きが画面の中心にある",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "魚の売買から単純に『人間関係の対立』や『商談の不安』を導かない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+      }
+    },
+    {
+      "id": "aic-11723",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 11723,
+        "artwork_url": "https://www.artic.edu/artworks/11723",
+        "api_url": "https://api.artic.edu/api/v1/artworks/11723",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Woman at Her Toilette",
+        "title_ja_provisional": "身支度をする女性",
+        "artist": "Berthe Morisot",
+        "creation_date_display": "1875/80",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "78c80988-6524-cec7-c661-a4c0a706d06f",
+        "iiif_base": "https://www.artic.edu/iiif/2",
+        "iiif_reference_url": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
+        "display_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/11723.jpg",
+        "source_registry_id": "aic-11723",
+        "local_path": "/artworks/11723.jpg",
+        "sha256": "d9c5937a41cd3553652247b5d93878745bdfac48d22abb7ddadab2d70f7754d1",
+        "byte_length": 203206,
+        "live_image_checked": true,
+        "live_check_scope": "Wikimedia/public mirror JPEG HTTP+SHA256; not browser view",
+        "source_accession_number": "1924.127"
+      },
+      "curation": {
+        "emotions": [
+          "安心",
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "安心": 2,
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "日常",
+          "他者との距離"
+        ],
+        "interpretation": "人目から離れた身支度の時間や、鏡に向かうときの自分だけの時間を連想できる。孤独の苦痛や『他人の評価から離れたい』気持ちは画面からは決められない。",
+        "alternate_reading": "身支度の優雅さや印象派の筆触に魅力を感じる鑑賞もできる。",
+        "source_context_note": "1875〜80年作。後ろ向きの女性が化粧台の前で髪に手をやる。花模様の背景や鏡が淡い筆触で描かれ、当時の都会の女性の私的な身支度が絵画の題材になっている。オルセー美術館もモリゾの身支度を描く連作の文脈で紹介している。",
+        "evidence_url": "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/berthe-morisot-1841-1895",
+        "search_profile": {
+          "summary_for_ai": "背を向けて髪を整える女性と鏡、柔らかい筆触の花模様。都会の女性の私的な身支度を描き、自分だけの時間や静けさを連想させる。",
+          "fitting_situations": [
+            {
+              "situation": "自分だけの時間を静かに過ごしたい",
+              "reason": "身支度する人物を後ろ姿で描いた私的な場面が重なる",
+              "strength": 2
+            },
+            {
+              "situation": "日常の細かい所作をゆっくり眺めたい",
+              "reason": "身支度の小さな動作と印象派の筆触が中心にある",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "女性が1人だからといって、苦痛としての孤独を推測しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+      }
+    },
+    {
+      "id": "aic-14591",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 14591,
+        "artwork_url": "https://www.artic.edu/artworks/14591",
+        "api_url": "https://api.artic.edu/api/v1/artworks/14591",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Woman Reading",
+        "title_ja_provisional": "読書する女性",
+        "artist": "Édouard Manet",
+        "creation_date_display": "1880/81",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "fd991fea-0c13-8444-7879-aba467f1d9db",
+        "iiif_base": "https://www.artic.edu/iiif/2",
+        "iiif_reference_url": "https://www.artic.edu/iiif/2/fd991fea-0c13-8444-7879-aba467f1d9db/full/843,/0/default.jpg",
+        "display_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/%C3%89douard_Manet_-_Woman_Reading_-_1933.435_-_Art_Institute_of_Chicago.jpg/960px-%C3%89douard_Manet_-_Woman_Reading_-_1933.435_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_registry_id": "aic-14591",
+        "local_path": "/artworks/14591.jpg",
+        "sha256": "6a32eac233c0a6dffa0e4ac986ceb41adb0513250bf8c408c07afb92b35e8e73",
+        "byte_length": 506272,
+        "live_image_checked": true,
+        "live_check_scope": "Wikimedia/public mirror JPEG HTTP+SHA256; not browser view",
+        "source_accession_number": "1933.435"
+      },
+      "curation": {
+        "emotions": [
+          "安心",
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "安心": 1,
+          "好奇心": 2
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "日常",
+          "他者との距離",
+          "休息"
+        ],
+        "interpretation": "外界を完全に遮断した読書ではなく、街の中で読み物に向かうひととき。人混みで自分の関心へ注意を向ける感覚につなげられる。",
+        "alternate_reading": "読む姿を美しく描いた肖像・風俗表現であり、深い感情を意図したとは限らない。",
+        "source_context_note": "1879/80年ごろ。女性は新聞・雑誌のような読み物を持ち、帽子と手袋を着け、ビールのグラスがそばにある。ゲティ美術館の学芸員解説は屋外カフェ風の場面だが画面が演出されたことにも注意している。",
+        "evidence_url": "https://www.getty.edu/art/mobile/center/manet/stop.php?id=370075",
+        "search_profile": {
+          "summary_for_ai": "手袋と帽子を着けた女性が屋外カフェ風の場で読み物を持つ。飲み物や背景の草花も描かれ、街の中で好きなことに集中する時間を連想させる。",
+          "fitting_situations": [
+            {
+              "situation": "カフェなど外の場所で、一人で好きなことに没頭したい",
+              "reason": "身なりを整えた人物が読み物を手にしている場面に重なる",
+              "strength": 2
+            },
+            {
+              "situation": "街のにぎわいと自分の静かな時間を両立したい",
+              "reason": "公共のように見える場と私的な読書の組み合わせがある",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "静かな自室で本を読んでいる絵ではない。深刻な孤独や疎外感を強い関連として扱わない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+      }
+    },
+    {
+      "id": "aic-14655",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 14655,
+        "artwork_url": "https://www.artic.edu/artworks/14655",
+        "api_url": "https://api.artic.edu/api/v1/artworks/14655",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Two Sisters (On the Terrace)",
+        "title_ja_provisional": "テラスの二人",
+        "artist": "Pierre-Auguste Renoir",
+        "creation_date_display": "1881",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "3a608f55-d76e-fa96-d0b1-0789fbc48f1e",
+        "iiif_base": "https://www.artic.edu/iiif/2",
+        "iiif_reference_url": "https://www.artic.edu/iiif/2/3a608f55-d76e-fa96-d0b1-0789fbc48f1e/full/843,/0/default.jpg",
+        "display_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/14655.jpg",
+        "source_registry_id": "aic-14655",
+        "local_path": "/artworks/14655.jpg",
+        "sha256": "e675d810215f8129df0cfd5769a1cd48d4a1a31b0077c1a47c550ae72b2365b8",
+        "byte_length": 409346,
+        "live_image_checked": true,
+        "live_check_scope": "Wikimedia/public mirror JPEG HTTP+SHA256; not browser view",
+        "source_accession_number": "1933.455"
+      },
+      "curation": {
+        "emotions": [
+          "安心",
+          "喜び",
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "安心": 2,
+          "喜び": 2,
+          "好奇心": 1
+        },
+        "tones": [
+          "にぎわい",
+          "落ち着き"
+        ],
+        "themes": [
+          "他者との距離",
+          "日常",
+          "自然"
+        ],
+        "interpretation": "花と川辺の豊かな色彩、人物の装いが穏やかな屋外の時間を感じさせる。人物同士の心理的な距離を物語として決めつけず、まず色彩と余暇の光景を楽しむ作品。",
+        "alternate_reading": "人物間に心の隔たりを読む人もいるが、画面から事実とは断定できない。主な鑑賞軸は色彩、装い、余暇の景観。",
+        "source_context_note": "1881年、セーヌ川沿いのシャトゥのテラスを舞台にした作品。年長のモデルは女優志望だったジャンヌ・ダルローで、実際の姉妹を描いたわけではない。題名『二人の姉妹』は画商が用いた。美術館の研究は新緑や花と人物の筆触の違いも重視する。",
+        "evidence_url": "https://publications.artic.edu/renoir/api/epub/135446/135639/print_view",
+        "search_profile": {
+          "summary_for_ai": "ルノワールの川辺のテラスにいる若い女性と子ども。明るい花々と装い、穏やかな余暇の空気を描く。モデルは実際の姉妹ではない。",
+          "fitting_situations": [
+            {
+              "situation": "穏やかな休日の彩りや楽しい空気を味わいたい",
+              "reason": "花と川辺のテラスを描く明るい色調、余暇の場面と重なる",
+              "strength": 2
+            },
+            {
+              "situation": "何気ない日常の美しさに少し気持ちが明るくなる",
+              "reason": "鮮やかな花や洋服の色彩が視覚的な楽しさを生む",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "2人は実の姉妹と確認された関係ではない。『近くにいても孤独』という意味を優先しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+      }
+    },
+    {
+      "id": "aic-16327",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 16327,
+        "artwork_url": "https://www.artic.edu/artworks/16327",
+        "api_url": "https://api.artic.edu/api/v1/artworks/16327",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "The Annunciation",
+        "title_ja_provisional": "受胎告知",
+        "artist": "Jean Hey, (the Master of Moulins)",
+        "creation_date_display": "1490/95",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "77951d0c-d781-eac6-f4ff-f13cc5cfc0cf",
+        "iiif_base": "https://www.artic.edu/iiif/2",
+        "iiif_reference_url": "https://www.artic.edu/iiif/2/77951d0c-d781-eac6-f4ff-f13cc5cfc0cf/full/843,/0/default.jpg",
+        "display_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Jean_Hey%2C_%28the_Master_of_Moulins%29_-_The_Annunciation_-_1933.1062_-_Art_Institute_of_Chicago.jpg/960px-Jean_Hey%2C_%28the_Master_of_Moulins%29_-_The_Annunciation_-_1933.1062_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_registry_id": "aic-16327",
+        "local_path": "/artworks/16327.jpg",
+        "sha256": "3407ddfd8cf10f671c0188669e3a024535f0e0b06a5eff1b4865a722d0f95e13",
+        "byte_length": 426885,
+        "live_image_checked": true,
+        "live_check_scope": "Wikimedia/public mirror JPEG HTTP+SHA256; not browser view",
+        "source_accession_number": "1933.1062"
+      },
+      "curation": {
+        "emotions": [
+          "希望",
+          "不安",
+          "期待"
+        ],
+        "emotion_strengths": {
+          "希望": 1,
+          "不安": 1,
+          "期待": 1
+        },
+        "tones": [
+          "静けさ",
+          "緊張"
+        ],
+        "themes": [
+          "愛情",
+          "時間"
+        ],
+        "interpretation": "予期しない変化を受け入れる瞬間としても鑑賞できるが、宗教的な受胎告知を日常の朗報や恋愛成就として扱わない。",
+        "alternate_reading": "宗教的な信仰表現として鑑賞する方が自然な人も多い。",
+        "source_context_note": "1490〜95年ごろの聖母マリアへの受胎告知を描く板絵。天使ガブリエルの知らせとマリアの受容というキリスト教の受肉の主題を持つ。シカゴ美術館は本来は祭壇画の右側断片と説明している。",
+        "evidence_url": "https://archive.artic.edu/kings-queens/artwork/16327",
+        "search_profile": {
+          "summary_for_ai": "天使ガブリエルが聖母マリアに受胎を告げる宗教画。本来は祭壇画の一部。信仰・受容・転機を示すが、単純な喜びのイメージとは異なる。",
+          "fitting_situations": [
+            {
+              "situation": "人生の大きな変化を受け止めようとしている",
+              "reason": "知らせと受容という宗教的場面を比喩的に鑑賞できる",
+              "strength": 1
+            },
+            {
+              "situation": "宗教的な意味を含めて未来への期待や畏れを考えたい",
+              "reason": "受胎告知の主題そのものに関心がある",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "本来は祭壇画の断片。信仰上の固有の意味があり、普通の『嬉しい知らせ』の代用にしない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+      }
+    },
+    {
+      "id": "aic-16551",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 16551,
+        "artwork_url": "https://www.artic.edu/artworks/16551",
+        "api_url": "https://api.artic.edu/api/v1/artworks/16551",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Beata Beatrix",
+        "title_ja_provisional": "ベアタ・ベアトリクス",
+        "artist": "Dante Gabriel Rossetti",
+        "creation_date_display": "1871/72",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "194674a2-f451-65f7-ba46-6aac4d894f0b",
+        "iiif_base": "https://www.artic.edu/iiif/2",
+        "iiif_reference_url": "https://www.artic.edu/iiif/2/194674a2-f451-65f7-ba46-6aac4d894f0b/full/843,/0/default.jpg",
+        "display_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Dante_Gabriel_Rossetti_-_Beata_Beatrix_-_1925.722_-_Art_Institute_of_Chicago.jpg/960px-Dante_Gabriel_Rossetti_-_Beata_Beatrix_-_1925.722_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_registry_id": "aic-16551",
+        "local_path": "/artworks/16551.jpg",
+        "sha256": "eedc5cee61b8845ff1ce7e95bfd1f650dfc441c86a027431117f0d6faab42310",
+        "byte_length": 353588,
+        "live_image_checked": true,
+        "live_check_scope": "Wikimedia/public mirror JPEG HTTP+SHA256; not browser view",
+        "source_accession_number": "1925.722"
+      },
+      "curation": {
+        "emotions": [
+          "喪失感",
+          "未練",
+          "寂しさ",
+          "希望"
+        ],
+        "emotion_strengths": {
+          "喪失感": 3,
+          "未練": 2,
+          "寂しさ": 2,
+          "希望": 1
+        },
+        "tones": [
+          "余韻",
+          "静けさ"
+        ],
+        "themes": [
+          "愛情",
+          "別れ",
+          "記憶"
+        ],
+        "interpretation": "死別の痛みと取り戻せない相手への思い、なお心の中で続く関係を重ねられる。下部の再会の情景は、悲嘆の中に救済や再会のイメージを含む。",
+        "alternate_reading": "死別の悲しみだけでなく、宗教的な救済・理想化された愛や再会のイメージを読むこともできる。",
+        "source_context_note": "シカゴ所蔵作は、ロンドンの先行作を踏まえた1871/72年の別バージョン。ベアトリーチェの死にロセッティの亡妻エリザベス・シダルの記憶が重なる。画面下の小画面（プレデッラ）には天国で再会するダンテとベアトリーチェを描く。",
+        "evidence_url": "https://archive.artic.edu/apostlesbeauty/artwork/16551",
+        "search_profile": {
+          "summary_for_ai": "シカゴ所蔵の『祝福されたベアトリーチェ』別版。死にゆくベアトリーチェと亡妻の記憶、下部の天国での再会が重なる。死別・喪失の複雑さに強く結び付く。",
+          "fitting_situations": [
+            {
+              "situation": "大切な人と死別し、記憶とともに過ごしている",
+              "reason": "作品の文学的背景と作家の死別体験が深く結び付く",
+              "strength": 3
+            },
+            {
+              "situation": "もう会えない人を思い出し、未練や寂しさを感じる",
+              "reason": "失われた相手を思う心情が重なるが、別れの理由は区別が必要",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "相手が生きている失恋を死別と混同しない。所蔵版の違いに注意。"
+          ],
+          "review_status": "draft_not_human_approved"
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+      }
+    },
+    {
+      "id": "aic-16568",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 16568,
+        "artwork_url": "https://www.artic.edu/artworks/16568",
+        "api_url": "https://api.artic.edu/api/v1/artworks/16568",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Water Lilies",
+        "title_ja_provisional": "睡蓮",
+        "artist": "Claude Monet",
+        "creation_date_display": "1906",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "3c27b499-af56-f0d5-93b5-a7f2f1ad5813",
+        "iiif_base": "https://www.artic.edu/iiif/2",
+        "display_url": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/843,/0/default.jpg",
+        "live_image_checked": false
+      },
+      "curation": {
+        "emotions": [
+          "安心",
+          "好奇心"
+        ],
+        "tones": [
+          "静けさ",
+          "落ち着き",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "休息",
+          "時間"
+        ],
+        "interpretation": "岸辺や地平線が見えず水面に意識が向くため、忙しさから距離を置き、静かに自分の感覚に戻りたい気分の展示に合いうる。",
+        "alternate_reading": "水面の揺らぎや輪郭の曖昧さに、落ち着きよりも不確かさを感じる人もいる。",
+        "source_context_note": "美術館の学術解説では、睡蓮そのものだけでなく、水面の反射や光と天候の変化がモネにとって重要だったことが説明されている。",
+        "emotion_strengths": {
+          "安心": 3,
+          "好奇心": 1
+        },
+        "evidence_url": "https://publications.artic.edu/node/135621",
+        "search_profile": {
+          "summary_for_ai": "水面に浮かぶ睡蓮と光の変化に意識を向ける作品。休息や余韻を求める気持ちに合うが、揺らぎを不確かさと読む余地もある。",
+          "fitting_situations": [
+            {
+              "situation": "疲れたので、何も考えず静かに過ごしたい",
+              "reason": "水面に集中する構図と静かな鑑賞体験が重なる",
+              "strength": 3
+            },
+            {
+              "situation": "気持ちが揺れているので、静かに自分の感覚を見つめたい",
+              "reason": "揺れる水面を比喩的に読む可能性があるが鑑賞者依存",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "『希望』や『喜び』を直接表現する作品として扱わない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "元の『希望』はこの絵との直接的な関連が弱いため削除。『安心』は鑑賞上の落ち着きとして強め、『好奇心』は水面の表現への関心として弱め。"
       }
     },
     {
@@ -158,6 +823,90 @@
       }
     },
     {
+      "id": "aic-25865",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 25865,
+        "artwork_url": "https://www.artic.edu/artworks/25865",
+        "api_url": "https://api.artic.edu/api/v1/artworks/25865",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "The Herring Net",
+        "title_ja_provisional": "ニシン漁の網",
+        "artist": "Winslow Homer",
+        "creation_date_display": "1885",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "5dca7347-c6dc-24dd-d073-d705b9cdc575",
+        "iiif_base": "https://www.artic.edu/iiif/2",
+        "iiif_reference_url": "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/843,/0/default.jpg",
+        "display_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/25865.jpg",
+        "source_registry_id": "aic-25865",
+        "local_path": "/artworks/25865.jpg",
+        "sha256": "bf40b803d46984f847d39578f59088cc717318e47a9c62fda6602ea07287a504",
+        "byte_length": 125154,
+        "live_image_checked": true,
+        "live_check_scope": "Wikimedia/public mirror JPEG HTTP+SHA256; not browser view",
+        "source_accession_number": "1937.1039"
+      },
+      "curation": {
+        "emotions": [
+          "不安",
+          "希望",
+          "安心"
+        ],
+        "emotion_strengths": {
+          "不安": 3,
+          "希望": 2,
+          "安心": 1
+        },
+        "tones": [
+          "緊張",
+          "重苦しさ"
+        ],
+        "themes": [
+          "自然",
+          "共同体",
+          "日常"
+        ],
+        "interpretation": "足元の不安定さと、協力して作業を続ける人々のたくましさが同時に見える。厳しい状況の中で踏ん張っている気持ちに重なる。",
+        "alternate_reading": "激しい労働や自然の脅威だけでなく、海の壮大さを味わう風景画としての読みもある。",
+        "source_context_note": "1885年作。波に揺れる小舟の上で2人の漁師がニシンの網を引き上げ、船を安定させようとする。シカゴ美術館は危険な海と日常の共同作業、生存に必要な連携と人間の強さを解説している。",
+        "evidence_url": "https://archive.artic.edu/homer_exhb/artwork/25865",
+        "search_profile": {
+          "summary_for_ai": "厳しい海で協力して働く人々の題材。不安や困難のなかで持ちこたえ、誰かと力を合わせる感覚を喚起しうる。",
+          "fitting_situations": [
+            {
+              "situation": "不安な状況だけど誰かと協力しながら頑張っている",
+              "reason": "危険な海と漁師たちの協働という題材が重なる",
+              "strength": 3
+            },
+            {
+              "situation": "大変な生活の中でも希望を失いたくない",
+              "reason": "踏ん張る姿に希望を読むことは可能だが、安易な励ましではない",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "悲しみや不安を一律に前向きな教訓へ変えない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+      }
+    },
+    {
       "id": "aic-27992",
       "source": {
         "museum": "Art Institute of Chicago",
@@ -235,67 +984,68 @@
       }
     },
     {
-      "id": "aic-16568",
+      "id": "aic-28560",
       "source": {
         "museum": "Art Institute of Chicago",
-        "artwork_id": 16568,
-        "artwork_url": "https://www.artic.edu/artworks/16568",
-        "api_url": "https://api.artic.edu/api/v1/artworks/16568",
+        "artwork_id": 28560,
+        "artwork_url": "https://www.artic.edu/artworks/28560",
+        "api_url": "https://api.artic.edu/api/v1/artworks/28560",
         "record_checked_on": "2026-10-18"
       },
       "facts": {
-        "title_original": "Water Lilies",
-        "title_ja_provisional": "睡蓮",
-        "artist": "Claude Monet",
-        "creation_date_display": "1906",
+        "title_original": "The Bedroom",
+        "title_ja_provisional": "寝室",
+        "artist": "Vincent van Gogh",
+        "creation_date_display": "1889",
         "type": "Painting",
         "is_public_domain_at_source": true
       },
       "image": {
-        "image_id": "3c27b499-af56-f0d5-93b5-a7f2f1ad5813",
+        "image_id": "6644829f-f292-c5c4-a73c-0356a6fdbf0d",
         "iiif_base": "https://www.artic.edu/iiif/2",
-        "display_url": "https://www.artic.edu/iiif/2/3c27b499-af56-f0d5-93b5-a7f2f1ad5813/full/843,/0/default.jpg",
+        "display_url": "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/843,/0/default.jpg",
         "live_image_checked": false
       },
       "curation": {
         "emotions": [
           "安心",
-          "好奇心"
+          "懐かしさ",
+          "寂しさ"
         ],
         "tones": [
           "静けさ",
-          "落ち着き",
-          "余韻"
+          "落ち着き"
         ],
         "themes": [
-          "自然",
+          "居場所",
           "休息",
-          "時間"
+          "日常"
         ],
-        "interpretation": "岸辺や地平線が見えず水面に意識が向くため、忙しさから距離を置き、静かに自分の感覚に戻りたい気分の展示に合いうる。",
-        "alternate_reading": "水面の揺らぎや輪郭の曖昧さに、落ち着きよりも不確かさを感じる人もいる。",
-        "source_context_note": "美術館の学術解説では、睡蓮そのものだけでなく、水面の反射や光と天候の変化がモネにとって重要だったことが説明されている。",
+        "interpretation": "人の姿のない私室が、自分だけの居場所を求める気持ちや、ひとりで落ち着きたい感覚と重なりうる。",
+        "alternate_reading": "色彩の強さや不自然な遠近感を、安らぎよりも緊張として感じる鑑賞者もいる。",
+        "source_context_note": "ゴッホは最初の『寝室』（1888年）について色彩で休息を表したいと書いており、シカゴ所蔵の1889年作は、その題材の第2版に当たる。",
         "emotion_strengths": {
           "安心": 3,
-          "好奇心": 1
+          "懐かしさ": 1,
+          "寂しさ": 1
         },
-        "evidence_url": "https://publications.artic.edu/node/135621",
+        "evidence_url": "https://www.nortonsimon.org/exhibitions/2010-2019/vangoghbedroom",
         "search_profile": {
-          "summary_for_ai": "水面に浮かぶ睡蓮と光の変化に意識を向ける作品。休息や余韻を求める気持ちに合うが、揺らぎを不確かさと読む余地もある。",
+          "summary_for_ai": "人のいない寝室を描き、休息や自分だけの居場所を連想させる。色彩の強さや独特な遠近感から、静けさの中の不安も読み取れる。",
           "fitting_situations": [
             {
-              "situation": "疲れたので、何も考えず静かに過ごしたい",
-              "reason": "水面に集中する構図と静かな鑑賞体験が重なる",
+              "situation": "他人と距離を置き、自分だけの部屋で静かに落ち着きたい",
+              "reason": "作者の休息への意図と、私室という題材が合う",
               "strength": 3
             },
             {
-              "situation": "気持ちが揺れているので、静かに自分の感覚を見つめたい",
-              "reason": "揺れる水面を比喩的に読む可能性があるが鑑賞者依存",
+              "situation": "昔の部屋や安心できた場所を思い出している",
+              "reason": "個人的な居場所の記憶に重ねられるが、鑑賞者依存の解釈",
               "strength": 1
             }
           ],
           "selection_cautions": [
-            "『希望』や『喜び』を直接表現する作品として扱わない。"
+            "失恋・死別を直接描いた作品ではない。寂しさの語だけで強く優先しない。"
           ],
           "review_status": "draft_not_human_approved"
         }
@@ -307,9 +1057,431 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-18",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "元の『希望』はこの絵との直接的な関連が弱いため削除。『安心』は鑑賞上の落ち着きとして強め、『好奇心』は水面の表現への関心として弱め。"
+        "curatorial_review_note": "「安心」はゴッホが休息を意図したという資料があり強い。『懐かしさ』『寂しさ』は見る人による連想のため弱い。シカゴ本は1889年の第2版である点にも注意。"
+      }
+    },
+    {
+      "id": "aic-61128",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 61128,
+        "artwork_url": "https://www.artic.edu/artworks/61128",
+        "api_url": "https://api.artic.edu/api/v1/artworks/61128",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "At the Moulin Rouge",
+        "title_ja_provisional": "ムーラン・ルージュにて",
+        "artist": "Henri de Toulouse-Lautrec",
+        "creation_date_display": "1892/95",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "defb4004-b500-218d-3d9b-9a02423f097d",
+        "iiif_base": "https://www.artic.edu/iiif/2",
+        "iiif_reference_url": "https://www.artic.edu/iiif/2/defb4004-b500-218d-3d9b-9a02423f097d/full/843,/0/default.jpg",
+        "display_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/61128.jpg",
+        "source_registry_id": "aic-61128",
+        "local_path": "/artworks/61128.jpg",
+        "sha256": "b31d99eb8d49ef6dc284997eac00efdddd474cea8b833268ae6e6ed1bc5b5ab0",
+        "byte_length": 183737,
+        "live_image_checked": true,
+        "live_check_scope": "Wikimedia/public mirror JPEG HTTP+SHA256; not browser view",
+        "source_accession_number": "1928.610"
+      },
+      "curation": {
+        "emotions": [
+          "孤独",
+          "不安",
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "孤独": 3,
+          "不安": 2,
+          "好奇心": 2
+        },
+        "tones": [
+          "にぎわい",
+          "緊張"
+        ],
+        "themes": [
+          "都市",
+          "他者との距離",
+          "日常"
+        ],
+        "interpretation": "大勢が同じ場にいても関係がかみ合わない、にぎわいと距離感が同時に存在する場面。『人の中にいる孤独』を考える際に有力。",
+        "alternate_reading": "社交と娯楽の躍動を感じる絵としても読める。",
+        "source_context_note": "19世紀末パリのムーラン・ルージュを描く作品。にぎわう社交場で、人物間の視線のずれや奇妙な光、手前の強い色彩によって居心地の悪さも生じる。シカゴ美術館の展覧会解説が社交の疎外感を取り上げている。",
+        "evidence_url": "https://archive.artic.edu/toulouse_lautrec/themes.html",
+        "search_profile": {
+          "summary_for_ai": "華やかな夜の社交場であっても不穏さや人間関係の隔たりを感じられる作品。人混みの中での孤独に特に関連する。",
+          "fitting_situations": [
+            {
+              "situation": "友人と集まっているのに、居場所がない気がする",
+              "reason": "にぎわいと疎外感が同居する社交場の描写が重なる",
+              "strength": 3
+            },
+            {
+              "situation": "楽しいはずの場がなぜか落ち着かず不安になる",
+              "reason": "夜の社交空間の緊張感に重ねられる",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "社交の場をすべて否定的に描いていると断定しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+      }
+    },
+    {
+      "id": "aic-64729",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 64729,
+        "artwork_url": "https://www.artic.edu/artworks/64729",
+        "api_url": "https://api.artic.edu/api/v1/artworks/64729",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Early Morning, Tarpon Springs",
+        "title_ja_provisional": "ターポン・スプリングスの早朝",
+        "artist": "George Inness",
+        "creation_date_display": "1892",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "ef96e79b-f481-8114-0804-4bd39c101983",
+        "iiif_base": "https://www.artic.edu/iiif/2",
+        "iiif_reference_url": "https://www.artic.edu/iiif/2/ef96e79b-f481-8114-0804-4bd39c101983/full/843,/0/default.jpg",
+        "display_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/George_Inness_-_Early_Morning%2C_Tarpon_Springs_-_1911.32_-_Art_Institute_of_Chicago.jpg/960px-George_Inness_-_Early_Morning%2C_Tarpon_Springs_-_1911.32_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "source_registry_id": "aic-64729",
+        "local_path": "/artworks/64729.jpg",
+        "sha256": "42e627b1de8aca2b1b5dfd20b5f79727199e0e801c09c38acf0e728e698cacfb",
+        "byte_length": 316194,
+        "live_image_checked": true,
+        "live_check_scope": "Wikimedia/public mirror JPEG HTTP+SHA256; not browser view",
+        "source_accession_number": "1911.32"
+      },
+      "curation": {
+        "emotions": [
+          "安心",
+          "懐かしさ",
+          "希望"
+        ],
+        "emotion_strengths": {
+          "安心": 2,
+          "懐かしさ": 1,
+          "希望": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "interpretation": "木々のあいだに光がある静かな早朝の風景。落ち着きや一日の始まりへの気持ちを連想できるが、希望を作品の中心主題と決めつけない。",
+        "alternate_reading": "静謐さよりももの寂しさや時間の儚さを読み取る人もいる。",
+        "source_context_note": "1892年作。フロリダのターポン・スプリングスの朝、背の高い木々と低い屋根の建物、人影や水辺を描く。穏やかな土地の空気を画面にまとめた作品で、特定の『新しい出発』の物語はない。",
+        "evidence_url": "https://www.si.edu/object/early-morning-tarpon-springs-painting%3Asiris_ari_254879",
+        "search_profile": {
+          "summary_for_ai": "フロリダの朝の木々、屋根、離れた人影が描かれた穏やかな風景。新しい朝の静けさに合うが、『希望』そのものを語る作品ではない。",
+          "fitting_situations": [
+            {
+              "situation": "朝の静けさに気持ちを整えたい",
+              "reason": "背の高い木と朝の光景が落ち着いた鑑賞に向く",
+              "strength": 2
+            },
+            {
+              "situation": "慣れ親しんだ町や風景を思い出している",
+              "reason": "家屋のある風景が個人の記憶につながる可能性がある",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "小さな人影を孤独や特定のドラマに直結させない。朝＝必ず希望という解釈を避ける。"
+          ],
+          "review_status": "draft_not_human_approved"
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+      }
+    },
+    {
+      "id": "aic-80607",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 80607,
+        "artwork_url": "https://www.artic.edu/artworks/80607",
+        "api_url": "https://api.artic.edu/api/v1/artworks/80607",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "Self-Portrait",
+        "title_ja_provisional": "自画像",
+        "artist": "Vincent van Gogh",
+        "creation_date_display": "1887",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "47c5bcb8-62ef-e5d7-55e7-f5121f409a30",
+        "iiif_base": "https://www.artic.edu/iiif/2",
+        "iiif_reference_url": "https://www.artic.edu/iiif/2/47c5bcb8-62ef-e5d7-55e7-f5121f409a30/full/843,/0/default.jpg",
+        "display_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/80607.jpg",
+        "source_registry_id": "aic-80607",
+        "local_path": "/artworks/80607.jpg",
+        "sha256": "bfa0ac1981c9c17a757531ba50d40068972acf2875e323fe72839d2d341986b5",
+        "byte_length": 591800,
+        "live_image_checked": true,
+        "live_check_scope": "Wikimedia/public mirror JPEG HTTP+SHA256; not browser view",
+        "source_accession_number": "1954.326"
+      },
+      "curation": {
+        "emotions": [
+          "好奇心",
+          "不安",
+          "孤独"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2,
+          "不安": 1,
+          "孤独": 1
+        },
+        "tones": [
+          "緊張",
+          "静けさ"
+        ],
+        "themes": [
+          "他者との距離",
+          "日常"
+        ],
+        "interpretation": "自画像と向き合うことで自己像や他者に見せる姿について考えられるが、悲しみ・孤独・不安は絵から自動的には読み取れない。",
+        "alternate_reading": "人物表情の強い心理解釈をせず、筆遣いや自画像制作の探究として鑑賞できる。",
+        "source_context_note": "1887年のゴッホの自画像。自分をモデルに肖像を描く行為と筆触・色彩の研究に注意を向ける。表情や後年の病状を結び付けて心理状態を診断しない。",
+        "evidence_url": "https://www.artic.edu/artworks/80607",
+        "search_profile": {
+          "summary_for_ai": "ゴッホが自分を描いた自画像。自分の姿を見つめ直す問いと筆触の実験を鑑賞できる。作者の精神状態や孤独を決めつけない。",
+          "fitting_situations": [
+            {
+              "situation": "自分の見え方や自分らしさを考えている",
+              "reason": "自画像という形式そのものが自己像を問いかける",
+              "strength": 2
+            },
+            {
+              "situation": "顔の表情や色彩、筆遣いの違いに興味がある",
+              "reason": "自画像を通して絵画表現に向き合える",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "不安や孤独を作者の病状の証拠として扱わない。後年の伝記を絵に投影しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+      }
+    },
+    {
+      "id": "aic-111436",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 111436,
+        "artwork_url": "https://www.artic.edu/artworks/111436",
+        "api_url": "https://api.artic.edu/api/v1/artworks/111436",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "The Basket of Apples",
+        "title_ja_provisional": "リンゴの籠",
+        "artist": "Paul Cezanne",
+        "creation_date_display": "c. 1893",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "52ac8996-3460-cf71-cb42-5c4d0aa29b74",
+        "iiif_base": "https://www.artic.edu/iiif/2",
+        "iiif_reference_url": "https://www.artic.edu/iiif/2/52ac8996-3460-cf71-cb42-5c4d0aa29b74/full/843,/0/default.jpg",
+        "display_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/111436.jpg",
+        "source_registry_id": "aic-111436",
+        "local_path": "/artworks/111436.jpg",
+        "sha256": "17fa8e013cc995178c05dfccdd26c7135d209295b3189c113e5d3831be019746",
+        "byte_length": 262722,
+        "live_image_checked": true,
+        "live_check_scope": "Wikimedia/public mirror JPEG HTTP+SHA256; not browser view",
+        "source_accession_number": "1926.252"
+      },
+      "curation": {
+        "emotions": [
+          "好奇心",
+          "安心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 3,
+          "安心": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "日常"
+        ],
+        "interpretation": "身近な物を見慣れた角度とは違う視点で捉え直すおもしろさと、構図のわずかな不安定さを一緒に感じられる。",
+        "alternate_reading": "均衡を崩す構図に落ち着かなさや緊張を感じることもある。",
+        "source_context_note": "1893年ごろの静物画。りんごの籠・瓶・皿・布を描くが、物の傾きや卓上の整合しない視点によって、ただの落ち着いた静物ではなく見ることそのものを考えさせる。",
+        "evidence_url": "https://archive.artic.edu/cezannetopicasso/works.html",
+        "search_profile": {
+          "summary_for_ai": "りんごの籠や瓶、布を描いたセザンヌの静物。机や物の角度が微妙にずれ、身近な対象を新たに見つめ直す好奇心につながる。",
+          "fitting_situations": [
+            {
+              "situation": "ありふれたものを違う角度から見てみたい",
+              "reason": "日常的な静物を新しく構成して描く特徴と合う",
+              "strength": 2
+            },
+            {
+              "situation": "落ち着いて身近なものを眺めていたい",
+              "reason": "静物鑑賞の穏やかな時間に重なるが確定的な印象ではない",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "リンゴを恋愛・愛情などの象徴だと勝手に確定しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
+      }
+    },
+    {
+      "id": "aic-111442",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 111442,
+        "artwork_url": "https://www.artic.edu/artworks/111442",
+        "api_url": "https://api.artic.edu/api/v1/artworks/111442",
+        "record_checked_on": "2026-10-18"
+      },
+      "facts": {
+        "title_original": "The Child's Bath",
+        "title_ja_provisional": "子どもの入浴",
+        "artist": "Mary Cassatt",
+        "creation_date_display": "1893",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "3b885ae0-4d46-5fe4-d70a-00474827f02c",
+        "iiif_base": "https://www.artic.edu/iiif/2",
+        "iiif_reference_url": "https://www.artic.edu/iiif/2/3b885ae0-4d46-5fe4-d70a-00474827f02c/full/843,/0/default.jpg",
+        "display_url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/111442.jpg",
+        "source_registry_id": "aic-111442",
+        "local_path": "/artworks/111442.jpg",
+        "sha256": "0ab321a1adb37519c550059e96496a42b22dbc441b856e3589533815de88346d",
+        "byte_length": 461931,
+        "live_image_checked": true,
+        "live_check_scope": "Wikimedia/public mirror JPEG HTTP+SHA256; not browser view",
+        "source_accession_number": "1910.2"
+      },
+      "curation": {
+        "emotions": [
+          "安心",
+          "懐かしさ",
+          "喜び"
+        ],
+        "emotion_strengths": {
+          "安心": 3,
+          "懐かしさ": 2,
+          "喜び": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "愛情",
+          "日常",
+          "休息"
+        ],
+        "interpretation": "足を洗うという日常の手当てから、人に守られる感覚、または誰かを大切にする気持ちを連想できる。描かれた2人の実際の親族関係は決めつけない。",
+        "alternate_reading": "親子関係に複雑な経験を持つ人には、安心ではなく痛みや距離を感じさせる可能性もある。",
+        "source_context_note": "1893年作。大人が子どもの足を洗う行為を描く。親密な仕草と上から見下ろす構図・平坦な模様には日本の版画表現の影響があるとシカゴ美術館は説明している。",
+        "evidence_url": "https://shop.artic.edu/collections/post-impressionism/products/292372",
+        "search_profile": {
+          "summary_for_ai": "大人が子どもを世話する親密な場面。守られる記憶、世話する優しさ、安心を感じうる一方、家族の記憶がつらい人には別の響き方もある。",
+          "fitting_situations": [
+            {
+              "situation": "誰かに優しく世話をしてもらった時間が懐かしい",
+              "reason": "身近なケアの行為に守られていた記憶を重ねられる",
+              "strength": 2
+            },
+            {
+              "situation": "大切な人を気遣う、ささやかな愛情を感じたい",
+              "reason": "世話をする行為と親密さが結び付く",
+              "strength": 3
+            }
+          ],
+          "selection_cautions": [
+            "人物を実の母子と確定しない。家族関係に痛みがある利用者には慎重に使う。"
+          ],
+          "review_status": "draft_not_human_approved"
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "公式作品APIとCommons由来の画像HTTP・SHA256を照合。研究資料に基づくAIによる編集レビューを実施。画像の最終肉眼審査・感情関連の人間による承認は未完了。展示への公開採用は別判断。"
       }
     }
   ],
-  "last_reviewed_on": "2026-10-18"
+  "last_reviewed_on": "2026-10-18",
+  "review_batch_002": {
+    "phase": "provisional_entries_after_editorial_review",
+    "new_records": 14,
+    "excluded_sensitive_candidates": [
+      "aic-4575"
+    ],
+    "note": "AIによる一次内容レビュー後の試験用本登録。人間による最終承認・アプリ公開可否とは別。Commons画像はHTTP/JPEG/SHA256で検証済み。"
+  }
 }
