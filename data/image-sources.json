@@ -5,9 +5,9 @@
   "source_of_existing_app": "https://github.com/matumaruex/bijutsukan/tree/d4221169de75a7abd3a838085d02f62f4f8bb9dd",
   "record_status_counts": {
     "app_reused": 16,
-    "commons_found_pending_http": 8,
-    "app_reused_in_curated_db": 11,
-    "app_reused_app_only": 5
+    "commons_found_pending_http": 0,
+    "app_reused_in_curated_db": 16,
+    "app_reused_app_only": 0
   },
   "records": [
     {
@@ -147,7 +147,7 @@
       "title": "Cliff Walk at Pourville",
       "official_artwork_url": "https://www.artic.edu/artworks/14620",
       "origin": "existing_museum_app",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "source_app_tested_mirror_rechecked",
       "image_source": {
         "type": "pinned_public_mirror",
@@ -411,7 +411,7 @@
       "title": "Distant View of Niagara Falls",
       "official_artwork_url": "https://www.artic.edu/artworks/90048",
       "origin": "existing_museum_app",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "source_app_tested_mirror_rechecked",
       "image_source": {
         "type": "pinned_public_mirror",
@@ -433,7 +433,7 @@
       "title": "The Song of the Lark",
       "official_artwork_url": "https://www.artic.edu/artworks/94841",
       "origin": "existing_museum_app",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "source_app_tested_mirror_rechecked",
       "image_source": {
         "type": "pinned_public_mirror",
@@ -455,7 +455,7 @@
       "title": "Old Man with a Gold Chain",
       "official_artwork_url": "https://www.artic.edu/artworks/95998",
       "origin": "existing_museum_app",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "source_app_tested_mirror_rechecked",
       "image_source": {
         "type": "pinned_public_mirror",
@@ -521,7 +521,7 @@
       "title": "The Girl by the Window",
       "official_artwork_url": "https://www.artic.edu/artworks/154235",
       "origin": "existing_museum_app",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "source_app_tested_mirror_rechecked",
       "image_source": {
         "type": "pinned_public_mirror",
@@ -544,6 +544,7 @@
     "mirror_hash_matched": 16,
     "commons_http_verified": 8,
     "verify_run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39104302015",
-    "scope_note": "画像のHTTP取得/JPEG形式/SHA256は検証。人による最終視認およびライセンスの法的確認は別。"
+    "scope_note": "画像のHTTP取得/JPEG形式/SHA256は検証。人による最終視認およびライセンスの法的確認は別。",
+    "notes": "23作品が共有DBに試験登録、ユディト1件保留。24枚とも取得・ハッシュ検証済み。"
   }
 }
