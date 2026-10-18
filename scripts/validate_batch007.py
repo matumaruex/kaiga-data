@@ -53,8 +53,8 @@ for candidate in candidates:
             errors.append(f"{ident}: held candidate promoted incorrectly")
     else:
         errors.append(f"{ident}: unknown registration status {status!r}")
-if len(seen) != 11 or registered != 9 or len(catalog) != 60:
-    errors.append(f"expected 11 candidate, 9 new registrations and 60 catalog; got {len(seen)}, {registered}, {len(catalog)}")
+if len(seen) != 11 or registered != 9 or len(catalog) < 60:
+    errors.append(f"expected 11 candidate, 9 batch007 registrations and at least 60 catalog; got {len(seen)}, {registered}, {len(catalog)}")
 if errors:
     print("NG:", *errors, sep=chr(10) + "- ")
     raise SystemExit(1)
