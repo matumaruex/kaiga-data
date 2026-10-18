@@ -12,19 +12,38 @@ permissions:
   contents: read
 
 jobs:
-  validate:
+  validate-format:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
       - name: Checkout dataset
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
       - name: Set up Python
         uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
         with:
           python-version: "3.12"
-      - name: Verify exhibition records format
+      - name: Verify exhibition data structure
         run: python3 scripts/validate_artworks.py
-      - name: Verify candidate records format
+      - name: Verify candidate data structure
         run: python3 scripts/validate_candidates.py
-      - name: Verify candidate metadata with live museum API (read-only)
-        run: python3 scripts/enrich_candidates.py
+      - name: Report emotion coverage
+        run: python3 scripts/audit_coverage.py
+
+  verify-live-source:
+    if: github.event_name == 'workflow_dispatch'
+    needs: validate-format
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout dataset
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: "3.12"
+      - name: Require successful live metadata checks (read-only)
+        run: python3 scripts/enrich_candidates.py --require-success --require-all
