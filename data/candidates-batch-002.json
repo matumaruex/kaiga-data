@@ -1,0 +1,660 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": "pilot-002-candidates",
+  "created_on": "2026-10-18",
+  "status": "candidates_not_ready_for_exhibition",
+  "description": "公式公開サンプルCSVに存在を確認した15作品。作者・作品名・館IDのみ確認済み。画像ID・PD可否・作品分類などは公式APIの再確認待ち。感情解釈は仮説であり選定には利用しない。",
+  "works": [
+    {
+      "id": "aic-16551",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 16551,
+        "official_csv_url": "https://github.com/art-institute-of-chicago/api-data/blob/master/getting-started/someArtworks.csv",
+        "api_url": "https://api.artic.edu/api/v1/artworks/16551",
+        "official_artwork_url": "https://www.artic.edu/artworks/16551",
+        "supplemental_museum_source_url": "https://archive.artic.edu/apostlesbeauty/artwork/16551"
+      },
+      "facts_from_museum_sample": {
+        "title": "Beata Beatrix",
+        "artist": "Dante Gabriel Rossetti"
+      },
+      "title_ja_provisional": "ベアタ・ベアトリクス",
+      "curation": {
+        "emotion_strengths": {
+          "喪失感": 3,
+          "未練": 2,
+          "寂しさ": 2
+        },
+        "tones": [
+          "余韻",
+          "静けさ"
+        ],
+        "themes": [
+          "愛情",
+          "別れ",
+          "記憶"
+        ],
+        "interpretation": "ダンテのベアトリーチェの死と、画家自身が経験した妻との死別が重なり、取り戻せない相手を思う展示で特に有力。",
+        "alternate_reading": "死別だけではなく、超越や再会への希望を読む鑑賞も成立する。",
+        "review_concern": "シカゴ所蔵版とロンドン所蔵の先行版を混同しない。"
+      },
+      "verification": {
+        "existence_in_official_sample": true,
+        "api_metadata_checked": false,
+        "is_public_domain_confirmed": false,
+        "image_id_confirmed": false,
+        "image_live_checked": false,
+        "curation_human_approved": false
+      },
+      "status": "candidate_unverified"
+    },
+    {
+      "id": "aic-25865",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 25865,
+        "official_csv_url": "https://github.com/art-institute-of-chicago/api-data/blob/master/getting-started/someArtworks.csv",
+        "api_url": "https://api.artic.edu/api/v1/artworks/25865",
+        "official_artwork_url": "https://www.artic.edu/artworks/25865",
+        "supplemental_museum_source_url": "https://archive.artic.edu/homer_exhb/artwork/25865"
+      },
+      "facts_from_museum_sample": {
+        "title": "The Herring Net",
+        "artist": "Winslow Homer"
+      },
+      "title_ja_provisional": "ニシン漁の網",
+      "curation": {
+        "emotion_strengths": {
+          "不安": 3,
+          "希望": 2,
+          "安心": 1
+        },
+        "tones": [
+          "緊張",
+          "重苦しさ"
+        ],
+        "themes": [
+          "自然",
+          "共同体",
+          "日常"
+        ],
+        "interpretation": "荒れる海で力を合わせる漁師の姿は、しんどい状況でも誰かと踏ん張っている気持ちに響きうる。",
+        "alternate_reading": "激しい労働や自然の脅威だけでなく、海の壮大さを味わう風景画としての読みもある。",
+        "review_concern": "画面には労働の過酷さがあるため、単純な励まし用として固定しない。"
+      },
+      "verification": {
+        "existence_in_official_sample": true,
+        "api_metadata_checked": false,
+        "is_public_domain_confirmed": false,
+        "image_id_confirmed": false,
+        "image_live_checked": false,
+        "curation_human_approved": false
+      },
+      "status": "candidate_unverified"
+    },
+    {
+      "id": "aic-111442",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 111442,
+        "official_csv_url": "https://github.com/art-institute-of-chicago/api-data/blob/master/getting-started/someArtworks.csv",
+        "api_url": "https://api.artic.edu/api/v1/artworks/111442",
+        "official_artwork_url": "https://www.artic.edu/artworks/111442",
+        "supplemental_museum_source_url": null
+      },
+      "facts_from_museum_sample": {
+        "title": "The Child's Bath",
+        "artist": "Mary Cassatt"
+      },
+      "title_ja_provisional": "子どもの入浴",
+      "curation": {
+        "emotion_strengths": {
+          "安心": 3,
+          "懐かしさ": 2,
+          "喜び": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "愛情",
+          "日常",
+          "休息"
+        ],
+        "interpretation": "大人が子の足を洗う親密な仕草は、守られていた記憶や誰かを大切にしたい気持ちを呼び起こしうる。",
+        "alternate_reading": "親子関係に複雑な経験を持つ人には、安心ではなく痛みや距離を感じさせる可能性もある。",
+        "review_concern": "『母性＝幸福』と決めつけず、家族の経験差を尊重する。"
+      },
+      "verification": {
+        "existence_in_official_sample": true,
+        "api_metadata_checked": false,
+        "is_public_domain_confirmed": false,
+        "image_id_confirmed": false,
+        "image_live_checked": false,
+        "curation_human_approved": false
+      },
+      "status": "candidate_unverified"
+    },
+    {
+      "id": "aic-14655",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 14655,
+        "official_csv_url": "https://github.com/art-institute-of-chicago/api-data/blob/master/getting-started/someArtworks.csv",
+        "api_url": "https://api.artic.edu/api/v1/artworks/14655",
+        "official_artwork_url": "https://www.artic.edu/artworks/14655",
+        "supplemental_museum_source_url": "https://publications.artic.edu/renoir/api/epub/135446/135639/print_view"
+      },
+      "facts_from_museum_sample": {
+        "title": "Two Sisters (On the Terrace)",
+        "artist": "Pierre-Auguste Renoir"
+      },
+      "title_ja_provisional": "テラスの二人",
+      "curation": {
+        "emotion_strengths": {
+          "喜び": 2,
+          "安心": 2,
+          "懐かしさ": 1
+        },
+        "tones": [
+          "にぎわい",
+          "落ち着き"
+        ],
+        "themes": [
+          "愛情",
+          "日常",
+          "自然"
+        ],
+        "interpretation": "近くにいる二人の人物と鮮やかな風景が、一緒にいる楽しさや穏やかな交流を思わせる。",
+        "alternate_reading": "親密さよりも人物の距離感やポーズの演出が気になる人もいる。",
+        "review_concern": "実際には姉妹ではなく、作品名を人物の続柄の確定事実として扱わない。"
+      },
+      "verification": {
+        "existence_in_official_sample": true,
+        "api_metadata_checked": false,
+        "is_public_domain_confirmed": false,
+        "image_id_confirmed": false,
+        "image_live_checked": false,
+        "curation_human_approved": false
+      },
+      "status": "candidate_unverified"
+    },
+    {
+      "id": "aic-11723",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 11723,
+        "official_csv_url": "https://github.com/art-institute-of-chicago/api-data/blob/master/getting-started/someArtworks.csv",
+        "api_url": "https://api.artic.edu/api/v1/artworks/11723",
+        "official_artwork_url": "https://www.artic.edu/artworks/11723",
+        "supplemental_museum_source_url": null
+      },
+      "facts_from_museum_sample": {
+        "title": "Woman at Her Toilette",
+        "artist": "Berthe Morisot"
+      },
+      "title_ja_provisional": "身支度をする女性",
+      "curation": {
+        "emotion_strengths": {
+          "安心": 2,
+          "孤独": 1,
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "日常",
+          "他者との距離"
+        ],
+        "interpretation": "自分だけの時間を過ごす人物の姿から、他人の評価から少し離れたい気持ちを連想できる。",
+        "alternate_reading": "身支度の優雅さや印象派の筆触に魅力を感じる鑑賞もできる。",
+        "review_concern": "内面の孤独は絵から確定できない。"
+      },
+      "verification": {
+        "existence_in_official_sample": true,
+        "api_metadata_checked": false,
+        "is_public_domain_confirmed": false,
+        "image_id_confirmed": false,
+        "image_live_checked": false,
+        "curation_human_approved": false
+      },
+      "status": "candidate_unverified"
+    },
+    {
+      "id": "aic-14591",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 14591,
+        "official_csv_url": "https://github.com/art-institute-of-chicago/api-data/blob/master/getting-started/someArtworks.csv",
+        "api_url": "https://api.artic.edu/api/v1/artworks/14591",
+        "official_artwork_url": "https://www.artic.edu/artworks/14591",
+        "supplemental_museum_source_url": "https://archive.artic.edu/500ways/artwork/14591"
+      },
+      "facts_from_museum_sample": {
+        "title": "Woman Reading",
+        "artist": "Édouard Manet"
+      },
+      "title_ja_provisional": "読書する女性",
+      "curation": {
+        "emotion_strengths": {
+          "安心": 2,
+          "好奇心": 2,
+          "孤独": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "日常",
+          "他者との距離",
+          "休息"
+        ],
+        "interpretation": "読書に向かう人を眺めることで、一人で過ごす時間の充実や、外界から離れたい思いを重ねられる。",
+        "alternate_reading": "読む姿を美しく描いた肖像・風俗表現であり、深い感情を意図したとは限らない。",
+        "review_concern": "『孤独』を強いタグにしない。"
+      },
+      "verification": {
+        "existence_in_official_sample": true,
+        "api_metadata_checked": false,
+        "is_public_domain_confirmed": false,
+        "image_id_confirmed": false,
+        "image_live_checked": false,
+        "curation_human_approved": false
+      },
+      "status": "candidate_unverified"
+    },
+    {
+      "id": "aic-61128",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 61128,
+        "official_csv_url": "https://github.com/art-institute-of-chicago/api-data/blob/master/getting-started/someArtworks.csv",
+        "api_url": "https://api.artic.edu/api/v1/artworks/61128",
+        "official_artwork_url": "https://www.artic.edu/artworks/61128",
+        "supplemental_museum_source_url": null
+      },
+      "facts_from_museum_sample": {
+        "title": "At the Moulin Rouge",
+        "artist": "Henri de Toulouse-Lautrec"
+      },
+      "title_ja_provisional": "ムーラン・ルージュにて",
+      "curation": {
+        "emotion_strengths": {
+          "孤独": 2,
+          "不安": 2,
+          "好奇心": 2
+        },
+        "tones": [
+          "にぎわい",
+          "緊張"
+        ],
+        "themes": [
+          "都市",
+          "他者との距離",
+          "日常"
+        ],
+        "interpretation": "大勢が集まる夜の場に違和感や距離を感じるという、賑わいと孤独が交錯する展示に使える。",
+        "alternate_reading": "社交と娯楽の躍動を感じる絵としても読める。",
+        "review_concern": "画面の不気味さだけに寄せず、同時代の夜の娯楽文化として捉える。"
+      },
+      "verification": {
+        "existence_in_official_sample": true,
+        "api_metadata_checked": false,
+        "is_public_domain_confirmed": false,
+        "image_id_confirmed": false,
+        "image_live_checked": false,
+        "curation_human_approved": false
+      },
+      "status": "candidate_unverified"
+    },
+    {
+      "id": "aic-111436",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 111436,
+        "official_csv_url": "https://github.com/art-institute-of-chicago/api-data/blob/master/getting-started/someArtworks.csv",
+        "api_url": "https://api.artic.edu/api/v1/artworks/111436",
+        "official_artwork_url": "https://www.artic.edu/artworks/111436",
+        "supplemental_museum_source_url": null
+      },
+      "facts_from_museum_sample": {
+        "title": "The Basket of Apples",
+        "artist": "Paul Cezanne"
+      },
+      "title_ja_provisional": "リンゴの籠",
+      "curation": {
+        "emotion_strengths": {
+          "好奇心": 2,
+          "安心": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "日常"
+        ],
+        "interpretation": "日常の静物を注意深く見つめることに、心を整えたり見慣れた世界を再発見する楽しさを感じられる。",
+        "alternate_reading": "均衡を崩す構図に落ち着かなさや緊張を感じることもある。",
+        "review_concern": "『りんご＝愛情・豊かさ』など安易な象徴解釈をしない。"
+      },
+      "verification": {
+        "existence_in_official_sample": true,
+        "api_metadata_checked": false,
+        "is_public_domain_confirmed": false,
+        "image_id_confirmed": false,
+        "image_live_checked": false,
+        "curation_human_approved": false
+      },
+      "status": "candidate_unverified"
+    },
+    {
+      "id": "aic-4575",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 4575,
+        "official_csv_url": "https://github.com/art-institute-of-chicago/api-data/blob/master/getting-started/someArtworks.csv",
+        "api_url": "https://api.artic.edu/api/v1/artworks/4575",
+        "official_artwork_url": "https://www.artic.edu/artworks/4575",
+        "supplemental_museum_source_url": null
+      },
+      "facts_from_museum_sample": {
+        "title": "Judith",
+        "artist": "Jan Sanders van Hemessen"
+      },
+      "title_ja_provisional": "ユディト",
+      "curation": {
+        "emotion_strengths": {
+          "怒り": 2,
+          "不安": 2,
+          "希望": 1
+        },
+        "tones": [
+          "緊張",
+          "重苦しさ"
+        ],
+        "themes": [
+          "時間"
+        ],
+        "interpretation": "暴力的な局面に立ち向かう物語の題材が、怒り、恐れ、葛藤や決断を抱える感覚につながりうる。",
+        "alternate_reading": "宗教的・歴史的な物語画として、個人的感情から距離を置いて見ることもできる。",
+        "review_concern": "残酷な描写の有無を実画像で確認し、鑑賞者への配慮を検討する。"
+      },
+      "verification": {
+        "existence_in_official_sample": true,
+        "api_metadata_checked": false,
+        "is_public_domain_confirmed": false,
+        "image_id_confirmed": false,
+        "image_live_checked": false,
+        "curation_human_approved": false
+      },
+      "status": "candidate_unverified"
+    },
+    {
+      "id": "aic-16327",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 16327,
+        "official_csv_url": "https://github.com/art-institute-of-chicago/api-data/blob/master/getting-started/someArtworks.csv",
+        "api_url": "https://api.artic.edu/api/v1/artworks/16327",
+        "official_artwork_url": "https://www.artic.edu/artworks/16327",
+        "supplemental_museum_source_url": null
+      },
+      "facts_from_museum_sample": {
+        "title": "The Annunciation",
+        "artist": "Jean Hey, (the Master of Moulins)"
+      },
+      "title_ja_provisional": "受胎告知",
+      "curation": {
+        "emotion_strengths": {
+          "希望": 2,
+          "不安": 1,
+          "期待": 2
+        },
+        "tones": [
+          "静けさ",
+          "緊張"
+        ],
+        "themes": [
+          "愛情",
+          "時間"
+        ],
+        "interpretation": "予期していなかった知らせを受け取るという題材が、将来に期待と不安が同居する感覚を連想させる。",
+        "alternate_reading": "宗教的な信仰表現として鑑賞する方が自然な人も多い。",
+        "review_concern": "宗教主題を単純な心理描写へ還元しない。"
+      },
+      "verification": {
+        "existence_in_official_sample": true,
+        "api_metadata_checked": false,
+        "is_public_domain_confirmed": false,
+        "image_id_confirmed": false,
+        "image_live_checked": false,
+        "curation_human_approved": false
+      },
+      "status": "candidate_unverified"
+    },
+    {
+      "id": "aic-64729",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 64729,
+        "official_csv_url": "https://github.com/art-institute-of-chicago/api-data/blob/master/getting-started/someArtworks.csv",
+        "api_url": "https://api.artic.edu/api/v1/artworks/64729",
+        "official_artwork_url": "https://www.artic.edu/artworks/64729",
+        "supplemental_museum_source_url": null
+      },
+      "facts_from_museum_sample": {
+        "title": "Early Morning, Tarpon Springs",
+        "artist": "George Inness"
+      },
+      "title_ja_provisional": "ターポン・スプリングスの早朝",
+      "curation": {
+        "emotion_strengths": {
+          "希望": 2,
+          "安心": 2,
+          "懐かしさ": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "interpretation": "朝の風景は、何かが始まる直前の静かな期待や、心を整えたい時に合いうる。",
+        "alternate_reading": "静謐さよりももの寂しさや時間の儚さを読み取る人もいる。",
+        "review_concern": "題名だけで光の色調や現地の風景を断定しない。"
+      },
+      "verification": {
+        "existence_in_official_sample": true,
+        "api_metadata_checked": false,
+        "is_public_domain_confirmed": false,
+        "image_id_confirmed": false,
+        "image_live_checked": false,
+        "curation_human_approved": false
+      },
+      "status": "candidate_unverified"
+    },
+    {
+      "id": "aic-80607",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 80607,
+        "official_csv_url": "https://github.com/art-institute-of-chicago/api-data/blob/master/getting-started/someArtworks.csv",
+        "api_url": "https://api.artic.edu/api/v1/artworks/80607",
+        "official_artwork_url": "https://www.artic.edu/artworks/80607",
+        "supplemental_museum_source_url": null
+      },
+      "facts_from_museum_sample": {
+        "title": "Self-Portrait",
+        "artist": "Vincent van Gogh"
+      },
+      "title_ja_provisional": "自画像",
+      "curation": {
+        "emotion_strengths": {
+          "不安": 2,
+          "孤独": 2,
+          "好奇心": 1
+        },
+        "tones": [
+          "緊張",
+          "静けさ"
+        ],
+        "themes": [
+          "他者との距離",
+          "日常"
+        ],
+        "interpretation": "自画像と向き合う行為そのものが、自分の姿や他者からの見られ方を考える鑑賞のきっかけになる。",
+        "alternate_reading": "人物表情の強い心理解釈をせず、筆遣いや自画像制作の探究として鑑賞できる。",
+        "review_concern": "ゴッホの精神状態について絵だけから診断しない。"
+      },
+      "verification": {
+        "existence_in_official_sample": true,
+        "api_metadata_checked": false,
+        "is_public_domain_confirmed": false,
+        "image_id_confirmed": false,
+        "image_live_checked": false,
+        "curation_human_approved": false
+      },
+      "status": "candidate_unverified"
+    },
+    {
+      "id": "aic-869",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 869,
+        "official_csv_url": "https://github.com/art-institute-of-chicago/api-data/blob/master/getting-started/someArtworks.csv",
+        "api_url": "https://api.artic.edu/api/v1/artworks/869",
+        "official_artwork_url": "https://www.artic.edu/artworks/869",
+        "supplemental_museum_source_url": null
+      },
+      "facts_from_museum_sample": {
+        "title": "The Watermill with the Great Red Roof",
+        "artist": "Meindert Hobbema"
+      },
+      "title_ja_provisional": "大きな赤い屋根の水車小屋",
+      "curation": {
+        "emotion_strengths": {
+          "安心": 2,
+          "懐かしさ": 2,
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "日常",
+          "時間"
+        ],
+        "interpretation": "生活の場と自然が近接する風景が、昔見た場所への郷愁や、落ち着ける場所を探す気持ちと重なりうる。",
+        "alternate_reading": "実際には自然の細かな描写や景観構成を楽しむ絵としても鑑賞できる。",
+        "review_concern": "現地の固有の記憶を呼び起こすかは利用者依存。"
+      },
+      "verification": {
+        "existence_in_official_sample": true,
+        "api_metadata_checked": false,
+        "is_public_domain_confirmed": false,
+        "image_id_confirmed": false,
+        "image_live_checked": false,
+        "curation_human_approved": false
+      },
+      "status": "candidate_unverified"
+    },
+    {
+      "id": "aic-4758",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 4758,
+        "official_csv_url": "https://github.com/art-institute-of-chicago/api-data/blob/master/getting-started/someArtworks.csv",
+        "api_url": "https://api.artic.edu/api/v1/artworks/4758",
+        "official_artwork_url": "https://www.artic.edu/artworks/4758",
+        "supplemental_museum_source_url": null
+      },
+      "facts_from_museum_sample": {
+        "title": "Stoke-by-Nayland",
+        "artist": "John Constable"
+      },
+      "title_ja_provisional": "ストーク＝バイ＝ネイランド",
+      "curation": {
+        "emotion_strengths": {
+          "懐かしさ": 2,
+          "安心": 2,
+          "寂しさ": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "記憶",
+          "時間"
+        ],
+        "interpretation": "なじみのある土地を遠くから見渡すような風景が、帰りたい場所や過ぎた時間に思いを向ける鑑賞に向く。",
+        "alternate_reading": "風景を地理的・絵画技法的に味わうこともできる。",
+        "review_concern": "作品の具体的な景色と制作年はAPIで追加確認する。"
+      },
+      "verification": {
+        "existence_in_official_sample": true,
+        "api_metadata_checked": false,
+        "is_public_domain_confirmed": false,
+        "image_id_confirmed": false,
+        "image_live_checked": false,
+        "curation_human_approved": false
+      },
+      "status": "candidate_unverified"
+    },
+    {
+      "id": "aic-4796",
+      "source": {
+        "museum": "Art Institute of Chicago",
+        "artwork_id": 4796,
+        "official_csv_url": "https://github.com/art-institute-of-chicago/api-data/blob/master/getting-started/someArtworks.csv",
+        "api_url": "https://api.artic.edu/api/v1/artworks/4796",
+        "official_artwork_url": "https://www.artic.edu/artworks/4796",
+        "supplemental_museum_source_url": null
+      },
+      "facts_from_museum_sample": {
+        "title": "Fishing Boats with Hucksters Bargaining for Fish",
+        "artist": "Joseph Mallord William Turner"
+      },
+      "title_ja_provisional": "魚を取引する漁船と商人たち",
+      "curation": {
+        "emotion_strengths": {
+          "不安": 2,
+          "好奇心": 2,
+          "希望": 1
+        },
+        "tones": [
+          "にぎわい",
+          "緊張"
+        ],
+        "themes": [
+          "日常",
+          "自然",
+          "共同体"
+        ],
+        "interpretation": "海や生活の営みの中で人が交渉する場面が、他者と折り合う緊張や日々を生きる実感につながる。",
+        "alternate_reading": "港の活気や自然光を楽しむ風景画としての読みもある。",
+        "review_concern": "競争・対立を作品の主要主題と断言しない。"
+      },
+      "verification": {
+        "existence_in_official_sample": true,
+        "api_metadata_checked": false,
+        "is_public_domain_confirmed": false,
+        "image_id_confirmed": false,
+        "image_live_checked": false,
+        "curation_human_approved": false
+      },
+      "status": "candidate_unverified"
+    }
+  ]
+}
