@@ -70,7 +70,7 @@ def main():
             if j.get("is_public_domain") is not True or (j.get("artwork_type_title") or "").lower()!="painting": raise ValueError("not PD painting")
             if not re.fullmatch(r"[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}",j.get("image_id") or ""): raise ValueError("invalid image uuid")
             record.update(api_ok=True,official={"id":n,"title":j["title"],"artist_title":j.get("artist_title"),"date_display":j.get("date_display"),"artwork_type_title":j["artwork_type_title"],"is_public_domain":True,"image_id":j["image_id"]})
-            print(f"[{i}/{len(works)}] API OK {id_}: {j['title']} | {j.get('artist_title')} | image_id={j['image_id']}",flush=True)
+            print(f"[{i}/{len(works)}] API OK {id_}: {j['title']} | {j.get('artist_title')} | date_display={j.get('date_display')} | image_id={j['image_id']}",flush=True)
         except Exception as exc:
             record["api_error"]=type(exc).__name__+": "+str(exc)[:200]
             print(f"[{i}/{len(works)}] API PENDING {id_}: {record['api_error']}",flush=True)
