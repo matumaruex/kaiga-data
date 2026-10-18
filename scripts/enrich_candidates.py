@@ -133,7 +133,7 @@ def main():
         "generated_on": datetime.date.today().isoformat(),
         "artworks": promoted,
     }
-    updated = json.dumps(review_data, ensure_ascii=False, indent=2) + "\\n"
+    updated = json.dumps(review_data, ensure_ascii=False, indent=2) + "\n"
     temp = out_path.with_suffix(".tmp")
     temp.write_text(updated, encoding="utf-8")
     temp.replace(out_path)
