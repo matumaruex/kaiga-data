@@ -36,6 +36,28 @@ for art in data.get("artworks", []):
         for tag in values:
             if tag not in vocab[category]:
                 errors.append(f"{ident}: 未登録タグ {category}/{tag}")
+    # AIによる再選定と通常のタグ検索が同じ元データを使えるか
+    profile = art["curation"].get("search_profile")
+    if not isinstance(profile, dict):
+        errors.append(f"{ident}: 検索プロフィールがない")
+    else:
+        if not isinstance(profile.get("summary_for_ai"), str) or not profile["summary_for_ai"].strip():
+            errors.append(f"{ident}: AI向け説明が空")
+        situations = profile.get("fitting_situations", [])
+        if not isinstance(situations, list) or not situations:
+            errors.append(f"{ident}: 適合する状況の説明がない")
+        else:
+            for situation in situations:
+                if not isinstance(situation, dict) or any(
+                    not isinstance(situation.get(field), str) or not situation[field].strip()
+                    for field in ("situation", "reason")
+                ) or type(situation.get("strength")) is not int or situation["strength"] not in (1, 2, 3):
+                    errors.append(f"{ident}: 状況と理由または強度が不正")
+        cautions = profile.get("selection_cautions", [])
+        if not isinstance(cautions, list) or not cautions or any(not isinstance(c, str) or not c.strip() for c in cautions):
+            errors.append(f"{ident}: 選定上の注意点が空")
+        if profile.get("review_status") not in ("draft_not_human_approved", "draft_source_unverified", "human_approved"):
+            errors.append(f"{ident}: 検索プロフィールのレビュー状態が不正")
     # 各タグに必ず1〜3の強度を持たせ、作品選定で弱い印象を同列に扱わない
     weight = art["curation"].get("emotion_strengths", {})
     if set(weight) != set(art["curation"]["emotions"]):
