@@ -49,7 +49,26 @@
           "懐かしさ": 1,
           "寂しさ": 1
         },
-        "evidence_url": "https://www.nortonsimon.org/exhibitions/2010-2019/vangoghbedroom"
+        "evidence_url": "https://www.nortonsimon.org/exhibitions/2010-2019/vangoghbedroom",
+        "search_profile": {
+          "summary_for_ai": "人のいない寝室を描き、休息や自分だけの居場所を連想させる。色彩の強さや独特な遠近感から、静けさの中の不安も読み取れる。",
+          "fitting_situations": [
+            {
+              "situation": "他人と距離を置き、自分だけの部屋で静かに落ち着きたい",
+              "reason": "作者の休息への意図と、私室という題材が合う",
+              "strength": 3
+            },
+            {
+              "situation": "昔の部屋や安心できた場所を思い出している",
+              "reason": "個人的な居場所の記憶に重ねられるが、鑑賞者依存の解釈",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "失恋・死別を直接描いた作品ではない。寂しさの語だけで強く優先しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        }
       },
       "review": {
         "facts_checked_against_museum_api": true,
@@ -107,7 +126,26 @@
           "不安": 1,
           "好奇心": 1
         },
-        "evidence_url": "https://archive.artic.edu/500ways/artwork/20684?from=14591"
+        "evidence_url": "https://archive.artic.edu/500ways/artwork/20684?from=14591",
+        "search_profile": {
+          "summary_for_ai": "近代都市の雨の交差点を行く人々。大勢が近くにいても関係が交わらない感覚を表し、都市の匿名性や他者との距離を考えさせる。",
+          "fitting_situations": [
+            {
+              "situation": "人に囲まれているのに、誰ともつながれていない気がする",
+              "reason": "同じ画面内の人々が関わらず通り過ぎるという構図が重なる",
+              "strength": 3
+            },
+            {
+              "situation": "新しい街で周りの人になじめず、少し不安を感じる",
+              "reason": "都市の広がりと匿名性から連想できるが、作品主題そのものとは限らない",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "『孤独』でも死別・失恋・自ら望む一人の時間とは区別する。"
+          ],
+          "review_status": "draft_not_human_approved"
+        }
       },
       "review": {
         "facts_checked_against_museum_api": true,
@@ -165,7 +203,26 @@
           "好奇心": 2,
           "孤独": 1
         },
-        "evidence_url": "https://archive.artic.edu/seurat/seurat_themes.html"
+        "evidence_url": "https://archive.artic.edu/seurat/seurat_themes.html",
+        "search_profile": {
+          "summary_for_ai": "公園で過ごす人々を描く。休日の穏やかさと、大勢いるのに人間関係が希薄に見える距離感を同時に感じられる。",
+          "fitting_situations": [
+            {
+              "situation": "人の多い場所を眺めながら、のんびり休日を過ごしたい",
+              "reason": "余暇を過ごす人々と落ち着いた場面が合う",
+              "strength": 2
+            },
+            {
+              "situation": "誰かと同じ場所にいても、少しだけ隔たりを感じる",
+              "reason": "人物間の非交流として読む余地があるが、確定的な主題ではない",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "人物の距離を『失恋の悲しみ』と直結させない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        }
       },
       "review": {
         "facts_checked_against_museum_api": true,
@@ -222,7 +279,26 @@
           "安心": 3,
           "好奇心": 1
         },
-        "evidence_url": "https://publications.artic.edu/node/135621"
+        "evidence_url": "https://publications.artic.edu/node/135621",
+        "search_profile": {
+          "summary_for_ai": "水面に浮かぶ睡蓮と光の変化に意識を向ける作品。休息や余韻を求める気持ちに合うが、揺らぎを不確かさと読む余地もある。",
+          "fitting_situations": [
+            {
+              "situation": "疲れたので、何も考えず静かに過ごしたい",
+              "reason": "水面に集中する構図と静かな鑑賞体験が重なる",
+              "strength": 3
+            },
+            {
+              "situation": "気持ちが揺れているので、静かに自分の感覚を見つめたい",
+              "reason": "揺れる水面を比喩的に読む可能性があるが鑑賞者依存",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "『希望』や『喜び』を直接表現する作品として扱わない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        }
       },
       "review": {
         "facts_checked_against_museum_api": true,
