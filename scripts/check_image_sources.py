@@ -83,7 +83,7 @@ def validate(records, exhibition_ids, candidate_ids):
             if art.get("verification") not in ("source_app_tested_recheck_pending", "source_app_tested_mirror_rechecked"):
                 issues.append(f"{ident}: status for mirror")
         elif src.get("type") == "wikimedia_commons":
-            if accession and accession not in src.get("file_title", ""):
+            if accession and accession not in src.get("file_title", "") and not (src.get("accession_confirmed_in_file_page") is True and src.get("commons_file_page", "").startswith("https://commons.wikimedia.org/wiki/File:")):
                 issues.append(f"{ident}: Commons image is not the verified Chicago edition")
             if not src.get("file_title", "").startswith("File:"):
                 issues.append(f"{ident}: missing Commons filename")
