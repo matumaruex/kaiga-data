@@ -44,9 +44,9 @@
 ## 次の作業
 1. `python3 scripts/validate_candidates.py`：候補の構造・形式をチェック
 2. `python3 scripts/enrich_candidates.py`：公式APIから実データを照合（dry-run）
-3. `python3 scripts/enrich_candidates.py --write`：合格したものだけ本登録（手元のJSONへ追記）
-4. 画像URLをブラウザで表示確認し、解釈をレビュー
-5. 問題なしならGitHubへコミット
+3. `python3 scripts/enrich_candidates.py --write`：合格したものを**審査用の別ファイル**に保存（本登録は変更しない）
+4. 画像URLをブラウザで表示確認し、出典・解釈を人間がレビュー
+5. 承認できた作品だけを本登録し、GitHubへコミット
 
 今回は **GitHubへの候補登録まで** を実施。ネットワーク未検証の作品を確定扱いしない。
 
