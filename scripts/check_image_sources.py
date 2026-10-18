@@ -116,7 +116,7 @@ def main():
             if src.get("byte_length") and len(raw) != src["byte_length"]:
                 raise ValueError("size does not match source app")
             if output is not None:
-                (output / f"{ident}.jpg").write_bytes(raw)
+                (output / f"{ident.removeprefix('aic-')}.jpg").write_bytes(raw)
             item.update(success=True, downloaded_bytes=len(raw), sha256=sha, download_url=url, **extra)
             print(f"[{index}/{len(records)}] OK {ident} {len(raw)}B SHA256={sha} URL={url}", flush=True)
         except (urllib.error.URLError, TimeoutError, ValueError, KeyError, json.JSONDecodeError) as exc:
