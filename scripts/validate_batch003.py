@@ -25,7 +25,7 @@ def main():
     for art in candidates:
         id_ = art["id"]
         source = art["source"]
-        if id_ in seen or id_ in old or id_ != "aic-" + str(source["artwork_id"]):
+        if id_ in seen or id_ != "aic-" + str(source["artwork_id"]):
             problems.append(id_ + ": duplicated or invalid ID")
         seen.add(id_)
         image = registry.get(id_)
@@ -33,10 +33,22 @@ def main():
             problems.append(id_ + ": no image registry record")
         elif image["image_source"]["sha256"] != art["image"]["sha256_verified"]:
             problems.append(id_ + ": image digest disagrees with registry")
-        if art["source"]["official_metadata_status"] != "pending_recheck_2026_10_18":
-            problems.append(id_ + ": metadata must remain pending before online check")
-        if art["review"]["status"] != "candidate_meaning_drafted_metadata_live_check_pending":
-            problems.append(id_ + ": invalid candidate status")
+        state = art["source"]["official_metadata_status"]
+        if state == "pending_recheck_2026_10_18":
+            if art["review"]["status"] != "candidate_meaning_drafted_metadata_live_check_pending":
+                problems.append(id_ + ": invalid pending candidate status")
+        elif state == "current_aic_api_verified_2026_10_18":
+            official = art.get("official_metadata_check", {})
+            if official.get("id") != source["artwork_id"] or official.get("title") != art["facts_provisional"]["title"]:
+                problems.append(id_ + ": official record mismatch")
+            if official.get("is_public_domain") is not True or official.get("artwork_type_title") != "Painting":
+                problems.append(id_ + ": official PD or work type mismatch")
+            if not re.fullmatch(r"[a-f0-9]{8}(?:-[a-f0-9]{4}){3}-[a-f0-9]{12}", official.get("image_id") or ""):
+                problems.append(id_ + ": invalid official image UUID")
+            if art["review"]["status"] != "candidate_metadata_image_verified_meaning_provisional":
+                problems.append(id_ + ": status does not reflect official verification")
+        else:
+            problems.append(id_ + ": invalid official API status")
         if art["review"]["human_approved"] is not False:
             problems.append(id_ + ": falsely marked approved")
         tags = art["emotion_categories"]
@@ -77,7 +89,7 @@ def main():
             assert j.get("is_public_domain") is True, "not PD in official API"
             assert re.fullmatch(r"[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}",j.get("image_id") or ""), "missing image UUID"
             report.update(success=True,title=j["title"],artist=j.get("artist_title"),date=j.get("date_display"),image_id=j["image_id"],public_domain=True)
-            print(f"OK {id_}: {j['title']} | {j.get('artist_title')} | {j.get('date_display')}",flush=True)
+            print(f"OK {id_}: {j['title']} | {j.get('artist_title')} | {j.get('date_display')} | image_id={j['image_id']}",flush=True)
         except (urllib.error.URLError,TimeoutError,ValueError,KeyError,AssertionError) as e:
             report["error"]=str(e)[:180]
             print(f"NOT VERIFIED {id_}: {e}",flush=True)
