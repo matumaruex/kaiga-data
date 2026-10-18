@@ -118,7 +118,7 @@ def main():
             if output is not None:
                 (output / f"{ident}.jpg").write_bytes(raw)
             item.update(success=True, downloaded_bytes=len(raw), sha256=sha, download_url=url, **extra)
-            print(f"[{index}/{len(records)}] OK {ident} {len(raw)}B", flush=True)
+            print(f"[{index}/{len(records)}] OK {ident} {len(raw)}B SHA256={sha} URL={url}", flush=True)
         except (urllib.error.URLError, TimeoutError, ValueError, KeyError, json.JSONDecodeError) as exc:
             item["error"] = type(exc).__name__ + ": " + str(exc)[:160]
             print(f"[{index}/{len(records)}] PENDING {ident}: {item['error']}", flush=True)
