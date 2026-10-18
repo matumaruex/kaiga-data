@@ -4,9 +4,9 @@
   "source": "Met Open Access Object API / matching primary JPEG",
   "note": "HTTP+JPEG+SHA256 verification is distinct from human visual approval and interpretation.",
   "checked": 11,
-  "metadata_pass": 8,
-  "images_pass": 8,
-  "eligible_for_curatorial_review": 7,
+  "metadata_pass": 11,
+  "images_pass": 11,
+  "eligible_for_curatorial_review": 10,
   "results": [
     {
       "id": "met-749407",
@@ -24,6 +24,7 @@
       "classification": "Paintings",
       "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP-14063-022.jpg",
       "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP-14063-022.jpg",
+      "medium": "Hanging scroll; ink, color, and gold paint on silk",
       "additional_image_count": 3,
       "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/749407",
       "metadata_checks": {
@@ -36,18 +37,18 @@
       },
       "image_url_verified": "https://images.metmuseum.org/CRDImages/as/web-large/DP-14063-022.jpg",
       "image_content_type": "image/jpeg",
-      "image_bytes": 179390,
-      "image_sha256": "8177284896f85b4ae360d1da143100d30409bb1cd91b9d83988a7216c57ccfec",
+      "image_bytes": 153651,
+      "image_sha256": "b8791008becc45daf6d969bab7d87af502022732561adcd40dc14a1a0ac2c630",
       "image_identity_basis": "primaryImageSmall from matching official Met object ID"
     },
     {
       "id": "met-737735",
       "official_object_id": 737735,
-      "museum_record_verified": false,
-      "image_verified": false,
-      "eligible_for_review": false,
+      "museum_record_verified": true,
+      "image_verified": true,
+      "eligible_for_review": true,
       "warnings": [
-        "Official metadata mismatch: artist"
+        "Multiple images; main JPEG may not represent all object details"
       ],
       "objectID": 737735,
       "title": "Viewing the Moon in an Empty Room",
@@ -58,6 +59,7 @@
       "classification": "Paintings",
       "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP-42601-001.jpg",
       "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP-42601-001.jpg",
+      "medium": "Album leaf; ink and color on paper",
       "additional_image_count": 11,
       "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/737735",
       "metadata_checks": {
@@ -66,8 +68,13 @@
         "accession": true,
         "public_domain": true,
         "painting": true,
-        "artist": false
-      }
+        "artist": true
+      },
+      "image_url_verified": "https://images.metmuseum.org/CRDImages/as/web-large/DP-42601-001.jpg",
+      "image_content_type": "image/jpeg",
+      "image_bytes": 72994,
+      "image_sha256": "399f39f3339cbe11c7da04286e474e058c26d06a6d78a4fd5621de966fd698f2",
+      "image_identity_basis": "primaryImageSmall from matching official Met object ID"
     },
     {
       "id": "met-39664",
@@ -87,6 +94,7 @@
       "classification": "Paintings",
       "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DT231.jpg",
       "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DT231.jpg",
+      "medium": "Pair of six-panel folding screens; ink and color on gold leaf on paper",
       "additional_image_count": 26,
       "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/39664",
       "metadata_checks": {
@@ -121,6 +129,7 @@
       "classification": "Paintings",
       "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP-17861-001.jpg",
       "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP-17861-001.jpg",
+      "medium": "Four-panel folding screen; ink and color on paper",
       "additional_image_count": 4,
       "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/816203",
       "metadata_checks": {
@@ -152,6 +161,7 @@
       "classification": "Paintings",
       "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP-36543-002.jpg",
       "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP-36543-002.jpg",
+      "medium": "Hanging scroll; ink and color on paper",
       "additional_image_count": 2,
       "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/42346",
       "metadata_checks": {
@@ -184,6 +194,7 @@
       "classification": "Paintings",
       "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP146993.jpg",
       "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP146993.jpg",
+      "medium": "Hanging scroll; ink on paper",
       "additional_image_count": 0,
       "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/73161",
       "metadata_checks": {
@@ -216,6 +227,7 @@
       "classification": "Paintings",
       "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP166102.jpg",
       "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP166102.jpg",
+      "medium": "Ink and wash on paper",
       "additional_image_count": 0,
       "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/74692",
       "metadata_checks": {
@@ -234,12 +246,10 @@
     {
       "id": "met-37941",
       "official_object_id": 37941,
-      "museum_record_verified": false,
-      "image_verified": false,
-      "eligible_for_review": false,
-      "warnings": [
-        "Official metadata mismatch: title"
-      ],
+      "museum_record_verified": true,
+      "image_verified": true,
+      "eligible_for_review": true,
+      "warnings": [],
       "objectID": 37941,
       "title": "A Courtesan and Her Lover Estranged by a Quarrel:  Page from a Rasamanjari series",
       "artistDisplayName": "Devidasa of Nurpur",
@@ -249,26 +259,30 @@
       "classification": "Paintings",
       "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP153147.jpg",
       "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP153147.jpg",
+      "medium": "Opaque watercolor, ink, silver, and  gold on paper",
       "additional_image_count": 1,
       "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/37941",
       "metadata_checks": {
         "object_id": true,
-        "title": false,
+        "title": true,
         "accession": true,
         "public_domain": true,
         "painting": true,
         "artist": true
-      }
+      },
+      "image_url_verified": "https://images.metmuseum.org/CRDImages/as/web-large/DP153147.jpg",
+      "image_content_type": "image/jpeg",
+      "image_bytes": 92666,
+      "image_sha256": "cbf15e8636dd04e4fbe1c35ed7c9487707e1f033b1248b4673b242db001aafd4",
+      "image_identity_basis": "primaryImageSmall from matching official Met object ID"
     },
     {
       "id": "met-12110",
       "official_object_id": 12110,
-      "museum_record_verified": false,
-      "image_verified": false,
-      "eligible_for_review": false,
-      "warnings": [
-        "Official metadata mismatch: painting"
-      ],
+      "museum_record_verified": true,
+      "image_verified": true,
+      "eligible_for_review": true,
+      "warnings": [],
       "objectID": 12110,
       "title": "The Hermit (Il solitario)",
       "artistDisplayName": "John Singer Sargent",
@@ -278,6 +292,7 @@
       "classification": "",
       "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-34372-001.jpg",
       "primaryImage": "https://images.metmuseum.org/CRDImages/ad/original/DP-34372-001.jpg",
+      "medium": "Oil on canvas",
       "additional_image_count": 0,
       "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/12110",
       "metadata_checks": {
@@ -285,9 +300,14 @@
         "title": true,
         "accession": true,
         "public_domain": true,
-        "painting": false,
+        "painting": true,
         "artist": true
-      }
+      },
+      "image_url_verified": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-34372-001.jpg",
+      "image_content_type": "image/jpeg",
+      "image_bytes": 264635,
+      "image_sha256": "8ae46a195eda5ada69e000430b881fe9ee9bb46f135d119650dca6ccc92ad47f",
+      "image_identity_basis": "primaryImageSmall from matching official Met object ID"
     },
     {
       "id": "met-40429",
@@ -305,6 +325,7 @@
       "classification": "Paintings",
       "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/15_96_2.JPG",
       "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/15_96_2.JPG",
+      "medium": "Framed painting; ink and color on hemp or ramie",
       "additional_image_count": 0,
       "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/40429",
       "metadata_checks": {
@@ -339,6 +360,7 @@
       "classification": "Paintings",
       "primaryImageSmall": "https://images.metmuseum.org/CRDImages/as/web-large/DP-21619-002.jpg",
       "primaryImage": "https://images.metmuseum.org/CRDImages/as/original/DP-21619-002.jpg",
+      "medium": "Hanging scroll; ink on silk",
       "additional_image_count": 1,
       "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/851420",
       "metadata_checks": {
