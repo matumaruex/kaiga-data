@@ -36,6 +36,19 @@ for art in data.get("artworks", []):
         for tag in values:
             if tag not in vocab[category]:
                 errors.append(f"{ident}: 未登録タグ {category}/{tag}")
+    # 各タグに必ず1〜3の強度を持たせ、作品選定で弱い印象を同列に扱わない
+    weight = art["curation"].get("emotion_strengths", {})
+    if set(weight) != set(art["curation"]["emotions"]):
+        errors.append(f"{ident}: 感情タグと強度が不一致")
+    for tag, score in weight.items():
+        if type(score) is not int or score not in (1, 2, 3):
+            errors.append(f"{ident}: {tag}に不正な強度")
+    if not art["curation"].get("evidence_url", "").startswith("https://"):
+        errors.append(f"{ident}: 参照資料URLがない")
+    if art["review"].get("curatorial_review_status") not in ("provisional", "approved", "needs_revision"):
+        errors.append(f"{ident}: キュレーション状態が不正")
+    if art["review"].get("interpretation_human_approved") is True and art["review"].get("curatorial_review_status") != "approved":
+        errors.append(f"{ident}: 未承認なのに承認済み")
     for section, keys in (
         ("facts", ("title_original", "artist", "creation_date_display")),
         ("curation", ("interpretation", "alternate_reading", "source_context_note")),
