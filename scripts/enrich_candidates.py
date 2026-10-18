@@ -94,12 +94,16 @@ def promote(candidate, official):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--write", action="store_true", help="API検証に合格した候補を手動審査用の別ファイルへ保存")
+    parser.add_argument("--require-success", action="store_true", help="API照合が1件も成功しなかったら異常終了（オンライン検証用）")
+    parser.add_argument("--require-all", action="store_true", help="全対象候補のAPI照合が完了しなければ異常終了")
     args = parser.parse_args()
     data_path = ROOT / "data/artworks.json"
     candidates = json.loads((ROOT / "data/candidates-batch-002.json").read_text(encoding="utf-8"))["works"]
     data = json.loads(data_path.read_text(encoding="utf-8"))
     existing = {x["id"] for x in data["artworks"]}
     promoted = []
+    checked = 0
+    pending = []
     for candidate in candidates:
         if candidate["id"] in existing:
             print("SKIP: 登録済み", candidate["id"])
@@ -110,13 +114,22 @@ def main():
         except (urllib.error.URLError, TimeoutError, KeyError, ValueError) as exc:
             problem = f"取得失敗: {type(exc).__name__}"
         if problem:
+            pending.append((candidate["id"], problem))
             print("PENDING:", candidate["id"], problem)
         else:
+            checked += 1
+
             record = promote(candidate, official)
             promoted.append(record)
             print("OK:", candidate["id"], record["facts"]["title_original"])
         time.sleep(1.1)
     print(f"確認結果: 合格{len(promoted)}件、未合格{len(candidates)-len(promoted)}件")
+    if args.require_success and checked == 0:
+        print("ERROR: 現在の公式API照合に成功した作品が0件。成功と扱いません。")
+        raise SystemExit(2)
+    if args.require_all and pending:
+        print("ERROR: 全候補の照合は完了していません。")
+        raise SystemExit(3)
     if not args.write:
         print("dry-run: ファイル変更なし。--write で本登録とは別のレビュー用JSONを生成。")
         return
