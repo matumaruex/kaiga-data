@@ -59,7 +59,7 @@ def validate(records, exhibition_ids, candidate_ids):
         if not ident.startswith("aic-") or not art.get("official_artwork_url", "").endswith(ident[4:]):
             issues.append(f"{ident}: artwork identity")
         accession = art.get("accession_number", "")
-        if not re.fullmatch(r"[0-9]{4}\\.[0-9]+", accession):
+        if not re.fullmatch(r"[0-9]{4}[.][0-9]+", accession):
             issues.append(f"{ident}: unknown Chicago accession number")
         if not src.get("license_url", "").startswith("https://"):
             issues.append(f"{ident}: missing license evidence URL")
