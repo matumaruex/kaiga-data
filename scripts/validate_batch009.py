@@ -9,7 +9,7 @@ def read(path):
 
 arts = {x["id"]: x for x in read("data/artworks.json")["artworks"]}
 img = {x["id"]: x for x in read("data/image-sources.json")["records"]}
-candidates = read("data/candidates-batch-008.json")["works"]
+candidates = read("data/candidates-batch-009.json")["works"]
 checks = {x["id"]: x for x in read("docs/batch009-online-result.json")["results"]}
 problems = []
 seen = set()
