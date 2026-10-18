@@ -41,3 +41,26 @@ python3 scripts/validate_artworks.py
 5. 合格した品質基準に従い50→100作品と拡張する
 
 **大量追加の前に、利用者の許可を取る。**
+
+## 第2バッチ（2026-10-18）：15作品の候補
+
+- `data/candidates-batch-002.json` に**15作品の確認待ち候補**を追加。公式のサンプルCSVでID・作品名・作者を確認。
+- 画像ID、公式APIの権利フラグ、絵画分類などは取得不能で**未検証**。したがって展示用の `data/artworks.json` にはまだ追加していない。
+- 候補の感情タグは仮説。別の読み方とリスクも保存した。
+- [詳細なレビュー](docs/review-report-batch-002.md)
+
+### 候補の形式検証
+```bash
+python3 scripts/validate_candidates.py
+```
+
+### 公式APIとの照合と本登録（将来、API接続が利用可能な環境で実行）
+```bash
+python3 scripts/enrich_candidates.py
+python3 scripts/enrich_candidates.py --write
+python3 scripts/validate_artworks.py
+```
+
+**注意：** 1行目はdry-runでファイルを変更しない。2行目は条件合格した作品だけをローカルの `data/artworks.json` に追記する（GitHubへの自動コミットなし）。その後必ず差分・画像・解釈を見直してから共有リポジトリに反映すること。
+
+候補ファイルは作成時点の履歴で、昇格後もそのまま保存する。本登録されたかどうかの最新版は `data/artworks.json` を参照する。
