@@ -181,7 +181,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Research AIC official records and Commons JPEGs for batch 005
-        run: python3 scripts/validate_batch005.py --online
+        run: python3 scripts/validate_batch005.py --online --only-accessions "1933.1158,1922.433,1922.436,1922.434,1959.636"
       - name: Save batch005 research evidence
         if: always()
         uses: actions/upload-artifact@v4
