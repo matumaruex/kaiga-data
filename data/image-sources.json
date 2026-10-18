@@ -422,7 +422,7 @@
       "title": "Madame Léon Clapisson",
       "official_artwork_url": "https://www.artic.edu/artworks/16622",
       "origin": "commons_batch006_accession_verified",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "commons_image_http_verified",
       "accession_number": "1933.1174",
       "image_source": {
@@ -513,7 +513,7 @@
       "title": "Woman at the Piano",
       "official_artwork_url": "https://www.artic.edu/artworks/25825",
       "origin": "commons_batch006_accession_verified",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "commons_image_http_verified",
       "accession_number": "1937.1025",
       "image_source": {
@@ -648,7 +648,7 @@
       "title": "The Denial of Saint Peter",
       "official_artwork_url": "https://www.artic.edu/artworks/30901",
       "origin": "commons_batch006_accession_verified",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "commons_image_http_verified",
       "accession_number": "1969.3",
       "image_source": {
@@ -671,7 +671,7 @@
       "title": "The Lamentation",
       "official_artwork_url": "https://www.artic.edu/artworks/35195",
       "origin": "commons_batch006_accession_verified",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "commons_image_http_verified",
       "accession_number": "1970.1013",
       "image_source": {
@@ -716,7 +716,7 @@
       "title": "The Death of Procris",
       "official_artwork_url": "https://www.artic.edu/artworks/57148",
       "origin": "commons_batch006_accession_verified",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "commons_image_http_verified",
       "accession_number": "1900.445",
       "image_source": {
@@ -1033,7 +1033,7 @@
       "title": "The Death of Orpheus",
       "official_artwork_url": "https://www.artic.edu/artworks/93782",
       "origin": "commons_batch006_accession_verified",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "commons_image_http_verified",
       "accession_number": "1977.4",
       "image_source": {
@@ -1100,7 +1100,7 @@
       "title": "The Expulsion of Adam and Eve from Paradise",
       "official_artwork_url": "https://www.artic.edu/artworks/102227",
       "origin": "commons_batch006_accession_verified",
-      "in_shared_catalog": false,
+      "in_shared_catalog": true,
       "verification": "commons_image_http_verified",
       "accession_number": "1984.175",
       "image_source": {
@@ -1206,10 +1206,17 @@
     "registered_count": 44,
     "verified_images_individually": 45,
     "held_sensitive_count": 1,
-    "note": "共有DB試験登録44点、保留ユディト1点、画像台帳45点。直近11枚は2回の公式API・Commons画像検証で取得済み。全45枚の一括再取得は別テスト。",
+    "note": "登録51画像＋保留Judith1画像、合計52画像。第6群の確認画像は7点、さらに3候補は未登録。最新52点の一括再取得は別チェック。",
     "most_recent_registration": 44,
     "most_recent_registry_count": 45,
     "source_download_verification": "33 previous + 11 new (45 total including sensitive held) checked in earlier evidence runs",
-    "artifact_packaging_policy": "image JPEG checked all by SHA256 before artifact publishing"
+    "artifact_packaging_policy": "image JPEG checked all by SHA256 before artifact publishing",
+    "latest_registered_count": 51,
+    "latest_registry_image_count": 52,
+    "latest_batch006_verified_images": 7,
+    "latest_batch006_evidence_runs": [
+      "https://github.com/matumaruex/kaiga-data/actions/runs/39115901904",
+      "https://github.com/matumaruex/kaiga-data/actions/runs/39116135416"
+    ]
   }
 }
