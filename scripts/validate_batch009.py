@@ -58,5 +58,5 @@ if len(candidates) != 18 or len(seen) != 18 or added != 13 or len(arts) < 83:
 if problems:
     print("FAIL", *problems, sep=chr(10) + "- ")
     raise SystemExit(1)
-print(f"PASS: {len(arts)} registered, 16 batch009 candidates, 13 added, 5 held; SHA256 and rights aligned.")
+print(f"PASS: {len(arts)} registered, 18 batch009 candidates, 13 added, 5 held; SHA256 and rights aligned.")
 print("Human visual inspection, author intent and publication review are separate.")
