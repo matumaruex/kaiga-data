@@ -53,7 +53,7 @@
 - `data/candidates-batch-004.json`：第4群10作品の現行公式API・画像の実取得／SHA256検証記録。10点を試験登録、内容は暫定キュレーション。[個別レビュー](review-report-batch-004.md)。
 - `data/candidates-batch-005.json`：第5群11作品の公式API照合、Commons画像SHA256、個別作品への作者の直接的な書簡・専門研究の区別を記録。11件を試験用登録。[個別レビュー](review-report-batch-005.md)。
 - `data/candidates-batch-002.json`：第2群15件の**調査当初の履歴**。昇格した14件も記録として残す。『ユディト』（aic-4575）は刺激の強い暴力描写・露出があるため、試験用登録も保留。
-- `data/image-sources.json`：共有の44点、保留1点、合計**45点**の画像出典・所蔵番号・SHA256。既存24点＋第4群10点の実JPEG取得・SHA256検証に成功。
+- `data/image-sources.json`：共有の44点、保留1点、合計**45点**の画像出典・所蔵番号・SHA256。**2026-10-18に全45点を一括再取得してJPEG・SHA256照合45/45件成功**（[検証記録](https://github.com/matumaruex/kaiga-data/actions/runs/39113852247)）。
 - **シカゴ美術館の公式作品情報と、Commonsなどの画像取得先は区別**。公式IIIF画像サーバーのHTTP403は現時点で継続。表示用URLは検証済みの外部公開画像へ切り替えた。
 - 検索プロフィールと感情タグはまだ**暫定的なAI編集判断**。人間による最終承認やアプリ上での表示確認は別。公開版へ自動投入してよい証明ではない。
 - [第2群15件の個別レビュー](review-report-batch-002-final.md)。
