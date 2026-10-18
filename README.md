@@ -7,7 +7,9 @@
 - **既存アプリの画像16作品を再取得して、保存元のSHA256と16/16一致。** 一致する画像の取得元・権利表示・ハッシュを共有台帳に記録。
 - 16作品のうち11件は本リポジトリで調査した19作品に含まれ、残り5件は**旧アプリだけに存在する作品（感情分析は未移植）**。
 - 19作品中、旧アプリにない8件について**Commonsの画像取得も8/8成功**。JPEG形式・取得時SHA256を記録。**作品画像の人による最終視認と解釈の審査が済むまでは、15候補の正式登録は保留**。
-- **24/24作品の画像JPEG取得に成功**：[GitHubの画像検証結果](https://github.com/matumaruex/kaiga-data/actions/runs/39104302015)
+- **24/24作品の画像JPEG取得に成功**：[GitHubの画像検証結果](https://github.com/matumaruex/kaiga-data/actions/runs/39104528012)
+- **24作品分のJPEGをZIPにまとめた**：[GitHub Actionsから画像ZIPを開く](https://github.com/matumaruex/kaiga-data/actions/runs/39104528012/artifacts/12127363345)（保存期間14日。恒久利用にはアプリ側に配置）
+- [画像ごとの確認報告（追加8作品を含む）](docs/review-image-batch-002.md)
 - [画像の共通台帳](data/image-sources.json) ／ [自動検証プログラム](scripts/check_image_sources.py) ／ [旧IIIF直アクセスの失敗記録](docs/image-source-status-2026-10-18.md)
 - 作品の解釈・感情タグの人間による最終承認は、画像の入手とは別に未了。
 
