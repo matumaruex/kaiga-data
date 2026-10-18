@@ -2,7 +2,7 @@
 """The Met第10群: 現行公式APIの作品同定とオープン画像JPEGの実取得を検証。
 
 読み取り専用。結果JSONを docs/batch010-online-result.json に書く。
-元の51登録や候補の確認フラグは変更しない。
+既存83作品と登録台帳には一切書き込まない。結果JSONには各候補の公式API/JPEGハッシュを残す。
 """
 import argparse
 import hashlib
