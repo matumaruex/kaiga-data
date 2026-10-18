@@ -3,7 +3,7 @@
   "batch_id": "pilot-002-candidates",
   "created_on": "2026-10-18",
   "status": "candidates_not_ready_for_exhibition",
-  "description": "公式公開サンプルCSVに存在を確認した15作品。作者・作品名・館IDのみ確認済み。画像ID・PD可否・作品分類などは公式APIの再確認待ち。感情解釈は仮説であり選定には利用しない。",
+  "description": "15作品の公式サンプルCSVと2つの非公式・過去APIデータ複製を突合。基本事実15件は一致、画像IDは13件一致・2件不一致。現在の公式API・画像の実確認が済んでいないため展示用には昇格しない。",
   "works": [
     {
       "id": "aic-16551",
@@ -45,9 +45,45 @@
         "is_public_domain_confirmed": false,
         "image_id_confirmed": false,
         "image_live_checked": false,
-        "curation_human_approved": false
+        "curation_human_approved": false,
+        "historical_archive_crosschecked": true,
+        "historical_archive_count": 2,
+        "has_conflicting_historical_image_ids": false
       },
-      "status": "candidate_unverified"
+      "status": "candidate_unverified",
+      "archived_api_metadata": {
+        "archive_sources": [
+          {
+            "source": "historical_api_snapshot_A",
+            "snapshot_url": "https://github.com/monocle/musee/blob/main/backend/src/artworks_response_1.json",
+            "image_id": "194674a2-f451-65f7-ba46-6aac4d894f0b",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1871/72",
+            "artist_title": "Dante Gabriel Rossetti",
+            "title": "Beata Beatrix"
+          },
+          {
+            "source": "historical_api_snapshot_B",
+            "snapshot_url": "https://github.com/max881230/mp2/blob/main/public/data/paintings.json",
+            "image_id": "194674a2-f451-65f7-ba46-6aac4d894f0b",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1871–72",
+            "artist_title": "Dante Gabriel Rossetti",
+            "title": "Beata Beatrix"
+          }
+        ],
+        "historical_pd_flag_consistent": true,
+        "historical_painting_classification_consistent": true,
+        "image_ids_seen": [
+          "194674a2-f451-65f7-ba46-6aac4d894f0b"
+        ],
+        "image_id_consistent_between_archives": true,
+        "image_id_candidate": "194674a2-f451-65f7-ba46-6aac4d894f0b",
+        "image_url_candidate": "https://www.artic.edu/iiif/2/194674a2-f451-65f7-ba46-6aac4d894f0b/full/843,/0/default.jpg",
+        "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      }
     },
     {
       "id": "aic-25865",
@@ -89,9 +125,45 @@
         "is_public_domain_confirmed": false,
         "image_id_confirmed": false,
         "image_live_checked": false,
-        "curation_human_approved": false
+        "curation_human_approved": false,
+        "historical_archive_crosschecked": true,
+        "historical_archive_count": 2,
+        "has_conflicting_historical_image_ids": false
       },
-      "status": "candidate_unverified"
+      "status": "candidate_unverified",
+      "archived_api_metadata": {
+        "archive_sources": [
+          {
+            "source": "historical_api_snapshot_A",
+            "snapshot_url": "https://github.com/monocle/musee/blob/main/backend/src/artworks_response_1.json",
+            "image_id": "5dca7347-c6dc-24dd-d073-d705b9cdc575",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1885",
+            "artist_title": "Winslow Homer",
+            "title": "The Herring Net"
+          },
+          {
+            "source": "historical_api_snapshot_B",
+            "snapshot_url": "https://github.com/max881230/mp2/blob/main/public/data/paintings.json",
+            "image_id": "5dca7347-c6dc-24dd-d073-d705b9cdc575",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1885",
+            "artist_title": "Winslow Homer",
+            "title": "The Herring Net"
+          }
+        ],
+        "historical_pd_flag_consistent": true,
+        "historical_painting_classification_consistent": true,
+        "image_ids_seen": [
+          "5dca7347-c6dc-24dd-d073-d705b9cdc575"
+        ],
+        "image_id_consistent_between_archives": true,
+        "image_id_candidate": "5dca7347-c6dc-24dd-d073-d705b9cdc575",
+        "image_url_candidate": "https://www.artic.edu/iiif/2/5dca7347-c6dc-24dd-d073-d705b9cdc575/full/843,/0/default.jpg",
+        "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      }
     },
     {
       "id": "aic-111442",
@@ -125,7 +197,7 @@
         ],
         "interpretation": "大人が子の足を洗う親密な仕草は、守られていた記憶や誰かを大切にしたい気持ちを呼び起こしうる。",
         "alternate_reading": "親子関係に複雑な経験を持つ人には、安心ではなく痛みや距離を感じさせる可能性もある。",
-        "review_concern": "『母性＝幸福』と決めつけず、家族の経験差を尊重する。"
+        "review_concern": "親子のように見えるが、モデルが母親と断定できるとは限らない。『世話をする人と子』の親密な行為として説明し、家族の関係性を決めつけない。"
       },
       "verification": {
         "existence_in_official_sample": true,
@@ -133,9 +205,46 @@
         "is_public_domain_confirmed": false,
         "image_id_confirmed": false,
         "image_live_checked": false,
-        "curation_human_approved": false
+        "curation_human_approved": false,
+        "historical_archive_crosschecked": true,
+        "historical_archive_count": 2,
+        "has_conflicting_historical_image_ids": true
       },
-      "status": "candidate_unverified"
+      "status": "candidate_unverified",
+      "archived_api_metadata": {
+        "archive_sources": [
+          {
+            "source": "historical_api_snapshot_A",
+            "snapshot_url": "https://github.com/monocle/musee/blob/main/backend/src/artworks_response_1.json",
+            "image_id": "5de963b1-55e2-b349-6cd5-85f9bd2687ec",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1893",
+            "artist_title": "Mary Cassatt",
+            "title": "The Child's Bath"
+          },
+          {
+            "source": "historical_api_snapshot_B",
+            "snapshot_url": "https://github.com/max881230/mp2/blob/main/public/data/paintings.json",
+            "image_id": "3b885ae0-4d46-5fe4-d70a-00474827f02c",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1893",
+            "artist_title": "Mary Cassatt",
+            "title": "The Child's Bath"
+          }
+        ],
+        "historical_pd_flag_consistent": true,
+        "historical_painting_classification_consistent": true,
+        "image_ids_seen": [
+          "5de963b1-55e2-b349-6cd5-85f9bd2687ec",
+          "3b885ae0-4d46-5fe4-d70a-00474827f02c"
+        ],
+        "image_id_consistent_between_archives": false,
+        "image_id_candidate": null,
+        "image_url_candidate": null,
+        "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      }
     },
     {
       "id": "aic-14655",
@@ -154,22 +263,22 @@
       "title_ja_provisional": "テラスの二人",
       "curation": {
         "emotion_strengths": {
-          "喜び": 2,
+          "喜び": 1,
           "安心": 2,
-          "懐かしさ": 1
+          "孤独": 1
         },
         "tones": [
           "にぎわい",
           "落ち着き"
         ],
         "themes": [
-          "愛情",
+          "他者との距離",
           "日常",
           "自然"
         ],
-        "interpretation": "近くにいる二人の人物と鮮やかな風景が、一緒にいる楽しさや穏やかな交流を思わせる。",
-        "alternate_reading": "親密さよりも人物の距離感やポーズの演出が気になる人もいる。",
-        "review_concern": "実際には姉妹ではなく、作品名を人物の続柄の確定事実として扱わない。"
+        "interpretation": "絵の明るい色や川辺の情景に穏やかな休日を感じる一方、近くにいる二人が必ずしも親密には見えない点が『一緒にいても距離を感じる』感情と重なりうる。",
+        "alternate_reading": "二人の関係を温かな姉妹愛と決めつけず、見知らぬ人物同士が並ぶ絵や、絵画の色彩表現としても鑑賞できる。",
+        "review_concern": "美術館の学術カタログによれば二人は実際の姉妹ではなく、親密な交流も明確には描かれていない。『喜び』『愛情』との安易な結びつけを避ける。"
       },
       "verification": {
         "existence_in_official_sample": true,
@@ -177,9 +286,45 @@
         "is_public_domain_confirmed": false,
         "image_id_confirmed": false,
         "image_live_checked": false,
-        "curation_human_approved": false
+        "curation_human_approved": false,
+        "historical_archive_crosschecked": true,
+        "historical_archive_count": 2,
+        "has_conflicting_historical_image_ids": false
       },
-      "status": "candidate_unverified"
+      "status": "candidate_unverified",
+      "archived_api_metadata": {
+        "archive_sources": [
+          {
+            "source": "historical_api_snapshot_A",
+            "snapshot_url": "https://github.com/monocle/musee/blob/main/backend/src/artworks_response_1.json",
+            "image_id": "3a608f55-d76e-fa96-d0b1-0789fbc48f1e",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1881",
+            "artist_title": "Pierre-Auguste Renoir",
+            "title": "Two Sisters (On the Terrace)"
+          },
+          {
+            "source": "historical_api_snapshot_B",
+            "snapshot_url": "https://github.com/max881230/mp2/blob/main/public/data/paintings.json",
+            "image_id": "3a608f55-d76e-fa96-d0b1-0789fbc48f1e",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1881",
+            "artist_title": "Pierre-Auguste Renoir",
+            "title": "Two Sisters (On the Terrace)"
+          }
+        ],
+        "historical_pd_flag_consistent": true,
+        "historical_painting_classification_consistent": true,
+        "image_ids_seen": [
+          "3a608f55-d76e-fa96-d0b1-0789fbc48f1e"
+        ],
+        "image_id_consistent_between_archives": true,
+        "image_id_candidate": "3a608f55-d76e-fa96-d0b1-0789fbc48f1e",
+        "image_url_candidate": "https://www.artic.edu/iiif/2/3a608f55-d76e-fa96-d0b1-0789fbc48f1e/full/843,/0/default.jpg",
+        "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      }
     },
     {
       "id": "aic-11723",
@@ -220,9 +365,45 @@
         "is_public_domain_confirmed": false,
         "image_id_confirmed": false,
         "image_live_checked": false,
-        "curation_human_approved": false
+        "curation_human_approved": false,
+        "historical_archive_crosschecked": true,
+        "historical_archive_count": 2,
+        "has_conflicting_historical_image_ids": false
       },
-      "status": "candidate_unverified"
+      "status": "candidate_unverified",
+      "archived_api_metadata": {
+        "archive_sources": [
+          {
+            "source": "historical_api_snapshot_A",
+            "snapshot_url": "https://github.com/monocle/musee/blob/main/backend/src/artworks_response_1.json",
+            "image_id": "78c80988-6524-cec7-c661-a4c0a706d06f",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1875/80",
+            "artist_title": "Berthe Morisot",
+            "title": "Woman at Her Toilette"
+          },
+          {
+            "source": "historical_api_snapshot_B",
+            "snapshot_url": "https://github.com/max881230/mp2/blob/main/public/data/paintings.json",
+            "image_id": "78c80988-6524-cec7-c661-a4c0a706d06f",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1875–80",
+            "artist_title": "Berthe Morisot",
+            "title": "Woman at Her Toilette"
+          }
+        ],
+        "historical_pd_flag_consistent": true,
+        "historical_painting_classification_consistent": true,
+        "image_ids_seen": [
+          "78c80988-6524-cec7-c661-a4c0a706d06f"
+        ],
+        "image_id_consistent_between_archives": true,
+        "image_id_candidate": "78c80988-6524-cec7-c661-a4c0a706d06f",
+        "image_url_candidate": "https://www.artic.edu/iiif/2/78c80988-6524-cec7-c661-a4c0a706d06f/full/843,/0/default.jpg",
+        "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      }
     },
     {
       "id": "aic-14591",
@@ -264,9 +445,45 @@
         "is_public_domain_confirmed": false,
         "image_id_confirmed": false,
         "image_live_checked": false,
-        "curation_human_approved": false
+        "curation_human_approved": false,
+        "historical_archive_crosschecked": true,
+        "historical_archive_count": 2,
+        "has_conflicting_historical_image_ids": false
       },
-      "status": "candidate_unverified"
+      "status": "candidate_unverified",
+      "archived_api_metadata": {
+        "archive_sources": [
+          {
+            "source": "historical_api_snapshot_A",
+            "snapshot_url": "https://github.com/monocle/musee/blob/main/backend/src/artworks_response_1.json",
+            "image_id": "fd991fea-0c13-8444-7879-aba467f1d9db",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1880/81",
+            "artist_title": "Édouard Manet",
+            "title": "Woman Reading"
+          },
+          {
+            "source": "historical_api_snapshot_B",
+            "snapshot_url": "https://github.com/max881230/mp2/blob/main/public/data/paintings.json",
+            "image_id": "fd991fea-0c13-8444-7879-aba467f1d9db",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1880–82",
+            "artist_title": "Édouard Manet",
+            "title": "Woman Reading"
+          }
+        ],
+        "historical_pd_flag_consistent": true,
+        "historical_painting_classification_consistent": true,
+        "image_ids_seen": [
+          "fd991fea-0c13-8444-7879-aba467f1d9db"
+        ],
+        "image_id_consistent_between_archives": true,
+        "image_id_candidate": "fd991fea-0c13-8444-7879-aba467f1d9db",
+        "image_url_candidate": "https://www.artic.edu/iiif/2/fd991fea-0c13-8444-7879-aba467f1d9db/full/843,/0/default.jpg",
+        "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      }
     },
     {
       "id": "aic-61128",
@@ -285,7 +502,7 @@
       "title_ja_provisional": "ムーラン・ルージュにて",
       "curation": {
         "emotion_strengths": {
-          "孤独": 2,
+          "孤独": 3,
           "不安": 2,
           "好奇心": 2
         },
@@ -300,7 +517,7 @@
         ],
         "interpretation": "大勢が集まる夜の場に違和感や距離を感じるという、賑わいと孤独が交錯する展示に使える。",
         "alternate_reading": "社交と娯楽の躍動を感じる絵としても読める。",
-        "review_concern": "画面の不気味さだけに寄せず、同時代の夜の娯楽文化として捉える。"
+        "review_concern": "公式の展覧会解説が不穏な社交空間・疎外感に言及。『群衆の中の孤独』は比較的根拠が強いが、全鑑賞者が同じとは限らない。"
       },
       "verification": {
         "existence_in_official_sample": true,
@@ -308,9 +525,45 @@
         "is_public_domain_confirmed": false,
         "image_id_confirmed": false,
         "image_live_checked": false,
-        "curation_human_approved": false
+        "curation_human_approved": false,
+        "historical_archive_crosschecked": true,
+        "historical_archive_count": 2,
+        "has_conflicting_historical_image_ids": false
       },
-      "status": "candidate_unverified"
+      "status": "candidate_unverified",
+      "archived_api_metadata": {
+        "archive_sources": [
+          {
+            "source": "historical_api_snapshot_A",
+            "snapshot_url": "https://github.com/monocle/musee/blob/main/backend/src/artworks_response_1.json",
+            "image_id": "defb4004-b500-218d-3d9b-9a02423f097d",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1892/95",
+            "artist_title": "Henri de Toulouse-Lautrec",
+            "title": "At the Moulin Rouge"
+          },
+          {
+            "source": "historical_api_snapshot_B",
+            "snapshot_url": "https://github.com/max881230/mp2/blob/main/public/data/paintings.json",
+            "image_id": "defb4004-b500-218d-3d9b-9a02423f097d",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1892–95",
+            "artist_title": "Henri de Toulouse-Lautrec",
+            "title": "At the Moulin Rouge"
+          }
+        ],
+        "historical_pd_flag_consistent": true,
+        "historical_painting_classification_consistent": true,
+        "image_ids_seen": [
+          "defb4004-b500-218d-3d9b-9a02423f097d"
+        ],
+        "image_id_consistent_between_archives": true,
+        "image_id_candidate": "defb4004-b500-218d-3d9b-9a02423f097d",
+        "image_url_candidate": "https://www.artic.edu/iiif/2/defb4004-b500-218d-3d9b-9a02423f097d/full/843,/0/default.jpg",
+        "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      }
     },
     {
       "id": "aic-111436",
@@ -349,9 +602,45 @@
         "is_public_domain_confirmed": false,
         "image_id_confirmed": false,
         "image_live_checked": false,
-        "curation_human_approved": false
+        "curation_human_approved": false,
+        "historical_archive_crosschecked": true,
+        "historical_archive_count": 2,
+        "has_conflicting_historical_image_ids": false
       },
-      "status": "candidate_unverified"
+      "status": "candidate_unverified",
+      "archived_api_metadata": {
+        "archive_sources": [
+          {
+            "source": "historical_api_snapshot_A",
+            "snapshot_url": "https://github.com/monocle/musee/blob/main/backend/src/artworks_response_1.json",
+            "image_id": "52ac8996-3460-cf71-cb42-5c4d0aa29b74",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "c. 1893",
+            "artist_title": "Paul Cezanne",
+            "title": "The Basket of Apples"
+          },
+          {
+            "source": "historical_api_snapshot_B",
+            "snapshot_url": "https://github.com/max881230/mp2/blob/main/public/data/paintings.json",
+            "image_id": "52ac8996-3460-cf71-cb42-5c4d0aa29b74",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "c. 1893",
+            "artist_title": "Paul Cezanne",
+            "title": "The Basket of Apples"
+          }
+        ],
+        "historical_pd_flag_consistent": true,
+        "historical_painting_classification_consistent": true,
+        "image_ids_seen": [
+          "52ac8996-3460-cf71-cb42-5c4d0aa29b74"
+        ],
+        "image_id_consistent_between_archives": true,
+        "image_id_candidate": "52ac8996-3460-cf71-cb42-5c4d0aa29b74",
+        "image_url_candidate": "https://www.artic.edu/iiif/2/52ac8996-3460-cf71-cb42-5c4d0aa29b74/full/843,/0/default.jpg",
+        "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      }
     },
     {
       "id": "aic-4575",
@@ -383,7 +672,11 @@
         ],
         "interpretation": "暴力的な局面に立ち向かう物語の題材が、怒り、恐れ、葛藤や決断を抱える感覚につながりうる。",
         "alternate_reading": "宗教的・歴史的な物語画として、個人的感情から距離を置いて見ることもできる。",
-        "review_concern": "残酷な描写の有無を実画像で確認し、鑑賞者への配慮を検討する。"
+        "review_concern": "ユディトとホロフェルネスの物語は斬首を伴う。実画像を確認するまで表示上の注意が必要。深刻な苦痛を入力した人への自動推薦は慎重に扱う。",
+        "content_warnings": [
+          "暴力的題材",
+          "斬首の描写の可能性"
+        ]
       },
       "verification": {
         "existence_in_official_sample": true,
@@ -391,9 +684,45 @@
         "is_public_domain_confirmed": false,
         "image_id_confirmed": false,
         "image_live_checked": false,
-        "curation_human_approved": false
+        "curation_human_approved": false,
+        "historical_archive_crosschecked": true,
+        "historical_archive_count": 2,
+        "has_conflicting_historical_image_ids": false
       },
-      "status": "candidate_unverified"
+      "status": "candidate_unverified",
+      "archived_api_metadata": {
+        "archive_sources": [
+          {
+            "source": "historical_api_snapshot_A",
+            "snapshot_url": "https://github.com/monocle/musee/blob/main/backend/src/artworks_response_1.json",
+            "image_id": "5b9758c9-24ef-8661-fac0-c9a4229eefd4",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "about 1540",
+            "artist_title": "Jan Sanders van Hemessen",
+            "title": "Judith"
+          },
+          {
+            "source": "historical_api_snapshot_B",
+            "snapshot_url": "https://github.com/max881230/mp2/blob/main/public/data/paintings.json",
+            "image_id": "5b9758c9-24ef-8661-fac0-c9a4229eefd4",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "c. 1540",
+            "artist_title": "Jan Sanders van Hemessen",
+            "title": "Judith"
+          }
+        ],
+        "historical_pd_flag_consistent": true,
+        "historical_painting_classification_consistent": true,
+        "image_ids_seen": [
+          "5b9758c9-24ef-8661-fac0-c9a4229eefd4"
+        ],
+        "image_id_consistent_between_archives": true,
+        "image_id_candidate": "5b9758c9-24ef-8661-fac0-c9a4229eefd4",
+        "image_url_candidate": "https://www.artic.edu/iiif/2/5b9758c9-24ef-8661-fac0-c9a4229eefd4/full/843,/0/default.jpg",
+        "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      }
     },
     {
       "id": "aic-16327",
@@ -434,9 +763,45 @@
         "is_public_domain_confirmed": false,
         "image_id_confirmed": false,
         "image_live_checked": false,
-        "curation_human_approved": false
+        "curation_human_approved": false,
+        "historical_archive_crosschecked": true,
+        "historical_archive_count": 2,
+        "has_conflicting_historical_image_ids": false
       },
-      "status": "candidate_unverified"
+      "status": "candidate_unverified",
+      "archived_api_metadata": {
+        "archive_sources": [
+          {
+            "source": "historical_api_snapshot_A",
+            "snapshot_url": "https://github.com/monocle/musee/blob/main/backend/src/artworks_response_1.json",
+            "image_id": "77951d0c-d781-eac6-f4ff-f13cc5cfc0cf",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1490/95",
+            "artist_title": "Jean Hey, (the Master of Moulins)",
+            "title": "The Annunciation"
+          },
+          {
+            "source": "historical_api_snapshot_B",
+            "snapshot_url": "https://github.com/max881230/mp2/blob/main/public/data/paintings.json",
+            "image_id": "77951d0c-d781-eac6-f4ff-f13cc5cfc0cf",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1490–95",
+            "artist_title": "Jean Hey, (the Master of Moulins)",
+            "title": "The Annunciation"
+          }
+        ],
+        "historical_pd_flag_consistent": true,
+        "historical_painting_classification_consistent": true,
+        "image_ids_seen": [
+          "77951d0c-d781-eac6-f4ff-f13cc5cfc0cf"
+        ],
+        "image_id_consistent_between_archives": true,
+        "image_id_candidate": "77951d0c-d781-eac6-f4ff-f13cc5cfc0cf",
+        "image_url_candidate": "https://www.artic.edu/iiif/2/77951d0c-d781-eac6-f4ff-f13cc5cfc0cf/full/843,/0/default.jpg",
+        "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      }
     },
     {
       "id": "aic-64729",
@@ -477,9 +842,45 @@
         "is_public_domain_confirmed": false,
         "image_id_confirmed": false,
         "image_live_checked": false,
-        "curation_human_approved": false
+        "curation_human_approved": false,
+        "historical_archive_crosschecked": true,
+        "historical_archive_count": 2,
+        "has_conflicting_historical_image_ids": false
       },
-      "status": "candidate_unverified"
+      "status": "candidate_unverified",
+      "archived_api_metadata": {
+        "archive_sources": [
+          {
+            "source": "historical_api_snapshot_A",
+            "snapshot_url": "https://github.com/monocle/musee/blob/main/backend/src/artworks_response_1.json",
+            "image_id": "ef96e79b-f481-8114-0804-4bd39c101983",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1892",
+            "artist_title": "George Inness",
+            "title": "Early Morning, Tarpon Springs"
+          },
+          {
+            "source": "historical_api_snapshot_B",
+            "snapshot_url": "https://github.com/max881230/mp2/blob/main/public/data/paintings.json",
+            "image_id": "ef96e79b-f481-8114-0804-4bd39c101983",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1892",
+            "artist_title": "George Inness",
+            "title": "Early Morning, Tarpon Springs"
+          }
+        ],
+        "historical_pd_flag_consistent": true,
+        "historical_painting_classification_consistent": true,
+        "image_ids_seen": [
+          "ef96e79b-f481-8114-0804-4bd39c101983"
+        ],
+        "image_id_consistent_between_archives": true,
+        "image_id_candidate": "ef96e79b-f481-8114-0804-4bd39c101983",
+        "image_url_candidate": "https://www.artic.edu/iiif/2/ef96e79b-f481-8114-0804-4bd39c101983/full/843,/0/default.jpg",
+        "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      }
     },
     {
       "id": "aic-80607",
@@ -520,9 +921,46 @@
         "is_public_domain_confirmed": false,
         "image_id_confirmed": false,
         "image_live_checked": false,
-        "curation_human_approved": false
+        "curation_human_approved": false,
+        "historical_archive_crosschecked": true,
+        "historical_archive_count": 2,
+        "has_conflicting_historical_image_ids": true
       },
-      "status": "candidate_unverified"
+      "status": "candidate_unverified",
+      "archived_api_metadata": {
+        "archive_sources": [
+          {
+            "source": "historical_api_snapshot_A",
+            "snapshot_url": "https://github.com/monocle/musee/blob/main/backend/src/artworks_response_1.json",
+            "image_id": "26d3cea8-44c0-bfbd-a91a-19a007517152",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1887",
+            "artist_title": "Vincent van Gogh",
+            "title": "Self-Portrait"
+          },
+          {
+            "source": "historical_api_snapshot_B",
+            "snapshot_url": "https://github.com/max881230/mp2/blob/main/public/data/paintings.json",
+            "image_id": "47c5bcb8-62ef-e5d7-55e7-f5121f409a30",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1887",
+            "artist_title": "Vincent van Gogh",
+            "title": "Self-Portrait"
+          }
+        ],
+        "historical_pd_flag_consistent": true,
+        "historical_painting_classification_consistent": true,
+        "image_ids_seen": [
+          "26d3cea8-44c0-bfbd-a91a-19a007517152",
+          "47c5bcb8-62ef-e5d7-55e7-f5121f409a30"
+        ],
+        "image_id_consistent_between_archives": false,
+        "image_id_candidate": null,
+        "image_url_candidate": null,
+        "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      }
     },
     {
       "id": "aic-869",
@@ -564,9 +1002,45 @@
         "is_public_domain_confirmed": false,
         "image_id_confirmed": false,
         "image_live_checked": false,
-        "curation_human_approved": false
+        "curation_human_approved": false,
+        "historical_archive_crosschecked": true,
+        "historical_archive_count": 2,
+        "has_conflicting_historical_image_ids": false
       },
-      "status": "candidate_unverified"
+      "status": "candidate_unverified",
+      "archived_api_metadata": {
+        "archive_sources": [
+          {
+            "source": "historical_api_snapshot_A",
+            "snapshot_url": "https://github.com/monocle/musee/blob/main/backend/src/artworks_response_1.json",
+            "image_id": "237c25a2-6051-a8e7-1610-a01938d4deab",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1662/65",
+            "artist_title": "Meindert Hobbema",
+            "title": "The Watermill with the Great Red Roof"
+          },
+          {
+            "source": "historical_api_snapshot_B",
+            "snapshot_url": "https://github.com/max881230/mp2/blob/main/public/data/paintings.json",
+            "image_id": "237c25a2-6051-a8e7-1610-a01938d4deab",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "c. 1665",
+            "artist_title": "Meindert Hobbema",
+            "title": "The Watermill with the Great Red Roof"
+          }
+        ],
+        "historical_pd_flag_consistent": true,
+        "historical_painting_classification_consistent": true,
+        "image_ids_seen": [
+          "237c25a2-6051-a8e7-1610-a01938d4deab"
+        ],
+        "image_id_consistent_between_archives": true,
+        "image_id_candidate": "237c25a2-6051-a8e7-1610-a01938d4deab",
+        "image_url_candidate": "https://www.artic.edu/iiif/2/237c25a2-6051-a8e7-1610-a01938d4deab/full/843,/0/default.jpg",
+        "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      }
     },
     {
       "id": "aic-4758",
@@ -608,9 +1082,45 @@
         "is_public_domain_confirmed": false,
         "image_id_confirmed": false,
         "image_live_checked": false,
-        "curation_human_approved": false
+        "curation_human_approved": false,
+        "historical_archive_crosschecked": true,
+        "historical_archive_count": 2,
+        "has_conflicting_historical_image_ids": false
       },
-      "status": "candidate_unverified"
+      "status": "candidate_unverified",
+      "archived_api_metadata": {
+        "archive_sources": [
+          {
+            "source": "historical_api_snapshot_A",
+            "snapshot_url": "https://github.com/monocle/musee/blob/main/backend/src/artworks_response_1.json",
+            "image_id": "400ce9e8-2f67-44e2-dd68-e6c98880d27f",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1836",
+            "artist_title": "John Constable",
+            "title": "Stoke-by-Nayland"
+          },
+          {
+            "source": "historical_api_snapshot_B",
+            "snapshot_url": "https://github.com/max881230/mp2/blob/main/public/data/paintings.json",
+            "image_id": "400ce9e8-2f67-44e2-dd68-e6c98880d27f",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1836",
+            "artist_title": "John Constable",
+            "title": "Stoke-by-Nayland"
+          }
+        ],
+        "historical_pd_flag_consistent": true,
+        "historical_painting_classification_consistent": true,
+        "image_ids_seen": [
+          "400ce9e8-2f67-44e2-dd68-e6c98880d27f"
+        ],
+        "image_id_consistent_between_archives": true,
+        "image_id_candidate": "400ce9e8-2f67-44e2-dd68-e6c98880d27f",
+        "image_url_candidate": "https://www.artic.edu/iiif/2/400ce9e8-2f67-44e2-dd68-e6c98880d27f/full/843,/0/default.jpg",
+        "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      }
     },
     {
       "id": "aic-4796",
@@ -652,9 +1162,46 @@
         "is_public_domain_confirmed": false,
         "image_id_confirmed": false,
         "image_live_checked": false,
-        "curation_human_approved": false
+        "curation_human_approved": false,
+        "historical_archive_crosschecked": true,
+        "historical_archive_count": 2,
+        "has_conflicting_historical_image_ids": false
       },
-      "status": "candidate_unverified"
+      "status": "candidate_unverified",
+      "archived_api_metadata": {
+        "archive_sources": [
+          {
+            "source": "historical_api_snapshot_A",
+            "snapshot_url": "https://github.com/monocle/musee/blob/main/backend/src/artworks_response_1.json",
+            "image_id": "8641479e-c93e-f1a8-9925-19be061706da",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1837/38",
+            "artist_title": "Joseph Mallord William Turner",
+            "title": "Fishing Boats with Hucksters Bargaining for Fish"
+          },
+          {
+            "source": "historical_api_snapshot_B",
+            "snapshot_url": "https://github.com/max881230/mp2/blob/main/public/data/paintings.json",
+            "image_id": "8641479e-c93e-f1a8-9925-19be061706da",
+            "is_public_domain": true,
+            "artwork_type_title": "Painting",
+            "date_display": "1837–38",
+            "artist_title": "Joseph Mallord William Turner",
+            "title": "Fishing Boats with Hucksters Bargaining for Fish"
+          }
+        ],
+        "historical_pd_flag_consistent": true,
+        "historical_painting_classification_consistent": true,
+        "image_ids_seen": [
+          "8641479e-c93e-f1a8-9925-19be061706da"
+        ],
+        "image_id_consistent_between_archives": true,
+        "image_id_candidate": "8641479e-c93e-f1a8-9925-19be061706da",
+        "image_url_candidate": "https://www.artic.edu/iiif/2/8641479e-c93e-f1a8-9925-19be061706da/full/843,/0/default.jpg",
+        "caveat": "いずれも非公式の過去APIデータの複製。現在の美術館API/画像HTTPで照合した事実ではない。"
+      }
     }
-  ]
+  ],
+  "archived_metadata_crosscheck_on": "2026-10-18"
 }
