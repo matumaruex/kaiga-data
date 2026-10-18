@@ -26,8 +26,16 @@ for art in data.get("artworks", []):
     if art["facts"]["is_public_domain_at_source"] is not True:
         errors.append(f"{ident}: 公開条件未確認")
     image = art["image"]
-    if not re.fullmatch(r"[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12}", image["image_id"]):
-        errors.append(f"{ident}: 画像IDの形式が不正")
+    if ident.startswith("aic-"):
+        if not re.fullmatch(r"[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12}", image["image_id"]):
+            errors.append(f"{ident}: シカゴの画像UUIDが不正")
+    elif ident.startswith("met-"):
+        if art["source"].get("museum") != "Metropolitan Museum of Art":
+            errors.append(f"{ident}: Met所蔵館名の不一致")
+        if image.get("image_id") != f"met-{art['source']['artwork_id']}-primary":
+            errors.append(f"{ident}: Met primary image identity mismatch")
+    else:
+        errors.append(f"{ident}: 未対応の美術館ID")
     image_source = next((x for x in image_registry["records"] if x["id"] == ident), None)
     if image_source is None:
         errors.append(f"{ident}: 画像出典台帳に作品がない")
@@ -37,7 +45,8 @@ for art in data.get("artworks", []):
     else:
         if not image.get("display_url", "").startswith("https://"):
             errors.append(f"{ident}: 表示画像のURLが不正")
-        if image.get("source_registry_id") != ident or not image.get("local_path", "").endswith(f"/{ident[4:]}.jpg"):
+        expected_path = f"/artworks/{ident[4:]}.jpg" if ident.startswith("aic-") else f"/artworks/{ident}.jpg"
+        if image.get("source_registry_id") != ident or image.get("local_path") != expected_path:
             errors.append(f"{ident}: 別ソース画像の参照が不正")
         if image_source and image.get("sha256") != image_source["image_source"].get("sha256"):
             errors.append(f"{ident}: 画像のSHA256が画像台帳と一致しない")
