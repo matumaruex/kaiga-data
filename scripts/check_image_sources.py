@@ -64,11 +64,19 @@ def validate(records, exhibition_ids, candidate_ids):
         if ident in names: issues.append(f"{ident}: duplicate image source")
         names.add(ident)
         src = art.get("image_source", {})
-        if not ident.startswith("aic-") or not art.get("official_artwork_url", "").endswith(ident[4:]):
+        if ident.startswith("aic-"):
+            valid_identity = art.get("official_artwork_url", "").startswith("https://www.artic.edu/artworks/")
+        elif ident.startswith("met-"):
+            valid_identity = art.get("official_artwork_url", "").startswith("https://www.metmuseum.org/art/collection/search/")
+        else:
+            valid_identity = False
+        if not valid_identity or not art.get("official_artwork_url", "").endswith(ident[4:]):
             issues.append(f"{ident}: artwork identity")
         accession = art.get("accession_number", "")
-        if not re.fullmatch(r"[0-9]{4}[.][0-9]+", accession):
+        if ident.startswith("aic-") and not re.fullmatch(r"[0-9]{4}[.][0-9]+", accession):
             issues.append(f"{ident}: unknown Chicago accession number")
+        if ident.startswith("met-") and (not isinstance(accession, str) or not accession):
+            issues.append(f"{ident}: missing Met accession number")
         if not src.get("license_url", "").startswith("https://"):
             issues.append(f"{ident}: missing license evidence URL")
         if src.get("last_http_sha_checked_on") and not SHA_RE.fullmatch(src.get("sha256") or ""):
@@ -91,8 +99,19 @@ def validate(records, exhibition_ids, candidate_ids):
                 issues.append(f"{ident}: missing Commons page")
             if art.get("verification") not in ("commons_page_found_image_http_pending", "commons_image_http_verified"):
                 issues.append(f"{ident}: status for Commons")
+        elif src.get("type") == "met_open_access":
+            if not ident.startswith("met-"):
+                issues.append(f"{ident}: Met image on wrong museum")
+            if not src.get("verified_download_url", "").startswith("https://images.metmuseum.org/"):
+                issues.append(f"{ident}: Met image URL not official")
+            if src.get("official_image_page") != art.get("official_artwork_url"):
+                issues.append(f"{ident}: Met image source page mismatch")
+            if not SHA_RE.fullmatch(src.get("sha256") or "") or (src.get("byte_length") or 0) <= 5000:
+                issues.append(f"{ident}: Met image digest/size missing")
+            if art.get("verification") != "met_primary_jpeg_http_verified":
+                issues.append(f"{ident}: Met verification status unexpected")
         else: issues.append(f"{ident}: unsupported image source")
-        if not src.get("license_label") or not src.get("commons_file_page"):
+        if not src.get("license_label") or not (src.get("commons_file_page") or src.get("official_image_page")):
             issues.append(f"{ident}: no rights/source citation")
         if art.get("in_shared_catalog") != (ident in exhibition_ids or ident in candidate_ids):
             issues.append(f"{ident}: unexpected catalog membership")
@@ -127,6 +146,8 @@ def main():
             src = rec["image_source"]
             if src["type"] == "pinned_public_mirror":
                 url, extra = src["download_url"], {}
+            elif src["type"] == "met_open_access":
+                url, extra = src["verified_download_url"], {"image_page_title": src["official_image_page"]}
             elif src.get("verified_download_url"):
                 # Already resolved against Commons and verified by SHA256: avoid
                 # repeated API calls which trigger HTTP 429 during full-batch checks.
@@ -142,7 +163,7 @@ def main():
             if src.get("byte_length") and len(raw) != src["byte_length"]:
                 raise ValueError("size does not match source app")
             if output is not None:
-                (output / f"{ident.removeprefix('aic-')}.jpg").write_bytes(raw)
+                (output / (f"{ident[4:]}.jpg" if ident.startswith("aic-") else f"{ident}.jpg")).write_bytes(raw)
             item.update(success=True, downloaded_bytes=len(raw), sha256=sha, download_url=url, **extra)
             print(f"[{index}/{len(records)}] OK {ident} {len(raw)}B SHA256={sha} URL={url}", flush=True)
         except (urllib.error.URLError, TimeoutError, ValueError, KeyError, json.JSONDecodeError) as exc:
