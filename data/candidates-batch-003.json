@@ -2,7 +2,7 @@
   "schema_version": "1.1.0",
   "batch": "batch-003",
   "created_on": "2026-10-18",
-  "status": "candidates_not_for_exhibition",
+  "status": "metadata_and_image_verified_meaning_provisional",
   "description": "旧美術館アプリの画像検証済み5作品を、制作意図優先の観点から調査した新候補。画像ハッシュは既に確認済み、現在のAIC APIの公式メタデータ再照合・描写と解釈の最終審査は未完了。",
   "works": [
     {
@@ -12,7 +12,7 @@
         "artwork_id": 14620,
         "official_artwork_url": "https://www.artic.edu/artworks/14620",
         "api_url": "https://api.artic.edu/api/v1/artworks/14620",
-        "official_metadata_status": "pending_recheck_2026_10_18",
+        "official_metadata_status": "current_aic_api_verified_2026_10_18",
         "existing_app_metadata_checked_on": "2026-10-17"
       },
       "facts_provisional": {
@@ -67,9 +67,20 @@
         ]
       },
       "review": {
-        "status": "candidate_meaning_drafted_metadata_live_check_pending",
+        "status": "candidate_metadata_image_verified_meaning_provisional",
         "human_approved": false,
         "visual_confirmed_by_human": false
+      },
+      "official_metadata_check": {
+        "id": 14620,
+        "title": "Cliff Walk at Pourville",
+        "artist_title": "Claude Monet",
+        "date_display": "1882",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "image_id": "b0effb1c-ff23-bbaa-f809-9fd94e31c1a0",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39111106560",
+        "checked_on": "2026-10-18"
       }
     },
     {
@@ -79,7 +90,7 @@
         "artwork_id": 90048,
         "official_artwork_url": "https://www.artic.edu/artworks/90048",
         "api_url": "https://api.artic.edu/api/v1/artworks/90048",
-        "official_metadata_status": "pending_recheck_2026_10_18",
+        "official_metadata_status": "current_aic_api_verified_2026_10_18",
         "existing_app_metadata_checked_on": "2026-10-17"
       },
       "facts_provisional": {
@@ -134,9 +145,20 @@
         ]
       },
       "review": {
-        "status": "candidate_meaning_drafted_metadata_live_check_pending",
+        "status": "candidate_metadata_image_verified_meaning_provisional",
         "human_approved": false,
         "visual_confirmed_by_human": false
+      },
+      "official_metadata_check": {
+        "id": 90048,
+        "title": "Distant View of Niagara Falls",
+        "artist_title": "Thomas Cole",
+        "date_display": "1830",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "image_id": "18092196-50ae-3ff1-9205-1b3110e966c3",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39111106560",
+        "checked_on": "2026-10-18"
       }
     },
     {
@@ -146,7 +168,7 @@
         "artwork_id": 94841,
         "official_artwork_url": "https://www.artic.edu/artworks/94841",
         "api_url": "https://api.artic.edu/api/v1/artworks/94841",
-        "official_metadata_status": "pending_recheck_2026_10_18",
+        "official_metadata_status": "current_aic_api_verified_2026_10_18",
         "existing_app_metadata_checked_on": "2026-10-17"
       },
       "facts_provisional": {
@@ -201,9 +223,20 @@
         ]
       },
       "review": {
-        "status": "candidate_meaning_drafted_metadata_live_check_pending",
+        "status": "candidate_metadata_image_verified_meaning_provisional",
         "human_approved": false,
         "visual_confirmed_by_human": false
+      },
+      "official_metadata_check": {
+        "id": 94841,
+        "title": "The Song of the Lark",
+        "artist_title": "Jules Breton",
+        "date_display": "1884",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "image_id": "48b2de88-ba73-8e19-f448-d1cef4a1c847",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39111106560",
+        "checked_on": "2026-10-18"
       }
     },
     {
@@ -213,7 +246,7 @@
         "artwork_id": 95998,
         "official_artwork_url": "https://www.artic.edu/artworks/95998",
         "api_url": "https://api.artic.edu/api/v1/artworks/95998",
-        "official_metadata_status": "pending_recheck_2026_10_18",
+        "official_metadata_status": "current_aic_api_verified_2026_10_18",
         "existing_app_metadata_checked_on": "2026-10-17"
       },
       "facts_provisional": {
@@ -266,9 +299,20 @@
         ]
       },
       "review": {
-        "status": "candidate_meaning_drafted_metadata_live_check_pending",
+        "status": "candidate_metadata_image_verified_meaning_provisional",
         "human_approved": false,
         "visual_confirmed_by_human": false
+      },
+      "official_metadata_check": {
+        "id": 95998,
+        "title": "Old Man with a Gold Chain",
+        "artist_title": "Rembrandt van Rijn",
+        "date_display": "1631",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "image_id": "3eaab3a3-2b47-9fdd-121c-050f6b8d9ccb",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39111106560",
+        "checked_on": "2026-10-18"
       }
     },
     {
@@ -278,7 +322,7 @@
         "artwork_id": 154235,
         "official_artwork_url": "https://www.artic.edu/artworks/154235",
         "api_url": "https://api.artic.edu/api/v1/artworks/154235",
-        "official_metadata_status": "pending_recheck_2026_10_18",
+        "official_metadata_status": "current_aic_api_verified_2026_10_18",
         "existing_app_metadata_checked_on": "2026-10-17"
       },
       "facts_provisional": {
@@ -334,9 +378,20 @@
         ]
       },
       "review": {
-        "status": "candidate_meaning_drafted_metadata_live_check_pending",
+        "status": "candidate_metadata_image_verified_meaning_provisional",
         "human_approved": false,
         "visual_confirmed_by_human": false
+      },
+      "official_metadata_check": {
+        "id": 154235,
+        "title": "The Girl by the Window",
+        "artist_title": "Edvard Munch",
+        "date_display": "1893",
+        "artwork_type_title": "Painting",
+        "is_public_domain": true,
+        "image_id": "d7df2633-3b40-f570-c906-211503a37cde",
+        "run_url": "https://github.com/matumaruex/kaiga-data/actions/runs/39111106560",
+        "checked_on": "2026-10-18"
       }
     }
   ]
