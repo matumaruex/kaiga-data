@@ -2,7 +2,7 @@
   "schema_version": "1.1.0",
   "batch": "batch-010",
   "created_on": "2026-10-19",
-  "description": "83/100からの第10群。公式Met個別作品ページを基に懐かしさ・未練・孤独・期待を重視しつつ、著作権・画面複数性・文化史の不正確な推定を分ける31研究候補。正式登録前に現在のAPI・JPEG・SHA256照合必須。",
+  "description": "第10群31候補。Met現行APIとprimary JPEGの実取得・SHA256一致は25/31件。感情根拠・画像の完全性・権利条件を併せて17試験登録、14保留。既存83→100作品。人間の視認や公開承認ではない。",
   "works": [
     {
       "candidate_id": "met-37881",
@@ -14,7 +14,7 @@
       "title_ja_provisional": "花を摘むヒロイン",
       "artist": "Unidentified artist",
       "culture": "India, Malwa",
-      "accession_number": null,
+      "accession_number": "1979.505",
       "provisional_emotions": {
         "primary": [
           "未練",
@@ -27,11 +27,19 @@
       "scholarly_context_summary_ja": "空の寝床・ひとりのヒロイン・寂しげな孔雀の声をMetが『恋い慕う図像』として解説。物語の人物の感情。",
       "interpretation_caution_ja": "『未練』は別離の結果や過去の後悔を確定しない仮検索タグ。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/37881",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "registered_provisional",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "84fb008cd4d3d23151985aae89bf37ec64463a0b0b6b72a1aeb2706a5fbb0c56",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "A Heroine Plucking a Flower:  Page from a Dispersed Nayikabheda",
+      "api_artist_value": "",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "ca. 1660–80",
+      "image_bytes": 128837,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP152278.jpg",
+      "curatorial_review_note": "Met API作品ID・題名・所蔵番号・PD・絵画・official JPEG実取得とSHA256照合に合格。感情索引は試験用で人間の最終承認なし。"
     },
     {
       "candidate_id": "met-37992",
@@ -43,7 +51,7 @@
       "title_ja_provisional": "恋人を慕うヒロイン",
       "artist": "Unidentified artist",
       "culture": "India, Kangra",
-      "accession_number": null,
+      "accession_number": "18.134.3",
       "provisional_emotions": {
         "primary": [
           "期待"
@@ -55,11 +63,19 @@
       "scholarly_context_summary_ja": "Metが目線、肩の動き、手の身振りを恋人を求める切望と結びつける。",
       "interpretation_caution_ja": "恋人が帰ってこない失恋画とは限らない。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/37992",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "registered_provisional",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "378f4892f329bfd147a754456142565c68f2b0b735c78e1c1d82cbf48fe40950",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "Abhisarika Nayika, a Heroine Longing for Her Lover",
+      "api_artist_value": "",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "ca. 1790–1800",
+      "image_bytes": 90800,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP152309.jpg",
+      "curatorial_review_note": "Met API作品ID・題名・所蔵番号・PD・絵画・official JPEG実取得とSHA256照合に合格。感情索引は試験用で人間の最終承認なし。"
     },
     {
       "candidate_id": "met-38017",
@@ -71,7 +87,7 @@
       "title_ja_provisional": "デシュヴァラティー・ラーギニー",
       "artist": "Unidentified artist",
       "culture": "India, Rajasthan",
-      "accession_number": null,
+      "accession_number": "1987.417.2",
       "provisional_emotions": {
         "primary": [
           "未練",
@@ -84,11 +100,19 @@
       "scholarly_context_summary_ja": "ラーガマーラーの詩は眠れぬ恋慕を、空の寝床と腕の身振りで表現。",
       "interpretation_caution_ja": "詩的な場面と作者個人の人生を区別する。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/38017",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "registered_provisional",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "15f22ce1d1c147b1f5882300de4619defc109ef97a8b82f02a38325f2ed9c9df",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "Desvarati Ragini: Folio from a ragamala series (Garland of Musical Modes)",
+      "api_artist_value": "",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "1605–06",
+      "image_bytes": 92101,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156114.jpg",
+      "curatorial_review_note": "Met API作品ID・題名・所蔵番号・PD・絵画・official JPEG実取得とSHA256照合に合格。感情索引は試験用で人間の最終承認なし。"
     },
     {
       "candidate_id": "met-74983",
@@ -100,7 +124,7 @@
       "title_ja_provisional": "トリシャラー王妃の悲嘆",
       "artist": "Unidentified artist",
       "culture": "India, Gujarat",
-      "accession_number": null,
+      "accession_number": "55.121.38.8",
       "provisional_emotions": {
         "primary": [
           "不安",
@@ -111,11 +135,19 @@
       "scholarly_context_summary_ja": "胎児の動きがなくなり王妃が強い不安を抱いて祭りを止めさせる。Met解説は悲嘆の身振りに言及。",
       "interpretation_caution_ja": "王妃がすでに実際に子を失ったと確定した絵としては扱わない。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/74983",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "registered_provisional",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "959aa57b5919b1bc90fa1e39eba1e8879ed3a38b808427e485e329b00627764b",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "Queen Trisala's Grief (at the Stillness of the Unborn): Folio from a Kalpasutra Manuscript",
+      "api_artist_value": "",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "15th century",
+      "image_bytes": 87010,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/as/web-large/55_121_38_8_d.JPG",
+      "curatorial_review_note": "Met API作品ID・題名・所蔵番号・PD・絵画・official JPEG実取得とSHA256照合に合格。感情索引は試験用で人間の最終承認なし。"
     },
     {
       "candidate_id": "met-38012",
@@ -127,7 +159,7 @@
       "title_ja_provisional": "憂鬱な遊女",
       "artist": "Unidentified artist",
       "culture": "India, Rajasthan",
-      "accession_number": null,
+      "accession_number": "1995.232",
       "provisional_emotions": {
         "primary": [
           "寂しさ"
@@ -137,11 +169,19 @@
       "scholarly_context_summary_ja": "酒杯を口元に寄せて物思いにふける女性。美術館は憂鬱の背景が酒か失われた物語か不確定と述べる。",
       "interpretation_caution_ja": "悲しみの原因や失恋を断定しない。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/38012",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "registered_provisional",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "44f43050640be3ebbf7b7ed17405535ba7ea68791170aeab92842964077d2194",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "Melancholy Courtesan",
+      "api_artist_value": "",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "ca. 1750",
+      "image_bytes": 127876,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/as/web-large/DT3878.jpg",
+      "curatorial_review_note": "Met API作品ID・題名・所蔵番号・PD・絵画・official JPEG実取得とSHA256照合に合格。感情索引は試験用で人間の最終承認なし。"
     },
     {
       "candidate_id": "met-441352",
@@ -153,7 +193,7 @@
       "title_ja_provisional": "スルタンの虎",
       "artist": "Benjamin-Constant (Jean-Joseph-Benjamin Constant)",
       "culture": "France / imagined Ottoman court",
-      "accession_number": null,
+      "accession_number": "2017.202.2",
       "provisional_emotions": {
         "primary": [
           "喪失感"
@@ -165,11 +205,19 @@
       "scholarly_context_summary_ja": "ヴィクトル・ユーゴーの詩『パシャの悲嘆』とMetが関連づける。愛した虎を失って悲しむ統治者の物語。",
       "interpretation_caution_ja": "オリエンタリズム的な想像をオスマンの歴史的事実と扱わない。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/441352",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "registered_provisional",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "66009ad96cf8f71984e7903a0b3c9d77d58b670d0b7c14766d582f4d63930fb1",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "The Sultan's Tiger",
+      "api_artist_value": "Benjamin-Constant (Jean-Joseph-Benjamin Constant)",
+      "api_classification_value": "Paintings",
+      "creation_date_display": null,
+      "image_bytes": 97595,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14274-001.jpg",
+      "curatorial_review_note": "Met API作品ID・題名・所蔵番号・PD・絵画・official JPEG実取得とSHA256照合に合格。感情索引は試験用で人間の最終承認なし。"
     },
     {
       "candidate_id": "met-36007",
@@ -181,7 +229,7 @@
       "title_ja_provisional": "渡し舟を待つ",
       "artist": "Unidentified artist",
       "culture": "China, Song",
-      "accession_number": null,
+      "accession_number": "13.100.117",
       "provisional_emotions": {
         "primary": [
           "安心"
@@ -193,11 +241,19 @@
       "scholarly_context_summary_ja": "雪の山と水辺で小舟を待つ旅人。Metは静寂と寒さを強調。",
       "interpretation_caution_ja": "待つ動作だけから『期待』主タグを付けず、まず静寂の描写と考える。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/36007",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "held_weak_emotion_evidence_ferry_waiting",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "aa78616adf5d72bafcd2975ba4d2e5a5b05d1d411171a51b8e2a73129ecb656e",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "Waiting for the Ferry",
+      "api_artist_value": "Unidentified artist",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "early 13th century",
+      "image_bytes": 91209,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP153496.jpg",
+      "curatorial_review_note": "作品の感情タグと典拠の関係が十分強くない/想像による補完の懸念があるため保留。"
     },
     {
       "candidate_id": "met-748432",
@@ -209,7 +265,7 @@
       "title_ja_provisional": "金剛山内山総図",
       "artist": "Sin Hak-gwon (artist name: Doam)",
       "culture": "Korea",
-      "accession_number": null,
+      "accession_number": "2017.185",
       "provisional_emotions": {
         "primary": [
           "懐かしさ"
@@ -221,11 +277,19 @@
       "scholarly_context_summary_ja": "憧れの金剛山を未訪問者も思い描ける鳥瞰図。Metは名勝を求める人々の切望と歴史的な土地への記憶を説明。",
       "interpretation_caution_ja": "特定の画家の故郷への郷愁とは同義でない。六枚の紙を一枚にした横長画面。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/748432",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "held_panorama_image_completeness",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "42fce7f4b70820a31985bc13c6ee81ada70e315b9a4491f16b58130d062e51fd",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "General View of Inner Geumgang",
+      "api_artist_value": "Sin Hak-gwon (artist name: Doam)",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "mid-19th century",
+      "image_bytes": 66248,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-13538-001.jpg",
+      "curatorial_review_note": "複数画面/長い横長作品の画像一式・順序・視認性の確認が不足。"
     },
     {
       "candidate_id": "met-10790",
@@ -237,7 +301,7 @@
       "title_ja_provisional": "森の中で",
       "artist": "Asher Brown Durand",
       "culture": "United States",
-      "accession_number": null,
+      "accession_number": "95.13.1",
       "provisional_emotions": {
         "primary": [
           "孤独",
@@ -248,11 +312,19 @@
       "scholarly_context_summary_ja": "深い森の影と独り過ごす感覚。作者の『風景の中で息をし、木陰に休む』趣旨の公開時の論説とMet解説が関連する。",
       "interpretation_caution_ja": "孤独が不幸な寂しさであるという読みにはしない。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/10790",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "registered_provisional",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "7df5d2a564c7e4bd9196ff22f4790fd6fe9d646e8dbecb8ba1cb06ac67174d50",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "In the Woods",
+      "api_artist_value": "Asher Brown Durand",
+      "api_classification_value": "",
+      "creation_date_display": "1855",
+      "image_bytes": 166532,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/ad/web-large/co.ap.95.13.1_1.jpg",
+      "curatorial_review_note": "Met API作品ID・題名・所蔵番号・PD・絵画・official JPEG実取得とSHA256照合に合格。感情索引は試験用で人間の最終承認なし。"
     },
     {
       "candidate_id": "met-11116",
@@ -264,7 +336,7 @@
       "title_ja_provisional": "カーニバルの支度",
       "artist": "Winslow Homer",
       "culture": "United States",
-      "accession_number": null,
+      "accession_number": "22.220",
       "provisional_emotions": {
         "primary": [
           "希望"
@@ -276,11 +348,19 @@
       "scholarly_context_summary_ja": "解放後の黒人コミュニティの祭りの連続性と、1877年に失われた市民権という対照をMetが解説。",
       "interpretation_caution_ja": "単に楽しげな祭りとして歴史的な抑圧を消さない。希望は抵抗と継続への接点。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/11116",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "registered_provisional",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "a97c07f768b773aa9328e7e3b08b4c4769940030c984a071ebf47cc7c84cc5cc",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "Dressing for the Carnival",
+      "api_artist_value": "Winslow Homer",
+      "api_classification_value": "",
+      "creation_date_display": "1877",
+      "image_bytes": 115251,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-21443-001.jpg",
+      "curatorial_review_note": "Met API作品ID・題名・所蔵番号・PD・絵画・official JPEG実取得とSHA256照合に合格。感情索引は試験用で人間の最終承認なし。"
     },
     {
       "candidate_id": "met-898196",
@@ -292,7 +372,7 @@
       "title_ja_provisional": "ベリゼールとフレイ家の子供たち",
       "artist": "Attributed to Jacques Guillaume Lucien Amans",
       "culture": "United States, Louisiana",
-      "accession_number": null,
+      "accession_number": "2023.317",
       "provisional_emotions": {
         "primary": [
           "好奇心"
@@ -304,11 +384,19 @@
       "scholarly_context_summary_ja": "奴隷とされた少年の姿が後世に隠され、修復で発見された。Metは少年のその後と被写体の名前も研究。",
       "interpretation_caution_ja": "黒人少年を白人家族の幸福の飾りとして表示しない。好奇心は再発見された歴史を知る入口。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/898196",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "registered_provisional",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "c94134b6aa0a02ce4fb32697d5e20823b8e6e438c213ff238d02885d52805317",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "Bélizaire and the Frey Children",
+      "api_artist_value": "Jacques Guillaume Lucien Amans",
+      "api_classification_value": "",
+      "creation_date_display": "ca. 1837",
+      "image_bytes": 126481,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-29949-003.jpg",
+      "curatorial_review_note": "Met API作品ID・題名・所蔵番号・PD・絵画・official JPEG実取得とSHA256照合に合格。感情索引は試験用で人間の最終承認なし。"
     },
     {
       "candidate_id": "met-48932",
@@ -320,7 +408,7 @@
       "title_ja_provisional": "蘭と岩",
       "artist": "Attributed to Ma Shouzhen",
       "culture": "China",
-      "accession_number": null,
+      "accession_number": "1982.1.7",
       "provisional_emotions": {
         "primary": [
           "懐かしさ"
@@ -330,11 +418,19 @@
       "scholarly_context_summary_ja": "女性の文化人として知られた馬守真の作品（伝）。明王朝の滅亡後に秦淮八艶への郷愁が形成されたことをMetが示す。",
       "interpretation_caution_ja": "後代の人々の郷愁と、馬守真本人の制作意図とを同一視しない。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/48932",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "registered_provisional",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "4fcfcf75474c6384f5e2bded0f54a57f3afb948f6c486f2f2e7b39a9b6cb0e87",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "Orchid and rock",
+      "api_artist_value": "Ma Shouzhen",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "dated 1572",
+      "image_bytes": 148998,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/as/web-large/DT8794.jpg",
+      "curatorial_review_note": "Met API作品ID・題名・所蔵番号・PD・絵画・official JPEG実取得とSHA256照合に合格。感情索引は試験用で人間の最終承認なし。"
     },
     {
       "candidate_id": "met-871870",
@@ -346,7 +442,7 @@
       "title_ja_provisional": "雷",
       "artist": "Horii Kōha",
       "culture": "Japan",
-      "accession_number": null,
+      "accession_number": "2022.498",
       "provisional_emotions": {
         "primary": [
           "懐かしさ",
@@ -357,11 +453,19 @@
       "scholarly_context_summary_ja": "大正期の日本画が源氏物語に通じる平安宮廷の理想化を通じて懐かしさを喚起し、雷に怯える侍女を描く。",
       "interpretation_caution_ja": "1920世紀日本人作家の作品で著作権・Met PDの確認が必須。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/871870",
-      "registration_status": "research_only_pending",
+      "registration_status": "held_official_pd_false",
       "official_api_live_checked": false,
       "actual_image_download_verified": false,
       "image_sha256": null,
-      "image_subject_visual_checked": false
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": false,
+      "api_title_value": "Thunder",
+      "api_artist_value": "Horii Kōha 堀井香坡",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "1917",
+      "image_bytes": null,
+      "official_primary_image_url": null,
+      "curatorial_review_note": "Metの現行isPublicDomain=false。配布可能画像とは扱わない。"
     },
     {
       "candidate_id": "met-48923",
@@ -373,7 +477,7 @@
       "title_ja_provisional": "月に秋草図屏風",
       "artist": "Studio of Tawaraya Sōtatsu",
       "culture": "Japan",
-      "accession_number": null,
+      "accession_number": "1975.268.60, .61",
       "provisional_emotions": {
         "primary": [
           "懐かしさ"
@@ -385,11 +489,19 @@
       "scholarly_context_summary_ja": "秋草と月は平安以来の郷愁を誘う主題。Metの個別解説が明記。",
       "interpretation_caution_ja": "二隻一対の六曲屏風なので画像組と左右順を確認する。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/48923",
-      "registration_status": "research_only_pending",
+      "registration_status": "held_artist_attribution_and_screen_pair",
       "official_api_live_checked": false,
       "actual_image_download_verified": false,
       "image_sha256": null,
-      "image_subject_visual_checked": false
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "Moon and Autumn Grasses",
+      "api_artist_value": "Tawaraya Sōtatsu",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "mid- to late 17th century",
+      "image_bytes": null,
+      "official_primary_image_url": null,
+      "curatorial_review_note": "複数画面/長い横長作品の画像一式・順序・視認性の確認が不足。"
     },
     {
       "candidate_id": "met-853201",
@@ -401,7 +513,7 @@
       "title_ja_provisional": "瀟湘八景図",
       "artist": "Iwasa Matabei (Iwasa Matabē)",
       "culture": "Japan",
-      "accession_number": null,
+      "accession_number": "2022.432.12a, b",
       "provisional_emotions": {
         "primary": [
           "懐かしさ"
@@ -413,11 +525,19 @@
       "scholarly_context_summary_ja": "岩佐又兵衛晩年の中国景勝図。Metは古い詩で描かれた景色への郷愁を指摘。",
       "interpretation_caution_ja": "二幅対の掛幅を混同せず全体を表示する。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/853201",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "held_paired_hanging_scrolls",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "b5a5651f56a9ad464f881c9eba345d5ef4b5d81517d8e3e06e23f0d0b4754a43",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "Eight Views of Xiao and Xiang",
+      "api_artist_value": "Iwasa Matabei (Iwasa Matabē) 岩佐又兵衛",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "ca. 1640s",
+      "image_bytes": 88242,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-25265-001.jpg",
+      "curatorial_review_note": "複数画面/長い横長作品の画像一式・順序・視認性の確認が不足。"
     },
     {
       "candidate_id": "met-48969",
@@ -429,7 +549,7 @@
       "title_ja_provisional": "後赤壁賦図",
       "artist": "Zhang Ruitu",
       "culture": "China",
-      "accession_number": null,
+      "accession_number": "1989.363.108",
       "provisional_emotions": {
         "primary": [
           "懐かしさ",
@@ -440,11 +560,19 @@
       "scholarly_context_summary_ja": "蘇軾の詩と官職から退いた画家の心境をMetが関係づける。",
       "interpretation_caution_ja": "手巻の長い絵巻、代表画像だけで完結作品としない。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/48969",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "held_long_handscroll_full_sequence",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "854ad05d6aedd5a8f37eddf2e2df9cac6fdae1d3149a316592b4d500c9a86de9",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "Illustration of Su Shi’s “Second Rhapsody on Red Cliff”",
+      "api_artist_value": "Zhang Ruitu",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "dated 1628",
+      "image_bytes": 84872,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP205432_CRD.jpg",
+      "curatorial_review_note": "複数画面/長い横長作品の画像一式・順序・視認性の確認が不足。"
     },
     {
       "candidate_id": "met-454429",
@@ -456,7 +584,7 @@
       "title_ja_provisional": "モティジルのモスクと門",
       "artist": "Attributed to Sita Ram",
       "culture": "India, Bengal",
-      "accession_number": null,
+      "accession_number": "2002.461",
       "provisional_emotions": {
         "primary": [
           "懐かしさ"
@@ -468,11 +596,19 @@
       "scholarly_context_summary_ja": "英国植民地支配前のムガル朝への郷愁を示唆する意図的な廃墟の構図とMetが解説。",
       "interpretation_caution_ja": "Met公式分類はCodices。絵画主体でも現行Painting専用台帳では保留。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/454429",
-      "registration_status": "research_only_pending",
+      "registration_status": "held_nonpainting_classification_codices",
       "official_api_live_checked": false,
       "actual_image_download_verified": false,
       "image_sha256": null,
-      "image_subject_visual_checked": false
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "View of a Mosque and Gateway at Motijhil",
+      "api_artist_value": "Sita Ram",
+      "api_classification_value": "Codices",
+      "creation_date_display": "ca. 1814–23",
+      "image_bytes": null,
+      "official_primary_image_url": null,
+      "curatorial_review_note": "MetのclassificationがCodices。現在の絵画限定スキーマ対象外。"
     },
     {
       "candidate_id": "met-435978",
@@ -484,7 +620,7 @@
       "title_ja_provisional": "歴史のミューズ",
       "artist": "Camille Corot",
       "culture": "France",
-      "accession_number": null,
+      "accession_number": "29.100.193",
       "provisional_emotions": {
         "primary": [
           "寂しさ"
@@ -494,11 +630,19 @@
       "scholarly_context_summary_ja": "Metが憂愁を喚起する女性像で、同作者のミューズ連作に共通する主題と解説。",
       "interpretation_caution_ja": "憂愁と寂しさの区別は残し、具体的な失恋と決めつけない。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/435978",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "registered_provisional",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "75eed9a98a7ff1c07d747931a83c1de2209d5ff261373f2400fc3fc7f56dbba3",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "The Muse: History",
+      "api_artist_value": "Camille Corot",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "ca. 1865",
+      "image_bytes": 98896,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16591-001.jpg",
+      "curatorial_review_note": "Met API作品ID・題名・所蔵番号・PD・絵画・official JPEG実取得とSHA256照合に合格。感情索引は試験用で人間の最終承認なし。"
     },
     {
       "candidate_id": "met-438130",
@@ -510,7 +654,7 @@
       "title_ja_provisional": "ゴンドラの出発",
       "artist": "Giovanni Domenico Tiepolo",
       "culture": "Italy, Venice",
-      "accession_number": null,
+      "accession_number": "2019.141.20",
       "provisional_emotions": {
         "primary": [
           "喜び"
@@ -522,11 +666,19 @@
       "scholarly_context_summary_ja": "ヴェネツィアのカーニバルの仮面・服装と運河の出発場面をMetが紹介。",
       "interpretation_caution_ja": "人物が具体的に喜んでいる証拠はなく社会的な祝祭場面の索引にとどめる。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/438130",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "held_weak_joy_expectation_evidence",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "4801d7c34edd5c3d8caef96691963ef0825a2c420850fa0396a4246e2207689d",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "The Departure of the Gondola",
+      "api_artist_value": "Giovanni Domenico Tiepolo",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "mid-1760s",
+      "image_bytes": 77934,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT209325.jpg",
+      "curatorial_review_note": "作品の感情タグと典拠の関係が十分強くない/想像による補完の懸念があるため保留。"
     },
     {
       "candidate_id": "met-435650",
@@ -538,7 +690,7 @@
       "title_ja_provisional": "リシュモン夫人と息子",
       "artist": "Marie Guillemine Benoist",
       "culture": "France, colonial Reunion context",
-      "accession_number": null,
+      "accession_number": "53.61.4",
       "provisional_emotions": {
         "primary": [
           "好奇心"
@@ -548,11 +700,19 @@
       "scholarly_context_summary_ja": "女性画家による母子肖像で、被写体の富がレユニオン島の奴隷労働に基づくことをMetが詳述。",
       "interpretation_caution_ja": "愛情の象徴として植民地主義の背景を消して紹介しない。感情の直接根拠は弱い。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/435650",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "registered_provisional",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "e7702de388c6583db6c3bc40663d2a29996741d2b863600059d867796d4d472e",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "Madame Philippe Panon Desbassayns de Richemont (Jeanne Eglé Mourgue, 1778–1855) and Her Son, Eugène (1800–1859)",
+      "api_artist_value": "Marie Guillemine Benoist",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "1802",
+      "image_bytes": 101700,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13442-001.jpg",
+      "curatorial_review_note": "Met API作品ID・題名・所蔵番号・PD・絵画・official JPEG実取得とSHA256照合に合格。感情索引は試験用で人間の最終承認なし。"
     },
     {
       "candidate_id": "met-11269",
@@ -564,7 +724,7 @@
       "title_ja_provisional": "エドワードとサラ・ラター",
       "artist": "Joshua Johnson",
       "culture": "United States",
-      "accession_number": null,
+      "accession_number": "65.254.3",
       "provisional_emotions": {
         "primary": [
           "希望"
@@ -576,11 +736,19 @@
       "scholarly_context_summary_ja": "奴隷とされた母の息子である画家が、初期の黒人職業画家として自営し白人の注文主の子を描く。",
       "interpretation_caution_ja": "作者が個人的に希望を描いたと主張しない。希望は歴史的な境遇への鑑賞的接点。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/11269",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "held_artist_biography_not_work_emotion",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "746c8e3d2514859415c6d11c8b44fe6177ba3b63aab3f5306ae4876dbbbf80be",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "Edward and Sarah Rutter",
+      "api_artist_value": "Joshua Johnson",
+      "api_classification_value": "",
+      "creation_date_display": "ca. 1805",
+      "image_bytes": 76643,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT5512.jpg",
+      "curatorial_review_note": "作品の感情タグと典拠の関係が十分強くない/想像による補完の懸念があるため保留。"
     },
     {
       "candidate_id": "met-20888",
@@ -592,7 +760,7 @@
       "title_ja_provisional": "クリスマスの支度",
       "artist": "Francis William Edmonds",
       "culture": "United States",
-      "accession_number": null,
+      "accession_number": "2016.797.19",
       "provisional_emotions": {
         "primary": [
           "期待"
@@ -604,11 +772,19 @@
       "scholarly_context_summary_ja": "年末の食卓への準備という題材を通じ、当時の黒人の類型的な描写をMetが批判的に考察。",
       "interpretation_caution_ja": "人種的なステレオタイプを祝祭の明るさで隠さない。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/20888",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "registered_provisional",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "fed1bf829d34c8e95e5374df96c0ef8eb14be699dd7802cba229ba2809625463",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "Preparing for Christmas (Plucking Turkeys)",
+      "api_artist_value": "Francis William Edmonds",
+      "api_classification_value": "",
+      "creation_date_display": "1851",
+      "image_bytes": 119461,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-14639-001.jpg",
+      "curatorial_review_note": "Met API作品ID・題名・所蔵番号・PD・絵画・official JPEG実取得とSHA256照合に合格。感情索引は試験用で人間の最終承認なし。"
     },
     {
       "candidate_id": "met-40459",
@@ -620,7 +796,7 @@
       "title_ja_provisional": "葡萄双鶏図",
       "artist": "Itō Jakuchū",
       "culture": "Japan",
-      "accession_number": null,
+      "accession_number": "1975.268.69",
       "provisional_emotions": {
         "primary": [
           "期待",
@@ -631,11 +807,19 @@
       "scholarly_context_summary_ja": "Metは鳴くのを待つ雌鶏と気取った雄鶏という擬人的な行動に言及。",
       "interpretation_caution_ja": "雌鶏が人間的な将来への期待を持つとは断定しない。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/40459",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "held_anthropomorphic_expectation_weak",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "fe87cde8b8a6125541e9e630d40e2a2702f0fe03ad5426e7e2db8ddb4b1d8bc3",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "Hen and Rooster with Grapevine",
+      "api_artist_value": "Itō Jakuchū",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "1792",
+      "image_bytes": 64220,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-36792-002.jpg",
+      "curatorial_review_note": "作品の感情タグと典拠の関係が十分強くない/想像による補完の懸念があるため保留。"
     },
     {
       "candidate_id": "met-435727",
@@ -647,7 +831,7 @@
       "title_ja_provisional": "パウラとエウストキウムの旅立ち",
       "artist": "Giuseppe Bottani",
       "culture": "Italy",
-      "accession_number": null,
+      "accession_number": "1991.445",
       "provisional_emotions": {
         "primary": [
           "希望"
@@ -659,11 +843,19 @@
       "scholarly_context_summary_ja": "母娘が聖地へ旅立ち修道院を建設する聖人伝の場面。",
       "interpretation_caution_ja": "宗教的な旅立ちを作者本人の希望の実感と区別する。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/435727",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "registered_provisional",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "835bc91fad9832927a17a6addacc064ebb5c49d18f65532daf76f40cd39846f8",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "The Departure of Saints Paula and Eustochium for the Holy Land",
+      "api_artist_value": "Giuseppe Bottani",
+      "api_classification_value": "Paintings",
+      "creation_date_display": null,
+      "image_bytes": 96455,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-22845-001.jpg",
+      "curatorial_review_note": "Met API作品ID・題名・所蔵番号・PD・絵画・official JPEG実取得とSHA256照合に合格。感情索引は試験用で人間の最終承認なし。"
     },
     {
       "candidate_id": "met-53460",
@@ -675,7 +867,7 @@
       "title_ja_provisional": "琴を背負い野橋を渡る",
       "artist": "Urakami (Uragami) Gyokudō",
       "culture": "Japan",
-      "accession_number": null,
+      "accession_number": "2015.300.177",
       "provisional_emotions": {
         "primary": [
           "期待"
@@ -687,11 +879,19 @@
       "scholarly_context_summary_ja": "琴を携えた人物が橋を渡り待つ知人に会う場面。玉堂の文人生活と琴への関心がMetに記録される。",
       "interpretation_caution_ja": "誰かに会う物語上の期待と作者の本心を区別。 公式作者欄は別綴りを併記する。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/53460",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "registered_provisional",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "00ca52c34d425eede1a7e3ab4f69d2021afd848158fce670f4b1ba36d15649c3",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "On a Rustic Bridge, Carrying a Zither",
+      "api_artist_value": "Urakami (Uragami) Gyokudō 浦上玉堂",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "1814",
+      "image_bytes": 108074,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-12232-212.jpg",
+      "curatorial_review_note": "Met API作品ID・題名・所蔵番号・PD・絵画・official JPEG実取得とSHA256照合に合格。感情索引は試験用で人間の最終承認なし。"
     },
     {
       "candidate_id": "met-437035",
@@ -703,7 +903,7 @@
       "title_ja_provisional": "哀悼（ネーデルラント）",
       "artist": "Master of the Virgin among Virgins",
       "culture": "Netherlands",
-      "accession_number": null,
+      "accession_number": "26.26",
       "provisional_emotions": {
         "primary": [
           "喪失感"
@@ -713,11 +913,19 @@
       "scholarly_context_summary_ja": "キリストの遺体を囲んで涙を流す者たち。Metは悲嘆を誘う宗教画と説明。",
       "interpretation_caution_ja": "作者本人の死別ではない。 Met公式作者欄は『Master of the Virgin among Virgins』で、工房作とは別個の帰属不確実性がある。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/437035",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "registered_provisional",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "78c649640c0c47891ba01ba06516757d68795d8722736a4bb2c90260c3d4f232",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "The Lamentation",
+      "api_artist_value": "Master of the Virgin among Virgins",
+      "api_classification_value": "Paintings",
+      "creation_date_display": null,
+      "image_bytes": 118940,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23271-001.jpg",
+      "curatorial_review_note": "Met API作品ID・題名・所蔵番号・PD・絵画・official JPEG実取得とSHA256照合に合格。感情索引は試験用で人間の最終承認なし。"
     },
     {
       "candidate_id": "met-439553",
@@ -729,7 +937,7 @@
       "title_ja_provisional": "哀悼（ドメニキーノ）",
       "artist": "Domenichino (Domenico Zampieri)",
       "culture": "Italy",
-      "accession_number": null,
+      "accession_number": "2008.72",
       "provisional_emotions": {
         "primary": [
           "喪失感"
@@ -739,11 +947,19 @@
       "scholarly_context_summary_ja": "抑制された悲しみの表現をMetが明記。アニーバレ・カラッチの構図を発展。",
       "interpretation_caution_ja": "宗教物語上の悲しみで作家の心境を証明しない。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/439553",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "registered_provisional",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "b3651d78e6692e7e6ac965d5887bbdb5353449a221a439b9f8f09038e0197c3e",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "The Lamentation",
+      "api_artist_value": "Domenichino (Domenico Zampieri)",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "1603",
+      "image_bytes": 99700,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP159526.jpg",
+      "curatorial_review_note": "Met API作品ID・題名・所蔵番号・PD・絵画・official JPEG実取得とSHA256照合に合格。感情索引は試験用で人間の最終承認なし。"
     },
     {
       "candidate_id": "met-435580",
@@ -755,7 +971,7 @@
       "title_ja_provisional": "荊冠のキリスト",
       "artist": "Antonello da Messina (Antonello di Giovanni d'Antonio)",
       "culture": "Italy",
-      "accession_number": null,
+      "accession_number": "32.100.82",
       "provisional_emotions": {
         "primary": [
           "喪失感"
@@ -765,11 +981,19 @@
       "scholarly_context_summary_ja": "正面の姿を通じてキリストの苦しみを観想する宗教画。",
       "interpretation_caution_ja": "死別の喪失感とは直接重ならないため主タグは再検討。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/435580",
-      "registration_status": "research_only_pending",
-      "official_api_live_checked": false,
-      "actual_image_download_verified": false,
-      "image_sha256": null,
-      "image_subject_visual_checked": false
+      "registration_status": "held_pain_not_bereavement",
+      "official_api_live_checked": true,
+      "actual_image_download_verified": true,
+      "image_sha256": "1c2f6a7610e6f0ff36139830c1387ac4b5fbfa764d2818fc1f8a11a7c65acc15",
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": true,
+      "api_title_value": "Christ Crowned with Thorns",
+      "api_artist_value": "Antonello da Messina (Antonello di Giovanni d'Antonio)",
+      "api_classification_value": "Paintings",
+      "creation_date_display": null,
+      "image_bytes": 231980,
+      "official_primary_image_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT285189.jpg",
+      "curatorial_review_note": "作品の感情タグと典拠の関係が十分強くない/想像による補完の懸念があるため保留。"
     },
     {
       "candidate_id": "met-49802",
@@ -781,7 +1005,7 @@
       "title_ja_provisional": "蓮",
       "artist": "Chang Dai-chien (Zhang Daqian)",
       "culture": "China",
-      "accession_number": null,
+      "accession_number": "1986.267.358",
       "provisional_emotions": {
         "primary": [
           "懐かしさ"
@@ -791,11 +1015,19 @@
       "scholarly_context_summary_ja": "幼年期の中国南部を懐かしむ画家の詩が作品に添えられた。",
       "interpretation_caution_ja": "著作権表示あり、公式isPublicDomain=falseを想定し公開不可なら保留。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/49802",
-      "registration_status": "research_only_pending",
+      "registration_status": "held_official_pd_false",
       "official_api_live_checked": false,
       "actual_image_download_verified": false,
       "image_sha256": null,
-      "image_subject_visual_checked": false
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": false,
+      "api_title_value": "Lotus",
+      "api_artist_value": "Chang Dai-chien (Zhang Daqian)",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "dated 1935",
+      "image_bytes": null,
+      "official_primary_image_url": null,
+      "curatorial_review_note": "Metの現行isPublicDomain=false。配布可能画像とは扱わない。"
     },
     {
       "candidate_id": "met-910299",
@@ -807,7 +1039,7 @@
       "title_ja_provisional": "エヴァーグリーン・ビューティー",
       "artist": "Yeung Tong Lung",
       "culture": "Hong Kong",
-      "accession_number": null,
+      "accession_number": "2024.405",
       "provisional_emotions": {
         "primary": [
           "懐かしさ"
@@ -817,11 +1049,19 @@
       "scholarly_context_summary_ja": "香港の昔の理髪店と植民地期の記憶、移住をめぐる画家の主題をMetが解説。",
       "interpretation_caution_ja": "現代作品なのでPDでない場合画像登録不可。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/910299",
-      "registration_status": "research_only_pending",
+      "registration_status": "held_official_pd_false",
       "official_api_live_checked": false,
       "actual_image_download_verified": false,
       "image_sha256": null,
-      "image_subject_visual_checked": false
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": false,
+      "api_title_value": "Evergreen Beauty",
+      "api_artist_value": "Yeung Tong Lung",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "2017",
+      "image_bytes": null,
+      "official_primary_image_url": null,
+      "curatorial_review_note": "Metの現行isPublicDomain=false。配布可能画像とは扱わない。"
     },
     {
       "candidate_id": "met-924756",
@@ -833,7 +1073,7 @@
       "title_ja_provisional": "緑の壁と懐中電灯の部屋",
       "artist": "Zhang Xiaogang",
       "culture": "China",
-      "accession_number": null,
+      "accession_number": "2025.748",
       "provisional_emotions": {
         "primary": [
           "懐かしさ"
@@ -843,11 +1083,22 @@
       "scholarly_context_summary_ja": "文革期の幼少期の部屋を描き、記憶と真実の距離を問う画家の作品。",
       "interpretation_caution_ja": "現代作品で公式PDフラグがfalseなら登録不可。",
       "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/924756",
-      "registration_status": "research_only_pending",
+      "registration_status": "held_official_pd_false",
       "official_api_live_checked": false,
       "actual_image_download_verified": false,
       "image_sha256": null,
-      "image_subject_visual_checked": false
+      "image_subject_visual_checked": false,
+      "api_public_domain_flag": false,
+      "api_title_value": "Green Wall - Room with Flashlight",
+      "api_artist_value": "Zhang Xiaogang",
+      "api_classification_value": "Paintings",
+      "creation_date_display": "2008",
+      "image_bytes": null,
+      "official_primary_image_url": null,
+      "curatorial_review_note": "Metの現行isPublicDomain=false。配布可能画像とは扱わない。"
     }
-  ]
+  ],
+  "registration_target": "17_registered_14_held",
+  "official_verification_report": "docs/batch010-online-result.json",
+  "last_reviewed_on": "2026-10-19"
 }
