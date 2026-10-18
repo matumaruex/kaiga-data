@@ -65,7 +65,7 @@ def check(c):
     }
     if c["artist"] != "Unidentified artist":
         artist = str(record.get("artistDisplayName", "")).casefold().strip()
-        checks["artist"] = bool(artist) and c["artist"].casefold() in artist
+        checks["artist"] = bool(artist) and c["artist"].casefold().removeprefix("attributed to ").strip() in artist
     item["metadata_checks"] = checks
     item["museum_record_verified"] = all(checks.values())
     if not item["museum_record_verified"]:
