@@ -1,0 +1,483 @@
+{
+  "schema_version": "1.1.0",
+  "batch": "batch-005",
+  "created_on": "2026-10-18",
+  "status": "research_candidates",
+  "description": "一次資料や美術館の学術カタログに基づく新11候補。AICの作品固有ID・作品名・著作権・画像ID、Commons JPEGとSHA256はこの段階で未照合。検証したものだけ試験用登録する。",
+  "works": [
+    {
+      "candidate_key": "aic-accession-1933.1152",
+      "accession_number": "1933.1152",
+      "expected_title": "Apples and Grapes",
+      "expected_artist": "Claude Monet",
+      "title_ja_provisional": "リンゴとブドウ",
+      "source_catalogue_url": "https://publications.artic.edu/monet/api/epub/135466/135552/print_view",
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_yet_assessed",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "妻カミーユの死の前後、生活上・経済上の不安を抱えたモネが静物画を制作した。美術館研究は、屋外制作から離れて主題を制御できることや市場性にも注目している。",
+          "source_url": "https://publications.artic.edu/monet/api/epub/135466/135552/print_view"
+        },
+        "creation_context": "妻カミーユの死の前後、生活上・経済上の不安を抱えたモネが静物画を制作した。美術館研究は、屋外制作から離れて主題を制御できることや市場性にも注目している。",
+        "visual_clues": "画像取得・同定後に作品ごとに書き込む。",
+        "uncertainty_note": "作者がこの果物を悲しみの象徴として描いたという記録はない。静物の制作が死別後の生活を支えた可能性と、象徴的な意味の確定は分ける。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": [
+          "喪失感"
+        ]
+      },
+      "fitting_situations": [
+        {
+          "situation": "一見美しい果物の静物が、死別や生活の変化のなかで描かれた事情に気づく",
+          "reason": "妻カミーユの死の前後、生活上・経済上の不安を抱えたモネが静物画を制作した。美術館研究は、屋外制作から離れて主題を制御できることや市場性にも注目している。",
+          "strength": 2
+        }
+      ],
+      "review": {
+        "status": "awaiting_current_aic_api_and_commons_image",
+        "not_for_exhibition": true
+      },
+      "official_metadata_check": null,
+      "image_verification": null
+    },
+    {
+      "candidate_key": "aic-accession-1922.427",
+      "accession_number": "1922.427",
+      "expected_title": "On the Bank of the Seine, Bennecourt",
+      "expected_artist": "Claude Monet",
+      "title_ja_provisional": "セーヌ河畔、ベヌクール",
+      "source_catalogue_url": "https://publications.artic.edu/monet/reader/paintingsanddrawings/section/135549",
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_yet_assessed",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "1868年、カミーユと乳児の息子と滞在した地を描き、経済的不安と家族の生活が背景にあった。技術調査では女性像の隣の人物を塗り消した痕跡も示される。",
+          "source_url": "https://publications.artic.edu/monet/reader/paintingsanddrawings/section/135549"
+        },
+        "creation_context": "1868年、カミーユと乳児の息子と滞在した地を描き、経済的不安と家族の生活が背景にあった。技術調査では女性像の隣の人物を塗り消した痕跡も示される。",
+        "visual_clues": "画像取得・同定後に作品ごとに書き込む。",
+        "uncertainty_note": "消された人物の正体やモネの家族観は断定できない。穏やかな川辺を本人の安心感と直接結びつけない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": [
+          "不安"
+        ]
+      },
+      "fitting_situations": [
+        {
+          "situation": "のどかな風景の裏に、当時の家族生活や画面の塗り直しが隠れていた",
+          "reason": "1868年、カミーユと乳児の息子と滞在した地を描き、経済的不安と家族の生活が背景にあった。技術調査では女性像の隣の人物を塗り消した痕跡も示される。",
+          "strength": 2
+        }
+      ],
+      "review": {
+        "status": "awaiting_current_aic_api_and_commons_image",
+        "not_for_exhibition": true
+      },
+      "official_metadata_check": null,
+      "image_verification": null
+    },
+    {
+      "candidate_key": "aic-accession-1933.1153",
+      "accession_number": "1933.1153",
+      "expected_title": "The Artist's House at Argenteuil",
+      "expected_artist": "Claude Monet",
+      "title_ja_provisional": "アルジャントゥイユの画家の家",
+      "source_catalogue_url": "https://publications.artic.edu/monet/reader/paintingsanddrawings/section/135551",
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_yet_assessed",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "1873年、画商デュラン＝リュエルの購入によって安定した生活と家を得たモネが、家族の暮らした庭と住居を描いた。",
+          "source_url": "https://publications.artic.edu/monet/reader/paintingsanddrawings/section/135551"
+        },
+        "creation_context": "1873年、画商デュラン＝リュエルの購入によって安定した生活と家を得たモネが、家族の暮らした庭と住居を描いた。",
+        "visual_clues": "画像取得・同定後に作品ごとに書き込む。",
+        "uncertainty_note": "明るさは家庭の喜びを連想させるが、家の絵を作者自身の幸福宣言とは扱わない。翌年再び経済状況が変わった経緯も必要。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "安心"
+        ],
+        "secondary": [
+          "喜び"
+        ]
+      },
+      "fitting_situations": [
+        {
+          "situation": "穏やかな庭の明るさに、画家がようやく手にした居場所という背景が重なる",
+          "reason": "1873年、画商デュラン＝リュエルの購入によって安定した生活と家を得たモネが、家族の暮らした庭と住居を描いた。",
+          "strength": 2
+        }
+      ],
+      "review": {
+        "status": "awaiting_current_aic_api_and_commons_image",
+        "not_for_exhibition": true
+      },
+      "official_metadata_check": null,
+      "image_verification": null
+    },
+    {
+      "candidate_key": "aic-accession-1933.439",
+      "accession_number": "1933.439",
+      "expected_title": "The Beach at Sainte-Adresse",
+      "expected_artist": "Claude Monet",
+      "title_ja_provisional": "サン＝タドレスの海岸",
+      "source_catalogue_url": "https://publications.artic.edu/monet/reader/paintingsanddrawings/section/135467",
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_yet_assessed",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "観光化が進むノルマンディーの海岸を描き、自然を静かに眺めたい人々と保養地として変化する土地の両面を読み取れる。",
+          "source_url": "https://publications.artic.edu/monet/reader/paintingsanddrawings/section/135467"
+        },
+        "creation_context": "観光化が進むノルマンディーの海岸を描き、自然を静かに眺めたい人々と保養地として変化する土地の両面を読み取れる。",
+        "visual_clues": "画像取得・同定後に作品ごとに書き込む。",
+        "uncertainty_note": "作中の人物の感情を孤独や喜びに限定しない。『昔の海岸』が作者の郷愁を意味したと確定できない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": [
+          "懐かしさ"
+        ]
+      },
+      "fitting_situations": [
+        {
+          "situation": "静かな浜辺に見えるが、観光地に変貌する町の歴史も含む",
+          "reason": "観光化が進むノルマンディーの海岸を描き、自然を静かに眺めたい人々と保養地として変化する土地の両面を読み取れる。",
+          "strength": 2
+        }
+      ],
+      "review": {
+        "status": "awaiting_current_aic_api_and_commons_image",
+        "not_for_exhibition": true
+      },
+      "official_metadata_check": null,
+      "image_verification": null
+    },
+    {
+      "candidate_key": "aic-accession-1933.1158",
+      "accession_number": "1933.1158",
+      "expected_title": "Arrival of the Normandy Train, Gare Saint-Lazare",
+      "expected_artist": "Claude Monet",
+      "title_ja_provisional": "サン＝ラザール駅、ノルマンディー列車の到着",
+      "source_catalogue_url": "https://publications.artic.edu/monet/reader/paintingsanddrawings/section/135550",
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_yet_assessed",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "モネは田園風景から近代パリの駅と蒸気へ視線を移し、鉄道の施設・光・煙を大胆な筆触で描いた。",
+          "source_url": "https://publications.artic.edu/monet/reader/paintingsanddrawings/section/135550"
+        },
+        "creation_context": "モネは田園風景から近代パリの駅と蒸気へ視線を移し、鉄道の施設・光・煙を大胆な筆触で描いた。",
+        "visual_clues": "画像取得・同定後に作品ごとに書き込む。",
+        "uncertainty_note": "描かれた乗客が何を期待・不安に思っていたかは分からない。都市の近代化への作者の賛否も安易に断定しない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": [
+          "期待"
+        ]
+      },
+      "fitting_situations": [
+        {
+          "situation": "静かな自然だけの画家という予想が、蒸気と産業を描く作品で覆る",
+          "reason": "モネは田園風景から近代パリの駅と蒸気へ視線を移し、鉄道の施設・光・煙を大胆な筆触で描いた。",
+          "strength": 2
+        }
+      ],
+      "review": {
+        "status": "awaiting_current_aic_api_and_commons_image",
+        "not_for_exhibition": true
+      },
+      "official_metadata_check": null,
+      "image_verification": null
+    },
+    {
+      "candidate_key": "aic-accession-1922.433",
+      "accession_number": "1922.433",
+      "expected_title": "Young Peasant Having Her Coffee",
+      "expected_artist": "Camille Pissarro",
+      "title_ja_provisional": "コーヒーを飲む若い農婦",
+      "source_catalogue_url": "https://publications.artic.edu/pissarro/reader/paintingsandpaper/section/22",
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_yet_assessed",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "1882年の印象派展に出した農村の女性像で、作者は息子宛ての1883年の手紙で制作の丁寧さや完成度を高く評価した。下絵の存在が構想を示す。",
+          "source_url": "https://publications.artic.edu/pissarro/reader/paintingsandpaper/section/22"
+        },
+        "creation_context": "1882年の印象派展に出した農村の女性像で、作者は息子宛ての1883年の手紙で制作の丁寧さや完成度を高く評価した。下絵の存在が構想を示す。",
+        "visual_clues": "画像取得・同定後に作品ごとに書き込む。",
+        "uncertainty_note": "コーヒーを飲む女性の内心や家族状況は資料から確定できない。作者の作品評価と鑑賞者の安心感は別。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "安心"
+        ],
+        "secondary": [
+          "好奇心"
+        ]
+      },
+      "fitting_situations": [
+        {
+          "situation": "何気ない休憩の絵に、作家が労働者の人物像を真剣に研究した過程がある",
+          "reason": "1882年の印象派展に出した農村の女性像で、作者は息子宛ての1883年の手紙で制作の丁寧さや完成度を高く評価した。下絵の存在が構想を示す。",
+          "strength": 2
+        }
+      ],
+      "review": {
+        "status": "awaiting_current_aic_api_and_commons_image",
+        "not_for_exhibition": true
+      },
+      "official_metadata_check": null,
+      "image_verification": null
+    },
+    {
+      "candidate_key": "aic-accession-1922.436",
+      "accession_number": "1922.436",
+      "expected_title": "Woman and Child at the Well",
+      "expected_artist": "Camille Pissarro",
+      "title_ja_provisional": "井戸端の女性と子ども",
+      "source_catalogue_url": "https://publications.artic.edu/pissarro/reader/paintingsandpaper/section/23",
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_yet_assessed",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "ピサロが尊敬したシャルダンの家庭生活画から学びながら、より光と色彩に満ちた複雑な場面を創作した1882年の絵。",
+          "source_url": "https://publications.artic.edu/pissarro/reader/paintingsandpaper/section/23"
+        },
+        "creation_context": "ピサロが尊敬したシャルダンの家庭生活画から学びながら、より光と色彩に満ちた複雑な場面を創作した1882年の絵。",
+        "visual_clues": "画像取得・同定後に作品ごとに書き込む。",
+        "uncertainty_note": "女性と子どもの血縁や内心は不明。作者の制作意図を母性愛だけに還元しない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": [
+          "安心"
+        ]
+      },
+      "fitting_situations": [
+        {
+          "situation": "日常の家事の場面が、過去の画家への敬意と新たな色彩研究から生まれた",
+          "reason": "ピサロが尊敬したシャルダンの家庭生活画から学びながら、より光と色彩に満ちた複雑な場面を創作した1882年の絵。",
+          "strength": 2
+        }
+      ],
+      "review": {
+        "status": "awaiting_current_aic_api_and_commons_image",
+        "not_for_exhibition": true
+      },
+      "official_metadata_check": null,
+      "image_verification": null
+    },
+    {
+      "candidate_key": "aic-accession-1922.434",
+      "accession_number": "1922.434",
+      "expected_title": "The Place du Havre, Paris",
+      "expected_artist": "Camille Pissarro",
+      "title_ja_provisional": "パリ、アーヴル広場",
+      "source_catalogue_url": "https://publications.artic.edu/pissarro/reader/paintingsandpaper/section/25",
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_yet_assessed",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "1893年に画家がホテルの窓から大通りを描いた作品。同年の手紙には具体的な制作計画や作品への言及が残る。",
+          "source_url": "https://publications.artic.edu/pissarro/reader/paintingsandpaper/section/25"
+        },
+        "creation_context": "1893年に画家がホテルの窓から大通りを描いた作品。同年の手紙には具体的な制作計画や作品への言及が残る。",
+        "visual_clues": "画像取得・同定後に作品ごとに書き込む。",
+        "uncertainty_note": "作者が都会の孤独や喜びを表したと断定しない。近代都市の描写と本人の制作計画の記録を区別する。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": [
+          "期待"
+        ]
+      },
+      "fitting_situations": [
+        {
+          "situation": "街路の人混みを描く前に画家が窓からの視点を計画していたことが分かる",
+          "reason": "1893年に画家がホテルの窓から大通りを描いた作品。同年の手紙には具体的な制作計画や作品への言及が残る。",
+          "strength": 2
+        }
+      ],
+      "review": {
+        "status": "awaiting_current_aic_api_and_commons_image",
+        "not_for_exhibition": true
+      },
+      "official_metadata_check": null,
+      "image_verification": null
+    },
+    {
+      "candidate_key": "aic-accession-1959.636",
+      "accession_number": "1959.636",
+      "expected_title": "Woman Mending",
+      "expected_artist": "Camille Pissarro",
+      "title_ja_provisional": "繕い物をする女性",
+      "source_catalogue_url": "https://publications.artic.edu/pissarro/api/epub/7/27/print_view",
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_yet_assessed",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "1895年12月4日、ピサロは息子ルシアンへの手紙でこの作品を題名まで挙げ、自分が手応えを感じていることを書いた。モデルはローザと呼ばれた人物。",
+          "source_url": "https://publications.artic.edu/pissarro/api/epub/7/27/print_view"
+        },
+        "creation_context": "1895年12月4日、ピサロは息子ルシアンへの手紙でこの作品を題名まで挙げ、自分が手応えを感じていることを書いた。モデルはローザと呼ばれた人物。",
+        "visual_clues": "画像取得・同定後に作品ごとに書き込む。",
+        "uncertainty_note": "手応えは作品の完成度に関する作者の言葉であり、描かれた女性が幸せだったという証言ではない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": [
+          "安心"
+        ]
+      },
+      "fitting_situations": [
+        {
+          "situation": "目立たない針仕事の絵に、作者自身の制作の達成感が重なっている",
+          "reason": "1895年12月4日、ピサロは息子ルシアンへの手紙でこの作品を題名まで挙げ、自分が手応えを感じていることを書いた。モデルはローザと呼ばれた人物。",
+          "strength": 2
+        }
+      ],
+      "review": {
+        "status": "awaiting_current_aic_api_and_commons_image",
+        "not_for_exhibition": true
+      },
+      "official_metadata_check": null,
+      "image_verification": null
+    },
+    {
+      "candidate_key": "aic-accession-1926.200",
+      "accession_number": "1926.200",
+      "expected_title": "Madame Roulin Rocking the Cradle (La Berceuse)",
+      "expected_artist": "Vincent van Gogh",
+      "title_ja_provisional": "子守りをするルーラン夫人（ラ・ベルスーズ）",
+      "source_catalogue_url": "https://vangoghletters.org/vg/letters/let745/letter.html",
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_yet_assessed",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "ゴッホは子守歌を色彩で表そうとする狙い、船乗りが母の子守歌を思い出すような絵の構想を手紙で繰り返し語った。シカゴ所蔵作は複数ある版の一つ。",
+          "source_url": "https://vangoghletters.org/vg/letters/let745/letter.html"
+        },
+        "creation_context": "ゴッホは子守歌を色彩で表そうとする狙い、船乗りが母の子守歌を思い出すような絵の構想を手紙で繰り返し語った。シカゴ所蔵作は複数ある版の一つ。",
+        "visual_clues": "画像取得・同定後に作品ごとに書き込む。",
+        "uncertainty_note": "作者の直接の言葉はラ・ベルスーズという題材・連作への説明。シカゴ版の完成段階・色彩配列を特定する声明とは区別する。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "安心",
+          "懐かしさ"
+        ],
+        "secondary": [
+          "希望"
+        ]
+      },
+      "fitting_situations": [
+        {
+          "situation": "苦しい海を旅する人にも心を休める記憶を届けたいという作者の意図に触れる",
+          "reason": "ゴッホは子守歌を色彩で表そうとする狙い、船乗りが母の子守歌を思い出すような絵の構想を手紙で繰り返し語った。シカゴ所蔵作は複数ある版の一つ。",
+          "strength": 2
+        }
+      ],
+      "review": {
+        "status": "awaiting_current_aic_api_and_commons_image",
+        "not_for_exhibition": true
+      },
+      "official_metadata_check": null,
+      "image_verification": null
+    },
+    {
+      "candidate_key": "aic-accession-1934.391",
+      "accession_number": "1934.391",
+      "expected_title": "Arlésiennes (Mistral)",
+      "expected_artist": "Paul Gauguin",
+      "title_ja_provisional": "アルルの女性たち（ミストラル）",
+      "source_catalogue_url": "https://archive.artic.edu/vangogh/vg_list.html",
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_yet_assessed",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "ゴーギャンがゴッホとアルルの共同制作生活を送った1888年末に描いた、風の強い町の人物像。2人の視覚的な方法や制作理念の違いが背景にある。",
+          "source_url": "https://archive.artic.edu/vangogh/vg_list.html"
+        },
+        "creation_context": "ゴーギャンがゴッホとアルルの共同制作生活を送った1888年末に描いた、風の強い町の人物像。2人の視覚的な方法や制作理念の違いが背景にある。",
+        "visual_clues": "画像取得・同定後に作品ごとに書き込む。",
+        "uncertainty_note": "人物が対立しているという心理や風が個人的な怒りの象徴だという解釈には直接の根拠がない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": [
+          "不安"
+        ]
+      },
+      "fitting_situations": [
+        {
+          "situation": "画面の独特な形が、ゴッホとの共同制作期の実験と結びつく",
+          "reason": "ゴーギャンがゴッホとアルルの共同制作生活を送った1888年末に描いた、風の強い町の人物像。2人の視覚的な方法や制作理念の違いが背景にある。",
+          "strength": 2
+        }
+      ],
+      "review": {
+        "status": "awaiting_current_aic_api_and_commons_image",
+        "not_for_exhibition": true
+      },
+      "official_metadata_check": null,
+      "image_verification": null
+    }
+  ]
+}
