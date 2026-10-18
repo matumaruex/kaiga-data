@@ -36,7 +36,7 @@ def main():
     seen=set()
     for a in works:
         accession=a["accession_number"]
-        assert re.fullmatch(r"\\d{4}\\.\\d+",accession)
+        assert re.fullmatch(r"[0-9]{4}[.][0-9]+",accession)
         assert accession not in seen
         seen.add(accession)
         assert len(a["emotion_categories"]["primary"]) in (1,2)
@@ -96,7 +96,7 @@ def main():
     result={"date":"2026-10-18","checked":len(out),"official_passed":sum(x["official_ok"] for x in out),"images_passed":sum(x["commons_ok"] for x in out),"both_passed":sum(x["official_ok"] and x["commons_ok"] for x in out),"results":out}
     output=ROOT/args.output
     output.parent.mkdir(parents=True,exist_ok=True)
-    output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+chr(10),encoding="utf-8")
     print(f"SUMMARY: API {result['official_passed']}/{len(out)} CommonsJPEG {result['images_passed']}/{len(out)} BOTH {result['both_passed']}/{len(out)}",flush=True)
     if args.require_all and result["both_passed"]!=len(out):raise SystemExit(1)
 if __name__=="__main__":main()
