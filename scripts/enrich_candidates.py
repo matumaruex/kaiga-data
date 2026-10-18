@@ -79,6 +79,7 @@ def promote(candidate, official):
             "alternate_reading": c["alternate_reading"],
             "source_context_note": "解釈は仮説。作品の史実・背景は参照ページと個別照合が必要。",
             "evidence_url": src["supplemental_museum_source_url"] or src["official_artwork_url"],
+            "search_profile": c["search_profile"],
         },
         "review": {
             "facts_checked_against_museum_api": True,
