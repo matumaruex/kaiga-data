@@ -35,7 +35,7 @@ def request_image(url):
         payload = response.read(3_000_000)
         if "image/jpeg" not in content_type.lower():
             raise ValueError("Content-TypeがJPEGではない: " + content_type)
-        if len(payload) < 512 or not payload.startswith(b"\\xff\\xd8\\xff"):
+        if len(payload) < 512 or not payload.startswith(b"\xff\xd8\xff"):
             raise ValueError("JPEG画像の実データを確認できない")
         return {"content_type": content_type, "bytes_read": len(payload), "http_status": response.status}
 
@@ -139,7 +139,7 @@ def main():
     }
     target = ROOT / args.output
     target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    target.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"SUMMARY: metadata={report['metadata_ok_count']}/{len(results)}, IIIF_JPEG_HTTP={report['image_http_ok_count']}/{len(results)}", flush=True)
     print("Saved:", target.relative_to(ROOT), flush=True)
     if args.require_all and report["image_http_ok_count"] != len(results):
