@@ -24,13 +24,21 @@ SHA_RE = re.compile(r"^[0-9a-f]{64}$")
 
 def get(url):
     req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=24) as response:
-        if response.status != 200:
-            raise ValueError("HTTP " + str(response.status))
-        raw = response.read(6_000_000)
-        if len(raw) >= 6_000_000:
-            raise ValueError("large response / truncated")
-        return raw, response.headers.get("Content-Type", "")
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(req, timeout=24) as response:
+                if response.status != 200:
+                    raise ValueError("HTTP " + str(response.status))
+                raw = response.read(6_000_000)
+                if len(raw) >= 6_000_000:
+                    raise ValueError("large response / truncated")
+                return raw, response.headers.get("Content-Type", "")
+        except urllib.error.HTTPError as exc:
+            if exc.code not in (429, 502, 503, 504) or attempt == 3:
+                raise
+            pause = 2 ** (attempt + 1)
+            print(f"Transient HTTP {exc.code}; backing off for {pause} seconds before retry", flush=True)
+            time.sleep(pause)
 
 def image_from_commons(title):
     query = urllib.parse.urlencode({
@@ -117,7 +125,14 @@ def main():
         item = {"id": ident, "source_kind": rec["image_source"]["type"], "success": False}
         try:
             src = rec["image_source"]
-            url, extra = (src["download_url"], {}) if src["type"] == "pinned_public_mirror" else image_from_commons(src["file_title"])
+            if src["type"] == "pinned_public_mirror":
+                url, extra = src["download_url"], {}
+            elif src.get("verified_download_url"):
+                # Already resolved against Commons and verified by SHA256: avoid
+                # repeated API calls which trigger HTTP 429 during full-batch checks.
+                url, extra = src["verified_download_url"], {"image_page_title": src["file_title"]}
+            else:
+                url, extra = image_from_commons(src["file_title"])
             raw, mime = get(url)
             if len(raw) < 1024 or raw[:3] != bytes((0xff, 0xd8, 0xff)):
                 raise ValueError("not JPEG content")
@@ -134,7 +149,7 @@ def main():
             item["error"] = type(exc).__name__ + ": " + str(exc)[:160]
             print(f"[{index}/{len(records)}] PENDING {ident}: {item['error']}", flush=True)
         result.append(item)
-        time.sleep(0.3)
+        time.sleep(0.6)
     report = {
         "checked": len(records), "passed": sum(1 for r in result if r["success"]),
         "failed": sum(1 for r in result if not r["success"]), "results": result
