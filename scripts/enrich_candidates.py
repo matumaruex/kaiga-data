@@ -86,8 +86,8 @@ def promote(candidate, official):
             "visual_checked": False,
             "interpretation_human_approved": False,
             "curatorial_reviewed_on": today,
-            "curatorial_review_status": "provisional",
-            "curatorial_review_note": "自動で基本メタデータのみ照合。画像HTTP・実視認・解釈は未承認。注意: " + c["review_concern"],
+            "curatorial_review_status": "needs_revision",
+            "curatorial_review_note": "現在の公式APIの基本メタデータを照合。画像HTTP・実視認・解釈は未承認。公開アプリへの採用前に別途審査が必要。注意: " + c["review_concern"],
         },
     }
 
@@ -115,7 +115,7 @@ def main():
             record = promote(candidate, official)
             promoted.append(record)
             print("OK:", candidate["id"], record["facts"]["title_original"])
-        time.sleep(0.25)
+        time.sleep(1.1)
     print(f"確認結果: 合格{len(promoted)}件、未合格{len(candidates)-len(promoted)}件")
     if not args.write:
         print("dry-run: GitHubへ保存する前の確認のみ。--write でローカルのJSONを更新。")
