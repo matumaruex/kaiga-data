@@ -101,7 +101,7 @@ jobs:
         if: success()
         uses: actions/upload-artifact@v4
         with:
-          name: image-files-24
+          name: validated-artwork-jpegs
           path: artifacts/checked-artwork-images/*.jpg
           if-no-files-found: error
           retention-days: 14
