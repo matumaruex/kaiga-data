@@ -17693,31 +17693,34 @@
         "source_accession_number": "1996.378"
       },
       "curation": {
-        "emotions": [],
-        "emotion_strengths": {},
+        "emotions": [
+          "喜び"
+        ],
+        "emotion_strengths": {
+          "喜び": 3
+        },
         "tones": [
           "余韻"
         ],
         "themes": [
+          "愛情",
           "時間"
         ],
-        "interpretation": "音楽の旋法を絵画化したインドの伝統。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
-        "alternate_reading": "詩と図像の意味が確かめられるまで感情を決めない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
-        "source_context_note": "音楽の旋法を絵画化したインドの伝統。",
+        "interpretation": "『パンチャマ・ラギニー』の絵画化。Met公式解説では施主が奏者に報酬を渡す場面で、ラギニーの詩は満ち足りた幸福と愛情を語る。『喜び』の感情索引はその詩的主題に基づき、作者個人の幸福や鑑賞結果は断定しない。",
+        "alternate_reading": "ラギニーの旋法を絵で表す伝統であり、現代の単純な祝宴画ではない。詩の感情、登場人物の心理、制作した作者の感情は異なる。",
+        "source_context_note": "メトロポリタン美術館の公式解説では施主が2人の音楽家に代金を渡し、関連詩に満ち足りた幸福と愛情が描かれる。後世のラガマーラ詩にも音楽に浸る喜びの表現がある。",
         "evidence_url": "https://www.metmuseum.org/art/collection/search/38056",
         "search_profile": {
-          "summary_for_ai": "音楽の旋法を絵画化したインドの伝統。 感情タグは無理に付けない。",
+          "summary_for_ai": "音楽旋法パンチャマ・ラギニーを絵画にした作品。施主が演奏家に対価を渡し、関連詩には幸福と愛情が明記される。『喜び』は作品固有の詩的根拠に基づく。",
           "fitting_situations": [
             {
-              "situation": "音楽と絵画の組み合わせという伝統に触れたい",
-              "reason": "音楽の旋法を絵画化したインドの伝統。",
-              "strength": 1
+              "situation": "音楽や親しい愛情から生まれる満ち足りた喜びに触れたい",
+              "reason": "Met解説が関連ラギニーの詩の幸福と愛情を明記し、画面では2人の音楽家が演奏する。",
+              "strength": 3
             }
           ],
           "selection_cautions": [
-            "詩と図像の意味が確かめられるまで感情を決めない。",
-            "作者の感情と鑑賞者の感情を同一視しない。",
-            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
+            "ラガマーラの楽曲と詩的情感に即して解釈する。作者本人の喜びや現代の鑑賞者の反応を断定しない。"
           ],
           "review_status": "draft_not_human_approved"
         },
@@ -17728,15 +17731,17 @@
             "source_url": null
           },
           "scholarly_interpretation": {
-            "summary": "音楽の旋法を絵画化したインドの伝統。",
+            "summary": "Met公式解説によると、支援者が楽師に報酬を渡す場面で、このラギニーの詩は満ち足りた幸福と愛情を歌う。後世の文献も音楽の喜びを語る。",
             "source_url": "https://www.metmuseum.org/art/collection/search/38056"
           },
-          "creation_context": "音楽の旋法を絵画化したインドの伝統。",
-          "visual_clues": "音楽的旋法を人物と場面に対応させた細密画。",
-          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+          "creation_context": "メトロポリタン美術館の公式解説では施主が2人の音楽家に代金を渡し、関連詩に満ち足りた幸福と愛情が描かれる。後世のラガマーラ詩にも音楽に浸る喜びの表現がある。",
+          "visual_clues": "施主が手を伸ばして2人の奏者に報酬を払う場面が描かれる。音楽の旋法に具体的な人物と状況を与えている。",
+          "uncertainty_note": "感情との結び付きはMet公式の関連詩の解説に基づく。作者がこの感情を直接述べた証拠ではない。"
         },
         "emotion_categories": {
-          "primary": [],
+          "primary": [
+            "喜び"
+          ],
           "secondary": []
         }
       },
@@ -17747,7 +17752,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-20",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第17群でMet Object API, PD, JPEG実取得とSHA256確認済み。作品解釈・人間評価・公開判定は未了。"
+        "curatorial_review_note": "第17群の暫定登録後、Met作品ページにラギニーの詩の幸福・愛情が明記されていることを照合し、0タグから喜び主3に修正。作者本人の心理とは区別し、最終人間審査は未了。"
       }
     },
     {

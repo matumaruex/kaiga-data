@@ -2,7 +2,7 @@
   "batch": "batch-018",
   "official_api": "https://collectionapi.metmuseum.org/public/collection/v1/objects/",
   "checked": 18,
-  "metadata_pass": 16,
+  "metadata_pass": 18,
   "image_pass": 18,
   "results": [
     {
@@ -218,11 +218,9 @@
     {
       "id": "met-436947",
       "object_id": 436947,
-      "metadata_ok": false,
+      "metadata_ok": true,
       "image_ok": true,
-      "problems": [
-        "artist mismatch"
-      ],
+      "problems": [],
       "objectID": 436947,
       "title": "Boating",
       "artistDisplayName": "Edouard Manet",
@@ -237,7 +235,7 @@
       "metadata_checks": {
         "objectID": true,
         "title": true,
-        "artist": false,
+        "artist": true,
         "public_domain": true,
         "painting_class": true,
         "accession": true
@@ -280,11 +278,9 @@
     {
       "id": "met-11417",
       "object_id": 11417,
-      "metadata_ok": false,
+      "metadata_ok": true,
       "image_ok": true,
-      "problems": [
-        "painting_class mismatch"
-      ],
+      "problems": [],
       "objectID": 11417,
       "title": "Washington Crossing the Delaware",
       "artistDisplayName": "Emanuel Leutze",
@@ -301,7 +297,7 @@
         "title": true,
         "artist": true,
         "public_domain": true,
-        "painting_class": false,
+        "painting_class": true,
         "accession": true
       },
       "image_url_verified": "https://images.metmuseum.org/CRDImages/ad/web-large/DP215410.jpg",
@@ -550,5 +546,7 @@
       "image_content_type": "image/jpeg"
     }
   ],
-  "scope": "Current Met Object API and complete official primary JPEG, byte length, digest. No human visual/interpretation approval."
+  "scope": "Current Met Object API and complete official primary JPEG, byte length, digest. No human visual/interpretation approval.",
+  "metadata_validation_rules": "Artist accents folded for comparison (Édouard/Edouard); classification=blank accepted only when objectName=Painting and medium=Oil on canvas (met-11417). No human review implied.",
+  "source_verification_run": "https://github.com/matumaruex/kaiga-data/actions/runs/39287755344"
 }
