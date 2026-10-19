@@ -70,7 +70,7 @@ def verify(c):
         item["warnings"].append("missing primary JPEG on expected image host")
         return item
     jpeg, mime = load(url)
-    if len(jpeg) <= 5000 or not jpeg.startswith(b"\\xff\\xd8\\xff") or not jpeg.endswith(b"\\xff\\xd9"):
+    if len(jpeg) <= 5000 or not jpeg.startswith(bytes((255, 216, 255))) or not jpeg.endswith(bytes((255, 217))):
         raise ValueError("Incomplete or invalid JPEG")
     if "jpeg" not in mime.lower() and "jpg" not in mime.lower():
         raise ValueError("Incorrect JPEG Content-Type " + mime)
@@ -101,7 +101,7 @@ def main():
               "eligible_for_curatorial_review":sum(r["eligible_for_review"] for r in result),
               "note":"HTTP, identity, JPEG and SHA256 verification are NOT human viewing or artistic review.",
               "results":result}
-    OUTPUT.write_text(json.dumps(report, ensure_ascii=False, indent=2)+"\\n", encoding="utf-8")
+    OUTPUT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
     print("RESULT", report["metadata_pass"], report["images_pass"], len(result), flush=True)
 
 if __name__ == "__main__":
