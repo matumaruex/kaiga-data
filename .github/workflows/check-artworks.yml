@@ -548,3 +548,30 @@ jobs:
           path: docs/batch014-online-result.json
           if-no-files-found: ignore
           retention-days: 14
+
+  research-batch015:
+    if: github.event_name == 'push' && contains(github.event.head_commit.message, '[research-batch015]')
+    needs: validate-format
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout candidate dataset
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Setup Python 3.12
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: "3.12"
+      - name: Verify 21 official Met API and images, read-only
+        run: python3 scripts/research_batch015.py
+      - name: Save source verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: batch015-met-verification
+          path: docs/batch015-online-result.json
+          if-no-files-found: ignore
+          retention-days: 14
