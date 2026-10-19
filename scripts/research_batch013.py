@@ -81,7 +81,7 @@ def verify(c):
 
 def main():
     candidates = json.loads(INPUT.read_text(encoding="utf-8"))["works"]
-    if len(candidates) != 12 or len({c["candidate_id"] for c in candidates}) != 10:
+    if len(candidates) != 12 or len({c["candidate_id"] for c in candidates}) != 12:
         raise ValueError("Expected 12 unique candidates")
     def safe(c):
         try:
@@ -102,6 +102,9 @@ def main():
               "note":"HTTP, identity, JPEG and SHA256 verification are NOT human viewing or artistic review.",
               "results":result}
     OUTPUT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
+    print("BATCH013_JSON_REPORT_START", flush=True)
+    print(json.dumps(report, ensure_ascii=False, separators=(",", ":")), flush=True)
+    print("BATCH013_JSON_REPORT_END", flush=True)
     print("RESULT", report["metadata_pass"], report["images_pass"], len(result), flush=True)
 
 if __name__ == "__main__":
