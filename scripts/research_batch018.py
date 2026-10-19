@@ -8,6 +8,7 @@ import concurrent.futures
 import hashlib
 import json
 import time
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -40,7 +41,7 @@ def download(url, cap=15_000_000):
     raise RuntimeError("retry exhausted: " + str(last))
 
 def norm(v):
-    return " ".join(str(v or "").casefold().split())
+    return " ".join("".join(c for c in unicodedata.normalize("NFKD",str(v or "").casefold()) if not unicodedata.combining(c)).split())
 
 def inspect(c):
     ident = c["candidate_id"]
@@ -55,7 +56,7 @@ def inspect(c):
           "title": norm(item.get("title")) == norm(c["title_original"]),
           "artist": norm(c["artist"]) in norm(item.get("artistDisplayName")),
           "public_domain": item.get("isPublicDomain") is True,
-          "painting_class": norm(item.get("classification")) == "paintings",
+          "painting_class": norm(item.get("classification")) == "paintings" or (not norm(item.get("classification")) and norm(item.get("objectName")) == "painting" and "oil on canvas" in norm(item.get("medium"))),
           "accession": bool(item.get("accessionNumber")),
         }
         result["metadata_checks"] = matches

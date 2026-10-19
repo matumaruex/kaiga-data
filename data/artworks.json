@@ -17765,20 +17765,21 @@
         "artist": "Pierre-Auguste Cot",
         "creation_date_display": "1880",
         "type": "Painting",
-        "is_public_domain_at_source": true
+        "is_public_domain_at_source": true,
+        "accession_number": "87.15.134"
       },
       "image": {
         "image_id": "met-435997-primary",
         "iiif_base": null,
         "iiif_reference_url": null,
-        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/435997/797712/main-image",
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT11964.jpg",
         "source_registry_id": "met-435997",
         "local_path": "/artworks/met-435997.jpg",
-        "sha256": null,
-        "byte_length": null,
+        "sha256": "09b5378249e2ed40628858d276b5c551a897b8a89996076f38ca7d2c91b9e2bd",
+        "byte_length": 77865,
         "live_image_checked": true,
-        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
-        "source_accession_number": null
+        "live_check_scope": "Official Met Object API primaryImageSmall full JPEG downloaded; MIME/signature/end marker, bytes and SHA256 verified in GitHub Actions run 39287219660 on 2026-10-20. Human visual/meaning review pending.",
+        "source_accession_number": "87.15.134"
       },
       "curation": {
         "emotions": [
@@ -17814,7 +17815,7 @@
             "ダフニスとクロエ等の特定原作を確定しない。",
             "作者の感情と鑑賞者の感情を同一視しない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         },
         "meaning_basis": {
           "author_intent": {
@@ -17828,7 +17829,7 @@
           },
           "creation_context": "嵐から身を寄せ合って逃れる若い男女。文学的題材について当時から複数説。",
           "visual_clues": "嵐の中で大きな布を頭上に広げ、寄り添い走る男女。",
-          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
         },
         "emotion_categories": {
           "primary": [
@@ -17840,13 +17841,13 @@
         }
       },
       "review": {
-        "facts_checked_against_museum_api": false,
-        "source_public_domain_flag_checked": false,
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-20",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+        "curatorial_review_note": "Met Object API metadata and public domain field confirmed; official JPEG downloaded with SHA256/byte length. Human image/content, historical interpretation and final publication approval are separate and pending."
       }
     },
     {
@@ -17864,20 +17865,21 @@
         "artist": "Artemisia Gentileschi",
         "creation_date_display": "1620s",
         "type": "Painting",
-        "is_public_domain_at_source": true
+        "is_public_domain_at_source": true,
+        "accession_number": "69.281"
       },
       "image": {
         "image_id": "met-436453-primary",
         "iiif_base": null,
         "iiif_reference_url": null,
-        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436453/2016369/main-image",
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20748-001.jpg",
         "source_registry_id": "met-436453",
         "local_path": "/artworks/met-436453.jpg",
-        "sha256": null,
-        "byte_length": null,
-        "live_image_checked": false,
-        "live_check_scope": "Met IIIF primary-image link identified; web tool could not load image. Full JPEG download/SHA256 pending",
-        "source_accession_number": null
+        "sha256": "5d213ef3604452e020a85ff1bd7ce470f97cd4b6196f6e108e5ea3d5ffd0abbb",
+        "byte_length": 107133,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall full JPEG downloaded; MIME/signature/end marker, bytes and SHA256 verified in GitHub Actions run 39287219660 on 2026-10-20. Human visual/meaning review pending.",
+        "source_accession_number": "69.281"
       },
       "curation": {
         "emotions": [
@@ -17911,10 +17913,9 @@
           ],
           "selection_cautions": [
             "劇的な身振りは聖書と演劇的演出に基づく。作者の私生活を投影しない。",
-            "作者の感情と鑑賞者の感情を同一視しない。",
-            "公式画像リンクの実表示を検証できていないため公開保留。"
+            "作者の感情と鑑賞者の感情を同一視しない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         },
         "meaning_basis": {
           "author_intent": {
@@ -17928,7 +17929,7 @@
           },
           "creation_context": "民衆を救うため王の前に進み、命を懸けたエステルが倒れる聖書場面。",
           "visual_clues": "玉座に向かう王妃エステルを侍女が支える。王の側の空間と対照になる。",
-          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
         },
         "emotion_categories": {
           "primary": [
@@ -17940,13 +17941,13 @@
         }
       },
       "review": {
-        "facts_checked_against_museum_api": false,
-        "source_public_domain_flag_checked": false,
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-20",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。公式画像の実表示が失敗したため公開保留。"
+        "curatorial_review_note": "Met Object API metadata and public domain field confirmed; official JPEG downloaded with SHA256/byte length. Human image/content, historical interpretation and final publication approval are separate and pending."
       }
     },
     {
@@ -17964,20 +17965,21 @@
         "artist": "Caravaggio",
         "creation_date_display": "1597",
         "type": "Painting",
-        "is_public_domain_at_source": true
+        "is_public_domain_at_source": true,
+        "accession_number": "52.81"
       },
       "image": {
         "image_id": "met-435844-primary",
         "iiif_base": null,
         "iiif_reference_url": null,
-        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/435844/1581937/main-image",
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-687-001.jpg",
         "source_registry_id": "met-435844",
         "local_path": "/artworks/met-435844.jpg",
-        "sha256": null,
-        "byte_length": null,
+        "sha256": "4fcfc9c757f22dc2196d6f91596ea917d431500496775d88d1d612b4aec61c1c",
+        "byte_length": 121943,
         "live_image_checked": true,
-        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
-        "source_accession_number": null
+        "live_check_scope": "Official Met Object API primaryImageSmall full JPEG downloaded; MIME/signature/end marker, bytes and SHA256 verified in GitHub Actions run 39287219660 on 2026-10-20. Human visual/meaning review pending.",
+        "source_accession_number": "52.81"
       },
       "curation": {
         "emotions": [],
@@ -18007,7 +18009,7 @@
             "作者の感情と鑑賞者の感情を同一視しない。",
             "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         },
         "meaning_basis": {
           "author_intent": {
@@ -18021,7 +18023,7 @@
           },
           "creation_context": "楽器を調整する若者たちとキューピッドによる音楽の寓意。",
           "visual_clues": "リュートや楽譜、ヴァイオリンと複数の若者。左端にキューピッドがいる。",
-          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
         },
         "emotion_categories": {
           "primary": [],
@@ -18029,13 +18031,13 @@
         }
       },
       "review": {
-        "facts_checked_against_museum_api": false,
-        "source_public_domain_flag_checked": false,
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-20",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+        "curatorial_review_note": "Met Object API metadata and public domain field confirmed; official JPEG downloaded with SHA256/byte length. Human image/content, historical interpretation and final publication approval are separate and pending."
       }
     },
     {
@@ -18053,20 +18055,21 @@
         "artist": "Johannes Vermeer",
         "creation_date_display": "ca. 1662",
         "type": "Painting",
-        "is_public_domain_at_source": true
+        "is_public_domain_at_source": true,
+        "accession_number": "89.15.21"
       },
       "image": {
         "image_id": "met-437881-primary",
         "iiif_base": null,
         "iiif_reference_url": null,
-        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437881/1476893/main-image",
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP353257.jpg",
         "source_registry_id": "met-437881",
         "local_path": "/artworks/met-437881.jpg",
-        "sha256": null,
-        "byte_length": null,
-        "live_image_checked": false,
-        "live_check_scope": "Met IIIF primary-image link identified; web tool could not load image. Full JPEG download/SHA256 pending",
-        "source_accession_number": null
+        "sha256": "13120aa067755f1f50d2b900417807ef9da3f8b2b63a1bbea428fe3f2d8d00a9",
+        "byte_length": 82797,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall full JPEG downloaded; MIME/signature/end marker, bytes and SHA256 verified in GitHub Actions run 39287219660 on 2026-10-20. Human visual/meaning review pending.",
+        "source_accession_number": "89.15.21"
       },
       "curation": {
         "emotions": [],
@@ -18095,10 +18098,9 @@
           "selection_cautions": [
             "静謐な画面だけを理由に安心と分類しない。",
             "作者の感情と鑑賞者の感情を同一視しない。",
-            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。",
-            "公式画像リンクの実表示を検証できていないため公開保留。"
+            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         },
         "meaning_basis": {
           "author_intent": {
@@ -18112,7 +18114,7 @@
           },
           "creation_context": "水差しと洗面器のある日常場面。光・形・色が穏やかに均衡する。",
           "visual_clues": "水差しと洗面器、窓を開く女性、柔らかな室内光。",
-          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
         },
         "emotion_categories": {
           "primary": [],
@@ -18120,13 +18122,13 @@
         }
       },
       "review": {
-        "facts_checked_against_museum_api": false,
-        "source_public_domain_flag_checked": false,
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-20",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。公式画像の実表示が失敗したため公開保留。"
+        "curatorial_review_note": "Met Object API metadata and public domain field confirmed; official JPEG downloaded with SHA256/byte length. Human image/content, historical interpretation and final publication approval are separate and pending."
       }
     },
     {
@@ -18144,20 +18146,21 @@
         "artist": "Rembrandt van Rijn",
         "creation_date_display": "1653",
         "type": "Painting",
-        "is_public_domain_at_source": true
+        "is_public_domain_at_source": true,
+        "accession_number": "61.198"
       },
       "image": {
         "image_id": "met-437394-primary",
         "iiif_base": null,
         "iiif_reference_url": null,
-        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437394/2211141/main-image",
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-30758-001.jpg",
         "source_registry_id": "met-437394",
         "local_path": "/artworks/met-437394.jpg",
-        "sha256": null,
-        "byte_length": null,
+        "sha256": "06e64703d92fed63c6238d15ed32d582792397b238458bf1893530eb8d91e3f4",
+        "byte_length": 73306,
         "live_image_checked": true,
-        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
-        "source_accession_number": null
+        "live_check_scope": "Official Met Object API primaryImageSmall full JPEG downloaded; MIME/signature/end marker, bytes and SHA256 verified in GitHub Actions run 39287219660 on 2026-10-20. Human visual/meaning review pending.",
+        "source_accession_number": "61.198"
       },
       "curation": {
         "emotions": [],
@@ -18188,7 +18191,7 @@
             "作者の感情と鑑賞者の感情を同一視しない。",
             "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         },
         "meaning_basis": {
           "author_intent": {
@@ -18202,7 +18205,7 @@
           },
           "creation_context": "アリストテレスと詩人ホメロスの胸像をめぐる肖像的歴史画。",
           "visual_clues": "哲学者の衣服と金の鎖、ホメロスの胸像に触れる手。",
-          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
         },
         "emotion_categories": {
           "primary": [],
@@ -18210,13 +18213,13 @@
         }
       },
       "review": {
-        "facts_checked_against_museum_api": false,
-        "source_public_domain_flag_checked": false,
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-20",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+        "curatorial_review_note": "Met Object API metadata and public domain field confirmed; official JPEG downloaded with SHA256/byte length. Human image/content, historical interpretation and final publication approval are separate and pending."
       }
     },
     {
@@ -18234,20 +18237,21 @@
         "artist": "Johannes Vermeer",
         "creation_date_display": "ca. 1656–57",
         "type": "Painting",
-        "is_public_domain_at_source": true
+        "is_public_domain_at_source": true,
+        "accession_number": "14.40.611"
       },
       "image": {
         "image_id": "met-437878-primary",
         "iiif_base": null,
         "iiif_reference_url": null,
-        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437878/1478816/main-image",
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP355525.jpg",
         "source_registry_id": "met-437878",
         "local_path": "/artworks/met-437878.jpg",
-        "sha256": null,
-        "byte_length": null,
+        "sha256": "09e22e9cdaca4642cd88b33cec827ac96d426f16b05028069fa78921e7f1ec27",
+        "byte_length": 75244,
         "live_image_checked": true,
-        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
-        "source_accession_number": null
+        "live_check_scope": "Official Met Object API primaryImageSmall full JPEG downloaded; MIME/signature/end marker, bytes and SHA256 verified in GitHub Actions run 39287219660 on 2026-10-20. Human visual/meaning review pending.",
+        "source_accession_number": "14.40.611"
       },
       "curation": {
         "emotions": [
@@ -18281,7 +18285,7 @@
             "眠っている理由や直前の出来事を一つの物語として断定しない。",
             "作者の感情と鑑賞者の感情を同一視しない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         },
         "meaning_basis": {
           "author_intent": {
@@ -18295,7 +18299,7 @@
           },
           "creation_context": "ワインのある部屋で居眠りする女性。絵から消された男性像が画面の解釈を開く。",
           "visual_clues": "酒杯と絨毯のそばで頬杖をついて眠る女性、奥の戸口。",
-          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
         },
         "emotion_categories": {
           "primary": [
@@ -18305,13 +18309,13 @@
         }
       },
       "review": {
-        "facts_checked_against_museum_api": false,
-        "source_public_domain_flag_checked": false,
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-20",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+        "curatorial_review_note": "Met Object API metadata and public domain field confirmed; official JPEG downloaded with SHA256/byte length. Human image/content, historical interpretation and final publication approval are separate and pending."
       }
     },
     {
@@ -18329,20 +18333,21 @@
         "artist": "El Greco",
         "creation_date_display": "ca. 1608–14",
         "type": "Painting",
-        "is_public_domain_at_source": true
+        "is_public_domain_at_source": true,
+        "accession_number": "56.48"
       },
       "image": {
         "image_id": "met-436576-primary",
         "iiif_base": null,
         "iiif_reference_url": null,
-        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436576/1898191/main-image",
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17641-001.jpg",
         "source_registry_id": "met-436576",
         "local_path": "/artworks/met-436576.jpg",
-        "sha256": null,
-        "byte_length": null,
+        "sha256": "edabb7d6591afaa63186c4b61e24508225723b8bf4bda825cef0ca2d6297b279",
+        "byte_length": 147421,
         "live_image_checked": true,
-        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
-        "source_accession_number": null
+        "live_check_scope": "Official Met Object API primaryImageSmall full JPEG downloaded; MIME/signature/end marker, bytes and SHA256 verified in GitHub Actions run 39287219660 on 2026-10-20. Human visual/meaning review pending.",
+        "source_accession_number": "56.48"
       },
       "curation": {
         "emotions": [
@@ -18377,7 +18382,7 @@
             "断片の状態と宗教的畏敬・危険への不安の違いを示す。",
             "作者の感情と鑑賞者の感情を同一視しない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         },
         "meaning_basis": {
           "author_intent": {
@@ -18391,7 +18396,7 @@
           },
           "creation_context": "『ヨハネの黙示録』の終末的幻視を描く、大きな祭壇画の一部。",
           "visual_clues": "両腕を掲げるヨハネと天上の衣、伸び上がる群像。",
-          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
         },
         "emotion_categories": {
           "primary": [
@@ -18403,13 +18408,13 @@
         }
       },
       "review": {
-        "facts_checked_against_museum_api": false,
-        "source_public_domain_flag_checked": false,
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-20",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+        "curatorial_review_note": "Met Object API metadata and public domain field confirmed; official JPEG downloaded with SHA256/byte length. Human image/content, historical interpretation and final publication approval are separate and pending."
       }
     },
     {
@@ -18427,20 +18432,21 @@
         "artist": "Édouard Manet",
         "creation_date_display": "1874",
         "type": "Painting",
-        "is_public_domain_at_source": true
+        "is_public_domain_at_source": true,
+        "accession_number": "29.100.115"
       },
       "image": {
         "image_id": "met-436947-primary",
         "iiif_base": null,
         "iiif_reference_url": null,
-        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436947/2170247/main-image",
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25466-001.jpg",
         "source_registry_id": "met-436947",
         "local_path": "/artworks/met-436947.jpg",
-        "sha256": null,
-        "byte_length": null,
+        "sha256": "eb3ef8e65748596a08b28ae89c4ef778c38293c0e9b27d6ba72193129c067dd5",
+        "byte_length": 124959,
         "live_image_checked": true,
-        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
-        "source_accession_number": null
+        "live_check_scope": "Official Met Object API primaryImageSmall full JPEG downloaded; MIME/signature/end marker, bytes and SHA256 verified in GitHub Actions run 39287219660 on 2026-10-20. Human visual/meaning review pending.",
+        "source_accession_number": "29.100.115"
       },
       "curation": {
         "emotions": [],
@@ -18470,7 +18476,7 @@
             "作者の感情と鑑賞者の感情を同一視しない。",
             "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         },
         "meaning_basis": {
           "author_intent": {
@@ -18484,7 +18490,7 @@
           },
           "creation_context": "セーヌ川の船遊び。日本の浮世絵に学んだ色面と切り取り。",
           "visual_clues": "明るい青い水面、船に乗る二人、画面の大胆な切り取り。",
-          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
         },
         "emotion_categories": {
           "primary": [],
@@ -18492,13 +18498,13 @@
         }
       },
       "review": {
-        "facts_checked_against_museum_api": false,
-        "source_public_domain_flag_checked": false,
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-20",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+        "curatorial_review_note": "Met Object API metadata and public domain field confirmed; official JPEG downloaded with SHA256/byte length. API uses Edouard; museum site/curation spells Édouard. Human image/content, historical interpretation and final publication approval are separate and pending."
       }
     },
     {
@@ -18516,20 +18522,21 @@
         "artist": "Georges de La Tour",
         "creation_date_display": "ca. 1640",
         "type": "Painting",
-        "is_public_domain_at_source": true
+        "is_public_domain_at_source": true,
+        "accession_number": "1978.517"
       },
       "image": {
         "image_id": "met-436839-primary",
         "iiif_base": null,
         "iiif_reference_url": null,
-        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436839/2186892/main-image",
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-27910-001.jpg",
         "source_registry_id": "met-436839",
         "local_path": "/artworks/met-436839.jpg",
-        "sha256": null,
-        "byte_length": null,
+        "sha256": "ffe6f83849174c52dc450d604d8cca1e40108f7d556f081d28c26228ffc7761f",
+        "byte_length": 79155,
         "live_image_checked": true,
-        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
-        "source_accession_number": null
+        "live_check_scope": "Official Met Object API primaryImageSmall full JPEG downloaded; MIME/signature/end marker, bytes and SHA256 verified in GitHub Actions run 39287219660 on 2026-10-20. Human visual/meaning review pending.",
+        "source_accession_number": "1978.517"
       },
       "curation": {
         "emotions": [],
@@ -18560,7 +18567,7 @@
             "作者の感情と鑑賞者の感情を同一視しない。",
             "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         },
         "meaning_basis": {
           "author_intent": {
@@ -18574,7 +18581,7 @@
           },
           "creation_context": "鏡・頭蓋骨・ろうそくを前に瞑想するマグダラのマリア。",
           "visual_clues": "ろうそくと鏡、髑髏を前に座り込むマグダラのマリア。",
-          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
         },
         "emotion_categories": {
           "primary": [],
@@ -18582,13 +18589,13 @@
         }
       },
       "review": {
-        "facts_checked_against_museum_api": false,
-        "source_public_domain_flag_checked": false,
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-20",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+        "curatorial_review_note": "Met Object API metadata and public domain field confirmed; official JPEG downloaded with SHA256/byte length. Human image/content, historical interpretation and final publication approval are separate and pending."
       }
     },
     {
@@ -18606,20 +18613,21 @@
         "artist": "Emanuel Leutze",
         "creation_date_display": "1851",
         "type": "Painting",
-        "is_public_domain_at_source": true
+        "is_public_domain_at_source": true,
+        "accession_number": "97.34"
       },
       "image": {
         "image_id": "met-11417-primary",
         "iiif_base": null,
         "iiif_reference_url": null,
-        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/11417/42494/main-image",
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP215410.jpg",
         "source_registry_id": "met-11417",
         "local_path": "/artworks/met-11417.jpg",
-        "sha256": null,
-        "byte_length": null,
+        "sha256": "115e1188c8f215a15dc1eebad137a3f5d527f7299585cb060ea9be7c05b81d63",
+        "byte_length": 176189,
         "live_image_checked": true,
-        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
-        "source_accession_number": null
+        "live_check_scope": "Official Met Object API primaryImageSmall full JPEG downloaded; MIME/signature/end marker, bytes and SHA256 verified in GitHub Actions run 39287219660 on 2026-10-20. Human visual/meaning review pending.",
+        "source_accession_number": "97.34"
       },
       "curation": {
         "emotions": [
@@ -18655,7 +18663,7 @@
             "自由の理想化・プロパガンダ的性格と先住民の視点を併記する。",
             "作者の感情と鑑賞者の感情を同一視しない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         },
         "meaning_basis": {
           "author_intent": {
@@ -18669,7 +18677,7 @@
           },
           "creation_context": "アメリカ独立戦争の転換点を理想化して描いた歴史画。",
           "visual_clues": "氷の残る川に立ち上がるワシントンと、多様な兵士を乗せた船。",
-          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
         },
         "emotion_categories": {
           "primary": [
@@ -18681,13 +18689,13 @@
         }
       },
       "review": {
-        "facts_checked_against_museum_api": false,
-        "source_public_domain_flag_checked": false,
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-20",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+        "curatorial_review_note": "Met Object API metadata and public domain field confirmed; official JPEG downloaded with SHA256/byte length. API classification blank but objectName=Painting and medium=Oil on canvas. Human image/content, historical interpretation and final publication approval are separate and pending."
       }
     },
     {
@@ -18705,20 +18713,21 @@
         "artist": "Vincent van Gogh",
         "creation_date_display": "1889",
         "type": "Painting",
-        "is_public_domain_at_source": true
+        "is_public_domain_at_source": true,
+        "accession_number": "1993.132"
       },
       "image": {
         "image_id": "met-436535-primary",
         "iiif_base": null,
         "iiif_reference_url": null,
-        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436535/2383011/main-image",
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42549-001.jpg",
         "source_registry_id": "met-436535",
         "local_path": "/artworks/met-436535.jpg",
-        "sha256": null,
-        "byte_length": null,
-        "live_image_checked": false,
-        "live_check_scope": "Met IIIF primary-image link identified; web tool could not load image. Full JPEG download/SHA256 pending",
-        "source_accession_number": null
+        "sha256": "af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc",
+        "byte_length": 221383,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall full JPEG downloaded; MIME/signature/end marker, bytes and SHA256 verified in GitHub Actions run 39287219660 on 2026-10-20. Human visual/meaning review pending.",
+        "source_accession_number": "1993.132"
       },
       "curation": {
         "emotions": [
@@ -18748,10 +18757,9 @@
           ],
           "selection_cautions": [
             "作者自身の特定の感情や健康状態に直結させない。",
-            "作者の感情と鑑賞者の感情を同一視しない。",
-            "公式画像リンクの実表示を検証できていないため公開保留。"
+            "作者の感情と鑑賞者の感情を同一視しない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         },
         "meaning_basis": {
           "author_intent": {
@@ -18765,7 +18773,7 @@
           },
           "creation_context": "うねる雲、糸杉、麦畑の筆致による自然の大きさと運動。",
           "visual_clues": "糸杉、麦畑、強く動く雲と密度の高い筆触。",
-          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
         },
         "emotion_categories": {
           "primary": [
@@ -18775,13 +18783,13 @@
         }
       },
       "review": {
-        "facts_checked_against_museum_api": false,
-        "source_public_domain_flag_checked": false,
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-20",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。公式画像の実表示が失敗したため公開保留。"
+        "curatorial_review_note": "Met Object API metadata and public domain field confirmed; official JPEG downloaded with SHA256/byte length. Human image/content, historical interpretation and final publication approval are separate and pending."
       }
     },
     {
@@ -18799,20 +18807,21 @@
         "artist": "Salomon van Ruysdael",
         "creation_date_display": "early 1650s",
         "type": "Painting",
-        "is_public_domain_at_source": true
+        "is_public_domain_at_source": true,
+        "accession_number": "71.75"
       },
       "image": {
         "image_id": "met-437588-primary",
         "iiif_base": null,
         "iiif_reference_url": null,
-        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437588/795902/main-image",
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP147902.jpg",
         "source_registry_id": "met-437588",
         "local_path": "/artworks/met-437588.jpg",
-        "sha256": null,
-        "byte_length": null,
-        "live_image_checked": false,
-        "live_check_scope": "Met IIIF primary-image link identified; web tool could not load image. Full JPEG download/SHA256 pending",
-        "source_accession_number": null
+        "sha256": "d742081ae49244ebd4a2b38cfa7a4c7e6ce7e95442b00ecf1ae8d6703a0671b8",
+        "byte_length": 64321,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall full JPEG downloaded; MIME/signature/end marker, bytes and SHA256 verified in GitHub Actions run 39287219660 on 2026-10-20. Human visual/meaning review pending.",
+        "source_accession_number": "71.75"
       },
       "curation": {
         "emotions": [
@@ -18843,10 +18852,9 @@
           ],
           "selection_cautions": [
             "祭りの楽しさだけでなく、生き物への残酷な遊戯でもあることを隠さない。",
-            "作者の感情と鑑賞者の感情を同一視しない。",
-            "公式画像リンクの実表示を検証できていないため公開保留。"
+            "作者の感情と鑑賞者の感情を同一視しない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         },
         "meaning_basis": {
           "author_intent": {
@@ -18860,7 +18868,7 @@
           },
           "creation_context": "冬景色の集まりと、吊るした生きたウナギを馬上で取る娯楽。",
           "visual_clues": "冬の道路に集う人と騎馬、つるしたウナギを取る競争。",
-          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
         },
         "emotion_categories": {
           "primary": [],
@@ -18870,13 +18878,13 @@
         }
       },
       "review": {
-        "facts_checked_against_museum_api": false,
-        "source_public_domain_flag_checked": false,
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-20",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。公式画像の実表示が失敗したため公開保留。"
+        "curatorial_review_note": "Met Object API metadata and public domain field confirmed; official JPEG downloaded with SHA256/byte length. Human image/content, historical interpretation and final publication approval are separate and pending."
       }
     },
     {
@@ -18894,20 +18902,21 @@
         "artist": "Gustave Courbet",
         "creation_date_display": "1869",
         "type": "Painting",
-        "is_public_domain_at_source": true
+        "is_public_domain_at_source": true,
+        "accession_number": "29.100.566"
       },
       "image": {
         "image_id": "met-436005-primary",
         "iiif_base": null,
         "iiif_reference_url": null,
-        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436005/796206/main-image",
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1973.jpg",
         "source_registry_id": "met-436005",
         "local_path": "/artworks/met-436005.jpg",
-        "sha256": null,
-        "byte_length": null,
+        "sha256": "0e88957ab1b738cde293d468eb690c2c2ecd9ceefa2b9d2e0c586a5d53125193",
+        "byte_length": 95308,
         "live_image_checked": true,
-        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
-        "source_accession_number": null
+        "live_check_scope": "Official Met Object API primaryImageSmall full JPEG downloaded; MIME/signature/end marker, bytes and SHA256 verified in GitHub Actions run 39287219660 on 2026-10-20. Human visual/meaning review pending.",
+        "source_accession_number": "29.100.566"
       },
       "curation": {
         "emotions": [
@@ -18941,7 +18950,7 @@
             "平穏な海景という関連であり、作者個人の安堵の証明ではない。",
             "作者の感情と鑑賞者の感情を同一視しない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         },
         "meaning_basis": {
           "author_intent": {
@@ -18955,7 +18964,7 @@
           },
           "creation_context": "潮が引いた浜辺に小舟が残る、例外的に穏やかなクールベの海景。",
           "visual_clues": "干潮の浜辺に残る二艘の小舟、広い穏やかな空と海。",
-          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
         },
         "emotion_categories": {
           "primary": [
@@ -18965,13 +18974,13 @@
         }
       },
       "review": {
-        "facts_checked_against_museum_api": false,
-        "source_public_domain_flag_checked": false,
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-20",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+        "curatorial_review_note": "Met Object API metadata and public domain field confirmed; official JPEG downloaded with SHA256/byte length. Human image/content, historical interpretation and final publication approval are separate and pending."
       }
     },
     {
@@ -18989,20 +18998,21 @@
         "artist": "Jacob van Ruisdael",
         "creation_date_display": "ca. 1670",
         "type": "Painting",
-        "is_public_domain_at_source": true
+        "is_public_domain_at_source": true,
+        "accession_number": "14.40.623"
       },
       "image": {
         "image_id": "met-437549-primary",
         "iiif_base": null,
         "iiif_reference_url": null,
-        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437549/795780/main-image",
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145911.jpg",
         "source_registry_id": "met-437549",
         "local_path": "/artworks/met-437549.jpg",
-        "sha256": null,
-        "byte_length": null,
+        "sha256": "eb8134b5fb9d1d60cde3618c34c9bb06d026496530b2decfa9f06fdd1b4c7fdb",
+        "byte_length": 84983,
         "live_image_checked": true,
-        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
-        "source_accession_number": null
+        "live_check_scope": "Official Met Object API primaryImageSmall full JPEG downloaded; MIME/signature/end marker, bytes and SHA256 verified in GitHub Actions run 39287219660 on 2026-10-20. Human visual/meaning review pending.",
+        "source_accession_number": "14.40.623"
       },
       "curation": {
         "emotions": [
@@ -19036,7 +19046,7 @@
             "印象の大きさを画家自身の信仰や恐怖と結びつけない。",
             "作者の感情と鑑賞者の感情を同一視しない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         },
         "meaning_basis": {
           "author_intent": {
@@ -19050,7 +19060,7 @@
           },
           "creation_context": "日常の小麦畑と劇的な雲・光で構成された壮大な風景。",
           "visual_clues": "大きく湧く雲、広い麦畑を抜ける道と小さな人影。",
-          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
         },
         "emotion_categories": {
           "primary": [
@@ -19060,13 +19070,13 @@
         }
       },
       "review": {
-        "facts_checked_against_museum_api": false,
-        "source_public_domain_flag_checked": false,
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-20",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+        "curatorial_review_note": "Met Object API metadata and public domain field confirmed; official JPEG downloaded with SHA256/byte length. Human image/content, historical interpretation and final publication approval are separate and pending."
       }
     },
     {
@@ -19084,20 +19094,21 @@
         "artist": "François Boucher",
         "creation_date_display": "1751",
         "type": "Painting",
-        "is_public_domain_at_source": true
+        "is_public_domain_at_source": true,
+        "accession_number": "20.155.9"
       },
       "image": {
         "image_id": "met-435739-primary",
         "iiif_base": null,
         "iiif_reference_url": null,
-        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/435739/1653617/main-image",
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-411-01.jpg",
         "source_registry_id": "met-435739",
         "local_path": "/artworks/met-435739.jpg",
-        "sha256": null,
-        "byte_length": null,
+        "sha256": "e864277a1e83e914d3ce7498dfa6f6513a8140bca1c284f4a82a000305cd7bb3",
+        "byte_length": 140954,
         "live_image_checked": true,
-        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
-        "source_accession_number": null
+        "live_check_scope": "Official Met Object API primaryImageSmall full JPEG downloaded; MIME/signature/end marker, bytes and SHA256 verified in GitHub Actions run 39287219660 on 2026-10-20. Human visual/meaning review pending.",
+        "source_accession_number": "20.155.9"
       },
       "curation": {
         "emotions": [],
@@ -19126,7 +19137,7 @@
             "作者の感情と鑑賞者の感情を同一視しない。",
             "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         },
         "meaning_basis": {
           "author_intent": {
@@ -19140,7 +19151,7 @@
           },
           "creation_context": "入浴後のヴィーナスの化粧と、ポンパドゥール夫人の浴室のための装飾という文脈。",
           "visual_clues": "室内で身繕いするヴィーナス、天使、真珠と花。",
-          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
         },
         "emotion_categories": {
           "primary": [],
@@ -19148,13 +19159,13 @@
         }
       },
       "review": {
-        "facts_checked_against_museum_api": false,
-        "source_public_domain_flag_checked": false,
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-20",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+        "curatorial_review_note": "Met Object API metadata and public domain field confirmed; official JPEG downloaded with SHA256/byte length. Human image/content, historical interpretation and final publication approval are separate and pending."
       }
     },
     {
@@ -19172,20 +19183,21 @@
         "artist": "Frans Hals",
         "creation_date_display": "ca. 1616–17",
         "type": "Painting",
-        "is_public_domain_at_source": true
+        "is_public_domain_at_source": true,
+        "accession_number": "14.40.605"
       },
       "image": {
         "image_id": "met-436622-primary",
         "iiif_base": null,
         "iiif_reference_url": null,
-        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436622/795770/main-image",
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145901.jpg",
         "source_registry_id": "met-436622",
         "local_path": "/artworks/met-436622.jpg",
-        "sha256": null,
-        "byte_length": null,
-        "live_image_checked": false,
-        "live_check_scope": "Met IIIF primary-image link identified; web tool could not load image. Full JPEG download/SHA256 pending",
-        "source_accession_number": null
+        "sha256": "9f28cc7ba2b547f0c20e8a38ff5915c4077693b762a6984bf3e110e6fcb7ce8d",
+        "byte_length": 134937,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall full JPEG downloaded; MIME/signature/end marker, bytes and SHA256 verified in GitHub Actions run 39287219660 on 2026-10-20. Human visual/meaning review pending.",
+        "source_accession_number": "14.40.605"
       },
       "curation": {
         "emotions": [
@@ -19217,10 +19229,9 @@
           ],
           "selection_cautions": [
             "単なる楽しげなパーティーとして歴史的な寓意を削らない。",
-            "作者の感情と鑑賞者の感情を同一視しない。",
-            "公式画像リンクの実表示を検証できていないため公開保留。"
+            "作者の感情と鑑賞者の感情を同一視しない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         },
         "meaning_basis": {
           "author_intent": {
@@ -19234,7 +19245,7 @@
           },
           "creation_context": "四旬節前の祝祭と享楽を多義的な象徴で描く。",
           "visual_clues": "四旬節前の祝祭の宴、食べ物を持つ人物と仮装の人々。",
-          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
         },
         "emotion_categories": {
           "primary": [
@@ -19244,13 +19255,13 @@
         }
       },
       "review": {
-        "facts_checked_against_museum_api": false,
-        "source_public_domain_flag_checked": false,
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-20",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。公式画像の実表示が失敗したため公開保留。"
+        "curatorial_review_note": "Met Object API metadata and public domain field confirmed; official JPEG downloaded with SHA256/byte length. Human image/content, historical interpretation and final publication approval are separate and pending."
       }
     },
     {
@@ -19268,20 +19279,21 @@
         "artist": "Jean Siméon Chardin",
         "creation_date_display": "ca. 1733–34",
         "type": "Painting",
-        "is_public_domain_at_source": true
+        "is_public_domain_at_source": true,
+        "accession_number": "49.24"
       },
       "image": {
         "image_id": "met-435888-primary",
         "iiif_base": null,
         "iiif_reference_url": null,
-        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/435888/1507010/main-image",
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP356133.jpg",
         "source_registry_id": "met-435888",
         "local_path": "/artworks/met-435888.jpg",
-        "sha256": null,
-        "byte_length": null,
+        "sha256": "9c04c27454acf325b1c392d25cf406ae0a5dd4eef730090f89c7a63d87222ce1",
+        "byte_length": 69599,
         "live_image_checked": true,
-        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
-        "source_accession_number": null
+        "live_check_scope": "Official Met Object API primaryImageSmall full JPEG downloaded; MIME/signature/end marker, bytes and SHA256 verified in GitHub Actions run 39287219660 on 2026-10-20. Human visual/meaning review pending.",
+        "source_accession_number": "49.24"
       },
       "curation": {
         "emotions": [],
@@ -19311,7 +19323,7 @@
             "作者の感情と鑑賞者の感情を同一視しない。",
             "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         },
         "meaning_basis": {
           "author_intent": {
@@ -19325,7 +19337,7 @@
           },
           "creation_context": "シャボン玉を吹く少年とそれを見守る子ども。",
           "visual_clues": "シャボン玉を吹く子どもと、その様子を覗く幼い子。",
-          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
         },
         "emotion_categories": {
           "primary": [],
@@ -19333,13 +19345,13 @@
         }
       },
       "review": {
-        "facts_checked_against_museum_api": false,
-        "source_public_domain_flag_checked": false,
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-20",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+        "curatorial_review_note": "Met Object API metadata and public domain field confirmed; official JPEG downloaded with SHA256/byte length. Human image/content, historical interpretation and final publication approval are separate and pending."
       }
     },
     {
@@ -19357,20 +19369,21 @@
         "artist": "Jean-Baptiste Greuze",
         "creation_date_display": "1756",
         "type": "Painting",
-        "is_public_domain_at_source": true
+        "is_public_domain_at_source": true,
+        "accession_number": "20.155.8"
       },
       "image": {
         "image_id": "met-436579-primary",
         "iiif_base": null,
         "iiif_reference_url": null,
-        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436579/1702341/main-image",
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-12952-001.jpg",
         "source_registry_id": "met-436579",
         "local_path": "/artworks/met-436579.jpg",
-        "sha256": null,
-        "byte_length": null,
+        "sha256": "7383ebba2887b5d1db1a54030da1c2b3a11f5713042ac27c25b465f3ef2ee5e6",
+        "byte_length": 105893,
         "live_image_checked": true,
-        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
-        "source_accession_number": null
+        "live_check_scope": "Official Met Object API primaryImageSmall full JPEG downloaded; MIME/signature/end marker, bytes and SHA256 verified in GitHub Actions run 39287219660 on 2026-10-20. Human visual/meaning review pending.",
+        "source_accession_number": "20.155.8"
       },
       "curation": {
         "emotions": [
@@ -19403,7 +19416,7 @@
             "性的関係の具体的経緯、当事者の意思・加害性を資料なく決めない。",
             "作者の感情と鑑賞者の感情を同一視しない。"
           ],
-          "review_status": "draft_source_unverified"
+          "review_status": "draft_not_human_approved"
         },
         "meaning_basis": {
           "author_intent": {
@@ -19417,7 +19430,7 @@
           },
           "creation_context": "割れた卵を性的な不名誉の暗喩として扱う18世紀の教訓画。",
           "visual_clues": "床に散らばる割れた卵、うなだれる女性と話しかける人々。",
-          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
         },
         "emotion_categories": {
           "primary": [
@@ -19427,13 +19440,13 @@
         }
       },
       "review": {
-        "facts_checked_against_museum_api": false,
-        "source_public_domain_flag_checked": false,
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-20",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+        "curatorial_review_note": "Met Object API metadata and public domain field confirmed; official JPEG downloaded with SHA256/byte length. Human image/content, historical interpretation and final publication approval are separate and pending."
       }
     }
   ],
@@ -19482,5 +19495,5 @@
     ],
     "note": "1770–1890年代と17世紀の作品を加え、喪失感中心の不足を減らす。怒りは神話的暴力への弱い接点のみ。"
   },
-  "curatorial_expansion_note_20261020": "164→200 works. 18 batch-017 documented API+image-SHA verified, 13 new official IIIF images visually rendered but SHA not checked, 5 new official image URLs could not be rendered (flagged false). All 36 are provisional; not approved for publication."
+  "curatorial_expansion_note_20261020": "164→200: batch017 18 prior verified candidates and batch018 18 newly verified official Met API records and primary image SHA256. All 36 provisional; no human image/interpretation or publication approval."
 }
