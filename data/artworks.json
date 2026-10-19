@@ -10881,6 +10881,795 @@
         "curatorial_review_status": "provisional",
         "curatorial_review_note": "第11群試験登録。Met現行公式Object APIに作品ID・帰属・所蔵番号・PDを照合。主画像JPEGを実取得・ハッシュ確認。制作意図と館の読解、鑑賞者の感情を分離。人間の実画像視認、解釈承認、公開時の権利審査は未了。"
       }
+    },
+    {
+      "id": "met-49001",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 49001,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/49001",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/49001",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Cherry Blossoms at Yoshino",
+        "title_ja_provisional": "吉野の桜",
+        "artist": "Rai San’yō 頼山陽",
+        "creation_date_display": "19th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "1984.347"
+      },
+      "image": {
+        "image_id": "met-49001-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-36542-002.jpg",
+        "source_registry_id": "met-49001",
+        "local_path": "/artworks/met-49001.jpg",
+        "sha256": "963739e61ece17fd91b5718ca1095f4ccc4c3058f4acb793acb380d1fb31a9ca",
+        "byte_length": 87720,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall JPEG HTTP, full signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "1984.347"
+      },
+      "curation": {
+        "emotions": [
+          "喜び",
+          "懐かしさ"
+        ],
+        "emotion_strengths": {
+          "喜び": 3,
+          "懐かしさ": 1
+        },
+        "tones": [
+          "余韻",
+          "高揚"
+        ],
+        "themes": [
+          "記憶",
+          "自然",
+          "時間"
+        ],
+        "interpretation": "Metの作品解説によれば、頼山陽の書き込みは1827年に叔父・母と吉野を訪れて花見の念願を果たした喜びを表す一方、後醍醐天皇の政治的挫折と吉野の陵墓を想起させる。母・梅颸の書き込みには老年に再び桜を見た喜びが表れている。",
+        "alternate_reading": "本人の喜びはMetが紹介する作中の本人の書き込みに裏付けがある。母の『再び』の喜びは母の言葉であり、頼山陽本人の郷愁と混ぜない。桜を見る人が必ず郷愁を感じると決めつけない。",
+        "source_context_note": "頼山陽が1827年に叔父と母を伴って吉野を訪れた記念として描き、本人と母の書き込みを付した江戸時代の山水画。制作年表示はMetのAPIでは19th centuryであり、訪問年1827を直接の制作年と同一視しない。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/49001",
+        "search_profile": {
+          "summary_for_ai": "頼山陽自身と母の書き込みが、吉野で花見をした喜びを伝える水墨画。美しい景色に、後醍醐天皇の挫折や古い陵墓をめぐる歴史への思いが重なる。",
+          "fitting_situations": [
+            {
+              "situation": "以前から望んでいたことが実現し、喜びの中に昔の出来事も思い出す",
+              "reason": "本人の書き込みが念願の花見の喜びと歴史への感慨を併せて述べている。",
+              "strength": 3
+            }
+          ],
+          "selection_cautions": [
+            "作者の喜びと母の老年の回想、後醍醐天皇への歴史的感慨を区別する。美術館の抄訳に基づく理解で、原文の全文校訂ではない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "direct_for_this_work",
+            "summary": "Metは作品の書き込みから、頼山陽が吉野での花見の長年の願いを果たした喜びを述べたことを紹介している。母・梅颸の記述は別人のもの。原文全文を独立翻刻したわけではない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/49001"
+          },
+          "scholarly_interpretation": {
+            "summary": "Metの作品解説によれば、頼山陽の書き込みは1827年に叔父・母と吉野を訪れて花見の念願を果たした喜びを表す一方、後醍醐天皇の政治的挫折と吉野の陵墓を想起させる。母・梅颸の書き込みには老年に再び桜を見た喜びが表れている。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/49001"
+          },
+          "creation_context": "頼山陽が1827年に叔父と母を伴って吉野を訪れた記念として描き、本人と母の書き込みを付した江戸時代の山水画。制作年表示はMetのAPIでは19th centuryであり、訪問年1827を直接の制作年と同一視しない。",
+          "visual_clues": "墨の山なみの上に小さく描かれた桜の花、画面上部に分かれた複数の書き込み。",
+          "uncertainty_note": "本人の喜びはMetが紹介する作中の本人の書き込みに裏付けがある。母の『再び』の喜びは母の言葉であり、頼山陽本人の郷愁と混ぜない。桜を見る人が必ず郷愁を感じると決めつけない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喜び"
+          ],
+          "secondary": [
+            "懐かしさ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第12群暫定登録。Met公式APIとオープンJPEGを同一作品IDで直接検証、作者の言葉・館の読解・鑑賞者の接点を区別。公開前の人間の画像目視、内容審査と法的審査は未完了。"
+      }
+    },
+    {
+      "id": "met-44699",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 44699,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/44699",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/44699",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Returning home through the snow",
+        "title_ja_provisional": "雪中帰家図",
+        "artist": "Dai Jin",
+        "creation_date_display": "ca. 1455",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "China",
+        "accession_number": "1992.132"
+      },
+      "image": {
+        "image_id": "met-44699-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP274156.jpg",
+        "source_registry_id": "met-44699",
+        "local_path": "/artworks/met-44699.jpg",
+        "sha256": "6a99d586265561c2625e4fcdeb1597383197c8d1e211c08e773fae59df074f35",
+        "byte_length": 147470,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall JPEG HTTP, full signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "1992.132"
+      },
+      "curation": {
+        "emotions": [
+          "安心",
+          "不安"
+        ],
+        "emotion_strengths": {
+          "安心": 2,
+          "不安": 1
+        },
+        "tones": [
+          "緊張",
+          "余韻"
+        ],
+        "themes": [
+          "居場所",
+          "自然"
+        ],
+        "interpretation": "Metは、厳しい雪と風にさらされる身なりの簡素な人物が袖で顔を覆い、裸木や雪の竹に囲まれた家屋の温もりを求めて急いでいると説明する。家は戴進の竹雪書斎かもしれないが推定にとどまる。",
+        "alternate_reading": "安心はまだ実際に得られているのではなく、安全な場所を目指している構成との関連。家屋が戴進の自宅であるかはMetも推定にとどめる。",
+        "source_context_note": "明代の戴進が晩年の特徴である速く略した筆遣いで仕上げた雪景。南宋院体の伝統と元代画家の影響を組み合わせる。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/44699",
+        "search_profile": {
+          "summary_for_ai": "吹雪から身を守り、家の温もりへ向かう人物。穏やかな室内そのものは描かれないが、厳しい自然と帰る場所の対比がある。",
+          "fitting_situations": [
+            {
+              "situation": "寒さや疲れのあと、帰れる場所を思い浮かべたい",
+              "reason": "Metが住まいの温もりへ急ぐ場面と説明している。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作中人物がすでに幸せ・安心を感じていると断定しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは、厳しい雪と風にさらされる身なりの簡素な人物が袖で顔を覆い、裸木や雪の竹に囲まれた家屋の温もりを求めて急いでいると説明する。家は戴進の竹雪書斎かもしれないが推定にとどまる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/44699"
+          },
+          "creation_context": "明代の戴進が晩年の特徴である速く略した筆遣いで仕上げた雪景。南宋院体の伝統と元代画家の影響を組み合わせる。",
+          "visual_clues": "雪をまとった竹と裸木、風に顔を隠す歩行者、奥に見える家屋。",
+          "uncertainty_note": "安心はまだ実際に得られているのではなく、安全な場所を目指している構成との関連。家屋が戴進の自宅であるかはMetも推定にとどめる。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "安心"
+          ],
+          "secondary": [
+            "不安"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第12群暫定登録。Met公式APIとオープンJPEGを同一作品IDで直接検証、作者の言葉・館の読解・鑑賞者の接点を区別。公開前の人間の画像目視、内容審査と法的審査は未完了。"
+      }
+    },
+    {
+      "id": "met-829379",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 829379,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/829379",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/829379",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Herdboys and Buffalos",
+        "title_ja_provisional": "牧童図",
+        "artist": "Attributed to Kaō",
+        "creation_date_display": "probably 15th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2019.420.2"
+      },
+      "image": {
+        "image_id": "met-829379-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-20030-002.jpg",
+        "source_registry_id": "met-829379",
+        "local_path": "/artworks/met-829379.jpg",
+        "sha256": "2ba231d9236bed78ff9c5906ec6d311f6633560429dd7bda101335c2f305f8f1",
+        "byte_length": 93315,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall JPEG HTTP, full signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "2019.420.2"
+      },
+      "curation": {
+        "emotions": [
+          "安心",
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "安心": 2,
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "日常"
+        ],
+        "interpretation": "Metは水牛にまたがる牧童たちが浅瀬を渡り、おそらく田仕事から戻っていると述べる。牛と牧童の題材は中国の農耕・春の象徴と、修行の段階を牛の世話になぞらえる禅の十牛図にも関連する。",
+        "alternate_reading": "『家へ戻る』の解釈はMet自身がlikelyと推定しており、十牛図の一場面をそのまま描いたと確定できない。絵の穏やかさから画家の内面の平穏を断定しない。",
+        "source_context_note": "伝・可翁の日本の水墨掛幅。Metは制作時期をprobably 15th centuryとし、作者活動期と制作年代に差があることに注意が必要とされる。中国の水牛画に由来する筆法・画題。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/829379",
+        "search_profile": {
+          "summary_for_ai": "薄墨の牛と牧童が静かな水辺を渡る。田仕事の帰途かもしれない日常画面には、中国の牛の象徴性と禅の十牛図の伝統が重なる。",
+          "fitting_situations": [
+            {
+              "situation": "強い刺激ではなく、日々の静かな移動の景色に触れたい",
+              "reason": "動物と牧童の移動を抑えた墨で描き、Metも農耕と禅の題材との関係を論じている。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作者帰属は『伝・可翁』。安らぎを作者が意図した直接証拠ではなく、禅の十牛図そのものとの断定も避ける。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは水牛にまたがる牧童たちが浅瀬を渡り、おそらく田仕事から戻っていると述べる。牛と牧童の題材は中国の農耕・春の象徴と、修行の段階を牛の世話になぞらえる禅の十牛図にも関連する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/829379"
+          },
+          "creation_context": "伝・可翁の日本の水墨掛幅。Metは制作時期をprobably 15th centuryとし、作者活動期と制作年代に差があることに注意が必要とされる。中国の水牛画に由来する筆法・画題。",
+          "visual_clues": "淡い墨の水牛2頭と子牛1頭、背に座った牧童たち、水流を白い余白として描く岸辺。",
+          "uncertainty_note": "『家へ戻る』の解釈はMet自身がlikelyと推定しており、十牛図の一場面をそのまま描いたと確定できない。絵の穏やかさから画家の内面の平穏を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "安心"
+          ],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第12群暫定登録。Met公式APIとオープンJPEGを同一作品IDで直接検証、作者の言葉・館の読解・鑑賞者の接点を区別。公開前の人間の画像目視、内容審査と法的審査は未完了。"
+      }
+    },
+    {
+      "id": "met-37897",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 37897,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/37897",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/37897",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Malkos Raga: Page from a Dispersed Ragamala Series (Garland of Musical Modes)",
+        "title_ja_provisional": "マールコース・ラーガ",
+        "artist": "Unidentified artist",
+        "creation_date_display": "ca. 1640–50",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India",
+        "accession_number": "55.121.29"
+      },
+      "image": {
+        "image_id": "met-37897-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156141.jpg",
+        "source_registry_id": "met-37897",
+        "local_path": "/artworks/met-37897.jpg",
+        "sha256": "9c833991e7e9411f11102629fe0daf7fc313db2dba1af440176970d0b65ee1a7",
+        "byte_length": 116722,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall JPEG HTTP, full signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "55.121.29"
+      },
+      "curation": {
+        "emotions": [
+          "喜び"
+        ],
+        "emotion_strengths": {
+          "喜び": 3
+        },
+        "tones": [
+          "高揚",
+          "にぎわい"
+        ],
+        "themes": [
+          "愛情",
+          "共同体"
+        ],
+        "interpretation": "Metによると、マーラヴァーラーのラーガを描く詩には、女性の従者や天上の音楽を伴う主人公について、愛に満たされ心が幸福だと明記される。画家は詩の象徴を画面構成に取り込んだ。",
+        "alternate_reading": "幸福の根拠は元の詩に描かれた人物の描写であり、匿名画家の個人的な恋愛感情とは違う。巻物全体の旋律の実演を再現する資料ではない。",
+        "source_context_note": "17世紀半ばのラージャスターン、マールワール地方のラーガマーラー絵画の一葉。音楽の旋法を視覚化する伝統に属する。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/37897",
+        "search_profile": {
+          "summary_for_ai": "音楽の旋法を絵にしたラーガマーラーの一葉。Metが紹介する詩では主人公の心が幸福で愛に満ちていることが明言され、図像とも結びつく。",
+          "fitting_situations": [
+            {
+              "situation": "愛情と音楽が満ちるお祝いのような場面に触れたい",
+              "reason": "Metの作品解説は原詩に主人公の幸福が明記されていると説明する。",
+              "strength": 3
+            }
+          ],
+          "selection_cautions": [
+            "登場人物の幸福と作者本人の気持ちは別。音楽が持つ宗教・詩的意味をただの宴会に還元しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metによると、マーラヴァーラーのラーガを描く詩には、女性の従者や天上の音楽を伴う主人公について、愛に満たされ心が幸福だと明記される。画家は詩の象徴を画面構成に取り込んだ。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/37897"
+          },
+          "creation_context": "17世紀半ばのラージャスターン、マールワール地方のラーガマーラー絵画の一葉。音楽の旋法を視覚化する伝統に属する。",
+          "visual_clues": "装飾した主人公、扇子を持つ侍女、音楽を奏でる人物、彩色された宮廷的場面。",
+          "uncertainty_note": "幸福の根拠は元の詩に描かれた人物の描写であり、匿名画家の個人的な恋愛感情とは違う。巻物全体の旋律の実演を再現する資料ではない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喜び"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第12群暫定登録。Met公式APIとオープンJPEGを同一作品IDで直接検証、作者の言葉・館の読解・鑑賞者の接点を区別。公開前の人間の画像目視、内容審査と法的審査は未完了。"
+      }
+    },
+    {
+      "id": "met-11160",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 11160,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/11160",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11160",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Last Moments of John Brown",
+        "title_ja_provisional": "ジョン・ブラウンの最期",
+        "artist": "Thomas Hovenden",
+        "creation_date_display": "1882–84",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "United States",
+        "accession_number": "97.5"
+      },
+      "image": {
+        "image_id": "met-11160-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/ap97.5.jpg",
+        "source_registry_id": "met-11160",
+        "local_path": "/artworks/met-11160.jpg",
+        "sha256": "d586a27559c5fa971ebbbbf2070a8df51beca9b7371eca6a711036f1cb5c501e",
+        "byte_length": 114169,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall JPEG HTTP, full signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "97.5"
+      },
+      "curation": {
+        "emotions": [
+          "喪失感",
+          "希望"
+        ],
+        "emotion_strengths": {
+          "喪失感": 2,
+          "希望": 1
+        },
+        "tones": [
+          "重苦しさ",
+          "余韻"
+        ],
+        "themes": [
+          "別れ",
+          "共同体",
+          "時間"
+        ],
+        "interpretation": "Metは、奴隷制廃止のため武装蜂起を図ったジョン・ブラウンが処刑に向かう途中に赤子に口づけたという同時代の新聞報道を、ホヴェンデンが支持者の依頼で共感的に描いたと説明する。画家自身も奴隷制廃止論者だった。",
+        "alternate_reading": "赤子への口づけは当時の新聞に伝えられた出来事で史実の確定ではない。主人公の最期から喪失を読み得るが、絵に描かれた人物の思いを独断しない。武装行動と奴隷制の歴史を抜かさない。",
+        "source_context_note": "ブラウンは1859年に武器庫を襲撃して逮捕され、反逆罪で有罪となり絞首刑判決を受けた。絵は1882–84年制作で、描かれた当時の事件とは二十年以上離れている。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/11160",
+        "search_profile": {
+          "summary_for_ai": "処刑を控えた奴隷制廃止論者ジョン・ブラウンを共感的に描く歴史画。赤子に口づけする逸話は当時の新聞の報道に由来する。",
+          "fitting_situations": [
+            {
+              "situation": "誰かとの別れの場面に、社会的な理想や対立も重なっていると感じたい",
+              "reason": "死刑に向かう人物と周囲の人々が描かれ、奴隷制度廃止をめぐる歴史とも深く結びつく。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "報道された逸話を無条件に史実とせず、武装蜂起という複雑な経歴や奴隷制の現実を単純な感動譚で消さない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは、奴隷制廃止のため武装蜂起を図ったジョン・ブラウンが処刑に向かう途中に赤子に口づけたという同時代の新聞報道を、ホヴェンデンが支持者の依頼で共感的に描いたと説明する。画家自身も奴隷制廃止論者だった。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/11160"
+          },
+          "creation_context": "ブラウンは1859年に武器庫を襲撃して逮捕され、反逆罪で有罪となり絞首刑判決を受けた。絵は1882–84年制作で、描かれた当時の事件とは二十年以上離れている。",
+          "visual_clues": "処刑へ連行される男性が赤子に顔を近づけ、女性や兵士が周囲に立つ場面。",
+          "uncertainty_note": "赤子への口づけは当時の新聞に伝えられた出来事で史実の確定ではない。主人公の最期から喪失を読み得るが、絵に描かれた人物の思いを独断しない。武装行動と奴隷制の歴史を抜かさない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喪失感"
+          ],
+          "secondary": [
+            "希望"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第12群暫定登録。Met公式APIとオープンJPEGを同一作品IDで直接検証、作者の言葉・館の読解・鑑賞者の接点を区別。公開前の人間の画像目視、内容審査と法的審査は未完了。"
+      }
+    },
+    {
+      "id": "met-436141",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436141,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436141",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436141",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Dancing Class",
+        "title_ja_provisional": "ダンス教室",
+        "artist": "Edgar Degas",
+        "creation_date_display": "ca. 1870",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "France",
+        "accession_number": "29.100.184"
+      },
+      "image": {
+        "image_id": "met-436141-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25445-001.jpg",
+        "source_registry_id": "met-436141",
+        "local_path": "/artworks/met-436141.jpg",
+        "sha256": "ad5538f97e5e201957e9e0d11007e72e729178e4183c6ae1b74542bacfbc8719",
+        "byte_length": 81380,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall JPEG HTTP, full signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "29.100.184"
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2
+        },
+        "tones": [
+          "にぎわい",
+          "余韻"
+        ],
+        "themes": [
+          "日常",
+          "他者との距離"
+        ],
+        "interpretation": "Metはドガによる最初の『ダンス教室』表現とし、当時はパリ・オペラ座の楽屋へ出入りする特権がなく、自分のアトリエでモデルにポーズを取らせて習作を制作したと説明する。1870年代後半に画家自身が稽古場の試験を実見せず何度も描いたことを述べている。",
+        "alternate_reading": "引用された画家の言葉は1870年代後半の同題材全般についてであり、この一点の直接的な意図を言い切るものではない。後年には実際の稽古場などを見ている可能性も切り分ける。",
+        "source_context_note": "1870年頃の木板油彩。踊り子を描く初期の取り組みで、舞台の一瞬を直接写生した作品とみなすのは不正確。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436141",
+        "search_profile": {
+          "summary_for_ai": "実際のオペラ座の稽古場に自由に入れなかった時期、ドガがアトリエのモデルから組み立てた初期のダンス教室画。画家の後年の説明も残る。",
+          "fitting_situations": [
+            {
+              "situation": "ありふれた場面がどのような観察と工夫から絵になるか知りたい",
+              "reason": "稽古場を実際に見られなかった時期の制作方法を、Metが画家本人の後年の発言とともに説明する。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "『すべて想像で描いた』『生涯楽屋に入れなかった』とは言わない。制作時と後年の回顧を区別する。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "related_artistic_program",
+            "summary": "Metによればドガは1870年代後半、稽古場の試験を実際には見ていないのに多く描いたことを少し恥ずかしく思う旨を語った。これは同題材の制作活動への後年の発言で、本作一点を直接説明する証言ではない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436141"
+          },
+          "scholarly_interpretation": {
+            "summary": "Metはドガによる最初の『ダンス教室』表現とし、当時はパリ・オペラ座の楽屋へ出入りする特権がなく、自分のアトリエでモデルにポーズを取らせて習作を制作したと説明する。1870年代後半に画家自身が稽古場の試験を実見せず何度も描いたことを述べている。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436141"
+          },
+          "creation_context": "1870年頃の木板油彩。踊り子を描く初期の取り組みで、舞台の一瞬を直接写生した作品とみなすのは不正確。",
+          "visual_clues": "踊り子の姿勢、周囲の人物と室内の小道具、写実的な観察に見える場面構成。",
+          "uncertainty_note": "引用された画家の言葉は1870年代後半の同題材全般についてであり、この一点の直接的な意図を言い切るものではない。後年には実際の稽古場などを見ている可能性も切り分ける。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第12群暫定登録。Met公式APIとオープンJPEGを同一作品IDで直接検証、作者の言葉・館の読解・鑑賞者の接点を区別。公開前の人間の画像目視、内容審査と法的審査は未完了。"
+      }
+    },
+    {
+      "id": "met-437156",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437156,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437156",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437156",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Entombment",
+        "title_ja_provisional": "キリストの埋葬",
+        "artist": "Moretto da Brescia (Alessandro Bonvicino)",
+        "creation_date_display": "1554",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Italy",
+        "accession_number": "12.61"
+      },
+      "image": {
+        "image_id": "met-437156-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-15282-001.jpg",
+        "source_registry_id": "met-437156",
+        "local_path": "/artworks/met-437156.jpg",
+        "sha256": "e4a74cd2cc610370eb7cca52ea8902b18d221a25755a8d8b155595004d0c2a4f",
+        "byte_length": 117494,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall JPEG HTTP, full signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "12.61"
+      },
+      "curation": {
+        "emotions": [
+          "喪失感",
+          "希望"
+        ],
+        "emotion_strengths": {
+          "喪失感": 3,
+          "希望": 3
+        },
+        "tones": [
+          "重苦しさ",
+          "余韻"
+        ],
+        "themes": [
+          "別れ",
+          "時間"
+        ],
+        "interpretation": "Metは1554年の祭壇画を、礼拝における死の黙想を目的とするものと位置づける。悲しみを帯びた人物たちの顔と夜明けの光との対照が喪失と希望を表し、書き込まれた聖書の言葉はキリストの従順を強調すると解説する。",
+        "alternate_reading": "喪失と希望の両義性はMetの専門的解釈に根拠がある。夜明けをすべての人にとっての個人的救済と決めつけない。画家自身の最期の感情は未確認。",
+        "source_context_note": "モレット・ダ・ブレシアの死の直前、故郷の信心会の私的礼拝堂に描かれた祭壇画。キリスト教の死と復活への信仰に基づく。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437156",
+        "search_profile": {
+          "summary_for_ai": "キリストの埋葬を描く1554年の祭壇画。Metは悲しむ顔と夜明けの光が、宗教的な喪失と希望を伝えると解説する。",
+          "fitting_situations": [
+            {
+              "situation": "深い別れの悲しみと、そこに同時に存在する別の意味について考えたい",
+              "reason": "Metは人物の悲嘆と空の夜明けを、作品の喪失と希望の中心に据える。",
+              "strength": 3
+            }
+          ],
+          "selection_cautions": [
+            "復活への希望はキリスト教の教義と礼拝という文脈にある。作者本人の個人的死別や一般的な楽観とはしない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは1554年の祭壇画を、礼拝における死の黙想を目的とするものと位置づける。悲しみを帯びた人物たちの顔と夜明けの光との対照が喪失と希望を表し、書き込まれた聖書の言葉はキリストの従順を強調すると解説する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437156"
+          },
+          "creation_context": "モレット・ダ・ブレシアの死の直前、故郷の信心会の私的礼拝堂に描かれた祭壇画。キリスト教の死と復活への信仰に基づく。",
+          "visual_clues": "埋葬されるキリストとその周囲の悲しむ人物、遠景の明け方の空の光、礼拝者に向けられた聖句。",
+          "uncertainty_note": "喪失と希望の両義性はMetの専門的解釈に根拠がある。夜明けをすべての人にとっての個人的救済と決めつけない。画家自身の最期の感情は未確認。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喪失感",
+            "希望"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第12群暫定登録。Met公式APIとオープンJPEGを同一作品IDで直接検証、作者の言葉・館の読解・鑑賞者の接点を区別。公開前の人間の画像目視、内容審査と法的審査は未完了。"
+      }
+    },
+    {
+      "id": "met-45620",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 45620,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/45620",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45620",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Kongōyasha Myōō",
+        "title_ja_provisional": "金剛夜叉明王",
+        "artist": "Unidentified artist",
+        "creation_date_display": "12th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "1975.268.12"
+      },
+      "image": {
+        "image_id": "met-45620-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP276185.jpg",
+        "source_registry_id": "met-45620",
+        "local_path": "/artworks/met-45620.jpg",
+        "sha256": "f14b2ba1bd90c5b1271503b7b2c34e76671416aa229cac16898f936d833610f4",
+        "byte_length": 227352,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall JPEG HTTP, full signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "1975.268.12"
+      },
+      "curation": {
+        "emotions": [
+          "怒り"
+        ],
+        "emotion_strengths": {
+          "怒り": 2
+        },
+        "tones": [
+          "緊張",
+          "高揚"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "interpretation": "Metは金剛夜叉明王を五大明王の一体とし、激しい相貌を、悪に対する五智如来の忿怒の顕現として説明する。三面・五眼・六臂の形と、法具などの持物も儀礼上の意味を持つ。",
+        "alternate_reading": "忿怒は悪を退けるための宗教的表現であり、世俗的な人間への私怨や画家本人の怒りではない。画家の同定は不詳。",
+        "source_context_note": "平安時代12世紀の真言密教にかかわる日本の宗教画。五大明王信仰は唐からの密教伝来以降、国家守護の仁王経法などに用いられた。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/45620",
+        "search_profile": {
+          "summary_for_ai": "悪を鎮める密教の五大明王の一体。忿怒相は仏の智慧が悪に向ける力を象徴する。怒りの主タグは宗教上の『忿怒』を区別して扱う。",
+          "fitting_situations": [
+            {
+              "situation": "怒りが単なる相手への憎しみではなく、何を守るための力なのか考えたい",
+              "reason": "Metは恐ろしい容貌を、悪に向かう仏の忿怒として説明している。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "忿怒と対人怒り、宗教的守護と実際の暴力を混同しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは金剛夜叉明王を五大明王の一体とし、激しい相貌を、悪に対する五智如来の忿怒の顕現として説明する。三面・五眼・六臂の形と、法具などの持物も儀礼上の意味を持つ。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/45620"
+          },
+          "creation_context": "平安時代12世紀の真言密教にかかわる日本の宗教画。五大明王信仰は唐からの密教伝来以降、国家守護の仁王経法などに用いられた。",
+          "visual_clues": "三つの顔、複数の眼、六本の腕、剣・弓・矢などの法具、忿怒相。",
+          "uncertainty_note": "忿怒は悪を退けるための宗教的表現であり、世俗的な人間への私怨や画家本人の怒りではない。画家の同定は不詳。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "怒り"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第12群暫定登録。Met公式APIとオープンJPEGを同一作品IDで直接検証、作者の言葉・館の読解・鑑賞者の接点を区別。公開前の人間の画像目視、内容審査と法的審査は未完了。"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-18",
