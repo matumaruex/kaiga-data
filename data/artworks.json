@@ -16057,9 +16057,3387 @@
         "curatorial_review_status": "provisional",
         "curatorial_review_note": "第16群暫定登録。Met現行公式API、PD、原JPEG実取得とSHA256を確認。作者発言・美術館解釈・感情の索引は異なる役割。人間の目視、解釈承認、公開時の権利確認は未了。"
       }
+    },
+    {
+      "id": "met-39543",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 39543,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/39543",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/39543",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Palace banquet",
+        "title_ja_provisional": "宮廷の宴",
+        "artist": "Unidentified artist",
+        "creation_date_display": "date not supplied by official API",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "accession_number": "2010.473"
+      },
+      "image": {
+        "image_id": "met-39543-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-13657-002.jpg",
+        "source_registry_id": "met-39543",
+        "local_path": "/artworks/met-39543.jpg",
+        "sha256": "8c86c6e4775577496e21074bd93415f5ea4768c8b6610e7b3e4a7d9d346ed1ac",
+        "byte_length": 79302,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API/PD & JPEG download SHA256 verified in batch-017 on 2026-10-19; not repeated",
+        "source_accession_number": "2010.473"
+      },
+      "curation": {
+        "emotions": [
+          "期待",
+          "喜び"
+        ],
+        "emotion_strengths": {
+          "期待": 2,
+          "喜び": 1
+        },
+        "tones": [
+          "にぎわい",
+          "余韻"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "interpretation": "七夕の針仕事と楊貴妃・唐玄宗の悲劇を予示する宴。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "人物の喜びと作品全体の悲劇的予示は分離する。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "七夕の針仕事と楊貴妃・唐玄宗の悲劇を予示する宴。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/39543",
+        "search_profile": {
+          "summary_for_ai": "七夕の針仕事と楊貴妃・唐玄宗の悲劇を予示する宴。 鑑賞の入口: 期待・喜び（意味や反応を固定しない）。",
+          "fitting_situations": [
+            {
+              "situation": "期待と宴の喜びが、後の悲劇の予兆と共存する作品に触れたい",
+              "reason": "七夕の針仕事と楊貴妃・唐玄宗の悲劇を予示する宴。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "人物の喜びと作品全体の悲劇的予示は分離する。",
+            "作者の感情と鑑賞者の感情を同一視しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "七夕の針仕事と楊貴妃・唐玄宗の悲劇を予示する宴。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/39543"
+          },
+          "creation_context": "七夕の針仕事と楊貴妃・唐玄宗の悲劇を予示する宴。",
+          "visual_clues": "宮廷の宴と周囲の人物を描く。",
+          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "期待"
+          ],
+          "secondary": [
+            "喜び"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第17群でMet Object API, PD, JPEG実取得とSHA256確認済み。作品解釈・人間評価・公開判定は未了。"
+      }
+    },
+    {
+      "id": "met-45417",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 45417,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/45417",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45417",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Death of the Historical Buddha (Nehan-zu)",
+        "title_ja_provisional": "仏涅槃図（室町時代）",
+        "artist": "Unidentified artist",
+        "creation_date_display": "15th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "accession_number": "44.35.1"
+      },
+      "image": {
+        "image_id": "met-45417-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-26930-002.jpg",
+        "source_registry_id": "met-45417",
+        "local_path": "/artworks/met-45417.jpg",
+        "sha256": "32094f743c27ff2cca6392542d227c70edc4a79315f1656975ad928683e03e85",
+        "byte_length": 142644,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API/PD & JPEG download SHA256 verified in batch-017 on 2026-10-19; not repeated",
+        "source_accession_number": "44.35.1"
+      },
+      "curation": {
+        "emotions": [
+          "悲しみ",
+          "慈しみ"
+        ],
+        "emotion_strengths": {
+          "悲しみ": 2,
+          "慈しみ": 1
+        },
+        "tones": [
+          "重苦しさ",
+          "余韻"
+        ],
+        "themes": [
+          "別れ",
+          "共同体"
+        ],
+        "interpretation": "涅槃に至る釈迦と、周囲で嘆く人や生き物を描く。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "仏教の涅槃を単純な死別の悲嘆に還元しない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "涅槃に至る釈迦と、周囲で嘆く人や生き物を描く。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/45417",
+        "search_profile": {
+          "summary_for_ai": "涅槃に至る釈迦と、周囲で嘆く人や生き物を描く。 鑑賞の入口: 悲しみ・慈しみ（意味や反応を固定しない）。",
+          "fitting_situations": [
+            {
+              "situation": "別れを悼む表現と、仏教の涅槃の意味をあわせて見つめたい",
+              "reason": "涅槃に至る釈迦と、周囲で嘆く人や生き物を描く。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "仏教の涅槃を単純な死別の悲嘆に還元しない。",
+            "作者の感情と鑑賞者の感情を同一視しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "涅槃に至る釈迦と、周囲で嘆く人や生き物を描く。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/45417"
+          },
+          "creation_context": "涅槃に至る釈迦と、周囲で嘆く人や生き物を描く。",
+          "visual_clues": "横たわる釈迦の周囲に嘆く人と生き物が集まる。",
+          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "悲しみ"
+          ],
+          "secondary": [
+            "慈しみ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第17群でMet Object API, PD, JPEG実取得とSHA256確認済み。作品解釈・人間評価・公開判定は未了。"
+      }
+    },
+    {
+      "id": "met-44841",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 44841,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/44841",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/44841",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Death of the Historical Buddha (Nehan-zu)",
+        "title_ja_provisional": "仏涅槃図（鎌倉時代）",
+        "artist": "Unidentified artist",
+        "creation_date_display": "14th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "accession_number": "12.134.10"
+      },
+      "image": {
+        "image_id": "met-44841-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-15580-019.jpg",
+        "source_registry_id": "met-44841",
+        "local_path": "/artworks/met-44841.jpg",
+        "sha256": "b33b8c233751bd2b0c5bb88498a6f29982cd1c05299a1fd6249e3459558b0931",
+        "byte_length": 233404,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API/PD & JPEG download SHA256 verified in batch-017 on 2026-10-19; not repeated",
+        "source_accession_number": "12.134.10"
+      },
+      "curation": {
+        "emotions": [
+          "悲しみ",
+          "喪失感"
+        ],
+        "emotion_strengths": {
+          "悲しみ": 2,
+          "喪失感": 1
+        },
+        "tones": [
+          "重苦しさ",
+          "余韻"
+        ],
+        "themes": [
+          "別れ",
+          "共同体"
+        ],
+        "interpretation": "14世紀の涅槃図。釈迦を悼む多くの存在が描かれる。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "同じ題名のmet-45417とは別作品。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "14世紀の涅槃図。釈迦を悼む多くの存在が描かれる。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/44841",
+        "search_profile": {
+          "summary_for_ai": "14世紀の涅槃図。釈迦を悼む多くの存在が描かれる。 鑑賞の入口: 悲しみ・喪失感（意味や反応を固定しない）。",
+          "fitting_situations": [
+            {
+              "situation": "死を悼む群像と、その宗教的意味の両方に向き合いたい",
+              "reason": "14世紀の涅槃図。釈迦を悼む多くの存在が描かれる。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "同じ題名のmet-45417とは別作品。",
+            "作者の感情と鑑賞者の感情を同一視しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "14世紀の涅槃図。釈迦を悼む多くの存在が描かれる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/44841"
+          },
+          "creation_context": "14世紀の涅槃図。釈迦を悼む多くの存在が描かれる。",
+          "visual_clues": "釈迦の横臥と周囲に集まる多様な存在を描く。",
+          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "悲しみ"
+          ],
+          "secondary": [
+            "喪失感"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第17群でMet Object API, PD, JPEG実取得とSHA256確認済み。作品解釈・人間評価・公開判定は未了。"
+      }
+    },
+    {
+      "id": "met-45595",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 45595,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/45595",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45595",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Descent of Eleven-Headed Kannon",
+        "title_ja_provisional": "十一面観音来迎図（室町）",
+        "artist": "Unidentified artist",
+        "creation_date_display": "mid–late 16th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "accession_number": "30.72.3"
+      },
+      "image": {
+        "image_id": "met-45595-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP317450.jpg",
+        "source_registry_id": "met-45595",
+        "local_path": "/artworks/met-45595.jpg",
+        "sha256": "c6f741aff4786300f9ba7be5bd476001ea2d8742671bfebbbbea0aa2f3d39466",
+        "byte_length": 65383,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API/PD & JPEG download SHA256 verified in batch-017 on 2026-10-19; not repeated",
+        "source_accession_number": "30.72.3"
+      },
+      "curation": {
+        "emotions": [
+          "慈しみ",
+          "希望"
+        ],
+        "emotion_strengths": {
+          "慈しみ": 2,
+          "希望": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "別れ",
+          "愛情"
+        ],
+        "interpretation": "臨終の信者を救いに導く十一面観音の来迎。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "宗教的救済と一般的な安心感は同義ではない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "臨終の信者を救いに導く十一面観音の来迎。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/45595",
+        "search_profile": {
+          "summary_for_ai": "臨終の信者を救いに導く十一面観音の来迎。 鑑賞の入口: 慈しみ・希望（意味や反応を固定しない）。",
+          "fitting_situations": [
+            {
+              "situation": "人を救い導く宗教図像と慈悲の表現を見たい",
+              "reason": "臨終の信者を救いに導く十一面観音の来迎。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "宗教的救済と一般的な安心感は同義ではない。",
+            "作者の感情と鑑賞者の感情を同一視しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "臨終の信者を救いに導く十一面観音の来迎。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/45595"
+          },
+          "creation_context": "臨終の信者を救いに導く十一面観音の来迎。",
+          "visual_clues": "十一面観音の来迎を宗教図像として表現。",
+          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "慈しみ"
+          ],
+          "secondary": [
+            "希望"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第17群でMet Object API, PD, JPEG実取得とSHA256確認済み。作品解釈・人間評価・公開判定は未了。"
+      }
+    },
+    {
+      "id": "met-45524",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 45524,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/45524",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45524",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "White-Robed Kannon",
+        "title_ja_provisional": "白衣観音",
+        "artist": "Unidentified artist",
+        "creation_date_display": "13th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "accession_number": "1975.268.19"
+      },
+      "image": {
+        "image_id": "met-45524-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP276191.jpg",
+        "source_registry_id": "met-45524",
+        "local_path": "/artworks/met-45524.jpg",
+        "sha256": "4b63d225c1e8dd739a85de434519e2dad112393a387ed079af57c31f1043e674",
+        "byte_length": 173979,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API/PD & JPEG download SHA256 verified in batch-017 on 2026-10-19; not repeated",
+        "source_accession_number": "1975.268.19"
+      },
+      "curation": {
+        "emotions": [
+          "慈しみ"
+        ],
+        "emotion_strengths": {
+          "慈しみ": 2
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "愛情"
+        ],
+        "interpretation": "観音の慈悲を描く宗教的図像。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "母性そのものや作者の私的感情と断定しない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "観音の慈悲を描く宗教的図像。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/45524",
+        "search_profile": {
+          "summary_for_ai": "観音の慈悲を描く宗教的図像。 鑑賞の入口: 慈しみ（意味や反応を固定しない）。",
+          "fitting_situations": [
+            {
+              "situation": "慈悲を主題とした観音の図像を考えたい",
+              "reason": "観音の慈悲を描く宗教的図像。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "母性そのものや作者の私的感情と断定しない。",
+            "作者の感情と鑑賞者の感情を同一視しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "観音の慈悲を描く宗教的図像。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/45524"
+          },
+          "creation_context": "観音の慈悲を描く宗教的図像。",
+          "visual_clues": "白衣の観音像を主題に描く。",
+          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "慈しみ"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第17群でMet Object API, PD, JPEG実取得とSHA256確認済み。作品解釈・人間評価・公開判定は未了。"
+      }
+    },
+    {
+      "id": "met-670929",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 670929,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/670929",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/670929",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Hanshan and Shide (Japanese: Kanzan and Jittoku)",
+        "title_ja_provisional": "寒山拾得",
+        "artist": "Itō Jakuchū",
+        "creation_date_display": "late 18th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "accession_number": "2015.300.215"
+      },
+      "image": {
+        "image_id": "met-670929-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-12232-277.jpg",
+        "source_registry_id": "met-670929",
+        "local_path": "/artworks/met-670929.jpg",
+        "sha256": "1e32a5994f09df009ca455e8e51b466d1200e0661842e77782644b382d23c321",
+        "byte_length": 89101,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API/PD & JPEG download SHA256 verified in batch-017 on 2026-10-19; not repeated",
+        "source_accession_number": "2015.300.215"
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "余韻"
+        ],
+        "themes": [
+          "共同体"
+        ],
+        "interpretation": "伊藤若冲による寒山拾得の図像と禅僧の伝承。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "知恵や慈悲という意味から鑑賞者の特定感情を自動付与しない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "伊藤若冲による寒山拾得の図像と禅僧の伝承。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/670929",
+        "search_profile": {
+          "summary_for_ai": "伊藤若冲による寒山拾得の図像と禅僧の伝承。 感情タグは無理に付けない。",
+          "fitting_situations": [
+            {
+              "situation": "禅の伝承に描かれた二人の意味を探りたい",
+              "reason": "伊藤若冲による寒山拾得の図像と禅僧の伝承。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "知恵や慈悲という意味から鑑賞者の特定感情を自動付与しない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "伊藤若冲による寒山拾得の図像と禅僧の伝承。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/670929"
+          },
+          "creation_context": "伊藤若冲による寒山拾得の図像と禅僧の伝承。",
+          "visual_clues": "禅僧・寒山と拾得の伝説的な二人を描く。",
+          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第17群でMet Object API, PD, JPEG実取得とSHA256確認済み。作品解釈・人間評価・公開判定は未了。"
+      }
+    },
+    {
+      "id": "met-11140",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 11140,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/11140",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11140",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Snap the Whip",
+        "title_ja_provisional": "鞭打ち遊び",
+        "artist": "Winslow Homer",
+        "creation_date_display": "1872",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "accession_number": "50.41"
+      },
+      "image": {
+        "image_id": "met-11140-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-20820-001.jpg",
+        "source_registry_id": "met-11140",
+        "local_path": "/artworks/met-11140.jpg",
+        "sha256": "2d6000f74d77c3cb23d7f243d79f9b80031ddc289286a33be84da16cbd92bd50",
+        "byte_length": 111293,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API/PD & JPEG download SHA256 verified in batch-017 on 2026-10-19; not repeated",
+        "source_accession_number": "50.41"
+      },
+      "curation": {
+        "emotions": [
+          "喜び",
+          "懐かしさ"
+        ],
+        "emotion_strengths": {
+          "喜び": 2,
+          "懐かしさ": 1
+        },
+        "tones": [
+          "にぎわい",
+          "高揚"
+        ],
+        "themes": [
+          "共同体",
+          "日常"
+        ],
+        "interpretation": "学校のそばで遊ぶ子どもたち。遊びと変化するアメリカの学校生活。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "子どもの遊びを作者個人の思い出と同一視しない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "学校のそばで遊ぶ子どもたち。遊びと変化するアメリカの学校生活。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/11140",
+        "search_profile": {
+          "summary_for_ai": "学校のそばで遊ぶ子どもたち。遊びと変化するアメリカの学校生活。 鑑賞の入口: 喜び・懐かしさ（意味や反応を固定しない）。",
+          "fitting_situations": [
+            {
+              "situation": "子どもの遊びの楽しさと時代の移り変わりに触れたい",
+              "reason": "学校のそばで遊ぶ子どもたち。遊びと変化するアメリカの学校生活。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "子どもの遊びを作者個人の思い出と同一視しない。",
+            "作者の感情と鑑賞者の感情を同一視しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "学校のそばで遊ぶ子どもたち。遊びと変化するアメリカの学校生活。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/11140"
+          },
+          "creation_context": "学校のそばで遊ぶ子どもたち。遊びと変化するアメリカの学校生活。",
+          "visual_clues": "学校の建物の前で子どもたちが集団で遊ぶ。",
+          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喜び"
+          ],
+          "secondary": [
+            "懐かしさ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第17群でMet Object API, PD, JPEG実取得とSHA256確認済み。作品解釈・人間評価・公開判定は未了。"
+      }
+    },
+    {
+      "id": "met-44984",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 44984,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/44984",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/44984",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Descent of Eleven-Headed Kannon",
+        "title_ja_provisional": "十一面観音来迎図（鎌倉）",
+        "artist": "Unidentified artist",
+        "creation_date_display": "14th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "accession_number": "1972.181"
+      },
+      "image": {
+        "image_id": "met-44984-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP251147.jpg",
+        "source_registry_id": "met-44984",
+        "local_path": "/artworks/met-44984.jpg",
+        "sha256": "870de9830f333187f63d7abea7595d3bfb6686b1826e9a23990ff72779572881",
+        "byte_length": 65110,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API/PD & JPEG download SHA256 verified in batch-017 on 2026-10-19; not repeated",
+        "source_accession_number": "1972.181"
+      },
+      "curation": {
+        "emotions": [
+          "慈しみ",
+          "希望"
+        ],
+        "emotion_strengths": {
+          "慈しみ": 2,
+          "希望": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "別れ",
+          "愛情"
+        ],
+        "interpretation": "鎌倉期の十一面観音来迎図。死と救済を扱う。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "同題のmet-45595との制作年代・構図・意味の違いを記録する。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "鎌倉期の十一面観音来迎図。死と救済を扱う。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/44984",
+        "search_profile": {
+          "summary_for_ai": "鎌倉期の十一面観音来迎図。死と救済を扱う。 鑑賞の入口: 慈しみ・希望（意味や反応を固定しない）。",
+          "fitting_situations": [
+            {
+              "situation": "死に臨む人への救いを描く伝統に向き合いたい",
+              "reason": "鎌倉期の十一面観音来迎図。死と救済を扱う。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "同題のmet-45595との制作年代・構図・意味の違いを記録する。",
+            "作者の感情と鑑賞者の感情を同一視しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "鎌倉期の十一面観音来迎図。死と救済を扱う。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/44984"
+          },
+          "creation_context": "鎌倉期の十一面観音来迎図。死と救済を扱う。",
+          "visual_clues": "十一面観音の来迎の姿を描く。",
+          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "慈しみ"
+          ],
+          "secondary": [
+            "希望"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第17群でMet Object API, PD, JPEG実取得とSHA256確認済み。作品解釈・人間評価・公開判定は未了。"
+      }
+    },
+    {
+      "id": "met-829407",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 829407,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/829407",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/829407",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "High Mountains, Flowing Water: Yu Boya and Zhong Ziqi",
+        "title_ja_provisional": "高山流水：伯牙と鍾子期",
+        "artist": "Okura Ryūzan",
+        "creation_date_display": "ca. 1840",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "accession_number": "2019.420.30"
+      },
+      "image": {
+        "image_id": "met-829407-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-25830-002.jpg",
+        "source_registry_id": "met-829407",
+        "local_path": "/artworks/met-829407.jpg",
+        "sha256": "5fce015d2fb4a203cee037426532da7a72fbf681c83fe8186bb1bec9aa85258d",
+        "byte_length": 81192,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API/PD & JPEG download SHA256 verified in batch-017 on 2026-10-19; not repeated",
+        "source_accession_number": "2019.420.30"
+      },
+      "curation": {
+        "emotions": [
+          "喜び",
+          "安心"
+        ],
+        "emotion_strengths": {
+          "喜び": 2,
+          "安心": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "共同体",
+          "自然"
+        ],
+        "interpretation": "琴の音を通して心が通う、伯牙と鍾子期の友情の故事。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "友情のテーマから作者個人の幸福を推定しない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "琴の音を通して心が通う、伯牙と鍾子期の友情の故事。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/829407",
+        "search_profile": {
+          "summary_for_ai": "琴の音を通して心が通う、伯牙と鍾子期の友情の故事。 鑑賞の入口: 喜び・安心（意味や反応を固定しない）。",
+          "fitting_situations": [
+            {
+              "situation": "人と心が通じるという友情の故事を見つめたい",
+              "reason": "琴の音を通して心が通う、伯牙と鍾子期の友情の故事。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "友情のテーマから作者個人の幸福を推定しない。",
+            "作者の感情と鑑賞者の感情を同一視しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "琴の音を通して心が通う、伯牙と鍾子期の友情の故事。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/829407"
+          },
+          "creation_context": "琴の音を通して心が通う、伯牙と鍾子期の友情の故事。",
+          "visual_clues": "山水の中で伯牙と鍾子期の故事を表現する。",
+          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喜び"
+          ],
+          "secondary": [
+            "安心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第17群でMet Object API, PD, JPEG実取得とSHA256確認済み。作品解釈・人間評価・公開判定は未了。"
+      }
+    },
+    {
+      "id": "met-438545",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 438545,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/438545",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/438545",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Léon Pallière (1787–1820) in His Room at the Villa Medici, Rome",
+        "title_ja_provisional": "ヴィラ・メディチの部屋にいるレオン・パリエール",
+        "artist": "Jean Alaux",
+        "creation_date_display": "1817",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "accession_number": "2019.141.1"
+      },
+      "image": {
+        "image_id": "met-438545-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT235903.jpg",
+        "source_registry_id": "met-438545",
+        "local_path": "/artworks/met-438545.jpg",
+        "sha256": "1f594fb9557dc31dfe5396ac599cb14724a18831bb3c14541d074b12beff71c6",
+        "byte_length": 123286,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API/PD & JPEG download SHA256 verified in batch-017 on 2026-10-19; not repeated",
+        "source_accession_number": "2019.141.1"
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "日常",
+          "居場所"
+        ],
+        "interpretation": "ローマの若い画家の私室に描かれた姿と交流。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "画家の友情という背景から安心・喜びを機械的に与えない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "ローマの若い画家の私室に描かれた姿と交流。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/438545",
+        "search_profile": {
+          "summary_for_ai": "ローマの若い画家の私室に描かれた姿と交流。 感情タグは無理に付けない。",
+          "fitting_situations": [
+            {
+              "situation": "画家が暮らし、学んだ私室の風景に触れたい",
+              "reason": "ローマの若い画家の私室に描かれた姿と交流。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "画家の友情という背景から安心・喜びを機械的に与えない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "ローマの若い画家の私室に描かれた姿と交流。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/438545"
+          },
+          "creation_context": "ローマの若い画家の私室に描かれた姿と交流。",
+          "visual_clues": "画家の私室、画材と人物の関係を示す。",
+          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第17群でMet Object API, PD, JPEG実取得とSHA256確認済み。作品解釈・人間評価・公開判定は未了。"
+      }
+    },
+    {
+      "id": "met-437887",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437887,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437887",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437887",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Bertel Thorvaldsen (1768–1844) with the Bust of Horace Vernet",
+        "title_ja_provisional": "オラース・ヴェルネの胸像とトルヴァルセン",
+        "artist": "Horace Vernet",
+        "creation_date_display": "1833 or later",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "accession_number": "62.254"
+      },
+      "image": {
+        "image_id": "met-437887-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2137.jpg",
+        "source_registry_id": "met-437887",
+        "local_path": "/artworks/met-437887.jpg",
+        "sha256": "f511938c041368219359e12c27b4d66b8ff313f559eb7a3f02291694f2c157e7",
+        "byte_length": 68710,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API/PD & JPEG download SHA256 verified in batch-017 on 2026-10-19; not repeated",
+        "source_accession_number": "62.254"
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "共同体",
+          "日常"
+        ],
+        "interpretation": "彫刻家と画家の交友と肖像制作の場。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "モデルの表情を作者の感情として断定しない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "彫刻家と画家の交友と肖像制作の場。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437887",
+        "search_profile": {
+          "summary_for_ai": "彫刻家と画家の交友と肖像制作の場。 感情タグは無理に付けない。",
+          "fitting_situations": [
+            {
+              "situation": "芸術家同士の交友や肖像制作の背景を知りたい",
+              "reason": "彫刻家と画家の交友と肖像制作の場。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "モデルの表情を作者の感情として断定しない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "彫刻家と画家の交友と肖像制作の場。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437887"
+          },
+          "creation_context": "彫刻家と画家の交友と肖像制作の場。",
+          "visual_clues": "彫刻家と胸像を組み合わせた肖像。",
+          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第17群でMet Object API, PD, JPEG実取得とSHA256確認済み。作品解釈・人間評価・公開判定は未了。"
+      }
+    },
+    {
+      "id": "met-436329",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436329,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436329",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436329",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Gathering Olives at Tivoli",
+        "title_ja_provisional": "ティヴォリでのオリーブ採集",
+        "artist": "François-Louis Français",
+        "creation_date_display": "1868",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "accession_number": "97.18"
+      },
+      "image": {
+        "image_id": "met-436329-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23204-001.jpg",
+        "source_registry_id": "met-436329",
+        "local_path": "/artworks/met-436329.jpg",
+        "sha256": "8801de9f32132a3c66dbade4025515016c8fdcb51feeb0c76d1249b020aa1a36",
+        "byte_length": 96980,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API/PD & JPEG download SHA256 verified in batch-017 on 2026-10-19; not repeated",
+        "source_accession_number": "97.18"
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "日常",
+          "自然"
+        ],
+        "interpretation": "イタリアのオリーブ採集を描いた作品。コローとの交流を背景に持つ。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "収穫の描写をただちに喜びの制作意図と断定しない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "イタリアのオリーブ採集を描いた作品。コローとの交流を背景に持つ。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436329",
+        "search_profile": {
+          "summary_for_ai": "イタリアのオリーブ採集を描いた作品。コローとの交流を背景に持つ。 感情タグは無理に付けない。",
+          "fitting_situations": [
+            {
+              "situation": "人々の仕事を描いたイタリアの風景に触れたい",
+              "reason": "イタリアのオリーブ採集を描いた作品。コローとの交流を背景に持つ。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "収穫の描写をただちに喜びの制作意図と断定しない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "イタリアのオリーブ採集を描いた作品。コローとの交流を背景に持つ。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436329"
+          },
+          "creation_context": "イタリアのオリーブ採集を描いた作品。コローとの交流を背景に持つ。",
+          "visual_clues": "イタリアのオリーブ採集の情景。",
+          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第17群でMet Object API, PD, JPEG実取得とSHA256確認済み。作品解釈・人間評価・公開判定は未了。"
+      }
+    },
+    {
+      "id": "met-73188",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 73188,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/73188",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/73188",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Rainy Landscape",
+        "title_ja_provisional": "雨景",
+        "artist": "Kim Su-gyu",
+        "creation_date_display": "late 18th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "accession_number": "2006.104"
+      },
+      "image": {
+        "image_id": "met-73188-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-29285-002.jpg",
+        "source_registry_id": "met-73188",
+        "local_path": "/artworks/met-73188.jpg",
+        "sha256": "73f98c8fc6eae5d5efed94fbbca108623f09600a442e6781c196ce1e234d285a",
+        "byte_length": 108612,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API/PD & JPEG download SHA256 verified in batch-017 on 2026-10-19; not repeated",
+        "source_accession_number": "2006.104"
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "interpretation": "作者の詩を手がかりに雨の山水と帰路を考える。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "雨の暗さを不安や孤独に直結しない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "作者の詩を手がかりに雨の山水と帰路を考える。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/73188",
+        "search_profile": {
+          "summary_for_ai": "作者の詩を手がかりに雨の山水と帰路を考える。 感情タグは無理に付けない。",
+          "fitting_situations": [
+            {
+              "situation": "絵と詩で語られる雨と帰路を確かめたい",
+              "reason": "作者の詩を手がかりに雨の山水と帰路を考える。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "雨の暗さを不安や孤独に直結しない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "作者の詩を手がかりに雨の山水と帰路を考える。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/73188"
+          },
+          "creation_context": "作者の詩を手がかりに雨の山水と帰路を考える。",
+          "visual_clues": "雨と山水、帰路をめぐる詩と画面の組み合わせ。",
+          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第17群でMet Object API, PD, JPEG実取得とSHA256確認済み。作品解釈・人間評価・公開判定は未了。"
+      }
+    },
+    {
+      "id": "met-40451",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 40451,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/40451",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/40451",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Rainy Landscape with Travelers",
+        "title_ja_provisional": "雨中の旅人のいる山水",
+        "artist": "Unidentified artist",
+        "creation_date_display": "15th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "accession_number": "18.124.3"
+      },
+      "image": {
+        "image_id": "met-40451-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/18_124_3_O3_sf.jpg",
+        "source_registry_id": "met-40451",
+        "local_path": "/artworks/met-40451.jpg",
+        "sha256": "e84aa23f25034a1213bbddc0c682beb15b5847f0f7f61874f112608b51dd3861",
+        "byte_length": 104970,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API/PD & JPEG download SHA256 verified in batch-017 on 2026-10-19; not repeated",
+        "source_accession_number": "18.124.3"
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "interpretation": "朝鮮絵画の雨中山水と旅人。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "人物の心理や実在する特定の旅路を断定しない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "朝鮮絵画の雨中山水と旅人。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/40451",
+        "search_profile": {
+          "summary_for_ai": "朝鮮絵画の雨中山水と旅人。 感情タグは無理に付けない。",
+          "fitting_situations": [
+            {
+              "situation": "雨中の山水に小さく配された旅人を眺めたい",
+              "reason": "朝鮮絵画の雨中山水と旅人。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "人物の心理や実在する特定の旅路を断定しない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "朝鮮絵画の雨中山水と旅人。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/40451"
+          },
+          "creation_context": "朝鮮絵画の雨中山水と旅人。",
+          "visual_clues": "雨に包まれた山水のなかに旅人を配する。",
+          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第17群でMet Object API, PD, JPEG実取得とSHA256確認済み。作品解釈・人間評価・公開判定は未了。"
+      }
+    },
+    {
+      "id": "met-40432",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 40432,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/40432",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/40432",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Scholar in a Lakeside Pavilion",
+        "title_ja_provisional": "湖畔の亭にいる文人",
+        "artist": "Samoje",
+        "creation_date_display": "late 18th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "accession_number": "15.96.6"
+      },
+      "image": {
+        "image_id": "met-40432-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/15_96_6.JPG",
+        "source_registry_id": "met-40432",
+        "local_path": "/artworks/met-40432.jpg",
+        "sha256": "38791425c58bcf5c2e5b1a49ab93e2d31f9cc9456a20a8738ffc9d6b38b3af16",
+        "byte_length": 91609,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API/PD & JPEG download SHA256 verified in batch-017 on 2026-10-19; not repeated",
+        "source_accession_number": "15.96.6"
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "居場所",
+          "自然"
+        ],
+        "interpretation": "文人画と中国画譜の関連を考える。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "静かな題材のみを理由に安心タグを付けない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "文人画と中国画譜の関連を考える。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/40432",
+        "search_profile": {
+          "summary_for_ai": "文人画と中国画譜の関連を考える。 感情タグは無理に付けない。",
+          "fitting_situations": [
+            {
+              "situation": "湖畔の亭を描く文人画の伝統を知りたい",
+              "reason": "文人画と中国画譜の関連を考える。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "静かな題材のみを理由に安心タグを付けない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "文人画と中国画譜の関連を考える。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/40432"
+          },
+          "creation_context": "文人画と中国画譜の関連を考える。",
+          "visual_clues": "湖畔の亭に文人を配した山水図。",
+          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第17群でMet Object API, PD, JPEG実取得とSHA256確認済み。作品解釈・人間評価・公開判定は未了。"
+      }
+    },
+    {
+      "id": "met-74448",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 74448,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/74448",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/74448",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Gathering of government officials",
+        "title_ja_provisional": "官僚たちの集まり",
+        "artist": "Unidentified artist",
+        "creation_date_display": "ca. 1551",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "accession_number": "2008.55"
+      },
+      "image": {
+        "image_id": "met-74448-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP161547.jpg",
+        "source_registry_id": "met-74448",
+        "local_path": "/artworks/met-74448.jpg",
+        "sha256": "40c6ee4be44442bf70027df41c6ae070ac03e1fc1d44ff67d64c1fb399633fc6",
+        "byte_length": 60347,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API/PD & JPEG download SHA256 verified in batch-017 on 2026-10-19; not repeated",
+        "source_accession_number": "2008.55"
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "にぎわい"
+        ],
+        "themes": [
+          "共同体"
+        ],
+        "interpretation": "朝鮮の官僚の集まりを記念した絵。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "官僚の表情を仲間意識や喜びと決めつけない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "朝鮮の官僚の集まりを記念した絵。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/74448",
+        "search_profile": {
+          "summary_for_ai": "朝鮮の官僚の集まりを記念した絵。 感情タグは無理に付けない。",
+          "fitting_situations": [
+            {
+              "situation": "共同体の集まりを歴史画として見たい",
+              "reason": "朝鮮の官僚の集まりを記念した絵。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "官僚の表情を仲間意識や喜びと決めつけない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "朝鮮の官僚の集まりを記念した絵。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/74448"
+          },
+          "creation_context": "朝鮮の官僚の集まりを記念した絵。",
+          "visual_clues": "官吏の集まりを記念する人物群像。",
+          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第17群でMet Object API, PD, JPEG実取得とSHA256確認済み。作品解釈・人間評価・公開判定は未了。"
+      }
+    },
+    {
+      "id": "met-35968",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 35968,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/35968",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/35968",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Forts Zeelandia and Provintia and the City of Tainan",
+        "title_ja_provisional": "ゼーランディア城とプロヴィンティア城・台南の町",
+        "artist": "Unidentified artist",
+        "creation_date_display": "19th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "accession_number": "09.3"
+      },
+      "image": {
+        "image_id": "met-35968-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP354272.jpg",
+        "source_registry_id": "met-35968",
+        "local_path": "/artworks/met-35968.jpg",
+        "sha256": "c4eb5769182d500f8b08f85cb6158e4dd44ce3de387a104adbb8ca55f9de8f38",
+        "byte_length": 119623,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API/PD & JPEG download SHA256 verified in batch-017 on 2026-10-19; not repeated",
+        "source_accession_number": "09.3"
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "余韻"
+        ],
+        "themes": [
+          "都市",
+          "時間"
+        ],
+        "interpretation": "台南の歴史的な絵地図。オランダ支配の歴史と地域の描かれ方。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "植民地支配の表象を美化した物語にしない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "台南の歴史的な絵地図。オランダ支配の歴史と地域の描かれ方。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/35968",
+        "search_profile": {
+          "summary_for_ai": "台南の歴史的な絵地図。オランダ支配の歴史と地域の描かれ方。 感情タグは無理に付けない。",
+          "fitting_situations": [
+            {
+              "situation": "街と砦の景観から植民地時代の見方を考えたい",
+              "reason": "台南の歴史的な絵地図。オランダ支配の歴史と地域の描かれ方。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "植民地支配の表象を美化した物語にしない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "台南の歴史的な絵地図。オランダ支配の歴史と地域の描かれ方。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/35968"
+          },
+          "creation_context": "台南の歴史的な絵地図。オランダ支配の歴史と地域の描かれ方。",
+          "visual_clues": "台南の城塞と市街地を俯瞰的に描く絵地図。",
+          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第17群でMet Object API, PD, JPEG実取得とSHA256確認済み。作品解釈・人間評価・公開判定は未了。"
+      }
+    },
+    {
+      "id": "met-38056",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 38056,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/38056",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/38056",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Panchama Ragini: Page from a Ragamala Series (Garland of Musical Modes)",
+        "title_ja_provisional": "パンチャマ・ラーギニー（ラーガマーラーより）",
+        "artist": "Unidentified artist",
+        "creation_date_display": "ca. 1640",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "accession_number": "1996.378"
+      },
+      "image": {
+        "image_id": "met-38056-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP153173.jpg",
+        "source_registry_id": "met-38056",
+        "local_path": "/artworks/met-38056.jpg",
+        "sha256": "97f0b83af47d371e6ae0d251e900e245602e8d511e6806eba407f7309b99055f",
+        "byte_length": 88503,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API/PD & JPEG download SHA256 verified in batch-017 on 2026-10-19; not repeated",
+        "source_accession_number": "1996.378"
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "余韻"
+        ],
+        "themes": [
+          "時間"
+        ],
+        "interpretation": "音楽の旋法を絵画化したインドの伝統。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "詩と図像の意味が確かめられるまで感情を決めない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "音楽の旋法を絵画化したインドの伝統。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/38056",
+        "search_profile": {
+          "summary_for_ai": "音楽の旋法を絵画化したインドの伝統。 感情タグは無理に付けない。",
+          "fitting_situations": [
+            {
+              "situation": "音楽と絵画の組み合わせという伝統に触れたい",
+              "reason": "音楽の旋法を絵画化したインドの伝統。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "詩と図像の意味が確かめられるまで感情を決めない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "音楽の旋法を絵画化したインドの伝統。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/38056"
+          },
+          "creation_context": "音楽の旋法を絵画化したインドの伝統。",
+          "visual_clues": "音楽的旋法を人物と場面に対応させた細密画。",
+          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第17群でMet Object API, PD, JPEG実取得とSHA256確認済み。作品解釈・人間評価・公開判定は未了。"
+      }
+    },
+    {
+      "id": "met-435997",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 435997,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/435997",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435997",
+        "record_checked_on": "2026-10-20"
+      },
+      "facts": {
+        "title_original": "The Storm",
+        "title_ja_provisional": "嵐",
+        "artist": "Pierre-Auguste Cot",
+        "creation_date_display": "1880",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "met-435997-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/435997/797712/main-image",
+        "source_registry_id": "met-435997",
+        "local_path": "/artworks/met-435997.jpg",
+        "sha256": null,
+        "byte_length": null,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
+        "source_accession_number": null
+      },
+      "curation": {
+        "emotions": [
+          "喜び",
+          "期待"
+        ],
+        "emotion_strengths": {
+          "喜び": 2,
+          "期待": 1
+        },
+        "tones": [
+          "高揚",
+          "緊張"
+        ],
+        "themes": [
+          "愛情",
+          "自然"
+        ],
+        "interpretation": "嵐から身を寄せ合って逃れる若い男女。文学的題材について当時から複数説。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "ダフニスとクロエ等の特定原作を確定しない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "嵐から身を寄せ合って逃れる若い男女。文学的題材について当時から複数説。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/435997",
+        "search_profile": {
+          "summary_for_ai": "嵐から身を寄せ合って逃れる若い男女。文学的題材について当時から複数説。 鑑賞の入口: 喜び・期待（意味や反応を固定しない）。",
+          "fitting_situations": [
+            {
+              "situation": "嵐のなかで寄り添う男女の高揚や遊び心に触れたい",
+              "reason": "嵐から身を寄せ合って逃れる若い男女。文学的題材について当時から複数説。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "ダフニスとクロエ等の特定原作を確定しない。",
+            "作者の感情と鑑賞者の感情を同一視しない。"
+          ],
+          "review_status": "draft_source_unverified"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "嵐から身を寄せ合って逃れる若い男女。文学的題材について当時から複数説。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/435997"
+          },
+          "creation_context": "嵐から身を寄せ合って逃れる若い男女。文学的題材について当時から複数説。",
+          "visual_clues": "嵐の中で大きな布を頭上に広げ、寄り添い走る男女。",
+          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喜び"
+          ],
+          "secondary": [
+            "期待"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": false,
+        "source_public_domain_flag_checked": false,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+      }
+    },
+    {
+      "id": "met-436453",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436453,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436453",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436453",
+        "record_checked_on": "2026-10-20"
+      },
+      "facts": {
+        "title_original": "Esther before Ahasuerus",
+        "title_ja_provisional": "アハシュエロス王の前のエステル",
+        "artist": "Artemisia Gentileschi",
+        "creation_date_display": "1620s",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "met-436453-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436453/2016369/main-image",
+        "source_registry_id": "met-436453",
+        "local_path": "/artworks/met-436453.jpg",
+        "sha256": null,
+        "byte_length": null,
+        "live_image_checked": false,
+        "live_check_scope": "Met IIIF primary-image link identified; web tool could not load image. Full JPEG download/SHA256 pending",
+        "source_accession_number": null
+      },
+      "curation": {
+        "emotions": [
+          "不安",
+          "希望"
+        ],
+        "emotion_strengths": {
+          "不安": 2,
+          "希望": 1
+        },
+        "tones": [
+          "緊張",
+          "重苦しさ"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "interpretation": "民衆を救うため王の前に進み、命を懸けたエステルが倒れる聖書場面。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "劇的な身振りは聖書と演劇的演出に基づく。作者の私生活を投影しない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "民衆を救うため王の前に進み、命を懸けたエステルが倒れる聖書場面。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436453",
+        "search_profile": {
+          "summary_for_ai": "民衆を救うため王の前に進み、命を懸けたエステルが倒れる聖書場面。 鑑賞の入口: 不安・希望（意味や反応を固定しない）。",
+          "fitting_situations": [
+            {
+              "situation": "危険を承知で大切な人々のために決断する場面に向き合いたい",
+              "reason": "民衆を救うため王の前に進み、命を懸けたエステルが倒れる聖書場面。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "劇的な身振りは聖書と演劇的演出に基づく。作者の私生活を投影しない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "公式画像リンクの実表示を検証できていないため公開保留。"
+          ],
+          "review_status": "draft_source_unverified"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "民衆を救うため王の前に進み、命を懸けたエステルが倒れる聖書場面。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436453"
+          },
+          "creation_context": "民衆を救うため王の前に進み、命を懸けたエステルが倒れる聖書場面。",
+          "visual_clues": "玉座に向かう王妃エステルを侍女が支える。王の側の空間と対照になる。",
+          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "不安"
+          ],
+          "secondary": [
+            "希望"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": false,
+        "source_public_domain_flag_checked": false,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。公式画像の実表示が失敗したため公開保留。"
+      }
+    },
+    {
+      "id": "met-435844",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 435844,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/435844",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435844",
+        "record_checked_on": "2026-10-20"
+      },
+      "facts": {
+        "title_original": "The Musicians",
+        "title_ja_provisional": "奏楽者たち",
+        "artist": "Caravaggio",
+        "creation_date_display": "1597",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "met-435844-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/435844/1581937/main-image",
+        "source_registry_id": "met-435844",
+        "local_path": "/artworks/met-435844.jpg",
+        "sha256": null,
+        "byte_length": null,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
+        "source_accession_number": null
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "にぎわい"
+        ],
+        "themes": [
+          "共同体",
+          "日常"
+        ],
+        "interpretation": "楽器を調整する若者たちとキューピッドによる音楽の寓意。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "音楽を題材にしただけで喜び・安心を付けない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "楽器を調整する若者たちとキューピッドによる音楽の寓意。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/435844",
+        "search_profile": {
+          "summary_for_ai": "楽器を調整する若者たちとキューピッドによる音楽の寓意。 感情タグは無理に付けない。",
+          "fitting_situations": [
+            {
+              "situation": "音楽を演奏する直前の共同作業と寓意を見たい",
+              "reason": "楽器を調整する若者たちとキューピッドによる音楽の寓意。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "音楽を題材にしただけで喜び・安心を付けない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
+          ],
+          "review_status": "draft_source_unverified"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "楽器を調整する若者たちとキューピッドによる音楽の寓意。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/435844"
+          },
+          "creation_context": "楽器を調整する若者たちとキューピッドによる音楽の寓意。",
+          "visual_clues": "リュートや楽譜、ヴァイオリンと複数の若者。左端にキューピッドがいる。",
+          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": false,
+        "source_public_domain_flag_checked": false,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+      }
+    },
+    {
+      "id": "met-437881",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437881,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437881",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437881",
+        "record_checked_on": "2026-10-20"
+      },
+      "facts": {
+        "title_original": "Young Woman with a Water Pitcher",
+        "title_ja_provisional": "水差しを持つ女",
+        "artist": "Johannes Vermeer",
+        "creation_date_display": "ca. 1662",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "met-437881-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437881/1476893/main-image",
+        "source_registry_id": "met-437881",
+        "local_path": "/artworks/met-437881.jpg",
+        "sha256": null,
+        "byte_length": null,
+        "live_image_checked": false,
+        "live_check_scope": "Met IIIF primary-image link identified; web tool could not load image. Full JPEG download/SHA256 pending",
+        "source_accession_number": null
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "日常",
+          "居場所"
+        ],
+        "interpretation": "水差しと洗面器のある日常場面。光・形・色が穏やかに均衡する。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "静謐な画面だけを理由に安心と分類しない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "水差しと洗面器のある日常場面。光・形・色が穏やかに均衡する。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437881",
+        "search_profile": {
+          "summary_for_ai": "水差しと洗面器のある日常場面。光・形・色が穏やかに均衡する。 感情タグは無理に付けない。",
+          "fitting_situations": [
+            {
+              "situation": "何気ない生活の場面に宿る光と構図の働きを味わいたい",
+              "reason": "水差しと洗面器のある日常場面。光・形・色が穏やかに均衡する。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "静謐な画面だけを理由に安心と分類しない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。",
+            "公式画像リンクの実表示を検証できていないため公開保留。"
+          ],
+          "review_status": "draft_source_unverified"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "水差しと洗面器のある日常場面。光・形・色が穏やかに均衡する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437881"
+          },
+          "creation_context": "水差しと洗面器のある日常場面。光・形・色が穏やかに均衡する。",
+          "visual_clues": "水差しと洗面器、窓を開く女性、柔らかな室内光。",
+          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": false,
+        "source_public_domain_flag_checked": false,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。公式画像の実表示が失敗したため公開保留。"
+      }
+    },
+    {
+      "id": "met-437394",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437394,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437394",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437394",
+        "record_checked_on": "2026-10-20"
+      },
+      "facts": {
+        "title_original": "Aristotle with a Bust of Homer",
+        "title_ja_provisional": "ホメロスの胸像を見つめるアリストテレス",
+        "artist": "Rembrandt van Rijn",
+        "creation_date_display": "1653",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "met-437394-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437394/2211141/main-image",
+        "source_registry_id": "met-437394",
+        "local_path": "/artworks/met-437394.jpg",
+        "sha256": null,
+        "byte_length": null,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
+        "source_accession_number": null
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "余韻",
+          "静けさ"
+        ],
+        "themes": [
+          "時間",
+          "記憶"
+        ],
+        "interpretation": "アリストテレスと詩人ホメロスの胸像をめぐる肖像的歴史画。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "美術館の詳しい解釈照合前に人物の思索や悔恨を決めない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "アリストテレスと詩人ホメロスの胸像をめぐる肖像的歴史画。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437394",
+        "search_profile": {
+          "summary_for_ai": "アリストテレスと詩人ホメロスの胸像をめぐる肖像的歴史画。 感情タグは無理に付けない。",
+          "fitting_situations": [
+            {
+              "situation": "成功や名声、残されるものについて問い直したい",
+              "reason": "アリストテレスと詩人ホメロスの胸像をめぐる肖像的歴史画。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "美術館の詳しい解釈照合前に人物の思索や悔恨を決めない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
+          ],
+          "review_status": "draft_source_unverified"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "アリストテレスと詩人ホメロスの胸像をめぐる肖像的歴史画。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437394"
+          },
+          "creation_context": "アリストテレスと詩人ホメロスの胸像をめぐる肖像的歴史画。",
+          "visual_clues": "哲学者の衣服と金の鎖、ホメロスの胸像に触れる手。",
+          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": false,
+        "source_public_domain_flag_checked": false,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+      }
+    },
+    {
+      "id": "met-437878",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437878,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437878",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437878",
+        "record_checked_on": "2026-10-20"
+      },
+      "facts": {
+        "title_original": "A Maid Asleep",
+        "title_ja_provisional": "眠る女中",
+        "artist": "Johannes Vermeer",
+        "creation_date_display": "ca. 1656–57",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "met-437878-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437878/1478816/main-image",
+        "source_registry_id": "met-437878",
+        "local_path": "/artworks/met-437878.jpg",
+        "sha256": null,
+        "byte_length": null,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
+        "source_accession_number": null
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "日常",
+          "他者との距離"
+        ],
+        "interpretation": "ワインのある部屋で居眠りする女性。絵から消された男性像が画面の解釈を開く。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "眠っている理由や直前の出来事を一つの物語として断定しない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "ワインのある部屋で居眠りする女性。絵から消された男性像が画面の解釈を開く。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437878",
+        "search_profile": {
+          "summary_for_ai": "ワインのある部屋で居眠りする女性。絵から消された男性像が画面の解釈を開く。 鑑賞の入口: 好奇心（意味や反応を固定しない）。",
+          "fitting_situations": [
+            {
+              "situation": "目に見える生活場面の奥に何があったか探ってみたい",
+              "reason": "ワインのある部屋で居眠りする女性。絵から消された男性像が画面の解釈を開く。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "眠っている理由や直前の出来事を一つの物語として断定しない。",
+            "作者の感情と鑑賞者の感情を同一視しない。"
+          ],
+          "review_status": "draft_source_unverified"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "ワインのある部屋で居眠りする女性。絵から消された男性像が画面の解釈を開く。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437878"
+          },
+          "creation_context": "ワインのある部屋で居眠りする女性。絵から消された男性像が画面の解釈を開く。",
+          "visual_clues": "酒杯と絨毯のそばで頬杖をついて眠る女性、奥の戸口。",
+          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": false,
+        "source_public_domain_flag_checked": false,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+      }
+    },
+    {
+      "id": "met-436576",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436576,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436576",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436576",
+        "record_checked_on": "2026-10-20"
+      },
+      "facts": {
+        "title_original": "The Vision of Saint John",
+        "title_ja_provisional": "聖ヨハネの幻視",
+        "artist": "El Greco",
+        "creation_date_display": "ca. 1608–14",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "met-436576-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436576/1898191/main-image",
+        "source_registry_id": "met-436576",
+        "local_path": "/artworks/met-436576.jpg",
+        "sha256": null,
+        "byte_length": null,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
+        "source_accession_number": null
+      },
+      "curation": {
+        "emotions": [
+          "畏敬",
+          "不安"
+        ],
+        "emotion_strengths": {
+          "畏敬": 2,
+          "不安": 1
+        },
+        "tones": [
+          "緊張",
+          "高揚"
+        ],
+        "themes": [
+          "時間"
+        ],
+        "interpretation": "『ヨハネの黙示録』の終末的幻視を描く、大きな祭壇画の一部。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "断片の状態と宗教的畏敬・危険への不安の違いを示す。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "『ヨハネの黙示録』の終末的幻視を描く、大きな祭壇画の一部。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436576",
+        "search_profile": {
+          "summary_for_ai": "『ヨハネの黙示録』の終末的幻視を描く、大きな祭壇画の一部。 鑑賞の入口: 畏敬・不安（意味や反応を固定しない）。",
+          "fitting_situations": [
+            {
+              "situation": "終末的な幻視の大きさと不穏な力を感じる表現に触れたい",
+              "reason": "『ヨハネの黙示録』の終末的幻視を描く、大きな祭壇画の一部。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "断片の状態と宗教的畏敬・危険への不安の違いを示す。",
+            "作者の感情と鑑賞者の感情を同一視しない。"
+          ],
+          "review_status": "draft_source_unverified"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "『ヨハネの黙示録』の終末的幻視を描く、大きな祭壇画の一部。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436576"
+          },
+          "creation_context": "『ヨハネの黙示録』の終末的幻視を描く、大きな祭壇画の一部。",
+          "visual_clues": "両腕を掲げるヨハネと天上の衣、伸び上がる群像。",
+          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "畏敬"
+          ],
+          "secondary": [
+            "不安"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": false,
+        "source_public_domain_flag_checked": false,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+      }
+    },
+    {
+      "id": "met-436947",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436947,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436947",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436947",
+        "record_checked_on": "2026-10-20"
+      },
+      "facts": {
+        "title_original": "Boating",
+        "title_ja_provisional": "ボート遊び",
+        "artist": "Édouard Manet",
+        "creation_date_display": "1874",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "met-436947-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436947/2170247/main-image",
+        "source_registry_id": "met-436947",
+        "local_path": "/artworks/met-436947.jpg",
+        "sha256": null,
+        "byte_length": null,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
+        "source_accession_number": null
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "日常",
+          "自然"
+        ],
+        "interpretation": "セーヌ川の船遊び。日本の浮世絵に学んだ色面と切り取り。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "舟遊びの題材から人物の喜びや恋愛関係を断定しない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "セーヌ川の船遊び。日本の浮世絵に学んだ色面と切り取り。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436947",
+        "search_profile": {
+          "summary_for_ai": "セーヌ川の船遊び。日本の浮世絵に学んだ色面と切り取り。 感情タグは無理に付けない。",
+          "fitting_situations": [
+            {
+              "situation": "船遊びを捉えた大胆な構図と光を味わいたい",
+              "reason": "セーヌ川の船遊び。日本の浮世絵に学んだ色面と切り取り。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "舟遊びの題材から人物の喜びや恋愛関係を断定しない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
+          ],
+          "review_status": "draft_source_unverified"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "セーヌ川の船遊び。日本の浮世絵に学んだ色面と切り取り。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436947"
+          },
+          "creation_context": "セーヌ川の船遊び。日本の浮世絵に学んだ色面と切り取り。",
+          "visual_clues": "明るい青い水面、船に乗る二人、画面の大胆な切り取り。",
+          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": false,
+        "source_public_domain_flag_checked": false,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+      }
+    },
+    {
+      "id": "met-436839",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436839,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436839",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436839",
+        "record_checked_on": "2026-10-20"
+      },
+      "facts": {
+        "title_original": "The Penitent Magdalen",
+        "title_ja_provisional": "悔悛するマグダラのマリア",
+        "artist": "Georges de La Tour",
+        "creation_date_display": "ca. 1640",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "met-436839-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436839/2186892/main-image",
+        "source_registry_id": "met-436839",
+        "local_path": "/artworks/met-436839.jpg",
+        "sha256": null,
+        "byte_length": null,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
+        "source_accession_number": null
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "時間",
+          "記憶"
+        ],
+        "interpretation": "鏡・頭蓋骨・ろうそくを前に瞑想するマグダラのマリア。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "宗教的悔悛を現代の喪失感に直接翻訳しない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "鏡・頭蓋骨・ろうそくを前に瞑想するマグダラのマリア。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436839",
+        "search_profile": {
+          "summary_for_ai": "鏡・頭蓋骨・ろうそくを前に瞑想するマグダラのマリア。 感情タグは無理に付けない。",
+          "fitting_situations": [
+            {
+              "situation": "静かな自省と人生のはかなさを描く宗教画を見たい",
+              "reason": "鏡・頭蓋骨・ろうそくを前に瞑想するマグダラのマリア。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "宗教的悔悛を現代の喪失感に直接翻訳しない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
+          ],
+          "review_status": "draft_source_unverified"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "鏡・頭蓋骨・ろうそくを前に瞑想するマグダラのマリア。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436839"
+          },
+          "creation_context": "鏡・頭蓋骨・ろうそくを前に瞑想するマグダラのマリア。",
+          "visual_clues": "ろうそくと鏡、髑髏を前に座り込むマグダラのマリア。",
+          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": false,
+        "source_public_domain_flag_checked": false,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+      }
+    },
+    {
+      "id": "met-11417",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 11417,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/11417",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11417",
+        "record_checked_on": "2026-10-20"
+      },
+      "facts": {
+        "title_original": "Washington Crossing the Delaware",
+        "title_ja_provisional": "デラウェア川を渡るワシントン",
+        "artist": "Emanuel Leutze",
+        "creation_date_display": "1851",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "met-11417-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/11417/42494/main-image",
+        "source_registry_id": "met-11417",
+        "local_path": "/artworks/met-11417.jpg",
+        "sha256": null,
+        "byte_length": null,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
+        "source_accession_number": null
+      },
+      "curation": {
+        "emotions": [
+          "希望",
+          "不安"
+        ],
+        "emotion_strengths": {
+          "希望": 2,
+          "不安": 1
+        },
+        "tones": [
+          "緊張",
+          "高揚"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "interpretation": "アメリカ独立戦争の転換点を理想化して描いた歴史画。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "自由の理想化・プロパガンダ的性格と先住民の視点を併記する。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "アメリカ独立戦争の転換点を理想化して描いた歴史画。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/11417",
+        "search_profile": {
+          "summary_for_ai": "アメリカ独立戦争の転換点を理想化して描いた歴史画。 鑑賞の入口: 希望・不安（意味や反応を固定しない）。",
+          "fitting_situations": [
+            {
+              "situation": "危機のなかで未来への信念を掲げる表現に向き合いたい",
+              "reason": "アメリカ独立戦争の転換点を理想化して描いた歴史画。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "自由の理想化・プロパガンダ的性格と先住民の視点を併記する。",
+            "作者の感情と鑑賞者の感情を同一視しない。"
+          ],
+          "review_status": "draft_source_unverified"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "アメリカ独立戦争の転換点を理想化して描いた歴史画。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/11417"
+          },
+          "creation_context": "アメリカ独立戦争の転換点を理想化して描いた歴史画。",
+          "visual_clues": "氷の残る川に立ち上がるワシントンと、多様な兵士を乗せた船。",
+          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "希望"
+          ],
+          "secondary": [
+            "不安"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": false,
+        "source_public_domain_flag_checked": false,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+      }
+    },
+    {
+      "id": "met-436535",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436535,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436535",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436535",
+        "record_checked_on": "2026-10-20"
+      },
+      "facts": {
+        "title_original": "Wheat Field with Cypresses",
+        "title_ja_provisional": "糸杉のある麦畑",
+        "artist": "Vincent van Gogh",
+        "creation_date_display": "1889",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "met-436535-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436535/2383011/main-image",
+        "source_registry_id": "met-436535",
+        "local_path": "/artworks/met-436535.jpg",
+        "sha256": null,
+        "byte_length": null,
+        "live_image_checked": false,
+        "live_check_scope": "Met IIIF primary-image link identified; web tool could not load image. Full JPEG download/SHA256 pending",
+        "source_accession_number": null
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 2
+        },
+        "tones": [
+          "高揚"
+        ],
+        "themes": [
+          "自然"
+        ],
+        "interpretation": "うねる雲、糸杉、麦畑の筆致による自然の大きさと運動。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "作者自身の特定の感情や健康状態に直結させない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "うねる雲、糸杉、麦畑の筆致による自然の大きさと運動。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436535",
+        "search_profile": {
+          "summary_for_ai": "うねる雲、糸杉、麦畑の筆致による自然の大きさと運動。 鑑賞の入口: 畏敬（意味や反応を固定しない）。",
+          "fitting_situations": [
+            {
+              "situation": "自然の躍動を強い筆づかいで描く作品に触れたい",
+              "reason": "うねる雲、糸杉、麦畑の筆致による自然の大きさと運動。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作者自身の特定の感情や健康状態に直結させない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "公式画像リンクの実表示を検証できていないため公開保留。"
+          ],
+          "review_status": "draft_source_unverified"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "うねる雲、糸杉、麦畑の筆致による自然の大きさと運動。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436535"
+          },
+          "creation_context": "うねる雲、糸杉、麦畑の筆致による自然の大きさと運動。",
+          "visual_clues": "糸杉、麦畑、強く動く雲と密度の高い筆触。",
+          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "畏敬"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": false,
+        "source_public_domain_flag_checked": false,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。公式画像の実表示が失敗したため公開保留。"
+      }
+    },
+    {
+      "id": "met-437588",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437588,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437588",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437588",
+        "record_checked_on": "2026-10-20"
+      },
+      "facts": {
+        "title_original": "Drawing the Eel",
+        "title_ja_provisional": "ウナギ取り競争",
+        "artist": "Salomon van Ruysdael",
+        "creation_date_display": "early 1650s",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "met-437588-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437588/795902/main-image",
+        "source_registry_id": "met-437588",
+        "local_path": "/artworks/met-437588.jpg",
+        "sha256": null,
+        "byte_length": null,
+        "live_image_checked": false,
+        "live_check_scope": "Met IIIF primary-image link identified; web tool could not load image. Full JPEG download/SHA256 pending",
+        "source_accession_number": null
+      },
+      "curation": {
+        "emotions": [
+          "喜び"
+        ],
+        "emotion_strengths": {
+          "喜び": 1
+        },
+        "tones": [
+          "にぎわい"
+        ],
+        "themes": [
+          "共同体",
+          "日常"
+        ],
+        "interpretation": "冬景色の集まりと、吊るした生きたウナギを馬上で取る娯楽。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "祭りの楽しさだけでなく、生き物への残酷な遊戯でもあることを隠さない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "冬景色の集まりと、吊るした生きたウナギを馬上で取る娯楽。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437588",
+        "search_profile": {
+          "summary_for_ai": "冬景色の集まりと、吊るした生きたウナギを馬上で取る娯楽。 鑑賞の入口: 喜び（意味や反応を固定しない）。",
+          "fitting_situations": [
+            {
+              "situation": "昔の祝祭に見える楽しさと残酷さを同時に考えたい",
+              "reason": "冬景色の集まりと、吊るした生きたウナギを馬上で取る娯楽。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "祭りの楽しさだけでなく、生き物への残酷な遊戯でもあることを隠さない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "公式画像リンクの実表示を検証できていないため公開保留。"
+          ],
+          "review_status": "draft_source_unverified"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "冬景色の集まりと、吊るした生きたウナギを馬上で取る娯楽。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437588"
+          },
+          "creation_context": "冬景色の集まりと、吊るした生きたウナギを馬上で取る娯楽。",
+          "visual_clues": "冬の道路に集う人と騎馬、つるしたウナギを取る競争。",
+          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "喜び"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": false,
+        "source_public_domain_flag_checked": false,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。公式画像の実表示が失敗したため公開保留。"
+      }
+    },
+    {
+      "id": "met-436005",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436005,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436005",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436005",
+        "record_checked_on": "2026-10-20"
+      },
+      "facts": {
+        "title_original": "The Calm Sea",
+        "title_ja_provisional": "静かな海",
+        "artist": "Gustave Courbet",
+        "creation_date_display": "1869",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "met-436005-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436005/796206/main-image",
+        "source_registry_id": "met-436005",
+        "local_path": "/artworks/met-436005.jpg",
+        "sha256": null,
+        "byte_length": null,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
+        "source_accession_number": null
+      },
+      "curation": {
+        "emotions": [
+          "安心"
+        ],
+        "emotion_strengths": {
+          "安心": 2
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "休息"
+        ],
+        "interpretation": "潮が引いた浜辺に小舟が残る、例外的に穏やかなクールベの海景。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "平穏な海景という関連であり、作者個人の安堵の証明ではない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "潮が引いた浜辺に小舟が残る、例外的に穏やかなクールベの海景。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436005",
+        "search_profile": {
+          "summary_for_ai": "潮が引いた浜辺に小舟が残る、例外的に穏やかなクールベの海景。 鑑賞の入口: 安心（意味や反応を固定しない）。",
+          "fitting_situations": [
+            {
+              "situation": "大きな海と穏やかな浜辺の静けさに触れたい",
+              "reason": "潮が引いた浜辺に小舟が残る、例外的に穏やかなクールベの海景。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "平穏な海景という関連であり、作者個人の安堵の証明ではない。",
+            "作者の感情と鑑賞者の感情を同一視しない。"
+          ],
+          "review_status": "draft_source_unverified"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "潮が引いた浜辺に小舟が残る、例外的に穏やかなクールベの海景。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436005"
+          },
+          "creation_context": "潮が引いた浜辺に小舟が残る、例外的に穏やかなクールベの海景。",
+          "visual_clues": "干潮の浜辺に残る二艘の小舟、広い穏やかな空と海。",
+          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "安心"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": false,
+        "source_public_domain_flag_checked": false,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+      }
+    },
+    {
+      "id": "met-437549",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437549,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437549",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437549",
+        "record_checked_on": "2026-10-20"
+      },
+      "facts": {
+        "title_original": "Wheat Fields",
+        "title_ja_provisional": "小麦畑",
+        "artist": "Jacob van Ruisdael",
+        "creation_date_display": "ca. 1670",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "met-437549-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437549/795780/main-image",
+        "source_registry_id": "met-437549",
+        "local_path": "/artworks/met-437549.jpg",
+        "sha256": null,
+        "byte_length": null,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
+        "source_accession_number": null
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 2
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "interpretation": "日常の小麦畑と劇的な雲・光で構成された壮大な風景。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "印象の大きさを画家自身の信仰や恐怖と結びつけない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "日常の小麦畑と劇的な雲・光で構成された壮大な風景。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437549",
+        "search_profile": {
+          "summary_for_ai": "日常の小麦畑と劇的な雲・光で構成された壮大な風景。 鑑賞の入口: 畏敬（意味や反応を固定しない）。",
+          "fitting_situations": [
+            {
+              "situation": "身近な農地が劇的な風景に変わる様子を感じたい",
+              "reason": "日常の小麦畑と劇的な雲・光で構成された壮大な風景。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "印象の大きさを画家自身の信仰や恐怖と結びつけない。",
+            "作者の感情と鑑賞者の感情を同一視しない。"
+          ],
+          "review_status": "draft_source_unverified"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "日常の小麦畑と劇的な雲・光で構成された壮大な風景。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437549"
+          },
+          "creation_context": "日常の小麦畑と劇的な雲・光で構成された壮大な風景。",
+          "visual_clues": "大きく湧く雲、広い麦畑を抜ける道と小さな人影。",
+          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "畏敬"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": false,
+        "source_public_domain_flag_checked": false,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+      }
+    },
+    {
+      "id": "met-435739",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 435739,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/435739",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435739",
+        "record_checked_on": "2026-10-20"
+      },
+      "facts": {
+        "title_original": "The Toilette of Venus",
+        "title_ja_provisional": "ヴィーナスの化粧",
+        "artist": "François Boucher",
+        "creation_date_display": "1751",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "met-435739-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/435739/1653617/main-image",
+        "source_registry_id": "met-435739",
+        "local_path": "/artworks/met-435739.jpg",
+        "sha256": null,
+        "byte_length": null,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
+        "source_accession_number": null
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "愛情"
+        ],
+        "interpretation": "入浴後のヴィーナスの化粧と、ポンパドゥール夫人の浴室のための装飾という文脈。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "愛情という主題と鑑賞者の喜びの感情タグを混同しない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "入浴後のヴィーナスの化粧と、ポンパドゥール夫人の浴室のための装飾という文脈。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/435739",
+        "search_profile": {
+          "summary_for_ai": "入浴後のヴィーナスの化粧と、ポンパドゥール夫人の浴室のための装飾という文脈。 感情タグは無理に付けない。",
+          "fitting_situations": [
+            {
+              "situation": "神話の女神像が宮廷文化の装飾に結びつく事情を見たい",
+              "reason": "入浴後のヴィーナスの化粧と、ポンパドゥール夫人の浴室のための装飾という文脈。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "愛情という主題と鑑賞者の喜びの感情タグを混同しない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
+          ],
+          "review_status": "draft_source_unverified"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "入浴後のヴィーナスの化粧と、ポンパドゥール夫人の浴室のための装飾という文脈。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/435739"
+          },
+          "creation_context": "入浴後のヴィーナスの化粧と、ポンパドゥール夫人の浴室のための装飾という文脈。",
+          "visual_clues": "室内で身繕いするヴィーナス、天使、真珠と花。",
+          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": false,
+        "source_public_domain_flag_checked": false,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+      }
+    },
+    {
+      "id": "met-436622",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436622,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436622",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436622",
+        "record_checked_on": "2026-10-20"
+      },
+      "facts": {
+        "title_original": "Merrymakers at Shrovetide",
+        "title_ja_provisional": "ざんげ節に浮かれ騒ぐ人々",
+        "artist": "Frans Hals",
+        "creation_date_display": "ca. 1616–17",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "met-436622-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436622/795770/main-image",
+        "source_registry_id": "met-436622",
+        "local_path": "/artworks/met-436622.jpg",
+        "sha256": null,
+        "byte_length": null,
+        "live_image_checked": false,
+        "live_check_scope": "Met IIIF primary-image link identified; web tool could not load image. Full JPEG download/SHA256 pending",
+        "source_accession_number": null
+      },
+      "curation": {
+        "emotions": [
+          "喜び"
+        ],
+        "emotion_strengths": {
+          "喜び": 2
+        },
+        "tones": [
+          "にぎわい",
+          "高揚"
+        ],
+        "themes": [
+          "共同体",
+          "日常"
+        ],
+        "interpretation": "四旬節前の祝祭と享楽を多義的な象徴で描く。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "単なる楽しげなパーティーとして歴史的な寓意を削らない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "四旬節前の祝祭と享楽を多義的な象徴で描く。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436622",
+        "search_profile": {
+          "summary_for_ai": "四旬節前の祝祭と享楽を多義的な象徴で描く。 鑑賞の入口: 喜び（意味や反応を固定しない）。",
+          "fitting_situations": [
+            {
+              "situation": "人々の祝祭の陽気さと隠された暗示を味わいたい",
+              "reason": "四旬節前の祝祭と享楽を多義的な象徴で描く。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "単なる楽しげなパーティーとして歴史的な寓意を削らない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "公式画像リンクの実表示を検証できていないため公開保留。"
+          ],
+          "review_status": "draft_source_unverified"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "四旬節前の祝祭と享楽を多義的な象徴で描く。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436622"
+          },
+          "creation_context": "四旬節前の祝祭と享楽を多義的な象徴で描く。",
+          "visual_clues": "四旬節前の祝祭の宴、食べ物を持つ人物と仮装の人々。",
+          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喜び"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": false,
+        "source_public_domain_flag_checked": false,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。公式画像の実表示が失敗したため公開保留。"
+      }
+    },
+    {
+      "id": "met-435888",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 435888,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/435888",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435888",
+        "record_checked_on": "2026-10-20"
+      },
+      "facts": {
+        "title_original": "Soap Bubbles",
+        "title_ja_provisional": "シャボン玉",
+        "artist": "Jean Siméon Chardin",
+        "creation_date_display": "ca. 1733–34",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "met-435888-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/435888/1507010/main-image",
+        "source_registry_id": "met-435888",
+        "local_path": "/artworks/met-435888.jpg",
+        "sha256": null,
+        "byte_length": null,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
+        "source_accession_number": null
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "日常",
+          "時間"
+        ],
+        "interpretation": "シャボン玉を吹く少年とそれを見守る子ども。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "短命さ・儚さ等の象徴は資料照合前に作者の意図として書かない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "シャボン玉を吹く少年とそれを見守る子ども。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/435888",
+        "search_profile": {
+          "summary_for_ai": "シャボン玉を吹く少年とそれを見守る子ども。 感情タグは無理に付けない。",
+          "fitting_situations": [
+            {
+              "situation": "子どもの日常と、シャボン玉のはかなさを見つめたい",
+              "reason": "シャボン玉を吹く少年とそれを見守る子ども。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "短命さ・儚さ等の象徴は資料照合前に作者の意図として書かない。",
+            "作者の感情と鑑賞者の感情を同一視しない。",
+            "15感情への接点が不十分なため0タグ。現在の感情タグ検索では候補に入らない。"
+          ],
+          "review_status": "draft_source_unverified"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "シャボン玉を吹く少年とそれを見守る子ども。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/435888"
+          },
+          "creation_context": "シャボン玉を吹く少年とそれを見守る子ども。",
+          "visual_clues": "シャボン玉を吹く子どもと、その様子を覗く幼い子。",
+          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": false,
+        "source_public_domain_flag_checked": false,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+      }
+    },
+    {
+      "id": "met-436579",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436579,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436579",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436579",
+        "record_checked_on": "2026-10-20"
+      },
+      "facts": {
+        "title_original": "Broken Eggs",
+        "title_ja_provisional": "割れた卵",
+        "artist": "Jean-Baptiste Greuze",
+        "creation_date_display": "1756",
+        "type": "Painting",
+        "is_public_domain_at_source": true
+      },
+      "image": {
+        "image_id": "met-436579-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436579/1702341/main-image",
+        "source_registry_id": "met-436579",
+        "local_path": "/artworks/met-436579.jpg",
+        "sha256": null,
+        "byte_length": null,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met IIIF main image visibly rendered via web tool on 2026-10-20. Full JPEG download/SHA256 not checked",
+        "source_accession_number": null
+      },
+      "curation": {
+        "emotions": [
+          "不安"
+        ],
+        "emotion_strengths": {
+          "不安": 2
+        },
+        "tones": [
+          "重苦しさ"
+        ],
+        "themes": [
+          "共同体",
+          "日常"
+        ],
+        "interpretation": "割れた卵を性的な不名誉の暗喩として扱う18世紀の教訓画。 作品に含まれる感情への接点は、作者の心理状態を意味しない。",
+        "alternate_reading": "性的関係の具体的経緯、当事者の意思・加害性を資料なく決めない。 作者の私的感情や全鑑賞者の受け取り方までは断定できない。",
+        "source_context_note": "割れた卵を性的な不名誉の暗喩として扱う18世紀の教訓画。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436579",
+        "search_profile": {
+          "summary_for_ai": "割れた卵を性的な不名誉の暗喩として扱う18世紀の教訓画。 鑑賞の入口: 不安（意味や反応を固定しない）。",
+          "fitting_situations": [
+            {
+              "situation": "日常の事件を寓意に変える18世紀の教訓画に触れたい",
+              "reason": "割れた卵を性的な不名誉の暗喩として扱う18世紀の教訓画。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "性的関係の具体的経緯、当事者の意思・加害性を資料なく決めない。",
+            "作者の感情と鑑賞者の感情を同一視しない。"
+          ],
+          "review_status": "draft_source_unverified"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "割れた卵を性的な不名誉の暗喩として扱う18世紀の教訓画。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436579"
+          },
+          "creation_context": "割れた卵を性的な不名誉の暗喩として扱う18世紀の教訓画。",
+          "visual_clues": "床に散らばる割れた卵、うなだれる女性と話しかける人々。",
+          "uncertainty_note": "Metの公式作品ページは照合したが、Object APIの最新応答と原画像のSHA256は未確認。作者の心理を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "不安"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": false,
+        "source_public_domain_flag_checked": false,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-20",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met公式ページの作品・Public Domain・絵画表示は確認。Object API再取得、原画像SHA256・最終人間審査は未了。Met公式画像のウェブ表示のみ確認。"
+      }
     }
   ],
-  "last_reviewed_on": "2026-10-18",
+  "last_reviewed_on": "2026-10-20",
   "review_batch_002": {
     "phase": "provisional_entries_after_editorial_review",
     "new_records": 14,
@@ -16103,5 +19481,6 @@
       "aic-39493"
     ],
     "note": "1770–1890年代と17世紀の作品を加え、喪失感中心の不足を減らす。怒りは神話的暴力への弱い接点のみ。"
-  }
+  },
+  "curatorial_expansion_note_20261020": "164→200 works. 18 batch-017 documented API+image-SHA verified, 13 new official IIIF images visually rendered but SHA not checked, 5 new official image URLs could not be rendered (flagged false). All 36 are provisional; not approved for publication."
 }
