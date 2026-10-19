@@ -1,0 +1,289 @@
+{
+  "schema_version": "1.1.0",
+  "batch": "batch-011",
+  "created_on": "2026-10-19",
+  "description": "第11群の承認済み10候補。公式作品ページにより暫定同定したが、現行APIの直接照合とJPEGの実取得検証は未了。成功分のみ試験登録する。",
+  "base_catalog_count": 100,
+  "works": [
+    {
+      "candidate_id": "met-436105",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 436105,
+      "official_url": "https://www.metmuseum.org/art/collection/search/436105",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436105",
+      "title_original": "The Death of Socrates",
+      "title_ja_provisional": "ソクラテスの死",
+      "artist": "Jacques Louis David",
+      "creation_date_expected_from_official_page": "1787",
+      "provisional_emotions": {
+        "primary": [
+          "希望"
+        ],
+        "secondary": [
+          "不安"
+        ]
+      },
+      "scholarly_context_summary_ja": "国家権力に抗う信念と、死を前にした弟子たちの悲嘆を分けて理解。ソクラテスの死と画家本人の経験を混同しない。",
+      "interpretation_caution_ja": "新古典主義の政治的メッセージは有力だが、個々の人物の感情を現代的な希望へ単純化しない。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/436105",
+      "registration_status": "pending_official_api_jpeg_and_curation",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_subject_visual_checked": false,
+      "author_intent_status": "not_verified_for_this_work",
+      "notes": "初期候補。公式API/JPEG実取得/SHA256検証および昇格審査後に更新する。"
+    },
+    {
+      "candidate_id": "met-11122",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 11122,
+      "official_url": "https://www.metmuseum.org/art/collection/search/11122",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11122",
+      "title_original": "The Gulf Stream",
+      "title_ja_provisional": "ガルフ・ストリーム",
+      "artist": "Winslow Homer",
+      "creation_date_expected_from_official_page": "1899; reworked by 1906",
+      "provisional_emotions": {
+        "primary": [
+          "不安"
+        ],
+        "secondary": [
+          "希望"
+        ]
+      },
+      "scholarly_context_summary_ja": "海上の危難と黒人の主人公。Metは帝国・カリブ海・砂糖・大西洋奴隷制との関係を解説。",
+      "interpretation_caution_ja": "作中人物の内面の恐怖・希望を断定できない。自然との対決だけに歴史背景を矮小化しない。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/11122",
+      "registration_status": "pending_official_api_jpeg_and_curation",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_subject_visual_checked": false,
+      "author_intent_status": "not_verified_for_this_work",
+      "notes": "初期候補。公式API/JPEG実取得/SHA256検証および昇格審査後に更新する。"
+    },
+    {
+      "candidate_id": "met-435621",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 435621,
+      "official_url": "https://www.metmuseum.org/art/collection/search/435621",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435621",
+      "title_original": "Joan of Arc",
+      "title_ja_provisional": "ジャンヌ・ダルク",
+      "artist": "Jules Bastien-Lepage",
+      "creation_date_expected_from_official_page": "1879",
+      "provisional_emotions": {
+        "primary": [
+          "希望"
+        ],
+        "secondary": [
+          "不安"
+        ]
+      },
+      "scholarly_context_summary_ja": "作者の友人宛の発言をMetの音声解説が紹介。故郷を発つ決意と素朴さ。普仏戦争後のロレーヌと愛国的象徴。",
+      "interpretation_caution_ja": "宗教的啓示を作者本人が経験したわけではない。視覚的な超自然表現と史実を分ける。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/435621",
+      "registration_status": "pending_official_api_jpeg_and_curation",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_subject_visual_checked": false,
+      "author_intent_status": "not_verified_for_this_work",
+      "notes": "初期候補。公式API/JPEG実取得/SHA256検証および昇格審査後に更新する。"
+    },
+    {
+      "candidate_id": "met-12127",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 12127,
+      "official_url": "https://www.metmuseum.org/art/collection/search/12127",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/12127",
+      "title_original": "Madame X (Virginie Amélie Avegno Gautreau)",
+      "title_ja_provisional": "マダムX",
+      "artist": "John Singer Sargent",
+      "creation_date_expected_from_official_page": "1883–84",
+      "provisional_emotions": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": [
+          "不安"
+        ]
+      },
+      "scholarly_context_summary_ja": "モデルの大胆なファッションと1884年サロンの否定的反応、その後の肩紐の修正。作者自身の作品への自負も後年の発言で確認。",
+      "interpretation_caution_ja": "モデルの羞恥・作者の悲しみを絵の制作時点の意図と混同しない。API classification空欄の油彩。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/12127",
+      "registration_status": "pending_official_api_jpeg_and_curation",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_subject_visual_checked": false,
+      "author_intent_status": "not_verified_for_this_work",
+      "notes": "初期候補。公式API/JPEG実取得/SHA256検証および昇格審査後に更新する。"
+    },
+    {
+      "candidate_id": "met-436322",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 436322,
+      "official_url": "https://www.metmuseum.org/art/collection/search/436322",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436322",
+      "title_original": "The Love Letter",
+      "title_ja_provisional": "恋文",
+      "artist": "Jean Honoré Fragonard",
+      "creation_date_expected_from_official_page": "early 1770s",
+      "provisional_emotions": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": [
+          "期待"
+        ]
+      },
+      "scholarly_context_summary_ja": "花束と手紙から画面外の物語をほのめかす風俗画。絵の物語の結末は不明。",
+      "interpretation_caution_ja": "手紙の文章や返信、幸福な結末を捏造しない。Metの旧解説では肖像画か風俗画か不明とする記述もある。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/436322",
+      "registration_status": "pending_official_api_jpeg_and_curation",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_subject_visual_checked": false,
+      "author_intent_status": "not_verified_for_this_work",
+      "notes": "初期候補。公式API/JPEG実取得/SHA256検証および昇格審査後に更新する。"
+    },
+    {
+      "candidate_id": "met-435809",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 435809,
+      "official_url": "https://www.metmuseum.org/art/collection/search/435809",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435809",
+      "title_original": "The Harvesters",
+      "title_ja_provisional": "穀物の収穫",
+      "artist": "Pieter Bruegel the Elder",
+      "creation_date_expected_from_official_page": "1565",
+      "provisional_emotions": {
+        "primary": [
+          "安心"
+        ],
+        "secondary": [
+          "喜び"
+        ]
+      },
+      "scholarly_context_summary_ja": "季節の連作として裕福な都市商人に依頼された農業風景。労働と休息を親しみやすく理想化し、重労働の過酷さを抑えて表現。",
+      "interpretation_caution_ja": "当時の農民生活が実際に平穏だったと断定しない。鑑賞者の懐古と作者意図も分ける。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/435809",
+      "registration_status": "pending_official_api_jpeg_and_curation",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_subject_visual_checked": false,
+      "author_intent_status": "not_verified_for_this_work",
+      "notes": "初期候補。公式API/JPEG実取得/SHA256検証および昇格審査後に更新する。"
+    },
+    {
+      "candidate_id": "met-53410",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 53410,
+      "official_url": "https://www.metmuseum.org/art/collection/search/53410",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/53410",
+      "title_original": "Lions at the Stone Bridge of Mount Tiantai",
+      "title_ja_provisional": "天台山石橋図",
+      "artist": "Soga Shōhaku",
+      "creation_date_expected_from_official_page": "1779",
+      "provisional_emotions": {
+        "primary": [
+          "不安"
+        ],
+        "secondary": [
+          "好奇心"
+        ]
+      },
+      "scholarly_context_summary_ja": "崖から子獅子を落として生き残る力を試す伝承を描く。奇矯な筆致と仏教・道教の聖山という背景。",
+      "interpretation_caution_ja": "現実の獅子の母性愛・動物行動の記録と誤認しない。残酷さを意外性の演出に利用しない。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/53410",
+      "registration_status": "pending_official_api_jpeg_and_curation",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_subject_visual_checked": false,
+      "author_intent_status": "not_verified_for_this_work",
+      "notes": "初期候補。公式API/JPEG実取得/SHA256検証および昇格審査後に更新する。"
+    },
+    {
+      "candidate_id": "met-676034",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 676034,
+      "official_url": "https://www.metmuseum.org/art/collection/search/676034",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/676034",
+      "title_original": "Mountain God with Tiger and Attendants",
+      "title_ja_provisional": "山神と虎と従者",
+      "artist": "Unidentified artist",
+      "creation_date_expected_from_official_page": "1874",
+      "provisional_emotions": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": [
+          "安心"
+        ]
+      },
+      "scholarly_context_summary_ja": "朝鮮の山神信仰と仏教が融合。虎は恐ろしげな歯を見せつつ滑稽に描かれ、桃の木は長寿を象徴。",
+      "interpretation_caution_ja": "滑稽だから必ず喜びを意図したとは限らない。朝鮮宗教文化を単純化しない。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/676034",
+      "registration_status": "pending_official_api_jpeg_and_curation",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_subject_visual_checked": false,
+      "author_intent_status": "not_verified_for_this_work",
+      "notes": "初期候補。公式API/JPEG実取得/SHA256検証および昇格審査後に更新する。"
+    },
+    {
+      "candidate_id": "met-39540",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 39540,
+      "official_url": "https://www.metmuseum.org/art/collection/search/39540",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/39540",
+      "title_original": "Two eagles",
+      "title_ja_provisional": "二鷹図",
+      "artist": "Bada Shanren (Zhu Da)",
+      "creation_date_expected_from_official_page": "dated 1702",
+      "provisional_emotions": {
+        "primary": [
+          "怒り"
+        ],
+        "secondary": [
+          "希望"
+        ]
+      },
+      "scholarly_context_summary_ja": "明朝宗室につながる画家が清朝への反抗と忠節を鷹の姿に託したとMetが解釈。",
+      "interpretation_caution_ja": "本人がこの作品で『怒り』と直接発言した根拠ではない。勇気・対抗・忠節と怒りは同義ではない。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/39540",
+      "registration_status": "pending_official_api_jpeg_and_curation",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_subject_visual_checked": false,
+      "author_intent_status": "not_verified_for_this_work",
+      "notes": "初期候補。公式API/JPEG実取得/SHA256検証および昇格審査後に更新する。"
+    },
+    {
+      "candidate_id": "met-40086",
+      "museum": "Metropolitan Museum of Art",
+      "museum_object_id": 40086,
+      "official_url": "https://www.metmuseum.org/art/collection/search/40086",
+      "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/40086",
+      "title_original": "Scholar viewing a waterfall",
+      "title_ja_provisional": "高士観瀑図",
+      "artist": "Ma Yuan",
+      "creation_date_expected_from_official_page": "early 13th century",
+      "provisional_emotions": {
+        "primary": [
+          "安心"
+        ],
+        "secondary": [
+          "好奇心"
+        ]
+      },
+      "scholarly_context_summary_ja": "静かに滝を見つめる文人と松・水の動きの対照。南宋の宮廷絵画と杭州の景観文化。",
+      "interpretation_caution_ja": "静かに眺める人物が幸福・癒やしを感じていると断定しない。",
+      "scholarly_source_url": "https://www.metmuseum.org/art/collection/search/40086",
+      "registration_status": "pending_official_api_jpeg_and_curation",
+      "official_api_live_checked": false,
+      "actual_image_download_verified": false,
+      "image_subject_visual_checked": false,
+      "author_intent_status": "not_verified_for_this_work",
+      "notes": "初期候補。公式API/JPEG実取得/SHA256検証および昇格審査後に更新する。"
+    }
+  ]
+}
