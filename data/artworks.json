@@ -14932,6 +14932,1131 @@
         "curatorial_review_status": "provisional",
         "curatorial_review_note": "第15群暫定登録。公式API・PD/JPEGとSHA256を一致させ、作者意図と館研究・検索感情を区別。人間の最終目視・解釈承認・公開時の権利審査は未実施。"
       }
+    },
+    {
+      "id": "met-435762",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 435762,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/435762",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435762",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Virgin and Child",
+        "title_ja_provisional": "聖母子（ディーリク・バウツ）",
+        "artist": "Dieric Bouts",
+        "creation_date_display": "ca. 1455–60",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Europe",
+        "accession_number": "30.95.280"
+      },
+      "image": {
+        "image_id": "met-435762-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20589-001.jpg",
+        "source_registry_id": "met-435762",
+        "local_path": "/artworks/met-435762.jpg",
+        "sha256": "6bc134ad6ab255b5f19b74816989d5b5402f08e70e300ae79f4b6ee8bc528899",
+        "byte_length": 135897,
+        "live_image_checked": true,
+        "live_check_scope": "Met official Object API ID, public domain, JPEG signature/content type, full download & SHA256; human final review pending",
+        "source_accession_number": "30.95.280"
+      },
+      "curation": {
+        "emotions": [
+          "慈しみ"
+        ],
+        "emotion_strengths": {
+          "慈しみ": 2
+        },
+        "tones": [
+          "落ち着き",
+          "余韻"
+        ],
+        "themes": [
+          "愛情",
+          "日常"
+        ],
+        "interpretation": "Metはバウツが長く続いたビザンティン的な聖母子像をより人間的・親密な表現に変えたと解説し、二人の温かな身体の結び付きを指摘する。",
+        "alternate_reading": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。",
+        "source_context_note": "Metは古いビザンティン聖母子を人間らしく温かい親子として描き直したことを説明。個人の母性愛の体験ではない。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/435762",
+        "search_profile": {
+          "summary_for_ai": "Metはバウツが長く続いたビザンティン的な聖母子像をより人間的・親密な表現に変えたと解説し、二人の温かな身体の結び付きを指摘する。",
+          "fitting_situations": [
+            {
+              "situation": "世話や保護が言葉に出ず自然な身ぶりに現れるのを見たい",
+              "reason": "母子の近さと幼子を支える態度が慈しみに具体的につながる。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metはバウツが長く続いたビザンティン的な聖母子像をより人間的・親密な表現に変えたと解説し、二人の温かな身体の結び付きを指摘する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/435762"
+          },
+          "creation_context": "Metは古いビザンティン聖母子を人間らしく温かい親子として描き直したことを説明。個人の母性愛の体験ではない。",
+          "visual_clues": "聖母の胸に顔を寄せる幼子、二人の姿勢と視線、金地を使わず写実的に描いた表面。",
+          "uncertainty_note": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "慈しみ"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第16群暫定登録。Met現行公式API、PD、原JPEG実取得とSHA256を確認。作者発言・美術館解釈・感情の索引は異なる役割。人間の目視、解釈承認、公開時の権利確認は未了。"
+      }
+    },
+    {
+      "id": "met-435879",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 435879,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/435879",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435879",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Pool at Jas de Bouffan",
+        "title_ja_provisional": "ジャ・ド・ブッファンの池",
+        "artist": "Paul Cézanne",
+        "creation_date_display": "ca. 1885–86",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Europe",
+        "accession_number": "61.101.5"
+      },
+      "image": {
+        "image_id": "met-435879-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1492.jpg",
+        "source_registry_id": "met-435879",
+        "local_path": "/artworks/met-435879.jpg",
+        "sha256": "f632b40f095b3bed549e1b7c33f8610b7964ca6ecaaa74cdf4fbed956612d96f",
+        "byte_length": 134078,
+        "live_image_checked": true,
+        "live_check_scope": "Met official Object API ID, public domain, JPEG signature/content type, full download & SHA256; human final review pending",
+        "source_accession_number": "61.101.5"
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "日常"
+        ],
+        "interpretation": "Metはセザンヌの家族が所有したジャ・ド・ブッファンの池を描いた作品と説明し、画家が身近な庭と自然を繰り返し描いた関心と構成を示す。現在の画面だけから『懐かしさ』を主感情と断定するのは不適切。",
+        "alternate_reading": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。",
+        "source_context_note": "セザンヌの家族の所有地への親しさと、幾度も描いた木立・水槽の構成。愛着は明言されるが『懐かしさ』と等価ではない。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/435879",
+        "search_profile": {
+          "summary_for_ai": "Metはセザンヌの家族が所有したジャ・ド・ブッファンの池を描いた作品と説明し、画家が身近な庭と自然を繰り返し描いた関心と構成を示す。現在の画面だけから『懐かしさ』を主感情と断定するのは不適切。",
+          "fitting_situations": [
+            {
+              "situation": "身近な庭や木の見え方が絵の中でどう組み立てられるか見つめたい",
+              "reason": "反復して描いた実在の庭の池が、画面のモチーフになっている。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metはセザンヌの家族が所有したジャ・ド・ブッファンの池を描いた作品と説明し、画家が身近な庭と自然を繰り返し描いた関心と構成を示す。現在の画面だけから『懐かしさ』を主感情と断定するのは不適切。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/435879"
+          },
+          "creation_context": "セザンヌの家族の所有地への親しさと、幾度も描いた木立・水槽の構成。愛着は明言されるが『懐かしさ』と等価ではない。",
+          "visual_clues": "セザンヌの家族邸にある庭の池と木立、幹の垂直線・水面と反射の構成。",
+          "uncertainty_note": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第16群暫定登録。Met現行公式API、PD、原JPEG実取得とSHA256を確認。作者発言・美術館解釈・感情の索引は異なる役割。人間の目視、解釈承認、公開時の権利確認は未了。"
+      }
+    },
+    {
+      "id": "met-438848",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 438848,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/438848",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/438848",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Parochialstrasse in Berlin",
+        "title_ja_provisional": "ベルリンの教区通り",
+        "artist": "Eduard Gaertner",
+        "creation_date_display": "1831",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Europe",
+        "accession_number": "2006.258"
+      },
+      "image": {
+        "image_id": "met-438848-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP157664.jpg",
+        "source_registry_id": "met-438848",
+        "local_path": "/artworks/met-438848.jpg",
+        "sha256": "213bb6469ba2400cc548b92e78eebd29124e4291ad848cb5ea22efffe65523c3",
+        "byte_length": 94616,
+        "live_image_checked": true,
+        "live_check_scope": "Met official Object API ID, public domain, JPEG signature/content type, full download & SHA256; human final review pending",
+        "source_accession_number": "2006.258"
+      },
+      "curation": {
+        "emotions": [
+          "懐かしさ"
+        ],
+        "emotion_strengths": {
+          "懐かしさ": 2
+        },
+        "tones": [
+          "余韻",
+          "落ち着き"
+        ],
+        "themes": [
+          "都市",
+          "時間"
+        ],
+        "interpretation": "Metはガルトナーが近代化の進むベルリンで歴史的街路を好意的に描いたと解説。市街の細部は近代的な新しい街との対照をなす。都市の古い建築への情緒的な接点を示せる。",
+        "alternate_reading": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。",
+        "source_context_note": "近代化するベルリンの古い街路を好意的に記録。最古の教会へ続く昔の都市生活の描写というMetの説明。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/438848",
+        "search_profile": {
+          "summary_for_ai": "Metはガルトナーが近代化の進むベルリンで歴史的街路を好意的に描いたと解説。市街の細部は近代的な新しい街との対照をなす。都市の古い建築への情緒的な接点を示せる。",
+          "fitting_situations": [
+            {
+              "situation": "新しくなっていく町に残る昔ながらの街並みを思い浮かべたい",
+              "reason": "近代化期に残る歴史的街路を丁寧に絵画化している。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metはガルトナーが近代化の進むベルリンで歴史的街路を好意的に描いたと解説。市街の細部は近代的な新しい街との対照をなす。都市の古い建築への情緒的な接点を示せる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/438848"
+          },
+          "creation_context": "近代化するベルリンの古い街路を好意的に記録。最古の教会へ続く昔の都市生活の描写というMetの説明。",
+          "visual_clues": "ベルリンの古い建築と教区通り、遠方の教会、通りを歩く小さな人物。",
+          "uncertainty_note": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "懐かしさ"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第16群暫定登録。Met現行公式API、PD、原JPEG実取得とSHA256を確認。作者発言・美術館解釈・感情の索引は異なる役割。人間の目視、解釈承認、公開時の権利確認は未了。"
+      }
+    },
+    {
+      "id": "met-40063",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 40063,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/40063",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/40063",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Sparrows, plum blossoms, and bamboo",
+        "title_ja_provisional": "竹梅小禽図",
+        "artist": "Unidentified artist",
+        "creation_date_display": "late 12th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "China",
+        "accession_number": "24.80.487"
+      },
+      "image": {
+        "image_id": "met-40063-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP153502.jpg",
+        "source_registry_id": "met-40063",
+        "local_path": "/artworks/met-40063.jpg",
+        "sha256": "66d3491fcf296b8e49697e3efe197d5922d27842f14c190038f4c887fd524491",
+        "byte_length": 69571,
+        "live_image_checked": true,
+        "live_check_scope": "Met official Object API ID, public domain, JPEG signature/content type, full download & SHA256; human final review pending",
+        "source_accession_number": "24.80.487"
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "自然",
+          "日常"
+        ],
+        "interpretation": "南宋末頃の扇面花鳥画。Metは小鳥や花枝の細部を見つめる写生の筆法と詩画の伝統を説明する。小鳥がいるというだけで『喜び』や『安心』を定めない。",
+        "alternate_reading": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。",
+        "source_context_note": "南宋の写生的な花鳥画。庭の小さな鳥や植物への細かな観察・配置をMetが評価。人間感情へ無理に変換しない。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/40063",
+        "search_profile": {
+          "summary_for_ai": "南宋末頃の扇面花鳥画。Metは小鳥や花枝の細部を見つめる写生の筆法と詩画の伝統を説明する。小鳥がいるというだけで『喜び』や『安心』を定めない。",
+          "fitting_situations": [
+            {
+              "situation": "鳥と梅と竹の線や筆遣いがどのように自然を捉えるか観察したい",
+              "reason": "花鳥画としての写実と配置に独自の見どころがある。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "南宋末頃の扇面花鳥画。Metは小鳥や花枝の細部を見つめる写生の筆法と詩画の伝統を説明する。小鳥がいるというだけで『喜び』や『安心』を定めない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/40063"
+          },
+          "creation_context": "南宋の写生的な花鳥画。庭の小さな鳥や植物への細かな観察・配置をMetが評価。人間感情へ無理に変換しない。",
+          "visual_clues": "花咲く梅枝と竹のそばにいる雀たち、細い輪郭線と色の薄い染め分け。",
+          "uncertainty_note": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第16群暫定登録。Met現行公式API、PD、原JPEG実取得とSHA256を確認。作者発言・美術館解釈・感情の索引は異なる役割。人間の目視、解釈承認、公開時の権利確認は未了。"
+      }
+    },
+    {
+      "id": "met-77204",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 77204,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/77204",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/77204",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Waxwings, Cherry Blossoms, and Bamboo",
+        "title_ja_provisional": "緋連雀桜竹図",
+        "artist": "Kiyohara Yukinobu",
+        "creation_date_display": "late 17th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2012.522.2"
+      },
+      "image": {
+        "image_id": "met-77204-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP333860.jpg",
+        "source_registry_id": "met-77204",
+        "local_path": "/artworks/met-77204.jpg",
+        "sha256": "240fe8bca46634ad0c11115e1d8553629f844597615f87c16e25786e9edd1468",
+        "byte_length": 56483,
+        "live_image_checked": true,
+        "live_check_scope": "Met official Object API ID, public domain, JPEG signature/content type, full download & SHA256; human final review pending",
+        "source_accession_number": "2012.522.2"
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "日常"
+        ],
+        "interpretation": "江戸時代の女性絵師清原雪信が桜・竹・鳥を描いた掛幅。Metは画家の狩野派の系譜と写生の技巧を伝えている。花のある画面がすべて喜びの感情だという根拠にはならない。",
+        "alternate_reading": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。",
+        "source_context_note": "江戸時代の女性絵師清原雪信による緋連雀と桜と竹の掛幅。庭の華やかさだけでは喜びを断定しない。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/77204",
+        "search_profile": {
+          "summary_for_ai": "江戸時代の女性絵師清原雪信が桜・竹・鳥を描いた掛幅。Metは画家の狩野派の系譜と写生の技巧を伝えている。花のある画面がすべて喜びの感情だという根拠にはならない。",
+          "fitting_situations": [
+            {
+              "situation": "写生と装飾を同時に味わえる動植物の絵をじっくり観たい",
+              "reason": "鳥と桜・竹の配置や筆致に特有の造形がある。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "江戸時代の女性絵師清原雪信が桜・竹・鳥を描いた掛幅。Metは画家の狩野派の系譜と写生の技巧を伝えている。花のある画面がすべて喜びの感情だという根拠にはならない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/77204"
+          },
+          "creation_context": "江戸時代の女性絵師清原雪信による緋連雀と桜と竹の掛幅。庭の華やかさだけでは喜びを断定しない。",
+          "visual_clues": "竹と桜の枝、緋連雀の羽毛と長い尾、鳥の姿勢と余白。",
+          "uncertainty_note": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第16群暫定登録。Met現行公式API、PD、原JPEG実取得とSHA256を確認。作者発言・美術館解釈・感情の索引は異なる役割。人間の目視、解釈承認、公開時の権利確認は未了。"
+      }
+    },
+    {
+      "id": "met-853216",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 853216,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/853216",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853216",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Unexpected Meeting on the Yodo River",
+        "title_ja_provisional": "澱川邂逅之図",
+        "artist": "Tanomura Chikuden (attributed painting); Rai San’yō and Tanomura Chikuden (inscriptions)",
+        "creation_date_display": "1823",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2021.398.21"
+      },
+      "image": {
+        "image_id": "met-853216-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-24433-002.jpg",
+        "source_registry_id": "met-853216",
+        "local_path": "/artworks/met-853216.jpg",
+        "sha256": "4cfeabae47279cd01cfb49cfc3a05a224ed647261475864c76f25c8f81be9c0f",
+        "byte_length": 50597,
+        "live_image_checked": true,
+        "live_check_scope": "Met official Object API ID, public domain, JPEG signature/content type, full download & SHA256; human final review pending",
+        "source_accession_number": "2021.398.21"
+      },
+      "curation": {
+        "emotions": [
+          "喜び",
+          "懐かしさ"
+        ],
+        "emotion_strengths": {
+          "喜び": 3,
+          "懐かしさ": 1
+        },
+        "tones": [
+          "余韻",
+          "高揚"
+        ],
+        "themes": [
+          "記憶",
+          "日常"
+        ],
+        "interpretation": "Metは1823年の淀川で頼山陽と田能村竹田が偶然出会った記念の画賛とする。無署名の画は竹田が描いたと推定、右には山陽の2段の文、左には竹田の文があり、5年前の出会いを回想している。",
+        "alternate_reading": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。",
+        "source_context_note": "1823年の淀川で偶然再会した頼山陽と田能村竹田の友情の即興画賛。館は絵を竹田、書を両者と推定。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/853216",
+        "search_profile": {
+          "summary_for_ai": "Metは1823年の淀川で頼山陽と田能村竹田が偶然出会った記念の画賛とする。無署名の画は竹田が描いたと推定、右には山陽の2段の文、左には竹田の文があり、5年前の出会いを回想している。",
+          "fitting_situations": [
+            {
+              "situation": "久しぶりの友人との思いがけない再会を喜びたい",
+              "reason": "館が偶然の再会を記した当事者自身の書き込みを説明している。",
+              "strength": 3
+            }
+          ],
+          "selection_cautions": [
+            "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは1823年の淀川で頼山陽と田能村竹田が偶然出会った記念の画賛とする。無署名の画は竹田が描いたと推定、右には山陽の2段の文、左には竹田の文があり、5年前の出会いを回想している。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/853216"
+          },
+          "creation_context": "1823年の淀川で偶然再会した頼山陽と田能村竹田の友情の即興画賛。館は絵を竹田、書を両者と推定。",
+          "visual_clues": "小舟に乗って行き交う二人の知識人、画面の左右の別筆の書き込み。",
+          "uncertainty_note": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喜び"
+          ],
+          "secondary": [
+            "懐かしさ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第16群暫定登録。Met現行公式API、PD、原JPEG実取得とSHA256を確認。作者発言・美術館解釈・感情の索引は異なる役割。人間の目視、解釈承認、公開時の権利確認は未了。"
+      }
+    },
+    {
+      "id": "met-10819",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 10819,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/10819",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/10819",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Champion Single Sculls (Max Schmitt in a Single Scull)",
+        "title_ja_provisional": "シングルスカルの優勝者",
+        "artist": "Thomas Eakins",
+        "creation_date_display": "1871",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "United States",
+        "accession_number": "34.92"
+      },
+      "image": {
+        "image_id": "met-10819-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT86.jpg",
+        "source_registry_id": "met-10819",
+        "local_path": "/artworks/met-10819.jpg",
+        "sha256": "bc17d4cff2e963d3e0c103499a97caa7f3718bf55fda89423afc925c8b5bc207",
+        "byte_length": 71642,
+        "live_image_checked": true,
+        "live_check_scope": "Met official Object API ID, public domain, JPEG signature/content type, full download & SHA256; human final review pending",
+        "source_accession_number": "34.92"
+      },
+      "curation": {
+        "emotions": [
+          "喜び"
+        ],
+        "emotion_strengths": {
+          "喜び": 2
+        },
+        "tones": [
+          "高揚",
+          "余韻"
+        ],
+        "themes": [
+          "日常",
+          "時間"
+        ],
+        "interpretation": "Metは友人シュミットがシングルスカルのレースで優勝した翌年の記念碑的な肖像と説明。画家自身も遠景で漕いでおり、競技の達成を静かに記念する。",
+        "alternate_reading": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。",
+        "source_context_note": "友人マックス・シュミットのボート競技優勝を記念したと考えられる絵。画家本人も遠方の船にいる。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/10819",
+        "search_profile": {
+          "summary_for_ai": "Metは友人シュミットがシングルスカルのレースで優勝した翌年の記念碑的な肖像と説明。画家自身も遠景で漕いでおり、競技の達成を静かに記念する。",
+          "fitting_situations": [
+            {
+              "situation": "努力して達成した出来事を、静かな記念として確かめたい",
+              "reason": "友人の競技優勝とボート競技への画家自身の参加が個別作品の経緯として確認できる。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは友人シュミットがシングルスカルのレースで優勝した翌年の記念碑的な肖像と説明。画家自身も遠景で漕いでおり、競技の達成を静かに記念する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/10819"
+          },
+          "creation_context": "友人マックス・シュミットのボート競技優勝を記念したと考えられる絵。画家本人も遠方の船にいる。",
+          "visual_clues": "一人でボートを漕ぐマックス・シュミット、広がる川面、遠くに描かれた画家自身の小舟。",
+          "uncertainty_note": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喜び"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第16群暫定登録。Met現行公式API、PD、原JPEG実取得とSHA256を確認。作者発言・美術館解釈・感情の索引は異なる役割。人間の目視、解釈承認、公開時の権利確認は未了。"
+      }
+    },
+    {
+      "id": "met-10154",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 10154,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/10154",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/10154",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Rocky Mountains, Lander's Peak",
+        "title_ja_provisional": "ロッキー山脈ランダーズ・ピーク",
+        "artist": "Albert Bierstadt",
+        "creation_date_display": "1863",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "United States",
+        "accession_number": "07.123"
+      },
+      "image": {
+        "image_id": "met-10154-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT82.jpg",
+        "source_registry_id": "met-10154",
+        "local_path": "/artworks/met-10154.jpg",
+        "sha256": "ac37c808a5d9924bb72cc6e77ba2b7ded8a46177d85bd04d2ad58bfc981a5d37",
+        "byte_length": 63686,
+        "live_image_checked": true,
+        "live_check_scope": "Met official Object API ID, public domain, JPEG signature/content type, full download & SHA256; human final review pending",
+        "source_accession_number": "07.123"
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 3
+        },
+        "tones": [
+          "高揚",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "共同体"
+        ],
+        "interpretation": "Metは1863年のビアスタットの壮大な山岳風景を西部の美化と『明白な天命』の宣伝に結びつけ、入植に先立つショショーニ族の描写を論じる。大きな山への畏敬と植民地主義を分けずに考える必要がある。",
+        "alternate_reading": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。",
+        "source_context_note": "巨大な山と先住民ショショーニの暮らし。Metは白人開拓者の『明白な天命』という植民地主義の宣伝を明示。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/10154",
+        "search_profile": {
+          "summary_for_ai": "Metは1863年のビアスタットの壮大な山岳風景を西部の美化と『明白な天命』の宣伝に結びつけ、入植に先立つショショーニ族の描写を論じる。大きな山への畏敬と植民地主義を分けずに考える必要がある。",
+          "fitting_situations": [
+            {
+              "situation": "人の規模を超える山岳の力を感じ、その土地に生きる人の歴史にも触れたい",
+              "reason": "圧倒的な山々と小さく描かれた先住民の集落の対照がある。",
+              "strength": 3
+            }
+          ],
+          "selection_cautions": [
+            "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは1863年のビアスタットの壮大な山岳風景を西部の美化と『明白な天命』の宣伝に結びつけ、入植に先立つショショーニ族の描写を論じる。大きな山への畏敬と植民地主義を分けずに考える必要がある。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/10154"
+          },
+          "creation_context": "巨大な山と先住民ショショーニの暮らし。Metは白人開拓者の『明白な天命』という植民地主義の宣伝を明示。",
+          "visual_clues": "遠方にそびえるロッキー山脈、手前の湖面と樹林、ショショーニの村落と人々。",
+          "uncertainty_note": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "畏敬"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第16群暫定登録。Met現行公式API、PD、原JPEG実取得とSHA256を確認。作者発言・美術館解釈・感情の索引は異なる役割。人間の目視、解釈承認、公開時の権利確認は未了。"
+      }
+    },
+    {
+      "id": "met-10159",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 10159,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/10159",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/10159",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Fur Traders Descending the Missouri",
+        "title_ja_provisional": "ミズーリ川を下る毛皮商人",
+        "artist": "George Caleb Bingham",
+        "creation_date_display": "1845",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "United States",
+        "accession_number": "33.61"
+      },
+      "image": {
+        "image_id": "met-10159-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT73.jpg",
+        "source_registry_id": "met-10159",
+        "local_path": "/artworks/met-10159.jpg",
+        "sha256": "96a4ded6f2f5cd6a3b46263d7b99d05ba07a7c2d4be4938af595c906ceb39ab2",
+        "byte_length": 62716,
+        "live_image_checked": true,
+        "live_check_scope": "Met official Object API ID, public domain, JPEG signature/content type, full download & SHA256; human final review pending",
+        "source_accession_number": "33.61"
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "余韻",
+          "静けさ"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "interpretation": "Metはビンガムが西部の毛皮交易を題材に、遠くの開拓世界を美しく描き出したとする。交易が先住民社会に与えた影響は画面の牧歌的な印象だけでは理解できないため、感情タグを断定しない。",
+        "alternate_reading": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。",
+        "source_context_note": "水路を行く毛皮商人を描いた米国西部の歴史画。開拓・交易・先住民の関係について慎重に説明。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/10159",
+        "search_profile": {
+          "summary_for_ai": "Metはビンガムが西部の毛皮交易を題材に、遠くの開拓世界を美しく描き出したとする。交易が先住民社会に与えた影響は画面の牧歌的な印象だけでは理解できないため、感情タグを断定しない。",
+          "fitting_situations": [
+            {
+              "situation": "昔の交易と米国西部がどのように魅力的に描かれたか考えたい",
+              "reason": "小舟の交易風景と穏やかな水の描写が作品の中心をなす。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metはビンガムが西部の毛皮交易を題材に、遠くの開拓世界を美しく描き出したとする。交易が先住民社会に与えた影響は画面の牧歌的な印象だけでは理解できないため、感情タグを断定しない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/10159"
+          },
+          "creation_context": "水路を行く毛皮商人を描いた米国西部の歴史画。開拓・交易・先住民の関係について慎重に説明。",
+          "visual_clues": "静かな川を小舟で下る毛皮商人と荷物、水面の反映、川辺の植物。",
+          "uncertainty_note": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第16群暫定登録。Met現行公式API、PD、原JPEG実取得とSHA256を確認。作者発言・美術館解釈・感情の索引は異なる役割。人間の目視、解釈承認、公開時の権利確認は未了。"
+      }
+    },
+    {
+      "id": "met-436724",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436724,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436724",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436724",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Expectation",
+        "title_ja_provisional": "期待",
+        "artist": "Jozef Israëls",
+        "creation_date_display": "date not specified in API",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Europe",
+        "accession_number": "87.8.13"
+      },
+      "image": {
+        "image_id": "met-436724-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/ep87.8.13.R.jpg",
+        "source_registry_id": "met-436724",
+        "local_path": "/artworks/met-436724.jpg",
+        "sha256": "952aafa5314cc8582430575be476272a19cced1ead3d5ad62fffb6c9cec08ad9",
+        "byte_length": 45764,
+        "live_image_checked": true,
+        "live_check_scope": "Met official Object API ID, public domain, JPEG signature/content type, full download & SHA256; human final review pending",
+        "source_accession_number": "87.8.13"
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "余韻",
+          "落ち着き"
+        ],
+        "themes": [
+          "日常",
+          "時間"
+        ],
+        "interpretation": "イスラエルスによる人物油彩画《Expectation》。Met公式ページの個別の情景解説は限られる。題名の期待を画中人物の内面や鑑賞者の感情へ確定的に移さず、制作の意味を保留する。",
+        "alternate_reading": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。",
+        "source_context_note": "イスラエルスの油彩。作品名だけではどの期待か不明。所蔵館の個別解説も少ないためタグ0候補。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436724",
+        "search_profile": {
+          "summary_for_ai": "イスラエルスによる人物油彩画《Expectation》。Met公式ページの個別の情景解説は限られる。題名の期待を画中人物の内面や鑑賞者の感情へ確定的に移さず、制作の意味を保留する。",
+          "fitting_situations": [
+            {
+              "situation": "作品のタイトルと見えている人物の姿に差があるか観察したい",
+              "reason": "現段階では特定感情を索引する材料が足りず、重要な美術作品でもタグ0件とする。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "イスラエルスによる人物油彩画《Expectation》。Met公式ページの個別の情景解説は限られる。題名の期待を画中人物の内面や鑑賞者の感情へ確定的に移さず、制作の意味を保留する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436724"
+          },
+          "creation_context": "イスラエルスの油彩。作品名だけではどの期待か不明。所蔵館の個別解説も少ないためタグ0候補。",
+          "visual_clues": "日常の人物が一方向を見つめる姿と明暗。",
+          "uncertainty_note": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第16群暫定登録。Met現行公式API、PD、原JPEG実取得とSHA256を確認。作者発言・美術館解釈・感情の索引は異なる役割。人間の目視、解釈承認、公開時の権利確認は未了。"
+      }
+    },
+    {
+      "id": "met-37906",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 37906,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/37906",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/37906",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Krishna and Radha with Their Confidantes: Page from a Dispersed Gita Govinda",
+        "title_ja_provisional": "クリシュナとラーダー、その友人たち",
+        "artist": "Style of Manohar (probably his workshop)",
+        "creation_date_display": "ca. 1655–60",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India",
+        "accession_number": "1985.398.12"
+      },
+      "image": {
+        "image_id": "met-37906-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DT8229.jpg",
+        "source_registry_id": "met-37906",
+        "local_path": "/artworks/met-37906.jpg",
+        "sha256": "b450cc6c0f88acd20cdbb8bf5553a7a66c54842f8064972f5265391f65d1d3fa",
+        "byte_length": 153473,
+        "live_image_checked": true,
+        "live_check_scope": "Met official Object API ID, public domain, JPEG signature/content type, full download & SHA256; human final review pending",
+        "source_accession_number": "1985.398.12"
+      },
+      "curation": {
+        "emotions": [
+          "期待"
+        ],
+        "emotion_strengths": {
+          "期待": 3
+        },
+        "tones": [
+          "余韻",
+          "緊張"
+        ],
+        "themes": [
+          "愛情",
+          "時間"
+        ],
+        "interpretation": "Metは上段でクリシュナが身振りで語りラーダーが期待を寄せ、下段の飾られたあずまやは二人の逢瀬を予告する、と『ギーター・ゴーヴィンダ』との関係を説明。作者は『Style of Manohar』で工房作の可能性を示す。",
+        "alternate_reading": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。",
+        "source_context_note": "『ギーター・ゴーヴィンダ』の求愛と次の逢瀬を上下に描く。後代の様式的帰属は要確認。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/37906",
+        "search_profile": {
+          "summary_for_ai": "Metは上段でクリシュナが身振りで語りラーダーが期待を寄せ、下段の飾られたあずまやは二人の逢瀬を予告する、と『ギーター・ゴーヴィンダ』との関係を説明。作者は『Style of Manohar』で工房作の可能性を示す。",
+          "fitting_situations": [
+            {
+              "situation": "これから起こる出来事を、絵の上下の場面としぐさで読み取りたい",
+              "reason": "Metが上段の期待と下段の逢瀬の予告を具体的に解説している。",
+              "strength": 3
+            }
+          ],
+          "selection_cautions": [
+            "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは上段でクリシュナが身振りで語りラーダーが期待を寄せ、下段の飾られたあずまやは二人の逢瀬を予告する、と『ギーター・ゴーヴィンダ』との関係を説明。作者は『Style of Manohar』で工房作の可能性を示す。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/37906"
+          },
+          "creation_context": "『ギーター・ゴーヴィンダ』の求愛と次の逢瀬を上下に描く。後代の様式的帰属は要確認。",
+          "visual_clues": "上段で身振りを示すクリシュナと視線を向けるラーダー、下段の花綱を掛けた東屋。",
+          "uncertainty_note": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "期待"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第16群暫定登録。Met現行公式API、PD、原JPEG実取得とSHA256を確認。作者発言・美術館解釈・感情の索引は異なる役割。人間の目視、解釈承認、公開時の権利確認は未了。"
+      }
+    },
+    {
+      "id": "met-437749",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437749,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437749",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437749",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Merry Company on a Terrace",
+        "title_ja_provisional": "テラスの陽気な一団",
+        "artist": "Jan Steen",
+        "creation_date_display": "ca. 1670",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Europe",
+        "accession_number": "58.89"
+      },
+      "image": {
+        "image_id": "met-437749-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146455.jpg",
+        "source_registry_id": "met-437749",
+        "local_path": "/artworks/met-437749.jpg",
+        "sha256": "aaddf85236bba80068674b4a4d974b2d6cf9b9a32976c73000cf8f60ffe7547d",
+        "byte_length": 114406,
+        "live_image_checked": true,
+        "live_check_scope": "Met official Object API ID, public domain, JPEG signature/content type, full download & SHA256; human final review pending",
+        "source_accession_number": "58.89"
+      },
+      "curation": {
+        "emotions": [
+          "喜び"
+        ],
+        "emotion_strengths": {
+          "喜び": 2
+        },
+        "tones": [
+          "にぎわい",
+          "高揚"
+        ],
+        "themes": [
+          "共同体",
+          "日常"
+        ],
+        "interpretation": "Metは画家ヤン・ステーンが自分自身と妻を含む飲酒の集団を陽気に描く一方、享楽を戒めるオランダの風俗画的な警句も含むと解説する。『喜び』は宴の表現への接点で、無条件の幸福の肯定ではない。",
+        "alternate_reading": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。",
+        "source_context_note": "ステーンは自身の妻と酔った自分、道化役を描いて家庭の混乱を滑稽に表現。単純な幸福の賛歌ではない。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437749",
+        "search_profile": {
+          "summary_for_ai": "Metは画家ヤン・ステーンが自分自身と妻を含む飲酒の集団を陽気に描く一方、享楽を戒めるオランダの風俗画的な警句も含むと解説する。『喜び』は宴の表現への接点で、無条件の幸福の肯定ではない。",
+          "fitting_situations": [
+            {
+              "situation": "人が集まり陽気な時間を過ごす姿と、その滑稽さを同時に味わいたい",
+              "reason": "飲酒や笑いのある集団を描き、同時代の道徳的な含意が加わる。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは画家ヤン・ステーンが自分自身と妻を含む飲酒の集団を陽気に描く一方、享楽を戒めるオランダの風俗画的な警句も含むと解説する。『喜び』は宴の表現への接点で、無条件の幸福の肯定ではない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437749"
+          },
+          "creation_context": "ステーンは自身の妻と酔った自分、道化役を描いて家庭の混乱を滑稽に表現。単純な幸福の賛歌ではない。",
+          "visual_clues": "テラスに集まる大人と子ども、杯を持つ人物、にぎやかな宴の集団。",
+          "uncertainty_note": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喜び"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第16群暫定登録。Met現行公式API、PD、原JPEG実取得とSHA256を確認。作者発言・美術館解釈・感情の索引は異なる役割。人間の目視、解釈承認、公開時の権利確認は未了。"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-18",
