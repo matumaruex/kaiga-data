@@ -55,7 +55,35 @@ for candidate in candidates:
     elif isinstance(state, str) and state.startswith("held_"):
         held += 1
         if key in catalog or key in registry:
-            errors.append(f"{key}: held item was promoted")
+            # Historical batch010 hold was on unsupported joy/expectation tagging.
+            # Batch020 separately reassessed met-438130 as a zero-emotion work.
+            # Retain the historical held status; require independent current evidence.
+            latest_candidates = {x["candidate_id"]: x for x in load("data/candidates-batch-020.json")["works"]}
+            latest_reports = {x["id"]: x for x in load("docs/batch020-online-result.json")["results"]}
+            current = catalog.get(key)
+            current_image = registry.get(key)
+            newer = latest_candidates.get(key)
+            newer_proof = latest_reports.get(key)
+            justified = (
+                key == "met-438130"
+                and current is not None and current_image is not None
+                and newer is not None and newer_proof is not None
+                and newer.get("registration_status") == "registered_provisional"
+                and newer.get("provisional_emotions") == {"primary": [], "secondary": []}
+                and current["curation"]["emotions"] == []
+                and current["curation"]["emotion_categories"] == {"primary": [], "secondary": []}
+                and current["review"]["interpretation_human_approved"] is False
+                and current["review"]["visual_checked"] is False
+                and newer_proof.get("metadata_verified") is True
+                and newer_proof.get("image_verified") is True
+                and newer_proof.get("isPublicDomain") is True
+                and newer_proof.get("classification") == "Paintings"
+                and current["image"]["sha256"] == newer_proof.get("image_sha256")
+                and current_image["image_source"]["sha256"] == newer_proof.get("image_sha256")
+                and current["image"]["display_url"] == newer_proof.get("image_url_verified")
+            )
+            if not justified:
+                errors.append(f"{key}: held item promoted without justified independent reassessment")
         if state == "held_official_pd_false" and proof.get("isPublicDomain") is not False:
             errors.append(f"{key}: rights hold contradicts official API")
         if candidate.get("image_sha256") != proof.get("image_sha256"):
