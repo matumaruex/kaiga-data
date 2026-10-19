@@ -896,17 +896,11 @@
         "source_accession_number": "1933.444"
       },
       "curation": {
-        "emotions": [
-          "安心"
-        ],
-        "emotion_strengths": {
-          "安心": 1
-        },
+        "emotions": [],
+        "emotion_strengths": {},
         "emotion_categories": {
           "primary": [],
-          "secondary": [
-            "安心"
-          ]
+          "secondary": []
         },
         "tones": [
           "余韻",
@@ -938,9 +932,9 @@
           "summary_for_ai": "積みわらを同じモチーフで繰り返し描く連作の一つ。夕刻・秋の光が同じ形の対象をどう変えるかを追う色彩の研究であり、穏やかな農村の心情だけの表現ではない。",
           "fitting_situations": [
             {
-              "situation": "秋の夕刻の農村の静けさに触れたい",
-              "reason": "暮れゆく光を受ける積みわらの場面が安心への弱い接点になる",
-              "strength": 1
+              "situation": "同じ積みわらが秋の夕刻の光でどのように変わって見えるかを知りたい",
+              "reason": "モネの連作は季節と時刻による光の変化の探究であり、安心を表すとする根拠は不足",
+              "strength": 2
             }
           ],
           "selection_cautions": [
@@ -956,7 +950,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "現行AIC APIで10項目を検証、所蔵番号に一致するCommons画像を実取得しSHA256記録。作者本人の発言は確認できなければ未確認に保ち、学術的な解釈を別に記録。人間の画像目視や権利の配布前最終審査は未了。 2026-10-19：15感情で好奇心タグを再評価。原典と全画像の再検証は未実施。"
+        "curatorial_review_note": "現行AIC APIで10項目を検証、所蔵番号に一致するCommons画像を実取得しSHA256記録。作者本人の発言は確認できなければ未確認に保ち、学術的な解釈を別に記録。人間の画像目視や権利の配布前最終審査は未了。 2026-10-19：15感情で好奇心タグを再評価。原典と全画像の再検証は未実施。 2026-10-19安心タグ再評価：夕刻の静けさだけでは安心との作品固有の関連が弱いため削除。 作者本人の意図の有無だけでタグの採否を決めず、主題・視覚要素と感情の入口を区別する。"
       }
     },
     {
@@ -2101,7 +2095,7 @@
             }
           ],
           "selection_cautions": [
-            "本人が穏やかだったという意図は不明。喜びと確定する根拠はないため、好奇心を中心とする。"
+            "本人が穏やかだったという意図は不明。本人の制作意図として安心や喜びを断定しない。音楽のある室内の場面との補助的な接点に留める。"
           ],
           "review_status": "draft_not_human_approved"
         }
@@ -2445,8 +2439,7 @@
       },
       "curation": {
         "emotions": [
-          "好奇心",
-          "安心"
+          "好奇心"
         ],
         "tones": [
           "にぎわい",
@@ -2461,8 +2454,7 @@
         "alternate_reading": "人々が無表情だから孤独、休日だから喜びを作者が描いたという推測は避ける。",
         "source_context_note": "制作前に多数の素描・小油彩を準備し、1884〜86年の大作で色と視覚に関する実験を進めた。",
         "emotion_strengths": {
-          "好奇心": 2,
-          "安心": 1
+          "好奇心": 2
         },
         "evidence_url": "https://archive.artic.edu/seurat/seurat_themes.html",
         "search_profile": {
@@ -2497,9 +2489,7 @@
           "primary": [
             "好奇心"
           ],
-          "secondary": [
-            "安心"
-          ]
+          "secondary": []
         }
       },
       "review": {
@@ -2509,7 +2499,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主0〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。 2026-10-19：15感情で好奇心タグを再評価。原典と全画像の再検証は未実施。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主0〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。 2026-10-19：15感情で好奇心タグを再評価。原典と全画像の再検証は未実施。 2026-10-19安心タグ再評価：休日の群像と点描実験が中心で、安心の根拠は弱いため削除。 作者本人の意図の有無だけでタグの採否を決めず、主題・視覚要素と感情の入口を区別する。"
       }
     },
     {
@@ -3128,7 +3118,7 @@
           "安心"
         ],
         "emotion_strengths": {
-          "安心": 2
+          "安心": 1
         },
         "tones": [
           "静けさ",
@@ -3143,12 +3133,12 @@
         "source_context_note": "1892年のフロリダ、ターポン・スプリングスの朝の光景。作者はこの地で多くの風景を制作し、自然を精神的な体験に結び付けていた。",
         "evidence_url": "https://publicark.com/art/george-inness/early-morning-tarpon-springs-aic-64729",
         "search_profile": {
-          "summary_for_ai": "晩年のイネスが自然を精神的な思索と結び付けた文脈の早朝風景。静けさはあるが、作品固有の『希望』の制作声明はない。",
+          "summary_for_ai": "晩年のイネスが自然を精神的な思索と結び付けた文脈の早朝風景。淡い光と樹木の静けさは安心への補助的な入口となるが、画家の制作意図として安心を断定しない。",
           "fitting_situations": [
             {
-              "situation": "心を静めながら、自然の中の精神的な広がりを感じたい",
-              "reason": "晩年の風景で自然を精神的な思索と結ぶ作者の制作傾向がある",
-              "strength": 2
+              "situation": "静かな自然の中で心を落ち着けたい",
+              "reason": "早朝の樹木と淡い光には落ち着きへの接点があるが、中心は自然に精神的な意味を見いだす画家の風景表現",
+              "strength": 1
             }
           ],
           "selection_cautions": [
@@ -3171,10 +3161,10 @@
           "uncertainty_note": "自然の霊的な意味という解説は外部サイトによる美術館資料の再掲に基づく。原文との再照合は未完了で、この作品固有の作者発言としては扱わない。朝だから希望という推測も避ける。"
         },
         "emotion_categories": {
-          "primary": [
+          "primary": [],
+          "secondary": [
             "安心"
-          ],
-          "secondary": []
+          ]
         }
       },
       "review": {
@@ -3184,7 +3174,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主0〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。 2026-10-19：15感情で好奇心タグを再評価。原典と全画像の再検証は未実施。"
+        "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主0〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。 2026-10-19：15感情で好奇心タグを再評価。原典と全画像の再検証は未実施。 2026-10-19安心タグ再評価：自然の霊的意味が中心。安心は早朝風景への補助的接点。 作者本人の意図の有無だけでタグの採否を決めず、主題・視覚要素と感情の入口を区別する。"
       }
     },
     {
@@ -3494,17 +3484,11 @@
         "source_accession_number": "1922.431"
       },
       "curation": {
-        "emotions": [
-          "安心"
-        ],
-        "emotion_strengths": {
-          "安心": 1
-        },
+        "emotions": [],
+        "emotion_strengths": {},
         "emotion_categories": {
           "primary": [],
-          "secondary": [
-            "安心"
-          ]
+          "secondary": []
         },
         "tones": [
           "静けさ",
@@ -3536,9 +3520,9 @@
           "summary_for_ai": "同じ積みわらを夕焼けと雪の条件下で描く。シカゴ美術館の技術研究は制作途中に積みわらの位置などを変更した痕跡を確認しており、一瞬の記録だけではない。",
           "fitting_situations": [
             {
-              "situation": "雪に包まれた夕暮れの静かな景色を眺めたい",
-              "reason": "雪と日没の色彩の対照から安心への弱い接点がある",
-              "strength": 1
+              "situation": "雪と夕日の色彩が同じ積みわらをどう変えて見せるかを観察したい",
+              "reason": "積みわら連作での光の観察や制作上の調整を中心に据え、安心の印象を主題とみなさない",
+              "strength": 2
             }
           ],
           "selection_cautions": [
@@ -3554,7 +3538,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "現行AIC APIで10項目を検証、所蔵番号に一致するCommons画像を実取得しSHA256記録。作者本人の発言は確認できなければ未確認に保ち、学術的な解釈を別に記録。人間の画像目視や権利の配布前最終審査は未了。 2026-10-19：15感情で好奇心タグを再評価。原典と全画像の再検証は未実施。"
+        "curatorial_review_note": "現行AIC APIで10項目を検証、所蔵番号に一致するCommons画像を実取得しSHA256記録。作者本人の発言は確認できなければ未確認に保ち、学術的な解釈を別に記録。人間の画像目視や権利の配布前最終審査は未了。 2026-10-19：15感情で好奇心タグを再評価。原典と全画像の再検証は未実施。 2026-10-19安心タグ再評価：雪景色の静けさのみでは安心の根拠が弱いため削除。 作者本人の意図の有無だけでタグの採否を決めず、主題・視覚要素と感情の入口を区別する。"
       }
     },
     {
@@ -3776,17 +3760,11 @@
         "source_accession_number": "1922.436"
       },
       "curation": {
-        "emotions": [
-          "安心"
-        ],
-        "emotion_strengths": {
-          "安心": 1
-        },
+        "emotions": [],
+        "emotion_strengths": {},
         "emotion_categories": {
           "primary": [],
-          "secondary": [
-            "安心"
-          ]
+          "secondary": []
         },
         "tones": [
           "落ち着き",
@@ -3818,9 +3796,9 @@
           "summary_for_ai": "ピサロが尊敬したシャルダンの家庭生活画から学びながら、より光と色彩に満ちた複雑な場面を創作した1882年の絵。",
           "fitting_situations": [
             {
-              "situation": "井戸端で営まれる静かな日常に触れたい",
-              "reason": "家事に取り組む女性と子どもには安心への弱い接点があるが血縁や内心は不明",
-              "strength": 1
+              "situation": "日常の家事を絵画として表したピサロの構成に触れたい",
+              "reason": "シャルダンを参照した人物配置と色彩表現が中心で、井戸端の日常が安心を表したとは判断しない",
+              "strength": 2
             }
           ],
           "selection_cautions": [
@@ -3836,7 +3814,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "公式AIC APIの所蔵番号・分類・PDフラグ・画像IDを照合し、Commonsファイルページで所蔵番号の一致・JPEG SHA256を確認。直接的な作者発言は制作意図として独立記録、解釈はAI編集上の暫定。展示体験は100作品前後から。 2026-10-19：15感情で好奇心タグを再評価。原典と全画像の再検証は未実施。"
+        "curatorial_review_note": "公式AIC APIの所蔵番号・分類・PDフラグ・画像IDを照合し、Commonsファイルページで所蔵番号の一致・JPEG SHA256を確認。直接的な作者発言は制作意図として独立記録、解釈はAI編集上の暫定。展示体験は100作品前後から。 2026-10-19：15感情で好奇心タグを再評価。原典と全画像の再検証は未実施。 2026-10-19安心タグ再評価：日常の家事を安心と同一視しないため削除。 作者本人の意図の有無だけでタグの採否を決めず、主題・視覚要素と感情の入口を区別する。"
       }
     },
     {
@@ -5349,7 +5327,7 @@
           "安心"
         ],
         "emotion_strengths": {
-          "安心": 2
+          "安心": 1
         },
         "tones": [
           "静けさ",
@@ -5364,12 +5342,12 @@
         "source_context_note": "清代の童鈺による墨梅と自作の詩。画賛と絵の意味を一緒に読める。",
         "evidence_url": "https://www.metmuseum.org/art/collection/search/73161",
         "search_profile": {
-          "summary_for_ai": "画家本人の詩が、雪後の静けさのなか、月夜の梅が時の流れを気にせず枝を伸ばす姿を語る。 静謐な作品で、孤独の苦痛や作者の死別を示す根拠はない。懐かしさは弱い補助候補に限る。",
+          "summary_for_ai": "画家自身の詩が雪後の月夜に伸びる梅を語る墨梅。静けさは詩と画面で確認でき、安心は弱い鑑賞上の接点にとどまる。",
           "fitting_situations": [
             {
-              "situation": "季節の移ろいを眺めながら穏やかな時間を過ごしたい",
-              "reason": "作者本人の詩が雪後の静けさと梅の自然な生命力を語っている。",
-              "strength": 2
+              "situation": "雪の後の月夜と梅を眺め、静かに過ごしたい",
+              "reason": "画家の詩が静けさを語る。安心との関係は主題そのものではなく鑑賞者の弱い接点",
+              "strength": 1
             }
           ],
           "selection_cautions": [
@@ -5392,10 +5370,10 @@
           "uncertainty_note": "静謐な作品で、孤独の苦痛や作者の死別を示す根拠はない。懐かしさは弱い補助候補に限る。"
         },
         "emotion_categories": {
-          "primary": [
+          "primary": [],
+          "secondary": [
             "安心"
-          ],
-          "secondary": []
+          ]
         }
       },
       "review": {
@@ -5403,9 +5381,9 @@
         "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
-        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第7群。Met公式APIとprimary JPEGをGitHub Actionsで実取得しSHA256照合。作者発言/物語主題/鑑賞タグを別扱い。画像の人間による視認、展示用の最終編集と公開確認は未了。"
+        "curatorial_review_note": "第7群。Met公式APIとprimary JPEGをGitHub Actionsで実取得しSHA256照合。作者発言/物語主題/鑑賞タグを別扱い。画像の人間による視認、展示用の最終編集と公開確認は未了。 2026-10-19安心タグ再評価：雪後の月夜の静寂はあるが安心が中心とは言えない。 作者本人の意図の有無だけでタグの採否を決めず、主題・視覚要素と感情の入口を区別する。"
       }
     },
     {
@@ -5748,7 +5726,7 @@
           "安心"
         ],
         "emotion_strengths": {
-          "安心": 2
+          "安心": 1
         },
         "tones": [
           "静けさ",
@@ -5763,12 +5741,12 @@
         "source_context_note": "朝鮮後期の画家サモジェの山水画。明代画譜の図様の影響も指摘される。",
         "evidence_url": "https://www.metmuseum.org/art/collection/search/40429",
         "search_profile": {
-          "summary_for_ai": "朝鮮後期の文人画の様式を取り入れた、簡潔で肩の力の抜けた風景画。明代の画譜に基づく可能性がある。 作者の個人的な安堵を語る資料ではない。作品の静かな構成との接点に留める。",
+          "summary_for_ai": "簡潔な筆致と余白が特徴の朝鮮後期文人画風の湖畔風景。視覚的な落ち着きへの接点はあるが、作者の安堵や感情的意図は不明。",
           "fitting_situations": [
             {
-              "situation": "情報や刺激の少ない落ち着いた景色を眺めたい",
-              "reason": "朝鮮後期の文人画的な静かな構成と、簡潔な筆致が鑑賞上の休息への接点になる。",
-              "strength": 2
+              "situation": "余白の多い湖畔の景色を眺めたい",
+              "reason": "簡潔な筆致と余白が落ち着きを感じさせうるが、安心は中心的な主題ではない",
+              "strength": 1
             }
           ],
           "selection_cautions": [
@@ -5791,10 +5769,10 @@
           "uncertainty_note": "作者の個人的な安堵を語る資料ではない。作品の静かな構成との接点に留める。"
         },
         "emotion_categories": {
-          "primary": [
+          "primary": [],
+          "secondary": [
             "安心"
-          ],
-          "secondary": []
+          ]
         }
       },
       "review": {
@@ -5802,9 +5780,9 @@
         "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
-        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第7群。Met公式APIとprimary JPEGをGitHub Actionsで実取得しSHA256照合。作者発言/物語主題/鑑賞タグを別扱い。画像の人間による視認、展示用の最終編集と公開確認は未了。"
+        "curatorial_review_note": "第7群。Met公式APIとprimary JPEGをGitHub Actionsで実取得しSHA256照合。作者発言/物語主題/鑑賞タグを別扱い。画像の人間による視認、展示用の最終編集と公開確認は未了。 2026-10-19安心タグ再評価：余白・簡潔な筆致からの落ち着きは補助的な接点。 作者本人の意図の有無だけでタグの採否を決めず、主題・視覚要素と感情の入口を区別する。"
       }
     },
     {
@@ -6541,7 +6519,7 @@
         ],
         "emotion_strengths": {
           "孤独": 2,
-          "安心": 1
+          "安心": 2
         },
         "tones": [
           "静けさ",
@@ -6557,11 +6535,11 @@
         "source_context_note": "1885年の胡遠の扇面山水画。作者による画賛は、人のいない山と湧き水で気分を新たにする旅人を述べる。",
         "evidence_url": "https://www.metmuseum.org/art/collection/search/49454",
         "search_profile": {
-          "summary_for_ai": "胡遠自身の画賛は人けのない山で一人の人物が湧き水に生気を取り戻すと詠う。 lonelyという語があっても孤独の苦痛ではない。『寂しさ』主タグは付けない。",
+          "summary_for_ai": "人けのない山で湧き水により生気を取り戻す人物を、胡遠自身の画賛が語る。独りであることと心身の回復が共存する山水画。",
           "fitting_situations": [
             {
-              "situation": "人と離れた静かなところで気分を回復したい",
-              "reason": "作者の詩には一人きりの人物が春の水に生気を取り戻すとあり、孤独を苦痛とみなさない例。",
+              "situation": "人里離れた場所で心身を回復する感覚に触れたい",
+              "reason": "作者の画賛が、人のいない山の泉により生気を取り戻す人物を具体的に語る",
               "strength": 2
             }
           ],
@@ -6586,11 +6564,10 @@
         },
         "emotion_categories": {
           "primary": [
-            "孤独"
-          ],
-          "secondary": [
+            "孤独",
             "安心"
-          ]
+          ],
+          "secondary": []
         }
       },
       "review": {
@@ -6598,9 +6575,9 @@
         "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
-        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第8群: The Metの現行公式APIに作品名・画家・分類・PD・所蔵番号一致。公式JPEG実取得SHA256記録。作者の詩と関連作の言葉を区別し、人物の感情を作者自身と混同しない。画像の目視・公開最終確認は未実施。"
+        "curatorial_review_note": "第8群: The Metの現行公式APIに作品名・画家・分類・PD・所蔵番号一致。公式JPEG実取得SHA256記録。作者の詩と関連作の言葉を区別し、人物の感情を作者自身と混同しない。画像の目視・公開最終確認は未実施。 2026-10-19安心タグ再評価：作者の画賛が泉での生気回復を明記するため主タグへ。 作者本人の意図の有無だけでタグの採否を決めず、主題・視覚要素と感情の入口を区別する。"
       }
     },
     {
@@ -7744,7 +7721,7 @@
         ],
         "emotion_strengths": {
           "希望": 2,
-          "安心": 1
+          "安心": 2
         },
         "tones": [
           "余韻",
@@ -7759,11 +7736,11 @@
         "source_context_note": "18世紀ペルー・クスコの作者不詳による聖母子の巡礼画。慈悲の聖母を各地へ運び信仰と寄進を募ったメルセダリア会の歴史と奇跡の伝承を伝える。",
         "evidence_url": "https://www.metmuseum.org/art/collection/search/764092",
         "search_profile": {
-          "summary_for_ai": "キトで崇敬された聖母像が南米各地を巡り、信仰と守護の希望を担った歴史を伝えるクスコ派の宗教画。 救済への期待は信仰実践の側面で、描き手自身が希望に満ちていたという資料はない。 作者の個人的希望や現代の一般的な楽観とは違い、宗教的な守護への願い。",
+          "summary_for_ai": "慈悲の聖母の巡礼、奇跡による救済、守護を願う信仰を表すクスコ派宗教画。安心と希望の両方に具体的な入口がある。",
           "fitting_situations": [
             {
-              "situation": "守られたい、助けがほしいという願いを歴史的な宗教文化から考えたい",
-              "reason": "Metは巡礼画・奇跡の救済・慈悲の聖母に対する信仰行為という具体的意味を説明。",
+              "situation": "守られたい、助けがほしいという願いに向き合いたい",
+              "reason": "巡礼画の守護と奇跡による救済は、安心を求める感情への具体的な宗教的接点を持つ",
               "strength": 2
             }
           ],
@@ -7788,11 +7765,10 @@
         },
         "emotion_categories": {
           "primary": [
-            "希望"
-          ],
-          "secondary": [
+            "希望",
             "安心"
-          ]
+          ],
+          "secondary": []
         }
       },
       "review": {
@@ -7802,7 +7778,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第9群試験登録。公式Met作品ID・PD・画像JPEG取得・SHA256を確認。個別の作者発言と物語・専門家解釈の区別を維持。人間による画像視認・解釈・公開権利の最終承認は別。"
+        "curatorial_review_note": "第9群試験登録。公式Met作品ID・PD・画像JPEG取得・SHA256を確認。個別の作者発言と物語・専門家解釈の区別を維持。人間による画像視認・解釈・公開権利の最終承認は別。 2026-10-19安心タグ再評価：守護・救済を求める信仰が安心と具体的に接続するため主タグへ。 作者本人の意図の有無だけでタグの採否を決めず、主題・視覚要素と感情の入口を区別する。"
       }
     },
     {
@@ -8145,7 +8121,7 @@
         ],
         "emotion_strengths": {
           "孤独": 2,
-          "安心": 1
+          "安心": 2
         },
         "tones": [
           "静けさ",
@@ -8160,11 +8136,11 @@
         "source_context_note": "米国ハドソン・リヴァー派の風景画。自然の中での個人的な静けさを主題とする。",
         "evidence_url": "https://www.metmuseum.org/art/collection/search/10790",
         "search_profile": {
-          "summary_for_ai": "深い森の影と独り過ごす感覚。作者の『風景の中で息をし、木陰に休む』趣旨の公開時の論説とMet解説が関連する。 孤独が不幸な寂しさであるという読みにはしない。 孤独は自発的な一人の時間であり、悲惨さや疎外感の意味ではない。",
+          "summary_for_ai": "デュランドの風景論に通じる、森の木陰で息をつき休む感覚を表した風景。自発的な孤独と休息への接点がある。",
           "fitting_situations": [
             {
-              "situation": "人に会わない森に入って、ゆっくり息をつきたい",
-              "reason": "Metはデュランドの風景論に関わる『森林の木陰に休む』感覚を説明し、人から離れた自然との親密さを示す。",
+              "situation": "森の木陰で人から離れ、息をつくように休みたい",
+              "reason": "デュランドの風景論とMetの解説が、森林で休み呼吸する感覚を結びつけている",
               "strength": 2
             }
           ],
@@ -8189,11 +8165,10 @@
         },
         "emotion_categories": {
           "primary": [
-            "孤独"
-          ],
-          "secondary": [
+            "孤独",
             "安心"
-          ]
+          ],
+          "secondary": []
         }
       },
       "review": {
@@ -8203,7 +8178,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第10群試験登録。現行Met公式ID/PD/原画像JPEG取得とSHA256を照合。制作意図の直接記録は本作品では未検証。館の主題研究、図像と後世の反応を分けて説明。人間の最終画像視認と公開権利審査は未了。"
+        "curatorial_review_note": "第10群試験登録。現行Met公式ID/PD/原画像JPEG取得とSHA256を照合。制作意図の直接記録は本作品では未検証。館の主題研究、図像と後世の反応を分けて説明。人間の最終画像視認と公開権利審査は未了。 2026-10-19安心タグ再評価：木陰で休む感覚に関する風景論との接点から主タグへ。 作者本人の意図の有無だけでタグの採否を決めず、主題・視覚要素と感情の入口を区別する。"
       }
     },
     {
@@ -8931,11 +8906,11 @@
       },
       "curation": {
         "emotions": [
-          "安心",
-          "期待"
+          "期待",
+          "安心"
         ],
         "emotion_strengths": {
-          "安心": 2,
+          "安心": 1,
           "期待": 1
         },
         "tones": [
@@ -8951,12 +8926,12 @@
         "source_context_note": "1814年の浦上玉堂の水墨山水。岡山藩士から文人生活に移り、七絃琴と山水に親しんだ。",
         "evidence_url": "https://www.metmuseum.org/art/collection/search/53460",
         "search_profile": {
-          "summary_for_ai": "琴を携えた人物が橋を渡り待つ知人に会う場面。玉堂の文人生活と琴への関心がMetに記録される。 誰かに会う物語上の期待と作者の本心を区別。 公式作者欄は別綴りを併記する。 作中人物が『必ずうれしい』かは不明。作者自身の琴への関心は経歴の根拠だが、期待の感情を制作意図と断定できない。",
+          "summary_for_ai": "琴を運び知人に会いに向かう人物を描いた浦上玉堂の山水。交流への期待や文人生活が中心で、道中の落ち着きは弱い接点。",
           "fitting_situations": [
             {
-              "situation": "気の合う人に会いに行く道のりをゆっくり楽しみたい",
-              "reason": "Metが橋の向こうで待つ知人と、画家玉堂の琴への強い関心を説明する。",
-              "strength": 2
+              "situation": "気の合う知人に会いに向かう道を想像したい",
+              "reason": "知人に会いに行く場面と琴のある文人生活が中心で、道中の安らぎは弱い鑑賞上の接点",
+              "strength": 1
             }
           ],
           "selection_cautions": [
@@ -8979,11 +8954,10 @@
           "uncertainty_note": "誰かに会う物語上の期待と作者の本心を区別。 公式作者欄は別綴りを併記する。 作中人物が『必ずうれしい』かは不明。作者自身の琴への関心は経歴の根拠だが、期待の感情を制作意図と断定できない。"
         },
         "emotion_categories": {
-          "primary": [
-            "安心"
-          ],
+          "primary": [],
           "secondary": [
-            "期待"
+            "期待",
+            "安心"
           ]
         }
       },
@@ -8994,7 +8968,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第10群試験登録。現行Met公式ID/PD/原画像JPEG取得とSHA256を照合。制作意図の直接記録は本作品では未検証。館の主題研究、図像と後世の反応を分けて説明。人間の最終画像視認と公開権利審査は未了。"
+        "curatorial_review_note": "第10群試験登録。現行Met公式ID/PD/原画像JPEG取得とSHA256を照合。制作意図の直接記録は本作品では未検証。館の主題研究、図像と後世の反応を分けて説明。人間の最終画像視認と公開権利審査は未了。 2026-10-19安心タグ再評価：琴を携えて知人を訪ねる主題が中心。安心は道中の弱い連想。 作者本人の意図の有無だけでタグの採否を決めず、主題・視覚要素と感情の入口を区別する。"
       }
     },
     {
@@ -10994,7 +10968,7 @@
           "安心"
         ],
         "emotion_strengths": {
-          "安心": 2
+          "安心": 1
         },
         "tones": [
           "静けさ",
@@ -11009,12 +10983,12 @@
         "source_context_note": "伝・可翁の日本の水墨掛幅。Metは制作時期をprobably 15th centuryとし、作者活動期と制作年代に差があることに注意が必要とされる。中国の水牛画に由来する筆法・画題。",
         "evidence_url": "https://www.metmuseum.org/art/collection/search/829379",
         "search_profile": {
-          "summary_for_ai": "薄墨の牛と牧童が静かな水辺を渡る。田仕事の帰途かもしれない日常画面には、中国の牛の象徴性と禅の十牛図の伝統が重なる。",
+          "summary_for_ai": "牧童と水牛が浅瀬を渡る日本の水墨画（伝・可翁）。農耕や禅の図像的文脈を中心とし、穏やかな表現は安心への弱い入口。",
           "fitting_situations": [
             {
-              "situation": "強い刺激ではなく、日々の静かな移動の景色に触れたい",
-              "reason": "動物と牧童の移動を抑えた墨で描き、Metも農耕と禅の題材との関係を論じている。",
-              "strength": 2
+              "situation": "牧童と牛が水辺を渡る日常を穏やかに眺めたい",
+              "reason": "水墨の抑制された表現が落ち着きへの接点になるが、作品の農耕・禅の題材と安心は同義ではない",
+              "strength": 1
             }
           ],
           "selection_cautions": [
@@ -11037,10 +11011,10 @@
           "uncertainty_note": "『家へ戻る』の解釈はMet自身がlikelyと推定しており、十牛図の一場面をそのまま描いたと確定できない。絵の穏やかさから画家の内面の平穏を断定しない。"
         },
         "emotion_categories": {
-          "primary": [
+          "primary": [],
+          "secondary": [
             "安心"
-          ],
-          "secondary": []
+          ]
         }
       },
       "review": {
@@ -11050,7 +11024,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第12群暫定登録。Met公式APIとオープンJPEGを同一作品IDで直接検証、作者の言葉・館の読解・鑑賞者の接点を区別。公開前の人間の画像目視、内容審査と法的審査は未完了。 2026-10-19：15感情で好奇心タグを再評価。原典と全画像の再検証は未実施。"
+        "curatorial_review_note": "第12群暫定登録。Met公式APIとオープンJPEGを同一作品IDで直接検証、作者の言葉・館の読解・鑑賞者の接点を区別。公開前の人間の画像目視、内容審査と法的審査は未完了。 2026-10-19：15感情で好奇心タグを再評価。原典と全画像の再検証は未実施。 2026-10-19安心タグ再評価：農耕・禅の図像が中心。静かな表現から安心を弱く連想できる。 作者本人の意図の有無だけでタグの採否を決めず、主題・視覚要素と感情の入口を区別する。"
       }
     },
     {
