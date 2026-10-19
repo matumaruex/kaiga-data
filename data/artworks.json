@@ -4140,20 +4140,16 @@
       },
       "curation": {
         "emotions": [
-          "不安",
-          "希望"
+          "不安"
         ],
         "emotion_strengths": {
-          "不安": 2,
-          "希望": 1
+          "不安": 2
         },
         "emotion_categories": {
           "primary": [
             "不安"
           ],
-          "secondary": [
-            "希望"
-          ]
+          "secondary": []
         },
         "tones": [
           "緊張",
@@ -4191,7 +4187,8 @@
             }
           ],
           "selection_cautions": [
-            "当時の特定の飢饉や作者自身の苦しみを象徴するという主張は資料なしには採用しない。タペストリー原画との関係は個別作品の最終照合が必要。"
+            "当時の特定の飢饉や作者自身の苦しみを象徴するという主張は資料なしには採用しない。タペストリー原画との関係は個別作品の最終照合が必要。",
+            "厳しい寒風に苦しむ人物は描かれるが、助けや将来の好転を望む希望について画面・出典から確認できる具体的接点が弱い。"
           ],
           "review_status": "draft_not_human_approved"
         }
@@ -4201,9 +4198,9 @@
         "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
-        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "現行AIC APIで10項目を検証、所蔵番号に一致するCommons画像を実取得しSHA256記録。作者本人の発言は確認できなければ未確認に保ち、学術的な解釈を別に記録。人間の画像目視や権利の配布前最終審査は未了。"
+        "curatorial_review_note": "現行AIC APIで10項目を検証、所蔵番号に一致するCommons画像を実取得しSHA256記録。作者本人の発言は確認できなければ未確認に保ち、学術的な解釈を別に記録。人間の画像目視や権利の配布前最終審査は未了。 2026-10-19希望タグの再評価：厳しい寒風に苦しむ人物は描かれるが、助けや将来の好転を望む希望について画面・出典から確認できる具体的接点が弱い。"
       }
     },
     {
@@ -10597,12 +10594,10 @@
       },
       "curation": {
         "emotions": [
-          "怒り",
-          "希望"
+          "怒り"
         ],
         "emotion_strengths": {
-          "怒り": 2,
-          "希望": 1
+          "怒り": 2
         },
         "tones": [
           "緊張",
@@ -10626,7 +10621,8 @@
             }
           ],
           "selection_cautions": [
-            "怒りと反抗は同一ではない。清・明交代の歴史と後代の図像解釈を区別する。"
+            "怒りと反抗は同一ではない。清・明交代の歴史と後代の図像解釈を区別する。",
+            "鷹は勇気と抵抗の象徴だが、将来の好転・救済を描く希望はMetの解釈からは直接導けない。"
           ],
           "review_status": "draft_not_human_approved"
         },
@@ -10648,9 +10644,7 @@
           "primary": [
             "怒り"
           ],
-          "secondary": [
-            "希望"
-          ]
+          "secondary": []
         }
       },
       "review": {
@@ -10660,7 +10654,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第11群試験登録。Met現行公式Object APIに作品ID・帰属・所蔵番号・PDを照合。主画像JPEGを実取得・ハッシュ確認。制作意図と館の読解、鑑賞者の感情を分離。人間の実画像視認、解釈承認、公開時の権利審査は未了。"
+        "curatorial_review_note": "第11群試験登録。Met現行公式Object APIに作品ID・帰属・所蔵番号・PDを照合。主画像JPEGを実取得・ハッシュ確認。制作意図と館の読解、鑑賞者の感情を分離。人間の実画像視認、解釈承認、公開時の権利審査は未了。 2026-10-19希望タグの再評価：鷹は勇気と抵抗の象徴だが、将来の好転・救済を描く希望はMetの解釈からは直接導けない。"
       }
     },
     {
