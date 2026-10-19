@@ -12518,6 +12518,873 @@
         "curatorial_review_status": "provisional",
         "curatorial_review_note": "第13群暫定登録。Met公式APIと原JPEG実取得・SHA256を検証。タグは作品固有の主題・表現への暫定的な接点であり、人間の視認・解釈承認と公開前の権利審査は未了。"
       }
+    },
+    {
+      "id": "met-829381",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 829381,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/829381",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/829381",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Portrait of Minamoto no Muneyuki, from the “Fujifusa Version of the Handscroll of Thirty-Six Poetic Immortals”",
+        "title_ja_provisional": "源宗于像（三十六歌仙絵巻断簡）",
+        "artist": "Unidentified court artist (inscription traditionally attributed to Emperor Godaigo)",
+        "creation_date_display": "early 15th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2019.420.4"
+      },
+      "image": {
+        "image_id": "met-829381-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-20032-002.jpg",
+        "source_registry_id": "met-829381",
+        "local_path": "/artworks/met-829381.jpg",
+        "sha256": "f2f9039ae70b28b1f999547d770abc7d62b096e3fc9e3b13fe93c386824c1219",
+        "byte_length": 108271,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API matching JPEG, complete image signature, verified byte length and SHA256; human review pending",
+        "source_accession_number": "2019.420.4"
+      },
+      "curation": {
+        "emotions": [
+          "寂しさ",
+          "孤独"
+        ],
+        "emotion_strengths": {
+          "寂しさ": 3,
+          "孤独": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "記憶",
+          "居場所"
+        ],
+        "interpretation": "Metは描かれた源宗于の冬の和歌を翻訳し、山里で友人の訪れが絶える寂しさを伝える。絵の宮廷画家は不詳、書は伝・後醍醐天皇筆である。",
+        "alternate_reading": "歌人の詩に表れた孤独であり、描き手が同じ感情を抱いたと判断しない。肖像と書の作者帰属は別。",
+        "source_context_note": "冬の山里で友人も草も枯れて訪れず、孤独が増すという宗于の和歌が本作に書かれている。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/829381",
+        "search_profile": {
+          "summary_for_ai": "Metは描かれた源宗于の冬の和歌を翻訳し、山里で友人の訪れが絶える寂しさを伝える。絵の宮廷画家は不詳、書は伝・後醍醐天皇筆である。",
+          "fitting_situations": [
+            {
+              "situation": "冬の山里で人の訪れが絶えるような寂しさと向き合いたい",
+              "reason": "本作に記された宗于の歌が、人も草も枯れて冬の寂しさが増すと直接語る。",
+              "strength": 3
+            }
+          ],
+          "selection_cautions": [
+            "歌人の詩に表れた孤独であり、描き手が同じ感情を抱いたと判断しない。肖像と書の作者帰属は別。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは描かれた源宗于の冬の和歌を翻訳し、山里で友人の訪れが絶える寂しさを伝える。絵の宮廷画家は不詳、書は伝・後醍醐天皇筆である。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/829381"
+          },
+          "creation_context": "冬の山里で友人も草も枯れて訪れず、孤独が増すという宗于の和歌が本作に書かれている。",
+          "visual_clues": "公家姿の歌人、仮名三行で書かれた冬の山里の和歌。",
+          "uncertainty_note": "歌人の詩に表れた孤独であり、描き手が同じ感情を抱いたと判断しない。肖像と書の作者帰属は別。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "寂しさ"
+          ],
+          "secondary": [
+            "孤独"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第14群暫定登録。公式作品ID・PDFLAG/JPEGハッシュ確認、筆者と画家の帰属を区別。感情タグ0件も新方針として許容。画像の人間による最終視認、解釈承認、公開権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-44863",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 44863,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/44863",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/44863",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Yukihira and Two Brinemaidens at Suma",
+        "title_ja_provisional": "須磨の行平と松風・村雨",
+        "artist": "Okumura Masanobu",
+        "creation_date_display": "18th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "1975.268.126"
+      },
+      "image": {
+        "image_id": "met-44863-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP221127.jpg",
+        "source_registry_id": "met-44863",
+        "local_path": "/artworks/met-44863.jpg",
+        "sha256": "c62381935c13838af0f073ea60b127ac6b9f74b1a08c3681d240def6a496b458",
+        "byte_length": 69755,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API matching JPEG, complete image signature, verified byte length and SHA256; human review pending",
+        "source_accession_number": "1975.268.126"
+      },
+      "curation": {
+        "emotions": [
+          "未練",
+          "寂しさ"
+        ],
+        "emotion_strengths": {
+          "未練": 2,
+          "寂しさ": 1
+        },
+        "tones": [
+          "余韻",
+          "静けさ"
+        ],
+        "themes": [
+          "愛情",
+          "別れ"
+        ],
+        "interpretation": "Metは行平と松風・村雨の古典の恋と別離を、奥村政信が江戸の遊里風俗の装いへ置き換えたと述べる。",
+        "alternate_reading": "行平が苦悩しているかは画面の演出次第で断定不可。古典の別離と江戸の遊興文化が重なる。",
+        "source_context_note": "須磨の松風・村雨と在原行平の恋物語。別れの記念の衣と帽子を松に掛けた伝承を、江戸の浮世絵風に翻案。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/44863",
+        "search_profile": {
+          "summary_for_ai": "Metは行平と松風・村雨の古典の恋と別離を、奥村政信が江戸の遊里風俗の装いへ置き換えたと述べる。",
+          "fitting_situations": [
+            {
+              "situation": "昔の恋や別れを、あとに残された小物から思い返したい",
+              "reason": "松に残した衣と帽子が別れの形見になる古典の伝説を、Metが本作の背景として解説する。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "行平が苦悩しているかは画面の演出次第で断定不可。古典の別離と江戸の遊興文化が重なる。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは行平と松風・村雨の古典の恋と別離を、奥村政信が江戸の遊里風俗の装いへ置き換えたと述べる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/44863"
+          },
+          "creation_context": "須磨の松風・村雨と在原行平の恋物語。別れの記念の衣と帽子を松に掛けた伝承を、江戸の浮世絵風に翻案。",
+          "visual_clues": "須磨の浜辺にいる行平と二人の海女、背景の松に掛かる衣類と帽子。",
+          "uncertainty_note": "行平が苦悩しているかは画面の演出次第で断定不可。古典の別離と江戸の遊興文化が重なる。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "未練"
+          ],
+          "secondary": [
+            "寂しさ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第14群暫定登録。公式作品ID・PDFLAG/JPEGハッシュ確認、筆者と画家の帰属を区別。感情タグ0件も新方針として許容。画像の人間による最終視認、解釈承認、公開権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-40020",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 40020,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/40020",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/40020",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Sound of Spring in a Lonely Valley",
+        "title_ja_provisional": "幽谷泉声図",
+        "artist": "Hongren",
+        "creation_date_display": "1661",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "China",
+        "accession_number": "1989.363.133"
+      },
+      "image": {
+        "image_id": "met-40020-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-36009-002.jpg",
+        "source_registry_id": "met-40020",
+        "local_path": "/artworks/met-40020.jpg",
+        "sha256": "6ace84fbe600abd172fa9ba166af4dca515957dd65ebbb5eef85c65402856bd9",
+        "byte_length": 61421,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API matching JPEG, complete image signature, verified byte length and SHA256; human review pending",
+        "source_accession_number": "1989.363.133"
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "interpretation": "Metは弘仁の安徽画派と黄山の地形、淡い墨と乾いた角張った筆触、南京の画家との交流を解説する。Lonelyの題名だけでは人間の孤独の根拠にならない。",
+        "alternate_reading": "優れた山水画でも、適合する感情がなければ0タグのまま収録できる。",
+        "source_context_note": "1661年の黄山派画家・弘仁による山水。『孤独』は英語題名中のLonelyに由来するが画面や館解説から人間の心理として確定しない。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/40020",
+        "search_profile": {
+          "summary_for_ai": "Metは弘仁の安徽画派と黄山の地形、淡い墨と乾いた角張った筆触、南京の画家との交流を解説する。Lonelyの題名だけでは人間の孤独の根拠にならない。",
+          "fitting_situations": [
+            {
+              "situation": "17世紀中国山水の筆と山岳表現を静かに観察したい",
+              "reason": "感情よりも安徽画派の乾いた筆線と黄山の景観という造形上の問題が中心。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "優れた山水画でも、適合する感情がなければ0タグのまま収録できる。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは弘仁の安徽画派と黄山の地形、淡い墨と乾いた角張った筆触、南京の画家との交流を解説する。Lonelyの題名だけでは人間の孤独の根拠にならない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/40020"
+          },
+          "creation_context": "1661年の黄山派画家・弘仁による山水。『孤独』は英語題名中のLonelyに由来するが画面や館解説から人間の心理として確定しない。",
+          "visual_clues": "薄い墨、角張った岩山の描写、余白と谷に流れる水。",
+          "uncertainty_note": "優れた山水画でも、適合する感情がなければ0タグのまま収録できる。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第14群暫定登録。公式作品ID・PDFLAG/JPEGハッシュ確認、筆者と画家の帰属を区別。感情タグ0件も新方針として許容。画像の人間による最終視認、解釈承認、公開権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-437033",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437033,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437033",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437033",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Virgin and Child",
+        "title_ja_provisional": "聖母子",
+        "artist": "Follower of Rogier van der Weyden (Master of the Saint Ursula Legend Group, Netherlandish, active late 15th century)",
+        "creation_date_display": "ca. 1480–90",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Netherlandish",
+        "accession_number": "17.190.16"
+      },
+      "image": {
+        "image_id": "met-437033-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20393-001.jpg",
+        "source_registry_id": "met-437033",
+        "local_path": "/artworks/met-437033.jpg",
+        "sha256": "f69354e39dbc545fa507e4298bde3ff1871d9bd1797e15f0f382ee756f457fc8",
+        "byte_length": 181102,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API matching JPEG, complete image signature, verified byte length and SHA256; human review pending",
+        "source_accession_number": "17.190.16"
+      },
+      "curation": {
+        "emotions": [
+          "慈しみ"
+        ],
+        "emotion_strengths": {
+          "慈しみ": 2
+        },
+        "tones": [
+          "落ち着き",
+          "余韻"
+        ],
+        "themes": [
+          "愛情",
+          "日常"
+        ],
+        "interpretation": "Metはビザンティンの金地と同時代ネーデルラントの写実と温かみを融合した授乳聖母像と解説。作者はウェイデン本人ではなく追随者。",
+        "alternate_reading": "作者はファン・デル・ウェイデン本人ではなく追随者。聖母子の文化的題材と画家の心理は別。",
+        "source_context_note": "授乳する聖母子の図像。金地のビザンティン的要素とネーデルラントの写実的な温かみを組み合わせる。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437033",
+        "search_profile": {
+          "summary_for_ai": "Metはビザンティンの金地と同時代ネーデルラントの写実と温かみを融合した授乳聖母像と解説。作者はウェイデン本人ではなく追随者。",
+          "fitting_situations": [
+            {
+              "situation": "誰かを守り育てる行為を、親密な身体の描写から見つめたい",
+              "reason": "授乳という保護の行為が画中で具体的に行われ、Metも自然な母子の温かみを述べる。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作者はファン・デル・ウェイデン本人ではなく追随者。聖母子の文化的題材と画家の心理は別。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metはビザンティンの金地と同時代ネーデルラントの写実と温かみを融合した授乳聖母像と解説。作者はウェイデン本人ではなく追随者。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437033"
+          },
+          "creation_context": "授乳する聖母子の図像。金地のビザンティン的要素とネーデルラントの写実的な温かみを組み合わせる。",
+          "visual_clues": "乳児に母乳を与える聖母と子、金地、もと蝶番がついていた額縁。",
+          "uncertainty_note": "作者はファン・デル・ウェイデン本人ではなく追随者。聖母子の文化的題材と画家の心理は別。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "慈しみ"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第14群暫定登録。公式作品ID・PDFLAG/JPEGハッシュ確認、筆者と画家の帰属を区別。感情タグ0件も新方針として許容。画像の人間による最終視認、解釈承認、公開権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-435765",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 435765,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/435765",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435765",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Virgin and Child",
+        "title_ja_provisional": "聖母子（バウツ工房）",
+        "artist": "Workshop of Dieric Bouts",
+        "creation_date_display": "1475–99",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Netherlandish",
+        "accession_number": "1982.60.16"
+      },
+      "image": {
+        "image_id": "met-435765-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT7240.jpg",
+        "source_registry_id": "met-435765",
+        "local_path": "/artworks/met-435765.jpg",
+        "sha256": "6ac843a4806c72a5b192867d00a95b136a5808a446ffff3ee0d3b47b67bf903a",
+        "byte_length": 114327,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API matching JPEG, complete image signature, verified byte length and SHA256; human review pending",
+        "source_accession_number": "1982.60.16"
+      },
+      "curation": {
+        "emotions": [
+          "悲しみ",
+          "希望"
+        ],
+        "emotion_strengths": {
+          "悲しみ": 2,
+          "希望": 1
+        },
+        "tones": [
+          "落ち着き",
+          "余韻"
+        ],
+        "themes": [
+          "愛情",
+          "別れ"
+        ],
+        "interpretation": "バウツの失われた原作をもとに工房が描いた版。Metは幼子の花に聖母の未来の悲嘆と天上の再会を読み取り、パノラマ景観は本版の特徴かもしれないと述べる。",
+        "alternate_reading": "工房制作を本人の自筆と混同しない。多重の画像があるなら作品全体との一致を確認。",
+        "source_context_note": "失われたバウツの原図に基づく工房作。子が持つカーネーションのような花が聖母の悲しみと天上の再会を象徴。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/435765",
+        "search_profile": {
+          "summary_for_ai": "バウツの失われた原作をもとに工房が描いた版。Metは幼子の花に聖母の未来の悲嘆と天上の再会を読み取り、パノラマ景観は本版の特徴かもしれないと述べる。",
+          "fitting_situations": [
+            {
+              "situation": "大切な人との未来の別れと再会を、一つの象徴から考えたい",
+              "reason": "Metは幼子の花が聖母の悲しみと天上での再会を二重に表すと説明する。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "工房制作を本人の自筆と混同しない。多重の画像があるなら作品全体との一致を確認。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "バウツの失われた原作をもとに工房が描いた版。Metは幼子の花に聖母の未来の悲嘆と天上の再会を読み取り、パノラマ景観は本版の特徴かもしれないと述べる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/435765"
+          },
+          "creation_context": "失われたバウツの原図に基づく工房作。子が持つカーネーションのような花が聖母の悲しみと天上の再会を象徴。",
+          "visual_clues": "幼子が持つナデシコ、聖母と子、工房版に特徴的な遠方の広い景観。",
+          "uncertainty_note": "工房制作を本人の自筆と混同しない。多重の画像があるなら作品全体との一致を確認。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "悲しみ"
+          ],
+          "secondary": [
+            "希望"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第14群暫定登録。公式作品ID・PDFLAG/JPEGハッシュ確認、筆者と画家の帰属を区別。感情タグ0件も新方針として許容。画像の人間による最終視認、解釈承認、公開権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-459070",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 459070,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/459070",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/459070",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Lamentation of Christ",
+        "title_ja_provisional": "キリストの哀悼",
+        "artist": "Simon Marmion",
+        "creation_date_display": "ca. 1473",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "France",
+        "accession_number": "1975.1.128"
+      },
+      "image": {
+        "image_id": "met-459070-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/rl/web-large/DP-19531-096.jpg",
+        "source_registry_id": "met-459070",
+        "local_path": "/artworks/met-459070.jpg",
+        "sha256": "255a415ac644d234891f12404db04b645e448760be78ed7ae963c5425609a8bc",
+        "byte_length": 135851,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API matching JPEG, complete image signature, verified byte length and SHA256; human review pending",
+        "source_accession_number": "1975.1.128"
+      },
+      "curation": {
+        "emotions": [
+          "悲しみ",
+          "慈しみ"
+        ],
+        "emotion_strengths": {
+          "悲しみ": 2,
+          "慈しみ": 1
+        },
+        "tones": [
+          "重苦しさ",
+          "静けさ"
+        ],
+        "themes": [
+          "別れ",
+          "愛情"
+        ],
+        "interpretation": "Metは母マリアの膝にあるキリストと静かな哀悼者、萎れたケシを死の象徴として説明。祈りと救済という宗教的意味もある。",
+        "alternate_reading": "遺体描写を含む。過去登録の同題作品と作者や構図が異なることを区別する。",
+        "source_context_note": "マルミオンの1473年頃の哀悼画。母の膝のキリストと静かな悲嘆、萎れたケシの花をMetが説明。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/459070",
+        "search_profile": {
+          "summary_for_ai": "Metは母マリアの膝にあるキリストと静かな哀悼者、萎れたケシを死の象徴として説明。祈りと救済という宗教的意味もある。",
+          "fitting_situations": [
+            {
+              "situation": "悲嘆を声ではなく静かな動作と象徴から受け取りたい",
+              "reason": "聖母が遺体を抱き、人物が静かに悲しみ、ケシが眠りと死を表す。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "遺体描写を含む。過去登録の同題作品と作者や構図が異なることを区別する。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは母マリアの膝にあるキリストと静かな哀悼者、萎れたケシを死の象徴として説明。祈りと救済という宗教的意味もある。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/459070"
+          },
+          "creation_context": "マルミオンの1473年頃の哀悼画。母の膝のキリストと静かな悲嘆、萎れたケシの花をMetが説明。",
+          "visual_clues": "聖母の膝に横たわるキリスト、遺体を支える人物、左の悲嘆者、萎れたケシの花。",
+          "uncertainty_note": "遺体描写を含む。過去登録の同題作品と作者や構図が異なることを区別する。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "悲しみ"
+          ],
+          "secondary": [
+            "慈しみ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第14群暫定登録。公式作品ID・PDFLAG/JPEGハッシュ確認、筆者と画家の帰属を区別。感情タグ0件も新方針として許容。画像の人間による最終視認、解釈承認、公開権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-437897",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437897,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437897",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437897",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Abraham's Parting from the Family of Lot",
+        "title_ja_provisional": "ロトの家族と別れるアブラハム",
+        "artist": "Jan Victors",
+        "creation_date_display": "ca. 1655–65",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Netherlandish",
+        "accession_number": "71.170"
+      },
+      "image": {
+        "image_id": "met-437897-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP143196.jpg",
+        "source_registry_id": "met-437897",
+        "local_path": "/artworks/met-437897.jpg",
+        "sha256": "8fcbc30cb609e0747f05382621e8f3d127d1c29ae4e51c900440d272cbd76a52",
+        "byte_length": 86692,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API matching JPEG, complete image signature, verified byte length and SHA256; human review pending",
+        "source_accession_number": "71.170"
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "落ち着き",
+          "余韻"
+        ],
+        "themes": [
+          "別れ",
+          "共同体"
+        ],
+        "interpretation": "Met所蔵のヤン・フィクトルスの油彩で、旧約聖書のアブラハムとロトの一族の別離を描く。個々の感情についての館の解説は限られる。",
+        "alternate_reading": "題名だけでは登場人物の未練を断定できず、根拠不足なら保留または0タグ。",
+        "source_context_note": "旧約聖書のアブラハムとロトの家族の別れという主題。Metの個別解説は少ないため内容に即して慎重に。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437897",
+        "search_profile": {
+          "summary_for_ai": "Met所蔵のヤン・フィクトルスの油彩で、旧約聖書のアブラハムとロトの一族の別離を描く。個々の感情についての館の解説は限られる。",
+          "fitting_situations": [
+            {
+              "situation": "旧約聖書の物語が17世紀オランダでどのように絵画化されたか学びたい",
+              "reason": "別れという出来事が題材だが、個別人物の未練や寂しさを十分に立証できないため0タグ。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "題名だけでは登場人物の未練を断定できず、根拠不足なら保留または0タグ。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met所蔵のヤン・フィクトルスの油彩で、旧約聖書のアブラハムとロトの一族の別離を描く。個々の感情についての館の解説は限られる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437897"
+          },
+          "creation_context": "旧約聖書のアブラハムとロトの家族の別れという主題。Metの個別解説は少ないため内容に即して慎重に。",
+          "visual_clues": "アブラハムとロトの家族の別離を描く人物の群像。",
+          "uncertainty_note": "題名だけでは登場人物の未練を断定できず、根拠不足なら保留または0タグ。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第14群暫定登録。公式作品ID・PDFLAG/JPEGハッシュ確認、筆者と画家の帰属を区別。感情タグ0件も新方針として許容。画像の人間による最終視認、解釈承認、公開権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-831188",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 831188,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/831188",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/831188",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Icon of the Virgin and Child, Hodegetria variant",
+        "title_ja_provisional": "道標の聖母子像（変奏）",
+        "artist": "Byzantine or Crusader",
+        "creation_date_display": "13th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Byzantine or Crusader",
+        "accession_number": "2020.401"
+      },
+      "image": {
+        "image_id": "met-831188-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/md/web-large/DP-22753-001.jpg",
+        "source_registry_id": "met-831188",
+        "local_path": "/artworks/met-831188.jpg",
+        "sha256": "a0a0984d9bea70051c44cfe4630fe79efb31d688dc3ad3f7ae4c58f5dc655591",
+        "byte_length": 214704,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API matching JPEG, complete image signature, verified byte length and SHA256; human review pending",
+        "source_accession_number": "2020.401"
+      },
+      "curation": {
+        "emotions": [
+          "慈しみ",
+          "悲しみ"
+        ],
+        "emotion_strengths": {
+          "慈しみ": 2,
+          "悲しみ": 1
+        },
+        "tones": [
+          "落ち着き",
+          "余韻"
+        ],
+        "themes": [
+          "愛情",
+          "時間"
+        ],
+        "interpretation": "Metによればホデゲトリアとエレウサの図像が交わる東西の宗教的交流を示す板絵で、母の慈愛と将来の受難への予感がある。",
+        "alternate_reading": "形式は板絵だがIconの分類。個別にPDと画像を確認する。",
+        "source_context_note": "東西の文化が交わる13世紀の聖母子。幼子の姿勢と聖母の目線に母のいたわりと未来の受難の予感をMetが解説。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/831188",
+        "search_profile": {
+          "summary_for_ai": "Metによればホデゲトリアとエレウサの図像が交わる東西の宗教的交流を示す板絵で、母の慈愛と将来の受難への予感がある。",
+          "fitting_situations": [
+            {
+              "situation": "育む気持ちと避けられない未来への憂いの両方を考えたい",
+              "reason": "Metは聖母の養育の姿と、息子の受難を予見する目線を関連づける。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "形式は板絵だがIconの分類。個別にPDと画像を確認する。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metによればホデゲトリアとエレウサの図像が交わる東西の宗教的交流を示す板絵で、母の慈愛と将来の受難への予感がある。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/831188"
+          },
+          "creation_context": "東西の文化が交わる13世紀の聖母子。幼子の姿勢と聖母の目線に母のいたわりと未来の受難の予感をMetが解説。",
+          "visual_clues": "聖母が幼子を示す手の動き、内省的な目線、顔を上げるキリストの姿。",
+          "uncertainty_note": "形式は板絵だがIconの分類。個別にPDと画像を確認する。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "慈しみ"
+          ],
+          "secondary": [
+            "悲しみ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第14群暫定登録。公式作品ID・PDFLAG/JPEGハッシュ確認、筆者と画家の帰属を区別。感情タグ0件も新方針として許容。画像の人間による最終視認、解釈承認、公開権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-435673",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 435673,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/435673",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435673",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Outer Harbor of Brest",
+        "title_ja_provisional": "ブレスト外港",
+        "artist": "Henri Joseph van Blarenberghe",
+        "creation_date_display": "1773",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "France",
+        "accession_number": "1978.493"
+      },
+      "image": {
+        "image_id": "met-435673-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP316906.jpg",
+        "source_registry_id": "met-435673",
+        "local_path": "/artworks/met-435673.jpg",
+        "sha256": "c9bdc8840b56701131d8daf1ed4cf5af69b98baada43d7bbb34999b05547c117",
+        "byte_length": 57068,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API matching JPEG, complete image signature, verified byte length and SHA256; human review pending",
+        "source_accession_number": "1978.493"
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "にぎわい",
+          "余韻"
+        ],
+        "themes": [
+          "都市",
+          "共同体",
+          "時間"
+        ],
+        "interpretation": "Metはフランス国家の港湾記録事業の一環とし、赤服の囚人労働者が植民地航路の船の準備を行う場面を説明する。",
+        "alternate_reading": "画面の美しさを植民地主義や囚人労働と切り離さず、無理に感情タグを付けない。",
+        "source_context_note": "フランスの国家的な港湾事業を記録した作品。赤い囚人服を着る者たちがインド洋植民地へ向かう軍艦の支度をしている。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/435673",
+        "search_profile": {
+          "summary_for_ai": "Metはフランス国家の港湾記録事業の一環とし、赤服の囚人労働者が植民地航路の船の準備を行う場面を説明する。",
+          "fitting_situations": [
+            {
+              "situation": "港の発展を描く絵の背後に、誰の労働があったのかを知りたい",
+              "reason": "Metは囚人労働と植民地の奴隷制に依存した貿易まで解説するが、感情タグへの一律の接続は避ける。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "画面の美しさを植民地主義や囚人労働と切り離さず、無理に感情タグを付けない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metはフランス国家の港湾記録事業の一環とし、赤服の囚人労働者が植民地航路の船の準備を行う場面を説明する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/435673"
+          },
+          "creation_context": "フランスの国家的な港湾事業を記録した作品。赤い囚人服を着る者たちがインド洋植民地へ向かう軍艦の支度をしている。",
+          "visual_clues": "ブレスト港の船、軍港施設、赤い囚人服で働く人々。",
+          "uncertainty_note": "画面の美しさを植民地主義や囚人労働と切り離さず、無理に感情タグを付けない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第14群暫定登録。公式作品ID・PDFLAG/JPEGハッシュ確認、筆者と画家の帰属を区別。感情タグ0件も新方針として許容。画像の人間による最終視認、解釈承認、公開権利審査は未了。"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-18",
