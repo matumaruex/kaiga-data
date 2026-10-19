@@ -35,7 +35,7 @@ def lookup(item):
     dept,q=item
     query=urllib.parse.urlencode({"hasImages":"true","departmentId":dept,"q":q})
     try:
-        payload=get_json(f"{api}/search?{query}")
+        payload=get_json(f"https://collectionapi.metmuseum.org/public/collection/v1.1/search?{query}")
         return (item,(payload.get("objectIDs") or [])[:12])
     except Exception as exc:
         return (item,{"error":str(exc)[:150]})
