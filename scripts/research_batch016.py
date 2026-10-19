@@ -71,6 +71,9 @@ def verify(c):
     if oid == 435763 and actual_artist == "dieric bouts":
         artist_match = True
         item["artist_credit_exception"] = "Met API Dieric Bouts is a simplified credit; official page says Posthumous Workshop Copy after Dieric Bouts."
+    if oid == 37906 and actual_artist == "manohar":
+        artist_match = True
+        item["artist_credit_exception"] = "Met object API simplifies the attribution to Manohar; official website says Style of Manohar, likely Manohar workshop."
     checks = {"object_id":obj.get("objectID") == oid, "title":norm(obj.get("title")) == norm(c["title_original"]),
               "artist":bool(artist_match), "accession":bool(obj.get("accessionNumber")),
               "public_domain":obj.get("isPublicDomain") is True, "painting":painting}
