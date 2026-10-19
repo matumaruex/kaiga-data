@@ -3666,17 +3666,11 @@
         "source_accession_number": "1922.434"
       },
       "curation": {
-        "emotions": [
-          "期待"
-        ],
-        "emotion_strengths": {
-          "期待": 1
-        },
+        "emotions": [],
+        "emotion_strengths": {},
         "emotion_categories": {
           "primary": [],
-          "secondary": [
-            "期待"
-          ]
+          "secondary": []
         },
         "tones": [
           "にぎわい",
@@ -3705,16 +3699,17 @@
         "source_context_note": "1893年に画家がホテルの窓から大通りを描いた作品。同年の手紙には具体的な制作計画や作品への言及が残る。",
         "evidence_url": "https://publications.artic.edu/pissarro/reader/paintingsandpaper/section/25",
         "search_profile": {
-          "summary_for_ai": "1893年に画家がホテルの窓から大通りを描いた作品。同年の手紙には具体的な制作計画や作品への言及が残る。",
+          "summary_for_ai": "1893年のピサロの都市風景。ホテルの窓から見下ろしたアーヴル広場に歩行者と馬車が行き交う。作者の都市風景への関心と手紙は記録されるが、画面に期待の感情があるとは断定しない。",
           "fitting_situations": [
             {
-              "situation": "人や馬車が行き交う街の動きを眺めたい",
-              "reason": "賑わう大通りから期待への弱い連想ができる",
+              "situation": "街路を行き交う人々や馬車を、窓から見下ろす視点に触れたい",
+              "reason": "ピサロは都市交通と時間の変化を描いているが、そこで将来への期待という感情を想定する必要はない",
               "strength": 1
             }
           ],
           "selection_cautions": [
-            "作者が都会の孤独や喜びを表したと断定しない。近代都市の描写と本人の制作計画の記録を区別する。"
+            "作者が都会の孤独や喜びを表したと断定しない。近代都市の描写と本人の制作計画の記録を区別する。",
+            "通行人と馬車の移動だけでは、今後の出来事を待ち望む『期待』の作品固有の根拠として弱い。"
           ],
           "review_status": "draft_not_human_approved"
         }
@@ -3726,7 +3721,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "公式AIC APIの所蔵番号・分類・PDフラグ・画像IDを照合し、Commonsファイルページで所蔵番号の一致・JPEG SHA256を確認。直接的な作者発言は制作意図として独立記録、解釈はAI編集上の暫定。展示体験は100作品前後から。 2026-10-19：15感情で好奇心タグを再評価。原典と全画像の再検証は未実施。"
+        "curatorial_review_note": "公式AIC APIの所蔵番号・分類・PDフラグ・画像IDを照合し、Commonsファイルページで所蔵番号の一致・JPEG SHA256を確認。直接的な作者発言は制作意図として独立記録、解釈はAI編集上の暫定。展示体験は100作品前後から。 2026-10-19：15感情で好奇心タグを再評価。原典と全画像の再検証は未実施。 2026-10-19期待タグ15作品を見直し：通行人と馬車の移動だけでは、今後の出来事を待ち望む『期待』の作品固有の根拠として弱い。"
       }
     },
     {
@@ -5128,12 +5123,10 @@
       },
       "curation": {
         "emotions": [
-          "喜び",
-          "期待"
+          "喜び"
         ],
         "emotion_strengths": {
-          "喜び": 2,
-          "期待": 1
+          "喜び": 2
         },
         "tones": [
           "にぎわい",
@@ -5151,13 +5144,14 @@
           "summary_for_ai": "武家屋敷で笛・鼓・三味線に合わせて踊る風流踊。江戸時代の祭礼や私的集まりで楽しまれた流行の踊りを描く。 踊りの文化的な楽しさが主題。個々の人物の内心や作者の高揚を断言しない。",
           "fitting_situations": [
             {
-              "situation": "人とともに喜びや高揚を分かち合う場面を見たい",
-              "reason": "祭りや集まりで流行の踊りを楽しむ場面が絵画の主要主題となっている。",
+              "situation": "音楽に合わせて人々が踊る祝祭の活気に触れたい",
+              "reason": "楽器と踊る人々が同じ場面に描かれ、共同で楽しむ喜びを主感情にできる",
               "strength": 2
             }
           ],
           "selection_cautions": [
-            "踊りの文化的な楽しさが主題。個々の人物の内心や作者の高揚を断言しない。"
+            "踊りの文化的な楽しさが主題。個々の人物の内心や作者の高揚を断言しない。",
+            "祭りの踊りは現在進行しており、期待する出来事を待つ場面ではない。祝祭の喜びは残す。"
           ],
           "review_status": "draft_not_human_approved"
         },
@@ -5179,9 +5173,7 @@
           "primary": [
             "喜び"
           ],
-          "secondary": [
-            "期待"
-          ]
+          "secondary": []
         }
       },
       "review": {
@@ -5189,9 +5181,9 @@
         "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
-        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第7群。Met公式APIとprimary JPEGをGitHub Actionsで実取得しSHA256照合。作者発言/物語主題/鑑賞タグを別扱い。画像の人間による視認、展示用の最終編集と公開確認は未了。"
+        "curatorial_review_note": "第7群。Met公式APIとprimary JPEGをGitHub Actionsで実取得しSHA256照合。作者発言/物語主題/鑑賞タグを別扱い。画像の人間による視認、展示用の最終編集と公開確認は未了。 2026-10-19期待タグ15作品を見直し：祭りの踊りは現在進行しており、期待する出来事を待つ場面ではない。祝祭の喜びは残す。"
       }
     },
     {
