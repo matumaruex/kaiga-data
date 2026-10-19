@@ -11634,6 +11634,890 @@
         "curatorial_review_status": "provisional",
         "curatorial_review_note": "第12群暫定登録。Met公式APIとオープンJPEGを同一作品IDで直接検証、作者の言葉・館の読解・鑑賞者の接点を区別。公開前の人間の画像目視、内容審査と法的審査は未完了。"
       }
+    },
+    {
+      "id": "met-906843",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 906843,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/906843",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/906843",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Kannon by a Lotus Pond",
+        "title_ja_provisional": "蓮池観音",
+        "artist": "Hakuin Ekaku",
+        "creation_date_display": "1750s",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2025.91"
+      },
+      "image": {
+        "image_id": "met-906843-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-34239-002.jpg",
+        "source_registry_id": "met-906843",
+        "local_path": "/artworks/met-906843.jpg",
+        "sha256": "f847cadaf7188c985c3f825fb4b5f858e894fbdeb50d22b8c140f367869e9d25",
+        "byte_length": 94340,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primary JPEG HTTP, complete file signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "2025.91"
+      },
+      "curation": {
+        "emotions": [
+          "慈しみ"
+        ],
+        "emotion_strengths": {
+          "慈しみ": 3
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "愛情",
+          "共同体"
+        ],
+        "interpretation": "Metは画賛『慈悲をよろづの本とせよ』を紹介し、同趣旨が1754年頃の白隠の書簡に見えると説明。慈悲の教えは貧民への増税を非難する社会的倫理にも通じる。",
+        "alternate_reading": "作品自身にある言葉だが、その語句の厳密な典拠はMetも要調査としている。観音の慈悲を鑑賞者の感情そのものと断定しない。",
+        "source_context_note": "江戸時代1750年代に白隠慧鶴が描いた観音像。水月観音の伝統に蓮池・白衣・月輪・柳枝と日本語の画賛を組み合わせた。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/906843",
+        "search_profile": {
+          "summary_for_ai": "Metは画賛『慈悲をよろづの本とせよ』を紹介し、同趣旨が1754年頃の白隠の書簡に見えると説明。慈悲の教えは貧民への増税を非難する社会的倫理にも通じる。 作品自身にある言葉だが、その語句の厳密な典拠はMetも要調査としている。観音の慈悲を鑑賞者の感情そのものと断定しない。",
+          "fitting_situations": [
+            {
+              "situation": "苦しむ人を気遣うことの意味を深めたい",
+              "reason": "白隠自身が本作の画賛で慈悲を根本に置く教えを書いている。",
+              "strength": 3
+            }
+          ],
+          "selection_cautions": [
+            "作品自身にある言葉だが、その語句の厳密な典拠はMetも要調査としている。観音の慈悲を鑑賞者の感情そのものと断定しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "direct_for_this_work",
+            "summary": "本作品の日本語画賛に『慈悲をよろづの本とせよ』と白隠本人が記す。Metによる翻刻で、句の原典はなお研究途上。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/906843"
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは画賛『慈悲をよろづの本とせよ』を紹介し、同趣旨が1754年頃の白隠の書簡に見えると説明。慈悲の教えは貧民への増税を非難する社会的倫理にも通じる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/906843"
+          },
+          "creation_context": "江戸時代1750年代に白隠慧鶴が描いた観音像。水月観音の伝統に蓮池・白衣・月輪・柳枝と日本語の画賛を組み合わせた。",
+          "visual_clues": "蓮池に面する観音、大きな月輪、柳の枝、二列の墨書きの画賛。",
+          "uncertainty_note": "作品自身にある言葉だが、その語句の厳密な典拠はMetも要調査としている。観音の慈悲を鑑賞者の感情そのものと断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "慈しみ"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第13群暫定登録。Met公式APIと原JPEG実取得・SHA256を検証。タグは作品固有の主題・表現への暫定的な接点であり、人間の視認・解釈承認と公開前の権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-41475",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 41475,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/41475",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/41475",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Guanyin the Bringer of Sons",
+        "title_ja_provisional": "送子観音図",
+        "artist": "Unidentified artist",
+        "creation_date_display": "late 16th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "China",
+        "accession_number": "1989.152"
+      },
+      "image": {
+        "image_id": "met-41475-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-18091-002.jpg",
+        "source_registry_id": "met-41475",
+        "local_path": "/artworks/met-41475.jpg",
+        "sha256": "69c634bbef88806a8539769e9525297524162db7a606615560967334c7ead077",
+        "byte_length": 103806,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primary JPEG HTTP, complete file signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "1989.152"
+      },
+      "curation": {
+        "emotions": [
+          "慈しみ",
+          "希望"
+        ],
+        "emotion_strengths": {
+          "慈しみ": 3,
+          "希望": 1
+        },
+        "tones": [
+          "落ち着き",
+          "余韻"
+        ],
+        "themes": [
+          "愛情",
+          "共同体"
+        ],
+        "interpretation": "Metは観音を慈悲の菩薩とし、雲から獅子に乗って降り、赤子を抱き、善財童子が礼拝する像として解説する。",
+        "alternate_reading": "男児や身分への願いを現代の一般的な幸せと同一視しない。作者個人の慈愛の感情は不明。",
+        "source_context_note": "16世紀末・中国明代の宗教画。子を授ける観音の図像が、男児や将来の高い官位を願う当時の習俗と関係する。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/41475",
+        "search_profile": {
+          "summary_for_ai": "Metは観音を慈悲の菩薩とし、雲から獅子に乗って降り、赤子を抱き、善財童子が礼拝する像として解説する。 男児や身分への願いを現代の一般的な幸せと同一視しない。作者個人の慈愛の感情は不明。",
+          "fitting_situations": [
+            {
+              "situation": "幼い人やこれから生まれる命を守りたいという思いに触れたい",
+              "reason": "腕に赤子を抱く観音の構図と子授けの宗教的主題がある。",
+              "strength": 3
+            }
+          ],
+          "selection_cautions": [
+            "男児や身分への願いを現代の一般的な幸せと同一視しない。作者個人の慈愛の感情は不明。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは観音を慈悲の菩薩とし、雲から獅子に乗って降り、赤子を抱き、善財童子が礼拝する像として解説する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/41475"
+          },
+          "creation_context": "16世紀末・中国明代の宗教画。子を授ける観音の図像が、男児や将来の高い官位を願う当時の習俗と関係する。",
+          "visual_clues": "獅子上の観音の腕に抱かれた赤子、下で礼拝する子ども、位階を示す帯や印章。",
+          "uncertainty_note": "男児や身分への願いを現代の一般的な幸せと同一視しない。作者個人の慈愛の感情は不明。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "慈しみ"
+          ],
+          "secondary": [
+            "希望"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第13群暫定登録。Met公式APIと原JPEG実取得・SHA256を検証。タグは作品固有の主題・表現への暫定的な接点であり、人間の視認・解釈承認と公開前の権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-10497",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 10497,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/10497",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/10497",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "View from Mount Holyoke, Northampton, Massachusetts, after a Thunderstorm—The Oxbow",
+        "title_ja_provisional": "嵐の後のホリヨーク山からの眺め（オックスボウ）",
+        "artist": "Thomas Cole",
+        "creation_date_display": "1836",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "United States",
+        "accession_number": "08.228"
+      },
+      "image": {
+        "image_id": "met-10497-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-12550-001.jpg",
+        "source_registry_id": "met-10497",
+        "local_path": "/artworks/met-10497.jpg",
+        "sha256": "917a5ac37897c7d10bbe2116cc1ababa7f6cff94e1a85eec4f4f243a2aa1fc06",
+        "byte_length": 97058,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primary JPEG HTTP, complete file signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "08.228"
+      },
+      "curation": {
+        "emotions": [
+          "畏敬",
+          "不安"
+        ],
+        "emotion_strengths": {
+          "畏敬": 3,
+          "不安": 1
+        },
+        "tones": [
+          "緊張",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "interpretation": "Metは嵐の暗雲と耕地の対照を、米国の将来への希望とも自然保護の訴えとも読める構成として示し、欧米人入植が先住民の土地を侵食した観点も紹介する。",
+        "alternate_reading": "『無人の荒野』という表現は先住民の存在を消しかねない。自然への畏敬は鑑賞の入口であり、作者本人の明言ではない。",
+        "source_context_note": "1836年のハドソン・リバー派の風景画。嵐の森林と陽光の射す農地を対置し、コネチカット川の蛇行を描く。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/10497",
+        "search_profile": {
+          "summary_for_ai": "Metは嵐の暗雲と耕地の対照を、米国の将来への希望とも自然保護の訴えとも読める構成として示し、欧米人入植が先住民の土地を侵食した観点も紹介する。 『無人の荒野』という表現は先住民の存在を消しかねない。自然への畏敬は鑑賞の入口であり、作者本人の明言ではない。",
+          "fitting_situations": [
+            {
+              "situation": "自然の力に圧倒されながら人間の土地利用についても考えたい",
+              "reason": "激しい雷雲・森林と晴れた耕地を巨大な景観の左右に対置している。",
+              "strength": 3
+            }
+          ],
+          "selection_cautions": [
+            "『無人の荒野』という表現は先住民の存在を消しかねない。自然への畏敬は鑑賞の入口であり、作者本人の明言ではない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは嵐の暗雲と耕地の対照を、米国の将来への希望とも自然保護の訴えとも読める構成として示し、欧米人入植が先住民の土地を侵食した観点も紹介する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/10497"
+          },
+          "creation_context": "1836年のハドソン・リバー派の風景画。嵐の森林と陽光の射す農地を対置し、コネチカット川の蛇行を描く。",
+          "visual_clues": "左の黒い雨雲と折れた樹木、右の明るい農地と川、大景観の中のごく小さな画家像。",
+          "uncertainty_note": "『無人の荒野』という表現は先住民の存在を消しかねない。自然への畏敬は鑑賞の入口であり、作者本人の明言ではない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "畏敬"
+          ],
+          "secondary": [
+            "不安"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第13群暫定登録。Met公式APIと原JPEG実取得・SHA256を検証。タグは作品固有の主題・表現への暫定的な接点であり、人間の視認・解釈承認と公開前の権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-10480",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 10480,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/10480",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/10480",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Aegean Sea",
+        "title_ja_provisional": "エーゲ海",
+        "artist": "Frederic Edwin Church",
+        "creation_date_display": "ca. 1877",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "United States",
+        "accession_number": "02.23"
+      },
+      "image": {
+        "image_id": "met-10480-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/ap02.23.jpg",
+        "source_registry_id": "met-10480",
+        "local_path": "/artworks/met-10480.jpg",
+        "sha256": "4af423882d684c4ba45a1f226e835a2f7e80841cee92e5c5cf88dda3b49b9b92",
+        "byte_length": 47481,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primary JPEG HTTP, complete file signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "02.23"
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 2
+        },
+        "tones": [
+          "高揚",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "interpretation": "Metは古代・聖書の諸遺跡を結び付けた風景が、新しい科学の発展に直面するチャーチの宗教的信念を支えたと解説する。",
+        "alternate_reading": "実在する同一の景観を写した絵ではない。歴史への畏敬を感じることと、作者の宗教的な信念に同意することは別。",
+        "source_context_note": "チャーチが1867〜69年の旅行をもとに、ヨルダンのペトラ、シリアの遺跡、ギリシアのアクロポリス、イスタンブールを想起させる建物を想像的に組み合わせた大風景。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/10480",
+        "search_profile": {
+          "summary_for_ai": "Metは古代・聖書の諸遺跡を結び付けた風景が、新しい科学の発展に直面するチャーチの宗教的信念を支えたと解説する。 実在する同一の景観を写した絵ではない。歴史への畏敬を感じることと、作者の宗教的な信念に同意することは別。",
+          "fitting_situations": [
+            {
+              "situation": "自然と長い歴史に自分の小ささを感じたい",
+              "reason": "異なる文明の遺跡を大きな自然風景の中に統合している。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "実在する同一の景観を写した絵ではない。歴史への畏敬を感じることと、作者の宗教的な信念に同意することは別。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは古代・聖書の諸遺跡を結び付けた風景が、新しい科学の発展に直面するチャーチの宗教的信念を支えたと解説する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/10480"
+          },
+          "creation_context": "チャーチが1867〜69年の旅行をもとに、ヨルダンのペトラ、シリアの遺跡、ギリシアのアクロポリス、イスタンブールを想起させる建物を想像的に組み合わせた大風景。",
+          "visual_clues": "虹、海と岩山、光に包まれた空、画面各所に異なる土地に由来する古代遺跡。",
+          "uncertainty_note": "実在する同一の景観を写した絵ではない。歴史への畏敬を感じることと、作者の宗教的な信念に同意することは別。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "畏敬"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第13群暫定登録。Met公式APIと原JPEG実取得・SHA256を検証。タグは作品固有の主題・表現への暫定的な接点であり、人間の視認・解釈承認と公開前の権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-10946",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 10946,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/10946",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/10946",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "A Gorge in the Mountains (Kauterskill Clove)",
+        "title_ja_provisional": "山間の峡谷（カータースキル・クローヴ）",
+        "artist": "Sanford Robinson Gifford",
+        "creation_date_display": "1862",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "United States",
+        "accession_number": "15.30.62"
+      },
+      "image": {
+        "image_id": "met-10946-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT81.jpg",
+        "source_registry_id": "met-10946",
+        "local_path": "/artworks/met-10946.jpg",
+        "sha256": "d62982654bc5ef1e2fa71445b4d1ac81db98d89f46e9997709d83a236218992b",
+        "byte_length": 73921,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primary JPEG HTTP, complete file signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "15.30.62"
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 2
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "interpretation": "Metは切り立つ峡谷に陽光を満たし、従来の画家が恐ろしさを誇張した同地の崇高な表現とは異なると指摘する。崖の下には小さな人物と犬がいる。",
+        "alternate_reading": "畏敬は地形の規模と人の小ささからの暫定的な接点。『恐ろしい自然』と断定すると作品の光に満ちた特徴を損なう。",
+        "source_context_note": "1862年のカータースキル渓谷。ギフォードは観光客の痕跡を減らし、滝や谷を光の中に描き出した。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/10946",
+        "search_profile": {
+          "summary_for_ai": "Metは切り立つ峡谷に陽光を満たし、従来の画家が恐ろしさを誇張した同地の崇高な表現とは異なると指摘する。崖の下には小さな人物と犬がいる。 畏敬は地形の規模と人の小ささからの暫定的な接点。『恐ろしい自然』と断定すると作品の光に満ちた特徴を損なう。",
+          "fitting_situations": [
+            {
+              "situation": "恐怖よりも大地の大きさそのものを感じたい",
+              "reason": "巨大な峡谷と光の中に小さな人物を配する構図がある。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "畏敬は地形の規模と人の小ささからの暫定的な接点。『恐ろしい自然』と断定すると作品の光に満ちた特徴を損なう。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは切り立つ峡谷に陽光を満たし、従来の画家が恐ろしさを誇張した同地の崇高な表現とは異なると指摘する。崖の下には小さな人物と犬がいる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/10946"
+          },
+          "creation_context": "1862年のカータースキル渓谷。ギフォードは観光客の痕跡を減らし、滝や谷を光の中に描き出した。",
+          "visual_clues": "眩い峡谷の光、広い山肌、左下の小さな人と犬、遠景の滝。",
+          "uncertainty_note": "畏敬は地形の規模と人の小ささからの暫定的な接点。『恐ろしい自然』と断定すると作品の光に満ちた特徴を損なう。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "畏敬"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第13群暫定登録。Met公式APIと原JPEG実取得・SHA256を検証。タグは作品固有の主題・表現への暫定的な接点であり、人間の視認・解釈承認と公開前の権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-435838",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 435838,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/435838",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435838",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Virgin and Child in an Apse",
+        "title_ja_provisional": "後陣の聖母子",
+        "artist": "Copy after Robert Campin",
+        "creation_date_display": "ca. 1480 (Met public catalogue)",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Netherlandish",
+        "accession_number": "05.39.2"
+      },
+      "image": {
+        "image_id": "met-435838-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-41688-001.jpg",
+        "source_registry_id": "met-435838",
+        "local_path": "/artworks/met-435838.jpg",
+        "sha256": "b37cab886a39c21a1bc125c14937e45725c3fee6f9f219078eec94b7506cdf32",
+        "byte_length": 115403,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primary JPEG HTTP, complete file signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "05.39.2"
+      },
+      "curation": {
+        "emotions": [
+          "慈しみ"
+        ],
+        "emotion_strengths": {
+          "慈しみ": 2
+        },
+        "tones": [
+          "落ち着き",
+          "余韻"
+        ],
+        "themes": [
+          "愛情",
+          "共同体"
+        ],
+        "interpretation": "Metは、聖母の下向きの眼差しと幼子が母へ伸ばす手が生む自然で親密な母子関係を重要な特徴として説明する。",
+        "alternate_reading": "Met API作者名はRobert Campinだが館ページはCopy after Robert Campin。原作は失われ本作をカンピンの自筆としない。年代はAPI空欄のため館ページのca. 1480を採用。",
+        "source_context_note": "1420年頃のカンピンの失われた原画に基づく、15世紀ネーデルラントの複製作品。ビザンティンの授乳聖母の図像を継承した。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/435838",
+        "search_profile": {
+          "summary_for_ai": "Metは、聖母の下向きの眼差しと幼子が母へ伸ばす手が生む自然で親密な母子関係を重要な特徴として説明する。 Met API作者名はRobert Campinだが館ページはCopy after Robert Campin。原作は失われ本作をカンピンの自筆としない。年代はAPI空欄のため館ページのca. 1480を採用。",
+          "fitting_situations": [
+            {
+              "situation": "身近な相手を思うまなざしや小さな手の動きを見つめたい",
+              "reason": "母の視線と子が手を伸ばす描写に具体的な親密さがある。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "Met API作者名はRobert Campinだが館ページはCopy after Robert Campin。原作は失われ本作をカンピンの自筆としない。年代はAPI空欄のため館ページのca. 1480を採用。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは、聖母の下向きの眼差しと幼子が母へ伸ばす手が生む自然で親密な母子関係を重要な特徴として説明する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/435838"
+          },
+          "creation_context": "1420年頃のカンピンの失われた原画に基づく、15世紀ネーデルラントの複製作品。ビザンティンの授乳聖母の図像を継承した。",
+          "visual_clues": "見下ろす聖母、母へ手を伸ばす幼子、周囲の奏楽の天使と礼拝堂の後陣。",
+          "uncertainty_note": "Met API作者名はRobert Campinだが館ページはCopy after Robert Campin。原作は失われ本作をカンピンの自筆としない。年代はAPI空欄のため館ページのca. 1480を採用。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "慈しみ"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第13群暫定登録。Met公式APIと原JPEG実取得・SHA256を検証。タグは作品固有の主題・表現への暫定的な接点であり、人間の視認・解釈承認と公開前の権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-438754",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 438754,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/438754",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/438754",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Madonna and Child",
+        "title_ja_provisional": "聖母子",
+        "artist": "Duccio di Buoninsegna",
+        "creation_date_display": "ca. 1290–1300",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Italy",
+        "accession_number": "2004.442"
+      },
+      "image": {
+        "image_id": "met-438754-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP142735.jpg",
+        "source_registry_id": "met-438754",
+        "local_path": "/artworks/met-438754.jpg",
+        "sha256": "4bd0a518c5b579ffaee9bfc6e8a5cd4bfe56a2dcdfa99f0c4a5b8dd68b54a0f2",
+        "byte_length": 132086,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primary JPEG HTTP, complete file signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "2004.442"
+      },
+      "curation": {
+        "emotions": [
+          "慈しみ",
+          "悲しみ"
+        ],
+        "emotion_strengths": {
+          "慈しみ": 2,
+          "悲しみ": 1
+        },
+        "tones": [
+          "落ち着き",
+          "余韻"
+        ],
+        "themes": [
+          "愛情",
+          "別れ"
+        ],
+        "interpretation": "Metは子が聖母のベールに触れる身ぶりと母子の親しさに注目し、キリスト教の受難への将来的な悲しみの含意も解説する。",
+        "alternate_reading": "悲しみは将来の受難という宗教的含意の弱い連想。画家の個人的死別の証拠ではない。",
+        "source_context_note": "1300年頃のドゥッチョによる小型の聖母子の板絵。ビザンティンの図像を自然な母子の仕草に接近させた。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/438754",
+        "search_profile": {
+          "summary_for_ai": "Metは子が聖母のベールに触れる身ぶりと母子の親しさに注目し、キリスト教の受難への将来的な悲しみの含意も解説する。 悲しみは将来の受難という宗教的含意の弱い連想。画家の個人的死別の証拠ではない。",
+          "fitting_situations": [
+            {
+              "situation": "親しい人を慈しむ気持ちと、その人の未来を案じる気持ちが重なる",
+              "reason": "子が母のベールに触れる親密なしぐさが具体的に描かれる。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "悲しみは将来の受難という宗教的含意の弱い連想。画家の個人的死別の証拠ではない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは子が聖母のベールに触れる身ぶりと母子の親しさに注目し、キリスト教の受難への将来的な悲しみの含意も解説する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/438754"
+          },
+          "creation_context": "1300年頃のドゥッチョによる小型の聖母子の板絵。ビザンティンの図像を自然な母子の仕草に接近させた。",
+          "visual_clues": "ベールに触れる幼子の手、近づく二人の顔、金色の背景と小さなパネル。",
+          "uncertainty_note": "悲しみは将来の受難という宗教的含意の弱い連想。画家の個人的死別の証拠ではない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "慈しみ"
+          ],
+          "secondary": [
+            "悲しみ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第13群暫定登録。Met公式APIと原JPEG実取得・SHA256を検証。タグは作品固有の主題・表現への暫定的な接点であり、人間の視認・解釈承認と公開前の権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-437023",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437023,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437023",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437023",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Madonna and Child Enthroned with Angels",
+        "title_ja_provisional": "天使を伴う玉座の聖母子",
+        "artist": "Master of Varlungo",
+        "creation_date_display": "ca. 1290 (Met public catalogue)",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Italy",
+        "accession_number": "49.39"
+      },
+      "image": {
+        "image_id": "met-437023-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT242200.jpg",
+        "source_registry_id": "met-437023",
+        "local_path": "/artworks/met-437023.jpg",
+        "sha256": "94f447083119dfab5a48f21359aa87f5886be861dcee55260ea4c10e72d27d0c",
+        "byte_length": 112749,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primary JPEG HTTP, complete file signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "49.39"
+      },
+      "curation": {
+        "emotions": [
+          "慈しみ",
+          "悲しみ"
+        ],
+        "emotion_strengths": {
+          "慈しみ": 2,
+          "悲しみ": 1
+        },
+        "tones": [
+          "余韻",
+          "落ち着き"
+        ],
+        "themes": [
+          "愛情",
+          "時間"
+        ],
+        "interpretation": "Metは美術史家ハンス・ベルティングの『子どもが母を憂鬱から気をそらそうとするかのよう』という読解を紹介し、この身ぶりが愛の図像から宗教図像へ移されたと述べる。",
+        "alternate_reading": "『かのように』は専門家による仮説であって画家本人の発言ではない。API制作年空欄のためMet本文の『about 1290』を利用。",
+        "source_context_note": "約1290年にフィレンツェで描かれた銀地の祭壇画。チマブーエ派の画家による聖母子の図像。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437023",
+        "search_profile": {
+          "summary_for_ai": "Metは美術史家ハンス・ベルティングの『子どもが母を憂鬱から気をそらそうとするかのよう』という読解を紹介し、この身ぶりが愛の図像から宗教図像へ移されたと述べる。 『かのように』は専門家による仮説であって画家本人の発言ではない。API制作年空欄のためMet本文の『about 1290』を利用。",
+          "fitting_situations": [
+            {
+              "situation": "相手が沈んでいるときに、そっと気持ちを向けることを考えたい",
+              "reason": "幼子が母を慰めるような仕草が具体的な研究解釈にある。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "『かのように』は専門家による仮説であって画家本人の発言ではない。API制作年空欄のためMet本文の『about 1290』を利用。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは美術史家ハンス・ベルティングの『子どもが母を憂鬱から気をそらそうとするかのよう』という読解を紹介し、この身ぶりが愛の図像から宗教図像へ移されたと述べる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437023"
+          },
+          "creation_context": "約1290年にフィレンツェで描かれた銀地の祭壇画。チマブーエ派の画家による聖母子の図像。",
+          "visual_clues": "子どもが聖母に働きかけるしぐさ、玉座、天使、銀色の背景。",
+          "uncertainty_note": "『かのように』は専門家による仮説であって画家本人の発言ではない。API制作年空欄のためMet本文の『about 1290』を利用。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "慈しみ"
+          ],
+          "secondary": [
+            "悲しみ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第13群暫定登録。Met公式APIと原JPEG実取得・SHA256を検証。タグは作品固有の主題・表現への暫定的な接点であり、人間の視認・解釈承認と公開前の権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-438427",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 438427,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/438427",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/438427",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Lamentation",
+        "title_ja_provisional": "哀悼",
+        "artist": "Ludovico Carracci",
+        "creation_date_display": "ca. 1582",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Italy",
+        "accession_number": "2000.68"
+      },
+      "image": {
+        "image_id": "met-438427-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26972-001.jpg",
+        "source_registry_id": "met-438427",
+        "local_path": "/artworks/met-438427.jpg",
+        "sha256": "cb8a9bf2325db9cba255ac242400f9919fa4e8c1550800e00deca438355456ea",
+        "byte_length": 73891,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primary JPEG HTTP, complete file signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "2000.68"
+      },
+      "curation": {
+        "emotions": [
+          "悲しみ",
+          "慈しみ"
+        ],
+        "emotion_strengths": {
+          "悲しみ": 3,
+          "慈しみ": 1
+        },
+        "tones": [
+          "重苦しさ",
+          "余韻"
+        ],
+        "themes": [
+          "別れ",
+          "愛情"
+        ],
+        "interpretation": "Metは頭を大きく反らす聖母の悲嘆の姿勢、理想化を避けたキリストの身体表現、3枚の古い食卓布をつないだ画布の使用を論じる。",
+        "alternate_reading": "宗教儀礼上の死と悲嘆を描く作品だが、画家本人の個人的な喪失体験を示すものではない。遺体の描写が苦手な人には不向き。",
+        "source_context_note": "1582年頃のボローニャで描かれたキリストの哀悼画。カラッチ一族はモデルの直接観察と人体の写実的表現を推進した。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/438427",
+        "search_profile": {
+          "summary_for_ai": "Metは頭を大きく反らす聖母の悲嘆の姿勢、理想化を避けたキリストの身体表現、3枚の古い食卓布をつないだ画布の使用を論じる。 宗教儀礼上の死と悲嘆を描く作品だが、画家本人の個人的な喪失体験を示すものではない。遺体の描写が苦手な人には不向き。",
+          "fitting_situations": [
+            {
+              "situation": "強い悲しみが人物の姿勢や視線に現れる作品と向き合いたい",
+              "reason": "マリアの投げ出すような姿勢と哀悼者の表現が画面の中心にある。",
+              "strength": 3
+            }
+          ],
+          "selection_cautions": [
+            "宗教儀礼上の死と悲嘆を描く作品だが、画家本人の個人的な喪失体験を示すものではない。遺体の描写が苦手な人には不向き。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは頭を大きく反らす聖母の悲嘆の姿勢、理想化を避けたキリストの身体表現、3枚の古い食卓布をつないだ画布の使用を論じる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/438427"
+          },
+          "creation_context": "1582年頃のボローニャで描かれたキリストの哀悼画。カラッチ一族はモデルの直接観察と人体の写実的表現を推進した。",
+          "visual_clues": "横たわるキリストの身体、頭を反らせるマリア、周囲の哀悼する人物たち。",
+          "uncertainty_note": "宗教儀礼上の死と悲嘆を描く作品だが、画家本人の個人的な喪失体験を示すものではない。遺体の描写が苦手な人には不向き。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "悲しみ"
+          ],
+          "secondary": [
+            "慈しみ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第13群暫定登録。Met公式APIと原JPEG実取得・SHA256を検証。タグは作品固有の主題・表現への暫定的な接点であり、人間の視認・解釈承認と公開前の権利審査は未了。"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-18",
