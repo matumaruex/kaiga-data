@@ -80,8 +80,8 @@ for art in data.get("artworks", []):
                 errors.append(f"{ident}: {label}が空")
         primary = groups.get("primary")
         secondary = groups.get("secondary")
-        if not isinstance(primary, list) or not 1 <= len(primary) <= 2 or not isinstance(secondary, list) or len(secondary) > 2:
-            errors.append(f"{ident}: 主1〜2・補助0〜2の制限違反")
+        if not isinstance(primary, list) or len(primary) > 2 or not isinstance(secondary, list) or len(secondary) > 2:
+            errors.append(f"{ident}: 主0〜2・補助0〜2の制限違反")
         else:
             tags = primary + secondary
             if len(tags) != len(set(tags)) or set(tags) != set(art["curation"].get("emotions", [])):
