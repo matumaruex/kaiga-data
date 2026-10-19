@@ -62,7 +62,7 @@ for candidate in candidates:
             errors.append(f"{key}: held image SHA mismatch")
     else:
         errors.append(f"{key}: invalid status {state}")
-if len(catalog) != 100 or len(registry) != 101 or registered != 17 or held != 14:
+if len(catalog) < 100 or len(registry) < 101 or registered != 17 or held != 14:
     errors.append(f"unexpected totals: catalog {len(catalog)}, image {len(registry)}, batch {registered}+{held}")
 if errors:
     print("FAIL:", *errors, sep="\n- ")

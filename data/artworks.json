@@ -9881,6 +9881,1006 @@
         "curatorial_review_status": "provisional",
         "curatorial_review_note": "第10群試験登録。現行Met公式ID/PD/原画像JPEG取得とSHA256を照合。制作意図の直接記録は本作品では未検証。館の主題研究、図像と後世の反応を分けて説明。人間の最終画像視認と公開権利審査は未了。"
       }
+    },
+    {
+      "id": "met-436105",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436105,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436105",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436105",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Death of Socrates",
+        "title_ja_provisional": "ソクラテスの死",
+        "artist": "Jacques Louis David",
+        "creation_date_display": "1787",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "France",
+        "accession_number": "31.45"
+      },
+      "image": {
+        "image_id": "met-436105-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13139-001.jpg",
+        "source_registry_id": "met-436105",
+        "local_path": "/artworks/met-436105.jpg",
+        "sha256": "7d8d840424e3747c14b203b67192fff726c897bb05cf9d3f7fa227e1ee4510de",
+        "byte_length": 71388,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall JPEG HTTP, complete file signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "31.45"
+      },
+      "curation": {
+        "emotions": [
+          "喪失感",
+          "希望"
+        ],
+        "emotion_strengths": {
+          "喪失感": 2,
+          "希望": 2
+        },
+        "tones": [
+          "緊張",
+          "重苦しさ"
+        ],
+        "themes": [
+          "別れ",
+          "時間"
+        ],
+        "interpretation": "ソクラテスは毒杯に手を伸ばしながら魂の不死を論じる。弟子たちは悲嘆に暮れ、本人の決然とした姿と対照をなす。画面にいるプラトンは歴史上のその場にはいなかったが、物語を伝えた著者として意図的に配置されたとMetが説明する。",
+        "alternate_reading": "ソクラテス本人の哲学的信念・弟子たちの喪失・画家の政治的含意を混同しない。希望とは死を肯定することではない。画家の個人的な死別感情は未確認。",
+        "source_context_note": "古代ギリシアで死刑判決を受けた哲学者ソクラテスの最期を、フランス革命前夜の新古典主義画家ダヴィッドが描く。Metは不当な権力への抵抗と、プラトン『パイドン』を参照した身振りを解説する。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436105",
+        "search_profile": {
+          "summary_for_ai": "死を前に信念を語るソクラテスと、取り乱す周囲の人物。古典哲学と不当な権力への抵抗が重なる新古典主義絵画。死別の悲嘆と信念を区別する。",
+          "fitting_situations": [
+            {
+              "situation": "別れの悲しさを感じながら、相手の揺るがない信念にも向き合いたい",
+              "reason": "弟子たちの悲嘆とソクラテスの毅然とした身ぶりが、一つの場面で対照的に描かれる。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "死を肯定したい人に向けた作品として安易に扱わず、古代の思想と人物の悲嘆を正確に示す。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "ソクラテスは毒杯に手を伸ばしながら魂の不死を論じる。弟子たちは悲嘆に暮れ、本人の決然とした姿と対照をなす。画面にいるプラトンは歴史上のその場にはいなかったが、物語を伝えた著者として意図的に配置されたとMetが説明する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436105"
+          },
+          "creation_context": "古代ギリシアで死刑判決を受けた哲学者ソクラテスの最期を、フランス革命前夜の新古典主義画家ダヴィッドが描く。Metは不当な権力への抵抗と、プラトン『パイドン』を参照した身振りを解説する。",
+          "visual_clues": "ベッドに座るソクラテスの上方を指す右手、毒杯、顔を伏せる弟子、画面左の階段を確認できる。",
+          "uncertainty_note": "ソクラテス本人の哲学的信念・弟子たちの喪失・画家の政治的含意を混同しない。希望とは死を肯定することではない。画家の個人的な死別感情は未確認。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喪失感",
+            "希望"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第11群試験登録。Met現行公式Object APIに作品ID・帰属・所蔵番号・PDを照合。主画像JPEGを実取得・ハッシュ確認。制作意図と館の読解、鑑賞者の感情を分離。人間の実画像視認、解釈承認、公開時の権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-11122",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 11122,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/11122",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11122",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Gulf Stream",
+        "title_ja_provisional": "ガルフ・ストリーム",
+        "artist": "Winslow Homer",
+        "creation_date_display": "1899; reworked by 1906",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "United States",
+        "accession_number": "06.1234"
+      },
+      "image": {
+        "image_id": "met-11122-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-20821-001.jpg",
+        "source_registry_id": "met-11122",
+        "local_path": "/artworks/met-11122.jpg",
+        "sha256": "02654950ebb27b6ca47d7e84cf3a9072bd55ea5f034c5f3c7061e44366e159b9",
+        "byte_length": 107693,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall JPEG HTTP, complete file signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "06.1234"
+      },
+      "curation": {
+        "emotions": [
+          "不安",
+          "希望"
+        ],
+        "emotion_strengths": {
+          "不安": 2,
+          "希望": 1
+        },
+        "tones": [
+          "緊張",
+          "重苦しさ"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "interpretation": "サメと竜巻に囲まれた小舟の人物は落ち着いているようにも見えるが、何を思うかは決められない。Metの音声解説は危機を生き延びる決意の読みと、黒人主人公と帝国史の関係を併置している。",
+        "alternate_reading": "人物が恐怖・希望を抱いているかは確認できず、弱い希望タグは鑑賞への入口にとどめる。黒人の歴史を単なる危険な自然の背景として消さない。",
+        "source_context_note": "19世紀末のカリブ海に漂う壊れた船と黒人の男性。Metは自然との対立だけでなく、ガルフストリームという海流が結ぶ奴隷制・砂糖・帝国主義の歴史に言及する。1899年制作、1906年までに加筆。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/11122",
+        "search_profile": {
+          "summary_for_ai": "壊れた船と海の危険の中にいる黒人の男性。人と自然の対立に加え、大西洋の奴隷制・帝国史の文脈がある。人物の心情は断定できない。",
+          "fitting_situations": [
+            {
+              "situation": "先の見えない状況で、危機にさらされる人の姿と向き合いたい",
+              "reason": "海上の具体的な危難と、人物の落ち着いた姿の対比がある。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "生き残りが保証された希望の物語にはしない。奴隷制・帝国史についてMetの説明を省かない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "サメと竜巻に囲まれた小舟の人物は落ち着いているようにも見えるが、何を思うかは決められない。Metの音声解説は危機を生き延びる決意の読みと、黒人主人公と帝国史の関係を併置している。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/11122"
+          },
+          "creation_context": "19世紀末のカリブ海に漂う壊れた船と黒人の男性。Metは自然との対立だけでなく、ガルフストリームという海流が結ぶ奴隷制・砂糖・帝国主義の歴史に言及する。1899年制作、1906年までに加筆。",
+          "visual_clues": "壊れた舟、横たわる人物、周囲のサメ、遠方の海面と竜巻。",
+          "uncertainty_note": "人物が恐怖・希望を抱いているかは確認できず、弱い希望タグは鑑賞への入口にとどめる。黒人の歴史を単なる危険な自然の背景として消さない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "不安"
+          ],
+          "secondary": [
+            "希望"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第11群試験登録。Met現行公式Object APIに作品ID・帰属・所蔵番号・PDを照合。主画像JPEGを実取得・ハッシュ確認。制作意図と館の読解、鑑賞者の感情を分離。人間の実画像視認、解釈承認、公開時の権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-435621",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 435621,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/435621",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435621",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Joan of Arc",
+        "title_ja_provisional": "ジャンヌ・ダルク",
+        "artist": "Jules Bastien-Lepage",
+        "creation_date_display": "1879",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "France",
+        "accession_number": "89.21.1"
+      },
+      "image": {
+        "image_id": "met-435621-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14201-049.jpg",
+        "source_registry_id": "met-435621",
+        "local_path": "/artworks/met-435621.jpg",
+        "sha256": "f1ed331cc7b492262b9fd79c09f9abe12361a6056116fa50bdf78250e0337db2",
+        "byte_length": 197191,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall JPEG HTTP, complete file signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "89.21.1"
+      },
+      "curation": {
+        "emotions": [
+          "希望",
+          "不安"
+        ],
+        "emotion_strengths": {
+          "希望": 2,
+          "不安": 1
+        },
+        "tones": [
+          "緊張",
+          "高揚"
+        ],
+        "themes": [
+          "居場所",
+          "時間"
+        ],
+        "interpretation": "少女が庭で聖人の呼びかけを受け、故郷を離れる決意に向かう場面。Met音声解説は画家が友人への手紙で『故郷を離れる決意』と『素朴な農家の魅力』を表す頭部を描けたと述べたことを引用する。",
+        "alternate_reading": "本人の発言はMetが紹介する手紙の引用に基づく。歴史的ジャンヌの幻視の真偽を断定する資料ではなく、後代の国家的象徴と作者の個人心理も分ける。",
+        "source_context_note": "普仏戦争で領土割譲を経験したロレーヌ地方出身の画家が、同郷のジャンヌ・ダルクを描いた。Metは1880年サロンで、写実的な人物像と聖人たちの幻視表現への評価が分かれたことを説明する。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/435621",
+        "search_profile": {
+          "summary_for_ai": "ジャンヌ・ダルクが故郷を離れる決意を固める場面。作者が人物の決意を表現しようと語った記録がMetにある。写実と幻視の共存も重要。",
+          "fitting_situations": [
+            {
+              "situation": "大きな決断を前に、故郷や慣れた暮らしとの距離を意識している",
+              "reason": "作者が手紙でジャンヌの故郷を去る決意を表現したと語った記録がある。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "宗教的体験の実在を裏付けるものではない。国家的な英雄像のみで画面を説明しきらない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "direct_for_this_work",
+            "summary": "Metの音声解説によれば、バスティアン＝ルパージュは友人への手紙で『ジャンヌの頭部をつかめたと思う。故郷を去る決意と素朴な農家の魅力を表している』という趣旨を語っている。Metによる引用であり、原書簡の独立照合は未了。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/435621"
+          },
+          "scholarly_interpretation": {
+            "summary": "少女が庭で聖人の呼びかけを受け、故郷を離れる決意に向かう場面。Met音声解説は画家が友人への手紙で『故郷を離れる決意』と『素朴な農家の魅力』を表す頭部を描けたと述べたことを引用する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/435621"
+          },
+          "creation_context": "普仏戦争で領土割譲を経験したロレーヌ地方出身の画家が、同郷のジャンヌ・ダルクを描いた。Metは1880年サロンで、写実的な人物像と聖人たちの幻視表現への評価が分かれたことを説明する。",
+          "visual_clues": "画面前方で視線を凝らす少女、背後の樹木と家、左側に現れる半透明の聖人たち。",
+          "uncertainty_note": "本人の発言はMetが紹介する手紙の引用に基づく。歴史的ジャンヌの幻視の真偽を断定する資料ではなく、後代の国家的象徴と作者の個人心理も分ける。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "希望"
+          ],
+          "secondary": [
+            "不安"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第11群試験登録。Met現行公式Object APIに作品ID・帰属・所蔵番号・PDを照合。主画像JPEGを実取得・ハッシュ確認。制作意図と館の読解、鑑賞者の感情を分離。人間の実画像視認、解釈承認、公開時の権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-12127",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 12127,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/12127",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/12127",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Madame X (Virginie Amélie Avegno Gautreau)",
+        "title_ja_provisional": "マダムX",
+        "artist": "John Singer Sargent",
+        "creation_date_display": "1883–84",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "United States",
+        "accession_number": "16.53"
+      },
+      "image": {
+        "image_id": "met-12127-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-29006-001.jpg",
+        "source_registry_id": "met-12127",
+        "local_path": "/artworks/met-12127.jpg",
+        "sha256": "7f0d41b1840f760132821ff644d500d5caa658e81a0103216346ee46da0050ea",
+        "byte_length": 44380,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall JPEG HTTP, complete file signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "16.53"
+      },
+      "curation": {
+        "emotions": [
+          "好奇心",
+          "不安"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2,
+          "不安": 1
+        },
+        "tones": [
+          "緊張",
+          "余韻"
+        ],
+        "themes": [
+          "他者との距離",
+          "時間"
+        ],
+        "interpretation": "Metは、当時のモデルのファッションと大胆な提示が論争を招き、サージェントは批判を受けながらも作品に自信を持ち続けたと記録する。作者は売却時に本作を自身の最高作と思う旨を語った。",
+        "alternate_reading": "『最高作』との作者の後年の評価を制作当初の感情意図とは扱わない。モデル自身の恥・不安の内面も画面から断定しない。MetのAPI分類は空欄だがobjectNameがPainting、mediumはOil on canvas。",
+        "source_context_note": "サージェントは注文によらず社交界で知られた女性を描き、1884年サロンで大きな批判に直面した。元の衣装の右肩紐はずり落ちていたが、後に描き直された。作品は作者が長年所有した。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/12127",
+        "search_profile": {
+          "summary_for_ai": "当時スキャンダルを生んだ肖像。右肩紐が修正され、後年作者は自信作として語った。絵の造形と社会の評価が衝突するがモデルの心情は不明。",
+          "fitting_situations": [
+            {
+              "situation": "自分の表現と周囲の評価が食い違うことについて考えたい",
+              "reason": "華やかな肖像画が激しい批判を受け、作者が修正しながら長く保持したという記録がある。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "モデルが恥ずかしかった、不安だったと断定しない。肩紐の修正と作者の後年の評価を年代順に区別する。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "direct_for_this_work",
+            "summary": "Metの作品解説によれば、サージェントは1916年の売却時に『おそらく自分の最高作』と述べた。これは後年の評価であり、制作当初の感情的意図ではない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/12127"
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは、当時のモデルのファッションと大胆な提示が論争を招き、サージェントは批判を受けながらも作品に自信を持ち続けたと記録する。作者は売却時に本作を自身の最高作と思う旨を語った。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/12127"
+          },
+          "creation_context": "サージェントは注文によらず社交界で知られた女性を描き、1884年サロンで大きな批判に直面した。元の衣装の右肩紐はずり落ちていたが、後に描き直された。作品は作者が長年所有した。",
+          "visual_clues": "黒いドレスを着た女性の横顔と姿勢、まっすぐな肩紐、背景の暗い色と肌の対照。",
+          "uncertainty_note": "『最高作』との作者の後年の評価を制作当初の感情意図とは扱わない。モデル自身の恥・不安の内面も画面から断定しない。MetのAPI分類は空欄だがobjectNameがPainting、mediumはOil on canvas。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": [
+            "不安"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第11群試験登録。Met現行公式Object APIに作品ID・帰属・所蔵番号・PDを照合。主画像JPEGを実取得・ハッシュ確認。制作意図と館の読解、鑑賞者の感情を分離。人間の実画像視認、解釈承認、公開時の権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-436322",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436322,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436322",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436322",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Love Letter",
+        "title_ja_provisional": "恋文",
+        "artist": "Jean Honoré Fragonard",
+        "creation_date_display": "early 1770s",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "France",
+        "accession_number": "49.7.49"
+      },
+      "image": {
+        "image_id": "met-436322-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1014-001.jpg",
+        "source_registry_id": "met-436322",
+        "local_path": "/artworks/met-436322.jpg",
+        "sha256": "c2292c4f022dd15e21f0b38c642921bf6f3593c765ef50aac5c98d64eb8f05f1",
+        "byte_length": 150897,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall JPEG HTTP, complete file signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "49.7.49"
+      },
+      "curation": {
+        "emotions": [
+          "好奇心",
+          "期待"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2,
+          "期待": 1
+        },
+        "tones": [
+          "余韻",
+          "落ち着き"
+        ],
+        "themes": [
+          "愛情",
+          "時間"
+        ],
+        "interpretation": "花束と手紙を手にした人物の周囲を光が照らす。Metの現行概要は肖像ではなく風俗画とするが、旧解説には肖像か風俗画か判然としないという見解もあり、記述時期によって読みが異なる。",
+        "alternate_reading": "手紙の文字は判読できないという館の説明があり、差出人や結末を作らない。『期待』は読み得る弱い連想にとどまる。",
+        "source_context_note": "18世紀フランスの風俗画。手紙と花束を介して画面外の人間関係を暗示する。Metは仕上げられた絵画でありながら即興的な筆触の美を表現していると解説する。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436322",
+        "search_profile": {
+          "summary_for_ai": "手紙と花束を手にした女性の風俗画。筆致と光の描写を重視しながら、画面の外に続く関係をほのめかす。手紙の中身は不明。",
+          "fitting_situations": [
+            {
+              "situation": "誰かとの関係について、まだ語られていない部分を想像してみたい",
+              "reason": "花束や恋文というモチーフが、画面外に続く物語をほのめかしている。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "『恋人からの肯定的な返事』や『幸福な恋愛』といった内容を捏造しない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "花束と手紙を手にした人物の周囲を光が照らす。Metの現行概要は肖像ではなく風俗画とするが、旧解説には肖像か風俗画か判然としないという見解もあり、記述時期によって読みが異なる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436322"
+          },
+          "creation_context": "18世紀フランスの風俗画。手紙と花束を介して画面外の人間関係を暗示する。Metは仕上げられた絵画でありながら即興的な筆触の美を表現していると解説する。",
+          "visual_clues": "女性が持つ紙と花束、犬、衣装、中央の明るい光、背景のラフな筆触。",
+          "uncertainty_note": "手紙の文字は判読できないという館の説明があり、差出人や結末を作らない。『期待』は読み得る弱い連想にとどまる。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": [
+            "期待"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第11群試験登録。Met現行公式Object APIに作品ID・帰属・所蔵番号・PDを照合。主画像JPEGを実取得・ハッシュ確認。制作意図と館の読解、鑑賞者の感情を分離。人間の実画像視認、解釈承認、公開時の権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-435809",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 435809,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/435809",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435809",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "The Harvesters",
+        "title_ja_provisional": "穀物の収穫",
+        "artist": "Pieter Bruegel the Elder",
+        "creation_date_display": "1565",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Netherlandish",
+        "accession_number": "19.164"
+      },
+      "image": {
+        "image_id": "met-435809-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP119115.jpg",
+        "source_registry_id": "met-435809",
+        "local_path": "/artworks/met-435809.jpg",
+        "sha256": "98dc6d6e23c008b23056108d04d9143b8c7f73fe6fa2a940fd09663290135e25",
+        "byte_length": 116819,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall JPEG HTTP, complete file signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "19.164"
+      },
+      "curation": {
+        "emotions": [
+          "安心",
+          "喜び"
+        ],
+        "emotion_strengths": {
+          "安心": 2,
+          "喜び": 1
+        },
+        "tones": [
+          "にぎわい",
+          "落ち着き"
+        ],
+        "themes": [
+          "日常",
+          "自然",
+          "共同体"
+        ],
+        "interpretation": "Metはブリューゲルが農民を共感的だが理想化された形で描き、豊かさと調和を強調する一方、労働の過酷さを抑えたと説明する。実景の忠実な写生というより創意ある構成である。",
+        "alternate_reading": "庶民の生活が史実としてこのように平穏だったとは限らない。注文主の好みと作者本人の幸福感を同一視しない。",
+        "source_context_note": "裕福なアントワープ商人の郊外の邸宅の食堂用に依頼された四季の連作の一作。農民が仕事と食事と休息を分かち合う。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/435809",
+        "search_profile": {
+          "summary_for_ai": "豊かな収穫と農作業、木陰での食事と休息。依頼主のため、農村生活を理想化した季節画であるというMetの説明が重要。",
+          "fitting_situations": [
+            {
+              "situation": "日々の働きと休息が続く生活のリズムに触れたい",
+              "reason": "仕事をする人と休む人が、同じ収穫期の景色に描かれている。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "富裕層向けの理想化があるため、16世紀農民の暮らしの証言としては扱わない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metはブリューゲルが農民を共感的だが理想化された形で描き、豊かさと調和を強調する一方、労働の過酷さを抑えたと説明する。実景の忠実な写生というより創意ある構成である。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/435809"
+          },
+          "creation_context": "裕福なアントワープ商人の郊外の邸宅の食堂用に依頼された四季の連作の一作。農民が仕事と食事と休息を分かち合う。",
+          "visual_clues": "麦畑での刈り取り、木陰での食事、遠くの人々、丘を望む広い景観。",
+          "uncertainty_note": "庶民の生活が史実としてこのように平穏だったとは限らない。注文主の好みと作者本人の幸福感を同一視しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "安心"
+          ],
+          "secondary": [
+            "喜び"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第11群試験登録。Met現行公式Object APIに作品ID・帰属・所蔵番号・PDを照合。主画像JPEGを実取得・ハッシュ確認。制作意図と館の読解、鑑賞者の感情を分離。人間の実画像視認、解釈承認、公開時の権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-53410",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 53410,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/53410",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/53410",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Lions at the Stone Bridge of Mount Tiantai",
+        "title_ja_provisional": "天台山石橋図",
+        "artist": "Soga Shōhaku",
+        "creation_date_display": "1779",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2015.300.216"
+      },
+      "image": {
+        "image_id": "met-53410-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-12232-279.jpg",
+        "source_registry_id": "met-53410",
+        "local_path": "/artworks/met-53410.jpg",
+        "sha256": "0a206e1c3a4117a62b11c984b02e83c27b50619f63877a4b4bd6fb7429da172f",
+        "byte_length": 139471,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall JPEG HTTP, complete file signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "2015.300.216"
+      },
+      "curation": {
+        "emotions": [
+          "不安",
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "不安": 2,
+          "好奇心": 1
+        },
+        "tones": [
+          "緊張",
+          "高揚"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "interpretation": "Metは母獅子が崖から投げ落とした子のなかで登り戻れるものを試す物語と、師が弟子を試す比喩に言及する。激しい構図と筆法が主題を引き立てる。",
+        "alternate_reading": "実際の動物行動の証言ではなく伝説。画家本人が恐れや不安を抱いたという資料は確認していない。",
+        "source_context_note": "中国浙江省の天台山の石橋を舞台に、母獅子が子を谷に投げ落とす伝承を江戸画家の曽我蕭白が1779年に描く。仏教と道教にゆかりの深い聖地の題材。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/53410",
+        "search_profile": {
+          "summary_for_ai": "母獅子が子を崖から落として試すという伝承を、曽我蕭白が劇的に描いた掛幅。仏教・道教の聖地の説話と大胆な筆致が核となる。",
+          "fitting_situations": [
+            {
+              "situation": "厳しい試練や誰かに試される状況の重さを考えている",
+              "reason": "子獅子を落とす伝承が、試練の成否を画面上の危機として表す。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "恐怖を煽るためだけに選ばず、伝承の文化的・宗教的背景と比喩を説明する。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは母獅子が崖から投げ落とした子のなかで登り戻れるものを試す物語と、師が弟子を試す比喩に言及する。激しい構図と筆法が主題を引き立てる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/53410"
+          },
+          "creation_context": "中国浙江省の天台山の石橋を舞台に、母獅子が子を谷に投げ落とす伝承を江戸画家の曽我蕭白が1779年に描く。仏教と道教にゆかりの深い聖地の題材。",
+          "visual_clues": "石橋、断崖、獅子の親子、うねる筆線と空白。",
+          "uncertainty_note": "実際の動物行動の証言ではなく伝説。画家本人が恐れや不安を抱いたという資料は確認していない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "不安"
+          ],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第11群試験登録。Met現行公式Object APIに作品ID・帰属・所蔵番号・PDを照合。主画像JPEGを実取得・ハッシュ確認。制作意図と館の読解、鑑賞者の感情を分離。人間の実画像視認、解釈承認、公開時の権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-676034",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 676034,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/676034",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/676034",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Mountain God with Tiger and Attendants",
+        "title_ja_provisional": "山神と虎と従者",
+        "artist": "Unidentified artist",
+        "creation_date_display": "1874",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Korea",
+        "accession_number": "2015.253"
+      },
+      "image": {
+        "image_id": "met-676034-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-14823-002.jpg",
+        "source_registry_id": "met-676034",
+        "local_path": "/artworks/met-676034.jpg",
+        "sha256": "ba5e5d079c064da9200079a433aaae775cad695b33e040d92068281660c294a1",
+        "byte_length": 140176,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall JPEG HTTP, complete file signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "2015.253"
+      },
+      "curation": {
+        "emotions": [
+          "好奇心",
+          "安心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2,
+          "安心": 1
+        },
+        "tones": [
+          "落ち着き",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "共同体"
+        ],
+        "interpretation": "Metによれば山神はやさしげな老人で、歯を見せた虎は猛々しさより滑稽さが目立つ。桃の木は長寿の象徴で、護衛の従者も描かれる。",
+        "alternate_reading": "宗教的象徴を『虎が面白いから喜び』と短絡せず、人物の心情も推定しない。作者帰属は不詳。",
+        "source_context_note": "1874年の朝鮮王朝後期に描かれた山神図。民間の山岳信仰に仏教の護法思想が合流する。画面内の銘文が主題と年次を支える。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/676034",
+        "search_profile": {
+          "summary_for_ai": "山神の老人と滑稽にも見える虎、少年従者と桃の木。朝鮮の山神信仰と仏教思想が融合した1874年の宗教画。",
+          "fitting_situations": [
+            {
+              "situation": "怖そうなのに少し親しみも感じるような、知らない文化の象徴と向き合いたい",
+              "reason": "虎は威圧的な特徴を持つが、Metは滑稽にも描かれていると説明する。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "朝鮮の宗教・虎の意味を西洋の童話的なキャラクター性だけに置き換えない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metによれば山神はやさしげな老人で、歯を見せた虎は猛々しさより滑稽さが目立つ。桃の木は長寿の象徴で、護衛の従者も描かれる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/676034"
+          },
+          "creation_context": "1874年の朝鮮王朝後期に描かれた山神図。民間の山岳信仰に仏教の護法思想が合流する。画面内の銘文が主題と年次を支える。",
+          "visual_clues": "赤い衣の老山神、緑色の帯、背にした虎の丸い目とむき出しの歯、三人の少年従者、桃の木。",
+          "uncertainty_note": "宗教的象徴を『虎が面白いから喜び』と短絡せず、人物の心情も推定しない。作者帰属は不詳。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": [
+            "安心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第11群試験登録。Met現行公式Object APIに作品ID・帰属・所蔵番号・PDを照合。主画像JPEGを実取得・ハッシュ確認。制作意図と館の読解、鑑賞者の感情を分離。人間の実画像視認、解釈承認、公開時の権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-39540",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 39540,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/39540",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/39540",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Two eagles",
+        "title_ja_provisional": "二鷹図",
+        "artist": "Bada Shanren (Zhu Da)",
+        "creation_date_display": "dated 1702",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "China",
+        "accession_number": "2014.721"
+      },
+      "image": {
+        "image_id": "met-39540-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-19468-002.jpg",
+        "source_registry_id": "met-39540",
+        "local_path": "/artworks/met-39540.jpg",
+        "sha256": "112510922b621373797164f8a607370e09ce465a628269356e5bf091ebc0ebf3",
+        "byte_length": 74946,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall JPEG HTTP, complete file signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "2014.721"
+      },
+      "curation": {
+        "emotions": [
+          "怒り",
+          "希望"
+        ],
+        "emotion_strengths": {
+          "怒り": 2,
+          "希望": 1
+        },
+        "tones": [
+          "緊張",
+          "重苦しさ"
+        ],
+        "themes": [
+          "記憶",
+          "時間"
+        ],
+        "interpretation": "Metは、鷹を強さと勇気の象徴として描く明代の先例を受け、八大山人が清王朝への反抗と明への忠誠を独自の図像にしたと読む。",
+        "alternate_reading": "『怒り』は反抗や政治的対抗からの検索上の関連であり、作者自身が怒りを明言した資料ではない。『希望』も将来の勝利の予言ではない。",
+        "source_context_note": "清朝期に生きた八大山人は明王室の子孫だったとされ、長年身元を隠した。1702年の二羽の鷹には明代の宮廷鷹図の伝統が参照される。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/39540",
+        "search_profile": {
+          "summary_for_ai": "八大山人が二羽の鷹に強さ・清朝への抵抗・明への忠誠を託したとMetが解釈する水墨画。怒りは作者の心情の確定ではない。",
+          "fitting_situations": [
+            {
+              "situation": "理不尽だと感じる状況への反発を、言葉ではなく象徴で考えたい",
+              "reason": "館の解釈では鷹は外部の支配に対抗する意志を表す。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "怒りと反抗は同一ではない。清・明交代の歴史と後代の図像解釈を区別する。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは、鷹を強さと勇気の象徴として描く明代の先例を受け、八大山人が清王朝への反抗と明への忠誠を独自の図像にしたと読む。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/39540"
+          },
+          "creation_context": "清朝期に生きた八大山人は明王室の子孫だったとされ、長年身元を隠した。1702年の二羽の鷹には明代の宮廷鷹図の伝統が参照される。",
+          "visual_clues": "二羽の鋭い眼差しの鷹、岩、余白と簡潔な墨線。",
+          "uncertainty_note": "『怒り』は反抗や政治的対抗からの検索上の関連であり、作者自身が怒りを明言した資料ではない。『希望』も将来の勝利の予言ではない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "怒り"
+          ],
+          "secondary": [
+            "希望"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第11群試験登録。Met現行公式Object APIに作品ID・帰属・所蔵番号・PDを照合。主画像JPEGを実取得・ハッシュ確認。制作意図と館の読解、鑑賞者の感情を分離。人間の実画像視認、解釈承認、公開時の権利審査は未了。"
+      }
+    },
+    {
+      "id": "met-40086",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 40086,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/40086",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/40086",
+        "record_checked_on": "2026-10-19"
+      },
+      "facts": {
+        "title_original": "Scholar viewing a waterfall",
+        "title_ja_provisional": "高士観瀑図",
+        "artist": "Ma Yuan",
+        "creation_date_display": "early 13th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "China",
+        "accession_number": "1973.120.9"
+      },
+      "image": {
+        "image_id": "met-40086-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP154090.jpg",
+        "source_registry_id": "met-40086",
+        "local_path": "/artworks/met-40086.jpg",
+        "sha256": "0b9be1da775f9bf72aa7aa3c3cccab06edcb9b60dabbfd96ea574a302af6f6ee",
+        "byte_length": 67775,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met Object API primaryImageSmall JPEG HTTP, complete file signature, byte length and SHA256; human visual approval pending",
+        "source_accession_number": "1973.120.9"
+      },
+      "curation": {
+        "emotions": [
+          "安心",
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "安心": 2,
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "休息"
+        ],
+        "interpretation": "Metは松や庭の鋭い動きと、文人の静かな姿が対照をなすと解説する。杭州の庭園や名勝を背景にした南宋の視覚文化。",
+        "alternate_reading": "文人が幸福・癒やしを実際に感じたと断定できない。『安心』は静けさの対照構造を入口にした暫定的な接点。",
+        "source_context_note": "南宋の宮廷画家馬遠による13世紀初頭の画帖の一葉。水辺の庭園のような場所で、人物が滝を眺める。",
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/40086",
+        "search_profile": {
+          "summary_for_ai": "滝の流れや曲がった松と、それを静かに見つめる文人。南宋宮廷の山水画として動きと静けさの対照が大切。",
+          "fitting_situations": [
+            {
+              "situation": "音や考えごとから少し距離を置き、静かなものを見ていたい",
+              "reason": "激しい水と動かずに観察する人物の構図上の対照がある。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "観瀑＝心の癒やしという普遍的な心理を作者の意図と決めつけない。"
+          ],
+          "review_status": "draft_not_human_approved"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは松や庭の鋭い動きと、文人の静かな姿が対照をなすと解説する。杭州の庭園や名勝を背景にした南宋の視覚文化。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/40086"
+          },
+          "creation_context": "南宋の宮廷画家馬遠による13世紀初頭の画帖の一葉。水辺の庭園のような場所で、人物が滝を眺める。",
+          "visual_clues": "松のねじれた枝、滝の水流、腰を落ち着けて見つめる人物、画面の余白。",
+          "uncertainty_note": "文人が幸福・癒やしを実際に感じたと断定できない。『安心』は静けさの対照構造を入口にした暫定的な接点。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "安心"
+          ],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "interpretation_human_approved": false,
+        "curatorial_reviewed_on": "2026-10-19",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "第11群試験登録。Met現行公式Object APIに作品ID・帰属・所蔵番号・PDを照合。主画像JPEGを実取得・ハッシュ確認。制作意図と館の読解、鑑賞者の感情を分離。人間の実画像視認、解釈承認、公開時の権利審査は未了。"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-18",
