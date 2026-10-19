@@ -36,6 +36,8 @@ jobs:
         run: python3 scripts/validate_batch005.py
       - name: Verify batch-010 registered image hashes, rights and holds
         run: python3 scripts/validate_batch010.py
+      - name: Verify batch-011 registrations against official image evidence
+        run: python3 scripts/validate_batch011.py
       - name: Verify batch-009 registered image hashes, rights and holds
         run: python3 scripts/validate_batch009.py
       - name: Verify batch-008 candidates, rights and source-image integrity
