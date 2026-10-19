@@ -44,7 +44,7 @@ def check(c):
     except Exception as e:r["problems"].append(type(e).__name__+": "+str(e)[:140])
     return r
 def main():
-    cs=json.loads((ROOT/"data/candidates-batch-019.json").read_text("utf-8"))["works"]
+    cs=json.loads((ROOT/"data/candidates-batch-020.json").read_text("utf-8"))["works"]
     if len(cs)!=30:raise ValueError("Expected 30 candidates")
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as p:rows=list(p.map(check,cs))
     report={"checked":len(rows),"metadata_pass":sum(x["metadata_verified"] for x in rows),"image_pass":sum(x["image_verified"] for x in rows),"results":rows}
