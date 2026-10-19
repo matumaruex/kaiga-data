@@ -65,6 +65,12 @@ def verify(c):
     if oid == 435765 and actual_artist == "dieric bouts":
         artist_match = True
         item["artist_credit_exception"] = "Official page explicitly attributes painting to Workshop of Dieric Bouts."
+    if oid == 36141 and actual_artist == "xia gui":
+        artist_match = True
+        item["artist_credit_exception"] = "Met API Xia Gui is a simplified attribution; official page credits After Xia Gui, probably a close follower."
+    if oid == 435763 and actual_artist == "dieric bouts":
+        artist_match = True
+        item["artist_credit_exception"] = "Met API Dieric Bouts is a simplified credit; official page says Posthumous Workshop Copy after Dieric Bouts."
     checks = {"object_id":obj.get("objectID") == oid, "title":norm(obj.get("title")) == norm(c["title_original"]),
               "artist":bool(artist_match), "accession":bool(obj.get("accessionNumber")),
               "public_domain":obj.get("isPublicDomain") is True, "painting":painting}
