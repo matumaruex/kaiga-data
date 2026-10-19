@@ -2736,14 +2736,17 @@
       },
       "curation": {
         "emotions": [
-          "喪失感"
+          "喪失感",
+          "悲しみ"
         ],
         "emotion_strengths": {
-          "喪失感": 2
+          "喪失感": 2,
+          "悲しみ": 3
         },
         "emotion_categories": {
           "primary": [
-            "喪失感"
+            "喪失感",
+            "悲しみ"
           ],
           "secondary": []
         },
@@ -2793,9 +2796,9 @@
         "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
-        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "公式AIC APIで10候補中10件を照合。画像7件を登録、Wikimedia CommonsからJPEGを取得しSHA256一致。作者の発言は関連作品と区別。人物・神話の感情を作者自身の感情と取り違えない。原典史的な解釈は最終監査前。"
+        "curatorial_review_note": "公式AIC APIで10候補中10件を照合。画像7件を登録、Wikimedia CommonsからJPEGを取得しSHA256一致。作者の発言は関連作品と区別。人物・神話の感情を作者自身の感情と取り違えない。原典史的な解釈は最終監査前。 2026-10-19悲しみ追加：亡きキリストの遺体を囲む人々の哀悼が、失った事実だけでなく悲しみそのものを画面に示す。"
       }
     },
     {
@@ -2925,18 +2928,22 @@
       "curation": {
         "emotions": [
           "喪失感",
-          "未練"
+          "未練",
+          "悲しみ"
         ],
         "emotion_strengths": {
           "喪失感": 2,
-          "未練": 2
+          "未練": 2,
+          "悲しみ": 1
         },
         "emotion_categories": {
           "primary": [
             "喪失感",
             "未練"
           ],
-          "secondary": []
+          "secondary": [
+            "悲しみ"
+          ]
         },
         "tones": [
           "重苦しさ",
@@ -2965,7 +2972,7 @@
         "source_context_note": "1770年に制作され1803年に手を加えたベンジャミン・ウェストの神話画。痛ましい死を歴史画にふさわしい構成で示す。",
         "evidence_url": "https://www.artic.edu/files/89870406-3fd5-4f1d-b54c-497b22291270/AIC_MuseumStudies_27-1_UPDF.pdf",
         "search_profile": {
-          "summary_for_ai": "ギリシア神話で、夫ケパロスの過失・誤認によって妻プロクリスが死ぬ悲劇を歴史画の伝統と宗教的な哀悼構図に接続する作品。",
+          "summary_for_ai": "ギリシア神話で、夫ケパロスの過失・誤認によって妻プロクリスが死ぬ悲劇を歴史画の伝統と宗教的な哀悼構図に接続する作品。 悲しみへの接点：プロクリスの死をめぐる悲劇と哀悼の構図は、後悔とともに悲しみへの補助的な入口になる。",
           "fitting_situations": [
             {
               "situation": "取り返しのつかない出来事への後悔と悲しみに向き合いたい",
@@ -2984,9 +2991,9 @@
         "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
-        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "公式AIC APIで10候補中10件を照合。画像7件を登録、Wikimedia CommonsからJPEGを取得しSHA256一致。作者の発言は関連作品と区別。人物・神話の感情を作者自身の感情と取り違えない。原典史的な解釈は最終監査前。"
+        "curatorial_review_note": "公式AIC APIで10候補中10件を照合。画像7件を登録、Wikimedia CommonsからJPEGを取得しSHA256一致。作者の発言は関連作品と区別。人物・神話の感情を作者自身の感情と取り違えない。原典史的な解釈は最終監査前。 2026-10-19悲しみ追加：プロクリスの死をめぐる悲劇と哀悼の構図は、後悔とともに悲しみへの補助的な入口になる。"
       }
     },
     {
@@ -5023,11 +5030,13 @@
       "curation": {
         "emotions": [
           "喪失感",
+          "悲しみ",
           "寂しさ"
         ],
         "emotion_strengths": {
           "喪失感": 2,
-          "寂しさ": 1
+          "寂しさ": 1,
+          "悲しみ": 2
         },
         "tones": [
           "静けさ",
@@ -5043,7 +5052,7 @@
         "source_context_note": "清代の顧洛による1829年の画帖の一葉。題材は哀悼の詩に触発されている。",
         "evidence_url": "https://www.metmuseum.org/art/collection/search/737735",
         "search_profile": {
-          "summary_for_ai": "作者の画賛によれば哀悼の詩に由来し、空の部屋と月が大切な人を失う感覚を示す。父と幼い息子が月を見る。 詩をもとにした主題であり、作者自身が身近な人を亡くしたとは断定できない。",
+          "summary_for_ai": "作者の画賛によれば哀悼の詩に由来し、空の部屋と月が大切な人を失う感覚を示す。父と幼い息子が月を見る。 詩をもとにした主題であり、作者自身が身近な人を亡くしたとは断定できない。 悲しみへの接点：作者の哀悼詩に由来し、父と子が月を眺める空間に死別への悲しみが重なる。",
           "fitting_situations": [
             {
               "situation": "失った人を思う気持ちを、静かな余白のなかで受け止めたい",
@@ -5072,7 +5081,8 @@
         },
         "emotion_categories": {
           "primary": [
-            "喪失感"
+            "喪失感",
+            "悲しみ"
           ],
           "secondary": [
             "寂しさ"
@@ -5084,9 +5094,9 @@
         "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
-        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第7群。Met公式APIとprimary JPEGをGitHub Actionsで実取得しSHA256照合。作者発言/物語主題/鑑賞タグを別扱い。画像の人間による視認、展示用の最終編集と公開確認は未了。"
+        "curatorial_review_note": "第7群。Met公式APIとprimary JPEGをGitHub Actionsで実取得しSHA256照合。作者発言/物語主題/鑑賞タグを別扱い。画像の人間による視認、展示用の最終編集と公開確認は未了。 2026-10-19悲しみ追加：作者の哀悼詩に由来し、父と子が月を眺める空間に死別への悲しみが重なる。"
       }
     },
     {
@@ -5817,11 +5827,13 @@
       "curation": {
         "emotions": [
           "喪失感",
-          "怒り"
+          "怒り",
+          "悲しみ"
         ],
         "emotion_strengths": {
           "喪失感": 2,
-          "怒り": 2
+          "怒り": 2,
+          "悲しみ": 1
         },
         "tones": [
           "重苦しさ",
@@ -5868,7 +5880,9 @@
             "喪失感",
             "怒り"
           ],
-          "secondary": []
+          "secondary": [
+            "悲しみ"
+          ]
         }
       },
       "review": {
@@ -5876,9 +5890,9 @@
         "source_public_domain_flag_checked": true,
         "visual_checked": false,
         "interpretation_human_approved": false,
-        "curatorial_reviewed_on": "2026-10-18",
+        "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第8群: The Metの現行公式APIに作品名・画家・分類・PD・所蔵番号一致。公式JPEG実取得SHA256記録。作者の詩と関連作の言葉を区別し、人物の感情を作者自身と混同しない。画像の目視・公開最終確認は未実施。"
+        "curatorial_review_note": "第8群: The Metの現行公式APIに作品名・画家・分類・PD・所蔵番号一致。公式JPEG実取得SHA256記録。作者の詩と関連作の言葉を区別し、人物の感情を作者自身と混同しない。画像の目視・公開最終確認は未実施。 2026-10-19悲しみ追加：シヴァが亡妻サティを運ぶ場面は喪失と怒りが中心で、悲しみも弱い補助的接点となる。"
       }
     },
     {
@@ -6916,11 +6930,13 @@
       "curation": {
         "emotions": [
           "希望",
-          "喪失感"
+          "喪失感",
+          "悲しみ"
         ],
         "emotion_strengths": {
           "希望": 2,
-          "喪失感": 2
+          "喪失感": 2,
+          "悲しみ": 1
         },
         "tones": [
           "余韻",
@@ -6968,7 +6984,9 @@
             "希望",
             "喪失感"
           ],
-          "secondary": []
+          "secondary": [
+            "悲しみ"
+          ]
         }
       },
       "review": {
@@ -6978,7 +6996,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第9群試験登録。公式Met作品ID・PD・画像JPEG取得・SHA256を確認。個別の作者発言と物語・専門家解釈の区別を維持。人間による画像視認・解釈・公開権利の最終承認は別。"
+        "curatorial_review_note": "第9群試験登録。公式Met作品ID・PD・画像JPEG取得・SHA256を確認。個別の作者発言と物語・専門家解釈の区別を維持。人間による画像視認・解釈・公開権利の最終承認は別。 2026-10-19悲しみ追加：戦争後の退役軍人の農作業に、Metが悲しみと再生の両面を指摘している。"
       }
     },
     {
@@ -7416,11 +7434,13 @@
       "curation": {
         "emotions": [
           "喪失感",
+          "悲しみ",
           "未練"
         ],
         "emotion_strengths": {
           "喪失感": 2,
-          "未練": 1
+          "未練": 1,
+          "悲しみ": 3
         },
         "tones": [
           "重苦しさ",
@@ -7435,7 +7455,7 @@
         "source_context_note": "古典文化への関心が強かったレイトンの晩年の作品。『涙』というラテン語由来の題名と墓碑・枯れた輪・糸杉で追悼を表す。",
         "evidence_url": "https://www.metmuseum.org/art/collection/search/436869",
         "search_profile": {
-          "summary_for_ai": "碑の前でうなだれる黒衣の女性、枯れた花輪、糸杉など喪に関わる図像をMetが解説。 誰を失ったかは示されず、画家自身の死別を示す絵とはしない。",
+          "summary_for_ai": "碑の前でうなだれる黒衣の女性、枯れた花輪、糸杉など喪に関わる図像をMetが解説。 誰を失ったかは示されず、画家自身の死別を示す絵とはしない。 悲しみへの接点：墓碑に寄り添い、枯れた花輪を伴う黒衣の女性が喪に服する姿は悲しみを直接示す。",
           "fitting_situations": [
             {
               "situation": "失った人を思い出し、弔う時間を持ちたい",
@@ -7464,7 +7484,8 @@
         },
         "emotion_categories": {
           "primary": [
-            "喪失感"
+            "喪失感",
+            "悲しみ"
           ],
           "secondary": [
             "未練"
@@ -7478,7 +7499,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第9群試験登録。公式Met作品ID・PD・画像JPEG取得・SHA256を確認。個別の作者発言と物語・専門家解釈の区別を維持。人間による画像視認・解釈・公開権利の最終承認は別。"
+        "curatorial_review_note": "第9群試験登録。公式Met作品ID・PD・画像JPEG取得・SHA256を確認。個別の作者発言と物語・専門家解釈の区別を維持。人間による画像視認・解釈・公開権利の最終承認は別。 2026-10-19悲しみ追加：墓碑に寄り添い、枯れた花輪を伴う黒衣の女性が喪に服する姿は悲しみを直接示す。"
       }
     },
     {
@@ -9001,11 +9022,13 @@
       "curation": {
         "emotions": [
           "不安",
-          "喪失感"
+          "喪失感",
+          "悲しみ"
         ],
         "emotion_strengths": {
           "不安": 2,
-          "喪失感": 1
+          "喪失感": 1,
+          "悲しみ": 1
         },
         "tones": [
           "重苦しさ",
@@ -9052,7 +9075,8 @@
             "不安"
           ],
           "secondary": [
-            "喪失感"
+            "喪失感",
+            "悲しみ"
           ]
         }
       },
@@ -9063,7 +9087,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第10群試験登録。現行Met公式ID/PD/原画像JPEG取得とSHA256を照合。制作意図の直接記録は本作品では未検証。館の主題研究、図像と後世の反応を分けて説明。人間の最終画像視認と公開権利審査は未了。"
+        "curatorial_review_note": "第10群試験登録。現行Met公式ID/PD/原画像JPEG取得とSHA256を照合。制作意図の直接記録は本作品では未検証。館の主題研究、図像と後世の反応を分けて説明。人間の最終画像視認と公開権利審査は未了。 2026-10-19悲しみ追加：胎児の動きが止まったと感じる王妃の悲嘆の身振りに関連するが、実際の喪失が確定した絵ではない。"
       }
     },
     {
@@ -9387,10 +9411,12 @@
       },
       "curation": {
         "emotions": [
-          "喪失感"
+          "喪失感",
+          "悲しみ"
         ],
         "emotion_strengths": {
-          "喪失感": 2
+          "喪失感": 2,
+          "悲しみ": 3
         },
         "tones": [
           "重苦しさ",
@@ -9434,7 +9460,8 @@
         },
         "emotion_categories": {
           "primary": [
-            "喪失感"
+            "喪失感",
+            "悲しみ"
           ],
           "secondary": []
         }
@@ -9446,7 +9473,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第10群試験登録。現行Met公式ID/PD/原画像JPEG取得とSHA256を照合。制作意図の直接記録は本作品では未検証。館の主題研究、図像と後世の反応を分けて説明。人間の最終画像視認と公開権利審査は未了。 制作年がAPI・個別作品ページで未記載なので推定年を付けず『不詳』と記録。 Met個別作品ページはWorkshop of the Master of the Virgin among Virginsと表示、一方現行APIのartistDisplayNameは工房部分のないMaster of the Virgin among Virginsで、両者に差異がある。"
+        "curatorial_review_note": "第10群試験登録。現行Met公式ID/PD/原画像JPEG取得とSHA256を照合。制作意図の直接記録は本作品では未検証。館の主題研究、図像と後世の反応を分けて説明。人間の最終画像視認と公開権利審査は未了。 制作年がAPI・個別作品ページで未記載なので推定年を付けず『不詳』と記録。 Met個別作品ページはWorkshop of the Master of the Virgin among Virginsと表示、一方現行APIのartistDisplayNameは工房部分のないMaster of the Virgin among Virginsで、両者に差異がある。 2026-10-19悲しみ追加：キリストの遺体を囲む人物の目に涙が浮かび、Metが鑑賞者にも哀悼を促すと説明している。"
       }
     },
     {
@@ -9483,10 +9510,12 @@
       },
       "curation": {
         "emotions": [
-          "喪失感"
+          "喪失感",
+          "悲しみ"
         ],
         "emotion_strengths": {
-          "喪失感": 2
+          "喪失感": 2,
+          "悲しみ": 3
         },
         "tones": [
           "重苦しさ",
@@ -9530,7 +9559,8 @@
         },
         "emotion_categories": {
           "primary": [
-            "喪失感"
+            "喪失感",
+            "悲しみ"
           ],
           "secondary": []
         }
@@ -9542,7 +9572,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第10群試験登録。現行Met公式ID/PD/原画像JPEG取得とSHA256を照合。制作意図の直接記録は本作品では未検証。館の主題研究、図像と後世の反応を分けて説明。人間の最終画像視認と公開権利審査は未了。"
+        "curatorial_review_note": "第10群試験登録。現行Met公式ID/PD/原画像JPEG取得とSHA256を照合。制作意図の直接記録は本作品では未検証。館の主題研究、図像と後世の反応を分けて説明。人間の最終画像視認と公開権利審査は未了。 2026-10-19悲しみ追加：Metが抑制されつつ痛切な悲しみを画面構成の特徴として明言している。"
       }
     },
     {
@@ -9580,11 +9610,13 @@
       "curation": {
         "emotions": [
           "喪失感",
+          "悲しみ",
           "寂しさ"
         ],
         "emotion_strengths": {
           "喪失感": 2,
-          "寂しさ": 1
+          "寂しさ": 1,
+          "悲しみ": 2
         },
         "tones": [
           "重苦しさ",
@@ -9628,7 +9660,8 @@
         },
         "emotion_categories": {
           "primary": [
-            "喪失感"
+            "喪失感",
+            "悲しみ"
           ],
           "secondary": [
             "寂しさ"
@@ -9642,7 +9675,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第10群試験登録。現行Met公式ID/PD/原画像JPEG取得とSHA256を照合。制作意図の直接記録は本作品では未検証。館の主題研究、図像と後世の反応を分けて説明。人間の最終画像視認と公開権利審査は未了。 制作年がAPI・個別作品ページで未記載なので推定年を付けず『不詳』と記録。"
+        "curatorial_review_note": "第10群試験登録。現行Met公式ID/PD/原画像JPEG取得とSHA256を照合。制作意図の直接記録は本作品では未検証。館の主題研究、図像と後世の反応を分けて説明。人間の最終画像視認と公開権利審査は未了。 制作年がAPI・個別作品ページで未記載なので推定年を付けず『不詳』と記録。 2026-10-19悲しみ追加：愛した虎を失った統治者が悲しむ物語であり、喪失の事実だけでなく嘆きが主題となる。"
       }
     },
     {
@@ -9782,11 +9815,13 @@
       "curation": {
         "emotions": [
           "喪失感",
-          "希望"
+          "希望",
+          "悲しみ"
         ],
         "emotion_strengths": {
           "喪失感": 2,
-          "希望": 2
+          "希望": 2,
+          "悲しみ": 1
         },
         "tones": [
           "緊張",
@@ -9833,7 +9868,9 @@
             "喪失感",
             "希望"
           ],
-          "secondary": []
+          "secondary": [
+            "悲しみ"
+          ]
         }
       },
       "review": {
@@ -9843,7 +9880,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第11群試験登録。Met現行公式Object APIに作品ID・帰属・所蔵番号・PDを照合。主画像JPEGを実取得・ハッシュ確認。制作意図と館の読解、鑑賞者の感情を分離。人間の実画像視認、解釈承認、公開時の権利審査は未了。"
+        "curatorial_review_note": "第11群試験登録。Met現行公式Object APIに作品ID・帰属・所蔵番号・PDを照合。主画像JPEGを実取得・ハッシュ確認。制作意図と館の読解、鑑賞者の感情を分離。人間の実画像視認、解釈承認、公開時の権利審査は未了。 2026-10-19悲しみ追加：決意して毒杯を受け取るソクラテスと、悲嘆に暮れる弟子たちとの対照が描かれる。"
       }
     },
     {
@@ -11373,11 +11410,13 @@
       "curation": {
         "emotions": [
           "喪失感",
-          "希望"
+          "希望",
+          "悲しみ"
         ],
         "emotion_strengths": {
           "喪失感": 3,
-          "希望": 3
+          "希望": 3,
+          "悲しみ": 1
         },
         "tones": [
           "重苦しさ",
@@ -11392,7 +11431,7 @@
         "source_context_note": "モレット・ダ・ブレシアの死の直前、故郷の信心会の私的礼拝堂に描かれた祭壇画。キリスト教の死と復活への信仰に基づく。",
         "evidence_url": "https://www.metmuseum.org/art/collection/search/437156",
         "search_profile": {
-          "summary_for_ai": "キリストの埋葬を描く1554年の祭壇画。Metは悲しむ顔と夜明けの光が、宗教的な喪失と希望を伝えると解説する。",
+          "summary_for_ai": "キリストの埋葬を描く1554年の祭壇画。Metは悲しむ顔と夜明けの光が、宗教的な喪失と希望を伝えると解説する。 悲しみへの接点：キリストを埋葬する人々の悲しげな顔をMetが説明し、夜明けの希望との対照がある。",
           "fitting_situations": [
             {
               "situation": "深い別れの悲しみと、そこに同時に存在する別の意味について考えたい",
@@ -11424,7 +11463,9 @@
             "喪失感",
             "希望"
           ],
-          "secondary": []
+          "secondary": [
+            "悲しみ"
+          ]
         }
       },
       "review": {
@@ -11434,7 +11475,7 @@
         "interpretation_human_approved": false,
         "curatorial_reviewed_on": "2026-10-19",
         "curatorial_review_status": "provisional",
-        "curatorial_review_note": "第12群暫定登録。Met公式APIとオープンJPEGを同一作品IDで直接検証、作者の言葉・館の読解・鑑賞者の接点を区別。公開前の人間の画像目視、内容審査と法的審査は未完了。"
+        "curatorial_review_note": "第12群暫定登録。Met公式APIとオープンJPEGを同一作品IDで直接検証、作者の言葉・館の読解・鑑賞者の接点を区別。公開前の人間の画像目視、内容審査と法的審査は未完了。 2026-10-19悲しみ追加：キリストを埋葬する人々の悲しげな顔をMetが説明し、夜明けの希望との対照がある。"
       }
     },
     {
