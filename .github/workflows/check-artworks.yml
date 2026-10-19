@@ -606,3 +606,30 @@ jobs:
           path: docs/batch016-online-result.json
           if-no-files-found: ignore
           retention-days: 14
+
+  research-batch017:
+    if: github.event_name == 'push' && contains(github.event.head_commit.message, '[research-batch017]')
+    needs: validate-format
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout candidates
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Setup Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: "3.12"
+      - name: Verify Met object ID, rights and JPEG SHA256 for 20 candidates
+        run: python3 scripts/research_batch017.py
+      - name: Archive evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: batch017-official-evidence
+          path: docs/batch017-online-result.json
+          if-no-files-found: ignore
+          retention-days: 14
