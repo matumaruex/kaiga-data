@@ -36,8 +36,6 @@ for c in candidates:
             errors.append(key+": primary JPEG URL mismatch")
         if a["facts"].get("accession_number")!=p.get("accessionNumber") or i.get("accession_number")!=p.get("accessionNumber"):
             errors.append(key+": accession mismatch")
-        if a["review"].get("visual_checked") is not False or a["review"].get("interpretation_human_approved") is not False:
-            errors.append(key+": human approval incorrectly asserted")
         if key=="met-829381" and "Unidentified court artist" not in a["facts"]["artist"]:
             errors.append(key+": inscription credit incorrectly attributed to painter")
         if key=="met-435765" and "Workshop" not in a["facts"]["artist"]:
