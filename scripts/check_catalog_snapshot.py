@@ -124,8 +124,12 @@ def main():
             else:
                 require(False, f"Batch {n}: unexpected status {ident} = {status}")
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    require("**試験登録：300作品**" in readme[:1800], "README current 300 work summary is stale")
-    require("画像台帳は**301件**" in readme[:1800], "README 301 source image summary is stale")
+    # The current summary is a named section. New editorial guidance may move it
+    # farther down the README, so never infer staleness from its byte offset.
+    heading = "## 現在の登録状況"
+    current_summary = readme.split(heading, 1)[1].split("\n## ", 1)[0] if heading in readme else ""
+    require("**試験登録：300作品**" in current_summary, "README current 300 work summary is stale")
+    require("画像台帳は**301件**" in current_summary, "README 301 source image summary is stale")
     if errors:
         print("FAIL: snapshot integrity", len(errors))
         for e in errors:
