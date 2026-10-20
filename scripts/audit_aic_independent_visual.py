@@ -87,7 +87,7 @@ def main():
         row={"id":r["id"],"title":r["title"],"registered_accession":r.get("accession_number"),"official_url":r.get("official_artwork_url")}
         source=r["image_source"]
         row["registered_image_sha256_expected"]=source.get("sha256")
-        url=source.get("verified_download_url")
+        url=source.get("verified_download_url") or source.get("download_url")
         src, src_raw, used, src_errors=first_image([url] if url else [])
         row["registered_image_fetch"]="ok" if src else "blocked"
         if src:
