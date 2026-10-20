@@ -8,6 +8,18 @@ ROOT = Path(__file__).resolve().parents[1]
 data = json.loads((ROOT / "data/artworks.json").read_text(encoding="utf-8"))
 vocab = json.loads((ROOT / "data/emotions.json").read_text(encoding="utf-8"))
 image_registry = json.loads((ROOT / "data/image-sources.json").read_text(encoding="utf-8"))
+KNOWN_ARTIST_NAMES = {
+    "Auguste Renoir": "Pierre-Auguste Renoir",
+    "Pierre-Auguste Renoir": "Pierre-Auguste Renoir",
+    "Edouard Manet": "Édouard Manet",
+    "Édouard Manet": "Édouard Manet",
+    "Paul Cezanne": "Paul Cézanne",
+    "Paul Cézanne": "Paul Cézanne",
+    "Rembrandt (Rembrandt van Rijn)": "Rembrandt van Rijn",
+    "Rembrandt van Rijn": "Rembrandt van Rijn",
+    "Domenico Theotokópoulos, called El Greco": "El Greco",
+    "El Greco": "El Greco",
+}
 errors = []
 seen = set()
 
@@ -21,6 +33,18 @@ for art in data.get("artworks", []):
     seen.add(ident)
     if art["source"]["artwork_id"] != int(ident.split("-")[-1]):
         errors.append(f"{ident}: ID不一致")
+    # Original attribution remains untouched; aliases are display/selection metadata only.
+    author_name = art["facts"].get("artist")
+    author_canonical = art["facts"].get("artist_canonical")
+    expected = KNOWN_ARTIST_NAMES.get(author_name)
+    if expected and author_canonical != expected:
+        errors.append(f"{ident}: 作者名の正規形が未設定または不一致")
+    if author_canonical is not None and (
+        not isinstance(author_canonical, str) or not author_canonical.strip()
+    ):
+        errors.append(f"{ident}: 作者名の正規形が空または不正")
+    if author_name == "Unidentified artist" and author_canonical:
+        errors.append(f"{ident}: 作者不詳を特定の同一人物として登録しない")
     if art["facts"]["type"] != "Painting":
         errors.append(f"{ident}: 絵画ではない")
     if art["facts"]["is_public_domain_at_source"] is not True:
