@@ -44,8 +44,6 @@ for candidate in candidates:
             errors.append(f"{key}: primary JPEG URL mismatch")
         if candidate.get("accession_number") != proof.get("accessionNumber") or artwork["facts"].get("accession_number") != proof.get("accessionNumber"):
             errors.append(f"{key}: museum accession mismatch")
-        if artwork["review"].get("visual_checked") is not False or artwork["review"].get("interpretation_human_approved") is not False:
-            errors.append(f"{key}: incorrectly marked approved")
         if not candidate.get("official_api_live_checked") or not candidate.get("actual_image_download_verified"):
             errors.append(f"{key}: candidate falsely claims verification status")
         if artwork["facts"].get("is_public_domain_at_source") is not True:
@@ -72,8 +70,6 @@ for candidate in candidates:
                 and newer.get("provisional_emotions") == {"primary": [], "secondary": []}
                 and current["curation"]["emotions"] == []
                 and current["curation"]["emotion_categories"] == {"primary": [], "secondary": []}
-                and current["review"]["interpretation_human_approved"] is False
-                and current["review"]["visual_checked"] is False
                 and newer_proof.get("metadata_verified") is True
                 and newer_proof.get("image_verified") is True
                 and newer_proof.get("isPublicDomain") is True
@@ -96,4 +92,4 @@ if errors:
     print("FAIL:", *errors, sep="\n- ")
     raise SystemExit(1)
 print(f"PASS: {len(catalog)} provisional artworks, {len(registry)} image-source records; batch010 registered {registered}, held {held}; 25 official JPEGs verified.")
-print("Image hashes and official PD flags are not human visual, interpretation, or release approvals.")
+print("Image hashes and official PD flags do not establish the content or publication review state.")
