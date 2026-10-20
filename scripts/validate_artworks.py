@@ -162,7 +162,7 @@ for art in data.get("artworks", []):
             else:
                 if any(vr[k] not in allowed for k in ("content_status", "source_status", "rights_status")):
                     errors.append(f"{ident}: 鑑賞者向け解説の検証状態が不正")
-                if not isinstance(vr["reviewed_on"], str) or not re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}", vr["reviewed_on"]):
+                if not isinstance(vr["reviewed_on"], str) or not re.fullmatch(r"[0-9]{4}-[0-9]{2}-[0-9]{2}", vr["reviewed_on"]):
                     errors.append(f"{ident}: 鑑賞者向け解説の検証日が不正")
                 if vr["content_status"] == "verified" and vr["source_status"] != "verified":
                     errors.append(f"{ident}: 原資料未照合の解説を内容検証済みにしている")
