@@ -152,8 +152,8 @@ for art in data.get("artworks", []):
     if not isinstance(profile, dict):
         errors.append(f"{ident}: 検索プロフィールがない")
     else:
-        if not isinstance(profile.get("summary_for_ai"), str) or not profile["summary_for_ai"].strip():
-            errors.append(f"{ident}: AI向け説明が空")
+        if "summary_for_ai" in profile:
+            errors.append(f"{ident}: 廃止したsummary_for_aiが残っている")
         situations = profile.get("fitting_situations", [])
         if not isinstance(situations, list) or not situations:
             errors.append(f"{ident}: 適合する状況の説明がない")
@@ -171,6 +171,9 @@ for art in data.get("artworks", []):
             "evidence_review_pending", "evidence_reviewed", "evidence_review_needs_revision"
         ):
             errors.append(f"{ident}: 検索プロフィールの資料レビュー状態が不正")
+    for obsolete in ("interpretation", "alternate_reading", "source_context_note"):
+        if obsolete in art["curation"]:
+            errors.append(f"{ident}: 廃止した項目 {obsolete} が残っている")
     # 各タグに必ず1〜3の強度を持たせ、作品選定で弱い印象を同列に扱わない
     weight = art["curation"].get("emotion_strengths", {})
     if set(weight) != set(art["curation"]["emotions"]):
@@ -204,7 +207,6 @@ for art in data.get("artworks", []):
         errors.append(f"{ident}: 証拠検証待ちの作品を公開承認済みにしている")
     for section, keys in (
         ("facts", ("title_original", "artist", "creation_date_display")),
-        ("curation", ("interpretation", "alternate_reading", "source_context_note")),
     ):
         if any(not art[section].get(key) for key in keys):
             errors.append(f"{ident}: {section}に必須項目の欠損")
