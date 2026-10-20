@@ -23,6 +23,7 @@ KNOWN_ARTIST_NAMES = {
 errors = []
 seen = set()
 duplicated_meaning_ids = []
+visitor_explanation_count = 0
 
 if data.get("schema_version") != vocab.get("schema_version"):
     errors.append("スキーマのバージョンが不一致")
@@ -140,6 +141,31 @@ for art in data.get("artworks", []):
             for tag in secondary:
                 if weights.get(tag) != 1:
                     errors.append(f"{ident}: 補助タグ {tag} は強度1とする")
+    # 鑑賞者向け本文はAI選定用の meaning_basis と独立。未作成作品はフィールド無し。
+    visitor = art.get("visitor_explanation")
+    if visitor is not None:
+        visitor_explanation_count += 1
+        if not isinstance(visitor, dict) or set(visitor) != {"language", "text", "source_urls", "review"}:
+            errors.append(f"{ident}: 鑑賞者向け解説の構造が不正")
+        else:
+            if visitor["language"] != "ja" or not isinstance(visitor["text"], str) or not visitor["text"].strip():
+                errors.append(f"{ident}: 鑑賞者向け日本語本文が不正")
+            urls = visitor["source_urls"]
+            if not isinstance(urls, list) or not urls or any(
+                not isinstance(u, str) or not u.startswith("https://") for u in urls
+            ) or len(urls) != len(set(urls)):
+                errors.append(f"{ident}: 鑑賞者向け解説の出典URLが不正")
+            vr = visitor["review"]
+            allowed = {"pending", "verified", "needs_revision"}
+            if not isinstance(vr, dict) or set(vr) != {"content_status", "source_status", "rights_status", "reviewed_on"}:
+                errors.append(f"{ident}: 鑑賞者向け解説のレビュー構造が不正")
+            else:
+                if any(vr[k] not in allowed for k in ("content_status", "source_status", "rights_status")):
+                    errors.append(f"{ident}: 鑑賞者向け解説の検証状態が不正")
+                if not isinstance(vr["reviewed_on"], str) or not re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}", vr["reviewed_on"]):
+                    errors.append(f"{ident}: 鑑賞者向け解説の検証日が不正")
+                if vr["content_status"] == "verified" and vr["source_status"] != "verified":
+                    errors.append(f"{ident}: 原資料未照合の解説を内容検証済みにしている")
     for category in ("emotions", "tones", "themes"):
         values = art["curation"][category]
         if len(values) != len(set(values)):
@@ -216,4 +242,5 @@ if errors:
     raise SystemExit(1)
 print(f"OK: {len(seen)}件。ID・形式・タグ・資料検証状態・必須項目を検証。")
 print(f"要精査: 専門家の解釈と制作背景が同文 {len(duplicated_meaning_ids)}件。")
+print(f"鑑賞者向け解説: {visitor_explanation_count}件（専用構造を検証）。")
 print("注記: 形式検証は原資料の正しさ、実画像との一致、解釈の妥当性を保証しない。")
