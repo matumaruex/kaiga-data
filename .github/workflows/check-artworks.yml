@@ -635,3 +635,33 @@ jobs:
           path: docs/batch017-online-result.json
           if-no-files-found: ignore
           retention-days: 14
+
+  # Record the core validation outcome as a classic commit status.
+  # ChatGPT's GitHub connector can read commit statuses without a workflow-run ID.
+  publish-validation-status:
+    name: Publish catalog validation status
+    if: ${{ always() }}
+    needs: [validate-format]
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      statuses: write
+    steps:
+      - name: Report validation result to commit status
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VALIDATION_RESULT: ${{ needs.validate-format.result }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ "$VALIDATION_RESULT" = "success" ]; then
+            STATE=success
+            DESCRIPTION="Artworks structural checks passed"
+          else
+            STATE=failure
+            DESCRIPTION="Artworks structural checks did not pass"
+          fi
+          gh api --method POST "repos/${GITHUB_REPOSITORY}/statuses/${GITHUB_SHA}" \
+            -f state="$STATE" \
+            -f context="museum-data/validate-format" \
+            -f description="$DESCRIPTION" \
+            -f target_url="$RUN_URL"
