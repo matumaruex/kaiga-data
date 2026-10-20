@@ -106,7 +106,10 @@ def main():
         require(all(t in vocabulary["emotions"] for t in tags), f"{ident}: invalid emotion")
         require(all(c["emotion_strengths"].get(t) in (2, 3) for t in primary), f"{ident}: primary strength wrong")
         require(all(c["emotion_strengths"].get(t) == 1 for t in secondary), f"{ident}: secondary strength wrong")
-        require(bool(c["search_profile"]["summary_for_ai"]), f"{ident}: missing AI summary")
+        require("summary_for_ai" not in c["search_profile"], f"{ident}: obsolete AI summary still present")
+        require(all(k not in c for k in ("interpretation", "source_context_note", "alternate_reading")),
+                f"{ident}: obsolete legacy explanation still present")
+        require(bool(c["meaning_basis"]["scholarly_interpretation"]["summary"]), f"{ident}: missing meaning basis")
     require(highcount == EXPECTED_HIGH_RES, f"Expected {EXPECTED_HIGH_RES} high-res source records, got {highcount}")
     require(canonicalcount == 21, f"Expected 21 canonical artist records, got {canonicalcount}")
     for n in range(16, 23):
