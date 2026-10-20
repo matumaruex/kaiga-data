@@ -26,6 +26,8 @@ jobs:
           python-version: "3.12"
       - name: Verify exhibition data structure
         run: python3 scripts/validate_artworks.py
+      - name: Verify stable 300-work snapshot and interrupted-edit guards
+        run: python3 scripts/check_catalog_snapshot.py
       - name: Verify candidate data structure
         run: python3 scripts/validate_candidates.py
       - name: Verify batch-003 candidate structure
