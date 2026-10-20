@@ -529,32 +529,28 @@
       "verified_source_details": null
     },
     {
-      "candidate_id": "met-436105",
-      "museum_object_id": 436105,
-      "official_url": "https://www.metmuseum.org/art/collection/search/436105",
-      "title_ja_provisional": "ソクラテスの死",
-      "meaning_summary": "ダヴィッドが権力に屈せず信念に従って毒杯を取ろうとするソクラテスを描いた新古典主義の歴史画。",
-      "visual_clues": "毒杯に伸ばすソクラテスと見守る弟子たち。",
+      "candidate_id": "met-436174",
+      "museum_object_id": 436174,
+      "official_url": "https://www.metmuseum.org/art/collection/search/436174",
+      "title_ja_provisional": "アイロン掛けをする女",
+      "meaning_summary": "ドガが洗濯女の繰り返す専門的な動作に着目して描いた、同じ構図の3つの版の最初の作品。白い光の前に人物のシルエットが際立つ。",
+      "visual_clues": "白い背景の光を背に、アイロン作業をする女性の身振り。",
       "provisional_emotions": {
-        "primary": [
-          "畏敬"
-        ],
-        "secondary": [
-          "悲しみ"
-        ]
+        "primary": [],
+        "secondary": []
       },
-      "fitting_situation": "正義や信念と死への向き合い方を考えたい",
-      "interpretation_caution_ja": "描写は古典史料に基づく構成で、ソクラテスの最後の感情を直接記録したものではない。",
+      "fitting_situation": "仕事中の姿や動きを描く画家の観察眼に触れたい",
+      "interpretation_caution_ja": "繰り返す仕事を描いたことから作者の苦悩や女性本人の不幸を断定しない。",
       "themes": [
-        "時間",
-        "共同体"
+        "日常",
+        "時間"
       ],
       "tones": [
-        "緊張",
         "余韻"
       ],
       "author_intent_status": "not_verified_for_this_work",
-      "verified_source_details": null
+      "verified_source_details": null,
+      "selection_note": "Replaces duplicate registered artwork met-436105, which must not be re-added."
     },
     {
       "candidate_id": "met-49475",
@@ -779,5 +775,7 @@
     }
   ],
   "replaces_held_candidate": "met-78153",
-  "total_new_candidates": 31
+  "total_new_candidates": 31,
+  "rejected_duplicate_candidate": "met-436105",
+  "duplicate_replacement": "met-436174"
 }
