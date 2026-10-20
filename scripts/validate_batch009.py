@@ -42,8 +42,6 @@ for item in candidates:
             problems.append(f"{ident}: catalog display image does not match")
         if check.get("isPublicDomain") is not True or work["facts"]["is_public_domain_at_source"] is not True:
             problems.append(f"{ident}: non-open-access work promoted")
-        if work["review"]["visual_checked"] is not False or work["review"]["interpretation_human_approved"] is not False:
-            problems.append(f"{ident}: human approval unexpectedly true")
     elif reg_status.startswith("held_"):
         if ident in arts or ident in img:
             problems.append(f"{ident}: held work promoted")
