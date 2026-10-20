@@ -45,7 +45,7 @@ def check(c):
     return r
 def main():
     cs=json.loads((ROOT/"data/candidates-batch-022.json").read_text("utf-8"))["works"]
-    if len(cs)!=30:raise ValueError("Expected 30 candidates")
+    if len(cs)!=31:raise ValueError("Expected 31 candidates")
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as p:rows=list(p.map(check,cs))
     report={"checked":len(rows),"metadata_pass":sum(x["metadata_verified"] for x in rows),"image_pass":sum(x["image_verified"] for x in rows),"results":rows}
     (ROOT/"artifacts").mkdir(exist_ok=True)
@@ -54,5 +54,5 @@ def main():
     print("BATCH022_EVIDENCE_START",flush=True)
     print(json.dumps(report,ensure_ascii=False,separators=(",",":")),flush=True)
     print("BATCH022_EVIDENCE_END",flush=True)
-    if report["metadata_pass"]!=30 or report["image_pass"]!=30:raise SystemExit("Not all candidates ready")
+    if report["metadata_pass"]!=31 or report["image_pass"]!=31:raise SystemExit("Not all candidates ready")
 if __name__=="__main__":main()
