@@ -1,0 +1,26 @@
+name: Verify batch 022 Met source
+on:
+  push:
+    paths:
+      - "scripts/research_batch022.py"
+      - "data/candidates-batch-022.json"
+      - ".github/workflows/verify-batch022.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.12"
+      - run: python3 scripts/research_batch022.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: batch022-evidence
+          path: artifacts/batch022-evidence.json
+          if-no-files-found: warn
