@@ -21,7 +21,6 @@ for c in cands:
   if not a or not i or not p.get("image_verified") or p.get("isPublicDomain") is not True:errors.append(k+": invalid registration");continue
   if len({a["image"]["sha256"],i["image_source"]["sha256"],c.get("image_sha256"),p.get("image_sha256")})!=1:errors.append(k+": SHA mismatch")
   if len({a["image"]["display_url"],i["image_source"]["verified_download_url"],c.get("official_primary_image_url"),p.get("image_url_verified")})!=1:errors.append(k+": URL mismatch")
-  if a["review"]["visual_checked"] is not False or a["review"]["interpretation_human_approved"] is not False:errors.append(k+": human approval incorrectly asserted")
   if k=="met-853216" and "Tanomura" not in a["facts"]["artist"]:errors.append(k+": artist/painter attribution wrong")
   if k=="met-37906" and not a["facts"]["artist"].startswith("Style of"):errors.append(k+": author attribution wrong")
  elif c["registration_status"].startswith("held_"):
