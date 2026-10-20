@@ -2,6 +2,16 @@
 
 > **現行状況（2026-10-20）**：このページの選定「未実装」は企画当時の記録。現在は共有DB300作品、アプリの `codex/museum-preview` ブランチでAI選定の試験実装が稼働。新しい作品数・動作状態はREADMEとGitHubの最新実装を確認。
 
+## 2026-10-20以降の検証ルール
+
+専門的な作品情報の確認・AIによる分析・資料との照合を作業の中心とし、人間による美術史上の最終承認を必須としない。鑑賞者の感想は自由な任意の評価とする。
+
+作品の検証状態は `review.ai_content_review_status`（解釈のAI検証）、`review.source_evidence_review_status`（出典との照合）、`review.image_subject_match_status`（画像と作品の一致）で管理する。各状態は `pending`、`verified`、`needs_revision` のいずれか。検証をしていない項目を確認済みにしない。 `curation.search_profile.review_status` は `evidence_review_pending` / `evidence_reviewed` / `evidence_review_needs_revision` とする。
+
+`review.curatorial_review_status=approved` は上記の3項目が `verified` の場合だけ使用でき、人間の承認を意味しない。暫定状態の作品は試験展示に使用できるが、未確認の解釈を確定事項として提示しない。権利条件が不明な場合は再利用を保留する。
+
+現在の300作品には新状態を設定済み。「専門家の解釈」と「制作背景」が同文の146件はAI内容レビュー `needs_revision`、残り154件は `pending`。出典内容と画像同定の新方式での照合は全件 `pending`。従来の人間承認フラグは廃止し、過去の「人間未承認」記載は当時の履歴としてのみ扱う。詳細は [レビュー手順](review-guide.md) を参照。
+
 ## 目的
 利用者の自由な感情から**作者が表現しようとした世界**に出会える、個人の企画展を作る。見た目の感情を当てるだけではなく、作者の意図と専門的な解釈を優先する。
 感情は展示への入口で、鑑賞の意味や反応を固定しない。目標は鑑賞体験の品質と、将来のAI API利用料の節約。作品データは2つの異なる美術館アプリで再利用する。
