@@ -26,6 +26,13 @@ seen = set()
 if data.get("schema_version") != vocab.get("schema_version"):
     errors.append("スキーマのバージョンが不一致")
 
+# Met's artistDisplayName can be simplified; their human-readable artwork
+# pages explicitly qualify these two attributions. Keep the uncertainty.
+OFFICIAL_ATTRIBUTION_GUARDS = {
+    "met-437412": "Style of Rembrandt (Rembrandt van Rijn)",
+    "met-57280": "School of Katsushika Hokusai",
+}
+
 for art in data.get("artworks", []):
     ident = art["id"]
     if ident in seen:
@@ -45,6 +52,11 @@ for art in data.get("artworks", []):
         errors.append(f"{ident}: 作者名の正規形が空または不正")
     if author_name == "Unidentified artist" and author_canonical:
         errors.append(f"{ident}: 作者不詳を特定の同一人物として登録しない")
+    if ident in OFFICIAL_ATTRIBUTION_GUARDS:
+        if art["facts"].get("artist") != OFFICIAL_ATTRIBUTION_GUARDS[ident]:
+            errors.append(f"{ident}: Met公式作品ページの不確実性を含む帰属表記と異なる")
+        if art["facts"].get("artist_canonical"):
+            errors.append(f"{ident}: School/Style作品を本人の確定作として統合している")
     if art["facts"]["type"] != "Painting":
         errors.append(f"{ident}: 絵画ではない")
     if art["facts"]["is_public_domain_at_source"] is not True:
