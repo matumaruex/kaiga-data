@@ -43,7 +43,29 @@ for c in candidates:
     elif str(c.get("registration_status") or "").startswith("held_"):
         held+=1
         if k in artworks or k in images:
-            errors.append(k+": held item mistakenly promoted")
+            # Historical batch012 hold was about unsupported emotions, not identity/PD.
+            # Batch021 independently verifies the same painting without emotion tags.
+            latest = {x["candidate_id"]: x for x in read("data/candidates-batch-021.json")["works"]}
+            recent_proofs = {x["id"]: x for x in read("docs/batch021-online-result.json")["results"]}
+            a=artworks.get(k);i=images.get(k);new=latest.get(k);recent=recent_proofs.get(k)
+            justified = (
+                k == "met-45647" and a is not None and i is not None
+                and new is not None and recent is not None
+                and new.get("registration_status") == "registered_provisional"
+                and new.get("provisional_emotions") == {"primary": [], "secondary": []}
+                and new.get("historical_hold_preserved") is True
+                and a["curation"]["emotions"] == []
+                and a["curation"]["emotion_categories"] == {"primary": [], "secondary": []}
+                and a["review"]["visual_checked"] is False
+                and a["review"]["interpretation_human_approved"] is False
+                and recent.get("metadata_verified") is True
+                and recent.get("image_verified") is True
+                and recent.get("isPublicDomain") is True
+                and recent.get("classification") == "Paintings"
+                and recent.get("image_sha256") == a["image"]["sha256"] == i["image_source"]["sha256"]
+                and recent.get("image_url_verified") == a["image"]["display_url"] == i["image_source"]["verified_download_url"]
+            )
+            if not justified:errors.append(k+": held work promoted without justified independent tagless reassessment")
         if not c.get("curatorial_review_note"):
             errors.append(k+": missing hold reason")
     else:
