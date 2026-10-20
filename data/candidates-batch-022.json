@@ -649,22 +649,18 @@
       "verified_source_details": null
     },
     {
-      "candidate_id": "met-37907",
-      "museum_object_id": 37907,
-      "official_url": "https://www.metmuseum.org/art/collection/search/37907",
-      "title_ja_provisional": "恋人を待つ女（カクバー・ラーギニー）",
-      "meaning_summary": "恋人を待つ女性を主題とするラーガマーラの一図。戸口に立つ女性、空の寝台、侍女たちの仕草が待つ時間を示す。",
-      "visual_clues": "戸口で外を見つめる女性と空の寝台。",
+      "candidate_id": "met-37905",
+      "museum_object_id": 37905,
+      "official_url": "https://www.metmuseum.org/art/collection/search/37905",
+      "title_ja_provisional": "ディーパク・ラーガ",
+      "meaning_summary": "夜と恋人の親密さを表現する音楽旋法ディーパクの絵。伝承では演奏が火を起こし、画面では灯火を持つ二人の女が火を表す。",
+      "visual_clues": "宮廷の建築の中に立ち、灯りを持つ二人の女性。",
       "provisional_emotions": {
-        "primary": [
-          "期待"
-        ],
-        "secondary": [
-          "寂しさ"
-        ]
+        "primary": [],
+        "secondary": []
       },
-      "fitting_situation": "誰かを待つ時間の気持ちを絵の物語から考えたい",
-      "interpretation_caution_ja": "音楽・詩・絵画の型を踏まえ、作者本人の恋人を待つ思いではない。",
+      "fitting_situation": "音楽が火や夜の情景へと置き換えられる表現に触れたい",
+      "interpretation_caution_ja": "楽曲と絵画の伝統を踏まえ、図像から作者個人の恋愛感情を推定しない。",
       "themes": [
         "愛情",
         "時間"
@@ -673,7 +669,8 @@
         "余韻"
       ],
       "author_intent_status": "not_verified_for_this_work",
-      "verified_source_details": null
+      "verified_source_details": null,
+      "selection_note": "Replaces already cataloged artwork met-37907; verify independently."
     },
     {
       "candidate_id": "met-48984",
@@ -699,27 +696,31 @@
       "verified_source_details": null
     },
     {
-      "candidate_id": "met-73161",
-      "museum_object_id": 73161,
-      "official_url": "https://www.metmuseum.org/art/collection/search/73161",
-      "title_ja_provisional": "月光を浴びる梅",
-      "meaning_summary": "清代の童鈺が、月の光の中に梅を描いた掛軸。画中詩は霧の晴れる山と季節の移り変わりを歌う。",
-      "visual_clues": "月光と梅の姿を水墨で描く。",
+      "candidate_id": "met-436123",
+      "museum_object_id": 436123,
+      "official_url": "https://www.metmuseum.org/art/collection/search/436123",
+      "title_ja_provisional": "『悪魔ロベール』のバレエ",
+      "meaning_summary": "ドガがオペラ『悪魔ロベール』の第三幕を描いた。月明かりの修道院跡で死者の修道女たちが舞い、中央の観客は舞台ではなく客席を双眼鏡で見つめる。",
+      "visual_clues": "修道院跡の舞台と客席、客席に視線を向ける男性。",
       "provisional_emotions": {
-        "primary": [],
+        "primary": [
+          "好奇心"
+        ],
         "secondary": []
       },
-      "fitting_situation": "月光の中の梅に時間が表れる様子を見たい",
-      "interpretation_caution_ja": "詩の落ち着きと作者個人の安堵を結び付けない。",
+      "fitting_situation": "舞台とそれを見る観客の奇妙な視線を探りたい",
+      "interpretation_caution_ja": "上演中の劇の怪異と現実の超自然現象を混同しない。ドガの関心は舞台と観客の両方にある。",
       "themes": [
-        "自然",
+        "共同体",
         "時間"
       ],
       "tones": [
-        "静けさ"
+        "余韻",
+        "にぎわい"
       ],
       "author_intent_status": "not_verified_for_this_work",
-      "verified_source_details": null
+      "verified_source_details": null,
+      "selection_note": "Replaces already cataloged artwork met-73161; verify independently."
     },
     {
       "candidate_id": "met-37851",
@@ -777,5 +778,15 @@
   "replaces_held_candidate": "met-78153",
   "total_new_candidates": 31,
   "rejected_duplicate_candidate": "met-436105",
-  "duplicate_replacement": "met-436174"
+  "duplicate_replacement": "met-436174",
+  "rejected_duplicate_candidates": [
+    "met-436105",
+    "met-37907",
+    "met-73161"
+  ],
+  "duplicate_replacements": [
+    "met-436174",
+    "met-37905",
+    "met-436123"
+  ]
 }
