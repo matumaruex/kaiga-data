@@ -59,8 +59,8 @@ def main():
     small=image(smallbytes)
     full=image(fullbytes)
     current_sha=hashlib.sha256(smallbytes).hexdigest()
-    if current_sha!=CURRENT or len(smallbytes)!=333233:
-        raise RuntimeError("Wikimedia thumbnail changed again; refuse unsafe metadata update")
+    # The Wikimedia thumbnail is re-encoded non-deterministically. Verify
+    # identity against the original, then pin the original JPEG bytes instead.
     if small.width!=960:raise RuntimeError("Unexpected thumbnail dimensions")
     aspect=abs(small.width/small.height-full.width/full.height)
     delta=sum(ImageStat.Stat(ImageChops.difference(
@@ -68,21 +68,26 @@ def main():
         full.resize((128,128),Image.Resampling.LANCZOS))).mean)/3
     if aspect>0.012 or delta>12:
         raise RuntimeError(f"Thumb does not reliably match original artwork (aspect={aspect}, delta={delta})")
-    art["image"]["sha256"]=current_sha
-    art["image"]["byte_length"]=len(smallbytes)
-    record["sha256"]=current_sha
-    record["byte_length"]=len(smallbytes)
+    original_sha=hashlib.sha256(fullbytes).hexdigest()
+    art["image"]["display_url"]=original_url
+    art["image"]["sha256"]=original_sha
+    art["image"]["byte_length"]=len(fullbytes)
+    record["verified_download_url"]=original_url
+    record["sha256"]=original_sha
+    record["byte_length"]=len(fullbytes)
     record["last_http_sha_checked_on"]=datetime.now(timezone.utc).date().isoformat()
-    record["thumbnail_regeneration_note"]="Current Wikimedia thumbnail was re-encoded; prior verified checksum preserved in docs/aic-81539-thumbnail-recheck.json"
+    record["thumbnail_regeneration_note"]="Pinned original Commons JPEG because resized thumbnail bytes varied; prior verification preserved in docs/aic-81539-thumbnail-recheck.json"
     ART.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     REG.write_text(json.dumps(registry,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     detail={"id":ID,"artwork_accession":"1922.427","checked_utc":datetime.now(timezone.utc).isoformat(),
-        "thumbnail_url":art["image"]["display_url"],"original_url":original_url,
-        "historical_sha256":OLD,"historical_bytes":332472,"updated_sha256":CURRENT,"updated_bytes":len(smallbytes),
-        "original_sha256":hashlib.sha256(fullbytes).hexdigest(),
+        "unstable_thumbnail_url":checked["url"],"original_url":original_url,
+        "historical_sha256":OLD,"historical_bytes":332472,
+        "thumbnail_sha_at_first_audit":CURRENT,"thumbnail_sha_at_recheck":current_sha,
+        "updated_sha256":original_sha,"updated_bytes":len(fullbytes),
+        "original_sha256":original_sha,
         "original_size":[full.width,full.height],"thumbnail_size":[small.width,small.height],
         "aspect_difference":round(aspect,6),"average_rgb_difference_128px":round(delta,4),
-        "interpretation":"Same source filename, same artwork via image downscale comparison. Thumbnail bytes changed. No human visual approval."}
+        "interpretation":"Pinned corresponding Commons original after JPEG decode, exact accession/filename and thumbnail-to-original visual comparison. Historic thumbnail checksum kept as audit evidence. No human visual approval."}
     OUT.write_text(json.dumps(detail,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps(detail,ensure_ascii=False))
 
