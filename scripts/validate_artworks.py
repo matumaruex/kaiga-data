@@ -22,6 +22,7 @@ KNOWN_ARTIST_NAMES = {
 }
 errors = []
 seen = set()
+duplicated_meaning_ids = []
 
 if data.get("schema_version") != vocab.get("schema_version"):
     errors.append("スキーマのバージョンが不一致")
@@ -114,6 +115,16 @@ for art in data.get("artworks", []):
         for label in ("creation_context", "visual_clues", "uncertainty_note"):
             if not isinstance(meaning.get(label), str) or not meaning[label].strip():
                 errors.append(f"{ident}: {label}が空")
+        # 同文は形式上の自動不合格にせず、品質再調査の対象として記録。
+        if (
+            isinstance(scholarly, dict)
+            and isinstance(scholarly.get("summary"), str)
+            and isinstance(meaning.get("creation_context"), str)
+            and scholarly["summary"].strip() == meaning["creation_context"].strip()
+        ):
+            duplicated_meaning_ids.append(ident)
+            if art["review"].get("ai_content_review_status") != "needs_revision":
+                errors.append(f"{ident}: 同文を要修正として記録していない")
         primary = groups.get("primary")
         secondary = groups.get("secondary")
         if not isinstance(primary, list) or len(primary) > 2 or not isinstance(secondary, list) or len(secondary) > 2:
@@ -156,8 +167,10 @@ for art in data.get("artworks", []):
         cautions = profile.get("selection_cautions", [])
         if not isinstance(cautions, list) or not cautions or any(not isinstance(c, str) or not c.strip() for c in cautions):
             errors.append(f"{ident}: 選定上の注意点が空")
-        if profile.get("review_status") not in ("draft_not_human_approved", "draft_source_unverified", "human_approved"):
-            errors.append(f"{ident}: 検索プロフィールのレビュー状態が不正")
+        if profile.get("review_status") not in (
+            "evidence_review_pending", "evidence_reviewed", "evidence_review_needs_revision"
+        ):
+            errors.append(f"{ident}: 検索プロフィールの資料レビュー状態が不正")
     # 各タグに必ず1〜3の強度を持たせ、作品選定で弱い印象を同列に扱わない
     weight = art["curation"].get("emotion_strengths", {})
     if set(weight) != set(art["curation"]["emotions"]):
@@ -167,10 +180,28 @@ for art in data.get("artworks", []):
             errors.append(f"{ident}: {tag}に不正な強度")
     if not art["curation"].get("evidence_url", "").startswith("https://"):
         errors.append(f"{ident}: 参照資料URLがない")
-    if art["review"].get("curatorial_review_status") not in ("provisional", "approved", "needs_revision"):
+    review = art["review"]
+    if review.get("curatorial_review_status") not in ("provisional", "approved", "needs_revision"):
         errors.append(f"{ident}: キュレーション状態が不正")
-    if art["review"].get("interpretation_human_approved") is True and art["review"].get("curatorial_review_status") != "approved":
-        errors.append(f"{ident}: 未承認なのに承認済み")
+    if "interpretation_human_approved" in review:
+        errors.append(f"{ident}: 廃止した人間承認フラグが残っている")
+    for field in (
+        "ai_content_review_status",
+        "source_evidence_review_status",
+        "image_subject_match_status",
+    ):
+        if review.get(field) not in ("pending", "verified", "needs_revision"):
+            errors.append(f"{ident}: {field} の検証状態が不正")
+    # approved は証拠と内容の確認済みを意味する（人間の承認ではない）。
+    if review.get("curatorial_review_status") == "approved" and any(
+        review.get(field) != "verified"
+        for field in (
+            "ai_content_review_status",
+            "source_evidence_review_status",
+            "image_subject_match_status",
+        )
+    ):
+        errors.append(f"{ident}: 証拠検証待ちの作品を公開承認済みにしている")
     for section, keys in (
         ("facts", ("title_original", "artist", "creation_date_display")),
         ("curation", ("interpretation", "alternate_reading", "source_context_note")),
@@ -181,4 +212,6 @@ for art in data.get("artworks", []):
 if errors:
     print("NG:", *errors, sep="\n- ")
     raise SystemExit(1)
-print(f"OK: {len(seen)}件。ID・形式・タグ・必須項目を検証。画像URLの実通信、感情解釈の妥当性は未検証。")
+print(f"OK: {len(seen)}件。ID・形式・タグ・資料検証状態・必須項目を検証。")
+print(f"要精査: 専門家の解釈と制作背景が同文 {len(duplicated_meaning_ids)}件。")
+print("注記: 形式検証は原資料の正しさ、実画像との一致、解釈の妥当性を保証しない。")
