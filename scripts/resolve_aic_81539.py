@@ -41,7 +41,7 @@ def main():
     art=next(x for x in data["artworks"] if x["id"]==ID)
     record=next(x["image_source"] for x in registry["records"] if x["id"]==ID)
     checked=next(x for x in evidence["records"] if x["id"]==ID)
-    if art["facts"]["title_original"]!="On the Bank of the Seine, Bennecourt" or art["facts"]["accession_number"]!="1922.427":
+    if art["facts"]["title_original"]!="On the Bank of the Seine, Bennecourt" or art["image"]["source_accession_number"]!="1922.427":
         raise RuntimeError("Artwork identity changed")
     if checked["sha256"]!=CURRENT or checked["status"]!="content_changed":
         raise RuntimeError("Measured source evidence changed")
