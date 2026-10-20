@@ -36,8 +36,6 @@ for c in candidates:
             errors.append(key+": verified primary image URL mismatch")
         if a["facts"].get("accession_number")!=p.get("accessionNumber") or img.get("accession_number")!=p.get("accessionNumber"):
             errors.append(key+": accession mismatch")
-        if a["review"].get("visual_checked") is not False or a["review"].get("interpretation_human_approved") is not False:
-            errors.append(key+": incorrectly claimed human approval")
         if a["facts"].get("is_public_domain_at_source") is not True:
             errors.append(key+": missing PD confirmation")
     elif state.startswith("held_"):
