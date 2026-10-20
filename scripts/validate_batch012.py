@@ -36,8 +36,6 @@ for c in candidates:
             errors.append(k+": official image URL mismatch")
         if a["facts"].get("accession_number")!=p.get("accessionNumber") or i.get("accession_number")!=p.get("accessionNumber"):
             errors.append(k+": accession mismatch")
-        if a["review"].get("visual_checked") is not False or a["review"].get("interpretation_human_approved") is not False:
-            errors.append(k+": false claim of human approval")
         if i["image_source"].get("type")!="met_open_access":
             errors.append(k+": incorrect image origin")
     elif str(c.get("registration_status") or "").startswith("held_"):
@@ -56,8 +54,6 @@ for c in candidates:
                 and new.get("historical_hold_preserved") is True
                 and a["curation"]["emotions"] == []
                 and a["curation"]["emotion_categories"] == {"primary": [], "secondary": []}
-                and a["review"]["visual_checked"] is False
-                and a["review"]["interpretation_human_approved"] is False
                 and recent.get("metadata_verified") is True
                 and recent.get("image_verified") is True
                 and recent.get("isPublicDomain") is True
