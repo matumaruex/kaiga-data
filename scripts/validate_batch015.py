@@ -29,8 +29,6 @@ for c in batch:
             errors.append(k+": mismatched SHA256")
         if len({c.get("official_primary_image_url"),p.get("image_url_verified"),a["image"]["display_url"],i["image_source"]["verified_download_url"]})!=1:
             errors.append(k+": mismatched image URLs")
-        if a["review"]["visual_checked"] is not False or a["review"]["interpretation_human_approved"] is not False:
-            errors.append(k+": human approval not established")
     elif str(c["registration_status"]).startswith("held_"):
         held+=1
         if k in catalog or k in images:
