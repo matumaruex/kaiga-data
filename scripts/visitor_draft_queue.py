@@ -2,6 +2,7 @@
 """通常チャットで制作する解説の下書き管理。AI呼び出し・自動生成は行わない。"""
 import argparse
 import copy
+import hashlib
 import json
 import re
 from pathlib import Path
@@ -143,12 +144,70 @@ def next_batch(root, count):
     return 0
 
 
+def explanation_sha256(visitor):
+    """本文・出典・レビュー状態を含む、承認対象の版を識別する。"""
+    canonical = json.dumps(visitor, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()
+
+
+def load_approvals(root):
+    """個別承認済みの作品IDと、その承認時点の解説のSHA-256を取得する。"""
+    path = root / "data/visitor-explanation-approvals.json"
+    if not path.is_file():
+        raise ValueError("個別承認台帳がありません（data/visitor-explanation-approvals.json）")
+    data = load(path)
+    if not isinstance(data, dict) or set(data) != {"approvals"} or not isinstance(data["approvals"], list):
+        raise ValueError("個別承認台帳の形式が不正です")
+    approved = {}
+    for item in data["approvals"]:
+        if not isinstance(item, dict) or set(item) != {"id", "visitor_sha256"}:
+            raise ValueError("個別承認台帳の項目形式が不正です")
+        ident, digest = item["id"], item["visitor_sha256"]
+        if not isinstance(ident, str) or not re.fullmatch(r"(?:aic|met)-[0-9]+", ident):
+            raise ValueError("個別承認台帳の作品IDが不正です")
+        if not isinstance(digest, str) or not re.fullmatch(r"[0-9a-f]{64}", digest):
+            raise ValueError(f"{ident}: 個別承認のSHA-256が不正です")
+        if ident in approved:
+            raise ValueError(f"{ident}: 個別承認台帳で作品IDが重複しています")
+        approved[ident] = digest
+    return approved
+
+
+def fingerprint(root, selected):
+    """ユーザーが確認した下書きの版を承認台帳に記録するための照合用出力。"""
+    errors, _ = validate(root, selected)
+    if errors:
+        raise ValueError("下書き検査不合格: " + "; ".join(errors))
+    for ident in sorted(selected):
+        visitor = load(root / "drafts/visitor-explanations" / (ident + ".json"))["visitor_explanation"]
+        review = visitor["review"]
+        print(
+            f"{ident} {explanation_sha256(visitor)} "
+            f"content={review['content_status']} source={review['source_status']} "
+            f"rights={review['rights_status']}"
+        )
+    return 0
+
+
 def promote(root, selected, approved):
     if not approved or not selected:
         raise ValueError("承認後にのみ、--idsと--approvedの両方を指定")
     errors, count = validate(root, selected)
     if errors:
         raise ValueError("下書き検査不合格: " + "; ".join(errors))
+    approvals = load_approvals(root)
+    for ident in sorted(selected):
+        visitor = load(root / "drafts/visitor-explanations" / (ident + ".json"))["visitor_explanation"]
+        review = visitor["review"]
+        if review["content_status"] != "verified" or review["source_status"] != "verified":
+            raise ValueError(f"{ident}: 本文と出典の両方がverifiedでなければ登録できません")
+        if review["rights_status"] == "needs_revision":
+            raise ValueError(f"{ident}: 権利に要修正事項があります")
+        if ident not in approvals:
+            raise ValueError(f"{ident}: ユーザーの個別承認が台帳にありません")
+        if approvals[ident] != explanation_sha256(visitor):
+            raise ValueError(f"{ident}: 承認後に本文・出典・レビュー状態が変わっています。再承認が必要")
+
     target = root / "data/artworks.json"
     data = load(target)
     original = copy.deepcopy(data)
@@ -176,6 +235,8 @@ def main():
     nxt = commands.add_parser("next")
     nxt.add_argument("--size", type=int, default=5)
     commands.add_parser("check")
+    fp = commands.add_parser("fingerprint")
+    fp.add_argument("--ids", nargs="+", required=True)
     pub = commands.add_parser("promote")
     pub.add_argument("--ids", nargs="+", required=True)
     pub.add_argument("--approved", action="store_true")
@@ -194,6 +255,8 @@ def main():
             for e in errors:
                 print("- " + e)
             return int(bool(errors))
+        if args.action == "fingerprint":
+            return fingerprint(root, set(args.ids))
         return promote(root, set(args.ids), args.approved)
     except (KeyError, ValueError, OSError, TypeError) as exc:
         parser.exit(1, f"エラー: {exc}\n")
