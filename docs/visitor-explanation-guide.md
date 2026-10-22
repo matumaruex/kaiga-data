@@ -136,6 +136,36 @@
 今後も **1回10件の本文と出典を先に提示して承認後に保存** する。日本語解説と出典は `data/artworks.json` の `visitor_explanation` が正本。
 `rights_status` は未確認のため `pending` とし、解説の事実確認を画像照合や既存選定レビューの完了とはみなさない。
 
+## 下書きから本番への登録ガード（2026-10-22）
+
+- 下書き保存・未着手抽出・形式チェックは従来どおり。未承認の下書きは `content_status=pending` のままでよい。
+- **本番登録（`promote`）は、本文と出典が両方 `verified`、権利欄が `needs_revision` ではないことを必須とする。** `rights_status=pending` は既存運用に合わせて保持できるが、著作権上の公開許可や利用権を確認済みとみなさない。
+- 上記とは別に、**ユーザーが実際に確認・承認した作品IDと、その時点の解説のSHA-256** を `data/visitor-explanation-approvals.json` の `approvals` に1件ずつ記録する。下書きがGitHubに存在する、第三者が監査した、または単に `--approved` を付けたというだけでは承認とみなさない。
+- SHA-256は `visitor_explanation` 全体（本文・出典URL・レビュー状態）を正規化したJSONから計算する。承認後に何かを編集したら照合が失敗するので、**再度本文を提示して承認を得てから** SHA-256を登録し直す。
+- 作品IDに承認記録がない・検証が未完了・承認時の内容と違う・既存の解説を上書きしようとした場合、登録コマンドは失敗し、本番DBは変更しない。複数IDの一括登録でも事前にすべてを検査する。
+- 台帳は誤操作防止と変更検知のための管理記録であり、承認者の本人確認や電子署名を行う仕組みではない。GitHubに書き込み権限を持つ者が台帳を編集できるため、**実際のユーザー承認はチャット等の原記録と照合する**。
+- Draft PRは未承認のまま本番データにマージしない。登録時も先にローカルのDBへ反映し、差分・作品検証・CI成功を確認してから別途マージを判断する。
+
+操作例（作品IDは承認された対象に置き換える）：
+
+```bash
+# 下書き検証。pendingのままでも保存・継続可能
+python3 scripts/visitor_draft_queue.py check
+
+# 独立監査とユーザーによる本文承認のあと、content/sourceをverifiedへ更新。
+# 承認対象のハッシュ値を表示（読み取り専用）
+python3 scripts/visitor_draft_queue.py fingerprint --ids met-10070
+
+# data/visitor-explanation-approvals.jsonのapprovalsへ
+# {"id": "met-10070", "visitor_sha256": "上記コマンドの64桁の値"} を記録
+
+# ID・ステータス・承認済みの内容が一致する場合だけ、ローカルDBを更新
+python3 scripts/visitor_draft_queue.py promote --ids met-10070 --approved
+
+# DB形式、差分、GitHub Actionsの結果をさらに確認
+python3 scripts/validate_artworks.py
+```
+
 ## チャットを変更したときの再開手順
 
 1. 最初に `README.md`、`docs/data-policy.md`、このガイド、`data/artworks.json` と検証器 `scripts/validate_artworks.py` を参照し、**実際の最新登録件数を再計算する**。古いチャットでの件数を正本にしない。
