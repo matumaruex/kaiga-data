@@ -15,7 +15,8 @@
 5. 各作品について`drafts/visitor-explanations/<作品ID>.json`を作業ブランチに追加。1件ごとに出典の該当箇所を根拠メモとして保存。未確認は未確認と記録。
 6. 5件保存ごとに`python3 scripts/visitor_draft_queue.py check`相当の形式検査を行い、次の5件へ進む。可能な範囲でまとめて実行する。ChatGPT側の時間制約・ツール許可があれば途中で止まる場合がある。
 7. 下書きPRで後からまとめて確認できる。本番`data/artworks.json`には**承認まで書き込まない**。現行`docs/visitor-explanation-guide.md`の10件ごとの報告・承認ルールは、正式な変更承認があるまで維持する。
-8. 承認された対象のみ、ローカルで`python3 scripts/visitor_draft_queue.py promote --ids <id1> <id2> --approved`。差分と`scripts/validate_artworks.py`を検証した後にDBへPRをマージ。スクリプトにはGitHubへの自動push機能はない。
+8. 独立した内容監査・出典照合を終えてユーザーが**本文の現在版を明示承認した対象**だけ、`content_status`と`source_status`を`verified`にする。`python3 scripts/visitor_draft_queue.py fingerprint --ids <id1> <id2>`で本文・出典・レビュー欄を含むSHA-256を表示し、`data/visitor-explanation-approvals.json`へ各作品IDと対応する`visitor_sha256`を個別登録する。下書き保存自体は未承認のままでよい。
+9. 承認記録を登録した対象だけ、ローカルで`python3 scripts/visitor_draft_queue.py promote --ids <id1> <id2> --approved`。スクリプトは未検証の本文・未承認ID・承認後に改稿した版・既存作品への上書きを拒否する。`rights_status=pending`は公開許可を意味しないので権利確認と区別する。差分と`scripts/validate_artworks.py`とPRのCIを検証してから、別途マージを判断する。スクリプトにはGitHubへの自動push機能はない。
 
 ### 下書き形式（**データ構造の例であり、実作品の解説ではない**）
 
