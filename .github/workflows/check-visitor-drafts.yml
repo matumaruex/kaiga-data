@@ -4,6 +4,8 @@ on:
     paths:
       - 'drafts/visitor-explanations/**'
       - 'scripts/visitor_draft_queue.py'
+      - 'data/visitor-explanation-approvals.json'
+      - 'tests/test_visitor_draft_promotion.py'
       - '.github/workflows/check-visitor-drafts.yml'
   workflow_dispatch:
 permissions:
@@ -21,3 +23,5 @@ jobs:
           python-version: '3.12'
       - name: Validate explanation draft schema and prevent overwrite
         run: python3 scripts/visitor_draft_queue.py check
+      - name: Verify promotion cannot bypass individual approval
+        run: python3 -m unittest discover -s tests -p 'test_visitor_draft_promotion.py' -v
