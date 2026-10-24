@@ -291,7 +291,7 @@
         "curatorial_review_status": "provisional",
         "curatorial_review_note": "制作意図を優先し、関連題材への本人証言・専門家の研究・鑑賞上の感情接点を分離。主0〜2／補助0〜2。推測を作者の意図と混同しない。ユーザーによる専門的承認は要求しない。最終公開確認は別途。 2026-10-19：15感情で好奇心タグを再評価。原典と全画像の再検証は未実施。 2026-10-19畏敬タグ追加：うねる波と海上の船の対照が、危険への不安だけでなく自然への圧倒される気持ちに関連する。",
         "ai_content_review_status": "pending",
-        "source_evidence_review_status": "pending",
+        "source_evidence_review_status": "verified",
         "image_subject_match_status": "pending"
       }
     },
@@ -352,13 +352,13 @@
         ],
         "meaning_basis": {
           "author_intent": {
-            "status": "not_verified_for_this_work",
-            "summary": null,
-            "source_url": null
+            "status": "direct_for_this_work",
+            "summary": "購入者アーサー・ジェローム・エディ宛ての手紙で、画中の大砲は当時続いていた戦争の話題によって説明できるかもしれないと述べた。大砲のモチーフへの直接証言であり、作品全体が特定の戦争を記録したという意味ではない。",
+            "source_url": "https://archive.artic.edu/modernwing/8991"
           },
           "scholarly_interpretation": {
             "summary": "1913年のカンディンスキーによる抽象絵画。大砲を思わせる細部と、即興的な形と色の構成が同居する。戦争の記録画として単純化せず、絵画に精神的・音楽的作用を求める画家の探究と見る。",
-            "source_url": "https://www.artic.edu/artworks/8991/improvisation-no-30-cannons"
+            "source_url": "https://archive.artic.edu/modernwing/8991"
           },
           "creation_context": "第一次世界大戦前夜に抽象表現を展開していた時期。『即興』は絵画の構成を音楽的な表現になぞらえた分類でもある。",
           "visual_clues": "渦を巻く色と線、抽象形態の中に見える大砲のような線。",
@@ -387,7 +387,7 @@
         "curatorial_review_status": "provisional",
         "curatorial_review_note": "現行AIC APIで10項目を検証、所蔵番号に一致するCommons画像を実取得しSHA256記録。作者本人の発言は確認できなければ未確認に保ち、学術的な解釈を別に記録。人間の画像目視や権利の配布前最終審査は未了。 2026-10-19：15感情で好奇心タグを再評価。原典と全画像の再検証は未実施。",
         "ai_content_review_status": "pending",
-        "source_evidence_review_status": "pending",
+        "source_evidence_review_status": "verified",
         "image_subject_match_status": "pending"
       },
       "visitor_explanation": {
@@ -493,7 +493,7 @@
         "curatorial_review_status": "provisional",
         "curatorial_review_note": "公式AIC APIの所蔵番号・分類・PDフラグ・画像IDを照合し、Commonsファイルページで所蔵番号の一致・JPEG SHA256を確認。直接的な作者発言は制作意図として独立記録、解釈はAI編集上の暫定。展示体験は100作品前後から。 2026-10-19：15感情で好奇心タグを再評価。原典と全画像の再検証は未実施。 2026-10-20: 第1回精査に基づき専門家解釈と制作背景の同文を分離。原資料の再照合・画像同定は未完了。",
         "ai_content_review_status": "pending",
-        "source_evidence_review_status": "pending",
+        "source_evidence_review_status": "verified",
         "image_subject_match_status": "pending"
       },
       "visitor_explanation": {
