@@ -1,0 +1,105 @@
+{
+  "batch": 6,
+  "review_date": "2026-10-27",
+  "baseline_commit": "11bca52aca4693be869b8f5f9f98f2b50c1c87e4",
+  "scope": "本文と出典文章の照合。執筆者による再点検で第三者監査ではない。",
+  "image_review": "not_completed; official image download attempt returned HTTP403",
+  "rights_review": "pending",
+  "items": [
+    {
+      "id": "met-435977",
+      "verdict": "no_text_issue_found",
+      "support_summary": "小型板絵、アラスの二画家の模写、probably1860sとabout1873、Cléophasへの贈与と別アトリエが一致。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/435977",
+          "location": "冒頭、30.13",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "この小さな《母と子》は…",
+          "suggestion": "交流史は具体的だが、画面の説明が少ない。画像確認または作品カタログで母子の構成・技法を補足する余地。"
+        }
+      ],
+      "draft_sha256": "e64340b9d972781e48933f764fc15c913488af8ef851744bf7c8c982a8063d57"
+    },
+    {
+      "id": "met-435978",
+      "verdict": "no_text_issue_found",
+      "support_summary": "1860年代のほか四作のミューズ、憂いの気配、Emma Dobignyのmayの留保を保持。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/435978",
+          "location": "冒頭、29.100.193",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "ただし、その同定は確定していません。",
+          "suggestion": "直前の『かもしれません』と重複。画面の持物など作品固有の観察を追加できれば、そのスペースへ置換する。"
+        }
+      ],
+      "draft_sha256": "7aaa9fe29f2b0a113fa50d809267f92deaf435c376a36a155f2841af722d6120"
+    },
+    {
+      "id": "met-435997",
+      "verdict": "no_text_issue_found",
+      "support_summary": "1880年サロン時の複数文学説、注文主、先行作と複製による人気に対応。衣の動作を小説から転用する箇所は既に削除されている。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/435997",
+          "location": "冒頭2段落、87.15.134",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "したがって、題名から…",
+          "suggestion": "説明の留保を一文にまとめ、画像照合後に二人の動作を入口として加えると鑑賞文として読みやすい。"
+        }
+      ],
+      "draft_sha256": "564abf56b5b8edf9b7973a69e608cd26b05b44b6ea2d587a901805d37ca6429f"
+    },
+    {
+      "id": "met-436005",
+      "verdict": "no_text_issue_found",
+      "support_summary": "1869年8月エトルタ、干潮・二艘・空の比重、当時の波の絵との対比を確認。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/436005",
+          "location": "冒頭、29.100.566",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "34fb459ca9f46a1ddeafd712ecf7d553d3f4ddc08ff387f07429cfe96b042145"
+    },
+    {
+      "id": "met-436053",
+      "verdict": "no_text_issue_found",
+      "support_summary": "人物・金地の対比、1476年の祭壇画頂部、ロンドンの主要部と別祭壇画部材の再構成・分離に対応。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/436053",
+          "location": "冒頭2段落、13.178",
+          "result": "read"
+        },
+        {
+          "url": "https://www.nationalgallery.org.uk/paintings/carlo-crivelli-the-demidoff-altarpiece",
+          "location": "In-depth、San Domenico・Demidoff・1961・MetのLamentation",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "b1ae39ec7670a49fa70350aaf072bf1701c43a5138cda0ce2118cf8f9ef07a79"
+    }
+  ]
+}
