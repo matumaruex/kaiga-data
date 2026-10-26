@@ -1,0 +1,90 @@
+{
+  "batch": 7,
+  "review_date": "2026-10-27",
+  "baseline_commit": "11bca52aca4693be869b8f5f9f98f2b50c1c87e4",
+  "scope": "本文と出典文章の照合。執筆者による再点検で第三者監査ではない。",
+  "image_review": "not_completed; official image download attempt returned HTTP403",
+  "rights_review": "pending",
+  "items": [
+    {
+      "id": "met-436176",
+      "verdict": "no_text_issue_found",
+      "support_summary": "反復制作、海と舟の比重の変化、ゴッホの1886年の鑑賞と色彩評価は所蔵館本文に対応。後代の評価を作者の意図と混同していない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/436176",
+          "location": "解説L10–11、年代欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "98ce8196fe08c3ac699f2f8b445dbc36ad966cc5b4671b316df2fdd421e786ea"
+    },
+    {
+      "id": "met-436186",
+      "verdict": "no_text_issue_found",
+      "support_summary": "銀器・日本磁器・石製容器、左右対称の陳列と購買力、食堂で絵が飾り棚を代替した説明は所蔵館本文と一致。寸法欄で高さ261.6cmを確認。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/436186",
+          "location": "解説L10–11、寸法L56",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "d2e9f1895268b791fce024bc1aa1e2af6be9287fde72dff4d13e01b4f0d28837"
+    },
+    {
+      "id": "met-436217",
+      "verdict": "no_text_issue_found",
+      "support_summary": "ディドロの評価、子犬と少年の目の対応、自筆による再制作という推定、原作1766年・サロン1767年と本作頃1767年の区別を確認。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/436217",
+          "location": "解説L10、年代欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "よく似た構図の作品でも、展覧会に出た最初の一枚と、現在ここにある一枚は同一とは限りません。",
+          "suggestion": "一般論による締めを短くし、本作が自筆の再制作と考えられるという固有の情報に結ぶと、鑑賞者向けの文章として自然。事実誤認ではない。"
+        }
+      ],
+      "draft_sha256": "ab68fa4a06b4daa0a692d998962554e41308f8c4b4c31b43c86564e7223d63e3"
+    },
+    {
+      "id": "met-436449",
+      "verdict": "no_text_issue_found",
+      "support_summary": "暑い午後・木のベランダ・英国からのドレス輸入・平面的色面と連続する輪郭は音声本文、赤いスカート・犬から籠への変更・人物の移動は所蔵館本文で確認。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/436449",
+          "location": "解説L10、音声6406 L63–65",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "33dfb8fd214f0df339dd455979e3cdaf3e4918608dd2a98ce4637f14f0898455"
+    },
+    {
+      "id": "met-436453",
+      "verdict": "no_text_issue_found",
+      "support_summary": "エステルの直訴・命の危険、演劇の影響という館の解釈、失神と願いの受容、従者と犬の塗り消しは公式解説に対応。幅273.7cmも確認。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/436453",
+          "location": "解説L10–11、寸法L49",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "0294240443143e354fd15dab956242c30ddd098394e9bd548236f33ae3fca9fa"
+    }
+  ]
+}
