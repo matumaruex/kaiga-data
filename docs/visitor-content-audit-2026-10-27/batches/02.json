@@ -1,0 +1,115 @@
+{
+  "batch": 2,
+  "review_date": "2026-10-27",
+  "baseline_commit": "11bca52aca4693be869b8f5f9f98f2b50c1c87e4",
+  "scope": "本文と出典文章の照合。執筆者による再点検で第三者監査ではない。",
+  "image_review": "not_completed; official image download attempt returned HTTP403",
+  "rights_review": "pending",
+  "items": [
+    {
+      "id": "met-11417",
+      "verdict": "no_text_issue_found",
+      "support_summary": "1851年・寸法・独米の受容を確認。StevensとNarratorによる理想化と先住民への軍事行動の説明を、現代の解釈と史実として区別している。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/11417",
+          "location": "冒頭、寸法、Audio4028 L60–69",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "280fb0a6a067c7ddda4490917b2be9f047ed0b99548ebdfbb55a39d6bc11c76f"
+    },
+    {
+      "id": "met-20129",
+      "verdict": "no_text_issue_found",
+      "support_summary": "作者の子ども、童話、熊のような影、娘の母性的役割という館の解釈に対応。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/20129",
+          "location": "冒頭2段落、2013.604",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "壁に映る彼女の影",
+          "suggestion": "公式本文は影の形を述べるが投影面までは明記しない。画像照合時に確認し、未確認なら『彼女の影』に簡潔化する。誤りと確定した指摘ではない。"
+        }
+      ],
+      "draft_sha256": "2bef620080bea552b3d496bc8fe3da8c44d7f533acb0a43702db5978bf992575"
+    },
+    {
+      "id": "met-35968",
+      "verdict": "no_text_issue_found",
+      "support_summary": "鹿皮・壁掛け・型・西洋市場の推定に対応。現地資料と異なる建築年を避け、制作年代と表された建物を区別した。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/35968",
+          "location": "冒頭3段落とMedium、09.3",
+          "result": "read"
+        },
+        {
+          "url": "https://asc.tainan.gov.tw/index_en.php?id=35&modify=place",
+          "location": "Chihkan Tower L27",
+          "result": "read"
+        },
+        {
+          "url": "https://twtainan.net/en/attractions/detail/5960",
+          "location": "城壁の説明。今回の取得表示では本文該当部未再表示",
+          "result": "not_fully_rechecked"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "眺めて楽しむ大きな壁掛けでもありました。",
+          "suggestion": "wall hangingという形式は確認できる。『楽しむ』は用途の解釈なので、より厳密にするなら『大きな壁掛けの形でも伝わっています』とする。"
+        }
+      ],
+      "draft_sha256": "ae484a7db499893feedf1a23a23a9292070bb7903051852db4494926a66db09b"
+    },
+    {
+      "id": "met-37851",
+      "verdict": "no_text_issue_found",
+      "support_summary": "口論、空いた寝室、詩に帰属する払子、初期ムガル様式、別葉のSamvat1662から1605–06とする年代根拠に対応。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/37851",
+          "location": "冒頭、1981.464.1",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "1c63d0385fdaf524b436e7d6d7eae452ff428fac5056c0e4ff499a09b59c9ffa"
+    },
+    {
+      "id": "met-37897",
+      "verdict": "no_text_issue_found",
+      "support_summary": "貴人・払子・音楽・詩の幸福と愛、Marwar・1640–50に対応。ラーガの音楽・詩・絵の関係は公式展示解説にも対応。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/37897",
+          "location": "冒頭と55.121.29",
+          "result": "read"
+        },
+        {
+          "url": "https://www.metmuseum.org/exhibitions/listings/2014/ragamala",
+          "location": "Overview L67–72",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "絵の幸福は、その詩的な設定に属しています。",
+          "suggestion": "正確だが説明者の注意に近い。『詩に歌われる喜びを、貴人と楽師の場面に表しています』などに自然化できる。"
+        }
+      ],
+      "draft_sha256": "5cb2144407b1a7f7b5323e9fde5ec4500d5cf7dcef6b8a4ebea10a1c183b4cd5"
+    }
+  ]
+}
