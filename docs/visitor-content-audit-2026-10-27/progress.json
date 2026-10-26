@@ -1,9 +1,9 @@
 {
   "baseline_commit": "11bca52aca4693be869b8f5f9f98f2b50c1c87e4",
   "total": 100,
-  "reviewed": 55,
-  "remaining": 45,
-  "next_batch": 12,
+  "reviewed": 60,
+  "remaining": 40,
+  "next_batch": 13,
   "batches": [
     {
       "batch": 1,
@@ -146,7 +146,8 @@
         "met-437429",
         "met-437438"
       ],
-      "status": "pending"
+      "status": "reviewed",
+      "result_file": "batches/12.json"
     },
     {
       "batch": 13,
@@ -238,7 +239,7 @@
     }
   ],
   "counts": {
-    "no_text_issue_found": 50,
+    "no_text_issue_found": 55,
     "needs_revision": 3,
     "needs_more_evidence": 2
   }
