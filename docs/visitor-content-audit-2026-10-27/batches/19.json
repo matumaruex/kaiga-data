@@ -1,0 +1,114 @@
+{
+  "batch": 19,
+  "review_date": "2026-10-27",
+  "baseline_commit": "11bca52aca4693be869b8f5f9f98f2b50c1c87e4",
+  "scope": "本文と出典文章の照合。執筆者による再点検で第三者監査ではない。",
+  "image_review": "not_completed; official image download attempt returned HTTP403",
+  "rights_review": "pending",
+  "items": [
+    {
+      "id": "met-74448",
+      "verdict": "needs_more_evidence",
+      "support_summary": "宴の細部と理想山水、契会図という位置づけは館の解説に対応。ただし年齢の確定に公式資料間の差がある。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/74448",
+          "location": "解説L10–12、和漢題『同庚契會圖』と韓国語題",
+          "result": "read"
+        },
+        {
+          "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Art_of_the_Korean_Renaissance_1400_1600.pdf",
+          "location": "Soyoung Leeほか、2009年展覧会図録、cat.9、印刷頁99／PDF111（0始まり）、L3548–3578",
+          "result": "read"
+        }
+      ],
+      "findings": [
+        {
+          "severity": "verification",
+          "passage": "鄭士龍の賛によると、これは六十歳になった、ほぼ同じ頃に官職についた人々の会でした。",
+          "issue": "作品ページの英語解説は六十歳とするが、所蔵館の2009年図録に掲載された賛の翻訳は同年生まれ・ほぼ同時期の文武科挙合格に加え、七十歳を迎えつつある旨を記す。年齢の数字は公式資料同士で一致しない。同年生まれと同期合格は両立するので、それ自体を矛盾とはしない。",
+          "suggestion": "原文の年齢語・翻訳・伝統的年齢表記を確認するまで具体的年齢を外し、『同じ年に生まれ、ほぼ同じ頃に科挙に合格した仲間たちの会』を図録に基づく修正案とする。六十を七十へ機械的に置換しない。"
+        }
+      ],
+      "recommendations": [],
+      "draft_sha256": "fd4de47598e21766d5747a55f4e47050ee53049fe2e49a1761894cc836c65da9"
+    },
+    {
+      "id": "met-74692",
+      "verdict": "no_text_issue_found",
+      "support_summary": "北部パハーリーの別離の詩的主題、カングラまたはグレールの工房、中央女性の繊細な描写、墨と淡彩・高さ24.1cmを照合。工房と地域の幅を保持。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/74692",
+          "location": "解説L11、地域欄、素材・寸法L43–44",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "dc11cd1f54852015f0a9b22510f69d2fdb4d73f03dc6eea3ff16c188fd3a3e17"
+    },
+    {
+      "id": "met-74846",
+      "verdict": "needs_revision",
+      "support_summary": "主題、ラーダーのためらい、1610年頃アンベールのボストン版はMet、1591年の成立と詩人名はLACMAのCuratorial Notesに対応。一箇所、詩の要約が資料より広がっている。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/74846",
+          "location": "解説L11、年代・地域・題名欄",
+          "result": "read"
+        },
+        {
+          "url": "https://collections.lacma.org/object/29757",
+          "location": "Curatorial Notes L108、比較写本の記載L136",
+          "result": "read"
+        }
+      ],
+      "findings": [
+        {
+          "severity": "clarification",
+          "passage": "逢うときにも離れるときにも、その恋が続くことを語ります。",
+          "issue": "館が訳す一節は、union／separationにおける秘めた恋を関係の性質から説明するもの。本文の『続く』は恋が永続するという時間的な内容を補っており、提示された訳文からは裏付けられない。",
+          "suggestion": "『添えられた言葉は、逢うときも離れるときも、公に認められない男女の結びつきを「秘めた恋」と呼んでいます』など、提示された訳の範囲に戻す。永続性の説明を残すなら原典の該当章句と専門的な訳注を追加確認する。"
+        }
+      ],
+      "recommendations": [],
+      "draft_sha256": "32647d68cea7a3039df959797237f06e9334baab364f61d1ce2be058cce3afe1"
+    },
+    {
+      "id": "met-74996",
+      "verdict": "no_text_issue_found",
+      "support_summary": "婚礼への接近、花嫁名、動物の声を契機とする出家、22番目のジナ、上下二場面のカルパ・スートラ葉と15世紀グジャラートを照合。物語として記述している。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/74996",
+          "location": "題名、解説L10–11、年代・地域欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "ebb5e8d6e0d9d8a62225ae6fc5298f165d3331617f2944d8aa1661db1467e49d"
+    },
+    {
+      "id": "met-77204",
+      "verdict": "no_text_issue_found",
+      "support_summary": "三羽の位置と異なる動き、探幽との親族関係と修学の可能性、夫婦調和・家の繁栄という可能な読解は公式解説に対応。実際の鳥の関係や画家の私生活は断定していない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/77204",
+          "location": "解説L10–11",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "作者自身の家庭への思いを読み込むこととは区別する必要があります。",
+          "suggestion": "留保が長いため、『三羽をそのまま家族に見立てる根拠はありません』程度に短くするか、象徴の可能性を述べた前文で結ぶ編集は可能。"
+        }
+      ],
+      "draft_sha256": "954d08e9ff531940e1dc833f44d55dca2f903898051ca02f8d4f386d3ab6b607"
+    }
+  ]
+}
