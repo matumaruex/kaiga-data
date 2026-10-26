@@ -1,0 +1,97 @@
+{
+  "batch": 11,
+  "review_date": "2026-10-27",
+  "baseline_commit": "11bca52aca4693be869b8f5f9f98f2b50c1c87e4",
+  "scope": "本文と出典文章の照合。執筆者による再点検で第三者監査ではない。",
+  "image_review": "not_completed; official image download attempt returned HTTP403",
+  "rights_review": "pending",
+  "items": [
+    {
+      "id": "met-437042",
+      "verdict": "no_text_issue_found",
+      "support_summary": "去る羊と近づく羊の価格差、ハーグ派・身近な景観、1881–82年のゴッホの修学と灰色の風景への賛辞は館本文と対応。価格差は所蔵館の紹介として明示。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/437042",
+          "location": "解説L8–9",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "a34aa640fc5ddab338b4c6354c78e53a8ba16c89c191fed20c9f152d9c19526b"
+    },
+    {
+      "id": "met-437083",
+      "verdict": "no_text_issue_found",
+      "support_summary": "求婚者の滑稽な反応、確実な板絵二点、写本に似た密な構成、表面の損傷を照合。写本との比較を絵の記述の範囲で述べており直接転用の史実にしていない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/437083",
+          "location": "解説L10、年代欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "6a94e297ee8de6a194eb85135518ea25295c1a7bdd45d508c1ddd00be0590036"
+    },
+    {
+      "id": "met-437227",
+      "verdict": "needs_revision",
+      "support_summary": "伝記・制作時期・テル・ボルフの影響の記述は館の本文と一致。ただし鑑賞者向けの完成度では再制作が必要。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/437227",
+          "location": "解説L11、年代欄",
+          "result": "read"
+        }
+      ],
+      "findings": [
+        {
+          "severity": "editorial",
+          "passage": "手紙に何が書かれているかまでを明かす資料は、今回確認した作品解説にはありません。",
+          "issue": "執筆者の調査範囲を報告する文が鑑賞者向け本文に残っている。本文の大半も移住・師弟関係で、固有の画面を読む手掛かりが『優雅な室内生活』以上に深まらない。事実の誤りとは別の、解説品質の問題。",
+          "suggestion": "調査報告の一文を本文から外し、資料上の限界は内部メモへ。公式図録等と作品画像を追加確認して人物・手紙・室内の具体的な関係を裏付け、伝記を必要な範囲に絞って書き直す。手紙の文面や人物心理は創作しない。"
+        }
+      ],
+      "recommendations": [],
+      "draft_sha256": "be02e128e6ff29b62e3e153744f4386890b0e68c68e4bdb2b317db60a7ddea9d"
+    },
+    {
+      "id": "met-437284",
+      "verdict": "no_text_issue_found",
+      "support_summary": "対作品75.7.2も直接照合し狩猟と岸への運搬を区別。横長の板絵の用途は推定として明記し、ルクレティウスの自然原因による説明と聖書的歴史観との差も館本文の範囲内。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/437284",
+          "location": "解説L10–11、作品番号75.7.1",
+          "result": "read"
+        },
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/437283",
+          "location": "解説L10–11、作品番号75.7.2",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "bd444ffa065fd36b1e8aebdf5ba7e6da7f3080d7eb450cd453ad4bf992287579"
+    },
+    {
+      "id": "met-437308",
+      "verdict": "no_text_issue_found",
+      "support_summary": "1896年ルーアンでの関心は館が引用する書簡記述に対応。ホテルから橋を反復制作し、題名が画家自身に由来する可能性も留保。曇天の絵全体を雨天と断定していない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/437308",
+          "location": "解説L10–11",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "7aa5cc70fc1bde0ea24b43dce62c89ca99f5ad90c377a5e252efb7632c1cfbb9"
+    }
+  ]
+}
