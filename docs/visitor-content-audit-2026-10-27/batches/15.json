@@ -1,0 +1,90 @@
+{
+  "batch": 15,
+  "review_date": "2026-10-27",
+  "baseline_commit": "11bca52aca4693be869b8f5f9f98f2b50c1c87e4",
+  "scope": "本文と出典文章の照合。執筆者による再点検で第三者監査ではない。",
+  "image_review": "not_completed; official image download attempt returned HTTP403",
+  "rights_review": "pending",
+  "items": [
+    {
+      "id": "met-438427",
+      "verdict": "no_text_issue_found",
+      "support_summary": "身体の直接観察・生身のモデルと学識を組み合わせるアカデミー、非理想化の身体への批評、聖母の姿勢、三枚の食卓布という支持体は公式本文に対応。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/438427",
+          "location": "解説L10–11、年代欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "ae214694cb76a1e925c0e2220318ecaf3ba1ae36553b5e6d4817681a79756724"
+    },
+    {
+      "id": "met-438545",
+      "verdict": "no_text_issue_found",
+      "support_summary": "ギターと素描・石膏像・書物、二人のローマ賞、私室肖像の連作、友情という館の読解を照合。公的な注文仕事との規模・親密さの違いも本文に対応。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/438545",
+          "location": "解説L10–11、年代欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "ed191ee90c511a5a36ba48b108fd88a4d5db76377151f910c2ca9ae3ab63d751"
+    },
+    {
+      "id": "met-438738",
+      "verdict": "no_text_issue_found",
+      "support_summary": "三つの干し草の山、同主題の午後・異なる位置の別作、モネとの関連、同年のテュイルリーの都市景観を確認。モネの積みわらとピサロの干し草を同じ作物とは呼んでいない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/438738",
+          "location": "解説L10、年代欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "158701ec71afb34e2c6e2ad4e77d3a36487addf7b10017ee22955c080d60dc75"
+    },
+    {
+      "id": "met-438779",
+      "verdict": "no_text_issue_found",
+      "support_summary": "銅板・38.1cm、アントワーヌ／ルイの帰属履歴、現在の名義、嘲笑しない農村描写、19世紀半ばの再評価は館本文と作品欄に対応。三兄弟の帰属困難を適切に保持。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/438779",
+          "location": "解説L10、作者・素材・寸法L46–49",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "銅板に油彩で描かれた、高さ三十八センチほどの《農民の家族》。",
+          "suggestion": "帰属の話だけで終わらず、画像を確認できた段階で人物同士の配置や視線の具体的な手掛かりを補う余地がある。未確認の身元や感情は足さない。"
+        }
+      ],
+      "draft_sha256": "e17037157dbc5ebf6c5d0516b37d130bb3b1ab22134428bac5c74e77ccd1cd5f"
+    },
+    {
+      "id": "met-438815",
+      "verdict": "no_text_issue_found",
+      "support_summary": "ポールの位置・三歳・服と髪、ジョルジェットと犬、日本趣味の部屋、文学サロン、1879年の展示場所への影響を照合。制作1878年と出品翌年を区別。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/438815",
+          "location": "解説L10–11、年代欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "35b71392e1497ac8e355f3e41f1d2f5dbb0c97ef22cddf1daeaff872e5b87a15"
+    }
+  ]
+}
