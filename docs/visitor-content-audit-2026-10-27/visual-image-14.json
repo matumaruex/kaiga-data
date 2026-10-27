@@ -1,0 +1,199 @@
+{
+  "batch": 14,
+  "review_date": "2026-10-28",
+  "baseline_commit": "f23df7c3d0e9342c00a13ccce10ccc6fa01d5b20",
+  "reviewer": "Codex image inspection; AIによる画像照合。人間・独立した第三者による監査ではない。",
+  "scope": "公式画像を取得し、構図・人物・物の配置と現在の下書きの可視的記述を照合。史実、人物の同定、作者意図、文字の厳密な翻刻、解説文の権利を画像から認定しない。",
+  "items": [
+    {
+      "id": "met-437749",
+      "batch": 14,
+      "draft_file_sha256": "10074c45a5181a48edbe46208746d8046f5b13eec22d199cb123d326320d8e0e",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146455.jpg",
+          "expected_sha256": "aaddf85236bba80068674b4a4d974b2d6cf9b9a32976c73000cf8f60ffe7547d",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "aaddf85236bba80068674b4a4d974b2d6cf9b9a32976c73000cf8f60ffe7547d",
+          "byte_length": 114406,
+          "width": 580,
+          "height": 625,
+          "local_path": "/workspace/kaiga-visual/met-437749-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:38.271629+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146455.jpg",
+          "expected_sha256": "bf5f362d8565cbd5312ee58f2402a29453674bfd4a88bc42fd4291f07bc6da5f",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "bf5f362d8565cbd5312ee58f2402a29453674bfd4a88bc42fd4291f07bc6da5f",
+          "byte_length": 2892888,
+          "width": 3556,
+          "height": 3829,
+          "local_path": "/workspace/kaiga-visual/met-437749-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:38.651843+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "テラスに多数の人、中央に水色の衣服の女性、左端の男性と帽子の人物が見える。人物の同定や持物の象徴は館の解説に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437749",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-437878",
+      "batch": 14,
+      "draft_file_sha256": "b484796704297d5fbd5ed909328fd5a5888bc0caf86f64ffc2214c131eed65a4",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP355525.jpg",
+          "expected_sha256": "09e22e9cdaca4642cd88b33cec827ac96d426f16b05028069fa78921e7f1ec27",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "09e22e9cdaca4642cd88b33cec827ac96d426f16b05028069fa78921e7f1ec27",
+          "byte_length": 75244,
+          "width": 544,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-437878-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:38.277234+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP355525.jpg",
+          "expected_sha256": "0f60071c28366b8f470fa3859375dbfece993bfaf9e96189a4028df9f945c366",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "0f60071c28366b8f470fa3859375dbfece993bfaf9e96189a4028df9f945c366",
+          "byte_length": 2851485,
+          "width": 3365,
+          "height": 3861,
+          "local_path": "/workspace/kaiga-visual/met-437878-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:38.582906+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "女性が頬を手で支えて目を閉じ、卓上には果物と器、乱れた敷物がある。奥の戸口は空。消された男性は通常画像では確認できずX線調査による。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437878",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-437881",
+      "batch": 14,
+      "draft_file_sha256": "3e6bffe94d52f5db67e0dd2fa739069c6f6ad3e2dfb2120d6d8fa61639304ca1",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP353257.jpg",
+          "expected_sha256": "13120aa067755f1f50d2b900417807ef9da3f8b2b63a1bbea428fe3f2d8d00a9",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "13120aa067755f1f50d2b900417807ef9da3f8b2b63a1bbea428fe3f2d8d00a9",
+          "byte_length": 82797,
+          "width": 555,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-437881-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:38.679304+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP353257.jpg",
+          "expected_sha256": "d14901b9c2124bd767cc1a4ca6286092eeedc3067a627449bd94869489bcefce",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "d14901b9c2124bd767cc1a4ca6286092eeedc3067a627449bd94869489bcefce",
+          "byte_length": 2638182,
+          "width": 3437,
+          "height": 3866,
+          "local_path": "/workspace/kaiga-visual/met-437881-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:38.982320+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "女性が窓に手をかけ、白い布を頭にまとい、もう一方の手を水差しに添える。下に鉢がある。朝の身支度という解釈は館の説明。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437881",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-437887",
+      "batch": 14,
+      "draft_file_sha256": "9e84ba5f8cfbcf71774ab0b961e7431174a26a87044ee4ce422d54a7a3f5d930",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2137.jpg",
+          "expected_sha256": "f511938c041368219359e12c27b4d66b8ff313f559eb7a3f02291694f2c157e7",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "f511938c041368219359e12c27b4d66b8ff313f559eb7a3f02291694f2c157e7",
+          "byte_length": 68710,
+          "width": 487,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-437887-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:38.691375+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DT2137.jpg",
+          "expected_sha256": "9a4246f7979cb6f99ddb92931058b29a8c86e73d08c947811b95b80419c8cc68",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "9a4246f7979cb6f99ddb92931058b29a8c86e73d08c947811b95b80419c8cc68",
+          "byte_length": 2247500,
+          "width": 2905,
+          "height": 3722,
+          "local_path": "/workspace/kaiga-visual/met-437887-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.000257+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "白い服の男性が道具を持ち、隣の台に胸像がある。二人の同定、完成状況、別版の順序は画像だけでは証明しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437887",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-437915",
+      "batch": 14,
+      "draft_file_sha256": "a95f966cfdd5d012ec02282e15261d7751454fd3e17afd211c9376aed16e9a80",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146460.jpg",
+          "expected_sha256": "4794030b2906cdd0015ee2417a0005404065a4d7499d1f573b2b1b5ec272c99a",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "4794030b2906cdd0015ee2417a0005404065a4d7499d1f573b2b1b5ec272c99a",
+          "byte_length": 86345,
+          "width": 499,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-437915-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:38.698790+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146460.jpg",
+          "expected_sha256": "1af73ba4c84bf005f51fe6d5eb6377b414e603ce9349b89be18a1a3bf8796ee3",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "1af73ba4c84bf005f51fe6d5eb6377b414e603ce9349b89be18a1a3bf8796ee3",
+          "byte_length": 2718728,
+          "width": 3068,
+          "height": 3839,
+          "local_path": "/workspace/kaiga-visual/met-437915-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.045336+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "教会の柱とアーチ、右の説教壇、前景の掘られた床と道具が見える。建築の正確さと他作との比較は所蔵館の説明に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437915",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    }
+  ]
+}
