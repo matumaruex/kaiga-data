@@ -1,0 +1,199 @@
+{
+  "batch": 7,
+  "review_date": "2026-10-27",
+  "baseline_commit": "f23df7c3d0e9342c00a13ccce10ccc6fa01d5b20",
+  "reviewer": "Codex image inspection; AIによる画像照合。人間・独立した第三者による監査ではない。",
+  "scope": "公式画像を取得し、構図・人物・物の配置と現在の下書きの可視的記述を照合。史実、人物の同定、作者意図、文字の厳密な翻刻、解説文の権利を画像から認定しない。",
+  "items": [
+    {
+      "id": "met-436176",
+      "batch": 7,
+      "draft_file_sha256": "98ce8196fe08c3ac699f2f8b445dbc36ad966cc5b4671b316df2fdd421e786ea",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14343-001.jpg",
+          "expected_sha256": "93ad02bd69d9400d4bc50183e38c3295e7ec26161e05495d8753f3e84d319390",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "93ad02bd69d9400d4bc50183e38c3295e7ec26161e05495d8753f3e84d319390",
+          "byte_length": 103632,
+          "width": 600,
+          "height": 494,
+          "local_path": "/workspace/kaiga-visual/met-436176-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.369101+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-14343-001.jpg",
+          "expected_sha256": "650125b53da28b7a1ae918e7c8e8165d6abd8c3a262b94823a999d4425e78a4d",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "650125b53da28b7a1ae918e7c8e8165d6abd8c3a262b94823a999d4425e78a4d",
+          "byte_length": 3876840,
+          "width": 4000,
+          "height": 3296,
+          "local_path": "/workspace/kaiga-visual/met-436176-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.840875+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "波立つ海を占める大きな舟、身を横たえる光輪の人物、手や櫂を動かす周囲の人々。青緑の海と赤・紫系の衣、黄色の小さな光輪が本文に対応。恐れや色の象徴性は解釈として区別。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436176",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-436186",
+      "batch": 7,
+      "draft_file_sha256": "d2e9f1895268b791fce024bc1aa1e2af6be9287fde72dff4d13e01b4f0d28837",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP283310.jpg",
+          "expected_sha256": "ea15964fae5b5dae8d7b85ea1218f01671e6aa928c7eeef22551861fd3b57a2d",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "ea15964fae5b5dae8d7b85ea1218f01671e6aa928c7eeef22551861fd3b57a2d",
+          "byte_length": 99278,
+          "width": 448,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-436186-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.478321+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP283310.jpg",
+          "expected_sha256": "8dbaa4a3ea0be0cb46d5b1b9208330156993866af63cf4e31fde85b5c924bcc6",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "8dbaa4a3ea0be0cb46d5b1b9208330156993866af63cf4e31fde85b5c924bcc6",
+          "byte_length": 2281328,
+          "width": 2790,
+          "height": 3889,
+          "local_path": "/workspace/kaiga-visual/met-436186-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.826998+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "縦長の画面に左右対の大皿と水差し、上段にも鉢・壺・金属器、花と果物を配置。左右に整えた豪華な陳列という説明に対応。産地や鉱物の種類は画像のみでは認定しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436186",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-436217",
+      "batch": 7,
+      "draft_file_sha256": "ab68fa4a06b4daa0a692d998962554e41308f8c4b4c31b43c86564e7223d63e3",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP324600.jpg",
+          "expected_sha256": "c9ce89b190e77d709f4cd144ec21c825e8f616c106c841a8b6b98357c40788e6",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "c9ce89b190e77d709f4cd144ec21c825e8f616c106c841a8b6b98357c40788e6",
+          "byte_length": 55415,
+          "width": 509,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-436217-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.629448+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP324600.jpg",
+          "expected_sha256": "07920c2c6cf9d1be24979ba1231fc908172369a5c5f20b8956c8c54b3dd3ea0f",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "07920c2c6cf9d1be24979ba1231fc908172369a5c5f20b8956c8c54b3dd3ea0f",
+          "byte_length": 2035305,
+          "width": 3263,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-436217-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.834589+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "楕円形の肖像に少年が黒い小犬を両腕で抱く。両者の目が見える構図と本文の描写が対応。自作反復・サロン出品作との関係は画像では確認できない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436217",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-436449",
+      "batch": 7,
+      "draft_file_sha256": "33dfb8fd214f0df339dd455979e3cdaf3e4918608dd2a98ce4637f14f0898455",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1952.jpg",
+          "expected_sha256": "6781dbc3f2380670d926f257908abda83978d68f31878bc8ad52692c029e0c87",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "6781dbc3f2380670d926f257908abda83978d68f31878bc8ad52692c029e0c87",
+          "byte_length": 109243,
+          "width": 599,
+          "height": 459,
+          "local_path": "/workspace/kaiga-visual/met-436449-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.904338+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1952.jpg",
+          "expected_sha256": "b4d895bf46ad5a6c2ce66993c3de6f5a11623312f27f1bc4029a05711a377241",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "b4d895bf46ad5a6c2ce66993c3de6f5a11623312f27f1bc4029a05711a377241",
+          "byte_length": 2765127,
+          "width": 3811,
+          "height": 2921,
+          "local_path": "/workspace/kaiga-visual/met-436449-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:35.281938+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "木の床と柱のある場所に複数の女性、手前の帽子の女性に暗青色のスカート、右下に籠を確認。現在の配置は本文と整合する。下層の赤いスカート・犬・移動前の人物位置は通常画像では確認せず、技術調査の記述として留保。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436449",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-436453",
+      "batch": 7,
+      "draft_file_sha256": "0294240443143e354fd15dab956242c30ddd098394e9bd548236f33ae3fca9fa",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20748-001.jpg",
+          "expected_sha256": "5d213ef3604452e020a85ff1bd7ce470f97cd4b6196f6e108e5ea3d5ffd0abbb",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "5d213ef3604452e020a85ff1bd7ce470f97cd4b6196f6e108e5ea3d5ffd0abbb",
+          "byte_length": 107133,
+          "width": 600,
+          "height": 459,
+          "local_path": "/workspace/kaiga-visual/met-436453-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.889358+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-20748-001.jpg",
+          "expected_sha256": "36563c7d806b0819347c4e5f1870f34ad58f76f4b666f126a8ab61e368c91ab1",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "36563c7d806b0819347c4e5f1870f34ad58f76f4b666f126a8ab61e368c91ab1",
+          "byte_length": 3658269,
+          "width": 4000,
+          "height": 3060,
+          "local_path": "/workspace/kaiga-visual/met-436453-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:35.274836+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "左の女性が頭を後ろへ傾けて周囲に支えられ、右の王が椅子から前へ身を寄せる。失神の場面と整合。中央下の床には淡い形の痕跡が見えるが、消された人物・犬の同定と作者自身による変更は技術調査に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436453",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    }
+  ]
+}
