@@ -1,0 +1,208 @@
+{
+  "batch": 4,
+  "review_date": "2026-10-27",
+  "baseline_commit": "f23df7c3d0e9342c00a13ccce10ccc6fa01d5b20",
+  "reviewer": "Codex image inspection; AIによる画像照合。人間・独立した第三者による監査ではない。",
+  "scope": "公式画像を取得し、構図・人物・物の配置と現在の下書きの可視的記述を照合。史実、人物の同定、作者意図、文字の厳密な翻刻、解説文の権利を画像から認定しない。",
+  "items": [
+    {
+      "id": "met-40451",
+      "batch": 4,
+      "draft_file_sha256": "8ee5c9168697ea93bf5c673c766c2fc449d545c4a00ff5ae057a44a4a37933c5",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/18_124_3_O3_sf.jpg",
+          "expected_sha256": "e84aa23f25034a1213bbddc0c682beb15b5847f0f7f61874f112608b51dd3861",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "e84aa23f25034a1213bbddc0c682beb15b5847f0f7f61874f112608b51dd3861",
+          "byte_length": 104970,
+          "width": 347,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-40451-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.009210+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/18_124_3_O3_sf.jpg",
+          "expected_sha256": "75831c244112111d210d2a58f825a468ed93fe873504e526cecc63cea1513684",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "75831c244112111d210d2a58f825a468ed93fe873504e526cecc63cea1513684",
+          "byte_length": 2644044,
+          "width": 2112,
+          "height": 3796,
+          "local_path": "/workspace/kaiga-visual/met-40451-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.255183+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "縦長の山水の下部に橋と三人の小さな人物を確認。下部拡大でも三人の列を確認でき、尖った山とにじむ遠景、画面内に明瞭な寺院がないという記述と整合。僧の帰路という意味は文献の解釈。",
+      "detail_view": {
+        "asset": "original",
+        "crop_fraction_xyxy": [
+          0.2,
+          0.77,
+          0.8,
+          0.96
+        ]
+      },
+      "source_url": "https://www.metmuseum.org/art/collection/search/40451",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-435619",
+      "batch": 4,
+      "draft_file_sha256": "4ad0913bd1b9bc3b423f42c55d62fd467ed57532e0beb9231a0a1168ee888e0d",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT200598.jpg",
+          "expected_sha256": "41a159545714ae5b7316bd69adcc192592360c8b7c33261786496832b9a8c313",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "41a159545714ae5b7316bd69adcc192592360c8b7c33261786496832b9a8c313",
+          "byte_length": 90272,
+          "width": 600,
+          "height": 309,
+          "local_path": "/workspace/kaiga-visual/met-435619-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.366436+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DT200598.jpg",
+          "expected_sha256": "92afb0c6c42ed25ae087601723c9e28e75d9a1e7856b92d7bcb99c998698d32a",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "92afb0c6c42ed25ae087601723c9e28e75d9a1e7856b92d7bcb99c998698d32a",
+          "byte_length": 1966632,
+          "width": 3811,
+          "height": 1964,
+          "local_path": "/workspace/kaiga-visual/met-435619-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.672573+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "横長の画面に武装した群衆、中央の逮捕場面、右上に裸で逃げる人物が見える。裸の若者の存在と横長の形式に対応。若者の名や元の祭壇画の構成は画像だけでは確定しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/435619",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-435727",
+      "batch": 4,
+      "draft_file_sha256": "221809b1552f215ad2ea23681483acb610070ddd98df3200780434649e648275",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-22845-001.jpg",
+          "expected_sha256": "835bc91fad9832927a17a6addacc064ebb5c49d18f65532daf76f40cd39846f8",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "835bc91fad9832927a17a6addacc064ebb5c49d18f65532daf76f40cd39846f8",
+          "byte_length": 96455,
+          "width": 384,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-435727-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.121437+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-22845-001.jpg",
+          "expected_sha256": "4cffab21d43ae624bd2484f2b514ab40dfe64f633e7d714ceaf17ff5c06e69e9",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "4cffab21d43ae624bd2484f2b514ab40dfe64f633e7d714ceaf17ff5c06e69e9",
+          "byte_length": 2520904,
+          "width": 2462,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-435727-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.336084+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "港と帆船の前に二人の主要な女性、周囲に別れを惜しむように身を寄せる人々、上空に天使が描かれる。出発という主題と整合。習作であること・制作地・注文年は文献に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/435727",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-435762",
+      "batch": 4,
+      "draft_file_sha256": "32c457563347ab3d44bf0b2d4ecc85acad7bff093ba88ce708aa8dbda0e84b58",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20589-001.jpg",
+          "expected_sha256": "6bc134ad6ab255b5f19b74816989d5b5402f08e70e300ae79f4b6ee8bc528899",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "6bc134ad6ab255b5f19b74816989d5b5402f08e70e300ae79f4b6ee8bc528899",
+          "byte_length": 135897,
+          "width": 472,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-435762-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.391726+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-20589-001.jpg",
+          "expected_sha256": "d382be06bcd489a5b50699dac0836f03f16d483ccc740111e404663432f926b5",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "d382be06bcd489a5b50699dac0836f03f16d483ccc740111e404663432f926b5",
+          "byte_length": 4778981,
+          "width": 3025,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-435762-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.882126+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "青い衣の母が幼児を支え、子が母の頬に顔を寄せて手を伸ばす。背景は暗く、金地や明瞭な光輪はない。本文で挙げる身体の近さと図像上の特徴に対応。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/435762",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-435807",
+      "batch": 4,
+      "draft_file_sha256": "1ab3d215f461cf7f8a5d3864cf404954013bc472731ade094968d2f9dd777964",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-15904-001.jpg",
+          "expected_sha256": "3f43329e6e4eb8176b5046ef6146757912a0ffd22f6c62406425c16d851a58d8",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "3f43329e6e4eb8176b5046ef6146757912a0ffd22f6c62406425c16d851a58d8",
+          "byte_length": 106393,
+          "width": 500,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-435807-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.246739+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-15904-001.jpg",
+          "expected_sha256": "d6c4c23df1e5f3031a1b9912453b9e57b360b0a45b50895abdf1cf3779398eac",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "d6c4c23df1e5f3031a1b9912453b9e57b360b0a45b50895abdf1cf3779398eac",
+          "byte_length": 3821524,
+          "width": 3203,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-435807-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.503842+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "室内に五人の男性。前景の男性が口を開き、器やパイプを持つ人物と白い煙が見える。五人の集団、煙草・飲酒、変化のある表情という描写に対応。作者と同業者の同定は資料に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/435807",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    }
+  ]
+}
