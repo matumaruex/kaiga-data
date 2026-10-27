@@ -1,0 +1,199 @@
+{
+  "batch": 9,
+  "review_date": "2026-10-27",
+  "baseline_commit": "f23df7c3d0e9342c00a13ccce10ccc6fa01d5b20",
+  "reviewer": "Codex image inspection; AIによる画像照合。人間・独立した第三者による監査ではない。",
+  "scope": "公式画像を取得し、構図・人物・物の配置と現在の下書きの可視的記述を照合。史実、人物の同定、作者意図、文字の厳密な翻刻、解説文の権利を画像から認定しない。",
+  "items": [
+    {
+      "id": "met-436678",
+      "batch": 9,
+      "draft_file_sha256": "bb3bf661ae2f0beb09886935eab2d9760fd596da66347c1cbe915e0a8bbfd45e",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145400.jpg",
+          "expected_sha256": "b41029324adca4230ba4bd3d2872809111f9f6b49c4d6f7cde1132ba9066667a",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "b41029324adca4230ba4bd3d2872809111f9f6b49c4d6f7cde1132ba9066667a",
+          "byte_length": 74296,
+          "width": 540,
+          "height": 625,
+          "local_path": "/workspace/kaiga-visual/met-436678-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:35.539207+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP145400.jpg",
+          "expected_sha256": "de19f5dd0ce794947ba7431520aa589b1989b20825ce7292175f179e15d7e7cc",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "de19f5dd0ce794947ba7431520aa589b1989b20825ce7292175f179e15d7e7cc",
+          "byte_length": 2092584,
+          "width": 3198,
+          "height": 3701,
+          "local_path": "/workspace/kaiga-visual/met-436678-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:35.803376+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "左の窓から光が入る縦長の室内、卓を囲む人々、卓上の皿、右奥のカーテンで囲われた寝台状の区画を確認。前室の描写と整合する。牡蠣の効用や娼館という解釈は画像だけでは確定しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436678",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-436692",
+      "batch": 9,
+      "draft_file_sha256": "e12c02b9efbb2e87050a63baa18b8ca82ccb345361827137a06a73e7356347fe",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169219.jpg",
+          "expected_sha256": "80cad2b17dbb7abbc9d84b9c5c7054bcc7b956587c8a6585b9f0016e6fd5c89c",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "80cad2b17dbb7abbc9d84b9c5c7054bcc7b956587c8a6585b9f0016e6fd5c89c",
+          "byte_length": 63262,
+          "width": 506,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-436692-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:35.706948+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP169219.jpg",
+          "expected_sha256": "04f230eee3ef61c7b106aac1c0244846bbbf9e73fefb3b4f9290b1c884dd02ca",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "04f230eee3ef61c7b106aac1c0244846bbbf9e73fefb3b4f9290b1c884dd02ca",
+          "byte_length": 2303457,
+          "width": 3136,
+          "height": 3866,
+          "local_path": "/workspace/kaiga-visual/met-436692-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:35.917714+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "三人の子どもが並び、中央の男児は脚を広げて立ち、左右の二人は白いドレスを着る。人数・中央の姿勢・左右の並びは本文と整合。各人の名前やホルバインからの借用は資料に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436692",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-436721",
+      "batch": 9,
+      "draft_file_sha256": "7041a35713994088180c41fa10d644a7fdabc6f0a54ebaf795e264b2c235a069",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26164-001.jpg",
+          "expected_sha256": "8d57c311f2ccd4aa9bcbb2fac52e1caa96625f48294705eb23b696c093cab572",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "8d57c311f2ccd4aa9bcbb2fac52e1caa96625f48294705eb23b696c093cab572",
+          "byte_length": 120073,
+          "width": 554,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-436721-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:35.764780+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-26164-001.jpg",
+          "expected_sha256": "69fe6aae9e565c621b05515ed4205044b216be63a5bcff6d7fe87163deb97623",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "69fe6aae9e565c621b05515ed4205044b216be63a5bcff6d7fe87163deb97623",
+          "byte_length": 4666803,
+          "width": 3549,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-436721-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.345687+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "柱を挟む半身の二人。左に荊の冠・傷・縛られた手の人物、右に胸元で手を重ね視線を下げる女性。群衆を描かない構成に対応。等身大という実寸や祈りの効果は画像だけでは検証しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436721",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-436801",
+      "batch": 9,
+      "draft_file_sha256": "8d5e5f214dbd6336e044fe94ae2ffd2fe73b7b1b0ed937cd56f3e897e399e0ad",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1459.jpg",
+          "expected_sha256": "67398447bbb4e2a600733670701033eba98ddeae57c269d40438262a2abb64c2",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "67398447bbb4e2a600733670701033eba98ddeae57c269d40438262a2abb64c2",
+          "byte_length": 131650,
+          "width": 478,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-436801-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:35.821470+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1459.jpg",
+          "expected_sha256": "45fa890f6d70b6a1aa4d22a120fe4c86deb752a4290740154385e177a1656400",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "45fa890f6d70b6a1aa4d22a120fe4c86deb752a4290740154385e177a1656400",
+          "byte_length": 3331285,
+          "width": 2851,
+          "height": 3722,
+          "local_path": "/workspace/kaiga-visual/met-436801-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:36.073442+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "食卓を囲む人々と手前の複数の壺、左の柱の外側からのぞく人物を確認。婚礼場面の配置と本文に矛盾なし。肖像の候補者や奇跡の意味は画像から断定しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436801",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-436805",
+      "batch": 9,
+      "draft_file_sha256": "bc0dff6823905d6cc1b8d9203f5151ce60103f16972a5172c5136bbcfe055679",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145932.jpg",
+          "expected_sha256": "7008152a66555eb37a84fbf648832ba05835619ce13b994a382f344f271518d1",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "7008152a66555eb37a84fbf648832ba05835619ce13b994a382f344f271518d1",
+          "byte_length": 78207,
+          "width": 549,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-436805-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:35.906034+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP145932.jpg",
+          "expected_sha256": "03b2929026bd439a42fc70058e4079cd074f99a77e8b27a1f568a8c97b382342",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "03b2929026bd439a42fc70058e4079cd074f99a77e8b27a1f568a8c97b382342",
+          "byte_length": 2378865,
+          "width": 3251,
+          "height": 3697,
+          "local_path": "/workspace/kaiga-visual/met-436805-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:36.116320+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "暗い背景に脚付きグラス、青白の鉢、果物、卓から垂れる模様織物。傾いた鉢の下にパン状の塊、縁から長いレモンの皮が垂れる配置を確認。輸入元・象徴性は文献に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436805",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    }
+  ]
+}
