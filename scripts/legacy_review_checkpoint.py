@@ -122,7 +122,7 @@ def describe_changes(root, baseline_commit, relpath, current):
     old = previous["visitor_explanation"]
     new = current["visitor_explanation"]
     text_changed = old["text"] != new["text"]
-    urls_changed = old["source_urls"] != new["source_urls"]
+    urls_changed = old.get("source_urls", []) != new.get("source_urls", [])
     evidence_changed = previous.get("evidence") != current.get("evidence")
     review_changed = old.get("review") != new.get("review")
     hunks = []
