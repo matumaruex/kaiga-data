@@ -6,6 +6,7 @@ on:
     paths:
       - "data/**"
       - "scripts/**"
+      - "tests/test_legacy_review_checkpoint.py"
       - ".github/workflows/check-artworks.yml"
 
 permissions:
