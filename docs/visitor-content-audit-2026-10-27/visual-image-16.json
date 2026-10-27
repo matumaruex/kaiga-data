@@ -1,0 +1,199 @@
+{
+  "batch": 16,
+  "review_date": "2026-10-28",
+  "baseline_commit": "f23df7c3d0e9342c00a13ccce10ccc6fa01d5b20",
+  "reviewer": "Codex image inspection; AIによる画像照合。人間・独立した第三者による監査ではない。",
+  "scope": "公式画像を取得し、構図・人物・物の配置と現在の下書きの可視的記述を照合。史実、人物の同定、作者意図、文字の厳密な翻刻、解説文の権利を画像から認定しない。",
+  "items": [
+    {
+      "id": "met-438817",
+      "batch": 16,
+      "draft_file_sha256": "1d2771443e258ae7a9d565d58cffd17ee4bcbbb46a5083aa3a170522362024fe",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20101-001.jpg",
+          "expected_sha256": "e06ff1c9490053cf3f9c8351d0f939febf9ef92b8059a809ba541d16ebfccde0",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "e06ff1c9490053cf3f9c8351d0f939febf9ef92b8059a809ba541d16ebfccde0",
+          "byte_length": 124833,
+          "width": 579,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-438817-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.303622+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-20101-001.jpg",
+          "expected_sha256": "10059dd5a1da4ea6bf30e778c0d1a334e1ea104018415a93e4c79525a73bdeaf",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "10059dd5a1da4ea6bf30e778c0d1a334e1ea104018415a93e4c79525a73bdeaf",
+          "byte_length": 5207233,
+          "width": 3710,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-438817-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.822678+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "稽古場に踊り手が多数集まり、杖を持つ教師の前で一人が踊る。鏡付近にポスターも見える。描き替えは技術調査に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/438817",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-438848",
+      "batch": 16,
+      "draft_file_sha256": "0c418bd3b7cb9d6270d142bfdba38f3001c25769309650552dd71526d49c74ce",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP157664.jpg",
+          "expected_sha256": "213bb6469ba2400cc548b92e78eebd29124e4291ad848cb5ea22efffe65523c3",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "213bb6469ba2400cc548b92e78eebd29124e4291ad848cb5ea22efffe65523c3",
+          "byte_length": 94616,
+          "width": 433,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-438848-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.488636+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP157664.jpg",
+          "expected_sha256": "8e922e0919756abc83d9faa0352a617b5b41af1ed3c6187001c708ef62ca5eea",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "8e922e0919756abc83d9faa0352a617b5b41af1ed3c6187001c708ef62ca5eea",
+          "byte_length": 1830049,
+          "width": 2651,
+          "height": 3822,
+          "local_path": "/workspace/kaiga-visual/met-438848-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.756863+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "街路の両側に建物、人物や犬、遠方に教会の尖塔が見える。教会名と別版の来歴は画像だけでは確定しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/438848",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-441352",
+      "batch": 16,
+      "draft_file_sha256": "6262322f11fc0891c471da324bd13e71ad56693701763563a01d259bbc855eb7",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14274-001.jpg",
+          "expected_sha256": "66009ad96cf8f71984e7903a0b3c9d77d58b670d0b7c14766d582f4d63930fb1",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "66009ad96cf8f71984e7903a0b3c9d77d58b670d0b7c14766d582f4d63930fb1",
+          "byte_length": 97595,
+          "width": 399,
+          "height": 625,
+          "local_path": "/workspace/kaiga-visual/met-441352-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.548860+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-14274-001.jpg",
+          "expected_sha256": "6e81b3fd742717663ca046d37ca9455ce33a8d62d085f8c0905d881d6ea68283",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "6e81b3fd742717663ca046d37ca9455ce33a8d62d085f8c0905d881d6ea68283",
+          "byte_length": 3252929,
+          "width": 2555,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-441352-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.828743+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "人物たちが立つ高い壇の前に虎が横たわる。死や悲嘆の理由、詩との関係は画像だけでは証明しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/441352",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-44638",
+      "batch": 16,
+      "draft_file_sha256": "938a4757549da1e8eed7b9d50bf181b2579f8a652ed7a650ba9ef02e6dbc0819",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP160432.jpg",
+          "expected_sha256": "f50dd0380a496ebdc8e46e35d11295892dfdce5b1a1e780fff74f0e21d30b0ac",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "f50dd0380a496ebdc8e46e35d11295892dfdce5b1a1e780fff74f0e21d30b0ac",
+          "byte_length": 129744,
+          "width": 599,
+          "height": 560,
+          "local_path": "/workspace/kaiga-visual/met-44638-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.749708+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP160432.jpg",
+          "expected_sha256": "d973c55eadb2582bcf1c5224139661d1377c6abd1200bae0972d59243ec14522",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "d973c55eadb2582bcf1c5224139661d1377c6abd1200bae0972d59243ec14522",
+          "byte_length": 794729,
+          "width": 1796,
+          "height": 1678,
+          "local_path": "/workspace/kaiga-visual/met-44638-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.844183+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "扇形の画面に岩、枝、左下の人物と右の円い月、広い余白が見える。構成は本文と整合。陰陽や精神性は館の解釈。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/44638",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-44841",
+      "batch": 16,
+      "draft_file_sha256": "58221769d46b7686d2a8965cc508257abf0d1c8a398890189c5c420497128af0",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-15580-019.jpg",
+          "expected_sha256": "b33b8c233751bd2b0c5bb88498a6f29982cd1c05299a1fd6249e3459558b0931",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "b33b8c233751bd2b0c5bb88498a6f29982cd1c05299a1fd6249e3459558b0931",
+          "byte_length": 233404,
+          "width": 584,
+          "height": 625,
+          "local_path": "/workspace/kaiga-visual/met-44841-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.770115+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-15580-019.jpg",
+          "expected_sha256": "35596d20a51bdfcc996c47f989028cb9429e0aa2cdf8d64489f284a0774bdfd0",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "35596d20a51bdfcc996c47f989028cb9429e0aa2cdf8d64489f284a0774bdfd0",
+          "byte_length": 6808699,
+          "width": 3738,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-44841-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:40.086407+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "横たわる金色の人物を、多数の人々と動物が囲む。表情の違いと宗教的意味は館の解釈を参照し、顔の小さな特徴は画像だけでは断定しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/44841",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    }
+  ]
+}
