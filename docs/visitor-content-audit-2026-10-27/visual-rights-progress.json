@@ -9,7 +9,7 @@
   "text_rights_checked": 0,
   "next_batch": null,
   "blocked_visual_batches": [],
-  "note": "100件の画像をAIが照合し記録。4件の細部は追加確認が必要。7ファイルのハッシュ不一致はvisual-image-hash-followup.json参照。画像照合は人間の承認・史実の検証・文章権利確認ではない。",
+  "note": "画像100件をAIが照合済み。細部4件は館の資料と再照合し3件を改稿、画像のみでは一部未確認。文章100件はMet冒頭と予備比較し57件を優先再確認、全件の文章権利はpending。画像ハッシュ7件中5件は旧ハッシュのバイトを再取得、2件は旧バイト未確認。",
   "completed_visual_batches": [
     1,
     2,
@@ -37,5 +37,13 @@
     "no_visual_issue_found": 96,
     "needs_more_visual_evidence": 4
   },
-  "hash_mismatch_files": 7
+  "hash_mismatch_files": 7,
+  "text_rights_screened": 100,
+  "text_rights_screen_scope": "Met作品ページ冒頭との予備比較。補助出典・法的利用条件・人間による確認は未完了。",
+  "text_rights_priority_rewrite_or_review": 57,
+  "text_rights_other_review_required": 43,
+  "hash_recovered_previous_sha": 5,
+  "hash_previous_bytes_unavailable": 2,
+  "visual_followup": "visual-followup-2026-10-28.md",
+  "text_rights_followup": "followup-2026-10-28.md"
 }
