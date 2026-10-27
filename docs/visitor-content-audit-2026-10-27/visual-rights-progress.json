@@ -4,31 +4,14 @@
   "total": 100,
   "batch_size": 5,
   "record_metadata_checked": 100,
-  "visual_checked": 0,
-  "visual_remaining": 100,
+  "visual_checked": 5,
+  "visual_remaining": 95,
   "text_rights_checked": 0,
-  "next_batch": null,
-  "blocked_visual_batches": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20
+  "next_batch": 2,
+  "blocked_visual_batches": [],
+  "note": "画像は100件の表示用・高解像度各1点を一括取得済み。visual-image-NN.jsonが今回の画像照合記録。旧visual-rights-NN.jsonの取得不可記録は履歴として保持。画像照合はAIによる点検で、人間の承認・史実の検証・文章権利確認ではない。",
+  "completed_visual_batches": [
+    1
   ],
-  "note": "100件の公式レコードを照合済み。目視・解説文権利の未処理は1組目から再開。画像取得とブラウザ接続が利用できる環境で再試行。"
+  "downloaded_visual_items": 100
 }

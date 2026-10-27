@@ -1,0 +1,199 @@
+{
+  "batch": 1,
+  "review_date": "2026-10-27",
+  "baseline_commit": "f23df7c3d0e9342c00a13ccce10ccc6fa01d5b20",
+  "reviewer": "Codex image inspection; AIによる画像照合。人間・独立した第三者による監査ではない。",
+  "scope": "公式画像を取得し、構図・人物・物の配置と現在の下書きの可視的記述を照合。史実、人物の同定、作者意図、文字の厳密な翻刻、解説文の権利を画像から認定しない。",
+  "items": [
+    {
+      "id": "met-10154",
+      "batch": 1,
+      "draft_file_sha256": "f0d921e5a295d9fc4ce50032c86a8239714921e3b9624d158885d54f9f7f71a7",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT82.jpg",
+          "expected_sha256": "ac37c808a5d9924bb72cc6e77ba2b7ded8a46177d85bd04d2ad58bfc981a5d37",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "ac37c808a5d9924bb72cc6e77ba2b7ded8a46177d85bd04d2ad58bfc981a5d37",
+          "byte_length": 63686,
+          "width": 599,
+          "height": 359,
+          "local_path": "/workspace/kaiga-visual/met-10154-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:32.187542+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DT82.jpg",
+          "expected_sha256": "b0159f218c5363e2e6108eb01dde44cf96b10c3e25dc4b431d7d335daf942a2e",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "b0159f218c5363e2e6108eb01dde44cf96b10c3e25dc4b431d7d335daf942a2e",
+          "byte_length": 1672585,
+          "width": 3811,
+          "height": 2284,
+          "local_path": "/workspace/kaiga-visual/met-10154-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:32.351570+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "雪の残る山並み、中央の滝と湖、前景の天幕・人・馬が見える。下書きの山岳風景と野営地の記述に対応。民族名や制作経緯は画像のみでは確認できない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/10154",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-10159",
+      "batch": 1,
+      "draft_file_sha256": "90e2bedef3fdd9bf23ed932c40e67d28875a405c441b0d75e1be2106d11b4d49",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT73.jpg",
+          "expected_sha256": "96a4ded6f2f5cd6a3b46263d7b99d05ba07a7c2d4be4938af595c906ceb39ab2",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "96a4ded6f2f5cd6a3b46263d7b99d05ba07a7c2d4be4938af595c906ceb39ab2",
+          "byte_length": 62716,
+          "width": 600,
+          "height": 480,
+          "local_path": "/workspace/kaiga-visual/met-10159-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:32.191742+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DT73.jpg",
+          "expected_sha256": "dd4dcecfcfd9e3bae55abda6a2d1ebf2ba9e45395b700014d3438f1e388db54f",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "dd4dcecfcfd9e3bae55abda6a2d1ebf2ba9e45395b700014d3438f1e388db54f",
+          "byte_length": 2695261,
+          "width": 3811,
+          "height": 3049,
+          "local_path": "/workspace/kaiga-visual/met-10159-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:32.408532+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "穏やかな水面に細長い舟、二人の人物、左端に黒い動物、舟と人物の反射が見える。川を進む舟という描写と整合。親子関係・出自・改題は文献に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/10159",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-10819",
+      "batch": 1,
+      "draft_file_sha256": "ed7984a4d3b3d123529e674cd59b971b2bb02c069321ad972548be11e5e81530",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT86.jpg",
+          "expected_sha256": "bc17d4cff2e963d3e0c103499a97caa7f3718bf55fda89423afc925c8b5bc207",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "bc17d4cff2e963d3e0c103499a97caa7f3718bf55fda89423afc925c8b5bc207",
+          "byte_length": 71642,
+          "width": 599,
+          "height": 419,
+          "local_path": "/workspace/kaiga-visual/met-10819-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:32.170573+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DT86.jpg",
+          "expected_sha256": "093e4cf1022b9dfb5d4500bc19af5391d7f6667a55b4d250d362f530f699f999",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "093e4cf1022b9dfb5d4500bc19af5391d7f6667a55b4d250d362f530f699f999",
+          "byte_length": 2724057,
+          "width": 3811,
+          "height": 2667,
+          "local_path": "/workspace/kaiga-visual/met-10819-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:32.542126+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "前景に一人乗りの黄色い細長い艇、少し奥にもオールを広げた漕ぎ手、さらに橋が見える。前景と奥の漕ぎ手の配置に矛盾はない。個人名は画像だけでは確認しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/10819",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-11140",
+      "batch": 1,
+      "draft_file_sha256": "9f587cb0bc60a9535c5caa2831179c23d5fa211724ab903b26bb328a199f4ed6",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-20820-001.jpg",
+          "expected_sha256": "2d6000f74d77c3cb23d7f243d79f9b80031ddc289286a33be84da16cbd92bd50",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "2d6000f74d77c3cb23d7f243d79f9b80031ddc289286a33be84da16cbd92bd50",
+          "byte_length": 111293,
+          "width": 600,
+          "height": 371,
+          "local_path": "/workspace/kaiga-visual/met-11140-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:32.079425+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-20820-001.jpg",
+          "expected_sha256": "c000f7b10174eba275d642466b60046872ded1d8541119e9f5ae6aac88ca5fbc",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "c000f7b10174eba275d642466b60046872ded1d8541119e9f5ae6aac88ca5fbc",
+          "byte_length": 4411408,
+          "width": 4000,
+          "height": 2475,
+          "local_path": "/workspace/kaiga-visual/met-11140-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:32.582878+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "裸足の少年の列が手をつないで走り、左側で転ぶ人物と列の断絶、背後に赤い小建物が見える。現行下書きの描写に対応。別所蔵版との制作順序は画像から判定しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/11140",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-11160",
+      "batch": 1,
+      "draft_file_sha256": "023bb950d3e91d348d81544499b73af9f6c2d318fa8c1d8a48b5d87d3770b13f",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/web-large/ap97.5.jpg",
+          "expected_sha256": "d586a27559c5fa971ebbbbf2070a8df51beca9b7371eca6a711036f1cb5c501e",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "d586a27559c5fa971ebbbbf2070a8df51beca9b7371eca6a711036f1cb5c501e",
+          "byte_length": 114169,
+          "width": 508,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-11160-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:32.174048+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/ap97.5.jpg",
+          "expected_sha256": "1cf99ef2a8eb1b213f61c542d8668e31e0f9305edd8129309e632d789dd5e892",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "1cf99ef2a8eb1b213f61c542d8668e31e0f9305edd8129309e632d789dd5e892",
+          "byte_length": 875500,
+          "width": 1488,
+          "height": 1828,
+          "local_path": "/workspace/kaiga-visual/met-11160-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:32.257569+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "階段上の白髪の男性が、右側の女性の抱く幼児へ身をかがめ、周囲に武装した人物が立つ。口づけの場面を描いたという記述と整合するが、逸話の史実性は証明しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/11160",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    }
+  ]
+}
