@@ -4,10 +4,10 @@
   "total": 100,
   "batch_size": 5,
   "record_metadata_checked": 100,
-  "visual_checked": 70,
-  "visual_remaining": 30,
+  "visual_checked": 75,
+  "visual_remaining": 25,
   "text_rights_checked": 0,
-  "next_batch": 15,
+  "next_batch": 16,
   "blocked_visual_batches": [],
   "note": "画像は100件の表示用・高解像度各1点を一括取得済み。visual-image-NN.jsonが今回の画像照合記録。旧visual-rights-NN.jsonの取得不可記録は履歴として保持。画像照合はAIによる点検で、人間の承認・史実の検証・文章権利確認ではない。",
   "completed_visual_batches": [
@@ -24,7 +24,8 @@
     11,
     12,
     13,
-    14
+    14,
+    15
   ],
   "downloaded_visual_items": 100
 }

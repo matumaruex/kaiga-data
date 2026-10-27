@@ -1,0 +1,199 @@
+{
+  "batch": 15,
+  "review_date": "2026-10-28",
+  "baseline_commit": "f23df7c3d0e9342c00a13ccce10ccc6fa01d5b20",
+  "reviewer": "Codex image inspection; AIによる画像照合。人間・独立した第三者による監査ではない。",
+  "scope": "公式画像を取得し、構図・人物・物の配置と現在の下書きの可視的記述を照合。史実、人物の同定、作者意図、文字の厳密な翻刻、解説文の権利を画像から認定しない。",
+  "items": [
+    {
+      "id": "met-438427",
+      "batch": 15,
+      "draft_file_sha256": "ae214694cb76a1e925c0e2220318ecaf3ba1ae36553b5e6d4817681a79756724",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26972-001.jpg",
+          "expected_sha256": "cb8a9bf2325db9cba255ac242400f9919fa4e8c1550800e00deca438355456ea",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "cb8a9bf2325db9cba255ac242400f9919fa4e8c1550800e00deca438355456ea",
+          "byte_length": 73891,
+          "width": 599,
+          "height": 355,
+          "local_path": "/workspace/kaiga-visual/met-438427-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:38.700614+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-26972-001.jpg",
+          "expected_sha256": "85366a05c9f1126a362dcd1ca85abcd91511c2980f6f4d7efde605d458122e85",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "85366a05c9f1126a362dcd1ca85abcd91511c2980f6f4d7efde605d458122e85",
+          "byte_length": 2715258,
+          "width": 4000,
+          "height": 2369,
+          "local_path": "/workspace/kaiga-visual/met-438427-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:38.984582+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "横たわる人物を囲み、中央の女性が頭を後ろへ反らす。身体と哀悼者の配置に対応。支持体の食卓布は技術調査に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/438427",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-438545",
+      "batch": 15,
+      "draft_file_sha256": "ed191ee90c511a5a36ba48b108fd88a4d5db76377151f910c2ca9ae3ab63d751",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT235903.jpg",
+          "expected_sha256": "1f594fb9557dc31dfe5396ac599cb14724a18831bb3c14541d074b12beff71c6",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "1f594fb9557dc31dfe5396ac599cb14724a18831bb3c14541d074b12beff71c6",
+          "byte_length": 123286,
+          "width": 491,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-438545-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.064930+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DT235903.jpg",
+          "expected_sha256": "f55313e2d5cc8104df83142a0ebda10c5e66459ed9799b971aa8728df41c5336",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "f55313e2d5cc8104df83142a0ebda10c5e66459ed9799b971aa8728df41c5336",
+          "byte_length": 3153854,
+          "width": 2927,
+          "height": 3722,
+          "local_path": "/workspace/kaiga-visual/met-438545-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.327974+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "窓辺の部屋にギターを持つ人物、書棚、壁の絵や白い彫像状の品が見える。人物の名前や友情は画像だけでは確定しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/438545",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-438738",
+      "batch": 15,
+      "draft_file_sha256": "158701ec71afb34e2c6e2ad4e77d3a36487addf7b10017ee22955c080d60dc75",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20613-001.jpg",
+          "expected_sha256": "707964df27f2487489d97b15c411781289c5f52afd19385e1301c4c8f43e4531",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "707964df27f2487489d97b15c411781289c5f52afd19385e1301c4c8f43e4531",
+          "byte_length": 219412,
+          "width": 599,
+          "height": 479,
+          "local_path": "/workspace/kaiga-visual/met-438738-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.067784+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-20613-001.jpg",
+          "expected_sha256": "cffcd8c5a0e525891558d4ebb1e4d9c2e9e5fd8d352336481183f23c557e87a9",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "cffcd8c5a0e525891558d4ebb1e4d9c2e9e5fd8d352336481183f23c557e87a9",
+          "byte_length": 8167160,
+          "width": 4000,
+          "height": 3196,
+          "local_path": "/workspace/kaiga-visual/met-438738-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.705415+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "草地の左側に重なり合う干し草の山と木々が見える。別作や朝・午後の制作関係は館の記録に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/438738",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-438779",
+      "batch": 15,
+      "draft_file_sha256": "e17037157dbc5ebf6c5d0516b37d130bb3b1ab22134428bac5c74e77ccd1cd5f",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP131218.jpg",
+          "expected_sha256": "cb7f98e988cd97a474b2b6f041e578ff1e4eba715780bed50b43d4496c53031f",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "cb7f98e988cd97a474b2b6f041e578ff1e4eba715780bed50b43d4496c53031f",
+          "byte_length": 87651,
+          "width": 492,
+          "height": 625,
+          "local_path": "/workspace/kaiga-visual/met-438779-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.071069+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP131218.jpg",
+          "expected_sha256": "7745ed2201663abdffc91f8da1b6b40f3310d8e3f5dc5d6b645e161363b6299c",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "7745ed2201663abdffc91f8da1b6b40f3310d8e3f5dc5d6b645e161363b6299c",
+          "byte_length": 3026416,
+          "width": 3149,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-438779-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.377534+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "炉の前に複数の人物が集まり、座る男性と子どもたちが見える。作者帰属・支持体の銅板・家族関係は画像で確定しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/438779",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-438815",
+      "batch": 15,
+      "draft_file_sha256": "35b71392e1497ac8e355f3e41f1d2f5dbb0c97ef22cddf1daeaff872e5b87a15",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-35674-001.jpg",
+          "expected_sha256": "d3c623ea906147346f7df865a1817032afd1d748b27ba1f45aa0535c69ebe9e4",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "d3c623ea906147346f7df865a1817032afd1d748b27ba1f45aa0535c69ebe9e4",
+          "byte_length": 132367,
+          "width": 600,
+          "height": 488,
+          "local_path": "/workspace/kaiga-visual/met-438815-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.131756+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-35674-001.jpg",
+          "expected_sha256": "8ac32539a3c7a6a78f31963c2e04e7f11952fffed9002d6cc21158fb64f18317",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "8ac32539a3c7a6a78f31963c2e04e7f11952fffed9002d6cc21158fb64f18317",
+          "byte_length": 4206585,
+          "width": 4000,
+          "height": 3254,
+          "local_path": "/workspace/kaiga-visual/met-438815-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.654206+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "母親の隣と犬の上に、同じ青白の服を着た子どもが一人ずついる。位置関係に対応。子どもの名前・性別・年齢は資料による同定。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/438815",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    }
+  ]
+}
