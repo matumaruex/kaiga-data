@@ -1,6 +1,7 @@
 """Regression checks for retaining verified scope when legacy labels change."""
 import hashlib
 import json
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -100,6 +101,48 @@ class MigrationCheckpointTests(unittest.TestCase):
         self.assertEqual(snap["counts"]["current_draft_similarity_followups_saved"], 0)
         self.assertFalse(snap["artworks"][0]["subsequent_similarity_followups"][0]
                          ["matches_current_draft"])
+
+
+    def commit_review_baseline(self):
+        subprocess.run(["git", "init", "-q", str(self.root)], check=True)
+        subprocess.run(["git", "-C", str(self.root), "add", "."], check=True)
+        subprocess.run(["git", "-C", str(self.root), "-c", "user.name=Test",
+                        "-c", "user.email=test@example.com", "commit", "-qm", "original"],
+                       check=True)
+        sha = subprocess.check_output(
+            ["git", "-C", str(self.root), "rev-parse", "HEAD"], text=True
+        ).strip()
+        self.write(BASE / "manifest.json",
+                   {"total_items": 100, "items": self.manifest, "baseline_commit": sha})
+
+    def test_only_modified_paragraph_requires_rechecking(self):
+        self.commit_review_baseline()
+        item = self.manifest[0]
+        self.write(Path(item["path"]),
+                   {"id": item["id"], "visitor_explanation": {"text": "New description"}})
+        result = build(self.root)
+        change = result["artworks"][0]["changes_since_original_review"]
+        self.assertTrue(change["baseline_available"])
+        self.assertTrue(change["text_changed"])
+        self.assertEqual(change["recheck_scope"],
+                         "recheck_changed_paragraphs_and_dependencies")
+        self.assertEqual(len(change["changed_paragraphs"]), 1)
+        self.assertEqual(result["counts"]["actual_text_edits_from_baseline"], 1)
+        self.assertEqual(result["counts"]["unchanged_text_and_sources"], 99)
+
+    def test_review_metadata_change_does_not_reset_content_scope(self):
+        self.commit_review_baseline()
+        item = self.manifest[0]
+        self.write(Path(item["path"]), {"id": item["id"], "visitor_explanation": {
+            "text": "Description 0", "review": {"reviewed_on": "2026-10-28"}
+        }})
+        result = build(self.root)
+        change = result["artworks"][0]["changes_since_original_review"]
+        self.assertTrue(change["baseline_available"])
+        self.assertFalse(change["text_changed"])
+        self.assertTrue(change["review_metadata_changed"])
+        self.assertEqual(change["recheck_scope"], "unchanged_text_and_sources")
+        self.assertEqual(result["counts"]["unchanged_text_and_sources"], 100)
 
     def test_lost_batch_is_not_silently_ignored(self):
         (self.base / "text-rights-screen-02.json").unlink()
