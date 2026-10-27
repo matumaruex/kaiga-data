@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-28",
+  "method": "同じ公式URLを再取得し、過去のDBハッシュと比較。初回・再取得の画像をRGBに展開して各画素差を調べ、差のあった5件はJPEGのscan dataも比較。",
+  "results": [
+    {
+      "id": "met-37851",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP156174.jpg",
+      "sha256_previous_fetch": "21c434d2ec29324aaa88490eb069c5f00ef57184a34243537f8d77a707d582cf",
+      "sha256_refetch": "21c434d2ec29324aaa88490eb069c5f00ef57184a34243537f8d77a707d582cf",
+      "expected_sha256": "0551b90f119888039730660919bba89b2552fb42fe9cf57db552c605453ccb0a",
+      "refetch_matches_expected": false,
+      "refetch_matches_previous_fetch": true,
+      "pixel_mean_absolute_difference_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "id": "met-436808",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP169403.jpg",
+      "sha256_previous_fetch": "14784a7fa490e5cf929576ccdf00575bf7875379010ed05fb6dd7abf535ae457",
+      "sha256_refetch": "557f02524244ef10df5c837a388f8177ce66cb89ec882683b2dda472ca6cf2bb",
+      "expected_sha256": "557f02524244ef10df5c837a388f8177ce66cb89ec882683b2dda472ca6cf2bb",
+      "refetch_matches_expected": true,
+      "refetch_matches_previous_fetch": false,
+      "pixel_mean_absolute_difference_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "id": "met-45524",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP276191.jpg",
+      "sha256_previous_fetch": "e780737c326e7caad78ad686dde5e1d6d28b35213aab780e437782ef8b9fda76",
+      "sha256_refetch": "a81f04f3fa9c787632ec64286e042586e5dab83627bc4e4c5d32d8711402ca9b",
+      "expected_sha256": "a81f04f3fa9c787632ec64286e042586e5dab83627bc4e4c5d32d8711402ca9b",
+      "refetch_matches_expected": true,
+      "refetch_matches_previous_fetch": false,
+      "pixel_mean_absolute_difference_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "id": "met-74448",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP161547.jpg",
+      "sha256_previous_fetch": "fe77104577a21bb05d4eadd3c0f33148f2ceed951a8ed88e9275cb845be5db36",
+      "sha256_refetch": "e1127783eef103f3f6306ec206ee82e0bfaf2c371c362a77e3dbfb5c385bd80d",
+      "expected_sha256": "e1127783eef103f3f6306ec206ee82e0bfaf2c371c362a77e3dbfb5c385bd80d",
+      "refetch_matches_expected": true,
+      "refetch_matches_previous_fetch": false,
+      "pixel_mean_absolute_difference_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "id": "met-74846",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP153226.JPG",
+      "sha256_previous_fetch": "cb2c9ef56327a06340e6bb3044c148181bbb8948623b044cd196a07d8bd1fb31",
+      "sha256_refetch": "20d126471e858cb741761d620b481e93c38a4efd3f1461643209c421ea128df2",
+      "expected_sha256": "20d126471e858cb741761d620b481e93c38a4efd3f1461643209c421ea128df2",
+      "refetch_matches_expected": true,
+      "refetch_matches_previous_fetch": false,
+      "pixel_mean_absolute_difference_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "id": "met-77204",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP333860.jpg",
+      "sha256_previous_fetch": "363e8f973a9580ed0ba90b41ccfbf4a4642dc5bca7d8aea6cf4582938b59ec49",
+      "sha256_refetch": "40fbda6f1c83cb5eaa49194907b2bae436f39925bfb7847d23affc10ee3d9fed",
+      "expected_sha256": "40fbda6f1c83cb5eaa49194907b2bae436f39925bfb7847d23affc10ee3d9fed",
+      "refetch_matches_expected": true,
+      "refetch_matches_previous_fetch": false,
+      "pixel_mean_absolute_difference_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "last_modified": null,
+      "etag": null
+    },
+    {
+      "id": "met-823663",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-19667-002.jpg",
+      "sha256_previous_fetch": "ddd83bc68a4c5f3f6b30ee37e520e6ff600607f8d1c8a340c4051fecb529237c",
+      "sha256_refetch": "ddd83bc68a4c5f3f6b30ee37e520e6ff600607f8d1c8a340c4051fecb529237c",
+      "expected_sha256": "7c7edd61c5ccebe054a051a70a9a131b688a06b9da328f9755388b7ac74c8c8e",
+      "refetch_matches_expected": false,
+      "refetch_matches_previous_fetch": true,
+      "pixel_mean_absolute_difference_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "last_modified": null,
+      "etag": null
+    }
+  ],
+  "interpretation": "5件は再取得バイトが旧ハッシュと一致し、初回と再取得の全RGB画素・scan dataも一致。JPEGのscan開始位置より前のデータが異なる。原因となった機器や変更日時は未特定。met-37851とmet-823663は旧バイトを取得できず未解決。"
+}
