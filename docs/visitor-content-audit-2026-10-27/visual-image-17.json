@@ -1,0 +1,199 @@
+{
+  "batch": 17,
+  "review_date": "2026-10-28",
+  "baseline_commit": "f23df7c3d0e9342c00a13ccce10ccc6fa01d5b20",
+  "reviewer": "Codex image inspection; AIによる画像照合。人間・独立した第三者による監査ではない。",
+  "scope": "公式画像を取得し、構図・人物・物の配置と現在の下書きの可視的記述を照合。史実、人物の同定、作者意図、文字の厳密な翻刻、解説文の権利を画像から認定しない。",
+  "items": [
+    {
+      "id": "met-45417",
+      "batch": 17,
+      "draft_file_sha256": "eaecd675fced5c7a25d9f6bc97ad149b6a99a2c0a7b5def8ddbfdf8e3b89cabb",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-26930-002.jpg",
+          "expected_sha256": "32094f743c27ff2cca6392542d227c70edc4a79315f1656975ad928683e03e85",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "32094f743c27ff2cca6392542d227c70edc4a79315f1656975ad928683e03e85",
+          "byte_length": 142644,
+          "width": 426,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-45417-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.893415+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-26930-002.jpg",
+          "expected_sha256": "7a09e5543c776c4c3d00a2bd2bf3ffcc52c2185fb42fbce77b67a2d18839bd9a",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "7a09e5543c776c4c3d00a2bd2bf3ffcc52c2185fb42fbce77b67a2d18839bd9a",
+          "byte_length": 4060871,
+          "width": 2731,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-45417-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:41.244405+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "横たわる釈迦の周囲に大勢の人と多数の動物、上部に雲上の人物を確認。特定の菩薩や摩耶夫人の同定、動物の厳密な数は資料を参照。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/45417",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-45524",
+      "batch": 17,
+      "draft_file_sha256": "703ab85d7e71fcaa5f3fdac88afdcf5595e24dfca896895d3248632e3992259f",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP276191.jpg",
+          "expected_sha256": "4b63d225c1e8dd739a85de434519e2dad112393a387ed079af57c31f1043e674",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "4b63d225c1e8dd739a85de434519e2dad112393a387ed079af57c31f1043e674",
+          "byte_length": 173979,
+          "width": 416,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-45524-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.941676+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP276191.jpg",
+          "expected_sha256": "a81f04f3fa9c787632ec64286e042586e5dab83627bc4e4c5d32d8711402ca9b",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "e780737c326e7caad78ad686dde5e1d6d28b35213aab780e437782ef8b9fda76",
+          "byte_length": 1832860,
+          "width": 1333,
+          "height": 2000,
+          "local_path": "/workspace/kaiga-visual/met-45524-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:40.406317+00:00",
+          "matches_database_sha256": false
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "白い衣の人物が蓮台に正面向きに座り、一方の足を下ろしている。衣と蓮の装飾が見える。原画像は保存済みハッシュと異なり、ファイル同一性は未確定。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/45524",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-45595",
+      "batch": 17,
+      "draft_file_sha256": "ca15d9114ee702b0cd76177ed0b3bb167665aed734f7f4aac55dadf88255c875",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP317450.jpg",
+          "expected_sha256": "c6f741aff4786300f9ba7be5bd476001ea2d8742671bfebbbbea0aa2f3d39466",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "c6f741aff4786300f9ba7be5bd476001ea2d8742671bfebbbbea0aa2f3d39466",
+          "byte_length": 65383,
+          "width": 350,
+          "height": 623,
+          "local_path": "/workspace/kaiga-visual/met-45595-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.936441+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP317450.jpg",
+          "expected_sha256": "30918e465165f046f5adff6df6ae04e09f5632e6484361db9e1fcd123e14785e",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "30918e465165f046f5adff6df6ae04e09f5632e6484361db9e1fcd123e14785e",
+          "byte_length": 2927890,
+          "width": 2246,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-45595-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:40.579572+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "金色の観音が単独で雲に立ち、頭から放射状の光が伸びる。手と持物の細部や頭上の像の同定は所蔵館の説明を参照。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/45595",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-45620",
+      "batch": 17,
+      "draft_file_sha256": "9eff698d58cdf8df0a7f0e0092779005854e9d8b25be351607b12396bcea6150",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP276185.jpg",
+          "expected_sha256": "f14b2ba1bd90c5b1271503b7b2c34e76671416aa229cac16898f936d833610f4",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "f14b2ba1bd90c5b1271503b7b2c34e76671416aa229cac16898f936d833610f4",
+          "byte_length": 227352,
+          "width": 433,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-45620-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.946551+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP276185.jpg",
+          "expected_sha256": "80cbc3248dcab287af2a70299e6bc01f7ca94db921a6d107e117188f3911d1f7",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "80cbc3248dcab287af2a70299e6bc01f7ca94db921a6d107e117188f3911d1f7",
+          "byte_length": 2156436,
+          "width": 1384,
+          "height": 1995,
+          "local_path": "/workspace/kaiga-visual/met-45620-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:40.108505+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "墨線による多面多臂の像が蓮台上に描かれ、左右に武器状の持物が見える。各面・持物の正確な同定は館の記録に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/45620",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-45647",
+      "batch": 17,
+      "draft_file_sha256": "57556f698104a2e5f58c863ae60b25c63dc7571a7e482feddeac6062bf76a594",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP235481.jpg",
+          "expected_sha256": "92f43d742c26c3d41287a233a23789403d486993fabf0b8c3630cfd173b58866",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "92f43d742c26c3d41287a233a23789403d486993fabf0b8c3630cfd173b58866",
+          "byte_length": 183125,
+          "width": 323,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-45647-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:40.150186+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP235481.jpg",
+          "expected_sha256": "2ad9291c7f9b709aa617ec688a3ad67937bab46e271e8d89d816fd2e42b52072",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "2ad9291c7f9b709aa617ec688a3ad67937bab46e271e8d89d816fd2e42b52072",
+          "byte_length": 1558469,
+          "width": 1005,
+          "height": 1941,
+          "local_path": "/workspace/kaiga-visual/met-45647-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:40.288616+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "縦長の山水に細かな濃淡の点が集まり、岩や樹木を形づくる。川辺の小さな人物も見える。交友関係や画風の系譜は文献に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/45647",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    }
+  ]
+}
