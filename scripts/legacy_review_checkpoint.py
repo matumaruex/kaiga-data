@@ -13,6 +13,8 @@ a different draft hash is historical evidence, NOT approval of the current text.
 import argparse
 import hashlib
 import json
+import subprocess
+from difflib import SequenceMatcher
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -89,6 +91,65 @@ def load_followups(root, allowed):
     return group
 
 
+def describe_changes(root, baseline_commit, relpath, current):
+    """Compare the old draft at the original review commit without altering either file.
+
+    If Git history is unavailable, leave the comparison unknown rather than
+    declaring a changed file fully unchecked. 'Metadata only' still is not
+    proof of rights clearance.
+    """
+    unknown = {
+        "baseline_available": False, "text_changed": None,
+        "source_urls_changed": None, "evidence_changed": None,
+        "review_metadata_changed": None, "changed_paragraphs": [],
+        "recheck_scope": "unknown_without_baseline",
+    }
+    if not baseline_commit:
+        return unknown
+    try:
+        proc = subprocess.run(
+            ["git", "-C", str(root), "show", f"{baseline_commit}:{relpath.as_posix()}"],
+            capture_output=True, check=False,
+        )
+    except OSError:
+        return unknown
+    if proc.returncode != 0:
+        return unknown
+    try:
+        previous = json.loads(proc.stdout)
+    except (ValueError, UnicodeError):
+        return unknown
+    old = previous["visitor_explanation"]
+    new = current["visitor_explanation"]
+    text_changed = old["text"] != new["text"]
+    urls_changed = old["source_urls"] != new["source_urls"]
+    evidence_changed = previous.get("evidence") != current.get("evidence")
+    review_changed = old.get("review") != new.get("review")
+    hunks = []
+    if text_changed:
+        left = old["text"].split("\n\n")
+        right = new["text"].split("\n\n")
+        for op, a, b, c, d in SequenceMatcher(None, left, right).get_opcodes():
+            if op != "equal":
+                hunks.append({
+                    "change": op,
+                    "previous_paragraphs": left[a:b],
+                    "current_paragraphs": right[c:d],
+                })
+    if not text_changed and not urls_changed:
+        scope = "unchanged_text_and_sources"
+    elif text_changed:
+        scope = "recheck_changed_paragraphs_and_dependencies"
+    else:
+        scope = "recheck_changed_source_references"
+    return {
+        "baseline_available": True, "text_changed": text_changed,
+        "source_urls_changed": urls_changed, "evidence_changed": evidence_changed,
+        "review_metadata_changed": review_changed, "changed_paragraphs": hunks,
+        "recheck_scope": scope,
+    }
+
+
 def build(root):
     root = Path(root).resolve()
     manifest = load(root / BASE / "manifest.json")
@@ -115,6 +176,7 @@ def build(root):
         if draft["id"] != ident:
             raise ValueError(f"{ident}: ID does not match its draft file")
         current_sha = hashlib.sha256(raw).hexdigest()
+        changes = describe_changes(root, manifest.get("baseline_commit"), relpath, draft)
         prior = content[ident]
         screen = screens[ident]
         prior_current = prior["draft_sha256"] == current_sha
@@ -140,7 +202,9 @@ def build(root):
             "current_draft_sha256": current_sha,
             "manifest_sha256": original["sha256"],
             "manifest_matches_current_draft": original["sha256"] == current_sha,
+            "changes_since_original_review": changes,
             "historical_content_audit": {
+                "historically_reviewed": True,
                 "record_file": prior["_file"],
                 "draft_sha256": prior["draft_sha256"],
                 "matches_current_draft": prior_current,
@@ -150,6 +214,7 @@ def build(root):
                 "findings": prior.get("findings", []),
             },
             "historical_rights_prescreen": {
+                "historically_screened": True,
                 "record_file": screen["_file"],
                 "draft_sha256": screen["draft_file_sha256"],
                 "matches_current_draft": screen_current,
@@ -180,6 +245,16 @@ def build(root):
             ),
             "rights_prescreens_matching_current": sum(
                 r["historical_rights_prescreen"]["matches_current_draft"] for r in records
+            ),
+            "changes_with_baseline_available": sum(
+                r["changes_since_original_review"]["baseline_available"] for r in records
+            ),
+            "actual_text_edits_from_baseline": sum(
+                r["changes_since_original_review"]["text_changed"] is True for r in records
+            ),
+            "unchanged_text_and_sources": sum(
+                r["changes_since_original_review"]["recheck_scope"] == "unchanged_text_and_sources"
+                for r in records
             ),
             "current_draft_similarity_followups_saved": sum(
                 any(e["matches_current_draft"] for e in r["subsequent_similarity_followups"])
