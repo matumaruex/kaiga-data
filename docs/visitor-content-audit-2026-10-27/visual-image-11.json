@@ -1,0 +1,208 @@
+{
+  "batch": 11,
+  "review_date": "2026-10-27",
+  "baseline_commit": "f23df7c3d0e9342c00a13ccce10ccc6fa01d5b20",
+  "reviewer": "Codex image inspection; AIによる画像照合。人間・独立した第三者による監査ではない。",
+  "scope": "公式画像を取得し、構図・人物・物の配置と現在の下書きの可視的記述を照合。史実、人物の同定、作者意図、文字の厳密な翻刻、解説文の権利を画像から認定しない。",
+  "items": [
+    {
+      "id": "met-437042",
+      "batch": 11,
+      "draft_file_sha256": "a34aa640fc5ddab338b4c6354c78e53a8ba16c89c191fed20c9f152d9c19526b",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23076-001.jpg",
+          "expected_sha256": "0f7c974a2cd598f48aaca3990fae91c45e81f1c23066c9493178f1f49e78e045",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "0f7c974a2cd598f48aaca3990fae91c45e81f1c23066c9493178f1f49e78e045",
+          "byte_length": 76839,
+          "width": 600,
+          "height": 366,
+          "local_path": "/workspace/kaiga-visual/met-437042-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:36.626282+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-23076-001.jpg",
+          "expected_sha256": "ea12b1a5bcac51b9d5477fa1a3b35bcec0d9d3cb1b28e867341a05d0a6479f72",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "ea12b1a5bcac51b9d5477fa1a3b35bcec0d9d3cb1b28e867341a05d0a6479f72",
+          "byte_length": 3597716,
+          "width": 4000,
+          "height": 2442,
+          "local_path": "/workspace/kaiga-visual/met-437042-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.411481+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "羊の群れは後ろ姿を見せ、道の先に羊飼いと犬がいる。群れが遠ざかるという説明に対応。価格差や画家の評価は画像では確認しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437042",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-437083",
+      "batch": 11,
+      "draft_file_sha256": "6a94e297ee8de6a194eb85135518ea25295c1a7bdd45d508c1ddd00be0590036",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP134149.jpg",
+          "expected_sha256": "881b2643f377fa3231fea4662a6ab849612761f722bb289160a8d4c121add8ff",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "881b2643f377fa3231fea4662a6ab849612761f722bb289160a8d4c121add8ff",
+          "byte_length": 95287,
+          "width": 459,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-437083-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:36.957415+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP134149.jpg",
+          "expected_sha256": "29ffff30e531abf1995a8dac0cebe4030d21f6a459287420f81a6fc4f0f3c374",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "29ffff30e531abf1995a8dac0cebe4030d21f6a459287420f81a6fc4f0f3c374",
+          "byte_length": 2836280,
+          "width": 2781,
+          "height": 3782,
+          "local_path": "/workspace/kaiga-visual/met-437083-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.156970+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "中央の結婚場面の周りに多数の人物、左側には棒を曲げるなど身振りの大きい人物が見える。求婚者の反応という解釈に整合。表面の損傷も見える。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437083",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-437227",
+      "batch": 11,
+      "draft_file_sha256": "96653842df047fdb1b463a0837711e093267af5e90c99f81e20bd5190186bf06",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146509.jpg",
+          "expected_sha256": "73873485a02e1000c8d4ef8de983a59cad24e92172e90bb3a1cf4d00e96ee709",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "73873485a02e1000c8d4ef8de983a59cad24e92172e90bb3a1cf4d00e96ee709",
+          "byte_length": 66241,
+          "width": 560,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-437227-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.044702+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146509.jpg",
+          "expected_sha256": "142010545a0a1155deee36e87764ec688165a08f7734db098620dfcdbe985249",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "142010545a0a1155deee36e87764ec688165a08f7734db098620dfcdbe985249",
+          "byte_length": 2651124,
+          "width": 3440,
+          "height": 3834,
+          "local_path": "/workspace/kaiga-visual/met-437227-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.270919+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "座る女性が紙を持ち、後方の女性が髪に手を添える。左の使用人の前に盆と水差し状の器、足元に小犬を確認。拡大画像でも同じ配置。使用人が手紙を運んだという過去の動作は画像から確定できず、収蔵報告に帰属する。",
+      "detail_view": {
+        "asset": "original",
+        "crop_fraction_xyxy": [
+          0.06,
+          0.29,
+          0.64,
+          0.69
+        ]
+      },
+      "source_url": "https://www.metmuseum.org/art/collection/search/437227",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-437284",
+      "batch": 11,
+      "draft_file_sha256": "bd444ffa065fd36b1e8aebdf5ba7e6da7f3080d7eb450cd453ad4bf992287579",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24048-001.jpg",
+          "expected_sha256": "8194c9cae4fc8fdaeab7ed674e8c15514145b32eebb76846d3798aced1392ee9",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "8194c9cae4fc8fdaeab7ed674e8c15514145b32eebb76846d3798aced1392ee9",
+          "byte_length": 76591,
+          "width": 599,
+          "height": 267,
+          "local_path": "/workspace/kaiga-visual/met-437284-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.226460+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-24048-001.jpg",
+          "expected_sha256": "75a2ce2514dc802caa9914ba993a51e3f778a9ed29015d3a9a6b3b40229964e1",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "75a2ce2514dc802caa9914ba993a51e3f778a9ed29015d3a9a6b3b40229964e1",
+          "byte_length": 2546391,
+          "width": 4000,
+          "height": 1782,
+          "local_path": "/workspace/kaiga-visual/met-437284-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.408296+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "横長の岸辺に人間と半人半獣の人物が集まり、獲物を運ぶ姿や舟が見える。対作品との順序と古代思想との関係は資料に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437284",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-437308",
+      "batch": 11,
+      "draft_file_sha256": "7aa5cc70fc1bde0ea24b43dce62c89ca99f5ad90c377a5e252efb7632c1cfbb9",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1863.jpg",
+          "expected_sha256": "f1922fba205301800b6e2c9b54bc892bf8b86f8386607844f37a880303c2f04a",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "f1922fba205301800b6e2c9b54bc892bf8b86f8386607844f37a880303c2f04a",
+          "byte_length": 130378,
+          "width": 599,
+          "height": 502,
+          "local_path": "/workspace/kaiga-visual/met-437308-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.361462+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1863.jpg",
+          "expected_sha256": "5f841e6d2662667008248089867fcc553d147390c067fd8bcc5d8d0eb2f8e219",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "5f841e6d2662667008248089867fcc553d147390c067fd8bcc5d8d0eb2f8e219",
+          "byte_length": 4447580,
+          "width": 3801,
+          "height": 3185,
+          "local_path": "/workspace/kaiga-visual/met-437308-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.634939+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "橋、両岸の建物、歩行者、手前の舟と煙、灰色の空が見える。都市の交通を高い位置から見た構成に対応。制作場所や画家の言葉は画像から確認しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437308",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    }
+  ]
+}
