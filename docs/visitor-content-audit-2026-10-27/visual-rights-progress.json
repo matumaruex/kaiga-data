@@ -9,7 +9,7 @@
   "text_rights_checked": 0,
   "next_batch": null,
   "blocked_visual_batches": [],
-  "note": "画像100件をAIが照合。優先57件を改稿し、残る43件の追加出典・書き起こし・利用条件の確認範囲と未了事項を記録。文章の権利・人による最終確認は全件pending。不一致7件はすべて旧SHA-256に一致するファイルを回収し画素・JPEG scan dataも一致。met-74996は旧原画像ハッシュなし。",
+  "note": "画像100件をAIが照合。優先57件を改稿し、残る43件の追加出典・書き起こし・利用条件の確認範囲と未了事項を記録。文章の権利とv2の独立AI検証は未完了。旧レビュー欄は互換性のためpendingを維持し、人間の本文承認は必須としない。不一致7件はすべて旧SHA-256に一致するファイルを回収し画素・JPEG scan dataも一致。met-74996は旧原画像ハッシュなし。",
   "completed_visual_batches": [
     1,
     2,
@@ -53,5 +53,6 @@
   "original_image_baseline_missing": 1,
   "hash_latest_followup": "visual-hash-final-attempt-2026-10-28.json",
   "supplementary_followup": "supplementary-progress.json",
-  "current_handoff": "handoff-2026-10-28.md"
+  "current_handoff": "handoff-2026-10-28.md",
+  "rule_alignment": "rule-alignment-2026-10-28.md"
 }
