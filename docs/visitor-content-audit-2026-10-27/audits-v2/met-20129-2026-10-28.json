@@ -2,10 +2,10 @@
   "schema_version": "artwork-v2-source-recheck-1",
   "id": "met-20129",
   "checked_on": "2026-10-28",
-  "result": "REVISE",
-  "result_applies_to": "baseline_artwork",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_unchanged_visitor_draft",
   "progress": "未完成",
-  "scope": "既存作品の全体点検と選定理由の限定修正案。別担当による独立AI監査は未実施。",
+  "scope": "同じAI担当が制作と分けた工程で、原資料・画像・修正案・既存本文・選定用情報を再照合。別担当・別コンテキストの監査とは区別する。正式DBへ保存していないため作品進捗は未完成。",
   "version": {
     "baseline_commit": "01aaf765c482f35a5abbe7263a2f7c7380285681",
     "draft_path": "drafts/visitor-explanations/met-20129.json",
@@ -24,7 +24,7 @@
   },
   "independent_ai_audit": {
     "completed": false,
-    "method": "制作者による原資料再読・画像確認を実施。独立監査の別AI担当への委任をユーザーへ確認中。作品の本文承認を求めるものではない。",
+    "method": "別担当による監査は実施していない。この旧欄を自動昇格条件には使わない。今回実施した同じAIによる別工程の根拠照合はseparate_pass_reviewに記録。",
     "verdict": null,
     "candidate_verdict": null
   },
@@ -93,7 +93,7 @@
     "emotions": "不安2は影と聞き手の表情に結び付く。好奇心1は物語に聞き入る姿に基づく弱い連想として維持できる。観客本人の心理や作者の意図は断定しない。",
     "fitting_situations": "旧版の「怖い結末」は原資料より断定的。「ガイは自分の子どもたちに…を読む場面」も読み手が曖昧。修正案で両方を解消する。",
     "selection_cautions": "物語上の恐怖を現実の危険と同一視しない注意を維持。",
-    "visitor_text": "既存本文は観察と館の読解を区別しており、今回本文改稿は不要と判断。ただし独立AIによる原文との論旨・構成・表現の比較は未実施。"
+    "visitor_text": "既存本文と英語原資料を別工程で直接比較し、今回の範囲で追加改稿を要する不整合・逐語翻訳は見つからない。方法と限界はseparate_pass_review参照。"
   },
   "program_checks": {
     "id": "met-20129",
@@ -118,14 +118,66 @@
     "scope": "一時コピーに修正案を適用して既存300作品検証器で検査。本番dataと全鑑賞者向け下書きは変更しない。"
   },
   "remaining": [
-    "修正案と鑑賞者向け本文を合わせた版について、別担当による独立AI検証を実施する。",
-    "画像の撮影用周辺部分は、公開表示を整える段階で扱いを決める。"
+    "撮影用周辺部分は、公開表示を整える段階で扱いを決める。",
+    "本番反映禁止のため修正案はDraft内に保存。正式DB保存を伴う作品完成には数えない。"
   ],
-  "next_action": "met-20129は修正案の独立AI検証を待つ。次に未点検の対象はmet-35968。作品完成件数には加算しない。",
+  "next_action": "同じAIによる別工程の根拠照合を記録。次の未点検対象met-35968へ進める。別担当への委任許可を待たない。",
   "promotion": {
     "eligible": false,
     "production_changed": false,
     "merged": false,
     "human_approval_required": false
+  },
+  "baseline_result": "REVISE",
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_as_creator",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "修正案を変更せずに、Met作品ページ、Diniの関連解説、利用条件を再open。対象画像を再表示し、既存データ・本文・修正後の選定理由を項目ごとに照合した。",
+    "limitations": "同じAI・同じ会話文脈なので、別の担当者や別コンテキストによる独立性は主張しない。AIの類似比較は法的な許諾や非侵害保証ではない。",
+    "user_direction": "ユーザーが私自身による実施を認めた。「別AI必須・委任承認待ち」はこちらの過剰な解釈として撤回。",
+    "reviewed_proposed_artwork_sha256": "2af2f312d2689f09a0300f8eefdf114388ff69033cc7894e1d0278be1fbd8230",
+    "reviewed_visitor_draft_sha256": "92d0cdf12dd6fbff50157be56d5fd828f4031a1e4ad0babea62f4bed8bbcd90d",
+    "reviewed_proposal_sha256": "f43e7d05bdf47773f3b789a496e132eb79f9c199eb9d292fdd65cf799ee2540e",
+    "checks": [
+      {
+        "area": "identity_and_facts",
+        "source_url": "https://www.metmuseum.org/art/collection/search/20129",
+        "location": "作品名・作者・年代とArtwork Details、所蔵番号2013.604",
+        "finding": "ID、帰属、概年を再照合。別作品や別版を混同する記述は見つからない。"
+      },
+      {
+        "area": "visual_match",
+        "source_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP219245.jpg",
+        "location": "画面左の読み手、寝台の二人、本、壁の影",
+        "finding": "保存画像のSHAを再計算し登録値と一致。画像を再表示して本文の場面と比較。色票など周辺の写り込みは既知の表示品質課題で、別作品の画像ではない。"
+      },
+      {
+        "area": "interpretation_and_selection",
+        "source_url": "https://www.metmuseum.org/art/collection/search/20129",
+        "location": "冒頭2段落",
+        "finding": "修正後の山場という表現と読み手の明示は資料に沿う。作者の直接証言と館の読解を区別し、作者自身や鑑賞者の感情を確定しない。"
+      },
+      {
+        "area": "tags",
+        "source_url": "https://www.metmuseum.org/perspectives/a-story-within-a-story",
+        "location": "本作の解説段落（今回の取得では34–41行）",
+        "finding": "不安2・好奇心1は画面と読み聞かせの記述に反しない。弱い連想を作者の確定した意図とは扱わない。注意事項も維持できる。"
+      },
+      {
+        "area": "visitor_text_and_similarity",
+        "source_url": "https://www.metmuseum.org/art/collection/search/20129",
+        "location": "英語冒頭2段落と日本語本文2段落を直接比較",
+        "finding": "日本語は画面の配置から入り、館の解釈に帰属させて要約する。原文の作者評価・教訓の叙述を全て訳出せず、文単位の逐語訳や長い原文転載は見つからない。論旨が同じなのは共通する資料解釈による。今回比較した範囲で追加改稿を必要とする表現の流用は見つからない。"
+      },
+      {
+        "area": "source_scope_and_terms",
+        "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+        "location": "条項1・3",
+        "finding": "作品画像のPD/OA表示と文章の利用条件を分離して確認。独自の短い日本語解説として評価し、文章にCC0があるとは扱わない。掲載されていない許諾を得たとは記録しない。"
+      }
+    ]
   }
 }
