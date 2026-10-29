@@ -1,0 +1,91 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-435997",
+  "baseline_commit": "5e6ddb5bfa6afb5230e5a3da34f09e778f337cb3",
+  "baseline_artwork_sha256": "f55393d277da95f68f16937f5ce562b4bbbe18117ca84de5f1c0e9894f7a67e8",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "emotions"
+      ],
+      "before": [
+        "喜び",
+        "期待"
+      ],
+      "after": [
+        "喜び"
+      ],
+      "reason": "期待の対象や先行きへの心理を裏付ける資料・画面上の根拠が薄いため補助タグを外す。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435997"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "emotion_strengths"
+      ],
+      "before": {
+        "喜び": 2,
+        "期待": 1
+      },
+      "after": {
+        "喜び": 2
+      },
+      "reason": "期待の削除と強度の対応を保つ。喜び2は男性の微笑みと二人の身振りを鑑賞上の入口とする。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435997"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "emotion_categories",
+        "secondary"
+      ],
+      "before": [
+        "期待"
+      ],
+      "after": [],
+      "reason": "補助タグと分類の整合を保つ。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435997"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "fitting_situations",
+        0,
+        "reason"
+      ],
+      "before": "嵐から身を寄せ合って逃れる若い男女。文学的題材について当時から複数説。",
+      "after": "布を共に掲げて走る二人と、相手へ向けられた男性の微笑みが、高揚や遊び心という鑑賞上の入口になる。文学的同定は複数説があり、二人の内面や物語の結末は確定しない。",
+      "reason": "感情への接点を画像で確認できる表情・身振りに結び付ける。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435997"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "before": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。",
+      "after": "原作の同定は1880年の批評家による複数説として扱う。掲げる布を特定小説の衣装と断定しない。作者本人の直接証言と二人の心理は未確認。",
+      "reason": "旧来の人間承認待ちを作品固有の未確定事項に置き換える。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435997"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-435997.json",
+  "visitor_draft_sha256": "74a7686998bac7217195d730c67dd1fd5b14994bbfcc4a3aa393ef3970871db0",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "ac9f70652d4fd30cb2cf393e228bfa9300b9a45ecbe18e9f4d56a2f999c66ef6"
+}
