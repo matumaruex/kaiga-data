@@ -1,5 +1,7 @@
 # 保存済み改稿・追加点検のv2引き継ぎ
 
+2026-10-29追記：[継続作業](v2-followup-2026-10-29.md)で本文2件を限定修正した。最新スナップショットは [2026-10-29版](checkpoint-v2-2026-10-29.json)。下記の100件一致は前日の保存時点の結果で、現在は組別98件＋個別追補2件で現行100件を網羅する。
+
 2026-10-28。移行保全ブランチの `90eee0c` にある `legacy_review_checkpoint.py` と回帰テストを再利用し、このDraftで組別記録の取り込みを追加した。ブランチのマージ、本番DBの変更、昇格処理は行っていない。
 
 ## 今回の結果
@@ -14,7 +16,7 @@
 
 ```sh
 python3 scripts/legacy_review_checkpoint.py
-python3 scripts/legacy_review_checkpoint.py --verify docs/visitor-content-audit-2026-10-27/checkpoint-v2-2026-10-28.json
+python3 scripts/legacy_review_checkpoint.py --verify docs/visitor-content-audit-2026-10-27/checkpoint-v2-2026-10-29.json
 python3 -m unittest discover -s tests -p test_legacy_review_checkpoint.py
 ```
 
