@@ -1,0 +1,115 @@
+{
+  "batch": 8,
+  "review_date": "2026-10-27",
+  "baseline_commit": "11bca52aca4693be869b8f5f9f98f2b50c1c87e4",
+  "scope": "本文と出典文章の照合。執筆者による再点検で第三者監査ではない。",
+  "image_review": "not_completed; official image download attempt returned HTTP403",
+  "rights_review": "pending",
+  "items": [
+    {
+      "id": "met-436534",
+      "verdict": "no_text_issue_found",
+      "support_summary": "所蔵館は四点の連作・退色と1939年押収／1950年相続人への返還を記載。Centenoほか2017論文Results and discussion／Rosesで花のエオシンと亜鉛白を確認し、卓上の別の赤色色材と取り違えていない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/436534",
+          "location": "解説L10–12",
+          "result": "read"
+        },
+        {
+          "url": "https://www.nature.com/articles/s40494-017-0131-8",
+          "location": "出版社ページの検索応答に収録された本文Results and discussion／Roses、Fig.7付近。通常openはInternal Errorだったが出版社本文を取得",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "色の変化と同様、作品が経た歴史も、現在の一枚に重なっています。",
+          "suggestion": "比喩的な結語は任意。来歴を残すなら返還の事実を明確に結びにしてもよい。"
+        }
+      ],
+      "draft_sha256": "001212c08cdbb6a0a315d343a3b68703e8baa9c390885a2f6a1f57d9c698cbbe"
+    },
+    {
+      "id": "met-436535",
+      "verdict": "no_text_issue_found",
+      "support_summary": "7月2日付テオ宛書簡に麦・ケシ・糸杉・格子柄の空と厚塗りの記述がある。所蔵館とロンドン公式解説は最初の戸外制作、9月の室内版、母妹向け小型版を支持。どの版への『最良』評価かという館間の違いは本文に持ち込んでいない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/436535",
+          "location": "解説L10–11",
+          "result": "read"
+        },
+        {
+          "url": "https://www.webexhibits.org/vangogh/letter/20/597.htm",
+          "location": "日付L7、書簡本文L46、翻訳者L57",
+          "result": "read"
+        },
+        {
+          "url": "https://www.nationalgallery.org.uk/paintings/vincent-van-gogh-a-wheatfield-with-cypresses",
+          "location": "L102、106、112",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "よく似た絵でも、最初の現場での制作と、あとから形を整えた制作では、成り立ちが異なります。",
+          "suggestion": "制作の違いは前文ですでに伝わるため、一般論の結語を省く編集は可能。"
+        }
+      ],
+      "draft_sha256": "3b6d8682f22093fb2d6bcc77f3cfdfbc4098b66303404917c227fac0ad6cfb3b"
+    },
+    {
+      "id": "met-436576",
+      "verdict": "no_text_issue_found",
+      "support_summary": "黙示録6:9–11の主題と病院聖堂の祭壇画断片、古代彫刻・ミケランジェロとの関係の推定、ピカソらへの影響は解説に対応。上部切断は寸法欄top truncatedでも確認。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/436576",
+          "location": "解説L10–11、寸法L57",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "所蔵館が示すこうした源泉は、同じ形をそのまま写したという断定ではありません。",
+          "suggestion": "前文の『関係が指摘』で推定の範囲は伝わる。説明の重複を短くする余地がある。"
+        }
+      ],
+      "draft_sha256": "f8e9055c24c79bc563ab494b37a7a174b3baf2ffa828b01d146abbc2b0972485"
+    },
+    {
+      "id": "met-436579",
+      "verdict": "no_text_issue_found",
+      "support_summary": "割れた卵を処女性喪失の象徴と読む館の説明、1757年批評、ローマ留学時の発想と歴史画家の地位追求を照合。絵の筋立てを実在モデルの伝記的事実としていない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/436579",
+          "location": "解説L10–11",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "b61ab77f4eb7b0a646d045cd7cd932ef39d70676f2c238393e8ce1830a6a4e54"
+    },
+    {
+      "id": "met-436622",
+      "verdict": "no_text_issue_found",
+      "support_summary": "道化二人の食物と役柄、中央人物の少年説は館の解説に一致。性的含意とジョッキの頭文字、署名を酒宴に参加する冗談とするイーカーの解釈を音声で確認。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/436622",
+          "location": "解説L10–11、音声5031 L74–87",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "8a780bd226af5f82245b875dfa1909701c822c13355defa42acce216252dd12d"
+    }
+  ]
+}

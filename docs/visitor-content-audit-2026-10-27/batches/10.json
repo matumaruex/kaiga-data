@@ -1,0 +1,90 @@
+{
+  "batch": 10,
+  "review_date": "2026-10-27",
+  "baseline_commit": "11bca52aca4693be869b8f5f9f98f2b50c1c87e4",
+  "scope": "本文と出典文章の照合。執筆者による再点検で第三者監査ではない。",
+  "image_review": "not_completed; official image download attempt returned HTTP403",
+  "rights_review": "pending",
+  "items": [
+    {
+      "id": "met-436808",
+      "verdict": "no_text_issue_found",
+      "support_summary": "想像上の古典風室内、衣装の異なる時代参照、家庭の幸福の演出、二年後の離別は館の本文に対応。現在の表情から不和を逆算せず、絵の表象と後の史実を分けている。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/436808",
+          "location": "解説L10–11、年代欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "0cebc558b19e15b8f1d0dfb850802377e3b79bf3c8049f1c98a0859a2fdbd5a0"
+    },
+    {
+      "id": "met-436838",
+      "verdict": "no_text_issue_found",
+      "support_summary": "代金支払いと同時の盗みは音声の行為説明に対応。主題の人気と固定観念の関係はフランクとプーリンズの対話に根拠があり、ロマ一般の行動として説明していない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/436838",
+          "location": "解説L10–11、音声L70–93",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "3d063868607fc3a9d1d8e24d9cbf6278231ebb61edd5ec1740b8783b15f18880"
+    },
+    {
+      "id": "met-436839",
+      "verdict": "no_text_issue_found",
+      "support_summary": "明暗対比と簡潔な形態、悔悛の主題、鏡・頭蓋骨・ろうそくの説明に対応。ろうそくの意味のprobablyを『おそらく』で保持。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/436839",
+          "location": "解説L10–11",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "カラヴァッジョの影響を受けながらも",
+          "suggestion": "原資料のCaravaggesque paintingにより忠実にするなら『カラヴァッジョ派の絵画の影響を受けながらも』。本人の絵との直接接触を断定しない言い方になる。"
+        }
+      ],
+      "draft_sha256": "46a87a3630ffbd02fe345bd499bcf656f9250c645f066d145d37c7d2cc68392e"
+    },
+    {
+      "id": "met-436947",
+      "verdict": "no_text_issue_found",
+      "support_summary": "切り取られた舟と帆、斜めの舟による空間の圧縮、日本版画への関心は音声で確認。1874年アルジャントゥイユ制作、推定モデル、1879年サロンとカサットの購入推薦も解説と一致。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/436947",
+          "location": "解説L10–11、音声6250 L73–78",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "b05a2c1e8ff24fad957fc8787532377c0950ea2a1d7dd198126e0049b9c93379"
+    },
+    {
+      "id": "met-436952",
+      "verdict": "no_text_issue_found",
+      "support_summary": "葬儀同定にis thoughtを維持。1867年9月2日、マネの参列、背景建築、マネが生涯保持し1894年にピサロが交換取得した経緯を照合。館本文の方角表現は採用していない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/436952",
+          "location": "解説L10–12",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "b85f2ecefd6e417420cf70b3cc6defcbba846f3b99750ff4a6e41d9647b6dfc1"
+    }
+  ]
+}

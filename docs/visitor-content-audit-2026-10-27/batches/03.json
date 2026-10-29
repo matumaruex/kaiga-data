@@ -1,0 +1,122 @@
+{
+  "batch": 3,
+  "review_date": "2026-10-27",
+  "baseline_commit": "11bca52aca4693be869b8f5f9f98f2b50c1c87e4",
+  "scope": "本文と出典文章の照合。執筆者による再点検で第三者監査ではない。",
+  "image_review": "not_completed; official image download attempt returned HTTP403",
+  "rights_review": "pending",
+  "items": [
+    {
+      "id": "met-37905",
+      "verdict": "no_text_issue_found",
+      "support_summary": "灯火の女性二人、夜・恋・火事の伝説、Malwaの平面的構成、1630–40に対応。伝説を物理現象の史実としない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/37905",
+          "location": "冒頭2段落、1982.462.4",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "e141ee1d71e85bcdd9e764669e387da7886082abd887f88b52f2c572aaecb1b3"
+    },
+    {
+      "id": "met-37906",
+      "verdict": "needs_more_evidence",
+      "support_summary": "上下構成、詩の情趣、先行作、Style ofという留保は原資料に対応する。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/37906",
+          "location": "冒頭2段落、Artist active ca.1582–1624とDateca.1655–60",
+          "result": "read"
+        }
+      ],
+      "findings": [
+        {
+          "severity": "verification",
+          "passage": "おそらくその工房で描かれたと推定しています。",
+          "issue": "館は工房説を示すが、同じ記録の作者活動年代は1582–1624、作品は1655–60。同名作者の識別や工房の継続を補足資料で確認できていない。本文の誤引用ではなく、出典内の整合性が未解決。",
+          "suggestion": "当面は『マノーハルの様式に属するとされています』までにとどめるか、Mewarの同名画家を専門カタログで同定して工房説の根拠を確認する。"
+        }
+      ],
+      "recommendations": [
+        {
+          "passage": "インド絵画には…",
+          "suggestion": "前段と区画構成の説明が重なるため、この段落を短縮できる。"
+        }
+      ],
+      "draft_sha256": "29fbadbfca1ef459de5323a6e5ab6d62cc892c27e4ba6489d9fb10cf2057c377"
+    },
+    {
+      "id": "met-38056",
+      "verdict": "no_text_issue_found",
+      "support_summary": "注文主の参加・楽師二人・支払、詩の喜びと愛、Bikanerのムガルとの交流を区別して説明。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/38056",
+          "location": "冒頭2段落、1996.378",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "モデルの私生活を確定するものではありません。",
+          "suggestion": "留保は適切だが編集者向けの注意に近い。『詩のなかの喜びを担う人物として描かれています』と本文へ溶け込ませられる。"
+        }
+      ],
+      "draft_sha256": "e35a11ff3d63a6be55f6e2f157f46dafbe55ead6695702bc31a9d115019819d9"
+    },
+    {
+      "id": "met-39543",
+      "verdict": "no_text_issue_found",
+      "support_summary": "七夕・界画・玄宗と楊貴妃への言及、戒めと郷愁の異なる読解が資料に対応。制作年代を断定していない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/39543",
+          "location": "冒頭L10–14",
+          "result": "read"
+        },
+        {
+          "url": "https://artmuseum.princeton.edu/art/stories-perspectives/eternal-feast-banqueting-chinese-art-10th-14th-century",
+          "location": "Ladies Banqueting in Seclusion、imagined feast",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "七月七日の夜",
+          "suggestion": "現代の暦と混同しないよう『旧暦七月七日』と補うと親切。"
+        }
+      ],
+      "draft_sha256": "cc9ea09194569d10f91b1e650d212106adc0e743b723b236ee9574e7dbc24139"
+    },
+    {
+      "id": "met-40063",
+      "verdict": "no_text_issue_found",
+      "support_summary": "南宋後期・絹・団扇から画帖、careful realismとselective presentation、宮廷様式の説明に対応。作者本人の画院在籍は主張していない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/40063",
+          "location": "冒頭・Medium・24.80.487",
+          "result": "read"
+        },
+        {
+          "url": "https://www.metmuseum.org/essays/southern-song-dynasty-1127-1279",
+          "location": "宮廷・花鳥画と小形式についての説明",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "団扇や画帖という身近な形式も、そのような見方に適していました。",
+          "suggestion": "編集的な見方として妥当だが、作品固有の観察を画像で補う余地がある。"
+        }
+      ],
+      "draft_sha256": "ce162dde2efca2cd9adbf4f8d706dca8ac9acc68df04ab10c99a7b6e13d88673"
+    }
+  ]
+}

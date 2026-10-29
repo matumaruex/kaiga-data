@@ -1,0 +1,117 @@
+{
+  "batch": 1,
+  "review_date": "2026-10-27",
+  "baseline_commit": "11bca52aca4693be869b8f5f9f98f2b50c1c87e4",
+  "scope": "本文と出典文章の照合。執筆者による再点検で第三者監査ではない。",
+  "image_review": "not_completed; official image download attempt returned HTTP403",
+  "rights_review": "pending",
+  "items": [
+    {
+      "id": "met-10154",
+      "verdict": "no_text_issue_found",
+      "support_summary": "寸法、1859年の踏査、ニューヨークでの制作、前景のショショーニ、Manifest Destinyの読解、WalkingStickへの帰属が直接資料に対応する。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/10154",
+          "location": "冒頭2段落・寸法07.123",
+          "result": "read"
+        },
+        {
+          "url": "https://www.metmuseum.org/perspectives/native-perspectives",
+          "location": "Kay WalkingStick節、L148–150",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "f0d921e5a295d9fc4ce50032c86a8239714921e3b9624d158885d54f9f7f71a7"
+    },
+    {
+      "id": "met-10159",
+      "verdict": "no_text_issue_found",
+      "support_summary": "改題の主体と1845年、元の題の親子関係、Stevensの婚姻と互酬性の解釈、東部向けの理想化を区別している。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/10159",
+          "location": "冒頭2段落・33.61",
+          "result": "read"
+        },
+        {
+          "url": "https://www.metmuseum.org/perspectives/native-perspectives",
+          "location": "Scott Manning Stevens節、L92–94",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "90e2bedef3fdd9bf23ed932c40e67d28875a405c441b0d75e1be2106d11b4d49"
+    },
+    {
+      "id": "met-10819",
+      "verdict": "no_text_issue_found",
+      "support_summary": "レース記念はbelievedの留保を保ち、1870帰国・1871制作・本人の姿・研究者による制作法の説明が資料に対応。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/10819",
+          "location": "冒頭と34.92",
+          "result": "read"
+        },
+        {
+          "url": "https://philadelphiaencyclopedia.org/essays/art-of-thomas-eakins/",
+          "location": "Early Athletic Scenes、Lejaの研究への言及L159–160",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "ed7984a4d3b3d123529e674cd59b971b2bb02c069321ad972548be11e5e81530"
+    },
+    {
+      "id": "met-11140",
+      "verdict": "needs_more_evidence",
+      "support_summary": "Met本文は遊び、切れた鎖、戦後の再結合、赤い校舎と都市化に対応する。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/11140",
+          "location": "冒頭2段落・50.41",
+          "result": "read"
+        },
+        {
+          "url": "https://collection.mmfa.org/objects-1/info/2377?records=60",
+          "location": "作品解説の再取得",
+          "result": "unavailable; with and without query returned Internal Error"
+        }
+      ],
+      "findings": [
+        {
+          "severity": "verification",
+          "passage": "本作はそれに先立つ習作です。",
+          "issue": "今回、補助出典を再取得できず、版・制作順序について独立に再照合できなかった。過去の制作記録には対応記述があるが、今回の確認済みには数えない。",
+          "suggestion": "MMFA解説を再取得するか、Butler所蔵版の公式カタログで本作との制作関係を確認する。確認前はこの一文を保留する。"
+        }
+      ],
+      "recommendations": [],
+      "draft_sha256": "383211e8e36202d6e83b7d4107ce6e9926d5dbca20eb9b580d3a208f64f03cd3"
+    },
+    {
+      "id": "met-11160",
+      "verdict": "no_text_issue_found",
+      "support_summary": "接吻を逸話に限定し、大学教材が信憑性を疑う根拠を帰属させた。制作年代と注文・作者の支持も対応。末尾の記憶の問題は編集上の読みとして妥当。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/11160",
+          "location": "冒頭・97.5",
+          "result": "read"
+        },
+        {
+          "url": "https://www.digitalhistory.uh.edu/active_learning/explorations/brown/hovdenden.cfm",
+          "location": "L4–8、民間人立入と逸話の批判",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "023bb950d3e91d348d81544499b73af9f6c2d318fa8c1d8a48b5d87d3770b13f"
+    }
+  ]
+}

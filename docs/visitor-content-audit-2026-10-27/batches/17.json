@@ -1,0 +1,92 @@
+{
+  "batch": 17,
+  "review_date": "2026-10-27",
+  "baseline_commit": "11bca52aca4693be869b8f5f9f98f2b50c1c87e4",
+  "scope": "本文と出典文章の照合。執筆者による再点検で第三者監査ではない。",
+  "image_review": "not_completed; official image download attempt returned HTTP403",
+  "rights_review": "pending",
+  "items": [
+    {
+      "id": "met-45417",
+      "verdict": "no_text_issue_found",
+      "support_summary": "15世紀の本作の解説に、菩薩の静けさ、地蔵の宝珠と僧形、三十以上の動物、沙羅の花の変色、右上の摩耶夫人が明記されている。別の14世紀版だけから情報を転用していない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/45417",
+          "location": "解説L10–12、年代欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "eaecd675fced5c7a25d9f6bc97ad149b6a99a2c0a7b5def8ddbfdf8e3b89cabb"
+    },
+    {
+      "id": "met-45524",
+      "verdict": "no_text_issue_found",
+      "support_summary": "胎蔵界曼荼羅に由来する図像、垂下する脚、白蓮と白衣、後の水墨図像との比較、硬い衣線と柔らかい蓮弁、13世紀とする根拠は館本文と対応。模写説を推定として保つ。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/45524",
+          "location": "解説L10–12、年代欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "703ab85d7e71fcaa5f3fdac88afdcf5595e24dfca896895d3248632e3992259f"
+    },
+    {
+      "id": "met-45595",
+      "verdict": "no_text_issue_found",
+      "support_summary": "単独で雲上に来迎する十一面観音、開いた右手と数珠、左の蓮華の器、頭上の阿弥陀と放射光、16世紀半ば〜後半を照合。阿弥陀との関係は館の説明として記述。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/45595",
+          "location": "解説L10–11、年代欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "ca15d9114ee702b0cd76177ed0b3bb167665aed734f7f4aac55dadf88255c875"
+    },
+    {
+      "id": "met-45620",
+      "verdict": "needs_revision",
+      "support_summary": "顔・腕・持物、忿怒の意味、五大明王と空海、仁王経法会、12世紀の紙本墨画は館本文・作品欄に対応。固有の使用儀礼を断定しない点は適切だが、調査報告の文を本文に残している。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/45620",
+          "location": "解説L10–11、年代・素材L47–49",
+          "result": "read"
+        }
+      ],
+      "findings": [
+        {
+          "severity": "editorial",
+          "passage": "この一幅がどの寺院の、どの儀礼のために制作されたのかは、今回確認した資料からは特定できません。",
+          "issue": "内部向けの調査範囲の報告で結んでいる。一般的な図像の用途と本作の来歴を混同しない意図は適切だが、執筆過程の説明は自然な鑑賞解説になっていない。",
+          "suggestion": "この文を内部の調査メモへ移し、本文は『本作は12世紀の紙本墨画です』までにする、または画像・学術資料の追加確認で墨線の表現を具体化して結ぶ。個別の寺院や儀礼は新たな根拠なしに付け足さない。"
+        }
+      ],
+      "recommendations": [],
+      "draft_sha256": "15fbe01d914ce699687695f9bc4034a9cb181a00f562b560dabbde20c0c705ff"
+    },
+    {
+      "id": "met-45647",
+      "verdict": "no_text_issue_found",
+      "support_summary": "蘇州文人との交遊、倪瓚と王蒙、王蒙に似る様式、点の形・大きさ・濃さ・触れ方が画面の肌合いと明暗を統御する説明を照合。筆遣いの説明に作者の未確認の内心を足していない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/45647",
+          "location": "解説L10–11、年代欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "57556f698104a2e5f58c863ae60b25c63dc7571a7e482feddeac6062bf76a594"
+    }
+  ]
+}

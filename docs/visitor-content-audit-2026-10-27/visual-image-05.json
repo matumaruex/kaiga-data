@@ -1,0 +1,206 @@
+{
+  "batch": 5,
+  "review_date": "2026-10-27",
+  "baseline_commit": "f23df7c3d0e9342c00a13ccce10ccc6fa01d5b20",
+  "reviewer": "Codex image inspection; AIによる画像照合。人間・独立した第三者による監査ではない。",
+  "scope": "公式画像を取得し、構図・人物・物の配置と現在の下書きの可視的記述を照合。史実、人物の同定、作者意図、文字の厳密な翻刻、解説文の権利を画像から認定しない。",
+  "items": [
+    {
+      "id": "met-435838",
+      "batch": 5,
+      "draft_file_sha256": "fc81dfef075131f829e8d145fbc2c970bcfd19729e400d3cfd14adae98804a94",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-41688-001.jpg",
+          "expected_sha256": "b37cab886a39c21a1bc125c14937e45725c3fee6f9f219078eec94b7506cdf32",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "b37cab886a39c21a1bc125c14937e45725c3fee6f9f219078eec94b7506cdf32",
+          "byte_length": 115403,
+          "width": 489,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-435838-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.319790+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-41688-001.jpg",
+          "expected_sha256": "029aa86bde3cbc64a96bed248723401f13e68a586724486fc2d419916d4f72f3",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "029aa86bde3cbc64a96bed248723401f13e68a586724486fc2d419916d4f72f3",
+          "byte_length": 4546074,
+          "width": 3135,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-435838-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.704813+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "建築のくぼみ内に立つ聖母子、両側に弦楽器を奏する天使。母は視線を下げ、幼児は母の胸元へ手を上げる。本文の配置と身ぶりに対応。模写・原作・系譜は画像の確認対象外。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/435838",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-435844",
+      "batch": 5,
+      "draft_file_sha256": "e9a3ea42f7f6e6c0b0a111a687cd03ec7a1a484a3bc6f622815f430ec61417c1",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-687-001.jpg",
+          "expected_sha256": "4fcfc9c757f22dc2196d6f91596ea917d431500496775d88d1d612b4aec61c1c",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "4fcfc9c757f22dc2196d6f91596ea917d431500496775d88d1d612b4aec61c1c",
+          "byte_length": 121943,
+          "width": 599,
+          "height": 465,
+          "local_path": "/workspace/kaiga-visual/met-435844-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.419373+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-687-001.jpg",
+          "expected_sha256": "82d57c6e26834154dd2c76717f300dfab12a77da8d8d4d917b73674108dd3683",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "82d57c6e26834154dd2c76717f300dfab12a77da8d8d4d917b73674108dd3683",
+          "byte_length": 4683079,
+          "width": 4000,
+          "height": 3105,
+          "local_path": "/workspace/kaiga-visual/met-435844-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.897127+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "needs_more_visual_evidence",
+      "observations": "四人の若者、中央のリュート、右手前の楽譜、左奥の翼のある人物とブドウを確認。左奥の人物はブドウへ手を伸ばしているが、口に運び『食べる』動作までは明瞭でない。",
+      "findings": [
+        {
+          "passage": "左奥でブドウを食べる翼のある少年",
+          "issue": "ブドウと手の配置は確認できるが、食べているという動作の具体化は今回の画像では確認できない。",
+          "suggestion": "『左奥でブドウに手を伸ばす翼のある少年』とするか、食べる動作を述べた出典箇所を再照合する。"
+        }
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/435844",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-435879",
+      "batch": 5,
+      "draft_file_sha256": "23a0300407b2ff47f67b84c5f6c9700a33ba037f0751eab801b0eff2ea44540e",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1492.jpg",
+          "expected_sha256": "f632b40f095b3bed549e1b7c33f8610b7964ca6ecaaa74cdf4fbed956612d96f",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "f632b40f095b3bed549e1b7c33f8610b7964ca6ecaaa74cdf4fbed956612d96f",
+          "byte_length": 134078,
+          "width": 599,
+          "height": 481,
+          "local_path": "/workspace/kaiga-visual/met-435879-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.636527+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1492.jpg",
+          "expected_sha256": "5091bf674f0c9b4d9dea6bc43040a44bece3706dbae78d3e96639ee3cfbe1e27",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "5091bf674f0c9b4d9dea6bc43040a44bece3706dbae78d3e96639ee3cfbe1e27",
+          "byte_length": 3314114,
+          "width": 3809,
+          "height": 3058,
+          "local_path": "/workspace/kaiga-visual/met-435879-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.958148+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "右下から斜めに延びる道、複数の木、横に走る柵、水施設、柵の右寄りの背を向けた動物形の造形を確認。道と設備の配置は本文と整合。樹種・邸宅の所有関係は文献に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/435879",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-435883",
+      "batch": 5,
+      "draft_file_sha256": "9f9aa0a694e65470ee135acd4b604f33b396acd9d8c26ffb1f62c323ef072f9a",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-049.jpg",
+          "expected_sha256": "73c7a84e394476da68951c8dedeae4e7ef516d1484b9efc8a444443d2639ca91",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "73c7a84e394476da68951c8dedeae4e7ef516d1484b9efc8a444443d2639ca91",
+          "byte_length": 125836,
+          "width": 599,
+          "height": 462,
+          "local_path": "/workspace/kaiga-visual/met-435883-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.782699+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-049.jpg",
+          "expected_sha256": "d4f072b4e2f9c458924e69a1f2f744b1ea242a34fd3f84ed6a5cd7fc9de521b4",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "d4f072b4e2f9c458924e69a1f2f744b1ea242a34fd3f84ed6a5cd7fc9de521b4",
+          "byte_length": 5328549,
+          "width": 4000,
+          "height": 3086,
+          "local_path": "/workspace/kaiga-visual/met-435883-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.227238+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "卓上のリンゴ状・洋梨状の果実と白い皿、上から見える皿の内面と正面を向く卓の前面を確認。本文の視点をめぐる説明と明瞭な矛盾はない。産地は画像から確定できない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/435883",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-435888",
+      "batch": 5,
+      "draft_file_sha256": "a72b1d19a03382106f3b4e1833c1fffc14c679fb46fb0d2cdf0bba30c8ee484b",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP356133.jpg",
+          "expected_sha256": "9c04c27454acf325b1c392d25cf406ae0a5dd4eef730090f89c7a63d87222ce1",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "9c04c27454acf325b1c392d25cf406ae0a5dd4eef730090f89c7a63d87222ce1",
+          "byte_length": 69599,
+          "width": 600,
+          "height": 580,
+          "local_path": "/workspace/kaiga-visual/met-435888-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:38.820871+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP356133.jpg",
+          "expected_sha256": "c15576dff884e40c6cd1661d62af1e12f9682ab95960babf52aeda767ea9bf95",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "c15576dff884e40c6cd1661d62af1e12f9682ab95960babf52aeda767ea9bf95",
+          "byte_length": 3454536,
+          "width": 3901,
+          "height": 3771,
+          "local_path": "/workspace/kaiga-visual/met-435888-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:39.137791+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "窓辺の若者が細い管を吹き、大きな透明の泡が垂れ、その右後ろから子どもがのぞく。泡の縁に淡い色の反射が見える。描写は整合。来歴・押収と返還は画像の確認対象外。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/435888",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    }
+  ]
+}

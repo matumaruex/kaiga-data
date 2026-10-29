@@ -1,0 +1,199 @@
+{
+  "batch": 18,
+  "review_date": "2026-10-28",
+  "baseline_commit": "f23df7c3d0e9342c00a13ccce10ccc6fa01d5b20",
+  "reviewer": "Codex image inspection; AIによる画像照合。人間・独立した第三者による監査ではない。",
+  "scope": "公式画像を取得し、構図・人物・物の配置と現在の下書きの可視的記述を照合。史実、人物の同定、作者意図、文字の厳密な翻刻、解説文の権利を画像から認定しない。",
+  "items": [
+    {
+      "id": "met-45805",
+      "batch": 18,
+      "draft_file_sha256": "a173058b2fa4675df7c0568145ea78c08c83f8e765fb226940283e09f179b919",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP162915.jpg",
+          "expected_sha256": "d49a9cc63d5f70a663c3b9cbc0b63db00913c58caedf129cd7ec6a9fdd8ba8c4",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "d49a9cc63d5f70a663c3b9cbc0b63db00913c58caedf129cd7ec6a9fdd8ba8c4",
+          "byte_length": 74132,
+          "width": 468,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-45805-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:40.150909+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP162915.jpg",
+          "expected_sha256": "233ab55ebcf1e789ee1256ede0429644ea64792c2e77e8809328797bb6b7b7f2",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "233ab55ebcf1e789ee1256ede0429644ea64792c2e77e8809328797bb6b7b7f2",
+          "byte_length": 2717324,
+          "width": 3001,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-45805-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:40.363155+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "母の着物の下に隠れる子と抱かれる幼児、背景の松竹が見える。三人の動きに対応。兄弟の関係は館の同定を参照。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/45805",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-459016",
+      "batch": 18,
+      "draft_file_sha256": "add8f861f319e1b1413ef6bcf536e0397e1e71fd9c1a23d6755144aff3326b38",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/rl/web-large/DP267397.jpg",
+          "expected_sha256": "f65b9803f1a77f3174edb8f87fac2439feccbf959fa36c0acc7a8610ff30facd",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "f65b9803f1a77f3174edb8f87fac2439feccbf959fa36c0acc7a8610ff30facd",
+          "byte_length": 83995,
+          "width": 600,
+          "height": 394,
+          "local_path": "/workspace/kaiga-visual/met-459016-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:40.341444+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/rl/original/DP267397.jpg",
+          "expected_sha256": "054284b4a8e2e5d6cc89696f5ec6a9d7d3d8f44df0d23f08069fcc9d08ac1bf8",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "054284b4a8e2e5d6cc89696f5ec6a9d7d3d8f44df0d23f08069fcc9d08ac1bf8",
+          "byte_length": 2863384,
+          "width": 3913,
+          "height": 2571,
+          "local_path": "/workspace/kaiga-visual/met-459016-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:40.513834+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "列柱の室内、左の天使と右でひざまずく女性、寝台を確認。刻線の技術的な同定や注文の経緯は資料に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/459016",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-670765",
+      "batch": 18,
+      "draft_file_sha256": "679853b5ce714ba4abf7299c9c5e0dbc98cc638aae5d782aad3965421b9a7f2e",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP375602.jpg",
+          "expected_sha256": "10c62cde14bd4b4bdce3f4f1a7179e38a2c354c74e56872bfb723c69b3c994f5",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "10c62cde14bd4b4bdce3f4f1a7179e38a2c354c74e56872bfb723c69b3c994f5",
+          "byte_length": 88359,
+          "width": 520,
+          "height": 625,
+          "local_path": "/workspace/kaiga-visual/met-670765-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:40.422058+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP375602.jpg",
+          "expected_sha256": "9d490e5c5af2b21140ffc29979a0bc07f99030cccfd4c62460e581db7d8ee56b",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "9d490e5c5af2b21140ffc29979a0bc07f99030cccfd4c62460e581db7d8ee56b",
+          "byte_length": 3928218,
+          "width": 3222,
+          "height": 3872,
+          "local_path": "/workspace/kaiga-visual/met-670765-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:40.717497+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "女性の腕に蛇が巻きつき、手を胸元に上げ、目を上へ向ける。蛇の頭は手の付近に隠れて細部が明瞭でない。伝承・作者の意図は文献に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/670765",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-670896",
+      "batch": 18,
+      "draft_file_sha256": "fecc8ea36872ac35b80b15a20627aefd75aed7c60514a83afe9b977a4e548b3b",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-12232-053.jpg",
+          "expected_sha256": "c4953f077172b96ff2dd11a551edd700c7f1e6c67d54e4e3ad50676212f32375",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "c4953f077172b96ff2dd11a551edd700c7f1e6c67d54e4e3ad50676212f32375",
+          "byte_length": 108283,
+          "width": 600,
+          "height": 450,
+          "local_path": "/workspace/kaiga-visual/met-670896-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:40.481115+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-12232-053.jpg",
+          "expected_sha256": "ad1ea3450fa2335bd9a65e6ff7b2e1fe4b041c2a9def0daccff82c7bf400eafd",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "ad1ea3450fa2335bd9a65e6ff7b2e1fe4b041c2a9def0daccff82c7bf400eafd",
+          "byte_length": 4655501,
+          "width": 4000,
+          "height": 3002,
+          "local_path": "/workspace/kaiga-visual/met-670896-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:40.822088+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "淡い大きな円の中に節くれた枝と花、右に賛がある。円の意味や賛の翻訳は画像だけで確定しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/670896",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-73188",
+      "batch": 18,
+      "draft_file_sha256": "339b902d0e219eb480cacbb5908968ba83de40123a014c69beb883393b2cd2bb",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-29285-002.jpg",
+          "expected_sha256": "73f98c8fc6eae5d5efed94fbbca108623f09600a442e6781c196ce1e234d285a",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "73f98c8fc6eae5d5efed94fbbca108623f09600a442e6781c196ce1e234d285a",
+          "byte_length": 108612,
+          "width": 600,
+          "height": 450,
+          "local_path": "/workspace/kaiga-visual/met-73188-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:40.627354+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-29285-002.jpg",
+          "expected_sha256": "dd2da1eff2b23c845bca20d87dcd68d1e983a108914acedb85901456d135fb19",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "dd2da1eff2b23c845bca20d87dcd68d1e983a108914acedb85901456d135fb19",
+          "byte_length": 5039121,
+          "width": 4000,
+          "height": 3000,
+          "local_path": "/workspace/kaiga-visual/met-73188-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:40.917985+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "左下の橋に二人、山と林、右上に建物群、左上に文字を確認。釣り人の同定と詩の解読は資料に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/73188",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    }
+  ]
+}

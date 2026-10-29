@@ -1,0 +1,65 @@
+{
+  "batch": 1,
+  "date": "2026-10-28",
+  "scope": "Met等の原資料と公式画像に照らし、既存解説を画像起点で再構成。AI編集による下書きで、原文の権利処理や人間の最終承認は未完了。",
+  "items": [
+    {
+      "id": "met-11140",
+      "before_sha256": "9f587cb0bc60a9535c5caa2831179c23d5fa211724ab903b26bb328a199f4ed6",
+      "after_sha256": "dc4ad94d57f58dc6ab83197d3b5aa5215cee8113e5081dd5f6f1fae965e48f9c",
+      "reason": "校舎と切れた列という画面から始め、別版の情報を先に置いたうえで、館の歴史的な解釈を明示した。MMFAの版画ページを直接再確認し、制作順序は断定しない。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/11140",
+        "https://collection.mmfa.org/objects-1/info/2377?records=60"
+      ],
+      "image_url": "https://images.metmuseum.org/CRDImages/ad/original/DP-20820-001.jpg",
+      "rights_status": "pending"
+    },
+    {
+      "id": "met-20129",
+      "before_sha256": "2bef620080bea552b3d496bc8fe3da8c44d7f533acb0a43702db5978bf992575",
+      "after_sha256": "92d0cdf12dd6fbff50157be56d5fd828f4031a1e4ad0babea62f4bed8bbcd90d",
+      "reason": "光と影・三人の位置という画像の観察を起点とし、童話と娘の役割を館の読みに帰属させた。元の英文の提示順を再構成。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/20129"
+      ],
+      "image_url": "https://images.metmuseum.org/CRDImages/ad/original/DP219245.jpg",
+      "rights_status": "pending"
+    },
+    {
+      "id": "met-35968",
+      "before_sha256": "ae484a7db499893feedf1a23a23a9292070bb7903051852db4494926a66db09b",
+      "after_sha256": "7d52396a8e115fc875811e89165bf579ea927d6c478f7a41e079ed016007e9bf",
+      "reason": "船と町の配置という画像の観察から、建物と制作の年代差、制作方法の推定へ進む構成。年代差のある城壁・城塞の年号は入れない。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/35968",
+        "https://asc.tainan.gov.tw/index_en.php?id=35&modify=place",
+        "https://twtainan.net/en/attractions/detail/5960"
+      ],
+      "image_url": "https://images.metmuseum.org/CRDImages/as/original/DP354272.jpg",
+      "rights_status": "pending"
+    },
+    {
+      "id": "met-37851",
+      "before_sha256": "1c63d0385fdaf524b436e7d6d7eae452ff428fac5056c0e4ff499a09b59c9ffa",
+      "after_sha256": "6717590d20989d85bc540c69a2579ecca61f0eb1fded7b92df544f29be9a9ce8",
+      "reason": "画面の左右関係から入り、詩の拒絶を館に帰属。別葉の年記を本葉のものと誤認しない。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/37851"
+      ],
+      "image_url": "https://images.metmuseum.org/CRDImages/as/original/DP156174.jpg",
+      "rights_status": "pending"
+    },
+    {
+      "id": "met-37905",
+      "before_sha256": "e141ee1d71e85bcdd9e764669e387da7886082abd887f88b52f2c572aaecb1b3",
+      "after_sha256": "ab561d1d28db5940b4ecda3edd7e20edbbb949b94d4926958c7b9e9384c080ef",
+      "reason": "左右の灯火と中央の人物を画像で確認し、ラーガと伝説を資料の説明としてまとめ直した。伝説は史実と断定しない。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/37905"
+      ],
+      "image_url": "https://images.metmuseum.org/CRDImages/as/original/DP156152.jpg",
+      "rights_status": "pending"
+    }
+  ]
+}

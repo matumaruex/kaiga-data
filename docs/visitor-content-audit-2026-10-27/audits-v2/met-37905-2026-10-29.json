@@ -1,0 +1,126 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-37905",
+  "checked_on": "2026-10-29",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "8a89b15e9d38235a531e54a876e721a01136f6ff",
+    "artwork_record_sha256": "34257a5da674e51f08ec52cc0b496e285c5400de16dbd92e4ece8171d9d3b00e",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-37905.json",
+    "draft_sha256": "ab561d1d28db5940b4ecda3edd7e20edbbb949b94d4926958c7b9e9384c080ef"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/37905",
+      "access": "page_read_twice",
+      "locations": [
+        "冒頭2段落",
+        "Artwork Details、1982.462.4"
+      ],
+      "observed": "1630–40、紙本画、夜と親密さという館の読解、演奏と火事は伝説であることを確認。地域名Ragugar?の疑問符を消して確定しない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-37905",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP156152.jpg",
+      "status": 200,
+      "sha256": "e4f0c9d7485bdfe6390b254dde8801aa1ad1c6d107123c6760a80f41787d8153",
+      "byte_length": 2462514,
+      "width": 1547,
+      "height": 1894,
+      "matches_registered_bytes": true
+    },
+    {
+      "id": "met-37905",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156152.jpg",
+      "status": 200,
+      "sha256": "4693c30c6e7ddc851e3e529f79759a6e77b403f447961ad733550f73cfc39a6b",
+      "byte_length": 326240,
+      "width": 510,
+      "height": 624,
+      "matches_registered_bytes": true
+    }
+  ],
+  "visual_observations": {
+    "method": "原画像と表示画像を別々に表示、双方の登録SHA一致を確認。",
+    "observed": "中央に座る男女、左右の灯火を持つ女性、背後の払子を持つ人物、区画状の建築を確認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_as_creator",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "制作・修正案の保存後に公式ページの該当箇所を読み直し、画像を再表示し、対象版の事実・解釈・選定用情報・タグ・文章類似を直接照合した。",
+    "limitations": "同じAI・同じ会話文脈での別工程。別担当や別コンテキストによる独立性を主張せず、AIの文章比較は法的許諾・非侵害保証としない。",
+    "reviewed_artwork_sha256": "a0c31a2508fe0a4c43987deee8f7c7a77ec7efbef8d575a28caa881805eea41a",
+    "reviewed_visitor_draft_sha256": "ab561d1d28db5940b4ecda3edd7e20edbbb949b94d4926958c7b9e9384c080ef",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "所蔵番号1982.462.4と年代・素材は資料と一致。個人名や疑問符付きの町名を断定しない。"
+      },
+      {
+        "area": "interpretation_and_visual_clues",
+        "finding": "修正案は点火と灯火保持を区別し、中央の男女も記述。平面的な空間という館の説明を幻視的という曖昧な訳から改めた。"
+      },
+      {
+        "area": "tags",
+        "finding": "感情タグ0件を維持。夜・親密さとの関係だけで作者の感情や観客の反応を補わない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "本文は画面配置の観察から音楽的主題へ進み、火事を明示的に伝説とする。原文の叙述順の全面的な逐語訳ではなく、館の見解を短く帰属させた要約として追加修正不要。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "a0c31a2508fe0a4c43987deee8f7c7a77ec7efbef8d575a28caa881805eea41a",
+    "visitor_draft_sha256": "ab561d1d28db5940b4ecda3edd7e20edbbb949b94d4926958c7b9e9384c080ef",
+    "proposal_sha256": "5cf7baebf3f8bd84b8a1405af300682acef2f09e5bf2f7c7664d64c191cf5307",
+    "checks": [
+      "input_version_and_before_values",
+      "candidate_hash",
+      "existing_structure_validator_on_temporary_catalog",
+      "other_299_records_unchanged",
+      "id_order_unchanged",
+      "production_data_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false
+  },
+  "notes": [
+    "鑑賞本文は不変。選定用の解釈説明と視覚的根拠の2項目だけを修正案へ保存。"
+  ],
+  "remaining": [
+    "本番反映禁止のためDraft内に保存。正式DBへの保存を伴う作品完成には数えない。"
+  ],
+  "promotion": {
+    "eligible": false,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-37905.json",
+    "sha256": "5cf7baebf3f8bd84b8a1405af300682acef2f09e5bf2f7c7664d64c191cf5307",
+    "proposed_artwork_sha256": "a0c31a2508fe0a4c43987deee8f7c7a77ec7efbef8d575a28caa881805eea41a",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "条項1",
+      "条項3 a/b"
+    ],
+    "checked_on": "2026-10-29",
+    "finding": "各作品ページのPublic Domain画像と文章の条件を区別。本文にCC0許諾があるとは扱わず、原文・現代語訳の長文転載はしない。"
+  }
+}

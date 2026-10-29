@@ -1,0 +1,37 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-20129",
+  "baseline_commit": "01aaf765c482f35a5abbe7263a2f7c7380285681",
+  "baseline_artwork_sha256": "f3d88b3366428eb5334bf85039a6277c2d0c8bc85f36725c19e9fa72a238c39a",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "fitting_situations",
+        0
+      ],
+      "before": {
+        "situation": "おとぎ話の怖い結末を聞く子どもの気持ちに触れたい",
+        "reason": "ガイは自分の子どもたちに『三びきのくま』を読む場面を描いた。少女の熊のような影と兄弟の表情が怖い結末を暗示。",
+        "strength": 2
+      },
+      "after": {
+        "situation": "読み聞かせの場面に漂う緊張や、物語に聞き入る姿に触れたい",
+        "reason": "少女が寝台の二人に物語を読む。Metは大きな影と少年たちの表情を、童話の怖い山場を示す手がかりと解釈している。",
+        "strength": 2
+      },
+      "reason": "原資料のclimaxは結末の断定ではない。読み手を少女と明示し、館の解釈に帰属させる。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/20129",
+        "https://www.metmuseum.org/perspectives/a-story-within-a-story"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-20129.json",
+  "visitor_draft_sha256": "92d0cdf12dd6fbff50157be56d5fd828f4031a1e4ad0babea62f4bed8bbcd90d",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "2af2f312d2689f09a0300f8eefdf114388ff69033cc7894e1d0278be1fbd8230"
+}

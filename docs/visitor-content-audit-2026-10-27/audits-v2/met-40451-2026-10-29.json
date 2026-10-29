@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-40451",
+  "checked_on": "2026-10-29",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "7f8a78cb415c9c2cf69c98de572b9382849d78c6",
+    "artwork_record_sha256": "e21c1770d156911fb5c1d10fdefe454d95327457fd1c4d8a3a4c7d69c82b8278",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-40451.json",
+    "draft_sha256": "72bb2bab36feed76b87febbccffa4e5b00d7622305177a10cbf32039e6f512c3"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/40451",
+      "access": "page_read_twice",
+      "locations": [
+        "冒頭解説",
+        "Artwork Details / 18.124.3"
+      ],
+      "observed": "15世紀、作者不詳、朝鮮の絹本掛幅。三人と寺の描かれない主題を照合。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-40451",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/18_124_3_O3_sf.jpg",
+      "status": 200,
+      "sha256": "75831c244112111d210d2a58f825a468ed93fe873504e526cecc63cea1513684",
+      "byte_length": 2644044,
+      "width": 2112,
+      "height": 3796,
+      "matches_registered_bytes": true
+    },
+    {
+      "id": "met-40451",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/18_124_3_O3_sf.jpg",
+      "status": 200,
+      "sha256": "e84aa23f25034a1213bbddc0c682beb15b5847f0f7f61874f112608b51dd3861",
+      "byte_length": 104970,
+      "width": 347,
+      "height": 624,
+      "matches_registered_bytes": true
+    }
+  ],
+  "visual_observations": {
+    "method": "原画像・表示画像を表示。別工程で画像を再表示し、出典該当箇所を再閲覧。",
+    "observed": "下方の橋の三人、輪郭の濃い山と淡い山を確認。人物の身分は資料に依拠。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_as_creator",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "修正案保存後に原資料を開き直し、画像を再表示して対象版と直接照合。",
+    "limitations": "同じAI・同じ文脈による別工程。別担当の独立性や法的許諾・非侵害保証は主張しない。",
+    "reviewed_artwork_sha256": "8aedd3aafd255898dac90da48123ee82eb17362bf21980589870affd96e21ba4",
+    "reviewed_visitor_draft_sha256": "72bb2bab36feed76b87febbccffa4e5b00d7622305177a10cbf32039e6f512c3",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "18.124.3、題名・作者不詳・年代・素材を確認。関連作1987.278bの寺を混入していない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "修正案は特定旅路の不在という断定を未確認へ限定。本文は主題の推定を維持。"
+      },
+      {
+        "area": "emotion",
+        "finding": "静けさ・余韻は画面への入口。特定心理の根拠が薄く感情タグ0を維持。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "本文は三人と山の大小から始め、館の主題解釈を明示。原文の修飾や関連作との比較を逐語的に移さず、修正不要。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "8aedd3aafd255898dac90da48123ee82eb17362bf21980589870affd96e21ba4",
+    "visitor_draft_sha256": "72bb2bab36feed76b87febbccffa4e5b00d7622305177a10cbf32039e6f512c3",
+    "proposal_sha256": "2a0c5bb8c111c63b825f32267564f67480dba4c19dba47dbfb57114453245cde",
+    "checks": [
+      "input_version_and_before_values",
+      "candidate_hash",
+      "existing_structure_validator_on_temporary_catalog",
+      "other_299_records_unchanged",
+      "id_order_unchanged",
+      "production_data_unchanged",
+      "image_hashes"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-40451.json",
+    "sha256": "2a0c5bb8c111c63b825f32267564f67480dba4c19dba47dbfb57114453245cde",
+    "proposed_artwork_sha256": "8aedd3aafd255898dac90da48123ee82eb17362bf21980589870affd96e21ba4",
+    "applied_to_catalog": false
+  },
+  "notes": [
+    "本文と旧レビュー欄は維持。原画像には表装を含む。"
+  ],
+  "remaining": [
+    "本番反映禁止のためDraft内のみ保存。正式DBへの保存を伴う作品完成には数えない。"
+  ],
+  "promotion": {
+    "eligible": false,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "条項1",
+      "条項3 a/b"
+    ],
+    "checked_on": "2026-10-29",
+    "finding": "各ページのPublic Domainは画像の表示として確認。文章までCC0と解釈しない。利用条件の点検とAI類似比較は公開許諾の取得ではない。"
+  }
+}

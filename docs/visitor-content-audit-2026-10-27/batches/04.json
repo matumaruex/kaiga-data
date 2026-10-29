@@ -1,0 +1,112 @@
+{
+  "batch": 4,
+  "review_date": "2026-10-27",
+  "baseline_commit": "11bca52aca4693be869b8f5f9f98f2b50c1c87e4",
+  "scope": "本文と出典文章の照合。執筆者による再点検で第三者監査ではない。",
+  "image_review": "not_completed; official image download attempt returned HTTP403",
+  "rights_review": "pending",
+  "items": [
+    {
+      "id": "met-40451",
+      "verdict": "no_text_issue_found",
+      "support_summary": "旅人三人、僧・従者、描法、煙寺晩鐘の可能性、寺を描かない構成に対応。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/40451",
+          "location": "冒頭2段落、18.124.3",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "8ee5c9168697ea93bf5c673c766c2fc449d545c4a00ff5ae057a44a4a37933c5"
+    },
+    {
+      "id": "met-435619",
+      "verdict": "no_text_issue_found",
+      "support_summary": "逃げる人物の同定を固定せず、二枚三場面を分離。主題・プレデッラ・対作品番号が一致。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/435619",
+          "location": "冒頭、58.87.1",
+          "result": "read"
+        },
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/435620",
+          "location": "共有解説と58.87.2",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "一枚の独立した逮捕の場面も…",
+          "suggestion": "直前の二枚の説明と重なるため短縮できる。"
+        }
+      ],
+      "draft_sha256": "4ad0913bd1b9bc3b423f42c55d62fd467ed57532e0beb9231a0a1168ee888e0d"
+    },
+    {
+      "id": "met-435727",
+      "verdict": "no_text_issue_found",
+      "support_summary": "母娘・四修道院・ローマ制作・祭壇画のための習作・1745年の注文を区別。祭壇画注文年を習作の確定制作年にしていない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/435727",
+          "location": "冒頭2段落、1991.445",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "したがって、ここに展示される一枚と…",
+          "suggestion": "既に習作と説明済み。最後の段落を一文に整理して鑑賞文としての重複を減らせる。"
+        }
+      ],
+      "draft_sha256": "221809b1552f215ad2ea23681483acb610070ddd98df3200780434649e648275"
+    },
+    {
+      "id": "met-435762",
+      "verdict": "needs_revision",
+      "support_summary": "図像・金地と光輪の省略・肌の量感・私的祈念は館の記述に対応。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/435762",
+          "location": "冒頭2段落、寸法21.6cm、30.95.280",
+          "result": "read"
+        }
+      ],
+      "findings": [
+        {
+          "severity": "clarification",
+          "passage": "遠くに仰ぐ聖なる姿を、手元で向き合える距離へと近づけた絵です。",
+          "issue": "先行するイコンが遠くから仰ぐ形式だったという比較を、今回の資料は示していない。金地や光輪の省略と鑑賞距離の変化を結び付ける表現は根拠を越える。",
+          "suggestion": "最後の一文を削除し、館に帰属させた私的祈念の説明で終える。"
+        }
+      ],
+      "recommendations": [],
+      "draft_sha256": "d7aba80736652045165d74edadfaff32220472e23ffab313db26eb0f688452ae"
+    },
+    {
+      "id": "met-435807",
+      "verdict": "no_text_issue_found",
+      "support_summary": "自画像の位置、驚くような表情、煙・顔の移ろい、Jansenによる同業者四人との集団肖像という読解に対応。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/435807",
+          "location": "冒頭、32.100.21",
+          "result": "read"
+        },
+        {
+          "url": "https://canon.codart.nl/artwork/the-smokers/",
+          "location": "Anita Jansenによる解説、画家と四人の画家の群像",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "1ab3d215f461cf7f8a5d3864cf404954013bc472731ade094968d2f9dd777964"
+    }
+  ]
+}

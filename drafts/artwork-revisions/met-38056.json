@@ -1,0 +1,55 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-38056",
+  "baseline_commit": "8a89b15e9d38235a531e54a876e721a01136f6ff",
+  "baseline_artwork_sha256": "3241eaed95894235ba41e79692e15c3b741badefe87567b648b8221fb1dbef09",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "メトロポリタン美術館の公式解説では施主が2人の音楽家に代金を渡し、関連詩に満ち足りた幸福と愛情が描かれる。後世のラガマーラ詩にも音楽に浸る喜びの表現がある。",
+      "after": "1640年頃のビーカーネールで制作された、紙に墨・不透明水彩・金を用いた一葉。作者不詳。Metは、同地でムガル工房出身の画家たちが活動し、本作にも人物や自然の描写にその様式が見られると説明する。",
+      "reason": "詩の情感を繰り返す説明から、年代・地域・素材・制作環境の情報へ分ける。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/38056"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "施主が手を伸ばして2人の奏者に報酬を払う場面が描かれる。音楽の旋法に具体的な人物と状況を与えている。",
+      "after": "建築の中で男性が右側へ手を伸ばし、その先に楽器を持つ人物ともう一人が座る。Metはこの身振りを楽師二人への支払いと説明している。",
+      "reason": "見える身振りと支払いという館の解釈を区別する。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/38056"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "fitting_situations",
+        0,
+        "reason"
+      ],
+      "before": "Met解説が関連ラギニーの詩の幸福と愛情を明記し、画面では2人の音楽家が演奏する。",
+      "after": "Metは楽師二人への支払いの場面と説明し、関連するラギニーの詩に満ち足りた幸福と愛情があると述べる。",
+      "reason": "静止画で二人が演奏中と確定せず、館が明記する詩と場面に根拠を置く。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/38056"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-38056.json",
+  "visitor_draft_sha256": "f2328984be705a878d9c9e8e9e6eaf7ec87163b29063ae6231d3d4e12a96456d",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "a80391d032125feee10ae7ef17677f71f7b692ebddcb7db19b20688ea2591c0d"
+}

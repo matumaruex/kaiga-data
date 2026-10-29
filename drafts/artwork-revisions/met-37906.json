@@ -1,0 +1,40 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-37906",
+  "baseline_commit": "8a89b15e9d38235a531e54a876e721a01136f6ff",
+  "baseline_artwork_sha256": "63e29b53af4cca8d446585d53d4faec95b7dc5569217a374e39f7ff9287ab003",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "『ギーター・ゴーヴィンダ』の求愛と次の逢瀬を上下に描く。後代の様式的帰属は要確認。",
+      "after": "Metは本作を1655〜60年頃、メーワール地方の紙本画とし、サーヒブディーンの先行作に基づくと説明する。作者欄はマノーハル様式で、本人の確定作とはしていない。",
+      "reason": "解釈の反復だった制作背景を、年代・地域・帰属の資料情報へ置き換える。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/37906"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "before": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。",
+      "after": "Met本文はマノーハル工房作の可能性を挙げる一方、作者欄の活動年は1582〜1624年頃で、本作の1655〜60年頃との関係はこのページだけでは解けない。工房の継続や同名画家を推測で補わない。期待は作品内の詩的設定に関する館の読みであり、作者自身の心理とはしない。",
+      "reason": "下書きの証拠注記にある帰属上の未了事項を、選定用情報にも明記する。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/37906"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-37906.json",
+  "visitor_draft_sha256": "62f3dce5f8f85dab958255ac50b18dca2e79982807390a7117d29d9a6e03fdc1",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "eb3087e22e4668c36595bf33157dcba4e6776b8ffa5d563e049f86efdcc40f86"
+}

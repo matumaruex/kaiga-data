@@ -1,0 +1,90 @@
+{
+  "batch": 13,
+  "review_date": "2026-10-27",
+  "baseline_commit": "11bca52aca4693be869b8f5f9f98f2b50c1c87e4",
+  "scope": "本文と出典文章の照合。執筆者による再点検で第三者監査ではない。",
+  "image_review": "not_completed; official image download attempt returned HTTP403",
+  "rights_review": "pending",
+  "items": [
+    {
+      "id": "met-437490",
+      "verdict": "no_text_issue_found",
+      "support_summary": "二つの鍵の紋章からの注文主推定、1465年の埋葬礼拝堂と装飾の可能性、ロヒールの構図、工房在籍を示す技術的証拠を確認。寸法186.1cm。枕と身近な室内については音声に対応。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/437490",
+          "location": "解説L10–11、寸法L57、音声5224 L85–89",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "854456720dd4decb69f8e88bc91235e48ab27d744e702b8bf5502a321bef1f2e"
+    },
+    {
+      "id": "met-437508",
+      "verdict": "no_text_issue_found",
+      "support_summary": "頭蓋骨へのギリシア語銘、喪の糸杉冠、セネカの書物、銘によるリッチャルディ宛贈物の同定を照合。死と人生を考える自己表象という説明は持物に根差し、特定心理の史実としていない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/437508",
+          "location": "解説L10",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "頭蓋骨にギリシア語を書き込む姿",
+          "suggestion": "文字を導入として残すなら、その短い意味も適切な翻訳を確認して示すと鑑賞の手掛かりが増える。現状は誤りではない。"
+        }
+      ],
+      "draft_sha256": "a7d851b76c6b90f2b85ff4f4e9feff01af64cef4347c8a0fed74fdd8de201d59"
+    },
+    {
+      "id": "met-437547",
+      "verdict": "no_text_issue_found",
+      "support_summary": "道・教会と雨雲／畑／風車の関係、制作時期、レノルズが1756–1792年所有した経緯は館の説明と対応。雨と作物の関係は説明的な読解の範囲。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/437547",
+          "location": "解説L11、年代欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "941bc9f6e0ec060d829ddc68021aaaa886733809c0431b86598d888934a61e86"
+    },
+    {
+      "id": "met-437549",
+      "verdict": "no_text_issue_found",
+      "support_summary": "荷物を持つ男と女性・子、雲と海は解説と一致。フィニーの光の瞬間への注目とイーカーの外界との連結の読解は発言者を保って要約。人物の関係を推測以上にしていない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/437549",
+          "location": "解説L10、音声5245 L74–84",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "a215e362e24a5b36cadb503f6ce02cfc2dae4225aa6e34ca4779a0abb0e11d36"
+    },
+    {
+      "id": "met-437638",
+      "verdict": "no_text_issue_found",
+      "support_summary": "八角形と後補の四隅、城の天井中央の装飾、アプレイウスに由来する婚礼、パルミジャニーノからの影響と若いヴェネツィア画家への波及は館解説に対応。頭上を見上げる説明も原設置からの妥当な説明。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/437638",
+          "location": "解説L10–11、寸法欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "3554d393bfcd9fbe04654dda69f1c47b95c5f9d287bb4955bae0f400dcc5308f"
+    }
+  ]
+}

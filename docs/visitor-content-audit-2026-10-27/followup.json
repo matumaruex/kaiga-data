@@ -1,0 +1,41 @@
+{
+  "baseline_commit": "11bca52aca4693be869b8f5f9f98f2b50c1c87e4",
+  "audit_complete": true,
+  "pending_actions": 4,
+  "groups": [
+    {
+      "group": 1,
+      "kind": "revision",
+      "status": "revised_one_requires_further_check",
+      "ids": [
+        "met-435762",
+        "met-435844",
+        "met-437227",
+        "met-45620",
+        "met-74846"
+      ],
+      "completed_ids": [
+        "met-435762",
+        "met-435844",
+        "met-45620",
+        "met-74846"
+      ],
+      "pending_ids": [
+        "met-437227"
+      ],
+      "result_file": "followup-01.json"
+    },
+    {
+      "group": 2,
+      "kind": "additional_evidence",
+      "status": "drafts_revised_original_questions_unresolved",
+      "ids": [
+        "met-11140",
+        "met-37906",
+        "met-74448"
+      ],
+      "result_file": "followup-02.json"
+    }
+  ],
+  "note": "8件の下書きを改稿済み。《恋文》は画像・追加資料の直接確認待ち。残る3件は不確かな記述を留保したが、元の資料上の問題は未解決。全件の画像照合と権利確認は別途未了。"
+}

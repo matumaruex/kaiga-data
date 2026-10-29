@@ -1,0 +1,44 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-35968",
+  "baseline_commit": "8a89b15e9d38235a531e54a876e721a01136f6ff",
+  "baseline_artwork_sha256": "eec0de5daf920ba06de141faa67bd165622c875ce9192440705812f19329f85c",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "台湾・台南に築かれたオランダ城塞を題材とする19世紀の鹿皮彩色絵図。1662年のオランダ撤退後で、1791年に築かれた城壁も描かれるため、現在の場面と同時代に描いた地図ではない。制作者不詳。",
+      "after": "台南の城塞と町を描いた鹿皮の壁掛け。制作者不詳で、Metは19世紀と年代比定している。17世紀のオランダ統治から時を隔てた作品であり、建物の成立年代を作品の制作年代と同一視しない。",
+      "reason": "城壁1791年の断定と、城塞の使用期間全体への過剰な推論を外す。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/35968",
+        "https://asc.tainan.gov.tw/index_en.php?id=35&modify=place",
+        "https://twtainan.net/en/attractions/detail/5960"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "before": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。",
+      "after": "作者の直接証言は未確認。城塞と城壁の年代にはMetと現地資料で記述差があり、対象となる城壁区間や改築段階の対応も未確定。年号を一つに確定したり、城壁だけで制作年代の下限を決めたりしない。",
+      "reason": "本文で留保していた年代差を選定用情報にも反映する。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/35968",
+        "https://asc.tainan.gov.tw/index_en.php?id=35&modify=place",
+        "https://twtainan.net/en/attractions/detail/5960"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-35968.json",
+  "visitor_draft_sha256": "9e881af5dfdc4636d58f21c7b3b3de872a505bb892c400ba738a85206567b148",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "122dfdec06810f936e92e885fa7204081207d311b14b9c37aea31d1959833238"
+}

@@ -1,0 +1,206 @@
+{
+  "batch": 13,
+  "review_date": "2026-10-28",
+  "baseline_commit": "f23df7c3d0e9342c00a13ccce10ccc6fa01d5b20",
+  "reviewer": "Codex image inspection; AIによる画像照合。人間・独立した第三者による監査ではない。",
+  "scope": "公式画像を取得し、構図・人物・物の配置と現在の下書きの可視的記述を照合。史実、人物の同定、作者意図、文字の厳密な翻刻、解説文の権利を画像から認定しない。",
+  "items": [
+    {
+      "id": "met-437490",
+      "batch": 13,
+      "draft_file_sha256": "854456720dd4decb69f8e88bc91235e48ab27d744e702b8bf5502a321bef1f2e",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP240360.jpg",
+          "expected_sha256": "0c82c176da7b2e1d784fe145968eac34401eba6a2299e04994f0a24eed152acc",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "0c82c176da7b2e1d784fe145968eac34401eba6a2299e04994f0a24eed152acc",
+          "byte_length": 83468,
+          "width": 390,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-437490-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.892403+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP240360.jpg",
+          "expected_sha256": "4a5b21d087c1c827c792b89b0c37c689e1c72b0779cc1a3b8bea92a1de69a36a",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "4a5b21d087c1c827c792b89b0c37c689e1c72b0779cc1a3b8bea92a1de69a36a",
+          "byte_length": 2001949,
+          "width": 2425,
+          "height": 3878,
+          "local_path": "/workspace/kaiga-visual/met-437490-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:38.124936+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "受胎告知の室内に窓の紋章、模様のある絨毯、寝台と枕が見える。交差した鍵の細部と注文主の同定は資料を参照。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437490",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-437508",
+      "batch": 13,
+      "draft_file_sha256": "a7d851b76c6b90f2b85ff4f4e9feff01af64cef4347c8a0fed74fdd8de201d59",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP323414.jpg",
+          "expected_sha256": "2f8038678b67243e55bfccc205612f63b35582ce852b92ee9243d747aad9b723",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "2f8038678b67243e55bfccc205612f63b35582ce852b92ee9243d747aad9b723",
+          "byte_length": 60219,
+          "width": 500,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-437508-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.869271+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP323414.jpg",
+          "expected_sha256": "7a1eccfc37ce6a974a11d3f792d1dc762a666b25a4a846c37c1faf76d8feda98",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "7a1eccfc37ce6a974a11d3f792d1dc762a666b25a4a846c37c1faf76d8feda98",
+          "byte_length": 2808703,
+          "width": 3105,
+          "height": 3878,
+          "local_path": "/workspace/kaiga-visual/met-437508-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:38.222609+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "人物が頭蓋骨状の物を支え、筆を当てている。頭に植物の冠、卓上に本が見える。銘文の言語や書名は画像のみで検証しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437508",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-437547",
+      "batch": 13,
+      "draft_file_sha256": "941bc9f6e0ec060d829ddc68021aaaa886733809c0431b86598d888934a61e86",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146453.jpg",
+          "expected_sha256": "b6f671407bbc65eb25c675768dbf097b12e879bafdfdd3c46cc95ffe50063ce2",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "b6f671407bbc65eb25c675768dbf097b12e879bafdfdd3c46cc95ffe50063ce2",
+          "byte_length": 73814,
+          "width": 600,
+          "height": 498,
+          "local_path": "/workspace/kaiga-visual/met-437547-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.942423+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146453.jpg",
+          "expected_sha256": "713d84650631b41107f940089e480375798bf97ebedf9c5eccec8120d0923400",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "713d84650631b41107f940089e480375798bf97ebedf9c5eccec8120d0923400",
+          "byte_length": 3098539,
+          "width": 3895,
+          "height": 3233,
+          "local_path": "/workspace/kaiga-visual/met-437547-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:38.223351+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "needs_more_visual_evidence",
+      "observations": "畑を通る道、左遠方の風車、厚い雲を確認。村の教会は縮小画像では明瞭に区別できない。",
+      "findings": [
+        {
+          "passage": "道の先に、村の教会が見えます。",
+          "issue": "画像全体では建物が小さく、教会を独立して確認できない。",
+          "suggestion": "高精細画像で教会の位置を確認する。"
+        }
+      ],
+      "source_url": "https://www.metmuseum.org/art/collection/search/437547",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-437549",
+      "batch": 13,
+      "draft_file_sha256": "a215e362e24a5b36cadb503f6ce02cfc2dae4225aa6e34ca4779a0abb0e11d36",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145911.jpg",
+          "expected_sha256": "eb8134b5fb9d1d60cde3618c34c9bb06d026496530b2decfa9f06fdd1b4c7fdb",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "eb8134b5fb9d1d60cde3618c34c9bb06d026496530b2decfa9f06fdd1b4c7fdb",
+          "byte_length": 84983,
+          "width": 599,
+          "height": 464,
+          "local_path": "/workspace/kaiga-visual/met-437549-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:38.210160+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP145911.jpg",
+          "expected_sha256": "2bfc95b0b39160712be721ed004a5dd77148ae30ae4f225d6eaa578b102c742b",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "2bfc95b0b39160712be721ed004a5dd77148ae30ae4f225d6eaa578b102c742b",
+          "byte_length": 3088085,
+          "width": 3811,
+          "height": 2951,
+          "local_path": "/workspace/kaiga-visual/met-437549-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:38.593880+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "大きな雲、畑の間の道と小さな人物、左奥の明るい地平を確認。個々の人物の関係や海上の舟の同定は小さく、資料を参照。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437549",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-437638",
+      "batch": 13,
+      "draft_file_sha256": "3554d393bfcd9fbe04654dda69f1c47b95c5f9d287bb4955bae0f400dcc5308f",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT11094.jpg",
+          "expected_sha256": "76149a7b3c65f0afa84c8a7c74dd444e01fb8fe98936fddd4a273352ccd6023a",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "76149a7b3c65f0afa84c8a7c74dd444e01fb8fe98936fddd4a273352ccd6023a",
+          "byte_length": 99374,
+          "width": 600,
+          "height": 495,
+          "local_path": "/workspace/kaiga-visual/met-437638-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:38.242264+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DT11094.jpg",
+          "expected_sha256": "9f4e7d8afbc794a72707e1da089b5db1896306fff7fbf01fcb7ae0c96caad7ca",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "9f4e7d8afbc794a72707e1da089b5db1896306fff7fbf01fcb7ae0c96caad7ca",
+          "byte_length": 2794210,
+          "width": 3805,
+          "height": 3140,
+          "local_path": "/workspace/kaiga-visual/met-437638-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:38.633126+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "中央の二人を多数の人物が囲み、身体は長く伸びる。現在の矩形の四隅が後補であることや元の天井の形は画像だけでは確定しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437638",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    }
+  ]
+}

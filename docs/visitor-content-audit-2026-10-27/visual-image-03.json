@@ -1,0 +1,215 @@
+{
+  "batch": 3,
+  "review_date": "2026-10-27",
+  "baseline_commit": "f23df7c3d0e9342c00a13ccce10ccc6fa01d5b20",
+  "reviewer": "Codex image inspection; AIによる画像照合。人間・独立した第三者による監査ではない。",
+  "scope": "公式画像を取得し、構図・人物・物の配置と現在の下書きの可視的記述を照合。史実、人物の同定、作者意図、文字の厳密な翻刻、解説文の権利を画像から認定しない。",
+  "items": [
+    {
+      "id": "met-37905",
+      "batch": 3,
+      "draft_file_sha256": "e141ee1d71e85bcdd9e764669e387da7886082abd887f88b52f2c572aaecb1b3",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156152.jpg",
+          "expected_sha256": "4693c30c6e7ddc851e3e529f79759a6e77b403f447961ad733550f73cfc39a6b",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "4693c30c6e7ddc851e3e529f79759a6e77b403f447961ad733550f73cfc39a6b",
+          "byte_length": 326240,
+          "width": 510,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-37905-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:32.681764+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP156152.jpg",
+          "expected_sha256": "e4f0c9d7485bdfe6390b254dde8801aa1ad1c6d107123c6760a80f41787d8153",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "e4f0c9d7485bdfe6390b254dde8801aa1ad1c6d107123c6760a80f41787d8153",
+          "byte_length": 2462514,
+          "width": 1547,
+          "height": 1894,
+          "local_path": "/workspace/kaiga-visual/met-37905-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:32.847512+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "中央に寄り添う男女と後方の侍女、左右の区画にそれぞれ灯火を持つ女性が見える。『二人の女性が持つ灯火』と区画に沿う配置に対応。火事の伝説は画像の事実として扱わない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/37905",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-37906",
+      "batch": 3,
+      "draft_file_sha256": "8b8d6bdc0adf9647b6bdf1798905912b75e23621bd905e88155cffb1b95253b3",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DT8229.jpg",
+          "expected_sha256": "b450cc6c0f88acd20cdbb8bf5553a7a66c54842f8064972f5265391f65d1d3fa",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "b450cc6c0f88acd20cdbb8bf5553a7a66c54842f8064972f5265391f65d1d3fa",
+          "byte_length": 153473,
+          "width": 516,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-37906-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:32.786898+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DT8229.jpg",
+          "expected_sha256": "c040bfeef109bf61d90e5e3e437dab7041f65c7ddf3f088f8032025bad38cb19",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "c040bfeef109bf61d90e5e3e437dab7041f65c7ddf3f088f8032025bad38cb19",
+          "byte_length": 2939713,
+          "width": 3070,
+          "height": 3713,
+          "local_path": "/workspace/kaiga-visual/met-37906-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.015964+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "上下二段の構図。上段の青い人物が手を上げ、向かいの人物が顔を向ける。下段に花・葉で囲まれた赤い小屋状の空間と女性二人を確認。待ち合わせ場所という意味や作者帰属は文献に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/37906",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-38056",
+      "batch": 3,
+      "draft_file_sha256": "e35a11ff3d63a6be55f6e2f157f46dafbe55ead6695702bc31a9d115019819d9",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP153173.jpg",
+          "expected_sha256": "97f0b83af47d371e6ae0d251e900e245602e8d511e6806eba407f7309b99055f",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "97f0b83af47d371e6ae0d251e900e245602e8d511e6806eba407f7309b99055f",
+          "byte_length": 88503,
+          "width": 433,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-38056-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:32.840578+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP153173.jpg",
+          "expected_sha256": "1f3fd2e69670543b5e1ec77fec7a35a7b30670fa97d18f202f06070dce218106",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "1f3fd2e69670543b5e1ec77fec7a35a7b30670fa97d18f202f06070dce218106",
+          "byte_length": 2477316,
+          "width": 2771,
+          "height": 3994,
+          "local_path": "/workspace/kaiga-visual/met-38056-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.024035+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "左の男性が右側の二人へ腕を伸ばし、一人も手を差し出している。楽器を持つ人物を含む場面は本文と整合。報酬という意味、注文主という同定は館の説明による。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/38056",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-39543",
+      "batch": 3,
+      "draft_file_sha256": "cc9ea09194569d10f91b1e650d212106adc0e743b723b236ee9574e7dbc24139",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-13657-002.jpg",
+          "expected_sha256": "8c86c6e4775577496e21074bd93415f5ea4768c8b6610e7b3e4a7d9d346ed1ac",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "8c86c6e4775577496e21074bd93415f5ea4768c8b6610e7b3e4a7d9d346ed1ac",
+          "byte_length": 79302,
+          "width": 468,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-39543-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:32.870996+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-13657-002.jpg",
+          "expected_sha256": "c3b97702262f2746127e778d46b3097b9ce9b82fce23b39b2d70eb14cdeabc13",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "c3b97702262f2746127e778d46b3097b9ce9b82fce23b39b2d70eb14cdeabc13",
+          "byte_length": 2381926,
+          "width": 3001,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-39543-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.126377+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "needs_more_visual_evidence",
+      "observations": "多層の宮殿と中庭、露台に集まる女性たちを確認。原画像の露台を拡大すると、手を上げる人物や顔の前に手を寄せる人物は見える。針と糸そのものは明瞭に識別できず、『針に糸を通しています』の独立した画像確認は保留。",
+      "findings": [
+        {
+          "passage": "女性たちが空を指さし、針に糸を通しています。",
+          "issue": "露台の拡大でも針・糸の細部は識別困難。本文の誤りを発見したわけではない。",
+          "suggestion": "より鮮明な細部図で確認するか、針通しの説明は館による場面解釈であることを明示する。"
+        }
+      ],
+      "detail_view": {
+        "asset": "original",
+        "crop_fraction_xyxy": [
+          0.15,
+          0.52,
+          0.85,
+          0.78
+        ]
+      },
+      "source_url": "https://www.metmuseum.org/art/collection/search/39543",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-40063",
+      "batch": 3,
+      "draft_file_sha256": "ce162dde2efca2cd9adbf4f8d706dca8ac9acc68df04ab10c99a7b6e13d88673",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP153502.jpg",
+          "expected_sha256": "66d3491fcf296b8e49697e3efe197d5922d27842f14c190038f4c887fd524491",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "66d3491fcf296b8e49697e3efe197d5922d27842f14c190038f4c887fd524491",
+          "byte_length": 69571,
+          "width": 600,
+          "height": 541,
+          "local_path": "/workspace/kaiga-visual/met-40063-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:32.966854+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP153502.jpg",
+          "expected_sha256": "605a8d6294f747463ea7f71588a4be0632a67207ce793dc8354d239a7b367076",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "605a8d6294f747463ea7f71588a4be0632a67207ce793dc8354d239a7b367076",
+          "byte_length": 3331458,
+          "width": 3857,
+          "height": 3480,
+          "local_path": "/workspace/kaiga-visual/met-40063-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:33.191168+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "丸みを帯びた扇面に小鳥、白い花をつけた枝、細長い竹葉がまとまる。本文の梅・竹・鳥と小さな限定された画面の説明に対応。素材・実寸・年代は画像のみでは認定しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/40063",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    }
+  ]
+}

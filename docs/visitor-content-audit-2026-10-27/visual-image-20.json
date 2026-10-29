@@ -1,0 +1,224 @@
+{
+  "batch": 20,
+  "review_date": "2026-10-28",
+  "baseline_commit": "f23df7c3d0e9342c00a13ccce10ccc6fa01d5b20",
+  "reviewer": "Codex image inspection; AIによる画像照合。人間・独立した第三者による監査ではない。",
+  "scope": "公式画像を取得し、構図・人物・物の配置と現在の下書きの可視的記述を照合。史実、人物の同定、作者意図、文字の厳密な翻刻、解説文の権利を画像から認定しない。",
+  "items": [
+    {
+      "id": "met-816519",
+      "batch": 20,
+      "draft_file_sha256": "a89de2ccedc5b5835f861a670808abc9c02f4e13778b65297efb8a05a86ff6c2",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23243-001.jpg",
+          "expected_sha256": "473a88428f4ec51e06c7e919d3a6587fa83c424db45dec8920b7a7d38977427a",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "473a88428f4ec51e06c7e919d3a6587fa83c424db45dec8920b7a7d38977427a",
+          "byte_length": 73342,
+          "width": 599,
+          "height": 483,
+          "local_path": "/workspace/kaiga-visual/met-816519-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:41.197095+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-23243-001.jpg",
+          "expected_sha256": "cc5b348cd3c5d4389aa9f1d014eadddc1d8d76f3891d0531a0af23fb6b2e28a0",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "cc5b348cd3c5d4389aa9f1d014eadddc1d8d76f3891d0531a0af23fb6b2e28a0",
+          "byte_length": 3228440,
+          "width": 4000,
+          "height": 3224,
+          "local_path": "/workspace/kaiga-visual/met-816519-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:41.890114+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "needs_more_visual_evidence",
+      "observations": "ブドウと桃、脚付きの皿、果実の斑点を確認。台の暗い反射を拡大したが人物像を明瞭には識別できず、蜂も画像全体では特定できない。画家自身の反射は館の解釈を参照。",
+      "findings": [
+        {
+          "passage": "画家自身の姿が映り込んでいます。",
+          "issue": "取得画像の台の拡大では人物像の同定が困難。",
+          "suggestion": "所蔵館の詳細図・解説と照合し、反射の人物同定を館の説明として示す。"
+        }
+      ],
+      "detail_view": {
+        "asset": "original",
+        "crop_fraction_xyxy": [
+          0.28,
+          0.4,
+          0.68,
+          0.93
+        ]
+      },
+      "source_url": "https://www.metmuseum.org/art/collection/search/816519",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-823663",
+      "batch": 20,
+      "draft_file_sha256": "792918c99b7e120c2cfa587084804258491066529027a13717520d75c4574ec5",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-19667-002.jpg",
+          "expected_sha256": "7c7edd61c5ccebe054a051a70a9a131b688a06b9da328f9755388b7ac74c8c8e",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "ddd83bc68a4c5f3f6b30ee37e520e6ff600607f8d1c8a340c4051fecb529237c",
+          "byte_length": 110754,
+          "width": 469,
+          "height": 625,
+          "local_path": "/workspace/kaiga-visual/met-823663-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:41.294325+00:00",
+          "matches_database_sha256": false
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-19667-002.jpg",
+          "expected_sha256": "87b70e8711e19b221aa259683bc6cc33006c18905bd7d35781c9d65328486df1",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "87b70e8711e19b221aa259683bc6cc33006c18905bd7d35781c9d65328486df1",
+          "byte_length": 4250623,
+          "width": 3002,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-823663-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:41.906160+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "上下に配置された二人と、下方の複数の従者・馬が見える。別れの意味や人物同定は所蔵館の説明に依存。表示画像の保存済みハッシュは不一致。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/823663",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-829407",
+      "batch": 20,
+      "draft_file_sha256": "8b8cf62cd217c0af33da69e3da55bf3d5858e9f13de11fbc3e7d21213fa7b4f5",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-25830-002.jpg",
+          "expected_sha256": "5fce015d2fb4a203cee037426532da7a72fbf681c83fe8186bb1bec9aa85258d",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "5fce015d2fb4a203cee037426532da7a72fbf681c83fe8186bb1bec9aa85258d",
+          "byte_length": 81192,
+          "width": 278,
+          "height": 623,
+          "local_path": "/workspace/kaiga-visual/met-829407-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:41.354749+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-25830-002.jpg",
+          "expected_sha256": "04232e612e5f3ad85551a0a0584be0b9ca7534722daa0319accd639704413962",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "04232e612e5f3ad85551a0a0584be0b9ca7534722daa0319accd639704413962",
+          "byte_length": 2568192,
+          "width": 1783,
+          "height": 3998,
+          "local_path": "/workspace/kaiga-visual/met-829407-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:41.500846+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "拡大画像で石に座り琴を弾く人物、向かいの人物、扇を持ち炉のそばに立つ従者、卓上の器を確認。故事の人物名と煎茶の解釈は資料による。",
+      "detail_view": {
+        "asset": "original",
+        "crop_fraction_xyxy": [
+          0.2,
+          0.4,
+          0.8,
+          0.8
+        ]
+      },
+      "source_url": "https://www.metmuseum.org/art/collection/search/829407",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-853216",
+      "batch": 20,
+      "draft_file_sha256": "5962023d9cca260baad3f7ec19796e47d2eef28ae90c5e2cd3ee393e8592be43",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-24433-002.jpg",
+          "expected_sha256": "4cfeabae47279cd01cfb49cfc3a05a224ed647261475864c76f25c8f81be9c0f",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "4cfeabae47279cd01cfb49cfc3a05a224ed647261475864c76f25c8f81be9c0f",
+          "byte_length": 50597,
+          "width": 204,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-853216-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:41.571352+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-24433-002.jpg",
+          "expected_sha256": "8f002e11e86d69714d65a26a342e983776d56b56b316b35dfceb444f7a13cb0d",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "8f002e11e86d69714d65a26a342e983776d56b56b316b35dfceb444f7a13cb0d",
+          "byte_length": 1791902,
+          "width": 1307,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-853216-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:41.850434+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "掛軸上部の複数行の書と下部の山水図を確認。賛の作者・成立順と文字の解読は所蔵館の資料を参照。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/853216",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-888924",
+      "batch": 20,
+      "draft_file_sha256": "79e11264d4909cb643d90de8e8d9344526064d02d1827d1e489f4085ef49c88d",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25141-001.jpg",
+          "expected_sha256": "e7f09ce33523672ca1e4c7557473ec7e159f161285f868598ed8b5a6e053ec38",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "e7f09ce33523672ca1e4c7557473ec7e159f161285f868598ed8b5a6e053ec38",
+          "byte_length": 116870,
+          "width": 599,
+          "height": 490,
+          "local_path": "/workspace/kaiga-visual/met-888924-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:41.869849+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-25141-001.jpg",
+          "expected_sha256": "862df6866843845048d09dc537948e4593e3030ef4f556fe6115ce3a113ce11b",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "862df6866843845048d09dc537948e4593e3030ef4f556fe6115ce3a113ce11b",
+          "byte_length": 4191363,
+          "width": 4000,
+          "height": 3272,
+          "local_path": "/workspace/kaiga-visual/met-888924-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:42.074980+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "花瓶の花、切り分けたメロン、桃とブドウを確認。署名の解読、師の模写、活動歴は画像だけでは検証しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/888924",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    }
+  ]
+}

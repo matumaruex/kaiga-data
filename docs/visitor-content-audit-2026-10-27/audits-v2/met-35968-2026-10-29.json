@@ -1,0 +1,143 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-35968",
+  "checked_on": "2026-10-29",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "8a89b15e9d38235a531e54a876e721a01136f6ff",
+    "artwork_record_sha256": "eec0de5daf920ba06de141faa67bd165622c875ce9192440705812f19329f85c",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-35968.json",
+    "draft_sha256": "9e881af5dfdc4636d58f21c7b3b3de872a505bb892c400ba738a85206567b148"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/35968",
+      "access": "page_read_twice",
+      "locations": [
+        "冒頭3段落",
+        "Artwork Details、09.3"
+      ],
+      "observed": "作者不詳、19世紀という館の比定、鹿皮彩色の壁掛けを確認。工房・西洋市場説は推定。"
+    },
+    {
+      "url": "https://asc.tainan.gov.tw/index_en.php?id=35&modify=place",
+      "access": "page_read_twice",
+      "locations": [
+        "Chihkan Tower Introduction"
+      ],
+      "observed": "Provintiaの建設を1653年とし、オランダ統治後の転用も説明する。城塞の使用期間は統治期間と同一ではない。"
+    },
+    {
+      "url": "https://twtainan.net/en/attractions/detail/5960",
+      "access": "page_read_twice",
+      "locations": [
+        "Introduce冒頭2段落"
+      ],
+      "observed": "東門付近の城壁遺構は1788年と推定、後の拡張も記載。Metがいう城壁との区間・段階の対応までは確定できない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-35968",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP354272.jpg",
+      "status": 200,
+      "sha256": "ed54b69ed7ba75df02012352617e8e280d88265811b736937c2bf6fcb4c05b71",
+      "byte_length": 3842798,
+      "width": 3947,
+      "height": 3059,
+      "matches_registered_bytes": true
+    },
+    {
+      "id": "met-35968",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP354272.jpg",
+      "status": 200,
+      "sha256": "c4eb5769182d500f8b08f85cb6158e4dd44ce3de387a104adbb8ca55f9de8f38",
+      "byte_length": 119623,
+      "width": 600,
+      "height": 465,
+      "matches_registered_bytes": true
+    }
+  ],
+  "visual_observations": {
+    "method": "原画像と表示画像を別々に表示。原画像は1792×1388で閲覧。",
+    "observed": "舟の並ぶ水辺、城壁で囲まれた複数の区画、家々と小さな人影が本文と合う。素材や地域同定は公式資料に基づく。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_as_creator",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "制作・修正案の保存後に公式ページの該当箇所を読み直し、画像を再表示し、対象版の事実・解釈・選定用情報・タグ・文章類似を直接照合した。",
+    "limitations": "同じAI・同じ会話文脈での別工程。別担当や別コンテキストによる独立性を主張せず、AIの文章比較は法的許諾・非侵害保証としない。",
+    "reviewed_artwork_sha256": "122dfdec06810f936e92e885fa7204081207d311b14b9c37aea31d1959833238",
+    "reviewed_visitor_draft_sha256": "9e881af5dfdc4636d58f21c7b3b3de872a505bb892c400ba738a85206567b148",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "所蔵番号09.3・作者不詳・鹿皮彩色という記述は館の作品情報と一致。"
+      },
+      {
+        "area": "chronology",
+        "finding": "本文の城塞使用期間の断定を、17世紀の統治と19世紀とされる作品の時間差へ限定。選定用資料も年号の確定を避ける。"
+      },
+      {
+        "area": "tags_and_selection",
+        "finding": "感情タグ0件を維持。都市・時間の主題と史実への注意は適合し、感情を追加する根拠はない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "水辺と町の観察から始め、制作方法の推測を館に帰属。原文の民族的な描写や年号の推論を逐語訳せず、今回の短い要約に追加の表現流用は見つからない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "122dfdec06810f936e92e885fa7204081207d311b14b9c37aea31d1959833238",
+    "visitor_draft_sha256": "9e881af5dfdc4636d58f21c7b3b3de872a505bb892c400ba738a85206567b148",
+    "proposal_sha256": "186428ebc975cf0fc444ce63c6be75e770247bf76bffab0b89f543f18f502e59",
+    "checks": [
+      "input_version_and_before_values",
+      "candidate_hash",
+      "existing_structure_validator_on_temporary_catalog",
+      "other_299_records_unchanged",
+      "id_order_unchanged",
+      "production_data_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false
+  },
+  "notes": [
+    "年代差の学術的な解決を宣言するものではない。限定した記述と出典の帰属を検証した。",
+    "本文の変更は第2段落の冒頭1文とその証拠注記。元の57件改稿記録は履歴として保持。"
+  ],
+  "remaining": [
+    "本番反映禁止のためDraft内に保存。正式DBへの保存を伴う作品完成には数えない。"
+  ],
+  "promotion": {
+    "eligible": false,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-35968.json",
+    "sha256": "186428ebc975cf0fc444ce63c6be75e770247bf76bffab0b89f543f18f502e59",
+    "proposed_artwork_sha256": "122dfdec06810f936e92e885fa7204081207d311b14b9c37aea31d1959833238",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "条項1",
+      "条項3 a/b"
+    ],
+    "checked_on": "2026-10-29",
+    "finding": "各作品ページのPublic Domain画像と文章の条件を区別。本文にCC0許諾があるとは扱わず、原文・現代語訳の長文転載はしない。"
+  }
+}

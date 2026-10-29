@@ -1,0 +1,199 @@
+{
+  "batch": 6,
+  "review_date": "2026-10-27",
+  "baseline_commit": "f23df7c3d0e9342c00a13ccce10ccc6fa01d5b20",
+  "reviewer": "Codex image inspection; AIによる画像照合。人間・独立した第三者による監査ではない。",
+  "scope": "公式画像を取得し、構図・人物・物の配置と現在の下書きの可視的記述を照合。史実、人物の同定、作者意図、文字の厳密な翻刻、解説文の権利を画像から認定しない。",
+  "items": [
+    {
+      "id": "met-435977",
+      "batch": 6,
+      "draft_file_sha256": "e64340b9d972781e48933f764fc15c913488af8ef851744bf7c8c982a8063d57",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2008.jpg",
+          "expected_sha256": "a43de7bd780ba62b10d53b50f76bf850ac0a023262e5562290197add772b51b6",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "a43de7bd780ba62b10d53b50f76bf850ac0a023262e5562290197add772b51b6",
+          "byte_length": 76071,
+          "width": 437,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-435977-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.048513+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DT2008.jpg",
+          "expected_sha256": "35edd23f6c47d178e0439ec6743664d7bd63ec1989fd5873a46472ed008ec8e7",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "35edd23f6c47d178e0439ec6743664d7bd63ec1989fd5873a46472ed008ec8e7",
+          "byte_length": 1955059,
+          "width": 2606,
+          "height": 3722,
+          "local_path": "/workspace/kaiga-visual/met-435977-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.317573+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "暗い衣の母が白い衣の幼児を膝に抱き、視線を落とす構図を確認。母子という主題に対応。本文の中心である模写・贈与・アトリエの経緯は画像では検証できない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/435977",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-435978",
+      "batch": 6,
+      "draft_file_sha256": "7aaa9fe29f2b0a113fa50d809267f92deaf435c376a36a155f2841af722d6120",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16591-001.jpg",
+          "expected_sha256": "75eed9a98a7ff1c07d747931a83c1de2209d5ff261373f2400fc3fc7f56dbba3",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "75eed9a98a7ff1c07d747931a83c1de2209d5ff261373f2400fc3fc7f56dbba3",
+          "byte_length": 98896,
+          "width": 468,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-435978-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.042617+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-16591-001.jpg",
+          "expected_sha256": "7ff1efb81f2c8dde34465e53e639c4c74fa00adcbba715b939b6a34464aa488e",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "7ff1efb81f2c8dde34465e53e639c4c74fa00adcbba715b939b6a34464aa488e",
+          "byte_length": 4072648,
+          "width": 3000,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-435978-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.393374+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "一人の女性が台に肘を置き、片手を頭の近くへ、もう一方に巻物状のものを持つ。人物像という説明と整合。憂いという解釈、モデルの名は画像から確定しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/435978",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-435997",
+      "batch": 6,
+      "draft_file_sha256": "564abf56b5b8edf9b7973a69e608cd26b05b44b6ea2d587a901805d37ca6429f",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT11964.jpg",
+          "expected_sha256": "09b5378249e2ed40628858d276b5c551a897b8a89996076f38ca7d2c91b9e2bd",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "09b5378249e2ed40628858d276b5c551a897b8a89996076f38ca7d2c91b9e2bd",
+          "byte_length": 77865,
+          "width": 418,
+          "height": 625,
+          "local_path": "/workspace/kaiga-visual/met-435997-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.112362+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DT11964.jpg",
+          "expected_sha256": "a7423d26059451c1eb6b9879794755db8447956b887f6e4608e54fc19184de3c",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "a7423d26059451c1eb6b9879794755db8447956b887f6e4608e54fc19184de3c",
+          "byte_length": 1756591,
+          "width": 2490,
+          "height": 3722,
+          "local_path": "/workspace/kaiga-visual/met-435997-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.322802+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "暗い空の下、男女が布を頭上に掲げて進む。特定の物語の主人公を断定しない現行本文と矛盾しない。サロン出品・注文・複製の歴史は画像の確認対象外。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/435997",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-436005",
+      "batch": 6,
+      "draft_file_sha256": "34fb459ca9f46a1ddeafd712ecf7d553d3f4ddc08ff387f07429cfe96b042145",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1973.jpg",
+          "expected_sha256": "0e88957ab1b738cde293d468eb690c2c2ecd9ceefa2b9d2e0c586a5d53125193",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "0e88957ab1b738cde293d468eb690c2c2ecd9ceefa2b9d2e0c586a5d53125193",
+          "byte_length": 95308,
+          "width": 599,
+          "height": 489,
+          "local_path": "/workspace/kaiga-visual/met-436005-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.315757+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1973.jpg",
+          "expected_sha256": "796e854b59bbde36d3ece1fd3ba216f6dad116fe86ef313fd4070acd77d6a743",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "796e854b59bbde36d3ece1fd3ba216f6dad116fe86ef313fd4070acd77d6a743",
+          "byte_length": 3062699,
+          "width": 3807,
+          "height": 3106,
+          "local_path": "/workspace/kaiga-visual/met-436005-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.499278+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "空が画面の大部分を占め、海と砂浜が下端の細い帯となる。岸に二艘の小舟を確認し、沖の帆船とは区別できる。本文の構成・舟数と一致。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436005",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-436053",
+      "batch": 6,
+      "draft_file_sha256": "b1ae39ec7670a49fa70350aaf072bf1701c43a5138cda0ce2118cf8f9ef07a79",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19502-001.jpg",
+          "expected_sha256": "0a126d7e802c5fde7f713b2c41ae10d679e582d6e3de9c01de6a68aeb07947a5",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "0a126d7e802c5fde7f713b2c41ae10d679e582d6e3de9c01de6a68aeb07947a5",
+          "byte_length": 233306,
+          "width": 564,
+          "height": 625,
+          "local_path": "/workspace/kaiga-visual/met-436053-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.395038+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-19502-001.jpg",
+          "expected_sha256": "e203b010bcb650f91e9360420a9a91063fdb6586b2c6674c88464d286c0ec095",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "e203b010bcb650f91e9360420a9a91063fdb6586b2c6674c88464d286c0ec095",
+          "byte_length": 6900097,
+          "width": 3612,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-436053-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.872758+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "中央の亡骸を左の女性が抱き、後ろに男性、右の長い髪の女性が手首付近を下から支える。金地、前面の石棺、髪の細部を確認。『持ち上げる』は腕・手首を支える描写と整合し、指先自体は下を向く。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436053",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    }
+  ]
+}

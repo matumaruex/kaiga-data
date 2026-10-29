@@ -1,0 +1,199 @@
+{
+  "batch": 19,
+  "review_date": "2026-10-28",
+  "baseline_commit": "f23df7c3d0e9342c00a13ccce10ccc6fa01d5b20",
+  "reviewer": "Codex image inspection; AIによる画像照合。人間・独立した第三者による監査ではない。",
+  "scope": "公式画像を取得し、構図・人物・物の配置と現在の下書きの可視的記述を照合。史実、人物の同定、作者意図、文字の厳密な翻刻、解説文の権利を画像から認定しない。",
+  "items": [
+    {
+      "id": "met-74448",
+      "batch": 19,
+      "draft_file_sha256": "a81a368eb414c718a543388944f0e2404b8bda2eb2cbbc5007eea4a217345f57",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP161547.jpg",
+          "expected_sha256": "40c6ee4be44442bf70027df41c6ae070ac03e1fc1d44ff67d64c1fb399633fc6",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "40c6ee4be44442bf70027df41c6ae070ac03e1fc1d44ff67d64c1fb399633fc6",
+          "byte_length": 60347,
+          "width": 378,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-74448-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:40.652274+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP161547.jpg",
+          "expected_sha256": "e1127783eef103f3f6306ec206ee82e0bfaf2c371c362a77e3dbfb5c385bd80d",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "fe77104577a21bb05d4eadd3c0f33148f2ceed951a8ed88e9275cb845be5db36",
+          "byte_length": 1924786,
+          "width": 2349,
+          "height": 3880,
+          "local_path": "/workspace/kaiga-visual/met-74448-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:41.100798+00:00",
+          "matches_database_sha256": false
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "山水が大部分を占め、右下に小さな人物の集まり、上に賛がある。小道具や参加者の経歴は細部画像・資料を参照。原画像の保存済みハッシュは不一致。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/74448",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-74692",
+      "batch": 19,
+      "draft_file_sha256": "dc11cd1f54852015f0a9b22510f69d2fdb4d73f03dc6eea3ff16c188fd3a3e17",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP166102.jpg",
+          "expected_sha256": "491a9ad7b0ad64dc00696af0fafe724eefd81ed8c9a42850f09e4458637109bd",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "491a9ad7b0ad64dc00696af0fafe724eefd81ed8c9a42850f09e4458637109bd",
+          "byte_length": 95564,
+          "width": 494,
+          "height": 625,
+          "local_path": "/workspace/kaiga-visual/met-74692-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:40.819586+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP166102.jpg",
+          "expected_sha256": "1644b0ea3b1469d316395d2f758174ef96fb1e5e9817e9e0530ab16a71108bec",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "1644b0ea3b1469d316395d2f758174ef96fb1e5e9817e9e0530ab16a71108bec",
+          "byte_length": 3219553,
+          "width": 3164,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-74692-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:41.150871+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "建築の区画の中に人物を細い線で描いた紙の画面。恋人関係・別れの物語は作品資料による。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/74692",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-74846",
+      "batch": 19,
+      "draft_file_sha256": "569f21987b301d4005c870b31b1a2753b76a094757fdabfd01d08e6e0df49403",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP153226.JPG",
+          "expected_sha256": "20d126471e858cb741761d620b481e93c38a4efd3f1461643209c421ea128df2",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "cb2c9ef56327a06340e6bb3044c148181bbb8948623b044cd196a07d8bd1fb31",
+          "byte_length": 111477,
+          "width": 407,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-74846-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:40.971931+00:00",
+          "matches_database_sha256": false
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP153226.JPG",
+          "expected_sha256": "d6c2f05e457ca71b4c784d7b89dc9489718f45322c1599718c9f003687b098d9",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "d6c2f05e457ca71b4c784d7b89dc9489718f45322c1599718c9f003687b098d9",
+          "byte_length": 2368930,
+          "width": 2456,
+          "height": 3767,
+          "local_path": "/workspace/kaiga-visual/met-74846-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:41.828317+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "木々の間に接近する二人と、画面上部の文字が見える。人物名とためらいの意味は館の解説を参照。表示画像の保存済みハッシュは不一致。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/74846",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-74996",
+      "batch": 19,
+      "draft_file_sha256": "ebb5e8d6e0d9d8a62225ae6fc5298f165d3331617f2944d8aa1661db1467e49d",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/55_121_38_21_d.JPG",
+          "expected_sha256": "7b2ef3acdb121028f4e734785889f7d8f5a25f9d8155d695b5a592c5090ec4e3",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "7b2ef3acdb121028f4e734785889f7d8f5a25f9d8155d695b5a592c5090ec4e3",
+          "byte_length": 89471,
+          "width": 449,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-74996-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:46.403011+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/55_121_38_21_d.JPG",
+          "expected_sha256": null,
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "319586cf8f12ef1303647da76252ed8f1d2b60659c94eb3158847c296aef308b",
+          "byte_length": 73198,
+          "width": 410,
+          "height": 570,
+          "local_path": "/workspace/kaiga-visual/met-74996-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:46.466739+00:00",
+          "matches_database_sha256": null
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "画面が上下に区分され、上に建物と騎馬、下に人物と多数の動物を確認。婚礼と慈悲の物語は写本の解説に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/74996",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-77204",
+      "batch": 19,
+      "draft_file_sha256": "954d08e9ff531940e1dc833f44d55dca2f903898051ca02f8d4f386d3ab6b607",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP333860.jpg",
+          "expected_sha256": "240fe8bca46634ad0c11115e1d8553629f844597615f87c16e25786e9edd1468",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "240fe8bca46634ad0c11115e1d8553629f844597615f87c16e25786e9edd1468",
+          "byte_length": 56483,
+          "width": 468,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-77204-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:41.087256+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP333860.jpg",
+          "expected_sha256": "40fbda6f1c83cb5eaa49194907b2bae436f39925bfb7847d23affc10ee3d9fed",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "363e8f973a9580ed0ba90b41ccfbf4a4642dc5bca7d8aea6cf4582938b59ec49",
+          "byte_length": 2068217,
+          "width": 2911,
+          "height": 3880,
+          "local_path": "/workspace/kaiga-visual/met-77204-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:41.834973+00:00",
+          "matches_database_sha256": false
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "桜の枝に一羽、中央を飛ぶ一羽、下の岩に一羽の鳥、竹と水辺が見える。虫や鳥種の同定は細部・館の記録を参照。原画像の保存済みハッシュは不一致。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/77204",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    }
+  ]
+}

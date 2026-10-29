@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-11140",
+  "checked_on": "2026-10-28",
+  "result": "HOLD",
+  "progress": "保留",
+  "scope": "作品全体の根拠を再読する準備点検。独立AI監査の完了記録ではない。",
+  "version": {
+    "baseline_commit": "78215a4720d794a28be99dabef4b1e9fea3889c2",
+    "draft_path": "drafts/visitor-explanations/met-11140.json",
+    "draft_sha256": "dc4ad94d57f58dc6ab83197d3b5aa5215cee8113e5081dd5f6f1fae965e48f9c",
+    "artwork_record_sha256": "c0b42e26e5560ef47de3b88622151b3cf6b9e859f3b21094153b8a3a65d828dd",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "catalog_file_sha256": "f60610a724a617d41dd235532e02962dbecb8b6f138a598ecd9ef8e0e9b84615"
+  },
+  "independent_ai_audit": {
+    "completed": false,
+    "method": "同じ作業担当が別パスで原資料を再検索・再読し、再取得画像を表示した。別担当による独立AI合格判定は未実施。",
+    "verdict": null
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/11140",
+      "access": "page_read",
+      "locations": [
+        "冒頭2段落（29–30行）",
+        "Public Domain（33行）",
+        "Artwork Details（56–64行）"
+      ],
+      "observed": "作者・1872年・油彩／カンヴァス・所蔵番号50.41を確認。戦後の再結束と困難、農村への郷愁は館の解釈として本文と一致。"
+    },
+    {
+      "url": "https://collection.mmfa.org/objects-1/info/2377?records=60",
+      "access": "indexed_text_only_direct_page_timeout",
+      "locations": [
+        "検索結果の作品情報と解説第1段落"
+      ],
+      "observed": "検索収録本文はMet 50.41とButler 919-0-108の別版を述べる。対象ページは1873年の木口木版で、Met油彩画の年代・素材と混同しない。再openは失敗したため直接再閲覧済みにはしない。"
+    },
+    {
+      "url": "https://butlerart.com/collections/19th-century-collection/",
+      "access": "page_read",
+      "locations": [
+        "About The Art（63行）",
+        "Selected Works（88–90行）"
+      ],
+      "observed": "Butler所蔵の同題・同作者の作品の存在を直接確認。ここには素材・所蔵番号の記載がなく、MMFAの全記述を置換する資料とはしない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read",
+      "locations": [
+        "条項1（27–28行）",
+        "条項3 a/b（32–40行）",
+        "FAQ本文利用（82–93行）"
+      ],
+      "observed": "OA画像と文章を区別。画像のPD表示を解説文のCC0許諾へ転用しない。本文の独自要約の妥当性は独立AI比較の対象に残す。"
+    }
+  ],
+  "images": [
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-20820-001.jpg",
+      "status": 200,
+      "sha256": "c000f7b10174eba275d642466b60046872ded1d8541119e9f5ae6aac88ca5fbc",
+      "byte_length": 4411408,
+      "width": 4000,
+      "height": 2475,
+      "matches_registered_bytes": true
+    },
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-20820-001.jpg",
+      "status": 200,
+      "sha256": "2d6000f74d77c3cb23d7f243d79f9b80031ddc289286a33be84da16cbd92bd50",
+      "byte_length": 111293,
+      "width": 600,
+      "height": 371,
+      "matches_registered_bytes": true
+    }
+  ],
+  "visual_observations": {
+    "method": "今回取得した4000×2475原画像を画像ツールで表示し確認（表示は2016×1247）。",
+    "observed": "赤い校舎、横に連なる子どもたち、左側で列から離れ転倒する姿、草花と空を確認。本文の場面描写と大きな矛盾は見つからない。",
+    "limitation": "公式ページの画像リンクはcollectionapiへの取得が失敗。既存台帳とのバイト一致と今回の目視を併用しており、URLだけの同定ではない。"
+  },
+  "curation_review": {
+    "meaning_basis": "作者の直接証言は未確認と明示され、館の解釈と区別されている。制作背景と解釈も同文ではない。",
+    "emotions": "喜び2は走る集団遊戯と整合、懐かしさ1は館の郷愁という読みに対応。主・補助区分も整合する。鑑賞者の感情を保証しない。",
+    "fitting_situations": "reasonの「変化するアメリカの学校生活」は原資料の農村から都市化への変化を曖昧にする。次の修正では「手をつないだ遊びと赤い校舎。館は農村への郷愁を読み取る」等、画面と館の解釈へ限定する。",
+    "selection_cautions": "遊びを作者個人の思い出、作者の感情を鑑賞者の感情と同一視しない注意は妥当。",
+    "visitor_text": "画像起点の段落と館に帰属させた歴史的解釈。画像描写と解釈を区別しているが、原文との論旨・構成の近さを含む独立AIの文章比較は未了。"
+  },
+  "program_checks": {
+    "result": "PASS",
+    "unit_tests": {
+      "passed": 28,
+      "checkpoint_tests": 16,
+      "existing_promotion_tests": 12
+    },
+    "draft_structure_count": 160,
+    "catalog_structure_count": 300,
+    "catalog_snapshot": "PASS",
+    "all_data_and_drafts_unchanged_from_baseline": true,
+    "registered_image_hashes_match": true,
+    "scope": "構造・ID・参照・画像バイト・非変更を確認。史実と独立AI合格は機械テストで保証しない。"
+  },
+  "hold_reasons": [
+    "MMFA対象ページの直接再閲覧が失敗し、検索収録本文とButlerの限定的な補強のみ。",
+    "作品全体の別担当による独立AI監査は未実施。",
+    "選定理由の学校生活に関する表現を、原資料の農村から都市化への変化と区別して修正する必要がある。"
+  ],
+  "next_action": "この作品は保留。次はmet-20129を対象に進め、met-11140は不足箇所の資料回収・限定修正後に独立AI検証へ渡す。",
+  "promotion": {
+    "eligible": false,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  }
+}

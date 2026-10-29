@@ -1,0 +1,208 @@
+{
+  "batch": 8,
+  "review_date": "2026-10-27",
+  "baseline_commit": "f23df7c3d0e9342c00a13ccce10ccc6fa01d5b20",
+  "reviewer": "Codex image inspection; AIによる画像照合。人間・独立した第三者による監査ではない。",
+  "scope": "公式画像を取得し、構図・人物・物の配置と現在の下書きの可視的記述を照合。史実、人物の同定、作者意図、文字の厳密な翻刻、解説文の権利を画像から認定しない。",
+  "items": [
+    {
+      "id": "met-436534",
+      "batch": 8,
+      "draft_file_sha256": "001212c08cdbb6a0a315d343a3b68703e8baa9c390885a2f6a1f57d9c698cbbe",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP346475.jpg",
+          "expected_sha256": "76e8b89371d4c4cc29abd13cde101bb3c786391cb9ea95ccea9390029f6c2413",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "76e8b89371d4c4cc29abd13cde101bb3c786391cb9ea95ccea9390029f6c2413",
+          "byte_length": 128833,
+          "width": 494,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-436534-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.888857+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP346475.jpg",
+          "expected_sha256": "4680a3bd8eed94d21200f9d7d6410865873fac387dba5b6cd65bee75a1fe59a4",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "4680a3bd8eed94d21200f9d7d6410865873fac387dba5b6cd65bee75a1fe59a4",
+          "byte_length": 5219625,
+          "width": 3167,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-436534-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:35.340475+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "緑の背景と花瓶に、ほぼ白いバラが広がり、花・卓上にごく淡い桃色が見える。現在の淡い色は確認できるが、退色前の色と色材エオシンの同定は科学調査に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436534",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-436535",
+      "batch": 8,
+      "draft_file_sha256": "3b6d8682f22093fb2d6bcc77f3cfdfbc4098b66303404917c227fac0ad6cfb3b",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42549-001.jpg",
+          "expected_sha256": "af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc",
+          "byte_length": 221383,
+          "width": 599,
+          "height": 477,
+          "local_path": "/workspace/kaiga-visual/met-436535-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:34.937373+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg",
+          "expected_sha256": "b46d02a42fd3bb13b022cefc5beaa997b1d7a28cd7b53e4413d940aa0dc4014d",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "b46d02a42fd3bb13b022cefc5beaa997b1d7a28cd7b53e4413d940aa0dc4014d",
+          "byte_length": 8291194,
+          "width": 4000,
+          "height": 3184,
+          "local_path": "/workspace/kaiga-visual/met-436535-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:35.435948+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "黄色い麦畑、右側の濃緑の糸杉、渦状の雲と青空、手前の小さな赤い花を確認。盛り上がった絵具の筋も見える。手紙・制作場所・別版の順序は画像の対象外。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436535",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-436576",
+      "batch": 8,
+      "draft_file_sha256": "f8e9055c24c79bc563ab494b37a7a174b3baf2ffa828b01d146abbc2b0972485",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17641-001.jpg",
+          "expected_sha256": "edabb7d6591afaa63186c4b61e24508225723b8bf4bda825cef0ca2d6297b279",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "edabb7d6591afaa63186c4b61e24508225723b8bf4bda825cef0ca2d6297b279",
+          "byte_length": 147421,
+          "width": 555,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-436576-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:35.351492+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-17641-001.jpg",
+          "expected_sha256": "81af4b595f0e75c7ad0285956abd040d2551e419c6300eb77a5430545897b709",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "81af4b595f0e75c7ad0285956abd040d2551e419c6300eb77a5430545897b709",
+          "byte_length": 4643515,
+          "width": 3557,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-436576-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:35.699303+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "左に両手を掲げる青衣の人物、奥から右に伸びる裸身、ねじれた姿勢と非日常的な色を確認。上端で構図が切れる現状は見えるが、切断の経緯や彫刻との関係は文献に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436576",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-436579",
+      "batch": 8,
+      "draft_file_sha256": "b61ab77f4eb7b0a646d045cd7cd932ef39d70676f2c238393e8ce1830a6a4e54",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-12952-001.jpg",
+          "expected_sha256": "7383ebba2887b5d1db1a54030da1c2b3a11f5713042ac27c25b465f3ef2ee5e6",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "7383ebba2887b5d1db1a54030da1c2b3a11f5713042ac27c25b465f3ef2ee5e6",
+          "byte_length": 105893,
+          "width": 600,
+          "height": 466,
+          "local_path": "/workspace/kaiga-visual/met-436579-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:35.348152+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-12952-001.jpg",
+          "expected_sha256": "1f4b11f001fd2e80ed2510c416c65332c6288466b4354708f8c1890d6b913ca1",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "1f4b11f001fd2e80ed2510c416c65332c6288466b4354708f8c1890d6b913ca1",
+          "byte_length": 3548514,
+          "width": 3919,
+          "height": 3045,
+          "local_path": "/workspace/kaiga-visual/met-436579-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:35.645244+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "床に座る若い女性、倒れた籠と散乱する卵、立つ男女と右の子どもを確認。卵と日常場面は対応。処女性の喪失という意味は本文どおり歴史的解釈であり、画像の直接事実ではない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436579",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-436622",
+      "batch": 8,
+      "draft_file_sha256": "8a780bd226af5f82245b875dfa1909701c822c13355defa42acce216252dd12d",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145901.jpg",
+          "expected_sha256": "9f28cc7ba2b547f0c20e8a38ff5915c4077693b762a6984bf3e110e6fcb7ce8d",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "9f28cc7ba2b547f0c20e8a38ff5915c4077693b762a6984bf3e110e6fcb7ce8d",
+          "byte_length": 134937,
+          "width": 479,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-436622-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:35.404276+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP145901.jpg",
+          "expected_sha256": "7b8f35d027f9dc44105783fc39b47f85aec50d15a1f2c607abb20fb512278db9",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "7b8f35d027f9dc44105783fc39b47f85aec50d15a1f2c607abb20fb512278db9",
+          "byte_length": 3077024,
+          "width": 2856,
+          "height": 3722,
+          "local_path": "/workspace/kaiga-visual/met-436622-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:35.665750+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "中央の華やかな衣装、背後の道化風の人物、首元の魚・卵状の小道具と食べ物が見える。前景のジョッキを拡大しFとhに見える文字を確認。中央人物の性別・役柄は画像から確定しない。",
+      "detail_view": {
+        "asset": "original",
+        "crop_fraction_xyxy": [
+          0,
+          0.72,
+          0.7,
+          1
+        ]
+      },
+      "source_url": "https://www.metmuseum.org/art/collection/search/436622",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    }
+  ]
+}

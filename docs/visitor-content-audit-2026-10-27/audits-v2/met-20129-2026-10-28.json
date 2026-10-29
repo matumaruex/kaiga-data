@@ -1,0 +1,183 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-20129",
+  "checked_on": "2026-10-28",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_unchanged_visitor_draft",
+  "progress": "未完成",
+  "scope": "同じAI担当が制作と分けた工程で、原資料・画像・修正案・既存本文・選定用情報を再照合。別担当・別コンテキストの監査とは区別する。正式DBへ保存していないため作品進捗は未完成。",
+  "version": {
+    "baseline_commit": "01aaf765c482f35a5abbe7263a2f7c7380285681",
+    "draft_path": "drafts/visitor-explanations/met-20129.json",
+    "draft_sha256": "92d0cdf12dd6fbff50157be56d5fd828f4031a1e4ad0babea62f4bed8bbcd90d",
+    "artwork_record_sha256": "f3d88b3366428eb5334bf85039a6277c2d0c8bc85f36725c19e9fa72a238c39a",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "catalog_file_sha256": "f60610a724a617d41dd235532e02962dbecb8b6f138a598ecd9ef8e0e9b84615"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-20129.json",
+    "sha256": "f43e7d05bdf47773f3b789a496e132eb79f9c199eb9d292fdd65cf799ee2540e",
+    "proposed_artwork_sha256": "2af2f312d2689f09a0300f8eefdf114388ff69033cc7894e1d0278be1fbd8230",
+    "applied_to_catalog": false,
+    "changes": "fitting_situationsの1項目だけ。「怖い結末」を物語の山場へ限定し、少女が読み手であることと館の解釈への帰属を明確にする。",
+    "visitor_text_changed": false
+  },
+  "independent_ai_audit": {
+    "completed": false,
+    "method": "別担当による監査は実施していない。この旧欄を自動昇格条件には使わない。今回実施した同じAIによる別工程の根拠照合はseparate_pass_reviewに記録。",
+    "verdict": null,
+    "candidate_verdict": null
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/20129",
+      "access": "page_read",
+      "locations": [
+        "冒頭2段落（29–30行）",
+        "Public Domain（33行）",
+        "Artwork Details（56–63行）"
+      ],
+      "observed": "Seymour Joseph Guy、ca. 1870、Oil on canvas、所蔵番号2013.604が一致。家族モデル、影と表情、年長の娘の役割は館の説明に基づく。climaxを結末とは断定できない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/perspectives/a-story-within-a-story",
+      "access": "page_read",
+      "author": "Jane A. Dini",
+      "published_on": "2016-08-10",
+      "locations": [
+        "本作の説明（16–23行）",
+        "本作キャプション（20行）"
+      ],
+      "observed": "就寝時の読み聞かせと本の挿絵を解説。挿絵の画家はHarrison Weirと同定されたとする。物語には異版があり、画中の版を一般的な結末へ置換しない。追加発見をそのまま鑑賞本文へ増補することはしない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read",
+      "locations": [
+        "条項1",
+        "条項3 a/b",
+        "FAQの画像・本文利用"
+      ],
+      "observed": "作品画像のPublic Domain表示と解説文・寄稿記事の利用条件を区別。文章の独自性比較は法的許諾の代替としない。"
+    }
+  ],
+  "images": [
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP219245.jpg",
+      "status": 200,
+      "sha256": "2d94595609ecf8e7ad640b5566534240afab641628741d7735021c1fe0a2d44c",
+      "byte_length": 2049439,
+      "width": 3222,
+      "height": 4000,
+      "matches_registered_bytes": true
+    },
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP219245.jpg",
+      "status": 200,
+      "sha256": "7ac70c1245430c1161da23b24c86b1016b581fe1447f6accb0c593af9eb23ab7",
+      "byte_length": 61805,
+      "width": 503,
+      "height": 624,
+      "matches_registered_bytes": true
+    }
+  ],
+  "visual_observations": {
+    "method": "原画像3222×4000と表示画像503×624を取得して画像ツールで両方表示。原画像のツール表示は1408×1747。",
+    "observed": "左の白い服の少女、開いた本、寝台の二人、壁の大きな影が本文と対応。熊に似るという読みは館に帰属する。",
+    "presentation_issue": "現在の原画像・表示画像は撮影用の色票、額外の支持具等も含む。作品同定の不一致ではない。公開表示を整える段階で公式の別画像または非生成のトリミングの採否を検討する。現行画像は変更しない。"
+  },
+  "curation_review": {
+    "meaning_basis": "author_intentは未確認、館の読解はscholarly_interpretationで区別。制作背景と解釈は同文でない。",
+    "emotions": "不安2は影と聞き手の表情に結び付く。好奇心1は物語に聞き入る姿に基づく弱い連想として維持できる。観客本人の心理や作者の意図は断定しない。",
+    "fitting_situations": "旧版の「怖い結末」は原資料より断定的。「ガイは自分の子どもたちに…を読む場面」も読み手が曖昧。修正案で両方を解消する。",
+    "selection_cautions": "物語上の恐怖を現実の危険と同一視しない注意を維持。",
+    "visitor_text": "既存本文と英語原資料を別工程で直接比較し、今回の範囲で追加改稿を要する不整合・逐語翻訳は見つからない。方法と限界はseparate_pass_review参照。"
+  },
+  "program_checks": {
+    "id": "met-20129",
+    "proposal_sha256": "f43e7d05bdf47773f3b789a496e132eb79f9c199eb9d292fdd65cf799ee2540e",
+    "proposed_artwork_sha256": "2af2f312d2689f09a0300f8eefdf114388ff69033cc7894e1d0278be1fbd8230",
+    "result": "PASS",
+    "checks": [
+      "baseline_artwork_sha256",
+      "visitor_draft_sha256",
+      "before_value_matches",
+      "declared_after_hash",
+      "one_fitting_situation_only",
+      "other_299_records_unchanged",
+      "id_order_unchanged",
+      "existing_validator_on_temporary_proposed_catalog",
+      "production_data_and_all_visitor_drafts_unchanged"
+    ],
+    "independent_ai_audit_included": false,
+    "draft_structure_count": 160,
+    "catalog_snapshot": "PASS",
+    "saved_editorial_checkpoint": "unchanged; 57 rewrites + 43 supplementary checks, 103 events",
+    "scope": "一時コピーに修正案を適用して既存300作品検証器で検査。本番dataと全鑑賞者向け下書きは変更しない。"
+  },
+  "remaining": [
+    "撮影用周辺部分は、公開表示を整える段階で扱いを決める。",
+    "本番反映禁止のため修正案はDraft内に保存。正式DB保存を伴う作品完成には数えない。"
+  ],
+  "next_action": "同じAIによる別工程の根拠照合を記録。次の未点検対象met-35968へ進める。別担当への委任許可を待たない。",
+  "promotion": {
+    "eligible": false,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "baseline_result": "REVISE",
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_as_creator",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "修正案を変更せずに、Met作品ページ、Diniの関連解説、利用条件を再open。対象画像を再表示し、既存データ・本文・修正後の選定理由を項目ごとに照合した。",
+    "limitations": "同じAI・同じ会話文脈なので、別の担当者や別コンテキストによる独立性は主張しない。AIの類似比較は法的な許諾や非侵害保証ではない。",
+    "user_direction": "ユーザーが私自身による実施を認めた。「別AI必須・委任承認待ち」はこちらの過剰な解釈として撤回。",
+    "reviewed_proposed_artwork_sha256": "2af2f312d2689f09a0300f8eefdf114388ff69033cc7894e1d0278be1fbd8230",
+    "reviewed_visitor_draft_sha256": "92d0cdf12dd6fbff50157be56d5fd828f4031a1e4ad0babea62f4bed8bbcd90d",
+    "reviewed_proposal_sha256": "f43e7d05bdf47773f3b789a496e132eb79f9c199eb9d292fdd65cf799ee2540e",
+    "checks": [
+      {
+        "area": "identity_and_facts",
+        "source_url": "https://www.metmuseum.org/art/collection/search/20129",
+        "location": "作品名・作者・年代とArtwork Details、所蔵番号2013.604",
+        "finding": "ID、帰属、概年を再照合。別作品や別版を混同する記述は見つからない。"
+      },
+      {
+        "area": "visual_match",
+        "source_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP219245.jpg",
+        "location": "画面左の読み手、寝台の二人、本、壁の影",
+        "finding": "保存画像のSHAを再計算し登録値と一致。画像を再表示して本文の場面と比較。色票など周辺の写り込みは既知の表示品質課題で、別作品の画像ではない。"
+      },
+      {
+        "area": "interpretation_and_selection",
+        "source_url": "https://www.metmuseum.org/art/collection/search/20129",
+        "location": "冒頭2段落",
+        "finding": "修正後の山場という表現と読み手の明示は資料に沿う。作者の直接証言と館の読解を区別し、作者自身や鑑賞者の感情を確定しない。"
+      },
+      {
+        "area": "tags",
+        "source_url": "https://www.metmuseum.org/perspectives/a-story-within-a-story",
+        "location": "本作の解説段落（今回の取得では34–41行）",
+        "finding": "不安2・好奇心1は画面と読み聞かせの記述に反しない。弱い連想を作者の確定した意図とは扱わない。注意事項も維持できる。"
+      },
+      {
+        "area": "visitor_text_and_similarity",
+        "source_url": "https://www.metmuseum.org/art/collection/search/20129",
+        "location": "英語冒頭2段落と日本語本文2段落を直接比較",
+        "finding": "日本語は画面の配置から入り、館の解釈に帰属させて要約する。原文の作者評価・教訓の叙述を全て訳出せず、文単位の逐語訳や長い原文転載は見つからない。論旨が同じなのは共通する資料解釈による。今回比較した範囲で追加改稿を必要とする表現の流用は見つからない。"
+      },
+      {
+        "area": "source_scope_and_terms",
+        "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+        "location": "条項1・3",
+        "finding": "作品画像のPD/OA表示と文章の利用条件を分離して確認。独自の短い日本語解説として評価し、文章にCC0があるとは扱わない。掲載されていない許諾を得たとは記録しない。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-38056",
+  "checked_on": "2026-10-29",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "8a89b15e9d38235a531e54a876e721a01136f6ff",
+    "artwork_record_sha256": "3241eaed95894235ba41e79692e15c3b741badefe87567b648b8221fb1dbef09",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-38056.json",
+    "draft_sha256": "f2328984be705a878d9c9e8e9e6eaf7ec87163b29063ae6231d3d4e12a96456d"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/38056",
+      "access": "page_read_twice",
+      "locations": [
+        "冒頭解説2段落",
+        "Artwork Details、1996.378"
+      ],
+      "observed": "ca.1640、ビーカーネール、紙に墨・不透明水彩・金。詩の幸福、施主の参加、ムガル様式との関係を説明。後世の詩は制作時の自筆賛ではない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-38056",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP153173.jpg",
+      "status": 200,
+      "sha256": "1f3fd2e69670543b5e1ec77fec7a35a7b30670fa97d18f202f06070dce218106",
+      "byte_length": 2477316,
+      "width": 2771,
+      "height": 3994,
+      "matches_registered_bytes": true
+    },
+    {
+      "id": "met-38056",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP153173.jpg",
+      "status": 200,
+      "sha256": "97f0b83af47d371e6ae0d251e900e245602e8d511e6806eba407f7309b99055f",
+      "byte_length": 88503,
+      "width": 433,
+      "height": 624,
+      "matches_registered_bytes": true
+    }
+  ],
+  "visual_observations": {
+    "method": "原画像と表示画像を別々に表示、双方の登録SHA一致を確認。",
+    "observed": "男性の伸ばした手と、向かい合う楽器を持つ人物たちを確認。金銭授受の意味と注文主の同定は館の説明に帰属させる。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_as_creator",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "制作・修正案の保存後に公式ページの該当箇所を読み直し、画像を再表示し、対象版の事実・解釈・選定用情報・タグ・文章類似を直接照合した。",
+    "limitations": "同じAI・同じ会話文脈での別工程。別担当や別コンテキストによる独立性を主張せず、AIの文章比較は法的許諾・非侵害保証としない。",
+    "reviewed_artwork_sha256": "a80391d032125feee10ae7ef17677f71f7b692ebddcb7db19b20688ea2591c0d",
+    "reviewed_visitor_draft_sha256": "f2328984be705a878d9c9e8e9e6eaf7ec87163b29063ae6231d3d4e12a96456d",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "所蔵番号1996.378、概年、地域、素材を確認。個人名のない作者を推測で特定しない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "修正案は制作背景を年代・素材・工房文化へ分け、詩の解釈の反復を解消。演奏中という断定を避け、身振りと解釈を区別する。"
+      },
+      {
+        "area": "emotion",
+        "finding": "喜び3は館が説明する関連詩の情感に強い根拠がある。作者本人や現代の鑑賞者が幸福だったという主張にはしない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "本文は支払いの場面から制作文化へ進む短い要約。後世の英訳詩は引用せず、原文の比喩的表現を引き写さない。既存本文に追加改稿を要する不整合は見つからない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "a80391d032125feee10ae7ef17677f71f7b692ebddcb7db19b20688ea2591c0d",
+    "visitor_draft_sha256": "f2328984be705a878d9c9e8e9e6eaf7ec87163b29063ae6231d3d4e12a96456d",
+    "proposal_sha256": "94e4cc8e4093e3f0cda40c4779bbf9ae12673624e06c55615113bd29df320605",
+    "checks": [
+      "input_version_and_before_values",
+      "candidate_hash",
+      "existing_structure_validator_on_temporary_catalog",
+      "other_299_records_unchanged",
+      "id_order_unchanged",
+      "production_data_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false
+  },
+  "notes": [
+    "鑑賞本文は維持。選定理由・制作背景・視覚的根拠の3項目だけを修正案に保存。"
+  ],
+  "remaining": [
+    "本番反映禁止のためDraft内に保存。正式DBへの保存を伴う作品完成には数えない。"
+  ],
+  "promotion": {
+    "eligible": false,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-38056.json",
+    "sha256": "94e4cc8e4093e3f0cda40c4779bbf9ae12673624e06c55615113bd29df320605",
+    "proposed_artwork_sha256": "a80391d032125feee10ae7ef17677f71f7b692ebddcb7db19b20688ea2591c0d",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "条項1",
+      "条項3 a/b"
+    ],
+    "checked_on": "2026-10-29",
+    "finding": "各作品ページのPublic Domain画像と文章の条件を区別。本文にCC0許諾があるとは扱わず、原文・現代語訳の長文転載はしない。"
+  }
+}

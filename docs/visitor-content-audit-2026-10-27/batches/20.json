@@ -1,0 +1,90 @@
+{
+  "batch": 20,
+  "review_date": "2026-10-27",
+  "baseline_commit": "11bca52aca4693be869b8f5f9f98f2b50c1c87e4",
+  "scope": "本文と出典文章の照合。執筆者による再点検で第三者監査ではない。",
+  "image_review": "not_completed; official image download attempt returned HTTP403",
+  "rights_review": "pending",
+  "items": [
+    {
+      "id": "met-816519",
+      "verdict": "no_text_issue_found",
+      "support_summary": "器の脚部の自画像的反射、果実の斑点、蜂と腐熟、時間の経過という館の読解を照合。小型の36cm板絵、1617年頃とも一致。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/816519",
+          "location": "解説L11、年代・寸法欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "a89de2ccedc5b5835f861a670808abc9c02f4e13778b65297efb8a05a86ff6c2"
+    },
+    {
+      "id": "met-823663",
+      "verdict": "no_text_issue_found",
+      "support_summary": "平家物語の維盛と妻の別れ、中央二人の姿勢と余白、従者の誇張された顔との対比、1640年頃の年代は館の説明に対応。物語と実見記録を混同しない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/823663",
+          "location": "解説L10–11、年代欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [
+        {
+          "passage": "維盛の実際の別れを目撃した記録ではありません。",
+          "suggestion": "制作年代と物語に基づくことは前文で伝わるため、結語の留保を省いてもよい。"
+        }
+      ],
+      "draft_sha256": "792918c99b7e120c2cfa587084804258491066529027a13717520d75c4574ec5"
+    },
+    {
+      "id": "met-829407",
+      "verdict": "no_text_issue_found",
+      "support_summary": "伯牙・鍾子期、太湖石・琴・炉・煎茶・石卓の茶碗、江戸の中国趣味との関連を照合。作者の漢字は公式和題『大倉笠山』で確認。館英語の共著という疑わしい説明や細かい古代年代は採用していない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/829407",
+          "location": "解説L10–11、日本語題L41、年代欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "8b8cf62cd217c0af33da69e3da55bf3d5858e9f13de11fbc3e7d21213fa7b4f5"
+    },
+    {
+      "id": "met-853216",
+      "verdict": "no_text_issue_found",
+      "support_summary": "1823年の舟上の出会い、無署名画を竹田作とする推定、山陽の二度の書と竹田の五行、五年前の岡城訪問は館の説明に対応。賛文原文は館の解読を介すと明記。淀川の位置に関する館の疑わしい地理説明は本文に含めていない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/853216",
+          "location": "解説L12–13、年代欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "5962023d9cca260baad3f7ec19796e47d2eef28ae90c5e2cd3ee393e8592be43"
+    },
+    {
+      "id": "met-888924",
+      "verdict": "no_text_issue_found",
+      "support_summary": "弟子という署名と師の模写、アマチュアの当時の階級的意味、非出品・非売却、芸術家との交友、1780年の年代を確認。技量不足という現代的な意味を当てはめていない。",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/888924",
+          "location": "解説L10–11、年代欄",
+          "result": "read"
+        }
+      ],
+      "findings": [],
+      "recommendations": [],
+      "draft_sha256": "79e11264d4909cb643d90de8e8d9344526064d02d1827d1e489f4085ef49c88d"
+    }
+  ]
+}

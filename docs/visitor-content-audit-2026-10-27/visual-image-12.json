@@ -1,0 +1,199 @@
+{
+  "batch": 12,
+  "review_date": "2026-10-28",
+  "baseline_commit": "f23df7c3d0e9342c00a13ccce10ccc6fa01d5b20",
+  "reviewer": "Codex image inspection; AIによる画像照合。人間・独立した第三者による監査ではない。",
+  "scope": "公式画像を取得し、構図・人物・物の配置と現在の下書きの可視的記述を照合。史実、人物の同定、作者意図、文字の厳密な翻刻、解説文の権利を画像から認定しない。",
+  "items": [
+    {
+      "id": "met-437329",
+      "batch": 12,
+      "draft_file_sha256": "132652bc286a2958948098cf1dc38d861e087e82b31723352ffdc72f331094b4",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-29324-001.jpg",
+          "expected_sha256": "8570199520ff50999bdfc2104393a7c896634d8b70fdd91e166eb315e64c5270",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "8570199520ff50999bdfc2104393a7c896634d8b70fdd91e166eb315e64c5270",
+          "byte_length": 122742,
+          "width": 599,
+          "height": 445,
+          "local_path": "/workspace/kaiga-visual/met-437329-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.398308+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-29324-001.jpg",
+          "expected_sha256": "acfb86fe97d1bc8fd27b60a9e401acac220a99c2b58fb9be7368f56a6900f243",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "acfb86fe97d1bc8fd27b60a9e401acac220a99c2b58fb9be7368f56a6900f243",
+          "byte_length": 3618033,
+          "width": 4000,
+          "height": 2973,
+          "local_path": "/workspace/kaiga-visual/met-437329-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.674108+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "左上の赤衣の人物が腕を広げ、下では多数の男女が組み合う。複数の人物群と色布による構成に対応。蝋人形の使用は制作資料に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437329",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-437394",
+      "batch": 12,
+      "draft_file_sha256": "2a5278aef73d75f76346de3b8b219590b0af5a0f62705eb6e28d98ce5fc87d2e",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-30758-001.jpg",
+          "expected_sha256": "06e64703d92fed63c6238d15ed32d582792397b238458bf1893530eb8d91e3f4",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "06e64703d92fed63c6238d15ed32d582792397b238458bf1893530eb8d91e3f4",
+          "byte_length": 73306,
+          "width": 592,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-437394-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.532690+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-30758-001.jpg",
+          "expected_sha256": "55dc9232dd6b412cea4964f19e98a56f6bd1fa7213e4e947834413cf65d8776a",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "55dc9232dd6b412cea4964f19e98a56f6bd1fa7213e4e947834413cf65d8776a",
+          "byte_length": 3486903,
+          "width": 3792,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-437394-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.828418+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "暗い室内の男性が胸像に右手を置き、金色の鎖を着けている。胸像と人物の配置に対応。メダルの肖像の人物同定は画像だけでは確定しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437394",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-437412",
+      "batch": 12,
+      "draft_file_sha256": "31139069518008efacfacb6d4b838e8ff2eb6a3bd49d4948943032bbd80d1408",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146474.jpg",
+          "expected_sha256": "6bb6533ea808648cb4aef0272f6ce7d176f62de475ef043c50acbc591cf6a7b2",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "6bb6533ea808648cb4aef0272f6ce7d176f62de475ef043c50acbc591cf6a7b2",
+          "byte_length": 54698,
+          "width": 507,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-437412-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.533015+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146474.jpg",
+          "expected_sha256": "55d9093f991bb23c34b2521da24a2843e06edaf7be8d12032253629d8675971d",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "55d9093f991bb23c34b2521da24a2843e06edaf7be8d12032253629d8675971d",
+          "byte_length": 2386431,
+          "width": 3131,
+          "height": 3856,
+          "local_path": "/workspace/kaiga-visual/met-437412-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.827105+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "座った高齢の女性が指先に小道具を当てる。傍らに布類が見える。爪を切る動作と整合。作者や寡婦という解釈は画像のみでは確定しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437412",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-437429",
+      "batch": 12,
+      "draft_file_sha256": "d2e80229d50495940870817e0ef41101d6a7bd897a4bdea1dd43aa931419ef31",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1140.jpg",
+          "expected_sha256": "3b270ba5d1678d0df19eda1fd2c040586d1910282a03de820a947cb5af00bbb7",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "3b270ba5d1678d0df19eda1fd2c040586d1910282a03de820a947cb5af00bbb7",
+          "byte_length": 116329,
+          "width": 599,
+          "height": 497,
+          "local_path": "/workspace/kaiga-visual/met-437429-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.707953+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1140.jpg",
+          "expected_sha256": "969596fc82615e5334abad426ff7f0efbdf4ede4d0ab97213e1a7511de14c6fd",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "969596fc82615e5334abad426ff7f0efbdf4ede4d0ab97213e1a7511de14c6fd",
+          "byte_length": 3180167,
+          "width": 3803,
+          "height": 3153,
+          "local_path": "/workspace/kaiga-visual/met-437429-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.878794+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "青白い陶器の器に桃を高く盛り、白布にも果実を置いている。桃と器の説明に対応。別作との制作関係や批評の内容は資料に依存。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437429",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-437438",
+      "batch": 12,
+      "draft_file_sha256": "b669cc50d0b4cf2b50d32418c67ff699c52c0a0d69317ba422556af3dca71a60",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-33709-001.jpg",
+          "expected_sha256": "5749f0db81ef337d715fc6e4fa19b0c98502aaa5f3304d5e3c384fdc813053f8",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "5749f0db81ef337d715fc6e4fa19b0c98502aaa5f3304d5e3c384fdc813053f8",
+          "byte_length": 100035,
+          "width": 500,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-437438-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:37.747767+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-33709-001.jpg",
+          "expected_sha256": "fb4fea68024aaa07760184288520faeef9b200bd9ee144d29e84cd37c05dd3da",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "fb4fea68024aaa07760184288520faeef9b200bd9ee144d29e84cd37c05dd3da",
+          "byte_length": 4281550,
+          "width": 3206,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-437438-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:38.197580+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "若い女性が黒い大きな帽子をかぶり、帽子にピンクの飾りがある。本文の主題に対応。流行や画商の助言は画像から確認しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437438",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    }
+  ]
+}

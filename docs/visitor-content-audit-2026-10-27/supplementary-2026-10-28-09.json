@@ -1,0 +1,67 @@
+{
+  "batch": 9,
+  "date": "2026-10-28",
+  "scope": "43件の補助出典・音声書き起こし・利用条件の追加点検。記載箇所のAIによる確認であり、全資料の網羅的監査・許諾取得・公開承認ではない。",
+  "common_terms_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+  "common_terms_note": "2026-10-28に条項1・3を閲覧。文章と音声も対象。個別の画像のPublic Domain表示から解説文へのCC0適用は導かない。",
+  "items": [
+    {
+      "id": "met-438817",
+      "draft_file_sha256": "1d2771443e258ae7a9d565d58cffd17ee4bcbbb46a5083aa3a170522362024fe",
+      "primary_source_url": "https://www.metmuseum.org/art/collection/search/438817",
+      "primary_check_scope": "既存のMet冒頭抜粋と現行下書きを再比較。追加の閲覧箇所は個別記録。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/438817"
+      ],
+      "checked_locations": [
+        "Met Audio 6005公開書き起こし92–96行"
+      ],
+      "finding": "前景人物の変更と中央踊り手の移動、曲線状の構成を確認。音声の五線譜の比喩は本文に移していない。",
+      "remaining": "技術調査原報告・外部資料は未閲覧。書き起こしに基づく構成説明の表現確認が残る。",
+      "rights_status": "pending",
+      "independent_human_review": false
+    },
+    {
+      "id": "met-441352",
+      "draft_file_sha256": "6262322f11fc0891c471da324bd13e71ad56693701763563a01d259bbc855eb7",
+      "primary_source_url": "https://www.metmuseum.org/art/collection/search/441352",
+      "primary_check_scope": "既存のMet冒頭抜粋と現行下書きを再比較。追加の閲覧箇所は個別記録。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/441352",
+        "https://fr.wikisource.org/wiki/Les_Orientales/La_Douleur_du_pacha"
+      ],
+      "checked_locations": [
+        "Met作品ページを再閲覧、27行",
+        "Wikisource、1912年Ollendorf版転記の末尾172–186行とライセンス表示198行"
+      ],
+      "finding": "災厄の列挙と虎の死の結末を原語の転記で確認。詩との関連はMetも推定。Wikisourceの転記は追加校閲待ち表示で、底本画像の独立照合は未実施。",
+      "terms_urls": [
+        "https://fr.wikisource.org/wiki/Les_Orientales/La_Douleur_du_pacha"
+      ],
+      "remaining": "原詩・現代のサイト編集・Met解説の権利を区別する。サイトはCC BY-SA表示と追加条件を案内しているが、その表示だけで現行日本語解説を承認しない。",
+      "rights_status": "pending",
+      "independent_human_review": false
+    },
+    {
+      "id": "met-74846",
+      "draft_file_sha256": "569f21987b301d4005c870b31b1a2753b76a094757fdabfd01d08e6e0df49403",
+      "primary_source_url": "https://www.metmuseum.org/art/collection/search/74846",
+      "primary_check_scope": "既存のMet冒頭抜粋と現行下書きを再比較。追加の閲覧箇所は個別記録。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/74846",
+        "https://collections.lacma.org/object/29757"
+      ],
+      "checked_locations": [
+        "LACMA 29757、Curatorial Notes冒頭108行と比較作品リスト136行",
+        "LACMA Terms of Use、条件1およびProtected Content"
+      ],
+      "finding": "ケーシャヴダースと1591年を確認。LACMAの別葉の制作年1625–50をMetの1610年頃へ移していない。共通文学作品の成立情報のみ参照。",
+      "terms_urls": [
+        "https://www.lacma.org/about/contact-us/terms-use"
+      ],
+      "remaining": "LACMAの画像の公開条件を解説文へ拡張しない。原語詩の独立解読、日本語要約・利用条件の最終確認が残る。",
+      "rights_status": "pending",
+      "independent_human_review": false
+    }
+  ]
+}

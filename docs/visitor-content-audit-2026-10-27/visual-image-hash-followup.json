@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-28",
+  "scope": "保存済みハッシュ不一致7ファイルについて今回取得した表示用・原画像を並べて視覚比較",
+  "mismatched_files": [
+    {
+      "id": "met-37851",
+      "asset": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP156174.jpg",
+      "expected_sha256": "0551b90f119888039730660919bba89b2552fb42fe9cf57db552c605453ccb0a",
+      "downloaded_sha256": "21c434d2ec29324aaa88490eb069c5f00ef57184a34243537f8d77a707d582cf",
+      "paired_image_visual_comparison": "表示用画像と原画像の縮小比較で主要な構図・被写体は一致。バイト列や以前の保存画像との同一性を証明しない。"
+    },
+    {
+      "id": "met-436808",
+      "asset": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP169403.jpg",
+      "expected_sha256": "557f02524244ef10df5c837a388f8177ce66cb89ec882683b2dda472ca6cf2bb",
+      "downloaded_sha256": "14784a7fa490e5cf929576ccdf00575bf7875379010ed05fb6dd7abf535ae457",
+      "paired_image_visual_comparison": "表示用画像と原画像の縮小比較で主要な構図・被写体は一致。バイト列や以前の保存画像との同一性を証明しない。"
+    },
+    {
+      "id": "met-45524",
+      "asset": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP276191.jpg",
+      "expected_sha256": "a81f04f3fa9c787632ec64286e042586e5dab83627bc4e4c5d32d8711402ca9b",
+      "downloaded_sha256": "e780737c326e7caad78ad686dde5e1d6d28b35213aab780e437782ef8b9fda76",
+      "paired_image_visual_comparison": "表示用画像と原画像の縮小比較で主要な構図・被写体は一致。バイト列や以前の保存画像との同一性を証明しない。"
+    },
+    {
+      "id": "met-74448",
+      "asset": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP161547.jpg",
+      "expected_sha256": "e1127783eef103f3f6306ec206ee82e0bfaf2c371c362a77e3dbfb5c385bd80d",
+      "downloaded_sha256": "fe77104577a21bb05d4eadd3c0f33148f2ceed951a8ed88e9275cb845be5db36",
+      "paired_image_visual_comparison": "表示用画像と原画像の縮小比較で主要な構図・被写体は一致。バイト列や以前の保存画像との同一性を証明しない。"
+    },
+    {
+      "id": "met-74846",
+      "asset": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP153226.JPG",
+      "expected_sha256": "20d126471e858cb741761d620b481e93c38a4efd3f1461643209c421ea128df2",
+      "downloaded_sha256": "cb2c9ef56327a06340e6bb3044c148181bbb8948623b044cd196a07d8bd1fb31",
+      "paired_image_visual_comparison": "表示用画像と原画像の縮小比較で主要な構図・被写体は一致。バイト列や以前の保存画像との同一性を証明しない。"
+    },
+    {
+      "id": "met-77204",
+      "asset": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP333860.jpg",
+      "expected_sha256": "40fbda6f1c83cb5eaa49194907b2bae436f39925bfb7847d23affc10ee3d9fed",
+      "downloaded_sha256": "363e8f973a9580ed0ba90b41ccfbf4a4642dc5bca7d8aea6cf4582938b59ec49",
+      "paired_image_visual_comparison": "表示用画像と原画像の縮小比較で主要な構図・被写体は一致。バイト列や以前の保存画像との同一性を証明しない。"
+    },
+    {
+      "id": "met-823663",
+      "asset": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-19667-002.jpg",
+      "expected_sha256": "7c7edd61c5ccebe054a051a70a9a131b688a06b9da328f9755388b7ac74c8c8e",
+      "downloaded_sha256": "ddd83bc68a4c5f3f6b30ee37e520e6ff600607f8d1c8a340c4051fecb529237c",
+      "paired_image_visual_comparison": "表示用画像と原画像の縮小比較で主要な構図・被写体は一致。バイト列や以前の保存画像との同一性を証明しない。"
+    }
+  ],
+  "without_original_baseline": [
+    {
+      "id": "met-74996",
+      "note": "原画像の記録済みSHA-256なし。表示画像URLからoriginalを導いたURLで取得し、ファイルハッシュを記録。公式APIからの新たなURL同定は行っていない。"
+    }
+  ],
+  "limitation": "画面の見比べは旧バイト列との同一性や原因を証明しない。DBのハッシュは変更していない。"
+}

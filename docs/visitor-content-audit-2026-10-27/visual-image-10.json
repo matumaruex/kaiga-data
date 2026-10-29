@@ -1,0 +1,199 @@
+{
+  "batch": 10,
+  "review_date": "2026-10-27",
+  "baseline_commit": "f23df7c3d0e9342c00a13ccce10ccc6fa01d5b20",
+  "reviewer": "Codex image inspection; AIによる画像照合。人間・独立した第三者による監査ではない。",
+  "scope": "公式画像を取得し、構図・人物・物の配置と現在の下書きの可視的記述を照合。史実、人物の同定、作者意図、文字の厳密な翻刻、解説文の権利を画像から認定しない。",
+  "items": [
+    {
+      "id": "met-436808",
+      "batch": 10,
+      "draft_file_sha256": "0cebc558b19e15b8f1d0dfb850802377e3b79bf3c8049f1c98a0859a2fdbd5a0",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169403.jpg",
+          "expected_sha256": "3fcea46f39391ea953693ce0f10489f703cc44c8a8f86e6be85458062e3153cc",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "3fcea46f39391ea953693ce0f10489f703cc44c8a8f86e6be85458062e3153cc",
+          "byte_length": 80400,
+          "width": 502,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-436808-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:36.018750+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP169403.jpg",
+          "expected_sha256": "557f02524244ef10df5c837a388f8177ce66cb89ec882683b2dda472ca6cf2bb",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "14784a7fa490e5cf929576ccdf00575bf7875379010ed05fb6dd7abf535ae457",
+          "byte_length": 2323423,
+          "width": 3059,
+          "height": 3802,
+          "local_path": "/workspace/kaiga-visual/met-436808-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:36.551013+00:00",
+          "matches_database_sha256": false
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "柱・壁画のある室内に夫妻と幼児、足元に犬。夫人の青い古典風衣装と男性の赤い歴史風衣装を確認。家族の関係や後の離別は画像では検証しない。取得原画像の保存済みハッシュとの相違は別途記録。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436808",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-436838",
+      "batch": 10,
+      "draft_file_sha256": "3d063868607fc3a9d1d8e24d9cbf6278231ebb61edd5ec1740b8783b15f18880",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-015.jpg",
+          "expected_sha256": "94eece912b3e590f9a02087492fdea3b7d6c0449b7f529685b8c463dbfa8b7ae",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "94eece912b3e590f9a02087492fdea3b7d6c0449b7f529685b8c463dbfa8b7ae",
+          "byte_length": 138625,
+          "width": 600,
+          "height": 496,
+          "local_path": "/workspace/kaiga-visual/met-436838-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:36.125122+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-015.jpg",
+          "expected_sha256": "6249f1e1d8d17a25aec80e2004eb5b33e3d7edf1e336de9b0a242f4e61278d70",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "6249f1e1d8d17a25aec80e2004eb5b33e3d7edf1e336de9b0a242f4e61278d70",
+          "byte_length": 4331741,
+          "width": 3970,
+          "height": 3283,
+          "local_path": "/workspace/kaiga-visual/met-436838-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:36.457271+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "中央の若者と周囲の四人。右の年長女性が硬貨状の物を差し出し、左右の別の手が若者の袋・鎖に近づく。複数の行為が同時進行する配置に対応。金銭授受の方向や民族は画像単独では確定しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436838",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-436839",
+      "batch": 10,
+      "draft_file_sha256": "46a87a3630ffbd02fe345bd499bcf656f9250c645f066d145d37c7d2cc68392e",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-27910-001.jpg",
+          "expected_sha256": "ffe6f83849174c52dc450d604d8cca1e40108f7d556f081d28c26228ffc7761f",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "ffe6f83849174c52dc450d604d8cca1e40108f7d556f081d28c26228ffc7761f",
+          "byte_length": 79155,
+          "width": 460,
+          "height": 624,
+          "local_path": "/workspace/kaiga-visual/met-436839-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:36.162421+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-27910-001.jpg",
+          "expected_sha256": "408b6ed786d8a1bb24a9f407c0a0fa8bf6f4211c2d30dd0f4d14b9bea9047d18",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "408b6ed786d8a1bb24a9f407c0a0fa8bf6f4211c2d30dd0f4d14b9bea9047d18",
+          "byte_length": 3255733,
+          "width": 2947,
+          "height": 4000,
+          "local_path": "/workspace/kaiga-visual/met-436839-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:36.497324+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "横向きに座る女性、膝上の頭蓋骨、卓上のろうそくと鏡に映った炎を確認。強い明暗と簡潔な構成に対応。各物の宗教的象徴は解釈として区別。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436839",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-436947",
+      "batch": 10,
+      "draft_file_sha256": "b05a2c1e8ff24fad957fc8787532377c0950ea2a1d7dd198126e0049b9c93379",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25466-001.jpg",
+          "expected_sha256": "eb3ef8e65748596a08b28ae89c4ef778c38293c0e9b27d6ba72193129c067dd5",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "eb3ef8e65748596a08b28ae89c4ef778c38293c0e9b27d6ba72193129c067dd5",
+          "byte_length": 124959,
+          "width": 599,
+          "height": 457,
+          "local_path": "/workspace/kaiga-visual/met-436947-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:36.535925+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-25466-001.jpg",
+          "expected_sha256": "3d9bc5daa64d9e6bd183cc076b4365cd361a150c3e43abfcfbbbfe17907b6dd1",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "3d9bc5daa64d9e6bd183cc076b4365cd361a150c3e43abfcfbbbfe17907b6dd1",
+          "byte_length": 5619793,
+          "width": 4000,
+          "height": 3052,
+          "local_path": "/workspace/kaiga-visual/met-436947-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:36.973087+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "白い服の男性、青緑の水、手前の女性、右端で切れた帆と斜めの舟を確認。本文の構図と色の描写に対応。モデル名・日本版画との関連は画像だけでは認定しない。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436947",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    },
+    {
+      "id": "met-436952",
+      "batch": 10,
+      "draft_file_sha256": "b85f2ecefd6e417420cf70b3cc6defcbba846f3b99750ff4a6e41d9647b6dfc1",
+      "assets": {
+        "display": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1931.jpg",
+          "expected_sha256": "db61325282a57cf16b74e95ab01d6ceeb1c687a48e463926d540d392071c5842",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "db61325282a57cf16b74e95ab01d6ceeb1c687a48e463926d540d392071c5842",
+          "byte_length": 96094,
+          "width": 600,
+          "height": 484,
+          "local_path": "/workspace/kaiga-visual/met-436952-display.jpg",
+          "downloaded_at": "2026-10-27T10:55:36.557185+00:00",
+          "matches_database_sha256": true
+        },
+        "original": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1931.jpg",
+          "expected_sha256": "9e3b58d785c9f8f5f196bfb6d04b92aea844b3798bd3a30c52d2bb7ccc11f919",
+          "http_status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "9e3b58d785c9f8f5f196bfb6d04b92aea844b3798bd3a30c52d2bb7ccc11f919",
+          "byte_length": 3079880,
+          "width": 3809,
+          "height": 3074,
+          "local_path": "/workspace/kaiga-visual/met-436952-original.jpg",
+          "downloaded_at": "2026-10-27T10:55:36.907144+00:00",
+          "matches_database_sha256": true
+        }
+      },
+      "verdict": "no_visual_issue_found",
+      "observations": "下部に小さな葬列と馬車、上部の街並みに複数の塔とドーム。粗い筆致を残す景観という説明と整合。ボードレールの葬儀という同定は本文どおり未確定の資料上の判断。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436952",
+      "visual_inspected": true,
+      "draft_text_rights": "pending"
+    }
+  ]
+}

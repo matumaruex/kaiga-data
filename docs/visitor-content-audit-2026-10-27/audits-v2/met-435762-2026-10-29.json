@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435762",
+  "checked_on": "2026-10-29",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "7f8a78cb415c9c2cf69c98de572b9382849d78c6",
+    "artwork_record_sha256": "7712035d3a1959d48754fc5fea940f3c2068f6eabef564ed7ce6fe3f2c6d4949",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435762.json",
+    "draft_sha256": "2795b79c4154ee5eee179a8c05e094c459e5a6b469bae96446f95601af5d6f17"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435762",
+      "access": "page_read_twice",
+      "locations": [
+        "冒頭解説",
+        "Artwork Details / 30.95.280"
+      ],
+      "observed": "1455〜60年頃、木板油彩、21.6×16.5cm。館の私的祈念との関連づけを確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435762",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-20589-001.jpg",
+      "status": 200,
+      "sha256": "d382be06bcd489a5b50699dac0836f03f16d483ccc740111e404663432f926b5",
+      "byte_length": 4778981,
+      "width": 3025,
+      "height": 4000,
+      "matches_registered_bytes": true
+    },
+    {
+      "id": "met-435762",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20589-001.jpg",
+      "status": 200,
+      "sha256": "6bc134ad6ab255b5f19b74816989d5b5402f08e70e300ae79f4b6ee8bc528899",
+      "byte_length": 135897,
+      "width": 472,
+      "height": 624,
+      "matches_registered_bytes": true
+    }
+  ],
+  "visual_observations": {
+    "method": "原画像・表示画像を表示。別工程で画像を再表示し、出典該当箇所を再閲覧。",
+    "observed": "頬の接触、胸元の手、幼子を支える両手を確認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_as_creator",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "修正案保存後に原資料を開き直し、画像を再表示して対象版と直接照合。",
+    "limitations": "同じAI・同じ文脈による別工程。別担当の独立性や法的許諾・非侵害保証は主張しない。",
+    "reviewed_artwork_sha256": "8cca55a1fad8f25ef7eb1c8de9ad77c6291152bf57b9ec61049a9f06a7f77ad7",
+    "reviewed_visitor_draft_sha256": "2795b79c4154ee5eee179a8c05e094c459e5a6b469bae96446f95601af5d6f17",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "30.95.280とバウツの帰属・概年・寸法が一致。同題工房作と区別。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "制作背景を解釈と分離。幼子の顔の位置を訂正した案が画像と一致。"
+      },
+      {
+        "area": "emotion",
+        "finding": "慈しみ2は身体の接触と館の読解に対応。作者本人の心理や観者の反応には拡張しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "本文は画面観察から図像と私的祈りへ進む。館のイコン全般への評価や修辞をコピーせず、原型の特定もしない。維持可能。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "8cca55a1fad8f25ef7eb1c8de9ad77c6291152bf57b9ec61049a9f06a7f77ad7",
+    "visitor_draft_sha256": "2795b79c4154ee5eee179a8c05e094c459e5a6b469bae96446f95601af5d6f17",
+    "proposal_sha256": "38124e11cf37d3b104d3aa1570db617a0a612f2332061416d3cb7d32f46869db",
+    "checks": [
+      "input_version_and_before_values",
+      "candidate_hash",
+      "existing_structure_validator_on_temporary_catalog",
+      "other_299_records_unchanged",
+      "id_order_unchanged",
+      "production_data_unchanged",
+      "image_hashes"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435762.json",
+    "sha256": "38124e11cf37d3b104d3aa1570db617a0a612f2332061416d3cb7d32f46869db",
+    "proposed_artwork_sha256": "8cca55a1fad8f25ef7eb1c8de9ad77c6291152bf57b9ec61049a9f06a7f77ad7",
+    "applied_to_catalog": false
+  },
+  "notes": [
+    "本文は維持。原画像・表示画像に木板の縁を含む。"
+  ],
+  "remaining": [
+    "本番反映禁止のためDraft内のみ保存。正式DBへの保存を伴う作品完成には数えない。"
+  ],
+  "promotion": {
+    "eligible": false,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "条項1",
+      "条項3 a/b"
+    ],
+    "checked_on": "2026-10-29",
+    "finding": "各ページのPublic Domainは画像の表示として確認。文章までCC0と解釈しない。利用条件の点検とAI類似比較は公開許諾の取得ではない。"
+  }
+}
