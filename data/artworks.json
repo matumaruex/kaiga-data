@@ -20184,12 +20184,10 @@
       },
       "curation": {
         "emotions": [
-          "喜び",
-          "期待"
+          "喜び"
         ],
         "emotion_strengths": {
-          "喜び": 2,
-          "期待": 1
+          "喜び": 2
         },
         "tones": [
           "高揚",
@@ -20204,7 +20202,7 @@
           "fitting_situations": [
             {
               "situation": "嵐のなかで寄り添う男女の高揚や遊び心に触れたい",
-              "reason": "嵐から身を寄せ合って逃れる若い男女。文学的題材について当時から複数説。",
+              "reason": "布を共に掲げて走る二人と、相手へ向けられた男性の微笑みが、高揚や遊び心という鑑賞上の入口になる。文学的同定は複数説があり、二人の内面や物語の結末は確定しない。",
               "strength": 2
             }
           ],
@@ -20226,15 +20224,13 @@
           },
           "creation_context": "ピエール＝オーギュスト・コットが1880年に制作し、同年のパリ・サロンに出品した作品。収集家キャサリン・ロリラード・ウルフがいとこのジョン・ウルフの助言で注文し、後に広く複製された。",
           "visual_clues": "嵐の中で大きな布を頭上に広げ、寄り添い走る男女。",
-          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
+          "uncertainty_note": "原作の同定は1880年の批評家による複数説として扱う。掲げる布を特定小説の衣装と断定しない。作者本人の直接証言と二人の心理は未確認。"
         },
         "emotion_categories": {
           "primary": [
             "喜び"
           ],
-          "secondary": [
-            "期待"
-          ]
+          "secondary": []
         }
       },
       "review": {
@@ -20247,6 +20243,25 @@
         "ai_content_review_status": "pending",
         "source_evidence_review_status": "pending",
         "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "暗い空の下、二人が布を頭上に広げて進んでいます。1880年のサロンに出品されたとき、批評家たちは、この二人がどの物語の登場人物なのかを論じました。\n\n候補には、ベルナルダン・ド・サン＝ピエールの小説『ポールとヴィルジニー』と、古代の恋愛物語『ダフニスとクロエ』がありました。題名だけから一つに決めることはできません。ニューヨークの収集家キャサリン・ロリラード・ウルフが注文した本作は、画家の《春》と同じく人気を集め、複製を通じても広まりました。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/435997"
+        ],
+        "review": {
+          "content_status": "pending",
+          "source_status": "pending",
+          "rights_status": "pending",
+          "reviewed_on": "2026-10-28"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-435997-2026-10-30.json",
+        "audit_sha256": "12227c9fc1000bf9c93428d0f3f174cb20381636bc25f421b5f02411bd11eeff",
+        "record_sha256": "55b78f1ffa9633a537f557088d1193af82f2451c11e817219e91881ce4338804"
       }
     },
     {
