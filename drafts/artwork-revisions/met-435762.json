@@ -1,0 +1,40 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-435762",
+  "baseline_commit": "7f8a78cb415c9c2cf69c98de572b9382849d78c6",
+  "baseline_artwork_sha256": "7712035d3a1959d48754fc5fea940f3c2068f6eabef564ed7ce6fe3f2c6d4949",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "Metは古いビザンティン聖母子を人間らしく温かい親子として描き直したことを説明。個人の母性愛の体験ではない。",
+      "after": "1455〜60年頃の木板油彩。Metは、ネーデルラントで親しまれたビザンティン由来の聖母子図像に基づく小型作品と説明する。",
+      "reason": "解釈の反復を年代・素材・図像の伝承へ分ける。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435762"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "聖母の胸に顔を寄せる幼子、二人の姿勢と視線、金地を使わず写実的に描いた表面。",
+      "after": "幼子が聖母の顔に頬を寄せ、胸元へ手を伸ばす。母は両手で子を支える。背景は暗く、金地や光輪は見られない。",
+      "reason": "顔を寄せる位置を胸から顔へ訂正し、画像の観察に限定する。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435762"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-435762.json",
+  "visitor_draft_sha256": "2795b79c4154ee5eee179a8c05e094c459e5a6b469bae96446f95601af5d6f17",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "8cca55a1fad8f25ef7eb1c8de9ad77c6291152bf57b9ec61049a9f06a7f77ad7"
+}
