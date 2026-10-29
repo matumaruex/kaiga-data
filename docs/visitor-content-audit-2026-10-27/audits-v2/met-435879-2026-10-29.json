@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435879",
+  "checked_on": "2026-10-29",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "7f8a78cb415c9c2cf69c98de572b9382849d78c6",
+    "artwork_record_sha256": "e8963a7358bc38a6687a01192b61d25b368f5a106a34a474f9dca3c16a15da6f",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435879.json",
+    "draft_sha256": "e20135c6dd92a5d06b513357cb59f8985c8fb45753a6eb4ef36e4ede25699091"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435879",
+      "access": "page_read_twice",
+      "locations": [
+        "冒頭解説",
+        "Artwork Details / 61.101.5"
+      ],
+      "observed": "61.101.5、1885〜86年頃、カンヴァス油彩。敷地の道・水設備を説明する箇所を確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435879",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1492.jpg",
+      "status": 200,
+      "sha256": "5091bf674f0c9b4d9dea6bc43040a44bece3706dbae78d3e96639ee3cfbe1e27",
+      "byte_length": 3314114,
+      "width": 3809,
+      "height": 3058,
+      "matches_registered_bytes": true
+    },
+    {
+      "id": "met-435879",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1492.jpg",
+      "status": 200,
+      "sha256": "f632b40f095b3bed549e1b7c33f8610b7964ca6ecaaa74cdf4fbed956612d96f",
+      "byte_length": 134078,
+      "width": 599,
+      "height": 481,
+      "matches_registered_bytes": true
+    }
+  ],
+  "visual_observations": {
+    "method": "原画像・表示画像を表示。別工程で画像を再表示し、出典該当箇所を再閲覧。",
+    "observed": "前景の幹、横の柵・壁、右下の道が一致。ライオンの同定は館に帰属。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_as_creator",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "修正案保存後に原資料を開き直し、画像を再表示して対象版と直接照合。",
+    "limitations": "同じAI・同じ文脈による別工程。別担当の独立性や法的許諾・非侵害保証は主張しない。",
+    "reviewed_artwork_sha256": "5a3129f7a078c9c58dc07f461702d8ddb81897a1abdd550638db3e72d79bc4c6",
+    "reviewed_visitor_draft_sha256": "e20135c6dd92a5d06b513357cb59f8985c8fb45753a6eb4ef36e4ede25699091",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "作者・概年・所蔵番号・素材一致。同じ敷地を描く別作品の詳細は加えない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "愛着を作者の直接証言とせず、反復制作の事実と分離。反射の断定を外した修正案が画面と整合。"
+      },
+      {
+        "area": "emotion",
+        "finding": "感情タグ0を維持。身近な庭への関心を懐かしさや幸福と等置しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "本文は道と柵から位置関係を案内し、ライオンを館の説明に帰属。原文の愛着の評価を本文へ移さず、固有の事実を短く再構成しており維持。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "5a3129f7a078c9c58dc07f461702d8ddb81897a1abdd550638db3e72d79bc4c6",
+    "visitor_draft_sha256": "e20135c6dd92a5d06b513357cb59f8985c8fb45753a6eb4ef36e4ede25699091",
+    "proposal_sha256": "642bb32105824f7f35e893c9b35ba0b162ac383f33f4a85b2c80286b31c42781",
+    "checks": [
+      "input_version_and_before_values",
+      "candidate_hash",
+      "existing_structure_validator_on_temporary_catalog",
+      "other_299_records_unchanged",
+      "id_order_unchanged",
+      "production_data_unchanged",
+      "image_hashes"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435879.json",
+    "sha256": "642bb32105824f7f35e893c9b35ba0b162ac383f33f4a85b2c80286b31c42781",
+    "proposed_artwork_sha256": "5a3129f7a078c9c58dc07f461702d8ddb81897a1abdd550638db3e72d79bc4c6",
+    "applied_to_catalog": false
+  },
+  "notes": [
+    "本文・evidenceは維持。evidenceに残る画像独立照合未了は旧記録であり、今回の直接確認は本記録に保存。"
+  ],
+  "remaining": [
+    "本番反映禁止のためDraft内のみ保存。正式DBへの保存を伴う作品完成には数えない。"
+  ],
+  "promotion": {
+    "eligible": false,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "条項1",
+      "条項3 a/b"
+    ],
+    "checked_on": "2026-10-29",
+    "finding": "各ページのPublic Domainは画像の表示として確認。文章までCC0と解釈しない。利用条件の点検とAI類似比較は公開許諾の取得ではない。"
+  }
+}
