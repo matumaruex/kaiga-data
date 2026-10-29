@@ -1,0 +1,146 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-37851",
+  "checked_on": "2026-10-29",
+  "result": "PASS",
+  "result_applies_to": "current_artwork_and_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "8a89b15e9d38235a531e54a876e721a01136f6ff",
+    "artwork_record_sha256": "f64e57de18ae0a806671be08999729fc5215dd3d499ec082893bd8513a73f1f2",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-37851.json",
+    "draft_sha256": "57e0cd1d4c68f977ae85e472f67f271f4acec29109a6eacc47440912702dcf9c"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/37851",
+      "access": "page_read_twice",
+      "locations": [
+        "冒頭解説",
+        "Artwork Details、1981.464.1"
+      ],
+      "observed": "別葉のSamvat1662を西暦1605–06へ対応させる説明、地域・紙本画の情報を確認。詩の意味は館の紹介に基づく。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-37851",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP156174.jpg",
+      "status": 200,
+      "sha256": "21c434d2ec29324aaa88490eb069c5f00ef57184a34243537f8d77a707d582cf",
+      "byte_length": 2240586,
+      "width": 1501,
+      "height": 2000,
+      "matches_registered_bytes": false
+    },
+    {
+      "id": "met-37851",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156174.jpg",
+      "status": 200,
+      "sha256": "ae0b445128e6a6af87563d8dc06cb1ba752e9d57bebd2b8c1b773a9137923311",
+      "byte_length": 267277,
+      "width": 469,
+      "height": 625,
+      "matches_registered_bytes": true
+    },
+    {
+      "id": "met-37851",
+      "kind": "original_query_attempt",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP156174.jpg?audit=20261028",
+      "status": 200,
+      "sha256": "21c434d2ec29324aaa88490eb069c5f00ef57184a34243537f8d77a707d582cf",
+      "byte_length": 2240586,
+      "width": 1501,
+      "height": 2000,
+      "matches_registered_bytes": false,
+      "decoded_rgb_matches_default_delivery": true
+    },
+    {
+      "id": "met-37851",
+      "kind": "previously_recovered_original",
+      "acquired_on": "2026-10-28",
+      "evidence_record": "docs/visitor-content-audit-2026-10-27/visual-hash-final-attempt-2026-10-28.json",
+      "sha256": "0551b90f119888039730660919bba89b2552fb42fe9cf57db552c605453ccb0a",
+      "byte_length": 2244017,
+      "width": 1501,
+      "height": 2000,
+      "matches_registered_bytes": true,
+      "decoded_rgb_matches_current_delivery": true,
+      "fresh_download": false
+    }
+  ],
+  "visual_observations": {
+    "method": "原画像と表示画像を目視、保存済み旧ハッシュ一致画像とのRGB比較も実施。",
+    "observed": "右の寝台は空き、黄色の覆いと赤い壁面が見える。左の女性は払子を持つ。本文冒頭の色の誤記を除いて再確認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_as_creator",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "制作・修正案の保存後に公式ページの該当箇所を読み直し、画像を再表示し、対象版の事実・解釈・選定用情報・タグ・文章類似を直接照合した。",
+    "limitations": "同じAI・同じ会話文脈での別工程。別担当や別コンテキストによる独立性を主張せず、AIの文章比較は法的許諾・非侵害保証としない。",
+    "reviewed_artwork_sha256": "f64e57de18ae0a806671be08999729fc5215dd3d499ec082893bd8513a73f1f2",
+    "reviewed_visitor_draft_sha256": "57e0cd1d4c68f977ae85e472f67f271f4acec29109a6eacc47440912702dcf9c",
+    "checks": [
+      {
+        "area": "identity_and_date",
+        "finding": "所蔵番号1981.464.1・ビーカーネール・ca.1605–6を照合。本葉自身に年記があるとも西暦1662年とも書かない。"
+      },
+      {
+        "area": "image_evidence",
+        "finding": "新規取得した原画像は旧登録SHAと不一致。前日回収した旧SHA一致ファイルを再ハッシュし、今回の原画像と同寸法・RGB画素完全一致を確認。表示画像は登録SHAに一致。"
+      },
+      {
+        "area": "tags_and_interpretation",
+        "finding": "口論を根拠とする怒り2、隔たりからの弱い連想として寂しさ1を維持。本人の体験や鑑賞者の心理を断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "修正後の配置を画像で確認。詩の英訳を転載せず、拒絶の動作だけを館に帰属させて短く要約。年代の根拠と様式説明も事実・解釈として区別され、追加改稿を要する表現流用は見つからない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "f64e57de18ae0a806671be08999729fc5215dd3d499ec082893bd8513a73f1f2",
+    "visitor_draft_sha256": "57e0cd1d4c68f977ae85e472f67f271f4acec29109a6eacc47440912702dcf9c",
+    "proposal_sha256": null,
+    "checks": [
+      "input_version_and_before_values",
+      "candidate_hash",
+      "existing_structure_validator_on_temporary_catalog",
+      "other_299_records_unchanged",
+      "id_order_unchanged",
+      "production_data_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false
+  },
+  "notes": [
+    "今回のクエリ付きURLも旧SHAを返さなかった。旧一致版はローカルの前日取得ファイルであり、今回新たに回収できたとは扱わない。",
+    "本文冒頭1文と証拠注記だけを修正。選定用データは変更不要。"
+  ],
+  "remaining": [
+    "本番反映禁止のためDraft内に保存。正式DBへの保存を伴う作品完成には数えない。"
+  ],
+  "promotion": {
+    "eligible": false,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "条項1",
+      "条項3 a/b"
+    ],
+    "checked_on": "2026-10-29",
+    "finding": "各作品ページのPublic Domain画像と文章の条件を区別。本文にCC0許諾があるとは扱わず、原文・現代語訳の長文転載はしない。"
+  }
+}
