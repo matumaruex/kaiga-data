@@ -1,0 +1,82 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-435888",
+  "baseline_commit": "7f8a78cb415c9c2cf69c98de572b9382849d78c6",
+  "baseline_artwork_sha256": "3750c6b0f80ee1fc78de6c54c5560247bf0ddd9cdf313e795a181b4b270fb62b",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation",
+        "summary"
+      ],
+      "before": "Metは、子どもの素朴なシャボン玉遊びに、17世紀オランダ風俗画の表現伝統を指摘する。当時のシャボン玉には人の命のはかなさを連想させる意味もあったが、この作品に教訓を込めたかどうかは不明と明記している。",
+      "after": "Metは、北ヨーロッパ絵画で人生のはかなさを表した主題が、本作では日常の場面へ移されていると解説する。作者自身の道徳的意図を示す直接証言とは区別する。",
+      "reason": "現行ページの説明に合わせ、現在の本文にない「不明と明記」という帰属を外す。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435888"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "シャボン玉を吹く子どもと、その様子を覗く幼い子。",
+      "after": "若者が細い管の先に泡を膨らませ、右側の幼い子が窓台越しにのぞく。左に液体の入った容器がある。",
+      "reason": "若者と幼児を一括して子どもとしない。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435888"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "fitting_situations",
+        0,
+        "reason"
+      ],
+      "before": "シャボン玉を吹く少年とそれを見守る子ども。",
+      "after": "泡を吹く若者と窓台からのぞく幼い子を描く。はかなさは館が説明する主題の伝統との接点であり、作者の意図の断定ではない。",
+      "reason": "人物を区別し、象徴的な検索入口の根拠を明示。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435888"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "before": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。",
+      "after": "作者の直接証言は未確認。Metが記す返還時期は1948年以降で、特定年を断定しない。後年の同構図作品と本作を区別する。",
+      "reason": "不要な人間承認待ちの表現を作品固有の留保に置き換える。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435888"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "シャルダンが1733〜34年ごろにフランスで制作した人物画。17世紀のオランダの風俗画を着想源とし、後年にも同主題の別作品を制作した。特定の道徳的寓意を作者が意図したとする直接資料は確認できない。",
+      "after": "1733〜34年頃のカンヴァス油彩。Metは北ヨーロッパの先行する絵画との主題の関係を説明し、後年の同構図作品をLACMAとワシントンのナショナル・ギャラリー所蔵として挙げる。",
+      "reason": "現行出典で直接確認できない17世紀オランダという限定を外す。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435888"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-435888.json",
+  "visitor_draft_sha256": "db918d238d44ed15450a684708af53d94e7969f586f8edcc16e349fbfeb97a23",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "0c1beb90c4457b6b3f9df3fd80c63e9ecbb91ac5c492f1bf0542978b1429e913"
+}

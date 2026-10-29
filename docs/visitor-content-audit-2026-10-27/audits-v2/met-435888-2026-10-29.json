@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435888",
+  "checked_on": "2026-10-29",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "7f8a78cb415c9c2cf69c98de572b9382849d78c6",
+    "artwork_record_sha256": "3750c6b0f80ee1fc78de6c54c5560247bf0ddd9cdf313e795a181b4b270fb62b",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435888.json",
+    "draft_sha256": "db918d238d44ed15450a684708af53d94e7969f586f8edcc16e349fbfeb97a23"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435888",
+      "access": "page_read_twice",
+      "locations": [
+        "冒頭解説",
+        "Artwork Details / 49.24"
+      ],
+      "observed": "49.24、1733〜34年頃、カンヴァス油彩。冒頭3段落の人物・主題・来歴を照合。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435888",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP356133.jpg",
+      "status": 200,
+      "sha256": "c15576dff884e40c6cd1661d62af1e12f9682ab95960babf52aeda767ea9bf95",
+      "byte_length": 3454536,
+      "width": 3901,
+      "height": 3771,
+      "matches_registered_bytes": true
+    },
+    {
+      "id": "met-435888",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP356133.jpg",
+      "status": 200,
+      "sha256": "9c04c27454acf325b1c392d25cf406ae0a5dd4eef730090f89c7a63d87222ce1",
+      "byte_length": 69599,
+      "width": 600,
+      "height": 580,
+      "matches_registered_bytes": true
+    }
+  ],
+  "visual_observations": {
+    "method": "原画像・表示画像を表示。別工程で画像を再表示し、出典該当箇所を再閲覧。",
+    "observed": "泡を吹く若者、右の子ども、左の容器を確認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_as_creator",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "修正案保存後に原資料を開き直し、画像を再表示して対象版と直接照合。",
+    "limitations": "同じAI・同じ文脈による別工程。別担当の独立性や法的許諾・非侵害保証は主張しない。",
+    "reviewed_artwork_sha256": "0c1beb90c4457b6b3f9df3fd80c63e9ecbb91ac5c492f1bf0542978b1429e913",
+    "reviewed_visitor_draft_sha256": "db918d238d44ed15450a684708af53d94e7969f586f8edcc16e349fbfeb97a23",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "作者・概年・所蔵番号一致。後年作と本作を区別。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "再検証で旧creation_contextの17世紀オランダという限定も現行ページから直接確認できず、修正案を追加して再読した。主題の伝統と作者意図を区別。"
+      },
+      {
+        "area": "emotion",
+        "finding": "感情タグ0を維持。はかなさの主題から悲しみ等を機械的に付けない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "本文の1944年の不法購入、1948年以降の返還は館の記述と一致。修辞的な画材効果の称賛を転載せず、画面・主題・来歴を短く整理している。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "0c1beb90c4457b6b3f9df3fd80c63e9ecbb91ac5c492f1bf0542978b1429e913",
+    "visitor_draft_sha256": "db918d238d44ed15450a684708af53d94e7969f586f8edcc16e349fbfeb97a23",
+    "proposal_sha256": "617378316a5ac5a40c27f61a20ee04f5b3a8f32f4411a733aab945e8b76711e7",
+    "checks": [
+      "input_version_and_before_values",
+      "candidate_hash",
+      "existing_structure_validator_on_temporary_catalog",
+      "other_299_records_unchanged",
+      "id_order_unchanged",
+      "production_data_unchanged",
+      "image_hashes"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435888.json",
+    "sha256": "617378316a5ac5a40c27f61a20ee04f5b3a8f32f4411a733aab945e8b76711e7",
+    "proposed_artwork_sha256": "0c1beb90c4457b6b3f9df3fd80c63e9ecbb91ac5c492f1bf0542978b1429e913",
+    "applied_to_catalog": false
+  },
+  "notes": [
+    "本文は維持。音声は再生していない。確認できた文字資料のみを根拠とする。"
+  ],
+  "remaining": [
+    "本番反映禁止のためDraft内のみ保存。正式DBへの保存を伴う作品完成には数えない。"
+  ],
+  "promotion": {
+    "eligible": false,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "条項1",
+      "条項3 a/b"
+    ],
+    "checked_on": "2026-10-29",
+    "finding": "各ページのPublic Domainは画像の表示として確認。文章までCC0と解釈しない。利用条件の点検とAI類似比較は公開許諾の取得ではない。"
+  }
+}
