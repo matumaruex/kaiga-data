@@ -1,0 +1,133 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435997",
+  "checked_on": "2026-10-30",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "5e6ddb5bfa6afb5230e5a3da34f09e778f337cb3",
+    "artwork_record_sha256": "f55393d277da95f68f16937f5ce562b4bbbe18117ca84de5f1c0e9894f7a67e8",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435997.json",
+    "draft_sha256": "74a7686998bac7217195d730c67dd1fd5b14994bbfcc4a3aa393ef3970871db0"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435997",
+      "access": "page_read_twice",
+      "locations": [
+        "冒頭解説",
+        "Artwork Details / 87.15.134"
+      ],
+      "observed": "87.15.134、1880年、カンヴァス油彩。注文主とサロンでの複数の原作説を確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435997",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT11964.jpg",
+      "status": 200,
+      "sha256": "a7423d26059451c1eb6b9879794755db8447956b887f6e4608e54fc19184de3c",
+      "byte_length": 1756591,
+      "width": 2490,
+      "height": 3722,
+      "matches_registered_bytes": true
+    },
+    {
+      "id": "met-435997",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT11964.jpg",
+      "status": 200,
+      "sha256": "09b5378249e2ed40628858d276b5c551a897b8a89996076f38ca7d2c91b9e2bd",
+      "byte_length": 77865,
+      "width": 418,
+      "height": 625,
+      "matches_registered_bytes": true
+    }
+  ],
+  "visual_observations": {
+    "method": "原画像・表示画像を表示。別工程で画像を再表示し、出典該当箇所を再閲覧。",
+    "observed": "暗い空、二人が共に掲げる布、走る脚、男性が相手に向ける微笑みを確認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_as_creator",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "修正案保存後に原資料を開き直し、画像を再表示して対象版と直接照合。",
+    "limitations": "同じAI・同じ文脈による別工程。別担当の独立性や法的許諾・非侵害保証は主張しない。",
+    "reviewed_artwork_sha256": "ac9f70652d4fd30cb2cf393e228bfa9300b9a45ecbe18e9f4d56a2f999c66ef6",
+    "reviewed_visitor_draft_sha256": "74a7686998bac7217195d730c67dd1fd5b14994bbfcc4a3aa393ef3970871db0",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "題名・作者・制作年・所蔵番号が一致。《春》とは別作品。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "原作説を当時の批評に帰属させ、作者の明言や特定の衣装の断定にしない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "喜び2は微笑みと身振りへの鑑賞上の関連として維持。期待は対象と根拠が薄く削除し、主補助区分・強度を整合。心理の事実認定ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "本文は画面から原作同定の問題に入り、注文・受容を簡潔に記す。原文の小説内の衣装描写や評価の強調を移さず、追加改稿不要。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "ac9f70652d4fd30cb2cf393e228bfa9300b9a45ecbe18e9f4d56a2f999c66ef6",
+    "visitor_draft_sha256": "74a7686998bac7217195d730c67dd1fd5b14994bbfcc4a3aa393ef3970871db0",
+    "proposal_sha256": "ec489743447a58d813b84657bd0d689b5a211f14456b0ae748359566d72b4895",
+    "checks": [
+      "input_version_and_before_values",
+      "candidate_hash",
+      "existing_structure_validator_on_temporary_catalog",
+      "other_299_records_unchanged",
+      "id_order_unchanged",
+      "production_data_unchanged",
+      "image_hashes"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435997.json",
+    "sha256": "ec489743447a58d813b84657bd0d689b5a211f14456b0ae748359566d72b4895",
+    "proposed_artwork_sha256": "ac9f70652d4fd30cb2cf393e228bfa9300b9a45ecbe18e9f4d56a2f999c66ef6",
+    "applied_to_catalog": false
+  },
+  "notes": [
+    "2026-10-30、ユーザーがこのチャットの本番反映・マージ禁止を解除し、新運用v2での保存を指示。原資料再閲覧・画像再表示による対象版のPASSを再利用する。",
+    "旧pending欄は互換性のため保持し、完成は正式DB内の版とこの記録の対応で判断する。人間承認や別担当の監査を偽装しない。"
+  ],
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "条項1",
+      "条項3 a/b"
+    ],
+    "checked_on": "2026-10-30",
+    "finding": "公式作品画像のPublic Domain表示とMet規約の画像・文章の区別を確認。日本語本文は画面観察、原作同定の複数説、注文と受容の事実を独自に構成し、原文の小説内の衣装描写や修辞を転載していない。この対象版に正式DB保存を妨げる重大な未解消事項は見つからない。画像の条件を文章へ拡張せず、この判断を個別許諾の取得や法的な非侵害保証とは扱わない。",
+    "result": "PASS",
+    "unresolved_material_issues": []
+  },
+  "supersedes": {
+    "path": "docs/visitor-content-audit-2026-10-27/audits-v2/met-435997-2026-10-30.json",
+    "sha256": "e7d611bf183a7e9158bb50c81a9441cb1752f8d171b4f4b3bc169522a371f465",
+    "reason": "登録禁止の解除と正式保存に向けた利用条件の結論を追記。本文・修正案・原資料・画像の版は不変。"
+  }
+}

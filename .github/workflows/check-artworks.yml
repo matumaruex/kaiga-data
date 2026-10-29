@@ -6,6 +6,9 @@ on:
     paths:
       - "data/**"
       - "scripts/**"
+      - "tests/**"
+      - "drafts/**"
+      - "docs/artwork-completion-audits/**"
       - ".github/workflows/check-artworks.yml"
 
 permissions:
@@ -26,6 +29,12 @@ jobs:
           python-version: "3.12"
       - name: Verify exhibition data structure
         run: python3 scripts/validate_artworks.py
+      - name: Test registration guards
+        run: python3 -m unittest discover -s tests -p 'test_*.py'
+      - name: Verify saved v2 completion evidence
+        run: python3 scripts/complete_artwork.py check
+      - name: Verify visitor drafts
+        run: python3 scripts/visitor_draft_queue.py check
       - name: Verify stable 300-work snapshot and interrupted-edit guards
         run: python3 scripts/check_catalog_snapshot.py
       - name: Verify candidate data structure
