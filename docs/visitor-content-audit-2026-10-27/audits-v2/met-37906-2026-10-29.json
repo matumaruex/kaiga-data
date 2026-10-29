@@ -1,0 +1,143 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-37906",
+  "checked_on": "2026-10-29",
+  "result": "HOLD",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "保留",
+  "version": {
+    "baseline_commit": "8a89b15e9d38235a531e54a876e721a01136f6ff",
+    "artwork_record_sha256": "63e29b53af4cca8d446585d53d4faec95b7dc5569217a374e39f7ff9287ab003",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-37906.json",
+    "draft_sha256": "62f3dce5f8f85dab958255ac50b18dca2e79982807390a7117d29d9a6e03fdc1"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/37906",
+      "access": "page_read_twice",
+      "locations": [
+        "冒頭2段落",
+        "Artist/Date/Culture、1985.398.12"
+      ],
+      "observed": "工房説、先行作、作品年1655–60と作者欄活動年1582–1624を再確認。館自身の記述の関係が未解決。"
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Wonder_of_the_Age_Master_Painters_of_India_1100_1900.pdf",
+      "access": "search_excerpt_only_pdf_open_failed",
+      "locations": [
+        "検索収録のManohar項"
+      ],
+      "observed": "関連する画家の記述を検索で見つけたが、PDF本文の取得はサイズ超過で失敗。本作の帰属を解決した根拠には採用しない。"
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Divine_Pleasures.pdf",
+      "access": "search_excerpt_only_pdf_open_failed",
+      "locations": [
+        "検索収録のメーワール絵画への言及"
+      ],
+      "observed": "PDF本文の取得はサイズ超過で失敗。本作品の該当箇所を直接閲覧したとは記録しない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-37906",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DT8229.jpg",
+      "status": 200,
+      "sha256": "c040bfeef109bf61d90e5e3e437dab7041f65c7ddf3f088f8032025bad38cb19",
+      "byte_length": 2939713,
+      "width": 3070,
+      "height": 3713,
+      "matches_registered_bytes": true
+    },
+    {
+      "id": "met-37906",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DT8229.jpg",
+      "status": 200,
+      "sha256": "b450cc6c0f88acd20cdbb8bf5553a7a66c54842f8064972f5265391f65d1d3fa",
+      "byte_length": 153473,
+      "width": 516,
+      "height": 624,
+      "matches_registered_bytes": true
+    }
+  ],
+  "visual_observations": {
+    "method": "原画像と表示画像を両方表示、登録SHA一致を確認。",
+    "observed": "上段の青い人物と向かい合う女性、下段の花綱のあるあずまやと二人の女性が本文と対応。詩の人物名は館の説明に基づく。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "HOLD",
+    "reviewer": "same_assistant_as_creator",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "制作・修正案の保存後に公式ページの該当箇所を読み直し、画像を再表示し、対象版の事実・解釈・選定用情報・タグ・文章類似を直接照合した。",
+    "limitations": "同じAI・同じ会話文脈での別工程。別担当や別コンテキストによる独立性を主張せず、AIの文章比較は法的許諾・非侵害保証としない。",
+    "reviewed_artwork_sha256": "eb3087e22e4668c36595bf33157dcba4e6776b8ffa5d563e049f86efdcc40f86",
+    "reviewed_visitor_draft_sha256": "62f3dce5f8f85dab958255ac50b18dca2e79982807390a7117d29d9a6e03fdc1",
+    "checks": [
+      {
+        "area": "identity_and_attribution",
+        "finding": "所蔵番号と画面は一致。Style of Manoharを本人の確定作へ変更しない。工房説と活動年代の関係は一次資料の該当箇所を読めず未解決。"
+      },
+      {
+        "area": "meaning_basis",
+        "finding": "制作背景の修正案は館の年代・地域・帰属を記録。曖昧な要確認だけだった注記に具体的な未了事項を示す。"
+      },
+      {
+        "area": "emotion_and_text",
+        "finding": "期待3は館の詩的場面解釈に明示的根拠がある。本文は上下配置から説明し、館の読解に帰属。本人の体験や詩の現代英訳を転載していない。"
+      },
+      {
+        "area": "decision",
+        "finding": "形式検査・画像一致は帰属の資料不足を解消しないため作品全体はHOLD。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "eb3087e22e4668c36595bf33157dcba4e6776b8ffa5d563e049f86efdcc40f86",
+    "visitor_draft_sha256": "62f3dce5f8f85dab958255ac50b18dca2e79982807390a7117d29d9a6e03fdc1",
+    "proposal_sha256": "fc01ca8e7aa04a1fe29d7025835e2a1d6cb3c4bc43203db8d307cfa69a3c4d2f",
+    "checks": [
+      "input_version_and_before_values",
+      "candidate_hash",
+      "existing_structure_validator_on_temporary_catalog",
+      "other_299_records_unchanged",
+      "id_order_unchanged",
+      "production_data_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false
+  },
+  "notes": [
+    "下書き本文は不変。工房説を断定する追記や推測による作者名変更はしない。保留して次の作品へ進む。"
+  ],
+  "remaining": [
+    "作者欄の活動年代と本作の年・工房説の関係を、対象作品を扱う学術資料の該当箇所で確認する。PDF検索抜粋だけでは解消としない。",
+    "本番反映・マージは引き続き禁止。"
+  ],
+  "promotion": {
+    "eligible": false,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-37906.json",
+    "sha256": "fc01ca8e7aa04a1fe29d7025835e2a1d6cb3c4bc43203db8d307cfa69a3c4d2f",
+    "proposed_artwork_sha256": "eb3087e22e4668c36595bf33157dcba4e6776b8ffa5d563e049f86efdcc40f86",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "条項1",
+      "条項3 a/b"
+    ],
+    "checked_on": "2026-10-29",
+    "finding": "各作品ページのPublic Domain画像と文章の条件を区別。本文にCC0許諾があるとは扱わず、原文・現代語訳の長文転載はしない。"
+  }
+}
