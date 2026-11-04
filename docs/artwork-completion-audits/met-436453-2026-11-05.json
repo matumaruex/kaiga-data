@@ -1,0 +1,146 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436453",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "5f439a9d35a94f83fe551ec2a8bd55a6c6e0a728",
+    "artwork_record_sha256": "b03cd01e8cc9d196842f2b814a9f71946c47721c2bf04ef7f5731ecbd962722e",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436453.json",
+    "draft_sha256": "85143538e2538f5fa7f7398209b0b2bc2ca3868679bc5032aebe0edb6b6e5c93"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436453",
+      "access": "page_read_twice",
+      "locations": [
+        "作品解説：エステルの無断謁見とユダヤの人々の危機・失神",
+        "作品解説：歴史再現より同時代の演劇構想、王の膝の左側の従者と犬の描き消し",
+        "Artwork Details：Artemisia Gentileschi、1620s、208.3×273.7cm、69.281、Public Domain"
+      ],
+      "observed": "Met作品69.281、アルテミジア・ジェンティレスキの1620年代作油彩。エステルの失神、王への危険な願い、同時代演劇を下敷きとする構図、アフリカ系従者が犬を制止する下描きの一部の可視性、寸法と所蔵帰属を直接照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_twice",
+      "locations": [
+        "Section 1 Copyright and Proprietary Rights",
+        "Section 3(a) Open Access",
+        "Section 3(b) Material Under Copyright or Other Restrictions"
+      ],
+      "observed": "MetがOA画像をCC0として扱う一方、解説本文は自動的に同条件ではない。短い日本語の固有表現を持つ本文であることと、作品画像の再利用条件を別々に評価。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436453",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-20748-001.jpg",
+      "status": 200,
+      "sha256": "36563c7d806b0819347c4e5f1870f34ad58f76f4b666f126a8ab61e368c91ab1",
+      "byte_length": 3658269,
+      "width": 4000,
+      "height": 3060,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "main data/artworks.json image.high_resolution：complete_jpeg_sha256_and_downscale_match、2026-10-20。公式Met収蔵画像DP-20748-001.jpgと表示画の連結。"
+    },
+    {
+      "id": "met-436453",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20748-001.jpg",
+      "status": 200,
+      "sha256": "5d213ef3604452e020a85ff1bd7ce470f97cd4b6196f6e108e5ea3d5ffd0abbb",
+      "byte_length": 107133,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "main data/artworks.json image.live_check_scope：GitHub Actions run 39287219660 (2026-10-20) によるMet公式Object APIのJPEG実取得・SHA照合記録。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式所蔵作品ページおよび同館配信DP-20748-001.jpgの検索画像表示を参照し、2026-10-20の原画・表示画SHA一致記録（登録レコードとAction）と同じ対象画像である範囲を確認。今回は登録JPEGを直接ダウンロードしていない。",
+    "observed": "右の王は冠状の飾りのついた帽子、装飾的な衣服、白い脚衣で玉座の端から身を乗り出す。左側には金色の衣のエステルと支える女性の身振りがあり、間に敷石の暗い空間が広がる。塗り消した人物と犬は現状で明瞭な前景図像としては示されない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "PR #3の既存下書きと現行DBレコードを確認した後、Met公式作品ページと同館研究者Keith Christiansenの解説（2010年）を別工程で再参照。公式図版と既存登録SHA・Met利用規約を照合し、史実と物語の混同、感情タグ、転載類似、本文の誇張を確認。",
+    "limitations": "同一AI・同一会話の別工程であり、第三者や別モデルの独立監査ではない。2026-10-20の原画・表示画登録SHA証拠を再利用し、今回新たにJPEGバイト全体の取得・SHA再計算は行っていない。使用規約上の最終的な非侵害保証ではない。",
+    "reviewed_artwork_sha256": "b03cd01e8cc9d196842f2b814a9f71946c47721c2bf04ef7f5731ecbd962722e",
+    "reviewed_visitor_draft_sha256": "85143538e2538f5fa7f7398209b0b2bc2ca3868679bc5032aebe0edb6b6e5c93",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Esther before Ahasuerus／Artemisia Gentileschi／1620s／Met 69.281／油彩／208.3×273.7cm。王とエステルの位置、支持する侍女、衣服、石床がMet公式図版と合う。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "聖書の物語として民族の危機と無断謁見・失神を説明している。Metの『同時代の演劇』の解釈と、消されたアフリカ系従者・犬の痕跡を区別。画家の被害経験を個別作の意図と混同しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "不安（主2）はエステルの命を懸けた行動と失神、希望（補助1）は人々の救済を願い王に嘆願する場面との具体的接点がある。作品の登場人物と鑑賞者の感情を同一視せず、強度を数合わせで増やさない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "冒頭に画面の身振り・人物の位置から入り、続く聖書の危機、演劇的制作、塗り消された人物を独自の短文で説明する。Metの英文を連続して逐語訳した長文や創作の逸話は確認されず、既存本文を維持。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "b03cd01e8cc9d196842f2b814a9f71946c47721c2bf04ef7f5731ecbd962722e",
+    "visitor_draft_sha256": "85143538e2538f5fa7f7398209b0b2bc2ca3868679bc5032aebe0edb6b6e5c93",
+    "proposal_sha256": "ac2a0e44a6330c5faadccac0e479e121577de39ea5d7fc940b4505350d1211a6",
+    "checks": [
+      "baseline_version_hash",
+      "draft_file_sha256",
+      "prior_original_and_display_registered_sha256",
+      "no_revision_needed",
+      "300_unique_ids",
+      "other_299_unchanged",
+      "same_id_order"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "版・下書きSHA、登録原画・表示画SHA記録、他299作品の不変性を事前確認。正式な検査は既存GitHub Actionsの形式・ガード・固定snapshotへ委ねる。成功前にmainへ統合しない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436453.json",
+    "sha256": "ac2a0e44a6330c5faadccac0e479e121577de39ea5d7fc940b4505350d1211a6",
+    "proposed_artwork_sha256": "b03cd01e8cc9d196842f2b814a9f71946c47721c2bf04ef7f5731ecbd962722e",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "Section 1 Copyright",
+      "Section 3(a) Open Access",
+      "Section 3(b) Non-OA content"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Metの作品ページはPublic Domain表示、画像はOA/CC0方針の対象。これを作品解説英文の自由転載権と混同しない。既存の日本語解説は画面構図・公刊された説明の事実・専門家解釈を簡潔に独自表現でまとめており、長文転載・逐語翻訳は見つからない。現段階で重大な権利上の欠陥は確認できないが、法律上の絶対的な保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "画像の既存SHA記録日は2026-10-20であり、2026-10-29の別作品5件の一括確認履歴とは混同しない。",
+    "美術館研究者の2010年記事は演出と画面の構造を論じる根拠だが、作者自身の個別発言として扱わない。",
+    "旧pendingフィールドは互換性維持で変更しない。"
+  ]
+}
