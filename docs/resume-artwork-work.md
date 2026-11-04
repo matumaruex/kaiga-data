@@ -1,6 +1,13 @@
 # モデル・チャットを変えたときの再開地点
 
-## 【最新の再開地点】2026-11-05：25完成／5保留
+## 【最新の再開地点】2026-11-05：26完成／5保留
+
+- **正式完成26/300**。この一連で [PR #27](https://github.com/matumaruex/kaiga-data/pull/27)《頼豪阿闍梨図》、[PR #30](https://github.com/matumaruex/kaiga-data/pull/30)《風流踊図屏風》をmain統合。後者の基準コミットは`77a3cb3e02f005df2d5f0586564a1a88a86ce2b3`、[PR版GitHub CI](https://github.com/matumaruex/kaiga-data/actions/runs/41923170804)がSUCCESS。作品本体の検査合格後に計上。現行鑑賞本文115件。必ず最新mainで再計算。
+- **内容上の保留：合計5作品**。今回追加した`met-737735`《空房對月圖》の画像同定問題（詳細は[PR #28](https://github.com/matumaruex/kaiga-data/pull/28)と`docs/artwork-completion-audits/met-737735-2026-11-05.json`）。旧4件も保持。実画像と台帳が確認できるまでは未完成のまま。
+- **《風流踊図屏風》は**Metの若衆の髪型表現を[PR #29](https://github.com/matumaruex/kaiga-data/pull/29)で最小修正後、同一本文の新ドラフト・監査・登録ガードを通してPR #30で完成。
+- **次の未完成：`met-42346`《山水図》（Landscape with Pavilion）**。既存日本語鑑賞本文あり。Met作品番号・画像の画面・解釈・感情索引・権利と旧SHAから1作品ずつ検証して保存。HOLDなら証拠を記録して次へ。
+- **連続運用：** 作品ごとの人間承認なしに完成保存し、同じチャット内で次作品へ。PRのCI待ち／内容HOLDを未完のまま区別する。適切な時点で成果をGitHubに記録して復帰可能にする。
+## 【過去の再開地点】2026-11-05：25完成／5保留（以下は履歴）
 
 - **正式完成25/300**。小林清親《頼豪阿闍梨図》`met-749407`を[PR #27](https://github.com/matumaruex/kaiga-data/pull/27)でmainへ統合（`eab4dcfb2de251bbf67f02f19ad46e00a501598a`）。[mainのGitHub Actions](https://github.com/matumaruex/kaiga-data/actions/runs/41921591947)もSUCCESS。鑑賞本文115件。再開時は最新mainのDBで件数を再計算。
 - **今回追加の作品内容保留：`met-737735`《空房對月圖》**。Met公式ギャラリー先頭とDB登録primary画像DP-42601-001の主題一致が未確定（表紙裏面のように見える）。Metの別公式画像DP-42601-003には父子と月の絵があり、解説と一致。原JPEG全量の今回再照合はできていないため、安易に画像URL・SHAを変更せず`docs/artwork-completion-audits/met-737735-2026-11-05.json`にHOLD記録。従来4件に加え**内容保留計5作品**。この件は画像同定と正しい画像の検証を行った後に再開。
