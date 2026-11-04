@@ -1,6 +1,12 @@
 # モデル・チャットを変えたときの再開地点
 
-## 【最新の再開地点】2026-11-05：26完成／5保留
+## 【最新の再開地点】2026-11-05：27完成／5保留
+
+- **正式完成27/300**。今回の完成は小林清親《頼豪阿闍梨図》（[PR #27](https://github.com/matumaruex/kaiga-data/pull/27)）、《風流踊図屏風》（[PR #30](https://github.com/matumaruex/kaiga-data/pull/30)）、賢江祥啓《山水図》（[PR #31](https://github.com/matumaruex/kaiga-data/pull/31)）。直近のmain統合は`ddf0ca293bc0787ddc897256a367d11042cdbecc`、[PR版の検査SUCCESS](https://github.com/matumaruex/kaiga-data/actions/runs/41923718663)。最終件数は最新mainのDBから再計算する。日本語鑑賞本文は115作品。
+- **内容保留：5件**（以前の4作品＋今回の`met-737735`《空房對月圖》の画像同定未解決）。[PR #28](https://github.com/matumaruex/kaiga-data/pull/28)でHOLD監査をmainへ保存済み。主題と登録画像が一致するまで、HOLDを完了に上げず旧画像のSHAだけでPASSとしない。
+- **次に着手：`met-73161`《浸月圖》（Drenched in Moonlight）**。既存鑑賞解説・登録原画・選定用情報をメトロポリタン美術館の個別資料と画像で1作品ずつ点検し、合格した版だけ保存する。
+- **運用：** 同一応答で作品を一件ずつ確認・mainへ保存して続行。作品別人間承認は不要。CI／通信待ちはシステム待機、作品根拠不足は内容HOLDとして区別。作業範囲の区切りで本見出しを更新する。
+## 【過去の再開地点】2026-11-05：26完成／5保留（以下は履歴）
 
 - **正式完成26/300**。この一連で [PR #27](https://github.com/matumaruex/kaiga-data/pull/27)《頼豪阿闍梨図》、[PR #30](https://github.com/matumaruex/kaiga-data/pull/30)《風流踊図屏風》をmain統合。後者の基準コミットは`77a3cb3e02f005df2d5f0586564a1a88a86ce2b3`、[PR版GitHub CI](https://github.com/matumaruex/kaiga-data/actions/runs/41923170804)がSUCCESS。作品本体の検査合格後に計上。現行鑑賞本文115件。必ず最新mainで再計算。
 - **内容上の保留：合計5作品**。今回追加した`met-737735`《空房對月圖》の画像同定問題（詳細は[PR #28](https://github.com/matumaruex/kaiga-data/pull/28)と`docs/artwork-completion-audits/met-737735-2026-11-05.json`）。旧4件も保持。実画像と台帳が確認できるまでは未完成のまま。
