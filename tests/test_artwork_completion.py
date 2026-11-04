@@ -124,7 +124,14 @@ class CompletionTests(unittest.TestCase):
         result = self.read("data/artworks.json")
         before = next(a for a in initial["artworks"] if a["id"] == "met-435997")
         after = next(a for a in result["artworks"] if a["id"] == "met-435997")
-        self.assertEqual({k: v for k, v in after.items() if k != "completion"}, before)
+        expected = copy.deepcopy(before)
+        for change in self.read(PROPOSAL)["changes"]:
+            target = expected
+            for key in change["path"][:-1]:
+                target = target[key]
+            target[change["path"][-1]] = copy.deepcopy(change["after"])
+        self.assertEqual(after["visitor_explanation"], before["visitor_explanation"])
+        self.assertEqual({k: v for k, v in after.items() if k != "completion"}, expected)
         self.assertEqual(complete.check(self.root)["完成"], self.other_completed_count + 1)
 
     def test_existing_explanation_mismatch_is_rejected_even_with_matching_baseline_hash(self):
