@@ -1,0 +1,156 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-42346",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "fdc0c9953142deb165656984fc554a4f8a5f554e",
+    "artwork_record_sha256": "de207a882271c39ee61aa512421fdf5edb2925a322330f850e24706449ba803a",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-42346.json",
+    "draft_sha256": "94a791e38dcc9e2e463ede97c79c632f8b12fdbd99f15b629d392ac25a1e2807"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/42346",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview 第1段落: 亭の男性、滝、中国の隠者、桃源瑞仙の画賛",
+        "Overview 第2段落: 祥啓の1478年京都訪問・約3年の中国絵画学習、年代が判明する最古の作、夏珪を範とする",
+        "Poem 4 couplets: 世俗の喧騒から距離を置く場所、釣り・隠者への訪問の願い",
+        "Artwork Details: Kenkō Shōkei絵／Tōgen Zuisen画賛、1478–80、1985.7、Public Domain"
+      ],
+      "observed": "Met公式作品解説と作者・画賛筆者・図版の一致を作品IDごとに読み直し、既存本文の具体的事実と留保を確認。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:%E8%B3%A2%E6%B1%9F%E7%A5%A5%E5%95%93%E7%AD%86%E5%B1%B1%E6%B0%B4%E5%9B%B3-Landscape_with_Pavilion_MET_DT8029.jpg",
+      "access": "search_metadata",
+      "locations": [
+        "Met 1985.7、絵の作者賢江祥啓と画賛桃源瑞仙、過去の公式DT8029画像とCC0"
+      ],
+      "observed": "過去のMet同作画面の所蔵番号・作者・画賛と原図版の一致を別資料で確認。登録最新画像DP-36543-002の現JPEG SHA再計算としては扱わない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_twice",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) OA/CC0 images",
+        "3(b) restricted museum text"
+      ],
+      "observed": "作品画像のOAと所蔵館の翻訳解説に含まれる表現の権利を分離。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-42346",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-36543-002.jpg",
+      "status": 200,
+      "sha256": "bfcc0d3658b52d3876cea4ebd9fa0c464e9fe887641f86ee464a412cd6ef0652",
+      "byte_length": 5153593,
+      "width": 2998,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 data/image-sources.json原JPEG全バイトSHA・寸法・縮小同一性チェックを同一版で再利用。今回はJPEGの全バイト再取得なし。"
+    },
+    {
+      "id": "met-42346",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-36543-002.jpg",
+      "status": 200,
+      "sha256": "2dcae14b98de6a41ea10e1d14e884d73da99c1ab389ce6d5da2d91e766e8901b",
+      "byte_length": 160406,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "第7群の公式Met primaryImageSmallのJPEG実取得とSHAを継承。今回の公式Web図版表示と区別。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式1985.7の掲載作品画面・同一画像のMet由来Commons同定情報、既存画像台帳のDP-36543-002を照合。実バイトSHAは2026-10-18/20の証拠を再利用。",
+    "observed": "縦長の掛幅。上部中央に漢詩と落款、左に高い断崖と滝、右に霞む遠山。湖畔の樹木・小亭に孤独な人物がいる。実物の声や作者の心理ではなく館による隠遁の解釈と区別。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存DB・本文・画像SHAを見た後、Metの作者・詩人・制作年・中国故事・原文の漢詩の説明と公式画面、Commonsの同所蔵番号を別工程で参照し、事実・心理の留保・文章類似・感情分類を点検。",
+    "limitations": "別AIや第三者の独立監査ではなく、同じAIの同一チャット内での別工程。Met公開ページの図版を今回確認し、登録された原／表示JPEGのバイト検査は旧証拠を継承して新規再ダウンロードしたとは主張しない。作者本人の制作意図を詩人の画賛と混同しない。法的な非侵害保証ではない。",
+    "reviewed_artwork_sha256": "de207a882271c39ee61aa512421fdf5edb2925a322330f850e24706449ba803a",
+    "reviewed_visitor_draft_sha256": "94a791e38dcc9e2e463ede97c79c632f8b12fdbd99f15b629d392ac25a1e2807",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 1985.7、Kenkō Shōkei 賢江祥啓、画賛筆者 Tōgen Zuisen 桃源瑞仙、1478～80年、室町の絹ではなく紙本墨彩の掛幅。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "湖畔亭の人物・山からの滝・中国の古い隠者、1478年の京都訪問と夏珪の画風、最古の年代を特定できる作品という館の主張に既存本文が対応。桃源瑞仙が書いた詩であり祥啓自身の言葉と混同しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『安心』強度2は画賛の平穏・俗世の喧騒から離れた場所という隠遁の理想に限定して自然な入口。副『孤独』強度1は隔絶した風景による弱い連想のみ。寂しさや苦痛を人物・画家が感じたと断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "3段落の鑑賞日本語解説は美術館の研究情報を参照しながら、説明の順序・言い回しを変えて構成。長文逐語翻訳や著作権のある館文の大幅な転載を認めない範囲と判断。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "de207a882271c39ee61aa512421fdf5edb2925a322330f850e24706449ba803a",
+    "visitor_draft_sha256": "94a791e38dcc9e2e463ede97c79c632f8b12fdbd99f15b629d392ac25a1e2807",
+    "proposal_sha256": "8acffd770741c54890c23a4635e9eef9f33c84c96282bacc6ac14d3cb26a0f72",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "ここに記す事前PASSは保存版とハッシュ・構造の整合のチェック。実際のcomplete_artwork.py preview/save/checkとGitHub Actions検査成功を見てからmainへ統合し完成と数える。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-42346.json",
+    "sha256": "8acffd770741c54890c23a4635e9eef9f33c84c96282bacc6ac14d3cb26a0f72",
+    "proposed_artwork_sha256": "de207a882271c39ee61aa512421fdf5edb2925a322330f850e24706449ba803a",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA/CC0",
+      "3(b) non-OA text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公式作品ページはPublic Domain、画像台帳のCC0/OAが作品に対応。館の文章表現・英語の詩の翻訳には別の権利があり、既存日本語本文は詩の長文引用を避け館の事実研究から独自構成したもの。法律上の利用許諾や保証を主張しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存の日本語鑑賞本文・感情タグ・画像台帳は保持し、completionおよび独立監査を追加。",
+    "前出の1984–85年Met刊行物には年代・画賛の異なる旧記載があるが、現行公式の1478–80年・桃源瑞仙(1430–1480)を優先。差異を旧資料で最新情報と混同しない。",
+    "PRの登録ガード・CI・main統合を確認するまで正式完成26件から増やさない。"
+  ]
+}
