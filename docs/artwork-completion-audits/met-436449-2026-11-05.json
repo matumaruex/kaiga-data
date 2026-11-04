@@ -1,0 +1,146 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436449",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "b9f320d1a29ca452e8657e947e8339a602a3ddd0",
+    "artwork_record_sha256": "c367b5296fb76cb8aa54cbc781fc4c567896f7a8d220610444165f52b45c660f",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436449.json",
+    "draft_sha256": "39c0f95839566ef58fdc6fb3541d0ffcf1b7c6e30925526d1aebce7d4892dc5b"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436449",
+      "access": "page_read_twice",
+      "locations": [
+        "作品解説第1段落：タヒチの女性の集いと、スカート・籠・左端人物の描き替え",
+        "Artwork Details：Gauguin／ca.1892–94／88.9×116.2cm／1993.400.3／Oil on canvas／Public Domain",
+        "Audio 6406：日陰の木造ポーチで暑さを避ける女性、英国輸入の宣教師風ドレス、宗教神話主題との区別と大きな色面"
+      ],
+      "observed": "Met番号1993.400.3、ゴーギャン作、1892–94年頃の油彩。日差しを避けて休息する女性たち、人物衣服と籠の描き替え、宣教師風ドレス、平面的色面の説明を直接再閲覧。音声にある帰国年の説明は制作年の断定根拠にしない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_twice",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) OA images／3(b) non-OA and text",
+        "image/data policyに記載されたCC0画像の範囲"
+      ],
+      "observed": "Open Access指定画像のCC0と館の説明文・音声書き起こしの利用条件を区別。元文章を丸ごと翻訳・転載せず、事実と解釈を日本語で独自に再構成した既存本文を評価。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436449",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1952.jpg",
+      "status": 200,
+      "sha256": "b4d895bf46ad5a6c2ce66993c3de6f5a11623312f27f1bc4029a05711a377241",
+      "byte_length": 2765127,
+      "width": 3811,
+      "height": 2921,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-29",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "PR #3 pause-2026-10-30.md：対象含む5作品の原画・表示画像計10枚の登録SHA一致記録（取得元は旧実行環境）"
+    },
+    {
+      "id": "met-436449",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1952.jpg",
+      "status": 200,
+      "sha256": "6781dbc3f2380670d926f257908abda83978d68f31878bc8ad52692c029e0c87",
+      "byte_length": 109243,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-29",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "PR #3 pause-2026-10-30.md：対象含む5作品の原画・表示画像計10枚の登録SHA一致記録（取得元は旧実行環境）"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品ページに付された公式図版とMet公式所蔵展覧会の公開画像（web image_queryで画面表示）を目視。登録JPEGのバイト確認は2026-10-29 PR #3の一致記録を再利用し、今回は再取得・再計算していない。",
+    "observed": "横長の木の板床に、帽子と青系衣服の手前の女性、奥の桃色・暗色の服の人物、右に橙色の衣装でうつ伏せに近い姿勢の女性。背景には明るい草木があり、右下に果物の籠。Met説明に記された犬・赤いスカートは描き替え前の状態であり現状画面には描かれない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "旧PR #3の下書きと登録レコードを先に確認し、当セッションでMet作品ページ本文・Audio 6406と公式図版、公開画像利用規約を別工程として再閲覧。版不変の旧SHA照合記録と突き合わせ、誇張・誤同定・感情タグ・本文類似を確認。",
+    "limitations": "同一AI・同一チャットでの別パス照合で、第三者や別モデルの独立監査ではない。登録のoriginal/web-large JPEGの今セッションでの取得・SHA再計算は行わず2026-10-29の既存記録を利用。規約適合・著作権非侵害の法的保証はできない。",
+    "reviewed_artwork_sha256": "c367b5296fb76cb8aa54cbc781fc4c567896f7a8d220610444165f52b45c660f",
+    "reviewed_visitor_draft_sha256": "39c0f95839566ef58fdc6fb3541d0ffcf1b7c6e30925526d1aebce7d4892dc5b",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "The Siesta／Paul Gauguin／ca.1892–94／Met 1993.400.3／油彩。画像の複数人物・板床・籠・鮮やかな衣服が公式画面と一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met音声は宣教師風ドレスの英国からの輸入を説明。画面は日陰での共同休息で宗教・神話的図像を主要主題としない。画家の長期描き替え（赤いスカート、犬と籠、左の人物）は館説明に一致。正確な制作時点は断定しない。植民地期の仏人画家の視点は検索注意に維持。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主感情『安心』強度2は日陰で人々が身体を休める具体的描写への無理のない入口。作者本人の安心した心理の証明にはしない。ほかの感情を数合わせで追加しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語本文は帽子の女性・木の床という画面観察と、衣服輸入・何度もの描き替えという館の事実を中心に短く独自に説明。館の英語本文・音声の長文転載や逐語翻訳にあたる表現は見つからず、既存本文を維持。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "c367b5296fb76cb8aa54cbc781fc4c567896f7a8d220610444165f52b45c660f",
+    "visitor_draft_sha256": "39c0f95839566ef58fdc6fb3541d0ffcf1b7c6e30925526d1aebce7d4892dc5b",
+    "proposal_sha256": "08ae389ecf99c41a8cd1644628b1798daac2bd0c3a5dedf29632703119bfd429",
+    "checks": [
+      "baseline_version_hash",
+      "draft_file_sha256",
+      "prior_original_and_display_registered_sha256",
+      "no_revision_needed",
+      "300_unique_ids",
+      "other_299_unchanged",
+      "same_id_order"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "版・下書き・原画/表示登録SHAと対象外299件の不変性を事前に確認。最終の構造・完成証拠・snapshot・ユニットテストは既存GitHub Actionsで検証し、合格前にmainへ統合しない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436449.json",
+    "sha256": "08ae389ecf99c41a8cd1644628b1798daac2bd0c3a5dedf29632703119bfd429",
+    "proposed_artwork_sha256": "c367b5296fb76cb8aa54cbc781fc4c567896f7a8d220610444165f52b45c660f",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access images",
+      "3(b) Non-OA materials including museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公式コレクション上で本作はPublic Domain。OA画像CC0と所蔵館の説明文・音声書き起こしの権利を区別。本文は画面の事実や館が明示した制作上の変更を独自の自然な日本語で短く説明し、英語の長文転載・逐語翻訳ではないと判断。重大な未解決利用条件問題は確認されないが、法的許諾・非侵害を保証しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "画像原画・表示画の登録SHA一致はPR #3の旧実行環境で2026-10-29に確認された5作品10画像の記録から引き継ぐ。今回ダウンロードした事実とは扱わない。",
+    "Met音声の初回タヒチ滞在から帰国した年についての記述は制作時期確定に転用せず、公式の ca.1892–94 を保持。",
+    "旧pending欄は互換性のため変更しない。鑑賞者の感情は本人が自由に判断する。"
+  ]
+}
