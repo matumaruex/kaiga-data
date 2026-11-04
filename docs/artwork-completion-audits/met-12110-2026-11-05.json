@@ -1,0 +1,164 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-12110",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "7bf7779c29cf5772297d77d4cff596fe312df48d",
+    "artwork_record_sha256": "bc758b6d399344664517269121acd4200556af13f695787b3a72727a7a7bfeeb",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-12110.json",
+    "draft_sha256": "63e4fd73cf8d984ec02663f3b03dff08f4095aee613bb79ac29a09f485f7412f"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/12110",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview第1文: Italy Valle d'Aosta、sun-dappled landscape と textured brushstrokes",
+        "Overview第2文: stuffed specimenを参考にした二頭の鹿、聖ヒエロニムスを連想させる人物",
+        "Overview第3文: SargentがMet館長へ『Christian association』より『quietness and pantheism』を感じさせるタイトルを望んだ",
+        "Artwork Details: 1908、Oil on canvas、The Hermit (Il solitario)、John Singer Sargent、11.31、Public Domain"
+      ],
+      "observed": "Met作品ページと同館による同作品のプリント紹介を2パスで読み、本文・作者本人の書簡の趣旨・場面・所蔵番号を照合した。"
+    },
+    {
+      "url": "https://www.si.edu/object/hermit-il-solitario-painting:siris_ari_42376",
+      "access": "page_read_once",
+      "locations": [
+        "Met所蔵番号11.31、1908、森・二頭の鹿、地面に座る上半身裸の隠者と岩"
+      ],
+      "observed": "Smithsonianによる米国絵画所在目録の図像記述で人物が岩の近くの画面手前にいると補助確認。旧本文の『森の奥』は修正済み。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Hermit_(Il_solitario)_MET_DT2991.jpg",
+      "access": "search_metadata",
+      "locations": [
+        "Met 11.31、同一作品の旧Met画像DT2991、CC0表示"
+      ],
+      "observed": "過去のMet提供画像で作品同定・利用条件を補助確認。現DP-34372-001の新JPEGバイトSHAとは混同しない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) Open Access / CC0 images",
+        "3(b) non-OA Museum text"
+      ],
+      "observed": "Public Domain／OA作品画像と館の学芸員解説本文を別の権利として確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-12110",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-34372-001.jpg",
+      "status": 200,
+      "sha256": "c814923c692aabfb40471669b27c7018752ffea60a73a5ad9fe6c27a01d11801",
+      "byte_length": 7180485,
+      "width": 3691,
+      "height": 3675,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 data/image-sources.json原画像完全JPEGの実SHA256と縮小画像一致を継承。今回新規JPEGを取得した証拠とは扱わない。"
+    },
+    {
+      "id": "met-12110",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-34372-001.jpg",
+      "status": 200,
+      "sha256": "8ae46a195eda5ada69e000430b881fe9ee9bb46f135d119650dca6ccc92ad47f",
+      "byte_length": 264635,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met公式API primaryImageSmallの2026-10-18 JPEG HTTP・SHA照合台帳を再利用。Web画像の目視とは別。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Metの公式作品番号11.31とWeb作品図版、同じ作品のMet所蔵番号を記載するCommons・Smithsonianを別経路で照合。DP-34372-001の原JPEG現バイトは今回取得せず、旧SHA台帳を継承。",
+    "observed": "ほぼ正方形の森。明暗が入り交じる樹木と岩、画面右手前寄りに上半身裸で座る長髪・ひげの人物、周辺に鹿がいる。木の間の人物・鹿は森の光と溶け合い、強い宗教的物語としての身元は画面から確定しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "最初に既存日本語解説と意味資料・旧画像台帳を確認後、別工程でMet公式の本人書簡、森林と鹿に関する短文・Met別ページ、Smithsonianの画面情報、権利規約を照合。日本語修正はPR #35で済んでいる版で行った。",
+    "limitations": "同じAIが同一会話内に別工程を行ったので別AI・第三者の監査ではない。今回原／表示JPEGの全バイトSHAを再計算せず2026-10-18/20の旧検証記録を再利用。Met英語原文の著作権を画像のCC0と同一視していない。法律上の保証ではない。",
+    "reviewed_artwork_sha256": "bc758b6d399344664517269121acd4200556af13f695787b3a72727a7a7bfeeb",
+    "reviewed_visitor_draft_sha256": "63e4fd73cf8d984ec02663f3b03dff08f4095aee613bb79ac29a09f485f7412f",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met ID12110、11.31、John Singer Sargent、1908、American、Oil on canvas。作者と同題の別作品を混同しない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "アルプス北西イタリアのスケッチ・斑の陽光・剥製参考の二頭の鹿・人物という作品固有の資料をMetに照合。画家本人の手紙はキリスト教的連想を避け静けさと汎神論を求めたが、人物を特定の人物に確定する発言ではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『安心』強度2は作者本人が求めた『quietness』と自然・人影が溶け合う情景に基づく鑑賞者の落ち着き。補助『孤独』強度1は隠者という題とひとりの人物に伴う弱い関連のみで、喪失・悲嘆の感情を仮定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "旧本文の『森の奥』という人物位置をPR #35で『木々の間』へ限定して修正済み。現日本語2段落は公式作品解説の要点と書簡の要旨を自然に意訳・構成し、館の英語表現を長文転載・逐語翻訳していない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "bc758b6d399344664517269121acd4200556af13f695787b3a72727a7a7bfeeb",
+    "visitor_draft_sha256": "63e4fd73cf8d984ec02663f3b03dff08f4095aee613bb79ac29a09f485f7412f",
+    "proposal_sha256": "a2e2dd78a030fee2b4dc3b789c042bf84b297743294cfc3797b5268f44a98e0b",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象版・既存visitorと草稿一致・画像旧SHA・300件IDを事前照合。complete_artwork.py preview/save/check とGitHub Actions成功はPR CIで別に確認し、main統合前には完成としない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-12110.json",
+    "sha256": "a2e2dd78a030fee2b4dc3b789c042bf84b297743294cfc3797b5268f44a98e0b",
+    "proposed_artwork_sha256": "bc758b6d399344664517269121acd4200556af13f695787b3a72727a7a7bfeeb",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access/CC0 images",
+      "3(b) non-OA museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "本作品はMet公式Public Domainで、Met OA画像のCC0・画像台帳を確認。一方、学芸員が書いた解説文と引用した書簡の文章表現には別の権利。既存日本語解説は研究史上の事実と書簡趣旨を独自の日本語に再構成し、英語原文の大幅な逐語翻訳・転記ではない。法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "作品本文の小修正はPR #35で既にmainに反映済み。このPRでは既存本文・画像・感情タグを維持し、監査とcompletionだけ追加。",
+    "旧JPEGバイトSHAと今回のMet等Web作品図版目視を混同しない。",
+    "CIとmain統合成功後だけ正式30/300に加える。"
+  ]
+}
