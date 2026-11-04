@@ -1,0 +1,154 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-439333",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "3c1129054e590296074aa29be2048ce62007a375",
+    "artwork_record_sha256": "ab33b4d07b77f69064cb419887e9e4a18a2f0b5783a4fd5ef7a0da63c5f97a51",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-439333.json",
+    "draft_sha256": "0e539efc8e1086b2c26692413a902d09c61af54630555f305dde2e9a1bc2f8d3"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/439333",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview：荒々しい自然の中の旅人、ドイツ・ロマン派のrestless yearning、孤独と自然の無常、Caspar David FriedrichとSchubert『Die Winterreise』（1827年）との比較",
+        "Artwork Details：Julius von Leypold、1835、Oil on canvas、2008.7、Public Domain、Catharine Lorillard Wolfe Collection"
+      ],
+      "observed": "Met公式ページを別工程で複数回確認し、作者・年・所蔵番号・ロマン主義の読み・作例比較を既存日本語解説および選定資料と照合。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Karl_Julius_von_Leypold_-_Wanderer_im_Sturm.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met所蔵2008.7、Met object ID439333、画題・作者・1835年、同一図版のPublic Domain表示"
+      ],
+      "observed": "同一登録作品の公開画像を別経路で照合。登録DP-34308-001の現在のJPEG実バイトSHAを再測定した証拠とは扱わない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) Open Access/CC0 images",
+        "3(b) Museum texts and other non-OA content"
+      ],
+      "observed": "所蔵館の公開対象画像のOAと研究解説の文章表現は権利条件が別である点を確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-439333",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-34308-001.jpg",
+      "status": 200,
+      "sha256": "670dc11d913b3d540116b4a7a6aa8e5e6c17e11befa881ab98f55afcef2ec4e5",
+      "byte_length": 3883809,
+      "width": 4000,
+      "height": 3076,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet原JPEGの完全バイトSHA256・寸法・縮小同一性の既存実測を再利用。今回原JPEGはダウンロードし直していない。"
+    },
+    {
+      "id": "met-439333",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-34308-001.jpg",
+      "status": 200,
+      "sha256": "2d9872e6a948320956786d448e9c6d8d9d4d1c246ebc9d26632610e734f110b9",
+      "byte_length": 114309,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18のMet API primaryImageSmallの保存実測データを再利用。今回の公式画面・別画像版の目視と分ける。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式2008.7ページの作品図像と同作Met由来Wikimedia画像（DP164876）を表示して目視。2008.7・Met object439333を同定。登録別画像版DP-34308-001との対応はMet公式のAPI primaryImage、旧2026-10-18/20 JPEG台帳で確認。現JPEGバイトを再取得したとは記さない。",
+    "observed": "暗い嵐雲の下で画面中央より下の小さな黒い外套の旅人が蛇行する道を歩く。画面中央に葉を落とした大木の枝、右の崩れた赤茶の石壁、画面左下に池と湿地、左遠方に青い山並みが広がる。同じMet所蔵作品の図像に合致。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存作品DB・日本語本文・旧画像台帳・既存下書きをまず点検。次にMetの学芸員解説と所蔵資料・公開図像を別パスで読み、同館が挙げたロマン派の憧憬と孤独、ショーベルト『冬の旅』の文脈を確認し、Commons図像同定と権利条件を照合。",
+    "limitations": "別AIや第三者ではなく、同じAIの同一会話内での別工程。今回のWeb図版目視は過去の登録JPEG原・表示画像の全バイトSHAを新規に検証したわけではない。元画画像はOAだが館の本文の長文翻訳権利を保証しない。",
+    "reviewed_artwork_sha256": "ab33b4d07b77f69064cb419887e9e4a18a2f0b5783a4fd5ef7a0da63c5f97a51",
+    "reviewed_visitor_draft_sha256": "0e539efc8e1086b2c26692413a902d09c61af54630555f305dde2e9a1bc2f8d3",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 439333、2008.7、Julius von Leypold、1835年、German、Oil on canvas。Metの2008年収蔵作品の同一図像で、旅人と木々と廃墟の壁が一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "MetはRomanticsのrestless yearningに旅人を結び、人間の孤独・自然の無常とフリードリヒおよび1827年シューベルト『冬の旅』の類例を紹介。既存日本語はこれを『同館の説明』と明確に分離。作者本人の自伝的独白とは扱わない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『寂しさ』強度2はMetの人の孤独・落ち着かない憧れという主題と孤独に進む人物の画面、補助『孤独』1は画中のひとりの旅人に限定した弱い別入口。物理的にひとりであることから作者の心理を断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "2段落の日本語作品解説は具体的画像観察を先に据え、Metの英文解釈の要点だけを別段落で『Metは』と帰属して整理。長文の逐語翻訳・大量転載なし。自然の無常と作者の個人史を混同しない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "ab33b4d07b77f69064cb419887e9e4a18a2f0b5783a4fd5ef7a0da63c5f97a51",
+    "visitor_draft_sha256": "0e539efc8e1086b2c26692413a902d09c61af54630555f305dde2e9a1bc2f8d3",
+    "proposal_sha256": "0dbf0be4dd6fc1281ec2aa6ec9d69a70c1811290ad746816d35a07905f4be9b2",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "作品ID・版・既存解説と下書き一致・旧JPEG台帳・対象外299不変・300件一意性の事前確認。実際のcomplete_artwork.py preview/save/checkおよびGitHub Actionsとmain統合まで完成とは数えない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-439333.json",
+    "sha256": "0dbf0be4dd6fc1281ec2aa6ec9d69a70c1811290ad746816d35a07905f4be9b2",
+    "proposed_artwork_sha256": "ab33b4d07b77f69064cb419887e9e4a18a2f0b5783a4fd5ef7a0da63c5f97a51",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA/CC0 images",
+      "3(b) non-OA museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met作品ページはPublic Domain、同一所蔵番号2008.7の公開画像のCC0/OA情報と整合。Metのオリジナル英語解説は別の文章権利の対象だが、現日本語解説は画面観察と主題の事実を独自に再構成し、学芸員原文の長文転載や逐語訳は回避。非侵害の法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "現存日本語本文・感情索引・画像台帳を維持、審査・completionのみ追加。",
+    "今回のウェブ図像視認と旧JPEG実SHAの検証証拠を分離。",
+    "mainのCI成功・PRマージ後だけ正式34/300。"
+  ]
+}
