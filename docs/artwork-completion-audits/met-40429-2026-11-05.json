@@ -1,0 +1,156 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-40429",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "b3654e9c2149e2558fa0264c656446f99802a0e9",
+    "artwork_record_sha256": "9ea5b37b836e201ebe07b6cbe8f10cd7dbc08912ef323d22fb2fc71b6cb6dc78",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-40429.json",
+    "draft_sha256": "19e9a3cda7e8245438692356ab7e697658d03ca50ffbd22bf711a12a15c70ab5"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/40429",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview 第1段落：Samojeは号（style name）、本名・生涯不明、専門画家・中人身分の可能性",
+        "Overview 第2段落：二幅一対の可能性、明代画譜、董其昌が体系化した南宗文人画の影響",
+        "Overview 第3段落：朝鮮で17世紀末～19世紀初頭に広まる、自在な筆致と簡潔な構成",
+        "Artwork Details：late 18th century、朝鮮、Framed painting; ink and color on hemp or ramie、15.96.2、Public Domain"
+      ],
+      "observed": "検索結果とMet公式個別ページを別途取得し、既存日本語2段落・作品番号・制作情報・時代・解釈の留保を再照合。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:MET_15_96_2.jpeg",
+      "access": "page_read_once",
+      "locations": [
+        "Met作品番号15.96.2／ID40429／同館寄贈画像／553x900画像、CC0記録"
+      ],
+      "observed": "同所蔵番号の登録画像と題名およびMeta情報を別経路で補助照合。収録当時のJPEGバイトSHAを今回再計算したものではない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights：非OAの館資料に権利留保",
+        "3(a) OA/CC0：対象の画像は商用・非商用を問わない再利用可",
+        "3(b) 館の文章表現は画像OAと同一視しない"
+      ],
+      "observed": "原作画像のOpen Access表示と所蔵館の学芸員本文の権利条件を分離して確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-40429",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/15_96_2.JPG",
+      "status": 200,
+      "sha256": "72505eb6b4cb7fe601d3384c2f10ce2c1eb4dfe719aedd8bf2fe62c7e8c92d2f",
+      "byte_length": 127148,
+      "width": 553,
+      "height": 900,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のdata/image-sources.json・登録原JPEGバイト長／SHA256・画像同一性の台帳を引き継ぐ。今回は公式Web図版を別途視認したが新規原JPEGのSHAは未計算。"
+    },
+    {
+      "id": "met-40429",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/15_96_2.JPG",
+      "status": 200,
+      "sha256": "1e16b49342f91f413a4a86da56437aff754389d4bc7b27bdcba2d00847c26d9d",
+      "byte_length": 85605,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18のMet primaryImageSmall取得とハッシュ記録を継承。今回の視覚同定とは別。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品ページに埋め込まれた同IDの画像（collectionapi.metmuseum.org/api/collection/v1/iiif/40429/73657/main-image）を直接表示して目視し、Metの作品番号15.96.2と登録旧画像・Commonsの同定情報を照合。登録のoriginal/display JPEGは今回バイト再取得せず旧SHA台帳を引き継ぐ。",
+    "observed": "縦長の淡彩・墨の山水図。上部に山並みと墨色の樹木、画面中ほどに林と小建物、下方に水辺の亭と人物らしい小さな姿、湖岸・樹木がある。題名の湖畔の亭を視認でき、別題の『Scholar in a Lakeside Pavilion』（Met ID40432／15.96.6）とは所蔵番号と図版が異なる。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存作品本文・DBを先に検査後、別工程でMet公式の文章を作品番号に対応づけ、Web図版を直接目視。続いてCommonsの別媒体同定、Met権利規約、日本語本文の言い換え・感情索引を照合した。",
+    "limitations": "同一AIの同一会話内での別パス調査であり別AI／第三者の独立審査とは呼ばない。画像の完全バイトハッシュは旧台帳を再利用し、今回原JPEGをダウンロードしていない。著作権に関する法的な保証ではない。",
+    "reviewed_artwork_sha256": "9ea5b37b836e201ebe07b6cbe8f10cd7dbc08912ef323d22fb2fc71b6cb6dc78",
+    "reviewed_visitor_draft_sha256": "19e9a3cda7e8245438692356ab7e697658d03ca50ffbd22bf711a12a15c70ab5",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met ID40429、所蔵番号15.96.2、Pavilion by the Lake、Samoje（三五斎）、朝鮮・朝鮮王朝後期・18世紀後半。Metは本人の本名・生涯を未解明とする。材質は麻または苧麻の支持体に墨彩と記載。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "二幅対の可能性・明代画譜の転用可能性・董其昌の南宗画の影響はすべてMetの研究上の推定と区別。現本文は『可能性』『とみられ』と留保しており、画家本人の心理・発言の捏造なし。"
+      },
+      {
+        "area": "emotion",
+        "finding": "補助『安心』強度1は画中の湖畔の亭・木立に囲まれた居場所への弱い連想に限り、人物や作者が安堵した事実とは主張しない。弱い入口に過ぎず、『静けさ』だけで作者の意図や鑑賞者の反応を断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "日本語鑑賞本文は美術史的事実とMetによる推定を2段落で独自に組み直し、館の英語本文を大量転載・長文引用していない。館の原文と論点の順序には一定の類似があるため逐語的な翻訳・再利用とは区別し、法的保証とはしない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "9ea5b37b836e201ebe07b6cbe8f10cd7dbc08912ef323d22fb2fc71b6cb6dc78",
+    "visitor_draft_sha256": "19e9a3cda7e8245438692356ab7e697658d03ca50ffbd22bf711a12a15c70ab5",
+    "proposal_sha256": "03b54075ae1e17917ebd14d10cc365d2ee235c8a144707c70af7264561b3be5f",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "既存の作品レコード・本文・画像旧SHA・300作品IDを事前照合。complete_artwork.py preview/save/checkとGitHub ActionsはPR上で別途実行・確認し、main統合前には完成と数えない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-40429.json",
+    "sha256": "03b54075ae1e17917ebd14d10cc365d2ee235c8a144707c70af7264561b3be5f",
+    "proposed_artwork_sha256": "9ea5b37b836e201ebe07b6cbe8f10cd7dbc08912ef323d22fb2fc71b6cb6dc78",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA/CC0 images",
+      "3(b) restricted Museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "公式作品ページにはPublic Domain表示、登録画像と同一番号のCommons画像にCC0表示。Met原本文の文章表現は画像OAに包含されない。現鑑賞日本語本文は作品事実・美術史研究を自分の日本語に整理し、館の英語原文を長文転載していない。個別の非侵害法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "本文・選定資料・感情タグ・登録画像は変更せず、対象作品にcompletionと独立監査記録のみ付与。",
+    "以前のJPEG実ハッシュと今回の公式Web図版目視を区別する。",
+    "GitHub Actionsとmain統合を経るまでは正式30/300のまま。"
+  ]
+}
