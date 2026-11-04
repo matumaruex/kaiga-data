@@ -95,14 +95,21 @@ class CompletionTests(unittest.TestCase):
         self.write("data/artworks.json", db)
         baseline = complete.digest(art)
         proposal = self.read(PROPOSAL)
+        proposed = copy.deepcopy(art)
+        for change in proposal["changes"]:
+            target = proposed
+            for key in change["path"][:-1]:
+                target = target[key]
+            target[change["path"][-1]] = copy.deepcopy(change["after"])
+        proposed_hash = complete.digest(proposed)
         proposal["baseline_artwork_sha256"] = baseline
-        proposal["proposed_artwork_sha256"] = baseline
+        proposal["proposed_artwork_sha256"] = proposed_hash
         self.write(PROPOSAL, proposal)
         audit = self.read(AUDIT)
         audit["version"]["artwork_record_sha256"] = baseline
-        audit["separate_pass_review"]["reviewed_artwork_sha256"] = baseline
-        audit["program_checks"]["proposed_artwork_sha256"] = baseline
-        audit["proposal"]["proposed_artwork_sha256"] = baseline
+        audit["separate_pass_review"]["reviewed_artwork_sha256"] = proposed_hash
+        audit["program_checks"]["proposed_artwork_sha256"] = proposed_hash
+        audit["proposal"]["proposed_artwork_sha256"] = proposed_hash
         audit["proposal"]["sha256"] = complete.file_hash(self.root / PROPOSAL)
         audit["program_checks"]["proposal_sha256"] = audit["proposal"]["sha256"]
         self.write(AUDIT, audit)
