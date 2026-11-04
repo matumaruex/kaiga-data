@@ -1,0 +1,154 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436582",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "4239a17a97db50a109e8de831a882b2acf50c68b",
+    "artwork_record_sha256": "b558808e04f0d08b5de77ade4a0a3c4396739c32af30a1cb6fbcd327f7c204d9",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436582.json",
+    "draft_sha256": "88e6dd0b9d393d157052b10f2c2d8e484483a60c9a4d4fd47be97adab1a3b33e"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436582",
+      "access": "page_read_twice",
+      "locations": [
+        "作品解説：衣装と髪・上向きの目・傾いた頭からの感情表現（perhaps sorrowful longing）",
+        "作品解説：têtes d’expressionの教育訓練と独立作、18世紀後半の感傷主義との接点",
+        "Artwork Details：Greuze、possibly 1780s、Oil on canvas、41×32.4cm、番号67.187.72、Public Domain"
+      ],
+      "observed": "Metは制作時期を『possibly 1780s』、表情を『perhaps sorrowful longing』という可能性を含む言い方で説明。表情頭部が伝統的な学術訓練を超え、独立した作品として鑑賞された歴史と感傷主義とのつながりを確認。特定の失恋や後悔の物語は説明していない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/ja/essays/jean-baptiste-greuze-1725-1805",
+      "access": "page_read_twice",
+      "locations": [
+        "Greuzeの『expressive head』ジャンルと感情表現に関する所蔵館エッセイ"
+      ],
+      "observed": "別のMet研究解説でも表情を主題にする頭部の作品ジャンルと同時代の感情表現の文化的背景が説明されている。個人の失恋の伝記資料とは扱わない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_twice",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) Open Access画像とCC0",
+        "3(b) 非OAの館解説文への権利制限"
+      ],
+      "observed": "Public Domainの作品画像と、館公式ページに付された専門的説明文の転載権を区別。既存日本語解説は短い独自表現で館情報を組み立てていると評価。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436582",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-18078-001.jpg",
+      "status": 200,
+      "sha256": "638bfc10490a1d2307798876f3b638527f4aabbe017e6418d0c0b29431c76e9f",
+      "byte_length": 3895778,
+      "width": 3228,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "mainのMet primaryImage、完全JPEG・SHA256・縮小画一致（2026-10-20）の既存記録。"
+    },
+    {
+      "id": "met-436582",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-18078-001.jpg",
+      "status": 200,
+      "sha256": "2af8a771e6711a5c25534d71c4a86e5efcedf2ca644c98939aa54899ae8ad92c",
+      "byte_length": 94673,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "mainのMet公式JPEG/HTTPおよびSHA照合記録を再利用。新規バイト取得ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "web画像検索でMet公式配信の原画像DP-18078-001.jpg（met-436582）を画面表示し、Met作品ページの所蔵番号67.187.72・既存登録画像ハッシュと対応を確認。今回登録JPEGの再ダウンロードやSHA再計算は行わない。",
+    "observed": "縦長の絵画。暗い背景、薄い透ける灰色の布と濃い巻き髪が女性の頭を囲み、首と顔は斜めに向き、目線は右上、唇はわずかに開く。具体的な相手や出来事は描かれない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存本文と選定資料を先に把握した後、Met所蔵ページ・別研究エッセイ・公式画像・権利規約を別工程で確認し、題名・年代の未確定性、表情習作・感傷主義との関係、感情索引、旧未練タグ解除後の注意書き重複を再点検。",
+    "limitations": "同じAI・同一会話の別パスであり、他モデルまたは第三者による独立監査と同一視しない。登録画像JPEGバイトの2026-10-20 SHA証拠を再利用し今回の再取得は行っていない。権利上の法的保証はない。",
+    "reviewed_artwork_sha256": "781ac5f85bc3d5c40788693e6f3a443424ed5a8c7fdcf4a03b9f25983440c0d4",
+    "reviewed_visitor_draft_sha256": "88e6dd0b9d393d157052b10f2c2d8e484483a60c9a4d4fd47be97adab1a3b33e",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Jean-Baptiste Greuze《Head of a Young Woman》、possibly 1780s、油彩、Met 67.187.72、41×32.4cm。公式画像と本文の上向きの目・斜めに傾く頭・揺れる衣と髪の描写が一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metは表情習作の伝統・独立作品化・18世紀の感傷主義を説明し、感情はperhaps sorrowful longingと留保する。個別の失恋・後悔・特定人物についての証拠はない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主感情『寂しさ』強度2は、切望を思わせる表情に対する鑑賞者の入口として可能。ただし『悲しみ』や『未練』の確定的主題ではない。以前解除された未練タグを再導入しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存の鑑賞本文は具体的な画面から始め、可能性を含む解釈・表情頭部の制作史・感傷主義との関係を自然な日本語で説明。Metの一段落の独特の英語表現を連続して逐語訳した転載は見られず維持。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "781ac5f85bc3d5c40788693e6f3a443424ed5a8c7fdcf4a03b9f25983440c0d4",
+    "visitor_draft_sha256": "88e6dd0b9d393d157052b10f2c2d8e484483a60c9a4d4fd47be97adab1a3b33e",
+    "proposal_sha256": "3578aabb12f23095b4c1236f3f43757ef5d07427b26b9f99a35c2a316322511f",
+    "checks": [
+      "baseline_with_existing_visitor_sha256",
+      "verified_visitor_draft_sha256",
+      "two_curatorial_revisions_with_before_after_values",
+      "prior_registered_image_sha256",
+      "300_unique_ids",
+      "other_299_unchanged",
+      "same_id_order"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象の既存本文と下書きの完全一致・旧画像の登録SHA記録・修正前/後の版ハッシュと対象外299作品不変性を事前検査。最終的なcomplete_artwork.pyのpreview/save/check、形式・固定snapshot・ユニット検査はGitHub Actionsに委ね、合格前にmainへ統合しない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436582.json",
+    "sha256": "3578aabb12f23095b4c1236f3f43757ef5d07427b26b9f99a35c2a316322511f",
+    "proposed_artwork_sha256": "781ac5f85bc3d5c40788693e6f3a443424ed5a8c7fdcf4a03b9f25983440c0d4",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access/CC0",
+      "3(b) non-OA text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公式でPublic Domainの絵画画像を確認し、Open Access画像と館解説文の権利範囲を区別。既存日本語本文は画面の観察と館の論考にある歴史・解釈を独自にまとめており、現段階で大きな文章転載・翻訳類似上の問題は見つからない。法律上の保証は行わない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "本文とreview欄は元から登録されており完全一致のまま保存する。旧rights_status=pendingは互換性のため変更しない。",
+    "旧選定欄には未練タグ解除後の二重説明と、現在存在しない弱い補助タグへの参照が残っていた。そこだけ限定修正し、感情タグそのものは変えない。",
+    "画面の確認は今セッション。既存画像バイトのSHA検証は2026-10-20の旧証拠。"
+  ]
+}
