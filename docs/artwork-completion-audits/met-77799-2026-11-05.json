@@ -1,0 +1,166 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-77799",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "7c26c24a3b51e6d226c07cf4d9d5ae781287e4c9",
+    "artwork_record_sha256": "11fb476d2c2a909555c6b8994ad270d73ce2cd1d27dc75d0fc8336c1397de413",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-77799.json",
+    "draft_sha256": "b607ec58738466ee62942a49ff7fb7425dc4128e0e0e782d8898bc8bfecb856d"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/77799",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview 第1段落: 10世紀『伊勢物語』宇津山段、在原業平をモデルとする匿名の主人公、蔦の細道という琳派題材",
+        "Overview 第2段落: 旅人と従者、蔦・楓、修行者に託す都の恋人宛の和歌、夢にも会えないという内容",
+        "Overview 第3段落: 深江蘆舟が18世紀初頭に活躍、宗達の古様",
+        "Artwork Details: Fan mounted as a hanging scroll、early 18th century、2015.300.91、Public Domain"
+      ],
+      "observed": "検索結果とMet公式作品ページを別々に読み、作品ID・所蔵番号・作者・年代・琳派の背景・物語の典拠・本文の具体的主張を照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/853208",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: 深江蘆舟の現存作に伊勢物語・宇津山題材の作品がある（2015.300.91）",
+        "Overview: 18世紀前半の宗達様式への接続。光琳の弟子説は未確認と明記"
+      ],
+      "observed": "同館の別作品《牡丹》説明で作者と古典図像の研究状況を補助確認。師弟関係は今回断定せず、別作品と混同しない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/847083",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: 伊勢物語宇津山・蔦と楓・修行者と都への伝言の解説",
+        "Artwork Details: 2020.289.1a–o,.2 は別の硯箱と机で本件2015.300.91ではない"
+      ],
+      "observed": "異作品のMet資料で『伊勢物語』の主題を照合し、対象の扇面画像や作者帰属と混同しない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_twice",
+      "locations": [
+        "1 Copyright and Proprietary Rights: 非OA作品文書は権利保護対象",
+        "3(a) Open Access / CC0: 作品画像の公開権利",
+        "3(b) non-OA text: 所蔵館の学芸員文章は画像と異なる条件"
+      ],
+      "observed": "Met OA画像・作品記述の事実と、館による文章表現の権利を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-77799",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-12232-078.jpg",
+      "status": 200,
+      "sha256": "446149b96945f8f5ee1452851c54bfa431ef00def76e4fb5190f19a7e94e88c4",
+      "byte_length": 4828523,
+      "width": 4000,
+      "height": 3002,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "data/image-sources.json の2026-10-20 JPEG全量SHA256・寸法・縮小同一性検査を再利用。今回JPEGの全バイト再取得・ハッシュ再計算なし。Met公式の公開図版との画面同定は今回別途実施。"
+    },
+    {
+      "id": "met-77799",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-12232-078.jpg",
+      "status": 200,
+      "sha256": "26faddb8832dc4661f2b32d3fccc1658997dc0064eb2aa07cb9ae24d12e40510",
+      "byte_length": 147247,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "docs/batch015-online-result.json のMet objectID77799（2015.300.91）公式primaryImageSmall JPEG実取得・SHA256検査を再利用。今回新たにJPEGバイトは取得していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met作品ID77799公式ページとweb画像検索に表示された同館original/DP-12232-078.jpgの実際の画面を今回視認。画像バイトのハッシュ記録は過去の公式Met API・原画像検査を継承。",
+    "observed": "装飾的な掛幅の中央に扇形の画面。緑の濃い蔦に覆われた山道、濃淡の緑の草木、右側に山道沿いの人物、左側に烏帽子と装束の人物。Met公式2015.300.91に載る図版と同じ構図・ファイル名の作品。画中で従者と修行者を明瞭に個別同定できないが、Met公式解説に双方の物語があると確認し、画面だけで人物の感情を断定しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "まずDB本体と2026-10-24の既存本文・検証済みドラフトを読み、次にMet原資料の作品番号／具体的段落、同館別作品による琳派の背景、対象画像と権利規約を別工程で参照。事実、作者の証言と所蔵館の説明、タグと本文、文章類似を再評価した。",
+    "limitations": "同じAIが同一会話内の別工程で確認したもので、他AI・第三者の独立監査ではない。今回答時のJPEG原・表示バイトを再ダウンロードしてSHA256を算出していない。原／表示の一致は2026-10-19/20の記録継承で、今回の画面目視とは別。図版の細部の登場人物の同定には限界がある。権利について法的な非侵害保証は主張しない。",
+    "reviewed_artwork_sha256": "11fb476d2c2a909555c6b8994ad270d73ce2cd1d27dc75d0fc8336c1397de413",
+    "reviewed_visitor_draft_sha256": "b607ec58738466ee62942a49ff7fb7425dc4128e0e0e782d8898bc8bfecb856d",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met公式ID77799／2015.300.91、深江蘆舟（1699–1757）、18世紀初頭、日本の江戸時代、扇面を掛幅に仕立てた絵画。Met 2015.300.88の宗達作や別の伊勢物語作品とは別物。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "平安時代の在原業平がモデルとされる匿名の旅人・従者が宇津山に至り、都へ向かう修行者に恋人への和歌を託す『伊勢物語』の物語、夢にも会えないという歌、宗達の古様を取り入れた蘆舟の描法をMet原文で確認。作者の本人発言と取り違えず、画面人物の心理を実在の作者に帰属しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『寂しさ』強度2は、離れた恋人と夢でも会えない歌の物語に自然な接点があるため維持。感情は作者心理の推断ではない。前PR #24で具体化したfitting_situationsとreasonもMetの和歌を託す物語に直接対応。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存3段落の重要主張は館の解説と一致し、追加の物語背景は関連公式作品でも確認。館文に沿う事実の整理だが、日本語本文は作者の長文表現を逐語的に移したものではなく、独自のまとめ・接続表現で記述。作品そのもののOAと学芸員解説文章を区別して審査。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "11fb476d2c2a909555c6b8994ad270d73ce2cd1d27dc75d0fc8336c1397de413",
+    "visitor_draft_sha256": "b607ec58738466ee62942a49ff7fb7425dc4128e0e0e782d8898bc8bfecb856d",
+    "proposal_sha256": "e21f965d65c68d96182f697b7a375b3d6351336ea68d2f46c559152c88e4b7f9",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "ここに記すPASSは、作業中に本文同一性・ID・SHA参照・変更対象を照合した事前整合確認。Python complete_artwork.py preview/save/check、validate_artworks.py、check_catalog_snapshot.py、GitHub Actionsの結果はこれとは別で、PRのCIがPASSしてmainへマージした場合にのみ正式完成とする。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-77799.json",
+    "sha256": "e21f965d65c68d96182f697b7a375b3d6351336ea68d2f46c559152c88e4b7f9",
+    "proposed_artwork_sha256": "11fb476d2c2a909555c6b8994ad270d73ce2cd1d27dc75d0fc8336c1397de413",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access/CC0 image",
+      "3(b) non-OA museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "対象の画面・Metの現行Public Domain表示と過去のOpen Access配信記録で画像のCC0を確認。一方でMetの所蔵解説文には画像と同じ自由利用条件はない。日本語本文は美術史上の事実と物語背景をもとに組み立てられ、館の長文逐語訳・丸写しを認めない範囲と判断。許諾取得・法律上の保証と区別。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "今回の検証では対象作品の本文、感情索引、画像台帳は維持。すでにユーザー承認でPR #24にて修正したfitting_situationsの本文は公式原資料で確認済み。",
+    "既存のJPEGバイト照合と今回のWeb表示による作品画面同定を別々に記録し、再取得や別AIの確認を装わない。",
+    "実際の完成は登録スクリプトとCIの成功後、mainに統合してから計上する。"
+  ]
+}
