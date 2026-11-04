@@ -1,0 +1,164 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-438952",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "d8bb398c25bb84820a6b9836334f3ecef5bc3125",
+    "artwork_record_sha256": "08e285eda3159b429658defd30c277b00a41ccf3d4409612985c9c4380836ee5",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-438952.json",
+    "draft_sha256": "40fe2338569ed1a466af1aadf2fdb969f015ab593700460c825b4b14abe97000"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/438952",
+      "access": "page_read_twice",
+      "locations": [
+        "本文：三人の人物、城塞カステレットの位置、師エッカースベルグ、背中と月明かりをロマン主義のlongingと読む解説",
+        "Artwork Details：Martinus Rørbye、1839年、油彩・カンヴァス、28.9×24.4cm、2007.164.7、Public Domain"
+      ],
+      "observed": "Met公式作品ページの解説本文と作品データを別工程で照合。Romantic longingは館側の読解であり、作者が寂しさを明言した証拠ではない。"
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Caspar_David_Friedrich_Moonwatchers.pdf",
+      "access": "pdf_text_read",
+      "locations": [
+        "Sabine Rewald, 2001, catalogue no.18, p.54–55：同じ作品・署名1839[?]、城塞・港・兵士1と水夫2、隠れた月と水面・雲への反射",
+        "同所：ドイツ・ロマン主義の敬虔な月見と対照的に、三人が仕事の合間にくつろいで月を見ているという解釈"
+      ],
+      "observed": "Met刊行の旧研究資料本文を確認。現在の短い公式展示解説との解釈上の差を保ち、本文に書かれていない断定を加えなかった。PDFのウェブスクリーンショット取得はキャッシュエラー、本文抽出と図版説明のみ確認。"
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Recent_Acquisitions_A_Selection_2006_2007_The_Metropolitan_Museum_of_Art_Bulletin_v_65_no_2_Fall_2007.pdf",
+      "access": "pdf_text_read",
+      "locations": [
+        "Met Bulletin Fall 2007 p.41：同作の所蔵番号・制作年ca.1839、画面位置と三人が月を見る説明、隠れた月の反射"
+      ],
+      "observed": "Metの収蔵時解説も三人の休息と月明かりを説明。PDFスクリーンショット取得はキャッシュエラー、本文抽出からの照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_twice",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) OA/CC0 image materials",
+        "3(b) non-OA text restrictions"
+      ],
+      "observed": "公式作品画像のPublic Domain/OAと館の学芸文章・PDFの権利を区別し、独自日本語本文の内容類似を確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-438952",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-34305-001.jpg",
+      "status": 200,
+      "sha256": "ef3bdcae674d534e4581216f249c915998cf06bf6244db2a1d03f2183877b608",
+      "byte_length": 3728373,
+      "width": 3405,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "data/image-sources.json ID met-438952の2026-10-20登録原JPEG完全ダウンロード・SHA256、寸法・縮小画像照合を継承。今回実際のバイトを再取得していない。"
+    },
+    {
+      "id": "met-438952",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-34305-001.jpg",
+      "status": 200,
+      "sha256": "2b85ba0cbe34329a58e5d8cbece0e98471a35e7eececffa7578ebd214d6c94ec",
+      "byte_length": 99846,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "data/image-sources.json ID met-438952の旧HTTP/JPEG/SHA照合記録を継承。今回実際のバイトを再取得していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式の作品ID・図版説明と2001年Met図版の抽出情報を、画像検索で表示した同題作の複製画像（Artvee、画面は正方形にトリミング）と照合。Met公式CDNの登録原JPEGを今回直接取得・目視してはいないため、過去の登録画像SHA証拠とは分離。",
+    "observed": "手前に背を向けた三人、左手の尖った屋根の見張り小屋、右の羽飾り・赤い制服の兵士、柵のロープ、遠方の帆船、暗い港と水平線の月光が一致。人物の私的な感情は画像からは断定できない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "まずmainの実レコード・既存鑑賞解説・感情索引・旧JPEG検査記録を読み、その後、Met現行公式作品ページ・同館2001年研究図録・2007年収蔵解説・権利規約と作品画像の表示を別工程で見直し、事実・研究と観察の区別・タグの自然な接点・本文類似・権利を点検。",
+    "limitations": "同じAIによる別工程で第三者・別AIによる独立審査ではない。Met公式CDNの登録JPEGをこのセッションで直接新規取得・SHA計算したものではなく、2026-10-19／20日の旧照合証拠を再利用。2001年・2007年PDFのスクリーンショットはウェブキャッシュエラーで未取得、本文抽出と画像説明に依拠。著作権の法的な非侵害保証ではない。",
+    "reviewed_artwork_sha256": "08e285eda3159b429658defd30c277b00a41ccf3d4409612985c9c4380836ee5",
+    "reviewed_visitor_draft_sha256": "40fe2338569ed1a466af1aadf2fdb969f015ab593700460c825b4b14abe97000",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Martinus Rørbye《View from the Citadel Ramparts in Copenhagen by Moonlight》、Met 2007.164.7、油彩カンヴァス、28.9×24.4cm、Met現行1839年。旧館資料は署名年を疑問符付きで記録し、外部資料に異年表記も見られるが現行所蔵館の帰属・年代表記を採用。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met現行説明は背を向けた三人と月光にロマン主義的longingを読む。Metの2001年研究と2007年収蔵解説では、兵士・水夫が勤務を一時中断して隠れた月を眺めている描写も強調。いずれも作者の直接証言ではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『寂しさ』強度2は人々の後ろ姿と夜の港・遠景が鑑賞者に生みうる距離感への入口として限定して維持。Metのlongingと寂しさは同義ではなく、三人が孤独であると確定せず、月見の落ち着いた見方と共存する。補助追加や数合わせはしない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落のカステレット・三人・年代・エッカースベルグ・Metのロマン主義的longingは原資料の該当箇所が支持。人物の思いは確定しない留保がある。公式の短い英文説明の長文逐語訳や全文転載ではなく独自の構成と日本語表現。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "08e285eda3159b429658defd30c277b00a41ccf3d4409612985c9c4380836ee5",
+    "visitor_draft_sha256": "40fe2338569ed1a466af1aadf2fdb969f015ab593700460c825b4b14abe97000",
+    "proposal_sha256": "2679393adab15b9e6ec159ba04df3e07c6cbecff75ca2d2da83a23a6dbecbd18",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_exact_draft_equality",
+      "draft_file_sha256",
+      "no_curation_or_emotion_change",
+      "old_original_and_display_image_sha256_evidence",
+      "300_unique_ids",
+      "other_299_unchanged_by_candidate",
+      "same_id_order"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象1レコードの内容SHA、下書き原文ファイルSHA、300件ID一意性、完成20件の前状態をコードで確認。提案は変更なしのため対象外299件は差分無し。既存のcomplete_artwork.py preview/save/check、data validator、snapshotおよびGitHub ActionsのPASSをPR上で確認するまでmainへ統合しない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-438952.json",
+    "sha256": "2679393adab15b9e6ec159ba04df3e07c6cbecff75ca2d2da83a23a6dbecbd18",
+    "proposed_artwork_sha256": "08e285eda3159b429658defd30c277b00a41ccf3d4409612985c9c4380836ee5",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA/CC0 images",
+      "3(b) non-OA text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公式ページで対象作品画像はPublic Domain。旧画像記録はOpen Access/CC0表示と画像URLを照合。英語所蔵解説や図録PDFの文章はCC0とみなさない。既存鑑賞本文は根拠を踏まえつつ独自の日本語と章立てで、重大な転載・逐語訳上の問題は発見しなかった。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存visitor_explanationの本文・出典URL・レビュー欄、キュレーション・感情タグを修正せず、v2完成記録だけ付与。",
+    "寂しさの入口は視覚的な距離感の可能性に限り、人物・作者の心理の断定を避ける。",
+    "前回の画像SHAは同一ファイル検査の旧証拠であって今回の取得ではない。",
+    "GitHub Actions CI成功・mainマージが完了するまでは20/300から増やさない。"
+  ]
+}
