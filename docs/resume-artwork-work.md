@@ -1,6 +1,14 @@
 # モデル・チャットを変えたときの再開地点
 
-## 【最新の再開地点】2026-11-05：29完成／5保留
+## 【最新の再開地点】2026-11-05：30完成／5保留
+
+- **正式完成30/300作品**（必ず最新mainの `data/artworks.json` から再計算）。今回の完成3作品：童鈺《浸月圖》 `met-73161` [PR #32](https://github.com/matumaruex/kaiga-data/pull/32)、デヴィダーサ《口論で仲違いした遊女と恋人》 `met-37941` [PR #34](https://github.com/matumaruex/kaiga-data/pull/34)、サージェント《隠者》 `met-12110` [PR #36](https://github.com/matumaruex/kaiga-data/pull/36)。この3件は作品別出典・画像・本文・タグ・権利の審査とGitHub Actions成功後にmain統合。直近のPR #36は [検査SUCCESS](https://github.com/matumaruex/kaiga-data/actions/runs/41931611172)、統合コミット `26bbcf1d747f8e628513f866e6ded43b7f7a0fed`。鑑賞本文115件。
+- **本文の限定修正：** `met-37941` で画面に男性が存在するため『立ち去る瞬間が描かれない』を過剰断定として[PR #33](https://github.com/matumaruex/kaiga-data/pull/33)で修正。 `met-12110` は人物位置を『森の奥』でなく『木々の間』へ[PR #35](https://github.com/matumaruex/kaiga-data/pull/35)で修正。いずれもその後の完成監査で現行本文を照合した。強い感情を根拠なく追加しない。
+- **内容保留は合計5作品のまま**（今回の新規HOLDなし、以前の `met-737735`《空房對月圖》の画像同定問題ほか）。
+- **次の着手ID：`met-40429`《湖畔の亭》（Pavilion by the Lake）**。Met公式の題名・人物・風景・所蔵番号・登録画像との一致、既存本文／出典／感情タグ／利用条件を一件ずつ点検。完成できれば監査とcompletionをGitHub mainへ保存し、別作品へ連続して進む。
+- **品質・引き継ぎ規則：** 1作品ごとに証拠と実質審査、既存の `complete_artwork.py` の検証、CI・main統合を条件に完成数へ加える。JPEGの2026-10-18/20旧バイト検査と今回のWeb図版目視は区別する。同一AIによる別工程を別AIの独立審査と偽らない。背景処理を約束せず、本ファイル先頭と最新mainから再開。
+
+## 【過去の再開地点】2026-11-05：29完成／5保留（以下履歴）
 
 - **正式完成29/300**。童鈺《浸月圖》`met-73161`を[PR #32](https://github.com/matumaruex/kaiga-data/pull/32)でmainへ統合。デヴィダーサ《口論で仲違いした遊女と恋人》`met-37941`は[PR #33](https://github.com/matumaruex/kaiga-data/pull/33)で本文の過剰断定を修正してから、[PR #34](https://github.com/matumaruex/kaiga-data/pull/34)で正式完成。[PR #34のGitHub Actions](https://github.com/matumaruex/kaiga-data/actions/runs/41930773855) SUCCESS。進捗正本は最新mainのDB。鑑賞本文115件。
 - **内容保留：従来5作品のまま**。《空房對月圖》の画像同定問題など、今回新規保留なし。
