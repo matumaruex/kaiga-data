@@ -1,0 +1,156 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-37852",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "26129be14522fbfcef812075670e012b0229c5b5",
+    "artwork_record_sha256": "9e2f32a45d546ff04f87ecde590b62c334f4e5e22b037f518dff1631253e37c6",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-37852.json",
+    "draft_sha256": "7cd2cc10ccc52b4b3fec5a4a2665567165d911a9456fbeca098d4b9e0c4530c1"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/37852",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview 第1文：女性が恋人の来訪をanxiously waiting、男性はfar too lateと遅れて現れる",
+        "Overview 第2文：女性は高揚・近づく喜び・誘惑したい気持ちとともに、別の女性への疑念を抱く",
+        "Overview 後半：拒絶する手振りと男性の謝罪の姿、ラージプートでは表情でなく身振りと暗示で感情を表す",
+        "Artwork Details：1605–06年頃、Rajasthan Bikaner、Opaque watercolor and ink on paper、1981.460.3、Public Domain"
+      ],
+      "observed": "本文PR #41の2点修正がMet公式Overviewの具体的な言い回しと一致。別の同題作Met 37908/37909と混同していない。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:MET_DP156175.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met Object ID37852／所蔵番号1981.460.3、DP156175、3,118x4,000画素の同題の公開原画像、CC0表示"
+      ],
+      "observed": "登録DP156175原画像の寸法・題名・所蔵番号を別経路で補助確認し、2026-10-20の旧SHAとの同一版を確認。今回原JPEGの完全バイト再計算は未実施。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) OA/CC0 images",
+        "3(b) non-OA museum text"
+      ],
+      "observed": "画像の自由利用表示は学芸員の文章の自由転載とは別であると確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-37852",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP156175.jpg",
+      "status": 200,
+      "sha256": "fd48ebf1e47aa277f02db01a16aa52c124b3b902c9ec25d97ebadd27d28ac5a2",
+      "byte_length": 2686428,
+      "width": 3118,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet原JPEG全バイトSHA・寸法・Web縮小同一性は旧data/image-sources.jsonから同版の証拠を継承。今回再ダウンロードしていない。"
+    },
+    {
+      "id": "met-37852",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156175.jpg",
+      "status": 200,
+      "sha256": "a442a9c5d53f31904b64be0d26f877a5df2898bd54b8aad557bc1d445aaab3ee",
+      "byte_length": 106378,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met APIのprimaryImageSmallを2026-10-18にHTTP/JPEG/実SHA確認した台帳を継承。新しい今回のWeb図版目視とは別。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式37852の公開原図版DP156175と、同所蔵1981.460.3としてCommonsに掲載される同一作品の画像を目視。MetにはRamkali Ragini同名の別作（37908・37909）があるため所蔵番号と図柄を明示的に区別。",
+    "observed": "縦長黄土色の縁に上部に文字、石壁の囲う中庭でオレンジの下衣の女性が座り、手を上げた拒絶の身振り。右に模様付き衣服の男性が膝を折りかがむ。女性の傍の高い建物の赤い布と奥の緑の樹木、男女の身振りの対立が見える。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存DBと改稿後の日本語本文・草稿を点検してからMet公式の男女の行為、同館の詩文による高揚・疑念・謝罪の解釈を別パスで検証。次にMet・Commonsの作品番号と図版同定、権利表記を確認し、文章の誇張・解釈の固定・感情索引を再審査。",
+    "limitations": "同一AI・同一会話の別工程であり別AIや人間専門家の独立審査とはしない。原／表示JPEGの全バイトSHAは2026-10-18/20の旧証拠を継承、新規計算を装わない。画像CC0と文章の法律上の利用判断は別で、非侵害保証ではない。",
+    "reviewed_artwork_sha256": "9e2f32a45d546ff04f87ecde590b62c334f4e5e22b037f518dff1631253e37c6",
+    "reviewed_visitor_draft_sha256": "7cd2cc10ccc52b4b3fec5a4a2665567165d911a9456fbeca098d4b9e0c4530c1",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 37852、所蔵番号1981.460.3、ca.1605–06、インド・ラージャスターン／ビーカーネール、紙に墨・不透明水彩。別のRamkali Ragini（37908ほか）とは年代・所蔵番号・図像が違う。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "絵画はラーガマーラー（音楽形式の人格化）の一葉。恋人を楽しみに待つ女性に遅れて帰る男性、他の女性と一緒だった疑いから拒絶し男は謝罪。Metは高揚と疑いの両立を強調する。本文をPR #41でそれに合わせ変更した。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主要感情『期待』2は恋人を待ち望む心と詩の高揚に、『不安』2は到着の遅れと別女性への疑念に具体的な接点。主題上の人物感情であって作者の私的感情や鑑賞者の感情を決めない。期待と怒りの直線的推移は認定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語5段落は原資料をもとに画面観察・ラーガマーラーの定義・詩の題材・様式を組み直した独自の説明。PR #41で『約束の時刻』の断定と一方向の感情推移を修正済み。長文逐語訳や英語の大量転載は認めず、資料上の重要な誇張は残らない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "9e2f32a45d546ff04f87ecde590b62c334f4e5e22b037f518dff1631253e37c6",
+    "visitor_draft_sha256": "7cd2cc10ccc52b4b3fec5a4a2665567165d911a9456fbeca098d4b9e0c4530c1",
+    "proposal_sha256": "a6ba89ba97233ccd8926dd0f2338596da6a952ce894b052970a67ec3dd0541e4",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "2026-11-05改稿後のmainとレビュー下書きの完全一致、原／縮小JPEGの旧登録SHA・300ID一意性・対象外レコード不変更を事前点検。PR CIを別途成功確認して初めてmainへ正式完成追加。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-37852.json",
+    "sha256": "a6ba89ba97233ccd8926dd0f2338596da6a952ce894b052970a67ec3dd0541e4",
+    "proposed_artwork_sha256": "9e2f32a45d546ff04f87ecde590b62c334f4e5e22b037f518dff1631253e37c6",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA/CC0 images",
+      "3(b) non-OA museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Metは同一所蔵1981.460.3の作品画像をPublic Domain、CommonsもDP156175をCC0と示す。館の解説文章・詩の現代訳の表現は別の権利であり、現日本語解説は事実・研究上の題材を独自に再構成し長文転載を回避。法的な非侵害を保証するものではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "PR #41で更新された本文と審査草稿をそのまま保持。今回監査とcompletionのみ追加。",
+    "2026-10-18/20 JPEG既存バイト検査と今回のMet・Commons図像目視を区別。",
+    "CIとmain統合後だけ正式35/300に加える。"
+  ]
+}
