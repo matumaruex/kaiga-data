@@ -1,0 +1,174 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-37872",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "1ddc332a88f112c40aa187754ef53c7951a544c1",
+    "artwork_record_sha256": "2dfd88d1d3bbfd295318060280e57fbb2f7dc9426569f39de10f12fe786912d8",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-37872.json",
+    "draft_sha256": "0520497d7f39f68bb301bcd506c56afc9cc18fe43f635a08dacd8e71343b70d1"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/37872",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: 川沿いの建築群のテラスに立つ男女と、上の四つの室内で姿を変えて反復する同一の男女",
+        "Overview: 異なる恋人関係の局面を表すという『likely』の留保",
+        "Artwork Details: ca.1700, Rajasthan Bundi, Ink and opaque watercolor on paper, 53.33, Public Domain"
+      ],
+      "observed": "Met現行公式の作品ID37872・番号53.33、題名、年代、媒体、文化、最下段の風景、四つの場面の関係、曖昧さを原文で二工程照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/exhibitions/listings/2011/lyrical-visions?exhshow=art",
+      "access": "page_read_twice",
+      "locations": [
+        "Exhibition Overview: 詩的な物語の別時間・別場所を同一画面へ並置する北インドの描画手法",
+        "2011-12展覧会: Keshav Das 1591年Rasikapriyaの男女・ラーダーとクリシュナ・愛の類型を表す"
+      ],
+      "observed": "同館の北インド絵画展解説から恋愛詩画のジャンル背景を確認。この個別作品の4場面の確定した内容をそこから導いていない。"
+    },
+    {
+      "url": "https://asia.si.edu/explore-art-culture/collections/search/edanmdm:fsg_F1998.309/",
+      "access": "page_read_twice",
+      "locations": [
+        "Object Details / Label: ケーシャヴ・ダースのRasikapriyaは宮廷恋愛詩で、恋人の出会いや口論・仲介を分類",
+        "同館の別作品は異なる絵であることを明記"
+      ],
+      "observed": "Rasikapriyaが文学作品として恋愛類型を扱うことを国立アジア美術館資料で補助確認。所蔵番号F1998.309は今回対象の53.33と混同していない。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:MET_DP156127.jpg",
+      "access": "page_read_twice",
+      "locations": [
+        "Wikimedia Commons: 画像DTではなくDP156127.jpg, 1423×2000, Met 53.33",
+        "作品と画像のCC0を明記したMet由来画像の登録"
+      ],
+      "observed": "旧Met原JPEGの保存ファイル名DP156127と所蔵番号53.33・題名が一致。今回の新規バイトSHA計算の証拠としては扱わない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_twice",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) Open Access CC0",
+        "3(b) non-OA text"
+      ],
+      "observed": "対象のOA画像と館の文章を別の権利として確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-37872",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP156127.jpg",
+      "status": 200,
+      "sha256": "e800cbdcadc572a70d10aba1c8290f273a74d029c48a6e5a5121e462785b7537",
+      "byte_length": 2333389,
+      "width": 1423,
+      "height": 2000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "main data/image-sources.json の2026-10-20全量JPEG SHA256・寸法・縮小照合の実施済み記録を継承。今回の新規JPEGバイト取得ではない。"
+    },
+    {
+      "id": "met-37872",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156127.jpg",
+      "status": 200,
+      "sha256": "8ae925f1a2c7d9cc2f1ff57a7f35e77577a49cf549d03ca1c0794d07f59283d1",
+      "byte_length": 277859,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "main data/image-sources.json の2026-10-19 Met web-large JPEG HTTP実取得・SHA記録を継承。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品ページの作品図版（web画像検索のMet公式original/DP156127.jpg）とCommons同一ファイル名・53.33を照合。ウェブ画像の表示・作品画面観察と登録JPEGの旧バイトSHAを別の根拠として記録。",
+    "observed": "インド細密画の縦長画面。上部に四つの色鮮やかな室内場面（上下2×2）で男女が異なる服装と位置・身振りで登場し、下段に水辺の建築群と木々・テラスのある風景。Metの記述と一致。人物の感情名や台詞を画像だけから同定できない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "DB原レコードと既存日本語鑑賞下書き、感情タグ0件、旧画像SHA台帳を確認したのち、別工程でMetの個別作品ページと同館2011年展覧会資料、Smithsonianの別系統Rasikapriya説明、公式図版・Commons同定情報・Met権利規約を参照し、学術的内容・画像・本文と出典の表現類似・感情索引を検証。",
+    "limitations": "同じAIが同じチャット内で別工程を行ったもので、別AIや人間の独立監査ではない。Met公式original/display JPEGを今回再取得してSHA256を計算してはいない。2026-10-19/20の旧バイト照合証拠を利用し、公式サイトの画像表示を今回目視。所蔵館文章のCC0や法的な著作権非侵害保証は主張しない。",
+    "reviewed_artwork_sha256": "2dfd88d1d3bbfd295318060280e57fbb2f7dc9426569f39de10f12fe786912d8",
+    "reviewed_visitor_draft_sha256": "0520497d7f39f68bb301bcd506c56afc9cc18fe43f635a08dacd8e71343b70d1",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met番号53.33、無名の画家、インド・ラージャスターンのブーンディ、1700年頃、紙にインク・不透明水彩、縦長の絵画。別シリーズの別作品を混同しない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "同一の男女が4つの部屋で繰り返され下段に水辺の風景がある。Metは恋人同士の複数の関わり方を表すと推定するのみ。Rasikapriyaの詩的背景はMet展示資料とSmithsonianが支持するが個別4場面の意味は断定できない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "登録の主・補助感情はともに0件。4つの恋愛場面の各感情を裏付ける館の確定記述がなく、単純に『喜び』『期待』『未練』へ寄せるのは無理があるので、0件を維持。感情タグなしは軽量一次抽出の対象外という現在の仕様を承知の上で数合わせしない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存の3段落は館の最下段の風景と4つの室内、1700年頃のブーンディ、Rasikapriyaの恋人類型への読みを適度に留保して記述。Metの短い英語解説・Smithsonian館本文の長文逐語訳ではなく、日本語独自の文章と語順でまとめている。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "2dfd88d1d3bbfd295318060280e57fbb2f7dc9426569f39de10f12fe786912d8",
+    "visitor_draft_sha256": "0520497d7f39f68bb301bcd506c56afc9cc18fe43f635a08dacd8e71343b70d1",
+    "proposal_sha256": "d87064da188e65d645410b11e0bfb25d1de9e3370a05d9f3768984206fe01344",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "登録前の版ハッシュ、下書きファイルのハッシュと完全一致、300IDの一意性、空の修正案を照合。既存complete_artwork.py preview/save/checkやスナップショット・GitHub ActionsはPRで実際のPASSを確認してからmain統合する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-37872.json",
+    "sha256": "d87064da188e65d645410b11e0bfb25d1de9e3370a05d9f3768984206fe01344",
+    "proposed_artwork_sha256": "2dfd88d1d3bbfd295318060280e57fbb2f7dc9426569f39de10f12fe786912d8",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access / CC0 images",
+      "3(b) non-OA museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品画像はMet公式Public Domainと既存OA/CC0画像証拠により確認。Met・Smithsonianの学芸員の解説文は画像と同条件でない。既存日本語解説は作品固有の図像・研究に基づく独自の日本語構成で、長文逐語訳の重大問題は見つからない。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存visitor_explanation本文・review・選定資料・感情タグ0件・画像台帳は維持。完成監査と1作品のcompletion記録だけ付与。",
+    "原JPEGの旧SHAと今回のMet公式画像の目視は別。",
+    "最終PR CIとmain統合前は正式完成22/300から増やさない。"
+  ]
+}
