@@ -1,0 +1,40 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-40451",
+  "baseline_commit": "7f8a78cb415c9c2cf69c98de572b9382849d78c6",
+  "baseline_artwork_sha256": "e21c1770d156911fb5c1d10fdefe454d95327457fd1c4d8a3a4c7d69c82b8278",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "朝鮮王朝時代の15世紀に制作された作者不詳の絹本山水掛幅。中国に由来する瀟湘八景の詩画題材が朝鮮でも受容された文脈に置ける。実在の特定の旅行記録ではない。",
+      "after": "15世紀の朝鮮王朝時代の絹本着色掛幅で、作者不詳。瀟湘八景という中国由来の詩画題材との関連はMetの推定であり、実在の旅路は確認されていない。",
+      "reason": "歴史的な旅の不在を断定せず、確認できた範囲を示す。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/40451"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "before": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。",
+      "after": "「煙寺晩鐘」とする同定は推定。旅人のうち僧と従者という身分はMetの説明による。作者の直接証言や特定の旅路は未確認。",
+      "reason": "主題と人物同定の留保を作品固有の形で記す。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/40451"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-40451.json",
+  "visitor_draft_sha256": "72bb2bab36feed76b87febbccffa4e5b00d7622305177a10cbf32039e6f512c3",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "8aedd3aafd255898dac90da48123ee82eb17362bf21980589870affd96e21ba4"
+}
