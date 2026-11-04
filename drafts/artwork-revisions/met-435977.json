@@ -1,0 +1,55 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-435977",
+  "baseline_commit": "7f8a78cb415c9c2cf69c98de572b9382849d78c6",
+  "baseline_artwork_sha256": "031dd9c64a6538702c7d0584f9d92346320c68e64d6ead25174427c05cf6c0b6",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "fitting_situations",
+        0,
+        "situation"
+      ],
+      "before": "母子像が画家の友人に模写されたことと後の贈与の経緯が作品固有の資料にある。",
+      "after": "小さな母子像と、それが画家の周囲で受け継がれた経緯を見たい",
+      "reason": "適合する状況と根拠が同文だったため役割を分ける。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435977"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "友人に模写された小品。コローが支援者に贈った記録と、描かれた母子の心理は別。",
+      "after": "1860年代の制作と推定される木板油彩。Metはデュティユーとデザヴァリーによる模写、1873年頃のクレオファへの贈与を記録する。",
+      "reason": "推定年代と素材を補い、模写と贈与を具体的な制作・伝来情報として示す。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435977"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "母と幼子を描く小さな木板油彩。",
+      "after": "暗い服の母が白い衣の幼子を腕に抱き、顔を下へ向ける。小さな木板油彩という支持体の情報は館の記載による。",
+      "reason": "素材と画面観察を区別する。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435977"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-435977.json",
+  "visitor_draft_sha256": "b2c1f2ddc371609b0d016d4e941b6fe83d72d87a505cf2b9506aa0214bc69c74",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "89be8e28c1dc07f8069fd2c11ecf2df53fc02caeabcd1ac753a2348820954daa"
+}

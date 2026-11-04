@@ -28,8 +28,24 @@ class CompletionTests(unittest.TestCase):
             target = self.root / path
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy(ROOT / path, target)
-        # The checked-in fixture may already contain the completed artwork.
+        # Retain evidence for every other completed artwork in the fixture.
+        # Only met-435997 is reverted below to exercise its registration path.
         db = self.read("data/artworks.json")
+        self.other_completed_count = 0
+        for item in db["artworks"]:
+            completion = item.get("completion")
+            if completion is None or item["id"] == "met-435997":
+                continue
+            self.other_completed_count += 1
+            audit_path = completion["audit_path"]
+            audit_data = json.loads((ROOT / audit_path).read_text())
+            for evidence_path in (
+                audit_path, audit_data["proposal"]["path"],
+                audit_data["version"]["draft_path"]
+            ):
+                target = self.root / evidence_path
+                target.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy(ROOT / evidence_path, target)
         art = next(a for a in db["artworks"] if a["id"] == "met-435997")
         if "completion" in art:
             art.pop("completion")
@@ -63,7 +79,7 @@ class CompletionTests(unittest.TestCase):
         art = next(a for a in after["artworks"] if a["id"] == "met-435997")
         self.assertEqual(art["visitor_explanation"], self.read(DRAFT)["visitor_explanation"])
         self.assertEqual(art["curation"]["emotions"], ["喜び"])
-        self.assertEqual(complete.check(self.root)["完成"], 1)
+        self.assertEqual(complete.check(self.root)["完成"], self.other_completed_count + 1)
         saved = (self.root / "data/artworks.json").read_bytes()
         with self.assertRaisesRegex(ValueError, "already saved"):
             complete.save(self.root, AUDIT)

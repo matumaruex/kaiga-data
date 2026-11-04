@@ -15319,7 +15319,7 @@
         "search_profile": {
           "fitting_situations": [
             {
-              "situation": "母子像が画家の友人に模写されたことと後の贈与の経緯が作品固有の資料にある。",
+              "situation": "小さな母子像と、それが画家の周囲で受け継がれた経緯を見たい",
               "reason": "母子像が画家の友人に模写されたことと後の贈与の経緯が作品固有の資料にある。",
               "strength": 1
             }
@@ -15339,8 +15339,8 @@
             "summary": "Metによるとコローの知人二人が模写していた母子像で、1873年頃画家が支援者に贈った。母子の親密さを描くがモデルの心理や作者自身の母性愛に関する直接証拠ではない。",
             "source_url": "https://www.metmuseum.org/art/collection/search/435977"
           },
-          "creation_context": "友人に模写された小品。コローが支援者に贈った記録と、描かれた母子の心理は別。",
-          "visual_clues": "母と幼子を描く小さな木板油彩。",
+          "creation_context": "1860年代の制作と推定される木板油彩。Metはデュティユーとデザヴァリーによる模写、1873年頃のクレオファへの贈与を記録する。",
+          "visual_clues": "暗い服の母が白い衣の幼子を腕に抱き、顔を下へ向ける。小さな木板油彩という支持体の情報は館の記載による。",
           "uncertainty_note": "作品中の人物の感情・作者の言葉・鑑賞者の入口を混同しない。館の資料の不確実な箇所は留保する。 今回の解説にない手紙・作者心理・図像の細部は未確認。"
         },
         "emotion_categories": {
@@ -15358,6 +15358,25 @@
         "ai_content_review_status": "pending",
         "source_evidence_review_status": "pending",
         "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "黒い服の母が、白い衣に包まれた子を抱いています。母は顔を下へ向け、腕のなかの幼子に視線を落としています。コローによる、高さ三十二センチほどの小さな板絵です。\n\nこの絵は画家の周りの人たちにも知られていました。アラスの画家コンスタン・デュティユーとシャルル・デザヴァリーは、それぞれ本作を模写しています。コローは1873年頃、仕事場を別に用意してくれた支援者クレオファへ、この一枚を贈りました。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/435977"
+        ],
+        "review": {
+          "content_status": "pending",
+          "source_status": "pending",
+          "rights_status": "pending",
+          "reviewed_on": "2026-10-28"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-435977-2026-11-05.json",
+        "audit_sha256": "52b194cced4ca27d9e4c81d99d1a4031214a58a5ab4087a29c51e6239456ab1e",
+        "record_sha256": "c2de4148a9a39ce70e4e1cfbc88b2f0e51d7928bcb2cd23103963435fc66b5c4"
       }
     },
     {
@@ -17129,8 +17148,8 @@
             "summary": "Metはバウツが長く続いたビザンティン的な聖母子像をより人間的・親密な表現に変えたと解説し、二人の温かな身体の結び付きを指摘する。",
             "source_url": "https://www.metmuseum.org/art/collection/search/435762"
           },
-          "creation_context": "Metは古いビザンティン聖母子を人間らしく温かい親子として描き直したことを説明。個人の母性愛の体験ではない。",
-          "visual_clues": "聖母の胸に顔を寄せる幼子、二人の姿勢と視線、金地を使わず写実的に描いた表面。",
+          "creation_context": "1455〜60年頃の木板油彩。Metは、ネーデルラントで親しまれたビザンティン由来の聖母子図像に基づく小型作品と説明する。",
+          "visual_clues": "幼子が聖母の顔に頬を寄せ、胸元へ手を伸ばす。母は両手で子を支える。背景は暗く、金地や光輪は見られない。",
           "uncertainty_note": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
         },
         "emotion_categories": {
@@ -17150,6 +17169,25 @@
         "ai_content_review_status": "pending",
         "source_evidence_review_status": "pending",
         "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "幼子が母の胸に手を伸ばし、二人の頬が触れ合っています。高さ約二十二センチの板に、身体の近さを大きく見せた聖母子像です。暗い背景には金地も光輪も描かれていません。\n\nバウツが手がかりにしたのは、聖母子の慈しみを表すビザンティン由来の図像で、ネーデルラントでも親しまれていた形式です。所蔵館は、細かな明暗で肌に量感を与えた表現を、母子の姿に向き合う人の私的な祈りと結び付けています。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/435762"
+        ],
+        "review": {
+          "content_status": "pending",
+          "source_status": "pending",
+          "rights_status": "pending",
+          "reviewed_on": "2026-10-28"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-435762-2026-11-05.json",
+        "audit_sha256": "0c4b46d8a064f292f29d7cce33c8afe7f5b5ff6db7a47ebb38af0dab9620ac19",
+        "record_sha256": "32bc972db71fda14be4ebc4dae706a55477bdd50fd1c2498b39a2a543b1b56cb"
       }
     },
     {
@@ -17231,8 +17269,8 @@
             "summary": "Metはセザンヌの家族が所有したジャ・ド・ブッファンの池を描いた作品と説明し、画家が身近な庭と自然を繰り返し描いた関心と構成を示す。現在の画面だけから『懐かしさ』を主感情と断定するのは不適切。",
             "source_url": "https://www.metmuseum.org/art/collection/search/435879"
           },
-          "creation_context": "セザンヌの家族の所有地への親しさと、幾度も描いた木立・水槽の構成。愛着は明言されるが『懐かしさ』と等価ではない。",
-          "visual_clues": "セザンヌの家族邸にある庭の池と木立、幹の垂直線・水面と反射の構成。",
+          "creation_context": "1885〜86年頃のカンヴァス油彩。セザンヌの家族の所有地ジャ・ド・ブッファンを描いた一作で、Metはこの敷地を約四半世紀にわたって描いたと説明する。",
+          "visual_clues": "手前の太い幹、横に延びる柵と低い壁、右下の道。水設備が見え、右寄りの形はMetが後ろ向きのライオン形吐水口と説明する。",
           "uncertainty_note": "研究の読解・作者の発言・画中人物の表情・観者との関係を分け、意味が曖昧なら0タグにとどめる。 研究資料の限界から作者本人がその心理を感じたとは断定できない。"
         },
         "emotion_categories": {
@@ -17250,6 +17288,25 @@
         "ai_content_review_status": "pending",
         "source_evidence_review_status": "pending",
         "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "画面の右下から道が入り、木々の幹の向こうに柵が延びています。その手前の水盤は、エクス近郊にあったセザンヌの家族の邸宅、ジャス・ド・ブッファンの一角です。所蔵館によると、柵の近くには洗い場もあり、右寄りに見える形は、背を向けたライオン形の吐水口です。\n\nセザンヌは四半世紀にわたりこの敷地を描き続けました。1885〜86年頃の本作と同じ道も、1880年代半ばの別の絵に現れます。家の裏手から庭へ続く、栗の木に縁取られた道でした。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/435879"
+        ],
+        "review": {
+          "content_status": "pending",
+          "source_status": "pending",
+          "rights_status": "pending",
+          "reviewed_on": "2026-10-28"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-435879-2026-11-05.json",
+        "audit_sha256": "00c45a0bb4888d22f148d23e35fe8ce9165a5572f7b5e521e036653be7494eff",
+        "record_sha256": "e0148889e64a94fe3a77ae61bb3a4296a9d8fbc47a4ca4ba7ee1d99c49a8d499"
       }
     },
     {
@@ -19720,9 +19777,9 @@
             "summary": "Metは、橋を渡る僧侶と従者らを山々の広がりのなかに極めて小さく描き、鋭い輪郭と淡いぼかしを組み合わせた景観表現を論じる。中国の「瀟湘八景」のうち「煙寺晩鐘」に当たる可能性があるが、断定はしていない。",
             "source_url": "https://www.metmuseum.org/art/collection/search/40451"
           },
-          "creation_context": "朝鮮王朝時代の15世紀に制作された作者不詳の絹本山水掛幅。中国に由来する瀟湘八景の詩画題材が朝鮮でも受容された文脈に置ける。実在の特定の旅行記録ではない。",
+          "creation_context": "15世紀の朝鮮王朝時代の絹本着色掛幅で、作者不詳。瀟湘八景という中国由来の詩画題材との関連はMetの推定であり、実在の旅路は確認されていない。",
           "visual_clues": "雨に包まれた山水のなかに旅人を配する。",
-          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+          "uncertainty_note": "「煙寺晩鐘」とする同定は推定。旅人のうち僧と従者という身分はMetの説明による。作者の直接証言や特定の旅路は未確認。"
         },
         "emotion_categories": {
           "primary": [],
@@ -19739,6 +19796,25 @@
         "ai_content_review_status": "pending",
         "source_evidence_review_status": "pending",
         "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "画面の下方、橋の上に小さな三人の姿があります。その上には、山の輪郭が見えるところと、墨のにじみに溶け込むところが交互に広がります。\n\n所蔵館は、この山水を中国の詩や絵画に親しまれた「瀟湘八景」のうち、「煙寺晩鐘」の可能性が高いとしています。霧の谷の橋を僧が寺へ向かうという主題ですが、この絵に寺は描かれていません。僧と従者を含む一行を小さく置き、行く先を画面の外に残した景色です。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/40451"
+        ],
+        "review": {
+          "content_status": "pending",
+          "source_status": "pending",
+          "rights_status": "pending",
+          "reviewed_on": "2026-10-28"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-40451-2026-11-05.json",
+        "audit_sha256": "9fe138d801144d6adf21dd4a7190ba83ca3d30fa54ce6df995bc8fad21b57f5a",
+        "record_sha256": "7226d9b61f0d4e5827de97bd90edf8a4247b4ef994f340d4c37b33c9598bd8da"
       }
     },
     {
@@ -20016,9 +20092,9 @@
             "summary": "Metは、台南の町と二つのオランダ城塞を、城壁・高床建築・住民の日常まで盛り込んだ絵地図として分析する。同じ構図の複数作や型押しの利用から、西洋市場に向けて工房で制作された可能性も示している。",
             "source_url": "https://www.metmuseum.org/art/collection/search/35968"
           },
-          "creation_context": "台湾・台南に築かれたオランダ城塞を題材とする19世紀の鹿皮彩色絵図。1662年のオランダ撤退後で、1791年に築かれた城壁も描かれるため、現在の場面と同時代に描いた地図ではない。制作者不詳。",
+          "creation_context": "台南の城塞と町を描いた鹿皮の壁掛け。制作者不詳で、Metは19世紀と年代比定している。17世紀のオランダ統治から時を隔てた作品であり、建物の成立年代を作品の制作年代と同一視しない。",
           "visual_clues": "台南の城塞と市街地を俯瞰的に描く絵地図。",
-          "uncertainty_note": "作者本人の当該作品への直接発言は未確認。第17群の作品データと画像検証記録を参照。"
+          "uncertainty_note": "作者の直接証言は未確認。城塞と城壁の年代にはMetと現地資料で記述差があり、対象となる城壁区間や改築段階の対応も未確定。年号を一つに確定したり、城壁だけで制作年代の下限を決めたりしない。"
         },
         "emotion_categories": {
           "primary": [],
@@ -20035,6 +20111,27 @@
         "ai_content_review_status": "pending",
         "source_evidence_review_status": "pending",
         "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "大きな鹿皮の画面には、船の行き交う水辺と、その向こうに広がる台南の町が描かれています。城壁に囲まれた区画や家々の間には、小さな人の姿も見えます。二つのオランダ式城塞は、台湾にオランダ人がいた時代を伝える建物です。\n\n19世紀の作品とされるこの壁掛けは、17世紀のオランダ統治から時を隔てて作られました。よく似た構図を持つ鹿皮画はほかにも残っています。所蔵館は、繰り返し現れる形に型やスタンプが使われたことから、西洋市場に向けた工房制作の可能性を考えています。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/35968",
+          "https://asc.tainan.gov.tw/index_en.php?id=35&modify=place",
+          "https://twtainan.net/en/attractions/detail/5960"
+        ],
+        "review": {
+          "content_status": "pending",
+          "source_status": "pending",
+          "rights_status": "pending",
+          "reviewed_on": "2026-10-29"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-35968-2026-11-05.json",
+        "audit_sha256": "e50a4da6ae0d1451036a7d23cf44624c3de6bfc43ce26599491230f4f2fc72d1",
+        "record_sha256": "77b875e68b08f9dff533f968bf682a34d936949c228f4dfd01c1ceb2c1030c1f"
       }
     },
     {
@@ -20098,7 +20195,7 @@
           "fitting_situations": [
             {
               "situation": "音楽や親しい愛情から生まれる満ち足りた喜びに触れたい",
-              "reason": "Met解説が関連ラギニーの詩の幸福と愛情を明記し、画面では2人の音楽家が演奏する。",
+              "reason": "Metは楽師二人への支払いの場面と説明し、関連するラギニーの詩に満ち足りた幸福と愛情があると述べる。",
               "strength": 3
             }
           ],
@@ -20117,8 +20214,8 @@
             "summary": "Met公式解説によると、支援者が楽師に報酬を渡す場面で、このラギニーの詩は満ち足りた幸福と愛情を歌う。後世の文献も音楽の喜びを語る。",
             "source_url": "https://www.metmuseum.org/art/collection/search/38056"
           },
-          "creation_context": "メトロポリタン美術館の公式解説では施主が2人の音楽家に代金を渡し、関連詩に満ち足りた幸福と愛情が描かれる。後世のラガマーラ詩にも音楽に浸る喜びの表現がある。",
-          "visual_clues": "施主が手を伸ばして2人の奏者に報酬を払う場面が描かれる。音楽の旋法に具体的な人物と状況を与えている。",
+          "creation_context": "1640年頃のビーカーネールで制作された、紙に墨・不透明水彩・金を用いた一葉。作者不詳。Metは、同地でムガル工房出身の画家たちが活動し、本作にも人物や自然の描写にその様式が見られると説明する。",
+          "visual_clues": "建築の中で男性が右側へ手を伸ばし、その先に楽器を持つ人物ともう一人が座る。Metはこの身振りを楽師二人への支払いと説明している。",
           "uncertainty_note": "感情との結び付きはMet公式の関連詩の解説に基づく。作者がこの感情を直接述べた証拠ではない。"
         },
         "emotion_categories": {
@@ -20138,6 +20235,25 @@
         "ai_content_review_status": "pending",
         "source_evidence_review_status": "pending",
         "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "建物の中で、男性が向かい合う二人の楽師へ手を伸ばしています。所蔵館によると、楽師に報酬を渡すこの人物は、絵の注文主自身です。音楽を主題にした場面へ、自分も参加する人物として描かせたことになります。\n\nこの一葉が表すパンチャマ・ラーギニーは、愛や満足した喜びを詩の中で語ります。1640年頃のビーカーネールでは、ムガルの工房から来た画家も働いていました。館は、ラージプートの音楽的主題と、人物や自然に見られるムガルの描き方が、この絵に重なると説明しています。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/38056"
+        ],
+        "review": {
+          "content_status": "pending",
+          "source_status": "pending",
+          "rights_status": "pending",
+          "reviewed_on": "2026-10-28"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-38056-2026-11-05.json",
+        "audit_sha256": "9f39cae3449674dff3c6b83b51bf821af14372b5bd10624d170cc50904c40423",
+        "record_sha256": "974cec49d6de20b85118b772b9359e9a2c53ea09f3c56dc45971d178fb4f253a"
       }
     },
     {
@@ -21873,7 +21989,7 @@
           "fitting_situations": [
             {
               "situation": "子どもの日常と、シャボン玉のはかなさを見つめたい",
-              "reason": "シャボン玉を吹く少年とそれを見守る子ども。",
+              "reason": "泡を吹く若者と窓台からのぞく幼い子を描く。はかなさは館が説明する主題の伝統との接点であり、作者の意図の断定ではない。",
               "strength": 1
             }
           ],
@@ -21891,12 +22007,12 @@
             "source_url": null
           },
           "scholarly_interpretation": {
-            "summary": "Metは、子どもの素朴なシャボン玉遊びに、17世紀オランダ風俗画の表現伝統を指摘する。当時のシャボン玉には人の命のはかなさを連想させる意味もあったが、この作品に教訓を込めたかどうかは不明と明記している。",
+            "summary": "Metは、北ヨーロッパ絵画で人生のはかなさを表した主題が、本作では日常の場面へ移されていると解説する。作者自身の道徳的意図を示す直接証言とは区別する。",
             "source_url": "https://www.metmuseum.org/art/collection/search/435888"
           },
-          "creation_context": "シャルダンが1733〜34年ごろにフランスで制作した人物画。17世紀のオランダの風俗画を着想源とし、後年にも同主題の別作品を制作した。特定の道徳的寓意を作者が意図したとする直接資料は確認できない。",
-          "visual_clues": "シャボン玉を吹く子どもと、その様子を覗く幼い子。",
-          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
+          "creation_context": "1733〜34年頃のカンヴァス油彩。Metは北ヨーロッパの先行する絵画との主題の関係を説明し、後年の同構図作品をLACMAとワシントンのナショナル・ギャラリー所蔵として挙げる。",
+          "visual_clues": "若者が細い管の先に泡を膨らませ、右側の幼い子が窓台越しにのぞく。左に液体の入った容器がある。",
+          "uncertainty_note": "作者の直接証言は未確認。Metが記す返還時期は1948年以降で、特定年を断定しない。後年の同構図作品と本作を区別する。"
         },
         "emotion_categories": {
           "primary": [],
@@ -21913,6 +22029,25 @@
         "ai_content_review_status": "pending",
         "source_evidence_review_status": "pending",
         "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "窓辺の若者が細い管を口にくわえ、その先に大きなシャボン玉が浮かんでいます。右の子どもは窓台から顔をのぞかせ、若者の手元を見ています。泡の薄い表面には淡い色が映ります。\n\n北ヨーロッパの絵画でシャボン玉は、人生のはかなさを示す主題でした。所蔵館は、シャルダンがそれを日常の一場面に近づけたと説明しています。画家はこの構図を繰り返し描き、別の美術館にも後年の作品が残ります。\n\n本作はパリの所有者からナチスに押収され、1944年に不法に購入されました。戦後フランスへ戻され、1948年以降に返還された作品でもあります。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/435888"
+        ],
+        "review": {
+          "content_status": "pending",
+          "source_status": "pending",
+          "rights_status": "pending",
+          "reviewed_on": "2026-10-28"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-435888-2026-11-05.json",
+        "audit_sha256": "4ced1cf2d34334d274f6b8d053cd8aef90994f30dd17cfa3fc66017af48b1bd9",
+        "record_sha256": "8211425144a21a6646804d94b36aee70572e7bbf30bca10f85a28e42f6150339"
       }
     },
     {
@@ -28700,8 +28835,8 @@
         "search_profile": {
           "fitting_situations": [
             {
-              "situation": "おとぎ話の怖い結末を聞く子どもの気持ちに触れたい",
-              "reason": "ガイは自分の子どもたちに『三びきのくま』を読む場面を描いた。少女の熊のような影と兄弟の表情が怖い結末を暗示。",
+              "situation": "読み聞かせの場面に漂う緊張や、物語に聞き入る姿に触れたい",
+              "reason": "少女が寝台の二人に物語を読む。Metは大きな影と少年たちの表情を、童話の怖い山場を示す手がかりと解釈している。",
               "strength": 2
             }
           ],
@@ -28744,6 +28879,25 @@
         "ai_content_review_status": "pending",
         "source_evidence_review_status": "pending",
         "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "白い服の少女が、寝台の二人に物語を読んでいます。彼女の背後の壁には、身体よりも大きな影が現れています。ガイがモデルにしたのは、自分の子どもたちでした。\n\n読まれているのは、家を離れた少女が熊の家に入り込む『三匹の熊』の物語です。メトロポリタン美術館は、熊のように見える影と聞き手の表情に、物語の怖い場面を表す工夫を見ています。また、本を読む年長の娘には、小さな子どもたちの世話をする、より大人に近い役割が重ねられていると解釈しています。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/20129"
+        ],
+        "review": {
+          "content_status": "pending",
+          "source_status": "pending",
+          "rights_status": "pending",
+          "reviewed_on": "2026-10-28"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-20129-2026-11-05.json",
+        "audit_sha256": "1c3c049d817aa6d992d1f51b6570a572a731083dca40858d1ac45f9c1726c17d",
+        "record_sha256": "572ac113e06c1be5ecaf6bd810a418a6badde28a3f5b74927fec37355e166c45"
       }
     },
     {
@@ -31765,11 +31919,11 @@
             "source_url": null
           },
           "scholarly_interpretation": {
-            "summary": "夜と恋人の親密さに結びつく旋法ディーパクを、火を灯す二人の女性として視覚化したラーガマーラの一葉。Metは幻視的な奥行きをつくらず、人物を地図のように配した建築空間へ並置する点を17世紀前半のマールワ絵画の特徴と説明する。",
+            "summary": "Metはこのラーガを夜と恋人の親密さに結び付け、左右の女性が持つ灯火を火の図像と説明する。区画で分かれた平面的な建築空間は、17世紀前半のマールワ絵画の特徴としている。",
             "source_url": "https://www.metmuseum.org/art/collection/search/37905"
           },
           "creation_context": "1630〜1640年頃のインド中部マディヤ・プラデーシュ地方の紙本画。アクバル帝の音楽家が旋法の演奏で火を起こしたという伝承が、この題材で灯火の図像を使う背景にある。",
-          "visual_clues": "宮廷の建築の中に立ち、灯りを持つ二人の女性。",
+          "visual_clues": "中央の区画に座る男女。その左右に灯火を持つ女性、中央の二人の後ろに払子を持つ人物がいる。",
           "uncertainty_note": "楽曲と絵画の伝統を踏まえ、図像から作者個人の恋愛感情を推定しない。 作者本人の当該作品への直接発言は確認できない。"
         },
         "emotion_categories": {
@@ -31787,6 +31941,25 @@
         "ai_content_review_status": "pending",
         "source_evidence_review_status": "pending",
         "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "中央の男女のいる部屋を、灯火を持つ女性たちが左右から挟んでいます。建築の区画は明快に分かれ、それぞれの場所に人物が配されています。\n\nこの絵は、音楽の旋律を詩や情景と結び付けたラーガマーラーの一葉で、ディーパク・ラーガを表します。所蔵館によれば、このラーガは夜や恋人同士の親密さと結び付けられます。アクバル帝の楽師が演奏によって宮殿に火事を起こしたという伝説もあり、左右の灯火は、この主題に添えられる火の表現の一つです。1630〜40年の作で、区画を重ねる平面的な構成は、当時のマールワー絵画の特徴として紹介されています。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/37905"
+        ],
+        "review": {
+          "content_status": "pending",
+          "source_status": "pending",
+          "rights_status": "pending",
+          "reviewed_on": "2026-10-28"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-37905-2026-11-05.json",
+        "audit_sha256": "a4a9de496b72cbdcaea737b0f80f31c6771112a32597a6894813f736d8713174",
+        "record_sha256": "f00977f70e28733709310fafaee36f00177eab0bfedf27d867979abf240eed3f"
       }
     },
     {
