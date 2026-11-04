@@ -1,0 +1,154 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436530",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "7c7a0ffb1b29c9a15d0a39818d4eaaba045a583a",
+    "artwork_record_sha256": "6e7864d5735e184b25262190c447a038b6e9facb7d67cc309777282af40e36eb",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436530.json",
+    "draft_sha256": "41156d4c45054118c1d830938a05f2a9c357d625f7eff1c956d4407f133dc2db"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436530",
+      "access": "page_read_twice",
+      "locations": [
+        "館の作品解説：花の生命力に関する言葉、1888年8月アルル、マジョリカ焼きの器とゾラ『La joie de vivre』",
+        "館の作品解説：1885年の聖書とゾラの小説の対置",
+        "Artwork Details：Van Gogh、1888、Oil on canvas、60.3×73.7cm、所蔵番号62.24、Public Domain"
+      ],
+      "observed": "Met作品ページの説明と作品情報を再確認。1888年8月のアルル静物、キョウチクトウ、器とゾラの本、同館が考察する生命力の表現を確認。花についてのゴッホの発言と作品固有の制作心理を混同しない。"
+    },
+    {
+      "url": "https://store.metmuseum.org/blog/a-guide-to-van-gogh-at-the-met",
+      "access": "page_read_twice",
+      "locations": [
+        "Oleanders (1888) セクション：絶えず咲く花とマジョリカ器、ゾラの小説を近接させた構図",
+        "同節の所蔵番号62.24"
+      ],
+      "observed": "Metの別ページでも作者・制作年・作品番号、花の生命力と本の象徴的結び付けを裏付ける。Metの解釈を作者本人の心理状態の断定として扱わない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_twice",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) OA画像のCC0規定",
+        "3(b) 自動的にOAとならない文章・素材への制限"
+      ],
+      "observed": "Public Domain作品画像と所蔵館の解説テキストの権利を区別。既存の日本語鑑賞解説は事実・館解釈を短く独自に構成した内容として確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436530",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1494.jpg",
+      "status": 200,
+      "sha256": "605609e76ce0ce1dace376293c478ea2d8cc6f3a93c8b7159ec4c18752dde24c",
+      "byte_length": 3580037,
+      "width": 3811,
+      "height": 3130,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "mainの高解像度画像欄：Met API primaryImageからの完全JPEGと縮小画像整合の2026-10-20検証記録。今回のバイト再取得ではない。"
+    },
+    {
+      "id": "met-436530",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1494.jpg",
+      "status": 200,
+      "sha256": "ced5841afad60fcc6cb4d5fc18750edf8f0f48903babf587b13737a874d4a64f",
+      "byte_length": 129656,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "mainのlive_check_scope：Met Object API primaryImageSmall JPEGのHTTP・SHA検証記録。今回は再計算していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式のIIIF作品画像 https://collectionapi.metmuseum.org/api/collection/v1/iiif/436530/796038/main-image を本チャットで表示。登録済み原画像・表示画像の同一版SHA証拠は2026-10-20の記録を引き継ぐ。",
+    "observed": "横長画面で、淡い桃色の花と長く尖った緑の葉が中央のマジョリカの花器から広がる。黄緑色の背景、灰紫色の机、左下に黄色い表紙のゾラの本。画面と解説が扱う器物が一致。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本番DBの意味資料・感情タグ・既存の日本語本文を先に確認したのち、Met公式作品説明・Metの別公開説明・公式IIIF画像・利用規約を別工程で再読し、事実、作者の言葉と研究解釈、本文類似、画像描写、感情との接点を照合。",
+    "limitations": "同一AI・同じ会話内の別工程であり、別モデルや第三者の独立監査とは主張しない。登録JPEGバイト列を今セッションで再取得せず、2026-10-20の既存SHA記録を再利用した。法的適合の保証ではない。",
+    "reviewed_artwork_sha256": "6e7864d5735e184b25262190c447a038b6e9facb7d67cc309777282af40e36eb",
+    "reviewed_visitor_draft_sha256": "41156d4c45054118c1d830938a05f2a9c357d625f7eff1c956d4407f133dc2db",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Vincent van Gogh《Oleanders》、1888年、Met 62.24、油彩、60.3×73.7cm。花房・緑の細長い葉・器・本が公式画像に一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1888年8月アルル、マジョリカの花器とゾラ『La joie de vivre』の象徴的配置、1885年ニューネンの聖書との比較はMet解説で支持。花の生命力に関する作者の言葉を、制作中のゴッホ個人の心理診断に変えない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "『喜び』主2は鮮やかな花と『生きる歓び』、花の生命力との具体的接点。『希望』補助1は尽きず咲き新芽を伸ばす性質との接点。鑑賞者に固定の反応を押し付けず現索引は維持。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存の二段落の日本語本文は花と本の描写からMetの解釈と1885年作の関係を独自の日本語で整理し、原解説の長文逐語訳や具体的な誤記は見つからない。既存レビュー欄を含めて全文を保持。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "6e7864d5735e184b25262190c447a038b6e9facb7d67cc309777282af40e36eb",
+    "visitor_draft_sha256": "41156d4c45054118c1d830938a05f2a9c357d625f7eff1c956d4407f133dc2db",
+    "proposal_sha256": "d9af9c667d78b4d537af6aabb3d8b4203eb53f242f7be01ed36ba4219707ea7a",
+    "checks": [
+      "existing_visitor_matches_reviewed_draft",
+      "baseline_version_sha256",
+      "prior_image_original_display_sha256",
+      "300_unique_ids",
+      "other_299_unchanged",
+      "same_id_order"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象レコードと下書きの一致およびハッシュと既存画像照合記録を確認。正式なpreview/save/checkの形の条件・回帰テスト・固定snapshot・構造検査はGitHub Actionsに委ね、成功とmain統合まで完成とは数えない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436530.json",
+    "sha256": "d9af9c667d78b4d537af6aabb3d8b4203eb53f242f7be01ed36ba4219707ea7a",
+    "proposed_artwork_sha256": "6e7864d5735e184b25262190c447a038b6e9facb7d67cc309777282af40e36eb",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright",
+      "3(a) OA/CC0",
+      "3(b) 非OAの文章"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公式作品ページはPublic Domainで画像はOpen Access。これを館の解説文の自由転載と混同しない。既存日本語本文は作品の事実と研究者の読みを短く独自に叙述し、長文転載や逐語翻訳ではないと判断。重大な利用条件問題は確認しなかったが、法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存の visitor_explanation の本文・reviewed_on・content/source/rights状態は一切変更しない。rights_status=pendingを verified に書き換えず、今回の独立した権利評価を監査JSONに保存する。",
+    "Met公式IIIF図版の画面同定は本チャットで実施。original/web-large JPEGの保存SHAは2026-10-20証拠を再利用。",
+    "CI成功・main統合までは未完成。"
+  ]
+}

@@ -85,6 +85,69 @@ class CompletionTests(unittest.TestCase):
             complete.save(self.root, AUDIT)
         self.assertEqual((self.root / "data/artworks.json").read_bytes(), saved)
 
+    def bind_existing_explanation(self, *, mismatch=False):
+        """Bind a reviewed draft to a catalog version already containing an explanation."""
+        db = self.read("data/artworks.json")
+        art = next(a for a in db["artworks"] if a["id"] == "met-435997")
+        art["visitor_explanation"] = copy.deepcopy(self.read(DRAFT)["visitor_explanation"])
+        if mismatch:
+            art["visitor_explanation"]["text"] += "未検証の既存追記"
+        self.write("data/artworks.json", db)
+        baseline = complete.digest(art)
+        proposal = self.read(PROPOSAL)
+        proposed = copy.deepcopy(art)
+        for change in proposal["changes"]:
+            target = proposed
+            for key in change["path"][:-1]:
+                target = target[key]
+            target[change["path"][-1]] = copy.deepcopy(change["after"])
+        proposed_hash = complete.digest(proposed)
+        proposal["baseline_artwork_sha256"] = baseline
+        proposal["proposed_artwork_sha256"] = proposed_hash
+        self.write(PROPOSAL, proposal)
+        audit = self.read(AUDIT)
+        audit["version"]["artwork_record_sha256"] = baseline
+        audit["separate_pass_review"]["reviewed_artwork_sha256"] = proposed_hash
+        audit["program_checks"]["proposed_artwork_sha256"] = proposed_hash
+        audit["proposal"]["proposed_artwork_sha256"] = proposed_hash
+        audit["proposal"]["sha256"] = complete.file_hash(self.root / PROPOSAL)
+        audit["program_checks"]["proposal_sha256"] = audit["proposal"]["sha256"]
+        self.write(AUDIT, audit)
+        self.before = (self.root / "data/artworks.json").read_bytes()
+
+    def test_existing_identical_explanation_can_be_completed_without_replacement(self):
+        self.bind_existing_explanation()
+        initial = self.read("data/artworks.json")
+        complete.build(self.root, AUDIT)
+        self.assertEqual((self.root / "data/artworks.json").read_bytes(), self.before)
+        complete.save(self.root, AUDIT)
+        result = self.read("data/artworks.json")
+        before = next(a for a in initial["artworks"] if a["id"] == "met-435997")
+        after = next(a for a in result["artworks"] if a["id"] == "met-435997")
+        expected = copy.deepcopy(before)
+        for change in self.read(PROPOSAL)["changes"]:
+            target = expected
+            for key in change["path"][:-1]:
+                target = target[key]
+            target[change["path"][-1]] = copy.deepcopy(change["after"])
+        self.assertEqual(after["visitor_explanation"], before["visitor_explanation"])
+        self.assertEqual({k: v for k, v in after.items() if k != "completion"}, expected)
+        self.assertEqual(complete.check(self.root)["完成"], self.other_completed_count + 1)
+
+    def test_existing_explanation_mismatch_is_rejected_even_with_matching_baseline_hash(self):
+        self.bind_existing_explanation(mismatch=True)
+        self.rejected("existing explanation differs from reviewed draft")
+
+    def test_existing_explanation_change_after_completion_is_detected(self):
+        self.bind_existing_explanation()
+        complete.save(self.root, AUDIT)
+        db = self.read("data/artworks.json")
+        art = next(a for a in db["artworks"] if a["id"] == "met-435997")
+        art["visitor_explanation"]["text"] += "後日の変更"
+        self.write("data/artworks.json", db)
+        with self.assertRaisesRegex(ValueError, "saved artwork changed"):
+            complete.check(self.root)
+
     def test_hold_and_ineligible_and_remaining_are_rejected(self):
         original = self.read(AUDIT)
         for field in ("hold", "ineligible", "remaining"):

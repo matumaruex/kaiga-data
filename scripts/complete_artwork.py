@@ -120,7 +120,10 @@ def build(root, relative):
     art = data["artworks"][index]
     require("completion" not in art, "already saved; use check to verify")
     require(digest(art) == audit["version"]["artwork_record_sha256"], "catalog version changed")
-    require("visitor_explanation" not in art, "existing explanation replacement is not supported yet")
+    # Previously registered prose can be completed only when the reviewed draft is identical.
+    if "visitor_explanation" in art:
+        require(art["visitor_explanation"] == draft["visitor_explanation"],
+                "existing explanation differs from reviewed draft")
     candidate = copy.deepcopy(art)
     for change in proposal["changes"]:
         path = change["path"]
@@ -142,7 +145,8 @@ def build(root, relative):
         require(im["id"] == audit["id"] and im["status"] == 200 and im["matches_registered_bytes"] is True
                 and im["sha256"] == registered["sha256"] and im["url"] == registered["url"], "image mismatch")
     require(audit["visual_observations"].get("observed"), "visual comparison missing")
-    candidate["visitor_explanation"] = copy.deepcopy(draft["visitor_explanation"])
+    if "visitor_explanation" not in candidate:
+        candidate["visitor_explanation"] = copy.deepcopy(draft["visitor_explanation"])
     # Preserve legacy review fields. This version-bound completion is the v2 authority.
     candidate["completion"] = {"schema_version": "artwork-completion-v2-1",
                                "audit_path": relative, "audit_sha256": file_hash(local_path(root, relative)),
@@ -192,7 +196,10 @@ def check(root):
         audit, proposal, draft, _ = checked_inputs(root, c["audit_path"])
         require(audit["id"] == art["id"], "saved identity mismatch")
         require(art["visitor_explanation"] == draft["visitor_explanation"], "saved text mismatch")
-        candidate = {k: v for k, v in art.items() if k not in {"completion", "visitor_explanation"}}
+        candidate = {k: v for k, v in art.items() if k != "completion"}
+        # Existing text is part of the baseline; newly added text was not.
+        if digest(candidate) != proposal["proposed_artwork_sha256"]:
+            candidate.pop("visitor_explanation", None)
         require(digest(candidate) == proposal["proposed_artwork_sha256"], "saved candidate mismatch")
         counts["完成"] += 1
     return counts
