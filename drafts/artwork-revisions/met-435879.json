@@ -1,0 +1,40 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-435879",
+  "baseline_commit": "7f8a78cb415c9c2cf69c98de572b9382849d78c6",
+  "baseline_artwork_sha256": "e8963a7358bc38a6687a01192b61d25b368f5a106a34a474f9dca3c16a15da6f",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "セザンヌの家族の所有地への親しさと、幾度も描いた木立・水槽の構成。愛着は明言されるが『懐かしさ』と等価ではない。",
+      "after": "1885〜86年頃のカンヴァス油彩。セザンヌの家族の所有地ジャ・ド・ブッファンを描いた一作で、Metはこの敷地を約四半世紀にわたって描いたと説明する。",
+      "reason": "作者の愛着という館の解釈を制作事実と区別する。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435879"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "セザンヌの家族邸にある庭の池と木立、幹の垂直線・水面と反射の構成。",
+      "after": "手前の太い幹、横に延びる柵と低い壁、右下の道。水設備が見え、右寄りの形はMetが後ろ向きのライオン形吐水口と説明する。",
+      "reason": "水面の反射という曖昧な記述を、確認できる配置と帰属つきの同定に限定。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435879"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-435879.json",
+  "visitor_draft_sha256": "e20135c6dd92a5d06b513357cb59f8985c8fb45753a6eb4ef36e4ede25699091",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "5a3129f7a078c9c58dc07f461702d8ddb81897a1abdd550638db3e72d79bc4c6"
+}
