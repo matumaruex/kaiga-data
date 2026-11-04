@@ -1,0 +1,46 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-436582",
+  "baseline_commit": "4239a17a97db50a109e8de831a882b2acf50c68b",
+  "baseline_artwork_sha256": "b558808e04f0d08b5de77ade4a0a3c4396739c32af30a1cb6fbcd327f7c204d9",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "selection_cautions"
+      ],
+      "before": [
+        "誰かを失って後悔する物語が確定するわけではない。『未練』は弱い補助に限る。 特定の失恋や後悔の物語を示す作品ではないので、未練は弱い補助タグ。",
+        "人物の切望を、失った恋人への未練や作者個人の失恋の記録と断定しない。"
+      ],
+      "after": [
+        "人物の切望を、失った恋人への未練や作者個人の失恋の記録と断定しない。"
+      ],
+      "reason": "旧『未練』タグ解除後も残った重複・誤解を招く補助タグ注意書きを整理。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/436582"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "before": "誰かを失って後悔する物語が確定するわけではない。『未練』は弱い補助に限る。 特定の失恋や後悔の物語を示す作品ではないので、未練は弱い補助タグ。",
+      "after": "描かれた女性の具体的な事情や思いの対象は不明。『悲しい憧れ』は所蔵館が可能性として示す解釈で、作者自身の制作意図を直接証明するものではない。",
+      "reason": "未練タグの旧仕様への参照を削り、館の『perhaps』という不確実性と人物の物語未同定を明確化。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/436582"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-436582.json",
+  "visitor_draft_sha256": "88e6dd0b9d393d157052b10f2c2d8e484483a60c9a4d4fd47be97adab1a3b33e",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "781ac5f85bc3d5c40788693e6f3a443424ed5a8c7fdcf4a03b9f25983440c0d4",
+  "explanation": "Met公式の制作年・画面と表情習作の解説に既存鑑賞本文は一致。未練タグが既に解除されているのに残る重複説明の2箇所だけを整理し、主『寂しさ』・本文・他の選定資料は維持。"
+}
