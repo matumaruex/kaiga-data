@@ -1,0 +1,159 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-749407",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "cc53c20f88dcc2b52fef0934bf34395410ac01e3",
+    "artwork_record_sha256": "e16dd934154c37f984c66240bddb8142c64a7e7564bf344107ea1eb4d764c984",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-749407.json",
+    "draft_sha256": "4bebcc774cf37c76570e66652228a7aa006174dd7e14e2ab4bc62080689e5249"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/749407",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview 第1段落: 頼豪（1002–1084）の護摩火法、白河天皇が破った授戒の約束、皇子誕生の加持",
+        "Overview 第2段落: 祭壇からのけぞる僧、法具、折本、宙に浮く供物台、煙と炎",
+        "Overview 第3段落: 不動明王の驚いた表情は画家による戯画的表現",
+        "Overview 第4段落: 絶食と鉄鼠への変身・報復は伝説としての記述",
+        "Artwork Details: 小林清親、約1900年、明治、2017.292、絹の掛幅・着彩金泥、Public Domain"
+      ],
+      "observed": "作品ページの原文・作品画像・所蔵情報を別工程で再参照し、既存日本語鑑賞本文の固有名詞・年代・物語と画面構成の各主張を照合。作品IDを同定。"
+    },
+    {
+      "url": "https://www.metmuseum.org/ja/exhibitions/anxiety-hope-in-japanese-art/exhibition-objects",
+      "access": "page_read_twice",
+      "locations": [
+        "Exhibition Objects: The Fury of Monk Raigō、Kobayashi Kiyochika、ca. 1900、同じ掛幅・絹本の画像"
+      ],
+      "observed": "別のMet展覧会作品一覧で同作の所蔵・画像・制作年代を追加照合。解釈内容は個別作品ページを優先した。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_twice",
+      "locations": [
+        "1 Copyright and Proprietary Rights: OAでない館の文章には別の権利",
+        "3(a) Open Access: CC0作品画像の利用",
+        "3(b) restricted materials: 所蔵館解説文章との区別",
+        "7 API: OA作品画像・データの範囲"
+      ],
+      "observed": "作品画像のOpen Accessと館の学芸員解説文章の権利を別に確認した。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-749407",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-14063-022.jpg",
+      "status": 200,
+      "sha256": "afa86e09e02079cafa1f2342a739ffadc5624e2d3b4a7c0d6dd0a54759728717",
+      "byte_length": 3987436,
+      "width": 3001,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 data/image-sources.jsonの原JPEG全量・寸法・縮小画像整合性の既存チェックを同一版の証拠として再利用。今回新たに4MB画像の再取得・ハッシュ計算はしていない。"
+    },
+    {
+      "id": "met-749407",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-14063-022.jpg",
+      "status": 200,
+      "sha256": "b8791008becc45daf6d969bab7d87af502022732561adcd40dc14a1a0ac2c630",
+      "byte_length": 153651,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18 docs/batch007-online-result.jsonの公式Met primaryImageSmall実取得・SHA記録を継承。今回のWeb上の図版視認とは別証拠。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met作品番号2017.292の公式作品ページと、同館CRDImages/as/original/DP-14063-022.jpgのWeb図版、展覧会の同作品画像を確認。元JPEGバイトSHAは保存済み旧証拠であり今回の再計算ではない。",
+    "observed": "掛幅の中央に煙と炎が渦巻き、左下で白髪の僧が身をのけぞらせ、折りたたまれた経本が斜めに崩れている。右上の炎の間に驚いたような不動明王の顔、右下に供物や道具のある祭壇。画像の人物を作者本人の心理とは結び付けない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存の作品データ・下書き・過去の画像SHA台帳を読んだ後、Metの個別作品ページ原文を再度別パスで読み、Metの展覧会掲載情報と公式図版、利用規約と照合。史実・図像・伝承・感情分類・翻訳類似度を改めて点検した。",
+    "limitations": "同じAI・同じチャット内の別工程であり別AIや外部第三者による独立判定ではない。公式画像はWeb表示の視覚的照合で、登録JPEGの原・表示バイトは2026-10-18/20の検証記録を再利用。法律上の非侵害を保証しない。現行Metの日本語版ページはアクセスできず、英語公式解説を使用。",
+    "reviewed_artwork_sha256": "e16dd934154c37f984c66240bddb8142c64a7e7564bf344107ea1eb4d764c984",
+    "reviewed_visitor_draft_sha256": "4bebcc774cf37c76570e66652228a7aa006174dd7e14e2ab4bc62080689e5249",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met Object ID749407・所蔵番号2017.292、Kobayashi Kiyochika（1847–1915）、明治・約1900、絹に墨・顔料・金彩の掛幅で一致。以前《不動明王》とも呼ばれた図像であり、別作品と混同していない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "頼豪への約束反故、護摩法中の激怒、法具と経本・供物台の散乱、明王の驚いた表情というMetの作品固有の解釈を本文が反映。絶食・鉄鼠は後代伝説であって歴史的事実としていない。作者の個人心理を伝承人物に転嫁しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『怒り』強度2は主題の中心に明示され適切。補助『不安』強度1も火・煙と儀式の乱れという具体的画面に限定した弱い鑑賞者の入口で、伝承人物の内面の事実を意味しない。fitting_situationsは約束を裏切られた怒りに具体的につながる。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存の日本語本文3段落は、館の英語解説に記載された事実を取捨選択し、独自の語順と構成で自然な学芸員風に表現。数行の逐語訳・まとまったコピーや強い類似の問題は認めず、館の解説文章をOA扱いにしない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "e16dd934154c37f984c66240bddb8142c64a7e7564bf344107ea1eb4d764c984",
+    "visitor_draft_sha256": "4bebcc774cf37c76570e66652228a7aa006174dd7e14e2ab4bc62080689e5249",
+    "proposal_sha256": "d9b9036ee20a84ce1c252ed061df456ea6b754838687fd05f00bbd84c8186d12",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "ここでのPASSは内容・ハッシュ・ID・JSON参照の書き込み前チェック。GitHub Actionsおよびcomplete_artwork.py/checkとvalidatorはPRのCIで確認し、成功したコミットがmainへ統合されるまで正式完成扱いしない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-749407.json",
+    "sha256": "d9b9036ee20a84ce1c252ed061df456ea6b754838687fd05f00bbd84c8186d12",
+    "proposed_artwork_sha256": "e16dd934154c37f984c66240bddb8142c64a7e7564bf344107ea1eb4d764c984",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access / CC0",
+      "3(b) restricted museum text",
+      "7 API"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "登録画像はMet現行Public Domainと画像台帳OA/CC0に基づく。Metが作成した学芸員文章は別権利である。既存日本語本文は史実・図像を独自の言い回しでまとめており、調査した範囲で公開DB保存を阻むまとまった逐語転載は確認されない。権利者の許諾を取得したという意味でも法的保証でもない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "今作品の既存visitor_explanation、レビュー、感情タグ・強度・選定用資料・画像台帳は維持し、completionと監査を追加。",
+    "図版のWeb画面照合と2026-10-18/20の旧JPEGバイトの証拠を混同しない。",
+    "GitHub Actionsの最終成功・main統合までは完成数24/300を維持。"
+  ]
+}
