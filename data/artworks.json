@@ -8207,12 +8207,10 @@
       "curation": {
         "emotions": [
           "喪失感",
-          "悲しみ",
-          "未練"
+          "悲しみ"
         ],
         "emotion_strengths": {
           "喪失感": 2,
-          "未練": 1,
           "悲しみ": 3
         },
         "tones": [
@@ -8256,9 +8254,7 @@
             "喪失感",
             "悲しみ"
           ],
-          "secondary": [
-            "未練"
-          ]
+          "secondary": []
         }
       },
       "review": {
@@ -8284,6 +8280,12 @@
           "rights_status": "pending",
           "reviewed_on": "2026-10-24"
         }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-436869-2026-11-05.json",
+        "audit_sha256": "01ab49fa0e9e33dba14273d4de98f2292ceeab982d768ff352ffff4c99858d32",
+        "record_sha256": "1d53cf206bac6a5d418a90e52193bf2a9e480771ad7dde2c45c63fca71567519"
       }
     },
     {
