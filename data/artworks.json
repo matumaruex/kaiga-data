@@ -21598,12 +21598,12 @@
             "source_url": null
           },
           "scholarly_interpretation": {
-            "summary": "Metは、地平線近くに細く水面と浜辺を置き、空を大きく広げた穏やかな画面を、当時のクールベが描いた激しい波の海景とは対照的な例と解説する。引き潮の小舟が静かな時間を示すが、画家本人の安心感を直接表すとは限らない。",
+            "summary": "Metは、空を広く取り水面と浜辺を細く置いた穏やかな画面が、激しい波を描いた同時期のクールベの海景画では珍しいと解説する。小舟や静かな景色は画面上の観察であり、作者本人の安心感を示す証言とは区別する。",
             "source_url": "https://www.metmuseum.org/art/collection/search/436005"
           },
           "creation_context": "クールベが1869年8月、フランス・ノルマンディー地方エトルタに滞在した際に描いたイギリス海峡の風景。引き潮で砂浜に残る2隻の小舟を配している。",
           "visual_clues": "干潮の浜辺に残る二艘の小舟、広い穏やかな空と海。",
-          "uncertainty_note": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。"
+          "uncertainty_note": "館の作品ページで所蔵番号29.100.566、作者・制作年・構図を確認。作者本人の当該作品への直接発言は未確認。「安心」は鑑賞上の検索入口であり、作者の感情を確定するものではない。"
         },
         "emotion_categories": {
           "primary": [
@@ -21622,6 +21622,25 @@
         "ai_content_review_status": "pending",
         "source_evidence_review_status": "pending",
         "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "画面の大部分を雲のある空が占め、海と砂浜はその下に細く続きます。潮の引いた岸には二艘の小舟。クールベが1869年8月、ノルマンディーのエトルタに滞在したときに描いた英仏海峡の景色です。\n\n同じ時期の海景画には、砕ける波を大きく捉えたものもあります。所蔵館は、広い空と静かな岸辺を組み合わせた本作を、その中では珍しい構成と説明しています。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/436005"
+        ],
+        "review": {
+          "content_status": "pending",
+          "source_status": "pending",
+          "rights_status": "pending",
+          "reviewed_on": "2026-10-28"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-436005-2026-11-05.json",
+        "audit_sha256": "9070919edb8fe82f78ef773f1596cfcd33383b52a37a2bc31889d00f380d4380",
+        "record_sha256": "ac9c6abb3e159b15738217660408fe6ead94a365bfae1a5d90ebd2a2d7f60673"
       }
     },
     {
