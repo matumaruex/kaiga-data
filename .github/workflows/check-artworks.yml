@@ -27,6 +27,19 @@ jobs:
         uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
         with:
           python-version: "3.12"
+      - name: Verify requested target JPEGs against saved hashes
+        if: github.event_name == 'push' && contains(github.event.head_commit.message, '[verify-target:')
+        env:
+          CHECK_MESSAGE: ${{ github.event.head_commit.message }}
+        run: python3 scripts/verify_target_image_live.py --commit-message "$CHECK_MESSAGE"
+      - name: Preserve target JPEG check evidence
+        if: always() && github.event_name == 'push' && contains(github.event.head_commit.message, '[verify-target:')
+        uses: actions/upload-artifact@v4
+        with:
+          name: target-jpeg-check
+          path: artifacts/verified-target-image.json
+          if-no-files-found: ignore
+          retention-days: 14
       - name: Verify exhibition data structure
         run: python3 scripts/validate_artworks.py
       - name: Test registration guards

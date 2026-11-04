@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436005",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "30fd782d1e67a97ad424d50920806d802674e0e6",
+    "artwork_record_sha256": "f30569ab23e2ac6159f9ca9a86664893f5cfbd8837bf1d42c49a757751ac96d8",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436005.json",
+    "draft_sha256": "66967e7b0a90f6c05c60c1d7f824f7a0229484cd333d374aaa9a21d73e50b5ba"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436005",
+      "access": "page_read_twice",
+      "locations": [
+        "本文：1869年8月エトルタ、引き潮・小舟と海景画の対比",
+        "Artwork Details：29.100.566、カンヴァス油彩",
+        "Public Domainと公式画像"
+      ],
+      "observed": "クールベ、1869年、番号29.100.566。引き潮の二艘と広い空、狭い海・浜辺、同時期の激しい波を描いた海景との差を確認。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_twice",
+      "locations": [
+        "条項1",
+        "条項3 a/b"
+      ],
+      "observed": "OA指定画像と非OAの館文章の利用条件を分離。文章の条件が写真のPDと同一ではない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436005",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1973.jpg",
+      "status": 200,
+      "sha256": "796e854b59bbde36d3ece1fd3ba216f6dad116fe86ef313fd4070acd77d6a743",
+      "byte_length": 3062699,
+      "width": 3807,
+      "height": 3106,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-29",
+      "reused_prior_verified_bytes": true,
+      "fresh_download_in_this_session": false
+    },
+    {
+      "id": "met-436005",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1973.jpg",
+      "status": 200,
+      "sha256": "0e88957ab1b738cde293d468eb690c2c2ecd9ceefa2b9d2e0c586a5d53125193",
+      "byte_length": 95308,
+      "width": 599,
+      "height": 489,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-29",
+      "reused_prior_verified_bytes": true,
+      "fresh_download_in_this_session": false
+    }
+  ],
+  "visual_observations": {
+    "method": "2026-11-05、Met公式ページにリンクされたIIIF画像を2回表示して直接観察。登録URLの原画像・表示画像についてはPR #3の2026-10-29のSHA一致記録を引き継ぐ。今回新たに登録JPEGのバイト列を取得できたとは主張しない。",
+    "observed": "雲が画面の大部分に広がり、水面と砂浜が下部に薄く続く。右手前と右奥の砂に二艘の小舟、左沖に小さな船影を確認。作品と下書きの画面描写に齟齬なし。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_as_creator",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "修正案をGitに保存した後、Met作品ページと規約を改めて読み、公式IIIF画像を再表示して作者・年代・画面・選定用解釈・タグ・本文類似を比較。",
+    "limitations": "同じAI・同じ会話文脈での別工程であり第三者監査ではない。登録JPEGの新しいHTTPバイト検証はまだ実施していない（過去の確認記録を引き継ぐ）。法的な非侵害保証でもない。",
+    "reviewed_artwork_sha256": "3b6669bfd3aefb7a8da5b8237cfe4e5fd5ab931544bed37f9b2d6c754ce370b1",
+    "reviewed_visitor_draft_sha256": "66967e7b0a90f6c05c60c1d7f824f7a0229484cd333d374aaa9a21d73e50b5ba",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "作品番号29.100.566、作者Gustave Courbet、1869年・油彩カンヴァスが公式ページと一致。別版との混同なし。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "エトルタ滞在と構図の対照は館の説明に一致。小舟が特別な時間を示すという象徴的な断定を修正案から外し、事実と解釈を分離。"
+      },
+      {
+        "area": "emotion",
+        "finding": "安心2は穏やかな海景を見る際の選定入口として成立しうる。ただし画家本人の安堵や鑑賞者の心理の断定ではない。補助タグを追加しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存本文は画面観察から入り、館の基本的な事実を簡潔な日本語へ独自に再構成。長文転載、固有の修辞の逐語訳、未確認の作者発言は認められず維持可能。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "3b6669bfd3aefb7a8da5b8237cfe4e5fd5ab931544bed37f9b2d6c754ce370b1",
+    "visitor_draft_sha256": "66967e7b0a90f6c05c60c1d7f824f7a0229484cd333d374aaa9a21d73e50b5ba",
+    "proposal_sha256": "43250710b27a6e3bd3a0a8578b5548055e431217f01f76b254574471f183d68e",
+    "checks": [
+      "baseline_version_hash",
+      "input_file_sha256",
+      "proposal_before_value_matches",
+      "candidate_hash",
+      "other_299_records_unchanged",
+      "id_order_unchanged",
+      "300_unique_ids"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "この段階の事前チェックはハッシュと対象外不変の検証。Python既存の全構造・固定スナップショットと登録証拠の検査はCIで実施し、合格前にmainへマージしない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436005.json",
+    "sha256": "43250710b27a6e3bd3a0a8578b5548055e431217f01f76b254574471f183d68e",
+    "proposed_artwork_sha256": "3b6669bfd3aefb7a8da5b8237cfe4e5fd5ab931544bed37f9b2d6c754ce370b1",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "条項1 著作権・所有権",
+      "条項3a/b OAとその他の利用",
+      "作品ページ Public Domain"
+    ],
+    "checked_on": "2026-11-05",
+    "finding": "Met公式画像はPublic Domain。館の解説文までCC0とは扱わず、資料中の史実と画面の直接観察を日本語で整理した短い本文は長文の転載・逐語訳ではないと判断。DB保存を妨げる重大な未解決問題は今回見つからない。許諾の取得や法的な非侵害の保証ではない。",
+    "result": "PASS",
+    "unresolved_material_issues": []
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "PR #3の中断記録は後続5作品の原画像と表示画像計10枚を2026-10-29にSHA一致確認と記載。現在の画像配信のSHA一致を自動で仮定せず、GitHub Actionsに追加したライブ検証で再確認を試みる。",
+    "2026-11-05の画像目視はMet IIIF公式ページ経由。登録images.metmuseum.orgの直接取得と区別する。",
+    "既存pending欄は互換性維持。人間作品別承認は要求しない。"
+  ]
+}
