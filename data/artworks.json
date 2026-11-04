@@ -15319,7 +15319,7 @@
         "search_profile": {
           "fitting_situations": [
             {
-              "situation": "母子像が画家の友人に模写されたことと後の贈与の経緯が作品固有の資料にある。",
+              "situation": "小さな母子像と、それが画家の周囲で受け継がれた経緯を見たい",
               "reason": "母子像が画家の友人に模写されたことと後の贈与の経緯が作品固有の資料にある。",
               "strength": 1
             }
@@ -15339,8 +15339,8 @@
             "summary": "Metによるとコローの知人二人が模写していた母子像で、1873年頃画家が支援者に贈った。母子の親密さを描くがモデルの心理や作者自身の母性愛に関する直接証拠ではない。",
             "source_url": "https://www.metmuseum.org/art/collection/search/435977"
           },
-          "creation_context": "友人に模写された小品。コローが支援者に贈った記録と、描かれた母子の心理は別。",
-          "visual_clues": "母と幼子を描く小さな木板油彩。",
+          "creation_context": "1860年代の制作と推定される木板油彩。Metはデュティユーとデザヴァリーによる模写、1873年頃のクレオファへの贈与を記録する。",
+          "visual_clues": "暗い服の母が白い衣の幼子を腕に抱き、顔を下へ向ける。小さな木板油彩という支持体の情報は館の記載による。",
           "uncertainty_note": "作品中の人物の感情・作者の言葉・鑑賞者の入口を混同しない。館の資料の不確実な箇所は留保する。 今回の解説にない手紙・作者心理・図像の細部は未確認。"
         },
         "emotion_categories": {
@@ -15358,6 +15358,25 @@
         "ai_content_review_status": "pending",
         "source_evidence_review_status": "pending",
         "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "黒い服の母が、白い衣に包まれた子を抱いています。母は顔を下へ向け、腕のなかの幼子に視線を落としています。コローによる、高さ三十二センチほどの小さな板絵です。\n\nこの絵は画家の周りの人たちにも知られていました。アラスの画家コンスタン・デュティユーとシャルル・デザヴァリーは、それぞれ本作を模写しています。コローは1873年頃、仕事場を別に用意してくれた支援者クレオファへ、この一枚を贈りました。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/435977"
+        ],
+        "review": {
+          "content_status": "pending",
+          "source_status": "pending",
+          "rights_status": "pending",
+          "reviewed_on": "2026-10-28"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-435977-2026-11-05.json",
+        "audit_sha256": "52b194cced4ca27d9e4c81d99d1a4031214a58a5ab4087a29c51e6239456ab1e",
+        "record_sha256": "c2de4148a9a39ce70e4e1cfbc88b2f0e51d7928bcb2cd23103963435fc66b5c4"
       }
     },
     {
