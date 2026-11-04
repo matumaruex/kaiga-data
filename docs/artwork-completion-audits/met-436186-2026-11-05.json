@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436186",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "9a1574d3efe420ce5a88c28bb43d3797c548823c",
+    "artwork_record_sha256": "17b1fe2cef239998d918a5e0b576081e9c31c670a93ad33d46fdd92a274c113e",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436186.json",
+    "draft_sha256": "623a11784071eedac847230dbafed09c5a0a71f3be3f7804e4b6bd4a3ea528af"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436186",
+      "access": "page_read_twice",
+      "locations": [
+        "作品解説：シャルダンとの対比、Louis XIV / Louis XVに仕えた画家",
+        "絵画の陳列が購買力・世界的調達を示すという館の見解",
+        "金鍍金の銀器・柿右衛門・伊万里・碧玉・瑪瑙と1720年代の新邸宅の食堂",
+        "Artwork Details：1720s、261.6×187.3 cm、64.315、Oil on canvas、Public Domain"
+      ],
+      "observed": "Met作品番号64.315。1720年代、デポルト、261.6×187.3cm、油彩。銀器・日本磁器・装飾石器物を左右対称に配した構成と、当時の食堂用器棚を絵で代用する例という館の解釈。描かれた器の多くは絵より早い年代のものと説明。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_twice",
+      "locations": [
+        "規約1 Copyright and Proprietary Rights",
+        "規約3a/b OAと非OA",
+        "規約7 API・CC0"
+      ],
+      "observed": "画像がOA指定の場合のCC0と、館の文章が自動的にCC0対象にはならないことを区別して検査。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436186",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP283310.jpg",
+      "status": 200,
+      "sha256": "8dbaa4a3ea0be0cb46d5b1b9208330156993866af63cf4e31fde85b5c924bcc6",
+      "byte_length": 2281328,
+      "width": 2790,
+      "height": 3889,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-29",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "PR #3 pause-2026-10-30.md／旧画像・表示画像のSHA一致記録"
+    },
+    {
+      "id": "met-436186",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP283310.jpg",
+      "status": 200,
+      "sha256": "ea15964fae5b5dae8d7b85ea1218f01671e6aa928c7eeef22551861fd3b57a2d",
+      "byte_length": 99278,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-29",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "PR #3 pause-2026-10-30.md／旧画像・表示画像のSHA一致記録"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met作品ページからimage_queryで取得した公式Met IIIF図版（collectionapi.metmuseum.org/api/collection/v1/iiif/436186/1309551/source）を画面表示して観察。登録original/web-large JPEGが既存SHAに合致した2026-10-29の別工程検証記録を再利用。今回登録JPEGバイトの再計算を実施していない。",
+    "observed": "縦長の画面に左右対称の大きな銀色の水差しと金色の大皿、中央の何段にも重なる果物、青緑の布、上部の花と青白い陶磁器。人物は登場しない。本文の物の位置と縦約2.6mの形式に矛盾がない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "PR #3の本文・選定情報を事前確認し、Met公式ページの作品解説と作品情報を新たに再閲覧。Met公式IIIF画像を直接表示し、画面・器物・背景・タグ・館の解釈・本文類似を照合。旧原画像・表示画像のSHA記録を版が同一の範囲で引き継ぐ。",
+    "limitations": "同じAI・同一チャットの別工程。人間・第三者の監査ではない。今回のJPEG配信バイト再取得はせず2026-10-29の確認記録を再利用。規約の法的適合や非侵害の保証ではない。館内音声のセーヴル磁器の説明は他の展示品を含む可能性があり、本作の器種判定へ流用しない。",
+    "reviewed_artwork_sha256": "17b1fe2cef239998d918a5e0b576081e9c31c670a93ad33d46fdd92a274c113e",
+    "reviewed_visitor_draft_sha256": "623a11784071eedac847230dbafed09c5a0a71f3be3f7804e4b6bd4a3ea528af",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Still Life with Silver／Alexandre François Desportes／1720年代／64.315／油彩カンヴァス。館所蔵寸法261.6×187.3 cmと日本語本文の高さ約2.6mは一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "日本の柿右衛門・伊万里磁器、重い銀器・鍍金・石の器物は館解説と一致。購買力と遠方から品を入手できる地位というMetの社会史的解釈と、特定依頼主の事実認定を区別。古い器と1720年代の食堂絵画の一般的慣行も館の説明の範囲。"
+      },
+      {
+        "area": "emotion",
+        "finding": "感情タグ0件が妥当で、豪華な器物から鑑賞者の幸福感などを捏造していない。『にぎわい』は宮廷食堂の豪華なもてなしの連想に限る空気感として低い依拠度で許容。人間の気分・作者の心理と同一視しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "鑑賞本文は自分で観察できる水差し・大皿・縦長の画面から始め、材料の説明とMet解釈を日本語で簡潔に再構成。作品ページの固有修辞の逐語訳・長文転載は見つからず、既存本文を維持。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "17b1fe2cef239998d918a5e0b576081e9c31c670a93ad33d46fdd92a274c113e",
+    "visitor_draft_sha256": "623a11784071eedac847230dbafed09c5a0a71f3be3f7804e4b6bd4a3ea528af",
+    "proposal_sha256": "623c6cc95f57eb76d89a8e674d85a5ff440ff7d8c375caa182a55ef4463bd50a",
+    "checks": [
+      "baseline_version_hash",
+      "draft_file_sha256",
+      "prior_original_and_display_registered_sha256",
+      "no_revision_needed",
+      "300_unique_ids",
+      "other_299_unchanged",
+      "same_id_order"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "版・本文・原画像の登録ハッシュと対象外299件の不変性を事前に確認。最終構造チェック・完成証拠検証・ユニットテスト・snapshotはGitHub Actionsに委ね、合格前にmainへ統合しない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436186.json",
+    "sha256": "623c6cc95f57eb76d89a8e674d85a5ff440ff7d8c375caa182a55ef4463bd50a",
+    "proposed_artwork_sha256": "17b1fe2cef239998d918a5e0b576081e9c31c670a93ad33d46fdd92a274c113e",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "条項1 著作権",
+      "条項3a/b OAと非OA",
+      "条項7 APIの画像CC0"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公式でPublic Domainの画像と表示。画像と館の解説文章の権利範囲を区別し、写真のCC0を文章に拡張しない。鑑賞本文は原資料の事実と解釈を独立した短い日本語で整理し、英語の長文転載・逐語翻訳ではないと判断。今回のDB保存に重大な未解決利用条件問題を見つけないが、許諾や法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "画像の直接表示はMet IIIFの画像だが、登録original/web-large JPEGのバイト列は今セッションでは取得しておらず、2026-10-29 PR #3のSHA合格記録を同一データに適用。",
+    "Met音声書き起こしは本作の静物にない器物やセーヴルの話も含む。館の音声一般の器種説明を本文の新たな特定根拠にしない。",
+    "作者の直接意図の証言は未確認。感情タグ0件を無理に補わない。旧pending欄は互換性維持。"
+  ]
+}
