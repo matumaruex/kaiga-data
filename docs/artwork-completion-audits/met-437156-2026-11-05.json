@@ -1,0 +1,166 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437156",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "27596ef37aa7b4e8016ba28c2e63414a41b817ac",
+    "artwork_record_sha256": "51535eaadcabd5c8dc245d76acd54c3220b616a8939e648010833814cc9deb24",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437156.json",
+    "draft_sha256": "a4b73cc09dfd989706d788bbfa641c5366a2ebe88e034757fec4f41f35f297d6"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437156",
+      "access": "page_read_twice",
+      "locations": [
+        "作品冒頭：1554年、画家晩年、ブレシアの信心会の私的祈りのための小礼拝堂に制作",
+        "作品冒頭：暗い人物の顔と夜明けの光が喪失と希望を対比、フィリピの信徒への手紙2:8の言葉を刻む",
+        "Artwork Details：Moretto da Brescia、Oil on canvas、240×189.2 cm、Object Number 12.61、Public Domain"
+      ],
+      "observed": "Met公式作品ページで1554年、モレット・ダ・ブレシアとMet作品番号12.61、死を考えるための祭壇画の位置づけ、暗い表情と明け方の光、聖書フィリピ書2章8節、信者たちが悲しみと来るべき命を黙想する背景を直接2回照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/perspectives/moretto-da-brescia-entombment-conservation",
+      "access": "page_read_twice",
+      "locations": [
+        "2018年Met修復担当の記事：聖母とキリストの従者が支える姿、2016年からの保存修復",
+        "修復後の空の淡い黄色と聖母・マグダラのマリアの表情との対照（記事中段）",
+        "記事の修復後の色彩：紫・金・緑・深紅の衣装が信仰と死の対照に関与"
+      ],
+      "observed": "Met学芸・修復担当者は修復を経てよく見えるようになった淡い黄色の夜明けの空と、聖母・マグダラのマリアの痛みを対照させ、悲しみと新しい一日・復活の希望を読み解く。画家が自身の感情を直接証言したわけではない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/sixteenth-century-painting-in-lombardy",
+      "access": "page_read_twice",
+      "locations": [
+        "2006年Metエッセイ：Moretto、Romanino、Savoldoとブレシア美術の信心の文脈",
+        "同エッセイ：Morettoのconfraternitiesとの関わり、晩年の《The Entombment》所蔵番号12.61"
+      ],
+      "observed": "信心会、16世紀の宗教改革期のブレシア地域の信心と絵画との関係を確認。画家本人の言葉や個別の制作心理の証言とは区別。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_twice",
+      "locations": [
+        "1 Copyright and Proprietary Rights：OA表示画像と非OA文章等の区分",
+        "3(a) Open Access works＝CC0、商用・非商用利用",
+        "3(b) 非Open Accessテキストの利用制限"
+      ],
+      "observed": "Met本作のPublic Domain画像・OA/CC0と、館学芸解説の英文テキストの転載許諾を分離して確認。既存本文は事実・宗教的解釈を独自の日本語で記述している。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437156",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-15282-001.jpg",
+      "status": 200,
+      "sha256": "6825656670d25b88c12aa833984db007876698c7d6fbdbdadeb6d020cf1bbb67",
+      "byte_length": 3664406,
+      "width": 3213,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "mainのMet API primaryImageで原JPEG全体のSHA256・サイズ・縮小画の一致を2026-10-20に記録。今回バイト取得・SHA再計算は未実施。"
+    },
+    {
+      "id": "met-437156",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-15282-001.jpg",
+      "status": 200,
+      "sha256": "e4a74cd2cc610370eb7cca52ea8902b18d221a25755a8d8b155595004d0c2a4f",
+      "byte_length": 117494,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "mainのMet公式primaryImageSmall JPEG HTTP+SHAと寸法・登録同一作品IDの2026-10-20記録を継承。今回のバイト再照合ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品ページの作品番号12.61・Public Domain図版と、web画像検索でMet公式原画URL（DP-15282-001.jpg）に紐づく図版を直接表示して目視。表示されたウェブ画像はサーバーでリサイズされた表現を含むため、登録JPEGの全バイト一致検査とは区別。原JPEGの2026-10-20のSHA証拠は再利用した。",
+    "observed": "岩壁を背に、中央のキリストの身体が横たわるように支えられ、周囲に暗い表情の聖母・聖人たち。左上の遠景に明るい水平線／夜明けが見え、紫色の頭巾、金色の衣、赤い衣が画面にある。館の本作品画像と資料中の画面要素が一致。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "保存済み作品データ・既存鑑賞本文・感情タグを確認した後、別工程でMet公式作品ページ、Met修復担当者の2018年記事、所蔵館の2006年ロムバルディア絵画論考、Met利用規約、原画像のウェブ表示を再参照し、重要主張・制作時代・作者の意図と館の読み・感情の強度・類似表現・画像同定・利用権を照合した。",
+    "limitations": "同じAIが同じ会話内で別工程を実施したもので、第三者や別AIによる監査とは主張しない。登録済み原JPEGとweb-large JPEGを今セッションで新規ダウンロードしてSHA照合していない。2026-10-20の旧SHA記録とMet公式画像のウェブ目視を分けて記録。法的な著作権非侵害を保証するものではない。",
+    "reviewed_artwork_sha256": "51535eaadcabd5c8dc245d76acd54c3220b616a8939e648010833814cc9deb24",
+    "reviewed_visitor_draft_sha256": "a4b73cc09dfd989706d788bbfa641c5366a2ebe88e034757fec4f41f35f297d6",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Moretto da Brescia (Alessandro Bonvicino)《The Entombment》、1554年、Oil on canvas、Met 12.61、240×189.2 cm。Met公式原画像のウェブ表示により人物・風景・光の配置を目視確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "ブレシアの宗教的組織の礼拝堂で死と救いの黙想に用いる祭壇画。Met公式はPhilippians 2:8、夜明けの空と嘆く人々の対照を示す。2018年の修復担当記事は空の光を希望として読み解く。画家個人の制作時の気分の直接証拠ではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "『喪失感』強度3と『希望』強度3の主2件はMetが作品メッセージの両端として説明する要素に直結。補助『悲しみ』強度1は主2件を補助し、人物の嘆きに具体的根拠がある。作品の内容を任意の心理状態・個人的な失恋へ一般化しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存の3段落は人物の嘆きと夜明けから始まり、1554年の祭壇画と信心会の礼拝文脈、フィリピ書2:8、16世紀の神学的明晰さを日本語で記述。Metの短い英文解説の不必要な長文逐語訳や顕著なコピーは認められず、既存の本文とレビュー状態をそのまま残す。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "51535eaadcabd5c8dc245d76acd54c3220b616a8939e648010833814cc9deb24",
+    "visitor_draft_sha256": "a4b73cc09dfd989706d788bbfa641c5366a2ebe88e034757fec4f41f35f297d6",
+    "proposal_sha256": "a304eb71a04abd0ded2a093d72cf84fe09e374d6751c4d09830c985f67f3ee43",
+    "checks": [
+      "baseline_with_existing_visitor_sha256",
+      "draft_file_sha256",
+      "verified_existing_visitor_equals_draft",
+      "unchanged_curation_and_emotion_tags",
+      "registered_image_original_display_sha256_from_prior_evidence",
+      "300_unique_ids",
+      "other_299_unchanged",
+      "same_id_order"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "プログラムで計算した同一版ハッシュ・下書きファイルハッシュと一作品差分を事前確認。既存のpreview/save/check、登録済み完成証拠の検査、300件固定スナップショットと登録ガードはPRのGitHub ActionsですべてのPASSを確認してからmainへ統合する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437156.json",
+    "sha256": "a304eb71a04abd0ded2a093d72cf84fe09e374d6751c4d09830c985f67f3ee43",
+    "proposed_artwork_sha256": "51535eaadcabd5c8dc245d76acd54c3220b616a8939e648010833814cc9deb24",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA/CC0 images",
+      "3(b) Non-OA text and restrictions"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公式作品ページにPublic Domainを確認し、OA図版と所蔵館の文章の利用条件を区別。既存日本語解説は作品事実・図像と館解釈を短い独自の文章構造でまとめており、現段階では実質的な逐語翻訳や長文転載の重大問題は見つからない。法律上の非侵害保証や美術館本文の許諾取得を主張しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存のvisitor_explanationの本文・source_urls・review欄、元の感情タグ・意味資料はすべて変更しない。旧rights_status=pendingは互換性のため維持し、今回の利用条件評価は完成監査の独立欄に記載。",
+    "登録画像のoriginal/web-large JPEGバイトSHAは2026-10-20に記録された証拠を再利用し、今回改めてバイト検査したわけではない。",
+    "PRのCI検査・mainへの統合が済むまでは本作を完成件数に数えない。"
+  ]
+}
