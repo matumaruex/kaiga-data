@@ -1,0 +1,146 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436869",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "fd44d5e9288e4f5839991a4ba8199583c73dfaea",
+    "artwork_record_sha256": "c5de0a938bcb9bafb7f5483b2ed5e2738eea54e5e1efec38d8313c5918925e6c",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436869.json",
+    "draft_sha256": "b2172c05f943dc206bb6459ac043541e1ab3a33a28d781aa0224182080657397"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436869",
+      "access": "page_read_twice",
+      "locations": [
+        "Met作品概要：Lachrymaeのラテン語の題、碑の前の女性、枯れた花輪、糸杉と喪の象徴",
+        "Met作品概要：背後の光はfuneral bonfire or sunset、垂直線と作者設計の額",
+        "Artwork Details：Frederic, Lord Leighton／1894–95／油彩／157.5×62.9cm／96.28／Public Domain"
+      ],
+      "observed": "公式本文を別パスで再読し、既存解説の主張と所蔵番号・作品事実を照合。画面は哀悼や悲しみを象徴するが、未練・特定の死別相手や作者自身の実体験は明示されていない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_twice",
+      "locations": [
+        "1 Copyright and Proprietary Rights：Open Access指定外のテキスト等の権利",
+        "3(a) Open Access/CC0",
+        "3(b) 権利や制限のある非OA素材"
+      ],
+      "observed": "Met作品ページではPublic Domainを表示。作品画像のOA/CC0と館の英語解説文を区別し、現行の独自日本語解説は事実・館の解釈を独立して構成した文章だと評価。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436869",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP124813.jpg",
+      "status": 200,
+      "sha256": "71b1a396630b2e97997701065b84e3b7cb07a19c2a822578f57bbc6e035678a2",
+      "byte_length": 719505,
+      "width": 1497,
+      "height": 3710,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "main data/artworks.json image.high_resolutionのMet API primaryImage・完全JPEG SHA256と縮小画一致の2026-10-20記録。今回の再取得なし。"
+    },
+    {
+      "id": "met-436869",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP124813.jpg",
+      "status": 200,
+      "sha256": "9454465bee5f984fdec018a9d50a8a774d3bf0e9c1f5d5355b625beeb874b1e1",
+      "byte_length": 32246,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "main data/artworks.json image.live_check_scopeに記録されたMet公式primaryImageSmall JPEG HTTPとSHA照合。今回の再取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式所蔵ページで作品ID・題名・図版掲載を確認後、所蔵番号96.28と同一作品であると明示されたVictorian Webの額入り図版をweb画像検索で画面表示。Met公式IIIF直接画像は本セッションではキャッシュエラーで取得不可。画像バイトの整合性は旧2026-10-20の登録ハッシュ証拠を再利用し、今回の原JPEG再検証は行っていない。",
+    "observed": "高い縦長の画面で、黒褐色の長い衣をまとった人物が碑に頭と腕を寄せ、背後に高木・赤みがかった光がある。人物の姿勢と画面の垂直な構図はMet作品ページの解説と矛盾しない。直接表示したのは登録JPEGではなく額入りの同作品図版。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存DBの鑑賞解説・タグ・選定用資料を先に確認し、Met公式の作品概要・事実欄を再閲覧。所蔵番号付き図版、Met利用規約と対照し、出典にない作者心理、感情索引の関連、構図説明、類似文章、画像の旧検査適用範囲を別工程で検討。",
+    "limitations": "同じAI・同じ会話内の別工程であり、第三者や別モデルの独立監査ではない。今回のMet IIIF直接画像はキャッシュ失敗。登録原画・表示画のJPEGバイト再取得／SHA再計算はしていない。旧2026-10-20証拠と同題の額入り図版の表示による照合であり法的保証もない。",
+    "reviewed_artwork_sha256": "1d53cf206bac6a5d418a90e52193bf2a9e480771ad7dde2c45c63fca71567519",
+    "reviewed_visitor_draft_sha256": "b2172c05f943dc206bb6459ac043541e1ab3a33a28d781aa0224182080657397",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Lachrymae／Frederic, Lord Leighton／1894–95／油彩カンヴァス／Met 96.28／157.5×62.9cm。画面構成と所蔵番号付き別サイト図版の照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "館は碑・枯れた花輪・糸杉を哀悼の象徴と説明し、後方の光は火か夕日かを未確定とする。作者の私生活に生じた死別という特定の理由を当作品に付与しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『悲しみ』強度3と『喪失感』強度2は追悼主題との具体的関連がある。補助『未練』は特定の関係への執着・やり残した思いの根拠がないため除外する。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存の3段落は黒衣と碑、枯れた花輪、糸杉、二義的な背後の光、垂直構図と額の設計を日本語で再構成。Met原文の固有の長文表現の連続翻訳とは認められず、鑑賞本文とレビュー状態を変更せず維持。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "1d53cf206bac6a5d418a90e52193bf2a9e480771ad7dde2c45c63fca71567519",
+    "visitor_draft_sha256": "b2172c05f943dc206bb6459ac043541e1ab3a33a28d781aa0224182080657397",
+    "proposal_sha256": "37bd77947c7e95eb55a47cafc3d1e8313f04fd69378642a8ce8c43348df0c044",
+    "checks": [
+      "baseline_with_existing_visitor_sha256",
+      "draft_file_sha256",
+      "reviewed_revision_before_after",
+      "prior_registered_original_display_sha256",
+      "300_unique_ids",
+      "other_299_unchanged",
+      "same_id_order"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "本文・版のSHAと旧画像登録SHA証拠、予定する3欄だけの修正を確認。最終構造、完成監査、単体登録ガード、固定snapshotは既存GitHub Actionsに委ね、成功前にmainへ保存しない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436869.json",
+    "sha256": "37bd77947c7e95eb55a47cafc3d1e8313f04fd69378642a8ce8c43348df0c044",
+    "proposed_artwork_sha256": "1d53cf206bac6a5d418a90e52193bf2a9e480771ad7dde2c45c63fca71567519",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access/CC0",
+      "3(b) Non-OA text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Metはこの油彩画にPublic Domainを表示。画像のOA/CC0と英語学芸員解説の利用範囲を区別し、既存の短い日本語本文は画面の事実・館の解釈を元に別の構成で記述している。長文転載・直訳と判断する重大な問題は見つからないが非侵害の法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "旧visitor_explanationの本文・出典URL・レビュー状態は変更しない。rights_status=pendingは互換性維持であり、監査で別途判断する。",
+    "登録JPEGのSHA照合は2026-10-20の旧記録。Met IIIFの現時点の画像ダウンロードは未実施である点を明示。",
+    "補助未練のみ索引から削り、悲しみ・喪失感の意味資料と検索適合の判断を維持。"
+  ]
+}
