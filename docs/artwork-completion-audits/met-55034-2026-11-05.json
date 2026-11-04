@@ -1,0 +1,156 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-55034",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "1df5772dce6aa6f29dc2e0f789e3d3fc54660cb8",
+    "artwork_record_sha256": "f351eab84c53b3aa8ede1d4e3f0c3a2bb910fbad281ea56839d363daa5d59c0b",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-55034.json",
+    "draft_sha256": "2aa8dac86ca59339eb0c2056ca1ee2ef85d25c3de07e42dc1c067571154d9b55"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/55034",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview 第1段落：ダクシャがサティとシヴァを供犠へ招かず、サティは侮辱への抗議として身を焼く、シヴァは悲嘆と怒りに駆られる",
+        "Overview 第1段落後半：ヴィシュヌが円盤でサティの身体を分断して破壊的踊りを止める。神話の要約のため現本文は詳細省略",
+        "Overview 第2段落：カリガート寺院付近の巡礼者向け絵画、錫顔料が装身具に銀色のハイライトを与える",
+        "Artwork Details：1865–75、West Bengal Calcutta Kalighat、Ink/opaque watercolor/silver paint on paper、2000.313、Public Domain"
+      ],
+      "observed": "Met公式の検索取得内容と作品ページを別パスで確認し、本文の神話上の感情と作者本人の感情を区別。日本語本文の明確な誤り・根拠のない発言を認めなかった。"
+    },
+    {
+      "url": "https://www.jstor.org/stable/community.18395004",
+      "access": "page_read_once",
+      "locations": [
+        "The Met所蔵番号2000.313／55034、Calcutta Kalighat、1865–75、ink, opaque watercolor, silver paint、CC0画像"
+      ],
+      "observed": "MetからArtstorに提供された公式所蔵番号と図像の同定を補助確認。登録原JPEGそのものの今回のSHA再計算とは区別。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) OA/CC0 images",
+        "3(b) non-OA museum text"
+      ],
+      "observed": "作品画像のPublic Domainと学芸員による神話説明の文章表現の権利を区別した。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-55034",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-43062-001.jpg",
+      "status": 200,
+      "sha256": "e813b3c16a5fe2aaaa0524ecd9235a9f25821bd9369692f08a8a11b0ed16fd4a",
+      "byte_length": 3106862,
+      "width": 2702,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet原JPEGの完全実SHA256・寸法と縮小画像整合証拠を引き継ぐ。今回は原JPEG再ダウンロードを行わず、Met公式Web画像を別途目視。"
+    },
+    {
+      "id": "met-55034",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-43062-001.jpg",
+      "status": 200,
+      "sha256": "6627d9676aabfbb7bfaee71fdbe65cf5e3bfde6d586c61584b44fc8095fe05fb",
+      "byte_length": 145692,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18にMet API primaryImageSmallとしてHTTP・SHA確認した登録済み台帳を引き継ぐ。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品ページ55034の先頭IIIF画像（collectionapi.metmuseum.org/api/collection/v1/iiif/55034/2349436/main-image）を直接表示し、作品名・所蔵番号2000.313とMet/Artstor所蔵情報を突合した。公式ギャラリーには別画像も存在するので表示の先頭対象を明記。",
+    "observed": "縦長の橙色の紙面。中央に青みのある肌と長い髪を持つ人物（シヴァ）が脚を開いて立ち、肩にもう一人の人物サティの身体を担ぐ。装身具に銀白色の線・点が見える。Metによる神話上の『悲嘆と怒り』は資料に基づく解釈であり、画面からその心理を単独で断定しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "まず既存DBの日本語本文・意味資料・索引を点検し、その後Met公式の神話の各段階と年代・素材・販売環境を別に照合、公式Web図版を視認し、Artstorの所蔵番号情報とMet権利規約を再確認。",
+    "limitations": "同一AI・同一チャット内の別工程であり別AIの独立監査ではない。画像の旧SHAを今回再測定したと装わない。神話は宗教的伝承をMetが説明したもので、史実の断定ではない。法的な非侵害保証ではない。",
+    "reviewed_artwork_sha256": "f351eab84c53b3aa8ede1d4e3f0c3a2bb910fbad281ea56839d363daa5d59c0b",
+    "reviewed_visitor_draft_sha256": "2aa8dac86ca59339eb0c2056ca1ee2ef85d25c3de07e42dc1c067571154d9b55",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met ID55034、2000.313、ca.1865–75、カルカッタ（カリガート）の未詳画家、紙に墨・不透明水彩・銀彩。神話の場面と第一の登録図版が対応。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "父ダクシャによる供犠の招待拒否とサティへの侮辱、抗議としての焼身、遺体を運ぶ悲嘆と怒りのシヴァ、破壊的踊りの神話をMetが説明。現日本語の『神々の介入』はヴィシュヌの行為を短縮した表現として理解できる。具体的経緯の省略と誤記を区別。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『喪失感』2・『怒り』2、補助『悲しみ』1は公式OverviewのStruck with grief and angerおよび死別の伝承に対応。作者自身や鑑賞者にこれらの心理を帰属させず、画中神話への入口に留める。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "鑑賞本文は公式の神話の概要・カリガートの制作文化・錫顔料を5短段落に分け、日本語の独自文で説明し、館の英語を長文転載・逐語訳していない。『ヴィシュヌの円盤で遺体が分かれる』という詳細は省略されているが、誤った結末は加えていない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "f351eab84c53b3aa8ede1d4e3f0c3a2bb910fbad281ea56839d363daa5d59c0b",
+    "visitor_draft_sha256": "2aa8dac86ca59339eb0c2056ca1ee2ef85d25c3de07e42dc1c067571154d9b55",
+    "proposal_sha256": "afc16e4ef2111b29b6458fc5f5759e5e655c59c616826acea9994306a6268611",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "コード実行前の対象同定・本文一致・旧画像証拠・300件IDを照合。complete_artwork.py preview/save/checkとGitHub Actionsを別途成功確認した後だけmainへ統合し正式完成へ加える。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-55034.json",
+    "sha256": "afc16e4ef2111b29b6458fc5f5759e5e655c59c616826acea9994306a6268611",
+    "proposed_artwork_sha256": "f351eab84c53b3aa8ede1d4e3f0c3a2bb910fbad281ea56839d363daa5d59c0b",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access/CC0",
+      "3(b) restricted Museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met所蔵作品は公式Public Domain画像であり、Artstorでも同一所蔵番号にCC0が示される。一方、Met学芸員説明の文章表現は画像OAと別。既存本文は神話の事実と所蔵館の情報を短く独自の日本語に整理し、館の長文転載・逐語翻訳は避けている。法律上の保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "従来の鑑賞本文はmainに存在するが下書き単独ファイルが無いので、本文・出典・review欄を一致させた審査用draftを今回新設。",
+    "画像JPEGの2026-10-18/20旧バイト証拠と今回のMet公式Web図版目視を区別。",
+    "CIとmainマージ完了後だけ正式32/300。"
+  ]
+}
