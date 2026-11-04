@@ -1,0 +1,163 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-37941",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "54b23923589fc2d0ef85e3a7395560de5aed7101",
+    "artwork_record_sha256": "6a59b67b450038f9a85a3a0a3b9bf58ce6d7e967f0666d4021ceee4cbe69fa8c",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-37941.json",
+    "draft_sha256": "2657d88e99e898a6a2d03f61a8df7ce9567ec8577a1782df2ee05aba8b4e4576"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/37941",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview第1段落: 15世紀末Rasamanjari、半開きの戸は恋人男性の急いだ退出を示す、暗い大理石の門が二人の亀裂を表す",
+        "Overview第2段落: クリシュナでなく宮廷の貴人として描かれる男性",
+        "Artwork Details: 57.51.14、Devidasa of Nurpur、1694–95、India (Punjab Hills, Basohli)、opaque watercolor, ink, silver, gold on paper、Public Domain"
+      ],
+      "observed": "Met公式英語ページと日本語切替ページを読んで作品番号、短い解説の全主張と修正後の日本語解説を別パスで照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/37942",
+      "access": "page_read_once",
+      "locations": [
+        "同画家・同シリーズの別作品37942、Rasamanjariの愛と情動の種類、1694–95年"
+      ],
+      "observed": "Rasamanjari連作の背景を別作品で補完したが、その画面や帰属を本件と混同しない。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:MET_DP153147.jpg",
+      "access": "search_metadata",
+      "locations": [
+        "Met Object 37941、57.51.14、DP153147、3861×2518、CC0"
+      ],
+      "observed": "現在登録の原画像のファイル名と作品番号・サイズの一致を確認。検索メタデータであってJPEGバイトの今回再計算ではない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) OA/CC0 images",
+        "3(b) museum text restrictions"
+      ],
+      "observed": "画像OAと所蔵館文章の著作権を区別した。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-37941",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP153147.jpg",
+      "status": 200,
+      "sha256": "ad79c36efb68963212649e501e8c3cc1530b390c1d8c59e3282babbb93d5b9f3",
+      "byte_length": 2345599,
+      "width": 3861,
+      "height": 2518,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "data/image-sources.jsonのMet原JPEGの過去全バイトSHA・画像縮小一致。今回JPEG全量再取得なし。"
+    },
+    {
+      "id": "met-37941",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP153147.jpg",
+      "status": 200,
+      "sha256": "cbf15e8636dd04e4fbe1c35ed7c9487707e1f033b1248b4673b242db001aafd4",
+      "byte_length": 92666,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met Object API primaryImageSmallの旧HTTP/JPEG/SHA実取得記録を利用。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Metの公式図版検索結果・作品個別ページと、登録同一Metファイル名DP153147の旧SHA台帳を照合。",
+    "observed": "赤い縁取りの横長画面。左に坐る女性、中央に大理石の門と暗い入口、右側に右向きの男性が描かれている。口論自体は直接見えず、半開きの戸は彼の急な退出を暗示。人物の思い込みと学芸員の解釈は分ける。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存DB・画像台帳・本文を読み、別工程でMet公式英語と日本語の個別ページ、同画家別連作と画像の構図・権利を照合。修正箇所、図像、感情の根拠と出典の表現の類似性を評価した。",
+    "limitations": "同じAIが同一会話内で別工程を行ったもので他AI・第三者の独立レビューではない。原JPEG・表示JPEGの全バイトSHAは2026-10-18/20の旧検査記録の継承。今回新規バイト取得なし。法律上の非侵害は保証しない。",
+    "reviewed_artwork_sha256": "6a59b67b450038f9a85a3a0a3b9bf58ce6d7e967f0666d4021ceee4cbe69fa8c",
+    "reviewed_visitor_draft_sha256": "2657d88e99e898a6a2d03f61a8df7ce9567ec8577a1782df2ee05aba8b4e4576",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 37941／57.51.14、Devidasa of Nurpur、1694–95、Punjab Hills Basohli、opaque watercolor, ink, silver and gold on paper。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Rasamanjariの男女の亀裂、半開きの戸、暗い門、貴人の男性という館の解釈に対応。描いていないのは口論の瞬間であり男性そのものは画面右に存在する。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『不安』強度2と補助『未練』強度1は関係がこじれた人の鑑賞者向け入口であり、作中人物の復縁意思の確定事実ではない。注意書きで留保して強度を上げない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "旧説明の描写断定はPR #33で正し、今の日本語本文はMetの短い英語解説の具体的事実に基づく独自の構成。著作権ある文章の大量逐語訳ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "6a59b67b450038f9a85a3a0a3b9bf58ce6d7e967f0666d4021ceee4cbe69fa8c",
+    "visitor_draft_sha256": "2657d88e99e898a6a2d03f61a8df7ce9567ec8577a1782df2ee05aba8b4e4576",
+    "proposal_sha256": "a8b8f682f1278f2bb404743410834280e7154fbc6b17bdb235338be65b959b16",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "事前版・画像台帳・同一本文と草稿・対象数の確認。完成登録ガードやGitHub Actionsは別にCI結果とmain統合後の正式完成カウントで確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-37941.json",
+    "sha256": "a8b8f682f1278f2bb404743410834280e7154fbc6b17bdb235338be65b959b16",
+    "proposed_artwork_sha256": "6a59b67b450038f9a85a3a0a3b9bf58ce6d7e967f0666d4021ceee4cbe69fa8c",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA/CC0 images",
+      "3(b) non-OA museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met Public Domain／CC0対象画像と英語所蔵館文章の権利は別。日本語本文は著作物の事実・公式解釈を自前の文章で整理し、長い逐語訳や転載を認めない。法的保証・個別許諾ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "PR #33の本文表現修正はmain統合済み。今回の登録は本文・感情・画像変更なし。",
+    "旧JPEG SHAと今回Web図版の画面同定は別。",
+    "CI・main統合後のみ正式29/300。"
+  ]
+}
