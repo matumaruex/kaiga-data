@@ -1,0 +1,41 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-37905",
+  "baseline_commit": "8a89b15e9d38235a531e54a876e721a01136f6ff",
+  "baseline_artwork_sha256": "34257a5da674e51f08ec52cc0b496e285c5400de16dbd92e4ece8171d9d3b00e",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation",
+        "summary"
+      ],
+      "before": "夜と恋人の親密さに結びつく旋法ディーパクを、火を灯す二人の女性として視覚化したラーガマーラの一葉。Metは幻視的な奥行きをつくらず、人物を地図のように配した建築空間へ並置する点を17世紀前半のマールワ絵画の特徴と説明する。",
+      "after": "Metはこのラーガを夜と恋人の親密さに結び付け、左右の女性が持つ灯火を火の図像と説明する。区画で分かれた平面的な建築空間は、17世紀前半のマールワ絵画の特徴としている。",
+      "reason": "灯火を持つことと点火を区別し、空間表現の説明を明確にする。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/37905"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "宮廷の建築の中に立ち、灯りを持つ二人の女性。",
+      "after": "中央の区画に座る男女。その左右に灯火を持つ女性、中央の二人の後ろに払子を持つ人物がいる。",
+      "reason": "灯火の女性だけに偏った観察を、中央の男女と建築区画を含む記述へ補う。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/37905"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-37905.json",
+  "visitor_draft_sha256": "ab561d1d28db5940b4ecda3edd7e20edbbb949b94d4926958c7b9e9384c080ef",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "a0c31a2508fe0a4c43987deee8f7c7a77ec7efbef8d575a28caa881805eea41a"
+}
