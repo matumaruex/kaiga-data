@@ -1,5 +1,13 @@
 # モデル・チャットを変えたときの再開地点
 
+## 【最新の再開地点】2026-11-05：31完成／5保留（PR統合確認後）
+
+- **正式完成31/300作品**（この変更をGitHub Actions成功後にmainへ統合した場合に限る）。今回の対象：三五斎（Samoje）《湖畔の亭》 `met-40429`。Met作品番号15.96.2、公式資料・作品図版・既存の日本語解説・画像利用条件・感情タグを個別照合。既存本文・感情索引・画像URLは維持し、監査と`completion`のみ追加。登録画像のJPEGバイトハッシュは2026-10-18/20の旧実測台帳を再利用し、今回のMet公式Web図版の目視と区別。別AI・第三者ではなく、同一AIの別工程。
+- **内容保留は従来の5作品のまま**。今回の新規HOLDなし。未統合のPRを完成には数えない。
+- **次の着手：`met-55034`《シヴァがサティーの遺骸を運ぶ》（Shiva Carries the Corpse of Sati）**。既存本文・作品根拠・図版・感情索引・権利を公式資料で1作品ずつ監査。
+- **品質運用：** 一作品ごとに根拠照合と実質審査→既存`complete_artwork.py`→PRのGitHub Actions→main統合でのみ完成加算。内容HOLD／CI待機を混同せず、追加作業は最新mainから再開。
+
+
 ## 【最新の再開地点】2026-11-05：30完成／5保留
 
 - **正式完成30/300作品**（必ず最新mainの `data/artworks.json` から再計算）。今回の完成3作品：童鈺《浸月圖》 `met-73161` [PR #32](https://github.com/matumaruex/kaiga-data/pull/32)、デヴィダーサ《口論で仲違いした遊女と恋人》 `met-37941` [PR #34](https://github.com/matumaruex/kaiga-data/pull/34)、サージェント《隠者》 `met-12110` [PR #36](https://github.com/matumaruex/kaiga-data/pull/36)。この3件は作品別出典・画像・本文・タグ・権利の審査とGitHub Actions成功後にmain統合。直近のPR #36は [検査SUCCESS](https://github.com/matumaruex/kaiga-data/actions/runs/41931611172)、統合コミット `26bbcf1d747f8e628513f866e6ded43b7f7a0fed`。鑑賞本文115件。
