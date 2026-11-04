@@ -1,0 +1,80 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-737735",
+  "checked_on": "2026-11-05",
+  "result": "HOLD",
+  "progress": "保留",
+  "version": {
+    "baseline_commit": "eab4dcfb2de251bbf67f02f19ad46e00a501598a",
+    "artwork_record_sha256": "7e5e1a3a023fdc236201ddec8918c33f060ceb4d0925c071cf94f6c8a119ca1f",
+    "draft_path": null,
+    "draft_sha256": null
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/737735",
+      "location": "Overview, Artwork Details, gallery image 1/12",
+      "observed": "所蔵番号2024.549.7《Viewing the Moon in an Empty Room／清 顧洛 空房對月圖 冊》、1829年。館の解説は父と幼い息子が月を眺め、画賛が哀悼詩を題材にすることを示す。ギャラリー先頭図版では人や月が見えず、台紙裏面のような画面である。"
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/737735/2343268/main-image",
+      "location": "公式作品ページの最初の画像リンク",
+      "observed": "Web上で視認した図版は大部分が無地の紙、左の縦書き、下部シールがあるだけで、父子と月は見当たらない。既存登録primaryImage（DP-42601-001.jpg）との実JPEGバイト一致は今回は未確認。"
+    },
+    {
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-42601-003.jpg",
+      "location": "Met同作品の別公式図版（Web画像検索）",
+      "observed": "こちらには東屋で月を眺める父子と周辺の木々、画賛が描かれ、館の作品概要と一致している。現DB登録DP-42601-001.jpgと同じ画像であるとは認められない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "location": "Section 1 and 3(a)/(b)",
+      "observed": "OA対象作品画像と非OAの学芸員の解説文章は権利を区別する。"
+    }
+  ],
+  "visual_observations": {
+    "method": "公式作品ページの最初の画像リンクとWeb上の同作品DP-42601-003図版を画面で比較し、過去の登録URL・原／表示SHA台帳を別途照合。今回のJPEG全バイト再取得・SHA計算なし。",
+    "observed": "公式ギャラリー先頭は裏面または台紙に見え、父子と月の図像なし。一方同館の別画像DP-42601-003には東屋の人物と景色。現在の画像登録が展示すべき面を指すか検証が必要。"
+  },
+  "content_checks": [
+    {
+      "area": "identity",
+      "result": "PASS",
+      "finding": "Met 2024.549.7、Gu Luo（顧洛）1829年、清代、紙本墨彩の画帖の一葉を公式で同定。"
+    },
+    {
+      "area": "meaning_and_tags",
+      "result": "PASS",
+      "finding": "館は画賛が哀悼の詩を題材にしたと説明。『喪失感』『悲しみ』主、『寂しさ』補助への接点は自然で、画家本人の死別体験は断定しない。"
+    },
+    {
+      "area": "visitor_explanation",
+      "result": "PASS_WITH_IMAGE_DEPENDENCY",
+      "finding": "既存の本文は画賛と月の場面を説明し、所蔵館の文章と整合する。ただし登録画像が本文の絵を表示するか未確認。"
+    },
+    {
+      "area": "image_subject_match",
+      "result": "HOLD",
+      "finding": "登録primary画像DP-42601-001と所蔵館ギャラリー画像1/12の画面対応、実際の絵を示すDP-42601-003との関係が未解決。旧JPEG SHAの一致だけでは同定に十分でない。"
+    }
+  ],
+  "remaining": [
+    {
+      "area": "image_subject_match",
+      "issue": "Met公式ページの先頭画像が画帖の裏面らしく、登録primary JPEG DP-42601-001は父と子が月を眺める主題の画面でない可能性。画像検索の公式別JPEG DP-42601-003は本文の内容に一致。",
+      "required_action": "旧DP-42601-001の実画面と登録JPEGバイトを再照合し、主題と一致する公式原画像を決定する。必要ならDBとdata/image-sources.jsonを両方更新し、画像を新規取得してJPEG/SHA/寸法、対象外不変性、別工程画面同定と権利を再検証。既存登録ガードの未対応部分を外して合格にはしない。"
+    }
+  ],
+  "previous_evidence_reused": {
+    "display_sha256": "399f39f3339cbe11c7da04286e474e058c26d06a6d78a4fd5621de966fd698f2",
+    "original_sha256": "b3643c73083869cc645489302f49cf858e78f2f7d77f18eb73bb8cd5435b44e7",
+    "checked_on": "2026-10-18/20",
+    "new_image_byte_download": false
+  },
+  "promotion": {
+    "eligible": false,
+    "production_changed": false,
+    "merged": false
+  },
+  "review_method": "同じAIの別工程による原資料とWeb図版の照合。作品内容自体は確認できても、登録画像の正しい面を同定できないためHOLD。"
+}
