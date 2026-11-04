@@ -1,0 +1,146 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436176",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "8d293c697e4414f1bc4b1fd9b4430794a0509983",
+    "artwork_record_sha256": "1dde05a2c29d0283867ac776a4abee3261d2a5c0ef885ef4a58401625b1341d0",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436176.json",
+    "draft_sha256": "af9ceef72d12c3551aaf9d206eebc5e81a746bf0ff75a8f6536e5d06e29ad9fc"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436176",
+      "access": "page_read_twice",
+      "locations": [
+        "作品解説（嵐の舟、弟子たちの恐れ、キリストの信頼の教訓）",
+        "同主題少なくとも6作、初期と後期の舟・海景の画面比重",
+        "1886年ゴッホ鑑賞と色彩への言及",
+        "Artwork Details：29.100.131、1853年頃、Oil on canvas、Public Domain"
+      ],
+      "observed": "Metの当該作品番号29.100.131、作者デラクロワ、1853年頃、キャンヴァス油彩を確認。館本文が少なくとも6版と初期・後期の構図差、恐れる弟子とキリストの信仰の教訓、1886年に本作を見たゴッホの色彩評価を明記。ゴッホの原手紙を独立閲覧したとは扱わない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_twice",
+      "locations": [
+        "1. Copyright and Proprietary Rights",
+        "3. Authorized Uses a/b",
+        "7. API／Open Accessの条件"
+      ],
+      "observed": "OA指定画像にはCC0を適用できるが、館の学芸解説本文まで同じ権利と扱えない。原文を長く転載せず、画面観察・事実と館の解釈を独自の日本語にする。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436176",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-14343-001.jpg",
+      "status": 200,
+      "sha256": "650125b53da28b7a1ae918e7c8e8165d6abd8c3a262b94823a999d4425e78a4d",
+      "byte_length": 3876840,
+      "width": 4000,
+      "height": 3296,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-29",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "PR #3 docs/visitor-content-audit-2026-10-27/pause-2026-10-30.md / 2026-10-29 verified source+display SHA"
+    },
+    {
+      "id": "met-436176",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14343-001.jpg",
+      "status": 200,
+      "sha256": "93ad02bd69d9400d4bc50183e38c3295e7ec26161e05495d8753f3e84d319390",
+      "byte_length": 103632,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-29",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "PR #3 docs/visitor-content-audit-2026-10-27/pause-2026-10-30.md / 2026-10-29 verified source+display SHA"
+    }
+  ],
+  "visual_observations": {
+    "method": "同じ題名・作者でMet公式作品ページに対応する公開画像の表示（Wikimedia Commonsの図版）を視認し、画面描写をチェック。Met公式作品解説と作品番号で同定したうえで、前回PR #3での登録原画像・表示画像のSHA一致記録を再利用。Metの画像APIの直接画像は今回Web取得エラーであり、新たなJPEGバイト取得や新しいSHA計算をしたとは主張しない。",
+    "observed": "斜めの小舟と波の荒い青緑の水面。左寄りで白い衣の人物が眠り、周囲の弟子たちは起き上がり、腕を伸ばすなど動きが大きい。暗い空と岸の遠景、赤い衣、舟の端が確認できる。『多くの人が身を動かす中、キリストが横になる』との本文は画面と矛盾しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_as_earlier_draft",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "PR #3の本文と既存選定資料を読み込んでから、Met公式作品ページを改めて開いて作品情報と解説の該当箇所を照合し、同作品の公開画像を表示。本文の聖書解釈・ゴッホの発言の出典帰属・色彩・感情タグ・文章類似を確認。変更不要の理由をチェックごとに記録。",
+    "limitations": "別AI・別の会話文脈での監査ではない。同じAIによる別工程。ゴッホの原手紙原文までは今回独立閲覧しておらず、その内容はMetからの間接的な引用・要約。登録元JPEGは今回再ダウンロードしていない（2026-10-29の記録を利用）。AIの文章類似判定は法的保証ではない。",
+    "reviewed_artwork_sha256": "1dde05a2c29d0283867ac776a4abee3261d2a5c0ef885ef4a58401625b1341d0",
+    "reviewed_visitor_draft_sha256": "af9ceef72d12c3551aaf9d206eebc5e81a746bf0ff75a8f6536e5d06e29ad9fc",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Eugène Delacroix／Christ Asleep during the Tempest／ca. 1853／29.100.131／Oil on canvasはMet現行作品ページと一致。連作が複数あることを踏まえ同番号に限定。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metは恐れる弟子とキリストの教訓・少なくとも6作・初期は海景が目立ち後期は舟が大きいと説明。ゴッホの言葉は1886年の別画家の鑑賞反応としており、デラクロワ本人の意図と混同しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主感情『不安』2は弟子の動き・荒海に視覚根拠がある。補助『希望』1は信仰上の信頼・対比を手がかりにした弱い鑑賞上の可能性で、物語の結末や作者・鑑賞者の心理を断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語本文は画面描写、館説明に帰属する聖書教訓と連作比較、ゴッホの鑑賞反応を短く整理した独自文章。館の英語説明との事実一致はあるが長文の逐語翻訳・固有修辞の転載は見つからない。修正不要。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "1dde05a2c29d0283867ac776a4abee3261d2a5c0ef885ef4a58401625b1341d0",
+    "visitor_draft_sha256": "af9ceef72d12c3551aaf9d206eebc5e81a746bf0ff75a8f6536e5d06e29ad9fc",
+    "proposal_sha256": "e06c2868366658b1f854328f11e40a4054bb188dfa58553d81006393ae83b9ac",
+    "checks": [
+      "baseline_artwork_hash",
+      "no_revision_required",
+      "visitor_draft_file_hash",
+      "registered_image_hash_prior_evidence",
+      "catalog_unique_300",
+      "one_target_only"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "SHA-256と現mainの対象レコードを照合して一作品分の登録候補を作成。正式版は既存のcomplete_artwork.py check、Python構造テスト・固定スナップショットとCIで判定する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436176.json",
+    "sha256": "e06c2868366658b1f854328f11e40a4054bb188dfa58553d81006393ae83b9ac",
+    "proposed_artwork_sha256": "1dde05a2c29d0283867ac776a4abee3261d2a5c0ef885ef4a58401625b1341d0",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "条項1 Copyright",
+      "条項3 OA and restricted Materials",
+      "条項7 API and CC0"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "本作品の画像はMet公式でPublic Domain。規約のOA/CC0をその画像に限り適用し、学芸解説の文章は自動的にCC0としない。館説明の作品情報と事実を根拠に独立の短い日本語本文を書いており、長文の転載や英文の逐語訳とは判断しない。今回のDB保存を妨げる重大な未解決問題はないとのレビュー判断で、許諾や法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "PR #3の中断メモにmet-436176含む5作品の原画像・表示画像10点が2026-10-29に登録SHA一致・視認済みと記録される。今回の画像バイト再照合は行わず、その記録を版が一致する範囲で利用。",
+    "ゴッホの1886年の言葉はMetによる再掲。ゴッホ本人の原手紙から直接確認したとの誇張をしない。",
+    "従来pendingは互換性として保持し、新completion欄が正式完成を表す。"
+  ]
+}
