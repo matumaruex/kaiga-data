@@ -1,6 +1,13 @@
 # モデル・チャットを変えたときの再開地点
 
-## 【最新の再開地点】2026-11-05：27完成／5保留
+## 【最新の再開地点】2026-11-05：29完成／5保留
+
+- **正式完成29/300**。童鈺《浸月圖》`met-73161`を[PR #32](https://github.com/matumaruex/kaiga-data/pull/32)でmainへ統合。デヴィダーサ《口論で仲違いした遊女と恋人》`met-37941`は[PR #33](https://github.com/matumaruex/kaiga-data/pull/33)で本文の過剰断定を修正してから、[PR #34](https://github.com/matumaruex/kaiga-data/pull/34)で正式完成。[PR #34のGitHub Actions](https://github.com/matumaruex/kaiga-data/actions/runs/41930773855) SUCCESS。進捗正本は最新mainのDB。鑑賞本文115件。
+- **内容保留：従来5作品のまま**。《空房對月圖》の画像同定問題など、今回新規保留なし。
+- **次の着手ID：`met-12110`《隠者》**。John Singer Sargent、1908年。本人の書簡を使った現解説の妥当性、アルプスの風景と鹿・人物の画像同定、感情タグ・出典・利用条件を作品単位で監査し、合格版だけ保存する。
+- **継続運用：** 1作品ずつ品質審査・CI・main保存、同じチャットで連続進行。内容HOLDとCIシステム待機を区別し、最終確認前には完成を増やさない。
+
+## 【過去の再開地点】2026-11-05：27完成／5保留（以下履歴）
 
 - **正式完成27/300**。今回の完成は小林清親《頼豪阿闍梨図》（[PR #27](https://github.com/matumaruex/kaiga-data/pull/27)）、《風流踊図屏風》（[PR #30](https://github.com/matumaruex/kaiga-data/pull/30)）、賢江祥啓《山水図》（[PR #31](https://github.com/matumaruex/kaiga-data/pull/31)）。直近のmain統合は`ddf0ca293bc0787ddc897256a367d11042cdbecc`、[PR版の検査SUCCESS](https://github.com/matumaruex/kaiga-data/actions/runs/41923718663)。最終件数は最新mainのDBから再計算する。日本語鑑賞本文は115作品。
 - **内容保留：5件**（以前の4作品＋今回の`met-737735`《空房對月圖》の画像同定未解決）。[PR #28](https://github.com/matumaruex/kaiga-data/pull/28)でHOLD監査をmainへ保存済み。主題と登録画像が一致するまで、HOLDを完了に上げず旧画像のSHAだけでPASSとしない。
