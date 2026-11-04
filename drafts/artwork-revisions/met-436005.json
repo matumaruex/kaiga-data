@@ -1,0 +1,41 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-436005",
+  "baseline_commit": "30fd782d1e67a97ad424d50920806d802674e0e6",
+  "baseline_artwork_sha256": "f30569ab23e2ac6159f9ca9a86664893f5cfbd8837bf1d42c49a757751ac96d8",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation",
+        "summary"
+      ],
+      "before": "Metは、地平線近くに細く水面と浜辺を置き、空を大きく広げた穏やかな画面を、当時のクールベが描いた激しい波の海景とは対照的な例と解説する。引き潮の小舟が静かな時間を示すが、画家本人の安心感を直接表すとは限らない。",
+      "after": "Metは、空を広く取り水面と浜辺を細く置いた穏やかな画面が、激しい波を描いた同時期のクールベの海景画では珍しいと解説する。小舟や静かな景色は画面上の観察であり、作者本人の安心感を示す証言とは区別する。",
+      "reason": "小舟が「静かな時間を示す」という象徴的な断定を、館に根拠のある構図の説明と作者心理の留保へ限定する。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/436005"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "before": "公式Met Object API・絵画種別・PD情報と公式主画像JPEGを検証。作者本人の当該作品への直接発言は未確認、解釈の人間承認は未了。",
+      "after": "館の作品ページで所蔵番号29.100.566、作者・制作年・構図を確認。作者本人の当該作品への直接発言は未確認。「安心」は鑑賞上の検索入口であり、作者の感情を確定するものではない。",
+      "reason": "現在の共通運用で不要となった人間承認待ちの表記を外し、この作品固有の解釈の不確実性を明記する。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/436005"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-436005.json",
+  "visitor_draft_sha256": "66967e7b0a90f6c05c60c1d7f824f7a0229484cd333d374aaa9a21d73e50b5ba",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "3b6669bfd3aefb7a8da5b8237cfe4e5fd5ab931544bed37f9b2d6c754ce370b1"
+}
