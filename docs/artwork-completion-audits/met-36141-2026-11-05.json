@@ -1,0 +1,75 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-36141",
+  "checked_on": "2026-11-05",
+  "result": "HOLD",
+  "progress": "保留",
+  "version": {
+    "baseline_commit": "259f761f511e06bda6e148518a5c75a8b60649ca",
+    "artwork_record_sha256": "c9829978be7143767661b09f827e899a9db273d341e87f6c4e5369a1ae211d25",
+    "draft_path": "drafts/visitor-explanations/met-36141.json",
+    "draft_sha256": "5add569bb7d4befac7c637183d2bfeb03d1c7cd8d3a9e0f71a0af78ab40909d7"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/36141",
+      "location": "Overview, Artwork Details, non-English title",
+      "observed": "Met現行公式の作品名はReturning Home in a Driving Rain、漢字表記は南宋 佚名 倣夏珪 冒雨尋莊圖 團扇。旧夏珪本人への帰属は現在After Xia Gui（おそらく近い追随者）。南宋・13世紀初、雨の中を帰る二農夫と激しい樹木の表現。"
+    },
+    {
+      "url": "https://inscrchart.lib.miamioh.edu/s/InscrChArt/item/1610",
+      "location": "Title, Creator, Identifier, Label strip",
+      "observed": "作品ID 36141／所蔵番号1982.7.3に紐づく漢字原題は冒雨尋莊圖と記載。款識も夏珪冒雨尋莊。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%AE%8B_%E4%BD%9A%E5%90%8D_%E5%80%A3%E5%A4%8F%E7%8F%AA_%E5%86%92%E9%9B%A8%E5%B0%8B%E8%8E%8A%E5%9C%96_%E5%9C%98%E6%89%87-Returning_Home_in_a_Driving_Rain_MET_DT8800.jpg",
+      "location": "Original image 2000×1953, image filename DT8800, object 1982.7.3, CC0",
+      "observed": "Met提供の同じ画像DT8800および1982.7.3と一致。旧SHAは2026-10-19/20記録を継承。今回JPEGバイト再計算はしていない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "location": "Sections 1,3(a),3(b)",
+      "observed": "Public Domain/Open Access画像と著作権が残りうる館の説明本文を分離。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式画像検索（original DT8800）と所蔵館による作品解説を照合。",
+    "observed": "ほぼ円形の小型扇面。大きな余白と左下に迫る岩・風に揺れる樹木、下部の小建物・極小の歩行者がある。画面の特定は公式図版と一致。"
+  },
+  "content_checks": [
+    {
+      "area": "identity",
+      "result": "PASS",
+      "finding": "After Xia Gui、early 13th century、1982.7.3、fan mounted as album leaf, ink and color on silk；作者不明を本人作と断定しない。"
+    },
+    {
+      "area": "meaning_and_tag",
+      "result": "PASS",
+      "finding": "館の二農夫・豪雨・夏珪風の丸みを帯びた筆触を根拠に、主『不安』強度2は維持できる。副『安心』強度1は帰宅先を持つことへの弱い連想で、既に安全な場所へ到着した断定ではない。"
+    },
+    {
+      "area": "existing_text",
+      "result": "REVISE",
+      "finding": "日本語解説の第2段落に《驟雨帰村図》とあるが、Metおよび大学の作品ID一致資料では《冒雨尋莊圖》と表記される。前者がこの作品の公認別題とする根拠を確認できない。仮訳であることの注記も本文にない。作品名の誤同定を防ぐため、正文のタイトル部分を《冒雨尋莊圖》（日本の字体なら《冒雨尋荘図》）または『この扇面画』などに改稿して再照合する。"
+    }
+  ],
+  "remaining": [
+    {
+      "area": "visitor_explanation",
+      "issue": "既存の解説内の《驟雨帰村図》は出典未確認の別題。公式漢字題名は《冒雨尋莊圖》。",
+      "required_action": "既存解説の別題を公式名称または作品に紐づく無題表現へ修正後、改訂本文の出典・権利・画像・タグ・独立AI工程を再検証して完成登録する。既存complete_artwork.pyの保存方式は既存解説改稿に未対応なので、ガードを迂回してPASS扱いしない。"
+    }
+  ],
+  "previous_evidence_reused": {
+    "display_sha256": "49103e03335d367539bdb0121412bb62f221f969a226b6b7befa43511f280714",
+    "original_sha256": "bee269abbf7278578f501db5d437edc9ef6d9c129882d2c366034dba018f9bb8",
+    "checked_on": "2026-10-19/20",
+    "new_image_byte_download": false
+  },
+  "promotion": {
+    "eligible": false,
+    "production_changed": false,
+    "merged": false
+  },
+  "review_method": "同一AIによる作品DBと公式ページ・副資料の別工程照合であり別AIによる第三者監査ではない。"
+}
