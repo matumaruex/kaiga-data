@@ -1,0 +1,167 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-438754",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "c4ee9e9b8120adadbd54b29e038580d1bc49041e",
+    "artwork_record_sha256": "532aadb266d44ef79b68b3301325ae0ea92d940da7511ea4274feb5a0cb6b6a8",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-438754.json",
+    "draft_sha256": "6d18701691a903cc590f698ab1801a4ede60d1dc7188b02ce0e1e58ad66efc73"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/438754",
+      "access": "page_read_twice",
+      "locations": [
+        "Met本文：子が聖母のヴェールを押す親密な仕草と、受難を予感した聖母の悲しみ",
+        "Met本文：小さな板絵の欄干と現実の鑑賞者をつなぐ構成、元の額縁の下辺のろうそくの焼け跡",
+        "Audio 5162 transcript：キュレーターのノートの紙より小さい私的礼拝画像、ヴェールと埋葬布の連想",
+        "Audio 5162 transcript：NARRATORが聖母の肌の緑色をTerra Verde下塗りの露出に由来すると説明",
+        "Artwork Details：Duccio di Buoninsegna／ca.1290–1300／Tempera and gold on wood／27.9×21 cm（額込み）／2004.442／Public Domain"
+      ],
+      "observed": "現行Met公式作品ページを二工程で閲覧し、事実・画面構成・音声解説の対応箇所を検証。埋葬布との連想は館の学芸員がperhapsという留保をつけて語っており、作者の直接声明ではない。緑の肌は制作当時からの本来の狙いではなく経年によると説明される。"
+    },
+    {
+      "url": "https://www.metmuseum.org/ja/art/collection/search/438754",
+      "access": "page_read_twice",
+      "locations": [
+        "日本語の作品解説：ビザンティン様式から母子の人間的表現への発展、絵中の欄干が現実と聖域を結ぶ",
+        "作品データ：受入番号2004.442、テンペラと金箔・板絵、総寸法27.9×21cm"
+      ],
+      "observed": "Met公式日本語の作品解説を照合。英語の音声解説にある悲しみ・緑色の下地の根拠を日本語ページ単体がすべて説明しているとは扱わず、出典の役割を分けた。"
+    },
+    {
+      "url": "https://www.metmuseum.org/exhibitions/listings/2004/duccio",
+      "access": "page_read_twice",
+      "locations": [
+        "2004–05 Met展覧会概要：私的祈祷用の小型《Madonna and Child》と元の額のろうそく焼け跡",
+        "同館解説：欄干の視覚的な境界と鑑賞者空間、ビザンティン表現から人間的な母子表現への移行"
+      ],
+      "observed": "2004年購入時の同館展覧会の一次資料を照合し、私的な礼拝の想定と額縁のろうそく跡、画中の欄干による視空間、ドゥッチョの革新を確認。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_twice",
+      "locations": [
+        "1 Copyright and Proprietary Rights：Open Accessでないテキストに関する権利",
+        "3(a) OA/CC0作品画像の自由利用",
+        "3(b) 非OA素材の権利・利用制限"
+      ],
+      "observed": "作品ページのPublic Domain図版と、音声解説・文章の利用条件を混同せず分離。既存の日本語解説は学芸資料の特有の記述・表現を丸写しせず作品固有の情報を独自に整理。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-438754",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP142735.jpg",
+      "status": 200,
+      "sha256": "68c02c4570a653ee54728b47a88bcf96fdb94d41876538307f34ce5b9c75c62b",
+      "byte_length": 2890499,
+      "width": 2697,
+      "height": 3542,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "main画像レコードに記録された2026-10-20のMet Public Domain作品ID2004.442に対応するoriginal JPEGを全取得・SHA256検証した結果。source_identity_basisは旧Met PD記録・一致するファイル名・縮小画であり当時のAPIの一時的な制限を明記している。今回新規取得していない。"
+    },
+    {
+      "id": "met-438754",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP142735.jpg",
+      "status": 200,
+      "sha256": "4bd0a518c5b579ffaee9bfc6e8a5cd4bfe56a2dcdfa99f0c4a5b8dd68b54a0f2",
+      "byte_length": 132086,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet公式表示JPEG実取得・SHA検証記録を再利用。今回のバイト再計算ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Web画像検索でMet公式所蔵ID2004.442に紐付く写真（公式CDN、元の額入り作品全体）を画面表示し、Met公式作品ページの画像・標題・同定番号と目視比較。登録済みoriginal/web-large JPEGのSHAは旧2026-10-20の証拠を再利用し今回取得した画像のJPEGバイト同一性を意味しない。",
+    "observed": "金地の小さな縦型板絵。青緑色のマントをまとった聖母が右下の幼子を抱き、幼子が聖母の薄いヴェールを触る。絵の下に白っぽい石の欄干があり、もとの木枠が周りを囲む。聖母の顔の緑がかった発色と額縁下辺の摩耗・火の痕跡が館の説明と矛盾しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存の作品本文・選定資料・感情分類を最初に読んだ後、Met英語/日本語作品ページ、Met Audio 5162の本文、2004年の展示解説、公式画像のウェブ表示、Met利用規約をそれぞれ再参照して別工程で照合。事実と学芸員の留保・技術的な絵具説明・画像真正性・文章の権利・感情との自然な結び付きを点検した。",
+    "limitations": "同じAIの同一会話内での別工程であり第三者・別AIによる独立監査ではない。登録JPEGのoriginal/displayのバイトSHAは過去2026-10-20の検証証拠を再利用しており、今回のバイト再取得を行っていない。Metaの画像配信側変更や法律上の非侵害を保証しない。",
+    "reviewed_artwork_sha256": "532aadb266d44ef79b68b3301325ae0ea92d940da7511ea4274feb5a0cb6b6a8",
+    "reviewed_visitor_draft_sha256": "6d18701691a903cc590f698ab1801a4ede60d1dc7188b02ce0e1e58ad66efc73",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Duccio di Buoninsegna《Madonna and Child》、ca.1290–1300、Met 2004.442、板絵テンペラ・金、額込み27.9×21cm。公式掲載画像と手・顔・欄干・元の額の視覚的特徴が一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metは母子の人間的な身振りと欄干が鑑賞者の現実世界を結ぶ役割を強調。音声5162は布を将来の埋葬布への予感と解釈するが『perhaps』と留保。聖母の緑の肌はTerra Verde下地の露出という保存状態の説明。作者個人の心理を推測していない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『慈しみ』強度2は母子の親密な手と視線に具体的根拠。補助『悲しみ』強度1は受難を知る聖母の予感というキリスト教的な文脈に限られ、現実の出来事や作者の失恋ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存解説の3段落は作品の所作、私的祈祷のサイズ、ヴェールと埋葬布の可能性、欄干、緑色の下地と額のろうそく跡を原資料の主張に沿って独自の文章順で記述。館の英文・日本語解説や音声原稿の大規模転載・機械的な逐語翻訳は確認できない。本文は改稿不要。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "532aadb266d44ef79b68b3301325ae0ea92d940da7511ea4274feb5a0cb6b6a8",
+    "visitor_draft_sha256": "6d18701691a903cc590f698ab1801a4ede60d1dc7188b02ce0e1e58ad66efc73",
+    "proposal_sha256": "14eb44222bcb812aab9814e2e0421616ee15deed916368eea735f66521a98f48",
+    "checks": [
+      "existing_visitor_exact_draft_equality",
+      "baseline_record_sha256",
+      "visitor_draft_file_sha256",
+      "no_curation_revision",
+      "prior_image_original_and_display_SHA256_evidence",
+      "300_ids_unique",
+      "other_299_records_unchanged",
+      "same_id_order"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "事前に本文・元レコードのハッシュと対象外299件の不変性を検査。既存complete_artwork.py、形式テスト、snapshot、過去完成記録との整合性はPRに対するGitHub Actions合格後にmainへ統合する。AIの学術的な判断をプログラム検査が生成したことにはしない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-438754.json",
+    "sha256": "14eb44222bcb812aab9814e2e0421616ee15deed916368eea735f66521a98f48",
+    "proposed_artwork_sha256": "532aadb266d44ef79b68b3301325ae0ea92d940da7511ea4274feb5a0cb6b6a8",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA images and CC0",
+      "3(b) Non-OA source text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met当該絵画画像はPublic Domainとして掲示。OA/CC0図版は使用可能だが、館の解説や音声原稿が同じ条件で自由転載可能とは扱わない。日本語解説は確認できる事実と専門家の読みを作品独自に組み立てた文章であり、登録を妨げる重大な内容・権利問題は今回認めなかった。ただし法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存解説の本文・出典URL・review欄・感情タグ・検索用資料は変更しない。rights_status=pendingは互換性維持のため据え置く。",
+    "画像の今回の視覚的照合と、2026-10-20のJPEGバイトSHA検証の再利用は別々の根拠として記録。",
+    "実際のCI・main統合を終えるまでは20/300の正式完成とは数えない。"
+  ]
+}
