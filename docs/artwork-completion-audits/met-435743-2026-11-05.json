@@ -1,0 +1,182 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435743",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "a2141e59cd93f2f0b3dead1558de8a5cb53053d0",
+    "artwork_record_sha256": "ee6f3d22ce2df3d68ec1e1cdba227a659c24626c413589ed9cc4e4eb53f80057",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435743.json",
+    "draft_sha256": "648f45ff6d62987aeab8532fe1e365d164a22d7e5c7f72cc67fe4afd5b096a20"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435743",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: 1765 Salon, four pastoral paintings, dove delivering a letter, reading and reunion",
+        "Overview: Diderot's praise and criticism of pastoral falsity",
+        "Details: François Boucher, 1765, oil on canvas, oval 32.1x26.7cm, Met 44.141, Public Domain"
+      ],
+      "observed": "Met公式の当該作品ページで作品ID・制作年・連作と批評・権利を二度照合。1作目は鳩への手紙の準備であり、既に飛び去った画面とは断定しない。"
+    },
+    {
+      "url": "https://utpictura18.univ-amu.fr/en/rubriques/numeros/salons-diderot-edition/boucher-salon-of-1765",
+      "access": "page_read_twice",
+      "locations": [
+        "Diderot Salon 1765 section 12 Four pastorals: charming poem, shepherd and pigeon letter",
+        "Subsequent scenes of arrival, reading and lovers meeting; criticism of impossible pastoral conventions"
+      ],
+      "observed": "ディドロの18世紀批評の大学校訂英訳を読み、連作と現実らしさの両面への反応を確認。"
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/franois-boucher-1703-1770",
+      "access": "page_read_twice",
+      "locations": [
+        "Perrin Stein (2003): Boucher's Rococo pastorals as idealized sentimental rural love",
+        "Artist's patrons and eighteenth-century taste; criticism by Diderot"
+      ],
+      "observed": "画家全般の牧歌の性格を扱う専門解説として、理想化された上流社会の牧歌趣味を検証。個別の注文主は推測しない。"
+    },
+    {
+      "url": "https://www.wallacecollection.org/explore/explore-in-depth/bouchers-paintings/boucher-the-artist/boucher-and-the-pastoral/",
+      "access": "page_read_twice",
+      "locations": [
+        "Pastoral style was not intended as documentation of actual working-class rural life",
+        "Diderot's 1765 rejection of artificiality in pastoral scenes"
+      ],
+      "observed": "所蔵館の比較研究と本文第2・3段落の歴史的背景の整合を確認。"
+    },
+    {
+      "url": "https://utpictura18.univ-amu.fr/notice/1211-depart-courrier-quatre-pastorales-boucher",
+      "access": "page_read_twice",
+      "locations": [
+        "1765 Salon four pastorals, object 44.141 and Met collection",
+        "Mercure de France October 1765 on correspondence by trained pigeons"
+      ],
+      "observed": "1770年以前のサロン資料を収録した大学目録で所蔵番号と連作の性格を裏付け。寸法の微差はMet現行値を採用。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_twice",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) Open Access / CC0",
+        "3(b) non-Open Access texts"
+      ],
+      "observed": "画像と研究文章の権利を分離して確認した。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435743",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP337751.jpg",
+      "status": 200,
+      "sha256": "a5e009d6e8d5df9e1526cfd62dd0ffff25659488bb31e0e1e92b4afe11626497",
+      "byte_length": 2601488,
+      "width": 3189,
+      "height": 3854,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "data/image-sources.json の2026-10-20原JPEG完全取得・SHAとdownscale照合の記録を継承。今回ダウンロードしていない。"
+    },
+    {
+      "id": "met-435743",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP337751.jpg",
+      "status": 200,
+      "sha256": "3499d3511f8cf49d5341c630f7eb49946923d2ac4e32b506c0e20a2051b9b266",
+      "byte_length": 101999,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の登録Met公式web-large JPEG HTTP+SHA記録を再利用。今回の新規バイト取得ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met作品ページのobjectID435743の画像をクリックして公式collectionapiのimageID1423842の全画面図版を目視。ディドロの同画面描写と照合。登録CDNのDP337751.jpgそのものは新規取得できず、旧画像SHAの同定記録と区別。",
+    "observed": "縦長の楕円図に石に腰掛けた若い羊飼い、手元の白い鳩と手紙、足元の犬・赤い布・花籠、右下の2頭の羊、奥の小川、木々のアーチが確認できる。Met・ディドロの作品画面説明と一致する。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存DB・下書きと旧画像証拠を読んだ後、Met現行公式資料、Diderot原批評の大学校訂英訳、Met作家論、Wallace所蔵館解説、公式画像、Met規約を別工程で照合。重要事実・解釈・感情との関連・転載類似・権利を再点検した。",
+    "limitations": "同じAIが同一会話内で別工程を実施。別AIや第三者審査を装わない。登録JPEGファイルは本セッションではバイト取得せず2026-10-19/20のSHAを再利用。画像のPublic Domainが学芸文章へ自動適用されるとは考えない。法律上の非侵害保証はしない。",
+    "reviewed_artwork_sha256": "ee6f3d22ce2df3d68ec1e1cdba227a659c24626c413589ed9cc4e4eb53f80057",
+    "reviewed_visitor_draft_sha256": "648f45ff6d62987aeab8532fe1e365d164a22d7e5c7f72cc67fe4afd5b096a20",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "François Boucher《The Dispatch of the Messenger》、1765、Met 44.141、oil on canvas、楕円32.1x26.7cm。Met公式と大学の作品識別が一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1765年の四枚の牧歌画の冒頭。ディドロは鳩に恋文を託す羊飼いと再会に至る筋を評価しつつ、牧歌の非現実性を批判。個別の作者心理の証明ではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『期待』強度2は鳩を介した恋文・返事・再会へと進む物語に具体的な接点がある。作者や人物の心理の断定ではなく鑑賞者の入口。補助追加なし。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存の三段落は四連作、ディドロの賛否、理想化された田園をMet・大学・Wallace資料が支える。資料の英文を長く逐語訳・転載する構成ではなく既存本文を維持。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "ee6f3d22ce2df3d68ec1e1cdba227a659c24626c413589ed9cc4e4eb53f80057",
+    "visitor_draft_sha256": "648f45ff6d62987aeab8532fe1e365d164a22d7e5c7f72cc67fe4afd5b096a20",
+    "proposal_sha256": "06b70ed0544d567a5b2afac99f0e8b5978c1738d914cf11cf8520ff74f8265cf",
+    "checks": [
+      "baseline_record_SHA256",
+      "visitor_draft_file_SHA256",
+      "visitor_exact_draft_equivalence",
+      "old_original_display_SHA_evidence",
+      "300_unique_ids",
+      "no_curation_changes",
+      "other_299_unchanged_by_empty_proposal"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "事前の既存レコード指紋、既存解説と下書きの一致、300件ID一意性を確認。実登録プログラムのpreview/save/check、スナップショット、CIの全項目はPR上で別途確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435743.json",
+    "sha256": "06b70ed0544d567a5b2afac99f0e8b5978c1738d914cf11cf8520ff74f8265cf",
+    "proposed_artwork_sha256": "ee6f3d22ce2df3d68ec1e1cdba227a659c24626c413589ed9cc4e4eb53f80057",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA/CC0 images",
+      "3(b) other materials"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品画像はMet公式Public Domain、OA/CC0の対象。所蔵館の学芸解説や大学校訂英訳は同じ権利ではない。既存日本語解説に著しい逐語翻訳・長文転載は見当たらないが、法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存visitor_explanation、選定資料、感情タグ、画像台帳は変更しない。",
+    "旧JPEGのバイト検査と今回の公式図版目視は異なる記録として残す。",
+    "CI成功とmain統合までは21/300のまま。"
+  ]
+}
