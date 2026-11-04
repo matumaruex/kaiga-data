@@ -1,0 +1,157 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-73161",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "3c39dfe50b51b144d78d0a6e1a2edcd1b31304c2",
+    "artwork_record_sha256": "067c18bacfc517a32cb9ace716f41481a1364a9b071372a72969431e347a77b7",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-73161.json",
+    "draft_sha256": "70c39c1684234929548fad22302608eb0c81ff0aa414608ddeafe26f97928828"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/73161",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview 第1段落: 林逋・杭州の梅文化、紹興出身童鈺と王冕の伝統",
+        "Overview 第2段落: 幹と地面を省いて逆方向の梅枝、白梅と月は夜空の淡い墨に対する塗り残し",
+        "Overview 第3段落と詩英訳: 童鈺自身の詩、雪後の雲・静かな谷・時間に頓着しない梅、隷書と草書",
+        "Artwork Details: 清・童鈺、18世紀、紙本墨画掛幅、2005.510.1、Public Domain"
+      ],
+      "observed": "作品個別のMet公式本文と詩英訳・同一所蔵番号を二工程で読み、登録の史実・作品の図像・本文・感情の根拠を別々に照合。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:%E6%B8%85_%E6%B5%B8%E6%9C%88%E5%9C%96_%E8%BB%B8-Plum_Blossoms_in_Moonlight_MET_DP146993.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "所蔵番号2005.510.1、DP146993、1198×3986 JPEG、Met由来CC0画像",
+        "画像プレビューで梅枝・月・画賛・朱印の配置を確認"
+      ],
+      "observed": "現登録の原画像とファイル名・寸法・作品番号が一致。今回JPEG全量SHA算出はできず、旧検査結果を継承。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) Open Access/CC0 images",
+        "3(b) non-OA museum text"
+      ],
+      "observed": "画像OAとMet学芸員の文章表現の再利用条件を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-73161",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP146993.jpg",
+      "status": 200,
+      "sha256": "701e97ac54f2ff69edf13f151a644e987fb60875d9eadf5eb0c81eea5e344261",
+      "byte_length": 667919,
+      "width": 1198,
+      "height": 3986,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "data/image-sources.jsonの2026-10-20のMetオリジナルJPEG全バイトSHA・縮小一致記録を利用。今回の新規JPEG取得ではない。"
+    },
+    {
+      "id": "met-73161",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP146993.jpg",
+      "status": 200,
+      "sha256": "be66945ed564b55e95f1686d0dab83761ba0c75087be8239cb25d62ce0b41e8f",
+      "byte_length": 27281,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "登録時のMet公式API primaryImageSmallのHTTP/JPEG/SHA記録を利用。今回Webプレビューの目視とは別の根拠。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式2005.510.1の図版・作品解説とMet由来Wikimedia CommonsのDP146993全体図・同所蔵番号を照合。今回原JPEGをダウンロードしてSHA再計算はしていない。",
+    "observed": "極めて細長い縦の紙本掛幅。画面左に大きな漢字画賛と朱印、対向する墨梅の枝に白い花、淡い円い月。空白が広く、作者の詩と梅・月が一画面を構成。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存DB・2026-10-24の下書き・旧画像SHA台帳を先に確認し、別工程でMet公式の作品解説3段落・漢詩の英訳と作品番号、Commons同一ファイル画面・権利を再検討した。",
+    "limitations": "同一AI・同一会話の別工程で、別AI・人間の独立監査ではない。Met原・表示JPEGのバイトSHAは今回再計算できず、過去の2026-10-18/20検査記録を同一版として利用。Commonsのプレビューは同定根拠でありJPEGバイトの証拠とは別。著作権法上の非侵害を保証しない。",
+    "reviewed_artwork_sha256": "067c18bacfc517a32cb9ace716f41481a1364a9b071372a72969431e347a77b7",
+    "reviewed_visitor_draft_sha256": "70c39c1684234929548fad22302608eb0c81ff0aa414608ddeafe26f97928828",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met Object 73161、所蔵番号2005.510.1、中国清代の童鈺(1721–1782)、18世紀、墨・紙の掛幅。別作Ma Yuan《Viewing Plum Blossoms by Moonlight》とは混同しない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "梅の樹幹と地面省略・交差する二枝・白花と月の余白、林逋・王冕の墨梅文化、童鈺本人の詩の雪後・雲・谷・月・時間、隷書と草書を公式本文に照合。作者の詩と所蔵館による文化的解説を混同していない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "『安心』は主タグなし・補助強度1という弱い関連に限定。月夜の静寂による鑑賞者の安堵であり作者や詩の中心感情に固定しない。孤独や死別などは付けない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語本文3段落は具体的事実を独自の構成でまとめ、著作権ある英語館本文・詩の英訳の長文逐語訳ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "067c18bacfc517a32cb9ace716f41481a1364a9b071372a72969431e347a77b7",
+    "visitor_draft_sha256": "70c39c1684234929548fad22302608eb0c81ff0aa414608ddeafe26f97928828",
+    "proposal_sha256": "a33e4d43fc890978245c7d352812b3820862d8aaac04b9bbe3036dedc1d75f1d",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象版ハッシュと既存解説・draft完全一致・画像台帳旧SHA・ID件数を事前に確認。complete_artwork.py preview/save/checkとGitHub Actionsの結果はこれとは別で、PRのCI成功・main統合前には完成計上しない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-73161.json",
+    "sha256": "a33e4d43fc890978245c7d352812b3820862d8aaac04b9bbe3036dedc1d75f1d",
+    "proposed_artwork_sha256": "067c18bacfc517a32cb9ace716f41481a1364a9b071372a72969431e347a77b7",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA/CC0 images",
+      "3(b) non-OA museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Metは対象作品Public Domain、同番号の画像はOA/CC0。英語の学芸員解説・詩の翻訳は画像と同条件ではない。既存日本語本文は主題と作者詩の概要を自分の文章で書き、長い逐語翻訳を行っていないため、DB保存を妨げる明白な権利問題は見つからない。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存 visitor_explanation・review・感情タグ・意味資料・画像台帳は変更せずcompletion参照だけ追加。",
+    "JPEGの旧バイトSHAと今回のウェブ図版視認は別の根拠。",
+    "GitHub Action最終検査を確認してmain統合した後だけ正式完成28/300に加算。"
+  ]
+}
