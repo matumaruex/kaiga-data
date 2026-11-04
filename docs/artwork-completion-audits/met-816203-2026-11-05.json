@@ -1,0 +1,156 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-816203",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "cdc92ac90b89c5b3d17438def9535cb3eb3bb8c6",
+    "artwork_record_sha256": "068d01e664345ceb882ad83eeea99f3f075e5489db47ed4e143430717b4a8960",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-816203.json",
+    "draft_sha256": "d3a5afa33b109e78fdb928056e04866628ae976f50b7fef4373cd17274a10903"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/816203",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview 第1段落: 鼓・しめ太鼓・篠笛・三味線、腕を振り棒を打つ風流踊、若衆の剃り上げた頭頂部・刀",
+        "Overview 第2段落: 町絵師の可能性、浮世絵風俗画の前史",
+        "Artwork Details: 作者未詳、1660年頃、紙の四曲屏風、Met 2018.853.16、Public Domain",
+        "Image carousel: 右から左への鑑賞案内"
+      ],
+      "observed": "Metの原文と作品ID・年代・楽器・若衆・作者不詳の留保・都市風俗画との関係を別工程で照合。修正後日本語本文の具体的主張を確認。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Festive_Dancing_at_a_Samurai_Residence_(F%C5%ABry%C5%AB_odori_zu_by%C5%8Dbu)_MET_DP-17861-001.jpg",
+      "access": "search_metadata",
+      "locations": [
+        "Metからの寄贈画像・所蔵番号2018.853.16、4000×1225、DP-17861-001、CC0"
+      ],
+      "observed": "登録原画像のファイル名・4000×1225の縦横寸法・所蔵番号が作品と一致。検索情報による補助照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_twice",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) Open Access/CC0 images",
+        "3(b) non-OA museum text"
+      ],
+      "observed": "原画がOA/CC0であることと館による解説文章の権利を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-816203",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-17861-001.jpg",
+      "status": 200,
+      "sha256": "0d1ff0b8a24eb0305b3f0312215c14e9ce46e4eadb5c10880bbe7525f34bd184",
+      "byte_length": 2112566,
+      "width": 4000,
+      "height": 1225,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "data/image-sources.jsonの2026-10-20完全JPEG SHA256・寸法・表示画像縮小の旧検査証拠を同一版で再利用。今回新たに2MB画像を全取得してハッシュ計算したものではない。"
+    },
+    {
+      "id": "met-816203",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-17861-001.jpg",
+      "status": 200,
+      "sha256": "1fb9cbab1887bb5e52fe95764060c1428dcc93cc6780c9c5e76021bad8dbc6c7",
+      "byte_length": 76111,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "登録時Met Object API primaryImageSmallのHTTP/JPEG/SHA256記録を同一版で再利用。今回Web画像の表示とは区別。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met 2018.853.16公式ギャラリーで左右の複数区画を表示し、DP-17861-001の全画面4000×1225と所蔵番号・画像ファイル名をCommonsのMet由来データと照合。JPEG全バイトSHAは旧記録を使用。",
+    "observed": "横に長い金地の四曲屏風。左寄りに室内の楽器演奏者、中央から右に色鮮やかな衣装の踊り手が多数散らばり、手に棒を持つ人物や大きく腕を振る人物がいる。屏風の折り目が縦に見える。作品解説と画面は整合。全幅4000×1225が登録原JPEGである証拠は旧Met画像台帳から継承。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "元のDB・既存本文と画像証拠を検討し、Met公式原文と画面の右左区画・若衆の髪型・衣服・楽器、画像の所蔵番号と利用条件を別工程で読み直した。PR #29で改善した頭頂部の記述も原文と比較。",
+    "limitations": "同じAIの同一チャット内で別工程確認したもので、他のモデルや人間による独立監査ではない。Webでの画面同定と2026-10-18/20のJPEGバイト照合を区別。Metの非OA文章について法的非侵害保証は主張しない。",
+    "reviewed_artwork_sha256": "068d01e664345ceb882ad83eeea99f3f075e5489db47ed4e143430717b4a8960",
+    "reviewed_visitor_draft_sha256": "d3a5afa33b109e78fdb928056e04866628ae976f50b7fef4373cd17274a10903",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met Object 816203、2018.853.16、作者未詳、約1660年、江戸時代初期、四曲屏風、紙本墨彩。別の一部分写真を作品全幅の構図と取り違えない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "武家屋敷の風流踊、楽器・棒・若衆・町絵師（可能性の表現）・浮世絵の前史というMetの作品固有記述と、既存資料が一致。作者本人の感情を勝手に推定しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『喜び』強度2は踊りと演奏の共同の祝祭に無理のない入口。個々人の内心は断定しない。『期待』を付与しない従来判断も保持。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "7段落の日本語本文はMetの解説の事実を順序や表現を変えて独自に整理。特徴的表現のまとまった逐語訳や長文転載は見つからない。誤解を招きやすい若衆の髪型の日本語記述をPR #29で限定修正して原文に一致させた。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "068d01e664345ceb882ad83eeea99f3f075e5489db47ed4e143430717b4a8960",
+    "visitor_draft_sha256": "d3a5afa33b109e78fdb928056e04866628ae976f50b7fef4373cd17274a10903",
+    "proposal_sha256": "cde28ee89aabe09aebf49a335cd842b2c8d6972a13e1d7354cefe812401faf9e",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "手元の事前整合（JSON同一、作品ID、旧画像SHA、変更対象）を確認。実際のcomplete_artwork.py preview/save/check、形式・スナップショットとGitHub ActionsはPRのCIで確認してmain統合前は正式完成に数えない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-816203.json",
+    "sha256": "cde28ee89aabe09aebf49a335cd842b2c8d6972a13e1d7354cefe812401faf9e",
+    "proposed_artwork_sha256": "068d01e664345ceb882ad83eeea99f3f075e5489db47ed4e143430717b4a8960",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA/CC0 images",
+      "3(b) non-OA text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公式のPublic Domain表示・Commonsの同所蔵番号・画像CC0記録を照合。日本語解説は館の文章を逐語転載せず事実を独自に構成した文。館の文章・写真の再利用許諾を取得したという意味ではなく、法律上の非侵害保証でもない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "旧鑑賞解説本文の小修正はPR #29で既にmainに反映済み。今回の完成候補では本文・感情・画像レジストリを追加変更せず、監査・下書き・completionのみ追加。",
+    "Met公式の作品画像全体と旧JPEG SHA証拠を別々の根拠として記録。",
+    "主作品と対象外299作品の不変性はGitHub PRのCI成功後に完了判定する。"
+  ]
+}
