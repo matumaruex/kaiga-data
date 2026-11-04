@@ -1,0 +1,68 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-436869",
+  "baseline_commit": "fd44d5e9288e4f5839991a4ba8199583c73dfaea",
+  "baseline_artwork_sha256": "c5de0a938bcb9bafb7f5483b2ed5e2738eea54e5e1efec38d8313c5918925e6c",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "emotions"
+      ],
+      "before": [
+        "喪失感",
+        "悲しみ",
+        "未練"
+      ],
+      "after": [
+        "喪失感",
+        "悲しみ"
+      ],
+      "reason": "追悼と悲しみは館の描写に根拠があるが、特定相手への執着や未練の心理は特定できないため補助タグを外す。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/436869"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "emotion_strengths"
+      ],
+      "before": {
+        "喪失感": 2,
+        "未練": 1,
+        "悲しみ": 3
+      },
+      "after": {
+        "喪失感": 2,
+        "悲しみ": 3
+      },
+      "reason": "削除した未練の強度だけ取り除き、他の2感情の強度は保持。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/436869"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "emotion_categories",
+        "secondary"
+      ],
+      "before": [
+        "未練"
+      ],
+      "after": [],
+      "reason": "補助感情索引の未練が残存しないように整合を保つ。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/436869"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-436869.json",
+  "visitor_draft_sha256": "b2172c05f943dc206bb6459ac043541e1ab3a33a28d781aa0224182080657397",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "1d53cf206bac6a5d418a90e52193bf2a9e480771ad7dde2c45c63fca71567519",
+  "explanation": "Met公式作品ページの黒衣・記念碑・枯れた花輪・糸杉・背後の光・作者設計の額と既存鑑賞本文が一致。鑑賞文章には変更を加えず、根拠不足の補助感情『未練』のみ選定用の3つの関連欄から外す。"
+}
