@@ -10,7 +10,7 @@
     "artwork_record_sha256": "a68962a71b51f576e2d1d7b68a1818738344a78506a9c24623508e45a7d49bf5",
     "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
     "draft_path": "drafts/visitor-explanations/met-847023.json",
-    "draft_sha256": "37f8c816a8f5c4b2dd30969060a7011a1616a357f7a277449c9844caa702605b"
+    "draft_sha256": "e3f84a0f869365065197dc5d5b6e1b8b218334d02cb320f7113674250ea6be35"
   },
   "sources": [
     {
@@ -94,7 +94,7 @@
     "method": "Met作品解説の同定・図像・作品形態をあらためて確認し、別のMet神話論考で画家の作品解説にない神話背景を照合。Met由来のCommons同所蔵公開画像、利用規約、日本語本文・検索用感情タグも独立のチェック項目に分けて確認。",
     "limitations": "同一AIの同じ会話中の別パスであり、別AI・第三者による独立監査ではない。原JPEGのハッシュは2026-10-19/20の旧実測の継承で、新取得ではない。法律上の非侵害保証はない。",
     "reviewed_artwork_sha256": "a68962a71b51f576e2d1d7b68a1818738344a78506a9c24623508e45a7d49bf5",
-    "reviewed_visitor_draft_sha256": "37f8c816a8f5c4b2dd30969060a7011a1616a357f7a277449c9844caa702605b",
+    "reviewed_visitor_draft_sha256": "e3f84a0f869365065197dc5d5b6e1b8b218334d02cb320f7113674250ea6be35",
     "checks": [
       {
         "area": "identity",
@@ -117,8 +117,8 @@
   "program_checks": {
     "result": "PASS",
     "proposed_artwork_sha256": "a68962a71b51f576e2d1d7b68a1818738344a78506a9c24623508e45a7d49bf5",
-    "visitor_draft_sha256": "37f8c816a8f5c4b2dd30969060a7011a1616a357f7a277449c9844caa702605b",
-    "proposal_sha256": "1a0ccc2087e98e80ba5cf7822478cecbfa56b6bb9807d818ad9fbfe3d5b2cfb8",
+    "visitor_draft_sha256": "e3f84a0f869365065197dc5d5b6e1b8b218334d02cb320f7113674250ea6be35",
+    "proposal_sha256": "19680ee0b85d43eb0ae6e713be92d3d6207d638301f1d40e159a2c9177194778",
     "checks": [
       "baseline_artwork_sha256",
       "existing_visitor_equals_reviewed_draft",
@@ -135,7 +135,7 @@
   },
   "proposal": {
     "path": "drafts/artwork-revisions/met-847023.json",
-    "sha256": "1a0ccc2087e98e80ba5cf7822478cecbfa56b6bb9807d818ad9fbfe3d5b2cfb8",
+    "sha256": "19680ee0b85d43eb0ae6e713be92d3d6207d638301f1d40e159a2c9177194778",
     "proposed_artwork_sha256": "a68962a71b51f576e2d1d7b68a1818738344a78506a9c24623508e45a7d49bf5",
     "applied_to_catalog": false
   },
