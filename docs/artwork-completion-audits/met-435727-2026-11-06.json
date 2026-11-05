@@ -1,0 +1,162 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435727",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "a3d0f145721992d2e7359202d3718a298724df90",
+    "artwork_record_sha256": "df5c65d748ab27815fb2baf9d33d1d68e6712ab7761395ea707460adfd301df4",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435727.json",
+    "draft_sha256": "ccd22a842b4c4eb1e11de680a4a34e1e50cace68e5e6d183790e1e4c08651e6e"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435727",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: Saint Eustochium and mother Paula, Jerome's disciples, leave for Holy Land and found four monasteries",
+        "Overview: Bottani oil study painted in Rome, larger Milan altarpiece commissioned 1745, held at Pinacoteca di Brera",
+        "Artwork Details: Giuseppe Bottani, oil on canvas, Met 1991.445, Public Domain; production year not shown"
+      ],
+      "observed": "Met公式を二度参照し、母娘と聖地への旅立ち、修道院、習作と大祭壇画の別、制作年欄なし、所蔵番号を照合。1745年の発注を習作の制作年に転用しない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/338247",
+      "access": "page_read_once",
+      "locations": [
+        "Separate drawing 1987.245 dated 1740 and reference to Met oil study 1991.445"
+      ],
+      "observed": "同主題の1740年素描1987.245と対象油彩習作1991.445を区別。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Departure_of_Saints_Paula_and_Eustochium_for_the_Holy_Land_MET_DT6783.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Painting image caption; accession 1991.445; Met source; CC0"
+      ],
+      "observed": "Met寄贈Commons掲載図版と同一所蔵番号・原画イメージを比較。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access public-domain images and CC0",
+        "Museum prose copyright distinct from image"
+      ],
+      "observed": "画像のCC0とMet本文の著作権を分離。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435727",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-22845-001.jpg",
+      "status": 200,
+      "sha256": "4cffab21d43ae624bd2484f2b514ab40dfe64f633e7d714ceaf17ff5c06e69e9",
+      "byte_length": 2520904,
+      "width": 2462,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の全量原JPEG SHAと寸法の実測を登録台帳から継承。docs/met-original-image-audit.jsonの原像寸法・作品同定も照合。今回新規ダウンロードしていない。"
+    },
+    {
+      "id": "met-435727",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-22845-001.jpg",
+      "status": 200,
+      "sha256": "835bc91fad9832927a17a6addacc064ebb5c49d18f65532daf76f40cd39846f8",
+      "byte_length": 96455,
+      "width": 384,
+      "height": 624,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "docs/image-dimensions-audit.jsonの2026-10-20計測（96455バイト、384×624、ハッシュ一致）を再利用。今回新規取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式所蔵番号1991.445の図版と同作品のMet提供Commons画像を視認し、画面の母娘・船・天使群をMet公式解説と照合。",
+    "observed": "縦長の構図で、青と白の服の中心人物が天へ目を上げ、傍らに若い女性、別れを惜しむ人々と岸辺の船、上部に雲間の天使たちが描かれる。信仰・出発の場面と符合するが、本人の未来への期待や作者の心情を直接証明はしない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "PR #3既存下書きの事実・表現をMet公式の二段落に照合した後、油彩習作とミラノ祭壇画、別作品の1740年素描を切り分け、画面・感情索引・権利を別工程で確認。",
+    "limitations": "同一AI別工程で、第三者・別AIによる独立監査ではない。表示・原JPEGのSHAは旧実測に基づき、今セッションで全量を再取得していない。",
+    "reviewed_artwork_sha256": "df5c65d748ab27815fb2baf9d33d1d68e6712ab7761395ea707460adfd301df4",
+    "reviewed_visitor_draft_sha256": "ccd22a842b4c4eb1e11de680a4a34e1e50cace68e5e6d183790e1e4c08651e6e",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met油彩習作1991.445（制作年記載なし）、ボッターニ、油彩・キャンバス。1740年のMet素描1987.245およびブレラ大祭壇画と区別。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "聖ヒエロニムスの弟子のパウラと娘エウストキウムの聖地への旅立ち。聖地の四修道院、ミラノ祭壇画の1745年注文、油彩習作のローマ制作を個別照合。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『希望』2・補助『期待』1は宗教上の旅立ちという作品主題への鑑賞上の接点で、実在人物や作者本人の心理の証明としない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "PR #3の既存解説3段落を再利用。Met説明を逐語的に長く翻訳せず、習作と完成画の違いを自分の言葉で補足している。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "df5c65d748ab27815fb2baf9d33d1d68e6712ab7761395ea707460adfd301df4",
+    "visitor_draft_sha256": "ccd22a842b4c4eb1e11de680a4a34e1e50cace68e5e6d183790e1e4c08651e6e",
+    "proposal_sha256": "dd789705a0c93f56a4e3015c3fba1d9465de5df36400e4384facc35097b69eea",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "draft_added_to_catalog",
+      "record_hash",
+      "historical_original_and_display_sha_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JSでハッシュと候補構造、既存PR #3の下書き再利用、対象外299件不変を確認。既存Python検査とCIはPRで確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435727.json",
+    "sha256": "dd789705a0c93f56a4e3015c3fba1d9465de5df36400e4384facc35097b69eea",
+    "proposed_artwork_sha256": "df5c65d748ab27815fb2baf9d33d1d68e6712ab7761395ea707460adfd301df4",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Public Domain Open Access images",
+      "CC0 distinction from museum text",
+      "Commons CC0 for donor image"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公式Public DomainおよびMet寄贈Commons CC0作品画像の条件を把握し、所蔵館解説文の著作権は別扱い。日本語解説は短く独自に表現。法律上の非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "PR #3所収の既存下書き3段落・2原証拠を再利用し、今回作品番号・年月区別証拠を補足。",
+    "原JPEGと表示JPEGは旧2026-10-20実測、今回の画像目視と区別。",
+    "CI成功・main統合後のみ66完成に算入。"
+  ]
+}
