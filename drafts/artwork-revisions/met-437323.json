@@ -1,0 +1,28 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-437323",
+  "baseline_commit": "a29a22e8a7ca469634b4935724bb25165e812cc2",
+  "baseline_artwork_sha256": "2bea7c613674b74ab07fce5f7a59e4a1eb13c8055e786f319fe80ab6c63d0fb6",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "ブラジルの植物・イグアナと先住民を、オランダ風景画の約束事で遠景へ配置。",
+      "after": "画面手前の先住民の人々やイグアナ、熱帯植物と、遠くに広がる川や空をオランダ風景画の構図で組み合わせる。",
+      "reason": "Met公式原画像で先住民の一群は画面下中央の手前に位置する。『遠景へ配置』とする元の位置描写を正し、川や空が奥へ広がる画面構成を記す。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437323"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-437323.json",
+  "visitor_draft_sha256": "07ff418c60984269567c85926b8bb41002103006528d8976f68d77402f43ef01",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "8ed7d054935df61bffa0256b411641efbd85ebb228b563232f7f36b3c13cd648",
+  "explanation": "Frans Post《A Brazilian Landscape》1650年、Met 1981.318。公式解説・音声5246・図像から、植民地の占有、先住民の土地収奪と奴隷制を背景としながら理想化している作品だと照合。故郷への普遍的な郷愁ではなく旧植民地に対する所有の幻想という文脈で既存の『懐かしさ』2を維持。登録本文・画像URLは変更不要だが、visual_cluesで前景の人物を『遠景』とした場所情報を限定訂正。"
+}
