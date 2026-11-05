@@ -1,0 +1,157 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-38012",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "e661ae0ec96ced42cbb2b5b94b8921a794e73dd5",
+    "artwork_record_sha256": "ec236ea6569218deef91ab00e629a5256cf5c982d3c7c647c8146d4a9ef64365",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-38012.json",
+    "draft_sha256": "42f0950c6b1703d952f43ee6e4abaae523c213faa9a2b7353d08d2dcedb1747c"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/38012",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview paragraph 1: no inscription, probably an idealized courtesan, cup and reverie, alcohol or lost story",
+        "Overview paragraph 2: Persia to Muslim India to Hindu painting; Mughal composition and Rajput color/pattern/space",
+        "Artwork Details: ca.1750, Rajasthan Bundi or Kota uncertain, ink gold opaque watercolor on paper, Met 1995.232, Public Domain"
+      ],
+      "observed": "Met公式作品ページを2回開き、見出し・概説・詳細を確認。帰属と物思いの原因は館が推定表現で説明しているため断定しない。宮廷での歌・踊り・詩の教養という記述は本個別出典では裏付けがないため事前に削除。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Anonymous_-_Melancholy_Courtesan_-_1995.232_-_Metropolitan_Museum_of_Art.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "File Summary Met accession 1995.232 / Object ID38012 and 1750, image original DT3878",
+        "Original image 3119×3707, 3,136,722 bytes, Met donated, Creative Commons Zero"
+      ],
+      "observed": "Met公式原JPEGと同じ作品のCommons画像メタデータを確認。著者不詳・所蔵番号・図版寸法が一致。Commonsに別の別名ファイルで『1610』という誤った年があるが公式Metの約1750年を優先。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) OA CC0 images",
+        "3(b) museum text restrictions"
+      ],
+      "observed": "Met Open Accessの所蔵画像と著作権保護されうる館の解説文章を分けた。日本語は独立表現で確認事項だけを説明し、長文転載・全訳をしない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-38012",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DT3878.jpg",
+      "status": 200,
+      "sha256": "6ca9aff975f3895582ba5a4d892cf4c6a77406cc39cbf324cb1a764a92334ce9",
+      "byte_length": 3136722,
+      "width": 3119,
+      "height": 3707,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet公式原JPEGのSHA256と寸法の旧実測値を継承。本日はCommons図版の一致する3119×3707・3,136,722バイトを確認したがSHAの再取得はしていない。"
+    },
+    {
+      "id": "met-38012",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DT3878.jpg",
+      "status": 200,
+      "sha256": "44f43050640be3ebbf7b7ed17405535ba7ea68791170aeab92842964077d2194",
+      "byte_length": 127876,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19のMet表示JPEGの旧SHA・バイト長を継承。今回全量再取得していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met 38012作品の画像とMet公式の図像解説、Commonsの同作品全景を照合。",
+    "observed": "淡い緑色の背景、赤い外枠と横長の布面、模様の入った濃青ショールと白い衣、宝飾品を身につけた座る女性。右手の小杯を口元に寄せ、視線を斜め下に落とす。別名のCommons画像に1910年代のような誤った1610年表示があるが、同じ作品ID 1995.232 のMet登録年代は約1750年。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Met公式本文を再読し、同所蔵番号のCommons図版を画面確認して、日本語7段落を段落ごとに対応する所蔵館の根拠、作者と絵の人物の不確定性、憂鬱の原因の留保、作品固有の様式説明を照合。元の遠くを見るという観察と根拠のない女性教養文化の一般化を事前修正した。",
+    "limitations": "同一AIの同じ会話内の別工程であり別AIや独立第三者審査ではない。登録JPEG SHAは旧実測を継承し、新規全量バイト測定ではない。法的な非侵害は保証しない。",
+    "reviewed_artwork_sha256": "ec236ea6569218deef91ab00e629a5256cf5c982d3c7c647c8146d4a9ef64365",
+    "reviewed_visitor_draft_sha256": "42f0950c6b1703d952f43ee6e4abaae523c213faa9a2b7353d08d2dcedb1747c",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 38012／1995.232、約1750年、インド・ラージャスターンのブーンディまたはコータ（不確定）、作者不詳、紙にインク・金・不透明水彩。登録画像DT3878と同作品のCommons図版の所蔵・寸法が一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "館は銘文がなく遊女の理想化された像の可能性と慎重に説明。酒と失われた物語は両方可能性であり真の理由を断定しない。ペルシア→インドの図像とムガル・ラージプートの様式比較も館に確認。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『悲しみ』2は画題とMetのmelancholy/reverieに鑑賞者が共感する入口。絵の人物の確定した心理状態や原因を作者の証言として扱わない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "7段落の日本語解説は出典の主要な史実と留保に対応。出典外の宮廷女性教養の一般説明を削除、視線の方向を図像に合わせ修正。Metの原文の長文逐語翻訳・転載を避ける。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "ec236ea6569218deef91ab00e629a5256cf5c982d3c7c647c8146d4a9ef64365",
+    "visitor_draft_sha256": "42f0950c6b1703d952f43ee6e4abaae523c213faa9a2b7353d08d2dcedb1747c",
+    "proposal_sha256": "eeef3cd7bb27431c21145c6b64b84ce4d5f9def31abbb62dd8d3d15f79569bd6",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_historical_sha256",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "no_curation_changes",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHubの対象レコード・下書きにJSのハッシュと対象外不変の予備検査を実施。Python preview/save/checkとCI結果はPRで別途確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-38012.json",
+    "sha256": "eeef3cd7bb27431c21145c6b64b84ce4d5f9def31abbb62dd8d3d15f79569bd6",
+    "proposed_artwork_sha256": "ec236ea6569218deef91ab00e629a5256cf5c982d3c7c647c8146d4a9ef64365",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA images CC0",
+      "3(b) protected museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Metの本作品Public Domain画像はOA/CC0、館の学芸員による解説文章の利用条件は別。日本語解説は主要事実を独立表現でまとめ、長文転載・逐語的全面翻訳を行わない。法律上の非侵害を保証するものではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "本文修正と新しいdraft/evidenceは先行コミットで済ませた。画像と感情『悲しみ』、選定資料は現状維持。",
+    "別名Commonsファイルの誤った1610年を作品事実とせず、Met公式ca.1750を採用。",
+    "画像SHAは旧実測、図像視認は別。",
+    "CIとmain統合後のみ57/300完成。"
+  ]
+}
