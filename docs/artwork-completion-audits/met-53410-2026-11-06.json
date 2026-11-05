@@ -1,0 +1,154 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-53410",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "61018e41112e78d79eda6e986fdee5b3409fce59",
+    "artwork_record_sha256": "1ecd126b00d1e9de9e2f1f4997965632acefaff224fac9f93acf52c4e00a0209",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-53410.json",
+    "draft_sha256": "2c856341b538cf25e3854764105026d325b158de43fe9772a3e9c1345b36da17"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/53410",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview paragraph 1: mother lion and cubs at Tiantai stone bridge, analogy to teacher, Tiantai Buddhism and Daoism",
+        "Overview paragraph 2: exaggerated restless and fluid disciplined brushwork",
+        "Artwork Details: Shohaku, Gazan Nanso inscription, 1779, ink on silk, 2015.300.216, Public Domain"
+      ],
+      "observed": "Met公式作品ページの作品題名・同定・作画者と賛の筆者・画中の石橋と獅子・制作年代・宗教的背景・筆致・権利を再閲覧して照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "How to identify Open Access images",
+        "Public domain and CC0",
+        "CC0 does not alter other third-party rights"
+      ],
+      "observed": "MetのOA画像のCC0と収蔵館の解説文の転載許諾を区別した。"
+    },
+    {
+      "url": "https://libmma.contentdm.oclc.org/digital/api/collection/p16028coll12/id/13761/download",
+      "access": "search_snippet_crosscheck",
+      "locations": [
+        "Museum original gallery label No.132 identifies 2015.300.216 and Shohaku, Gazan Nanso, 1779",
+        "The stone bridge legend and teaching analogy"
+      ],
+      "observed": "館の2015年展示用キャプションの抽出テキストに同作品番号・制作年・伝承が一致。PDF本文のスクリーンショットによる全面目視とはしない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-53410",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-12232-279.jpg",
+      "status": 200,
+      "sha256": "208ab8ef4ac5f3004568606c93d509cda4455edef8ea690a615bc55a254abd09",
+      "byte_length": 3616810,
+      "width": 2998,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20登録原JPEGの全量検証記録を継承。今回新規バイト取得なし。"
+    },
+    {
+      "id": "met-53410",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-12232-279.jpg",
+      "status": 200,
+      "sha256": "0a206e1c3a4117a62b11c984b02e83c27b50619f63877a4b4bd6fb7429da172f",
+      "byte_length": 139471,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の公式小画像JPEG検証記録を継承。今回新規バイト取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式の同じ所蔵番号2015.300.216の画像を開き、画面とMet作品解説を突き合わせた。",
+    "observed": "縦長の墨画掛軸で、上部に石の弓形の橋、中ほどに獅子がいる断崖、下方に落下する数頭の子獅子、雲と遠山、上部の書。岩と獅子には激しい線が使われ、伝承と視覚要素が一致。原JPEGの新規ハッシュ検査とは別。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Metの公式概要・Artwork Details・公式同作品画像・館の2015年展示キャプション照合結果を別工程で参照し、主題・年・帰属・本文5段落・感情との接点・画像ライセンスを検証。",
+    "limitations": "同一AIの別工程であり別AI・独立第三者の確認とは呼ばない。館展示PDFのスクリーンショットでの再確認なし。旧JPEG SHAを再利用し今回ダウンロードしていない。著作権の法的保証ではない。",
+    "reviewed_artwork_sha256": "1ecd126b00d1e9de9e2f1f4997965632acefaff224fac9f93acf52c4e00a0209",
+    "reviewed_visitor_draft_sha256": "2c856341b538cf25e3854764105026d325b158de43fe9772a3e9c1345b36da17",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 53410、2015.300.216、曽我蕭白筆・峨山南宗賛、1779年絹本墨画掛軸。収蔵館と年代・作者を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "天台山石橋の母獅子と子獅子、厳しい試練と弟子の力量を試す教師の比喩、天台宗と道教の聖地、仙人と人間の接点を確認。実際の獅子の生態や曽我蕭白自身の心理ではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『不安』2は子獅子の断崖の試練・危機に自然に接続。補助『好奇心』1は奇妙な行為と寓意を知りたいという作品固有の問いに限定。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存鑑賞本文の石橋・獅子・歴史・宗教・筆法は公式解説の裏付けがあり、独自の日本語5段落で原文の長文転載や逐語翻訳ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "1ecd126b00d1e9de9e2f1f4997965632acefaff224fac9f93acf52c4e00a0209",
+    "visitor_draft_sha256": "2c856341b538cf25e3854764105026d325b158de43fe9772a3e9c1345b36da17",
+    "proposal_sha256": "92cbe9a1e2decd2f9ea7a279b2e8f2c6eaa1c51728d2014f6b0df450b33693ba",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "draft_matches_catalog",
+      "record_hash",
+      "historical_image_hash_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象の本文・画像SHA・感情と対象外299件・版・ハッシュをJS点検。Pythonスクリプト・CIはPR後に確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-53410.json",
+    "sha256": "92cbe9a1e2decd2f9ea7a279b2e8f2c6eaa1c51728d2014f6b0df450b33693ba",
+    "proposed_artwork_sha256": "1ecd126b00d1e9de9e2f1f4997965632acefaff224fac9f93acf52c4e00a0209",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "OA images and CC0",
+      "Public domain work caveats",
+      "Third-party rights"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Metの作品はPublic Domain、公式のOA図版はCC0。館の英文解説と画像の利用条件を分離し、日本語独自案内には長文逐語訳・転載の問題を認めない。ただし法的非侵害保証とは扱わない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存の日本語解説・感情タグ・選定資料・画像は変更せず、本審査と登録証拠を追加する。",
+    "画像SHAは2026-10-19/20旧実測で今回新規全バイト取得なし。",
+    "CI成功・main統合後のみ62/300に加算する。"
+  ]
+}
