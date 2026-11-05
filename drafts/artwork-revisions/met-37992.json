@@ -1,0 +1,68 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-37992",
+  "baseline_commit": "07accdc1067a2e17a78e33d58963e2c86e2965ff",
+  "baseline_artwork_sha256": "8c9b6e8623b1d7b5c7977897ea70d290e50fbcdc7eb77082585314e96a720cd9",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "上向きの視線と手・肩の身振りで恋人への切望を示す女性。",
+      "after": "ショールの曲線が顔と肩を囲み、うつむき気味の視線の先に曲げた手を置くことで、恋の熱情を示す女性。",
+      "reason": "登録文の『上向きの視線』は実際の図像と公式解説に反するため修正。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/37992"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation",
+        "summary"
+      ],
+      "before": "Metが目線、肩の動き、手の身振りを恋人を求める切望と結びつける。",
+      "after": "Metはショールが顔と肩を囲み、視線を曲げた手へ導く構図に、恋の熱情を示す仕組みを見る。",
+      "reason": "館が『肩の動き』を論じたという不正確な読みを図像と公式説明に沿って限定。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/37992"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "fitting_situations"
+      ],
+      "before": [
+        {
+          "situation": "離れた恋人がいつ現れるのか、落ち着かず待っている",
+          "reason": "Metは表情や身ぶりを恋人への longing と結びつけ、愛情の切望が画題に明示されている。",
+          "strength": 2
+        }
+      ],
+      "after": [
+        {
+          "situation": "恋人に会いたい思いが強く、逢瀬を前に胸が高まっている",
+          "reason": "本作についてMetはショールと曲げた手に恋の熱情を読み、同館の別作品の解説はアビサーリカーを恋人との逢瀬に向かう人物類型と説明する。画面自体に移動や待ち時間が描かれていると断定しない。",
+          "strength": 2
+        }
+      ],
+      "reason": "本作品の画面を『恋人が現れるのを待っている』と限定しない。アビサーリカーの一般類型と本画面の表現を区別。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/37992",
+        "https://www.metmuseum.org/art/collection/search/74691"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-37992.json",
+  "visitor_draft_sha256": "73317d6ace40191cbc1d6eb2c330d2255f2d96e85f4d3c5044d8f71b69fe96ab",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "c93c456cb0b1e6e82a593c5acf0abd6e49a2e1ddb379a985f2e9ef2d774e11cc",
+  "explanation": "Met 37992／18.134.3 カングラ1790–1800頃の《恋人を慕うヒロイン》。現行日本語本文のショール、伏せた視線と手の描写は公式ページ・全景に合う。選定用の『上向きの視線』『肩の動き』『恋人がいつ現れるのか待つ』という不正確な箇所のみ公式図像と比較作品の出典で限定修正。本文・感情・画像は維持。"
+}
