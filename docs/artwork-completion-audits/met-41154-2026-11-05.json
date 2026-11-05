@@ -1,0 +1,156 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-41154",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "c644a1c9d0efce20ad3303c2563fe23dc5e8f39d",
+    "artwork_record_sha256": "b6d4ad31ec78a53b9cc152ae554a56a4b46c775c853679424d6f4eefe9f2cc51",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-41154.json",
+    "draft_sha256": "797e2b6881df0f05fa3ec9b02a307d42452e6d8665d79378dd931177357ddf52"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/41154",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: 1356–66 refugee life near Suzhou, family lived simply in harmony and happiness; Ni Zan's spontaneous brushwork",
+        "Overview: painting for fellow scholar-artist Yu Kan in 1363, same year wife died; growing sense of isolation is possible, not definite",
+        "Overview: artist's four-line inscription about evening tide, windblown sparse frost leaves, closed and silent gate, thoughts of friend",
+        "Artwork Details: Ni Zan, 1363, Yuan dynasty, hanging scroll ink on paper, Met 1989.363.39, Public Domain"
+      ],
+      "observed": "Metの公式ページで作者・制作年・友人への贈呈・作者の詩および孤独解釈の推定性を、既存本文と照合した。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ni_Zan_-_Wind_among_the_Trees_on_the_Riverbank_-_1989.363.39_-_Metropolitan_Museum_of_Art.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met object ID41154, accession 1989.363.39, original photo DT6291 2492x4000 and public-domain CC0 designation"
+      ],
+      "observed": "Met公式登録JPEGと同じDT6291の所蔵番号・寸法・パブリックドメインの補助同定を確認。今回の実SHAではない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) OA CC0 images",
+        "3(b) non-OA museum text"
+      ],
+      "observed": "対象図版のCC0画像とMet英語学芸員解説の文章権利を区別した。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-41154",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DT6291.jpg",
+      "status": 200,
+      "sha256": "05851e43e03e9bf12a7c365549ebe9ca69ab52c0cc83dd1bce2e164db9f9846f",
+      "byte_length": 2238194,
+      "width": 2492,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet原JPEG完全バイトSHA・寸法と縮小一致の旧証拠を継承。今回新たなバイト全体の再ダウンロードなし。"
+    },
+    {
+      "id": "met-41154",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DT6291.jpg",
+      "status": 200,
+      "sha256": "49ef8e3e2adde59e11fdfd99c31a4b6c73247c49de30d31a9e7502fda1c8e4e4",
+      "byte_length": 63871,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18のMet primaryImageSmall HTTP・JPEG・SHAの登録台帳を継承。今回のWeb画面目視とは別。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品ページからobject ID 41154の先頭IIIF図版collectionapi.metmuseum.org/api/collection/v1/iiif/41154/148555/main-imageを直接表示し、Met画像DT6291および所蔵番号1989.363.39のCommonsと同一図版であることを確認。",
+    "observed": "縦長の薄墨山水画。上部に小さな二つの山並みと水辺の空白、中段左には細くまばらな木々、中央右に作者の漢詩、下段にも岩と平らな水辺、余白と印章が配置される。特定の妻・友人の姿が描かれたと推測しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存DBの本文・画像SHA・感情索引を最初に点検。別工程でMetの公式詩と絵の制作事情および実際の公式図版を再参照し、Commonsの同作画像の所蔵番号、公開画像と文章利用条件を確認した。妻の死別からの推測と本人の詩の言葉を分けた。",
+    "limitations": "同一AIが同じ会話内の別パスでレビューしており別AI・第三者の独立監査ではない。過去2026-10-18/20のJPEG実SHA値を今回再測定したとは扱わない。法律上の非侵害保証ではない。",
+    "reviewed_artwork_sha256": "b6d4ad31ec78a53b9cc152ae554a56a4b46c775c853679424d6f4eefe9f2cc51",
+    "reviewed_visitor_draft_sha256": "797e2b6881df0f05fa3ec9b02a307d42452e6d8665d79378dd931177357ddf52",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met ID41154、1989.363.39、倪瓚、元代1363年、紙本墨画の掛軸。公式図版と登録画像は同一作品である。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1356～66年頃の倪瓚の避難生活と家族の落ち着いた日々、1363年に妻を亡くしたという同時代事実と、Yu Kanへ描き添えた詩の友人への思いを区別。孤立感が絵に表れているかはMetの可能性にすぎず、妻の死を唯一の主題とは扱わない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『寂しさ』強度2は川辺の暮れ方・閉じた門・友人を思う作者本人の詩に根拠。補助『喪失感』1は妻の死と重なる制作事情による弱い鑑賞入口で、作者の悲しみの量や自伝的主題の確定を意味しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存の6段落の鑑賞日本語は画面の特徴・元代の背景・倪瓚の詩を独立に再構成し、館の英語の詩を長文逐語訳・転載していない。作品の妻との死別の解釈を慎重に留保している。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "b6d4ad31ec78a53b9cc152ae554a56a4b46c775c853679424d6f4eefe9f2cc51",
+    "visitor_draft_sha256": "797e2b6881df0f05fa3ec9b02a307d42452e6d8665d79378dd931177357ddf52",
+    "proposal_sha256": "14e7a425838dbe40f86c77cca38a035b91084d7ad9c196103a12f6b5684be6ad",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "最新mainに収録済みの日本語本文と新設草稿の完全一致・作品ハッシュ・旧JPEGバイト記録・300IDの一意性・対象外作品不変を確認。Python登録ガード／CIの実際の成功後だけmainへ統合して完成に加える。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-41154.json",
+    "sha256": "14e7a425838dbe40f86c77cca38a035b91084d7ad9c196103a12f6b5684be6ad",
+    "proposed_artwork_sha256": "b6d4ad31ec78a53b9cc152ae554a56a4b46c775c853679424d6f4eefe9f2cc51",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access/CC0 images",
+      "3(b) non-OA Museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met 41154の同作品図版はPublic Domain、同図版CommonsもCC0。Metによる作者の詩の英訳と学芸員本文は画像OAとは別の権利であり、既存日本語の短い独自説明は詩や英語解説を長文逐語訳せず必要な事実を構成している。非侵害の法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "mainの既存鑑賞本文・選定用索引・画像URLは不変更。既存本文と一致する審査草稿のみ追加。",
+    "今回のMet公式図版目視と2026-10-18/20旧JPEG SHA記録を区別する。",
+    "GitHub ActionsのPASSとmain統合後だけ正式完成40/300。"
+  ]
+}
