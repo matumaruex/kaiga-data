@@ -1,0 +1,156 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-11145",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "5f381a3eaf715b5db1b68d243686a306ac051c8f",
+    "artwork_record_sha256": "2971055e6c8d9b488f522063af87ae973e1c31140e92603a2945d4fcf6c31c10",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-11145.json",
+    "draft_sha256": "98a411c23d1eeb829ca5398874ba1b3d5bafa7df89cb29b8a91a910fe5c3e405"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/11145",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: after Confederate General Lee's surrender and Abraham Lincoln's assassination, post-Civil War grief and hope",
+        "Overview: discarded Union Army jacket and canteen, Isaiah 2:4, the harvest of recovery, single-bladed scythe evoking the Grim Reaper",
+        "Artwork Details: Winslow Homer, 1865, oil on canvas, accession 67.187.131, Public Domain"
+      ],
+      "observed": "Metの個別作品ページ・公式図版と登録本文・感情索引を照合。館の美術史的解釈と作者本人の意図の未検証性を区別した。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Veteran_in_a_New_Field_MET_DP102298.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Metropolitan Museum of Art accession 67.187.131 / object ID11145",
+        "Official source image DP102298 and 2509×1590 pixel size; Met origin CC0"
+      ],
+      "observed": "Met出典・所蔵番号と画像名が一致し、CC0表示の作品図版と確認。旧JPEG SHAの今回新規取得と混同しない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1. Copyright and Proprietary Rights",
+        "3(a) Open Access CC0 images",
+        "3(b) other restricted text and materials"
+      ],
+      "observed": "MetのCC0作品画像と館の学芸員文章の権利を分離して確認。既存本文は独自の日本語説明として取り扱う。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-11145",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP102298.jpg",
+      "status": 200,
+      "sha256": "e96c237ce0074919c78fb9373713baff42b6a4363572a9f2426c17f31ae1c49d",
+      "byte_length": 1849625,
+      "width": 2509,
+      "height": 1590,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の登録済みのMet原JPEG全バイトSHA・寸法・縮小同一性の証拠を継承。今回のWeb目視とは別。"
+    },
+    {
+      "id": "met-11145",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP102298.jpg",
+      "status": 200,
+      "sha256": "45836d2b483d2aadf7620af623d36f50d3c246b3f118ce99c81fb8b9d2c9aa3b",
+      "byte_length": 112376,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の登録済みMet縮小公式JPEGの完全バイトSHAを継承。今回新規ダウンロードの結果としていない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met作品ID11145の公式作品画像と、同一画像名DP102298をもつWikimedia CommonsのMet由来図版を照合。補助的にSmithsonian所蔵データの図像記載も確認。",
+    "observed": "横長の絵に、晴れた空と黄金色の麦畑が広がる。後ろ姿の一人の男性が鎌で刈り取り、右下には小さなジャケットと水筒が置かれる。元データの作物・鎌・服・水筒の列挙と視覚上一致する。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "最初に登録済みの本文・索引・草稿の欠落・既存画像台帳を確認。別工程で所蔵館の公式解説とCommons画像の所蔵番号・視覚情報・CC0表示・Metの権利規約を再確認し、作者意図と館の読解を区別。本文と選定資料は現状維持とした。",
+    "limitations": "同一AIによる同じ会話内の別工程であり、別AIや第三者の独立監査ではない。JPEG完全バイトSHAを今回再取得しておらず、2026-10-19/20の旧記録を継承。画像CC0は学芸員説明文の自由使用を意味せず法的保証はできない。",
+    "reviewed_artwork_sha256": "2971055e6c8d9b488f522063af87ae973e1c31140e92603a2945d4fcf6c31c10",
+    "reviewed_visitor_draft_sha256": "98a411c23d1eeb829ca5398874ba1b3d5bafa7df89cb29b8a91a910fe5c3e405",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 11145／67.187.131、Winslow Homer 1865年、油彩・キャンバス。Met登録の原JPEG DP102298と同一作品を照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "南北戦争終結、リーの降伏、リンカーンの暗殺後の1865年制作。Metは死神を示唆する鎌と豊かな収穫による希望の相克、聖書イザヤ書の農具の比喩を紹介。これを作者本人の直接証言としない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『希望』2は収穫と平和な労働への復帰、主『喪失感』2と補助『悲しみ』1は戦争の死の記憶・鎌の象徴を背景とする鑑賞入口。人の心理を測定したものと断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "登録済み日本語8段落は美術館の解説にある歴史背景と収穫・鎌・軍服の象徴を自分の日本語に再構成しており英語段落の長文逐語翻訳・引用を避ける。画面描写との矛盾はなく修正不要。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "2971055e6c8d9b488f522063af87ae973e1c31140e92603a2945d4fcf6c31c10",
+    "visitor_draft_sha256": "98a411c23d1eeb829ca5398874ba1b3d5bafa7df89cb29b8a91a910fe5c3e405",
+    "proposal_sha256": "a56daf68b3203302f85bd20d1d1bd02cdcc54e2ca5ddf15eb7e475f3c21b1c4b",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "本監査時点で対象版レコード・草稿の完全一致・旧画像登録値・300件と他299件不変更を検査。Python登録ガードとGitHub Actionsが実際に成功するかは別に確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-11145.json",
+    "sha256": "a56daf68b3203302f85bd20d1d1bd02cdcc54e2ca5ddf15eb7e475f3c21b1c4b",
+    "proposed_artwork_sha256": "2971055e6c8d9b488f522063af87ae973e1c31140e92603a2945d4fcf6c31c10",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access CC0 images",
+      "3(b) other restricted Museum prose"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "公式Met 11145と同画像CommonsはPublic Domain/CC0。既存独自日本語本文は館の学芸員解説や聖書の引用を長文逐語転載していない。権利保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "主『希望』2・『喪失感』2、補助『悲しみ』1、および鑑賞本文・画像登録値は変更なし。",
+    "既存のJPEG SHAを今回再計算したと誤記しない。",
+    "CI成功・main統合後にのみ正式完成42/300。"
+  ]
+}
