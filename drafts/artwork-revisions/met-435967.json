@@ -1,0 +1,28 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-435967",
+  "baseline_commit": "f6525a7ecd3cbfc9fb9df6f7cc3b5bcaba1717e7",
+  "baseline_artwork_sha256": "0000000000000000000000000000000003ecae9a9cda0eadc329119007c5f5a0",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "滅びる町を振り返る妻と、逃れようとするロト一家との対照。",
+      "after": "塩の柱となったロトの妻と、天使に導かれて逃げるロト一家との対照。",
+      "reason": "Met公式は妻が振り返った結果すでに塩の柱になった姿を画面に描くと説明。現在の図版の見える形に限定して記述する。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435967"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-435967.json",
+  "visitor_draft_sha256": "00000000000000000000000000000000026391b72ddaaf43538a47a2b252a115",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "0000000000000000000000000000000083366ea16cb7d47c56d57a316ea762c0",
+  "explanation": "コロー《The Burning of Sodom》1843・1857年、Met 29.100.18。1843年制作・1844年サロン出品・1857年再出品と大きなカットと暗色の加筆をMet作品解説で確認。人物はすでに塩の柱となった妻であり『振り返る妻』という瞬間を描画したものではないためvisual_cluesだけを限定修正。既存の日本語解説・主『未練』2と補助『不安』1・画像URL・作者意図の未確認は維持。"
+}
