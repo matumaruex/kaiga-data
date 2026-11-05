@@ -1,0 +1,103 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-38017",
+  "baseline_commit": "e09f8d1de65c521b40916506a2ce8fa6dde70354",
+  "baseline_artwork_sha256": "daeff5ae0832d26d8ab9b0cb14327a86a483f630f590fbc4af4294e2a4d173cd",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "emotion_categories",
+        "primary"
+      ],
+      "before": [
+        "寂しさ",
+        "未練"
+      ],
+      "after": [
+        "寂しさ"
+      ],
+      "reason": "Metの恋慕と不眠は過去の関係を引きずる『未練』を主感情とする十分な根拠にならない。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/38017"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "emotion_categories",
+        "secondary"
+      ],
+      "before": [],
+      "after": [
+        "未練"
+      ],
+      "reason": "未練は弱い連想として補助に残す。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/38017"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "emotion_strengths",
+        "未練"
+      ],
+      "before": 2,
+      "after": 1,
+      "reason": "別離・後悔を直接認定できず、主2では過大評価。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/38017"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "fitting_situations"
+      ],
+      "before": [
+        {
+          "situation": "連絡のない相手を思って眠れず、手放せない気持ちがある",
+          "reason": "ラーガマーラーの詩と絵が睡眠を妨げる恋い慕いを描くとMetが説明する。未練は過去の恋愛への後悔と断定しない。",
+          "strength": 2
+        }
+      ],
+      "after": [
+        {
+          "situation": "恋しい人の不在を感じ、夜も眠れないほど思いが募る",
+          "reason": "Metは眠れぬ眼と恋の疲れ、空の寝台を見返し両腕を上げる姿を詩と旋法の視覚表現と説明する。相手との連絡途絶や別離は示さない。",
+          "strength": 2
+        }
+      ],
+      "reason": "既存の『連絡のない相手』『手放せない』は出典を超えた推定。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/38017"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "selection_cautions"
+      ],
+      "before": [
+        "詩的な場面と作者個人の人生を区別する。"
+      ],
+      "after": [
+        "音楽・恋愛詩の人物類型と画家自身の個人経験を混同しない。恋人と連絡が途絶えた、別れた、関係が終わったという個別事情は出典で確認できない。"
+      ],
+      "reason": "図像が示さない個人史・失恋を断定しない。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/38017"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-38017.json",
+  "visitor_draft_sha256": "89fa4c260896f219f44c3f29eee1cc08101c43216f884ba011dcc2d01c281ae4",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "b3482bcbf6a0c2f51ea5f2727265625c1310d0fd2896b8f35e193e2089b87883",
+  "explanation": "1605–06 Bikaner, Met 38017／1987.417.2。作品画像・人物姿勢・ラーガマーラー詩・日本語鑑賞本文は公式館の根拠と整合。『連絡がない』『手放せない』の憶測を修正し、『未練』の強度を主2から補助1に下げる。事実・画像・日本語本文は保存。"
+}
