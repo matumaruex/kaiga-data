@@ -1,0 +1,175 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435962",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "dd122bc318bcf0f27ed557303076a5a77ecbca13",
+    "artwork_record_sha256": "8eba1f4e4a3b2097f36fccd06d006487730ee0d72915bf5b6e0429f682979596",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435962.json",
+    "draft_sha256": "be67c48b643c629f018eac4103345862fcba238c09006022eedf883222db6e1e"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435962",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: Abraham, Sarah, Hagar, Ishmael, Isaac, driven into Beersheba desert",
+        "Audio 6066 transcript: thirst; angel and water source; dry watercourse; large landscape with small figures",
+        "Audio 6066 transcript: French nature studies; anonymous 1835 critic and unseen distant hope",
+        "Artwork Details: Corot 1835, 38.64, oil on canvas, Public Domain"
+      ],
+      "observed": "Met作品本文・作品番号・音声書き起こしの人物、1835年の展示、風景研究、希望の批評を既存日本語本文と照合した。"
+    },
+    {
+      "url": "https://www.biblesociety.org.uk/explore-the-bible/read/eng/NRSV/Gen/16",
+      "access": "page_read_twice",
+      "locations": [
+        "Genesis 16:1–3 Hagar described as Egyptian slave-girl",
+        "Genesis 16:15–16 birth of Ishmael"
+      ],
+      "observed": "既存草稿で引用する第16章はハガルの立場とイシュマエルの出生を支える。追放の場面を裏付ける出典ではない。"
+    },
+    {
+      "url": "https://www.biblesociety.org.uk/explore-the-bible/read/eng/NRSV/Gen/21",
+      "access": "page_read_once",
+      "locations": [
+        "Genesis 21:8–14 Hagar and Ishmael expelled to Beersheba",
+        "Genesis 21:15–19 water exhausted, angel and well"
+      ],
+      "observed": "絵に対応する追放・救済の出来事は21章であり、既存本文の出典Metの公式解説も同じ話を説明する。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Hagar_in_the_Wilderness_MET_DT2013.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met ID435962 and accession 38.64, DT2013, 3811x2817 image",
+        "Met donated image with Creative Commons CC0 1.0"
+      ],
+      "observed": "Met画像の同作品・所蔵番号・高解像度サイズとCC0を画像台帳と照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) Open Access CC0 images",
+        "3(b) non-OA museum prose"
+      ],
+      "observed": "画像のオープンアクセス条件と館の音声解説・文章の著作権を分けて確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435962",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT2013.jpg",
+      "status": 200,
+      "sha256": "1bbaeb9d8e2f3119f418ae666fe6ef727f1f123626b1535d26c82e360f40f5ba",
+      "byte_length": 2249378,
+      "width": 3811,
+      "height": 2817,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20に記録された原JPEG全バイトSHA256、画像寸法および縮小一致を継承。今回再ダウンロードなし。"
+    },
+    {
+      "id": "met-435962",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2013.jpg",
+      "status": 200,
+      "sha256": "d2d47291ba131dbc602379b12a09debc0a7cc657a04ce1a7458d87f4bf222d43",
+      "byte_length": 86415,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19のMet primaryImageSmall実SHA記録を継承。今回再ダウンロードなし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Metの公式作品ページの全景図版と同所蔵番号・画像名のCommons寄贈図版を目視照合。",
+    "observed": "横長の乾いた風景。遠くに大樹と岩崖、中央下の母ハガルは黒い衣服で片腕を上げ、足元に子イシュマエルが横たわる。小さな翼ある天使が遠方の空に位置し、母子に比べると風景が大きい。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "元のDBと草稿、旧画像台帳を照合後、別パスでMet公式の画像・解説・音声全文とCommonsの所蔵情報・CC0・聖書16章/21章の差・Met権利条件を確認。内容修正不要と判断。",
+    "limitations": "同一AIの同一会話内の別パスであり別AI・人間の独立監査ではない。画像SHAは旧2026-10-19/20の記録を再利用。法律上の非侵害保証ではない。",
+    "reviewed_artwork_sha256": "8eba1f4e4a3b2097f36fccd06d006487730ee0d72915bf5b6e0429f682979596",
+    "reviewed_visitor_draft_sha256": "be67c48b643c629f018eac4103345862fcba238c09006022eedf883222db6e1e",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Corot 1835年、Met ID435962／38.64、公式DT2013の横長油彩作品を同定。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "創世記21章の荒野での危機と神の救済。Metは1835年批評家の『母にまだ見えない希望』とコローの風景習作使用を紹介。作者本人の心理を断定しない。16章はハガルの身分・家族背景のみ。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『希望』2は見えない天使と救済、主『不安』2は母子の水不足と窮地、補助『慈しみ』1は母と子の保護。感情タグは鑑賞の入口で作者の心の診断ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存の鑑賞3段落は館の解説と批評を短い独自の日本語で紹介し、館の英語原文の長文逐語訳・転載をしない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "8eba1f4e4a3b2097f36fccd06d006487730ee0d72915bf5b6e0429f682979596",
+    "visitor_draft_sha256": "be67c48b643c629f018eac4103345862fcba238c09006022eedf883222db6e1e",
+    "proposal_sha256": "5418d84d8d82741a81a7dd893f05cf4ebfc88f5353e128510dae0ceeef061abb",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "版と草稿・旧画像ハッシュの整合、300ID一意性、当該作品以外の変更なしを確かめた。Python登録ガードとGitHub Actionsの検査は本記録の後に確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435962.json",
+    "sha256": "5418d84d8d82741a81a7dd893f05cf4ebfc88f5353e128510dae0ceeef061abb",
+    "proposed_artwork_sha256": "8eba1f4e4a3b2097f36fccd06d006487730ee0d72915bf5b6e0429f682979596",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA CC0 images",
+      "3(b) non-OA museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "MetとCommonsの所蔵作品画像はPublic Domain/CC0。学芸員の英語解説と音声テキストは画像とは別権利として扱い、既存の日本語は必要情報を独自の説明に再構成している。法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "16章と21章の役割差を明記。本文・感情タグ・画像URLは変更しない。",
+    "JPEG実SHAは旧記録を再利用。",
+    "GitHub CI成功・main統合後だけ正式43/300。"
+  ]
+}
