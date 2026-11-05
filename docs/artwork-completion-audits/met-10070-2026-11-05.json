@@ -1,0 +1,156 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-10070",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "fcb9037acabf16efc1f263abf0a1962e4ae77e91",
+    "artwork_record_sha256": "e305360d9e8d1ba3f34947d0ea7012ff6e320e9968663ffcfda5c8358b668942",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-10070.json",
+    "draft_sha256": "cb3ed90d4bf06803e437d7327d291aea03076762dee60328e5be0513dbace193"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/10070",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: 1831 Boston Athenaeum showing together with Allston's poem on Inez and Isidore",
+        "Overview: longing, hope and fear; layers of diaphanous color for atmosphere",
+        "Artwork Details: Washington Allston, 1831, oil on canvas, 01.7.2, Public Domain"
+      ],
+      "observed": "2026-11-05にMetの個別作品ページを検索結果とページ本文で照合。作者が自作詩を添えた事実と館の作品解釈を分ける。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Spanish_Girl_in_Reverie_MET_ap01.7.2.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "The Met object ID 10070 and accession number 01.7.2",
+        "1810 × 2172 pixel original, CC0 1.0 from Met OA"
+      ],
+      "observed": "Met所蔵番号一致の複製画像とその画像のパブリックドメイン表示を照合。今回のJPEG全バイトハッシュの再ダウンロードではない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1. Copyright and Proprietary Rights",
+        "3(a) Materials Identified as Open Access CC0",
+        "3(b) Materials the Museum Believes to be Under Copyright or Other Restrictions"
+      ],
+      "observed": "Open Accessの画像と、それ以外の学芸員文章の使用条件を区別して確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-10070",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/ap01.7.2.jpg",
+      "status": 200,
+      "sha256": "41eaaf0e926e6b6e8d909c566c78021e9993d06be45e6b761efaa270c0821b08",
+      "byte_length": 1362227,
+      "width": 1810,
+      "height": 2172,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20に記録されたdata/image-sources.jsonの原JPEGのSHA256・バイト長・寸法を継承。今回の画像目視とは独立の過去証拠。"
+    },
+    {
+      "id": "met-10070",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/ap01.7.2.jpg",
+      "status": 200,
+      "sha256": "7056e196fdee35b3d383dc86709675f5beb799e2ee42cff669d2c040bdc87c78",
+      "byte_length": 93480,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19に確認された公式Met primaryImageSmallの完全バイトSHA記録を再利用。今回のJPEG再取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品ページとMet所蔵作品を出典とするCommons公開画像を参照。所蔵番号01.7.2、Met ID10070、原画像ap01.7.2.jpgと題名・作者を照合した。",
+    "observed": "女性は座った姿勢で草地の斜面に身を置く。暗赤色の上衣、灰白色のスカート、背景の柔らかな山並みと霧が見える。既存の『一人で佇む』を『腰掛けて』にするのがより正確である。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "第1工程で登録中の本文・索引・草稿・旧画像SHA記録を確認した。別の確認工程でMetの公式解説・所蔵番号・Commons同一画像・Met権利規約を照合し、修正を姿勢の描写の1欄に限定した。",
+    "limitations": "同一AIが同じ会話で実施した別工程であり別AI・第三者の独立監査ではない。2026-10-19/20のJPEG完全バイトSHAは今回再取得・再計算していない。画像CC0とMet文章の著作権は異なり法律上の非侵害保証ではない。",
+    "reviewed_artwork_sha256": "124ef853945913f1c79581335f9b0020d50da60891f8b1782bb6e1c98f575558",
+    "reviewed_visitor_draft_sha256": "cb3ed90d4bf06803e437d7327d291aea03076762dee60328e5be0513dbace193",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Washington Allston、The Spanish Girl in Reverie、1831年の油彩画。Met 10070／所蔵番号01.7.2、公式図版ap01.7.2.jpgと一致する。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1831年ボストン・アシニアムの初公開に際して画家自身が着想詩を添えたこと、その詩のイネスが戦争へ行った恋人イシドールを待つこと、Metが恋しさ・希望・恐れとして解説することを区別した。作者の実人生の恋愛に直結させない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『期待』『希望』強度2と補助『不安』強度1は、出品時の詩の物語と館によるlonging, hope and fearの読解に整合。人物・作者の感情の診断ではなく鑑賞の入口として扱う。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存の独自日本語本文は作者の詩・館の解釈・薄塗りによる空気感を短く構成し、詩や館の解説を長文逐語訳していない。鑑賞本文の変更は不要と判断した。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "124ef853945913f1c79581335f9b0020d50da60891f8b1782bb6e1c98f575558",
+    "visitor_draft_sha256": "cb3ed90d4bf06803e437d7327d291aea03076762dee60328e5be0513dbace193",
+    "proposal_sha256": "9ef439d52c9201f683ff0ad792fa83aa0c2beae04991c431b0246b2edf37a354",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "reviewed_curation_revision",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "本監査作成時に作品レコードの基底SHA・草稿ファイルSHA・既存本文と草稿の一致・旧JPEGハッシュ・一作品のみの修正を照合。Python complete_artwork.py preview/save/checkとGitHub Actions実行は別途検証が必要であり本欄のPASSはその代用ではない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-10070.json",
+    "sha256": "9ef439d52c9201f683ff0ad792fa83aa0c2beae04991c431b0246b2edf37a354",
+    "proposed_artwork_sha256": "124ef853945913f1c79581335f9b0020d50da60891f8b1782bb6e1c98f575558",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access CC0 images",
+      "3(b) non-OA museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "MetがPublic Domainと表示する当該画像およびMet由来のCommons公開画像はCC0。館の英語解説や詩は画像とは別条件であり、既存日本語は情報を自己の言葉で構成し長文転載していない。法律上の保証はしない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "今回のデータ変更はcuration.meaning_basis.visual_cluesの1欄に限定。鑑賞本文・タグ・画像は不変更。",
+    "旧JPEG全バイトハッシュと今回のWeb図版の目視は区別。",
+    "GitHub Actions合格・main統合がなければ完成41作品とは数えない。"
+  ]
+}
