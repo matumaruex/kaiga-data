@@ -1,0 +1,158 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-11116",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "d376c8d2a4576f59e433875914b44dff182e007e",
+    "artwork_record_sha256": "c0f04cd6046f4196735284addf9b7c3743856be217eeb162701e1504d2020057",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-11116.json",
+    "draft_sha256": "aa57fe9ba63922b7499df70494c7aabf9860bb724379db0f0a2a43fbcf6dfccb"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/11116",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: Jonkonnu, British West Indies roots, enslaved Virginians and North Carolinians, post-Civil War Fourth of July and earlier title",
+        "Overview: 1877 federal troop withdrawal and Black civil rights",
+        "Audio 4031 transcript: Gwendolyn DuBois Shaw on older woman with pipe and needle, young woman sewing, community rebuilding",
+        "Artwork Details: Homer, 1877, oil on canvas, 50.8×76.2cm, 22.220, Public Domain"
+      ],
+      "observed": "Met公式作品解説と音声を2度確認。黒人の祝祭の持続と再建期終焉を単純な幸福物語に還元せず、女性たちの針仕事を共同体再建としてみるShawの専門家解釈を作者本人の告白と分ける。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Winslow_Homer_-_Dressing_for_the_Carnival.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met 11116 / accession 22.220, Winslow Homer 1877",
+        "Official-source photograph, original 3776×2512 and Public Domain Mark"
+      ],
+      "observed": "Met所蔵番号22.220で一致する横長の図版に、中央の男性に赤黄の衣装、左右の女性が手を添え右に子どもが複数見える。登録画像DP-21443-001のJPEGバイトSHAと同一のCommons画像だと断定しない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) OA CC0 images",
+        "3(b) museum text restrictions"
+      ],
+      "observed": "Met Public Domain/Open Access図版と学芸員音声・解説文の権利を区別する。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-11116",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-21443-001.jpg",
+      "status": 200,
+      "sha256": "c55c0528f151b95eed3adbff2ea225ff3cf4ac597b69e3abf5b1e91de5146a58",
+      "byte_length": 4164343,
+      "width": 4000,
+      "height": 2675,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet公式原JPEG全量SHA・寸法の旧実測台帳を引き継ぐ。今回は全量再取得していない。"
+    },
+    {
+      "id": "met-11116",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-21443-001.jpg",
+      "status": 200,
+      "sha256": "a97c07f768b773aa9328e7e3b08b4c4769940030c984a071ebf47cc7c84cc5cc",
+      "byte_length": 115251,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の登録表示JPEG SHAとバイト長の旧記録を継承。今回の同作品図版視認と別。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品画像・Met 11116として掲載されたCommons全景を対照。",
+    "observed": "黒人の人々が一人の男性に黄色・赤の祝祭衣装を着せようとしている。中央の年配女性が針を持ち、左に女性と右に子どもたちが集まる。顔や衣装の細部は、館の作品解説・音声と整合する。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Met作品情報・音声4031とMet同所蔵Commons画像・画像利用条件を別パスで確認し、既存の日本語解説を段落ごとに史実・専門家の解釈・図像に分解して照合した。希望・喜びのタグは鑑賞者の入口であり作者本人の心理と区別。",
+    "limitations": "同じAIの同じ会話内での別工程であって別AI・第三者の独立監査ではない。原JPEGのバイトSHAは2026-10-19/20の旧記録を継承しただけで本日の再取得ではない。法的な非侵害は保証しない。",
+    "reviewed_artwork_sha256": "c0f04cd6046f4196735284addf9b7c3743856be217eeb162701e1504d2020057",
+    "reviewed_visitor_draft_sha256": "aa57fe9ba63922b7499df70494c7aabf9860bb724379db0f0a2a43fbcf6dfccb",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Winslow Homer, 1877, Met ID11116／22.220、50.8×76.2cm、キャンバス油彩。Met/Commons画像は同じ所蔵。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "旧題・Jonkonnuの来歴と1877年の再建期終焉をMet公式に照合。Shawによる女性の針仕事の解釈は専門家の読みであり画家自身の意図を実証するものではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『希望』2は抑圧の後も祝祭・共同体を維持する行動、補助『喜び』1は祭りの準備という弱い入口であり、単純な楽しい祭りへの置き換えは避ける。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存7段落は史実・絵の細部・専門家の読みを日本語で独立に要約し、Metの原文の長文の逐語訳・転載を行わない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "c0f04cd6046f4196735284addf9b7c3743856be217eeb162701e1504d2020057",
+    "visitor_draft_sha256": "aa57fe9ba63922b7499df70494c7aabf9860bb724379db0f0a2a43fbcf6dfccb",
+    "proposal_sha256": "66f5ae20f470ffaccb4ddcd808f40dbfca5635de3e7cfa43fa9c6224f23c0c51",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "版・下書きSHA、登録本文一致と件数・画像の旧登録値の整合を機械的に事前確認。PRのPython完了登録ガード、Actions結果は別途確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-11116.json",
+    "sha256": "66f5ae20f470ffaccb4ddcd808f40dbfca5635de3e7cfa43fa9c6224f23c0c51",
+    "proposed_artwork_sha256": "c0f04cd6046f4196735284addf9b7c3743856be217eeb162701e1504d2020057",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA CC0 images",
+      "3(b) other museum content"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "本作品Public Domain・Met OA画像の利用条件と、Metが作成した解説・音声文章の権利は別。既存日本語は内容を自分の表現で整理しており長文逐語訳・転載ではない。法律上の権利非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "日本語鑑賞本文・主『希望』補助『喜び』・画像は変更しない。",
+    "1877年の公民権後退と共同体の努力を単なる幸福の描写に変えない。",
+    "旧2026-10-19/20のJPEG実測と今回の画面確認を区別。レビュー工程は同一AI。",
+    "CI成功・main統合後のみ53/300完成。"
+  ]
+}
