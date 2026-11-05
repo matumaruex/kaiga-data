@@ -1,0 +1,154 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-53460",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "640c6e682d163f20f445e3ed226923fc7c672794",
+    "artwork_record_sha256": "92f4087a03935dfea4a2e13f1c7c53e120f65d73cc71083fa1056119509845ac",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-53460.json",
+    "draft_sha256": "efede43afac3ca85630a2b6eeff288417cce30c261bbccb715fc60dcdfc4526e"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/53460",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview paragraph 1: elder and servant with qin crossing toward waiting acquaintance",
+        "Overview paragraph 2: apparently uncontrolled twigs and willows, carefully structured light ink washes and darker rhythmic strokes",
+        "Overview paragraph 3: Ikeda clan retainer retired at 49, seven-stringed zither and ink landscapes",
+        "Artwork Details: Urakami (Uragami) Gyokudo, 1814, ink on paper, Met 2015.300.177, Public Domain"
+      ],
+      "observed": "Met公式個別作品を繰り返し参照し、人物・楽器・橋・画面構成・年・所蔵番号・経歴・筆法・Public Domainを直接照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Open Access images and CC0",
+        "Public domain and limitations of other rights"
+      ],
+      "observed": "MetのOA/CC0画像の利用条件と、館の学芸員解説文章の転載権利を分離。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:Uragami_Gyokud%C5%8D",
+      "access": "page_read_once",
+      "locations": [
+        "Urakami Gyokudo - On a Rustic Bridge, Carrying a Zither (Yakyō hōkin zu) - 2015.300.177",
+        "High-resolution work image listed in Wikimedia Commons"
+      ],
+      "observed": "Metと同一所蔵番号2015.300.177・原画題に合致する公開図版の目録を参照。今回登録画像の全量ダウンロードを実施した意味ではない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-53460",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-12232-212.jpg",
+      "status": 200,
+      "sha256": "709ffbc551bdc58f0f432f1aea31e1cbf8784f0c1cf8de1f4db6a537d645b0a2",
+      "byte_length": 3152591,
+      "width": 2998,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20に保存したMet原JPEGの全量SHA・寸法の実測を再利用。今回新規取得なし。"
+    },
+    {
+      "id": "met-53460",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-12232-212.jpg",
+      "status": 200,
+      "sha256": "00ca52c34d425eede1a7e3ab4f69d2021afd848158fce670f4b1ba36d15649c3",
+      "byte_length": 108074,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の登録表示JPEG実測を再利用。今回新規取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式の所蔵2015.300.177の図版画像を見て、Met解説と画面上の人物・山並み・楽器・筆線の対応を確認した。",
+    "observed": "縦長の紙本墨画の掛軸。険しい山の上に大岩の塊と画賛、中央から下方に柳などの樹木や橋、橋上の微小な人物と背の荷を描く。淡墨の山と濃墨で重ねる短い岩・樹木の筆触が同じ所蔵図版にある。登録JPEGの今回新規SHAは測定していない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "一度目の館公式記述と登録DBを比較した後、Met概要・詳細・公開作品画像と同所蔵番号Commons目録を再照合し、既存日本語案内・画像利用・感情タグと選定資料を検証。",
+    "limitations": "同一AIによる別工程で第三者・別AI審査ではない。JPEG全量SHAは旧実測再利用で新規取得なし。公式展覧会カタログのPDF未使用。法律上の非侵害保証ではない。",
+    "reviewed_artwork_sha256": "92f4087a03935dfea4a2e13f1c7c53e120f65d73cc71083fa1056119509845ac",
+    "reviewed_visitor_draft_sha256": "efede43afac3ca85630a2b6eeff288417cce30c261bbccb715fc60dcdfc4526e",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 53460／2015.300.177、浦上（Urakami/Uragami）玉堂、1814年、紙本墨画掛軸。別所蔵・類似名作品と混同しない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metは老人と七絃琴を背負う従者が知人へ向かう画面、49歳で岡山池田家の武士を離れた玉堂の後年の活動を解説。琴による訪問の具体的目的や作者の気持ちは不明。"
+      },
+      {
+        "area": "emotion",
+        "finding": "補助『期待』1は知人へ向かう物語の弱い可能性、補助『安心』1は静かな道程の接点に限定。公式が人物の感情や作者の心理を証明するとはしない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語7段落の人物配置、七絃琴・岡山藩士・水墨の筆法はMetの記述に沿う。日本語表現は英文の長い逐語翻訳や転載ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "92f4087a03935dfea4a2e13f1c7c53e120f65d73cc71083fa1056119509845ac",
+    "visitor_draft_sha256": "efede43afac3ca85630a2b6eeff288417cce30c261bbccb715fc60dcdfc4526e",
+    "proposal_sha256": "50de948d3c55bd823c76cf5b8a46ad3656eac932dc886b2cdaaa953cffca41c6",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "draft_matches_catalog",
+      "record_hash",
+      "historical_image_hash_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象ID・同一版・既存本文・画像ハッシュ・感情・対象外299件をJSで検査。PythonスクリプトとCIの実行結果はPR後に確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-53460.json",
+    "sha256": "50de948d3c55bd823c76cf5b8a46ad3656eac932dc886b2cdaaa953cffca41c6",
+    "proposed_artwork_sha256": "92f4087a03935dfea4a2e13f1c7c53e120f65d73cc71083fa1056119509845ac",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Public domain and OA images",
+      "CC0 and any third-party rights",
+      "Museum text separate from OA images"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公式OA画像のCC0と学芸員解説本文の権利を区別。日本語案内は独自の要約と画面観察で長文逐語訳を避けている。非侵害を法的に保証しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存日本語本文・感情・選定資料・画像は修正せず、版固定の検証証拠とcompletionのみ追加。",
+    "原JPEGの2026-10-19/20旧測定を新規実測とは扱わない。",
+    "GitHub Actions成功・main統合後のみ63完成に算入。"
+  ]
+}
