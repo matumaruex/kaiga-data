@@ -1,0 +1,157 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437035",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "b1b942d0f96ee25a0f03e204ad894bb3538de63a",
+    "artwork_record_sha256": "cddd8af3ee2deaf8ca62200e2b46b980c2f7b2811d8adfbc9d28931c952d15de",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437035.json",
+    "draft_sha256": "c9804b9047ddd154ebacd9e5d2567941a4f48b7f92a532757cca0cedf9ebc8e8"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437035",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: Christ on lap of Virgin, John the Evangelist, Three Marys, grief and tears",
+        "Overview: one ensemble with a Resurrection painting, formerly in Rijksmuseum",
+        "Artwork Details: Workshop of Master of the Virgin among Virgins, oil on wood, 26.26, no year of execution, Public Domain"
+      ],
+      "observed": "Met公式の個別作品概要を検索結果とページ本文の二工程で確認。作者の工房帰属と匿名画家本人を区別し、年は公式作品データにないものとした。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Lamentation_MET_ep26.26.bw.R.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Accession 26.26",
+        "Met object ID 437035",
+        "Met donated CC0 image, original size 2374 x 4000"
+      ],
+      "observed": "同一Met所蔵26.26の公開画像台帳、CC0、原図版寸法および作品名を確認。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Open Access images and CC0",
+        "Public domain and other rights",
+        "OA pictures distinct from museum explanatory text"
+      ],
+      "observed": "公開画像はOA/CC0扱い、館の解説文は別の権利評価として確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437035",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-23271-001.jpg",
+      "status": 200,
+      "sha256": "3dc08b2a1e941c85a8c0f884aa34e49a7bea09d5fcaf9a5da6cb164b1e57bc58",
+      "byte_length": 4016471,
+      "width": 2374,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "docs/met-original-image-audit.jsonの同作品番号の原画像寸法照合、および2026-10-20の全量SHA実測を継承。今回新規全量ダウンロードなし。"
+    },
+    {
+      "id": "met-437035",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23271-001.jpg",
+      "status": 200,
+      "sha256": "78c649640c0c47891ba01ba06516757d68795d8722736a4bb2c90260c3d4f232",
+      "byte_length": 118940,
+      "width": 370,
+      "height": 623,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "docs/image-dimensions-audit.jsonで118940バイト・370×623・SHA一致を2026-10-20実測。今回の画像再取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式IIIF作品ID437035の部分画像をWeb画像検索で視認、Met寄贈Commonsの同所蔵番号26.26の画像メタデータと照合。画像ハッシュそのものは旧実測を再利用。",
+    "observed": "縦長の板絵。上部には岩山・樹木・小人物を置く遠景、手前に異なる装束の嘆く人物たち。左側の男性、頭を覆う女性と華やかな被り物の女性たちが接近している。下方のキリスト遺体と聖母の構図はMet公式本文に記載されるため、今回見えた画像領域だけの視認と区別する。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初回のMet原文確認後、別工程で工房帰属と制作年の空欄を再点検し、Met IIIF部分画像・Commons同一作品番号・旧画像台帳、感情語と新規本文の事実を照合。",
+    "limitations": "同一AIの別工程で別AI/第三者審査ではない。今回視認できた公式画像は上半分の領域が中心で、下方の人物や遺体は公式説明に基づく。原・表示JPEGの全量SHAは2026-10-20の再利用で今回未取得。",
+    "reviewed_artwork_sha256": "cddd8af3ee2deaf8ca62200e2b46b980c2f7b2811d8adfbc9d28931c952d15de",
+    "reviewed_visitor_draft_sha256": "c9804b9047ddd154ebacd9e5d2567941a4f48b7f92a532757cca0cedf9ebc8e8",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 437035／26.26。現在の帰属は『聖母を囲む乙女たちの画家』の工房、板に油彩、制作年の記載はない。匿名画家本人の直筆だと断定しない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "キリストの遺体の哀悼場面と、現在別所蔵の《復活》と対だった大型組作品。『永遠の命への希望』はキリスト教の図像解釈で実在の人物の感情とは区別。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『喪失感』2、『悲しみ』3は涙を浮かべる画中人物、キリストの死、宗教的に喪失に向き合う主題に対応。作者本人の死別経験ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "新規4段落は公式の事実を日本語で独自に整理。工房帰属・対になる復活図・見る人への感情を過度に断定せず、長文逐語訳・転載を避ける。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "cddd8af3ee2deaf8ca62200e2b46b980c2f7b2811d8adfbc9d28931c952d15de",
+    "visitor_draft_sha256": "c9804b9047ddd154ebacd9e5d2567941a4f48b7f92a532757cca0cedf9ebc8e8",
+    "proposal_sha256": "dcc41e7286e2a56b5950278996787ddf0b0b5eb8dcdde24426e5b8f6d872e1f9",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "new_visitor_prose_checked",
+      "canonical_hash",
+      "historic_original_and_display_sha_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JavaScriptで対象ID・版・候補下書き・対象外不変・各ファイルSHAを検査。Python構造とCIはPR後に確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437035.json",
+    "sha256": "dcc41e7286e2a56b5950278996787ddf0b0b5eb8dcdde24426e5b8f6d872e1f9",
+    "proposed_artwork_sha256": "cddd8af3ee2deaf8ca62200e2b46b980c2f7b2811d8adfbc9d28931c952d15de",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "OA image reuse",
+      "CC0 Met donated Commons",
+      "Art text copyright distinction"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "所蔵作品のPublic DomainとMet OA/CC0作品図版が確認でき、今回の日本語解説は館原文の大量転載を含まない独自文。非侵害を法的に保証しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "初めての日本語鑑賞解説4段落を作成。工房帰属を特に強調。",
+    "下絵本体SHAの旧記録と今回Web画像視認の限界を区別。",
+    "CI成功・main統合後に68完成。"
+  ]
+}
