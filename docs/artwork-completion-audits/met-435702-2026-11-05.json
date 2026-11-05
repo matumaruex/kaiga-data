@@ -10,7 +10,7 @@
     "artwork_record_sha256": "535bfb32c12d4eeea6174fa28c2c8cbc3fb8b8d1a765a6333a87ff8e2279fd6a",
     "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
     "draft_path": "drafts/visitor-explanations/met-435702.json",
-    "draft_sha256": "0d8bec877961e3e7b76bae6ad3f8ebe4926813b4f385636a0f460374e91a47ac"
+    "draft_sha256": "39566f702d22c07d9b88e9fbf338a56320225a4d8be3072209a2d1d5e34612fb"
   },
   "sources": [
     {
@@ -86,7 +86,7 @@
     "method": "同じ作品へのMet解説・Audio6004、同所蔵Commons画像とCC0記載、Met利用規約を別々に再確認。既存日本語本文・主0補助『喜び』1という感情索引と絵の動勢を突き合わせた。",
     "limitations": "同一AIが同じ会話で行った別工程で、別AI・第三者の独立監査ではない。JPEG SHAは2026-10-19/20の旧記録からの継承であり、今回の全量再取得ではない。著作権上の非侵害は保証しない。",
     "reviewed_artwork_sha256": "535bfb32c12d4eeea6174fa28c2c8cbc3fb8b8d1a765a6333a87ff8e2279fd6a",
-    "reviewed_visitor_draft_sha256": "0d8bec877961e3e7b76bae6ad3f8ebe4926813b4f385636a0f460374e91a47ac",
+    "reviewed_visitor_draft_sha256": "39566f702d22c07d9b88e9fbf338a56320225a4d8be3072209a2d1d5e34612fb",
     "checks": [
       {
         "area": "identity",
@@ -109,8 +109,8 @@
   "program_checks": {
     "result": "PASS",
     "proposed_artwork_sha256": "535bfb32c12d4eeea6174fa28c2c8cbc3fb8b8d1a765a6333a87ff8e2279fd6a",
-    "visitor_draft_sha256": "0d8bec877961e3e7b76bae6ad3f8ebe4926813b4f385636a0f460374e91a47ac",
-    "proposal_sha256": "472ade24daceb5c946496126d4aaf080686805fd5459e92dce8d0d8746e8c0ec",
+    "visitor_draft_sha256": "39566f702d22c07d9b88e9fbf338a56320225a4d8be3072209a2d1d5e34612fb",
+    "proposal_sha256": "641280a944d833a73dbd684245541e30ec79ef52cf5cc7f7f75ee1749689291a",
     "checks": [
       "baseline_artwork_sha256",
       "existing_visitor_equals_reviewed_draft",
@@ -127,7 +127,7 @@
   },
   "proposal": {
     "path": "drafts/artwork-revisions/met-435702.json",
-    "sha256": "472ade24daceb5c946496126d4aaf080686805fd5459e92dce8d0d8746e8c0ec",
+    "sha256": "641280a944d833a73dbd684245541e30ec79ef52cf5cc7f7f75ee1749689291a",
     "proposed_artwork_sha256": "535bfb32c12d4eeea6174fa28c2c8cbc3fb8b8d1a765a6333a87ff8e2279fd6a",
     "applied_to_catalog": false
   },
