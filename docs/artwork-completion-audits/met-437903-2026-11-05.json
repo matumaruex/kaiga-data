@@ -1,0 +1,165 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437903",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "7a9d55c8f5c8b93586a47b886fce289341ce933f",
+    "artwork_record_sha256": "f3590d335543c178b7781c7e3e4c5ec4d839b52ddda37f04a27504877df2b4f0",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437903.json",
+    "draft_sha256": "d00fb25ae8cd211805eb0cfe23803632a259126ee46d0cafa21232d982d5a19a"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437903",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: 1801 Salon exhibition under artist's name, David misattribution until the 1950s; broken windowpane and distant couple",
+        "Audio: Kathryn Calley Galitz and Katy Hessel on 1917 acquisition, Margaret Oppenheimer research 1996; sitter thought to be Charlotte Val d'Ognes",
+        "Artwork Details: Marie Denise Villers, 1801, oil on canvas, 17.120.204, Public Domain"
+      ],
+      "observed": "Metの個別解説と音声書き起こしで作者・1801年サロン・誤帰属と再認定、割れた窓、人物同定の推定性を確認。2026-11-05に先行PR #53で過度の断定を修正済み。"
+    },
+    {
+      "url": "https://www.metmuseum.org/ja/perspectives/great-women-artists",
+      "access": "page_read_once",
+      "locations": [
+        "Close Look: in 1801 Villers exhibited a portrait of a young artist; drawing portfolio and porte-crayon",
+        "Close Look: backlighting and broken window with distant pair; Salon opened to female artists"
+      ],
+      "observed": "Metの別記事で描画道具、ガラスの割れと窓の外の二人を補助照合し、学芸員の『perhaps』を制作意図の確証として扱わない。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Marie_Jos%C3%A9phine_Charlotte_du_Val_d%27Ognes_%28died_1868%29_MET_DP-416-001.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met ID437903 / 17.120.204, original image 3098x3872 DP-416-001",
+        "Met donation and CC0 1.0, source linked to Met 437903"
+      ],
+      "observed": "公式同作品の画像名・所蔵番号・解像度とMet寄贈のCC0条件を照合。旧JPEGハッシュと今回の視覚的照合は区別する。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) Open Access CC0 images",
+        "3(b) non-OA museum text"
+      ],
+      "observed": "Open Access画像と学芸員の解説文章の権利を区別して確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437903",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-416-001.jpg",
+      "status": 200,
+      "sha256": "456a948c4a2816a2218eda8bcaa02dbe2fc45556b2a4312c712daa9ee1efe2fb",
+      "byte_length": 2784397,
+      "width": 3098,
+      "height": 3872,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "登録台帳が保有する2026-10-20の原JPEG全バイトSHAと縮小画像との同一性の旧記録を継承。今回再ダウンロードはしていない。"
+    },
+    {
+      "id": "met-437903",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-416-001.jpg",
+      "status": 200,
+      "sha256": "aa0ab40c399e39bd3e0a3ae9c9bc6d3a28f8be90437b7dd4c152134d6e789f9d",
+      "byte_length": 92193,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19のMet縮小JPEG全バイトSHAとバイト長の旧検証結果を継承。今回の目視とは別の既存証拠。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met ID437903の作品画像とMetから寄贈されたCommonsの同所蔵番号DP-416-001全景を比較。",
+    "observed": "窓からの光を背にした若い女性が白いドレスで腰掛け、素描用の画板を支え、顔をこちらに向ける。左の大きな窓は一部ガラスが割れ、遠くに二人の人物が立つ。画中の特定人物同定は作品画像だけでは確証が得られない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "登録版45完成とヴィレールの旧説明をまず点検。Met作品ページ・音声・Close Lookと同所蔵Commons図版・Metの利用条件を別工程で検討。モデル名の断定を先行PR #53で推定表現へ修正し、そのmainに記録済みの本文を草稿で固定して改めて照合。",
+    "limitations": "同一AIによる同じ会話内の別パス検証であり別AI・第三者の独立審査ではない。原JPEGの完全バイトSHAの2026-10-19/20旧記録は今回再測定していない。非侵害の法的保証ではない。",
+    "reviewed_artwork_sha256": "f3590d335543c178b7781c7e3e4c5ec4d839b52ddda37f04a27504877df2b4f0",
+    "reviewed_visitor_draft_sha256": "d00fb25ae8cd211805eb0cfe23803632a259126ee46d0cafa21232d982d5a19a",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Marie Denise Villers、1801年、Met ID437903／17.120.204、DP-416-001油彩画。モデルはシャルロットと考えられるが館の音声は推定表現なので日本語本文も留保。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1801年本人名でサロンに出品、のちにジャック＝ルイ・ダヴィッドに誤帰属され1950年代まで続いた。1996年のOppenheimerによる再認定はMet音声の情報であり、作者自身の発言ではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『好奇心』2は割れた窓と遠くの二人の人物という不明な描画上の問い、補助『希望』1は女性の公的芸術発表が拡大した社会史と後世の帰属見直しの弱い入口。人物や作家の心理を診断しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "先行PR #53でモデルの同定を留保した既存日本語7段落は、Met作品情報と音声で確認した事実・解釈を独自の短い日本語で説明し、学芸員英文の長文逐語訳を行わない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "f3590d335543c178b7781c7e3e4c5ec4d839b52ddda37f04a27504877df2b4f0",
+    "visitor_draft_sha256": "d00fb25ae8cd211805eb0cfe23803632a259126ee46d0cafa21232d982d5a19a",
+    "proposal_sha256": "44fa8fe5fc42e649446c21249160d9a8c23516cc8b741ce9c69bbbe859d5b7aa",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "先行PR #53統合後の正本をbaselineにし、対象の本文と新草稿が完全一致・旧画像登録値一致・対象以外299件不変でcompletion以外の変更なしとする。Python登録ガード・GitHub ActionsのPASSは実際の実行結果を別途確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437903.json",
+    "sha256": "44fa8fe5fc42e649446c21249160d9a8c23516cc8b741ce9c69bbbe859d5b7aa",
+    "proposed_artwork_sha256": "f3590d335543c178b7781c7e3e4c5ec4d839b52ddda37f04a27504877df2b4f0",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access CC0 images",
+      "3(b) non-OA Museum prose"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公式と同作品Commons寄贈図版はPublic Domain/CC0。Metが執筆した作品解説・Audioは画像と別の権利であり、既存日本語は事実の要約・独立説明として構成、英語の長文翻訳転載はしない。法的非侵害は保証しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "先行PR #53がモデル同定を留保。完成審査では鑑賞本文・感情・画像は不変更。",
+    "旧2026-10-19/20 JPEG SHA実測記録と今回Met/Commonsで画像を照合した工程を区別。",
+    "CI・main統合後のみ正式46/300。"
+  ]
+}
