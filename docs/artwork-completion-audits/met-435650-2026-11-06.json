@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435650",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "a09cf3e5fc3cbdecb336a421125e8506b4f0cafa",
+    "artwork_record_sha256": "d7e3140b74aa721d441824d0c9171ea9363d774e975628c0b25f6a1449aedbd6",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435650.json",
+    "draft_sha256": "7aa69946ef32f01d34c9b058e3435aecbe87cf37f2c27038482d1d3be1dc1de1"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435650",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: Benoist rather than David, women's access to the Salon, likely Salon of 1802",
+        "Overview: sitter's marriage in 1799 and Réunion sugar/coffee plantations supported by enslaved labor through 1848",
+        "Artwork Details: Marie Guillemine Benoist, 1802, oil on canvas, Met 53.61.4, Public Domain"
+      ],
+      "observed": "Met公式個別作品で人物・作者の帰属、女性画家の活動と1802年サロン、レユニオン島のプランテーションと奴隷制、所蔵・媒体を直接確認。学説と断定の強さを保つ。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "OA and public-domain images",
+        "CC0 and third-party rights",
+        "Museum curatorial text is not automatically CC0"
+      ],
+      "observed": "MetのOpen Access画像利用と学芸員解説文の扱いを区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435650",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-13442-001.jpg",
+      "status": 200,
+      "sha256": "69d02a01b480041ad48e9b920e7a9f97899cd16ed9699ff20f6a907f0f65f550",
+      "byte_length": 4164826,
+      "width": 3106,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "高解像度原JPEG 2026-10-20の登録SHA/寸法実測を再利用。docs/met-original-image-audit.jsonでは同URLの寸法と元画像同定が一致。今回のJPEGダウンロードではない。"
+    },
+    {
+      "id": "met-435650",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13442-001.jpg",
+      "status": 200,
+      "sha256": "e7702de388c6583db6c3bc40663d2a29996741d2b863600059d867796d4d472e",
+      "byte_length": 101700,
+      "width": 485,
+      "height": 625,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "docs/image-dimensions-audit.jsonの登録表示JPEG実測（101700バイト、485×625、SHA一致）を継承。新規SHA取得ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met所蔵作品番号53.61.4の公式図版を視認し、公式概要・登録画像台帳と構図を照合。",
+    "observed": "暗い背景の中、白い高腰ドレスの女性が腰かけ、幼い男児を腕と膝の近くに引き寄せる肖像。赤い背もたれの椅子と繊細な衣服、金の額縁が見える。母子の感情や画家の政治観を画面だけで決めつけない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "館公式作品説明の主張を本文と突き合わせた後、Metの帰属と植民地史の記述、作品画像の視覚内容、感情タグ0件の妥当性を分けて再照合。",
+    "limitations": "同一AIによる別工程で独立した別AI/第三者審査ではない。原画像と表示JPEGのSHAは2026-10-20の記録再利用で、新規全量ダウンロードなし。Metの公式記載を超える思想や私的感情を評価しない。",
+    "reviewed_artwork_sha256": "d7e3140b74aa721d441824d0c9171ea9363d774e975628c0b25f6a1449aedbd6",
+    "reviewed_visitor_draft_sha256": "7aa69946ef32f01d34c9b058e3435aecbe87cf37f2c27038482d1d3be1dc1de1",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Marie Guillemine Benoist, 1802, Met 53.61.4。旧帰属Jacques-Louis Davidと区別。息子Eugèneを娘としていた旧記録と混同しない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1802年サロンへの出品はprobablyという館の表現を日本語でも可能性に留める。家族の富とレユニオン島奴隷労働の関係を隠さない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "肖像の表情や構図だけから私的感情・画家の意図を特定できないため、主・補助感情とも0件を保持。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存9段落の説明はMetの概要を日本語で独自に構成し、女性画家・奴隷制を分けて説明。学芸員原文の長文翻訳・転載に該当する近接した文章ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "d7e3140b74aa721d441824d0c9171ea9363d774e975628c0b25f6a1449aedbd6",
+    "visitor_draft_sha256": "7aa69946ef32f01d34c9b058e3435aecbe87cf37f2c27038482d1d3be1dc1de1",
+    "proposal_sha256": "0bdea22f87184331084763a82fd229ea74920e21536876b821de3dc567de5822",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "draft_matches_catalog",
+      "record_hash",
+      "historical_original_and_display_sha_reused",
+      "emotion_categories_empty"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JSによるハッシュ/構造/既存文の一致/対象外299件の不変更を確認。Python既存プログラムとCIの実行はPR後に確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435650.json",
+    "sha256": "0bdea22f87184331084763a82fd229ea74920e21536876b821de3dc567de5822",
+    "proposed_artwork_sha256": "d7e3140b74aa721d441824d0c9171ea9363d774e975628c0b25f6a1449aedbd6",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Public domain Met artwork image",
+      "Open Access CC0",
+      "Other rights and museum commentary distinct"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公式のPublic Domain画像利用と原文解説の権利を別扱いし、日本語文は独自に構成。非侵害を法的に保証しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存日本語本文・感情タグ0件・画像・選定資料は変更なし。",
+    "Met公式原図版の視認と旧登録JPEG SHA実測を区別。",
+    "CI成功・main統合後のみ65完成に算入。"
+  ]
+}
