@@ -1,0 +1,165 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-44702",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "cd4f0d366b44956b1248aacc6dd85567d70f2a1d",
+    "artwork_record_sha256": "225e9bf60ee65a9a0130af798b086f6f9151417757dd5c5d7ebc44fa60454b5c",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-44702.json",
+    "draft_sha256": "da07ff4dda4fa298045871a7554f598b59146398547c8bffcd6f1a93f3f45ea4"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/44702",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: about 1361, poet Chen Ruzhi 1329–1385 escaped uprisings near Lushan to the Hangzhou area, rustic seclusion near Yellow Crane Mountain",
+        "Overview: Wang Meng's own six-line poem on wind in empty grove, lonely thatched pavilion at noonday, cool breeze, summer heat, mountain rain",
+        "Artwork Details: late 1350s in catalogue; Wang Meng; fan mounted as album leaf; ink on silk; object number 1991.438.2; Public Domain"
+      ],
+      "observed": "Met公式作品ページの説明と詩・作品情報を照合。ページ内で年代表記がlate 1350s／about 1361の二通りであることを確認し、既存日本語本文は特定年の断定をしない。"
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Sparse_Trees_and_Pavilion_Fan_Painting_by_Wang_Meng_The_Metropolitan_Museum_Journal_v_45_2010.pdf",
+      "access": "pdf_text_and_first_page_screenshot",
+      "locations": [
+        "Metropolitan Museum Journal 45 (2010), Birgitta Augustin, pp. 83-90; p.83 poem and Three Perfections",
+        "pp.85-86: one robed figure on pavilion's far right, picture and poem interdependence, virtually deserted rather than literally empty",
+        "pp.86-87: Wang Meng's lonely mood and Chen Ruzhi/Weiyin association, about 1361 as a plausible date; possible nostalgia or anticipation"
+      ],
+      "observed": "2010年Met刊行の作品単独論考を直接開き、1ページ目のPDFスクリーンショットも目視。詩に『孤独』があるが亭の実画像には小さな人物があり、作者の個人的内心の解釈は研究者の推定であると区別。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Wang_Meng_-_Sparse_trees_and_pavilion_-_1991.438.2_-_Metropolitan_Museum_of_Art.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "The Met object ID 44702, accession 1991.438.2, image size 1887 × 1666, CC0 / Public Domain"
+      ],
+      "observed": "Commonsの同じ所蔵番号に登録された既存画像と、データ登録原JPEG寸法・作品名の同定を補助確認。今回の実バイトSHA計算ではない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) OA/CC0 image",
+        "3(b) non-OA text"
+      ],
+      "observed": "画像のOA権利と学芸員の研究本文の権利を分離。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-44702",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP160429.jpg",
+      "status": 200,
+      "sha256": "f862f7c2ed1fae7c85e80630baba8fdc47023b4c652d67f96cfc290f66c9d374",
+      "byte_length": 2425404,
+      "width": 1887,
+      "height": 1666,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet原JPEGの全バイトSHA256と縮小同一性の記録を既存台帳から引き継ぐ。今回新しいバイト検査をしたものではない。"
+    },
+    {
+      "id": "met-44702",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP160429.jpg",
+      "status": 200,
+      "sha256": "ce6678ad388cf40d9a82ee7dce83262c4be454364d0785c8e9ce61a166572748",
+      "byte_length": 328718,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18のMet primaryImageSmall HTTP/JPEG/SHA台帳を継承。今回のWeb画像表示は別の根拠。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式44702に埋め込まれたIIIF図版collectionapi.metmuseum.org/api/collection/v1/iiif/44702/153349/main-imageを今回直接表示し、2010年Met論文と同一作品の図版・所蔵番号1991.438.2を照合。古いJPEGのバイト値を現在再計算したとは主張しない。",
+    "observed": "丸い扇面を画帖に貼った作品。暗褐色に変色した絹上に墨の林が画面中央左で高く伸び、右下には茅葺きの小亭とごく小さな人物一人、右縁に作者の縦書きの詩、両側に印章がある。亭は無人とは断定しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "先にmain登録作品と既存日本語本文・審査草稿を確認し、別パスでMet作品ページの作者詩・避難背景を照合。Met公式図版を直接表示し、同館の詳細論文で扇面の小人物・詩画関係・年代推定と既存説明の限界を点検。さらにCommons画像の所蔵番号と権利規約を確認。",
+    "limitations": "同じAIが同一会話内に別工程で行った審査。別AI／第三者の監査ではない。PDFは冒頭画面をスクリーンショットで視認、記事のテキストも参照。実画像のJPEG全バイトSHAは2026-10-18/20の台帳を再利用。研究上の年代推定は確定年を意味しない。",
+    "reviewed_artwork_sha256": "225e9bf60ee65a9a0130af798b086f6f9151417757dd5c5d7ebc44fa60454b5c",
+    "reviewed_visitor_draft_sha256": "da07ff4dda4fa298045871a7554f598b59146398547c8bffcd6f1a93f3f45ea4",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 44702、所蔵1991.438.2、王蒙、元代末・扇面画帖貼付、絹本墨画。所蔵館は制作年の欄をlate 1350s、説明ではabout 1361と併記。日本語本文はそのいずれにも特定年を断定しない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metの詩人陳汝直への贈呈と動乱避難の背景は既存本文に対応。王蒙本人の詩の夏の風・孤独な亭・山雨は事実として区別。Met論文の詳細分析では人物が一人亭にいるが『virtually deserted』。『空の林』の詩的表現と建物の無人を取り違えない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『寂しさ』強度2は王蒙が詠む孤独な亭と離郷した詩人の境遇の具体的な入口。補助『孤独』1は少人数の亭・避難生活への弱い連想。涼風の快さもあり、絶望や作者の強い苦痛を確定させない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "現日本語2段落はMet所蔵館解説の事実を作者本人の詩と区別して自然な日本語で独自に組み直したもの。詩を全文逐語翻訳・長文転載せず、ごく短い詩的場面を要約。著作権のある研究論文本文を転用していない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "225e9bf60ee65a9a0130af798b086f6f9151417757dd5c5d7ebc44fa60454b5c",
+    "visitor_draft_sha256": "da07ff4dda4fa298045871a7554f598b59146398547c8bffcd6f1a93f3f45ea4",
+    "proposal_sha256": "8ec414f6a8302dfdbf218128966e02d5c51524606ecf0b2d45a9417cc8a9e346",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "作品の現行レコードSHA、既存草稿完全一致と登録画像の旧証拠を事前照合。実際の既存Python validate/preview/save/checkとCIはGitHub Actionsの対象版成功を別途確認してmainに統合し、完了数はその後増やす。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-44702.json",
+    "sha256": "8ec414f6a8302dfdbf218128966e02d5c51524606ecf0b2d45a9417cc8a9e346",
+    "proposed_artwork_sha256": "225e9bf60ee65a9a0130af798b086f6f9151417757dd5c5d7ebc44fa60454b5c",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access / CC0 images",
+      "3(b) non-OA Museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "公式作品ページのPublic Domain表示・同作品CommonsのCC0画像表記を確認。Met論文や館の解説本文の著作権は画像に連動して消えない。既存日本語は研究事実と詩の情景を自らの短文で再構成しており長文の英語転載・逐語翻訳を行っていない。法律上の非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "本文・検索用資料・画像登録値は維持。公式サイトの年代欄とOverviewの年推定差異は監査内に記録。",
+    "画面には小さな人物がいるため『無人の亭』とは解釈しない。",
+    "GitHub CI・mainマージ後だけ正式完成37/300。"
+  ]
+}
