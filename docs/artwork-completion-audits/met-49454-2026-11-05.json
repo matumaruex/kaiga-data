@@ -1,0 +1,155 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-49454",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "0c502895d8d01bcc41d5e96c31f78927c6313508",
+    "artwork_record_sha256": "747b9112cb56534255792ae4874e0ba145fd67c96df101e497c81b94457a7990",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-49454.json",
+    "draft_sha256": "8eadade6ebd8d481362c36149d5b5d9dd4d7528f2eca0173006c1f16f73dd7b6"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/49454",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: Hu Yuan's fan inscription, rains cease, maple forest bright in sunset",
+        "Overview: deserted mountain, a lonely man refreshed by the spring run; poem translation is credited to Ellsworth et al.",
+        "Artwork Details: Hu Yuan (1823–1886), dated 1885, folding fan mounted as album leaf, ink and color on alum paper, 1986.267.31, Public Domain"
+      ],
+      "observed": "Met公式の個別画賛の英訳と作品情報を確認。英訳は男をlonely manとし、特定の旅人だとは明記しない。また詩の人物が画面に実際にいるという断定も見つからない。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:%E6%B8%85_%E8%83%A1%E9%81%A0_%E5%B1%B1%E6%B0%B4_%E6%89%87%E9%9D%A2-Landscape_MET_DP161403.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met accession 1986.267.31, object ID 49454, official DP161403, dimensions 4000×2351 and CC0"
+      ],
+      "observed": "同一Met所蔵番号・同画像名に紐づく再配布先の作品ID、画角、画像利用条件を補助照合。登録JPEGの現バイトは再測定せず。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) Open Access / CC0 images",
+        "3(b) non-OA Museum text"
+      ],
+      "observed": "作品画像のOAとMet学芸員の英語解説・他者による詩の現代訳の文章権利を別として評価。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-49454",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP161403.jpg",
+      "status": 200,
+      "sha256": "e3281974971481135579cbddc31a0b9ebb36004fec5aa3622a34696997445ae5",
+      "byte_length": 1898516,
+      "width": 4000,
+      "height": 2351,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet原JPEG完全バイト実SHA256・画像寸法・縮小一致検証を再利用。今回は原JPEGを取り直していない。"
+    },
+    {
+      "id": "met-49454",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP161403.jpg",
+      "status": 200,
+      "sha256": "0b39d2ddc007e1caec19dd2b12b23573e30d95e962f4fdcda5b047b003608ef3",
+      "byte_length": 53597,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18のMet API primaryImageSmallのHTTP/JPEG/SHA実測台帳を再利用。Web画像目視と別証拠。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met 49454 の作品ページに対応した公式原図版（images.metmuseum.org/CRDImages/as/original/DP161403.jpg）を画像検索結果で確認。公式登録図版は扇面であること、同名のMet 49455（別所蔵1986.267.32／画像DP161404）とは異なることを所蔵番号とURLで照合。",
+    "observed": "扇形の画面に淡い墨色の山並みと赤みを帯びた葉の木々、上部に漢字の題詩・朱印。中央付近に樹木が点在する。人が泉に触れる行為を図像として確証できず、詩の人物の情景をそのまま視覚要素と記述しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "DBの事実、カタログ画像、鑑賞日本語本文と既存草稿を先に検査後、別工程でMet公式詩の英訳の主語・『lonely man』と登録公式図版を直接照合。Commonsの同所蔵画像情報、OA画像と館の文章・翻訳権利を確認。元の意味資料2箇所の過剰断定だけを修正案として検証した。",
+    "limitations": "同一AIの同一会話内の別パスで別AI・第三者の独立監査ではない。原JPEGバイトSHAは2026-10-18/20の旧記録を継承し、今回再取得していない。『描かれていない』と断定するのではなく『画像からは同定できない』と限定した。法律上の保証ではない。",
+    "reviewed_artwork_sha256": "f4caef420a3e8dcad90d7ebeed290667b3d09f101e6aa9f16236cd57f46b7245",
+    "reviewed_visitor_draft_sha256": "8eadade6ebd8d481362c36149d5b5d9dd4d7528f2eca0173006c1f16f73dd7b6",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met ID49454、1986.267.31、Hu Yuan、中国清代、1885年、折り扇・礬水引き紙に墨彩。Met 49455の似た山水画と画像IDを混同しない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met公式の画賛は雨上がり・楓林・夕日・人けのない山・孤独な男が泉で元気を取り戻すことを語る。物語の主人公は旅人と特定されないためcreation_contextを限定改稿。visual_cluesは画中に男性が確実に描かれていると断言しない表現へ修正。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『孤独』2は画賛に出るlonely manと人気のない山、主『安心』2はrefreshed by the spring runに基づく。資料の単語lonelyを苦痛・悲嘆と同一視しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語2段落はMetの作者画賛を再構成した短い説明で、現実の作者の個人経験や絵中に人物がいると断定していない。館の短い詩の全文逐語訳・無断転記は避け、画面・制作年の説明と要旨を自然な日本語で整理している。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "f4caef420a3e8dcad90d7ebeed290667b3d09f101e6aa9f16236cd57f46b7245",
+    "visitor_draft_sha256": "8eadade6ebd8d481362c36149d5b5d9dd4d7528f2eca0173006c1f16f73dd7b6",
+    "proposal_sha256": "fa12af3e79d429f18ebe0c2ffa245893a244a354e6481a5ba9737272c6d6f03d",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "reviewed_curation_revision",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "登録前の作品バージョン、2箇所のbefore値、after適用後レコード・草稿・旧画像SHA・300件一意性を照合。GitHub Actionsの対象版の実際の検証成功とmain統合を見て初めて正式完成加算。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-49454.json",
+    "sha256": "fa12af3e79d429f18ebe0c2ffa245893a244a354e6481a5ba9737272c6d6f03d",
+    "proposed_artwork_sha256": "f4caef420a3e8dcad90d7ebeed290667b3d09f101e6aa9f16236cd57f46b7245",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA/CC0 images",
+      "3(b) non-OA Museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公式画像はPublic Domain・同所蔵Commons画像もCC0。館の解説とEllsworthらの詩の英訳は作品画像のCC0とは別。既存日本語の独自の要約にとどめ、詩全文の逐語訳・長文転載はしない。法的非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "作品全体の実質的な新規修正はcuration.meaning_basis.visual_cluesとcreation_contextの二箇所のみ。鑑賞本文は変えない。",
+    "公式図版を視認し、原JPEGの2026-10-18/20旧SHA検査は今回再実行していない。",
+    "このPRのCI SUCCESS・main統合後だけ完成38/300。"
+  ]
+}
