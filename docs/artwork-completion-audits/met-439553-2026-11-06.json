@@ -1,0 +1,156 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-439553",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "3bd5d8b2d8069512a8fef6fb63ca812ec54c14c5",
+    "artwork_record_sha256": "0e97a130499d0a19de1cb6d38575d9523d33cfc2fc493698bbd623c03abd53f1",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-439553.json",
+    "draft_sha256": "93ef1e125d9761d09fcd00b7665f76ebcf914ddeb82629af2e8d90b6ef5e8677"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/439553",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: 1603, painted a year after moving from Bologna to Rome, pristine enamel-like finish and jewel-like depth of color",
+        "Overview: Annibale Carracci altarpiece for San Francesco a Ripa, adapted restrained grief, turbaned Joseph with urn",
+        "Artwork Details: Domenichino (Domenico Zampieri), oil on copper, Met 2008.72, Public Domain"
+      ],
+      "observed": "Met公式を検索と作品個別ページで再参照し、年代・材質・元構図と独自変更、抑制された悲嘆を照合。Metの絵画評価を画家の心理的経験と混同しない。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Lamentation_MET_DP159526.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Painting front DP159526 (not reverse DP159528)",
+        "Met 2008.72, CC0"
+      ],
+      "observed": "Met公開図版の表面と裏面の別写真を区別し、登録原画像URLと同じDP159526を照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Public Domain works",
+        "Open Access CC0 images",
+        "Museum text rights separated from image rights"
+      ],
+      "observed": "公開作品画像の利用条件と学芸員の原文解説文の複製権を分離。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-439553",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP159526.jpg",
+      "status": 200,
+      "sha256": "ac5d640c7e54b5195e7807f07d352a18c933307289e9fdfff6e87f3e0abb5891",
+      "byte_length": 2643886,
+      "width": 2844,
+      "height": 3815,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20原画像JPEG全量SHA実測とdocs/met-original-image-audit.jsonにある当該URL・元作品の寸法を継承。今回実体を再ダウンロードせず。"
+    },
+    {
+      "id": "met-439553",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP159526.jpg",
+      "status": 200,
+      "sha256": "b3651d78e6692e7e6ac965d5887bbdb5353449a221a439b9f8f09038e0197c3e",
+      "byte_length": 99700,
+      "width": 465,
+      "height": 624,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 docs/image-dimensions-audit.jsonにある登録表示JPEG実測、99700バイト・465x624・SHA一致を再利用。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met所蔵2008.72と一致するDomenichino《哀悼》の公開図版をWeb画像検索で視認し、Met公式解説・Commons DP159526の表面図版識別・登録旧画像台帳と照合。",
+    "observed": "左の大きな壺を持つターバンの老人、中央の青衣の聖母が膝に横たえるキリスト、右の鮮やかな赤・金の衣の女性、下方に小さな天使が確認できる。濃い背景と光を受ける人物、赤・金・青の明瞭な色面がある。旧JPEG全量SHAを今回測ったわけではない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "一度目のMet公式作品情報と既存日本語3段落・画像台帳・感情データの照合後、別工程で公式ページと公開図版の人物配置、師の構図と弟子の変更、館の悲嘆評価を再照合。",
+    "limitations": "同一AIによる別工程で別AI／第三者独立監査ではない。JPEG原・表示の全量SHAは2026-10-20既存計測を再利用し、本セッション新規取得なし。",
+    "reviewed_artwork_sha256": "0e97a130499d0a19de1cb6d38575d9523d33cfc2fc493698bbd623c03abd53f1",
+    "reviewed_visitor_draft_sha256": "93ef1e125d9761d09fcd00b7665f76ebcf914ddeb82629af2e8d90b6ef5e8677",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 439553／2008.72、Domenichino、1603、oil on copper。別作品の同題《哀悼》およびアンニーバレ・カラッチの祭壇画と区別。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "ローマ移住翌年の1603年、アンニーバレの祭壇画の構図を発展させ、ターバンと壺を持つヨセフを独自に加えた。宝石のような色とエナメル状の表面はMet評。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『喪失感』2・『悲しみ』3は死後のキリストと周囲の人々の抑制された嘆きが根拠。ドメニキーノ個人の喪失経験だとはしない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存3段落はMetの技法・文脈と図像を日本語で独自に組み立て、英語の長文逐語訳・転載に相当する構成にはなっていない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "0e97a130499d0a19de1cb6d38575d9523d33cfc2fc493698bbd623c03abd53f1",
+    "visitor_draft_sha256": "93ef1e125d9761d09fcd00b7665f76ebcf914ddeb82629af2e8d90b6ef5e8677",
+    "proposal_sha256": "d18ef0ff4ce38398f10e7a666b93ec6629a0726c03a06b42fce98665f526ca39",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_hash",
+      "historical_image_hashes_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JavaScriptで全300 ID・対象版・既存解説の同一性・他299件不変更・ファイルハッシュを確認。Python実装とActionsはPR時に検証。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-439553.json",
+    "sha256": "d18ef0ff4ce38398f10e7a666b93ec6629a0726c03a06b42fce98665f526ca39",
+    "proposed_artwork_sha256": "0e97a130499d0a19de1cb6d38575d9523d33cfc2fc493698bbd623c03abd53f1",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "OA/CC0 public-domain painting image",
+      "Museum text distinct from Open Access image",
+      "Met attribution and source evidence"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公式Public Domain作品図版のOA/CC0と、学芸員の英文解説の著作権を区別。既存日本語は独自の説明で長文逐語転載を避ける。法的な非侵害は保証しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存鑑賞者向け本文・画像・感情索引・選定資料を修正せず、監査とcompletionを追加。",
+    "2026-10-20の原/表示JPEG旧実測を継承し、今回の視認とは区別。",
+    "CI成功・main統合後のみ69完成。"
+  ]
+}
