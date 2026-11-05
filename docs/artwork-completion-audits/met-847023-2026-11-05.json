@@ -1,0 +1,168 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-847023",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "175765306f7dea32c2a64350b4f3fbd4984d6526",
+    "artwork_record_sha256": "a68962a71b51f576e2d1d7b68a1818738344a78506a9c24623508e45a7d49bf5",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-847023.json",
+    "draft_sha256": "e3f84a0f869365065197dc5d5b6e1b8b218334d02cb320f7113674250ea6be35"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/847023",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: commissioned study for the monumental version now Leeds Art Gallery",
+        "Overview: right Persephone supported by Hermes, blue cloak/red-winged hat, left Demeter opens arms, sprig of almond blossom",
+        "Artwork Details: 1890–91, oil on canvas, 26.2×20cm, 2021.10.1 and Public Domain"
+      ],
+      "observed": "Met公式説明を再参照。大型完成版と区別された油彩習作で、神々の位置・衣装・季節の表現を日本語本文と照合し、重要な齟齬はない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/ja/essays/mystery-cults-in-the-greek-and-roman-world",
+      "access": "page_read_once",
+      "locations": [
+        "Eleusinian mystery cults: the Homeric Hymn and Hades kidnapping Persephone",
+        "Demeter's distressed failure of crops, Zeus orders her return, pomegranate seeds and part of year underground"
+      ],
+      "observed": "日本語本文にある誘拐・不作・季節の神話背景は、Metの神話史解説と整合する。レイトン本人の信念や経験を意味しない。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Return_of_Persephone_-_MET_DP-21913-001.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met donation, accession 2021.10.1, Met ID 847023",
+        "Original file 3098×4000 DP-21913-001, oil painting 26.2×20cm",
+        "CC0 image license"
+      ],
+      "observed": "Metの同所蔵番号・資料画像DP-21913-001と一致する公開図版。大型完成作、他館の紙上習作と同一視しない。画像全バイトSHAは今回採取していない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) Open Access CC0 images",
+        "3(b) non-open access museum text"
+      ],
+      "observed": "作品画像のCC0と研究者・学芸員の解説文の権利を分離して確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-847023",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-21913-001.jpg",
+      "status": 200,
+      "sha256": "a7641d76fb82bbdebbe246f3393f4eced751b6b393a3a3c527e478f251a2ccb2",
+      "byte_length": 5844624,
+      "width": 3098,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "旧2026-10-20のMet原JPEG実測SHAとサイズを登録記録から継承。今回は全バイトを取得していない。"
+    },
+    {
+      "id": "met-847023",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-21913-001.jpg",
+      "status": 200,
+      "sha256": "96240b2b1f1778fce8c161b326df05cc309207375106e907dfb53586c026725a",
+      "byte_length": 139443,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "旧2026-10-19のMet縮小JPEG SHA記録を継承。今回の同所蔵Commons図版の視覚的同定とは別。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met ID847023と同所蔵番号2021.10.1のCommons画像DP-21913-001を対照。",
+    "observed": "縦長の画面で右のヘルメスがペルセポネを上方へ導き、左のデメテルが両腕を開いて迎える。衣装と背景はMetの解説と合い、画面は小型習作で、リーズの大型完成版とは区別。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Met作品解説の同定・図像・作品形態をあらためて確認し、別のMet神話論考で画家の作品解説にない神話背景を照合。Met由来のCommons同所蔵公開画像、利用規約、日本語本文・検索用感情タグも独立のチェック項目に分けて確認。",
+    "limitations": "同一AIの同じ会話中の別パスであり、別AI・第三者による独立監査ではない。原JPEGのハッシュは2026-10-19/20の旧実測の継承で、新取得ではない。法律上の非侵害保証はない。",
+    "reviewed_artwork_sha256": "a68962a71b51f576e2d1d7b68a1818738344a78506a9c24623508e45a7d49bf5",
+    "reviewed_visitor_draft_sha256": "e3f84a0f869365065197dc5d5b6e1b8b218334d02cb320f7113674250ea6be35",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Frederic, Lord Leighton, ca.1890–91, Met 2021.10.1／847023、油彩・26.2×20cm。完成版Leedsとは異なるMet所蔵の小さな習作。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met公式の再会・更新／アーモンドの花枝と、Met神話記事のハデスの誘拐・デメテルの不作・一年の一部の冥界滞在を別の主張として照合。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『喜び』『希望』2は母娘再会と季節更新、補助『喪失感』『慈しみ』1は再び離別を含む神話と母の受容する身振りの弱い入口。作者の実感を断定していない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語解説はギリシャ神話と当該Met習作の具体的図像を自分の表現で要約し、公式英文の長い逐語訳を避ける。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "a68962a71b51f576e2d1d7b68a1818738344a78506a9c24623508e45a7d49bf5",
+    "visitor_draft_sha256": "e3f84a0f869365065197dc5d5b6e1b8b218334d02cb320f7113674250ea6be35",
+    "proposal_sha256": "19680ee0b85d43eb0ae6e713be92d3d6207d638301f1d40e159a2c9177194778",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "旧画像証拠と対象レコード・新草稿の整合を計算した。GitHub Actions／Python登録ガードのPASSはPRで別途確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-847023.json",
+    "sha256": "19680ee0b85d43eb0ae6e713be92d3d6207d638301f1d40e159a2c9177194778",
+    "proposed_artwork_sha256": "a68962a71b51f576e2d1d7b68a1818738344a78506a9c24623508e45a7d49bf5",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access CC0 images",
+      "3(b) non-OA museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met個別ページのPublic Domain作品とMet寄贈Commons CC0公開画像の権利を研究者執筆の館解説文章と区別。既存日本語は館の事実・神話解説を独自に短くまとめ、長文転載や逐語翻訳をしない。法的非侵害の保証はできない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met所蔵の小さい油彩習作をLeeds大型完成版と区別。",
+    "既存の日本語解説・感情タグ・図版を維持。",
+    "原JPEG旧ハッシュと今回の視覚的照合は別。",
+    "同一AI別工程は別AI・人間監査ではない。",
+    "PRのCI成功とmain統合後のみ49/300へ。"
+  ]
+}
