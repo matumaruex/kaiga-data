@@ -1,0 +1,158 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437323",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "a29a22e8a7ca469634b4935724bb25165e812cc2",
+    "artwork_record_sha256": "2bea7c613674b74ab07fce5f7a59e4a1eb13c8055e786f319fe80ab6c63d0fb6",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437323.json",
+    "draft_sha256": "7525d9a6b994fefeddde09b3881fc0ae10f4f943d3921a1774138a1586b06279"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437323",
+      "access": "page_read_twice",
+      "locations": [
+        "Artwork Details: 1650, Frans Post, oil on wood, 1981.318, Public Domain",
+        "Overview: Dutch rule 1630–1654, indigenous dispossession, hidden slavery and colonial extraction, iguana",
+        "Audio 5246: returned six years before painting, Dutch landscape conventions and fantasy of ownership, 'perhaps nostalgia' after colony was lost"
+      ],
+      "observed": "1650年の絵画と1654年のオランダの植民地喪失は異なる時点。Met音声は帰国後の記憶・現地観察の理想化と、植民地喪失後も続けた制作への推測的な郷愁を区別している。既存日本語鑑賞解説はこの時系列を取り違えていない。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Frans_Post_-_A_Brazilian_Landscape.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "The Met accession 1981.318, object ID 437323",
+        "Full image 3811 x 2513, painting dated 1650",
+        "Public Domain Mark for faithful reproduction"
+      ],
+      "observed": "Met 437323と同所蔵1981.318の全景を照合。幅広い空と遠くの水面・丘、前景右の植生と中央の人々、右下の小動物を確認。Commons掲載画像のバイトハッシュはMetのJPEGと別物として扱う。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) Open Access CC0 images",
+        "3(b) Museum text may be under restrictions"
+      ],
+      "observed": "作品とOpen Access図版の利用条件を学芸員の解説文章の権利とは区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437323",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP145952.jpg",
+      "status": 200,
+      "sha256": "adc1229d6c7f9212e4174dafe026877e9e75b5c6817a64c4b44ece2dce75200e",
+      "byte_length": 2073606,
+      "width": 3811,
+      "height": 2513,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "旧2026-10-20のMet原JPEG全バイトSHA記録を継承。今回は原JPEGを再ダウンロードしていない。"
+    },
+    {
+      "id": "met-437323",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145952.jpg",
+      "status": 200,
+      "sha256": "9a3fa2870cc25a2df4f8292142143c0f7ea0718fb44711c208c40341e5a475eb",
+      "byte_length": 56003,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "旧2026-10-19の登録Met縮小JPEG全バイトSHA記録を継承。現時点の画像同定はMet作品ページとCommonsの同一作品全景を別に比較。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met 437323公式作品解説の作品図版と、Commonsの同所蔵番号1981.318・3811×2513全景を照合した。",
+    "observed": "広い空の下の遠い河川・丘、近景に茂みと南米の植物があり、画面下の人々が集う。右下にはイグアナが描かれる。静かな風景表現は植民地の実態を忠実に記録した証明ではない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Met作品ページと音声の時系列を2回の資料検索で突き合わせ、公式図版と同所蔵Commons全景、Open Access利用条件、旧登録値を別パスで比較。既存鑑賞本文は保持し、時系列混同のある選定資料のみ3か所修正。",
+    "limitations": "同一AIによる同じ会話内の別工程であり、別AI・第三者の独立検証ではない。2026-10-19/20の実測JPEG SHAは旧証拠の継承で、今回の新たな画像バイト取得ではない。文章権利の法的保証ではない。",
+    "reviewed_artwork_sha256": "e4ae7e32deccce87c461d67d7d904788c16f813e84ed302c11149216f3b3cb28",
+    "reviewed_visitor_draft_sha256": "7525d9a6b994fefeddde09b3881fc0ae10f4f943d3921a1774138a1586b06279",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 437323／1981.318、Frans Post、1650年、板上油彩。画像登録のDP145952と公式作品・同所蔵Commons図版が同題同番号。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1650年は帰国1644年から6年後、オランダによる北ブラジル植民地支配1630–1654年の途中。音声が植民地喪失後の後続作品に仮説として述べるnostalgiaを本作の制作意図と断定しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『懐かしさ』2は帰国後に現地の素描や記憶から再構成した景観との限定的な接点。先住民自身の郷愁や作者の確定心理に置き換えない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語解説は制作年・視覚要素・植民地主義の背景を原資料に沿って独自の日本語で説明しており、Metの英文長文を逐語翻訳した構成ではない。今回本文は完全不変更。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "e4ae7e32deccce87c461d67d7d904788c16f813e84ed302c11149216f3b3cb28",
+    "visitor_draft_sha256": "7525d9a6b994fefeddde09b3881fc0ae10f4f943d3921a1774138a1586b06279",
+    "proposal_sha256": "c008d12775812457c2e39ea796d01f58fd8a1d68afb0339bdacfa27d063418e5",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "curation_revision_source_bounds",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "このプログラム確認は既存データの構造・SHAの再計算に基づく。既存Python登録ガードとGitHub Actions PASSはPRの実行結果を別途確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437323.json",
+    "sha256": "c008d12775812457c2e39ea796d01f58fd8a1d68afb0339bdacfa27d063418e5",
+    "proposed_artwork_sha256": "e4ae7e32deccce87c461d67d7d904788c16f813e84ed302c11149216f3b3cb28",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access CC0 images",
+      "3(b) non-OA museum prose"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met本作品はPublic Domain、Open Access画像はCC0で提供される。Met公式の解説と音声は画像と別の権利。既存日本語本文は事実と解釈を独立した表現で要約する。合法性・非侵害を保証するものではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "1650年の作品を1654年の植民地喪失後の郷愁として扱う時系列の誤りを3つの選定欄で限定修正。",
+    "既存鑑賞日本語・主『懐かしさ』2・画像URLは維持。",
+    "旧JPEG実測SHAと今回の同所蔵画像の視覚確認は別。",
+    "同一AIの別工程照合を別AI／第三者の監査と称しない。"
+  ]
+}
