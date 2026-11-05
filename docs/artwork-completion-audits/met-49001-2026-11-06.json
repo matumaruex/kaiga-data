@@ -1,0 +1,154 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-49001",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "cd721dfe42d4c0f42d58266e6318624e0339f9d5",
+    "artwork_record_sha256": "5311d3e63863d43878ad982cb692dcfc1016cadf9a8de85a600fe1b70651d6ba",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-49001.json",
+    "draft_sha256": "7a614396662e03bb0c8c081a0fb4bdce92ece4546cb8e6835453ab2785d00677"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/49001",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: Rai Sanyo adapts Huang Gongwang ink landscape style, 1827 visit with uncle Kyohei and mother Baishi",
+        "Overview: Sanyo's right inscription of joy and Go-Daigo reflection; Baishi's left kana verse of renewed old-age joy",
+        "Artwork Details: 19th century, ink on paper hanging scroll, Met 1984.347, Public Domain"
+      ],
+      "observed": "Met公式作品ページを2回読み、作者・所蔵番号・作中の本人と母の書き込み・1827年の訪問と19世紀という制作年代表示を区別。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Rai_San%27y%C5%8D_-_Cherry_Blossoms_at_Yoshino_-_1984.347_-_Metropolitan_Museum_of_Art.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met 1984.347, Rai Sanyo, 19th-century hanging scroll",
+        "Met-provided image, public domain, CC0 1.0"
+      ],
+      "observed": "Metと同所蔵番号の縦長掛軸の公開図版と権利を照合。Commons旧画像と登録のDP-36542-002 JPEGが同一バイトであるとは主張しない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "prior_repository_rights_record_reused",
+      "locations": [
+        "Copyright and Proprietary Rights",
+        "Open Access images",
+        "Museum text rights"
+      ],
+      "observed": "Metの旧監査の権利確認と公式作品ページのPublic Domain/Open Accessを参照。解説文章と画像の権利を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-49001",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-36542-002.jpg",
+      "status": 200,
+      "sha256": "c597c33d05f3384b79625c6d69e0c5bc49167d63cee6e92dbf8122b2063dcccd",
+      "byte_length": 2920271,
+      "width": 1969,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet原JPEG SHA・寸法旧実測を継承。今回再取得なし。"
+    },
+    {
+      "id": "met-49001",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-36542-002.jpg",
+      "status": 200,
+      "sha256": "963739e61ece17fd91b5718ca1095f4ccc4c3058f4acb793acb380d1fb31a9ca",
+      "byte_length": 87720,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の表示JPEG SHA・バイト長の旧実測を継承。今回再取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Metの公式作品画像と同所蔵番号のCommons公開図版を視認し、公式Overviewの画面描写と照合。",
+    "observed": "縦長の墨画掛軸、上半分に複数列の漢字と左の仮名書き、下部に重なる山々の墨描きと桜の景観がある。書き込みと絵が同一掛軸内にある。画像バイトの新規SHA検査ではない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Metの公式作品概要・詳細を別工程で再閲覧し、既存日本語3段落、叔父と母の同行、後醍醐天皇の史的感慨、本人と母の各書き込み、絵の形態、感情索引・画像権利を照合。",
+    "limitations": "同一AIによる別工程。別AI・第三者の独立審査ではない。登録JPEG全量SHAは旧実測を継承。今回新規ダウンロードなし。法的非侵害保証ではない。",
+    "reviewed_artwork_sha256": "5311d3e63863d43878ad982cb692dcfc1016cadf9a8de85a600fe1b70651d6ba",
+    "reviewed_visitor_draft_sha256": "7a614396662e03bb0c8c081a0fb4bdce92ece4546cb8e6835453ab2785d00677",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 49001／1984.347、頼山陽の筆・書、19世紀、紙本墨画掛軸。1827年は記念した訪問年で制作年の確定ではない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metは頼山陽が叔父杏坪・母梅颸と1827年に吉野を訪れたとし、本人の喜びと後醍醐天皇への歴史的感慨、母の老年の再訪の喜びを別々に説明。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『喜び』3は本人の書き込みに直接の裏付け。補助『懐かしさ』1は歴史的追憶や母の再訪の弱い連想に限定し、山陽本人の個人的な郷愁と断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落は公式作品の人物・史実・作品内の書き込みと整合。館の英文を長文逐語転載せず、独立した日本語の鑑賞案内。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "5311d3e63863d43878ad982cb692dcfc1016cadf9a8de85a600fe1b70651d6ba",
+    "visitor_draft_sha256": "7a614396662e03bb0c8c081a0fb4bdce92ece4546cb8e6835453ab2785d00677",
+    "proposal_sha256": "94c7bced9f18fafbe6b7aa1346e5b03a181ff0c86b8f37b53b293dc0dee697b2",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "draft_matches_catalog",
+      "record_hash",
+      "historical_image_hash_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JSで版・SHA・対象外不変を検査。既存PythonとCIはPR後に確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-49001.json",
+    "sha256": "94c7bced9f18fafbe6b7aa1346e5b03a181ff0c86b8f37b53b293dc0dee697b2",
+    "proposed_artwork_sha256": "5311d3e63863d43878ad982cb692dcfc1016cadf9a8de85a600fe1b70651d6ba",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "Copyright and Proprietary Rights",
+      "3(a) OA/CC0 images",
+      "3(b) museum text"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met作品はPublic Domain、OA画像のCC0と学芸員解説文章の権利を分離。日本語は独自の短い説明で長文転載・全面逐語訳なし。法律上の保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存の本文・感情・画像・選定資料を再利用し、必要な変更なし。",
+    "JPEG SHAは旧実測、今回の画面確認とは別。",
+    "PR CI成功とmain統合後のみ60/300。"
+  ]
+}
