@@ -10,7 +10,7 @@
     "artwork_record_sha256": "9fa9da8aee3cb5d0ca7ebb6f3530b6e70d9aeffdce39a78c5f984f1734761575",
     "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
     "draft_path": "drafts/visitor-explanations/met-764092.json",
-    "draft_sha256": "fc83c1f27e178cc546660ba85873bed31b701f17e5a461dba3dba54005fe76c9"
+    "draft_sha256": "f617c41a52a496d397a2d0657b9c75ce98af9edb887d7ff7a870ced4906851c0"
   },
   "sources": [
     {
@@ -85,7 +85,7 @@
     "method": "Met作品個別説明の制作情報・寄進のための巡礼・図像・伝承と同所蔵番号の公開画像を別パスで確認。既存日本語の記述と照らし、感情タグが宗教的な守護・慈悲への願いにとどまり作者の心理を断定していないことを検証。",
     "limitations": "同じAIの同一会話内での別パスであって、別AI・第三者の独立審査ではない。JPEGの完全バイトSHAは2026-10-19/20の継承であり再取得ではない。権利非侵害の法的保証は行わない。",
     "reviewed_artwork_sha256": "9fa9da8aee3cb5d0ca7ebb6f3530b6e70d9aeffdce39a78c5f984f1734761575",
-    "reviewed_visitor_draft_sha256": "fc83c1f27e178cc546660ba85873bed31b701f17e5a461dba3dba54005fe76c9",
+    "reviewed_visitor_draft_sha256": "f617c41a52a496d397a2d0657b9c75ce98af9edb887d7ff7a870ced4906851c0",
     "checks": [
       {
         "area": "identity",
@@ -108,8 +108,8 @@
   "program_checks": {
     "result": "PASS",
     "proposed_artwork_sha256": "9fa9da8aee3cb5d0ca7ebb6f3530b6e70d9aeffdce39a78c5f984f1734761575",
-    "visitor_draft_sha256": "fc83c1f27e178cc546660ba85873bed31b701f17e5a461dba3dba54005fe76c9",
-    "proposal_sha256": "dd8d9abeab4ae45ad8c4cc5093a641672cfa9cc6d1bff2c16f7683a980e8865c",
+    "visitor_draft_sha256": "f617c41a52a496d397a2d0657b9c75ce98af9edb887d7ff7a870ced4906851c0",
+    "proposal_sha256": "5d1f8787d2a96d3e651f69b6ca5f91401db453953e47af32d2ba6457e326c73a",
     "checks": [
       "baseline_artwork_sha256",
       "existing_visitor_equals_reviewed_draft",
@@ -126,7 +126,7 @@
   },
   "proposal": {
     "path": "drafts/artwork-revisions/met-764092.json",
-    "sha256": "dd8d9abeab4ae45ad8c4cc5093a641672cfa9cc6d1bff2c16f7683a980e8865c",
+    "sha256": "5d1f8787d2a96d3e651f69b6ca5f91401db453953e47af32d2ba6457e326c73a",
     "proposed_artwork_sha256": "9fa9da8aee3cb5d0ca7ebb6f3530b6e70d9aeffdce39a78c5f984f1734761575",
     "applied_to_catalog": false
   },
