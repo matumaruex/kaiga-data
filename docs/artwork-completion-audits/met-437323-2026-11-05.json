@@ -1,0 +1,155 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437323",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "a29a22e8a7ca469634b4935724bb25165e812cc2",
+    "artwork_record_sha256": "2bea7c613674b74ab07fce5f7a59e4a1eb13c8055e786f319fe80ab6c63d0fb6",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437323.json",
+    "draft_sha256": "07ff418c60984269567c85926b8bb41002103006528d8976f68d77402f43ef01"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437323",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: 1630–54 Dutch colony, Indigenous dispossession and enslaved African labor absent",
+        "Overview: observed fauna and flora and idealized landscapes produced after return to Netherlands",
+        "Audio 5246: colonial fantasy, foreground iguana and Indigenous group, possible nostalgia for former colony",
+        "Details: Frans Post, 1650, oil on wood, accession 1981.318, Public Domain"
+      ],
+      "observed": "植民地支配の隠された現実、帰国後の画家の想像、目立つイグアナ・先住民の位置、植民地喪失に関する館解釈を照合。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Frans_Post_-_A_Brazilian_Landscape.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met 437323 / 1981.318, same image DP145952, 3811x2513"
+      ],
+      "observed": "Met由来のパブリックドメイン図版を画像の所蔵番号・全景と照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) OA CC0 images",
+        "3(b) non-OA museum text"
+      ],
+      "observed": "Metの図版と学芸員文章の再利用条件の違いを確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437323",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP145952.jpg",
+      "status": 200,
+      "sha256": "adc1229d6c7f9212e4174dafe026877e9e75b5c6817a64c4b44ece2dce75200e",
+      "byte_length": 2073606,
+      "width": 3811,
+      "height": 2513,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の原JPEG全バイトSHA・サイズの過去登録証拠を継承、今回再ダウンロードなし。"
+    },
+    {
+      "id": "met-437323",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145952.jpg",
+      "status": 200,
+      "sha256": "9a3fa2870cc25a2df4f8292142143c0f7ea0718fb44711c208c40341e5a475eb",
+      "byte_length": 56003,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の縮小JPEG全バイトSHA過去記録を継承、今回再ダウンロードなし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品435323ではなく437323、Met1981.318の画像とCommonsの同所蔵番号DP145952を照合。",
+    "observed": "空と川が画面の上方・遠景に広がり、画面下中央の手前に先住民の一群、右下にイグアナがいる。元visual_cluesの『遠景』配置を限定訂正した。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存本文・画像SHA記録を確認後、別の工程でMetの作品解説と音声5246・寄贈Commons図版・Met権利規約を照合。解説の植民地主義の視点を確認し配置だけ修正。",
+    "limitations": "同一AIの別パスであり別AI・第三者監査ではない。画像SHAは2026-10-19/20の旧記録、法律上の権利保証ではない。",
+    "reviewed_artwork_sha256": "8ed7d054935df61bffa0256b411641efbd85ebb228b563232f7f36b3c13cd648",
+    "reviewed_visitor_draft_sha256": "07ff418c60984269567c85926b8bb41002103006528d8976f68d77402f43ef01",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Frans Post、1650年油彩、Met437323、所蔵1981.318。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "オランダによる植民地支配・先住民の土地収奪・アフリカ人の奴隷労働を覆い隠した理想化。帰国後の記憶と写生の再構成。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『懐かしさ』2はMetの音声で語る旧植民地に対するオランダ側の郷愁であり先住民の故郷の思いではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "日本語本文は植民地支配・幻想の事実を短く独自の言葉で整理し、英文を長文転載しない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "8ed7d054935df61bffa0256b411641efbd85ebb228b563232f7f36b3c13cd648",
+    "visitor_draft_sha256": "07ff418c60984269567c85926b8bb41002103006528d8976f68d77402f43ef01",
+    "proposal_sha256": "51d060e5fe9990f0d3ddb58301854a0ff4f52e438594bbae3249bfccecacb5ad",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "reviewed_curation_revision",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象版と草稿・登録画像の一致、他作品の不変性を点検。Python登録ガードとCIは別途実行確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437323.json",
+    "sha256": "51d060e5fe9990f0d3ddb58301854a0ff4f52e438594bbae3249bfccecacb5ad",
+    "proposed_artwork_sha256": "8ed7d054935df61bffa0256b411641efbd85ebb228b563232f7f36b3c13cd648",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access CC0 images",
+      "3(b) non-OA museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品画像はPublic Domain／Met OA CC0。学芸員文章や音声の英文権利は別。独自日本語の必要最小限の説明に留める。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "visual_cluesの前景配置だけ修正、本文・タグ・画像は変更なし。",
+    "旧JPEG SHAを今回の再取得と偽らず、CI・main統合後のみ47完成に計上。"
+  ]
+}
