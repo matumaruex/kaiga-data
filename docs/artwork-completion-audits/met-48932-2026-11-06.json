@@ -1,0 +1,152 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-48932",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "0b0079a0d7eb92f6c39cde1ab6751ced18364b10",
+    "artwork_record_sha256": "2325f026b84c8300e0d70aa87874951d96cde1da730b45aa9fc0dc0d4791d9c9",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-48932.json",
+    "draft_sha256": "84515b62c03dc190cf462e9ddf2e22b24f9123d7601be28f9c6b14ac6cb8e57e"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/48932",
+      "access": "page_read_once",
+      "locations": [
+        "Overview: Ma Shouzhen, Qinhuai Eight Beauties and her orchid paintings",
+        "Overview: Ming fall and later reverent nostalgia, Wang Zhideng inscription at upper left",
+        "Artwork Details: attributed to Ma Shouzhen, dated 1572, hanging scroll ink on paper, accession 1982.1.7, Public Domain"
+      ],
+      "observed": "Metの作品解説と詳細を確認。作者帰属は確定ではなく、郷愁は後世の秦淮八艶への受容であって画家の1572年の心理ではない。"
+    },
+    {
+      "url": "https://artsandculture.google.com/asset/%E6%98%8E-%E5%82%B3%E9%A6%AC%E5%AE%88%E7%9C%9F-%E8%98%AD%E7%9F%B3%E5%9C%96-%E8%BB%B8-orchid-and-rock-ma-shouzhen/0AGTVmtHvXoudQ?hl=en",
+      "access": "page_read_once",
+      "locations": [
+        "Met提供作品画像と作品名・年代・所蔵館"
+      ],
+      "observed": "同作品の図像と所蔵情報を別掲載先でも確認。Met作品IDと一致する作品を採用。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "prior_repository_rights_record_reused",
+      "locations": [
+        "Copyright and Proprietary Rights",
+        "Open Access images",
+        "Museum text rights"
+      ],
+      "observed": "旧監査で確認されたMetの画像と文章の権利の区別を継承。公式作品ページにPublic DomainとOAを明記。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-48932",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DT8794.jpg",
+      "status": 200,
+      "sha256": "eb551f7592953b03c9bde9d9985b35dfa8a95df25bfa78d41f95408ff4b89dcf",
+      "byte_length": 1337282,
+      "width": 836,
+      "height": 2000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の原JPEGの全量SHA実測を継承。今回再取得していない。"
+    },
+    {
+      "id": "met-48932",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DT8794.jpg",
+      "status": 200,
+      "sha256": "4fcfcf75474c6384f5e2bded0f54a57f3afb948f6c486f2f2e7b39a9b6cb0e87",
+      "byte_length": 148998,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の表示JPEG実測を継承。今回再取得していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Metの同所蔵番号の作品図像とMet提供の別掲載画像を比較し、公開されている同作品の視覚資料と照合。",
+    "observed": "縦長の墨画掛軸。下部に岩と細長い蘭の葉・花、上部に書がある。『一本の蘭』という数の断定は避ける。新規JPEGバイト同一性の主張ではない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "所蔵館の概説と詳細を別工程で読み、既存日本語3段落・画面描写・作者の不確定性・王稚登の題詩・後世の郷愁と作者意図の区別・感情タグを照合。",
+    "limitations": "同一AIの別工程。別AIや第三者の審査ではない。登録JPEGの新規全量取得なし。権利の法的非侵害は保証しない。",
+    "reviewed_artwork_sha256": "2325f026b84c8300e0d70aa87874951d96cde1da730b45aa9fc0dc0d4791d9c9",
+    "reviewed_visitor_draft_sha256": "84515b62c03dc190cf462e9ddf2e22b24f9123d7601be28f9c6b14ac6cb8e57e",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 48932／1982.1.7、馬守真に帰属、1572年銘、中国明代、紙本墨画掛軸。真筆確定とはしない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metの明亡後の秦淮八艶への郷愁と王稚登の題詩を確認。後世の受容を画家の制作意図にしない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "『懐かしさ』補助1は後世の受容を扱う弱い索引。作者の郷愁や蘭の感情を直接示さない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "日本語3段落はMet概説と整合。『一本の蘭』の限定を前コミットで『蘭と岩』へ修正。館英文の長文転載・逐語全訳なし。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "2325f026b84c8300e0d70aa87874951d96cde1da730b45aa9fc0dc0d4791d9c9",
+    "visitor_draft_sha256": "84515b62c03dc190cf462e9ddf2e22b24f9123d7601be28f9c6b14ac6cb8e57e",
+    "proposal_sha256": "3a42ce9ce8869ed0b751ace4df704b0dde43e931d15ac31489d40ef14760180c",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "draft_matches_catalog",
+      "record_hash",
+      "old_image_hash_reused"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub版のJS構造・ハッシュ検証。既存PythonとCIはPR後に別途確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-48932.json",
+    "sha256": "3a42ce9ce8869ed0b751ace4df704b0dde43e931d15ac31489d40ef14760180c",
+    "proposed_artwork_sha256": "2325f026b84c8300e0d70aa87874951d96cde1da730b45aa9fc0dc0d4791d9c9",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "Copyright and Proprietary Rights",
+      "3(a) OA/CC0 images",
+      "3(b) museum text"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met所蔵Public Domain/Open Access画像と美術館解説文の権利を分離。独立日本語の短い鑑賞解説は長文転載や逐語的全訳ではない。法律上の非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "2026-10-19/20の旧JPEG実測を今回取得と混同しない。",
+    "感情『懐かしさ』は後世の郷愁のみ。",
+    "CIとmain統合後に59/300完成。"
+  ]
+}
