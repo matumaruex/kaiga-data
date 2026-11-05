@@ -10014,7 +10014,7 @@
         ],
         "emotion_strengths": {
           "寂しさ": 2,
-          "未練": 2
+          "未練": 1
         },
         "tones": [
           "重苦しさ",
@@ -10028,13 +10028,13 @@
         "search_profile": {
           "fitting_situations": [
             {
-              "situation": "連絡のない相手を思って眠れず、手放せない気持ちがある",
-              "reason": "ラーガマーラーの詩と絵が睡眠を妨げる恋い慕いを描くとMetが説明する。未練は過去の恋愛への後悔と断定しない。",
+              "situation": "恋しい人の不在を感じ、夜も眠れないほど思いが募る",
+              "reason": "Metは眠れぬ眼と恋の疲れ、空の寝台を見返し両腕を上げる姿を詩と旋法の視覚表現と説明する。相手との連絡途絶や別離は示さない。",
               "strength": 2
             }
           ],
           "selection_cautions": [
-            "詩的な場面と作者個人の人生を区別する。"
+            "音楽・恋愛詩の人物類型と画家自身の個人経験を混同しない。恋人と連絡が途絶えた、別れた、関係が終わったという個別事情は出典で確認できない。"
           ],
           "review_status": "evidence_review_pending"
         },
@@ -10054,10 +10054,11 @@
         },
         "emotion_categories": {
           "primary": [
-            "寂しさ",
-            "未練"
+            "寂しさ"
           ],
-          "secondary": []
+          "secondary": [
+            "未練"
+          ]
         }
       },
       "review": {
@@ -10083,6 +10084,12 @@
           "rights_status": "pending",
           "reviewed_on": "2026-10-24"
         }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-38017-2026-11-06.json",
+        "audit_sha256": "c875fd63e15750b77c42a36ad38fadcabf9013fd2cc3d81563af0e213fcdc764",
+        "record_sha256": "b3482bcbf6a0c2f51ea5f2727265625c1310d0fd2896b8f35e193e2089b87883"
       }
     },
     {

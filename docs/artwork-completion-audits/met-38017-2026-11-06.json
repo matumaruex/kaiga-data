@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-38017",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "e09f8d1de65c521b40916506a2ce8fa6dde70354",
+    "artwork_record_sha256": "daeff5ae0832d26d8ab9b0cb14327a86a483f630f590fbc4af4294e2a4d173cd",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-38017.json",
+    "draft_sha256": "89fa4c260896f219f44c3f29eee1cc08101c43216f884ba011dcc2d01c281ae4"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/38017",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: ragamala text depicting a languid, sleepless woman weary from love-making",
+        "Overview: arms lifted, looking back at empty bed; poem and related musical passage transposed into painting",
+        "Artwork Details: 1605–06, India Rajasthan Bikaner, ink and opaque watercolor on paper, 1987.417.2, Public Domain"
+      ],
+      "observed": "Met公式の作品概要と詳細・図版を複数回閲覧。『連絡途絶』『別れ』は明示されていないので推定を排除。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_twice",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) OA/CC0 images",
+        "3(b) museum text rights"
+      ],
+      "observed": "作品画像のOA/CC0と美術館による解説文章の権利を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-38017",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP156114.jpg",
+      "status": 200,
+      "sha256": "cc116ac4c1cbed1d352cf356d0b107d5d6997f364d75dbd0573161b85fac9f34",
+      "byte_length": 2657726,
+      "width": 2936,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の公式原JPEG全量SHAと寸法の旧実測を継承。今回Metが表示した同一URLの画面は確認したがバイトの再取得なし。"
+    },
+    {
+      "id": "met-38017",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156114.jpg",
+      "status": 200,
+      "sha256": "15f22ce1d1c147b1f5882300de4619defc109ef97a8b82f02a38325f2ed9c9df",
+      "byte_length": 92101,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の表示JPEG全量SHA・サイズの旧実測を継承。今回の再取得ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met掲載の対象作品全景を直接見てMet個別概要と図像同定を照合した。",
+    "observed": "黄色の外枠の縦長画面、画面左下の敷物の上に青い衣と黄橙色の腰布を着た女性が坐り、腕を頭上へ上げて振り返る。右の赤い室内の装飾的な寝台には人物がいない。公式画像URL DP156114.jpg と登録原画像のURLは一致。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Met作品ページと画像・利用条件を最初の読解とは別工程で再閲覧。日本語の3段落を図像・詩の資料・作家心理と区別して検証し、感情と適合状況の根拠の強さを再評価した。",
+    "limitations": "同一AI内の別工程。別AI・独立第三者・別コンテキストと称しない。画像の現在のJPEG全量SHAは取得していない。非侵害の法的保証なし。",
+    "reviewed_artwork_sha256": "b3482bcbf6a0c2f51ea5f2727265625c1310d0fd2896b8f35e193e2089b87883",
+    "reviewed_visitor_draft_sha256": "89fa4c260896f219f44c3f29eee1cc08101c43216f884ba011dcc2d01c281ae4",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 1987.417.2、Rajasthan Bikaner 1605–06、紙にインク・不透明水彩、作品の図版を所蔵ページに照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "館は不眠・物憂さ・恋の疲れを示すラーガマーラー詩と、空の寝台を見やる女性の身振りを関係付ける。作者の実体験を記録したものではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『寂しさ』2は空の寝台と相手の不在に根拠。『未練』は失恋や後悔を明示しないため補助1に変更し、連絡の有無を断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存の3段落は図像と詩・音楽の主題に合致し、美術館英語の長い逐語翻訳をしていない。『休息』は不眠と恋の疲れの一般的連想にとどまる。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "b3482bcbf6a0c2f51ea5f2727265625c1310d0fd2896b8f35e193e2089b87883",
+    "visitor_draft_sha256": "89fa4c260896f219f44c3f29eee1cc08101c43216f884ba011dcc2d01c281ae4",
+    "proposal_sha256": "736fa8fab86f28af04dc945d7512af33d81f4c023f4d4f3458938bd1edf65895",
+    "checks": [
+      "baseline_sha256",
+      "five_curation_changes",
+      "visitor_draft_identical",
+      "registered_legacy_image_sha",
+      "300_unique_ids",
+      "other_299_unchanged",
+      "catalog_order",
+      "emotion_strength_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHubの現在版をJSで指紋・差分・構造確認。Pythonのpreview/save/checkとActions合格は別途CIで確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-38017.json",
+    "sha256": "736fa8fab86f28af04dc945d7512af33d81f4c023f4d4f3458938bd1edf65895",
+    "proposed_artwork_sha256": "b3482bcbf6a0c2f51ea5f2727265625c1310d0fd2896b8f35e193e2089b87883",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA CC0",
+      "3(b) museum copyrighted text"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "本作品の公式図像はPublic Domain/Open Access/CC0。本文は日本語で独自に短く解説しMet解説の大量転載や逐語全訳なし。文章にOA権利は拡張できず、法的非侵害の保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "未練は主2から補助1へ格下げし適合状況の出典外の推測を除去。鑑賞本文と画像は変更しない。",
+    "JPEG SHAは以前の実測を継承し今日の図像視認と区別。",
+    "PRのCIとmain統合後だけ58/300完成。"
+  ]
+}
