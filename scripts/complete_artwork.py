@@ -138,7 +138,9 @@ def build(root, relative):
     require(candidate["curation"]["evidence_url"] in sources, "unread selection source")
     image = candidate["image"]
     images = audit["images"]
-    require(len(images) == 2 and {x["kind"] for x in images} == {"original", "display"}, "image evidence missing")
+    expected_kinds = {"original", "display"} if image.get("high_resolution") else {"display"}
+    require(len(images) == len(expected_kinds) and {x["kind"] for x in images} == expected_kinds,
+            "image evidence missing")
     for im in images:
         registered = image["high_resolution"] if im["kind"] == "original" else {
             "url": image["display_url"], "sha256": image["sha256"]}

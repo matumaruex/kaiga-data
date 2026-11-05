@@ -1,0 +1,134 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-74983",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "b40b54b99e64db8c979cf80879b9d05f6de4e745",
+    "artwork_record_sha256": "8c22124146aa9ef5435bd2cce43c29230620e505e05872b08c679d18ad12f5ab",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-74983.json",
+    "draft_sha256": "e99577b4270b7a9e0e19079b2cae9add282768abd3de82385f55fc738e721728"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/74983",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: transfer of Mahavira embryo by Harinaigamesin, queen's distress and halted palace festivities",
+        "Overview: queen's revealed ankles, heavy textile canopy with gajasimhas",
+        "Artwork Details: 15th century, Gujarat, ink and opaque watercolor and gold on paper, accession 55.121.38.8, Public Domain"
+      ],
+      "observed": "Met公式作品ページを二度確認。物語における心配と悲嘆、身体所作、天蓋の意匠、所蔵作品番号、紙本媒体を照合。実際に流産した等の結末は記されていない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Open Access image identification and download",
+        "Public domain works and CC0",
+        "Other third-party rights and text distinct from image"
+      ],
+      "observed": "MetのPublic Domain/Open Accessと、所蔵館解説文章の権利を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-74983",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/55_121_38_8_d.JPG",
+      "status": 200,
+      "sha256": "959aa57b5919b1bc90fa1e39eba1e8879ed3a38b808427e485e329b00627764b",
+      "byte_length": 87010,
+      "width": 421,
+      "height": 625,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "docs/image-dimensions-audit.jsonの2026-10-20計測（87010バイト、421×625、SHA一致）を再利用。今回同画像バイトを再取得していない。高解像度登録はなく、同一IDのMet公式図版の画面を別途確認。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品ページの同一所蔵番号55.121.38.8の画像を視認し、登録表示画像の過去同定記録・本文・館解説と照合。",
+    "observed": "鮮やかな青地に向き合う二人の女性、左側の王妃が手を掲げて訴える所作、双方の華麗な衣装、上方の複数の神獣文様を持つ帯状の織物天蓋が見える。王妃の流産・死産を描く場面と断定できない。画像はMet所蔵番号55.121.38.8の公式図版。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "館公式解説の初読・登録文と画像・感情資料の比較後、Metの作品番号、本文箇所、図版の各要素と画像台帳記録を別工程で再照合。",
+    "limitations": "同一AIの別工程で、別AI・第三者監査ではない。今セッションでJPEGの実バイト再取得はできず、表示画像のSHAとHTTP200は過去監査を引き継ぐ。高解像度登録は存在せず、表示用画像のみ検証。",
+    "reviewed_artwork_sha256": "8c22124146aa9ef5435bd2cce43c29230620e505e05872b08c679d18ad12f5ab",
+    "reviewed_visitor_draft_sha256": "e99577b4270b7a9e0e19079b2cae9add282768abd3de82385f55fc738e721728",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "15世紀グジャラートの紙本細密画、Met 55.121.38.8、題名と公式番号が一致。隣接する王妃の喜びの図55.121.38.9と混同しない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "ジャイナ教マハーヴィーラ誕生説話で、王妃が胎児の安否を案じ祭りを止める。死産や流産を確定的に描くものとはしない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『不安』2は胎児を案じる王妃の身振り、補助『喪失感』『悲しみ』1は悲嘆の描写に対応。結果として実際の喪失があったとは扱わない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存3段落はMetの物語・ガジャシンハ・姿勢を日本語で独自に再構成しており、館文の長文逐語転載ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "8c22124146aa9ef5435bd2cce43c29230620e505e05872b08c679d18ad12f5ab",
+    "visitor_draft_sha256": "e99577b4270b7a9e0e19079b2cae9add282768abd3de82385f55fc738e721728",
+    "proposal_sha256": "560f995a3a05fd33864c7ec70e7cceda46359faebcf88f696abf39d976b2ac10",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "draft_matches_catalog",
+      "record_hash",
+      "historical_display_image_hash_reused",
+      "emotion_consistency",
+      "no_high_resolution_source_registered"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JSで対象版・下書き完全一致・300 ID・対象外不変を確認。既存プログラムとCIはPR作成後に実行される。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-74983.json",
+    "sha256": "560f995a3a05fd33864c7ec70e7cceda46359faebcf88f696abf39d976b2ac10",
+    "proposed_artwork_sha256": "8c22124146aa9ef5435bd2cce43c29230620e505e05872b08c679d18ad12f5ab",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Public domain and Open Access",
+      "CC0 and third-party rights",
+      "Met text separate from image OA"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公式は本作品をPublic Domainと表示。画像のOA/CC0範囲と館解説テキストの権利を分離し、日本語文は独自表現。法的非侵害を保証するものではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "登録画像の2026-10-20旧SHA・寸法と、今回確認したMet公式表示図版を区別する。",
+    "original欄がない記録で原JPEGの取得を偽装しない。登録ガードは高解像度記録の有無で要求画像証拠数を分岐。",
+    "GitHub Actions合格・main統合後のみ64完成とみなす。"
+  ]
+}
