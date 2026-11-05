@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-37881",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "95d1cc751595d2ed2c8260bcd6f933f56b61a2a3",
+    "artwork_record_sha256": "77e3e265bd7fe7d1770ce6fe1b066f259fcbe02d112c1f2688c92610a68dc2ac",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-37881.json",
+    "draft_sha256": "228b3d0423415fe2ec2d91430340ca55f7cb2ed6e99da0d695d29b7ebce42ab2"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/37881",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: iconography of longing, empty bed, solitary nayika, forlorn peacock call",
+        "Overview: patterned raindrops, stylized creepers, Malwa, Mewar/Bundi style, black sky and red field",
+        "Artwork Details: ca.1660–80, India (Madhya Pradesh, Malwa), ink and opaque watercolor on paper, Met 1979.505, Public Domain"
+      ],
+      "observed": "Met公式個別ページを二度開いて解説・詳細を確認。nayika は単に女性主人公であり『別れた恋人を思う女性』に一般定義を限定しない。作品固有の恋慕は空の寝床や孔雀の声から館が読み解いている。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) OA images CC0",
+        "3(b) museum text restrictions and rights"
+      ],
+      "observed": "MetのPublic Domain/Open Access画像と学芸員による解説文章の利用条件を区別。旧説明の全訳や転載は行わず独自日本語文を残す。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-37881",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP152278.jpg",
+      "status": 200,
+      "sha256": "c0b536efd3b55732522351464171120dbaebc8019a0e5d12e285c898ff8e53f0",
+      "byte_length": 2717953,
+      "width": 2884,
+      "height": 3740,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet公式原JPEG全量SHA・寸法の旧監査を継承。今回の全量再取得ではない。"
+    },
+    {
+      "id": "met-37881",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP152278.jpg",
+      "status": 200,
+      "sha256": "84fb008cd4d3d23151985aae89bf37ec64463a0b0b6b72a1aeb2706a5fbb0c56",
+      "byte_length": 128837,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の表示用JPEG全量SHA・バイト長の既存記録を継承。今回の再取得ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Metの作品ページで公式所蔵1979.505と一致する図像を実際に視認し、館のOverviewの描写と照合。",
+    "observed": "縦長の画面左下で花へ手を伸ばす女性、右側アーチ内の赤い空の寝台、左上の木に止まる孔雀、黒い夜空の雨点、赤い壁面と蔓草が見える。画面の具体物は館の恋慕の図像解説と一致する。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Met個別作品ページを改めて開き、視覚的な具体物・所蔵番号・表現技法・ナーヤカーの位置づけと本文3段落を出典ごとに読み直した。作者の意図と所蔵館の図像解釈を分け、過剰な一般定義を登録前に限定訂正。Metの利用規約・Open Accessを確認。",
+    "limitations": "同一AIの同じ会話内の別工程であり、第三者・別AI・別コンテキスト監査ではない。画像JPEG SHAは2026-10-19/20の旧実測を継承し、今回全バイトを取得していない。著作権非侵害を法的に保証するものではない。",
+    "reviewed_artwork_sha256": "77e3e265bd7fe7d1770ce6fe1b066f259fcbe02d112c1f2688c92610a68dc2ac",
+    "reviewed_visitor_draft_sha256": "228b3d0423415fe2ec2d91430340ca55f7cb2ed6e99da0d695d29b7ebce42ab2",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 37881／1979.505、インド中部マールワ、ca.1660–80、不詳作者、紙にインク・不透明水彩、21.3×15.7cm。Met掲載の縦長図版・作品番号は一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metは空の寝台・独りのナーヤカー・孔雀の鳴き声を恋慕の図像と説明。黒い空と赤の色面、メーワール/ブーンディ伝統の影響も館の専門家解釈。画家本人の直接発言を発見したものではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『寂しさ』2は独りの主人公と空の寝台、補助『未練』1は恋慕への弱い連想に対応。必ず失恋した・別離したと断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "日本語本文3段落を館の作品独自の画面・地域・材料と対応付けて確認。ナーヤカー一般を離別女性に限定した以前の一節を訂正、原文を大量に逐語翻訳・転載しない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "77e3e265bd7fe7d1770ce6fe1b066f259fcbe02d112c1f2688c92610a68dc2ac",
+    "visitor_draft_sha256": "228b3d0423415fe2ec2d91430340ca55f7cb2ed6e99da0d695d29b7ebce42ab2",
+    "proposal_sha256": "1802063f71445b42788b266db44575f4e7212254f11c1067d36e54a394f87570",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_historical_sha256",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "no_curation_changes",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub対象レコードに対してJSのSHA・基準版・対象外レコード不変を確認。Python preview/save/check・Actions結果はPR側で別途確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-37881.json",
+    "sha256": "1802063f71445b42788b266db44575f4e7212254f11c1067d36e54a394f87570",
+    "proposed_artwork_sha256": "77e3e265bd7fe7d1770ce6fe1b066f259fcbe02d112c1f2688c92610a68dc2ac",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA CC0 images",
+      "3(b) museum text and FAQ"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Metの本作品Public Domain画像はOA/CC0、Met学芸員文章の複製利用は別条件。日本語本文は固有事実を独立表現で解説し逐語翻訳・長文転載をしていない。ただし法的非侵害の保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "先行コミットでナーヤカーの一般定義だけ修正。主『寂しさ』補助『未練』、画像・選定用情報は変更しない。",
+    "登録JPEG SHAは旧実測、作品画面の今回の観察とは別。",
+    "本PRのActions合格とmain統合後のみ55/300完成。"
+  ]
+}
