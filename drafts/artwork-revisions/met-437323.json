@@ -1,0 +1,73 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-437323",
+  "baseline_commit": "a29a22e8a7ca469634b4935724bb25165e812cc2",
+  "baseline_artwork_sha256": "2bea7c613674b74ab07fce5f7a59e4a1eb13c8055e786f319fe80ab6c63d0fb6",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "fitting_situations"
+      ],
+      "before": [
+        {
+          "situation": "かつての土地への郷愁が、必ずしも無害な感情ではないことに気づきたい",
+          "reason": "Metの音声解説は植民地を失ったオランダ社会の郷愁と、所有の幻想を同時に指摘。",
+          "strength": 2
+        }
+      ],
+      "after": [
+        {
+          "situation": "帰国後の記憶をもとに描き直された異国の風景から、距離をおいて思い起こす感覚を考えたい",
+          "reason": "1650年の本作はポスト帰国の6年後、現地での素描と記憶に欧州式の風景構成を重ねて制作された。『懐かしさ』は鑑賞の入口であり作者本人の感情を断定しない。",
+          "strength": 2
+        }
+      ],
+      "reason": "1650年の本作を1654年の植民地喪失後の郷愁から説明する時系列の混同を防ぐ。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437323"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation",
+        "summary"
+      ],
+      "before": "ブラジル植民地を離れたオランダ人画家の風景。Met専門家は、この景観を植民地支配に関する郷愁と幻想として批判的に解説。",
+      "after": "Metの解説では、ポストの本作は現地観察を基にしつつ、欧州風景画の構成を当てはめた植民地の理想化された景観である。現地の土地収奪と奴隷労働を見えなくし、所有や征服を思わせる視点が批判的に指摘される。",
+      "reason": "館の当該1650年作品の読解と、1654年の植民地喪失後に制作を続けたことへの推測的な郷愁の説明を分ける。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437323"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "selection_cautions"
+      ],
+      "before": [
+        "郷愁の背景には植民地主義の所有・征服の視線があり、現地社会の平和な記録や普遍的な故郷の愛着と誤解させない。 植民地主義、先住民の土地収奪、奴隷化を背景に持つ。先住民側の郷愁や現地生活の正確な記録と解釈しない。",
+        "好奇心との作品固有の接点は追加調査が必要。画像や原典を再確認するまで再付与を保留。"
+      ],
+      "after": [
+        "1650年の本作を、1654年にオランダが植民地を失ったことへの郷愁で描いたと断定しない。画面は植民地支配、先住民の土地収奪、アフリカ系住民の奴隷労働を覆い隠しており、現地住民の平穏な暮らしの忠実な記録や彼らの郷愁と混同しない。",
+        "好奇心との作品固有の接点は追加調査が必要。画像や原典を再確認するまで再付与を保留。"
+      ],
+      "reason": "1650年と1654年の時系列、描かれた先住民の実生活についての認識の限界を明確化する。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437323"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-437323.json",
+  "visitor_draft_sha256": "7525d9a6b994fefeddde09b3881fc0ae10f4f943d3921a1774138a1586b06279",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "e4ae7e32deccce87c461d67d7d904788c16f813e84ed302c11149216f3b3cb28",
+  "explanation": "Frans Post《A Brazilian Landscape》1650年、Met 437323／1981.318。Met公式本文・音声で制作の6年前の帰国、1650年作品と1654年の植民地喪失を確認。植民地喪失の郷愁を1650年作の直接の制作意図とみなしていた現行選定資料を限定修正。鑑賞者向け日本語解説、主『懐かしさ』2、画像URLと既存画像登録値は維持。"
+}
