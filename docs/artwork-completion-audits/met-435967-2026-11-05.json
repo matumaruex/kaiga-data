@@ -1,0 +1,167 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435967",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "f6525a7ecd3cbfc9fb9df6f7cc3b5bcaba1717e7",
+    "artwork_record_sha256": "d9f9022039d1d94d8741f1c8fc91a449bc5036d9780cebac945607441f36d5c8",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435967.json",
+    "draft_sha256": "93a0c74f07ebd453ec9313e4e874fc994b800c0c9018b8a1b3b2c0083a0c0726"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435967",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: sky angel throwing fire and brimstone on Sodom; angel leading Lot and daughters to safety; pillar of salt behind",
+        "Overview: 1844 Salon exhibition; subsequent substantial trimming of sky and right-hand landscape, darker repainting of foreground, 1857 resubmission",
+        "Overview: Met says higher stature ensured better critical reception in 1857",
+        "Artwork Details: Corot, 1843 and 1857, oil on canvas, 29.100.18, Public Domain"
+      ],
+      "observed": "Metの作品解説で旧約聖書の主題・ロト妻がすでに塩の柱である点・1844/1857年の出展改作経緯を確認。前景の黒化、修正年・所蔵番号を照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435985",
+      "access": "page_read_once",
+      "locations": [
+        "Overview: 1843 oil sketch shows Corot's earlier composition for same object 29.100.18",
+        "Overview: painting rejected in Salon 1843, then accepted in 1844",
+        "Artwork Details: 1843 study 1984.75"
+      ],
+      "observed": "原作とは別作品の公式習作を参照し、1843年の原構図と1844年サロンの区別を確認した。これを対象の展示用画像と混同しない。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Burning_of_Sodom_(formerly_%22The_Destruction_of_Sodom%22)_MET_DT2014.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met accession 29.100.18, object ID435967, original 3811 x 1956 pixels",
+        "Met donated file DT2014, CC0 1.0"
+      ],
+      "observed": "現在の塩柱と逃走人物が見える同所蔵番号の寄贈図版を目視。CC0と旧JPEG寸法・画像名を照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) Open Access CC0 images",
+        "3(b) other protected museum text"
+      ],
+      "observed": "Metのパブリックドメイン図版の画像再利用と解説文章の権利条件を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435967",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT2014.jpg",
+      "status": 200,
+      "sha256": "0a418b31a586db0e6c46789fe66305fb13449037347331dbc42cdd77212dfe05",
+      "byte_length": 1726700,
+      "width": 3811,
+      "height": 1956,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "data/image-sources.jsonの2026-10-20原JPEG全バイトSHA・寸法と縮小一致の記録を継承。今回再ダウンロードは行っていない。"
+    },
+    {
+      "id": "met-435967",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2014.jpg",
+      "status": 200,
+      "sha256": "4acef4338cbeca31a7047d3d6ca4a49ef4653e5e0885de6e3aa195c14d699c8d",
+      "byte_length": 59899,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met縮小JPEGの2026-10-19 HTTP/完全バイトSHA記録を継承。今回のWeb図像目視とは別。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met 435967の公式画像とMet寄贈Commons DT2014（29.100.18）の全景を照合。1843年の習作Met 435985は別画像として比較し、現本画と混同しなかった。",
+    "observed": "横長で暗い茶褐色の風景。画面左手前の天使とロト一家が逃げ、すぐ後方に明るい大きな塩の柱が立つ。奥の建造物と上方に火色の光、天上の小さな天使。妻が振り返る瞬間を描いていると断定せず、柱となった結果に限定する。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "登録DB・草稿・旧画像台帳を先に確認後、別工程でMetの作品本文、同館の1843年習作、Met由来Commons図版と権利規約を再照合。見える姿と聖書物語の過去の行為を区別して選定資料の一欄のみ修正。",
+    "limitations": "同一AIが同じ会話で別パスにより実施した審査で、別AI・第三者の独立監査ではない。JPEG実SHAの2026-10-19/20既存記録を今回再計測したとは扱わない。法的な非侵害保証ではない。",
+    "reviewed_artwork_sha256": "b41dd83ef0197f3c854a05273622274d87ef0e055f3dabfe8edf8a8b35e7b2e0",
+    "reviewed_visitor_draft_sha256": "93a0c74f07ebd453ec9313e4e874fc994b800c0c9018b8a1b3b2c0083a0c0726",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Camille Corot, Met 435967／29.100.18、1843年・1857年改作のキャンバス油彩。公式原図版DT2014を同定。1843年の別の習作435985とは別。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met作品解説では天使がソドムに火と硫黄を降らせ、妻は警告に反して振り返った結果すでに塩柱。1843年習作・1844年出品・1857年大幅な画布切除と前景再彩色は公式館情報に一致。1857年の批評受容は館の見解として述べる。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『未練』2は警告に反して妻が後悔で振り返ったという聖書の物語上の接点、補助『不安』1は都市の破壊と逃走の緊迫への弱い入口。現代的な復縁や作者の私的感情へ置換しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存の鑑賞本文3段落は破滅の物語と作者の制作・改作経緯を独自日本語でまとめ、英文の長文逐語翻訳や転載はしていない。現画面の妻を『すでに塩の柱に変わった』と書いており本文修正不要。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "b41dd83ef0197f3c854a05273622274d87ef0e055f3dabfe8edf8a8b35e7b2e0",
+    "visitor_draft_sha256": "93a0c74f07ebd453ec9313e4e874fc994b800c0c9018b8a1b3b2c0083a0c0726",
+    "proposal_sha256": "c9c8e91f13119c7015e1b5dfc60bf46e8df889c0c73b8acad48afab7500f3f99",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "reviewed_curation_revision",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "登録版、草稿と既存鑑賞本文の一致、旧JPEG SHA/寸法、対象以外299件を変更しないこと、visual_cluesのbefore/afterを確認。Python登録ガードとGitHub Actionsは実際に別途確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435967.json",
+    "sha256": "c9c8e91f13119c7015e1b5dfc60bf46e8df889c0c73b8acad48afab7500f3f99",
+    "proposed_artwork_sha256": "b41dd83ef0197f3c854a05273622274d87ef0e055f3dabfe8edf8a8b35e7b2e0",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA CC0 images",
+      "3(b) non-OA museum prose"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公式と同館寄贈Commonsの当該図版はPublic Domain/CC0で、解説の文章や写真以外の別権利とは区別する。既存独自日本語は長文逐語翻訳・転載をせず、必要な事実に限定。法律上の保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "選定用meaning_basis.visual_cluesの1欄だけ修正。既存鑑賞本文・感情タグ・画像は不変更。",
+    "今回のMet公式図像と旧JPEGバイトSHAの証拠の作成時期を区別。",
+    "GitHub Actions成功・main統合後のみ44/300へ加算。"
+  ]
+}
