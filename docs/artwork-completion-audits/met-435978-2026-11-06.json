@@ -1,0 +1,154 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435978",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "b525820597cd36e4b2732ab55137196b8a559599",
+    "artwork_record_sha256": "7069341941adcfc59788a8d866327aca7e5adfbfa0d9bdd89632439ebce8c4b6",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435978.json",
+    "draft_sha256": "a655ccd871ca1f6ca30adfe0f42bd7e13ea7452b7d21b03346a6a7cd68094493"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435978",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: model may have been Emma Dobigny; four other Muses in the 1860s; all evoke a mood of melancholy",
+        "Artwork Details: Corot, ca.1865, oil on canvas, 29.100.193, Public Domain"
+      ],
+      "observed": "Met公式ページを検索結果と個別ページで再参照。モデルの同定は『may have been』に限定し、5点のミューズとメランコリーはMetの作品評価として位置付けた。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Muse-_History_MET_DT2015.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Accession number 29.100.193",
+        "Met object ID 435978 and CC0 image source"
+      ],
+      "observed": "Metが寄贈した公開図版の作品番号と本作の同定・画像権利を確認。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Public domain and Open Access / CC0",
+        "Museum text not covered by painting image rights"
+      ],
+      "observed": "MetのOA作品画像のCC0と学芸員の原文解説の権利を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435978",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-16591-001.jpg",
+      "status": 200,
+      "sha256": "7ff1efb81f2c8dde34465e53e639c4c74fa00adcbba715b939b6a34464aa488e",
+      "byte_length": 4072648,
+      "width": 3000,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20登録原JPEG全量SHA・サイズ実測、docs/met-original-image-audit.jsonの同所蔵番号・寸法を再利用。新規バイト測定なし。"
+    },
+    {
+      "id": "met-435978",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16591-001.jpg",
+      "status": 200,
+      "sha256": "75eed9a98a7ff1c07d747931a83c1de2209d5ff261373f2400fc3fc7f56dbba3",
+      "byte_length": 98896,
+      "width": 468,
+      "height": 624,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "docs/image-dimensions-audit.jsonの2026-10-20計測：98896バイト・468x624・SHA一致。今回ダウンロードしていない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "本作を所蔵番号29.100.193で特定したMet寄贈Commons図版とWeb上の同題画像を参照。公式館概要・旧画像同定台帳と突き合わせた。",
+    "observed": "茶色と灰色の背景の前に、白く淡い衣の女性の上半身。髪に葉飾りをつけ、顔を下へ向け、一方の腕を頭の側に上げ、もう片方は下へ下ろす。画面に具体的な死別相手や孤立の物語は描かれていない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Metの概要・作品詳細の直接照合と下書きの初回確認後、別工程でモデルの『may』、他4作品、憂愁と実感の区別、出典画像と権利、選定資料の強度を再確認した。",
+    "limitations": "同一AIによる別工程で、外部の別AIや第三者独立監査ではない。原・表示JPEGバイトSHAは2026-10-20の旧記録の継承で今回の再取得はしていない。",
+    "reviewed_artwork_sha256": "7069341941adcfc59788a8d866327aca7e5adfbfa0d9bdd89632439ebce8c4b6",
+    "reviewed_visitor_draft_sha256": "a655ccd871ca1f6ca30adfe0f42bd7e13ea7452b7d21b03346a6a7cd68094493",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 435978／29.100.193、Camille Corot、1865年頃、キャンバス油彩。本作と他4点のミューズを区別。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "MetはモデルをEmma Dobignyの可能性と記すにとどまり、確定した同定ではない。5点のミューズはメランコリーを感じさせるという館の解釈。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『悲しみ』2は館がいうメランコリーへの鑑賞者の接点。モデル・作者の本当の悲劇、死別、恋愛を示す根拠はなく断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "PR #3の日本語2段落は英語概要の短い事実を自身の日本語で説明し、長文の引用・逐語翻訳ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "7069341941adcfc59788a8d866327aca7e5adfbfa0d9bdd89632439ebce8c4b6",
+    "visitor_draft_sha256": "a655ccd871ca1f6ca30adfe0f42bd7e13ea7452b7d21b03346a6a7cd68094493",
+    "proposal_sha256": "645fc35fc0b9c26086c50d4aadb6fe4a2a46d05ae2349fc1724ac1ca8ffe5a7d",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "draft_uses_existing_reviewed_prose",
+      "canonical_hash",
+      "historical_image_hashes_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JavaScriptで対象版・全ID一意・対象外不変・ハッシュ一致をチェック。Python既存登録プログラムとGitHub ActionsはPRで検証。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435978.json",
+    "sha256": "645fc35fc0b9c26086c50d4aadb6fe4a2a46d05ae2349fc1724ac1ca8ffe5a7d",
+    "proposed_artwork_sha256": "7069341941adcfc59788a8d866327aca7e5adfbfa0d9bdd89632439ebce8c4b6",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Open Access public-domain images",
+      "CC0 scope",
+      "Museum explanatory text separate from image"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公式のPublic Domain画像とCC0指定を確認。日本語解説は独自の文体で英語概要の事実を要約し、館の文章の大量複製を避ける。法的非侵害は保証しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "PR #3保管の2段落下書きを再利用、review欄のみ今回確認済みへ更新。",
+    "2026-10-20原/表示JPEG旧実測を継承し、今回新規の実測と誤記しない。",
+    "CI成功・mainへの統合後にのみ67/300完成。"
+  ]
+}
