@@ -1,0 +1,156 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-20888",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "3ba3c9bcd83269f47e85492158461060b0c47e9e",
+    "artwork_record_sha256": "8b7d136b843aa168fcf070ec3706850611a66b4151ef056f1e057ea8303a19cf",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-20888.json",
+    "draft_sha256": "296aca70a1bf7dec4787710485d4ae58fdaec67f00886ae8b41f2683b900f22c"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/20888",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: Edmonds's banking/politics and 17th century Dutch genre art",
+        "Overview: two White turkey pluckers, younger Black figure warming hands, and Met's qualified racial interpretation",
+        "Artwork Details: Edmonds, 1851, oil on canvas, Met 2016.797.19, Public Domain"
+      ],
+      "observed": "検索本文と公式ページを読み直した。館は黒人人物の仕事を中断した事実を記さないため、既存日本語の不必要な断定を修正。社会的な解釈を作者の直接発言にしない。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Preparing_for_Christmas_(Plucking_Turkeys)_MET_DP-14639-001.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "File caption, painter, 1851, Met accession 2016.797.19",
+        "Met donation, CC0, original 4000×3002 JPEG"
+      ],
+      "observed": "Metによる同作品図版の公開情報と作品を同定。登録画像とCommons版の今回のバイト同一性は主張しない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "Copyright and Proprietary Rights",
+        "Authorized Uses 3(a) CC0 and 3(b) restricted text",
+        "FAQ: OA images vs museum text"
+      ],
+      "observed": "所蔵画像のOA/CC0と館の解説文章の権利を区別する。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-20888",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-14639-001.jpg",
+      "status": 200,
+      "sha256": "0a3517523297a8bdd19d08e490505314ca891eb3ef251844ec4cb2f0a6e9fd97",
+      "byte_length": 3728668,
+      "width": 4000,
+      "height": 3002,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の公式原JPEGの全量SHA・寸法の旧監査を継承。今回の再取得ではない。"
+    },
+    {
+      "id": "met-20888",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-14639-001.jpg",
+      "status": 200,
+      "sha256": "fed1bf829d34c8e95e5374df96c0ef8eb14be699dd7802cba229ba2809625463",
+      "byte_length": 119461,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の表示用JPEG SHA・バイト長の登録記録を継承。今回の再取得ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "検索された本作品の画面資料とMet公式の人物・行為の説明、Met寄贈Commons同所蔵画像の同定情報を照合。",
+    "observed": "冬の農場の木造建物前、白人男性二人が台上で七面鳥を処理し、その間で若い黒人の人物が手を温める。雪の地面と右側につるされた鳥。前に黒人人物が作業したとは読み取れない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "公式ページを改めて読み、既存日本語の3段落を各事実・作品の観察・Metの解釈に分解して確認。図像の同定・感情索引・Metの権利ページを照合し、未確認の動作の断定を修正した。",
+    "limitations": "同一AIによる別工程であり、第三者・別AI・別コンテキスト監査ではない。SHAは登録当時の記録を継承し、今回JPEG全量を取得したわけではない。法的な非侵害保証ではない。",
+    "reviewed_artwork_sha256": "8b7d136b843aa168fcf070ec3706850611a66b4151ef056f1e057ea8303a19cf",
+    "reviewed_visitor_draft_sha256": "296aca70a1bf7dec4787710485d4ae58fdaec67f00886ae8b41f2683b900f22c",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 20888、2016.797.19、Francis William Edmonds、1851、キャンバス油彩。MetとCommonsのID・図像の描写が一致する。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "オランダ風俗画の影響、1850年代の奴隷制拡張論争とMetの人種表象の批評を確認。作者本人の確定的な制作意図とはしない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『期待』2は祝日の準備という場面、補助『喜び』1は弱い祝祭の入口。黒人人物の類型化を無視して楽しいだけと扱わない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "日本語3段落は館の記述から事実・推定の範囲を分けて書いた独立の解説。『作業の手を止め』という根拠のない描写を削り、長文の逐語訳・転載を避ける。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "8b7d136b843aa168fcf070ec3706850611a66b4151ef056f1e057ea8303a19cf",
+    "visitor_draft_sha256": "296aca70a1bf7dec4787710485d4ae58fdaec67f00886ae8b41f2683b900f22c",
+    "proposal_sha256": "8a679a8bbe4c66529bd53aa4d8258c2ce65c2924d6c6f130cc2aafd50ffb7117",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_historical_sha256",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "no_curation_changes",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHubの対象レコードに対するJS版整合・SHA検査を行った。Python preview/save/checkとActionsはPRで別途実行して確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-20888.json",
+    "sha256": "8a679a8bbe4c66529bd53aa4d8258c2ce65c2924d6c6f130cc2aafd50ffb7117",
+    "proposed_artwork_sha256": "8b7d136b843aa168fcf070ec3706850611a66b4151ef056f1e057ea8303a19cf",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA CC0 images",
+      "3(b) museum text and FAQ"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Public Domain/Open Access/CC0画像と美術館作成解説は別の権利。日本語本文は事実を独立表現で簡潔に説明。法律上の非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存日本語の過剰な動作断定のみ、先行コミットで変更。感情タグ・画像・選定資料は不変更。",
+    "画像の旧SHA実測と今回の作品画面確認を混同しない。",
+    "PRのCI合格とmainマージ後にのみ54/300を完成と数える。"
+  ]
+}
