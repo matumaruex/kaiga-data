@@ -1,0 +1,165 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-37992",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "07accdc1067a2e17a78e33d58963e2c86e2965ff",
+    "artwork_record_sha256": "8c9b6e8623b1d7b5c7977897ea70d290e50fbcdc7eb77082585314e96a720cd9",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-37992.json",
+    "draft_sha256": "73317d6ace40191cbc1d6eb2c330d2255f2d96e85f4d3c5044d8f71b69fe96ab"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/37992",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: nayika types, comma-shaped opening in the shawl, glimpse of shoulder and face, gaze and flexed hand as expression of ardor",
+        "Artwork Details: ca.1790–1800, India Punjab Hills Kangra, ink opaque watercolor and gold on paper, Met 18.134.3, public domain"
+      ],
+      "observed": "Met個別作品解説と同作品の公式公開図版を再閲覧。視線は上向きではなく、うつむき気味に曲げた手へ向かう。原文は『肩の動き』ではなく見える肩とショールの形を説明する。"
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/74691",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: eight nayika types; Abhisarika ventures to rendezvous through storm, serpents and demons",
+        "Artwork Details: distinct comparative work, Met 2008.359.34, not the target work"
+      ],
+      "observed": "比較作品のアビサーリカー類型は恋人との逢瀬へ向かう主人公。嵐・蛇・悪霊は比較作品固有の絵であり、このMet 37992の画面の事実として混同しない。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Anonymous_-_Abhisarika_Nayika%2C_a_Heroine_Longing_for_Her_Lover_-_18.134.3_-_Metropolitan_Museum_of_Art.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met ID37992 and accession 18.134.3, 2907×4000 image dimensions and Met official photograph",
+        "Met image donation and CC0 license"
+      ],
+      "observed": "原JPEGと同一の外部公開図版の所蔵番号・寸法・権利情報を照合。画像バイトSHAの新規再測定とは混同しない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "Copyright and Proprietary Rights",
+        "3(a) OA images CC0",
+        "3(b) protected museum materials"
+      ],
+      "observed": "所蔵品のOA図像と学芸員解説文章の権利を区別する。既存日本語3段落は独自の説明であり原文の実質的な逐語翻訳を避けている。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-37992",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP152309.jpg",
+      "status": 200,
+      "sha256": "eaff339bea55c126bce518e954ae531d2daec78764b5db13a62cb1581c83dcf9",
+      "byte_length": 2771743,
+      "width": 2907,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet原JPEGの全量SHA・寸法の旧実測を継承。Commonsで同画像の2,771,743バイト・2907×4000を確認。本日新規SHA実測していない。"
+    },
+    {
+      "id": "met-37992",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP152309.jpg",
+      "status": 200,
+      "sha256": "378f4892f329bfd147a754456142565c68f2b0b735c78e1c1d82cbf48fe40950",
+      "byte_length": 90800,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の表示JPEGバイトSHA記録を継承。今回全バイト取得していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式37992の公開画像の全体を視認し、MetのOverviewと同所蔵番号のCommons全景を照合。",
+    "observed": "細長い枠の内側、淡い緑の地面に白衣と金褐色ショールの女性が一人。額を少しうつむけ、曲げた腕の手を下に向けている。ショールの丸い切れ目から顔と片肩がのぞく。上空に薄灰色の雲があり、紫色の小花が足元に散る。隣の比較作品の嵐・蛇等の図像ではない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Met 37992公式解説と公式画像を別の工程で見直し、比較用Met 74691の類型説明を確認。日本語解説3段落の用語・画面・解釈、原画像・使用条件・感情との接点を検査し、選定索引とmeaning_basisの図像誤読3項目だけ改訂した。",
+    "limitations": "同一AIの同じ会話内での別パスであって別AIや第三者審査ではない。JPEGのSHAは旧実測値の継承、今回は公式画像を視認しただけで再取得していない。権利非侵害を法的に保証しない。",
+    "reviewed_artwork_sha256": "c93c456cb0b1e6e82a593c5acf0abd6e49a2e1ddb379a985f2e9ef2d774e11cc",
+    "reviewed_visitor_draft_sha256": "73317d6ace40191cbc1d6eb2c330d2255f2d96e85f4d3c5044d8f71b69fe96ab",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Kangra 1790–1800、Met 37992／18.134.3、紙にインク・不透明水彩・金、15.2×9.5cm、作者未特定。公式・Commons所蔵画像同定が一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met個別作品のショール曲線・肩・顔・視線・曲げた手と恋の情熱を確認。比較用Met 74691は一般的なアビサーリカー類型の説明にのみ使用。別作品の嵐・蛇を本作に混入させない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『期待』2は恋人との逢瀬を望む気持ち、補助『未練』1は強い慕情に対応する弱い連想。失恋や待ち時間を確定する意味ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落はMet作品ページの具体的な構成と一致し、比喩の勾玉形も原文のcomma-shapedからの自然な説明。比較作品の話を当該作品の直接事実と混同せず、長文逐語訳・転載を避ける。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "c93c456cb0b1e6e82a593c5acf0abd6e49a2e1ddb379a985f2e9ef2d774e11cc",
+    "visitor_draft_sha256": "73317d6ace40191cbc1d6eb2c330d2255f2d96e85f4d3c5044d8f71b69fe96ab",
+    "proposal_sha256": "b1970670e36d3a9e8b80d2f98832316d915ba96105a0a7b316a890e7fe0e113f",
+    "checks": [
+      "baseline_artwork_sha256",
+      "three_reviewed_curation_changes",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_historical_sha256",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JavaScriptで版・SHA・対象外レコード不変を確認。Python preview/save/checkおよびCIはPR側で別途検証。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-37992.json",
+    "sha256": "b1970670e36d3a9e8b80d2f98832316d915ba96105a0a7b316a890e7fe0e113f",
+    "proposed_artwork_sha256": "c93c456cb0b1e6e82a593c5acf0abd6e49a2e1ddb379a985f2e9ef2d774e11cc",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access CC0",
+      "3(b) protected museum texts"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "本作品のMet Public Domain図像はOA/CC0。Metによる解説文章の著作権は別。既存日本語本文は独自表現の解説であり実質的な逐語翻訳・長文転載をしていない。ただし法的非侵害の保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "curationの視線・肩・待機状況の誤読のみ3箇所を限定修正。既存日本語本文と感情・画像は維持。",
+    "比較作品Met 74691の場面を当該作品の図像に転用しない。",
+    "旧JPEGのSHAと今回の画面確認は別。",
+    "CIとmain統合後にのみ56/300と数える。"
+  ]
+}
