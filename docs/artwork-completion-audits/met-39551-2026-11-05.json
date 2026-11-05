@@ -1,0 +1,155 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-39551",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "276ccd45ebb6749d06834fd2747611b019cf2b3a",
+    "artwork_record_sha256": "6c640df026f1986a947c50d008198059312613bd31d91ac313c3cb8a9ecca599",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-39551.json",
+    "draft_sha256": "fab34c757b9069f4ddfa3edbfe66f91a5e81e8369b30e72e9bf3e60e252ec2b8"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/39551",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview第1段落: large colorful palace bird and flower painting at court of Hongzhi emperor, Lü Ji's court reputation",
+        "Overview第2段落: mandarin ducks signify happy marriage; hibiscus furong with cassia gui forms furong qigui 夫榮妻貴 as wedding blessing",
+        "Artwork Details: late 15th century, Lü Ji, Ming dynasty, hanging scroll ink and color on silk, object number 2005.494.2, Public Domain"
+      ],
+      "observed": "Met所蔵番号・文化・制作時代・画面主題と、英語解説の仮定表現を再照合。特定の婚礼制作・作者や注文主の感情は直接の事実とせず、既存本文の留保を確認。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:L%C3%BC_Ji_-_Mandarin_ducks_and_cotton_rose_hibiscus_-_2005.494.2_-_Metropolitan_Museum_of_Art.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met accession 2005.494.2, Met object ID39551, Met原画像DP-16766-002.jpg, 2181x4000, CC0"
+      ],
+      "observed": "公式登録原JPEGと同じ画像名・所蔵番号・寸法を別の資料で確認。旧原JPEG SHAを今回再計算したとは扱わない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) Open Access CC0 image",
+        "3(b) non-OA museum prose"
+      ],
+      "observed": "作品画像のオープンアクセス表記と館の解説本文の再利用条件を分離して確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-39551",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-16766-002.jpg",
+      "status": 200,
+      "sha256": "85bed6af6067e04e889e4aa4348534ba8bf1965a5da19ce7a2b1c357e3fe8b73",
+      "byte_length": 2431088,
+      "width": 2181,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "data/image-sources.json内の2026-10-20原JPEG全バイトSHA・寸法・縮小同一性の旧記録を継承。今回は再ダウンロードなし。"
+    },
+    {
+      "id": "met-39551",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-16766-002.jpg",
+      "status": 200,
+      "sha256": "59e2f869d688d6730ff3f0e9e884bb020f3ed2d88a95c96604cb4f96bb587cc4",
+      "byte_length": 71453,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18にMet API primaryImageSmallをHTTP+JPEG SHA照合した旧実証を再利用。公式Web目視とは別の証拠。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式ID39551のIIIF図版（collectionapi.metmuseum.org/api/collection/v1/iiif/39551/1865838/main-image）を今回直接表示し、同所蔵番号2005.494.2に対応する全画面を確認。Met由来のCommons原画像名・寸法と一致を点検。原JPEGのバイトSHAは旧記録を継承。",
+    "observed": "縦長の大きな絹本花鳥図。右手に太い樹幹、中央にピンクと白の芙蓉らしい花群、画面下に二羽の鮮やかなオシドリが水辺で向き合う。上方には黒白の鳥が枝近くで羽ばたき、木の葉・実・白い小花も見える。婚礼の象徴はMetによる画中モチーフの読解であって実際の注文目的を保証しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "最初にDBの鑑賞本文・検索用解釈と画像台帳を調べ、別工程でMetの作品番号・文書説明・実際の全景IIIF図版を確認。さらにCommonsの同所蔵番号とCC0・Metの文章権利規約を参照し、幸福な婚礼という象徴と実際の注文事実を区別しタグの接点を再点検。",
+    "limitations": "同じAIの同一会話内で別工程として行ったレビューであり、別AI・第三者の独立監査ではない。旧2026-10-18/20 JPEGの全バイトハッシュは今回再取得・再計算していない。作品の美術史的事実と近現代の権利判断の法的保証は別。",
+    "reviewed_artwork_sha256": "6c640df026f1986a947c50d008198059312613bd31d91ac313c3cb8a9ecca599",
+    "reviewed_visitor_draft_sha256": "fab34c757b9069f4ddfa3edbfe66f91a5e81e8369b30e72e9bf3e60e252ec2b8",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met ID39551、2005.494.2、呂紀、明代15世紀末、絹本墨彩の掛軸、2005年寄贈。画面全景と登録画像DP-16766-002が同一作品である。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metは宮廷で飾られた場合の視覚効果を仮定し、オシドリのつがいを幸福な結婚、芙蓉・桂の掛詞を『夫榮妻貴』として説明。元の本文は作品が特定の婚礼に注文されたか不明と留保している。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『喜び』2は婚礼への吉祥祝福という作品主題からの自然な入口、補助『希望』1は将来の夫婦繁栄への願いを示す弱い接点。実際の鳥・画家・注文主の感情を診断するものではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語6段落は画面の特徴と宮廷背景・掛詞を自分の日本語で整理している。館の英語の長文引用・逐語訳をしておらず、象徴と注文事実の違いも明記。画像CC0を美術館英文の転載許諾と混同しない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "6c640df026f1986a947c50d008198059312613bd31d91ac313c3cb8a9ecca599",
+    "visitor_draft_sha256": "fab34c757b9069f4ddfa3edbfe66f91a5e81e8369b30e72e9bf3e60e252ec2b8",
+    "proposal_sha256": "9f4ffe6185206d3b9972d3c4d842e5297bf28d639c7df3d2687f484b6deff6de",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "最新mainの対象版、既存日本語本文と新設草稿の完全一致、旧登録JPEG SHA、300件重複なしと対象外不変を照合。実際のcomplete_artwork.pyとGitHub Actionsの検査成功・main統合を別に確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-39551.json",
+    "sha256": "9f4ffe6185206d3b9972d3c4d842e5297bf28d639c7df3d2687f484b6deff6de",
+    "proposed_artwork_sha256": "6c640df026f1986a947c50d008198059312613bd31d91ac313c3cb8a9ecca599",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA/CC0 images",
+      "3(b) non-OA museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met 39551の公式画像はPublic Domain、Met由来のCommons同画像はCC0。学芸員解説の英語表現は画像OAと別であり、現在の独自日本語解説は研究情報を短文で組み直して長文翻訳転載をしない。法律上の非侵害を保証するものではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "現存鑑賞本文はmainにあるがdraftファイル未登録のため、同一内容の審査草稿を新設。本文・選定資料・画像URLに変更はない。",
+    "2026-10-18/20の旧JPEGバイト実SHAと今回Met公式IIIF図版目視を区別。",
+    "CI・main統合後のみ正式39/300。"
+  ]
+}
