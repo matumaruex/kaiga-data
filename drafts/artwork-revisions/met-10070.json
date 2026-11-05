@@ -1,0 +1,28 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-10070",
+  "baseline_commit": "fcb9037acabf16efc1f263abf0a1962e4ae77e91",
+  "baseline_artwork_sha256": "e305360d9e8d1ba3f34947d0ea7012ff6e320e9968663ffcfda5c8358b668942",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "一人で佇む女性の明るい輪郭と遠くへ開ける風景。",
+      "after": "腰掛けて物思いにふける女性と、背後に広がる山々。柔らかな光と大気の表現。",
+      "reason": "Metの作品画像を照合したため。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/10070"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-10070.json",
+  "visitor_draft_sha256": "cb3ed90d4bf06803e437d7327d291aea03076762dee60328e5be0513dbace193",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "124ef853945913f1c79581335f9b0020d50da60891f8b1782bb6e1c98f575558",
+  "explanation": "公式作品資料と図版を照合し、姿勢の描写一か所だけを修正。"
+}
