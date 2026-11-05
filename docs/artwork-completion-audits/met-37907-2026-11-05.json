@@ -1,0 +1,154 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-37907",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "9d1879fbe6d55051407f33ec4b1276a87c34f61c",
+    "artwork_record_sha256": "3b0d5997c747820a5d40a9fe8722bfc3d220b1c50e07968e6da261da9562f22c",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-37907.json",
+    "draft_sha256": "413b322dfafdff4f3abe75b950a4e4f54bb13cea3b18ffe45fa3e51a39b3fbf4"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/37907",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: usual theme is a lady waiting for her lover; she stands at the door, possibly looking out for him",
+        "Overview: empty bed and handmaidens who attempt to cool and placate her; type appears in music, dance, religious and secular literature",
+        "Artwork Details: India (Rajasthan, Mewar), ca. 1680, Ink and opaque watercolor on paper, object number 52.93.4, painting, Public Domain"
+      ],
+      "observed": "Met公式本文を検索結果と作品ページの別経路で照合し、作品名・所蔵番号・年月・絵の情景と、既存日本語の推定表現を確認。"
+    },
+    {
+      "url": "https://www.metmuseum.org/ja/policies/image-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Open Access policy: Met public-domain work images are supplied under CC0; basic collection data distributed under CC0"
+      ],
+      "observed": "対象の作品ページにPublic Domain表示、Open Accessの画像条件は公式画像・データに対するものと確認。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "Section 1 Copyright and Proprietary Rights: text and other materials unless OA-designated retained",
+        "Section 3(a) Open Access / CC0 and Section 3(b) non-OA museum materials"
+      ],
+      "observed": "画像のPublic Domainと学芸員解説テキストの権利条件を混同しない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-37907",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/52_93_4.JPG",
+      "status": 200,
+      "sha256": "6bbd933f13e8546164022a83865ee0106dbbefc3bdf65961dfd6f6de06362f9c",
+      "byte_length": 139923,
+      "width": 576,
+      "height": 925,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20に登録された原JPEGの完全バイトSHAと寸法、縮小画像の照合記録を再利用。今回は再取得していない。"
+    },
+    {
+      "id": "met-37907",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/52_93_4.JPG",
+      "status": 200,
+      "sha256": "d3e11f6a289cdd3187054ff992f3fb81c8c6c7fcd474bec0cf7c45c92a9a2ef7",
+      "byte_length": 72370,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met API primaryImageSmallを2026-10-18にHTTP/JPEG/SHA検証した既存記録を継承する。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式ID37907の作品ページに掲載された公式IIIF main-image（collectionapi.metmuseum.org/api/collection/v1/iiif/37907/82153/main-image）を今回直接表示し、52.93.4の題名・同所蔵番号に対応する画面を確認。旧原・表示JPEGの現バイト再取得とは区別する。",
+    "observed": "縦長の褪色した細密画。上部に建物の屋根と壁、中央の戸口付近に女性が立ち、広げた扇状の道具を持つ女性がそばにいる。室内に横長の寝台が描かれ、右に複数の女性がいる。下部に庭と人物が配される。同題の別版（孔雀を伴う女性など）ではなくMet 52.93.4の図版。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "最初にmainの現存作品レコードと日本語草稿を読み、別工程でMetの同作ページと実際の公式IIIF画像を確認した。さらに原・表示画像の旧ハッシュ台帳と、画像OAと文章表現の権利を分けて吟味し、感情検索索引・断定の有無を点検。",
+    "limitations": "同一AIの同一会話内での別パスレビューであり別AI／第三者の独立審査ではない。画像の全バイト再取得・SHA256再計算は今回実施せず旧検証を継承。法的な非侵害保証ではない。",
+    "reviewed_artwork_sha256": "3b0d5997c747820a5d40a9fe8722bfc3d220b1c50e07968e6da261da9562f22c",
+    "reviewed_visitor_draft_sha256": "413b322dfafdff4f3abe75b950a4e4f54bb13cea3b18ffe45fa3e51a39b3fbf4",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met ID37907、52.93.4、Kakubha Ragini、India Mewar Rajasthan、約1680年、紙に墨と不透明水彩。無名の作者。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metは戸口に立つ女性が恋人を待つ『可能性』を空の寝台と侍女の冷却・慰めで支持する、という慎重な推定。日本語の『かもしれない』は原文に忠実。絵の慣習に多様性がある旨も保持。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『期待』強度2は恋人を待ち望む女性という習慣的題材、補助『寂しさ』強度1は恋人の不在と待つ状態への弱い関連。失恋や確定的孤独と結びつけず、鑑賞者・作者の心情を断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "2段落の日本語解説はラーガマーラーの基本とMet個別解説の各根拠を自然な日本語に構成。館の英語原文を長文引用・逐語訳しておらず、画像OAをテキスト利用許諾に拡張しない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "3b0d5997c747820a5d40a9fe8722bfc3d220b1c50e07968e6da261da9562f22c",
+    "visitor_draft_sha256": "413b322dfafdff4f3abe75b950a4e4f54bb13cea3b18ffe45fa3e51a39b3fbf4",
+    "proposal_sha256": "c8d1a4d71f118be3b1a23094ac2017622958f11a14fb731ed286bc98899626f2",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "実行前に最新mainの作品内容ハッシュ・既存本文と草稿の一致・300ID一意性・旧原画像の登録値を照合。PRで既存Python validator・check・GitHub Actionsの成功を別途確認し、それまでは正式完成に加えない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-37907.json",
+    "sha256": "c8d1a4d71f118be3b1a23094ac2017622958f11a14fb731ed286bc98899626f2",
+    "proposed_artwork_sha256": "3b0d5997c747820a5d40a9fe8722bfc3d220b1c50e07968e6da261da9562f22c",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access / CC0 images",
+      "3(b) non-OA text and other materials"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "同作Met作品ページはPublic Domain表示。MetのOAポリシーでは対象作品の画像と基本データはCC0。所蔵館の説明文表現には別の権利があるため、既存の鑑賞日本語文章の自然な独自表現を維持し、大幅な逐語翻訳・引用は行わない。利用条件の完全な法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存日本語本文・画像URL・感情索引を変えず、この作品の監査とcompletionだけ追加。",
+    "過去のJPEG実SHAと今回のWeb図版目視は別記録。",
+    "自動テスト／main統合まで完成数35のままとする。"
+  ]
+}
