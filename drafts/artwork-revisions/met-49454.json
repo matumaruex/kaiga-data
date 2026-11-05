@@ -1,0 +1,41 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-49454",
+  "baseline_commit": "0c502895d8d01bcc41d5e96c31f78927c6313508",
+  "baseline_artwork_sha256": "747b9112cb56534255792ae4874e0ba145fd67c96df101e497c81b94457a7990",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "人気のない山で湧き水に触れる一人の人物を描き、詩を添える。",
+      "after": "山と木々を描く折り扇の山水画で、上方には作者の題詩がある。泉に生気を得る孤独な人物は詩に登場するが、画面にその人物がいるとは確認できない。",
+      "reason": "画面上の人物を確実に同定できず、所蔵館が示すのは画賛の詩の内容。詩中の登場人物を描画事実と混同しない。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/49454"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "1885年の胡遠の扇面山水画。作者による画賛は、人のいない山と湧き水で気分を新たにする旅人を述べる。",
+      "after": "1885年の胡遠の扇面山水画。作者による画賛は、人けのない山の泉の流れに元気づけられる一人の人物をうたう。",
+      "reason": "Met掲載の詩はlonely manとするのみで旅人と特定しないため『旅人』を外す。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/49454"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-49454.json",
+  "visitor_draft_sha256": "8eadade6ebd8d481362c36149d5b5d9dd4d7528f2eca0173006c1f16f73dd7b6",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "f4caef420a3e8dcad90d7ebeed290667b3d09f101e6aa9f16236cd57f46b7245",
+  "explanation": "胡遠《山水図》（Met 49454、1986.267.31）1885年の折り扇山水画。Met掲載の画賛は雨上がりの楓林と夕映え、孤独な男が泉の流れに活気を得る情景を描写する。公式図版で扇形の山・楓樹・題詩を照合したが、詩の男性が画中に描かれているとの確証は無い。元のvisual_cluesの『一人の人物を描き』、creation_contextの『旅人』という断定をこの作品の選定資料に限って修正。既存日本語鑑賞本文は画賛の内容として正確であり変更しない。主『孤独』『安心』2は詩の情景を鑑賞者側の入口として維持。"
+}
