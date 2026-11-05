@@ -1,0 +1,162 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-52988",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "ad742ac6e4bde23f9186e5d6493dd638a62bdb69",
+    "artwork_record_sha256": "b9674a18a4df43a6f407493e83dac27cdf3d5746abc921e2e130f9de259927dc",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-52988.json",
+    "draft_sha256": "47a0de022583c813d9b867559e0e488845cf7b887aefeaf1a06aa090674c51d7"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/52988",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: more than twenty surviving sheets from tenth-century Tales of Ise",
+        "Overview: courtier meets monk, distant Kyoto lover, waka translated by J. T. Carpenter",
+        "Artwork Details: painting Sōtatsu; calligraphy Takeuchi Toshiharu; ca. 1634; Met 2015.300.88; public domain"
+      ],
+      "observed": "Met公式作品ページを再確認し、本文の主要叙述・作者と書き手・所蔵番号・年代・画像公開条件を照合。和歌の恋人を宗達本人の経験としない。"
+    },
+    {
+      "url": "https://keirinkan-online.jp/high-classic-japanese/20201027/505/",
+      "access": "page_read_once",
+      "locations": [
+        "第九段『東下り』宇津山の原文と現代語訳",
+        "暗く細い山道・蔦と楓・心細さ・修行者と手紙の記述"
+      ],
+      "observed": "館ページにはない暗い細道と蔦楓などの背景は絵そのものではなく『伊勢物語』第九段に確認できる。元の鑑賞文は物語説明としては根拠があり、削除しない。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:MET_DP352201.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met object ID 52988, accession 2015.300.88",
+        "Met photographic source and CC0 metadata"
+      ],
+      "observed": "Met公式の同一作品ID・所蔵番号・画像出典・CC0を確認。登録JPEGそのものの今回新規バイト取得を意味しない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Open Access designation and use of CC0 images",
+        "Image reuse and limits of CC0"
+      ],
+      "observed": "作品画像のOpen Accessと、館の文章の転載許諾を混同しない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-52988",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP352201.jpg",
+      "status": 200,
+      "sha256": "5c0de283dacc8394d462f92ce4c2b05e650cb7c6ea937d7403fb4a4e8323b2e3",
+      "byte_length": 2859177,
+      "width": 2909,
+      "height": 3880,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の登録原JPEG SHA・全量検証を継承。今回ダウンロード未実施。"
+    },
+    {
+      "id": "met-52988",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP352201.jpg",
+      "status": 200,
+      "sha256": "2d778d70628997c5b5c1b9c5168dbb4463d75e57df9f1277f40a963e826455ae",
+      "byte_length": 73522,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の既存表示JPEG実測に依拠。今回ダウンロード未実施。"
+    }
+  ],
+  "visual_observations": {
+    "method": "同所蔵番号の公開図版とMet掲載の館図録の図版説明、旧登録の出典画像を突き合わせる。",
+    "observed": "金色の地に緑色の山の起伏、馬を伴う旅人、模様のある衣の貴人、道を上る人物、上部に書を描く色紙。画面の色彩は明るく、暗い細道・生い茂る蔦楓は画面描写ではなく古典本文の場面設定として区別。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初回のMet作品概要との照合後、あらためて館の作品情報・第九段の古文原文と現代語訳・同作品CC0図版の資料を別工程で比較し、作品固有の年代、主題、既存日本語本文、感情と権利を検証。",
+    "limitations": "同一AIによる別工程で第三者や別AIの独立監査ではない。JPEG全量SHAは旧記録を継承し、新規取得なし。PDFスクリーンショットの再取得は失敗。法的保証ではない。",
+    "reviewed_artwork_sha256": "b9674a18a4df43a6f407493e83dac27cdf3d5746abc921e2e130f9de259927dc",
+    "reviewed_visitor_draft_sha256": "47a0de022583c813d9b867559e0e488845cf7b887aefeaf1a06aa090674c51d7",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 52988／2015.300.88、約1634年、俵屋宗達の絵と竹内俊治の書。公式の出所を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "歌に描かれる旅人は京の恋人に現実でも夢でも会えない。修行者との出会いは物語の筋で、宗達の個人的証言ではない。暗い細道・蔦楓の詳細は伊勢物語九段に由来し、色紙の実際の色ではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『寂しさ』3は遠距離と夢にも会えない歌に直接対応。補助『未練』1は遠くの人への思慕に限定。タグを作者の気分に帰さない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語は公開された古典本文とMetの短い作品紹介を参照した独自の案内文であり、Met英文の長文逐語転載や英訳の転載ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "b9674a18a4df43a6f407493e83dac27cdf3d5746abc921e2e130f9de259927dc",
+    "visitor_draft_sha256": "47a0de022583c813d9b867559e0e488845cf7b887aefeaf1a06aa090674c51d7",
+    "proposal_sha256": "1be9d0981a1c5a13f39811b33d550caaa45721326975a989320f306e04ce2c5b",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "draft_matches_catalog",
+      "record_hash",
+      "historical_image_hash_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JSで構造・対象外299不変・ハッシュ・感情を点検。GitHub ActionsによるPython検査・CIはPR作成後に別途確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-52988.json",
+    "sha256": "1be9d0981a1c5a13f39811b33d550caaa45721326975a989320f306e04ce2c5b",
+    "proposed_artwork_sha256": "b9674a18a4df43a6f407493e83dac27cdf3d5746abc921e2e130f9de259927dc",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Open Access public-domain image CC0",
+      "Download and reuse restrictions",
+      "Third-party rights caveat"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品はPublic Domainで、登録のMet公式OA画像と同所蔵番号のCommons CC0を照合。既存鑑賞本文は日本語の独自案内で、館の英語本文や翻訳文を長文転載しない。法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存日本語・選定情報・感情・画像は変更不要。文学本文にある暗い道を絵の外観と誤認しない。",
+    "JPEG旧実測と今回の公開図版の視認を明確に区別する。",
+    "CI合格・main統合後のみ61/300に加算。"
+  ]
+}
