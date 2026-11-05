@@ -1,0 +1,158 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-764092",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "34fea1d8bf5c5c3142ea1e70c58a8f731eb27f41",
+    "artwork_record_sha256": "9fa9da8aee3cb5d0ca7ebb6f3530b6e70d9aeffdce39a78c5f984f1734761575",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-764092.json",
+    "draft_sha256": "f617c41a52a496d397a2d0657b9c75ce98af9edb887d7ff7a870ced4906851c0"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/764092",
+      "access": "page_read_twice",
+      "locations": [
+        "Artwork Details: Unknown Cuzco artist, Peru, ca. 1730–40, 2018.652.4, Public Domain",
+        "Overview: mule, white-robed Mercedarian friar, plumed traveling hats, lilies, shackles, scapular, golden trappings",
+        "Overview: Dutch pirates at sea as legend, 1706–1735 peregrinations, probable commission"
+      ],
+      "observed": "Met個別作品解説の同定・巡礼のための宗教画像・慈悲の聖母子の図像・奇跡の伝承を直接照合。日本語解説は伝承を実証史実として断定していない。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Unknown_-_Our_Lady_of_Mercy%2C_called_%E2%80%9CThe_Pilgrim_of_Quito%E2%80%9D_-_2018.652.4_-_Metropolitan_Museum_of_Art.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met museum object 764092, accession 2018.652.4",
+        "image 4000 x 3175, DP-22602-001, donated by Met",
+        "CC0 1.0"
+      ],
+      "observed": "同所蔵番号に紐づく公開全景で白衣の修道士・ラバ・金飾り・聖母子・背後の風景を照合。公開ファイルとMet JPEGバイトは同一と仮定しない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) Open Access CC0 images",
+        "3(b) non-OA museum text"
+      ],
+      "observed": "Open Access図版と学芸員の解説文章の権利を区別した。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-764092",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-22602-001.jpg",
+      "status": 200,
+      "sha256": "024be1cf5d5fa27a25d1e1daaca081daa540844d34feefe1ec21881a86d1f4b7",
+      "byte_length": 5583553,
+      "width": 4000,
+      "height": 3175,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の旧Met原JPEG全バイトSHA記録を継承。今回再ダウンロードしたとは扱わない。"
+    },
+    {
+      "id": "met-764092",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-22602-001.jpg",
+      "status": 200,
+      "sha256": "20d7c10f3d38b5e1c0891749ed3f1ae6b94b1205da88c394d8702b7e023e0cb9",
+      "byte_length": 132843,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の旧Met縮小JPEG全バイトSHA記録を継承。今回の視覚的照合とは区別。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式画面と同所蔵番号のCommons全景を比べる。",
+    "observed": "左で白衣の修道士が黒いラバを先導、ラバに載る金色の衣装の聖母子が旅帽子をかぶる。画面奥は海と山々の風景、海中の小場面はMet解説が奇跡伝承として記述する。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Met作品個別説明の制作情報・寄進のための巡礼・図像・伝承と同所蔵番号の公開画像を別パスで確認。既存日本語の記述と照らし、感情タグが宗教的な守護・慈悲への願いにとどまり作者の心理を断定していないことを検証。",
+    "limitations": "同じAIの同一会話内での別パスであって、別AI・第三者の独立審査ではない。JPEGの完全バイトSHAは2026-10-19/20の継承であり再取得ではない。権利非侵害の法的保証は行わない。",
+    "reviewed_artwork_sha256": "9fa9da8aee3cb5d0ca7ebb6f3530b6e70d9aeffdce39a78c5f984f1734761575",
+    "reviewed_visitor_draft_sha256": "f617c41a52a496d397a2d0657b9c75ce98af9edb887d7ff7a870ced4906851c0",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Unknown Cuzco artist、ca.1730–40、Met ID764092、2018.652.4。メトロポリタン美術館の同一番号図版を確認した。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "宗教画は守護の聖母像の巡礼と寄進活動を描き、海賊に関する出来事は奇跡の伝承であり、確認された歴史的事実とは別。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『希望』『安心』は救済への宗教的な期待と守護の願い、補助『慈しみ』は聖母子の題材との具体的な接点であり作者の心理の断定ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落は公式情報の事実・解釈を独立した日本語で説明しており英文の逐語翻訳や長文転載ではなく、各主要主張に館の根拠がある。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "9fa9da8aee3cb5d0ca7ebb6f3530b6e70d9aeffdce39a78c5f984f1734761575",
+    "visitor_draft_sha256": "f617c41a52a496d397a2d0657b9c75ce98af9edb887d7ff7a870ced4906851c0",
+    "proposal_sha256": "5d1f8787d2a96d3e651f69b6ca5f91401db453953e47af32d2ba6457e326c73a",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "今回のプログラム事前照合はレコードと既存下書きの一致・旧ハッシュの一致を確認。Python登録ガードとGitHub Actionsの実行成否はPR後に確かめる。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-764092.json",
+    "sha256": "5d1f8787d2a96d3e651f69b6ca5f91401db453953e47af32d2ba6457e326c73a",
+    "proposed_artwork_sha256": "9fa9da8aee3cb5d0ca7ebb6f3530b6e70d9aeffdce39a78c5f984f1734761575",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access CC0 images",
+      "3(b) non-OA museum prose"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "MetのPublic Domain作品とOpen Access CC0画像の利用条件を、Metが制作した解説文章の権利と分離。既存日本語本文は独立した説明として作成。法的に非侵害の保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存の日本語解説・感情タグ・画像登録値を維持、監査とcompletionのみ追加。",
+    "JPEGの旧実測と今回の視覚的照合を区別。",
+    "同一AI別工程を別AI・第三者監査とは呼ばない。",
+    "PR Actionsとmain統合後のみ48/300。"
+  ]
+}
