@@ -1,0 +1,166 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436840",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "0e53191420d4d75c79950b15d79cf6bc6b510755",
+    "artwork_record_sha256": "f1acddd2c7d062e4ec1d2068f9e89baa1c8072f67eba6cf3767c0cc603f9bb12",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436840.json",
+    "draft_sha256": "4ecbdf2cd35e6d5443ac0d5f66be16b40c7b2fc7cc961302eb59eb8198e87f0e"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436840",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: 1783 French Academy women membership limited to 4, Labille-Guiard and two pupils",
+        "Overview: 1785 Paris Salon, successful exhibit, interpreted advocacy and impractically elegant dress",
+        "Audio 5019: woman artist's professional self-presentation, technical virtuosity in silk and lace, floor reflections, students",
+        "Artwork Details: Adélaïde Labille-Guiard, 1785, 53.225.5, Public Domain"
+      ],
+      "observed": "Met作品解説と音声Transcriptを確認し、アカデミー制度と1785年サロン、絹衣装と絵筆、弟子二人の専門的な解釈が既存本文と整合していることを確認。"
+    },
+    {
+      "url": "https://www.metmuseum.org/de/essays/adelaide-labille-guiard-1749-1803",
+      "access": "page_read_once",
+      "locations": [
+        "Katharine Baetjer: 2016 Met essay on Labille-Guiard",
+        "Artist's professional self-presentation and women painter membership limit; scholarly interpretation of advocating further women's admission"
+      ],
+      "observed": "Metの別の研究解説で既存意味資料の『専門家解釈』を追加点検し、画家自身の直接発言ではないことを維持。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Self-Portrait_with_Two_Pupils%2C_Marie_Gabrielle_Capet_%281761%E2%80%931818%29_and_Marie_Marguerite_Carreaux_de_Rosemond_%28died_1788%29_MET_DP320103.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met ID436840 and accession 53.225.5, DP320103, 2884×3894 pixel original",
+        "Met donated artwork image, CC0 dedication"
+      ],
+      "observed": "Met原画像と同じ番号・寸法の寄贈画像の被写体・CC0表記を確認。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) OA CC0 images",
+        "3(b) other Museum text"
+      ],
+      "observed": "作品画像と音声／学芸員解説の利用権利を分離して確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436840",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP320103.jpg",
+      "status": 200,
+      "sha256": "10e43b46feb716b4e4a9ede64577df40b4e7f23b436b5db12b007a4e130a600b",
+      "byte_length": 2652829,
+      "width": 2884,
+      "height": 3894,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の原JPEG全バイトSHA256・寸法・縮小一致の旧証拠を継承。今回再ダウンロードを行っていない。"
+    },
+    {
+      "id": "met-436840",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320103.jpg",
+      "status": 200,
+      "sha256": "18f310ea6192e230cd94dd7b2e58e42c78df8639b12a5f8bdbfc47aaa5ac025d",
+      "byte_length": 102704,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19のMet縮小JPEG全バイトSHA256を継承。今回再ダウンロードしていない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式436840と同作品53.225.5のMet寄贈Commons画像DP320103を参照。絵全体と人物・画材・衣装を照合。",
+    "observed": "縦長の油彩。大きなイーゼルの前に絵筆とパレットを手にした華麗な絹のドレスの女性画家が座り、その背後に若い女性弟子二人が立つ。磨かれた床に青白い衣装の反射が見える。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "先に登録中の6段落日本語と感情・旧JPEG台帳を検査。別工程でMet作品本文・音声5019・専門家記事とMet寄贈Commons原図版・OA規約を参照し、同一内容の草稿で検証できることを再確認。",
+    "limitations": "同一AIによる同一会話内の別工程であり別AI・人間の第三者独立監査ではない。旧画像SHAは2026-10-19/20の再利用で今回の再計算ではない。権利の法律的な非侵害保証はない。",
+    "reviewed_artwork_sha256": "f1acddd2c7d062e4ec1d2068f9e89baa1c8072f67eba6cf3767c0cc603f9bb12",
+    "reviewed_visitor_draft_sha256": "4ecbdf2cd35e6d5443ac0d5f66be16b40c7b2fc7cc961302eb59eb8198e87f0e",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Adélaïde Labille-Guiard、1785年、Met ID436840／53.225.5。女性画家と弟子二名の自画像でMet DP320103の全景図版と一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1783年王立アカデミー女性会員4人枠、1785年パリ・サロン展示と自己の職業的立場の主張。女性画家を支える意図はMetの専門家解釈で本人の書簡等の直接言明は未確認。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『希望』2は女性画家が技量・教育・地位向上を示す画面と資料上の関係、補助『期待』1は後進の社会的可能性への弱い関連。作者や鑑賞者の感情を事実化しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存の鑑賞本文は絹・レース・床の映りと女性の学習・社会的地位を独自日本語に構成し、Metの文章や音声を長文逐語転載していない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "f1acddd2c7d062e4ec1d2068f9e89baa1c8072f67eba6cf3767c0cc603f9bb12",
+    "visitor_draft_sha256": "4ecbdf2cd35e6d5443ac0d5f66be16b40c7b2fc7cc961302eb59eb8198e87f0e",
+    "proposal_sha256": "d0d339651a16b3810648556b9013a89a433e8ffe01bc2b28fa0223e054f660d4",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "44作品完成の最新mainから、当該作品の本文と草稿一致・旧JPEG登録値・300ID一意性・他299件不変更を点検。PythonガードとGitHub Actionsの実際の検査結果は別途確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436840.json",
+    "sha256": "d0d339651a16b3810648556b9013a89a433e8ffe01bc2b28fa0223e054f660d4",
+    "proposed_artwork_sha256": "f1acddd2c7d062e4ec1d2068f9e89baa1c8072f67eba6cf3767c0cc603f9bb12",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA CC0 images",
+      "3(b) non-OA museum text"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "公式Met所蔵画像とMet寄贈Commons DP320103はPublic Domain／CC0。所蔵館の文章・音声は別の権利であり、既存の独自日本語本文は必要な事実と専門家読解の要旨を再構成して長文逐語翻訳を避けた。法律上の保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存鑑賞本文・感情索引・画像は維持。新規草稿・審査記録とcompletionのみ追加。",
+    "旧JPEG SHA検査と今回のWeb作品図像確認を明確に区別。",
+    "CI合格・main統合後だけ正式45/300。"
+  ]
+}
