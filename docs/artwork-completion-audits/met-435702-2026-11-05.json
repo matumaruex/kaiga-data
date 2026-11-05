@@ -1,0 +1,159 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435702",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "9ec6f7bb669494f6c771c9c72e94ddbb39b5072a",
+    "artwork_record_sha256": "535bfb32c12d4eeea6174fa28c2c8cbc3fb8b8d1a765a6333a87ff8e2279fd6a",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435702.json",
+    "draft_sha256": "0d8bec877961e3e7b76bae6ad3f8ebe4926813b4f385636a0f460374e91a47ac"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435702",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: Paris Boulevard de l'Hôpital and Salpêtrière, sketching twice weekly for 1.5 years and wearing men's clothing",
+        "Overview: 1853 Paris Salon and George Stubbs, Géricault, Delacroix, Greek sculpture, 'Parthenon frieze'",
+        "Audio 6004: critics' reaction, bank buyers, 1855 changes",
+        "Artwork Details: 87.25, oil on canvas, 1852–55, dimensions 244.5×506.7cm, Public Domain"
+      ],
+      "observed": "Met公式の作品解説・音声書き起こしを2回確認。日本語鑑賞本文にある市場の位置・現場取材・先行芸術の参照・サロンの批評は館の説明と整合する。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Horse_Fair_MET_DT44.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "The Horse Fair MET DT44, Commons Met artwork 435702, accession 87.25",
+        "Metropolitan Museum of Art contributed same work; CC0 1.0 structured license",
+        "Image 3811×1962, wider landscape with horses and handlers"
+      ],
+      "observed": "Met公式IIIFの全画面とCommonsの同所蔵87.25作品の全景に、疾走する馬群、引き手、左遠景ドーム、右の観衆が合致。登録DP-23550-001とCommons DT44は別画像なのでバイト同一性は主張しない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) Met Open Access CC0 images",
+        "3(b) restrictions on museum text"
+      ],
+      "observed": "Met OA画像のCC0と学芸員による作品解説・音声の著作権を別に扱う。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435702",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-23550-001.jpg",
+      "status": 200,
+      "sha256": "c905acf8e02c24c5b30f90ad040a8afe43b7b8d2c65faf75b81ac3c53b535be2",
+      "byte_length": 2692523,
+      "width": 4000,
+      "height": 2043,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet原JPEG全バイトSHAと寸法の旧登録実測記録を継承。今回全量は取得していない。"
+    },
+    {
+      "id": "met-435702",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23550-001.jpg",
+      "status": 200,
+      "sha256": "525c8b861d616b8c55bff075d6808a47a4a4d29de5ddadfb903be5b3b24dd16f",
+      "byte_length": 84750,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19縮小JPEG全バイトSHAの既存記録を継承。今回のMet IIIF画像の画面照合と区別。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met作品ID435702のIIIF全景とMet同所蔵87.25のCommons図版を対照。",
+    "observed": "巨大な横長の絵に白・黒・茶色の力強い馬と引き手が広がり、左遠くにドーム建物、右の土手に観衆がいる。別所蔵の小型油彩習作とは区別する。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "同じ作品へのMet解説・Audio6004、同所蔵Commons画像とCC0記載、Met利用規約を別々に再確認。既存日本語本文・主0補助『喜び』1という感情索引と絵の動勢を突き合わせた。",
+    "limitations": "同一AIが同じ会話で行った別工程で、別AI・第三者の独立監査ではない。JPEG SHAは2026-10-19/20の旧記録からの継承であり、今回の全量再取得ではない。著作権上の非侵害は保証しない。",
+    "reviewed_artwork_sha256": "535bfb32c12d4eeea6174fa28c2c8cbc3fb8b8d1a765a6333a87ff8e2279fd6a",
+    "reviewed_visitor_draft_sha256": "0d8bec877961e3e7b76bae6ad3f8ebe4926813b4f385636a0f460374e91a47ac",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Rosa Bonheur, Met 435702／87.25、1852–55年、244.5×506.7cmの大型油彩。Met公式同作品画像で同定。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met公式作品解説と音声が馬市の位置、1年半週2回の現場取材、男装、1853サロン、Parthenon frieze、1855加筆を説明する。"
+      },
+      {
+        "area": "emotion",
+        "finding": "馬市の躍動を『喜び』の弱い補助的入口（1）とし、作者自身の喜びの証言として扱わない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語鑑賞本文は情報を独立した短い3段落に要約し、英文原文の長文逐語訳や大量転載を行っていない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "535bfb32c12d4eeea6174fa28c2c8cbc3fb8b8d1a765a6333a87ff8e2279fd6a",
+    "visitor_draft_sha256": "0d8bec877961e3e7b76bae6ad3f8ebe4926813b4f385636a0f460374e91a47ac",
+    "proposal_sha256": "472ade24daceb5c946496126d4aaf080686805fd5459e92dce8d0d8746e8c0ec",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "既存レコードと草稿の完全一致・SHA・対象外299作品不変を事前検査。CI/Python登録ガードの実行結果はPRで別途確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435702.json",
+    "sha256": "472ade24daceb5c946496126d4aaf080686805fd5459e92dce8d0d8746e8c0ec",
+    "proposed_artwork_sha256": "535bfb32c12d4eeea6174fa28c2c8cbc3fb8b8d1a765a6333a87ff8e2279fd6a",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) Open Access images CC0",
+      "3(b) non-OA museum prose"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "本作のPublic Domain指定・Met Open Access画像CC0と、館の音声・解説文章を区別する。既存日本語は館の史実情報を独自の表現で短く紹介し、長文逐語訳を避けた。法的非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "現行の日本語3段落・感情『喜び』補助1・画像URLは変更しない。",
+    "既存の草稿を改変せず再利用、旧JPEG実測と今回の画面目視を区別。",
+    "同一AI別工程を別AIや第三者独立審査と称しない。",
+    "CI・main統合後のみ51/300完成。"
+  ]
+}
