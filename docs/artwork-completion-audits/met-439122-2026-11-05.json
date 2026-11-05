@@ -1,0 +1,158 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-439122",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "8cfd4760e66351a7c477726d7f47071fa316e81e",
+    "artwork_record_sha256": "3f80a7b4a39130b003ee79752fa406d698abc63c20d825c4fe0b635d88dbcff7",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-439122.json",
+    "draft_sha256": "4ef9564b735b7a57b113be111b4450b3ce8f6a902e1507db7eae5a8dbc53809c"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/439122",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: gothic tracery, founded 1369, deserted 1546; Carus visiting August 1820 and associated Dresden drawing",
+        "Overview: view across choir windows, pale morning sky/distant hill, young trees as cycle of life and contrast dark/light",
+        "Artwork Details: Carus, ca.1828, oil on canvas, 43.2×33.7cm, 2007.192, Public Domain"
+      ],
+      "observed": "公式解説を2回読み、制作年代・訪問日・聖堂の年代・若木の象徴と窓の言及を確認。二窓は廃墟建築の位置関係に関する説明で、現画像の画面に二つの開口が明瞭に描かれるとの断定は避けた。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Gothic_Windows_in_the_Ruins_of_the_Monastery_at_Oybin_MET_DP151000.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "File summary: Met object 439122, accession 2007.192, Carus, ca.1828",
+        "Image 3044×3812, Metropolitan Museum donation",
+        "CC0 1.0 Universal Public Domain dedication"
+      ],
+      "observed": "Metが寄贈した同作品画像の同定情報・CC0を確認。公式IIIF表示画像の中央の尖頭アーチ・淡い空・若木も別に目視。Commons画像のバイトSHAは登録DP-34306-001と同一であるとは主張しない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) Open Access CC0 images",
+        "3(b) restricted materials and museum prose"
+      ],
+      "observed": "Met作品のPublic Domain/Open Accessの画像利用条件と学芸員が執筆した文章の権利を分離。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-439122",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-34306-001.jpg",
+      "status": 200,
+      "sha256": "c67bbb094e52df453f5062f5f10c8cce4957ec0908e9657c9cffbc04b8b7f1d3",
+      "byte_length": 4039823,
+      "width": 3164,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20に記録された登録Met原JPEGのバイトSHA・画像寸法を継承。今回このJPEGの全量は取得していない。"
+    },
+    {
+      "id": "met-439122",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-34306-001.jpg",
+      "status": 200,
+      "sha256": "26c5a9cd9a3c805b8536db005464a7c58fa6775ec456230898973d0616136298",
+      "byte_length": 104626,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19登録の縮小Met JPEG SHA・バイト数を継承。今回のIIIF画像・Commons全景の画面照合とは区別。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met作品ID439122が返す公式IIIF画像と同所蔵2007.192のCommons図版を作品ごとに確認。",
+    "observed": "暗い茶色の石壁の中央に尖頭アーチの窓が一つ見え、その奥に青みの薄い空と遠くの山。窓下に小さな樹木が生い茂る。登録鑑賞文の「二つの窓が残る」は画面の見え方に合わず、先行PR #58で修正済み。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Met個別作品解説を再読し、Met公式の作品IIIF画像と同所蔵Commons画像、Met画像公開方針を別項目で照合。先行PR #58で表示上の窓数を修正した後の正本に対し、本文全7段落・選定資料・主『希望』補助『喪失感』を再確認した。",
+    "limitations": "同じAIが同じ会話内で行った別工程であり別AIや第三者の独立審査ではない。登録JPEGの全バイトSHAは2026-10-19/20の既存台帳から継承し、新たな実取得はしていない。権利の非侵害に関する法律上の保証ではない。",
+    "reviewed_artwork_sha256": "3f80a7b4a39130b003ee79752fa406d698abc63c20d825c4fe0b635d88dbcff7",
+    "reviewed_visitor_draft_sha256": "4ef9564b735b7a57b113be111b4450b3ce8f6a902e1507db7eae5a8dbc53809c",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Carl Gustav Carus、ca.1828、Met 2007.192／ID439122、油彩43.2×33.7cm。Met公式IIIF画像と同作品のCommonsの登録情報を対照。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met公式に基づき廃墟の成立1369年・廃用1546年・1820年8月の素描と後年制作を区別。若木の生命循環・朝の空と暗い廃墟は館の解釈。作者本人の確定心理ではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『希望』2は若木・光とMetの明示的な解釈、補助『喪失感』1は放棄された修道院の時間と対照という弱い鑑賞入口であり、作者感情の診断をしていない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Metの文章を長文の逐語訳としてコピーせず、修正後の日本語鑑賞文が素材・風景・歴史・象徴を独立した7段落で説明。図像の誤りを先行PR #58で最小修正。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "3f80a7b4a39130b003ee79752fa406d698abc63c20d825c4fe0b635d88dbcff7",
+    "visitor_draft_sha256": "4ef9564b735b7a57b113be111b4450b3ce8f6a902e1507db7eae5a8dbc53809c",
+    "proposal_sha256": "218e93f90fffd70ae467bc06e329474f10d7198af8fc4ddf60ff21148f0ae6f3",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "この時点のレコード・下書き版のSHAや作品数は計算で整合確認。GitHub Actionsと登録ガードの実際の成功はPRで別途確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-439122.json",
+    "sha256": "218e93f90fffd70ae467bc06e329474f10d7198af8fc4ddf60ff21148f0ae6f3",
+    "proposed_artwork_sha256": "3f80a7b4a39130b003ee79752fa406d698abc63c20d825c4fe0b635d88dbcff7",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA images under CC0",
+      "3(b) non-OA museum prose"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met作品がPublic Domain、公式図版はOA/CC0であると確認。Met学芸員解説は画像とは別の権利を伴い、日本語本文は事実・一般的な図像の独立した説明で長文転載や逐語訳を行っていない。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "PR #58で窓の描写を限定修正済み。",
+    "既存の感情・画像・ほか299件は不変更。",
+    "JPEG旧実測と公式IIIF画像・Commons視認を区別。同一AI別パスは別AIや第三者審査ではない。",
+    "CI成功・main統合後のみ50/300に加算。"
+  ]
+}
