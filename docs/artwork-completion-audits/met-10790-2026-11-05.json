@@ -1,0 +1,157 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-10790",
+  "checked_on": "2026-11-05",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "977f467044ed4c3aa4ee919f520d2c8135e2afa5",
+    "artwork_record_sha256": "e870a858b2713c71caeee2536195be382fe1384bb99d20550252973bb23285b9",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-10790.json",
+    "draft_sha256": "ac462c4c1875e7ad27a43dbad742244f5d065c07b0d8e799084139ed1e733ceb"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/10790",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: monumental canvas, 1854 summer sketches in Catskill Mountains; forest's shadowy solitude",
+        "Overview: 1855 National Academy of Design and Letters on Landscape Painting, general statement about immersion and repose in shade",
+        "Artwork Details: Asher Brown Durand, 1855, oil on canvas, 154.3×121.9cm, 95.13.1, Public Domain"
+      ],
+      "observed": "Met公式作品説明を2回照合。本人の1855年刊『Letters on Landscape Painting』は風景画一般の鑑賞論として扱い、本作単独への制作意図と混同しない。画像に人体や都市はなく、深い森と池の影と木立が主題。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:In_the_Woods_MET_co.ap.95.13.1_1.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met artwork ID 10790, collection 95.13.1, In the Woods 1855",
+        "825×1024 image co.ap.95.13.1_1 from Met, CC0 1.0"
+      ],
+      "observed": "Met提供の同番号Commons画像が登録原画像と同じ寸法825×1024で、木々・大きな幹・倒木と静かな池の配置を視覚的に照合。公開Commons画像のJPEGバイトSHAは既存登録のMet原JPEGのSHAと同じと推測しない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/terms-and-conditions",
+      "access": "page_read_once",
+      "locations": [
+        "1 Copyright and Proprietary Rights",
+        "3(a) Open Access CC0 images",
+        "3(b) museum-text rights"
+      ],
+      "observed": "Met作品・OA画像と学芸員の説明文・音声を権利の面で明確に分離。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-10790",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/co.ap.95.13.1_1.jpg",
+      "status": 200,
+      "sha256": "a6b78d7686294f77c830524bf38f0930d211be739ec9dfff443aeb075b62c6a1",
+      "byte_length": 304862,
+      "width": 825,
+      "height": 1024,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Metの2026-10-20登録済み原JPEG実測SHA・サイズを継承。今回は原JPEGバイトを再取得していない。"
+    },
+    {
+      "id": "met-10790",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/co.ap.95.13.1_1.jpg",
+      "status": 200,
+      "sha256": "7df5d2a564c7e4bd9196ff22f4790fd6fe9d646e8dbecb8ba1cb06ac67174d50",
+      "byte_length": 166532,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の表示JPEG旧SHA・バイト数を継承し今回のMet IIIF/Commons視認とは区別。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met 10790公式IIIF画面とCommonsの同所蔵95.13.1像を比べて作品同定。",
+    "observed": "縦長の画面に森の巨大な幹が両側から囲み、中央奥は光が淡く差し込む。根元に倒木と水溜まりがあり、人物は見当たらない。作品名・番号・本画像が同作を指す。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Met作品概要の当該版・作者一般の風景論を区別し、Met IIIF図版と同所蔵Commons作品画像、Met利用規約と既存日本語本文・意味索引を別工程で再読して対応付け。",
+    "limitations": "同じAIの同一会話内の別工程であり、別AIや第三者の独立監査ではない。登録JPEGのバイト値は2026-10-19/20旧記録の継承であり今回の再取得ではない。法律上の非侵害は保証しない。",
+    "reviewed_artwork_sha256": "e870a858b2713c71caeee2536195be382fe1384bb99d20550252973bb23285b9",
+    "reviewed_visitor_draft_sha256": "ac462c4c1875e7ad27a43dbad742244f5d065c07b0d8e799084139ed1e733ceb",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Asher Brown Durand、Met ID10790／95.13.1、1855油彩・154.3×121.9cm。MetとCommonsの同番号図版を対照。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1854年夏のキャッツキル野外スケッチと1855展示、『Letters on Landscape Painting』の一節を確認。同じ1855年に発表された画家一般の芸術理念であり、当該一枚への直接的な言明ではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『孤独』2は深い森の人のいない空間とMetの 'shadowy solitude' から、主『安心』2は画家が陰で休む感覚を語った一般論と森の具体的な木陰の接点から。作者の心情や鑑賞者の必然の反応とはしない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "日本語3段落はMetの短い解説を自己表現で整理。引用の趣旨をパラフレーズし、長文の逐語訳や長い英文引用を行わない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "e870a858b2713c71caeee2536195be382fe1384bb99d20550252973bb23285b9",
+    "visitor_draft_sha256": "ac462c4c1875e7ad27a43dbad742244f5d065c07b0d8e799084139ed1e733ceb",
+    "proposal_sha256": "e8e70d3bdb92c1c75f7d8b7bee66ce109286a49d3c5eb484e631130e53cd425f",
+    "checks": [
+      "baseline_artwork_sha256",
+      "existing_visitor_equals_reviewed_draft",
+      "draft_file_sha256",
+      "original_and_display_jpeg_existing_sha256",
+      "no_curation_emotion_changes",
+      "300_unique_artwork_ids",
+      "other_299_unchanged",
+      "catalog_record_order_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "この時点の対象レコードSHA・既存本文と草稿の完全一致・件数・旧画像登録値を確認。Python完成登録ガードとGitHub CIの実行結果はPR後に別途確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-10790.json",
+    "sha256": "e8e70d3bdb92c1c75f7d8b7bee66ce109286a49d3c5eb484e631130e53cd425f",
+    "proposed_artwork_sha256": "e870a858b2713c71caeee2536195be382fe1384bb99d20550252973bb23285b9",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "1 Copyright and Proprietary Rights",
+      "3(a) OA images CC0",
+      "3(b) Met prose other rights"
+    ],
+    "checked_on": "2026-11-05",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met作品Public Domain・Met OA/CC0画像の再利用と、Met解説文章の著作物性を区別。既存日本語は館の史実情報を自分の文体で要約し、英文の長文逐語訳をしていない。法的な非侵害保証はしない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存日本語鑑賞解説・主『孤独』『安心』・画像URLは維持。",
+    "新規根拠を既存草稿に1項目補強し、監査とcompletionだけを追加。",
+    "旧JPEG実測と今回Met IIIF/Commons画像視認を区別。同一AI別パスは第三者ではない。",
+    "CI成功とmain統合後にのみ52/300へ加算。"
+  ]
+}
