@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437588",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "b103e0be88ccbe1f405ccf7a834c2d4539ee9232",
+    "artwork_record_sha256": "04de2e653200f72843b0d6bf8e3b15e4418a6a04d4d8e1a29db57f2d2e0400a6",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437588.json",
+    "draft_sha256": "df55581fdb348cff1cf4fc21d2bc0a69f5248fd6c9a9b5ff213492b63db29baf"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437588",
+      "access": "page_read_twice",
+      "locations": [
+        "71.75: 公式作品ページ冒頭（生きたウナギを使う残酷な競技、冬の日光と凍った池の反射）、Artwork Details（early 1650s、71.75）、Met公式2007年展覧会写真ページの同一作品名・所蔵番号。"
+      ],
+      "observed": "Metの最新公式作品ページを作品名・ID・作品解説を使って検索後、直接開いて照合した。"
+    },
+    {
+      "url": "https://www.metmuseum.org/exhibitions/listings/2007/age-of-rembrandt/photo-gallery",
+      "access": "page_read_twice",
+      "locations": [
+        "公式作品ページ冒頭（生きたウナギを使う残酷な競技、冬の日光と凍った池の反射）、Artwork Details（early 1650s、71.75）、Met公式2007年展覧会写真ページの同一作品名・所蔵番号。"
+      ],
+      "observed": "Met公式の同作品に関する追加ページで別の事実・表示を照合した。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Open Access画像のCC0・PD表示の意味。公式学芸員著述の複製権とは別の権利。"
+      ],
+      "observed": "Met公式FAQを確認し、画像の権利と館の説明文の著述権を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437588",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP147902.jpg",
+      "sha256": "4423251848a6acef1d5c7969c6d40eff28d19efada8e9180f49713c117bc2640",
+      "byte_length": 2283997,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月のMet公式原画像の全バイトSHAとHTTP成功を台帳から引用。今回の再計測ではない。"
+    },
+    {
+      "id": "met-437588",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP147902.jpg",
+      "sha256": "d742081ae49244ebd4a2b38cfa7a4c7e6ce7e95442b00ecf1ae8d6703a0671b8",
+      "byte_length": 64321,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月の表示用画像の全バイトSHAとHTTP成功を台帳から引用。今回の再計測ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Metの公式画像 https://images.metmuseum.org/CRDImages/ep/original/DP147902.jpg を視認。旧Met Object APIのprimaryImage ID・所蔵番号と登録画像台帳の一致記録を併用。画像全量SHAとHTTP200は2026年10月の既存証拠を継承。",
+    "observed": "Metの同作品公式画像DP147902（画像検索のMet提供原画像）を視認。澄んだ広い空、建物・裸木・冬の群衆・騎乗者、遠方に凍った池。所蔵番号71.75はMet公式展示図版でも一致。今回JPEG全バイトのSHA新計測はしていない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "公式解説と公開画像を別工程で開き直し、制作本文について史実・作者と学芸員の解釈の区別・感情タグ・画像・権利と転載リスクを点検した。",
+    "limitations": "制作と照合は同一AIによる別工程であり、第三者/別モデルの独立性はない。画像は旧全バイトSHA記録を継承し、今回登録画像の全バイトを直接再取得・再照合していない。文章権利判断は法的保証ではない。",
+    "reviewed_artwork_sha256": "04de2e653200f72843b0d6bf8e3b15e4418a6a04d4d8e1a29db57f2d2e0400a6",
+    "reviewed_visitor_draft_sha256": "df55581fdb348cff1cf4fc21d2bc0a69f5248fd6c9a9b5ff213492b63db29baf",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "作品はMet 71.75（ID 437588）。公式の題名・作者・制作年代・Public Domain表示・画像を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met公式は生きたウナギを吊るして馬上の若者がつかみ取る残酷な娯楽と明記し、凍った池の光の反射・冬の晴れた光と祝祭性を併記。競技の残酷さを隠さない。既存の補助喜び1のみ・主感情0を維持。"
+      },
+      {
+        "area": "emotion",
+        "finding": "元の検索索引（主:なし、補助:喜び）と本文との整合を点検。作品の歴史的意味を鑑賞者の感情として断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "美術館の説明に支えられた事実を、独自の短い日本語鑑賞文に再構成。公式文の長文転載・逐語訳を避け、確認できない作者心理・人物の実在関係を補わない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "04de2e653200f72843b0d6bf8e3b15e4418a6a04d4d8e1a29db57f2d2e0400a6",
+    "visitor_draft_sha256": "df55581fdb348cff1cf4fc21d2bc0a69f5248fd6c9a9b5ff213492b63db29baf",
+    "proposal_sha256": "40efd2063f426c67e321f64b12f8312f36386e1ad5bc48351b78200e7c9d68ec",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "本ターンのJavaScriptで対象版ハッシュ・300件ID一意・出典と画像台帳のメタデータおよび対象外不変を確認。Python既存登録ガードとCIはPR提出後のGitHub Actionsで最終検証する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437588.json",
+    "sha256": "40efd2063f426c67e321f64b12f8312f36386e1ad5bc48351b78200e7c9d68ec",
+    "proposed_artwork_sha256": "04de2e653200f72843b0d6bf8e3b15e4418a6a04d4d8e1a29db57f2d2e0400a6",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "この作品の公式ページではPublic Domainと表示、Met Open Access画像として提供。",
+      "作成した解説は短い独自日本語文章であり、館の解説の連続した転載・逐語翻訳をしていない。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Open Access画像と所蔵館の著述権を分離。画像の現行PD表示と独自解説にDB保存を妨げる重大な問題は見つからない。法的な許諾保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met 71.75 (met-437588)",
+    "2026年10月のJPEG全バイトSHAとHTTP200を証拠として継承。今回新規の登録JPEGバイト検査ではない。",
+    "作成・検証は同一AIの別工程（別AI・第三者ではない）。",
+    "この作品以外299件・画像URL・感情索引を変更しない。"
+  ]
+}
