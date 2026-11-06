@@ -1,0 +1,146 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-438815",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "5780cd457ebc283b15c95c6dacfcdbcf2b4aaeda",
+    "artwork_record_sha256": "09fbc319f967dce5afef6852308dc40bb9ee758b155a2c3d811ca53920386e95",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-438815.json",
+    "draft_sha256": "35b71392e1497ac8e355f3e41f1d2f5dbb0c97ef22cddf1daeaff872e5b87a15"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/438815",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 07.122, Renoir, 1878, 153.7×190.2cm: commissioned portrait, Marguerite Charpentier in Japanese-style sitting room and chic dress, 3-year-old son Paul at her side and daughter Georgette seated on dog; fashion in uncut hair and matching outfits; literary salon hosting Flaubert, Goncourt brothers, Zola; influential 1879 Paris Salon placement."
+      ],
+      "observed": "Read Met search output and independently opened official page to verify number, family identities, dress convention, social setting, publication context and Japanese draft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:Madame_Georges_Charpentier_et_ses_enfants_by_Pierre-Auguste_Renoir",
+      "access": "page_read_once",
+      "locations": [
+        "Wikimedia commons artwork category with verified original Met accession 07.122 and subjects mother, son, daughter, family dog; Met donated comparable public-domain photo available."
+      ],
+      "observed": "Identified same sitter group, accession and composition through Met-donated public reproduction catalogue; separated earlier Renoir standalone portrait of Madame Charpentier from this family group."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met OA FAQ defines Open Access public-domain artwork images; it does not grant rights to lift long museum-authored curator interpretations."
+      ],
+      "observed": "Museum Open Access FAQ read separately from object page."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-438815",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-35674-001.jpg",
+      "sha256": "8ac32539a3c7a6a78f31963c2e04e7f11952fffed9002d6cc21158fb64f18317",
+      "byte_length": 4206585,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met registered original and web-large JPEG historical SHA/HTTP200 from 2026-10-20, not freshly downloaded or SHA-verified here."
+    },
+    {
+      "id": "met-438815",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-35674-001.jpg",
+      "sha256": "d3c623ea906147346f7df865a1817032afd1d748b27ba1f45aa0535c69ebe9e4",
+      "byte_length": 132367,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met registered original and web-large JPEG historical SHA/HTTP200 from 2026-10-20, not freshly downloaded or SHA-verified here."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compared direct image returned for Met official 07.122 in image search with Met official object description and older registered primary JPEG DP-35674-001 and Met-donated Commons category. No fresh registered JPEG byte check.",
+    "observed": "The registered composition features the black-clad mother at right, two similarly light-blue-dressed children at her left and large black-white dog across lower left; the dark Japonesque interior and vase match official Met 07.122. Image search also showed another solo portrait of Mme Charpentier (Orsay), explicitly excluded."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Second independent source-focused pass of Met official original text and direct museum-labelled image, historical catalog record, prior Japanese draft, attribution, tags, source permissions and textual independence.",
+    "limitations": "Same AI in separate pass, not a different reviewer/model. Registered image JPEG bytes and hashes only previously verified 2026-10-20; new image subject evidence is museum-labelled reproduction, not a fresh hash. Copyright analysis is not legal advice.",
+    "reviewed_artwork_sha256": "09fbc319f967dce5afef6852308dc40bb9ee758b155a2c3d811ca53920386e95",
+    "reviewed_visitor_draft_sha256": "35b71392e1497ac8e355f3e41f1d2f5dbb0c97ef22cddf1daeaff872e5b87a15",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 07.122 Renoir 1878 oil painting, distinct from 1876–77 solo portrait; official image shows mother with son and daughter and large dog."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met specifically supports son's uncut hair and sister's matched clothing, Japanese-style room, elite publisher family's social role and influential 1879 Salon positioning. No psychological inference."
+      },
+      {
+        "area": "emotion",
+        "finding": "Zero emotion tags remain; family setting alone cannot establish artist's compassion or inevitable viewer warmth."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Japanese text concise and independently structured; museum interpretations attributed and facts checked. No extensive copied or close literal museum prose."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "09fbc319f967dce5afef6852308dc40bb9ee758b155a2c3d811ca53920386e95",
+    "visitor_draft_sha256": "35b71392e1497ac8e355f3e41f1d2f5dbb0c97ef22cddf1daeaff872e5b87a15",
+    "proposal_sha256": "3a4440a2bbae5ade1af3b640c91f64a08be5204f447577d6189aff74e573b12d",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS canonical hash, 300-work ID count, 299-record immutability, historic image data and source URL binding verified. GitHub Actions remains responsible for final Python completion guard and snapshot checks."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-438815.json",
+    "sha256": "3a4440a2bbae5ade1af3b640c91f64a08be5204f447577d6189aff74e573b12d",
+    "proposed_artwork_sha256": "09fbc319f967dce5afef6852308dc40bb9ee758b155a2c3d811ca53920386e95",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met marks painting 07.122 Public Domain and eligible for Open Access reuse.",
+      "Original concise Japanese text does not reprint long Met scholarly prose, and public-domain image status is separate from rights to curatorial prose."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No material obstacle identified to an independent short Japanese explanation and Open Access artwork-image link. No legal rights warranty."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "2026-10-20 image hash/HTTP200 historical verification reused, not freshly downloaded.",
+    "The same AI made a separate source-focused pass, not independent expert or other model.",
+    "Target original facts, emotions, selection data, image registry and other 299 artwork records unchanged."
+  ]
+}
