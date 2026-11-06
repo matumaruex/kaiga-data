@@ -1,0 +1,138 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437749",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "fce4ceeeae72564a17e6d78096411dd7fedb8a45",
+    "artwork_record_sha256": "51bc2d65ee126eb8cda3bf29531640f5dc161ce54da90e7bff218e76330db9fd",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437749.json",
+    "draft_sha256": "10074c45a5181a48edbe46208746d8046f5b13eec22d199cb123d326320d8e0e"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437749",
+      "access": "page_read_twice",
+      "locations": [
+        "Met current public collection record identifies Jan Steen, Merry Company on a Terrace, accession 58.89, ca.1670, PD, 141×131.4cm, wife at center with empty glass, painter at far left with flushed face and comic hat, Hans Worst with sausage in hat, and continuing Dutch proverb for chaotic household. Scene's staged comic nature is an interpretation, not autobiographical documentary proof."
+      ],
+      "observed": "Official Met overview and object detail were examined again, alongside existing Japanese draft and catalog record. Official metadata and independent image depiction distinguish the work from other Steen party scenes."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access FAQ public-domain images versus curatorial prose rights."
+      ],
+      "observed": "Object marked Public Domain by museum. Own short independent Japanese prose evaluated separately from image rights."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437749",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146455.jpg",
+      "sha256": "bf5f362d8565cbd5312ee58f2402a29453674bfd4a88bc42fd4291f07bc6da5f",
+      "byte_length": 2892888,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Official Met original JPEG 2026-10-20 historical HTTP200, SHA and API identity record; no new file transfer."
+    },
+    {
+      "id": "met-437749",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146455.jpg",
+      "sha256": "aaddf85236bba80068674b4a4d974b2d6cf9b9a32976c73000cf8f60ffe7547d",
+      "byte_length": 114406,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met registered display JPEG historical SHA and HTTP200 2026-10-20. No new download or fresh hash."
+    }
+  ],
+  "visual_observations": {
+    "method": "Viewed museum-identified work in Wikimedia reproduction under title Merry Company on a Terrace and matched composition to Met official accession 58.89. Registered Met JPEG pixel stream not directly accessible in this run; historical URL association reused.",
+    "observed": "Square painting of a lively group on terrace beneath trellis, seated pale-blue-dressed woman holding glass, figures around table, man drinking at far left, child/dog in foreground and musician at right; aligns with Met's identification, not an invented new Met JPEG hash."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "After reading PR #3 draft, re-read original Met collection overview and compared each attribution, depicted relationship, dated object number, uncertainty, visitor narrative, iconography and rights against visual reproduction and historical image record.",
+    "limitations": "Not a separate independent model or curator. New registered JPEG bytes not retrieved, historical SHA reused; another indexed reproduction independently visually identified. Copyright evaluation is not a guarantee.",
+    "reviewed_artwork_sha256": "51bc2d65ee126eb8cda3bf29531640f5dc161ce54da90e7bff218e76330db9fd",
+    "reviewed_visitor_draft_sha256": "10074c45a5181a48edbe46208746d8046f5b13eec22d199cb123d326320d8e0e",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 58.89 Jan Steen Merry Company on a Terrace, early ca.1670, oil on canvas, 141×131.4 cm, Public Domain, source page and image account agree."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met current public collection record identifies Jan Steen, Merry Company on a Terrace, accession 58.89, ca.1670, PD, 141×131.4cm, wife at center with empty glass, painter at far left with flushed face and comic hat, Hans Worst with sausage in hat, and continuing Dutch proverb for chaotic household. Scene's staged comic nature is an interpretation, not autobiographical documentary proof."
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing primary 喜び2 retained; lively depicted behavior associates with viewer emotion, but painting and proverb include satire and disorder rather than unconditional praise of happiness."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Concise Japanese draft uses own phrasing, attributes family figures to museum, avoids inventing biographical firsthand facts, does not reproduce long museum text."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "51bc2d65ee126eb8cda3bf29531640f5dc161ce54da90e7bff218e76330db9fd",
+    "visitor_draft_sha256": "10074c45a5181a48edbe46208746d8046f5b13eec22d199cb123d326320d8e0e",
+    "proposal_sha256": "a11f8c9dfebd2df7b249e43e554a53b3edc7cf12f30e6dc301923fdc6345f874",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historic_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS canonical SHA, comparison of source/draft and unchanged 299 records; Python preview/check and GitHub Actions must pass separately."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437749.json",
+    "sha256": "a11f8c9dfebd2df7b249e43e554a53b3edc7cf12f30e6dc301923fdc6345f874",
+    "proposed_artwork_sha256": "51bc2d65ee126eb8cda3bf29531640f5dc161ce54da90e7bff218e76330db9fd",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "PD identified museum artwork, separate from Met narrative prose.",
+      "Existing visitor draft has short independently worded explanation without extended original passages."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No material barrier identified to repository storage of independent Japanese explanation and PD image metadata; legal noninfringement is not guaranteed."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Original Met overview read in two passes; matching visible reproduction inspected; current registered JPEG pixels not fetched.",
+    "Image byte hash/status carried forward from 2026-10-20 historical records only.",
+    "Same AI separate step, not third-party reviewer."
+  ]
+}
