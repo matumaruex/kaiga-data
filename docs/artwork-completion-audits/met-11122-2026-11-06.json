@@ -1,0 +1,152 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-11122",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "5309a8c20a7847f9b43b5ff0ab2793b5190f9d10",
+    "artwork_record_sha256": "4d74c498ab7ef269e6430357890c81726468bf6b42ca952568c8029ce458da30",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-11122.json",
+    "draft_sha256": "e464968765b3681a5d4f1e631fa0b9bb70f641f63e994fa86469dd5b3c7a2913"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/11122",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: Winslow Homer The Gulf Stream 1899, reworked by 1906, Met 06.1234, oil on canvas",
+        "Overview: Black man on damaged vessel with sharks and waterspout, sugarcane and imperial Atlantic slavery",
+        "Audio 4037: ambiguous man, cannot know confidence or fear, poet Derek Walcott's interpretation looking toward Africa",
+        "Artwork Details: Public Domain, 71.4 × 124.8 cm"
+      ],
+      "observed": "Met公式作品ページと音声解説を検索および再閲覧して、制作年代・被写体・海流史・後世の詩人の読解の区別を確認。"
+    },
+    {
+      "url": "https://www.metmuseum.org/ja/exhibitions/winslow-homer/visiting-guide",
+      "access": "page_read_once",
+      "locations": [
+        "Crosscurrents: painting is unique oil seascape with Black figure in Caribbean, spanning long production",
+        "Interpretations of racial politics, imperial expansion after Spanish-Cuban-American War",
+        "Current connects Caribbean and North Atlantic"
+      ],
+      "observed": "Metのホーマー企画展資料で社会政治的文脈も補助確認。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Public Domain image rights",
+        "CC0 Open Access images and separate rights of curatorial prose"
+      ],
+      "observed": "絵画画像の利用可能性とMet本文の著作権を混同しない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-11122",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-20821-001.jpg",
+      "status": 200,
+      "sha256": "67fd3b2bb4e07f41dc1991c0e538981ba187ab6e3c08722636f6c347f0611b70",
+      "byte_length": 3879918,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19/20のMet公式JPEGのバイト全量実測とSHA台帳を継承。今回の新規バイト測定ではない。"
+    },
+    {
+      "id": "met-11122",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-20821-001.jpg",
+      "status": 200,
+      "sha256": "02654950ebb27b6ca47d7e84cf3a9072bd55ea5f034c5f3c7061e44366e159b9",
+      "byte_length": 107693,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19/20のMet公式JPEGのバイト全量実測とSHA台帳を継承。今回の新規バイト測定ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式公開画像と同じ所蔵のWikimedia掲載全体図像を照合。旧JPEGの原・表示SHAは従来計測を再利用。",
+    "observed": "濃い青の波と壊れた帆柱、小舟の横たわる黒人男性、周囲のサメ、遠くの竜巻状の水柱を全体図版で視認。人物の表情・救助の可能性を確定しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "DB・既存3段落本文との初回対照後、Met個別作品ページと同館Audio 4037 transcript、2022年の企画展説明と公開図像をもう一度読み、史実・解釈・権利を確認。",
+    "limitations": "同一AI別工程で第三者または別AIの監査ではない。登録JPEGの全量取得・再測定は今回は行わず2026-10-19/20測定を継承。",
+    "reviewed_artwork_sha256": "4d74c498ab7ef269e6430357890c81726468bf6b42ca952568c8029ce458da30",
+    "reviewed_visitor_draft_sha256": "e464968765b3681a5d4f1e631fa0b9bb70f641f63e994fa86469dd5b3c7a2913",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 11122／06.1234、Winslow Homer《The Gulf Stream》、1899年制作・1906年までに加筆、キャンバスに油彩。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "海上の危機と同時に、カリブ海のサトウキビ・奴隷制・帝国主義を結ぶMetの読解を照合。ウォルコットのアフリカへの視線は後世の詩的解釈として区別。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『不安』2は海難の具体的状況と強く接続、補助『希望』1は人物の態度への控えめな入口。本人の心理・生還を断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存3段落はMet公式の海難・歴史文脈と音声解説の詩人への言及を日本語で独自に説明。逐語翻訳・長文の転載になっていない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "4d74c498ab7ef269e6430357890c81726468bf6b42ca952568c8029ce458da30",
+    "visitor_draft_sha256": "e464968765b3681a5d4f1e631fa0b9bb70f641f63e994fa86469dd5b3c7a2913",
+    "proposal_sha256": "f26ea752eb102e8c7bbee3f0906590214df2e90f6f0dd7c8a68f7839235ff11a",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_hash",
+      "historic_image_hashes_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub登録前のJavaScriptでID/正規化ハッシュ・本文一致を検証し、Pythonでの構造・回帰テストおよびcompletion確認はPRのCIで行う。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-11122.json",
+    "sha256": "f26ea752eb102e8c7bbee3f0906590214df2e90f6f0dd7c8a68f7839235ff11a",
+    "proposed_artwork_sha256": "4d74c498ab7ef269e6430357890c81726468bf6b42ca952568c8029ce458da30",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met Artwork Details Public Domain",
+      "Open Access image CC0 policy",
+      "Museum's English text is separate"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "所蔵作品のOA/CC0画像と学芸員の英文解説を別扱いにし、日本語本文は原資料と整合する独自構成。法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存日本語3段落を維持し、作品事実・画像・感情タグは変更なし。",
+    "CI・main統合後、計73完成／保留5。次はメインの未完了作品を確認。"
+  ]
+}
