@@ -1,0 +1,134 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-11312",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "1c1e21bc854818d37ff8ac714068af59fcaa495e",
+    "artwork_record_sha256": "7acf20a04f84f468b4629be17c4f06e9a2c0779d72ddb18fece8b1109e797539",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-11312.json",
+    "draft_sha256": "6971f96b923860da840f99ea685dbfca00470b987bb54406cdd073a2d72a76c1"
+  },
+  "sources": [
+    {
+      "url": "https://publications.artic.edu/pissarro/api/epub/7/27/print_view",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC Pissarro Cat.15 1959.636, 1895 Woman Mending. Rosa a maid, a December 4 1895 letter to Lucien mentions the work with satisfaction. Technical studies show modifications to her arms, fingers, thimble, knee, and rhythm of striped clothes and tablecloth."
+      ],
+      "observed": "web.openは403だが、館の公式学術ページから検索インデックスに保存された原文抜粋を2回の別検索で照合。定型値page_read_twiceは直接HTML取得成功を意味しない。"
+    },
+    {
+      "url": "https://www.artic.edu/artworks/11312",
+      "access": "page_read_twice",
+      "locations": [
+        "Current object page fetch blocked; old official AIC API ID 11312 and accession 1959.636 confirmed against museum scholarly catalogue."
+      ],
+      "observed": "館作品ページの今回はHTTP403。旧AIC API同定記録と対応する公式学術図録の所蔵番号を確認。直接本体を今回読めたとは主張しない。"
+    },
+    {
+      "url": "https://publications.artic.edu/pissarro/reader/paintingsandpaper/section/27",
+      "access": "search_index_crosscheck",
+      "locations": [
+        "AIC Pissarro Cat.15 1959.636, 1895 Woman Mending. Rosa a maid, a December 4 1895 letter to Lucien mentions the work with satisfaction. Technical studies show modifications to her arms, fingers, thimble, knee, and rhythm of striped clothes and tablecloth."
+      ],
+      "observed": "別の館公式図録索引URL・旧展覧会資料で作品の同定・内容を照合。直接HTML取得なし。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-11312",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Kvinde_der_lapper.jpg/960px-Kvinde_der_lapper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "status": 200,
+      "sha256": "3a185ae750c0c4cda34bde3089ccf50b41179b3ebf619d9fe9c2c754b5c030f9",
+      "byte_length": 563945,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18の画像台帳に記録されたHTTP200、JPEG SHA256、byte長を引き継ぎ。今回は配信や全バイトを再確認していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "館学術図録の写真・所蔵番号・図像特徴、別の公開複製像と2026-10-18の登録画像同定証拠を参照。登録JPEGの全画素・全バイトの再ダウンロードは行わない。",
+    "observed": "Portrait of a seated mending woman in striped shirt, textile, flowers, hand near knee. The AIC 1959.636 visual and earlier hash registry match by accession; the exact registered JPEG has not been re-downloaded in this session."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存の日本語本文とデータを先に読んだ後、別工程で所蔵館の検索索引による原文・画像対応・権利・感情の接点を再検索して照合した。",
+    "limitations": "同一AIによる別工程であり別AI/第三者ではない。館学術ページの直接HTML取得はHTTP403、公式検索インデックスの索引原文・旧所蔵API情報で照合。今回の登録JPEG新規SHA実測はない。定型access値page_read_twiceは直接HTML200ではないことをsources.observedに記載。法的保証なし。",
+    "reviewed_artwork_sha256": "7acf20a04f84f468b4629be17c4f06e9a2c0779d72ddb18fece8b1109e797539",
+    "reviewed_visitor_draft_sha256": "6971f96b923860da840f99ea685dbfca00470b987bb54406cdd073a2d72a76c1",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC Pissarro Cat.15 1959.636, 1895 Woman Mending. Rosa a maid, a December 4 1895 letter to Lucien mentions the work with satisfaction. Technical studies show modifications to her arms, fingers, thimble, knee, and rhythm of striped clothes and tablecloth."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "AIC Pissarro Cat.15 1959.636, 1895 Woman Mending. Rosa a maid, a December 4 1895 letter to Lucien mentions the work with satisfaction. Technical studies show modifications to her arms, fingers, thimble, knee, and rhythm of striped clothes and tablecloth. この史実・研究者の読みと作者・画中人物の個別心理を分離。"
+      },
+      {
+        "area": "emotion",
+        "finding": "Primary 安心 1 is a weak viewer association from quiet routine and not proof of Rosa's or the artist's emotional state."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存の日本語鑑賞本文は公式説明を大幅逐語転載しない独自構成。出典の主要事実と不確実な解釈の区別を照合し、本文は変更しない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "7acf20a04f84f468b4629be17c4f06e9a2c0779d72ddb18fece8b1109e797539",
+    "visitor_draft_sha256": "6971f96b923860da840f99ea685dbfca00470b987bb54406cdd073a2d72a76c1",
+    "proposal_sha256": "5df52dd4fa316172f981d8a8e572b77ee6f18140d760a7e7fa8bd8157064f288",
+    "checks": [
+      "300_unique_ids",
+      "other_297_unchanged",
+      "current_visitor_exact_match",
+      "canonical_sha256",
+      "old_jpeg_hash_matches_registry",
+      "unchanged_emotion_index"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "保存前にJavaScriptで全300 IDs、一部変更のみ、レコードの正規SHA、旧画像台帳のSHA、既存日本語解説完全一致を検査。PythonガードとCIはGitHub Actionsで別途実行。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-11312.json",
+    "sha256": "5df52dd4fa316172f981d8a8e572b77ee6f18140d760a7e7fa8bd8157064f288",
+    "proposed_artwork_sha256": "7acf20a04f84f468b4629be17c4f06e9a2c0779d72ddb18fece8b1109e797539",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kvinde_der_lapper.jpg",
+    "locations": [
+      "画像のPublic Domain/CC0主張と旧公開ミラー・Commonsファイル条件、研究解説文章の著作権は別である。",
+      "既存の日本語本文が研究図録の長い逐語翻訳や転記でないかを確認。"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "データDB登録を妨げる明白な問題がないという限定判断。所蔵館文章の転載権を画像のPDにより得られるとはしない。公開・配布時の法的許諾保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "繕い物をする女性：公式図録・既存画像登録と作品内容・鑑賞日本語本文・感情タグを作品別確認しcompletionのみ追加。",
+    "Primary 安心 1 is a weak viewer association from quiet routine and not proof of Rosa's or the artist's emotional state.",
+    "館の直接URLアクセスは403、旧JPEG SHA再利用、同一AI別パスと文章権利の限界を明記。"
+  ]
+}
