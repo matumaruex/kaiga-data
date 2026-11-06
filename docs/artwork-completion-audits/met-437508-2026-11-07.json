@@ -1,0 +1,146 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437508",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "2d2ee11a697b32422aae069b5ad66515fab53d86",
+    "artwork_record_sha256": "e27e86b42c653b5a481ae3ae9768a47aae3b86d08ac1ce9d7cb9a5f0f4847119",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437508.json",
+    "draft_sha256": "25c187d6cd121079b9f58cdd2edd40d2e96aa66ba214a65a548e9a78dc8052f8"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437508",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Self-Portrait (21.105), Salvator Rosa, ca.1647: skull bearing Greek inscription, mourning cypress wreath, Seneca book, dedication to Giovanni Battista Ricciardi. Met museum titles this Self-Portrait. Scholar Michael Zellmann-Rohrer (Met Journal 49, 2014) states sitter identification is disputed in indexed article opening."
+      ],
+      "observed": "Met official online collection summary was reviewed and rechecked against the identified accession and the Japanese draft."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access public-domain images do not confer any right to reproduce the Met's curatorial prose."
+      ],
+      "observed": "Rights conditions checked at museum policy page."
+    },
+    {
+      "url": "https://www.metmuseum.org/de/met-publications/a-greek-inscription-in-a-portrait-by-salvator-rosa-metropolitan-museum-journal-v-49-2014",
+      "access": "indexed_excerpt_only",
+      "locations": [
+        "Zellmann-Rohrer, 2014, opening excerpt in search index says 'identity of the sitter has been disputed'."
+      ],
+      "observed": "Indexed paper-opening excerpt only; original PDF redirect failed and full article was not re-reviewed in this session. Limited claim is sitter attribution uncertainty."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437508",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP323414.jpg",
+      "sha256": "7a1eccfc37ce6a974a11d3f792d1dc762a666b25a4a846c37c1faf76d8feda98",
+      "byte_length": 2808703,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Verified Met JPEG bytes and HTTP 200 are historic evidence recorded in the repository in 2026-10-20. No full registered image download or checksum was performed in this session."
+    },
+    {
+      "id": "met-437508",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP323414.jpg",
+      "sha256": "2f8038678b67243e55bfccc205612f63b35582ce852b92ee9243d747aad9b723",
+      "byte_length": 60219,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Verified Met JPEG bytes and HTTP 200 are historic evidence recorded in the repository in 2026-10-20. No full registered image download or checksum was performed in this session."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compare title, composition and artist in independently displayed identified public image with Met official artwork title/number; Met registered JPEG SHA/HTTP200 itself is only historical evidence.",
+    "observed": "Image from the identified portrait shows a dark-haired, dark-clothed figure holding a thin brush to a skull, consistent with Met description and accession 21.105; actual sitter identification remains debated."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Rechecked original Met text, identification and qualifying words against Japanese draft; compared the separately located visual reproduction, unchanged emotion index, image rights and source differentiation.",
+    "limitations": "The checking AI is the same assistant in a separate pass, not a different AI or expert. Registered official Met JPEG bytes not re-obtained today. For Rosa the scholarly support is an indexed excerpt, not a read-through of its PDF. Copyright noninfringement is not legally assured.",
+    "reviewed_artwork_sha256": "e27e86b42c653b5a481ae3ae9768a47aae3b86d08ac1ce9d7cb9a5f0f4847119",
+    "reviewed_visitor_draft_sha256": "25c187d6cd121079b9f58cdd2edd40d2e96aa66ba214a65a548e9a78dc8052f8",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met Self-Portrait (21.105), Salvator Rosa, ca.1647: skull bearing Greek inscription, mourning cypress wreath, Seneca book, dedication to Giovanni Battista Ricciardi. Met museum titles this Self-Portrait. Scholar Michael Zellmann-Rohrer (Met Journal 49, 2014) states sitter identification is disputed in indexed article opening."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "旧本文の『ローザは自分が』を《自画像》として紹介される作品との表現に改め、人物の同定には議論があると記載。Met本体の解説とMet学術誌の検索可能な冒頭の議論を混同しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing primary 好奇心2 connects to the mystery of the inscription and emblems, not artist's psychological state."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Japanese original prose avoids extended word-for-word reproduction or close translation of museum text. Qualifiers retained or strengthened where necessary."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "e27e86b42c653b5a481ae3ae9768a47aae3b86d08ac1ce9d7cb9a5f0f4847119",
+    "visitor_draft_sha256": "25c187d6cd121079b9f58cdd2edd40d2e96aa66ba214a65a548e9a78dc8052f8",
+    "proposal_sha256": "d2a4e9b29b0be996be4e856309bebef8d6f5bcd978152e7378d34ea26df7be61",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Locally checked canonical JSON fingerprints and 300 IDs; GitHub Actions Python registration/check, snapshots and draft validation are still required before merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437508.json",
+    "sha256": "d2a4e9b29b0be996be4e856309bebef8d6f5bcd978152e7378d34ea26df7be61",
+    "proposed_artwork_sha256": "e27e86b42c653b5a481ae3ae9768a47aae3b86d08ac1ce9d7cb9a5f0f4847119",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met object is marked Public Domain, with its public image offered under Open Access.",
+      "Japanese explanation is a short original summary, not copied or a lengthy translation of museum explanatory prose."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No concrete outstanding rights blocker identified for the database's concise original Japanese text or Met PD image references. Does not constitute a legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Historic October-2026 Met original JPEG SHA and status reused; not new measurements.",
+    "Same AI source-focused second review, not a separate model or third party.",
+    "Other 299 artwork content and rights registry unaffected."
+  ]
+}
