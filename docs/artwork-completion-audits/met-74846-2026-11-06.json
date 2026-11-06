@@ -1,0 +1,138 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-74846",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "aee26a1ea7c3ec2960d7e5ef4208378691dc32cb",
+    "artwork_record_sha256": "cf1bc4d85265ddeade3bfcf1dad811ab625dd22ab1edd9becd4fd93a801a6b00",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-74846.json",
+    "draft_sha256": "8b760f05358b20191e55b8d1b54fd9702c019783e0c7b9e0000fbad2e3b21b77"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/74846",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 18.85.5b, Krishna Woos Radha, Amber ca.1610; reluctant Radha and Krishna wooing amid trees in Rasikapriya; attached poem concerns secret love across union and parting. Title, date, source ID, imagery and attribution compared."
+      ],
+      "observed": "Original Met object page was opened and examined independently of PR #3 draft and viewed again to check wording, image and attributed interpretations; no new JPEG checksum measured."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Public Domain image access separate from rights in explanatory museum prose."
+      ],
+      "observed": "CC0/PD artwork image does not license long curatorial prose; concise independently worded Japanese text."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-74846",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP153226.JPG",
+      "sha256": "d6c2f05e457ca71b4c784d7b89dc9489718f45322c1599718c9f003687b098d9",
+      "byte_length": 2368930,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historical Met original JPEG full SHA+HTTP200 from 2026-10-20, not a current download."
+    },
+    {
+      "id": "met-74846",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP153226.JPG",
+      "sha256": "20d126471e858cb741761d620b481e93c38a4efd3f1461643209c421ea128df2",
+      "byte_length": 111459,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historical Met display JPEG full SHA+HTTP200 from 2026-10-20; current image viewed but byte hash not recalculated."
+    }
+  ],
+  "visual_observations": {
+    "method": "Met artwork public collection page image visually reviewed and compared to the registered title and historic official primaryImage path. Historical SHA metadata reused.",
+    "observed": "Tall Rajput painting folio with rows of script above Krishna courting Radha in a tree-lined landscape. Figures and visual motif agree with Met official object 18.85.5b; no current new JPEG SHA calculation."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Separately reread Met primary record and image and compared original PR #3 draft and modestly revised Japanese text against identified sources, visual depiction, artwork facts, rights, underlying curation and emotion link.",
+    "limitations": "Same assistant separate pass, not a distinct independent model or external scholar. Historic image hashes only; no new full JPEG byte download. The copyright analysis is not a legal guarantee.",
+    "reviewed_artwork_sha256": "cf1bc4d85265ddeade3bfcf1dad811ab625dd22ab1edd9becd4fd93a801a6b00",
+    "reviewed_visitor_draft_sha256": "8b760f05358b20191e55b8d1b54fd9702c019783e0c7b9e0000fbad2e3b21b77",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met object 74846, accession 18.85.5b, the Boston Rasikapriya illustrated folio of Krishna wooing Radha; original title, ca1610 Amber date, unspecified individual author, and Public Domain record align."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met describes hesitant Radha being wooed by Krishna; the poem links secret love to joining and parting; the composition is a literary scene, not testimony of a real couple's mental state. Unsupported details from a separate LACMA leaf were omitted."
+      },
+      {
+        "area": "emotion",
+        "finding": "The existing primary emotion 期待 remains provisionally associated with uncertain response, not proof of Radha's willingness or the author's private psychology."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Short source-grounded Japanese narrative, substantially original wording, no copied curatorial paragraphs and no unsupportable LACMA direct-check assertion. Image rights and prose copyright kept separate."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "cf1bc4d85265ddeade3bfcf1dad811ab625dd22ab1edd9becd4fd93a801a6b00",
+    "visitor_draft_sha256": "8b760f05358b20191e55b8d1b54fd9702c019783e0c7b9e0000fbad2e3b21b77",
+    "proposal_sha256": "946c52ef5b2040bcb7b13440aa1e7eb2ffe770b17113d1804996fb6dcef511ab",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historic_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Same-session JS SHA and record integrity checks. Repository Python validators and GitHub Actions required for main integration."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-74846.json",
+    "sha256": "946c52ef5b2040bcb7b13440aa1e7eb2ffe770b17113d1804996fb6dcef511ab",
+    "proposed_artwork_sha256": "cf1bc4d85265ddeade3bfcf1dad811ab625dd22ab1edd9becd4fd93a801a6b00",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met CC0 artwork imagery is not a grant of copyright to all museum description text.",
+      "Original Japanese prose uses source facts without long or verbatim sections."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No material identified barrier to storing the concise Japanese visitor explanation with Public Domain image metadata; not a legal noninfringement determination."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met source text and image inspected this session; image byte SHA and HTTP200 reused from 2026-10-20 only.",
+    "Same AI separate pass, no separate model or human reviewer.",
+    "No change to existing facts, meaning basis, emotion tag or image registry."
+  ]
+}
