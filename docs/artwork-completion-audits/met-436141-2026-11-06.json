@@ -1,0 +1,142 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436141",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "212a3f85932da2286276f1b1b908c31d3e4ddfe1",
+    "artwork_record_sha256": "1b82d4ff0fd260fb40aea3382ba7aee1f60d0b0dea311a69aa97d8d5d1812347",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436141.json",
+    "draft_sha256": "db76aa2706b886cce63993a9e1de3aa05a477a0da5d595fb1f8236e28c116231"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436141",
+      "access": "page_read_twice",
+      "locations": [
+        "The Dancing Class; Edgar Degas; ca. 1870; oil on wood; object 29.100.184; Public Domain",
+        "Artist's first dancing-class depiction; no backstage access at the time; studio posed models and large drawings",
+        "Artist's statement from late 1870s on unseen dance examinations; related general reflection, not direct purpose for this particular work"
+      ],
+      "observed": "Met公式個別作品のOverview・Artwork Detailsを初回確認し、同じ公式ページを別工程で読み直して主張を照合。特定の画像と別版を混同しない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access/CC0 applies to designated artwork images",
+        "Museum-produced curatorial text requires separate copyright consideration"
+      ],
+      "observed": "Met画像のオープンアクセス条件と所蔵館英文解説の利用権を別々に扱う。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436141",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-25445-001.jpg",
+      "status": 200,
+      "sha256": "f14772e6458a2756badde8045d0e42a733be51257f9c2e30df6fa4a85592c7df",
+      "byte_length": 3632363,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20に取得済みのMet公式原画像JPEG全量SHA256と同作品IDの登録証拠を再利用。今回の新たな全バイト測定ではない。"
+    },
+    {
+      "id": "met-436141",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25445-001.jpg",
+      "status": 200,
+      "sha256": "ad5538f97e5e201957e9e0d11007e72e729178e4183c6ae1b74542bacfbc8719",
+      "byte_length": 81380,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の表示JPEG全量ハッシュを再利用。今回のダウンロード・全量SHA再計測ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式の画像掲載と作品番号・題名・図像の解説を照合（ドガは表示画像の全景を直接確認、他2件は公式画像の同定情報と作品説明を参照）。登録JPEGの全画素・全バイトを今回直接検査したわけではない。",
+    "observed": "Met作品画像では木板上、白いチュチュの女性たちが練習し、左側の鏡、黒い服の着席人物、扉の近くの踊り子が室内に配置される。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "DB・既存鑑賞文の初回比較の後、作品ごとに別工程でMet作品ページを再読し、史実・解釈・図像・感情の関連・権利・英文からの長文転載有無を検討した。",
+    "limitations": "同一AI別工程であり別AI・第三者ではない。原/表示JPEGの全量SHAは過去測定の継承。今回の直接画面視認範囲は限定される。個別の法的判断を保証しない。",
+    "reviewed_artwork_sha256": "1b82d4ff0fd260fb40aea3382ba7aee1f60d0b0dea311a69aa97d8d5d1812347",
+    "reviewed_visitor_draft_sha256": "db76aa2706b886cce63993a9e1de3aa05a477a0da5d595fb1f8236e28c116231",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 29.100.184、Edgar Degas、約1870年、木板油彩と一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "当初オペラ座舞台裏に入れずアトリエでモデルにポーズを取らせた制作過程、後年の本人発言の適用範囲を区別。"
+      },
+      {
+        "area": "emotion",
+        "finding": "補助『好奇心』1は舞台でない稽古の場面と現実／構成の差を知りたい入口。単なる作家の熱心さのみからタグを増やさない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落の原資料との内容一致と独立構成を確認。逐語翻訳でなく、ドガが生涯楽屋に入れなかったとは説明していない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "1b82d4ff0fd260fb40aea3382ba7aee1f60d0b0dea311a69aa97d8d5d1812347",
+    "visitor_draft_sha256": "db76aa2706b886cce63993a9e1de3aa05a477a0da5d595fb1f8236e28c116231",
+    "proposal_sha256": "82b3bd943f4796a401f298cd714bf006eaac8525b9bb43c6e982f1bf0618f7fd",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_hash",
+      "old_image_sha_evidence_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub変更作成前にJSでIDと300件不変、正規化SHA・既存本文一致を照合。保存後のPython validate-format, snapshot, check及びGitHub ActionsはPR CIで別に確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436141.json",
+    "sha256": "82b3bd943f4796a401f298cd714bf006eaac8525b9bb43c6e982f1bf0618f7fd",
+    "proposed_artwork_sha256": "1b82d4ff0fd260fb40aea3382ba7aee1f60d0b0dea311a69aa97d8d5d1812347",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Artwork Public Domain indicated in Met record",
+      "Open Access CC0 images subject to separate policy",
+      "English exhibition/curatorial text not automatically CC0",
+      "Japanese prior prose independently compared to source"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "画像がPD/OAと表示されてもMetの英文文章には別の権利。現行の日本語解説は独自の構成・表現であり英語解説の長文転載や逐語訳ではないと判断。ただし法的非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "1870年代後半の本人発言をこの作品一点の制作意図と同一視しない。",
+    "既存日本語・作品情報・選定データと画像は変更しない。CI成功とmain統合後のみ完成数へ加算。"
+  ]
+}

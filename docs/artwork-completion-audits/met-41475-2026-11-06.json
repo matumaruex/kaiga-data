@@ -1,0 +1,142 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-41475",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "212a3f85932da2286276f1b1b908c31d3e4ddfe1",
+    "artwork_record_sha256": "93c9afe02f6ec950b0d666a6910c933d33acfa19d3bdcb64ac0aff42b4a9b962",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-41475.json",
+    "draft_sha256": "05948f35ce45e470401863a61c370dd78d9a631591c86583cafcea106b719fa7"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/41475",
+      "access": "page_read_twice",
+      "locations": [
+        "Guanyin the Bringer of Sons, unknown artist, late 16th century Ming China, Met 1989.152, silk scroll with ink colors gold, PD",
+        "Compassionate Guanyin seated on royal lion descending on clouds while holding a baby wearing belt and holding seal of high office",
+        "Sudhana below, symbolic auspicious birth and pilgrimage for enlightenment, male heirs' social status rather than universal family happiness"
+      ],
+      "observed": "Met公式個別作品のOverview・Artwork Detailsを初回確認し、同じ公式ページを別工程で読み直して主張を照合。特定の画像と別版を混同しない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access/CC0 applies to designated artwork images",
+        "Museum-produced curatorial text requires separate copyright consideration"
+      ],
+      "observed": "Met画像のオープンアクセス条件と所蔵館英文解説の利用権を別々に扱う。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-41475",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-18091-002.jpg",
+      "status": 200,
+      "sha256": "26fb15afad46ed9a3f34eecb0dda8ee51c96026de948012eee96b9eae2348e55",
+      "byte_length": 3701170,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20に取得済みのMet公式原画像JPEG全量SHA256と同作品IDの登録証拠を再利用。今回の新たな全バイト測定ではない。"
+    },
+    {
+      "id": "met-41475",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-18091-002.jpg",
+      "status": 200,
+      "sha256": "69c634bbef88806a8539769e9525297524162db7a606615560967334c7ead077",
+      "byte_length": 103806,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の表示JPEG全量ハッシュを再利用。今回のダウンロード・全量SHA再計測ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式の画像掲載と作品番号・題名・図像の解説を照合（ドガは表示画像の全景を直接確認、他2件は公式画像の同定情報と作品説明を参照）。登録JPEGの全画素・全バイトを今回直接検査したわけではない。",
+    "observed": "Met公式の彩色掛幅に、雲に乗って獅子上に座る観音、幼子を抱く姿、宝飾帯と印章、下で礼拝する善財童子が図版の説明と対応する。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "DB・既存鑑賞文の初回比較の後、作品ごとに別工程でMet作品ページを再読し、史実・解釈・図像・感情の関連・権利・英文からの長文転載有無を検討した。",
+    "limitations": "同一AI別工程であり別AI・第三者ではない。原/表示JPEGの全量SHAは過去測定の継承。今回の直接画面視認範囲は限定される。個別の法的判断を保証しない。",
+    "reviewed_artwork_sha256": "93c9afe02f6ec950b0d666a6910c933d33acfa19d3bdcb64ac0aff42b4a9b962",
+    "reviewed_visitor_draft_sha256": "05948f35ce45e470401863a61c370dd78d9a631591c86583cafcea106b719fa7",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 1989.152、16世紀末明代、中国、作者不詳、絹本着色・金を使った宗教画で一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metは獅子のインドでの王権象徴、抱く男児の将来の官位を示す帯・印章、下の善財童子の寓意を解説。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『慈しみ』3と補助『希望』1は庇護と男児への願望の主題からの入口。現代の一般的幸せと明代の男子継嗣願望を同一視しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落の宗教・社会史の説明とMet公式文を確認し、英文の逐語訳や長文転載ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "93c9afe02f6ec950b0d666a6910c933d33acfa19d3bdcb64ac0aff42b4a9b962",
+    "visitor_draft_sha256": "05948f35ce45e470401863a61c370dd78d9a631591c86583cafcea106b719fa7",
+    "proposal_sha256": "be3feb01b1f460d29233a57af7c64619b6c1748779395067fe0ab09f98a41d7f",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_hash",
+      "old_image_sha_evidence_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub変更作成前にJSでIDと300件不変、正規化SHA・既存本文一致を照合。保存後のPython validate-format, snapshot, check及びGitHub ActionsはPR CIで別に確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-41475.json",
+    "sha256": "be3feb01b1f460d29233a57af7c64619b6c1748779395067fe0ab09f98a41d7f",
+    "proposed_artwork_sha256": "93c9afe02f6ec950b0d666a6910c933d33acfa19d3bdcb64ac0aff42b4a9b962",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Artwork Public Domain indicated in Met record",
+      "Open Access CC0 images subject to separate policy",
+      "English exhibition/curatorial text not automatically CC0",
+      "Japanese prior prose independently compared to source"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "画像がPD/OAと表示されてもMetの英文文章には別の権利。現行の日本語解説は独自の構成・表現であり英語解説の長文転載や逐語訳ではないと判断。ただし法的非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "画家の内心や子どもの具体的な人生を捏造せず、明代の男性継承・官位願望を当時の文脈に置く。",
+    "既存日本語・作品情報・選定データと画像は変更しない。CI成功とmain統合後のみ完成数へ加算。"
+  ]
+}
