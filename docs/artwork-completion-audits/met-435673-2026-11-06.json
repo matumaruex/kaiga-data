@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435673",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "9ab1d9cf5efe417b104f247da6dc7105d2d8e108",
+    "artwork_record_sha256": "2e37b6562f247c5e043939f10e7a73cdb6a8388c546a5c955794124721df92e9",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435673.json",
+    "draft_sha256": "4064ac5c6ef058ebc40a22669c387d6f1eb54373792f7b86bd6fe8bb5b304930"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435673",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 1978.493; Henri Joseph van Blarenberghe; 1773, oil on canvas, Public Domain",
+        "Louis XV initially commissioned Joseph Vernet for French ports; later Louis Nicolas van Blarenberghe and his son Henri worked on Brest images, and Henri most likely executed this canvas",
+        "The ship Oiseau, red-uniformed convict workers, Indian Ocean colonies and enslaved colonial labor are all discussed in the Met's overview"
+      ],
+      "observed": "所蔵館の個別作品概要と詳細を別パスで再確認し、登録情報・日本語本文を照合した。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met's Open Access and Public Domain policy for eligible collection images",
+        "Museum-created explanatory text does not automatically inherit image CC0 terms"
+      ],
+      "observed": "画像のOA/CC0と館の文章の権利条件を区別。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:Les_abords_du_port_de_Brest,_1773,_Henri_Joseph_van_Blarenberghe",
+      "access": "page_read_once",
+      "locations": [
+        "Met object 435673 and source image The Outer Harbor of Brest MET DP316906.jpg, 3917x2743 pixels"
+      ],
+      "observed": "画像の所蔵番号と登録JPEGファイル名を補助照合。作品作者はMetの現行表示を優先。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435673",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP316906.jpg",
+      "sha256": "a41c341d212f95caf8b3ee23e9d32d5f3316974abaf4ee6a49dba6254980e0aa",
+      "byte_length": 2255487,
+      "sha_checked_on": "2026-10-20",
+      "status": 200,
+      "matches_registered_bytes": true,
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19/20保存済みのJPEG全量SHA256とバイト数を再利用。今回新規に全JPEGをダウンロードして照合したものではない。"
+    },
+    {
+      "id": "met-435673",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP316906.jpg",
+      "sha256": "c9bdc8840b56701131d8daf1ed4cf5af69b98baada43d7bbb34999b05547c117",
+      "byte_length": 57068,
+      "sha_checked_on": "2026-10-19",
+      "status": 200,
+      "matches_registered_bytes": true,
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19/20保存済みのJPEG全量SHA256とバイト数を再利用。今回新規に全JPEGをダウンロードして照合したものではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "登録作品番号とMet作品ページ画像／同一ファイル名の所蔵画像複製を作品ごとに照合。登録原JPEG・表示JPEGの過去全量ハッシュは新規測定と区別。",
+    "observed": "Met 1978.493に紐づく『The Outer Harbor of Brest MET DP316906.jpg』の公開複製画像を補助的に視認し、港湾・船舶・人々の密集・右側建物群を照合。Met IIIF直接画面はキャッシュエラーで取得できず、今回全バイト再検査したとは称さない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "原資料の一次確認後、同一AIの別閲覧工程で史実・作品画像・選定資料・感情・本文・権利の各点を再確認。",
+    "limitations": "別AI・第三者による独立審査ではなく同一AIの別工程。過去のJPEG SHAを再利用し、今回の全バイト取得は実施していない。法的保証なし。",
+    "reviewed_artwork_sha256": "2e37b6562f247c5e043939f10e7a73cdb6a8388c546a5c955794124721df92e9",
+    "reviewed_visitor_draft_sha256": "4064ac5c6ef058ebc40a22669c387d6f1eb54373792f7b86bd6fe8bb5b304930",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 1978.493、1773年、油彩。Metの公式作者表示は息子アンリ＝ジョゼフ、制作は父子協働の文脈で息子の油彩実制作を『可能性が高い』とする。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "港湾国家事業の経緯、出港準備するオワゾー号、赤制服の囚人、植民地奴隷労働の歴史はMet所蔵解説と一致。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存感情索引0件を保持。活気・強制労働の事実から特定の感情を機械的に加えない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落の時代・制作背景・権力と労働の区別を照合。原文を長く逐語訳せずに独自表現で要約。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "2e37b6562f247c5e043939f10e7a73cdb6a8388c546a5c955794124721df92e9",
+    "visitor_draft_sha256": "4064ac5c6ef058ebc40a22669c387d6f1eb54373792f7b86bd6fe8bb5b304930",
+    "proposal_sha256": "1b875c393a7d23744f4ab61ab0566efb3bc46ce2b5dbbd20ff9f3036ca3c6577",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_hash",
+      "historical_registered_image_shas_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub書込前のJSで対象レコード・下書き完全一致、ID一意性、登録画像メタデータと内容指紋を確認。Python構造テストおよびGitHub Actionsは別途実行する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435673.json",
+    "sha256": "1b875c393a7d23744f4ab61ab0566efb3bc46ce2b5dbbd20ff9f3036ca3c6577",
+    "proposed_artwork_sha256": "2e37b6562f247c5e043939f10e7a73cdb6a8388c546a5c955794124721df92e9",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Object labeled Public Domain",
+      "CC0/Open Access applies to eligible object images",
+      "Met's written commentary reviewed separately from image rights"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "既存の日本語本文は独自の構成と要約で、Metの独自英文説明と長い逐語転載・翻訳にはなっていない。画像のOA/CC0と美術館文章の著作権を別扱い。法的非侵害の保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "アンリ＝ジョゼフ・ヴァン・ブラレンベルグ《ブレスト外港》：既存日本語3段落、作品事実、画像、感情索引、選定資料をすべて維持。",
+    "2026-10-19/20のJPEG SHAは再利用し、新規測定とは表記しない。CI成功・main統合後のみ完成として数える。",
+    "Met公式IIIFの直接キャッシュ取得に失敗したため同じDP316906と所蔵番号の公開複製図版を補助照合。"
+  ]
+}

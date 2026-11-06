@@ -1,0 +1,142 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-40020",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "9ab1d9cf5efe417b104f247da6dc7105d2d8e108",
+    "artwork_record_sha256": "dafd118f0404a71f22f51967dd720ccf9bd8692eeaab1e6cb1a3bfc7d83e6e52",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-40020.json",
+    "draft_sha256": "d237140744271a51f1c1b8341317f3b620f967c06793ea445ac38343f07dcf6a"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/40020",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 1989.363.133; Hongren; 1661, hanging scroll ink on paper, Public Domain",
+        "Anhui school of dry angular brushwork and light ink, closely associated with Yellow Mountains; Hongren was also a Buddhist monk",
+        "The Met notes Hongren and other Anhui painters traveled to Nanjing for interactions; not proof this painting depicts a specific identified mountain"
+      ],
+      "observed": "所蔵館の個別作品概要と詳細を別パスで再確認し、登録情報・日本語本文を照合した。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met's Open Access and Public Domain policy for eligible collection images",
+        "Museum-created explanatory text does not automatically inherit image CC0 terms"
+      ],
+      "observed": "画像のOA/CC0と館の文章の権利条件を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-40020",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-36009-002.jpg",
+      "sha256": "7c2bea08d70764420247db576bdae5a7d170622ba6546e9a5f551b073e4bc6c8",
+      "byte_length": 1895944,
+      "sha_checked_on": "2026-10-20",
+      "status": 200,
+      "matches_registered_bytes": true,
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19/20保存済みのJPEG全量SHA256とバイト数を再利用。今回新規に全JPEGをダウンロードして照合したものではない。"
+    },
+    {
+      "id": "met-40020",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-36009-002.jpg",
+      "sha256": "6ace84fbe600abd172fa9ba166af4dca515957dd65ebbb5eef85c65402856bd9",
+      "byte_length": 61421,
+      "sha_checked_on": "2026-10-19",
+      "status": 200,
+      "matches_registered_bytes": true,
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19/20保存済みのJPEG全量SHA256とバイト数を再利用。今回新規に全JPEGをダウンロードして照合したものではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "登録作品番号とMet作品ページ画像／同一ファイル名の所蔵画像複製を作品ごとに照合。登録原JPEG・表示JPEGの過去全量ハッシュは新規測定と区別。",
+    "observed": "Met作品40020の公式IIIF図版を確認。上部の書、薄墨と乾筆で鋭く描いた山塊、細い樹木と建物、紙の余白を視認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "原資料の一次確認後、同一AIの別閲覧工程で史実・作品画像・選定資料・感情・本文・権利の各点を再確認。",
+    "limitations": "別AI・第三者による独立審査ではなく同一AIの別工程。過去のJPEG SHAを再利用し、今回の全バイト取得は実施していない。法的保証なし。",
+    "reviewed_artwork_sha256": "dafd118f0404a71f22f51967dd720ccf9bd8692eeaab1e6cb1a3bfc7d83e6e52",
+    "reviewed_visitor_draft_sha256": "d237140744271a51f1c1b8341317f3b620f967c06793ea445ac38343f07dcf6a",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 1989.363.133、1661年、弘仁の紙本墨画掛幅。登録の《幽谷泉声図》と鑑賞文中の《孤谷泉声》は文字の異なる同作品の訳題であると注記。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "安徽画派の淡墨・乾筆、黄山の景観との関係、南京の交流はMetの説明。実在する山峰の写生や本人の個別声明とは断定しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存感情索引0件を維持。題名中の孤独・静けさを作者の心理や鑑賞者の感情タグに安易に変換しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落の筆法と歴史的文脈を照合。題名表記差は監査記録へ残し、本文章の既存版は不変更。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "dafd118f0404a71f22f51967dd720ccf9bd8692eeaab1e6cb1a3bfc7d83e6e52",
+    "visitor_draft_sha256": "d237140744271a51f1c1b8341317f3b620f967c06793ea445ac38343f07dcf6a",
+    "proposal_sha256": "601e9920f71238f8ad2da7921963d74c056096b56cb341f267600f38b6530a17",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_hash",
+      "historical_registered_image_shas_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub書込前のJSで対象レコード・下書き完全一致、ID一意性、登録画像メタデータと内容指紋を確認。Python構造テストおよびGitHub Actionsは別途実行する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-40020.json",
+    "sha256": "601e9920f71238f8ad2da7921963d74c056096b56cb341f267600f38b6530a17",
+    "proposed_artwork_sha256": "dafd118f0404a71f22f51967dd720ccf9bd8692eeaab1e6cb1a3bfc7d83e6e52",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Object labeled Public Domain",
+      "CC0/Open Access applies to eligible object images",
+      "Met's written commentary reviewed separately from image rights"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "既存の日本語本文は独自の構成と要約で、Metの独自英文説明と長い逐語転載・翻訳にはなっていない。画像のOA/CC0と美術館文章の著作権を別扱い。法的非侵害の保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "弘仁《幽谷泉声図》：既存日本語3段落、作品事実、画像、感情索引、選定資料をすべて維持。",
+    "2026-10-19/20のJPEG SHAは再利用し、新規測定とは表記しない。CI成功・main統合後のみ完成として数える。",
+    "既存本文中の『孤谷泉声』と公式『幽谷泉聲圖』の日本語題名の表記差を把握。作品同定とは区別して記録。"
+  ]
+}
