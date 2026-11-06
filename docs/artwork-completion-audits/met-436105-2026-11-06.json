@@ -1,0 +1,151 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436105",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "a3dba96f410918c8c355884fea893a0148b13c26",
+    "artwork_record_sha256": "0ce6a5b04697e1c9e36249fdf49e130913c1545444bb91d9f2a750eb83c50a73",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436105.json",
+    "draft_sha256": "d7ae0811387c34216021476012c075d6a04a7692def70e2586c8706c07ac4273"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436105",
+      "access": "page_read_twice",
+      "locations": [
+        "1787 Jacques Louis David, Met 31.45, oil on canvas, 129.5 by 196.2 cm, Public Domain",
+        "Socrates raises a finger while taking cup of hemlock, surrounded by grieving disciples",
+        "Plato at foot of bed was not present at death; David put him in as the Phaedo author",
+        "Antiquarian research into clothing and furniture, resistance to unjust authority"
+      ],
+      "observed": "Met公式個別作品ページの検索と再閲覧、館の音声解説transcriptを別工程で読み直し、本文・感情・作者帰属・図像の根拠を確認。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Death_of_Socrates_MET_DP-13139-001.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met 31.45, original 4000 by 2663 image",
+        "Met-contributed CC0 image; distinguish print or with-frame versions"
+      ],
+      "observed": "同作品をMetからCommonsに寄贈した画像で所蔵番号・全画面・CC0表示を確認。額入り等の別画像と混同しない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met public domain and Open Access / CC0 policy",
+        "Museum interpretive prose requires separate consideration"
+      ],
+      "observed": "画像と所蔵館の解説文章の利用条件を分離し、既存の日本語本文が独自構成であるか判断。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436105",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-13139-001.jpg",
+      "status": 200,
+      "sha256": "eaff5a04103361fed9fba6f10ea7bed80ccdc595d664b6997c6bd32f0eee06a6",
+      "byte_length": 1793830,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19/20保存のMet公式JPEG全量SHA実測・同一IDを継承し、今回の新規バイト取得とはしない。"
+    },
+    {
+      "id": "met-436105",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-13139-001.jpg",
+      "status": 200,
+      "sha256": "7d8d840424e3747c14b203b67192fff726c897bb05cf9d3f7fa227e1ee4510de",
+      "byte_length": 71388,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19/20保存のMet公式JPEG全量SHA実測・同一IDを継承し、今回の新規バイト取得とはしない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品画像・同一作品の画像検索表示を観察し、所蔵番号と登録JPEGの過去の原画像・表示画像SHAを照合。",
+    "observed": "灰色の室内で白い衣のソクラテスが寝台上で上方を指し、左に沈むプラトン、中央の赤衣の人物が杯を差し出し、周りで弟子が悲嘆に暮れている。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初回の本番DBと解説本文の読解後、別工程でMet公式作品ページと音声トランスクリプト・関連公開画像・必要な専門解説を再参照し、史実・図像・曖昧さ・感情・文章権利を照合。",
+    "limitations": "同一AIによる別工程であり別AI・第三者監査ではない。JPEGの全量SHAは2026-10-19/20の記録を再利用し本セッション新規取得ではない。",
+    "reviewed_artwork_sha256": "0ce6a5b04697e1c9e36249fdf49e130913c1545444bb91d9f2a750eb83c50a73",
+    "reviewed_visitor_draft_sha256": "d7ae0811387c34216021476012c075d6a04a7692def70e2586c8706c07ac4273",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "The Death of Socrates：Met ID・所蔵番号・作家・時代と媒体が現行個別作品ページに整合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "新古典主義と魂の不死に関する議論、歴史上不在のプラトンを絵に加えた作為を区別。作者本人の思想と実際の古代人の発言を無根拠に同一視しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "『喪失感』主2・『希望』主2・『悲しみ』補助1。希望は死そのものを称揚する意味でなくソクラテスの揺るがぬ信念への入口。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存の日本語6段落はMetの個別解説・音声の論点を独自に記述。一次資料との意味上の整合を確認し、逐語訳・長文引用ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "0ce6a5b04697e1c9e36249fdf49e130913c1545444bb91d9f2a750eb83c50a73",
+    "visitor_draft_sha256": "d7ae0811387c34216021476012c075d6a04a7692def70e2586c8706c07ac4273",
+    "proposal_sha256": "a13186a186714659bbafb82d8270191f0b3fb1cc77110719ec59a584531465c8",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_hash",
+      "historical_image_hashes_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "コミット準備時にJavaScriptで正規化JSONハッシュ・ID重複・対象外299件の構造不変・説明文一致を確認。Python validatorとActions CIはpush後に確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436105.json",
+    "sha256": "a13186a186714659bbafb82d8270191f0b3fb1cc77110719ec59a584531465c8",
+    "proposed_artwork_sha256": "0ce6a5b04697e1c9e36249fdf49e130913c1545444bb91d9f2a750eb83c50a73",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Artwork page Public Domain flag",
+      "Met Open Access / CC0 images",
+      "Independent treatment of museum English curatorial prose"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met寄贈Commonsの当該デジタル図版はCC0。原英語解説の著作権とは分離し、日本語の独自構成を確認。 法的な全面保証・個別許諾を意味しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存本文・作品事実・画像・選定資料・感情索引を保持しcompletionのみ追加。",
+    "合格は作業中ブランチの対象版に対するもので、CI成功とmain統合後に完成数へ加算。"
+  ]
+}
