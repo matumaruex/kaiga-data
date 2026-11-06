@@ -1,0 +1,138 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-438848",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "fce4ceeeae72564a17e6d78096411dd7fedb8a45",
+    "artwork_record_sha256": "b51cb3c9cada1c07d761f5885c2ac43fea66b9995f5062625770dfc6068cacfa",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-438848.json",
+    "draft_sha256": "62db55375ebf209f6f5632764a8c36b67685130e5ad15b71e3a29464bf53401c"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/438848",
+      "access": "page_read_twice",
+      "locations": [
+        "Met accession 2006.258, Eduard Gaertner 1831, 40.6×27.9cm, depicts Berlin's Parochialstrasse with the oldest church, Nikolaikirche, in distance; two additional versions, one in Berlin's Nationalgalerie and one lost during World War II. The affection for historic city life is Met's reading. Original museum record read twice, accession 2006.258."
+      ],
+      "observed": "Two read passes of Met official overview and Artwork Details compared to existing drafted visitor text and selection fields; image reproduction identification handled separately."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met FAQ on public-domain works, CC0 images and Open Access; museum descriptive prose is not automatically CC0."
+      ],
+      "observed": "Each object marked Public Domain by the Met; descriptive text independently rewritten or checked as short original Japanese text."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-438848",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP157664.jpg",
+      "sha256": "8e922e0919756abc83d9faa0352a617b5b41af1ed3c6187001c708ef62ca5eea",
+      "byte_length": 1830049,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 historical original JPEG full-byte SHA, Met API primaryImage mapping and HTTP200; not fresh JPEG transfer."
+    },
+    {
+      "id": "met-438848",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP157664.jpg",
+      "sha256": "213bb6469ba2400cc548b92e78eebd29124e4291ad848cb5ea22efffe65523c3",
+      "byte_length": 94616,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 historical display JPEG full-byte hash and HTTP200; live JPEG byte stream not tested in this run."
+    }
+  ],
+  "visual_observations": {
+    "method": "Independently indexed reproduction examined for depicted scene; museum's current collection page confirms title, accession, artist and image entry; bound Met image URL and historical SHA mapping reused. No fresh registered JPEG pixel inspection.",
+    "observed": "Visually inspected reproduction of the Met version on Wikimedia: narrow street, two dogs, pedestrians, buildings on both sides, distant spire. Composition agrees with Met's object description; exact registered Met JPEG bytes were not newly fetched."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Separately compared current Met primary object overview, attribution, period, catalogue details and rights to Japanese PR #3 draft and curatorial record after initial drafting phase; independently indexed image reproduction viewed.",
+    "limitations": "Not a second model or external reviewer. Current registered museum JPEG pixel bytes are unavailable; old full-JPEG SHA and official API identity records reused. External reproduction independently visually inspected; no legal noninfringement guarantee.",
+    "reviewed_artwork_sha256": "b51cb3c9cada1c07d761f5885c2ac43fea66b9995f5062625770dfc6068cacfa",
+    "reviewed_visitor_draft_sha256": "62db55375ebf209f6f5632764a8c36b67685130e5ad15b71e3a29464bf53401c",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met object met-438848, inventory 2006.258, 'Parochialstrasse in Berlin', Eduard Gaertner, 1831, PD marking and historical image metadata agree."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met accession 2006.258, Eduard Gaertner 1831, 40.6×27.9cm, depicts Berlin's Parochialstrasse with the oldest church, Nikolaikirche, in distance; two additional versions, one in Berlin's Nationalgalerie and one lost during World War II. The affection for historic city life is Met's reading."
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing indexed emotions [\"懐かしさ\"] were reviewed as viewer-search associations, not statements of historical artist intent, and remain unchanged."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Concise Japanese explanatory text has original expression, museum interpretations correctly attributed and uncertainty preserved; no extended direct wording or complete translation of museum material."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "b51cb3c9cada1c07d761f5885c2ac43fea66b9995f5062625770dfc6068cacfa",
+    "visitor_draft_sha256": "62db55375ebf209f6f5632764a8c36b67685130e5ad15b71e3a29464bf53401c",
+    "proposal_sha256": "5515e70fb9ada248fe5c35bd0b89246f536f958aac396dc7f4383db2c0043610",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historic_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS canonical SHA and structural/draft/source-URL checks performed; Python repository validation and CI required for successful production integration."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-438848.json",
+    "sha256": "5515e70fb9ada248fe5c35bd0b89246f536f958aac396dc7f4383db2c0043610",
+    "proposed_artwork_sha256": "b51cb3c9cada1c07d761f5885c2ac43fea66b9995f5062625770dfc6068cacfa",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met marks this specific artwork Public Domain; Met Open Access FAQ permits CC0 reuse of eligible artwork images.",
+      "Museum descriptions and externally hosted reproduction rights are not treated as open-licensed text. Japanese narrative independently worded."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material legal barrier to GitHub storage of concise original-language description and PD artwork metadata; not a definitive infringement ruling."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met official collection text re-read in two passes; visual subject matched using an externally indexed reproduction.",
+    "Registered JPEG bytes and SHA not newly retrieved. Historical 2026-10-20 evidence was reused.",
+    "This is same-AI review, not a different agent or third party."
+  ]
+}
