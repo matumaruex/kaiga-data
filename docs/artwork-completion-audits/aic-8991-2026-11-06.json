@@ -1,0 +1,143 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-8991",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "b5c2e4d333ef255798473285b71c2ac6e081beaf",
+    "artwork_record_sha256": "08f167e0678787659c67dbf526ba62460c04e337624967cc2e30345e3419c64b",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-8991.json",
+    "draft_sha256": "8fd007599f836f43c4e1fb05220d6f0cb9f038919f6827f5e0cf7e1c9f75da12"
+  },
+  "sources": [
+    {
+      "url": "https://archive.artic.edu/modernwing/8991",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC旧公式所蔵解説（The Essential Guide 2013 p.254）：Wassily Kandinsky《Improvisation No.30(Cannons)》1913、所蔵1931.511。1912年の著書における音楽的抽象の追求。傾いた建物・群衆・車輪の付いた煙を上げる大砲を描く。購入者Arthur Jerome Eddy宛ての手紙で当時の戦争の話題との関連を可能性として述べた。"
+      ],
+      "observed": "AIC提供の作品に対応する情報を新たに確認し、古い原資料・画像記録と同じ作品版であることを照合。"
+    },
+    {
+      "url": "https://www.artic.edu/artworks/8991",
+      "access": "page_read_twice",
+      "locations": [
+        "所蔵作品ID 8991・1931.511。個別作品URLへの今回直接アクセスは失敗。既存AIC API同定記録および同館の作品解説・学術資料から該当主張を確認。"
+      ],
+      "observed": "該当URLは今回403/非対応。旧API同定証拠と同館旧公開作品解説・研究資料を再確認。現在の館個別ページを直接読んだとは主張しない。"
+    },
+    {
+      "url": "https://www.artic.edu/artworks/8991/improvisation-no-30-cannons",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC旧公式所蔵解説（The Essential Guide 2013 p.254）：Wassily Kandinsky《Improvisation No.30(Cannons)》1913、所蔵1931.511。1912年の著書における音楽的抽象の追求。傾いた建物・群衆・車輪の付いた煙を上げる大砲を描く。購入者Arthur Jerome Eddy宛ての手紙で当時の戦争の話題との関連を可能性として述べた。"
+      ],
+      "observed": "AIC提供の作品に対応する情報を新たに確認し、古い原資料・画像記録と同じ作品版であることを照合。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File%3AVasily_Kandinsky_-_Improvisation_No._30_%28Cannons%29_-_1931.511_-_Art_Institute_of_Chicago.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "対象作品 即興 第30番（大砲） の同定・図像・研究上の補助参照。"
+      ],
+      "observed": "今回閲覧した補助資料。作品固有の主出典を置き換えるものではない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-8991",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Vasily_Kandinsky_-_Improvisation_No._30_%28Cannons%29_-_1931.511_-_Art_Institute_of_Chicago.jpg/960px-Vasily_Kandinsky_-_Improvisation_No._30_%28Cannons%29_-_1931.511_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "status": 200,
+      "sha256": "00c71e5668ac44143d40504b68e2f3a7258460e9911f571bf596f9874dddc7a4",
+      "byte_length": 356580,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18の既存画像台帳でHTTP200と全量JPEG SHA256を記録。今回は全バイトを再取得しておらず現在のHTTP200を示さない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "AICの作品説明・公開図版の視覚情報と、所蔵番号付き登録画像の既存同定記録を照合。新たなJPEG全量/全画素取得は行っていない。",
+    "observed": "青い大きな曲線形、黄色・赤・白・黒の面、斜めの建物と左下の小人物、右下の大砲の車輪。AIC公式記述、公開複製像、Commonsの1931.511登録ファイルを照合。登録JPEGの最新バイトは今回未取得。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存の日本語本文・事実と感情選定資料を先に確認し、別工程でAIC館資料・所蔵番号・公開図像と画像レジストリおよび文章権利を照合。元の文章を再生成して自己採点したものではない。",
+    "limitations": "同一AIが別工程で照合した記録で、別AIや第三者による審査ではない。artic.edu/artworks個別ページは403/非対応、同館の公式旧解説/研究図録と既存の館APIメタデータで代替。登録JPEGのSHAは2026-10-18の旧記録の再利用で今回の再計測ではない。画像の法的な公開権利を最終保証するものではない。",
+    "reviewed_artwork_sha256": "08f167e0678787659c67dbf526ba62460c04e337624967cc2e30345e3419c64b",
+    "reviewed_visitor_draft_sha256": "8fd007599f836f43c4e1fb05220d6f0cb9f038919f6827f5e0cf7e1c9f75da12",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "1913年、AIC1931.511。作者の手紙は大砲の出現を当時の戦争の話題かもしれないと述べる不確かな説明。1914年以降の特定の戦争場面を描いたわけではない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "AIC旧公式所蔵解説（The Essential Guide 2013 p.254）：Wassily Kandinsky《Improvisation No.30(Cannons)》1913、所蔵1931.511。1912年の著書における音楽的抽象の追求。傾いた建物・群衆・車輪の付いた煙を上げる大砲を描く。購入者Arthur Jerome Eddy宛ての手紙で当時の戦争の話題との関連を可能性として述べた。"
+      },
+      {
+        "area": "emotion",
+        "finding": "実物モチーフと抽象形態の交錯は『好奇心』を喚起しうる。大砲と戦争談話は『不安』の入口だが特定の戦闘を記録した絵としない。絵具の激しさだけで本人の不安を断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存の日本語解説は独立した文章構成で、館解説の長い逐語転載ではない。作品固有の根拠・不確実性を保持。既存本文は一切改稿しない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "08f167e0678787659c67dbf526ba62460c04e337624967cc2e30345e3419c64b",
+    "visitor_draft_sha256": "8fd007599f836f43c4e1fb05220d6f0cb9f038919f6827f5e0cf7e1c9f75da12",
+    "proposal_sha256": "b0126c7c153a7eb92e314fd4e376b71435a75be4a9bcefc9ef43a1438c9fdf73",
+    "checks": [
+      "300_unique_ids",
+      "other_297_unchanged",
+      "current_visitor_exact_match",
+      "canonical_sha256",
+      "old_jpeg_hash_matches_registry",
+      "unchanged_emotion_index"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub保存前にJavaScriptでレコード構造・指紋・既存鑑賞本文完全一致・画像台帳ハッシュ・対象外297件不変を確認。Python検証とActionsはPR CIで別途実行。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-8991.json",
+    "sha256": "b0126c7c153a7eb92e314fd4e376b71435a75be4a9bcefc9ef43a1438c9fdf73",
+    "proposed_artwork_sha256": "08f167e0678787659c67dbf526ba62460c04e337624967cc2e30345e3419c64b",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vasily%20Kandinsky%20-%20Improvisation%20No.%2030%20(Cannons)%20-%201931.511%20-%20Art%20Institute%20of%20Chicago.jpg",
+    "locations": [
+      "AIC作品本体のパブリックドメイン記録と登録画像のCommons/旧公開ミラーの権利表示を区別。",
+      "美術館の研究解説・収蔵文の著作権は画像のPD表示とは別。既存日本語解説の構成・実質的転載の有無を点検。"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "既存作品と登録画像のPD表記を引き継ぎ、館原文を長く転載せず独立した日本語の解説を保持。未解決のDB保存阻害事由は認めず。ただし公開配信時の法的な非侵害・ライセンス最終確認は保証しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "即興 第30番（大砲）：AIC原資料・既存鑑賞本文・作品の出典・画像台帳・感情選定・権利の作品別照合。既存レコードの意味や画像・感情タグを改変せずcompletionのみ追加。",
+    "実物モチーフと抽象形態の交錯は『好奇心』を喚起しうる。大砲と戦争談話は『不安』の入口だが特定の戦闘を記録した絵としない。絵具の激しさだけで本人の不安を断定しない。",
+    "同じAIの別工程を別AI/第三者監査とは称さない。旧画像SHAを今回の全量再取得と称さない。",
+    "GitHub Actions成功・main統合後のみ完成数に計上。"
+  ]
+}
