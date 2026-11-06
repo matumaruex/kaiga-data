@@ -1,0 +1,139 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-14598",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "0a6ef52cc2b5f455bfcdb2f68ce7647475a6a3f9",
+    "artwork_record_sha256": "1f1d71116fe908c592ca3203278846311ca2bc9d09e83ed8ffc07713ba8d3dbb",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-14598.json",
+    "draft_sha256": "001032ac98a7dbbce0238de2cc0706991d1b3fc3b13ca252fe6f1301257b25f0"
+  },
+  "sources": [
+    {
+      "url": "https://publications.artic.edu/monet/reader/paintingsanddrawings/section/135467",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC Monet scholarly catalogue Cat.13 The Beach at Sainte-Adresse 1867, oil on canvas, signed67, accession1933.439, Normandy shore near Le Havre.",
+        "Monet and Normandy / Monet's Early Paintings: tourism and fishing coexisting during transformation of Normandy coastline after railway development.",
+        "Technical Report and 'Beach and Regatta': infrared X-ray proved 4-5 well dressed vacationers and white-sailed pleasure boats in preliminary right-hand area; Monet painted out and emphasized fishermen and darker-sailed working boats. Artist's specific motive unrecorded."
+      ],
+      "observed": "当該AIC公式図録の検索・原文と技術記述を別パスで再検討。作品同定と解釈の確度を分離した。"
+    },
+    {
+      "url": "https://www.artic.edu/artworks/14598",
+      "access": "page_read_twice",
+      "locations": [
+        "aic-14598 verified art-institute legacy collection information and accession 1933.439; website direct URL cache miss, checked against Art Institute official online scholarly catalogue and saved API record.",
+        "AIC Monet scholarly catalogue Cat.13 The Beach at Sainte-Adresse 1867, oil on canvas, signed67, accession1933.439, Normandy shore near Le Havre."
+      ],
+      "observed": "この館個別作品URLの直接取得は今回キャッシュ失敗。旧所蔵APIチェック記録と最新閲覧できたAIC学術図録・旧展示記事により当該所蔵番号・題名・画面を交差確認。直接作品ページを読んだとはしない。"
+    },
+    {
+      "url": "https://api.artic.edu/docs/",
+      "access": "page_read_once",
+      "locations": [
+        "Art Institute of Chicago collection objects reported public-domain are image-use subjects under image licensing rules, not blanket relicensing of scholarly text.",
+        "Third-party Commons and pinned GitHub mirrors' historical open-image claims are reviewed separately; distribution needs license review."
+      ],
+      "observed": "所蔵画像と同館の学術解説本文を権利上分離。画像の過去認証と現時点の再配信を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-14598",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Claude_Monet_-_The_Beach_at_Sainte-Adresse_-_1933.439_-_Art_Institute_of_Chicago.jpg/960px-Claude_Monet_-_The_Beach_at_Sainte-Adresse_-_1933.439_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "status": 200,
+      "sha256": "95d7661090a6151877ef8e810f23bb23b4e35738fdc290193f92ea81cc048b42",
+      "byte_length": 256205,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18の既存画像レジストリのSHA256/バイト長/当時のHTTP200。今回は新規全量再取得・再計測なし。現在のHTTP応答を示す数値ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "AIC一次学術図録・過去所蔵画像同定・Commons一般公開図像を作品番号で照合。登録JPEGの完全バイト再取得はしていない。",
+    "observed": "AIC図録Cat.13図版と1933.439のCommons公開画像で、曇った空、浜の漁船/漁師、沖の茶色い帆と白く低い浜を照合。登録960px Commons画像の旧作品同定/旧ハッシュを引き継ぐが、このセッションで同一JPEGの全画素/バイトを再取得したと主張しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "研究図録の作品別解説を読み、別工程で研究内の技術記載と館所蔵記事・公開画像・登録本文・感情索引・権利条件を交差照合した。",
+    "limitations": "同じAIの別工程であり別AIまたは第三者の独立監査ではない。個別AIC作品ページURL直接閲覧は今回失敗、代わりにAIC学術図録と過去APIチェックを照合。2026-10-18の旧JPEG全量SHAを再利用、今回の最新JPEG再取得/全画素検査ではない。法的非侵害を保証しない。",
+    "reviewed_artwork_sha256": "1f1d71116fe908c592ca3203278846311ca2bc9d09e83ed8ffc07713ba8d3dbb",
+    "reviewed_visitor_draft_sha256": "001032ac98a7dbbce0238de2cc0706991d1b3fc3b13ca252fe6f1301257b25f0",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC catalogue Cat.13 1933.439 Claude Monet 1867; Met同題の『Regatta at Sainte-Adresse』と区別。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "旧行楽客や白帆のレジャー艇はIR・X線分析に基づく。最終作に暗色帆の漁船と漁師が追加されたが、その動機は作者証言なし。"
+      },
+      {
+        "area": "emotion",
+        "finding": "補助『懐かしさ』1はモネの馴染みのノルマンディーの海岸と変貌する沿岸という鑑賞上の弱い連想であり、作者の確かな郷愁を意味しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語6段落は海辺の変化と技術研究を分け、現図像に消された観光客が今も見えるとは述べていない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "1f1d71116fe908c592ca3203278846311ca2bc9d09e83ed8ffc07713ba8d3dbb",
+    "visitor_draft_sha256": "001032ac98a7dbbce0238de2cc0706991d1b3fc3b13ca252fe6f1301257b25f0",
+    "proposal_sha256": "2b5e726e0c9630a88f4e5b4887169e0695c9b015a8f70cbd5da36e743eff0cb4",
+    "checks": [
+      "300_unique_ids",
+      "other_297_unchanged",
+      "current_visitor_exact_match",
+      "canonical_sha256",
+      "old_jpeg_hash_matches_registry",
+      "unchanged_emotion_index"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub保存前にJavaScriptで対象外297作品不変・形式/レコード指紋・既存解説の完全一致と過去画像ハッシュを検査。既存Python検証器およびActionsは別途PR CIで実行。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-14598.json",
+    "sha256": "2b5e726e0c9630a88f4e5b4887169e0695c9b015a8f70cbd5da36e743eff0cb4",
+    "proposed_artwork_sha256": "1f1d71116fe908c592ca3203278846311ca2bc9d09e83ed8ffc07713ba8d3dbb",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://api.artic.edu/docs/",
+    "locations": [
+      "Public domain artwork image and artist scholarly publication prose are separate rights categories.",
+      "Existing Japanese interpretation checked for extensive copied phrasing or line-by-line retranslation."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "AIC画像のPD／Commonsの公開標記と館による研究文章の著作権を区別。日本語解説は独自構成の要約と判断、法的非侵害保証や公開時の最終ライセンス確認ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "モネ《サン＝タドレスの海岸》: 出典・画像・文章・感情の作品別審査。既存の作品本文・事実・画像URL・感情タグ・AI選定データは変更なし。",
+    "AIC公式モネ図録Cat.13・所蔵1933.439を一次閲覧。浜辺の行楽客4〜5人・白帆の船を塗り消し、漁師と作業用の船を強調した技術分析を確認。変更理由は画家本人の発言ではなく、研究上の結論と区別する。",
+    "旧登録JPEGの全量ハッシュをこのセッションの再ダウンロード実測と装わない。",
+    "同じAIの別パスは別AI審査でない。CI成功とmainマージ後のみ完成に加算。"
+  ]
+}
