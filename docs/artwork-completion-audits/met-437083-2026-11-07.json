@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437083",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "3e14b8ac1b5e2a6d2aaa8026d7be0cf97aa06aa5",
+    "artwork_record_sha256": "2c933230724dc224a7cd80cd43abf0f61401ed18ff15b73d8478f77a24c18187",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437083.json",
+    "draft_sha256": "6a94e297ee8de6a194eb85135518ea25295c1a7bdd45d508c1ddd00be0590036"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437083",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 43.98.7, The Marriage of the Virgin, ca.1430, Michelino da Besozzo. Official overview identifies one of two certain panel paintings, damaged surface, manuscript-like packed layout, and the comical behavior of rejected suitors. Tempera and gold on wood, 65.1×47.6 cm."
+      ],
+      "observed": "Opened and re-opened this Met collection entry, compared object number, current maker/date, full visible overview, qualifiers and retained Japanese interpretation."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Marriage_of_the_Virgin_MET_DP134149.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met-donated CC0 Commons image DP134149, Met accession 43.98.7, 2781×3782. Painting depicts Joseph placing a ring on Mary, several onlookers including rejected suitors holding rods, distinctive colorful medieval Gothic figures and decorated arches. Registered official filename and original dimensions match this work."
+      ],
+      "observed": "Identified Met-donated work-specific CC0 reproduction through file metadata (object number, artist, filename and registered dimensions) and visual content, distinct from historical byte hash measurements."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met's Open Access policy licenses eligible public-domain object reproductions under CC0; it does not automatically license museum-authored curatorial prose."
+      ],
+      "observed": "Read image reuse and public-domain rules; separated image rights from the original Japanese prose."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437083",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP134149.jpg",
+      "sha256": "29ffff30e531abf1995a8dac0cebe4030d21f6a459287420f81a6fc4f0f3c374",
+      "byte_length": 2836280,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 complete registered Met original JPEG HTTP200/SHA256 measurement, inherited as historical proof; this turn has no fresh JPEG download or hash."
+    },
+    {
+      "id": "met-437083",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP134149.jpg",
+      "sha256": "881b2643f377fa3231fea4662a6ab849612761f722bb289160a8d4c121add8ff",
+      "byte_length": 95287,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 complete registered Met web-large JPEG HTTP200/SHA256 measurement, inherited as historical proof; this turn has no fresh JPEG download or hash."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compared the painting in public Met and same-work Commons visual reproductions and work-specific accession/filename/pixel size metadata. Registered JPEG hashes are dated earlier; no fresh byte-level comparison performed.",
+    "observed": "Met-donated CC0 Commons image DP134149, Met accession 43.98.7, 2781×3782. Painting depicts Joseph placing a ring on Mary, several onlookers including rejected suitors holding rods, distinctive colorful medieval Gothic figures and decorated arches. Registered official filename and original dimensions match this work."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "After reading the preserved draft and baseline, separately re-opened current Met original scholarship and same-object Commons image, checked title, creator, medium/date, object-specific meaning, depicted details, emotion index and licensing.",
+    "limitations": "This was a separate pass by the same AI, not a second model or independent third party. The registered Met JPEG SHA/HTTP200 checks were done 2026-10-20, not repeated in this session. Rights judgment is not legal assurance.",
+    "reviewed_artwork_sha256": "2c933230724dc224a7cd80cd43abf0f61401ed18ff15b73d8478f77a24c18187",
+    "reviewed_visitor_draft_sha256": "6a94e297ee8de6a194eb85135518ea25295c1a7bdd45d508c1ddd00be0590036",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Current Met title/artist and item 43.98.7 plus artwork-specific Commons donation DP134149 and 2781×3782 original dimensions agree. No confusion with a different Marriage of the Virgin."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met confirms that only two panel paintings are certainly attributable to Michelino, rather than saying only two works of all media are extant. The rejected suitors' comic gestures and compact layout are the curator's interpretation; authorship of theological emotions is not assumed."
+      },
+      {
+        "area": "emotion",
+        "finding": "No primary or secondary emotion in the original record. The symbolic marriage and wit do not justify assigning modern love or joy automatically."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Existing PR #3 Japanese prose preserves Met's confirmed number of panel paintings, surface damage and humor in rejected suitors without long literal translation. No meaningful rewrite required."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "2c933230724dc224a7cd80cd43abf0f61401ed18ff15b73d8478f77a24c18187",
+    "visitor_draft_sha256": "6a94e297ee8de6a194eb85135518ea25295c1a7bdd45d508c1ddd00be0590036",
+    "proposal_sha256": "414501d4b72176951fd194bb2f72261df5b04f4c65ecfda0a3ee3fc3288f264a",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Local JS checked canonical record/file SHA256, 300 unique records, no other artwork modifications, unchanged source and emotions, and historic image URL/SHA metadata. The full repository Python registration guard and catalog tests are separately enforced in GitHub Actions after push."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437083.json",
+    "sha256": "414501d4b72176951fd194bb2f72261df5b04f4c65ecfda0a3ee3fc3288f264a",
+    "proposed_artwork_sha256": "2c933230724dc224a7cd80cd43abf0f61401ed18ff15b73d8478f77a24c18187",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "The work-specific Met record is marked Public Domain, and the corresponding Met-donated Commons image states CC0.",
+      "Japanese commentary is a separate concise factual/interpretive rendering with no substantial literal translation or prolonged quotation from the museum curatorial text."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material rights conflict for the Met's public-domain image and independently authored brief Japanese summary; not a legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met 43.98.7公式の損傷・求婚者のユーモア・確実な板絵2作と写本的構図を照合。",
+    "Historical JPEG file HTTP200 and SHA were verified on 2026-10-20, not newly measured.",
+    "Same AI's separate source-review pass, not an independent third party.",
+    "Original fact, curation and emotion indexes and all other 299 artwork records are unchanged."
+  ]
+}
