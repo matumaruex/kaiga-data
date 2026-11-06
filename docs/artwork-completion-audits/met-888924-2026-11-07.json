@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-888924",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "93b22ed0560b27d03c98a6b28ac30a2a26a11ba5",
+    "artwork_record_sha256": "751afe4b488b285453cf68b7d232fde75669fe38e7b8d9506c2829de5dcf4c9c",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-888924.json",
+    "draft_sha256": "a29acd278a364467d24a3475bd867fbf26410676106f887254583dc5f5f6469b"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/888924",
+      "access": "page_read_twice",
+      "locations": [
+        "Met official 2022.264, marquise de Grollier, 1780, oil on canvas; skilled amateur indicates class status, she did not sell or exhibit; she copied her teacher van Spaendonck including this painting and signed as pupil; friends Vigée Le Brun, Robert and Canova."
+      ],
+      "observed": "Consulted the Met object record and rechecked facts, qualifiers and the claims in the Japanese draft against source-specific passages."
+    },
+    {
+      "url": "https://news.artnet.com/art-world/who-was-the-marquise-de-grollier-a-work-by-the-18th-century-woman-once-called-the-raphael-of-flower-painting-just-entered-the-mets-collection-2163528",
+      "access": "page_read_once",
+      "locations": [
+        "Flower-filled vase behind grapes, three peaches and open orange melon on a ledge. Public illustrated image attributed to the same Grollier 1780 Met acquisition agrees with registered Met object 2022.264 and primary image DP-25141-001 metadata."
+      ],
+      "observed": "Compared a labeled public reproduction of the same artwork with object, artist, accession or registered filename metadata; not a fresh download of registered JPEG."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access/CC0 images are distinct from copyright in Met's independently authored scholarship; this object's main page displays Public Domain."
+      ],
+      "observed": "Read policy and distinguished image reuse from textual rights."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-888924",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-25141-001.jpg",
+      "sha256": "862df6866843845048d09dc537948e4593e3030ef4f556fe6115ce3a113ce11b",
+      "byte_length": 4191363,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historic 2026-10-20 complete Met JPEG registered SHA/HTTP200 result retained; no fresh JPEG download, hash or HTTP check in this turn."
+    },
+    {
+      "id": "met-888924",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25141-001.jpg",
+      "sha256": "e7f09ce33523672ca1e4c7557473ec7e159f161285f868598ed8b5a6e053ec38",
+      "byte_length": 116870,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historic 2026-10-20 official Met web-large JPEG SHA/HTTP200 result retained; no fresh JPEG download, hash or HTTP check in this turn."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compared source-labeled illustration and registered Met object/primary image identifiers and depicted subject. Historic registered JPEG hashes are separate prior measurements, not newly obtained bytes.",
+    "observed": "Flower-filled vase behind grapes, three peaches and open orange melon on a ledge. Public illustrated image attributed to the same Grollier 1780 Met acquisition agrees with registered Met object 2022.264 and primary image DP-25141-001 metadata."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "A source-focused review after inspecting the inherited PR #3 visitor draft. Independently consulted museum object text and public artwork image to check attribution, interpretation, original wording, emotional-entry tags and source/rights distinctions.",
+    "limitations": "Same assistant in a separate source-focused pass, not an independent AI agent or third-party art historian. Visual comparison uses online public reproduction, not newly downloaded registered JPEG bytes. 2026-10-20 image SHA/HTTP evidence is historical. Rights conclusion is not a legal guarantee.",
+    "reviewed_artwork_sha256": "751afe4b488b285453cf68b7d232fde75669fe38e7b8d9506c2829de5dcf4c9c",
+    "reviewed_visitor_draft_sha256": "a29acd278a364467d24a3475bd867fbf26410676106f887254583dc5f5f6469b",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 2022.264, Charlotte Eustache Sophie de Fuligny Damas, marquise de Grollier, 1780, oil on canvas; image subject matches floral still life including melon, grapes and peaches."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Museum explicitly distinguishes amateur artist's elite class standing from skill, confirms Van Spaendonck teaching/copy and no sale or exhibition; friendship network is documented, not proof of intended emotion."
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing no emotion tags is valid; a decorous floral arrangement alone is insufficient to add reassurance, joy or affection."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Draft accurately paraphrases Grollier's signature, amateur social position, artistic network and training with no extended verbatim transcription."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "751afe4b488b285453cf68b7d232fde75669fe38e7b8d9506c2829de5dcf4c9c",
+    "visitor_draft_sha256": "a29acd278a364467d24a3475bd867fbf26410676106f887254583dc5f5f6469b",
+    "proposal_sha256": "84acfd8df4ed0ea7404544257b3fdc2db2e697136f8a1151986b310baedb462f",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Local JS computed version and file hashes, checked 300 unique IDs, other 299 artwork object equality, source URL references, no new emotion tags and historical JPEG metadata. Repo's actual Python validators and completion registration guard are separately executed by GitHub Actions after the commits are pushed."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-888924.json",
+    "sha256": "84acfd8df4ed0ea7404544257b3fdc2db2e697136f8a1151986b310baedb462f",
+    "proposed_artwork_sha256": "751afe4b488b285453cf68b7d232fde75669fe38e7b8d9506c2829de5dcf4c9c",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "The Met current object page marks this artwork Public Domain; images eligible for the Met's Open Access program are CC0.",
+      "Short independently drafted Japanese commentary summarizes selected factual claims, and does not reproduce an extended museum curatorial paragraph."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material rights obstruction for this museum image and independently written short description; no legal warranty or suggestion that the Met scholarly text is CC0."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Historical full-JPEG and HTTP200 on 2026-10-20 inherited as explicitly dated evidence, not remeasured.",
+    "Same assistant's separately sourced checking, not a second AI or third-party review.",
+    "Other 299 artwork records and existing emotion categories remain unchanged.",
+    "既存下書きをMet現行解説・1780年作品図像と再照合し、感情タグ0件を維持。"
+  ]
+}
