@@ -1,0 +1,140 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435714",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "e0704e9ae45b628741841a652489433c538c9198",
+    "artwork_record_sha256": "1f230660cec5053070d680eef9ebd4675adeb38a9bc2db1dac0a3296ec3d7cde",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435714.json",
+    "draft_sha256": "a3718b4e553db733f42dadbc1fd51fb0ff543fea29fc0ead24d7d8a886c1bf87"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435714",
+      "access": "page_read_twice",
+      "locations": [
+        "Met object435714, accession49.7.38, Gerard ter Borch the Younger, Curiosity, ca.1660–62, oil on canvas 76.2×62.2cm, official artwork marked Public Domain.",
+        "Museum's interpretation: older woman writes, younger peers over shoulder, standing woman in satin pensive; probable love letter being answered but actual contents unknown. Met's official audio transcript discusses half-sister Gesina as documenter and model, and family dog named Acteon after Greek myth. Women’s literacy in 17th-century Netherlands provides context, not proof of the letter's contents."
+      ],
+      "observed": "Directly opened official museum page and rechecked separate official search result, confirming ID, date, narrative; independent retrieval pass was same AI."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access CC0 rights of public-domain imagery, distinction between artwork image and protected curatorial text."
+      ],
+      "observed": "Met policy independently searched and read; old image hash from October records preserved."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435714",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP145405.jpg",
+      "sha256": "93329f04eaff5b7be527b44adf84a8519026c028385f46626642ba99dc1e6887",
+      "byte_length": 2469411,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 prior Met original image full SHA/byte count. Not newly downloaded or rehashed this session."
+    },
+    {
+      "id": "met-435714",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145405.jpg",
+      "sha256": "8335b04ee642961d681505327ed1fb58e3dac70eba41e15b511c066bfebf5b6b",
+      "byte_length": 72945,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18 or 19 previous verified registered display JPEG hash and at-time HTTP200 reused; current HTTP response and full registered JPEG bytes not rechecked."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compared accession-number-matched museum art reference/independent public reproduction and visual description to old registered image identity; no fresh complete registered JPEG download.",
+    "observed": "Dark, upscale interior with three women: left standing silk red-and-silver skirt, middle seated writing, right leaning over her shoulder; small dog on foreground cushion/stool; gilded fireplace to left. Official Met artwork and matched indexed painting visual correspond to image ID DP145405 and accession49.7.38; exact registered JPEG not redownloaded."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "After checking original Japanese explanation and selection data, revisited official scholarship/curatorial audio and visual references by independent search/open stage, matching original provenance and artwork ID, and reviewed emotion link, prose similarity and rights.",
+    "limitations": "Same AI separate pass, not independent human/other model. Existing JPEG bytes and SHA are old 2026-10-18/20 evidence reused. Current AIC individual artwork URL blocked HTTP403 where relevant; official scholarly catalogue indexed excerpts or directly accessible AIC archival curatorial source were used instead; Met page directly retrieved. Public-domain image does not imply reuse rights to museum scholarly narrative.",
+    "reviewed_artwork_sha256": "1f230660cec5053070d680eef9ebd4675adeb38a9bc2db1dac0a3296ec3d7cde",
+    "reviewed_visitor_draft_sha256": "a3718b4e553db733f42dadbc1fd51fb0ff543fea29fc0ead24d7d8a886c1bf87",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met object435714, accession49.7.38, Gerard ter Borch the Younger, Curiosity, ca.1660–62, oil on canvas 76.2×62.2cm, official artwork marked Public Domain."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Museum's interpretation: older woman writes, younger peers over shoulder, standing woman in satin pensive; probable love letter being answered but actual contents unknown. Met's official audio transcript discusses half-sister Gesina as documenter and model, and family dog named Acteon after Greek myth. Women’s literacy in 17th-century Netherlands provides context, not proof of the letter's contents."
+      },
+      {
+        "area": "emotion",
+        "finding": "Main 好奇心3 from observable gesture of a younger woman looking over the letter; secondary 期待1 only as weak viewer inference about possible reply. Cannot assert content of letter nor definite emotions of sitters."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Existing Japanese text stays intact, expresses verified primary facts without presenting uncertain interpretations as certainty, and is independently arranged rather than extended line-by-line translation of museum prose. Museum-prose reuse copyright not inferred from image PD."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "1f230660cec5053070d680eef9ebd4675adeb38a9bc2db1dac0a3296ec3d7cde",
+    "visitor_draft_sha256": "a3718b4e553db733f42dadbc1fd51fb0ff543fea29fc0ead24d7d8a886c1bf87",
+    "proposal_sha256": "1afe9fe86cc0e6e813f47c4012307c423f3b476d2d5631bee8de52084a2fd57c",
+    "checks": [
+      "300_unique_ids",
+      "other_297_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_sha256",
+      "prior_jpeg_registry_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS calculation checks baseline unique IDs, existing visitor text exactly, 297 untouched artworks and registry's historical SHA/byte count. Python data validator, draft guard and completion check left to GitHub Actions CI."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435714.json",
+    "sha256": "1afe9fe86cc0e6e813f47c4012307c423f3b476d2d5631bee8de52084a2fd57c",
+    "proposed_artwork_sha256": "1f230660cec5053070d680eef9ebd4675adeb38a9bc2db1dac0a3296ec3d7cde",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Museum's public-domain artwork identification and registered Commons mirror/Met OA image conditions distinct from scholarly text rights.",
+      "Existing Japanese explanation checked against research text for no long verbatim/near-literal reproduction; no legal noninfringement guarantee."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No material issue identified preventing this database completion, on the evidence reviewed. Met CC0 and AIC public-domain artwork imagery are separate from copyrighted research prose, and publication/distribution licensing assessment is distinct."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "好奇心（テル・ボルフ）: verified museum source + accession + art/registered image association, Japanese visitor text, emotion, and limited image rights. No legacy content changed.",
+    "Main 好奇心3 from observable gesture of a younger woman looking over the letter; secondary 期待1 only as weak viewer inference about possible reply. Cannot assert content of letter nor definite emotions of sitters.",
+    "Same AI separate pass, not independent human/other model. Existing JPEG bytes and SHA are old 2026-10-18/20 evidence reused. Current AIC individual artwork URL blocked HTTP403 where relevant; official scholarly catalogue indexed excerpts or directly accessible AIC archival curatorial source were used instead; Met page directly retrieved. Public-domain image does not imply reuse rights to museum scholarly narrative.",
+    "No count until GitHub CI success and main merge."
+  ]
+}

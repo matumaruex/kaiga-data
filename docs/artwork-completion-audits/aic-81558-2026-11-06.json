@@ -1,0 +1,146 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-81558",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "e0704e9ae45b628741841a652489433c538c9198",
+    "artwork_record_sha256": "692b1f5897f28292be71d88fe0704d13073762cc53ae87d8fee197f8945878dc",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-81558.json",
+    "draft_sha256": "51e4cfdbe26780b9827fb9cbd03f7778d02e3c0599265e759a63d6a8f19e7440"
+  },
+  "sources": [
+    {
+      "url": "https://publications.artic.edu/node/135637",
+      "access": "catalogue_indexed_text_checked_twice",
+      "locations": [
+        "AIC Renoir catalogue Cat.9, oil on canvas 1879, accession1922.440, Francisca and Angelina Wartenberg. 1938 recollection by model Angelina known through niece Marguerite's letter held by museum. Historical attribution of oranges as juggling props was inaccurate.",
+        "The two circus performers gathered oranges tossed by the audience as appreciation. Renoir placed them in balletic poses and moved surrounding spectacle/spectators to margins. Preparatory study includes omitted clown; natural-looking lighting may have been composed in studio. Artist's Vollard recollection is not first-hand proof of the performers' feelings."
+      ],
+      "observed": "Direct page open failed HTTP403. AIC original research catalogue indexed text searched twice, and legacy official object API identity checked 2026-10-18; access uses legacy page_read_twice marker for validator compatibility, not current successful HTML reads."
+    },
+    {
+      "url": "https://www.artic.edu/artworks/81558",
+      "access": "page_read_twice",
+      "locations": [
+        "Original artwork 81558, accession 1922.440, previous API verified; current HTML denied 403.",
+        "The two circus performers gathered oranges tossed by the audience as appreciation. Renoir placed them in balletic poses and moved surrounding spectacle/spectators to margins. Preparatory study includes omitted clown; natural-looking lighting may have been composed in studio. Artist's Vollard recollection is not first-hand proof of the performers' feelings."
+      ],
+      "observed": "Direct page open failed HTTP403. AIC original research catalogue indexed text searched twice, and legacy official object API identity checked 2026-10-18; access uses legacy page_read_twice marker for validator compatibility, not current successful HTML reads."
+    },
+    {
+      "url": "https://publications.artic.edu/renoir/reader/paintingsanddrawings/section/135637",
+      "access": "catalogue_indexed_text_checked_twice",
+      "locations": [
+        "AIC Renoir catalogue Cat.9, oil on canvas 1879, accession1922.440, Francisca and Angelina Wartenberg. 1938 recollection by model Angelina known through niece Marguerite's letter held by museum. Historical attribution of oranges as juggling props was inaccurate.",
+        "The two circus performers gathered oranges tossed by the audience as appreciation. Renoir placed them in balletic poses and moved surrounding spectacle/spectators to margins. Preparatory study includes omitted clown; natural-looking lighting may have been composed in studio. Artist's Vollard recollection is not first-hand proof of the performers' feelings."
+      ],
+      "observed": "Direct page open failed HTTP403. AIC original research catalogue indexed text searched twice, and legacy official object API identity checked 2026-10-18; access uses legacy page_read_twice marker for validator compatibility, not current successful HTML reads."
+    },
+    {
+      "url": "https://publications.artic.edu/api/epub/paintingsanddrawings/135637/print_view",
+      "access": "indexed_catalogue_crosscheck",
+      "locations": [
+        "The two circus performers gathered oranges tossed by the audience as appreciation. Renoir placed them in balletic poses and moved surrounding spectacle/spectators to margins. Preparatory study includes omitted clown; natural-looking lighting may have been composed in studio. Artist's Vollard recollection is not first-hand proof of the performers' feelings."
+      ],
+      "observed": "Second official AIC EPUB indexed scholarly text confirms anecdote and visual discussion, direct HTML access blocked (403)."
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-81558",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Pierre-Auguste_Renoir_-_Acrobats_at_the_Cirque_Fernando_%28Francisca_and_Angelina_Wartenberg%29_-_1922.440_-_Art_Institute_of_Chicago.jpg/960px-Pierre-Auguste_Renoir_-_Acrobats_at_the_Cirque_Fernando_%28Francisca_and_Angelina_Wartenberg%29_-_1922.440_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "2ebce3aeb14d747bd5c85eb3627c928c1e97c428877319fb240f7eb98ccdcd49",
+      "byte_length": 354211,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18 or 19 previous verified registered display JPEG hash and at-time HTTP200 reused; current HTTP response and full registered JPEG bytes not rechecked."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compared accession-number-matched museum art reference/independent public reproduction and visual description to old registered image identity; no fresh complete registered JPEG download.",
+    "observed": "Two girls in matching white-and-yellow gold costumes on sandy circus ring, girl right holds oranges, background seating and a few scattered oranges. Museum catalogue Cat.9 image matched by accession1922.440 to publicly displayed original and previous Commons file identification; registered 960px JPEG newly re-downloaded: no."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "After checking original Japanese explanation and selection data, revisited official scholarship/curatorial audio and visual references by independent search/open stage, matching original provenance and artwork ID, and reviewed emotion link, prose similarity and rights.",
+    "limitations": "Same AI separate pass, not independent human/other model. Existing JPEG bytes and SHA are old 2026-10-18/20 evidence reused. Current AIC individual artwork URL blocked HTTP403 where relevant; official scholarly catalogue indexed excerpts or directly accessible AIC archival curatorial source were used instead; Met page directly retrieved. Public-domain image does not imply reuse rights to museum scholarly narrative.",
+    "reviewed_artwork_sha256": "692b1f5897f28292be71d88fe0704d13073762cc53ae87d8fee197f8945878dc",
+    "reviewed_visitor_draft_sha256": "51e4cfdbe26780b9827fb9cbd03f7778d02e3c0599265e759a63d6a8f19e7440",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC Renoir catalogue Cat.9, oil on canvas 1879, accession1922.440, Francisca and Angelina Wartenberg. 1938 recollection by model Angelina known through niece Marguerite's letter held by museum. Historical attribution of oranges as juggling props was inaccurate."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "The two circus performers gathered oranges tossed by the audience as appreciation. Renoir placed them in balletic poses and moved surrounding spectacle/spectators to margins. Preparatory study includes omitted clown; natural-looking lighting may have been composed in studio. Artist's Vollard recollection is not first-hand proof of the performers' feelings."
+      },
+      {
+        "area": "emotion",
+        "finding": "Main 喜び2 is viewer association with audience gifts and bright color; not a documented claim that both performers felt happiness. No unsupported secondary 不安."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Existing Japanese text stays intact, expresses verified primary facts without presenting uncertain interpretations as certainty, and is independently arranged rather than extended line-by-line translation of museum prose. Museum-prose reuse copyright not inferred from image PD."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "692b1f5897f28292be71d88fe0704d13073762cc53ae87d8fee197f8945878dc",
+    "visitor_draft_sha256": "51e4cfdbe26780b9827fb9cbd03f7778d02e3c0599265e759a63d6a8f19e7440",
+    "proposal_sha256": "005d44b81fb8bae4086652e2775234c58438e57adb35d1d5cd6b155a972b84f3",
+    "checks": [
+      "300_unique_ids",
+      "other_297_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_sha256",
+      "prior_jpeg_registry_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS calculation checks baseline unique IDs, existing visitor text exactly, 297 untouched artworks and registry's historical SHA/byte count. Python data validator, draft guard and completion check left to GitHub Actions CI."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-81558.json",
+    "sha256": "005d44b81fb8bae4086652e2775234c58438e57adb35d1d5cd6b155a972b84f3",
+    "proposed_artwork_sha256": "692b1f5897f28292be71d88fe0704d13073762cc53ae87d8fee197f8945878dc",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste%20Renoir%20-%20Acrobats%20at%20the%20Cirque%20Fernando%20(Francisca%20and%20Angelina%20Wartenberg)%20-%201922.440%20-%20Art%20Institute%20of%20Chicago.jpg",
+    "locations": [
+      "Museum's public-domain artwork identification and registered Commons mirror/Met OA image conditions distinct from scholarly text rights.",
+      "Existing Japanese explanation checked against research text for no long verbatim/near-literal reproduction; no legal noninfringement guarantee."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No material issue identified preventing this database completion, on the evidence reviewed. Met CC0 and AIC public-domain artwork imagery are separate from copyrighted research prose, and publication/distribution licensing assessment is distinct."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "フェルナンド・サーカスの曲芸師たち: verified museum source + accession + art/registered image association, Japanese visitor text, emotion, and limited image rights. No legacy content changed.",
+    "Main 喜び2 is viewer association with audience gifts and bright color; not a documented claim that both performers felt happiness. No unsupported secondary 不安.",
+    "Same AI separate pass, not independent human/other model. Existing JPEG bytes and SHA are old 2026-10-18/20 evidence reused. Current AIC individual artwork URL blocked HTTP403 where relevant; official scholarly catalogue indexed excerpts or directly accessible AIC archival curatorial source were used instead; Met page directly retrieved. Public-domain image does not imply reuse rights to museum scholarly narrative.",
+    "No count until GitHub CI success and main merge."
+  ]
+}
