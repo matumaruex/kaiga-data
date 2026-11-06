@@ -1,0 +1,149 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-829381",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "08f9b4bffd2ed0d944bc9814058ca43dc57f074e",
+    "artwork_record_sha256": "dd0b3a078ca7a81f0fff2998dc112fee0a576a2e0e5b830066d251ae79ff9f44",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-829381.json",
+    "draft_sha256": "6fac1da4948a6dc3001db7f04e9042f07274041cd728fa19172feaf93991ee32"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/829381",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 2019.420.4, portrait of Minamoto no Muneyuki from Fujifusa version, early 15th century; hanging scroll ink and color on paper, Public Domain",
+        "Court-artist imaginary portraits of 36 poetic immortals, Muneyuki died about 939; kanji name/biography on right and three lines kana waka",
+        "Met says inscription traditionally attributed to Emperor Godaigo; painting artist not established. Met transcription of kanji/kana differs orthographically from standard modern hyakunin-isshu text"
+      ],
+      "observed": "Met公式個別作品ページのOverviewおよびArtwork Detailsを一次・別工程で開き、対象作品のID・作者帰属・年代・主張と日本語本文を再照合した。"
+    },
+    {
+      "url": "https://www.karuta.or.jp/karuta-everyday/2787/",
+      "access": "page_read_once",
+      "locations": [
+        "All Japan Karuta Association prints standard poem spelling 人目も草も and identifies Minamoto no Muneyuki as its author; Kokinshū winter poem 315"
+      ],
+      "observed": "所蔵館の本作書跡での転記『人ぬもくさも』と、一般に流布する和歌の表記『人目も草も』の差を意識して既存鑑賞文の引用を確認。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "The Met Open Access/CC0 guidance for public domain artwork image",
+        "Open Access for object images does not transfer a separate written curatorial essay's copyright"
+      ],
+      "observed": "画像の利用条件と所蔵館本文の著作権を別に検討。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-829381",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-20032-002.jpg",
+      "status": 200,
+      "sha256": "c508c8b67e901922d1b9f79ee835c3d9ac03f7e71454d34c0170dd1b97e692db",
+      "byte_length": 4856051,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "登録当時の2026-10-20のMet公式JPEG全量SHA256・サイズの記録を再利用。今回このファイル全体をダウンロード・再測定したわけではない。"
+    },
+    {
+      "id": "met-829381",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-20032-002.jpg",
+      "status": 200,
+      "sha256": "f2f9039ae70b28b1f999547d770abc7d62b096e3fc9e3b13fe93c386824c1219",
+      "byte_length": 108271,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "登録当時の2026-10-19のMet公式JPEG全量SHA256・サイズの記録を再利用。今回このファイル全体をダウンロード・再測定したわけではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式の作品画像を画面視認し登録作品番号・画像ファイル名・旧SHA照合情報と突合。今回の登録JPEG全バイトの再取得・SHA測定・全画素検査は行っていない。",
+    "observed": "Met公開画像DP-20032-002で黒い公家装束の人物が右を向き、画面右側に墨書の縦列が入る図像と収蔵番号を照合。本人の実際の顔の記録とは主張しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "一次確認後、同じMet公式原資料を別の閲覧工程で再読。出典の事実、作品画像の同定、意味の限定、感情、独立した日本語本文の類似度および画像/文章権利をそれぞれ確認。",
+    "limitations": "同一AIの別工程であり別AI・第三者審査ではない。2026-10-19/20公式JPEG全量SHAは過去記録を再利用。今回原JPEGの全量再取得はしていない。個別の法的非侵害は保証しない。",
+    "reviewed_artwork_sha256": "dd0b3a078ca7a81f0fff2998dc112fee0a576a2e0e5b830066d251ae79ff9f44",
+    "reviewed_visitor_draft_sha256": "6fac1da4948a6dc3001db7f04e9042f07274041cd728fa19172feaf93991ee32",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 2019.420.4、日本室町初期の15世紀前半、紙本墨彩掛幅、伝・後醍醐天皇は書への帰属であり画家自筆の証拠ではない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "所蔵館は三十六歌仙の歌人源宗于の想像上の肖像と和歌を紹介。Metの『人ぬもくさも』と全日本かるた協会等の『人目も草も』は表記の違いとして記録し意味を混同しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『寂しさ』3は和歌の冬山里の孤独に直接裏付けられ、補助『孤独』1は歌人の心理を画家に帰属しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落をMetと一般的和歌本文に照合。肖像の非写実性・漢字と仮名の分割・後醍醐天皇の伝承帰属の限定が適切。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "dd0b3a078ca7a81f0fff2998dc112fee0a576a2e0e5b830066d251ae79ff9f44",
+    "visitor_draft_sha256": "6fac1da4948a6dc3001db7f04e9042f07274041cd728fa19172feaf93991ee32",
+    "proposal_sha256": "c3cd55e1753455cc20a9da0b4dd5884c8a3b391b23272d6d7a83e00fb5d03305",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match_or_new_text",
+      "canonical_hash",
+      "previous_image_sha_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub書込前のJSで300 ID、他作品不変、下書きと対象レコード正規化ハッシュを算出。Python形式検証とGitHub ActionsはPRで別途確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-829381.json",
+    "sha256": "c3cd55e1753455cc20a9da0b4dd5884c8a3b391b23272d6d7a83e00fb5d03305",
+    "proposed_artwork_sha256": "dd0b3a078ca7a81f0fff2998dc112fee0a576a2e0e5b830066d251ae79ff9f44",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Each Met individual object is marked Public Domain",
+      "Met OA/CC0 applies to eligible object images, distinct from Met's original English essays",
+      "Reviewed Japanese text is an original summary rather than sustained line-by-line translation"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Metのパブリックドメイン画像と同館英文の権利を混同せず、日本語文が所蔵館の独自表現を長く逐語翻訳・転載していないか点検。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存日本語3段落を保持。書の伝承上の帰属と画家不詳を区別し、和歌表記の差を独立参照資料で確認。",
+    "旧画像のハッシュを今回の実測と混同しない。GitHub CI・main統合後に完成数を確定。"
+  ]
+}
