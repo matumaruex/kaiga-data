@@ -1,0 +1,29 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-74448",
+  "baseline_commit": "fa82f61f6b12ef2cb74b7157b9ae274fd58cea44",
+  "baseline_artwork_sha256": "d433a51d04e94022a5cf27f630fde253bae3c10efc44eac21f5180cafa920fb8",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "1551年ごろの朝鮮王朝期に制作された作者不詳の掛幅。鄭士龍の画賛によると、同時期に官職に就いた60歳ほどの官人たちの集まりを記念した。",
+      "after": "1551年ごろの朝鮮王朝期に制作された作者不詳の掛幅。鄭士龍の画賛は、参加者が同年生まれで科挙にほぼ同じ頃に合格した仲間だと記す。Met作品ページは60歳の官人たちと説明する一方、2009年図録所収の賛の英訳は70歳に近づくと述べるため、正確な年齢は断定しない。",
+      "reason": "Reconciled difference between current Met collection prose and translated 1551 inscription in Met exhibition catalogue; avoid asserting a disputed precise age.",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/74448",
+        "https://resources.metmuseum.org/resources/metpublications/pdf/Art_of_the_Korean_Renaissance_1400_1600.pdf"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-74448.json",
+  "visitor_draft_sha256": "e471ae8455198ddc9cd28761f66a85463c65e7875392db921c3c653af4541f86",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "1eb9db664641f2185fc4d3fab63e22fc45eafbf5496286089e0df94f4e200c52",
+  "explanation": "Met 2008.55の現行公式・作品画像とPR #3日本語下書きの照合。2009年館図録にある参加者年齢の食い違いを確認したため、選定用の背景文で年齢の断定を避ける。"
+}

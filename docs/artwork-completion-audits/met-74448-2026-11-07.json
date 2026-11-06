@@ -1,0 +1,156 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-74448",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "fa82f61f6b12ef2cb74b7157b9ae274fd58cea44",
+    "artwork_record_sha256": "d433a51d04e94022a5cf27f630fde253bae3c10efc44eac21f5180cafa920fb8",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-74448.json",
+    "draft_sha256": "e471ae8455198ddc9cd28761f66a85463c65e7875392db921c3c653af4541f86"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/74448",
+      "access": "page_read_twice",
+      "locations": [
+        "Met object 74448 / 2008.55, unidentified Korean artist, Joseon ca. 1551. Met calls this a gyehoedo, poetic inscription by Jeong Sa-ryong, finely described gatherings with cushions, books, writing utensils, attendants, food and drink at lower right amid ideal landscape. Met page describes sixty-year-old officials, but the Met 2009 catalogue (print p99, PDF p112 zero-index p111) translated inscription says born in same year, roughly contemporaneous civil/military exams and now approaching seventy; exact age should be qualified."
+      ],
+      "observed": "Compared separately retrieved recent search excerpt with official museum collection page opened directly: work number, attribution, date, museum interpretation and exact Japanese visitor draft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:%EA%B0%99%EC%9D%80_%ED%95%B4%EC%97%90_%ED%83%9C%EC%96%B4%EB%82%9C_%EA%B4%80%EB%A6%AC%EB%93%A4%EC%9D%98_%EC%B9%9C%EB%AA%A9_%EB%AA%A8%EC%9E%84_%EC%A1%B0%EC%84%A0-%E5%90%8C%E5%BA%9A%E5%A5%91%E6%9C%83%E5%9C%96_%E6%9C%9D%E9%AE%AE-Gathering_of_government_officials_MET_DP161547.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Current Met IIIF main image shows long narrow hanging-scroll landscape, calligraphy top and small gathering bottom right. Registered DP161547 original 2349×3880 corresponds by image ID, dimensions and accession 2008.55 to work-specific CC0 Commons item; DP161550 is a separate detail image of same work, not registered original."
+      ],
+      "observed": "Checked matching Met-contributed same-work Commons description (object number/public domain/CC0) and museum IIIF image; a related image may be a different crop or original photograph, never claimed identical bytes without old checksum."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access policy allows CC0 artwork images for commercial/noncommercial use; museum-authored explanatory prose is a distinct copyright matter."
+      ],
+      "observed": "Read official FAQ, confirming image rights do not grant blanket rights to explanatory writing."
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Art_of_the_Korean_Renaissance_1400_1600.pdf",
+      "access": "page_read_twice",
+      "locations": [
+        "2009 Met Art of the Korean Renaissance catalogue cat.9, printed p.99, screenshot PDF zero-index page111: the inscription translation says men were born same year, passed exams roughly contemporaneously, and were 'now facing seventy years of age'. The live Met object description says 'sixty-year-old men'. Cannot assert either without noting discrepancy."
+      ],
+      "observed": "Reviewed text search of PDF and independently inspected screenshot of printed page 99, comparing its translation against the current official Met page. Draft omits disputed age; curation context corrected with caveat."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-74448",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP161547.jpg",
+      "sha256": "e1127783eef103f3f6306ec206ee82e0bfaf2c371c362a77e3dbfb5c385bd80d",
+      "byte_length": 1921355,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 original Met JPEG full-byte hash and HTTP200 retained from older audit; not freshly measured today."
+    },
+    {
+      "id": "met-74448",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP161547.jpg",
+      "sha256": "40c6ee4be44442bf70027df41c6ae070ac03e1fc1d44ff67d64c1fb399633fc6",
+      "byte_length": 60347,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 display JPEG checks retained as historical evidence; not freshly requested or hashed today."
+    }
+  ],
+  "visual_observations": {
+    "method": "Directly viewed work-specific Met IIIF image linked from each official object page, cross-checked its subject with Met object ID, matching stored original photo and Met-donated Commons metadata; archived 2026-10-20 registered-file SHA retained rather than remeasured.",
+    "observed": "Current Met IIIF main image shows long narrow hanging-scroll landscape, calligraphy top and small gathering bottom right. Registered DP161547 original 2349×3880 corresponds by image ID, dimensions and accession 2008.55 to work-specific CC0 Commons item; DP161550 is a separate detail image of same work, not registered original. Live official IIIF picture examined at https://collectionapi.metmuseum.org/api/collection/v1/iiif/74448/154078/main-image"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Read preserved PR #3 Japanese text before separately retrieving museum object's official current description, specific picture and source citations. Evaluated identity, historical assertions, inferred psychology, category relevance, summary similarity and reuse rights. For 74448 read additional Met scholarly catalogue p99 screenshot.",
+    "limitations": "Same AI in a distinct source-review pass; no second model or independent third party. Prior October 2026 SHA256 of the registered JPEG carried forward; no new image-byte measurement. Source-text paraphrase assessment is not a legal guarantee.",
+    "reviewed_artwork_sha256": "1eb9db664641f2185fc4d3fab63e22fc45eafbf5496286089e0df94f4e200c52",
+    "reviewed_visitor_draft_sha256": "e471ae8455198ddc9cd28761f66a85463c65e7875392db921c3c653af4541f86",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 2008.55: Current Met IIIF main image shows long narrow hanging-scroll landscape, calligraphy top and small gathering bottom right. Registered DP161547 original 2349×3880 corresponds by image ID, dimensions and accession 2008.55 to work-specific CC0 Commons item; DP161550 is a separate detail image of same work, not registered original."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met collection calls participants sixty-year-old, while original 2009 Met catalogue p99 translated Jeong Sa-ryong inscription says men born same year and nearing seventy, so old selection context's unqualified age 60 is revised away. The draft itself correctly omits age and describes exams and nature; PDF printed p99 verified visually."
+      },
+      {
+        "area": "emotion",
+        "finding": "Zero emotions preserved: the commemorative gathering does not automatically establish personal joy or sentimental feeling."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Preserved Japanese prose is a concise independently worded depiction and museum-attributed historical interpretation rather than a long literal translation; qualifiers are kept. For the 2008.55 age contradiction, visitor draft appropriately omits a numeric age."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "1eb9db664641f2185fc4d3fab63e22fc45eafbf5496286089e0df94f4e200c52",
+    "visitor_draft_sha256": "e471ae8455198ddc9cd28761f66a85463c65e7875392db921c3c653af4541f86",
+    "proposal_sha256": "1476ec99bd89398c0bbedd4178176719b9469aa6d81ef300c1eb9103c99ed6bc",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Preflight JavaScript validated SHA256 known test vector, catalog count and uniqueness, source-url matching, and no other artwork records changed. Official Python complete_artwork.py, schema and catalog snapshot validation to be enforced by GitHub Actions before merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-74448.json",
+    "sha256": "1476ec99bd89398c0bbedd4178176719b9469aa6d81ef300c1eb9103c99ed6bc",
+    "proposed_artwork_sha256": "1eb9db664641f2185fc4d3fab63e22fc45eafbf5496286089e0df94f4e200c52",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "This Met object is listed Public Domain with downloadable work-specific image; the matching museum Commons upload is CC0.",
+      "Visitor draft is new concise Japanese prose, no extended direct quotation or substantial literal reproduction of the museum's curatorial text."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No material rights issue identified with historical CC0 artwork image and short original Japanese database commentary; this is not a legal guarantee, and museum prose is distinct."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Work met-74448, Met accession 2008.55, draft retained.",
+    "Resolved museum text/catalogue age discrepancy by qualification in selection context; draft unchanged.",
+    "2026-10-20 image hashes/HTTP200 inherited as past checks, not freshly measured.",
+    "Same-model separate source pass; not independent second AI or human review.",
+    "Other 299 records unchanged."
+  ]
+}
