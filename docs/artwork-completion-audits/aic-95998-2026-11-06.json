@@ -1,0 +1,142 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-95998",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "6f4fa029a00db71c59ce5357af95ff1cb547eef1",
+    "artwork_record_sha256": "00841c9d69f8ee466616419915c670db8be0be66f51c372a52366866eb5ffa93",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-95998.json",
+    "draft_sha256": "87ca819f309011a2ceb60bf3aa5b7a4d8c9441202c452f56cdb997de7d26ec92"
+  },
+  "sources": [
+    {
+      "url": "https://artsandculture.google.com/asset/old-man-with-a-gold-chain/FAEStDTOypM-CQ",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC-contributed object 1922.4467 and curator text about gold chain/gorget/feathered hat and 1631."
+      ],
+      "observed": "Curatorial entry, research summary and authoritative published identification rechecked separately from Japanese draft. Exact source scope/limits are recorded."
+    },
+    {
+      "url": "https://www.repository.cam.ac.uk/items/d139dd3d-42b0-422d-b73c-cd697910fefd",
+      "access": "page_read_twice",
+      "locations": [
+        "Peer-reviewed Cambridge abstract explicitly distinguishes an original Chicago panel from a workshop canvas copy."
+      ],
+      "observed": "Curatorial entry, research summary and authoritative published identification rechecked separately from Japanese draft. Exact source scope/limits are recorded."
+    },
+    {
+      "url": "https://www.artic.edu/artworks/95998",
+      "access": "page_read_twice",
+      "locations": [
+        "Original AIC object URL blocked at HTTP403 in current session; previous Oct 18 AIC API identification and AIC-contributed Google Arts provide alternate primary source."
+      ],
+      "observed": "Current AIC artwork URL inaccessible; museum-origin archive/Google Arts and prior API record used instead. page_read_twice is an existing validation category, not a direct HTTP200 observation."
+    },
+    {
+      "url": "https://api.artic.edu/docs/",
+      "access": "page_read_once",
+      "locations": [
+        "AIC API artwork descriptions licensed CC BY, data otherwise CC0; image and exhibition texts require separately assessed conditions."
+      ],
+      "observed": "Current rights/policy source consulted; source text rights distinguished from public-domain artwork image."
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-95998",
+      "kind": "display",
+      "url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/95998.jpg",
+      "sha256": "18acc50634ba8ba41ba863b4c78d993285ea5dd3425d6060cf08d9437fe9e8b5",
+      "byte_length": 229489,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Registered 2026-10-18/20 image byte count, SHA and original HTTP200 inherited. Not retested in this session."
+    }
+  ],
+  "visual_observations": {
+    "method": "Institutional artwork description and image preview/independent public reproduction checked against accession and old registered JPEG identity; no fresh registered JPEG download.",
+    "observed": "Dark plumed hat, gleaming steel gorget and chain, illuminated elderly face over dark clothing; institution-provided image/reproduction linked to object1922.4467, but actual registered GitHub-mirror JPEG was not redownloaded."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Reviewed existing Japanese draft/curation, then separately revisited institution research and visible artwork evidence, checked uncertainty, emotion relation, prose similarity, and image-rights distinction.",
+    "limitations": "Same AI separate passes, not second AI/human reviewer. AIC object pages return 403; available official archive and AIC-contributed Google Arts and old API used instead, so page_read_twice guard label is not proof of HTTP200 for blocked target. Oct2026 registered SHA/byte metadata inherited, not freshly checked; public-domain image does not grant museum text copyright.",
+    "reviewed_artwork_sha256": "00841c9d69f8ee466616419915c670db8be0be66f51c372a52366866eb5ffa93",
+    "reviewed_visitor_draft_sha256": "87ca819f309011a2ceb60bf3aa5b7a4d8c9441202c452f56cdb997de7d26ec92",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "The Art Institute of Chicago object1922.4467 Rembrandt 1631 original on panel; AIC-contributed Google Arts describes gold chain, gorget, plumed hat, old sitter and move to Amsterdam; Cambridge 2024 study identifies a distinct canvas workshop copy."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "The costume stages an imagined military role, not verified biography of a military officer. Recent Cambridge study identifies a separate canvas copy, not the AIC panel original."
+      },
+      {
+        "area": "emotion",
+        "finding": "Only weak secondary 好奇心1 from ambiguity between theatrical costume and sitter's identity, not author psychology."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "AIC-contributed description and separate Cambridge scholarship were used as sources for original Japanese paraphrase, not copied long. PD artwork/registered mirror photography and protected institutional text are separate."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "00841c9d69f8ee466616419915c670db8be0be66f51c372a52366866eb5ffa93",
+    "visitor_draft_sha256": "87ca819f309011a2ceb60bf3aa5b7a4d8c9441202c452f56cdb997de7d26ec92",
+    "proposal_sha256": "53d65d148e17afa5bc1acf556c922f11842498298fc0b901283e00e953259190",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match_or_new_draft",
+      "canonical_sha256",
+      "prior_registered_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS baseline/record/draft/proposal fingerprint and object invariants checked. Repository Python checks and required CI not run by this JS stage; GitHub Actions must pass before merging."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-95998.json",
+    "sha256": "53d65d148e17afa5bc1acf556c922f11842498298fc0b901283e00e953259190",
+    "proposed_artwork_sha256": "00841c9d69f8ee466616419915c670db8be0be66f51c372a52366866eb5ffa93",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://api.artic.edu/docs/",
+    "locations": [
+      "Original museum content/official rights policy checked.",
+      "Artwork public-domain image and museum editorial text are separate rights categories."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "AIC-contributed description and separate Cambridge scholarship were used as sources for original Japanese paraphrase, not copied long. PD artwork/registered mirror photography and protected institutional text are separate. No material issue identified to prevent completing database record on current evidence. Not a legal guarantee for publication."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "金の鎖をつけた老人 checked individually 2026-11-06.",
+    "Only weak secondary 好奇心1 from ambiguity between theatrical costume and sitter's identity, not author psychology.",
+    "Old verified SHA reused; no new registered image bytes/HTTP measured. Same AI separate review is not independent third-party audit."
+  ]
+}

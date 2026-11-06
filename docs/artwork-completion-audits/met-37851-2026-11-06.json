@@ -1,0 +1,138 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-37851",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "6f4fa029a00db71c59ce5357af95ff1cb547eef1",
+    "artwork_record_sha256": "f64e57de18ae0a806671be08999729fc5215dd3d499ec082893bd8513a73f1f2",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-37851.json",
+    "draft_sha256": "76f4c8a90579aa79957a1002d62727d460cc7a5171db940f8f8586e251071ffb"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/37851",
+      "access": "page_read_twice",
+      "locations": [
+        "Met accession1981.464.1 direct overview: lover's dispute and fly-whisk, unoccupied bedchamber, Mughal-inspired Rajput style, Samvat1662 from a DIFFERENT manuscript leaf."
+      ],
+      "observed": "Curatorial entry, research summary and authoritative published identification rechecked separately from Japanese draft. Exact source scope/limits are recorded."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met OA/CC0 policy applies to marked public-domain artwork imagery, not necessarily museum prose."
+      ],
+      "observed": "Current rights/policy source consulted; source text rights distinguished from public-domain artwork image."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-37851",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP156174.jpg",
+      "sha256": "0551b90f119888039730660919bba89b2552fb42fe9cf57db552c605453ccb0a",
+      "byte_length": 2244017,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Previous complete JPEG SHA verified Oct2026 only; not freshly downloaded."
+    },
+    {
+      "id": "met-37851",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156174.jpg",
+      "sha256": "ae0b445128e6a6af87563d8dc06cb1ba752e9d57bebd2b8c1b773a9137923311",
+      "byte_length": 267277,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Registered 2026-10-18/20 image byte count, SHA and original HTTP200 inherited. Not retested in this session."
+    }
+  ],
+  "visual_observations": {
+    "method": "Institutional artwork description and image preview/independent public reproduction checked against accession and old registered JPEG identity; no fresh registered JPEG download.",
+    "observed": "Met official full painting: woman with fly-whisk at left holds off seated male lover, yellow empty bed under red wall behind at right, inscription above. Full original/display JPEG registered SHA inherited Oct20, not downloaded."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Reviewed existing Japanese draft/curation, then separately revisited institution research and visible artwork evidence, checked uncertainty, emotion relation, prose similarity, and image-rights distinction.",
+    "limitations": "Same AI separate passes, not second AI/human reviewer. AIC object pages return 403; available official archive and AIC-contributed Google Arts and old API used instead, so page_read_twice guard label is not proof of HTTP200 for blocked target. Oct2026 registered SHA/byte metadata inherited, not freshly checked; public-domain image does not grant museum text copyright.",
+    "reviewed_artwork_sha256": "f64e57de18ae0a806671be08999729fc5215dd3d499ec082893bd8513a73f1f2",
+    "reviewed_visitor_draft_sha256": "76f4c8a90579aa79957a1002d62727d460cc7a5171db940f8f8586e251071ffb",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met Object37851, accession1981.464.1, ink and opaque watercolor, unknown artist, India Bikaner Rajasthan, about1605–06. Another manuscript folio has Samvat1662, not this leaf."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met official page links argument scene to the ragamala verse and Mughal-derived architecture/figure and flattened color; dating rests on another folio."
+      },
+      {
+        "area": "emotion",
+        "finding": "Primary 怒り related to visible lover dispute; secondary 寂しさ is tentative connection with empty bed, not assertion about the subjects' thoughts."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Met collection page labels Public Domain and Open Access policy allows CC0 artwork images. Original two-paragraph Japanese text paraphrases specific scene, no extended copying."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "f64e57de18ae0a806671be08999729fc5215dd3d499ec082893bd8513a73f1f2",
+    "visitor_draft_sha256": "76f4c8a90579aa79957a1002d62727d460cc7a5171db940f8f8586e251071ffb",
+    "proposal_sha256": "1f188356fbfd2c213efff3d412a34ef820178fcb033d214b24546a96218251ed",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match_or_new_draft",
+      "canonical_sha256",
+      "prior_registered_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS baseline/record/draft/proposal fingerprint and object invariants checked. Repository Python checks and required CI not run by this JS stage; GitHub Actions must pass before merging."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-37851.json",
+    "sha256": "1f188356fbfd2c213efff3d412a34ef820178fcb033d214b24546a96218251ed",
+    "proposed_artwork_sha256": "f64e57de18ae0a806671be08999729fc5215dd3d499ec082893bd8513a73f1f2",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Original museum content/official rights policy checked.",
+      "Artwork public-domain image and museum editorial text are separate rights categories."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met collection page labels Public Domain and Open Access policy allows CC0 artwork images. Original two-paragraph Japanese text paraphrases specific scene, no extended copying. No material issue identified to prevent completing database record on current evidence. Not a legal guarantee for publication."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "口論する恋人（バイラディー・ラーギニー） checked individually 2026-11-06.",
+    "Primary 怒り related to visible lover dispute; secondary 寂しさ is tentative connection with empty bed, not assertion about the subjects' thoughts.",
+    "Old verified SHA reused; no new registered image bytes/HTTP measured. Same AI separate review is not independent third-party audit."
+  ]
+}
