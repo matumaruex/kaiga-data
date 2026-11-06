@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-45417",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "f6ce8f317d7f4151a33404be057f9f45c8248afa",
+    "artwork_record_sha256": "5c0d42962fe41d4930f42cc1d6684dc18d5f220aaf836cea0c8c916f344d4cba",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-45417.json",
+    "draft_sha256": "946568a5a88402d50d2af8fa0dc778badcfce42831b4d75dd7f0137b02ec360c"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/45417",
+      "access": "page_read_twice",
+      "locations": [
+        "44.35.1; Muromachi period, 15th century, Japanese hanging scroll ink/color/gold on silk; Jizō in monk robes holding jewel, Maya descends upper right, sala blossoms change, mourning disciples and animals."
+      ],
+      "observed": "Read official Met collection entry twice, compared object ID/accession, attribution, date, museum interpretive claims and preserved Japanese draft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:Death_of_the_Historical_Buddha_(Nehan-zu)_(MET_44.35.1)",
+      "access": "page_read_once",
+      "locations": [
+        "Met 44.35.1 official PD record and Commons category of Met-donated images with accession 44.35.1 identify same picture; registered original DP-26930-002 2731×4000 has historical Oct 20 SHA only, not new JPEG verification."
+      ],
+      "observed": "Checked object-specific Commons description or collection page and matched artwork number, subject and open-use metadata to Met record. Not a current whole-JPEG download."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Public domain art images eligible for Met Open Access are offered as CC0; museum-written text is distinct from image reuse."
+      ],
+      "observed": "Reviewed official Open Access/CC0 guidance; Japanese explanation independently phrased without extended source quotation."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-45417",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-26930-002.jpg",
+      "sha256": "7a09e5543c776c4c3d00a2bd2bf3ffcc52c2185fb42fbce77b67a2d18839bd9a",
+      "byte_length": 4060871,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historical Met complete JPEG/SHA256 check from 2026-10-20; no new live JPEG checksum performed here."
+    },
+    {
+      "id": "met-45417",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-26930-002.jpg",
+      "sha256": "32094f743c27ff2cca6392542d227c70edc4a79315f1656975ad928683e03e85",
+      "byte_length": 142644,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historical stored full-byte JPEG SHA/HTTP200 check recorded by earlier inventory; no new live JPEG verification this session."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compared identified Met artwork and object-specific Met/Commons representations using subject, Met accession, original image identifier and dimensions. Registered JPEG hashes inherited from 2026-10-20 and not recomputed.",
+    "observed": "Met 44.35.1 official PD record and Commons category of Met-donated images with accession 44.35.1 identify same picture; registered original DP-26930-002 2731×4000 has historical Oct 20 SHA only, not new JPEG verification."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Compared previously stored Japanese draft to the Met original art commentary in a distinct review pass, checked work ID, date, depicted details, cautious interpretations, emotion tags, and image/open rights.",
+    "limitations": "Same AI performed separate source-checking, not another model or independent third party. Historical Oct 2026 JPEG byte check reused. No current complete-image byte rehash. Licensing interpretation is not a legal guarantee.",
+    "reviewed_artwork_sha256": "5c0d42962fe41d4930f42cc1d6684dc18d5f220aaf836cea0c8c916f344d4cba",
+    "reviewed_visitor_draft_sha256": "946568a5a88402d50d2af8fa0dc778badcfce42831b4d75dd7f0137b02ec360c",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 44.35.1 is the narrower 15th-century Muromachi scroll; upper-right Maya, Jizō holding jewel and mourning figures distinguish from 14th-century Met 12.134.10."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Museum interpretation contrasts grief with bodhisattva serenity; the visitor draft mentions Maya and Jizō, and nirvana as release from suffering, without personal attribution."
+      },
+      {
+        "area": "emotion",
+        "finding": "悲しみ primary2: mourners; 慈しみ secondary1: compassionate Buddhist context, not an assertion about viewer or maker."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Original concise Japanese draft independently describes this artwork and museum's observations without lengthy quote or close translation; interpretive sources explicitly attributed to the museum."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "5c0d42962fe41d4930f42cc1d6684dc18d5f220aaf836cea0c8c916f344d4cba",
+    "visitor_draft_sha256": "946568a5a88402d50d2af8fa0dc778badcfce42831b4d75dd7f0137b02ec360c",
+    "proposal_sha256": "898384e8b786ed3d929a45f54545813215a40cd63bcbe3a1728aeae0fed37d8f",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JavaScript verified catalog uniqueness, canonical content/file hashes, source-url binding, historical image metadata, unchanged other records; the full Python registration and catalog guards are enforced separately by GitHub Actions."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-45417.json",
+    "sha256": "898384e8b786ed3d929a45f54545813215a40cd63bcbe3a1728aeae0fed37d8f",
+    "proposed_artwork_sha256": "5c0d42962fe41d4930f42cc1d6684dc18d5f220aaf836cea0c8c916f344d4cba",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met source marks this work as Public Domain and the same-object image is in Met Open Access/CC0.",
+      "Japanese passage is original concise summary separate from Met's curatorial prose; no substantial literal copying."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material conflict for registered public-domain reproduction and separately authored concise Japanese explanation; not a legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Object 44.35.1 source/figure/draft independently rechecked.",
+    "Historical JPEG HTTP200/SHA recorded in October 2026, not a new measurement.",
+    "Same AI separate review; not a third-party assessment.",
+    "Other 299 artworks and all original facts, image URL, emotion tags stay unchanged."
+  ]
+}
