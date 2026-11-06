@@ -1,0 +1,162 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436534",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "fa6c14db0179d750a4618c7c1f47312c38e6a208",
+    "artwork_record_sha256": "615bb045059a1b8adf97eb20569e046c9d5976cf78050a2ad81a1d4edb0a38bb",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436534.json",
+    "draft_sha256": "ecf55a667c9118fb44684cde5a7557c33b98e6ee2b7c746a15257e84635f19ed"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436534",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Roses (1993.400.5), 1890. Original pink petals, yellow-green background, green vase, quartet with Irises; 1939 seizure from Georg Simon Hirschland and 1950 restitution to heirs."
+      ],
+      "observed": "Direct official object page and accession reread alongside draft."
+    },
+    {
+      "url": "https://www.nature.com/articles/s40494-017-0131-8",
+      "access": "page_read_twice",
+      "locations": [
+        "2017 npj Heritage Science article, Results and discussion > Roses; flower petals contain eosin red lakes and zinc-white wet-on-wet/mixed paint, Figs.4 and 7; distinguish Met Roses from Met Irises."
+      ],
+      "observed": "Roses-specific pigment analysis and loss of pink rechecked in original study."
+    },
+    {
+      "url": "https://vangoghletters.org/vg/letters/let872/letter.html",
+      "access": "page_read_twice",
+      "locations": [
+        "Van Gogh Letters 872, 13 May 1890, brother Theo, says he finished canvas of pink roses against yellow-green background in green vase; scholarly note 2 identifies Roses in a vase F682/JH1979."
+      ],
+      "observed": "Original edited manuscript transcript and artwork identification note checked directly."
+    },
+    {
+      "url": "https://www.metmuseum.org/exhibitions/listings/2015/van-gogh",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 2015 exhibition Van Gogh: Irises and Roses: four paintings today at Met (2), Van Gogh Museum Amsterdam (1), National Gallery Washington (1), and May 13 1890 Theo letter directly linked to Met Roses."
+      ],
+      "observed": "Met exhibition page and the draft's incorrect museums phrasing checked."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met public-domain image Open Access rules; museum-authored prose not assumed CC0."
+      ],
+      "observed": "Policy viewed."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436534",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP346475.jpg",
+      "sha256": "4680a3bd8eed94d21200f9d7d6410865873fac387dba5b6cd65bee75a1fe59a4",
+      "byte_length": 5219625,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historic Oct 2026 Met official JPEG full-byte checksum and HTTP 200 stored in catalog; no fresh JPEG download or checksum measurement this turn."
+    },
+    {
+      "id": "met-436534",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP346475.jpg",
+      "sha256": "76e8b89371d4c4cc29abd13cde101bb3c786391cb9ea95ccea9390029f6c2413",
+      "byte_length": 128833,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historic Oct 2026 Met official JPEG full-byte checksum and HTTP 200 stored in catalog; no fresh JPEG download or checksum measurement this turn."
+    }
+  ],
+  "visual_observations": {
+    "method": "Cross-check subject and composition in labelled publicly available images with Met's object title, accession number and matching image identifier. Do not equate older SHA/HTTP200 to freshly downloaded JPEG bytes.",
+    "observed": "Met 1993.400.5と登録画像DP346475に対応する縦長の緑の花瓶と退色した白いバラの構図を公開図版で確認。横長の別作《Roses》と混同しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Second source-focused pass on relevant original Met collection article, associated specialist/primary records and image subject; cross-check original or revised Japanese draft, source attribution and emotion tags.",
+    "limitations": "Same assistant, different source-focused pass; not a separate AI, expert or third party. Historical original JPEG byte evidence reused, not freshly measured; no legal copyright guarantee.",
+    "reviewed_artwork_sha256": "b81b038408834f4d49e8887bc26893c2ef0a3a82fbcaea1fe6259ce08181d875",
+    "reviewed_visitor_draft_sha256": "ecf55a667c9118fb44684cde5a7557c33b98e6ee2b7c746a15257e84635f19ed",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 1993.400.5と登録画像DP346475に対応する縦長の緑の花瓶と退色した白いバラの構図を公開図版で確認。横長の別作《Roses》と混同しない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "ゴッホは本人の手紙で配色と完成を述べている。一方、2017年のエオシンレーキ・亜鉛華分析は現代の研究、ナチスによる接収は制作後の来歴であり、いずれも作者の心理についての直接の発言ではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "感情タグは0件のまま維持。特定の鑑賞者の感情を狙った作者の声明ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Original concise Japanese interpretation verified against cited passages; no lengthy English museum text reproduction or translation, claims and attribution kept within the sources."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "b81b038408834f4d49e8887bc26893c2ef0a3a82fbcaea1fe6259ce08181d875",
+    "visitor_draft_sha256": "ecf55a667c9118fb44684cde5a7557c33b98e6ee2b7c746a15257e84635f19ed",
+    "proposal_sha256": "360b86eedaaf6de84836cb251fd2168e5928af453f3e623b1aca390050646f07",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged_or_justified"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS canonical SHA, structure and target-only modification checks performed; formal Python artwork v2 registration guards, snapshots, and draft validation are required via GitHub Actions before main merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436534.json",
+    "sha256": "360b86eedaaf6de84836cb251fd2168e5928af453f3e623b1aca390050646f07",
+    "proposed_artwork_sha256": "b81b038408834f4d49e8887bc26893c2ef0a3a82fbcaea1fe6259ce08181d875",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met individual work marked Public Domain, corresponding Open Access images can be used under CC0.",
+      "The Japanese visitor text is a concise original exposition; museum curatorial writing and the 2017 scientific article remain separately authored."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material rights obstruction to saving a concise original Japanese summary with public-domain artwork image attribution. Not a legal guarantee or permission to copy museum essays."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Original or display JPEG full-byte SHA and HTTP200 are October 2026 historical proof, not fresh tests.",
+    "Same AI source-based second pass; no separate model or third-party assertion.",
+    "Other 299 artworks untouched."
+  ]
+}

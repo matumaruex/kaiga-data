@@ -1,0 +1,138 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436801",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "3112b64d7b7c1947d1fb392d4733d4ad81a54434",
+    "artwork_record_sha256": "9320798f1199a32d7e770870b5ad22bfaa40063ce77e541a76e4c789238fa3e0",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436801.json",
+    "draft_sha256": "cad00bbc3e5329697c94d82078e8fb9f7a34dbad3d37989167c934e0baad9a12"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436801",
+      "access": "page_read_twice",
+      "locations": [
+        "Met The Marriage Feast at Cana 1982.60.20, Juan de Flandes, ca.1497, 21x15.9 cm panel, one of 47 for Isabella; water into wine; traditional bride/groom as John and Magdalene, possible portraits Juan/Margaret; left observer possible official or artist."
+      ],
+      "observed": "Met official title, owner, size, figure identification and tentative language checked."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met public domain Open Access image distinct from copyright in museum's authored prose."
+      ],
+      "observed": "Policy viewed."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436801",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1459.jpg",
+      "sha256": "45fa890f6d70b6a1aa4d22a120fe4c86deb752a4290740154385e177a1656400",
+      "byte_length": 3331285,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historic Oct 2026 Met official JPEG full-byte checksum and HTTP 200 stored in catalog; no fresh JPEG download or checksum measurement this turn."
+    },
+    {
+      "id": "met-436801",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1459.jpg",
+      "sha256": "67398447bbb4e2a600733670701033eba98ddeae57c269d40438262a2abb64c2",
+      "byte_length": 131650,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historic Oct 2026 Met official JPEG full-byte checksum and HTTP 200 stored in catalog; no fresh JPEG download or checksum measurement this turn."
+    }
+  ],
+  "visual_observations": {
+    "method": "Cross-check subject and composition in labelled publicly available images with Met's object title, accession number and matching image identifier. Do not equate older SHA/HTTP200 to freshly downloaded JPEG bytes.",
+    "observed": "Met 1982.60.20の縦長画像DT1459で宴の食卓、手前の水壺、左側中庭からの人物を認識。登録された画像同定記録と対応。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Second source-focused pass on relevant original Met collection article, associated specialist/primary records and image subject; cross-check original or revised Japanese draft, source attribution and emotion tags.",
+    "limitations": "Same assistant, different source-focused pass; not a separate AI, expert or third party. Historical original JPEG byte evidence reused, not freshly measured; no legal copyright guarantee.",
+    "reviewed_artwork_sha256": "9320798f1199a32d7e770870b5ad22bfaa40063ce77e541a76e4c789238fa3e0",
+    "reviewed_visitor_draft_sha256": "cad00bbc3e5329697c94d82078e8fb9f7a34dbad3d37989167c934e0baad9a12",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 1982.60.20の縦長画像DT1459で宴の食卓、手前の水壺、左側中庭からの人物を認識。登録された画像同定記録と対応。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metがquite possibly/may/possiblyとして述べるモデル帰属と自画像説を、確定した作者の意図に書き換えない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "元の『希望』2は救いの奇跡の物語との鑑賞入口であり、登場人物や作者の気持ちを決めつけない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Original concise Japanese interpretation verified against cited passages; no lengthy English museum text reproduction or translation, claims and attribution kept within the sources."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "9320798f1199a32d7e770870b5ad22bfaa40063ce77e541a76e4c789238fa3e0",
+    "visitor_draft_sha256": "cad00bbc3e5329697c94d82078e8fb9f7a34dbad3d37989167c934e0baad9a12",
+    "proposal_sha256": "311f5260193521c2ad04e2fd9a0609ef1f0437929a16710d85b4483c712680af",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged_or_justified"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS canonical SHA, structure and target-only modification checks performed; formal Python artwork v2 registration guards, snapshots, and draft validation are required via GitHub Actions before main merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436801.json",
+    "sha256": "311f5260193521c2ad04e2fd9a0609ef1f0437929a16710d85b4483c712680af",
+    "proposed_artwork_sha256": "9320798f1199a32d7e770870b5ad22bfaa40063ce77e541a76e4c789238fa3e0",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met individual work marked Public Domain, corresponding Open Access images can be used under CC0.",
+      "The Japanese visitor text is a concise original exposition; museum curatorial writing and the 2017 scientific article remain separately authored."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material rights obstruction to saving a concise original Japanese summary with public-domain artwork image attribution. Not a legal guarantee or permission to copy museum essays."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Original or display JPEG full-byte SHA and HTTP200 are October 2026 historical proof, not fresh tests.",
+    "Same AI source-based second pass; no separate model or third-party assertion.",
+    "Other 299 artworks untouched."
+  ]
+}
