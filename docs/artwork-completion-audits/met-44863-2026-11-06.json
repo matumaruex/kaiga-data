@@ -1,0 +1,141 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-44863",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "9ab1d9cf5efe417b104f247da6dc7105d2d8e108",
+    "artwork_record_sha256": "7c8cc992fe6cbb4765e9518d938b47f6417241dd58e7b570b89bb6ab6bb926de",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-44863.json",
+    "draft_sha256": "e890e3f54698aeefcec85305bb56ade23c9b3ea30011d1758c996a23647ee183"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/44863",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 1975.268.126; Okumura Masanobu; eighteenth century hanging scroll, ink and color on silk; Public Domain",
+        "Sisters Matsukaze and Murasame and lover Yukihira are adapted to Edo pleasure-quarter appearance; an Edo dandy's coat and cap hang on the pine",
+        "The Met reads the image as a playful updated presentation of a classic parting legend, not documentation of the historical courtier's feelings"
+      ],
+      "observed": "所蔵館の個別作品概要と詳細を別パスで再確認し、登録情報・日本語本文を照合した。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met's Open Access and Public Domain policy for eligible collection images",
+        "Museum-created explanatory text does not automatically inherit image CC0 terms"
+      ],
+      "observed": "画像のOA/CC0と館の文章の権利条件を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-44863",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP221127.jpg",
+      "sha256": "62799e0da2a2cb5f26d91a388225e62637734a8a5de6a978c0f1cbcda86bd7f8",
+      "byte_length": 2301437,
+      "sha_checked_on": "2026-10-20",
+      "status": 200,
+      "matches_registered_bytes": true,
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19/20保存済みのJPEG全量SHA256とバイト数を再利用。今回新規に全JPEGをダウンロードして照合したものではない。"
+    },
+    {
+      "id": "met-44863",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP221127.jpg",
+      "sha256": "c62381935c13838af0f073ea60b127ac6b9f74b1a08c3681d240def6a496b458",
+      "byte_length": 69755,
+      "sha_checked_on": "2026-10-19",
+      "status": 200,
+      "matches_registered_bytes": true,
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19/20保存済みのJPEG全量SHA256とバイト数を再利用。今回新規に全JPEGをダウンロードして照合したものではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "登録作品番号とMet作品ページ画像／同一ファイル名の所蔵画像複製を作品ごとに照合。登録原JPEG・表示JPEGの過去全量ハッシュは新規測定と区別。",
+    "observed": "Metの作品番号44863の所蔵画像を視認。前景の華やかな浮世絵の男女、背景の淡い浜辺・松の枝の縞服と帽子が既存本文と一致。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "原資料の一次確認後、同一AIの別閲覧工程で史実・作品画像・選定資料・感情・本文・権利の各点を再確認。",
+    "limitations": "別AI・第三者による独立審査ではなく同一AIの別工程。過去のJPEG SHAを再利用し、今回の全バイト取得は実施していない。法的保証なし。",
+    "reviewed_artwork_sha256": "7c8cc992fe6cbb4765e9518d938b47f6417241dd58e7b570b89bb6ab6bb926de",
+    "reviewed_visitor_draft_sha256": "e890e3f54698aeefcec85305bb56ade23c9b3ea30011d1758c996a23647ee183",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 1975.268.126、18世紀、奥村政信、絹本墨彩掛幅。似た須磨主題の歌麿の別作品とは区別。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "松風村雨と行平の故事を江戸遊里の身なりへ見立てたとMetが説明。伝説の形見の衣と帽子が現代化している。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『未練』2と補助『寂しさ』1は別離の物語と須磨の淡い背景に基づく入口で、作者や画中人物の断定的な心理ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落の主要記述はMet所蔵解説と一致し、長い英文の逐語転載ではなく独自の文章構成。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "7c8cc992fe6cbb4765e9518d938b47f6417241dd58e7b570b89bb6ab6bb926de",
+    "visitor_draft_sha256": "e890e3f54698aeefcec85305bb56ade23c9b3ea30011d1758c996a23647ee183",
+    "proposal_sha256": "95bedc8815f20888060f90198e647f5664b4f5b7b49d11d58fba3a5826ba222d",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_hash",
+      "historical_registered_image_shas_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub書込前のJSで対象レコード・下書き完全一致、ID一意性、登録画像メタデータと内容指紋を確認。Python構造テストおよびGitHub Actionsは別途実行する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-44863.json",
+    "sha256": "95bedc8815f20888060f90198e647f5664b4f5b7b49d11d58fba3a5826ba222d",
+    "proposed_artwork_sha256": "7c8cc992fe6cbb4765e9518d938b47f6417241dd58e7b570b89bb6ab6bb926de",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Object labeled Public Domain",
+      "CC0/Open Access applies to eligible object images",
+      "Met's written commentary reviewed separately from image rights"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "既存の日本語本文は独自の構成と要約で、Metの独自英文説明と長い逐語転載・翻訳にはなっていない。画像のOA/CC0と美術館文章の著作権を別扱い。法的非侵害の保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "奥村政信《須磨の行平と松風・村雨》：既存日本語3段落、作品事実、画像、感情索引、選定資料をすべて維持。",
+    "2026-10-19/20のJPEG SHAは再利用し、新規測定とは表記しない。CI成功・main統合後のみ完成として数える。"
+  ]
+}
