@@ -1,0 +1,139 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435752",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "eb81be5f4dad509ecf93860fff9c02d82f323393",
+    "artwork_record_sha256": "55aec46e9b99e1304ebb67208b3e1bdac44c853486b458012bd4c4b75af94685",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435752.json",
+    "draft_sha256": "56e327f9a0ce4e4ad39d2cf6be119e69efc1c95e9dca152c4350487ef1b3fbf2"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435752",
+      "access": "page_read_twice",
+      "locations": [
+        "1993.402: 公式ページの冒頭1段落（国際市場向けの母子画、Breton Brother and Sister 1871との類似、米国収集家）およびArtwork Details（1871、1993.402）。公式画像の母と幼子・衣服・室内。"
+      ],
+      "observed": "Metの最新公式作品ページを作品名・ID・作品解説を使って検索後、直接開いて照合した。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Open Access画像のCC0・PD表示の意味。公式学芸員著述の複製権とは別の権利。"
+      ],
+      "observed": "Met公式FAQを確認し、画像の権利と館の説明文の著述権を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435752",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-16481-001.jpg",
+      "sha256": "6dadad3ae75ecb845c643d0990302b1d395fe47a4fe7aa6ae099e70afff60747",
+      "byte_length": 2101815,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月のMet公式原画像の全バイトSHAとHTTP成功を台帳から引用。今回の再計測ではない。"
+    },
+    {
+      "id": "met-435752",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16481-001.jpg",
+      "sha256": "f8308d1843f8efcea134c5c008551e3db83b334e5165f313905c0b51d43df404",
+      "byte_length": 77411,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月の表示用画像の全バイトSHAとHTTP成功を台帳から引用。今回の再計測ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Metの公式画像 https://collectionapi.metmuseum.org/api/collection/v1/iiif/435752/1857537/main-image を視認。旧Met Object APIのprimaryImage ID・所蔵番号と登録画像台帳の一致記録を併用。画像全量SHAとHTTP200は2026年10月の既存証拠を継承。",
+    "observed": "Met公式IIIF（/iiif/435752/1857537/main-image）を視認。暗い室内、白帽子と白い服の女性、膝に抱かれた裸の子、装飾布と足台が見える。登録DP-16481-001は過去Met primaryImageの対応記録。今回の登録JPEG全バイトSHAは再計測していない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "公式解説と公開画像を別工程で開き直し、制作本文について史実・作者と学芸員の解釈の区別・感情タグ・画像・権利と転載リスクを点検した。",
+    "limitations": "制作と照合は同一AIによる別工程であり、第三者/別モデルの独立性はない。画像は旧全バイトSHA記録を継承し、今回登録画像の全バイトを直接再取得・再照合していない。文章権利判断は法的保証ではない。",
+    "reviewed_artwork_sha256": "55aec46e9b99e1304ebb67208b3e1bdac44c853486b458012bd4c4b75af94685",
+    "reviewed_visitor_draft_sha256": "56e327f9a0ce4e4ad39d2cf6be119e69efc1c95e9dca152c4350487ef1b3fbf2",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "作品はMet 1993.402（ID 435752）。公式の題名・作者・制作年代・Public Domain表示・画像を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metは1871年の母子像を国際市場向けの理想化された農村画と解説し、同年の《Breton Brother and Sister》との共通性と米国収集家の購入を述べる。画面では白帽子の母が膝の裸児に顔を寄せ、子は観者へ向く。母子の実生活やモデルの特定を断定しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "元の検索索引（主:慈しみ、補助:なし）と本文との整合を点検。作品の歴史的意味を鑑賞者の感情として断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "美術館の説明に支えられた事実を、独自の短い日本語鑑賞文に再構成。公式文の長文転載・逐語訳を避け、確認できない作者心理・人物の実在関係を補わない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "55aec46e9b99e1304ebb67208b3e1bdac44c853486b458012bd4c4b75af94685",
+    "visitor_draft_sha256": "56e327f9a0ce4e4ad39d2cf6be119e69efc1c95e9dca152c4350487ef1b3fbf2",
+    "proposal_sha256": "af4055b1ebed6610f6725e20c4df3c2cc97311699da4b5dd81d9069ac263c232",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "本ターンのJavaScriptで対象版ハッシュ・300件ID一意・出典と画像台帳のメタデータおよび対象外不変を確認。Python既存登録ガードとCIはPR提出後のGitHub Actionsで最終検証する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435752.json",
+    "sha256": "af4055b1ebed6610f6725e20c4df3c2cc97311699da4b5dd81d9069ac263c232",
+    "proposed_artwork_sha256": "55aec46e9b99e1304ebb67208b3e1bdac44c853486b458012bd4c4b75af94685",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "この作品の公式ページではPublic Domainと表示、Met Open Access画像として提供。",
+      "作成した解説は短い独自日本語文章であり、館の解説の連続した転載・逐語翻訳をしていない。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Open Access画像と所蔵館の著述権を分離。画像の現行PD表示と独自解説にDB保存を妨げる重大な問題は見つからない。法的な許諾保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met 1993.402 (met-435752)",
+    "2026年10月のJPEG全バイトSHAとHTTP200を証拠として継承。今回新規の登録JPEGバイト検査ではない。",
+    "作成・検証は同一AIの別工程（別AI・第三者ではない）。",
+    "この作品以外299件・画像URL・感情索引を変更しない。"
+  ]
+}
