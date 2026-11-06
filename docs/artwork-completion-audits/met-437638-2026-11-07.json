@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437638",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "a1bbcc1450372156bb7f7e08a6e8fba36a6a99c4",
+    "artwork_record_sha256": "c6793736700e93dddfbf844530174378fbc0694642a980ce1bab1777f2962988",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437638.json",
+    "draft_sha256": "e55cb9f05ee7a9e83d1d112233a6ae83edb3158ff020c96c6aff4645abd33832"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437638",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 1973.116: Andrea Schiavone (Andrea Meldola), The Marriage of Cupid and Psyche, ca.1540, oil on wood transferred to Masonite. In Apuleius' Golden Ass, Cupid and Psyche wed before Juno, Jupiter, Mars and the Olympians; originally octagonal, four corners later added, central Psyche myth ceiling at Castello di Salvatore di Collalto. Parmigianino influence; younger Tintoretto later influenced."
+      ],
+      "observed": "Read and re-opened current Met object page; compared attributed artist, displayed date, accession, scholarly paragraph and Japanese visitor draft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Marriage_of_Cupid_and_Psyche_MET_DT11094.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Official Met image of cloudy Olympus shows Psyche in yellow drapery beside winged Cupid and surrounding figures. The four dark triangular corner zones retain a sense of the former octagon; Commons donated DT11094 matches Met accession 1973.116 and registered 3805×3140 dimensions."
+      ],
+      "observed": "Compared identifiable Met-contributed public reproduction and collection/object metadata, distinct from fresh registered JPEG byte verification."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Public Domain and Open Access / CC0 descriptions refer to eligible artwork images, not automatically the authored curatorial text."
+      ],
+      "observed": "Read Met Open Access policy and separated imaging rights from museum-authored explanatory prose."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437638",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT11094.jpg",
+      "sha256": "9f4e7d8afbc794a72707e1da089b5db1896306fff7fbf01fcb7ae0c96caad7ca",
+      "byte_length": 2794210,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Existing official registered full JPEG HTTP200 and SHA256 dated 2026-10-20, no new download or byte comparison today."
+    },
+    {
+      "id": "met-437638",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT11094.jpg",
+      "sha256": "76149a7b3c65f0afa84c8a7c74dd444e01fb8fe98936fddd4a273352ccd6023a",
+      "byte_length": 99374,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Existing registered web-large JPEG HTTP200 and SHA256 from 2026-10-20, not measured again today."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compared displayed work-specific museum figure and Met-donated Commons object mapping: title, accession, composition, original filename and historical pixel dimensions. Registered JPEG byte SHA is a separate prior test.",
+    "observed": "Official Met image of cloudy Olympus shows Psyche in yellow drapery beside winged Cupid and surrounding figures. The four dark triangular corner zones retain a sense of the former octagon; Commons donated DT11094 matches Met accession 1973.116 and registered 3805×3140 dimensions."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Source-focused review of inherited PR #3 draft against the present official museum work page, same-work Commons image and usage policy; explicitly checked title/date/attribution, factual versus tentative claims, visual description, emotion entries and copying risk.",
+    "limitations": "Same AI performed a separate source-reading pass, not another agent or third-party review. Registered original JPEG bytes were not fetched in this session; historic Oct 2026 full-SHA evidence is separately labeled. No legal non-infringement guarantee.",
+    "reviewed_artwork_sha256": "c6793736700e93dddfbf844530174378fbc0694642a980ce1bab1777f2962988",
+    "reviewed_visitor_draft_sha256": "e55cb9f05ee7a9e83d1d112233a6ae83edb3158ff020c96c6aff4645abd33832",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 1973.116, Andrea Schiavone, ca.1540, Cupid and Psyche wedding as a ceiling cycle center, former octagon. Wikimedia's Met-donated DT11094 image and Met current object match the catalog image filename/dimensions."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Apuleius gives the myth, not a historical wedding; Met identifies original ceiling location and shape, later four-corner additions. Parmigianino influence and importance to Tintoretto are Met scholarship, not signed artist intentions."
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing primary 喜び 2 and secondary 期待 1 retained; a mythical wedding celebration grounds a positive emotional entry but cannot prove audience reaction or creator's personal joy."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Inherited Japanese draft correctly attributes the myth to The Golden Ass, describes the octagonal ceiling and later corners, and separates stylistic influence from emotional certainty. No long-source reproduction."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "c6793736700e93dddfbf844530174378fbc0694642a980ce1bab1777f2962988",
+    "visitor_draft_sha256": "e55cb9f05ee7a9e83d1d112233a6ae83edb3158ff020c96c6aff4645abd33832",
+    "proposal_sha256": "a029d117fb4f893081af40c3c975e137e1982c69ffc382fdee6accfda0791ef2",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS checked SHA256 of canonical draft/proposal/target record, counted 300 unique records, preserved other 299, verified source URL and existing historical JPEG registry metadata. The repository's Python completion guard and full validators must PASS in GitHub Actions after the branch is pushed."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437638.json",
+    "sha256": "a029d117fb4f893081af40c3c975e137e1982c69ffc382fdee6accfda0791ef2",
+    "proposed_artwork_sha256": "c6793736700e93dddfbf844530174378fbc0694642a980ce1bab1777f2962988",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Object page explicitly says Public Domain and Met Open Access allows CC0 for eligible reproductions; curator-created text is not assumed to be CC0.",
+      "Japanese short visitor draft expresses sourced facts independently, without long quotation or line-by-line translation."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material rights problem in using this image and independently written brief museum-verified summary for dataset storage. This is not legal certification."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "スキアヴォーネ《クピドとプシュケの結婚》（Met 1973.116）：アプレイウスの神話、旧八角形の天井画、四隅の後補とパルミジャニーノからの影響をMet公式資料に照合。",
+    "Original catalog facts, curation and emotions unaltered.",
+    "Registered JPEG HTTP200/SHA is past evidence dated 2026-10-20; this session did not remeasure it.",
+    "Same assistant's separate source-checking pass, not a different model or third-party expert."
+  ]
+}
