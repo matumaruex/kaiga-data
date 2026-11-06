@@ -12873,6 +12873,12 @@
           "rights_status": "pending",
           "reviewed_on": "2026-10-24"
         }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-44699-2026-11-06.json",
+        "audit_sha256": "a2c70b61e8f59ed8fed76bc81a46997e83e598d7e010702d8e2f125bdd6f0a7e",
+        "record_sha256": "2d4377fbf7556d5e6ce2842f910e0c8388b702b0a9b35d72cd6794f41dbac789"
       }
     },
     {
@@ -12991,6 +12997,12 @@
           "rights_status": "pending",
           "reviewed_on": "2026-10-24"
         }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-829379-2026-11-06.json",
+        "audit_sha256": "2b6f46e76be776c0a990803f8fd87fe7992e8c8b2584ca69957038a0ed5a73eb",
+        "record_sha256": "187d6a9c8acf712b99afb8b60495e6c2dcbe1f6e3f00aef3971b28ff6cb06647"
       }
     },
     {
@@ -13072,7 +13084,7 @@
             "source_url": null
           },
           "scholarly_interpretation": {
-            "summary": "Metによると、マーラヴァーラーのラーガを描く詩には、女性の従者や天上の音楽を伴う主人公について、愛に満たされ心が幸福だと明記される。画家は詩の象徴を画面構成に取り込んだ。",
+            "summary": "Metは《マールコース・ラーガ》に対応する詩が、払子を持つ女性に仕えられ天上の楽人のような音楽を聴く貴人を描き、その貴人は愛に満たされ心が幸福だと述べる。画家は詩の要素を絵画の構図に組み込んだ。",
             "source_url": "https://www.metmuseum.org/art/collection/search/37897"
           },
           "creation_context": "17世紀半ばのラージャスターン、マールワール地方のラーガマーラー絵画の一葉。音楽の旋法を視覚化する伝統に属する。",
@@ -13096,6 +13108,26 @@
         "ai_content_review_status": "pending",
         "source_evidence_review_status": "pending",
         "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "音楽を聞く貴人のそばに、払子を持つ女性が仕えています。これは特定の宮廷の演奏会を記録した絵ではなく、マールコースというラーガを人物と場面に表した一葉です。\n\nラーガはインド音楽の旋律の枠組みで、詩や絵とも結びついてきました。さまざまなラーガを絵で連ねたものを「ラーガマーラー」、ラーガの花輪と呼びます。本作に対応する詩では、貴人は愛に満たされ、心楽しく、天上の楽人のような音楽を聞く人物として語られます。絵の幸福は、その詩的な設定に属しています。\n\n1640〜50年頃のマールワール地方の作品です。音の聞こえない紙の上に、音楽に託された人物像が描かれています。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/37897",
+          "https://www.metmuseum.org/exhibitions/listings/2014/ragamala"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "pending",
+          "reviewed_on": "2026-11-06"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-37897-2026-11-06.json",
+        "audit_sha256": "2731866e54fedc21d8aa5e5c8e56f1c6399914f1e27eb13835a84fb4d7cff3bd",
+        "record_sha256": "848dfa9cab28c219a896754c18c35b26bf955eb852076524868aa4df4a6fd7a1"
       }
     },
     {

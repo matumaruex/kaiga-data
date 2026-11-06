@@ -1,0 +1,29 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-37897",
+  "baseline_commit": "968c894bb1819a2cd9a506cd2145d7dc685d46f6",
+  "baseline_artwork_sha256": "cb219c9a12c08ec7c8b0e5313461dfb5313b835c66b84316805c5cb92b3201c2",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation",
+        "summary"
+      ],
+      "before": "Metによると、マーラヴァーラーのラーガを描く詩には、女性の従者や天上の音楽を伴う主人公について、愛に満たされ心が幸福だと明記される。画家は詩の象徴を画面構成に取り込んだ。",
+      "after": "Metは《マールコース・ラーガ》に対応する詩が、払子を持つ女性に仕えられ天上の楽人のような音楽を聴く貴人を描き、その貴人は愛に満たされ心が幸福だと述べる。画家は詩の要素を絵画の構図に組み込んだ。",
+      "reason": "旧『マーラヴァーラー』は作品名と齟齬があり誤読を招くため公式説明に即した対象名に改める。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/37897"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-37897.json",
+  "visitor_draft_sha256": "fd41d7bd2411675d0bf0362a33389bbbc03da20a1c3979bb55fd832bbde0ee12",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "6772fc072b4e19f17cf39e31019f18aec7bd72c2efe2ea14113c9a9095ee510f",
+  "explanation": "Met公式の個別ラーガ名の誤記だけを限定修正。既存の感情・画像とその他の選定資料は維持。"
+}
