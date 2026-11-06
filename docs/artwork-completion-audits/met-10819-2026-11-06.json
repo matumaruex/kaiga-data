@@ -1,0 +1,146 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-10819",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "f8d098bef7a135db0ecc17d6fe19eb472eee6ebf",
+    "artwork_record_sha256": "0a6b676a9be86a8129418b56c29ba1001959aa6bfa4163b10662ea51ed7de990",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-10819.json",
+    "draft_sha256": "1713cece6c40e7f3328ea2704b6dac200e9b30a199d3e562148227f483158e04"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/10819",
+      "access": "page_read_twice",
+      "locations": [
+        "Met overview first paragraph and Artwork Details for accession 34.92; Philadelphia Encyclopedia section 'Early Athletic Scenes' and Max Schmitt passage, identifying Michael Leja's argument."
+      ],
+      "observed": "The source text and the specific claims of the already drafted Japanese visitor text were rechecked against the original source; the official picture was visually inspected. The recorded previous JPEG SHA is historical, not current network verification."
+    },
+    {
+      "url": "https://philadelphiaencyclopedia.org/essays/art-of-thomas-eakins/",
+      "access": "page_read_twice",
+      "locations": [
+        "Art of Thomas Eakins, Early Athletic Scenes/Max Schmitt and Michael Leja paragraph"
+      ],
+      "observed": "Direct scholarly source and relevant passage read; the artist-specific interpretation is attributed to the later art historian."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "The Met Open Access FAQ distinguishes public-domain artwork images and rights in independent museum prose."
+      ],
+      "observed": "Open Access FAQ reviewed, image public domain/CC0 does not automatically license official interpretive prose."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-10819",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DT86.jpg",
+      "sha256": "093e4cf1022b9dfb5d4500bc19af5391d7f6667a55b4d250d362f530f699f999",
+      "byte_length": 2724057,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Previously measured official JPEG full SHA256 and HTTP status, retained from the 2026-10-20 registry, NOT freshly downloaded or rehashed in this session."
+    },
+    {
+      "id": "met-10819",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT86.jpg",
+      "sha256": "bc17d4cff2e963d3e0c103499a97caa7f3718bf55fda89423afc925c8b5bc207",
+      "byte_length": 71642,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historical registry full-JPEG SHA256 and HTTP 200, not a fresh network result; Met official gallery image independently viewed to verify subject."
+    }
+  ],
+  "visual_observations": {
+    "method": "Met object collection page, main artwork image linked to same accession, and previously registered official API primaryImage identity. The gallery image was viewed directly; full JPEG byte SHA is inherited from October, not newly acquired.",
+    "observed": "Official Met object image shows Max Schmitt looking back from a narrow yellow scull in the foreground, another rower mid-distance, bridge and riverside trees. The image matches accession 34.92 and the previously catalogued primary image identity."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Existing PR #3 draft was read first; in a separate step, the source passages and gallery images were read from Met official pages (and the Philadelphia scholarly article when cited), then factual assertions, provenance, emotion index, text independence, copyright and identity were cross-checked.",
+    "limitations": "This was the SAME AI in a separate review pass, not independent model/human, no new full JPEG download, no new file SHA. Historical JPEG hash/HTTP status is retained from October 2026.",
+    "reviewed_artwork_sha256": "0a6b676a9be86a8129418b56c29ba1001959aa6bfa4163b10662ea51ed7de990",
+    "reviewed_visitor_draft_sha256": "1713cece6c40e7f3328ea2704b6dac200e9b30a199d3e562148227f483158e04",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met official accession 34.92, Thomas Eakins, The Champion Single Sculls (Max Schmitt in a Single Scull), 1871, public domain verified against the item page."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1871, Eakins, Max Schmitt and the painter as middle-distance sculler; 1870 October victory commemorated as a belief, not proven commission; perspective, anatomy and mathematical method are scholar Michael Leja's analysis, not artist's claim."
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing primary 喜び is indexed to the subject's recorded athletic success; not an assertion of the painter's inner joy."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Existing PR #3 Japanese explanation is independently worded and not a line-by-line reproduction of institutional prose; uncertain historical claims are attributed or qualified. This is an editorial assessment and not a legal guarantee."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "0a6b676a9be86a8129418b56c29ba1001959aa6bfa4163b10662ea51ed7de990",
+    "visitor_draft_sha256": "1713cece6c40e7f3328ea2704b6dac200e9b30a199d3e562148227f483158e04",
+    "proposal_sha256": "448db0aad69720697c815734cc2c6d11e0c99ee6f1de3e3c704924dfde62ff7f",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "existing_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Pre-commit JavaScript canonical hash and exact-ID checks; Python preview/save/check and GitHub Actions CI still required for complete integration."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-10819.json",
+    "sha256": "448db0aad69720697c815734cc2c6d11e0c99ee6f1de3e3c704924dfde62ff7f",
+    "proposed_artwork_sha256": "0a6b676a9be86a8129418b56c29ba1001959aa6bfa4163b10662ea51ed7de990",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "The Met's Open Access program applies to public-domain artwork images; museum prose is not assumed open licensed.",
+      "Japanese draft uses concise independently worded summaries drawn from verified historical facts, without asserting a license for museum interpretative text."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No material rights obstacle identified for storing metadata and newly expressed Japanese description of public-domain painting in GitHub; this is not a legal noninfringement warranty or permission to copy scholarly prose."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Schmitt was the artist's school friend and an attorney; the victory commemoration is qualified as believed. Perspective/anatomy is the cited scholar's interpretation.",
+    "Met item gallery subject examined directly; full JPEG hash and historical HTTP200 are from 2026-10-20, not freshly measured.",
+    "Review separate-pass was same AI, not a separate agent. Existing facts, image, curation and emotion tags unmodified."
+  ]
+}
