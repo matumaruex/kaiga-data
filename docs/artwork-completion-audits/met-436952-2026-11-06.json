@@ -1,0 +1,136 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436952",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "70b57befbe45f77c78bfa6e917dc274d03eacd38",
+    "artwork_record_sha256": "49098d42391219ede8760cdd4225c61b383f1b9bda8b746a754af70611e44e95",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436952.json",
+    "draft_sha256": "83fb073d5ed20f64c233da8fd842c25510984a57a648763a95082a7b02fe803f"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436952",
+      "access": "page_read_twice",
+      "locations": [
+        "Met The Funeral, Édouard Manet, accession 10.36, ca. 1867, Public Domain, unfinished. Probably but not certainly depicts Baudelaire's Sept 2 1867 funeral, which Manet attended. Few mourners and threatening weather. Panorama from vicinity of Mouffetard in Paris, Panthéon and Val-de-Grâce; held by Manet until his death, acquired by Pissarro in 1894 by exchange for a landscape."
+      ],
+      "observed": "Met official object description and identity rechecked with the earlier Japanese draft, preserving the original object's uncertain funeral attribution."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met artwork PD/Open Access permission is separate from text copyright."
+      ],
+      "observed": "Image and narrative text reuse assessed separately."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436952",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1931.jpg",
+      "sha256": "9e3b58d785c9f8f5f196bfb6d04b92aea844b3798bd3a30c52d2bb7ccc11f919",
+      "byte_length": 3079880,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historically verified full original JPEG bytes via Met API on 2026-10-20; not a new image fetch."
+    },
+    {
+      "id": "met-436952",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1931.jpg",
+      "sha256": "db61325282a57cf16b74e95ab01d6ceeb1c687a48e463926d540d392071c5842",
+      "byte_length": 96094,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Prior official display JPEG SHA/200, no fresh complete JPEG download."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compared catalog-identified Met-hosted image of The Funeral to Met's object identification and historical primaryImage binding. No fresh full JPEG checksum.",
+    "observed": "Dark cloudy sky over Paris domes, open foreground street and greens, tiny dark funeral procession moving at bottom of view. Matching Manet 10.36 rather than unrelated funeral paintings."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "After reading pre-existing PR #3 explanation, re-read museum work description in separate source-focused pass and compared each proper name, date, composition, attribution uncertainty, color, visitor tags and rights.",
+    "limitations": "Same AI not a separate independent human or model. Registered JPEG 2026-10-20 SHA reused; current byte streams not downloaded. Copyright assessment does not confer legal rights.",
+    "reviewed_artwork_sha256": "ae9f9083f20a075523a1838291cfedc7c2ed2e7046a5623f892bac5efaf770a3",
+    "reviewed_visitor_draft_sha256": "83fb073d5ed20f64c233da8fd842c25510984a57a648763a95082a7b02fe803f",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met The Funeral, Édouard Manet, accession 10.36, ca. 1867, Public Domain, unfinished. Probably but not certainly depicts Baudelaire's Sept 2 1867 funeral, which Manet attended. Few mourners and threatening weather. Panorama from vicinity of Mouffetard in Paris, Panthéon and Val-de-Grâce; held by Manet until his death, acquired by Pissarro in 1894 by exchange for a landscape."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Baudelaire funeral identification qualified as probable (not definite); documented Manet attendance distinguished from identification of the pictured funeral. Pissarro ownership exchange stated as Met research."
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing primary 喪失感2 and secondary 悲しみ1 relate to represented funeral scene, not proven personal mourning of painter or identity of each mourner."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Short original Japanese preexisting draft, author or scholar claims qualified accurately; no long protected Met prose copied."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "ae9f9083f20a075523a1838291cfedc7c2ed2e7046a5623f892bac5efaf770a3",
+    "visitor_draft_sha256": "83fb073d5ed20f64c233da8fd842c25510984a57a648763a95082a7b02fe803f",
+    "proposal_sha256": "5eb4e3b23a3c11149c849d921aaf6d880c0b402be0b1a75950cd6949b00f2afe",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Deterministic JS SHA and structure checks only; Python complete_artwork.py check and GitHub Actions to verify independently."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436952.json",
+    "sha256": "5eb4e3b23a3c11149c849d921aaf6d880c0b402be0b1a75950cd6949b00f2afe",
+    "proposed_artwork_sha256": "ae9f9083f20a075523a1838291cfedc7c2ed2e7046a5623f892bac5efaf770a3",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Artwork is Public Domain at Met; original brief Japanese draft reviewed independently of museum-prose copyright."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Artwork PD and short independently worded Japanese prose assessed as not presenting an identified material obstacle to this repository; no license to copy original curatorial text assumed."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Historic registered Met JPEG SHA is old 2026-10-20 evidence, not freshly checked.",
+    "Same AI separate-pass review, not separate AI."
+  ]
+}
