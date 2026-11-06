@@ -1,0 +1,146 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435807",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "ba7bf9122b44c4811212b216565ba79e4345a03e",
+    "artwork_record_sha256": "4f70e1cd96fc645f8d7f1ffb8cbcb98735b5d378478a903116d67ec2",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435807.json",
+    "draft_sha256": "b5756671c4a2c9b28f2fd8eb8c7b2627d453bc0f0018afabc5926ca1"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435807",
+      "access": "page_read_twice",
+      "locations": [
+        "Met The Smokers (32.100.21), Adriaen Brouwer, c.1636, oil on panel 46.4 x 36.8cm; Brouwer at center foreground, confronted appearance, rendering of transient facial effects and rising smoke."
+      ],
+      "observed": "The official Met object entry and its subject interpretation were rechecked against the existing detailed draft evidence."
+    },
+    {
+      "url": "https://canon.codart.nl/artwork/the-smokers/",
+      "access": "page_read_twice",
+      "locations": [
+        "Anita Jansen, CODART Canon The Smokers, describes self-portrait among four fellow artists, group portrait read together with a tavern genre scene."
+      ],
+      "observed": "Earlier drafted claim and the signed CODART specialist interpretation reviewed distinctly from Met's description; names of colleagues not invented."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access distinguishes images labeled public domain from authorship rights in museum curatorial prose."
+      ],
+      "observed": "Rights basis checked for standalone original Japanese summary."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435807",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-15904-001.jpg",
+      "sha256": "d6c4c23df1e5f3031a1b9912453b9e57b360b0a45b50895abdf1cf3779398eac",
+      "byte_length": 3821524,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historical October 2026 Met official JPEG SHA and HTTP 200, not newly downloaded or measured in this review."
+    },
+    {
+      "id": "met-435807",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-15904-001.jpg",
+      "sha256": "3f43329e6e4eb8176b5046ef6146757912a0ffd22f6c62406425c16d851a58d8",
+      "byte_length": 106393,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historic Met JPEG display SHA and HTTP200 retained; no new complete-file comparison."
+    }
+  ],
+  "visual_observations": {
+    "method": "Met museum object ID 32.100.21 and linked Met filename DP-15904-001 are tied to the identified painting through its object details; compared stated scene to researched composition, excluding other similarly named Brouwer tavern pictures.",
+    "observed": "Source-identified image is the self-referential group tavern scene of five men with smoke and foreground central figure; its Met object ID is 435807, not Brouwer's separate Boors Smoking and Drinking at a Table. No fresh complete registered-JPEG decoding/SHA inspection is claimed."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Rechecked the Met individual artwork narrative and CODART specialist's signed interpretation independently of the original Japanese draft, separating the author of each opinion, retained emotion categories, rights and image linkage.",
+    "limitations": "Same assistant in second source-focused pass, no separate model/expert. Met image's previous 2026-10 hash was not remeasured; no legal copyright guarantee.",
+    "reviewed_artwork_sha256": "4f70e1cd96fc645f8d7f1ffb8cbcb98735b5d378478a903116d67ec2",
+    "reviewed_visitor_draft_sha256": "b5756671c4a2c9b28f2fd8eb8c7b2627d453bc0f0018afabc5926ca1",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met The Smokers 32.100.21, 1636, Adriaen Brouwer, not another same-painter smoking scene or different reproduction."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Brouwer as central figure and expressive fleeting smoke stated by Met; portrait of painter with four colleagues from Anita Jansen's separate CODART research."
+      },
+      {
+        "area": "emotion",
+        "finding": "Original primary 喜び2/secondary 好奇心1 maintained only as possible viewer search connections, never artist's psychological assessment or promotion of smoking."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Independent concise Japanese text draws on verified specifics of each source, avoiding translated copying and omitting unsupported personal stories."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "4f70e1cd96fc645f8d7f1ffb8cbcb98735b5d378478a903116d67ec2",
+    "visitor_draft_sha256": "b5756671c4a2c9b28f2fd8eb8c7b2627d453bc0f0018afabc5926ca1",
+    "proposal_sha256": "19fa462c28b25ab7f95a740e49fdcfc733948f469542d1970c18b506",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS rechecked target record/content hashes and 300 unique IDs; formal GitHub Actions Python verification and catalog snapshot pending PR."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435807.json",
+    "sha256": "19fa462c28b25ab7f95a740e49fdcfc733948f469542d1970c18b506",
+    "proposed_artwork_sha256": "4f70e1cd96fc645f8d7f1ffb8cbcb98735b5d378478a903116d67ec2",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met The Smokers marked Public Domain and source image under Open Access.",
+      "Japanese summary is original short prose with attribution, not a copied or lengthy translated Met/CODART article."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material rights blocker for this image reference and independently written summary; no legal non-infringement guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Official object source and separate CODART expert interpretation checked; not a third-party review by a different AI.",
+    "Historical October 2026 image byte SHA/HTTP200 evidence reused; never represented as freshly downloaded.",
+    "Original 299 unrelated artwork records remain unchanged."
+  ]
+}
