@@ -1,0 +1,139 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-438779",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "5e96c7304c4e6da728bb85d11800d2de414cbf66",
+    "artwork_record_sha256": "33555683db5bf9240100b3619411bd192f4a6633fcaa22689bf7e463da7b24bf",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-438779.json",
+    "draft_sha256": "cd24476fcf5c27a680a8c222e5ee19e071bf0000873d0c64c89f29a2063d4c71"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/438779",
+      "access": "page_read_twice",
+      "locations": [
+        "Met A Peasant Family, attributed to Antoine Le Nain, ca. 1640–48, oil on copper, object 2023.605, 38.1×29.8 cm. The museum describes sensitive portrayal of rural lives without ridicule, historical attributions to both Antoine and Louis, and mid-19th-century realist revival."
+      ],
+      "observed": "Read official Met object listing and separately opened page to cross-check object identity, artist qualifier, painting medium/dimensions, scholarly uncertainty and Japanese draft."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met public-domain Open Access imagery carries CC0 reuse, which is not a blanket license for its curatorial written prose."
+      ],
+      "observed": "Checked museum Open Access policies and the object's Public Domain designation."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-438779",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP131218.jpg",
+      "sha256": "7745ed2201663abdffc91f8da1b6b40f3310d8e3f5dc5d6b645e161363b6299c",
+      "byte_length": 3026416,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 official Met JPEG SHA and HTTP200 are historical evidence, not fresh byte checks."
+    },
+    {
+      "id": "met-438779",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP131218.jpg",
+      "sha256": "cb7f98e988cd97a474b2b6f041e578ff1e4eba715780bed50b43d4496c53031f",
+      "byte_length": 87651,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 official Met JPEG SHA and HTTP200 are historical evidence, not fresh byte checks."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compared the displayed museum-labelled image of A Peasant Family with registered Met work and historical original/display DP131218 identity; no fresh byte download of registered JPEG.",
+    "observed": "Met object 2023.605 displayed image depicts a group of children and adults in a dark interior, red-clothed young pipe player to the left, white-gowned girls center, seated older woman right. Compared with prior Met API primary-image filename DP131218 and registered accession; cropped available image does not prove detail of a cat, so cat reference removed."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Separate rereading of Met official object record, visible public image, historical registered image identity and revised Japanese visitor draft; checked the ambiguity in original description, attribution, material/dimensions, tags and rights.",
+    "limitations": "Same assistant conducted different passes; not a distinct AI or third-party. Previous 2026-10-20 JPEG byte measurement reused; no new JPEG download. Copyright assessment is not legal advice.",
+    "reviewed_artwork_sha256": "33555683db5bf9240100b3619411bd192f4a6633fcaa22689bf7e463da7b24bf",
+    "reviewed_visitor_draft_sha256": "cd24476fcf5c27a680a8c222e5ee19e071bf0000873d0c64c89f29a2063d4c71",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met oil on copper object 2023.605, title A Peasant Family, Antoine Le Nain attribution, ca. 1640–48 and original Met DP131218 are supported; image depicts rural family grouping with pipe player and girls."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met expressly notes attribution to both Antoine and Louis, Le Nain brothers' sensitive peasant scenes, and a 19th-century realist revaluation. No specific family biography or emotional state asserted."
+      },
+      {
+        "area": "emotion",
+        "finding": "Zero existing emotions maintained; household scene does not alone prove familial happiness or security."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Japanese prose rephrased from draft to avoid uncertain cat and ambiguous seating. Concise, original, source-bound account; not extended or literal translation of museum text."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "33555683db5bf9240100b3619411bd192f4a6633fcaa22689bf7e463da7b24bf",
+    "visitor_draft_sha256": "cd24476fcf5c27a680a8c222e5ee19e071bf0000873d0c64c89f29a2063d4c71",
+    "proposal_sha256": "2806523d9d4e78bbd012f693dc4ffb1d6e401640134799d5df99bc86673b7872",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS checked target identity, canonical record/draft/proposal hashes, unchanged other 299 works and historic image metadata. Final Python validator, catalog snapshot and completion guard await repository CI."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-438779.json",
+    "sha256": "2806523d9d4e78bbd012f693dc4ffb1d6e401640134799d5df99bc86673b7872",
+    "proposed_artwork_sha256": "33555683db5bf9240100b3619411bd192f4a6633fcaa22689bf7e463da7b24bf",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met marks A Peasant Family Public Domain with Open Access image reuse.",
+      "Short original Japanese explanation, attribution and description avoid long copying or close translation of Met's own prose."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material barrier to storing original Japanese explanation and referencing Met's public-domain art image; no legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Historical 2026-10-20 image download SHA and HTTP200 reused with their date, not new download.",
+    "Same AI on distinct source reread; not a different model/third party.",
+    "Original catalog curation/facts/emotions/images and remaining 299 works unchanged.",
+    "Modified original PR #3 visitor draft to remove potentially incorrect visible details; revised version checked against museum picture."
+  ]
+}
