@@ -1,0 +1,138 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437549",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "cd295c2753d5a2a036b76f01ccfee0e7a38a2453",
+    "artwork_record_sha256": "d0b14699148e629535b2c2247950755dd322f80d653e7e5a6599bbf0205ff562",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437549.json",
+    "draft_sha256": "fa93b50b5ef1378c7426a6e506e6bbaa41cb02c4b73afeb5c558be4acfe37303"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437549",
+      "access": "page_read_twice",
+      "locations": [
+        "Jacob van Ruisdael, ca.1670, accession 14.40.623; curatorial audio 5245 records cinematographer Gavin Finney's speculation about moving light on woman/child and curator Adam Eaker's interpretation of the sea view linking path to a larger world. The identities and connection among people remain unknown."
+      ],
+      "observed": "Relevant original museum text and ID were read and compared with the Japanese draft in two separate steps; access to actual JPEG image pixels is not claimed. Image catalog identification draws on previously verified official primaryImage mapping."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access policy/FAQ distinguishes public-domain artwork images and general rights."
+      ],
+      "observed": "Image public domain/Open Access claim verified; curatorial text copyright not assumed waived."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437549",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP145911.jpg",
+      "sha256": "2bfc95b0b39160712be721ed004a5dd77148ae30ae4f225d6eaa578b102c742b",
+      "byte_length": 3088085,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Official Met full JPEG historical SHA and HTTP200 recorded 2026-10-20; no current byte fetch."
+    },
+    {
+      "id": "met-437549",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145911.jpg",
+      "sha256": "eb8134b5fb9d1d60cde3618c34c9bb06d026496530b2decfa9f06fdd1b4c7fdb",
+      "byte_length": 84983,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Official Met display JPEG previously checked 2026-10-20; not current HTTP status."
+    }
+  ],
+  "visual_observations": {
+    "method": "Object ID and official museum collection page image labels matched to previously SHA-verified Met API primaryImage and registered JPEG URI. No fresh JPEG pixel retrieval was possible; historic identity evidence was reused.",
+    "observed": "Museum 14.40.623 is described as wheat fields beneath monumental cloud and landscape path with woman/child and man with bag; registered image identified historically via Met API primaryImage and October JPEG SHA. New image pixels were not downloaded/visually inspected this run."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Read original PR #3 Japanese draft, separately re-read primary museum overview and audio and compared all important factual assertions, qualification, ID, title, rights and associated image record. No separate model or human involved.",
+    "limitations": "No image pixels newly accessed or examined in this run; image linkage rests on archived official Met primaryImage mapping and historic full-JPEG validation. Same AI in a separate pass is not a third-party review, and copyright assessment is not a legal guarantee.",
+    "reviewed_artwork_sha256": "d0b14699148e629535b2c2247950755dd322f80d653e7e5a6599bbf0205ff562",
+    "reviewed_visitor_draft_sha256": "fa93b50b5ef1378c7426a6e506e6bbaa41cb02c4b73afeb5c558be4acfe37303",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Official Met Wheat Fields, Jacob van Ruisdael, ca. 1670, accession 14.40.623, collection Object ID 437549 and Public Domain label agree with indexed record."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Jacob van Ruisdael, ca.1670, accession 14.40.623; curatorial audio 5245 records cinematographer Gavin Finney's speculation about moving light on woman/child and curator Adam Eaker's interpretation of the sea view linking path to a larger world. The identities and connection among people remain unknown."
+      },
+      {
+        "area": "emotion",
+        "finding": "畏敬 primary 2 is a possible viewer's response to ordinary land dramatized by cloud/light; it is not a proven feeling of the painter."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Japanese draft has short independently worded exposition and qualified interpretations, no long translation of museum text; no legal noninfringement claim. Separate descriptive observations and the speakers' speculation; existing Japanese draft has no unsupported definite relationship."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "d0b14699148e629535b2c2247950755dd322f80d653e7e5a6599bbf0205ff562",
+    "visitor_draft_sha256": "fa93b50b5ef1378c7426a6e506e6bbaa41cb02c4b73afeb5c558be4acfe37303",
+    "proposal_sha256": "5f1628c6f4e34f1e2962a31120973c73932e44f3a387579ed853260473b9e867",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historic_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Canonical JS hash, unique record and source-reference checks here; real Python validator and GitHub Actions still required for integration."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437549.json",
+    "sha256": "5f1628c6f4e34f1e2962a31120973c73932e44f3a387579ed853260473b9e867",
+    "proposed_artwork_sha256": "d0b14699148e629535b2c2247950755dd322f80d653e7e5a6599bbf0205ff562",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met CC0 applies to identified Open Access images, not wholesale museum descriptive text.",
+      "Previously drafted Japanese prose expressed independently, without extensive copied original museum prose."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No material barrier identified for GitHub storage of own concise Japanese explanation and public-domain work metadata; does not guarantee publication permission for third-party text."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Separate descriptive observations and the speakers' speculation; existing Japanese draft has no unsupported definite relationship.",
+    "Historical HTTP200/SHA is from October 2026. Fresh image pixels were not obtainable in this review; do not represent as a new image visual check.",
+    "Same AI in separate pass, no independent model. Only this one catalog record changed."
+  ]
+}
