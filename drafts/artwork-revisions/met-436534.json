@@ -1,0 +1,52 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-436534",
+  "baseline_commit": "fa6c14db0179d750a4618c7c1f47312c38e6a208",
+  "baseline_artwork_sha256": "615bb045059a1b8adf97eb20569e046c9d5976cf78050a2ad81a1d4edb0a38bb",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "author_intent"
+      ],
+      "before": {
+        "status": "not_verified_for_this_work",
+        "summary": null,
+        "source_url": null
+      },
+      "after": {
+        "status": "direct_for_this_work",
+        "summary": "1890年5月13日に弟テオへ宛てた書簡で、黄緑色の背景と緑の花瓶にピンクのバラを描いた一枚の完成を記す。Metの2015年展覧会と書簡全集注釈はこの言及を本作《Roses》（1993.400.5）に結び付ける。ただし鑑賞者に特定の感情を抱かせる意図を述べたものではない。",
+        "source_url": "https://vangoghletters.org/vg/letters/let872/letter.html"
+      },
+      "reason": "Van Gogh Letters 872とMet2015展覧会が該当作品の制作・色彩についての直接証言を示す。",
+      "source_urls": [
+        "https://vangoghletters.org/vg/letters/let872/letter.html",
+        "https://www.metmuseum.org/exhibitions/listings/2015/van-gogh"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "before": "桃色の退色は経年による物質的変化であり、画家の心情と混同しない。Metによると本作は1939年にナチスに接収され、1950年に元の所有者の相続人へ返還されたが、これは制作後の来歴である。本作に対する作者自身の直接発言は確認できていない。",
+      "after": "1890年5月13日の本人のテオ宛書簡では、この作品に対応する配色と完成が述べられている。鑑賞者の感情をどう誘う意図だったかまでは述べない。バラの退色は絵具の経年変化で作者の心境と混同せず、1939年ナチスによる接収と1950年の返還は制作後の来歴として分ける。",
+      "reason": "『本作に対する作者自身の直接発言は未確認』との旧文を一次資料に基づき訂正。",
+      "source_urls": [
+        "https://vangoghletters.org/vg/letters/let872/letter.html",
+        "https://www.metmuseum.org/exhibitions/listings/2015/van-gogh",
+        "https://www.metmuseum.org/art/collection/search/436534"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-436534.json",
+  "visitor_draft_sha256": "ecf55a667c9118fb44684cde5a7557c33b98e6ee2b7c746a15257e84635f19ed",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "b81b038408834f4d49e8887bc26893c2ef0a3a82fbcaea1fe6259ce08181d875",
+  "explanation": "1890年5月13日のテオ宛書簡とMet2015展覧会から本作への作者本人の直接証言を確認。4作品の所蔵先が全部別の美術館であるかのような旧本文を修正し、2017年の色材分析と1939／1950年の来歴を照合。"
+}
