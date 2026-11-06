@@ -1,0 +1,138 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-438545",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "89e23671d1d43b181e5f81a2ed5fe6c736714c61",
+    "artwork_record_sha256": "81312eaae2a8bd6508dc0e4c2316c9479c58e0be5ccf4896882d3560e7bc857d",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-438545.json",
+    "draft_sha256": "ed29c25d2d79ba9bb7933622a9534e8eacba4794bf1a5e839cb19c27f9373f30"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/438545",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Jean Alaux, Léon Pallière in His Room at the Villa Medici, 1817, 2019.141.1: two Prix de Rome history painters, French Academy in Rome, guitar in artist's private room with drawings, plaster casts and books; the intimate portrayal testifies to their friendship."
+      ],
+      "observed": "Read Met object search source and separately opened the official art collection record; cross-checked identity, 1817, accession, depicted objects, curator interpretation and Japanese draft."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met public-domain Open Access imagery carries CC0 reuse, which is not a blanket license for its curatorial written prose."
+      ],
+      "observed": "Checked museum Open Access policies and the object's Public Domain designation."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-438545",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT235903.jpg",
+      "sha256": "f55313e2d5cc8104df83142a0ebda10c5e66459ed9799b971aa8728df41c5336",
+      "byte_length": 3153854,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Official Met JPEG complete SHA and HTTP200 are dated October 2026 historical measurements, not a fresh byte download this session."
+    },
+    {
+      "id": "met-438545",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT235903.jpg",
+      "sha256": "1f594fb9557dc31dfe5396ac599cb14724a18831bb3c14541d074b12beff71c6",
+      "byte_length": 123286,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Official Met JPEG complete SHA and HTTP200 are dated October 2026 historical measurements, not a fresh byte download this session."
+    }
+  ],
+  "visual_observations": {
+    "method": "Visual comparison of public official Met image search reproduction with the museum's artwork record and previously registered Met DT235903 image filename; past registered full JPEG SHA remains dated evidence, not freshly redownloaded.",
+    "observed": "Met official image shows one seated man holding a guitar near an open window, a bed behind him, studies and books by the window, and a cast against the walls; image source original DT235903 agrees with registered work 2019.141.1."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Source-focused rereading of current Met official record and visible original image after examining the stored PR #3 visitor draft; compared facts, visual cues, curatorial attributions, tag scope, rights and similarity.",
+    "limitations": "Same assistant conducted different passes; not a distinct AI or third-party. Previous 2026-10-20 JPEG byte measurement reused; no new JPEG download. Copyright assessment is not legal advice.",
+    "reviewed_artwork_sha256": "81312eaae2a8bd6508dc0e4c2316c9479c58e0be5ccf4896882d3560e7bc857d",
+    "reviewed_visitor_draft_sha256": "ed29c25d2d79ba9bb7933622a9534e8eacba4794bf1a5e839cb19c27f9373f30",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 2019.141.1, 1817, Jean Alaux, and official DT235903 artwork image match a guitarist in a studio-bedroom at Villa Medici."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met directly supports two Prix de Rome recipients, artist's sketches, plaster casts, books and the group of private-room portraits. Friendship is museum interpretation, not quoted artist psychology."
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing zero emotion tags kept; historical artists' friendship alone does not justify automatic joy, security or nostalgia tag."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Japanese visitor prose is short and independently phrased, summarizes supported object-specific facts with museum attribution without reproducing curator text verbatim or as a long literal translation."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "81312eaae2a8bd6508dc0e4c2316c9479c58e0be5ccf4896882d3560e7bc857d",
+    "visitor_draft_sha256": "ed29c25d2d79ba9bb7933622a9534e8eacba4794bf1a5e839cb19c27f9373f30",
+    "proposal_sha256": "03ca4ad3599966c739eda01f95ea5f6034a9d713f8eb2d218d0e8cd3c79bbd31",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS checked target identity, canonical record/draft/proposal hashes, unchanged other 299 works and historic image metadata. Final Python validator, catalog snapshot and completion guard await repository CI."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-438545.json",
+    "sha256": "03ca4ad3599966c739eda01f95ea5f6034a9d713f8eb2d218d0e8cd3c79bbd31",
+    "proposed_artwork_sha256": "81312eaae2a8bd6508dc0e4c2316c9479c58e0be5ccf4896882d3560e7bc857d",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met page marks the work Public Domain; registered Met image is described as Open Access.",
+      "Japanese visitor explanation uses independently composed limited prose, rather than wholesale quotation or a full translation of museum prose."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material barrier to storing original Japanese explanation and referencing Met's public-domain art image; no legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "2026-10-20 original and display JPEG SHA/HTTP200 reused as historical evidence; not freshly measured.",
+    "Same assistant reread sources in separate pass; not a separate model or third party.",
+    "No changes to image, original facts, curation, emotions or other 299 works."
+  ]
+}
