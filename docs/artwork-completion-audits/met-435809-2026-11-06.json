@@ -1,0 +1,141 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435809",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "505d4f7ea58beb1096e70d359faaa4a965a4dbd5",
+    "artwork_record_sha256": "eaec07fa185af8b86827c2310ffbfe0c45a04ea876d014510a0005a9269162d8",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435809.json",
+    "draft_sha256": "a9d402df625b6e14ee2e18be16359436088347d82c1fc56e1dbbbd4d0e466b17"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435809",
+      "access": "page_read_twice",
+      "locations": [
+        "Bruegel the Elder, The Harvesters, 1565, Met 19.164, oil on oak, PD",
+        "July or August: reaping wheat, resting and eating in shade, picking apples",
+        "Six painting season cycle for merchant's country dining room, idealized peasantry, stooping woman triangular like wheat"
+      ],
+      "observed": "公式所蔵ページOverview・Object Details・音声の原資料を初回確認後に別工程で再照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Public Domain and Open Access/CC0 digital images",
+        "Written museum scholarship has a separate rights analysis"
+      ],
+      "observed": "画像利用権と館の説明文の著作権を分けて検討。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435809",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP119115.jpg",
+      "status": 200,
+      "sha256": "3d2a611f7787bee1a38ba1e9976535ea5497c2e4a26cd52ae2142c5f74dc6a49",
+      "byte_length": 3030733,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の原JPEG全量SHA実測を再利用。今回新規取得していない。"
+    },
+    {
+      "id": "met-435809",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP119115.jpg",
+      "status": 200,
+      "sha256": "98dc6d6e23c008b23056108d04d9143b8c7f73fe6fa2a940fd09663290135e25",
+      "byte_length": 116819,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の表示JPEG全量SHA実測を再利用。今回新規取得していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品図版と同作品の既存画像台帳のIDを照合。全JPEGバイト検査は過去記録を継承。",
+    "observed": "黄金色の麦畑、刈り取り労働、木陰の食事と休息、奥の村と丘。麦を束ねる女性の三角形の姿が麦と呼応する。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初回DBと日本語解説の照合後、別パスでMetの原文と所蔵情報・画面・著作権条件を再参照し、文言と感情の根拠を独立して再検討。",
+    "limitations": "同じAIの別工程であり別AI・第三者審査ではない。画像全量SHAは旧証拠の再利用。",
+    "reviewed_artwork_sha256": "eaec07fa185af8b86827c2310ffbfe0c45a04ea876d014510a0005a9269162d8",
+    "reviewed_visitor_draft_sha256": "a9d402df625b6e14ee2e18be16359436088347d82c1fc56e1dbbbd4d0e466b17",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Bruegel the Elder、1565年、Met 19.164、樫板油彩の同定を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "夏の収穫、6枚の季節連作、裕福な注文主、実生活を理想化した表現をMet公式原文と照合。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『安心』2と補助『喜び』1は画中の休息と豊穣への入口。農民の現実の生活が安楽だった証明ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存5段落の日本語は原文を独自に再構成し、逐語翻訳や長文引用にはしない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "eaec07fa185af8b86827c2310ffbfe0c45a04ea876d014510a0005a9269162d8",
+    "visitor_draft_sha256": "a9d402df625b6e14ee2e18be16359436088347d82c1fc56e1dbbbd4d0e466b17",
+    "proposal_sha256": "1471de7e32ef999444a696ea8df1b0adb07ae1905ff7a1ff69160cf07e79ba23",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_hash",
+      "historical_image_hashes_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "書込前JSで300のID・対象外不変・正規化SHA・本文一致を照合。PythonプログラムとCIはPR作成後に実施。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435809.json",
+    "sha256": "1471de7e32ef999444a696ea8df1b0adb07ae1905ff7a1ff69160cf07e79ba23",
+    "proposed_artwork_sha256": "eaec07fa185af8b86827c2310ffbfe0c45a04ea876d014510a0005a9269162d8",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met individual artwork Public Domain",
+      "OA/CC0 image availability",
+      "Museum prose copyright separately considered"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "画像のPublic Domain/CC0と公式英文を分離。日本語は独自の構成で長文逐語転載なし。法的な許諾保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "本文の『7月から8月にかけて』は公式の『7月か8月』と厳密に同じでないため、次回本文の自然な明確化は検討可。",
+    "既存本文・事実・感情・画像は変更しない。CIとmain統合後に完成数へ算入。"
+  ]
+}
