@@ -1,0 +1,140 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-74984",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "497b5da0d0fc9cb078ce4c49f749a2b774b7aa1f",
+    "artwork_record_sha256": "b4e0c92bb5618f364121e2ce263fa4a2600f605d96d3a4839f7ed16116a31e17",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-74984.json",
+    "draft_sha256": "8c5a61196bc9834cfc2e5e4e571badd1cd6bf2e94742ea92bcea3840b78a7931"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/74984",
+      "access": "page_read_twice",
+      "locations": [
+        "Met55.121.38.9, Gujarat India, 15th-century Kalpasutra folio; ink, opaque watercolor, and gold on paper; Public Domain",
+        "Queen Trisala's reassurance from Mahavira's sign and joy reflected by makeup and a handheld mirror; her throne is explicitly a wicker stool",
+        "Cusped arch frames the palace; architecturally divided attendant figures indicate hierarchy. Paired related folio Met55.121.38.8 depicts distress and cessation of celebrations"
+      ],
+      "observed": "Met公式の個別作品概要と詳細を一次閲覧し、別の閲覧工程でも同じ公式原資料を再確認。対象作品番号と既存鑑賞本文を照合した。"
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/74983",
+      "access": "page_read_twice",
+      "locations": [
+        "Met55.121.38.8 is the paired manuscript folio Queen Trisala's Grief, not the Joy folio55.121.38.9",
+        "Trisala tells her handmaiden to stop festivities while distressed over fetal stillness"
+      ],
+      "observed": "同写本の別場面を個別作品ページで確認し、今回の『喜び』と背景を区別。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Public Domain and CC0 Open Access images for eligible collection objects",
+        "Museum curatorial prose copyright to be considered separately"
+      ],
+      "observed": "個別作品ページのPublic Domain表示とMetのOpen Access規約を参照し、画像と本文の権利を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-74984",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/55_121_38_9_d.JPG",
+      "sha256": "f94f5c73ba44b2e8aec091b7930930a769cc46c507768bba04bd504db6314b9f",
+      "byte_length": 92032,
+      "sha_checked_on": "2026-10-19",
+      "status": 200,
+      "matches_registered_bytes": true,
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19/20に公式画像を取得した旧全量JPEG SHA256とバイト数を再利用。今回のURLのHTTP200も過去の記録であり、新規接続・JPEG全バイト再測定ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met所蔵ページ・公開画像プレビュー／メタデータと、登録された画像ファイル名・所蔵番号・旧JPEG証拠を対応付けた。画像本体を今回新規に全量取得・全画素目視していない点は作品別observedに記録。",
+    "observed": "Met公式74984の所蔵作品原図『55_121_38_9_d.JPG』の公開プレビューで濃青の宮殿内、複数の人物を区切る装飾アーチ、王妃の手鏡・侍女を確認。別作品74983は『王妃の悲嘆』で、示された絵と登録番号55.121.38.9を区別。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Met公式作品説明・別版・別作との区別、画面と本文、感情索引、権利を一次確認と別の検索・閲覧工程で再照合。",
+    "limitations": "同じAIによる別工程で別AI・第三者審査ではない。2026-10-19/20旧JPEG SHA記録を再利用し、このセッションで登録原画像を再取得・全画素検査していない。非侵害の法的保証は行っていない。",
+    "reviewed_artwork_sha256": "b4e0c92bb5618f364121e2ce263fa4a2600f605d96d3a4839f7ed16116a31e17",
+    "reviewed_visitor_draft_sha256": "8c5a61196bc9834cfc2e5e4e571badd1cd6bf2e94742ea92bcea3840b78a7931",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met55.121.38.9、作者不詳、15世紀グジャラート、ジャイナ教『カルパスートラ』紙本墨・不透明水彩・金。対照作品74983と別番号で同定。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metによる無事を知らせるしるし・化粧・手鏡・籐の腰掛け・仕切られた空間の説明を確認。先行の同系写本作品74983には憂慮と祝い事の中止が描かれ、同一作品画像とは混同しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『喜び』3、補助『安心』1はMetが画中の王妃の喜びと安堵を明言し具体的な行為に結びつける。作者の心理診断ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落はMet74984と関連図74983の二つの公式説明を区別し、未確認の作者の言葉を創作せず、独自の日本語文体で説明している。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "b4e0c92bb5618f364121e2ce263fa4a2600f605d96d3a4839f7ed16116a31e17",
+    "visitor_draft_sha256": "8c5a61196bc9834cfc2e5e4e571badd1cd6bf2e94742ea92bcea3840b78a7931",
+    "proposal_sha256": "d6cca20c8d4b00b58714e81f77b035c4839ab174c1384fa2e4da0d22aa61a3d2",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_sha256",
+      "registered_image_metadata_and_old_shas_reused",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub保存前にJSでID一意性・下書き完全一致・対象外不変・構造・正規化SHA256を検査。正式Python形式検査とGitHub ActionsはPR作成後に確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-74984.json",
+    "sha256": "d6cca20c8d4b00b58714e81f77b035c4839ab174c1384fa2e4da0d22aa61a3d2",
+    "proposed_artwork_sha256": "b4e0c92bb5618f364121e2ce263fa4a2600f605d96d3a4839f7ed16116a31e17",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met individual object page labels the work Public Domain",
+      "CC0/Open Access for qualifying artwork images distinct from Museum copyrighted prose",
+      "Japanese visitor text reviewed for long verbatim translation or copying"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品画像のOA/CC0とMet公式英文の著作権を区別した。既存日本語は独自構成で長い逐語翻訳や説明文の転載に該当する明白な問題を発見せず。法的な個別非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "《トリシャラー王妃の喜び》：既存の鑑賞日本語本文3段落・事実・画像・検索感情・選定資料は不変更。",
+    "旧JPEG全量SHA・HTTPステータスは旧証拠の継承。今回新規画像取得やSHA再測定を行っていない。",
+    "PRのCI成功とmain統合までは完成数に加算しない。",
+    "同写本の『悲嘆』74983と『喜び』74984を分離して内容・画像を確認。74984は高解像度画像欄なしのため表示JPEGのみが登録対象。"
+  ]
+}
