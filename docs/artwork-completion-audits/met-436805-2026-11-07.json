@@ -1,0 +1,146 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436805",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "90fd8fdeb34be37529f4c2a445b7def9c955cbed",
+    "artwork_record_sha256": "9d5e96ba41da1a44b3cc471fbeaf5d9c384cad6bea9250acd8626768429d1350",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436805.json",
+    "draft_sha256": "05fe9609b4686f5114f2d684f46a8101584a43e3b863496ca055b269e8b7c794"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436805",
+      "access": "page_read_twice",
+      "locations": [
+        "Met The Still Life with Fruit, Glassware, and a Wanli Bowl, Willem Kalf 1659, oil on canvas, accession 53.111: Chinese imported porcelain bowl, Turkish carpet, wine and fruit, tilted bowl perched on bread and lemon peel; comment by later writer Gerard de Lairesse."
+      ],
+      "observed": "Read official object summary in search and opened current individual page, compared qualifier/objects/artist/title to the draft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Still_Life_with_Fruit,_Glassware,_and_a_Wanli_Bowl_MET_DP145932.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Commons file MET DP145932, donated by Met: object accession 53.111, 1659, original 3251×3697 matches Met JPEG register; CC0."
+      ],
+      "observed": "Met-donated named reproduction and accession/title/dimensions independently match registered image identity."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met's Public Domain and Open Access reuse applies to eligible images; it does not license copying authored curatorial explanation text."
+      ],
+      "observed": "Museum policy examined."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436805",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP145932.jpg",
+      "sha256": "03b2929026bd439a42fc70058e4079cd074f99a77e8b27a1f568a8c97b382342",
+      "byte_length": 2378865,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 historical Met official JPEG and HTTP200 evidence kept in repo, not a freshly measured hash or current HTTP status."
+    },
+    {
+      "id": "met-436805",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145932.jpg",
+      "sha256": "7008152a66555eb37a84fbf648832ba05835619ce13b994a382f344f271518d1",
+      "byte_length": 78207,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 historical Met official JPEG and HTTP200 evidence kept in repo, not a freshly measured hash or current HTTP status."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compare visible subject in original museum-labelled public reproduction against work-specific Met accession and image filename. Registered official JPEG SHA/HTTP200 are historical; no fresh byte inspection.",
+    "observed": "Official Met artwork 53.111 / corresponding Wikimedia MET DP145932 public image show an inclined blue-and-white bowl, citrus peel, glassware, carpet at left, dark background, consistent with registered Met original DP145932. Image originally identified by Met donation; registered JPEG was not newly downloaded."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Separate source-focused rereading of official Met collection page, image subject and historic registered image identity, independent of the PR #3 draft's first-pass notes; comparison of Japanese prose, source attribution, search tags and copyright scope.",
+    "limitations": "Same assistant in different passes, not a different AI or third-party expert. October 2026 JPEG byte measurements reused; not redownloaded. This copyright analysis is not legal advice or a warranty.",
+    "reviewed_artwork_sha256": "9d5e96ba41da1a44b3cc471fbeaf5d9c384cad6bea9250acd8626768429d1350",
+    "reviewed_visitor_draft_sha256": "05fe9609b4686f5114f2d684f46a8101584a43e3b863496ca055b269e8b7c794",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Official Met artwork 53.111 / corresponding Wikimedia MET DP145932 public image show an inclined blue-and-white bowl, citrus peel, glassware, carpet at left, dark background, consistent with registered Met original DP145932. Image originally identified by Met donation; registered JPEG was not newly downloaded."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "所蔵館は器・レモン皮・パンの配置を指摘する。Gerard de Lairesseによる後世の評言は画家本人の制作意図を証明しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存感情0タグを維持。貿易や高価な品物から画家の郷愁や感情は推定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "The prior Japanese text states key item-specific facts in original prose with relevant museum attributions, not copied or extensive literal translation; no substantive rewrite required."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "9d5e96ba41da1a44b3cc471fbeaf5d9c384cad6bea9250acd8626768429d1350",
+    "visitor_draft_sha256": "05fe9609b4686f5114f2d684f46a8101584a43e3b863496ca055b269e8b7c794",
+    "proposal_sha256": "f98c580741eff2ad622777309f081db1cd4bf98da14ab79b91ecd80a5695e8b7",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS locally checked canonical content hashes, unique IDs, scope and source URLs. Final repo Python validator, snapshot check, and draft check require GitHub Actions PASS."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436805.json",
+    "sha256": "f98c580741eff2ad622777309f081db1cd4bf98da14ab79b91ecd80a5695e8b7",
+    "proposed_artwork_sha256": "9d5e96ba41da1a44b3cc471fbeaf5d9c384cad6bea9250acd8626768429d1350",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met object labelled Public Domain with Met Open Access picture reuse.",
+      "Japanese draft is original concise explanation and does not copy museum-written curatorial prose verbatim."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material rights blocker to saving the original Japanese text or referencing the public-domain museum image. No legal non-infringement guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "2026-10-20 actual original and display JPEG SHA/HTTP200 reused as dated historic evidence; not presented as newly measured.",
+    "Source pass by same assistant, not separate model or third-party independence.",
+    "No changes to 299 other artwork records, or existing item facts, curation, emotion tags or picture URLs."
+  ]
+}
