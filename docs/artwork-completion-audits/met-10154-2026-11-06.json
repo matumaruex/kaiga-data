@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-10154",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "766cc09732de285099c91a39aeaa31fa12331e8f",
+    "artwork_record_sha256": "2eb726cf3092c247e45c75ef7840629da90a15e24ebe12a1f5bde7f45cfb7e43",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-10154.json",
+    "draft_sha256": "5cf4b53bf4efc8584f345f2be378cb10100491c6fb8a0660cf64c1049a1a3591"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/10154",
+      "access": "page_read_twice",
+      "locations": [
+        "Official Met object details 07.123, 1863, dimensions 186.7 × 306.7cm and introductory explanation: Lander expedition, Shoshone figures, Manifest Destiny."
+      ],
+      "observed": "Direct museum page (including native perspective or translated institutional version where applicable) opened in two separate passages on 2026-11-06; original manuscript draft and curatorial fields checked against matching object/accession. Not claim that individual registered JPEG bytes were downloaded."
+    },
+    {
+      "url": "https://www.metmuseum.org/perspectives/native-perspectives",
+      "access": "page_read_twice",
+      "locations": [
+        "Native Perspectives (2019), Kay WalkingStick on The Rocky Mountains, Lander's Peak: composite drawn from field studies/photos, neither literal specific place nor unmediated scene."
+      ],
+      "observed": "Direct museum page (including native perspective or translated institutional version where applicable) opened in two separate passages on 2026-11-06; original manuscript draft and curatorial fields checked against matching object/accession. Not claim that individual registered JPEG bytes were downloaded."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met policy: CC0/Open Access official public-domain imagery; separate copyright in authored museum research texts."
+      ],
+      "observed": "Met image/data FAQ read; image rights and translated/English museum-authored narrative rights kept separate."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-10154",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DT82.jpg",
+      "sha256": "b0159f218c5363e2e6108eb01dde44cf96b10c3e25dc4b431d7d335daf942a2e",
+      "byte_length": 1672585,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Official Met JPEG full SHA and bytes measured 2026-10-20 by historical GitHub Actions. Neither bytes nor current HTTP status were remeasured in current session."
+    },
+    {
+      "id": "met-10154",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT82.jpg",
+      "sha256": "ac37c808a5d9924bb72cc6e77ba2b7ded8a46177d85bd04d2ad58bfc981a5d37",
+      "byte_length": 63686,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met registered display JPEG prior Oct 2026 hash, byte length and HTTP200 reused, not freshly downloaded."
+    }
+  ],
+  "visual_observations": {
+    "method": "Met official collection object page with accession and its artwork image, separate public visual reference, historical Met primaryImage/imageSmall registry fingerprints; no new full JPEG-byte retrieval.",
+    "observed": "A grand snowy mountain massif under pale blue sky, central waterfall, lake, and small Shoshone tipi encampment with people and horses across the green foreground. Official Met reproduction and independent reference image agree with registered Met object ID 10154/DT82, but not a new byte-for-byte check of the registered JPEG."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "The original PR #3 Japanese visitor draft was inspected first, then museum official page and distinct scholarly interpretation were revisited as a separate review pass to test object identity, uncertainty, use of emotional labels, evidence and prose similarity.",
+    "limitations": "This is the same AI working in separate review phases, not a second AI/person. Historical Met original/display JPEG SHA256 and original HTTP200 inherited from Oct 2026 records, not measured afresh in this turn. Image identity supported by official object ID, accession, matching Met primaryImage filename and artwork reproductions; visual match to actual registered byte copy not newly established. Met PD CC0 image and institution-authored publication text have different rights.",
+    "reviewed_artwork_sha256": "2eb726cf3092c247e45c75ef7840629da90a15e24ebe12a1f5bde7f45cfb7e43",
+    "reviewed_visitor_draft_sha256": "5cf4b53bf4efc8584f345f2be378cb10100491c6fb8a0660cf64c1049a1a3591",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "The Met object 10154, accession 07.123, Albert Bierstadt, 1863, oil on canvas 186.7 × 306.7 cm. He accompanied Frederick W. Lander's government expedition in 1859 and finished the composition in New York."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "The museum identifies a Shoshone camp and Manifest Destiny ideology in the romanticized western landscape. Cherokee artist Kay WalkingStick specifically describes the painting as a constructed composite of drawings, photographs and oil studies rather than a documentary depiction of one locality."
+      },
+      {
+        "area": "emotion",
+        "finding": "畏敬 primary3 is tied to enormous luminous mountains, waterfall and small encampment as a viewer's valid entry, not evidence of Bierstadt's personal awe; the ideology of dispossession is kept visible as an alternative historical reading."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "PR #3 Japanese explanation describes 1859 Wind River field studies, 1863 New York composite, Kay WalkingStick's later reading, Shoshone presence, and the Met's Manifest Destiny interpretation. It clearly attributes contemporaneous and retrospective claims; no historical author quotation is fabricated. Rights: no major close/extended reproduction of copyrighted Met prose was identified in the brief original Japanese explanation."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "2eb726cf3092c247e45c75ef7840629da90a15e24ebe12a1f5bde7f45cfb7e43",
+    "visitor_draft_sha256": "5cf4b53bf4efc8584f345f2be378cb10100491c6fb8a0660cf64c1049a1a3591",
+    "proposal_sha256": "ec56453f576b21d857f13137cc20c5da7b17da2230f6914b64f2f3831467675f",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "registered_old_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JavaScript checked unique IDs, SHA-bound reviewed text/revision and unchanged other records. The repository Python scripts and v2 completion guard are only confirmed after GitHub Actions CI, not represented as executed by JS."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-10154.json",
+    "sha256": "ec56453f576b21d857f13137cc20c5da7b17da2230f6914b64f2f3831467675f",
+    "proposed_artwork_sha256": "2eb726cf3092c247e45c75ef7840629da90a15e24ebe12a1f5bde7f45cfb7e43",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Public Domain/CC0 designation from official Met object and collection image FAQ, distinct from scholarly/curator text copyright.",
+      "Japanese visitor draft reviewed for substantial close copying; not a legal warranty."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material obstacle to GitHub DB registration based on official Met Public Domain/Open Access image and independently phrased Japanese explanation. This does not certify legal reuse of any protected museum text in other publications."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Reviewed independently by a separate source-check stage of same AI (not second model): ロッキー山脈、ランダーズ・ピーク.",
+    "PR #3 Japanese explanation describes 1859 Wind River field studies, 1863 New York composite, Kay WalkingStick's later reading, Shoshone presence, and the Met's Manifest Destiny interpretation. It clearly attributes contemporaneous and retrospective claims; no historical author quotation is fabricated.",
+    "畏敬 primary3 is tied to enormous luminous mountains, waterfall and small encampment as a viewer's valid entry, not evidence of Bierstadt's personal awe; the ideology of dispossession is kept visible as an alternative historical reading.",
+    "Historical image hashes and HTTP200 status reused; no newly obtained full registered image files."
+  ]
+}

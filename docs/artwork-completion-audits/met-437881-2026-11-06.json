@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437881",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "766cc09732de285099c91a39aeaa31fa12331e8f",
+    "artwork_record_sha256": "b56327ed73d16e109f7d6d284ddcff18fbbbc824dfb69de6cf8c73173113334e",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437881.json",
+    "draft_sha256": "628371d365ea9468113398f73f01ff703423b9e32444d86fcf06807c8b4d6763"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437881",
+      "access": "page_read_twice",
+      "locations": [
+        "Met page 89.15.21, current English overview: morning ablutions, gilt silver pitcher/basin; curator audio #5238 Adam Eaker on light and optical perception and linen translucency."
+      ],
+      "observed": "Direct museum page (including native perspective or translated institutional version where applicable) opened in two separate passages on 2026-11-06; original manuscript draft and curatorial fields checked against matching object/accession. Not claim that individual registered JPEG bytes were downloaded."
+    },
+    {
+      "url": "https://www.metmuseum.org/ja/art/collection/search/437881",
+      "access": "page_read_twice",
+      "locations": [
+        "Met official Japanese page confirms c.1662 painting, 1887–1919 US transfer context, purity symbolism and collection ownership in 1889; distinguishes arrival from museum gift."
+      ],
+      "observed": "Direct museum page (including native perspective or translated institutional version where applicable) opened in two separate passages on 2026-11-06; original manuscript draft and curatorial fields checked against matching object/accession. Not claim that individual registered JPEG bytes were downloaded."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met policy: CC0/Open Access official public-domain imagery; separate copyright in authored museum research texts."
+      ],
+      "observed": "Met image/data FAQ read; image rights and translated/English museum-authored narrative rights kept separate."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437881",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP353257.jpg",
+      "sha256": "d14901b9c2124bd767cc1a4ca6286092eeedc3067a627449bd94869489bcefce",
+      "byte_length": 2638182,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Official Met JPEG full SHA and bytes measured 2026-10-20 by historical GitHub Actions. Neither bytes nor current HTTP status were remeasured in current session."
+    },
+    {
+      "id": "met-437881",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP353257.jpg",
+      "sha256": "13120aa067755f1f50d2b900417807ef9da3f8b2b63a1bbea428fe3f2d8d00a9",
+      "byte_length": 82797,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met registered display JPEG prior Oct 2026 hash, byte length and HTTP200 reused, not freshly downloaded."
+    }
+  ],
+  "visual_observations": {
+    "method": "Met official collection object page with accession and its artwork image, separate public visual reference, historical Met primaryImage/imageSmall registry fingerprints; no new full JPEG-byte retrieval.",
+    "observed": "Woman in pale linen head covering and dark blue bodice by open leaded-glass window, extending left hand to open frame; water pitcher and silver basin sit on red patterned tablecloth, map on upper-right wall. The Met official image and independent public gallery reproduction agree with object 437881 / DP353257; registered original JPG and downscaled file not downloaded again."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "The original PR #3 Japanese visitor draft was inspected first, then museum official page and distinct scholarly interpretation were revisited as a separate review pass to test object identity, uncertainty, use of emotional labels, evidence and prose similarity.",
+    "limitations": "This is the same AI working in separate review phases, not a second AI/person. Historical Met original/display JPEG SHA256 and original HTTP200 inherited from Oct 2026 records, not measured afresh in this turn. Image identity supported by official object ID, accession, matching Met primaryImage filename and artwork reproductions; visual match to actual registered byte copy not newly established. Met PD CC0 image and institution-authored publication text have different rights.",
+    "reviewed_artwork_sha256": "b56327ed73d16e109f7d6d284ddcff18fbbbc824dfb69de6cf8c73173113334e",
+    "reviewed_visitor_draft_sha256": "628371d365ea9468113398f73f01ff703423b9e32444d86fcf06807c8b4d6763",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met object 437881 accession 89.15.21, Johannes Vermeer ca.1662, 45.7 × 40.6 cm oil on canvas. Museum acquired by Marquand gift in 1889; Met Japanese overview states one of first 13 Vermeer pictures to arrive in USA 1887–1919, not 1889 arrival."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met English overview presents early morning wash at open window, silver-gilt pitcher and basin, protective linen. Its curator Adam Eaker describes Vermeer's deliberate play of light and perceptual effects; current Met Japanese account also notes ceremonial purity symbolism of basin/pitcher and entry to America from 1887. Distinguish symbolic art-historical reading from creator's direct statement."
+      },
+      {
+        "area": "emotion",
+        "finding": "Zero tags remains valid: domestic stillness and beauty of light by themselves do not prove 安心. Existing caution explicitly says not to assign emotion from calm alone."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "PR #3 two paragraphs match the Met official collection overview and curator Adam Eaker's audio transcript: linen head/shoulder covering, washbasin and pitcher, and interplay of light among silver, fabric and shadows. No claim of the sitter's feelings nor unverifiable artist quotation. Rights: no major close/extended reproduction of copyrighted Met prose was identified in the brief original Japanese explanation."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "b56327ed73d16e109f7d6d284ddcff18fbbbc824dfb69de6cf8c73173113334e",
+    "visitor_draft_sha256": "628371d365ea9468113398f73f01ff703423b9e32444d86fcf06807c8b4d6763",
+    "proposal_sha256": "19c248a1ba1c3ab7389836abf9b5b808b78d8d0e5f5a1af1ed321f90a8d01da4",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "registered_old_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JavaScript checked unique IDs, SHA-bound reviewed text/revision and unchanged other records. The repository Python scripts and v2 completion guard are only confirmed after GitHub Actions CI, not represented as executed by JS."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437881.json",
+    "sha256": "19c248a1ba1c3ab7389836abf9b5b808b78d8d0e5f5a1af1ed321f90a8d01da4",
+    "proposed_artwork_sha256": "b56327ed73d16e109f7d6d284ddcff18fbbbc824dfb69de6cf8c73173113334e",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Public Domain/CC0 designation from official Met object and collection image FAQ, distinct from scholarly/curator text copyright.",
+      "Japanese visitor draft reviewed for substantial close copying; not a legal warranty."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material obstacle to GitHub DB registration based on official Met Public Domain/Open Access image and independently phrased Japanese explanation. This does not certify legal reuse of any protected museum text in other publications."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Reviewed independently by a separate source-check stage of same AI (not second model): 水差しを持つ女.",
+    "PR #3 two paragraphs match the Met official collection overview and curator Adam Eaker's audio transcript: linen head/shoulder covering, washbasin and pitcher, and interplay of light among silver, fabric and shadows. No claim of the sitter's feelings nor unverifiable artist quotation.",
+    "Zero tags remains valid: domestic stillness and beauty of light by themselves do not prove 安心. Existing caution explicitly says not to assign emotion from calm alone.",
+    "Historical image hashes and HTTP200 status reused; no newly obtained full registered image files."
+  ]
+}

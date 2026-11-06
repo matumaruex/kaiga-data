@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-10159",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "766cc09732de285099c91a39aeaa31fa12331e8f",
+    "artwork_record_sha256": "e117454854cdc6f1784fdf0ed86649093cc5c97ce1fb38882b5271fb69e7f5d4",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-10159.json",
+    "draft_sha256": "26e19e278b074a6ff754315463e381a7b8291601c8a006da871dadaf81d12849"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/10159",
+      "access": "page_read_twice",
+      "locations": [
+        "Met object 33.61 and current curatorial overview identifies original title, renaming by American Art-Union, serene light and frontier idealization."
+      ],
+      "observed": "Direct museum page (including native perspective or translated institutional version where applicable) opened in two separate passages on 2026-11-06; original manuscript draft and curatorial fields checked against matching object/accession. Not claim that individual registered JPEG bytes were downloaded."
+    },
+    {
+      "url": "https://www.metmuseum.org/perspectives/native-perspectives",
+      "access": "page_read_twice",
+      "locations": [
+        "Native Perspectives, Scott Manning Stevens on Fur Traders Descending the Missouri: kinship, obligations of reciprocity and alteration of racialized original title."
+      ],
+      "observed": "Direct museum page (including native perspective or translated institutional version where applicable) opened in two separate passages on 2026-11-06; original manuscript draft and curatorial fields checked against matching object/accession. Not claim that individual registered JPEG bytes were downloaded."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met policy: CC0/Open Access official public-domain imagery; separate copyright in authored museum research texts."
+      ],
+      "observed": "Met image/data FAQ read; image rights and translated/English museum-authored narrative rights kept separate."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-10159",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DT73.jpg",
+      "sha256": "dd4dcecfcfd9e3bae55abda6a2d1ebf2ba9e45395b700014d3438f1e388db54f",
+      "byte_length": 2695261,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Official Met JPEG full SHA and bytes measured 2026-10-20 by historical GitHub Actions. Neither bytes nor current HTTP status were remeasured in current session."
+    },
+    {
+      "id": "met-10159",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT73.jpg",
+      "sha256": "96a4ded6f2f5cd6a3b46263d7b99d05ba07a7c2d4be4938af595c906ceb39ab2",
+      "byte_length": 62716,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met registered display JPEG prior Oct 2026 hash, byte length and HTTP200 reused, not freshly downloaded."
+    }
+  ],
+  "visual_observations": {
+    "method": "Met official collection object page with accession and its artwork image, separate public visual reference, historical Met primaryImage/imageSmall registry fingerprints; no new full JPEG-byte retrieval.",
+    "observed": "Two people aboard a long, low canoe crossing calm mirrored river in misty golden light; one person leans near large goods and other handles a pole, with dark animal at far left and wooded bank behind. Met original object 10159 and external reproduction visibly align to image DT73; exact previously registered JPEG was not fetched now."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "The original PR #3 Japanese visitor draft was inspected first, then museum official page and distinct scholarly interpretation were revisited as a separate review pass to test object identity, uncertainty, use of emotional labels, evidence and prose similarity.",
+    "limitations": "This is the same AI working in separate review phases, not a second AI/person. Historical Met original/display JPEG SHA256 and original HTTP200 inherited from Oct 2026 records, not measured afresh in this turn. Image identity supported by official object ID, accession, matching Met primaryImage filename and artwork reproductions; visual match to actual registered byte copy not newly established. Met PD CC0 image and institution-authored publication text have different rights.",
+    "reviewed_artwork_sha256": "e117454854cdc6f1784fdf0ed86649093cc5c97ce1fb38882b5271fb69e7f5d4",
+    "reviewed_visitor_draft_sha256": "26e19e278b074a6ff754315463e381a7b8291601c8a006da871dadaf81d12849",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met object 10159, accession 33.61, George Caleb Bingham, 1845, oil on canvas 73.7 × 92.7 cm. The American Art-Union changed the artist's original historically racialized father-son title to Fur Traders Descending the Missouri."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met official introduction calls the unusually calm luminous frontier an idealization aimed at eastern viewers. Mohawk scholar Scott Manning Stevens contextualizes the original father-son reference with historical marriages between French traders and Indigenous women that created trade networks and duties of reciprocity, not a demonstrated genealogy for any particular living model."
+      },
+      {
+        "area": "emotion",
+        "finding": "No primary or secondary emotion tags. Peaceful river atmosphere alone is insufficient grounds to invent 安心 or 懐かしさ; keep emotion tag arrays empty and historical explanation intact."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "PR #3 Japanese explanation identifies original artist title with historically discriminatory vocabulary, 1845 Art-Union title alteration, Scott Manning Stevens's explanation of intermarriage/trade obligations, and interpretation of east-coast romanticized frontier. Distinctions are consistently attributed; no direct psychological assertion. Rights: no major close/extended reproduction of copyrighted Met prose was identified in the brief original Japanese explanation."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "e117454854cdc6f1784fdf0ed86649093cc5c97ce1fb38882b5271fb69e7f5d4",
+    "visitor_draft_sha256": "26e19e278b074a6ff754315463e381a7b8291601c8a006da871dadaf81d12849",
+    "proposal_sha256": "269fdaa73cde517a62e6047bf717b14869ed9e5f59b460b0f6c6ff466c5b3333",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "registered_old_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JavaScript checked unique IDs, SHA-bound reviewed text/revision and unchanged other records. The repository Python scripts and v2 completion guard are only confirmed after GitHub Actions CI, not represented as executed by JS."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-10159.json",
+    "sha256": "269fdaa73cde517a62e6047bf717b14869ed9e5f59b460b0f6c6ff466c5b3333",
+    "proposed_artwork_sha256": "e117454854cdc6f1784fdf0ed86649093cc5c97ce1fb38882b5271fb69e7f5d4",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Public Domain/CC0 designation from official Met object and collection image FAQ, distinct from scholarly/curator text copyright.",
+      "Japanese visitor draft reviewed for substantial close copying; not a legal warranty."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material obstacle to GitHub DB registration based on official Met Public Domain/Open Access image and independently phrased Japanese explanation. This does not certify legal reuse of any protected museum text in other publications."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Reviewed independently by a separate source-check stage of same AI (not second model): ミズーリ川を下る毛皮商人.",
+    "PR #3 Japanese explanation identifies original artist title with historically discriminatory vocabulary, 1845 Art-Union title alteration, Scott Manning Stevens's explanation of intermarriage/trade obligations, and interpretation of east-coast romanticized frontier. Distinctions are consistently attributed; no direct psychological assertion.",
+    "No primary or secondary emotion tags. Peaceful river atmosphere alone is insufficient grounds to invent 安心 or 懐かしさ; keep emotion tag arrays empty and historical explanation intact.",
+    "Historical image hashes and HTTP200 status reused; no newly obtained full registered image files."
+  ]
+}
