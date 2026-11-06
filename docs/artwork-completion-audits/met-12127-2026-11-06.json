@@ -1,0 +1,141 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-12127",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "505d4f7ea58beb1096e70d359faaa4a965a4dbd5",
+    "artwork_record_sha256": "3d3f89aef3a2758283e565aeb8d61ffe7c24d68e88ede625b9a55875fc3f1802",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-12127.json",
+    "draft_sha256": "62270e5f7757fc24110a1c663644e064efe07c81ebb667d0e68d27b7fcc974ef"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/12127",
+      "access": "page_read_twice",
+      "locations": [
+        "Sargent, Madame X, 1883–84, Met 16.53, PD",
+        "Uncommissioned portrait and hostile Salon 1884 response to the gown",
+        "Strap originally slipping, painted up later; Sargent's 1916 sale and sitter anonymity request"
+      ],
+      "observed": "公式所蔵ページOverview・Object Details・音声の原資料を初回確認後に別工程で再照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Public Domain and Open Access/CC0 digital images",
+        "Written museum scholarship has a separate rights analysis"
+      ],
+      "observed": "画像利用権と館の説明文の著作権を分けて検討。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-12127",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-29006-001.jpg",
+      "status": 200,
+      "sha256": "ecab5a2ec286266f190149823b54cbbfb591f8fad7066c1ab86ef21f94fb9aeb",
+      "byte_length": 1574173,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の原JPEG全量SHA実測を再利用。今回新規取得していない。"
+    },
+    {
+      "id": "met-12127",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-29006-001.jpg",
+      "status": 200,
+      "sha256": "7f0d41b1840f760132821ff644d500d5caa658e81a0103216346ee46da0050ea",
+      "byte_length": 44380,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の表示JPEG全量SHA実測を再利用。今回新規取得していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品図版と同作品の既存画像台帳のIDを照合。全JPEGバイト検査は過去記録を継承。",
+    "observed": "暗色の背景、黒いドレス、白い肌、向きを変えた横顔。現状画像の右肩ひもは肩上にあり、1884年出品時の元の状態ではない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初回DBと日本語解説の照合後、別パスでMetの原文と所蔵情報・画面・著作権条件を再参照し、文言と感情の根拠を独立して再検討。",
+    "limitations": "同じAIの別工程であり別AI・第三者審査ではない。画像全量SHAは旧証拠の再利用。",
+    "reviewed_artwork_sha256": "3d3f89aef3a2758283e565aeb8d61ffe7c24d68e88ede625b9a55875fc3f1802",
+    "reviewed_visitor_draft_sha256": "62270e5f7757fc24110a1c663644e064efe07c81ebb667d0e68d27b7fcc974ef",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "John Singer Sargent, 1883–84, Met 16.53と作品画像を照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "未注文の肖像制作と1884年サロンの騒動、肩ひもの後修正、1916年の作者の高評価を年代別に確認。"
+      },
+      {
+        "area": "emotion",
+        "finding": "補助『不安』1は周囲の評判との衝突が弱い関連。女性モデルの心理を断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "鑑賞者向け既存3段落は独自日本語で原文と整合し長文の逐語訳ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "3d3f89aef3a2758283e565aeb8d61ffe7c24d68e88ede625b9a55875fc3f1802",
+    "visitor_draft_sha256": "62270e5f7757fc24110a1c663644e064efe07c81ebb667d0e68d27b7fcc974ef",
+    "proposal_sha256": "4c3c4f3aaa1ab25e259661d25c75203c1242523df806b45bf079aab3f9dad56f",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_hash",
+      "historical_image_hashes_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "書込前JSで300のID・対象外不変・正規化SHA・本文一致を照合。PythonプログラムとCIはPR作成後に実施。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-12127.json",
+    "sha256": "4c3c4f3aaa1ab25e259661d25c75203c1242523df806b45bf079aab3f9dad56f",
+    "proposed_artwork_sha256": "3d3f89aef3a2758283e565aeb8d61ffe7c24d68e88ede625b9a55875fc3f1802",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met individual artwork Public Domain",
+      "OA/CC0 image availability",
+      "Museum prose copyright separately considered"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "画像のPublic Domain/CC0と公式英文を分離。日本語は独自の構成で長文逐語転載なし。法的な許諾保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "モデルの当時の不安・恥を断定せず、画家の後年の評価を当初の意図に転用しない。",
+    "既存本文・事実・感情・画像は変更しない。CIとmain統合後に完成数へ算入。"
+  ]
+}

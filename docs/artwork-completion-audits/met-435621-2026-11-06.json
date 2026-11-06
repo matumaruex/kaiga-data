@@ -1,0 +1,141 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435621",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "505d4f7ea58beb1096e70d359faaa4a965a4dbd5",
+    "artwork_record_sha256": "340c4719ab45a4989f6c13859308894b0d2b220c28b3807f270d60ccb8fa1779",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435621.json",
+    "draft_sha256": "38afb43e8b51456ba1a78f16b64f543e9f0659dda297b7231c4d1237a27f111d"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435621",
+      "access": "page_read_twice",
+      "locations": [
+        "Jules Bastien-Lepage, Joan of Arc, 1879, Met 89.21.1, PD",
+        "Saints Michael, Catherine, Margaret at left, Lorriane after Franco-Prussian War",
+        "Audio 6014: author's letter, Joan's determined head and desire to leave home, Salon 1880 controversy"
+      ],
+      "observed": "公式所蔵ページOverview・Object Details・音声の原資料を初回確認後に別工程で再照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Public Domain and Open Access/CC0 digital images",
+        "Written museum scholarship has a separate rights analysis"
+      ],
+      "observed": "画像利用権と館の説明文の著作権を分けて検討。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435621",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-14201-049.jpg",
+      "status": 200,
+      "sha256": "f3449f53ed30246749d4cd59495747631ffe34de7eb17d43db67e87f53d52304",
+      "byte_length": 5857405,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の原JPEG全量SHA実測を再利用。今回新規取得していない。"
+    },
+    {
+      "id": "met-435621",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14201-049.jpg",
+      "status": 200,
+      "sha256": "f1ed331cc7b492262b9fd79c09f9abe12361a6056116fa50bdf78250e0337db2",
+      "byte_length": 197191,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19の表示JPEG全量SHA実測を再利用。今回新規取得していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品図版と同作品の既存画像台帳のIDを照合。全JPEGバイト検査は過去記録を継承。",
+    "observed": "庭に立って身を反らす少女、樹木と家屋、左奥に淡い三人の聖人。画中の幻視を史実の実在証拠にしない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初回DBと日本語解説の照合後、別パスでMetの原文と所蔵情報・画面・著作権条件を再参照し、文言と感情の根拠を独立して再検討。",
+    "limitations": "同じAIの別工程であり別AI・第三者審査ではない。画像全量SHAは旧証拠の再利用。",
+    "reviewed_artwork_sha256": "340c4719ab45a4989f6c13859308894b0d2b220c28b3807f270d60ccb8fa1779",
+    "reviewed_visitor_draft_sha256": "38afb43e8b51456ba1a78f16b64f543e9f0659dda297b7231c4d1237a27f111d",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 89.21.1、Jules Bastien-Lepage、1879年油彩を公式所蔵情報で確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "普仏戦争後のロレーヌ、三人の聖人、1880年サロンの賛否を確認。画家の手紙はMetの音声での引用であり原書簡を直接確認したものではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『希望』2、補助『不安』1は少女の決意と未来への不確かさとの関連であり、作者本人の心理を決めない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落は原資料の論点を独自に整理し、原英語の長文逐語訳・転載ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "340c4719ab45a4989f6c13859308894b0d2b220c28b3807f270d60ccb8fa1779",
+    "visitor_draft_sha256": "38afb43e8b51456ba1a78f16b64f543e9f0659dda297b7231c4d1237a27f111d",
+    "proposal_sha256": "775e71e8a214300e0ac043120aebc62ff326e182d0d7331a16405424742b3ade",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_hash",
+      "historical_image_hashes_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "書込前JSで300のID・対象外不変・正規化SHA・本文一致を照合。PythonプログラムとCIはPR作成後に実施。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435621.json",
+    "sha256": "775e71e8a214300e0ac043120aebc62ff326e182d0d7331a16405424742b3ade",
+    "proposed_artwork_sha256": "340c4719ab45a4989f6c13859308894b0d2b220c28b3807f270d60ccb8fa1779",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met individual artwork Public Domain",
+      "OA/CC0 image availability",
+      "Museum prose copyright separately considered"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "画像のPublic Domain/CC0と公式英文を分離。日本語は独自の構成で長文逐語転載なし。法的な許諾保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met音声が示す本人の書簡を原文独立照合済みと称さない。",
+    "既存本文・事実・感情・画像は変更しない。CIとmain統合後に完成数へ算入。"
+  ]
+}
