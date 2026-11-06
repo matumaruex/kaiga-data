@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437490",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "68c05f9de5be45a2cd7fbdc4579f1891c54bed9c",
+    "artwork_record_sha256": "2a3c389d243b45009a8ed6fcfe6ab1361f62004e22cfdb0919a2ab2646794c43",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437490.json",
+    "draft_sha256": "854456720dd4decb69f8e88bc91235e48ab27d744e702b8bf5502a321bef1f2e"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437490",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 17.190.7: Memling, The Annunciation, ca.1465–70, oil on wood, 186.1×114.9 cm. Ferry de Clugny probably commissioned; joined-keys arms on carpet/stained glass. 1465 Chapelle Dorée burial foundation. Rogier design and Memling's possible apprenticeship inferred from technical evidence; museum audio identifies intimate details such as a pillow."
+      ],
+      "observed": "Read and re-opened current Met object page; compared attributed artist, displayed date, accession, scholarly paragraph and Japanese visitor draft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:The_Annunciation_(17.190.7)_by_Hans_Memling",
+      "access": "page_read_once",
+      "locations": [
+        "Met image shows Gabriel at left, Mary at right in a tall room with red canopy, a window view and arms in the stained glass. Wikimedia category specifically labels DP240360 as 2425×3878 for Met inventory 17.190.7, distinct from Memling's other Annunciation with attending angels, Met 459055."
+      ],
+      "observed": "Compared identifiable Met-contributed public reproduction and collection/object metadata, distinct from fresh registered JPEG byte verification."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Public Domain and Open Access / CC0 descriptions refer to eligible artwork images, not automatically the authored curatorial text."
+      ],
+      "observed": "Read Met Open Access policy and separated imaging rights from museum-authored explanatory prose."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437490",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP240360.jpg",
+      "sha256": "4a5b21d087c1c827c792b89b0c37c689e1c72b0779cc1a3b8bea92a1de69a36a",
+      "byte_length": 2001949,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Existing official registered full JPEG HTTP200 and SHA256 dated 2026-10-20, no new download or byte comparison today."
+    },
+    {
+      "id": "met-437490",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP240360.jpg",
+      "sha256": "0c82c176da7b2e1d784fe145968eac34401eba6a2299e04994f0a24eed152acc",
+      "byte_length": 83468,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Existing registered web-large JPEG HTTP200 and SHA256 from 2026-10-20, not measured again today."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compared displayed work-specific museum figure and Met-donated Commons object mapping: title, accession, composition, original filename and historical pixel dimensions. Registered JPEG byte SHA is a separate prior test.",
+    "observed": "Met image shows Gabriel at left, Mary at right in a tall room with red canopy, a window view and arms in the stained glass. Wikimedia category specifically labels DP240360 as 2425×3878 for Met inventory 17.190.7, distinct from Memling's other Annunciation with attending angels, Met 459055."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Source-focused review of inherited PR #3 draft against the present official museum work page, same-work Commons image and usage policy; explicitly checked title/date/attribution, factual versus tentative claims, visual description, emotion entries and copying risk.",
+    "limitations": "Same AI performed a separate source-reading pass, not another agent or third-party review. Registered original JPEG bytes were not fetched in this session; historic Oct 2026 full-SHA evidence is separately labeled. No legal non-infringement guarantee.",
+    "reviewed_artwork_sha256": "2a3c389d243b45009a8ed6fcfe6ab1361f62004e22cfdb0919a2ab2646794c43",
+    "reviewed_visitor_draft_sha256": "854456720dd4decb69f8e88bc91235e48ab27d744e702b8bf5502a321bef1f2e",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 17.190.7, Hans Memling, ca.1465–70, large panel. Exact image filename DP240360, 2425×3878 and visible arrangement correspond to this Met object, not Memling 459055 with attending angels."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met says Ferry de Clugny probably commissioned this for Chapelle Dorée; heraldry supports connection but original site is not an established fact. Rogier's pre-1464 death refers to Rogier, not Ferry. Memling workshop participation remains an inference."
+      },
+      {
+        "area": "emotion",
+        "finding": "No emotions attached in old catalog. The religious scene or audio's somber reading does not establish mandatory feelings of the viewer or artist."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Inherited draft preserves possible commission, 1465 chapel founding, heraldic keys, Rogier design, large panel dimensions and modest domestic details. Met audio's psychological comment remains distinct from the objective provenance."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "2a3c389d243b45009a8ed6fcfe6ab1361f62004e22cfdb0919a2ab2646794c43",
+    "visitor_draft_sha256": "854456720dd4decb69f8e88bc91235e48ab27d744e702b8bf5502a321bef1f2e",
+    "proposal_sha256": "a3a2a5923be08f574c031709253fdb9eaf02b6a5d0cdd5ee86005781f2c993f8",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS checked SHA256 of canonical draft/proposal/target record, counted 300 unique records, preserved other 299, verified source URL and existing historical JPEG registry metadata. The repository's Python completion guard and full validators must PASS in GitHub Actions after the branch is pushed."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437490.json",
+    "sha256": "a3a2a5923be08f574c031709253fdb9eaf02b6a5d0cdd5ee86005781f2c993f8",
+    "proposed_artwork_sha256": "2a3c389d243b45009a8ed6fcfe6ab1361f62004e22cfdb0919a2ab2646794c43",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Object page explicitly says Public Domain and Met Open Access allows CC0 for eligible reproductions; curator-created text is not assumed to be CC0.",
+      "Japanese short visitor draft expresses sourced facts independently, without long quotation or line-by-line translation."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material rights problem in using this image and independently written brief museum-verified summary for dataset storage. This is not legal certification."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "メムリンク《受胎告知》（Met 17.190.7）：紋章による発注者推定、オータン礼拝堂、ロヒール・ファン・デル・ウェイデンとの技術的関連を照合。Met 459055の別《受胎告知》と取り違えない。",
+    "Original catalog facts, curation and emotions unaltered.",
+    "Registered JPEG HTTP200/SHA is past evidence dated 2026-10-20; this session did not remeasure it.",
+    "Same assistant's separate source-checking pass, not a different model or third-party expert."
+  ]
+}
