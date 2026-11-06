@@ -1,0 +1,146 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435619",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "7632b041ee9e9bc0cbb79899c0e7f872529a3a7c",
+    "artwork_record_sha256": "20be993af3a53b9220f33e2300b6ef0b4f587dbd8816a5b7d4235d7d89cbc2a8",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435619.json",
+    "draft_sha256": "4ad0913bd1b9bc3b423f42c55d62fd467ed57532e0beb9231a0a1168ee888e0d"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435619",
+      "access": "page_read_twice",
+      "locations": [
+        "Met The Betrayal of Christ, Bartolomeo di Tommaso, 58.87.1, ca.1445–50; predella panel; nude fleeing youth from Mark 14:51–52 interpreted as John or Mark."
+      ],
+      "observed": "The current Met work page and the existing checked draft's cited claim were separately consulted for title, accession, subject and qualification."
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435620",
+      "access": "page_read_twice",
+      "locations": [
+        "Met related 58.87.2, Lamentation over the Dead Christ and Christ's Entombment: corresponding predella with distinct subsequent Passion scenes."
+      ],
+      "observed": "Compared the companion Met panel's title/subject to the proposed Japanese explanatory text, preserving the two-panel distinction."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met open-access public-domain art images do not imply the curatorial essay prose is reusable verbatim."
+      ],
+      "observed": "Verified the image versus authored text rights distinction."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435619",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT200598.jpg",
+      "sha256": "92afb0c6c42ed25ae087601723c9e28e75d9a1e7856b92d7bcb99c998698d32a",
+      "byte_length": 1966632,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Official work image JPEG byte SHA and HTTP200 come from October 2026 repository records; no fresh full-image byte download or SHA this time."
+    },
+    {
+      "id": "met-435619",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT200598.jpg",
+      "sha256": "41a159545714ae5b7316bd69adcc192592360c8b7c33261786496832b9a8c313",
+      "byte_length": 90272,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historical display image JPEG SHA/HTTP200 evidence retained; no newly measured hash."
+    }
+  ],
+  "visual_observations": {
+    "method": "Cross-reference Met object 58.87.1 with its Met DT200598 image identifier, identified public illustration and the separate 58.87.2 related panel; distinguish source-image identification from byte verification.",
+    "observed": "Met object image identified as a narrow, crowded arrest of Christ with a fleeing naked figure, consistent with Met's description and the draft. Companion artwork is separately numbered 58.87.2. The registered JPEG bytes were not newly measured."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Returned to Met's current artwork explanations and previously checked draft evidence in a separate source-review pass, checked image identification and viewer-emotion indexing.",
+    "limitations": "Same AI second pass not independent model or specialist; scripture cited via Met, not reread as separate primary Bible edition; previous JPEG hashes reused, not newly downloaded; copyright status not legal guarantee.",
+    "reviewed_artwork_sha256": "20be993af3a53b9220f33e2300b6ef0b4f587dbd8816a5b7d4235d7d89cbc2a8",
+    "reviewed_visitor_draft_sha256": "4ad0913bd1b9bc3b423f42c55d62fd467ed57532e0beb9231a0a1168ee888e0d",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 58.87.1 c.1445–50 by Bartolomeo di Tommaso, not confused with related panel 58.87.2."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Mark's young figure could be John or Mark according to Met; ritual scene paired with the distinct lamentation/entombment panel."
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing primary 不安2 is a viewer entry for betrayal/capture narrative; not asserted as painter's emotion."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Japanese draft is short original explanation, uses explicit museum attribution, and does not copy the Met prose at length."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "20be993af3a53b9220f33e2300b6ef0b4f587dbd8816a5b7d4235d7d89cbc2a8",
+    "visitor_draft_sha256": "4ad0913bd1b9bc3b423f42c55d62fd467ed57532e0beb9231a0a1168ee888e0d",
+    "proposal_sha256": "131f3e55b498ee1f438a166d59f614bd3e44cd360a4f6a2447b474383ec75408",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Canonical JS hashes, 300 unique records and target-only delta checked; Python GitHub CI and catalog snapshot pending before merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435619.json",
+    "sha256": "131f3e55b498ee1f438a166d59f614bd3e44cd360a4f6a2447b474383ec75408",
+    "proposed_artwork_sha256": "20be993af3a53b9220f33e2300b6ef0b4f587dbd8816a5b7d4235d7d89cbc2a8",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met object displays Public Domain artwork and open-access image metadata.",
+      "Saved original Japanese text summarizes museum facts briefly rather than mirroring an English curatorial essay."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No concrete rights obstruction for the proposed database record, not legal assurance and not a grant of prose redistribution rights."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Same AI in a separate pass checked the primary museum sources; not separate third-party review.",
+    "Recorded previous Met image SHA and 200 from October 2026; no new hash measurement.",
+    "All other artwork records left untouched."
+  ]
+}
