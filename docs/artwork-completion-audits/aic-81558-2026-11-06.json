@@ -10,7 +10,7 @@
     "artwork_record_sha256": "692b1f5897f28292be71d88fe0704d13073762cc53ae87d8fee197f8945878dc",
     "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
     "draft_path": "drafts/visitor-explanations/aic-81558.json",
-    "draft_sha256": "51e4cfdbe26780b9827fb9cbd03f7778d02e3c0599265e759a63d6a8f19e7440"
+    "draft_sha256": "d874c2686f578a25e061c4707ee7b5b1d3e45726ec23f123bbfa3091b00b4732"
   },
   "sources": [
     {
@@ -76,7 +76,7 @@
     "method": "After checking original Japanese explanation and selection data, revisited official scholarship/curatorial audio and visual references by independent search/open stage, matching original provenance and artwork ID, and reviewed emotion link, prose similarity and rights.",
     "limitations": "Same AI separate pass, not independent human/other model. Existing JPEG bytes and SHA are old 2026-10-18/20 evidence reused. Current AIC individual artwork URL blocked HTTP403 where relevant; official scholarly catalogue indexed excerpts or directly accessible AIC archival curatorial source were used instead; Met page directly retrieved. Public-domain image does not imply reuse rights to museum scholarly narrative.",
     "reviewed_artwork_sha256": "692b1f5897f28292be71d88fe0704d13073762cc53ae87d8fee197f8945878dc",
-    "reviewed_visitor_draft_sha256": "51e4cfdbe26780b9827fb9cbd03f7778d02e3c0599265e759a63d6a8f19e7440",
+    "reviewed_visitor_draft_sha256": "d874c2686f578a25e061c4707ee7b5b1d3e45726ec23f123bbfa3091b00b4732",
     "checks": [
       {
         "area": "identity",
@@ -99,8 +99,8 @@
   "program_checks": {
     "result": "PASS",
     "proposed_artwork_sha256": "692b1f5897f28292be71d88fe0704d13073762cc53ae87d8fee197f8945878dc",
-    "visitor_draft_sha256": "51e4cfdbe26780b9827fb9cbd03f7778d02e3c0599265e759a63d6a8f19e7440",
-    "proposal_sha256": "005d44b81fb8bae4086652e2775234c58438e57adb35d1d5cd6b155a972b84f3",
+    "visitor_draft_sha256": "d874c2686f578a25e061c4707ee7b5b1d3e45726ec23f123bbfa3091b00b4732",
+    "proposal_sha256": "fbba9cc0d2a461ac2a4fbac22b6c128381788696b2798d74a57dba0b6c23f034",
     "checks": [
       "300_unique_ids",
       "other_297_unchanged",
@@ -115,7 +115,7 @@
   },
   "proposal": {
     "path": "drafts/artwork-revisions/aic-81558.json",
-    "sha256": "005d44b81fb8bae4086652e2775234c58438e57adb35d1d5cd6b155a972b84f3",
+    "sha256": "fbba9cc0d2a461ac2a4fbac22b6c128381788696b2798d74a57dba0b6c23f034",
     "proposed_artwork_sha256": "692b1f5897f28292be71d88fe0704d13073762cc53ae87d8fee197f8945878dc",
     "applied_to_catalog": false
   },
