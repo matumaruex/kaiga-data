@@ -1,0 +1,139 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-823663",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "95c39648993074e26ab9a1502d83b94805950fea",
+    "artwork_record_sha256": "ac014349ae5a0eb9ce04513c7a648a84ba24e0446908cda87215a989c69f9015",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-823663.json",
+    "draft_sha256": "4c2c845eac7def37cb06e00ba8b56ac35e6c41b09c187cc6eed2f4c22a0db543"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/823663",
+      "access": "page_read_twice",
+      "locations": [
+        "823663 / 2019.218: 『平家物語』の維盛と妻の離別、二人の間の余白と姿勢、従者の表情の対比をMet公式説明と照合。館の心理的読解を史実や画家本人の心情と混同せず、既存の悲しみ・寂しさ索引を維持。"
+      ],
+      "observed": "PR #3の既存日本語解説とは別に、2026-11-07 Met公式作品ページの解説と写真を検索・開いて照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "MetのOpen Access CC0作品画像は商用・非商用で利用可能。ただし館の解説本文の権利とは区別する。"
+      ],
+      "observed": "Met公式FAQのOpen Accessの対象と制限を確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-823663",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-19667-002.jpg",
+      "sha256": "87b70e8711e19b221aa259683bc6cc33006c18905bd7d35781c9d65328486df1",
+      "byte_length": 4250623,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月の原画像全量SHA/HTTP200検証値を画像台帳から継承。今回の再取得・再計測ではない。"
+    },
+    {
+      "id": "met-823663",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-19667-002.jpg",
+      "sha256": "7c7edd61c5ccebe054a051a70a9a131b688a06b9da328f9755388b7ac74c8c8e",
+      "byte_length": 135646,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月の表示用JPEG全量SHA/HTTP200検証値を画像台帳から継承。今回の再取得・再計測ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "2026-11-07にMet公式の当該作品画像と所蔵ID・題材を視認し、旧Met APIが登録画像を同作品のprimaryImageに結びつけた2026-10月の記録を照合。今回の登録JPEGそのものの新規直接バイト照合・画素同定は行っていない。",
+    "observed": "Met公式サイトの全体像は妻と維盛を離して配置し下部に従者・馬を配す掛軸。登録DP-19667-002は旧Met API作品IDと同定済みで、今回見た部分・全体画像と別写真。登録JPEG自体を再取得・新規ハッシュ計測していない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "過去PR #3の保存本文と既存DBを先に読み、別工程でMet公式作品解説と公式画像を開き、事実・作品の意味・感情索引・出典と文章の利用条件を点検した。",
+    "limitations": "同じAIによる別工程であり独立した別AI・人間の監査ではない。Met登録JPEGの2026-10月の画像バイト検証を履歴として引き継いだが、今回新規取得していない。著作権に関する判断は法的保証ではない。",
+    "reviewed_artwork_sha256": "ac014349ae5a0eb9ce04513c7a648a84ba24e0446908cda87215a989c69f9015",
+    "reviewed_visitor_draft_sha256": "4c2c845eac7def37cb06e00ba8b56ac35e6c41b09c187cc6eed2f4c22a0db543",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met公式ID 823663、所蔵番号2019.218、作品題名・帰属・年代・図像と旧primaryImage紐付け記録を照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "『平家物語』の維盛と妻の離別、二人の間の余白と姿勢、従者の表情の対比をMet公式説明と照合。館の心理的読解を史実や画家本人の心情と混同せず、既存の悲しみ・寂しさ索引を維持。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存の主感情悲しみ、補助寂しさは作品固有の根拠から不自然でない。作者個人の感情の断定は加えない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "PR #3日本語解説はMetの主要な研究事実と合致する簡潔な独自の説明。館の文章の長文転載・逐語訳としては扱わず、作者の心理や異説の断定を追加しない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "ac014349ae5a0eb9ce04513c7a648a84ba24e0446908cda87215a989c69f9015",
+    "visitor_draft_sha256": "4c2c845eac7def37cb06e00ba8b56ac35e6c41b09c187cc6eed2f4c22a0db543",
+    "proposal_sha256": "c351c210123f5a70a668e7b952e02983b8beff0eee4ed38e2c4799f3853effc4",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JavaScriptで既存300 ID重複・対象外不変・SHA256正規化と出典対応を事前照合。Python公式登録ガード/CIはPR後にGitHub Actionsで確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-823663.json",
+    "sha256": "c351c210123f5a70a668e7b952e02983b8beff0eee4ed38e2c4799f3853effc4",
+    "proposed_artwork_sha256": "ac014349ae5a0eb9ce04513c7a648a84ba24e0446908cda87215a989c69f9015",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "対象作品はMet公式でPublic Domainと表示され画像Open Accessを確認。",
+      "既存日本語解説はMet文を長文転載したものではなく、出典の要点を自分の表現で要約。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品画像のOpen Accessと館の解説著述を分離。現段階でこの短い日本語DB解説・公開図版に重大な未解決権利問題は認めないが、許諾保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "met-823663 Met 2019.218, PR #3 existing visitor draft used.",
+    "Recorded image hash and HTTP from October 2026; no fresh byte-level image verification.",
+    "Same assistant source review, not independent second model.",
+    "No curation fact, emotion tag or other artwork modified."
+  ]
+}
