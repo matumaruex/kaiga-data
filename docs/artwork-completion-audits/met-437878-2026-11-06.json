@@ -1,0 +1,139 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437878",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "fe2bb10642c0fb71b97e4b3f6e27d0210d6e6b35",
+    "artwork_record_sha256": "62b50d191ab585ead7951270e9aeb4407ca7e6b5f4b8673f68ad08c89442294b",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437878.json",
+    "draft_sha256": "c6c5b46bc70e1fea6c682108f3b6c50454858d86e7ed50332393e1eb806daf85"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437878",
+      "access": "page_read_twice",
+      "locations": [
+        "Official Met overview lines 22-34 and Details object number 14.40.611: servant genre, tipped glass, textile, deleted male figure in doorway; museum's uncertainty 'may indicate'. Opened twice this session."
+      ],
+      "observed": "Museum/research page was opened twice in this turn, corresponding object/accession and key statements re-read; visitor explanation checked against exact source. JPEG bytes were not freshly downloaded."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met policy: Public Domain and CC0 open images, distinct from copyright in museum text and scholarly narrative."
+      ],
+      "observed": "Met Open Access and public-domain FAQ read on 2026-11-06; artist work imagery and institution-authored explanation legal statuses distinguished."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437878",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP355525.jpg",
+      "sha256": "0f60071c28366b8f470fa3859375dbfece993bfaf9e96189a4028df9f945c366",
+      "byte_length": 2851485,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historical Met official original full-JPEG bytes and SHA256 measured and saved 2026-10-20; HTTP200 belongs to that check, not to 2026-11-06."
+    },
+    {
+      "id": "met-437878",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP355525.jpg",
+      "sha256": "09e22e9cdaca4642cd88b33cec827ac96d426f16b05028069fa78921e7f1ec27",
+      "byte_length": 75244,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Registered display JPEG prior Oct-2026 complete-download SHA256 and byte count retained; not remeasured on 2026-11-06."
+    }
+  ],
+  "visual_observations": {
+    "method": "Met official object/primaryImage metadata and page image with outside reproduction, object accession matched. Historical original/display image full-byte hashes reused; no new downloaded files and no fresh human inspection of local artifacts.",
+    "observed": "A young woman asleep with her head inclined on one hand at a table with patterned carpet, ceramic jug, bowl of fruit and plate; an empty open inner doorway is directly behind her. Independent reference and official Met image of A Maid Asleep match accession 14.40.611 and stored photo DP355525; no full JPEG re-fetch or SHA verified now."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Initial existing PR #3 text/draft examination, a second pass from official institutional pages and written artist account where available, then skeptical check of attribution, modal wording, emotional tag, object ID and rights.",
+    "limitations": "Same AI separate review stages, not a second AI or third-party expert. No newly fetched full artwork JPEG and no new SHA-256 proof; verified old official registry hashes/ID are cited historically only. Image public-domain designation cannot be extended to published museum text. Current legal review means no specific material infringement obstacle identified, not an attorney warranty.",
+    "reviewed_artwork_sha256": "62b50d191ab585ead7951270e9aeb4407ca7e6b5f4b8673f68ad08c89442294b",
+    "reviewed_visitor_draft_sha256": "c6c5b46bc70e1fea6c682108f3b6c50454858d86e7ed50332393e1eb806daf85",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met object 437878, accession 14.40.611, Vermeer, ca.1656–57, oil on canvas 87.6 x 76.5 cm. Met's individual object page reports Public Domain."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Official Met overview identifies the moral theme of unsupervised servants as a common painting convention, but emphasizes Vermeer's experiment in light, color and texture. The tilted/drained wineglass and rumpled table carpet might suggest an earlier visitor; X-radiographs show a male figure erased from the doorway. Neither a known real-life lover nor definite misdemeanour is established."
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing 好奇心 strength 2 may be a reasonable search entry because the precise past event is left undecided by the erased figure, open doorway, tipped glass and X-ray; emotion is a visitor's potential curiosity, not sitter's mood nor artist's direct feeling."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Original Japanese draft clearly marks a past visitor only as possible and the earlier painted man as revealed by radiography. Two paragraphs avoid conflating the general 17th-century genre convention with proven conduct by the actual sitter. Brief new Japanese prose is not a substantial verbatim reproduction of Met authored passages; no legal noninfringement guarantee."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "62b50d191ab585ead7951270e9aeb4407ca7e6b5f4b8673f68ad08c89442294b",
+    "visitor_draft_sha256": "c6c5b46bc70e1fea6c682108f3b6c50454858d86e7ed50332393e1eb806daf85",
+    "proposal_sha256": "b0eebccd2d869e409a34a4c9f56ef8fed51da685d8ce9330ac483d214657f133",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "registered_old_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Local JS validated ID uniqueness, SHA-bound audited draft and unchanged remaining records, not official Python scripts. GitHub Actions validate-format and validate-drafts must pass before main integration."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437878.json",
+    "sha256": "b0eebccd2d869e409a34a4c9f56ef8fed51da685d8ce9330ac483d214657f133",
+    "proposed_artwork_sha256": "62b50d191ab585ead7951270e9aeb4407ca7e6b5f4b8673f68ad08c89442294b",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met Open Access/Public Domain image per object page and image/data FAQ; distinguish curator and scholarship prose rights.",
+      "Existing Japanese draft wording compared against source and kept concise, independent; legal rights not certified."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No material evidence in current verification preventing the corresponding public-domain work/image metadata and independently worded Japanese commentary from being kept in GitHub DB. No copyright transfer or reproduction of protected Met text is claimed."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "The AI evidence review and source reread occurred in this turn and was not a second AI or human reviewer.",
+    "Original Japanese draft clearly marks a past visitor only as possible and the earlier painted man as revealed by radiography. Two paragraphs avoid conflating the general 17th-century genre convention with proven conduct by the actual sitter.",
+    "Existing 好奇心 strength 2 may be a reasonable search entry because the precise past event is left undecided by the erased figure, open doorway, tipped glass and X-ray; emotion is a visitor's potential curiosity, not sitter's mood nor artist's direct feeling.",
+    "Oct 2026 image SHA values and HTTP200 historical results reused, not measured in this turn."
+  ]
+}
