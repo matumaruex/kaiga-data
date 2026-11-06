@@ -1,0 +1,161 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-898196",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "6bbf5e57da7d7f0623523f3a84da198ad4c1b9af",
+    "artwork_record_sha256": "734cb9a2a6e88003e5848142eb175e68ece2e0652594b389a8f9e2bd82ac1705",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-898196.json",
+    "draft_sha256": "a9b6c485b3dde081a3733275ce87f0e36e52fab05f1ec7f381f17a2b7714a1f7"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/898196",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: ca.1837, attributed to Jacques Amans, enslaved Afro-Creole teen above three Frey children",
+        "Overview: early-twentieth-century concealment, conservation recovery, survival past Civil War and deaths of Frey siblings",
+        "Audio #4022: Dawoud Bey on unusually prominent composition, social inequality",
+        "Artwork Details: oil on canvas, 2023.317, Public Domain"
+      ],
+      "observed": "Met公式の作品ページを検索と再訪で読み、帰属の留保、黒人少年の配置、奴隷制、抹消・修復の史実を別に確認。"
+    },
+    {
+      "url": "https://www.metmuseum.org/fr/press-releases/amans-acquisition-2023-news",
+      "access": "page_read_once",
+      "locations": [
+        "2023 acquisition announcement: first named Black figure in naturalistic Southern landscape",
+        "Enslaver family likely hid figure by overpainting, original ca.1837"
+      ],
+      "observed": "Met買入発表も照合し、画中の人物の関係を対等・幸福な家族像として扱わない。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:B%C3%A9lizaire_and_the_Frey_Children.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Full restored four-sitter picture Met 2023.317",
+        "Public domain image, same accession; not asserted as byte-identical with registered DP-29949-003"
+      ],
+      "observed": "全体構図の同定参考図版。ただし登録JPEGとバイト一致は旧台帳の証拠を使う。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Public-domain paintings and Open Access/CC0",
+        "Curatorial prose rights not identical to OA image policy"
+      ],
+      "observed": "画像の権利条件と館の文章の転載条件を分けた。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-898196",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-29949-003.jpg",
+      "status": 200,
+      "sha256": "cc7c689708a31afedb578f4dd978e9ddc289e4d1ffffe7ea7d818ede339abdbb",
+      "byte_length": 4649416,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19/20のMet公式JPEG取得・SHA256台帳を再利用。今回の新規全量取得ではない。"
+    },
+    {
+      "id": "met-898196",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-29949-003.jpg",
+      "status": 200,
+      "sha256": "c94134b6aa0a02ce4fb32697d5e20823b8e6e438c213ff238d02885d52805317",
+      "byte_length": 126481,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19/20のMet公式JPEG取得・SHA256台帳を再利用。今回の新規全量取得ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品図版と画像検索・Commons同作品図版を参照し登録所蔵番号と照合。原/表示画像のJPEG全バイト検証は2026-10-19/20の旧記録を継承。",
+    "observed": "屋外の背景で白人の子ども三人が前列、樹木に寄りかかる黒人少年ベリゼールが右奥の高い位置に立つ。白い衣の少女、他の子どもたち、ベージュの上着のベリゼールを視認。元の上塗り状態は現在の絵と違うので、現状画像から当時の上塗りを目撃したとは扱わない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "最初のmain原稿とMet作品DB比較後、別工程でMet作品ページ・音声本文・2023年館公式買入発表・公開図版の同定を再点検。事実・歴史解釈・タグ・権利・文章類似を照合。",
+    "limitations": "同一AI別工程であり別AIまたは独立した第三者ではない。登録JPEGの全量SHAは旧実測の再利用。現状の修復画像は確認できるが上塗り前の経緯は館の文献に依存。",
+    "reviewed_artwork_sha256": "734cb9a2a6e88003e5848142eb175e68ece2e0652594b389a8f9e2bd82ac1705",
+    "reviewed_visitor_draft_sha256": "a9b6c485b3dde081a3733275ce87f0e36e52fab05f1ec7f381f17a2b7714a1f7",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 898196、2023.317、約1837年、Jacques Amansに帰属（確定作としない）。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "ベリゼールは奴隷とされた少年。後年に絵から消された人物が修復で再発見された。男子が死亡した時期は約9年後で『数年後』は概括の範囲。"
+      },
+      {
+        "area": "emotion",
+        "finding": "補助『好奇心』1は画面の不自然な距離と少年の歴史を知りたい入り口。差別・奴隷制を愉快な謎解きへ還元しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存の日本語6段落は所蔵館の詳細・音声解説をもとに日本語で独自に構成した文章。長文逐語訳や転載に相当しない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "734cb9a2a6e88003e5848142eb175e68ece2e0652594b389a8f9e2bd82ac1705",
+    "visitor_draft_sha256": "a9b6c485b3dde081a3733275ce87f0e36e52fab05f1ec7f381f17a2b7714a1f7",
+    "proposal_sha256": "5bd4ffdbc01d84a82a0585b299768bfaf31be1c42820ff1340bebbfc2903fcea",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_hash",
+      "historic_image_hashes_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub提出前のJavaScriptで300作品のID/対象外不変/ハッシュを検査。Python実装のvalidatorとCIの合格はPR作成後に別途確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-898196.json",
+    "sha256": "5bd4ffdbc01d84a82a0585b299768bfaf31be1c42820ff1340bebbfc2903fcea",
+    "proposed_artwork_sha256": "734cb9a2a6e88003e5848142eb175e68ece2e0652594b389a8f9e2bd82ac1705",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met Public Domain image",
+      "Open Access/CC0 images",
+      "English museum textual rights separately assessed",
+      "Reviewed Japanese existing interpretation is an original composition"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "公開画像の利用可能性とMetの学芸員英文著作権は別。既存日本語は実質的な長文転載ではなく、法的許諾を保証する判定ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存日本語6段落を変更せず完成記録だけ追加。作品の事実・感情タグ・画像は不変。",
+    "CIとmain統合後に71件目として確定。"
+  ]
+}
