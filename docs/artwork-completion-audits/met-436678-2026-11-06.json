@@ -1,0 +1,137 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436678",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "489f46b8ded28f4cb3282bc39155be0e3a5d814a",
+    "artwork_record_sha256": "60aa004c0fd1976cbd5d03ba5f7a8583140743123347314ba886d182f8a0f18f",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436678.json",
+    "draft_sha256": "13ca630dfab8c45b8f1d6ce60062e23897f43ea03c338468de97c496ca9e97b1"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436678",
+      "access": "page_read_twice",
+      "locations": [
+        "Met The Visit (29.100.7), Pieter de Hooch, ca.1657, Public Domain. Voorhuis of a Dutch townhouse, complex window light and room space compared with Vermeer; Met says oyster platter and canopied bed most likely identify a brothel scene, not certain documentary proof."
+      ],
+      "observed": "Official museum overview rechecked for object number, title, artist, meaning and source-qualification against existing Japanese draft."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access public-domain artwork images distinct from copyrighted curatorial museum prose."
+      ],
+      "observed": "Rights distinctions checked separately."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436678",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP145400.jpg",
+      "sha256": "de19f5dd0ce794947ba7431520aa589b1989b20825ce7292175f179e15d7e7cc",
+      "byte_length": 2092584,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historical Met JPEG full SHA/HTTP200, not newly downloaded or hashed."
+    },
+    {
+      "id": "met-436678",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145400.jpg",
+      "sha256": "b41029324adca4230ba4bd3d2872809111f9f6b49c4d6f7cde1132ba9066667a",
+      "byte_length": 74296,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historical Met display JPEG SHA, not new download."
+    }
+  ],
+  "visual_observations": {
+    "method": "Matched identified public artwork reproduction with Met record and historical Met API primaryImage identity. No new Met registered JPEG transfer.",
+    "observed": "Room with sunlight from window on left, patterned floor, figures gathered by table, oyster platter and large bed behind; coherent with the Met 29.100.7 reproduction. Historical source-bound JPEG hash separately retained."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Read curator's Met description again separately and checked each claim in existing PR #3 draft, visual composition, rights and emotion tags.",
+    "limitations": "Same AI separate pass, not a different independent AI or curator. Historical SHA only and no fresh original registered JPEG pixels. No legal assurance of copyright clearance.",
+    "reviewed_artwork_sha256": "7a29d3efacee097006142f385e26bb9e81289e31ea404ccfa3b6e221e525101b",
+    "reviewed_visitor_draft_sha256": "13ca630dfab8c45b8f1d6ce60062e23897f43ea03c338468de97c496ca9e97b1",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met The Visit (29.100.7), Pieter de Hooch, ca.1657, Public Domain. Voorhuis of a Dutch townhouse, complex window light and room space compared with Vermeer; Met says oyster platter and canopied bed most likely identify a brothel scene, not certain documentary proof."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met identifies oysters and canopied bed as suggestive signs, brothel interpretation kept qualified. Oysters were attributed aphrodisiac properties historically, not scientifically certified."
+      },
+      {
+        "area": "emotion",
+        "finding": "好奇心2 maintained because room and props contain a specific narrative puzzle; no claim about the private feelings of artist or sitters."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Japanese independent two-paragraph prose drawn from PR #3, retains uncertainty, no extended translation or verbatim source prose."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "7a29d3efacee097006142f385e26bb9e81289e31ea404ccfa3b6e221e525101b",
+    "visitor_draft_sha256": "13ca630dfab8c45b8f1d6ce60062e23897f43ea03c338468de97c496ca9e97b1",
+    "proposal_sha256": "4982cd55612e0b63242a5b5bc877bd3c6c99497d6b3f651fe26ec56000bc1cc8",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS canonical SHA/record match; GitHub Python CI must still independently pass before merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436678.json",
+    "sha256": "4982cd55612e0b63242a5b5bc877bd3c6c99497d6b3f651fe26ec56000bc1cc8",
+    "proposed_artwork_sha256": "7a29d3efacee097006142f385e26bb9e81289e31ea404ccfa3b6e221e525101b",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met Public Domain object imagery and museum explanatory text assessed separately.",
+      "Existing concise original Japanese prose without prolonged protected translation."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No material unresolved rights blocker identified for repository storage of concise independent Japanese explanation and PD image metadata; not a legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "2026-10-20 Met JPEG SHA/status inherited, not recaptured.",
+    "Same AI separate-pass review not third party."
+  ]
+}
