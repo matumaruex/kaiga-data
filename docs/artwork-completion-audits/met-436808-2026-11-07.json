@@ -1,0 +1,138 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436808",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "55f47ae26e0a6f66772d7558b5db258744d4c88b",
+    "artwork_record_sha256": "fe1ea364b33612eec83ec379c099231221570391c82092914d78892c9f120532",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436808.json",
+    "draft_sha256": "0cebc558b19e15b8f1d0dfb850802377e3b79bf3c8049f1c98a0859a2fdbd5a0"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436808",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Angelica Kauffmann 'Edward Smith Stanley ... and Their Son', accession 59.189.2, c.1776. Imagined classical interior, classical attire for countess and fancy dress for husband inspired by Van Dyck; approximately two years later the wife left for a lover; domestic bliss as fashionable self-presentation."
+      ],
+      "observed": "Read Met official search result and opened artwork page separately, checked entire visitor draft against one official interpretation and object fields."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met official collection displays Public Domain image; image Open Access not the same as rights in textual collection essay."
+      ],
+      "observed": "Museum policy examined."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436808",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP169403.jpg",
+      "sha256": "557f02524244ef10df5c837a388f8177ce66cb89ec882683b2dda472ca6cf2bb",
+      "byte_length": 2319991,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 historical Met official JPEG and HTTP200 evidence kept in repo, not a freshly measured hash or current HTTP status."
+    },
+    {
+      "id": "met-436808",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169403.jpg",
+      "sha256": "3fcea46f39391ea953693ce0f10489f703cc44c8a8f86e6be85458062e3153cc",
+      "byte_length": 80400,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 historical Met official JPEG and HTTP200 evidence kept in repo, not a freshly measured hash or current HTTP status."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compare visible subject in original museum-labelled public reproduction against work-specific Met accession and image filename. Registered official JPEG SHA/HTTP200 are historical; no fresh byte inspection.",
+    "observed": "Met 59.189.2 official reproduced painting (DP169403) shows a blue-gowned woman on left, infant boy centered, man in red fancy dress on right, under an ornate classical-looking interior; accurately linked to the registered portrait."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Separate source-focused rereading of official Met collection page, image subject and historic registered image identity, independent of the PR #3 draft's first-pass notes; comparison of Japanese prose, source attribution, search tags and copyright scope.",
+    "limitations": "Same assistant in different passes, not a different AI or third-party expert. October 2026 JPEG byte measurements reused; not redownloaded. This copyright analysis is not legal advice or a warranty.",
+    "reviewed_artwork_sha256": "fe1ea364b33612eec83ec379c099231221570391c82092914d78892c9f120532",
+    "reviewed_visitor_draft_sha256": "0cebc558b19e15b8f1d0dfb850802377e3b79bf3c8049f1c98a0859a2fdbd5a0",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 59.189.2 official reproduced painting (DP169403) shows a blue-gowned woman on left, infant boy centered, man in red fancy dress on right, under an ornate classical-looking interior; accurately linked to the registered portrait."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metは架空の古典風室内とヴァン・ダイク風の夫の装いを解説。夫人が約2年後に家を去った事実は制作時の本人の意図や心境の証明ではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存0タグを維持。幸福の表現は肖像の演出であり、家族が実際に幸福だった証拠とはしない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "The prior Japanese text states key item-specific facts in original prose with relevant museum attributions, not copied or extensive literal translation; no substantive rewrite required."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "fe1ea364b33612eec83ec379c099231221570391c82092914d78892c9f120532",
+    "visitor_draft_sha256": "0cebc558b19e15b8f1d0dfb850802377e3b79bf3c8049f1c98a0859a2fdbd5a0",
+    "proposal_sha256": "9110b519094acbabe90550051b204679a7d1c2da96e32a606c674a4b8a64f6a2",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS locally checked canonical content hashes, unique IDs, scope and source URLs. Final repo Python validator, snapshot check, and draft check require GitHub Actions PASS."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436808.json",
+    "sha256": "9110b519094acbabe90550051b204679a7d1c2da96e32a606c674a4b8a64f6a2",
+    "proposed_artwork_sha256": "fe1ea364b33612eec83ec379c099231221570391c82092914d78892c9f120532",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met object labelled Public Domain with Met Open Access picture reuse.",
+      "Japanese draft is original concise explanation and does not copy museum-written curatorial prose verbatim."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material rights blocker to saving the original Japanese text or referencing the public-domain museum image. No legal non-infringement guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "2026-10-20 actual original and display JPEG SHA/HTTP200 reused as dated historic evidence; not presented as newly measured.",
+    "Source pass by same assistant, not separate model or third-party independence.",
+    "No changes to 299 other artwork records, or existing item facts, curation, emotion tags or picture URLs."
+  ]
+}
