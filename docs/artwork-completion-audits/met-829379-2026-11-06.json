@@ -7,10 +7,10 @@
   "progress": "未完成",
   "version": {
     "baseline_commit": "968c894bb1819a2cd9a506cd2145d7dc685d46f6",
-    "artwork_record_sha256": "51c30c13a320d4319ca3eded9dc737eed387a302c171c741185946f2bdee6f42",
+    "artwork_record_sha256": "187d6a9c8acf712b99afb8b60495e6c2dcbe1f6e3f00aef3971b28ff6cb06647",
     "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
     "draft_path": "drafts/visitor-explanations/met-829379.json",
-    "draft_sha256": "456f2a8696ccf2a4f8c9debda6fc47cd70bdb28df72fad316fa87d2f9fd6c535"
+    "draft_sha256": "6d8bb861e855a3a16335ec4e365aa63abc8354d6fa8cf1d88efc8b6327b5181e"
   },
   "sources": [
     {
@@ -80,8 +80,8 @@
     "separate_context_used": false,
     "method": "登録DB・本文下書きを一次確認した後、Metの公式作品説明・情報を別に再参照し、作者帰属、解釈、感情との接点、出典の内容、権利条件を区別して再評価した。",
     "limitations": "同一AIの別工程であって別AIや第三者の独立監査ではない。2026-10-19/20画像全量SHAを再利用。今回直接JPEGを取得してピクセルを視認したとは言えない。文章権利の評価も法的保証ではない。",
-    "reviewed_artwork_sha256": "51c30c13a320d4319ca3eded9dc737eed387a302c171c741185946f2bdee6f42",
-    "reviewed_visitor_draft_sha256": "456f2a8696ccf2a4f8c9debda6fc47cd70bdb28df72fad316fa87d2f9fd6c535",
+    "reviewed_artwork_sha256": "187d6a9c8acf712b99afb8b60495e6c2dcbe1f6e3f00aef3971b28ff6cb06647",
+    "reviewed_visitor_draft_sha256": "6d8bb861e855a3a16335ec4e365aa63abc8354d6fa8cf1d88efc8b6327b5181e",
     "checks": [
       {
         "area": "identity",
@@ -103,9 +103,9 @@
   },
   "program_checks": {
     "result": "PASS",
-    "proposed_artwork_sha256": "51c30c13a320d4319ca3eded9dc737eed387a302c171c741185946f2bdee6f42",
-    "visitor_draft_sha256": "456f2a8696ccf2a4f8c9debda6fc47cd70bdb28df72fad316fa87d2f9fd6c535",
-    "proposal_sha256": "dee03d1d303e053b7facc846c5820939872ef5309b4da052b83466e1acc31d40",
+    "proposed_artwork_sha256": "187d6a9c8acf712b99afb8b60495e6c2dcbe1f6e3f00aef3971b28ff6cb06647",
+    "visitor_draft_sha256": "6d8bb861e855a3a16335ec4e365aa63abc8354d6fa8cf1d88efc8b6327b5181e",
+    "proposal_sha256": "9f80ae79acd4be236df07189c8620013e5c13e816f2709dd0274fde3de30c771",
     "checks": [
       "300_unique_ids",
       "other_299_unchanged",
@@ -120,8 +120,8 @@
   },
   "proposal": {
     "path": "drafts/artwork-revisions/met-829379.json",
-    "sha256": "dee03d1d303e053b7facc846c5820939872ef5309b4da052b83466e1acc31d40",
-    "proposed_artwork_sha256": "51c30c13a320d4319ca3eded9dc737eed387a302c171c741185946f2bdee6f42",
+    "sha256": "9f80ae79acd4be236df07189c8620013e5c13e816f2709dd0274fde3de30c771",
+    "proposed_artwork_sha256": "187d6a9c8acf712b99afb8b60495e6c2dcbe1f6e3f00aef3971b28ff6cb06647",
     "applied_to_catalog": false
   },
   "rights_check": {
