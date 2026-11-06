@@ -1,0 +1,142 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-39540",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "0d4c718b8584d3479ccd49ee8c0e5941e5ea64ce",
+    "artwork_record_sha256": "2b16ae30f5ad579bf54aabfacc62eece20f900290ca5ad881a21cb0be70106a4",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-39540.json",
+    "draft_sha256": "414ed3222209fcfafeb278b3febebf1ac4ee6e5d5e1abbd1173d47c9cdc90386"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/39540",
+      "access": "page_read_twice",
+      "locations": [
+        "Bada Shanren/Zhu Da, dated 1702, Met 2014.721, ink on paper hanging scroll, PD",
+        "Bada descendant of Ming royals, concealed identity, age 76, resistance to Qing rule given as Met's interpretation",
+        "Ming court painter Lin Liang's eagle-hawk tradition emblematic of strength and courage, adapted to Ming loyalism"
+      ],
+      "observed": "Metの公式作品ページでOverviewとArtwork Detailsを初見時に読み、第二工程でも再確認。個別の公開作品画像も開いて図像を確認した。音声トランスクリプトを利用可能とは偽らない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access policy for public domain artworks under CC0",
+        "Rights for museum-produced art historical prose assessed separately"
+      ],
+      "observed": "画像OA/CC0とMetの文章の著作権を切り分ける。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-39540",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-19468-002.jpg",
+      "status": 200,
+      "sha256": "ecbe855281af51fb29ad09e0159b4650777ecba28491e66f887579dd143d4cb8",
+      "byte_length": 2056781,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "登録された原画像全量SHAは2026-10-20の過去測定。今回の新規ダウンロードやハッシュ計測を表さない。"
+    },
+    {
+      "id": "met-39540",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-19468-002.jpg",
+      "status": 200,
+      "sha256": "112510922b621373797164f8a607370e09ce465a628269356e5bf091ebc0ebf3",
+      "byte_length": 74946,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "表示画像全量SHAは2026-10-19に保存された過去測定値。今回の新規取得の主張はしない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品ページに埋め込まれた所蔵番号に対応する図版（Met collectionapi IIIF）で画面構成を確認。既存登録JPEGのバイト一致を新計測したわけではない。",
+    "observed": "縦長の水墨掛軸。二羽の鷹が互いに違う高さの岩上に止まり、上の鷹は頭を右に上げ、下の鷹は右下の岩から前方を向く。岩、細い枝、左上の書と複数の赤い印章がある。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "DBの事実・本文・感情を一次読解した後、改めてMet公式の解説・作品画像と照らし、歴史的事実／館の解釈／画面の意味／感情の入口／権利を別工程で検証した。",
+    "limitations": "同一AIによる別パスであり、別AIや第三者審査ではない。原画像と表示JPEGの全量SHAは2026-10-19/20の旧記録を使用。著作権上の判断は法的な非侵害を保証しない。",
+    "reviewed_artwork_sha256": "2b16ae30f5ad579bf54aabfacc62eece20f900290ca5ad881a21cb0be70106a4",
+    "reviewed_visitor_draft_sha256": "414ed3222209fcfafeb278b3febebf1ac4ee6e5d5e1abbd1173d47c9cdc90386",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 39540（所蔵2014.721）、八大山人・1702年銘・紙本水墨の巻物を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "明の王室の出自、身元を隠した経緯、林良の先例、清への抵抗と明への忠節という読みはMetの解釈であって本人の直接発言ではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『怒り』2は政治的抵抗・対抗姿勢と自然に接続するが、本人が怒りと明言したとは扱わない。『希望』を勝手に追加しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落は史実・所蔵館の読みを分離した独立の構成で、逐語訳や英文の長文転載ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "2b16ae30f5ad579bf54aabfacc62eece20f900290ca5ad881a21cb0be70106a4",
+    "visitor_draft_sha256": "414ed3222209fcfafeb278b3febebf1ac4ee6e5d5e1abbd1173d47c9cdc90386",
+    "proposal_sha256": "527b09fd90c9a88299af234b24810bbd800d91f4bb1a9478572f15b93921db12",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_hash",
+      "historical_image_hashes_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub保存前にJSで300ID・他299不変・正規化ハッシュ・既存鑑賞本文との完全一致を照合。正式Python validator/CIとcompletion checkはPR作成後に確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-39540.json",
+    "sha256": "527b09fd90c9a88299af234b24810bbd800d91f4bb1a9478572f15b93921db12",
+    "proposed_artwork_sha256": "2b16ae30f5ad579bf54aabfacc62eece20f900290ca5ad881a21cb0be70106a4",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met individual artwork Public Domain / OA",
+      "Met Open Access images CC0",
+      "museum prose text rights analyzed separately",
+      "Japanese explanation original independent construction"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "対象のOA/CC0画像と公式英語解説文の利用条件は別。鑑賞者向け日本語は独自構成であり原文の実質的な長文コピーや逐語訳ではない。これは法的な権利非侵害を保証しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "鳥の眼差しや作者の情動を推測だけで断定せず、所蔵館の解釈を絵が証明した政治的事件とはみなさない。",
+    "既存本文、事実・画像・選定索引を不変更。GitHub Actionsとmain統合後に完成数を加算。"
+  ]
+}

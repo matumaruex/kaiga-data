@@ -1,0 +1,142 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-676034",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "0d4c718b8584d3479ccd49ee8c0e5941e5ea64ce",
+    "artwork_record_sha256": "19ade0835dd323dd429a430c53bcdadc5c60537b43e8a6a0a170e24a503c0561",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-676034.json",
+    "draft_sha256": "5596fa98be3b40ac90cdddf7d30d33e680bcce2e70401ef85f9f92cc73dbd5aa"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/676034",
+      "access": "page_read_twice",
+      "locations": [
+        "Korean Joseon period painting, dated 1874, no named artist; object no. 2015.253; framed ink and colors on silk",
+        "Old mountain god in red robe and green decorated sash seated on striped tiger; three smaller male attendants, peach tree",
+        "Mountain god in Korean native beliefs and the Flower Garland Sutra, two painted cartouches documenting subject and 1874 date/donors"
+      ],
+      "observed": "Metの公式作品ページでOverviewとArtwork Detailsを初見時に読み、第二工程でも再確認。個別の公開作品画像も開いて図像を確認した。音声トランスクリプトを利用可能とは偽らない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access policy for public domain artworks under CC0",
+        "Rights for museum-produced art historical prose assessed separately"
+      ],
+      "observed": "画像OA/CC0とMetの文章の著作権を切り分ける。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-676034",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-14823-002.jpg",
+      "status": 200,
+      "sha256": "2eec55edbbfd31e20172a5b0b1905d5ef608fe3f5842b9d2a5bea94101b518c3",
+      "byte_length": 4778191,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "登録された原画像全量SHAは2026-10-20の過去測定。今回の新規ダウンロードやハッシュ計測を表さない。"
+    },
+    {
+      "id": "met-676034",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-14823-002.jpg",
+      "status": 200,
+      "sha256": "ba5e5d079c064da9200079a433aaae775cad695b33e040d92068281660c294a1",
+      "byte_length": 140176,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "表示画像全量SHAは2026-10-19に保存された過去測定値。今回の新規取得の主張はしない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品ページに埋め込まれた所蔵番号に対応する図版（Met collectionapi IIIF）で画面構成を確認。既存登録JPEGのバイト一致を新計測したわけではない。",
+    "observed": "朝鮮の山神が赤衣で虎の背に座り、金文様のある緑帯を着けた老人の横に目を見開いた虎がいる。左側に従者2人、右後方に従者1人、背後に桃の木と1874年銘文が見える。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "DBの事実・本文・感情を一次読解した後、改めてMet公式の解説・作品画像と照らし、歴史的事実／館の解釈／画面の意味／感情の入口／権利を別工程で検証した。",
+    "limitations": "同一AIによる別パスであり、別AIや第三者審査ではない。原画像と表示JPEGの全量SHAは2026-10-19/20の旧記録を使用。著作権上の判断は法的な非侵害を保証しない。",
+    "reviewed_artwork_sha256": "19ade0835dd323dd429a430c53bcdadc5c60537b43e8a6a0a170e24a503c0561",
+    "reviewed_visitor_draft_sha256": "5596fa98be3b40ac90cdddf7d30d33e680bcce2e70401ef85f9f92cc73dbd5aa",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met ID 676034、所蔵番号2015.253、1874年の朝鮮後期、作者不詳、絹本着色を直接確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met所蔵解説は山神への民間信仰と華厳経の護法神との交わり、桃の長寿、3人の従者、画中文字2箇所の内容を記す。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『好奇心』2は虎と山神の独特の関係・象徴を知る入口。補助『安心』1は老人の穏やかな顔に限定し、虎の愉快さだけで宗教画を扱わない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存の鑑賞日本語6段落はMetの解説を独自に組み替えたもので、館英語の実質的長文コピー・逐語訳にならない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "19ade0835dd323dd429a430c53bcdadc5c60537b43e8a6a0a170e24a503c0561",
+    "visitor_draft_sha256": "5596fa98be3b40ac90cdddf7d30d33e680bcce2e70401ef85f9f92cc73dbd5aa",
+    "proposal_sha256": "94111d29d1916df3e2ed8ef4dad48ab7cbf9e0550008ce5effb298d397102517",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_hash",
+      "historical_image_hashes_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub保存前にJSで300ID・他299不変・正規化ハッシュ・既存鑑賞本文との完全一致を照合。正式Python validator/CIとcompletion checkはPR作成後に確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-676034.json",
+    "sha256": "94111d29d1916df3e2ed8ef4dad48ab7cbf9e0550008ce5effb298d397102517",
+    "proposed_artwork_sha256": "19ade0835dd323dd429a430c53bcdadc5c60537b43e8a6a0a170e24a503c0561",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met individual artwork Public Domain / OA",
+      "Met Open Access images CC0",
+      "museum prose text rights analyzed separately",
+      "Japanese explanation original independent construction"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "対象のOA/CC0画像と公式英語解説文の利用条件は別。鑑賞者向け日本語は独自構成であり原文の実質的な長文コピーや逐語訳ではない。これは法的な権利非侵害を保証しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "文字の全文や寄進者名までは所蔵ページから得られないため、人物名・寄進の目的を推測しない。",
+    "既存本文、事実・画像・選定索引を不変更。GitHub Actionsとmain統合後に完成数を加算。"
+  ]
+}
