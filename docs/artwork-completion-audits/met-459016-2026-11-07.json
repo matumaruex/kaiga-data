@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-459016",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "b95a0d0631331d3c758ed858d42ef56baa4c8c56",
+    "artwork_record_sha256": "64c90735fbc6c1903b9573c21dedb67208c85bd01d37d343d61ba514bb3ee04c",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-459016.json",
+    "draft_sha256": "5b92256a2aab9ed60555448dc78538d114b5caa120029367b4f86fe3e1086e2d"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/459016",
+      "access": "page_read_twice",
+      "locations": [
+        "Met object 1975.1.74: Botticelli; ca. 1490 on the object header; tempera and gold on wood, 19.1 x 31.4 cm. Overview identifies one-point perspective, incisions, dividing pillars, Mary kneeling in bedchamber, private devotion almost certain, Barberini collection in the 1600s. Audio suggests mid-1480s (not a replacement for the current catalog date)."
+      ],
+      "observed": "Read and re-opened current Met object page; compared attributed artist, displayed date, accession, scholarly paragraph and Japanese visitor draft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Annunciation_MET_DP267397.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Compared public Met/Commons reproduction DP267397 showing Gabriel on the left in red and Mary kneeling on the right behind columns/curtains. Commons file explicitly connects the 3913×2571 JPEG with accession 1975.1.74 and the Met object 459016."
+      ],
+      "observed": "Compared identifiable Met-contributed public reproduction and collection/object metadata, distinct from fresh registered JPEG byte verification."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Public Domain and Open Access / CC0 descriptions refer to eligible artwork images, not automatically the authored curatorial text."
+      ],
+      "observed": "Read Met Open Access policy and separated imaging rights from museum-authored explanatory prose."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-459016",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/rl/original/DP267397.jpg",
+      "sha256": "054284b4a8e2e5d6cc89696f5ec6a9d7d3d8f44df0d23f08069fcc9d08ac1bf8",
+      "byte_length": 2863384,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Existing official registered full JPEG HTTP200 and SHA256 dated 2026-10-20, no new download or byte comparison today."
+    },
+    {
+      "id": "met-459016",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/rl/web-large/DP267397.jpg",
+      "sha256": "f65b9803f1a77f3174edb8f87fac2439feccbf959fa36c0acc7a8610ff30facd",
+      "byte_length": 83995,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Existing registered web-large JPEG HTTP200 and SHA256 from 2026-10-20, not measured again today."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compared displayed work-specific museum figure and Met-donated Commons object mapping: title, accession, composition, original filename and historical pixel dimensions. Registered JPEG byte SHA is a separate prior test.",
+    "observed": "Compared public Met/Commons reproduction DP267397 showing Gabriel on the left in red and Mary kneeling on the right behind columns/curtains. Commons file explicitly connects the 3913×2571 JPEG with accession 1975.1.74 and the Met object 459016."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Source-focused review of inherited PR #3 draft against the present official museum work page, same-work Commons image and usage policy; explicitly checked title/date/attribution, factual versus tentative claims, visual description, emotion entries and copying risk.",
+    "limitations": "Same AI performed a separate source-reading pass, not another agent or third-party review. Registered original JPEG bytes were not fetched in this session; historic Oct 2026 full-SHA evidence is separately labeled. No legal non-infringement guarantee.",
+    "reviewed_artwork_sha256": "64c90735fbc6c1903b9573c21dedb67208c85bd01d37d343d61ba514bb3ee04c",
+    "reviewed_visitor_draft_sha256": "5b92256a2aab9ed60555448dc78538d114b5caa120029367b4f86fe3e1086e2d",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 1975.1.74, Botticelli, The Annunciation, ca.1490. Subject, layout and Commons Met-donated DP267397 image dimensions match the registered JPEG; not a different Botticelli Annunciation."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Single-point perspective, incised construction lines, domestic bedchamber versus colonnaded angel area supported by Met; private devotional commission almost certain but patron unidentified. Audio dating variation not silently resolved; catalog date remains c.1490."
+      },
+      {
+        "area": "emotion",
+        "finding": "No original emotion category (0). Religious annunciation does not alone establish the viewer's joy, anxiety or reassurance. The user's emotion is not inferred from the Virgin or the author."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Inherited short Japanese draft accurately conveys the small 19cm painting, construction incisions, private devotion as probability and Barberini collection. No long literal translation."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "64c90735fbc6c1903b9573c21dedb67208c85bd01d37d343d61ba514bb3ee04c",
+    "visitor_draft_sha256": "5b92256a2aab9ed60555448dc78538d114b5caa120029367b4f86fe3e1086e2d",
+    "proposal_sha256": "f0c2d5c9d299d9ac6287ed69f44f9279127e8358250ef125f3d05f40d6d9c902",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS checked SHA256 of canonical draft/proposal/target record, counted 300 unique records, preserved other 299, verified source URL and existing historical JPEG registry metadata. The repository's Python completion guard and full validators must PASS in GitHub Actions after the branch is pushed."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-459016.json",
+    "sha256": "f0c2d5c9d299d9ac6287ed69f44f9279127e8358250ef125f3d05f40d6d9c902",
+    "proposed_artwork_sha256": "64c90735fbc6c1903b9573c21dedb67208c85bd01d37d343d61ba514bb3ee04c",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Object page explicitly says Public Domain and Met Open Access allows CC0 for eligible reproductions; curator-created text is not assumed to be CC0.",
+      "Japanese short visitor draft expresses sourced facts independently, without long quotation or line-by-line translation."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material rights problem in using this image and independently written brief museum-verified summary for dataset storage. This is not legal certification."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "ボッティチェリ《受胎告知》（Met 1975.1.74）：遠近法・刻線・私的祈念の用途推定・17世紀バルベリーニ家所蔵をMet現行解説に照合。オーディオの1480年代半ばという説と公式表示ca.1490は混同しない。",
+    "Original catalog facts, curation and emotions unaltered.",
+    "Registered JPEG HTTP200/SHA is past evidence dated 2026-10-20; this session did not remeasure it.",
+    "Same assistant's separate source-checking pass, not a different model or third-party expert."
+  ]
+}
