@@ -1,0 +1,131 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-16549",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "654e065cbce1a8fcff65c8fc7e8d3b142f50ec10",
+    "artwork_record_sha256": "9ad126b2f3a0eb62ae4b84a4df18f74cba4d5832d7711a366bb7ba42f8a4aef4",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-16549.json",
+    "draft_sha256": "ed66f43c47d2ae6794d2602fcb408d07fd24a1d18cb323fdf1d5ddeb2c7a932d"
+  },
+  "sources": [
+    {
+      "url": "https://publications.artic.edu/monet/api/epub/135466/135552/print_view",
+      "access": "page_read_twice",
+      "locations": [
+        "Art Institute of Chicago scholarly catalogue Cat.17: Monet Apples and Grapes,1880, accession1933.1152, oil on canvas, signed and dated upper left.",
+        "Monet and Still-Life Painting: wife Camille died September 5 1879; artist's many household responsibilities, commercial popularity of still life, and controlled indoor conditions offered possible motivations, not evidence of a symbolic mourning scene.",
+        "Style and Meaning: steeply angled table, radical cropping and paint surfaces; infrared reflectography shows two diagonal lines to the right of the basket, suggesting possible earlier table-edge arrangement."
+      ],
+      "observed": "シカゴ美術館のオンライン学術図録の作品見出し・研究本文・技術報告・関連図版説明を一次閲覧し、別の箇所検索で重要な記述を再照合。"
+    },
+    {
+      "url": "https://api.artic.edu/docs/",
+      "access": "page_read_once",
+      "locations": [
+        "Art Institute API docs note that artworks flagged is_public_domain are preferred for image reuse and direct readers to image licensing policies",
+        "CC0 licensing of source API metadata and public-domain image use requires separate consideration of scholarly written catalogues"
+      ],
+      "observed": "公式API画像・メタデータの規約を参照し、作品画像と学術図録の著作権を混同しない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-16549",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Claude_Monet_-_Apples_and_Grapes_-_1933.1152_-_Art_Institute_of_Chicago.jpg/960px-Claude_Monet_-_Apples_and_Grapes_-_1933.1152_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "status": 200,
+      "sha256": "2dbc85cf3c4e896eb96b9048436b52bbdaa05200a99ceec4fd15a1edf8283642",
+      "byte_length": 378128,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18登録時の全量JPEG SHA256・バイト数・HTTP 200を引き継ぐ。今回当該ミラーJPEGの全バイト取得または新しいSHA測定を行っていない。画像の現時点の配信HTTP200を主張する値ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "AIC学術図録の図像と作品番号を照合し、登録JPEGの画像ID/旧SHA記録に対応付け。登録JPEGの全バイトを今回新規ダウンロードして目視・再計算したわけではない。",
+    "observed": "Art Instituteのオンライン研究図録Cat.17の作品画像・図版説明と登録作品の所蔵番号1933.1152を照合。白青の布、かごのブドウ、赤と緑のリンゴ、奥行きを圧縮する斜めの卓上を確認。登録Wikimedia960pxのJPEGを今回新規取得・全画素検査していないため旧同定証拠を継承。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "一次の学術図録閲覧の後、別工程で同館の原資料・技術図版説明・作品同定・感情タグ・鑑賞本文・文章の利用条件を再確認。",
+    "limitations": "同一AIの別閲覧工程であり、別AI／第三者による外部独立監査ではない。登録JPEGの2026-10-18旧全量SHAを再利用しており、今回は登録バイトの再取得・全画素同定をしていない。個別の法的非侵害は保証しない。",
+    "reviewed_artwork_sha256": "9ad126b2f3a0eb62ae4b84a4df18f74cba4d5832d7711a366bb7ba42f8a4aef4",
+    "reviewed_visitor_draft_sha256": "ed66f43c47d2ae6794d2602fcb408d07fd24a1d18cb323fdf1d5ddeb2c7a932d",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Art Institute of Chicago 1933.1152、モネ1880年油彩。関連するモネ1879年の同名・別構図作品やハンブルク所蔵版と区別。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "モネの妻カミーユ死去後の生活・販売しやすい静物への関心という背景は美術館研究の推論。果物が喪失そのものを象徴する直接の根拠はない。赤外線の斜線は以前の卓上配置を示唆するに留める。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主0件・補助『喪失感』1を既存の弱い背景接点として維持するが、象徴を断定したり『悲しみ』の主感情へ格上げしない。今後の選定で閲覧者の死別経験との必然的共感を予測しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落は傾斜したテーブル、果物の質感、死別直後の経済と制作背景、赤外線調査の可能性という研究上の限定を明示。英語原文の連続した長い翻訳ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "9ad126b2f3a0eb62ae4b84a4df18f74cba4d5832d7711a366bb7ba42f8a4aef4",
+    "visitor_draft_sha256": "ed66f43c47d2ae6794d2602fcb408d07fd24a1d18cb323fdf1d5ddeb2c7a932d",
+    "proposal_sha256": "87ed4486534af9273d9624d483d945481d7fef50e111505da50138187018c655",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_hash",
+      "registered_historical_image_sha_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub保存前のJavaScriptで300ID・既存本文完全一致・対象外作品不変・正規化SHA256を照合。Python本体の登録ガード・全形式検査・ActionsはGitHub上で別途検査予定。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-16549.json",
+    "sha256": "87ed4486534af9273d9624d483d945481d7fef50e111505da50138187018c655",
+    "proposed_artwork_sha256": "9ad126b2f3a0eb62ae4b84a4df18f74cba4d5832d7711a366bb7ba42f8a4aef4",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://api.artic.edu/docs/",
+    "locations": [
+      "AIC publicly documents image API for public-domain collection objects and refers to Image Licensing terms",
+      "Separate scholarly written catalogue text is not automatically licensed for redistribution by art-image CC0 status",
+      "Japanese prose checked for excessive literal translation, source citation recorded"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "AIC作品画像のPublic Domainとオンライン研究図録の独自英文本文の権利を分離し、既存日本語の独自構成・要約が原文の長い逐語転載ではないか点検。画像の法的適法性・文章の非侵害を保証するものではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "モネ《リンゴとブドウ》：既存日本語解説、作品事実・画像・感情索引・選定資料を変更せず、対象版の監査とcompletionだけ付与。",
+    "旧登録Wikimedia/GitHub mirror JPEG全量SHAを今回測り直したとは称さず、現在の配信可否を自動的に保証しない。",
+    "同一AIの別工程は第三者独立監査ではない。CI成功・mainへのマージ後だけ正式完成数を更新。",
+    "『喪失感』補助1は作者の死別後の制作背景との限定的接点。果物が喪失を象徴すると断定せず、今後もタグ見直しの余地を残す。"
+  ]
+}

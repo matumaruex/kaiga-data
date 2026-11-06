@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-14624",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "654e065cbce1a8fcff65c8fc7e8d3b142f50ec10",
+    "artwork_record_sha256": "8013ffa00cfe147e57fe63e58387e3365ff860de547a09a7f0b7a89721ea0358",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-14624.json",
+    "draft_sha256": "4770e25bc95bca2df3b4b599ad2f9e1152d680bc295424e737d7e946806b8a85"
+  },
+  "sources": [
+    {
+      "url": "https://publications.artic.edu/api/epub/monet/135601/print_view",
+      "access": "page_read_twice",
+      "locations": [
+        "Art Institute of Chicago scholarly catalogue Cat.28: Monet, Stacks of Wheat (End of Day, Autumn), 1890/91, canvas, accession 1933.444, signature Claude Monet 91 lower left.",
+        "Technical Summary: subtle tonality base followed by saturated strokes; small left stack moved lower/right to upper/left; large right stack widened on left and made taller; buildings and horizon raised.",
+        "Signature: applied while pale pink and bluish-purple underlying paint still wet, as documented by technical microscopy."
+      ],
+      "observed": "シカゴ美術館のオンライン学術図録の作品見出し・研究本文・技術報告・関連図版説明を一次閲覧し、別の箇所検索で重要な記述を再照合。"
+    },
+    {
+      "url": "https://api.artic.edu/docs/",
+      "access": "page_read_once",
+      "locations": [
+        "Art Institute API docs note that artworks flagged is_public_domain are preferred for image reuse and direct readers to image licensing policies",
+        "CC0 licensing of source API metadata and public-domain image use requires separate consideration of scholarly written catalogues"
+      ],
+      "observed": "公式API画像・メタデータの規約を参照し、作品画像と学術図録の著作権を混同しない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-14624",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Claude_Monet_-_Stacks_of_Wheat_%28End_of_Day%2C_Autumn%29_-_1933.444_-_Art_Institute_of_Chicago.jpg/960px-Claude_Monet_-_Stacks_of_Wheat_%28End_of_Day%2C_Autumn%29_-_1933.444_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "status": 200,
+      "sha256": "e7249fa10fd217cbb8ecc6f03a99fb875a49e9b10d9eba0a3a833e89f7c863b2",
+      "byte_length": 253324,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18登録時の全量JPEG SHA256・バイト数・HTTP 200を引き継ぐ。今回当該ミラーJPEGの全バイト取得または新しいSHA測定を行っていない。画像の現時点の配信HTTP200を主張する値ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "AIC学術図録の図像と作品番号を照合し、登録JPEGの画像ID/旧SHA記録に対応付け。登録JPEGの全バイトを今回新規ダウンロードして目視・再計算したわけではない。",
+    "observed": "研究図録Cat.28の作品全体と図28.1〜28.3の説明を参照。左右2つの積みわら、低い稜線と空、積みわらを包む淡い色彩・筆触という登録作品の構成に一致。今回のWikimedia960px登録JPEGを直接再取得して全画素を検査したわけではない。登録画像の所蔵番号1933.444と旧SHAを引き継ぐ。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "一次の学術図録閲覧の後、別工程で同館の原資料・技術図版説明・作品同定・感情タグ・鑑賞本文・文章の利用条件を再確認。",
+    "limitations": "同一AIの別閲覧工程であり、別AI／第三者による外部独立監査ではない。登録JPEGの2026-10-18旧全量SHAを再利用しており、今回は登録バイトの再取得・全画素同定をしていない。個別の法的非侵害は保証しない。",
+    "reviewed_artwork_sha256": "8013ffa00cfe147e57fe63e58387e3365ff860de547a09a7f0b7a89721ea0358",
+    "reviewed_visitor_draft_sha256": "4770e25bc95bca2df3b4b599ad2f9e1152d680bc295424e737d7e946806b8a85",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Art Institute of Chicago 1933.444、モネ1890/91年、油彩カンヴァス、Cat.28を現行図録で確認。同館所蔵の他の積みわら連作と同題の異版を区別。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "技術調査は左小積みわらの移動、右大積みわらの拡大、地平線と建物の移動、未乾燥の上へ赤い署名を入れた事実を示す。作者が特定の『寂しさ』を訴えたと主張しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主・補助感情タグとも0件を維持。連作の光と時間への関心から安心・寂しさの感情を推定して付与しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語2段落は技術調査の具体的主張を過不足なく独自に要約。『1891』署名が下層の湿った絵具の上に描かれた点も原資料と一致。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "8013ffa00cfe147e57fe63e58387e3365ff860de547a09a7f0b7a89721ea0358",
+    "visitor_draft_sha256": "4770e25bc95bca2df3b4b599ad2f9e1152d680bc295424e737d7e946806b8a85",
+    "proposal_sha256": "b3aa7a18d452b4de183dc4dd7e10b418cb645fce572f28b29be30ddf3638e5bc",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_hash",
+      "registered_historical_image_sha_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub保存前のJavaScriptで300ID・既存本文完全一致・対象外作品不変・正規化SHA256を照合。Python本体の登録ガード・全形式検査・ActionsはGitHub上で別途検査予定。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-14624.json",
+    "sha256": "b3aa7a18d452b4de183dc4dd7e10b418cb645fce572f28b29be30ddf3638e5bc",
+    "proposed_artwork_sha256": "8013ffa00cfe147e57fe63e58387e3365ff860de547a09a7f0b7a89721ea0358",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://api.artic.edu/docs/",
+    "locations": [
+      "AIC publicly documents image API for public-domain collection objects and refers to Image Licensing terms",
+      "Separate scholarly written catalogue text is not automatically licensed for redistribution by art-image CC0 status",
+      "Japanese prose checked for excessive literal translation, source citation recorded"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "AIC作品画像のPublic Domainとオンライン研究図録の独自英文本文の権利を分離し、既存日本語の独自構成・要約が原文の長い逐語転載ではないか点検。画像の法的適法性・文章の非侵害を保証するものではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "モネ《積みわら（秋、一日の終わり）》：既存日本語解説、作品事実・画像・感情索引・選定資料を変更せず、対象版の監査とcompletionだけ付与。",
+    "旧登録Wikimedia/GitHub mirror JPEG全量SHAを今回測り直したとは称さず、現在の配信可否を自動的に保証しない。",
+    "同一AIの別工程は第三者独立監査ではない。CI成功・mainへのマージ後だけ正式完成数を更新。"
+  ]
+}

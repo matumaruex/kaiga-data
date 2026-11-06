@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-14655",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "654e065cbce1a8fcff65c8fc7e8d3b142f50ec10",
+    "artwork_record_sha256": "3a1b08946e668a4ac5410c816875693b7c83b5d8574ad0c1a0153e2ca1eff9e3",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-14655.json",
+    "draft_sha256": "a72d6e4f87fe1025baab009e7c7b5670929ba2cf35d4df9e2bffd6e9d26a6ce6"
+  },
+  "sources": [
+    {
+      "url": "https://publications.artic.edu/renoir/api/epub/135446/135639/print_view",
+      "access": "page_read_twice",
+      "locations": [
+        "Art Institute of Chicago scholarly catalogue Cat.11: Pierre-Auguste Renoir, Two Sisters (On the Terrace), 1881, accession 1933.455, oil on canvas.",
+        "A Jewel in the Collection of Paul Durand-Ruel: scene at Chatou; Renoir's letter of April 18 1881 to Théodore Duret mentions his struggle with blooming trees, women and children; Durand-Ruel renamed picture Les deux soeurs in 1882.",
+        "The Models for Two Sisters: older sitter is aspiring actress Eugénie Marie (Jeanne) Darlaud, not actual elder sister of the unidentified younger child; infrared documented earlier pair of figures in the upper left removed as the composition was revised."
+      ],
+      "observed": "シカゴ美術館のオンライン学術図録の作品見出し・研究本文・技術報告・関連図版説明を一次閲覧し、別の箇所検索で重要な記述を再照合。"
+    },
+    {
+      "url": "https://api.artic.edu/docs/",
+      "access": "page_read_once",
+      "locations": [
+        "Art Institute API docs note that artworks flagged is_public_domain are preferred for image reuse and direct readers to image licensing policies",
+        "CC0 licensing of source API metadata and public-domain image use requires separate consideration of scholarly written catalogues"
+      ],
+      "observed": "公式API画像・メタデータの規約を参照し、作品画像と学術図録の著作権を混同しない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-14655",
+      "kind": "display",
+      "url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/14655.jpg",
+      "status": 200,
+      "sha256": "e675d810215f8129df0cfd5769a1cd48d4a1a31b0077c1a47c550ae72b2365b8",
+      "byte_length": 409346,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18登録時の全量JPEG SHA256・バイト数・HTTP 200を引き継ぐ。今回当該ミラーJPEGの全バイト取得または新しいSHA測定を行っていない。画像の現時点の配信HTTP200を主張する値ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "AIC学術図録の図像と作品番号を照合し、登録JPEGの画像ID/旧SHA記録に対応付け。登録JPEGの全バイトを今回新規ダウンロードして目視・再計算したわけではない。",
+    "observed": "美術館図録Cat.11の同題画像および研究上の図版説明と、額縁入りの展示風景を照合。赤い帽子と濃紺衣装の若い女性、青白い衣装の少女、花籠、背景に水辺の船と花木を確認。登録JPEGは独立のGitHub rawミラーで旧SHAの再測定・新規画像取得なし。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "一次の学術図録閲覧の後、別工程で同館の原資料・技術図版説明・作品同定・感情タグ・鑑賞本文・文章の利用条件を再確認。",
+    "limitations": "同一AIの別閲覧工程であり、別AI／第三者による外部独立監査ではない。登録JPEGの2026-10-18旧全量SHAを再利用しており、今回は登録バイトの再取得・全画素同定をしていない。個別の法的非侵害は保証しない。",
+    "reviewed_artwork_sha256": "3a1b08946e668a4ac5410c816875693b7c83b5d8574ad0c1a0153e2ca1eff9e3",
+    "reviewed_visitor_draft_sha256": "a72d6e4f87fe1025baab009e7c7b5670929ba2cf35d4df9e2bffd6e9d26a6ce6",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Art Institute of Chicago1933.455、1881年油彩、シャトゥーのテラスと春の花木。題名の『姉妹』は1882年画商デュラン＝リュエルによる。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "年長のモデルはジャンヌ・ダルロー。幼い少女は実際の妹ではなく未特定。1881/4/18のルノワール書簡は女性・子ども・花木の制作苦労についての当時の発言だが、その絵の人物の心理の証言ではない。IR調査は背景の消された二人の人物を示す。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『安心』2・補助『喜び』1は春のテラスという鑑賞者への自然な入口。ただし両人物に家族愛・喜びの心理を帰属しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落は書簡・題名・モデルの不確実性・制作修正を独自に要約。長い英語原文の逐語翻訳や複製ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "3a1b08946e668a4ac5410c816875693b7c83b5d8574ad0c1a0153e2ca1eff9e3",
+    "visitor_draft_sha256": "a72d6e4f87fe1025baab009e7c7b5670929ba2cf35d4df9e2bffd6e9d26a6ce6",
+    "proposal_sha256": "66682a3adbf171f91a4d926f1ecb448e06c9d175b26a2e95587008712eed5d9d",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_hash",
+      "registered_historical_image_sha_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub保存前のJavaScriptで300ID・既存本文完全一致・対象外作品不変・正規化SHA256を照合。Python本体の登録ガード・全形式検査・ActionsはGitHub上で別途検査予定。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-14655.json",
+    "sha256": "66682a3adbf171f91a4d926f1ecb448e06c9d175b26a2e95587008712eed5d9d",
+    "proposed_artwork_sha256": "3a1b08946e668a4ac5410c816875693b7c83b5d8574ad0c1a0153e2ca1eff9e3",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://api.artic.edu/docs/",
+    "locations": [
+      "AIC publicly documents image API for public-domain collection objects and refers to Image Licensing terms",
+      "Separate scholarly written catalogue text is not automatically licensed for redistribution by art-image CC0 status",
+      "Japanese prose checked for excessive literal translation, source citation recorded"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "AIC作品画像のPublic Domainとオンライン研究図録の独自英文本文の権利を分離し、既存日本語の独自構成・要約が原文の長い逐語転載ではないか点検。画像の法的適法性・文章の非侵害を保証するものではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "ルノワール《テラスの二人（姉妹）》：既存日本語解説、作品事実・画像・感情索引・選定資料を変更せず、対象版の監査とcompletionだけ付与。",
+    "旧登録Wikimedia/GitHub mirror JPEG全量SHAを今回測り直したとは称さず、現在の配信可否を自動的に保証しない。",
+    "同一AIの別工程は第三者独立監査ではない。CI成功・mainへのマージ後だけ正式完成数を更新。"
+  ]
+}
