@@ -1,0 +1,138 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437438",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "fd49b02a4e2f4e5628e2659126b8fab511524447",
+    "artwork_record_sha256": "8d0b2ea63a42ff712d96791f19e7e63b826a1df71a5636bc3d7f46f96d57d3bc",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437438.json",
+    "draft_sha256": "e006374b113cdfdc8cfe9ff8118ca314334d227d95520ef486201fa46d8c28c1"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437438",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Young Girl in a Pink-and-Black Hat (64.150), Renoir, ca.1891: series of young women wearing stylish hats; he continued the subject after these hats became unfashionable and his dealer tried to discourage further examples."
+      ],
+      "observed": "Met official online collection summary was reviewed and rechecked against the identified accession and the Japanese draft."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access public-domain images do not confer any right to reproduce the Met's curatorial prose."
+      ],
+      "observed": "Rights conditions checked at museum policy page."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437438",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-33709-001.jpg",
+      "sha256": "fb4fea68024aaa07760184288520faeef9b200bd9ee144d29e84cd37c05dd3da",
+      "byte_length": 4281550,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Verified Met JPEG bytes and HTTP 200 are historic evidence recorded in the repository in 2026-10-20. No full registered image download or checksum was performed in this session."
+    },
+    {
+      "id": "met-437438",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-33709-001.jpg",
+      "sha256": "5749f0db81ef337d715fc6e4fa19b0c98502aaa5f3304d5e3c384fdc813053f8",
+      "byte_length": 100035,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Verified Met JPEG bytes and HTTP 200 are historic evidence recorded in the repository in 2026-10-20. No full registered image download or checksum was performed in this session."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compare title, composition and artist in independently displayed identified public image with Met official artwork title/number; Met registered JPEG SHA/HTTP200 itself is only historical evidence.",
+    "observed": "Image queried for the exact title shows a pale-clothed young woman in profile, with a large dark hat and pink decorations. Object title/date/number verified with the Met page."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Rechecked original Met text, identification and qualifying words against Japanese draft; compared the separately located visual reproduction, unchanged emotion index, image rights and source differentiation.",
+    "limitations": "The checking AI is the same assistant in a separate pass, not a different AI or expert. Registered official Met JPEG bytes not re-obtained today. For Rosa the scholarly support is an indexed excerpt, not a read-through of its PDF. Copyright noninfringement is not legally assured.",
+    "reviewed_artwork_sha256": "8d0b2ea63a42ff712d96791f19e7e63b826a1df71a5636bc3d7f46f96d57d3bc",
+    "reviewed_visitor_draft_sha256": "e006374b113cdfdc8cfe9ff8118ca314334d227d95520ef486201fa46d8c28c1",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met Young Girl in a Pink-and-Black Hat (64.150), Renoir, ca.1891: series of young women wearing stylish hats; he continued the subject after these hats became unfashionable and his dealer tried to discourage further examples."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "既存の解説が所蔵館のルノワール1891年頃、1890年代の帽子の流行と晩年の継続の説明に一致。帽子の流行と画商の忠告は本作完成後の時期の話と区別。"
+      },
+      {
+        "area": "emotion",
+        "finding": "Zero primary/secondary emotion tags: do not infer serenity or joy solely from attractive colors or the sitter's profile."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Japanese original prose avoids extended word-for-word reproduction or close translation of museum text. Qualifiers retained or strengthened where necessary."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "8d0b2ea63a42ff712d96791f19e7e63b826a1df71a5636bc3d7f46f96d57d3bc",
+    "visitor_draft_sha256": "e006374b113cdfdc8cfe9ff8118ca314334d227d95520ef486201fa46d8c28c1",
+    "proposal_sha256": "dda7597601f71417632419087ccee67aa0058babcaa975b3d69d2ea8859a5a97",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Locally checked canonical JSON fingerprints and 300 IDs; GitHub Actions Python registration/check, snapshots and draft validation are still required before merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437438.json",
+    "sha256": "dda7597601f71417632419087ccee67aa0058babcaa975b3d69d2ea8859a5a97",
+    "proposed_artwork_sha256": "8d0b2ea63a42ff712d96791f19e7e63b826a1df71a5636bc3d7f46f96d57d3bc",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met object is marked Public Domain, with its public image offered under Open Access.",
+      "Japanese explanation is a short original summary, not copied or a lengthy translation of museum explanatory prose."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No concrete outstanding rights blocker identified for the database's concise original Japanese text or Met PD image references. Does not constitute a legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Historic October-2026 Met original JPEG SHA and status reused; not new measurements.",
+    "Same AI source-focused second review, not a separate model or third party.",
+    "Other 299 artwork content and rights registry unaffected."
+  ]
+}
