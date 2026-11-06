@@ -1,0 +1,160 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-37897",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "968c894bb1819a2cd9a506cd2145d7dc685d46f6",
+    "artwork_record_sha256": "4272f66a93d0be88ee0ed7bc02418f581afe25f7216bdb02fbe6b138643080ce",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-37897.json",
+    "draft_sha256": "fbda928b4d385aa92002ff427229533f17d92163c25a5fd5a54f6e413c9eb204"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/37897",
+      "access": "page_read_twice",
+      "locations": [
+        "Anonymous Marwar Rajasthan ca.1640-50, ink and opaque watercolor on paper, Met 55.121.29",
+        "Malkos raga poem: lord attended with flywhisk, gandharva-like music, elephant pearl necklace and gold crest, saturated in love and happy",
+        "Ragamala exhibition: musical modes as paintings and poetry, love and seasonal/daily associations"
+      ],
+      "observed": "Met公式作品ページの概要と作品情報をDB、下書きと別工程で再照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/exhibitions/listings/2014/ragamala",
+      "access": "page_read_twice",
+      "locations": [
+        "The Met Ragamala exhibition Overview: ragamala as garland of ragas, paintings of musical modes",
+        "Poetry, painting, music, love themes and courtly circulation"
+      ],
+      "observed": "Metの企画展概要を初回および検証工程で読み、一般的背景を個別作品の断定と混同しない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Open Access policy covers CC0 images of public domain artworks",
+        "Museum-curated English essays and other third-party rights are separate"
+      ],
+      "observed": "作品画像の利用条件を英語解説本文の自由転載と混同しない。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:MET_DP156141.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Wikimedia Commons file title and Met accession number linked to exact registered JPEG",
+        "CC0 declaration, Met source/photographer and image pixel dimensions"
+      ],
+      "observed": "画像元のMet作品番号と正確なファイル名および旧画像台帳を照合した。今回JPEGピクセルファイルの再取得はしていない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-37897",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP156141.jpg",
+      "status": 200,
+      "sha256": "e61f60c399fc0a2971fb098d5ab1cd5c15dca1a86519be876d99d9e753ec207b",
+      "byte_length": 2968467,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "登録当時の2026-10-20の原JPEG全量SHA記録を再利用。今回の新規測定ではない。"
+    },
+    {
+      "id": "met-37897",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156141.jpg",
+      "status": 200,
+      "sha256": "9c833991e7e9411f11102629fe0daf7fc313db2dba1af440176970d0b65ee1a7",
+      "byte_length": 116722,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "登録当時の表示JPEGのSHA記録を再利用し、今回新たにダウンロードしたとは主張しない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品説明、公式収蔵番号と同一JPEGファイル名のCommonsページ、登録画像台帳の旧SHAを照合。今回生JPEGの視認・測定なし。",
+    "observed": "Met公式作品55.121.29とCommons DP156141の同一作品同定を確認。払子の従者と音楽、宮廷場面はMet本文記述と整合。今回の生画像再取得や独立ピクセル視認は実施できていない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "登録DB・本文下書きを一次確認した後、Metの公式作品説明・情報を別に再参照し、作者帰属、解釈、感情との接点、出典の内容、権利条件を区別して再評価した。",
+    "limitations": "同一AIの別工程であって別AIや第三者の独立監査ではない。2026-10-19/20画像全量SHAを再利用。今回直接JPEGを取得してピクセルを視認したとは言えない。文章権利の評価も法的保証ではない。",
+    "reviewed_artwork_sha256": "a4872132f5e4e950128d7d6b2f1275fff9d7c5b6d37cf0e1fde56cbd2ca6d145",
+    "reviewed_visitor_draft_sha256": "fbda928b4d385aa92002ff427229533f17d92163c25a5fd5a54f6e413c9eb204",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "インド、ラージャスターン・マールワール、1640～50年頃、作者未詳、Met 55.121.29、紙に墨と不透明水彩。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metは対応する詩に愛・幸福と天上の楽人を伴う貴人が描かれると説明。一般のラーガマーラー説明とは分けて明示する。"
+      },
+      {
+        "area": "emotion",
+        "finding": "『喜び』3は対応する詩の登場人物の幸福が根拠で、匿名画家自身の心理の証明ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "PR #3の日本語3段落下書きを直接照合。ラーガの絵画化、楽人、払子、詩に由来する幸福の説明を保持。形式は独立した日本語の説明で英語本文の長い直訳ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "a4872132f5e4e950128d7d6b2f1275fff9d7c5b6d37cf0e1fde56cbd2ca6d145",
+    "visitor_draft_sha256": "fbda928b4d385aa92002ff427229533f17d92163c25a5fd5a54f6e413c9eb204",
+    "proposal_sha256": "b2936aec03f1330a08c4d9f3ac1740ebbe8218410549db222b5a0c3a5e043f34",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match_or_new_text",
+      "canonical_hash",
+      "historical_image_hashes_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub保存前のJSで300ID、対象外不変、正規化SHA、既存本文一致を確認。Python validator/CIとcompletion checkはPR作成後に別途確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-37897.json",
+    "sha256": "b2936aec03f1330a08c4d9f3ac1740ebbe8218410549db222b5a0c3a5e043f34",
+    "proposed_artwork_sha256": "a4872132f5e4e950128d7d6b2f1275fff9d7c5b6d37cf0e1fde56cbd2ca6d145",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met Open Access/CC0 designation for PD images",
+      "Museum essay text rights must be considered separately",
+      "Japanese visitor prose not a sustained verbatim translation"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "対象作品の画像にはMetのPD/OAが表示され、英語解説文の転載条件とは区別した。日本語本文は原資料の事実を独自の言葉でまとめ、長文逐語転載していない。個別の法的非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "画面に関する叙述は公式所蔵館テキストと同定画像情報に基づき、今回のJPEG実取得や直接ピクセル視認を行ったとは主張しない。",
+    "同一AI別工程を別AI・第三者審査と称さない。",
+    "《マールコース・ラーガ》の意味資料中の呼称のみ出典に沿って限定修正。"
+  ]
+}
