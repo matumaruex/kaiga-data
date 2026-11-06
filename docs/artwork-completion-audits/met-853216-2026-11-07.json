@@ -1,0 +1,139 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-853216",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "b6458989e427839a1a02a0abd8785c1c52202e0f",
+    "artwork_record_sha256": "e9e32ab70c68aaa741c2e81fa0161099cbde001064e53e1ed008c13f7eadb98c",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-853216.json",
+    "draft_sha256": "be72426951240cf15d1607c928a0a404e328cc80db8e47f1a3827d4a8124423f"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/853216",
+      "access": "page_read_twice",
+      "locations": [
+        "853216 / 2021.398.21: 1823年の淀川での偶然の再会、二人の賛と五年前の岡城での再会、無署名の画の竹田への推定帰属をMet公式説明と照合。作者断定は避け、友人同士の交流を表す既存の喜び・懐かしさの索引を維持。"
+      ],
+      "observed": "PR #3の既存日本語解説とは別に、2026-11-07 Met公式作品ページの解説と写真を検索・開いて照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "MetのOpen Access CC0作品画像は商用・非商用で利用可能。ただし館の解説本文の権利とは区別する。"
+      ],
+      "observed": "Met公式FAQのOpen Accessの対象と制限を確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-853216",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-24433-002.jpg",
+      "sha256": "8f002e11e86d69714d65a26a342e983776d56b56b316b35dfceb444f7a13cb0d",
+      "byte_length": 1791902,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月の原画像全量SHA/HTTP200検証値を画像台帳から継承。今回の再取得・再計測ではない。"
+    },
+    {
+      "id": "met-853216",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-24433-002.jpg",
+      "sha256": "4cfeabae47279cd01cfb49cfc3a05a224ed647261475864c76f25c8f81be9c0f",
+      "byte_length": 50597,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月の表示用JPEG全量SHA/HTTP200検証値を画像台帳から継承。今回の再取得・再計測ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "2026-11-07にMet公式の当該作品画像と所蔵ID・題材を視認し、旧Met APIが登録画像を同作品のprimaryImageに結びつけた2026-10月の記録を照合。今回の登録JPEGそのものの新規直接バイト照合・画素同定は行っていない。",
+    "observed": "Met公式サイトの作品画像は題賛のある縦長の掛軸。登録DP-24433-002は旧Met APIのprimaryImageに紐づき、今回は同作品の別公開画像を視認。登録JPEGの画素やバイト同一性を新規に直接検査したとは扱わない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "過去PR #3の保存本文と既存DBを先に読み、別工程でMet公式作品解説と公式画像を開き、事実・作品の意味・感情索引・出典と文章の利用条件を点検した。",
+    "limitations": "同じAIによる別工程であり独立した別AI・人間の監査ではない。Met登録JPEGの2026-10月の画像バイト検証を履歴として引き継いだが、今回新規取得していない。著作権に関する判断は法的保証ではない。",
+    "reviewed_artwork_sha256": "e9e32ab70c68aaa741c2e81fa0161099cbde001064e53e1ed008c13f7eadb98c",
+    "reviewed_visitor_draft_sha256": "be72426951240cf15d1607c928a0a404e328cc80db8e47f1a3827d4a8124423f",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met公式ID 853216、所蔵番号2021.398.21、作品題名・帰属・年代・図像と旧primaryImage紐付け記録を照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1823年の淀川での偶然の再会、二人の賛と五年前の岡城での再会、無署名の画の竹田への推定帰属をMet公式説明と照合。作者断定は避け、友人同士の交流を表す既存の喜び・懐かしさの索引を維持。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存の主感情喜び、補助懐かしさは作品固有の根拠から不自然でない。作者個人の感情の断定は加えない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "PR #3日本語解説はMetの主要な研究事実と合致する簡潔な独自の説明。館の文章の長文転載・逐語訳としては扱わず、作者の心理や異説の断定を追加しない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "e9e32ab70c68aaa741c2e81fa0161099cbde001064e53e1ed008c13f7eadb98c",
+    "visitor_draft_sha256": "be72426951240cf15d1607c928a0a404e328cc80db8e47f1a3827d4a8124423f",
+    "proposal_sha256": "7f544571a5e23b22f2f38db70ee0eb98586bdc0ece7f63c232428f131f694e6d",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JavaScriptで既存300 ID重複・対象外不変・SHA256正規化と出典対応を事前照合。Python公式登録ガード/CIはPR後にGitHub Actionsで確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-853216.json",
+    "sha256": "7f544571a5e23b22f2f38db70ee0eb98586bdc0ece7f63c232428f131f694e6d",
+    "proposed_artwork_sha256": "e9e32ab70c68aaa741c2e81fa0161099cbde001064e53e1ed008c13f7eadb98c",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "対象作品はMet公式でPublic Domainと表示され画像Open Accessを確認。",
+      "既存日本語解説はMet文を長文転載したものではなく、出典の要点を自分の表現で要約。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品画像のOpen Accessと館の解説著述を分離。現段階でこの短い日本語DB解説・公開図版に重大な未解決権利問題は認めないが、許諾保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "met-853216 Met 2021.398.21, PR #3 existing visitor draft used.",
+    "Recorded image hash and HTTP from October 2026; no fresh byte-level image verification.",
+    "Same assistant source review, not independent second model.",
+    "No curation fact, emotion tag or other artwork modified."
+  ]
+}
