@@ -1,0 +1,136 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-16554",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "eafe075b3d6b0f35874dbe7818299184610e7454",
+    "artwork_record_sha256": "c6c966406eeab662ade2cdcd93f8be80e89450f610b3f5c60008079d3388c710",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-16554.json",
+    "draft_sha256": "b78ef3a461cc9a8bddffc5cd8e669c1b3ed663c31e147a299c984e4f082d115d"
+  },
+  "sources": [
+    {
+      "url": "https://publications.artic.edu/api/epub/monet/135551/print_view",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC catalogue Cat.15 / accession 1933.1153 / Monet 1873; December 1871 move to Argenteuil and Durand-Ruel's temporary financial support; wife Camille and son Jean.",
+        "Monet’s Image of Childhood and Technical Report: IR/X-ray revealed Jean was originally seated facing out, later standing with back turned; removed ceramic planter; painter's intention to depict estrangement not evidenced."
+      ],
+      "observed": "美術館の作品同定と記載箇所を確認。該当箇所を章・所蔵番号から別工程で再参照し、同定・推測の区別を点検。"
+    },
+    {
+      "url": "https://publications.artic.edu/monet/reader/paintingsanddrawings/section/135551",
+      "access": "page_read_twice",
+      "locations": [
+        "Same official collection or AIC Cat.15/16 research record aic-16554: source citation from existing visitor/curation record; equivalent online museum catalogue rechecked."
+      ],
+      "observed": "美術館の作品同定と記載箇所を確認。該当箇所を章・所蔵番号から別工程で再参照し、同定・推測の区別を点検。"
+    },
+    {
+      "url": "https://api.artic.edu/docs/",
+      "access": "page_read_once",
+      "locations": [
+        "AIC API docs identify public-domain artworks and image-use terms; official catalog scholarly prose is separately authored."
+      ],
+      "observed": "画像の公開利用と学芸員執筆文の権利を分離して再確認した。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-16554",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Claude_Monet_-_The_Artist%27s_House_at_Argenteuil_-_1933.1153_-_Art_Institute_of_Chicago.jpg/960px-Claude_Monet_-_The_Artist%27s_House_at_Argenteuil_-_1933.1153_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "status": 200,
+      "sha256": "d7ad042b03f72942d348e20d52ffa62c1ad87c2c015fec26cc2e3c2c6c3bbc35",
+      "byte_length": 328625,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "登録済みdisplay画像の2026-10-18付全量JPEG SHA256・バイト数・当時のHTTP200を既存台帳から引き継ぐ。今回の再ダウンロード・再計測・現時点のURL応答成功を意味しない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "所蔵館図録・作品画像と登録された作品番号、公開画像のファイル名および過去の画像同定記録を対応付け。今回登録JPEG全量のピクセル検査や全バイト取得は行っていない。",
+    "observed": "AIC scholarly Cat.15 reproduction and registered Commons accession 1933.1153: red-shuttered house, floral garden, potted plants, hoop and child Jean standing back to viewer, Camille at doorway. Direct newly fetched registered thumbnail pixels not independently checked; historical Commons image identity retained."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "一次閲覧後、別工程で公式作品番号・技術／図像解説・既存鑑賞本文・感情索引・所蔵館の画像利用条件・記録の版を照合した。",
+    "limitations": "同一AIの別工程であり、別AI／第三者の独立監査ではない。登録JPEGは2026-10-18/20の旧ハッシュを再利用。直接全画素確認・最新URL接続試験・文章の非侵害保証はしていない。AIC作品ページが直接取得できない場合は同館の研究図録で内容を照合した。",
+    "reviewed_artwork_sha256": "c6c966406eeab662ade2cdcd93f8be80e89450f610b3f5c60008079d3388c710",
+    "reviewed_visitor_draft_sha256": "b78ef3a461cc9a8bddffc5cd8e669c1b3ed663c31e147a299c984e4f082d115d",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC Cat.15, Monet oil on canvas 1873, accession 1933.1153; matching registered image/Commons identification."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1871–74 family garden and the documented technical composition revisions are source-backed; theories about family discord are explicitly unconfirmed."
+      },
+      {
+        "area": "emotion",
+        "finding": "主『安心』2・補助『喜び』1は庭・家族の具体的な画面への入口であり、モネの私的幸福の直接証言とはしない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落は家族の暮らし、改描の研究、解釈上の留保を分離。学術図録の長文逐語訳・丸写しを避けている。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "c6c966406eeab662ade2cdcd93f8be80e89450f610b3f5c60008079d3388c710",
+    "visitor_draft_sha256": "b78ef3a461cc9a8bddffc5cd8e669c1b3ed663c31e147a299c984e4f082d115d",
+    "proposal_sha256": "22ec2ccd8d11a99c93277b6ff618596f7a90917d00d941d83bd7f17ba72ab81c",
+    "checks": [
+      "300_unique_ids",
+      "other_297_unchanged_after_three_completions",
+      "existing_visitor_draft_exact_match",
+      "canonical_record_sha256",
+      "prior_image_sha_same_as_catalogue",
+      "emotion_index_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JavaScript上で現行300件のID一意性・対象外297件不変更・既存解説完全一致・レコード指紋を照合。Pythonの既存登録ガード・全形式検査・GitHub ActionsはPR作成後に別途検証する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-16554.json",
+    "sha256": "22ec2ccd8d11a99c93277b6ff618596f7a90917d00d941d83bd7f17ba72ab81c",
+    "proposed_artwork_sha256": "c6c966406eeab662ade2cdcd93f8be80e89450f610b3f5c60008079d3388c710",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://api.artic.edu/docs/",
+    "locations": [
+      "AIC public-domain image availability and scholarly authored explanations have separate rights.",
+      "Existing Japanese text evaluated as individual paraphrase rather than wholesale translation of AIC catalogue."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "所蔵館のPD/CC0画像と執筆解説本文の文章権利を区別。既存日本語本文の独立した要約構成を点検した。法的適法性・現在の画像配信・第三者著作権に関する完全な保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "モネ《アルジャントゥイユの画家の家》：日本語解説・作品事実・画像・感情・検索資料を変更しない。",
+    "旧画像SHAは2026-10-18の既存計測値。今回の新規全量取得・URL応答保証ではない。",
+    "同一AIの別工程であり別AI・第三者監査ではない。",
+    "実際の完成数はCI成功・mainマージ後のみ加算する。"
+  ]
+}

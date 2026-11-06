@@ -1,0 +1,140 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-831188",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "eafe075b3d6b0f35874dbe7818299184610e7454",
+    "artwork_record_sha256": "7b600b3c30d45ad35e631896f8ed538f0325f03ff7f124c8d1cbd9711e81a353",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-831188.json",
+    "draft_sha256": "7a14c4f803861091bbf9c46f8f8c62f73418a744ec780f829b3925ea6e67464d"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/831188",
+      "access": "page_read_twice",
+      "locations": [
+        "Met collection 2020.401 / 13th century / Byzantine or Crusader attribution / made in Egypt / tempera on wood / classification Paintings-Icons.",
+        "Collection overview: Hodegetria and Eleousa types in cultural contact; Mary's pensive gaze anticipates Passion; Child's shoulder gesture MAY evoke later cross; this is curatorial iconographic interpretation, not a painter's statement."
+      ],
+      "observed": "美術館の作品同定と記載箇所を確認。該当箇所を章・所蔵番号から別工程で再参照し、同定・推測の区別を点検。"
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access / CC0 unrestricted use refers to public-domain artwork images and basic catalogue data, not scholarly narrative copyright."
+      ],
+      "observed": "画像の公開利用と学芸員執筆文の権利を分離して再確認した。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-831188",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/md/original/DP-22753-001.jpg",
+      "status": 200,
+      "sha256": "5daf9176914f32e12561f47f7eb54db966ee730eadfed830a9e9c6e323f31ebd",
+      "byte_length": 6566375,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "登録済みoriginal画像の2026-10-20付全量JPEG SHA256・バイト数・当時のHTTP200を既存台帳から引き継ぐ。今回の再ダウンロード・再計測・現時点のURL応答成功を意味しない。"
+    },
+    {
+      "id": "met-831188",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/md/web-large/DP-22753-001.jpg",
+      "status": 200,
+      "sha256": "a0a0984d9bea70051c44cfe4630fe79efb31d688dc3ad3f7ae4c58f5dc655591",
+      "byte_length": 214704,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "登録済みdisplay画像の2026-10-19付全量JPEG SHA256・バイト数・当時のHTTP200を既存台帳から引き継ぐ。今回の再ダウンロード・再計測・現時点のURL応答成功を意味しない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "所蔵館図録・作品画像と登録された作品番号、公開画像のファイル名および過去の画像同定記録を対応付け。今回登録JPEG全量のピクセル検査や全バイト取得は行っていない。",
+    "observed": "Met public collection image for accession 2020.401 shows Byzantine/Crusader tempera Virgin holding Child with close faces, a hand indicating child and Christ hand raised to shoulder. Historical Met display/original JPEG matched file number DP-22753-001; full original pixels not re-downloaded this session."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "一次閲覧後、別工程で公式作品番号・技術／図像解説・既存鑑賞本文・感情索引・所蔵館の画像利用条件・記録の版を照合した。",
+    "limitations": "同一AIの別工程であり、別AI／第三者の独立監査ではない。登録JPEGは2026-10-18/20の旧ハッシュを再利用。直接全画素確認・最新URL接続試験・文章の非侵害保証はしていない。AIC作品ページが直接取得できない場合は同館の研究図録で内容を照合した。",
+    "reviewed_artwork_sha256": "7b600b3c30d45ad35e631896f8ed538f0325f03ff7f124c8d1cbd9711e81a353",
+    "reviewed_visitor_draft_sha256": "7a14c4f803861091bbf9c46f8f8c62f73418a744ec780f829b3925ea6e67464d",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met no.2020.401, thirteenth-century Byzantine or Crusader (uncertain attribution), icon tempera on wood. Not a confirmed named artist."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met distinguishes nurturing Hodegetria variant from ideal Eleousa posture; the child's shoulder gesture is cautiously proposed as future cross reference."
+      },
+      {
+        "area": "emotion",
+        "finding": "主『慈しみ』2・補助『悲しみ』1は宗教的母子像と受難の館解釈に基づく連想。歴史上の作者心理とはしない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落は比較図像・画中の視線・不確定作者を区別し、英語作品解説の機械的逐語転載ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "7b600b3c30d45ad35e631896f8ed538f0325f03ff7f124c8d1cbd9711e81a353",
+    "visitor_draft_sha256": "7a14c4f803861091bbf9c46f8f8c62f73418a744ec780f829b3925ea6e67464d",
+    "proposal_sha256": "a19a3d4f0c9f30cb650ac2d7e9eafacad4209e7c8f2f277d9ef131bfcea62fea",
+    "checks": [
+      "300_unique_ids",
+      "other_297_unchanged_after_three_completions",
+      "existing_visitor_draft_exact_match",
+      "canonical_record_sha256",
+      "prior_image_sha_same_as_catalogue",
+      "emotion_index_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JavaScript上で現行300件のID一意性・対象外297件不変更・既存解説完全一致・レコード指紋を照合。Pythonの既存登録ガード・全形式検査・GitHub ActionsはPR作成後に別途検証する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-831188.json",
+    "sha256": "a19a3d4f0c9f30cb650ac2d7e9eafacad4209e7c8f2f277d9ef131bfcea62fea",
+    "proposed_artwork_sha256": "7b600b3c30d45ad35e631896f8ed538f0325f03ff7f124c8d1cbd9711e81a353",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/hubs/open-access",
+    "locations": [
+      "Met Open Access covers public-domain images and basic metadata under CC0.",
+      "Met published curatorial English prose is not automatically licensed by the image CC0."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "所蔵館のPD/CC0画像と執筆解説本文の文章権利を区別。既存日本語本文の独立した要約構成を点検した。法的適法性・現在の画像配信・第三者著作権に関する完全な保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "《道標の聖母子像（変奏）》：日本語解説・作品事実・画像・感情・検索資料を変更しない。",
+    "旧画像SHAは2026-10-19/20の既存計測値。今回の新規全量取得・URL応答保証ではない。",
+    "同一AIの別工程であり別AI・第三者監査ではない。",
+    "実際の完成数はCI成功・mainマージ後のみ加算する。"
+  ]
+}

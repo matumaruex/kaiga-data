@@ -1,0 +1,144 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-16571",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "eafe075b3d6b0f35874dbe7818299184610e7454",
+    "artwork_record_sha256": "e3cbd728de10097446c854886282ade950e999b347778c530f5af0b5d561a18b",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-16571.json",
+    "draft_sha256": "5e8ab9e0cacca6f45e6724de379151deb3f65e6170f4523148850cfff3d1e7b1"
+  },
+  "sources": [
+    {
+      "url": "https://publications.artic.edu/api/epub/monet/135550/print_view",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC catalogue Cat.16 / accession 1933.1158 / Monet 1877 / steam railway under iron-and-glass station roof; Paris studio near station with Caillebotte's assistance and official permission to paint.",
+        "AIC ‘Monet’s Premeditated Impressionist Work’ / Technical Report: planned framework underneath steamy strokes, IR grid on right painted over with steam, multiple sessions and 1877 third Impressionist exhibition."
+      ],
+      "observed": "同館公式図録の印刷版で作品番号と重要記述を確認した"
+    },
+    {
+      "url": "https://publications.artic.edu/monet/reader/paintingsanddrawings/section/135550",
+      "access": "page_read_twice",
+      "locations": [
+        "Same official collection or AIC Cat.15/16 research record aic-16571: source citation from existing visitor/curation record; equivalent online museum catalogue rechecked."
+      ],
+      "observed": "美術館の作品同定と記載箇所を確認。該当箇所を章・所蔵番号から別工程で再参照し、同定・推測の区別を点検。"
+    },
+    {
+      "url": "https://www.artic.edu/artworks/16571",
+      "access": "page_read_twice",
+      "locations": [
+        "Same official collection or AIC Cat.15/16 research record aic-16571: source citation from existing visitor/curation record; equivalent online museum catalogue rechecked."
+      ],
+      "observed": "当該AIC作品ページの直接取得はキャッシュ未取得。独立のAICオンライン学術図録Cat.16の原文と所蔵番号1933.1158で内容を照合し、旧作品IDを代替確認。直接閲覧の証拠ではない。"
+    },
+    {
+      "url": "https://api.artic.edu/docs/",
+      "access": "page_read_once",
+      "locations": [
+        "AIC API docs identify public-domain artworks and image-use terms; official catalog scholarly prose is separately authored."
+      ],
+      "observed": "画像の公開利用と学芸員執筆文の権利を分離して再確認した。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-16571",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Claude_Monet_-_Arrival_of_the_Normandy_Train%2C_Gare_Saint-Lazare_-_Google_Art_Project.jpg/960px-Claude_Monet_-_Arrival_of_the_Normandy_Train%2C_Gare_Saint-Lazare_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "status": 200,
+      "sha256": "b6e78368309567d45831707620d670b469cf8998e423c0c5a0086b6216bf2a18",
+      "byte_length": 210211,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "登録済みdisplay画像の2026-10-18付全量JPEG SHA256・バイト数・当時のHTTP200を既存台帳から引き継ぐ。今回の再ダウンロード・再計測・現時点のURL応答成功を意味しない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "所蔵館図録・作品画像と登録された作品番号、公開画像のファイル名および過去の画像同定記録を対応付け。今回登録JPEG全量のピクセル検査や全バイト取得は行っていない。",
+    "observed": "AIC Cat.16 1933.1158 and Wikimedia Google Art Project file depict arched iron-glass roof, foreground locomotive/steam, central green lamppost, figures and tracks; matches accession and historic Commons image record; registered thumbnail not newly fetched as exact JPEG."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "一次閲覧後、別工程で公式作品番号・技術／図像解説・既存鑑賞本文・感情索引・所蔵館の画像利用条件・記録の版を照合した。",
+    "limitations": "同一AIの別工程であり、別AI／第三者の独立監査ではない。登録JPEGは2026-10-18/20の旧ハッシュを再利用。直接全画素確認・最新URL接続試験・文章の非侵害保証はしていない。AIC作品ページが直接取得できない場合は同館の研究図録で内容を照合した。",
+    "reviewed_artwork_sha256": "e3cbd728de10097446c854886282ade950e999b347778c530f5af0b5d561a18b",
+    "reviewed_visitor_draft_sha256": "5e8ab9e0cacca6f45e6724de379151deb3f65e6170f4523148850cfff3d1e7b1",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC Cat.16 Monet 1877 oil, accession 1933.1158, not Musée d’Orsay's differently composed Saint-Lazare variant."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Technical study shows the visible dynamic mist is framed by calculated architectural placement; early roof grid painted over. No claim that Monet or depicted people felt a specific emotion."
+      },
+      {
+        "area": "emotion",
+        "finding": "補助『期待』1のみ。到着する列車に伴う弱い想像であり、乗客の心理を断定しない。主の強制追加なし。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語7段落は駅の近代性と絵具・技法の違いを伝え、独自構成の要約。AIC図録の文章権利とは別に点検。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "e3cbd728de10097446c854886282ade950e999b347778c530f5af0b5d561a18b",
+    "visitor_draft_sha256": "5e8ab9e0cacca6f45e6724de379151deb3f65e6170f4523148850cfff3d1e7b1",
+    "proposal_sha256": "9f87de1216816b8436cec496feb90d076a2cc9700dd7fa740173d16a3e8331b2",
+    "checks": [
+      "300_unique_ids",
+      "other_297_unchanged_after_three_completions",
+      "existing_visitor_draft_exact_match",
+      "canonical_record_sha256",
+      "prior_image_sha_same_as_catalogue",
+      "emotion_index_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JavaScript上で現行300件のID一意性・対象外297件不変更・既存解説完全一致・レコード指紋を照合。Pythonの既存登録ガード・全形式検査・GitHub ActionsはPR作成後に別途検証する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-16571.json",
+    "sha256": "9f87de1216816b8436cec496feb90d076a2cc9700dd7fa740173d16a3e8331b2",
+    "proposed_artwork_sha256": "e3cbd728de10097446c854886282ade950e999b347778c530f5af0b5d561a18b",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://api.artic.edu/docs/",
+    "locations": [
+      "AIC public-domain image availability and scholarly authored explanations have separate rights.",
+      "Existing Japanese text evaluated as individual paraphrase rather than wholesale translation of AIC catalogue."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "所蔵館のPD/CC0画像と執筆解説本文の文章権利を区別。既存日本語本文の独立した要約構成を点検した。法的適法性・現在の画像配信・第三者著作権に関する完全な保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "モネ《サン＝ラザール駅、ノルマンディー列車の到着》：日本語解説・作品事実・画像・感情・検索資料を変更しない。",
+    "旧画像SHAは2026-10-18の既存計測値。今回の新規全量取得・URL応答保証ではない。",
+    "同一AIの別工程であり別AI・第三者監査ではない。",
+    "実際の完成数はCI成功・mainマージ後のみ加算する。"
+  ]
+}
