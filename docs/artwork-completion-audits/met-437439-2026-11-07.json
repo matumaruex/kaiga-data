@@ -1,0 +1,139 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437439",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "07fc50d993600dfd4ade0ee4c7dbca0886ac8b60",
+    "artwork_record_sha256": "e2cabe1d63149d1167f23dd5dd322874f48610833e4db9b603ca6058b51e8f79",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437439.json",
+    "draft_sha256": "13b29c178e05896037aaaabc4aba6b9b2251705e8cbb8fbc44667d177513be3a"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437439",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 59.21. Met 59.21では1889年の野花を持つ若いモデル、1888年画商デュラン＝リュエル宛の柔らかい画風に戻るという画家の一般的発言、若さと美の題材が顧客に好まれた点を説明。1888年書簡を個別作品への直接声明と混同しない。"
+      ],
+      "observed": "Metの公式検索結果と作品詳細ページを別々に開き、作者・制作年代・館の作品説明とPublic Domain表示を確認。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met公式のOpen Access対象画像は商用非商用の利用が可能。ただし学芸員の個別作品文章とは区別。"
+      ],
+      "observed": "Met公式FAQを確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437439",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-053.jpg",
+      "sha256": "71eed2e4b1243650051cb8480db73114b53e5ff0958cb11c85bfbad4ec83ee83",
+      "byte_length": 6187185,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月の原画像JPEG全量取得時のSHAとHTTP200記録。今回再計測なし。"
+    },
+    {
+      "id": "met-437439",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-053.jpg",
+      "sha256": "2cae0316183c843278e175fa072160b9336c185c08df11e0be9ce43ecbdea1ef",
+      "byte_length": 123389,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月の表示用JPEGの旧ハッシュ・HTTP200を継承、今回新計測なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "公式Met作品写真または同作品公開画像を目視し、旧Met Object API primaryImage・所蔵番号と登録JPEGの2026年10月SHA記録を照合。今回登録JPEG全バイト再取得なし。",
+    "observed": "Met 59.21の作品画像DP-14936-053を公式IIIFとウェブ検索で視認。少女の顔、白い袖、手の野花を確認。Met primaryImageの過去SHA・所蔵紐付けは2026年10月証拠を利用。今回新測定なし。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "完成候補の日本語本文を公式Met作品ページの個別説明・公開図像と別工程で再照合し、事実、推定、感情、類似表現、権利を点検した。",
+    "limitations": "同一AI別工程であり別AI／第三者による独立監査ではない。JPEG全バイトとHTTP成功は2026年10月の既存証拠で今回の計測ではない。文章の利用権の最終法的保証ではない。",
+    "reviewed_artwork_sha256": "e2cabe1d63149d1167f23dd5dd322874f48610833e4db9b603ca6058b51e8f79",
+    "reviewed_visitor_draft_sha256": "13b29c178e05896037aaaabc4aba6b9b2251705e8cbb8fbc44667d177513be3a",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 437439／所蔵59.21の作者・制作年・PD・図像を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met 59.21では1889年の野花を持つ若いモデル、1888年画商デュラン＝リュエル宛の柔らかい画風に戻るという画家の一般的発言、若さと美の題材が顧客に好まれた点を説明。1888年書簡を個別作品への直接声明と混同しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主感情なし、補助なしの既存索引を作品の事実と対照。人物の心理を断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "公式の個別研究事実を独自の日本語文章に編み、原文の逐語訳や長文転載を避けた。本人の直接発言と館の解釈を区別した。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "e2cabe1d63149d1167f23dd5dd322874f48610833e4db9b603ca6058b51e8f79",
+    "visitor_draft_sha256": "13b29c178e05896037aaaabc4aba6b9b2251705e8cbb8fbc44667d177513be3a",
+    "proposal_sha256": "6e76a543a86669ab1be23ac6e957f2968660e2322b54c6bacc7147c0d3dc7599",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS正規化SHA、300一意ID、対象外299件不変、画像台帳対応を事前点検。Python公式ガードとsnapshotテストはGitHub CIで実行後に確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437439.json",
+    "sha256": "6e76a543a86669ab1be23ac6e957f2968660e2322b54c6bacc7147c0d3dc7599",
+    "proposed_artwork_sha256": "e2cabe1d63149d1167f23dd5dd322874f48610833e4db9b603ca6058b51e8f79",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "公式ページはPublic Domain。Met Open Access/CC0の同作品画像を利用。",
+      "独自の日本語鑑賞本文であり、館の英文解説の長文転載・逐語訳を避けた。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "既存のMet OA画像と短い独自の本文をDBに保存することに重大な未解消権利問題は認めない。ただし法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met 59.21, met-437439",
+    "以前のJPEGバイト検証を継承し新規測定していない。",
+    "同一AIの別パスであり別モデルの審査ではない。",
+    "他の299作品、画像、既存感情資料を変えていない。"
+  ]
+}
