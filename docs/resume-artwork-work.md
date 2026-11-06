@@ -1,3 +1,9 @@
+## 【最新の再開地点】2026-11-07：149完成候補／保留5（CI・main統合後確定）
+
+- met-437308《曇天の朝、ルーアン》をMet公式資料、PR #3下書き、作品画像の既存同定記録と別工程で照合。選定用資料・既存感情タグ・作品事実・他299件は不変。作品ごとの監査・版連動 completion を作成。
+- 登録Met JPEGの全バイト・HTTP200は2026-10-20の履歴を利用し、今回の新規取得ではない。同一AI別工程は第三者/別AI審査ではない。内容HOLD5は継続。Pissarro's 1896 words cited through the Met, not independently authenticated direct letter text for this single canvas.
+- GitHub Actions PASSとmain統合後のみ正式149/300件、鑑賞本文154件。作業ブランチ review/three-artworks-20261107-y。同じPRで次の未完成作品へ進む。
+
 ## 【最新の再開地点】2026-11-06：148完成候補／保留5（CI・main統合後確定）
 
 - 最新main145件を起点に met-436838《女占い師》、met-436678《訪問》、met-436952《葬儀》の新規完成候補3件を作業ブランチ review/three-artworks-20261106-x に1件ずつコミット。先行PR #104ですでに完成したハルス《ざんげ節に浮かれ騒ぐ人々》は内容を上書きしない。各作品にMet公式資料・作品画像の意味・既存PR #3日本語文の照合、監査・版連動completionを保存。元の感情タグ・作品事実・画像台帳・対象外297作品は不変更。

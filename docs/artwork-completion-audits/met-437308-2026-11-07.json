@@ -1,0 +1,138 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437308",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "b0a14b34d5b5e865389f1c46112b917582861aed",
+    "artwork_record_sha256": "b71b2eb15f9303d3c8edd709f7f29f52bb4d3303eedd4ebd8e7d4194d8a79ba7",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437308.json",
+    "draft_sha256": "7aa5cc70fc1bde0ea24b43dce62c89ca99f5ad90c377a5e252efb7632c1cfbb9"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437308",
+      "access": "page_read_twice",
+      "locations": [
+        "Met, Pissarro, 1896, 1980.21.1. The artist's account of bridge traffic, barges, smoke and mist concerns his Rouen motif; the Met identifies this work as one of the views from Hôtel d'Angleterre and cautiously attributes the French title to Pissarro."
+      ],
+      "observed": "Met official catalog overview, Public Domain indication and object details checked against PR #3 Japanese draft in source-focused initial and separate review passes."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access applies to eligible public-domain artwork images; it does not automatically grant reproduction rights to all curatorial prose."
+      ],
+      "observed": "The Met's current Open Access/FAQ distinguishes image terms and other rights."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437308",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1863.jpg",
+      "sha256": "5f841e6d2662667008248089867fcc553d147390c067fd8bcc5d8d0eb2f8e219",
+      "byte_length": 4447580,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historical Met official API/JPEG complete download SHA/HTTP200 stored in the repository on 2026-10-20; byte stream not refetched today."
+    },
+    {
+      "id": "met-437308",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1863.jpg",
+      "sha256": "f1922fba205301800b6e2c9b54bc892bf8b86f8386607844f37a880303c2f04a",
+      "byte_length": 130378,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historical Met official API/JPEG complete download SHA/HTTP200 stored in the repository on 2026-10-20; byte stream not refetched today."
+    }
+  ],
+  "visual_observations": {
+    "method": "Cross-checked named Met artwork and accession with the cataloged reproduction/independent image view; original registered Met JPEG bytes are historical evidence only.",
+    "observed": "Clouded sky above Rouen and the Seine, arched bridge, boats, quay activity and smoking industrial chimneys; matched the identified 1980.21.1 reproduction."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Second source-focused pass: compared original Met object text, identified image, each claim in the existing PR #3 Japanese draft, rights, the attribution of interpretative statements, and the original emotion indexes. Pissarro's 1896 words cited through the Met, not independently authenticated direct letter text for this single canvas.",
+    "limitations": "Same AI in separate review pass, not another independent model or a human curator. Image bytes and HTTP200 derive from 2026-10-20, not new downloads. Legal clearance is not guaranteed.",
+    "reviewed_artwork_sha256": "b71b2eb15f9303d3c8edd709f7f29f52bb4d3303eedd4ebd8e7d4194d8a79ba7",
+    "reviewed_visitor_draft_sha256": "7aa5cc70fc1bde0ea24b43dce62c89ca99f5ad90c377a5e252efb7632c1cfbb9",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met, Pissarro, 1896, 1980.21.1. The artist's account of bridge traffic, barges, smoke and mist concerns his Rouen motif; the Met identifies this work as one of the views from Hôtel d'Angleterre and cautiously attributes the French title to Pissarro."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met公式記録の橋、都市の往来、制作地点と推定題名をPR #3日本語下書きと照合。引用はルーアンのモチーフについてで本作固有の発言とは断定しない。 Pissarro's 1896 words cited through the Met, not independently authenticated direct letter text for this single canvas."
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing record has no emotion tags; do not add sadness from gray sky. The broad city and weather subject remains in themes/tones rather than forcing an affect tag."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Existing concise Japanese draft reviewed against linked Met prose for specific factual claims and uncertainty; no long verbatim quotation or lengthy close translation identified."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "b71b2eb15f9303d3c8edd709f7f29f52bb4d3303eedd4ebd8e7d4194d8a79ba7",
+    "visitor_draft_sha256": "7aa5cc70fc1bde0ea24b43dce62c89ca99f5ad90c377a5e252efb7632c1cfbb9",
+    "proposal_sha256": "26bf1b574d37a95c6f9864e315b3589f4a2d0348e28c201d2ccc86ba332b1abb",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Local deterministic JS canonical hash and ID/reference checks; GitHub Python complete_artwork.py check and CI must independently pass before main merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437308.json",
+    "sha256": "26bf1b574d37a95c6f9864e315b3589f4a2d0348e28c201d2ccc86ba332b1abb",
+    "proposed_artwork_sha256": "b71b2eb15f9303d3c8edd709f7f29f52bb4d3303eedd4ebd8e7d4194d8a79ba7",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met page identifies the object as Public Domain / OA.",
+      "The Japanese prose is a concise independently written draft; museum explanation rights are separate from artwork-image rights."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Object image publicly identified as PD/OA; original short Japanese explanation in repository has no identified material rights blocker. This is not a legal guarantee or license to reproduce the museum's prose."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met JPEG byte SHA/HTTP200 are historical evidence from 2026-10-20, not new measurement.",
+    "This is the same AI's separate review pass, not a separate AI or a third party.",
+    "Other 299 works' facts, curation, image records are preserved."
+  ]
+}
