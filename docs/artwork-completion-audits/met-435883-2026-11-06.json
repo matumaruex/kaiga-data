@@ -1,0 +1,139 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435883",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "d902f85a716f8549e34cc24e0230eb425f801c79",
+    "artwork_record_sha256": "c48cd14eecde804074f36db73969fe12eb0ab26168c3ba14e414d17375eac8ba",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435883.json",
+    "draft_sha256": "1ecfac96dacdb6e3532b40fe5fcd1032efc1f492a6850031ff89260c1f5d864d"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435883",
+      "access": "page_read_twice",
+      "locations": [
+        "Met official overview lines 28–39, details 61.101.3; multiple perspectives and fruit varieties; artwork image."
+      ],
+      "observed": "The Met official artwork page was examined twice with original object details and the linked pictured artwork inspected; the draft's claims are tied to this source. Previously registered full JPEG bytes were not re-downloaded."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "The Met Open Access FAQ describes open images and CC0. Copyrighted museum prose is not automatically covered by the artwork image's public-domain status."
+      ],
+      "observed": "Current Met Open Access FAQ reviewed; rights of artwork images are distinct from institutional explanatory prose."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435883",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-049.jpg",
+      "sha256": "d4f072b4e2f9c458924e69a1f2f744b1ea242a34fd3f84ed6a5cd7fc9de521b4",
+      "byte_length": 5328549,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Official image JPEG entire byte count and SHA-256 from 2026-10-20 prior recorded evidence only; current page image subject seen separately. HTTP 200 represents that old check."
+    },
+    {
+      "id": "met-435883",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-049.jpg",
+      "sha256": "73c7a84e394476da68951c8dedeae4e7ef516d1484b9efc8a444443d2639ca91",
+      "byte_length": 125836,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Official image JPEG entire byte count and SHA-256 from 2026-10-20 prior recorded evidence only; current page image subject seen separately. HTTP 200 represents that old check."
+    }
+  ],
+  "visual_observations": {
+    "method": "Met official item page image viewed and visually compared with registered source ID, filename and subject; original/display full-JPEG checks retained from 2026-10-20, no fresh JPEG bytes or SHA measured.",
+    "observed": "Apples and pears on and near a plate on a tabletop, geometrically unstable angles and muted blue/grey background; Met official image and accession match."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "First read prior PR #3 Japanese draft and catalog; separately re-read Met object page and museum image, cross-check specific assertions, ID, perspective or hypothetical language, emotional index, image matching and text rights.",
+    "limitations": "Same AI across separate steps, not a different model/human or independent institution; no new downloaded registered JPEG or new SHA. Open Access image doesn't license the curatorial text, and legal non-infringement is not guaranteed.",
+    "reviewed_artwork_sha256": "c48cd14eecde804074f36db73969fe12eb0ab26168c3ba14e414d17375eac8ba",
+    "reviewed_visitor_draft_sha256": "1ecfac96dacdb6e3532b40fe5fcd1032efc1f492a6850031ff89260c1f5d864d",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met accession 61.101.3, Paul Cézanne, Still Life with Apples and Pears, ca. 1891–92, oil on canvas, public domain."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met describes locally grown Provençal apples and Beurré Diel pears near Cézanne family estate, and fruit, plates and table shown from multiple perspectives (front, overhead, side). General remark about astonishing Paris with an apple is not direct documented intention for this canvas. The famous artist quote is general and not used in the visitor text as direct evidence of this particular painting's objective."
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing primary 好奇心 2 relates to tangible perceptual ambiguity of viewpoint, not asserted emotional state of Cézanne or every viewer."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Existing PR #3 Japanese draft is brief original explanatory prose faithful to the Met source, not substantial copied or line-by-line translated museum text. Historical interpretation is distinguished from documented artist intention. No legal guarantee."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "c48cd14eecde804074f36db73969fe12eb0ab26168c3ba14e414d17375eac8ba",
+    "visitor_draft_sha256": "1ecfac96dacdb6e3532b40fe5fcd1032efc1f492a6850031ff89260c1f5d864d",
+    "proposal_sha256": "053b167b40aa3dd27bc73e56ebb737ab2a1a33f87b092e5da00de8a04c11481d",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "registered_old_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS canonical/hash/ID/draft/untouched-record checks here; real Python validators and GitHub Actions CI still required for integration."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435883.json",
+    "sha256": "053b167b40aa3dd27bc73e56ebb737ab2a1a33f87b092e5da00de8a04c11481d",
+    "proposed_artwork_sha256": "c48cd14eecde804074f36db73969fe12eb0ab26168c3ba14e414d17375eac8ba",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met Public Domain / Open Access images and CC0 are not wholesale rights to museum-curated commentary.",
+      "Japanese draft uses concise original phrasing after checking Met facts; no asserted copyright license for the Met's source prose."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No material rights obstacle identified for storing metadata and independently worded Japanese description of public-domain work in GitHub. Does not assert that Met scholarly prose is free to copy or make a legal noninfringement warranty."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "The famous artist quote is general and not used in the visitor text as direct evidence of this particular painting's objective.",
+    "JPEG full-file SHAs/HTTP200 are 2026-10-20 historical values, no fresh re-download.",
+    "This is one AI in separate review steps; does not represent a second AI or outside reviewer.",
+    "Existing image URLs, facts, curation, emotion tags and the other 299 artworks are unchanged at this one-artwork save."
+  ]
+}

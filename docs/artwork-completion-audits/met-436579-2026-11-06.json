@@ -1,0 +1,139 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436579",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "d902f85a716f8549e34cc24e0230eb425f801c79",
+    "artwork_record_sha256": "a95ec0f305a6ef8497720e9a157fd1a145ade752657210e2fffddca7d1530a58",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436579.json",
+    "draft_sha256": "55d5fee5d91f7518ea45f41b7778511a98443af661ac2d3782393c76000300e4"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436579",
+      "access": "page_read_twice",
+      "locations": [
+        "The Met official overview, lines 28–39 and details object number 20.155.8, first paragraph 1757 Salon and second paragraph Rome; official image."
+      ],
+      "observed": "The Met official artwork page was examined twice with original object details and the linked pictured artwork inspected; the draft's claims are tied to this source. Previously registered full JPEG bytes were not re-downloaded."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "The Met Open Access FAQ describes open images and CC0. Copyrighted museum prose is not automatically covered by the artwork image's public-domain status."
+      ],
+      "observed": "Current Met Open Access FAQ reviewed; rights of artwork images are distinct from institutional explanatory prose."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436579",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-12952-001.jpg",
+      "sha256": "1f4b11f001fd2e80ed2510c416c65332c6288466b4354708f8c1890d6b913ca1",
+      "byte_length": 3548514,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Official image JPEG entire byte count and SHA-256 from 2026-10-20 prior recorded evidence only; current page image subject seen separately. HTTP 200 represents that old check."
+    },
+    {
+      "id": "met-436579",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-12952-001.jpg",
+      "sha256": "7383ebba2887b5d1db1a54030da1c2b3a11f5713042ac27c25b465f3ef2ee5e6",
+      "byte_length": 105893,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Official image JPEG entire byte count and SHA-256 from 2026-10-20 prior recorded evidence only; current page image subject seen separately. HTTP 200 represents that old check."
+    }
+  ],
+  "visual_observations": {
+    "method": "Met official item page image viewed and visually compared with registered source ID, filename and subject; original/display full-JPEG checks retained from 2026-10-20, no fresh JPEG bytes or SHA measured.",
+    "observed": "A distressed young woman in an interior with two adults behind, a small child and broken eggs on the floor; Met official artwork image shows these features."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "First read prior PR #3 Japanese draft and catalog; separately re-read Met object page and museum image, cross-check specific assertions, ID, perspective or hypothetical language, emotional index, image matching and text rights.",
+    "limitations": "Same AI across separate steps, not a different model/human or independent institution; no new downloaded registered JPEG or new SHA. Open Access image doesn't license the curatorial text, and legal non-infringement is not guaranteed.",
+    "reviewed_artwork_sha256": "a95ec0f305a6ef8497720e9a157fd1a145ade752657210e2fffddca7d1530a58",
+    "reviewed_visitor_draft_sha256": "55d5fee5d91f7518ea45f41b7778511a98443af661ac2d3782393c76000300e4",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met accession 20.155.8, Jean-Baptiste Greuze, Broken Eggs (1756), oil on canvas. The Met official object is public-domain."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met describes the broken eggs as an emblem for the young servant girl's loss of virginity within a moralizing genre painting; 1757 Salon critic likened her pose to history painting; the museum says Greuze found such subjects while studying in Rome. Greuze's real model's private experience is unknown; salon criticism is reported by the Met and primary contemporary publication was not separately consulted."
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing primary 不安 2 is a plausible invitation through the moralized drama and distress; no inference about a real model's experience, consent or artist's private emotion."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Existing PR #3 Japanese draft is brief original explanatory prose faithful to the Met source, not substantial copied or line-by-line translated museum text. Historical interpretation is distinguished from documented artist intention. No legal guarantee."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "a95ec0f305a6ef8497720e9a157fd1a145ade752657210e2fffddca7d1530a58",
+    "visitor_draft_sha256": "55d5fee5d91f7518ea45f41b7778511a98443af661ac2d3782393c76000300e4",
+    "proposal_sha256": "d9ec8bb5461e9d916c3b99eaa5c83093f7d03d7fa66f602913ababdf40218300",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "registered_old_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS canonical/hash/ID/draft/untouched-record checks here; real Python validators and GitHub Actions CI still required for integration."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436579.json",
+    "sha256": "d9ec8bb5461e9d916c3b99eaa5c83093f7d03d7fa66f602913ababdf40218300",
+    "proposed_artwork_sha256": "a95ec0f305a6ef8497720e9a157fd1a145ade752657210e2fffddca7d1530a58",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met Public Domain / Open Access images and CC0 are not wholesale rights to museum-curated commentary.",
+      "Japanese draft uses concise original phrasing after checking Met facts; no asserted copyright license for the Met's source prose."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No material rights obstacle identified for storing metadata and independently worded Japanese description of public-domain work in GitHub. Does not assert that Met scholarly prose is free to copy or make a legal noninfringement warranty."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Greuze's real model's private experience is unknown; salon criticism is reported by the Met and primary contemporary publication was not separately consulted.",
+    "JPEG full-file SHAs/HTTP200 are 2026-10-20 historical values, no fresh re-download.",
+    "This is one AI in separate review steps; does not represent a second AI or outside reviewer.",
+    "Existing image URLs, facts, curation, emotion tags and the other 299 artworks are unchanged at this one-artwork save."
+  ]
+}
