@@ -1,0 +1,155 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436535",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "fe2bb10642c0fb71b97e4b3f6e27d0210d6e6b35",
+    "artwork_record_sha256": "dab017f395d4e2256096ed7186b920b9631fa238cffbb66d5c679c61a1dd0f95",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436535.json",
+    "draft_sha256": "73a24f2b306d852e260dcb62da243358cf4b182dfb1a6d7f3ca824935189ffce"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436535",
+      "access": "page_read_twice",
+      "locations": [
+        "Met official description lines 22-35 and audio #133: on-the-spot late-June study, 2 July pen drawing to Theo, 2 September studio variants, no misidentification of the first canvas."
+      ],
+      "observed": "Museum/research page was opened twice in this turn, corresponding object/accession and key statements re-read; visitor explanation checked against exact source. JPEG bytes were not freshly downloaded."
+    },
+    {
+      "url": "https://www.webexhibits.org/vangogh/letter/20/597.htm",
+      "access": "page_read_twice",
+      "locations": [
+        "Van Gogh to Theo, Saint-Rémy, 2 July 1889: cypresses, wheat, poppies, tartan sky, and thick impasto; personal correspondence is not a statement about every later replica."
+      ],
+      "observed": "Museum/research page was opened twice in this turn, corresponding object/accession and key statements re-read; visitor explanation checked against exact source. JPEG bytes were not freshly downloaded."
+    },
+    {
+      "url": "https://www.nationalgallery.org.uk/paintings/vincent-van-gogh-a-wheatfield-with-cypresses",
+      "access": "page_read_twice",
+      "locations": [
+        "National Gallery official text, About the work: Met's June open-air study distinguished from London work finished in hospital room in September and the small replica for mother and sister."
+      ],
+      "observed": "Museum/research page was opened twice in this turn, corresponding object/accession and key statements re-read; visitor explanation checked against exact source. JPEG bytes were not freshly downloaded."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met policy: Public Domain and CC0 open images, distinct from copyright in museum text and scholarly narrative."
+      ],
+      "observed": "Met Open Access and public-domain FAQ read on 2026-11-06; artist work imagery and institution-authored explanation legal statuses distinguished."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436535",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg",
+      "sha256": "b46d02a42fd3bb13b022cefc5beaa997b1d7a28cd7b53e4413d940aa0dc4014d",
+      "byte_length": 8291194,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historical Met official original full-JPEG bytes and SHA256 measured and saved 2026-10-20; HTTP200 belongs to that check, not to 2026-11-06."
+    },
+    {
+      "id": "met-436535",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-42549-001.jpg",
+      "sha256": "af0e3486621c210b54932d055294051b5601aa3362af4b84ab97e2831f8163bc",
+      "byte_length": 221383,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Registered display JPEG prior Oct-2026 complete-download SHA256 and byte count retained; not remeasured on 2026-11-06."
+    }
+  ],
+  "visual_observations": {
+    "method": "Met official object/primaryImage metadata and page image with outside reproduction, object accession matched. Historical original/display image full-byte hashes reused; no new downloaded files and no fresh human inspection of local artifacts.",
+    "observed": "A dark cluster of cypresses rises against turbulent white-and-blue swirling clouds above golden wheat, with green shrubs and blue mountains; official Met image linked by Met JSON API to DP-42549-001 corresponds to registered URL, confirmed in accessible outside imagery. Registered bytes and high-res SHA inherited from 2026-10-20."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Initial existing PR #3 text/draft examination, a second pass from official institutional pages and written artist account where available, then skeptical check of attribution, modal wording, emotional tag, object ID and rights.",
+    "limitations": "Same AI separate review stages, not a second AI or third-party expert. No newly fetched full artwork JPEG and no new SHA-256 proof; verified old official registry hashes/ID are cited historically only. Image public-domain designation cannot be extended to published museum text. Current legal review means no specific material infringement obstacle identified, not an attorney warranty.",
+    "reviewed_artwork_sha256": "dab017f395d4e2256096ed7186b920b9631fa238cffbb66d5c679c61a1dd0f95",
+    "reviewed_visitor_draft_sha256": "73a24f2b306d852e260dcb62da243358cf4b182dfb1a6d7f3ca824935189ffce",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met object 436535, accession 1993.132, Vincent van Gogh, 1889, oil on canvas 73.2 x 93.4 cm. Met API currently returns primaryImage DP-42549-001 in original and web-large versions, exactly matching the catalog. Two later studio variants were painted in September 1889."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met says the Saint-Rémy countryside composition was painted on the spot; a letter to Theo dated 2 July 1889 describes the cypresses, wheat, poppies, Scottish plaid-like blue sky and impasto, and the Met distinguishes this summer painted-on-site work from 2 September indoor renditions. National Gallery of London identifies its September version as painted indoors from the earlier study. The letter is a first-person description in 1889, not proof of a claimed feeling of awe."
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing 畏敬 strength 2 is based on large cypress trees, rolling sky and high-energy brushwork as a viewer's entry, not asserted as Van Gogh's literal emotional intention. Leave existing primary tag and selector unchanged."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "PR #3 Japanese prose ties the 1889-07-02 letter to first-person account and distinguishes the on-location Met study from the later London September version and smaller gift copy; no invented direct quotation or clinical speculation. Brief new Japanese prose is not a substantial verbatim reproduction of Met authored passages; no legal noninfringement guarantee."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "dab017f395d4e2256096ed7186b920b9631fa238cffbb66d5c679c61a1dd0f95",
+    "visitor_draft_sha256": "73a24f2b306d852e260dcb62da243358cf4b182dfb1a6d7f3ca824935189ffce",
+    "proposal_sha256": "49e20e5aad516e772b715d9beb8ffc4248adfe24a6744403c04da86c6f9e0b86",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "registered_old_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Local JS validated ID uniqueness, SHA-bound audited draft and unchanged remaining records, not official Python scripts. GitHub Actions validate-format and validate-drafts must pass before main integration."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436535.json",
+    "sha256": "49e20e5aad516e772b715d9beb8ffc4248adfe24a6744403c04da86c6f9e0b86",
+    "proposed_artwork_sha256": "dab017f395d4e2256096ed7186b920b9631fa238cffbb66d5c679c61a1dd0f95",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met Open Access/Public Domain image per object page and image/data FAQ; distinguish curator and scholarship prose rights.",
+      "Existing Japanese draft wording compared against source and kept concise, independent; legal rights not certified."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No material evidence in current verification preventing the corresponding public-domain work/image metadata and independently worded Japanese commentary from being kept in GitHub DB. No copyright transfer or reproduction of protected Met text is claimed."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "The AI evidence review and source reread occurred in this turn and was not a second AI or human reviewer.",
+    "PR #3 Japanese prose ties the 1889-07-02 letter to first-person account and distinguishes the on-location Met study from the later London September version and smaller gift copy; no invented direct quotation or clinical speculation.",
+    "Existing 畏敬 strength 2 is based on large cypress trees, rolling sky and high-energy brushwork as a viewer's entry, not asserted as Van Gogh's literal emotional intention. Leave existing primary tag and selector unchanged.",
+    "Oct 2026 image SHA values and HTTP200 historical results reused, not measured in this turn."
+  ]
+}
