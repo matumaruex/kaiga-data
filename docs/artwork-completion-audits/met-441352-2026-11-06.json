@@ -1,0 +1,164 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-441352",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "8ea1b4ecf62c9473a92b793ee7bce0ad6a380302",
+    "artwork_record_sha256": "1e10e6607ebec0652cad0e516e092c9b4e294ce53e6c3639cb08cda1060d94a5",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-441352.json",
+    "draft_sha256": "6262322f11fc0891c471da324bd13e71ad56693701763563a01d259bbc855eb7"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/441352",
+      "access": "page_read_twice",
+      "locations": [
+        "Overview: appears inspired by Victor Hugo's 1827 La Douleur du pacha, a fictional Ottoman ruler's grief for his tiger",
+        "Artwork Details: Benjamin-Constant, oil on canvas, Met 2017.202.2, 205.1 x 123.8 cm, Public Domain; no creation year provided"
+      ],
+      "observed": "公式作品ページを検索と再閲覧で2回照合。Metは詩への着想を推定とし、画家の明言や史実とはしない。"
+    },
+    {
+      "url": "https://fr.wikisource.org/wiki/Les_Orientales/La_Douleur_du_pacha",
+      "access": "page_read_twice",
+      "locations": [
+        "Poem: servants suggest possible reasons for pasha's sorrow",
+        "Final lines: not devastated towns or human suffering but the death of his Nubian tiger",
+        "Final date: 1 December 1827"
+      ],
+      "observed": "原詩を検索取得・ページ全行再閲覧し、2段落下書きの推測・人間の惨事・虎の死の記述と直接照合。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Sultan%27s_Tiger_MET_DP-14274-001.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met 441352 / accession 2017.202.2 / DP-14274-001",
+        "Original 2555 by 4000 pixels, Met contributed, CC0 1.0"
+      ],
+      "observed": "Commonsの同作品画像の書誌・大きさ・権利表示を参照。JPEGを今回再取得したわけではない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Public domain images / Open Access CC0",
+        "Museum curatorial writing must not be assumed CC0 from image status"
+      ],
+      "observed": "作品画像と美術館解説文の使用条件を分けて確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-441352",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-14274-001.jpg",
+      "status": 200,
+      "sha256": "6e81b3fd742717663ca046d37ca9455ce33a8d62d085f8c0905d881d6ea68283",
+      "byte_length": 3252929,
+      "width": 2555,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の原JPEG全量SHA256実測とMet公式API同一性確認を引き継ぎ。今回は新規ダウンロードなし。"
+    },
+    {
+      "id": "met-441352",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14274-001.jpg",
+      "status": 200,
+      "sha256": "66009ad96cf8f71984e7903a0b3c9d77d58b670d0b7c14766d582f4d63930fb1",
+      "byte_length": 97595,
+      "width": 399,
+      "height": 625,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "docs/image-dimensions-audit.jsonに既存の399×625・97,595バイト・SHA一致を確認。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品ページと検索された同作品の図版プレビューを確認し、CommonsのMet 2017.202.2・登録画像DP-14274-001、過去の公式全JPEG台帳と照合。",
+    "observed": "上部プレビューに空・山並み・左右の塔・槍を持つ人物・中央の大きな敷物を確認。下部の虎の詳細は今回の画像プレビューで直接見えていないため、Met作品説明とCommons登録情報に基づくと明記。今回全量再計測はしていない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "最初の作品DB・下書き照合の後、別工程でMet公式所蔵・ユーゴー詩原文を再読し、Commonsの画像識別、以前の公式画像SHA計測記録、感情・本文・権利を確認。",
+    "limitations": "同一AIの別工程であり第三者・別AI審査ではない。今回は全画面の新規JPEG取得・SHA測定はなく、画像プレビューは上部中心。以前の実測証拠を範囲を明示して再利用。",
+    "reviewed_artwork_sha256": "1e10e6607ebec0652cad0e516e092c9b4e294ce53e6c3639cb08cda1060d94a5",
+    "reviewed_visitor_draft_sha256": "6262322f11fc0891c471da324bd13e71ad56693701763563a01d259bbc855eb7",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 441352 / 2017.202.2、Benjamin-Constant、油彩カンヴァス。Metは制作年を掲載しないため不詳。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "ユゴー『La Douleur du pacha』への着想はMetの推定。詩の結末はヌビアの虎の死であり、画家の直接証言ではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『喪失感』2と『悲しみ』2は詩の死別と嘆き、補助『寂しさ』1は弱い連想。作者の心理・実在のパシャの史実としない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語2段落はMetの短い公式説明とユゴーの詩を独自に要約し、作品と原詩の区別を保持。大段落の逐語訳・転載は認められない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "1e10e6607ebec0652cad0e516e092c9b4e294ce53e6c3639cb08cda1060d94a5",
+    "visitor_draft_sha256": "6262322f11fc0891c471da324bd13e71ad56693701763563a01d259bbc855eb7",
+    "proposal_sha256": "2460212a9e00109b77d487a795db22d488759ab6be876debcd4478e05438500d",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_hash",
+      "historic_image_sha_reused",
+      "emotion_consistency",
+      "new_visitor_prose_checked"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JavaScriptで既存完成レコードのハッシュ適合性を検証してから対象版を組み立て。Python preview/save/checkとCIは本PRで別途実行する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-441352.json",
+    "sha256": "2460212a9e00109b77d487a795db22d488759ab6be876debcd4478e05438500d",
+    "proposed_artwork_sha256": "1e10e6607ebec0652cad0e516e092c9b4e294ce53e6c3639cb08cda1060d94a5",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met Public Domain painting",
+      "Open Access / CC0 artwork image",
+      "Curatorial English text separately protected; draft uses original Japanese summary"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met作品画像のOA/CC0を確認し、館の原文を無条件に再利用可能とみなさず2段落の独自要約と照合。法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "PR #3に既存の日本語2段落を再利用。作品画像・感情・意味の正本は変更しない。",
+    "原画像と表示画像のSHAは旧検証記録であり今回の取得実績と称さない。",
+    "GitHub Actions合格・main統合後のみ70完成。次はmet-898196。"
+  ]
+}
