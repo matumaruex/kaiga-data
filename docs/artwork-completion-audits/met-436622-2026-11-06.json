@@ -6,28 +6,28 @@
   "result_applies_to": "proposed_artwork_and_current_visitor_draft",
   "progress": "未完成",
   "version": {
-    "baseline_commit": "5bb148f775f4c719451a3dbe1581a4c2c04b7bea",
-    "artwork_record_sha256": "4d109c31fc098c1012770ceed2021583c8390ea107b3478b1af136446f6fbc41",
+    "baseline_commit": "2c88d37cad887cef05895634db9f3be3d7d5ad38",
+    "artwork_record_sha256": "5866428d24b0819f6436ac12e658a50386f3f0afba6ed2913b73f9fe0ed1d31e",
     "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
     "draft_path": "drafts/visitor-explanations/met-436622.json",
-    "draft_sha256": "8f20f20a1be8c85bf8317736ab7cfcfdb51479dbd08fead10f085350e0cb6696"
+    "draft_sha256": "8a780bd226af5f82245b875dfa1909701c822c13355defa42acce216252dd12d"
   },
   "sources": [
     {
       "url": "https://www.metmuseum.org/art/collection/search/436622",
       "access": "page_read_twice",
       "locations": [
-        "Met Merrymakers at Shrovetide, Frans Hals, ca.1616–17, accession 14.40.605, Public Domain. Shrovetide before Lent with theatrical clowns named Pickled Herring and John Sausage. Curators identify central figure as a man dressed as a woman, describe bawdy double meanings; curator Adam Eaker on F.H. initials on beer tankard."
+        "The Met overview for 14.40.605 (Frans Hals, ca.1616–17) identifies the two theatrical Shrovetide figures Hans Worst (sausage cap) and Pekelharing (salted fish and eggs), and states center figure is probably a boy in a woman's role. Audio transcript 5031 Adam Eaker identifies artist's FH initials on the beer tankard, read as a deliberate joke; the festive foods also carry innuendo."
       ],
-      "observed": "Met current record and museum audio transcript rechecked for title, figures, date, festive context and artist's initials."
+      "observed": "Met artwork overview, Artwork Details and audio transcript 5031 rechecked directly against original Japanese draft and selection-index meaning; object Public Domain label verified."
     },
     {
       "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
       "access": "page_read_once",
       "locations": [
-        "Open Access PD art images do not automatically cover curatorial prose."
+        "Met OA policy distinguishes Public Domain work images from museum textual descriptions."
       ],
-      "observed": "Museum image and prose rights distinguished."
+      "observed": "The specific object is marked Public Domain, draft is independent Japanese explanatory prose."
     }
   ],
   "images": [
@@ -41,7 +41,7 @@
       "matches_registered_bytes": true,
       "sha_checked_on": "2026-10-20",
       "fresh_download_in_this_session": false,
-      "prior_evidence": "2026-10-20 Met full JPEG SHA/HTTP200 historical record, not fresh download."
+      "prior_evidence": "Historic 2026-10-20 API identity, HTTP200 and full JPEG SHA only; no current download or hash."
     },
     {
       "id": "met-436622",
@@ -53,12 +53,12 @@
       "matches_registered_bytes": true,
       "sha_checked_on": "2026-10-20",
       "fresh_download_in_this_session": false,
-      "prior_evidence": "Historical Met display JPEG SHA/HTTP200, not fresh download."
+      "prior_evidence": "Historic 2026-10-20 API identity, HTTP200 and full JPEG SHA only; no current download or hash."
     }
   ],
   "visual_observations": {
-    "method": "Identified museum photograph of painting against Met official record and historical Met API primary-image binding. Current registered Met JPEG bytes not downloaded.",
-    "observed": "Crowded merrymaking; central figure with ornate white lace collar in red outfit, laughing group surrounding, food props and foreground tankard. Same painting as Met 14.40.605."
+    "method": "Visually checked an indexed reproduction of Met's exact canvas, verified attribution/number and historical image identity link; no newly accessed registered Met JPEG pixels.",
+    "observed": "Viewed reproduction of Met accession 14.40.605: elaborately dressed figure with red costume and lace collar in center, cheerful costumed actors flank it; the ale tankard and food in foreground match Met descriptions. This was not a new registered Met JPEG byte or pixel inspection."
   },
   "separate_pass_review": {
     "completed": true,
@@ -66,61 +66,62 @@
     "reviewer": "same_assistant_separate_pass",
     "separate_agent_used": false,
     "separate_context_used": false,
-    "method": "Separately compared corrected Japanese explanation with original museum description and audio transcript, checked presumed age and clown naming, picture, image rights, emotion tag.",
-    "limitations": "Same AI separate-pass, not an independent second reviewer. Met registered JPEG bytes old 2026-10-20 validation reused, current full pixels not newly fetched. Museum prose copyright judgment not legal guarantee.",
-    "reviewed_artwork_sha256": "57f8b87899a8500fd2bff9dcfab07c746ed52ad37b4d034b138d98fa32c68b02",
-    "reviewed_visitor_draft_sha256": "8f20f20a1be8c85bf8317736ab7cfcfdb51479dbd08fead10f085350e0cb6696",
+    "method": "Second independent reading pass of Met source description and audio transcript against the PR #3 draft, artwork registry and indexed reproduction; same AI, not an outside reviewer.",
+    "limitations": "Same AI, not independent external curator/agent. Bound museum image JPEG bytes not freshly downloaded. Prior full JPEG SHA verified in October, public reproduction visually viewed.",
+    "reviewed_artwork_sha256": "5866428d24b0819f6436ac12e658a50386f3f0afba6ed2913b73f9fe0ed1d31e",
+    "reviewed_visitor_draft_sha256": "8a780bd226af5f82245b875dfa1909701c822c13355defa42acce216252dd12d",
     "checks": [
       {
         "area": "identity",
-        "finding": "Met Merrymakers at Shrovetide, Frans Hals, ca.1616–17, accession 14.40.605, Public Domain. Shrovetide before Lent with theatrical clowns named Pickled Herring and John Sausage. Curators identify central figure as a man dressed as a woman, describe bawdy double meanings; curator Adam Eaker on F.H. initials on beer tankard."
+        "finding": "Met 14.40.605, Frans Hals, Merrymakers at Shrovetide, ca.1616–17, object image and PD match."
       },
       {
         "area": "context_and_interpretation",
-        "finding": "Official Met audio supports stage clown names and man dressed as woman. Avoid unsupported boy/child designation and confusion with other clown traditions. F.H. joke attributed to curator, not direct painter testimony."
+        "finding": "The Met overview for 14.40.605 (Frans Hals, ca.1616–17) identifies the two theatrical Shrovetide figures Hans Worst (sausage cap) and Pekelharing (salted fish and eggs), and states center figure is probably a boy in a woman's role. Audio transcript 5031 Adam Eaker identifies artist's FH initials on the beer tankard, read as a deliberate joke; the festive foods also carry innuendo."
       },
       {
         "area": "emotion",
-        "finding": "Existing primary 喜び2 corresponds to specific Shrovetide revelry and theatrical conviviality, not blanket claim of personal happiness or author intent."
+        "finding": "喜び2 captures the festive scene for search, with caveat it is also theatrical satire; not unconditional joy nor artist self-testimony."
       },
       {
         "area": "text_and_similarity",
-        "finding": "Corrected the draft's names and age term; Japanese prose is brief and written independently without long verbatim/near-verbatim curatorial translations."
+        "finding": "Own concise Japanese description, museum's qualifications including probably kept, no excessive quotation, and curator's monogram interpretation attributed."
       }
     ]
   },
   "program_checks": {
     "result": "PASS",
-    "proposed_artwork_sha256": "57f8b87899a8500fd2bff9dcfab07c746ed52ad37b4d034b138d98fa32c68b02",
-    "visitor_draft_sha256": "8f20f20a1be8c85bf8317736ab7cfcfdb51479dbd08fead10f085350e0cb6696",
-    "proposal_sha256": "5d8a669851aa6bab28fb368ffaaa9230ea1ba1e496e19eea801ecdaa03205c47",
+    "proposed_artwork_sha256": "5866428d24b0819f6436ac12e658a50386f3f0afba6ed2913b73f9fe0ed1d31e",
+    "visitor_draft_sha256": "8a780bd226af5f82245b875dfa1909701c822c13355defa42acce216252dd12d",
+    "proposal_sha256": "e16a2d55780e808f677b10e23c0e7c3d7801004e3812026eb683d334a76d300b",
     "checks": [
       "300_unique_ids",
       "other_299_unchanged",
       "canonical_sha256",
       "source_urls_bound",
-      "historical_image_hash_metadata_match",
+      "historic_image_hash_metadata_match",
       "emotion_tags_unchanged"
     ],
     "structure_count": 300,
     "ai_judgment_included": false,
-    "limitations": "JS canonical SHA and structural prechecks; Python preview/check and GitHub Actions to run independently before merge."
+    "limitations": "Canonical SHA and structural checks performed in JS; existing repository CI check still required."
   },
   "proposal": {
     "path": "drafts/artwork-revisions/met-436622.json",
-    "sha256": "5d8a669851aa6bab28fb368ffaaa9230ea1ba1e496e19eea801ecdaa03205c47",
-    "proposed_artwork_sha256": "57f8b87899a8500fd2bff9dcfab07c746ed52ad37b4d034b138d98fa32c68b02",
+    "sha256": "e16a2d55780e808f677b10e23c0e7c3d7801004e3812026eb683d334a76d300b",
+    "proposed_artwork_sha256": "5866428d24b0819f6436ac12e658a50386f3f0afba6ed2913b73f9fe0ed1d31e",
     "applied_to_catalog": false
   },
   "rights_check": {
     "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
     "locations": [
-      "Met collection marks artwork Public Domain; own brief Japanese explanation separately assessed for originality."
+      "Met marked object Public Domain, corresponding OA image free to use.",
+      "Curatorial text rights are separate; Japanese prose independently worded."
     ],
     "checked_on": "2026-11-06",
     "result": "PASS",
     "unresolved_material_issues": [],
-    "finding": "PD painting and independently phrased short explanatory Japanese prose have no material identified rights blocker for repository storage; museum prose not treated CC0, no legal guarantee."
+    "finding": "No identified unresolved material barrier to repository storage of independently worded explanation and PD work imagery; not a legal guarantee."
   },
   "remaining": [],
   "promotion": {
@@ -130,8 +131,8 @@
     "human_approval_required": false
   },
   "notes": [
-    "Japanese text revised to remove unsupported boy age and match official figure names.",
-    "Historic 2026-10-20 Met SHA reused, no new JPEG download.",
-    "Same AI separate research pass, not third-party independent model."
+    "Viewed reproduction of Met accession 14.40.605: elaborately dressed figure with red costume and lace collar in center, cheerful costumed actors flank it; the ale tankard and food in foreground match Met descriptions. This was not a new registered Met JPEG byte or pixel inspection.",
+    "Met full-byte JPEG hashes/HTTP200 carried forward from historical 2026-10-20 checks, not newly tested.",
+    "Same AI separate review pass, not second independent model."
   ]
 }
