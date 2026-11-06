@@ -1,0 +1,141 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-10497",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "65736ea2371d09f2e928ac21ad898929974f7d5f",
+    "artwork_record_sha256": "04fd12a5c94c3ef360b916a57d5ab1db66ef25f6f65749ce90bd341cb588f9f9",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-10497.json",
+    "draft_sha256": "90576b6ffdc92b8ad85f2fc5ab2275737b0e2a55742ec4e23f936a66c10a10f6"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/10497",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 08.228, Thomas Cole, View from Mount Holyoke—The Oxbow, 1836, oil on canvas, Public Domain",
+        "Met overview: storm clouds and damaged tree, planted land with hay and sheep, tiny Cole self-portrait",
+        "Audioguide narrator lists optimistic and preservation readings; Xiye Bastida discusses settler expansion and displacement of Indigenous peoples"
+      ],
+      "observed": "Met公式所蔵館ページをDB・本文照合の前後に参照し、版・題材・解説と照合した。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "OA/CC0 applies to labeled public domain artwork image",
+        "Museum English prose is not automatically released under artwork image CC0"
+      ],
+      "observed": "画像の利用許諾と所蔵館本文の権利を分けた。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-10497",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-12550-001.jpg",
+      "status": 200,
+      "sha256": "40c454b6cf712c6ef70cca067fbe551c069d4b9130d06716db05452d16d515c4",
+      "byte_length": 3053431,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met登録済み画像の2026-10-20時点の全量JPEG SHA証拠を継承。今回の全量再取得・再測定はなし。"
+    },
+    {
+      "id": "met-10497",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-12550-001.jpg",
+      "status": 200,
+      "sha256": "917a5ac37897c7d10bbe2116cc1ababa7f6cff94e1a85eec4f4f243a2aa1fc06",
+      "byte_length": 97058,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met登録済み画像の2026-10-19時点の全量JPEG SHA証拠を継承。今回の全量再取得・再測定はなし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式画像・公開図の視認と、所蔵番号/画像台帳の過去SHAの突合。登録JPEGをこの会話で再取得して全画素視認したとは主張しない。",
+    "observed": "画面左の暗い森と雲、右の明るい曲流と農地、手前の小さな画家像の配置を全景画像とMet説明で確認。公式JPEG全量は再取得していない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存DB・下書き一次検討とは分けて、所蔵館作品ページおよび追加歴史資料を再確認し、作品同定・解釈・感情・日本語表現・権利を見直した。",
+    "limitations": "同一AI別工程であり別AI・第三者審査ではない。画像全量SHAは2026-10-19/20記録を利用し今回は再取得していない。法的な非侵害保証なし。",
+    "reviewed_artwork_sha256": "04fd12a5c94c3ef360b916a57d5ab1db66ef25f6f65749ce90bd341cb588f9f9",
+    "reviewed_visitor_draft_sha256": "90576b6ffdc92b8ad85f2fc5ab2275737b0e2a55742ec4e23f936a66c10a10f6",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 08.228、1836年、Thomas Cole、油彩と一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "『無人の荒野』という表現が先住民の存在を否定する事実ではない点と、現代の活動家による追加解釈を区別。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『畏敬』3・補助『不安』1は自然のスケールと嵐の描写への入り口。作者本人の心理は決めつけない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落の具体的な画面・音声の引用範囲を原文と照合。所蔵館長文の逐語転載を認めない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "04fd12a5c94c3ef360b916a57d5ab1db66ef25f6f65749ce90bd341cb588f9f9",
+    "visitor_draft_sha256": "90576b6ffdc92b8ad85f2fc5ab2275737b0e2a55742ec4e23f936a66c10a10f6",
+    "proposal_sha256": "24df3cd0cdee07602491c3513a06ad73f43dbeef43f5ecb0379b60b39f67124d",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match_or_new_text",
+      "canonical_hash",
+      "old_image_sha_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub保存前のJSでレコードのID、他作品の不変性、下書き・proposal・audit指紋を検査。正式Pythonテスト・GitHub ActionsはPRで別に確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-10497.json",
+    "sha256": "24df3cd0cdee07602491c3513a06ad73f43dbeef43f5ecb0379b60b39f67124d",
+    "proposed_artwork_sha256": "04fd12a5c94c3ef360b916a57d5ab1db66ef25f6f65749ce90bd341cb588f9f9",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Target artwork is Public Domain at Met",
+      "CC0 image and English curatorial text rights considered separately",
+      "Japanese text checked for independent expression and avoidance of long literal translation"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "画像のMet OA/CC0と美術館の英文解説を別扱いにして検査。日本語本文は独立構成だが、法的な許諾/非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "オックスボウ既存日本語解説・DB本体の意味資料・画像・タグを維持して監査・completionのみ追加。",
+    "CIとmain統合後のみ正式完成とする。"
+  ]
+}
