@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-44638",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "dbbf1ec10160b8b70832489bdb5873620d62137f",
+    "artwork_record_sha256": "2dc6946b63c427ff25e7744650a28d93826e7c5b52a862829b8c1f2f26809693",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-44638.json",
+    "draft_sha256": "369bdc6b22e6ad384312b239e4720ad3256d12fd7f7b65de76ef7da47410f6cc"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/44638",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 1986.493.2, Ma Yuan, Viewing plum blossoms by moonlight, early 13th century, Southern Song; fan mounted as album leaf, ink and color on silk. Met official calls it a visual poem with moon, white-robed gentleman, dark/angular trees and rocks, pavilion's thatched roof for garden location and a qualified 'may be read' yin-yang / physical-spiritual double-nature metaphor."
+      ],
+      "observed": "Opened and re-opened this Met collection entry, compared object number, current maker/date, full visible overview, qualifiers and retained Japanese interpretation."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:%E5%8D%97%E5%AE%8B_%E9%A6%AC%E9%81%A0_%E6%9C%88%E4%B8%8B%E8%B3%9E%E6%A2%85%E5%9C%96_%E5%9C%98%E6%89%87-Viewing_plum_blossoms_by_moonlight_MET_DP160432.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met-owned original DP160432 image shows the rounded fan painting with thin twisting plum branches rising toward a small moon in upper right, dark rocks and white-robed main viewer at left and a companion. Work-specific Commons 1796×1678 image with same Met object number 1986.493.2 matches the registered original resolution."
+      ],
+      "observed": "Identified Met-donated work-specific CC0 reproduction through file metadata (object number, artist, filename and registered dimensions) and visual content, distinct from historical byte hash measurements."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met's Open Access policy licenses eligible public-domain object reproductions under CC0; it does not automatically license museum-authored curatorial prose."
+      ],
+      "observed": "Read image reuse and public-domain rules; separated image rights from the original Japanese prose."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-44638",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP160432.jpg",
+      "sha256": "d973c55eadb2582bcf1c5224139661d1377c6abd1200bae0972d59243ec14522",
+      "byte_length": 794729,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 complete registered Met original JPEG HTTP200/SHA256 measurement, inherited as historical proof; this turn has no fresh JPEG download or hash."
+    },
+    {
+      "id": "met-44638",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP160432.jpg",
+      "sha256": "f50dd0380a496ebdc8e46e35d11295892dfdce5b1a1e780fff74f0e21d30b0ac",
+      "byte_length": 129744,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 complete registered Met web-large JPEG HTTP200/SHA256 measurement, inherited as historical proof; this turn has no fresh JPEG download or hash."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compared the painting in public Met and same-work Commons visual reproductions and work-specific accession/filename/pixel size metadata. Registered JPEG hashes are dated earlier; no fresh byte-level comparison performed.",
+    "observed": "Met-owned original DP160432 image shows the rounded fan painting with thin twisting plum branches rising toward a small moon in upper right, dark rocks and white-robed main viewer at left and a companion. Work-specific Commons 1796×1678 image with same Met object number 1986.493.2 matches the registered original resolution."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "After reading the preserved draft and baseline, separately re-opened current Met original scholarship and same-object Commons image, checked title, creator, medium/date, object-specific meaning, depicted details, emotion index and licensing.",
+    "limitations": "This was a separate pass by the same AI, not a second model or independent third party. The registered Met JPEG SHA/HTTP200 checks were done 2026-10-20, not repeated in this session. Rights judgment is not legal assurance.",
+    "reviewed_artwork_sha256": "2dc6946b63c427ff25e7744650a28d93826e7c5b52a862829b8c1f2f26809693",
+    "reviewed_visitor_draft_sha256": "369bdc6b22e6ad384312b239e4720ad3256d12fd7f7b65de76ef7da47410f6cc",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 1986.493.2 is Ma Yuan's Southern Song fan mounted in an album, not another follower/imitator of Ma Yuan. Met JPEG DP160432 and 1796×1678 work-specific Commons donation agree."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "The Met frames this as poetic visual balance and possible philosophical yin-yang interpretation; artist's personally stated intention is unknown. The roof identifies garden setting. The original draft describes one white-robed viewer without excluding the less prominent companion."
+      },
+      {
+        "area": "emotion",
+        "finding": "Original catalog has no emotion category; visually quiet landscape alone does not justify 安心 or other stronger feeling tags."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Japanese PR #3 prose is short original paraphrase of the museum's poetical and tentative cosmic reading, retaining interpretation as the museum's position. Does not claim independent testimony from the painter."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "2dc6946b63c427ff25e7744650a28d93826e7c5b52a862829b8c1f2f26809693",
+    "visitor_draft_sha256": "369bdc6b22e6ad384312b239e4720ad3256d12fd7f7b65de76ef7da47410f6cc",
+    "proposal_sha256": "6f1a7dfcb405dabb7d92b8cfc38de59218724d8b29db452b4e391e5139907227",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Local JS checked canonical record/file SHA256, 300 unique records, no other artwork modifications, unchanged source and emotions, and historic image URL/SHA metadata. The full repository Python registration guard and catalog tests are separately enforced in GitHub Actions after push."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-44638.json",
+    "sha256": "6f1a7dfcb405dabb7d92b8cfc38de59218724d8b29db452b4e391e5139907227",
+    "proposed_artwork_sha256": "2dc6946b63c427ff25e7744650a28d93826e7c5b52a862829b8c1f2f26809693",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "The work-specific Met record is marked Public Domain, and the corresponding Met-donated Commons image states CC0.",
+      "Japanese commentary is a separate concise factual/interpretive rendering with no substantial literal translation or prolonged quotation from the museum curatorial text."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material rights conflict for the Met's public-domain image and independently authored brief Japanese summary; not a legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met 1986.493.2の13世紀扇面・余白・梅・月・庭園と、館による陰陽の比喩を可能な読みとして照合。",
+    "Historical JPEG file HTTP200 and SHA were verified on 2026-10-20, not newly measured.",
+    "Same AI's separate source-review pass, not an independent third party.",
+    "Original fact, curation and emotion indexes and all other 299 artwork records are unchanged."
+  ]
+}

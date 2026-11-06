@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-670765",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "a3409071e3ca7f9ad47089a2f2d712437f17a268",
+    "artwork_record_sha256": "5e4ad1b5f8f5f354b50d49c8e0e6cf602e80c3362a154f6afa0aa02253235326",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-670765.json",
+    "draft_sha256": "4f1e9276a6833f5b01559411faf2c1f814f68aa16c4da51c7602731e5db8a85a"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/670765",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 2016.63, Guido Cagnacci, The Death of Cleopatra, ca.1645–55, oil on canvas 95×75 cm. Overview reads Plutarch's Lives as the literary source, Antony's defeat, serpent around arm with its teeth hidden by hand, flushed cheeks/upturned eyes, sensual treatment indebted to Guido Reni; popularity of the theme in Baroque poetry, theater, painting."
+      ],
+      "observed": "Opened and re-opened this Met collection entry, compared object number, current maker/date, full visible overview, qualifiers and retained Japanese interpretation."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Death_of_Cleopatra_MET_DP375602.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met-contributed CC0 Commons reproduction DP375602 for 2016.63, original 3222×3872. The same painting visibly shows solitary female with raised eyes, bare shoulder/chest, pink drapery, serpent coiled about her forearm, hand across her body. Historical registered Met JPEG filename matches; the Commons file is not a new binary re-download of that JPEG."
+      ],
+      "observed": "Identified Met-donated work-specific CC0 reproduction through file metadata (object number, artist, filename and registered dimensions) and visual content, distinct from historical byte hash measurements."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met's Open Access policy licenses eligible public-domain object reproductions under CC0; it does not automatically license museum-authored curatorial prose."
+      ],
+      "observed": "Read image reuse and public-domain rules; separated image rights from the original Japanese prose."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-670765",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP375602.jpg",
+      "sha256": "9d490e5c5af2b21140ffc29979a0bc07f99030cccfd4c62460e581db7d8ee56b",
+      "byte_length": 3928218,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 complete registered Met original JPEG HTTP200/SHA256 measurement, inherited as historical proof; this turn has no fresh JPEG download or hash."
+    },
+    {
+      "id": "met-670765",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP375602.jpg",
+      "sha256": "10c62cde14bd4b4bdce3f4f1a7179e38a2c354c74e56872bfb723c69b3c994f5",
+      "byte_length": 88359,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 complete registered Met web-large JPEG HTTP200/SHA256 measurement, inherited as historical proof; this turn has no fresh JPEG download or hash."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compared the painting in public Met and same-work Commons visual reproductions and work-specific accession/filename/pixel size metadata. Registered JPEG hashes are dated earlier; no fresh byte-level comparison performed.",
+    "observed": "Met-contributed CC0 Commons reproduction DP375602 for 2016.63, original 3222×3872. The same painting visibly shows solitary female with raised eyes, bare shoulder/chest, pink drapery, serpent coiled about her forearm, hand across her body. Historical registered Met JPEG filename matches; the Commons file is not a new binary re-download of that JPEG."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "After reading the preserved draft and baseline, separately re-opened current Met original scholarship and same-object Commons image, checked title, creator, medium/date, object-specific meaning, depicted details, emotion index and licensing.",
+    "limitations": "This was a separate pass by the same AI, not a second model or independent third party. The registered Met JPEG SHA/HTTP200 checks were done 2026-10-20, not repeated in this session. Rights judgment is not legal assurance.",
+    "reviewed_artwork_sha256": "5e4ad1b5f8f5f354b50d49c8e0e6cf602e80c3362a154f6afa0aa02253235326",
+    "reviewed_visitor_draft_sha256": "4f1e9276a6833f5b01559411faf2c1f814f68aa16c4da51c7602731e5db8a85a",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met item 2016.63 by Guido Cagnacci, c.1645–55; Commons 3222×3872 work-specific image DP375602 maps to the same accession and depiction, not another Cleopatra-death composition."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Plutarch is the stated historical-literary source, but serpent death should not be declared medical-historical certainty. Met views Cagnacci as indebted to Guido Reni stylistically; that is not an assertion of his private feelings about the suicide."
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing primary 喪失感2 and secondary 悲しみ1 reflect the tragic loss and represented death; these are entry links only, not a claim about Cagnacci's intention or a viewer's actual reaction. Warnings about romanticizing self-harm retained."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "PR #3 Japanese visitor draft accurately attributes literary context to Met, focuses on hidden fangs and expression, and mentions Reni only as scholarly observation; avoids lengthy reproduction or glorification."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "5e4ad1b5f8f5f354b50d49c8e0e6cf602e80c3362a154f6afa0aa02253235326",
+    "visitor_draft_sha256": "4f1e9276a6833f5b01559411faf2c1f814f68aa16c4da51c7602731e5db8a85a",
+    "proposal_sha256": "09e9e574dedebea95a729475b14b34d90a15bb4144f6ab9c7b6da386d1815c1b",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Local JS checked canonical record/file SHA256, 300 unique records, no other artwork modifications, unchanged source and emotions, and historic image URL/SHA metadata. The full repository Python registration guard and catalog tests are separately enforced in GitHub Actions after push."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-670765.json",
+    "sha256": "09e9e574dedebea95a729475b14b34d90a15bb4144f6ab9c7b6da386d1815c1b",
+    "proposed_artwork_sha256": "5e4ad1b5f8f5f354b50d49c8e0e6cf602e80c3362a154f6afa0aa02253235326",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "The work-specific Met record is marked Public Domain, and the corresponding Met-donated Commons image states CC0.",
+      "Japanese commentary is a separate concise factual/interpretive rendering with no substantial literal translation or prolonged quotation from the museum curatorial text."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material rights conflict for the Met's public-domain image and independently authored brief Japanese summary; not a legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met 2016.63のクレオパトラと蛇の描写、プルタルコス由来の伝承とレーニとの関係を再照合。",
+    "Historical JPEG file HTTP200 and SHA were verified on 2026-10-20, not newly measured.",
+    "Same AI's separate source-review pass, not an independent third party.",
+    "Original fact, curation and emotion indexes and all other 299 artwork records are unchanged."
+  ]
+}
