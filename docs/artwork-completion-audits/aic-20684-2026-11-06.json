@@ -1,0 +1,139 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-20684",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "0a6ef52cc2b5f455bfcdb2f68ce7647475a6a3f9",
+    "artwork_record_sha256": "cdb8ec20327994160caf34f334d52f439f12cc76306bb716e34a2c89d9cdcc06",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-20684.json",
+    "draft_sha256": "7b2d76275b15f805017f9b78ac6a21565a9e46f44625ef799a30057ef13ca869"
+  },
+  "sources": [
+    {
+      "url": "https://publications.artic.edu/caillebotte/reader/paintingsanddrawings/section/574/p-42",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC scholarly Caillebotte Cat.2, Paris Street; Rainy Day, 1877, accession1964.336, oil on canvas; photograph-like street intersection with central lamppost and figures.",
+        "The Cast of Characters / Technical Report: preparatory pencil sketches, positioning of figures, architecture, umbrellas, and central lamppost; major shifts of right building and added rightmost man during oil painting.",
+        "AIC permanent collection: city boulevards transformed by Haussmann and anonymity/detachment of passers-by in a planned, monumental composition. Third Impressionist exhibition April1877."
+      ],
+      "observed": "当該AIC公式図録の検索・原文と技術記述を別パスで再検討。作品同定と解釈の確度を分離した。"
+    },
+    {
+      "url": "https://www.artic.edu/artworks/20684",
+      "access": "page_read_twice",
+      "locations": [
+        "aic-20684 verified art-institute legacy collection information and accession 1964.336; website direct URL cache miss, checked against Art Institute official online scholarly catalogue and saved API record.",
+        "AIC scholarly Caillebotte Cat.2, Paris Street; Rainy Day, 1877, accession1964.336, oil on canvas; photograph-like street intersection with central lamppost and figures."
+      ],
+      "observed": "この館個別作品URLの直接取得は今回キャッシュ失敗。旧所蔵APIチェック記録と最新閲覧できたAIC学術図録・旧展示記事により当該所蔵番号・題名・画面を交差確認。直接作品ページを読んだとはしない。"
+    },
+    {
+      "url": "https://api.artic.edu/docs/",
+      "access": "page_read_once",
+      "locations": [
+        "Art Institute of Chicago collection objects reported public-domain are image-use subjects under image licensing rules, not blanket relicensing of scholarly text.",
+        "Third-party Commons and pinned GitHub mirrors' historical open-image claims are reviewed separately; distribution needs license review."
+      ],
+      "observed": "所蔵画像と同館の学術解説本文を権利上分離。画像の過去認証と現時点の再配信を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-20684",
+      "kind": "display",
+      "url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/20684.jpg",
+      "status": 200,
+      "sha256": "85092b047a0653a751aa4d9933abc47c0ba8361bef1ccf12707bfdf9f2327685",
+      "byte_length": 195160,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18の既存画像レジストリのSHA256/バイト長/当時のHTTP200。今回は新規全量再取得・再計測なし。現在のHTTP応答を示す数値ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "AIC一次学術図録・過去所蔵画像同定・Commons一般公開図像を作品番号で照合。登録JPEGの完全バイト再取得はしていない。",
+    "observed": "館の公式図録と同館の旧コレクション図版、Commonsの1964.336作品図像を照合。緑の中央街灯、雨傘の男女、広い交差点と遠方の群衆。登録済みGitHubミラーJPEGは旧作品番号/ハッシュの証拠を継承し、今回新たに全画素を再取得していない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "研究図録の作品別解説を読み、別工程で研究内の技術記載と館所蔵記事・公開画像・登録本文・感情索引・権利条件を交差照合した。",
+    "limitations": "同じAIの別工程であり別AIまたは第三者の独立監査ではない。個別AIC作品ページURL直接閲覧は今回失敗、代わりにAIC学術図録と過去APIチェックを照合。2026-10-18の旧JPEG全量SHAを再利用、今回の最新JPEG再取得/全画素検査ではない。法的非侵害を保証しない。",
+    "reviewed_artwork_sha256": "cdb8ec20327994160caf34f334d52f439f12cc76306bb716e34a2c89d9cdcc06",
+    "reviewed_visitor_draft_sha256": "7b2d76275b15f805017f9b78ac6a21565a9e46f44625ef799a30057ef13ca869",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC object1964.336 Caillebotte 1877 oil on canvas, same artwork as museum catalogue and old collection display; Marmottan smaller painted study is a different work."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "実景らしいが描かれた人物と右側の建物・街灯・石畳に多数の計画的改変。パリ都市改造史と絵画上の演出を別に記述する。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『孤独』3は館のいう都市の匿名性・人物間の関係の薄さとの鑑賞上の強い関連。画家の心理を断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "日本語5段落の描写・技法は一次図録/館説明と合い、別作品・初期習作との混同、長い逐語訳を避けている。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "cdb8ec20327994160caf34f334d52f439f12cc76306bb716e34a2c89d9cdcc06",
+    "visitor_draft_sha256": "7b2d76275b15f805017f9b78ac6a21565a9e46f44625ef799a30057ef13ca869",
+    "proposal_sha256": "fa29d0ac99032b8e4fe8f1c3c34947e0e77304de16e3d8ff83174d32a2ce4e8b",
+    "checks": [
+      "300_unique_ids",
+      "other_297_unchanged",
+      "current_visitor_exact_match",
+      "canonical_sha256",
+      "old_jpeg_hash_matches_registry",
+      "unchanged_emotion_index"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub保存前にJavaScriptで対象外297作品不変・形式/レコード指紋・既存解説の完全一致と過去画像ハッシュを検査。既存Python検証器およびActionsは別途PR CIで実行。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-20684.json",
+    "sha256": "fa29d0ac99032b8e4fe8f1c3c34947e0e77304de16e3d8ff83174d32a2ce4e8b",
+    "proposed_artwork_sha256": "cdb8ec20327994160caf34f334d52f439f12cc76306bb716e34a2c89d9cdcc06",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://api.artic.edu/docs/",
+    "locations": [
+      "Public domain artwork image and artist scholarly publication prose are separate rights categories.",
+      "Existing Japanese interpretation checked for extensive copied phrasing or line-by-line retranslation."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "AIC画像のPD／Commonsの公開標記と館による研究文章の著作権を区別。日本語解説は独自構成の要約と判断、法的非侵害保証や公開時の最終ライセンス確認ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "カイユボット《パリの通り、雨の日》: 出典・画像・文章・感情の作品別審査。既存の作品本文・事実・画像URL・感情タグ・AI選定データは変更なし。",
+    "AIC学術図録Cat.2と公式旧所蔵記事で、1877年・所蔵1964.336、中央街灯と交差点、傘と人物、下描きからの多数の改変、1877年第3回印象派展を確認。近代都市の匿名性という美術館解釈を作者本人の孤独の告白と混同しない。",
+    "旧登録JPEGの全量ハッシュをこのセッションの再ダウンロード実測と装わない。",
+    "同じAIの別パスは別AI審査でない。CI成功とmainマージ後のみ完成に加算。"
+  ]
+}
