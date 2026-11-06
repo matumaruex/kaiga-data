@@ -1,0 +1,138 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436622",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "2c88d37cad887cef05895634db9f3be3d7d5ad38",
+    "artwork_record_sha256": "5866428d24b0819f6436ac12e658a50386f3f0afba6ed2913b73f9fe0ed1d31e",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436622.json",
+    "draft_sha256": "8a780bd226af5f82245b875dfa1909701c822c13355defa42acce216252dd12d"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436622",
+      "access": "page_read_twice",
+      "locations": [
+        "The Met overview for 14.40.605 (Frans Hals, ca.1616–17) identifies the two theatrical Shrovetide figures Hans Worst (sausage cap) and Pekelharing (salted fish and eggs), and states center figure is probably a boy in a woman's role. Audio transcript 5031 Adam Eaker identifies artist's FH initials on the beer tankard, read as a deliberate joke; the festive foods also carry innuendo."
+      ],
+      "observed": "Met artwork overview, Artwork Details and audio transcript 5031 rechecked directly against original Japanese draft and selection-index meaning; object Public Domain label verified."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met OA policy distinguishes Public Domain work images from museum textual descriptions."
+      ],
+      "observed": "The specific object is marked Public Domain, draft is independent Japanese explanatory prose."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436622",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP145901.jpg",
+      "sha256": "7b8f35d027f9dc44105783fc39b47f85aec50d15a1f2c607abb20fb512278db9",
+      "byte_length": 3077024,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historic 2026-10-20 API identity, HTTP200 and full JPEG SHA only; no current download or hash."
+    },
+    {
+      "id": "met-436622",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145901.jpg",
+      "sha256": "9f28cc7ba2b547f0c20e8a38ff5915c4077693b762a6984bf3e110e6fcb7ce8d",
+      "byte_length": 134937,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historic 2026-10-20 API identity, HTTP200 and full JPEG SHA only; no current download or hash."
+    }
+  ],
+  "visual_observations": {
+    "method": "Visually checked an indexed reproduction of Met's exact canvas, verified attribution/number and historical image identity link; no newly accessed registered Met JPEG pixels.",
+    "observed": "Viewed reproduction of Met accession 14.40.605: elaborately dressed figure with red costume and lace collar in center, cheerful costumed actors flank it; the ale tankard and food in foreground match Met descriptions. This was not a new registered Met JPEG byte or pixel inspection."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Second independent reading pass of Met source description and audio transcript against the PR #3 draft, artwork registry and indexed reproduction; same AI, not an outside reviewer.",
+    "limitations": "Same AI, not independent external curator/agent. Bound museum image JPEG bytes not freshly downloaded. Prior full JPEG SHA verified in October, public reproduction visually viewed.",
+    "reviewed_artwork_sha256": "5866428d24b0819f6436ac12e658a50386f3f0afba6ed2913b73f9fe0ed1d31e",
+    "reviewed_visitor_draft_sha256": "8a780bd226af5f82245b875dfa1909701c822c13355defa42acce216252dd12d",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 14.40.605, Frans Hals, Merrymakers at Shrovetide, ca.1616–17, object image and PD match."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "The Met overview for 14.40.605 (Frans Hals, ca.1616–17) identifies the two theatrical Shrovetide figures Hans Worst (sausage cap) and Pekelharing (salted fish and eggs), and states center figure is probably a boy in a woman's role. Audio transcript 5031 Adam Eaker identifies artist's FH initials on the beer tankard, read as a deliberate joke; the festive foods also carry innuendo."
+      },
+      {
+        "area": "emotion",
+        "finding": "喜び2 captures the festive scene for search, with caveat it is also theatrical satire; not unconditional joy nor artist self-testimony."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Own concise Japanese description, museum's qualifications including probably kept, no excessive quotation, and curator's monogram interpretation attributed."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "5866428d24b0819f6436ac12e658a50386f3f0afba6ed2913b73f9fe0ed1d31e",
+    "visitor_draft_sha256": "8a780bd226af5f82245b875dfa1909701c822c13355defa42acce216252dd12d",
+    "proposal_sha256": "e16a2d55780e808f677b10e23c0e7c3d7801004e3812026eb683d334a76d300b",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historic_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Canonical SHA and structural checks performed in JS; existing repository CI check still required."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436622.json",
+    "sha256": "e16a2d55780e808f677b10e23c0e7c3d7801004e3812026eb683d334a76d300b",
+    "proposed_artwork_sha256": "5866428d24b0819f6436ac12e658a50386f3f0afba6ed2913b73f9fe0ed1d31e",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met marked object Public Domain, corresponding OA image free to use.",
+      "Curatorial text rights are separate; Japanese prose independently worded."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified unresolved material barrier to repository storage of independently worded explanation and PD work imagery; not a legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Viewed reproduction of Met accession 14.40.605: elaborately dressed figure with red costume and lace collar in center, cheerful costumed actors flank it; the ale tankard and food in foreground match Met descriptions. This was not a new registered Met JPEG byte or pixel inspection.",
+    "Met full-byte JPEG hashes/HTTP200 carried forward from historical 2026-10-20 checks, not newly tested.",
+    "Same AI separate review pass, not second independent model."
+  ]
+}
