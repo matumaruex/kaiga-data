@@ -1,0 +1,29 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-437329",
+  "baseline_commit": "f92db568d5b806b770e1d92b043c68929816302b",
+  "baseline_artwork_sha256": "0d62717a1912798431d56e07abbd8c51369599d7147d2aaad52cf3bcf0d03396",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "1633〜34年頃制作。プッサンは古代彫刻を参照し、蝋人形を小さな舞台状の箱に配置して画面構成を検討した。本作は1630年代の駐ローマ・フランス大使、のちリシュリュー枢機卿の所蔵となった。",
+      "after": "1633〜34年頃制作。プッサンは古代美術を参照して群像の構成を探究した。Metの研究解説は、彼が小さな舞台で蝋人形などを使い構図を試した可能性を述べているが、本作に用いた模型そのものは確認できない。この絵は駐ローマ・フランス大使だったクレキ元帥が所有したことがある。",
+      "reason": "Met museum essay qualifies wax-stage method as probable, and Met object page only supports the Créquy ownership claim.",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437329",
+        "https://www.metmuseum.org/de/essays/nicolas-poussin-1594-1665"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-437329.json",
+  "visitor_draft_sha256": "eec3987c9c792071e69567b79fe412f1cc8d27379ef339882e07e184be96a672",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "c59957a53635840a92df8cfb41a3e3fd67a5c121381ca0f3b5af9838d1025b6a",
+  "explanation": "旧選定用制作背景にあった蝋模型の断定と未照合の後続所蔵者を、Metの裏付け範囲へ限定。"
+}
