@@ -1,0 +1,138 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-37906",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "aee26a1ea7c3ec2960d7e5ef4208378691dc32cb",
+    "artwork_record_sha256": "63e29b53af4cca8d446585d53d4faec95b7dc5569217a374e39f7ff9287ab003",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-37906.json",
+    "draft_sha256": "62f3dce5f8f85dab958255ac50b18dca2e79982807390a7117d29d9a6e03fdc1"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/37906",
+      "access": "page_read_twice",
+      "locations": [
+        "Met no. 1985.398.12 is a ca. 1655–60 Mewar Gita Govinda leaf attributed to the style of Manohar, probably workshop; upper interaction foreshadows a tryst at the lower flower-decorated bower. Sahibdin prototype is in Met's explanation. The collection description, artwork number, artist attribution, material, date, open-access flag and the image were cross-checked with the Japanese draft."
+      ],
+      "observed": "Met collection description independently re-opened and compared in a second pass with existing draft claims and original exhibit image; no newly measured JPEG checksum."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access image rights and distinction from museum's descriptive prose."
+      ],
+      "observed": "Artwork images are shown as Public Domain; curatorial text is not assumed to be CC0."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-37906",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DT8229.jpg",
+      "sha256": "c040bfeef109bf61d90e5e3e437dab7041f65c7ddf3f088f8032025bad38cb19",
+      "byte_length": 2939713,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met primaryImage original historical full-JPEG SHA and HTTP200 checked 2026-10-20; not a fresh transfer in this work session."
+    },
+    {
+      "id": "met-37906",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DT8229.jpg",
+      "sha256": "b450cc6c0f88acd20cdbb8bf5553a7a66c54842f8064972f5265391f65d1d3fa",
+      "byte_length": 153473,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met official display JPEG historic SHA/HTTP200 from October 2026; the direct displayed image was visually examined this session, but no current byte SHA was measured."
+    }
+  ],
+  "visual_observations": {
+    "method": "The official Met object page raster image was viewed directly during this work and matched to title, accession and prior primaryImage URL mapping; no current registered JPEG file SHA calculation.",
+    "observed": "Upper Krishna gestures to Radha and companions; lower architectural arbor with flower decoration and two women, matching the official display image."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Compared the primary Met object description and image to the PR #3 draft in a second separate pass, including title, date, attribution uncertainty, iconography, curation, rights and source coverage.",
+    "limitations": "This is a same-AI separate-source review, not an independent model or human third party; historic image checksums were reused without new JPEG byte validation and copyright evaluation is not a legal guarantee.",
+    "reviewed_artwork_sha256": "63e29b53af4cca8d446585d53d4faec95b7dc5569217a374e39f7ff9287ab003",
+    "reviewed_visitor_draft_sha256": "62f3dce5f8f85dab958255ac50b18dca2e79982807390a7117d29d9a6e03fdc1",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met object met-37906, accession 1985.398.12, artist \"Style of Manohar (probably his workshop)\", dated ca. 1655–60 and Public Domain object page identified; no other object conflated."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met no. 1985.398.12 is a ca. 1655–60 Mewar Gita Govinda leaf attributed to the style of Manohar, probably workshop; upper interaction foreshadows a tryst at the lower flower-decorated bower. Sahibdin prototype is in Met's explanation."
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing emotion categories were retained: {\"primary\":[\"期待\"],\"secondary\":[]}. Search emotion is a visitor query association rather than a documented emotion of the painter or a guarantee of effect."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "The checked Japanese explanation has original concise phrasing, qualifies uncertain readings and avoids long museum-text reproduction; no evidence of extensive copy. Curatorial source rights are separate from Open Access images."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "63e29b53af4cca8d446585d53d4faec95b7dc5569217a374e39f7ff9287ab003",
+    "visitor_draft_sha256": "62f3dce5f8f85dab958255ac50b18dca2e79982807390a7117d29d9a6e03fdc1",
+    "proposal_sha256": "2082af2e44142d6310adc25bbda20b1eaac2cd01f17f4d9a0e50a3b7b3e868ff",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historic_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Initial JS SHA, structural IDs, archived image metadata and source-reference checks; the actual Python validators/complete_artwork check and CI are required before main integration."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-37906.json",
+    "sha256": "2082af2e44142d6310adc25bbda20b1eaac2cd01f17f4d9a0e50a3b7b3e868ff",
+    "proposed_artwork_sha256": "63e29b53af4cca8d446585d53d4faec95b7dc5569217a374e39f7ff9287ab003",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met openly releases PD identified artwork images, not blanket copyright in museum curatorial writing.",
+      "Concise original Japanese description reviewed against source; no substantial verbatim museum prose re-used."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material barrier to GitHub storage of this concise Japanese text and PD image metadata. Not a legal noninfringement guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Official museum page and image checked in current review; registered JPEG SHA/HTTP200 are historical verification from 2026-10-20.",
+    "Same AI in a separate pass; no other model and no independent external auditor.",
+    "Original artwork facts, selection basis and emotion tags remain unchanged."
+  ]
+}
