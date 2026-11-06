@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435739",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "116ef0a21354940dd7cb9e13da964bb11f7609e6",
+    "artwork_record_sha256": "d46687e334920be70f05cf9aaf7035a04d03e2d029143e2cdf2900147aad7898",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435739.json",
+    "draft_sha256": "3b45f468b3c01581efa9b206ea3d7927973a7109482f497ffe5e23b07a9b192f"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435739",
+      "access": "page_read_twice",
+      "locations": [
+        "20.155.9: 公式英語ページ冒頭（1751年、ベルヴュー城の壁面パネル、ロココ的演出）と公式日本語ページの作品解説（夫人自身の肖像ではない、同題の舞台）およびArtwork Details（20.155.9）。"
+      ],
+      "observed": "Metの最新公式作品ページを作品名・ID・作品解説を使って検索後、直接開いて照合した。"
+    },
+    {
+      "url": "https://www.metmuseum.org/ja/art/collection/search/435739",
+      "access": "page_read_twice",
+      "locations": [
+        "公式英語ページ冒頭（1751年、ベルヴュー城の壁面パネル、ロココ的演出）と公式日本語ページの作品解説（夫人自身の肖像ではない、同題の舞台）およびArtwork Details（20.155.9）。"
+      ],
+      "observed": "Met公式の同作品に関する追加ページで別の事実・表示を照合した。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Open Access画像のCC0・PD表示の意味。公式学芸員著述の複製権とは別の権利。"
+      ],
+      "observed": "Met公式FAQを確認し、画像の権利と館の説明文の著述権を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435739",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-411-01.jpg",
+      "sha256": "7b4be0a1fd00251b41baa146836c12712dcae35197272291718e7e6d13caaa06",
+      "byte_length": 4342089,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月のMet公式原画像の全バイトSHAとHTTP成功を台帳から引用。今回の再計測ではない。"
+    },
+    {
+      "id": "met-435739",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-411-01.jpg",
+      "sha256": "e864277a1e83e914d3ce7498dfa6f6513a8140bca1c284f4a82a000305cd7bb3",
+      "byte_length": 140954,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月の表示用画像の全バイトSHAとHTTP成功を台帳から引用。今回の再計測ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Metの公式画像 https://collectionapi.metmuseum.org/api/collection/v1/iiif/435739/1653617/main-image を視認。旧Met Object APIのprimaryImage ID・所蔵番号と登録画像台帳の一致記録を併用。画像全量SHAとHTTP200は2026年10月の既存証拠を継承。",
+    "observed": "Met公式IIIF（/iiif/435739/1653617/main-image）を視認。裸身のヴィーナスとプットー、白い鳩、花と真珠、金色の家具、青緑の大きな幕。登録DP-411-01は旧Met primaryImageに紐づく。同一URLの登録済みJPEGを今回全バイト再取得・SHA計測したわけではない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "公式解説と公開画像を別工程で開き直し、制作本文について史実・作者と学芸員の解釈の区別・感情タグ・画像・権利と転載リスクを点検した。",
+    "limitations": "制作と照合は同一AIによる別工程であり、第三者/別モデルの独立性はない。画像は旧全バイトSHA記録を継承し、今回登録画像の全バイトを直接再取得・再照合していない。文章権利判断は法的保証ではない。",
+    "reviewed_artwork_sha256": "d46687e334920be70f05cf9aaf7035a04d03e2d029143e2cdf2900147aad7898",
+    "reviewed_visitor_draft_sha256": "3b45f468b3c01581efa9b206ea3d7927973a7109482f497ffe5e23b07a9b192f",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "作品はMet 20.155.9（ID 435739）。公式の題名・作者・制作年代・Public Domain表示・画像を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met現行英語解説はポンパドゥールのベルヴュー城の壁面装飾への組込みと女神・プットー・家具・布・花のロココ的演出を明記。Met公式日本語解説は同題の舞台のポンパドゥール本人による出演と肖像画ではないことを区別。本人の注文を作者自身の思想や心理の直接証言としない。既存0感情タグは維持。"
+      },
+      {
+        "area": "emotion",
+        "finding": "元の検索索引（主:なし、補助:なし）と本文との整合を点検。作品の歴史的意味を鑑賞者の感情として断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "美術館の説明に支えられた事実を、独自の短い日本語鑑賞文に再構成。公式文の長文転載・逐語訳を避け、確認できない作者心理・人物の実在関係を補わない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "d46687e334920be70f05cf9aaf7035a04d03e2d029143e2cdf2900147aad7898",
+    "visitor_draft_sha256": "3b45f468b3c01581efa9b206ea3d7927973a7109482f497ffe5e23b07a9b192f",
+    "proposal_sha256": "91b119970c7a44693dcbe71f38c18bc1ba263c37633401e51eb66eed1f243c4b",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "本ターンのJavaScriptで対象版ハッシュ・300件ID一意・出典と画像台帳のメタデータおよび対象外不変を確認。Python既存登録ガードとCIはPR提出後のGitHub Actionsで最終検証する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435739.json",
+    "sha256": "91b119970c7a44693dcbe71f38c18bc1ba263c37633401e51eb66eed1f243c4b",
+    "proposed_artwork_sha256": "d46687e334920be70f05cf9aaf7035a04d03e2d029143e2cdf2900147aad7898",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "この作品の公式ページではPublic Domainと表示、Met Open Access画像として提供。",
+      "作成した解説は短い独自日本語文章であり、館の解説の連続した転載・逐語翻訳をしていない。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Open Access画像と所蔵館の著述権を分離。画像の現行PD表示と独自解説にDB保存を妨げる重大な問題は見つからない。法的な許諾保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met 20.155.9 (met-435739)",
+    "2026年10月のJPEG全バイトSHAとHTTP200を証拠として継承。今回新規の登録JPEGバイト検査ではない。",
+    "作成・検証は同一AIの別工程（別AI・第三者ではない）。",
+    "この作品以外299件・画像URL・感情索引を変更しない。"
+  ]
+}
