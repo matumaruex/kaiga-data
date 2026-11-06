@@ -1,0 +1,143 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-459070",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "497b5da0d0fc9cb078ce4c49f749a2b774b7aa1f",
+    "artwork_record_sha256": "bbf431403b45259ddb8f3028c6b28de464b2fb5a7c5478c223c70d7cbf84fa3f",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-459070.json",
+    "draft_sha256": "1d4ba59d7e05023a6b5372107f84ed3ea80553deadac070c9baf34f2955ff9b4"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/459070",
+      "access": "page_read_twice",
+      "locations": [
+        "Met1975.1.128; Simon Marmion, ca.1473, oil and tempera(?) on oak panel; Public Domain",
+        "The Virgin holding Christ, Joseph supporting torso, Nicodemus taking forearm, kneeling John, quiet grief of Mary Magdalen and another woman",
+        "Met identifies the poppy as sleep/death and the Pieta/Eucharist connection; commissioning by Margaret of York is PROBABLE, with reverse knotted Cs and Ms and coat of arms"
+      ],
+      "observed": "Met公式の個別作品概要と詳細を一次閲覧し、別の閲覧工程でも同じ公式原資料を再確認。対象作品番号と既存鑑賞本文を照合した。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Public Domain and CC0 Open Access images for eligible collection objects",
+        "Museum curatorial prose copyright to be considered separately"
+      ],
+      "observed": "個別作品ページのPublic Domain表示とMetのOpen Access規約を参照し、画像と本文の権利を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-459070",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/rl/original/DP-19531-096.jpg",
+      "sha256": "27dd8d6b29bdd0d0e7afa0a174a7ec5dcd74dc05d0dbc8b9dd737327688a8681",
+      "byte_length": 4306392,
+      "sha_checked_on": "2026-10-20",
+      "status": 200,
+      "matches_registered_bytes": true,
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19/20に公式画像を取得した旧全量JPEG SHA256とバイト数を再利用。今回のURLのHTTP200も過去の記録であり、新規接続・JPEG全バイト再測定ではない。"
+    },
+    {
+      "id": "met-459070",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/rl/web-large/DP-19531-096.jpg",
+      "sha256": "255a415ac644d234891f12404db04b645e448760be78ed7ae963c5425609a8bc",
+      "byte_length": 135851,
+      "sha_checked_on": "2026-10-19",
+      "status": 200,
+      "matches_registered_bytes": true,
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19/20に公式画像を取得した旧全量JPEG SHA256とバイト数を再利用。今回のURLのHTTP200も過去の記録であり、新規接続・JPEG全バイト再測定ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met所蔵ページ・公開画像プレビュー／メタデータと、登録された画像ファイル名・所蔵番号・旧JPEG証拠を対応付けた。画像本体を今回新規に全量取得・全画素目視していない点は作品別observedに記録。",
+    "observed": "Met公式の作品番号459070『The Lamentation of Christ』の全景プレビュー（公開図版DT1460）で前景のキリストの遺体、青衣の聖母、左右の人々、遠方の街と樹木を確認。登録済み別JPEG DP-19531-096の同一性については旧全量画像検証の記録を再利用し、今回そのJPEG全画素照合は実施していない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Met公式作品説明・別版・別作との区別、画面と本文、感情索引、権利を一次確認と別の検索・閲覧工程で再照合。",
+    "limitations": "同じAIによる別工程で別AI・第三者審査ではない。2026-10-19/20旧JPEG SHA記録を再利用し、このセッションで登録原画像を再取得・全画素検査していない。非侵害の法的保証は行っていない。",
+    "reviewed_artwork_sha256": "bbf431403b45259ddb8f3028c6b28de464b2fb5a7c5478c223c70d7cbf84fa3f",
+    "reviewed_visitor_draft_sha256": "1d4ba59d7e05023a6b5372107f84ed3ea80553deadac070c9baf34f2955ff9b4",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met1975.1.128、シモン・マルミオン、ca.1473、樫板上油彩・テンペラの疑問符つき媒体を一致させた。同題他作やペトルス・クリストゥスの哀悼とは区別。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "人物の配置、ピエタ構成・聖体の救済、左下ケシの死の象徴は公式概要にある。マーガレット・オブ・ヨークの注文は『おそらく』であり確定事項とはしない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『悲しみ』2、補助『慈しみ』1は悲嘆者の静かな動作とキリストの身体を支える姿による鑑賞入口であり、作者の個人的感情と混同しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落は主要人物、象徴、宗教主題、注文者の不確実性を押さえ、長いMet英文の逐語翻訳ではなく独自の日本語記述。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "bbf431403b45259ddb8f3028c6b28de464b2fb5a7c5478c223c70d7cbf84fa3f",
+    "visitor_draft_sha256": "1d4ba59d7e05023a6b5372107f84ed3ea80553deadac070c9baf34f2955ff9b4",
+    "proposal_sha256": "6add5f519403d8126e7ca13658b6fa00085723ca643c95bb02e453520f84207a",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_sha256",
+      "registered_image_metadata_and_old_shas_reused",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub保存前にJSでID一意性・下書き完全一致・対象外不変・構造・正規化SHA256を検査。正式Python形式検査とGitHub ActionsはPR作成後に確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-459070.json",
+    "sha256": "6add5f519403d8126e7ca13658b6fa00085723ca643c95bb02e453520f84207a",
+    "proposed_artwork_sha256": "bbf431403b45259ddb8f3028c6b28de464b2fb5a7c5478c223c70d7cbf84fa3f",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met individual object page labels the work Public Domain",
+      "CC0/Open Access for qualifying artwork images distinct from Museum copyrighted prose",
+      "Japanese visitor text reviewed for long verbatim translation or copying"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品画像のOA/CC0とMet公式英文の著作権を区別した。既存日本語は独自構成で長い逐語翻訳や説明文の転載に該当する明白な問題を発見せず。法的な個別非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "シモン・マルミオン《キリストの哀悼》：既存の鑑賞日本語本文3段落・事実・画像・検索感情・選定資料は不変更。",
+    "旧JPEG全量SHA・HTTPステータスは旧証拠の継承。今回新規画像取得やSHA再測定を行っていない。",
+    "PRのCI成功とmain統合までは完成数に加算しない。",
+    "今回Met検索画像の公開図版DT1460を見たが登録原画像はDP-19531-096。後者の全量SHAと作品対応は2026-10-20旧証拠を再利用。"
+  ]
+}

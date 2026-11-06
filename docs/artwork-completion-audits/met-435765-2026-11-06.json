@@ -1,0 +1,152 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435765",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "497b5da0d0fc9cb078ce4c49f749a2b774b7aa1f",
+    "artwork_record_sha256": "a7646d959225c99e2f90e6247ad64f8dc2cd7f11044cbd8506f31bce6f7be2c3",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435765.json",
+    "draft_sha256": "c099935214febe4a8a973d9b81bbbb4a93802cf40026cd4c8f5f5f63ac310440"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435765",
+      "access": "page_read_twice",
+      "locations": [
+        "1982.60.16, Workshop of Dieric Bouts (NOT signed work by Dieric), 1475–99, oil on wood, Public Domain",
+        "Met says finest surviving workshop assistant example of a lost Bouts composition; panoramic landscape likely differs from its lost prototype",
+        "The Child holds a pink flower; Met gives paired meaning: Mary's sorrows over his earthly fate and joy of reunion in heaven"
+      ],
+      "observed": "Met公式の個別作品概要と詳細を一次閲覧し、別の閲覧工程でも同じ公式原資料を再確認。対象作品番号と既存鑑賞本文を照合した。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Virgin_and_Child_MET_DT7240.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "DT7240 corresponds to Met object435765, accession1982.60.16 and dimensions2699x3722",
+        "Work attributed as Workshop of Dieric Bouts, Open Access/CC0"
+      ],
+      "observed": "登録されたMet画像ファイル名・原画寸法を、所蔵番号付き公開画像メタデータと照合。今回ピクセル全量視認とは主張しない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Public Domain and CC0 Open Access images for eligible collection objects",
+        "Museum curatorial prose copyright to be considered separately"
+      ],
+      "observed": "個別作品ページのPublic Domain表示とMetのOpen Access規約を参照し、画像と本文の権利を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435765",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT7240.jpg",
+      "sha256": "e2f32e87c8aef4f2059d94d440ff90c125d47ff6a795b5836c8ddd028008e69e",
+      "byte_length": 2712684,
+      "sha_checked_on": "2026-10-20",
+      "status": 200,
+      "matches_registered_bytes": true,
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19/20に公式画像を取得した旧全量JPEG SHA256とバイト数を再利用。今回のURLのHTTP200も過去の記録であり、新規接続・JPEG全バイト再測定ではない。"
+    },
+    {
+      "id": "met-435765",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT7240.jpg",
+      "sha256": "6ac843a4806c72a5b192867d00a95b136a5808a446ffff3ee0d3b47b67bf903a",
+      "byte_length": 114327,
+      "sha_checked_on": "2026-10-19",
+      "status": 200,
+      "matches_registered_bytes": true,
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-19/20に公式画像を取得した旧全量JPEG SHA256とバイト数を再利用。今回のURLのHTTP200も過去の記録であり、新規接続・JPEG全バイト再測定ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met所蔵ページ・公開画像プレビュー／メタデータと、登録された画像ファイル名・所蔵番号・旧JPEG証拠を対応付けた。画像本体を今回新規に全量取得・全画素目視していない点は作品別observedに記録。",
+    "observed": "Met作品ページの該当絵画表示枠と、Met寄贈画像のCommons『Virgin and Child MET DT7240.jpg』の作品ID435765・所蔵番号1982.60.16・原版寸法2699×3722・画像ファイル名を照合。今回ファイル本体の画素閲覧・全量再取得はできていない。別のバウツ作品435762/435766やJoos van CleveのDT7241との取り違えを除外する資料同定。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Met公式作品説明・別版・別作との区別、画面と本文、感情索引、権利を一次確認と別の検索・閲覧工程で再照合。",
+    "limitations": "同じAIによる別工程で別AI・第三者審査ではない。2026-10-19/20旧JPEG SHA記録を再利用し、このセッションで登録原画像を再取得・全画素検査していない。非侵害の法的保証は行っていない。",
+    "reviewed_artwork_sha256": "a7646d959225c99e2f90e6247ad64f8dc2cd7f11044cbd8506f31bce6f7be2c3",
+    "reviewed_visitor_draft_sha256": "c099935214febe4a8a973d9b81bbbb4a93802cf40026cd4c8f5f5f63ac310440",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met1982.60.16、1475–99年、板上油彩、帰属はWorkshop of Dieric Boutsでありバウツ本人の確定自筆ではない。CommonsでDT7240の作品番号と寸法も独立確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metは失われた原作からの工房版15点ほかと比較し、遠景が本版特有の可能性、花が将来の受難と天上での再会の二重の意味をもつと解釈。作者本人の証言として記載しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『悲しみ』2、補助『希望』1は花と受難・再会という画題の複層的な意味に限定。実際の人物の心理と鑑賞者の入口を混同しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落はMet個別作品概要で主要事実が確認でき、英語原文の長い連続した逐語訳や固有文のコピーとはなっていない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "a7646d959225c99e2f90e6247ad64f8dc2cd7f11044cbd8506f31bce6f7be2c3",
+    "visitor_draft_sha256": "c099935214febe4a8a973d9b81bbbb4a93802cf40026cd4c8f5f5f63ac310440",
+    "proposal_sha256": "24d0660a2325dcc6f189242a6ffec2c87557a79da915b1fd99ce2a331df86c5b",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_sha256",
+      "registered_image_metadata_and_old_shas_reused",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub保存前にJSでID一意性・下書き完全一致・対象外不変・構造・正規化SHA256を検査。正式Python形式検査とGitHub ActionsはPR作成後に確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435765.json",
+    "sha256": "24d0660a2325dcc6f189242a6ffec2c87557a79da915b1fd99ce2a331df86c5b",
+    "proposed_artwork_sha256": "a7646d959225c99e2f90e6247ad64f8dc2cd7f11044cbd8506f31bce6f7be2c3",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met individual object page labels the work Public Domain",
+      "CC0/Open Access for qualifying artwork images distinct from Museum copyrighted prose",
+      "Japanese visitor text reviewed for long verbatim translation or copying"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品画像のOA/CC0とMet公式英文の著作権を区別した。既存日本語は独自構成で長い逐語翻訳や説明文の転載に該当する明白な問題を発見せず。法的な個別非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "バウツ工房《聖母子》：既存の鑑賞日本語本文3段落・事実・画像・検索感情・選定資料は不変更。",
+    "旧JPEG全量SHA・HTTPステータスは旧証拠の継承。今回新規画像取得やSHA再測定を行っていない。",
+    "PRのCI成功とmain統合までは完成数に加算しない。",
+    "公式原作と別の工房版435766を混同せず、CommonsのDT7240/Met435765/2699×3722の資料同定を根拠とした。今回直接の全画像ピクセル視認は行っていない。"
+  ]
+}
