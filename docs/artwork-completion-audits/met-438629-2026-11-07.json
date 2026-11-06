@@ -1,0 +1,139 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-438629",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "26a2f614a4c2c4301bda9c72b38f5bfab8a93d5e",
+    "artwork_record_sha256": "9f33f4cf344fe7889985e837d35895a4b62a14f8d2904ce7a4c47b898f02ab4a",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-438629.json",
+    "draft_sha256": "c77f9332ace5a2b4fe6850fc6adb9822c4d9b57fc20f232f853f24a628bad14c"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/438629",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 2003.42.9. Met 2003.42.9公式はフランス革命後の初歩きの人気・世代の継続の寓意、フランソワ・ジェラール1808年絵画との関係、イタリア設定と当時の農民の衣服を説明。作者自身の家族体験とはしない。"
+      ],
+      "observed": "Metの公式検索結果と作品詳細ページを別々に開き、作者・制作年代・館の作品説明とPublic Domain表示を確認。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met公式のOpen Access対象画像は商用非商用の利用が可能。ただし学芸員の個別作品文章とは区別。"
+      ],
+      "observed": "Met公式FAQを確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-438629",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP169443.jpg",
+      "sha256": "0d304baeee8a9eb0c9045fb610fa1deb3e0b9a2317b2a98596f0b1815f687e3e",
+      "byte_length": 2226371,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月の原画像JPEG全量取得時のSHAとHTTP200記録。今回再計測なし。"
+    },
+    {
+      "id": "met-438629",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169443.jpg",
+      "sha256": "1ecd6087464b806ebcb3a4d69f42bf651b5db08478201b717d0df0e50eb38c8b",
+      "byte_length": 260784,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月の表示用JPEGの旧ハッシュ・HTTP200を継承、今回新計測なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "公式Met作品写真または同作品公開画像を目視し、旧Met Object API primaryImage・所蔵番号と登録JPEGの2026年10月SHA記録を照合。今回登録JPEG全バイト再取得なし。",
+    "observed": "Met同作品公開画像DP169443を視認。アーチ、幼児と見守る大人、手前の野菜と器、遠方の二峰の山を確認。登録画像は旧Met API primaryImageのIDと2026年10月の原画像SHAに基づく。今回の登録JPEG再計測なし。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "完成候補の日本語本文を公式Met作品ページの個別説明・公開図像と別工程で再照合し、事実、推定、感情、類似表現、権利を点検した。",
+    "limitations": "同一AI別工程であり別AI／第三者による独立監査ではない。JPEG全バイトとHTTP成功は2026年10月の既存証拠で今回の計測ではない。文章の利用権の最終法的保証ではない。",
+    "reviewed_artwork_sha256": "9f33f4cf344fe7889985e837d35895a4b62a14f8d2904ce7a4c47b898f02ab4a",
+    "reviewed_visitor_draft_sha256": "c77f9332ace5a2b4fe6850fc6adb9822c4d9b57fc20f232f853f24a628bad14c",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 438629／所蔵2003.42.9の作者・制作年・PD・図像を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met 2003.42.9公式はフランス革命後の初歩きの人気・世代の継続の寓意、フランソワ・ジェラール1808年絵画との関係、イタリア設定と当時の農民の衣服を説明。作者自身の家族体験とはしない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主感情慈しみ、補助希望の既存索引を作品の事実と対照。人物の心理を断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "公式の個別研究事実を独自の日本語文章に編み、原文の逐語訳や長文転載を避けた。本人の直接発言と館の解釈を区別した。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "9f33f4cf344fe7889985e837d35895a4b62a14f8d2904ce7a4c47b898f02ab4a",
+    "visitor_draft_sha256": "c77f9332ace5a2b4fe6850fc6adb9822c4d9b57fc20f232f853f24a628bad14c",
+    "proposal_sha256": "c895168604012d8ce65cad3a7f49c8a65e64ea462fe3c44a9822002817e8cd4f",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS正規化SHA、300一意ID、対象外299件不変、画像台帳対応を事前点検。Python公式ガードとsnapshotテストはGitHub CIで実行後に確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-438629.json",
+    "sha256": "c895168604012d8ce65cad3a7f49c8a65e64ea462fe3c44a9822002817e8cd4f",
+    "proposed_artwork_sha256": "9f33f4cf344fe7889985e837d35895a4b62a14f8d2904ce7a4c47b898f02ab4a",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "公式ページはPublic Domain。Met Open Access/CC0の同作品画像を利用。",
+      "独自の日本語鑑賞本文であり、館の英文解説の長文転載・逐語訳を避けた。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "既存のMet OA画像と短い独自の本文をDBに保存することに重大な未解消権利問題は認めない。ただし法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met 2003.42.9, met-438629",
+    "以前のJPEGバイト検証を継承し新規測定していない。",
+    "同一AIの別パスであり別モデルの審査ではない。",
+    "他の299作品、画像、既存感情資料を変えていない。"
+  ]
+}
