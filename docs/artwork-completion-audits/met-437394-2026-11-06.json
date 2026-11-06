@@ -1,0 +1,139 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437394",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "fe2bb10642c0fb71b97e4b3f6e27d0210d6e6b35",
+    "artwork_record_sha256": "1e60a02538ddb144803c669af5149085d544684a9dba46dd7a987d4307dbac41",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437394.json",
+    "draft_sha256": "cdffa1f11f158786cc9f223fda2bab2f9c6de7ae78b5de32288d1ff93cc9d0fb"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437394",
+      "access": "page_read_twice",
+      "locations": [
+        "Official Met collection overview lines 22-35, Details 61.198: philosopher, poet, medal of Alexander; 'perhaps' for comparison of fame, Sicilian patron and Amsterdam's fashion. Opened twice this session."
+      ],
+      "observed": "Museum/research page was opened twice in this turn, corresponding object/accession and key statements re-read; visitor explanation checked against exact source. JPEG bytes were not freshly downloaded."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met policy: Public Domain and CC0 open images, distinct from copyright in museum text and scholarly narrative."
+      ],
+      "observed": "Met Open Access and public-domain FAQ read on 2026-11-06; artist work imagery and institution-authored explanation legal statuses distinguished."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437394",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-30758-001.jpg",
+      "sha256": "55dc9232dd6b412cea4964f19e98a56f6bd1fa7213e4e947834413cf65d8776a",
+      "byte_length": 3486903,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historical Met official original full-JPEG bytes and SHA256 measured and saved 2026-10-20; HTTP200 belongs to that check, not to 2026-11-06."
+    },
+    {
+      "id": "met-437394",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-30758-001.jpg",
+      "sha256": "06e64703d92fed63c6238d15ed32d582792397b238458bf1893530eb8d91e3f4",
+      "byte_length": 73306,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Registered display JPEG prior Oct-2026 complete-download SHA256 and byte count retained; not remeasured on 2026-11-06."
+    }
+  ],
+  "visual_observations": {
+    "method": "Met official object/primaryImage metadata and page image with outside reproduction, object accession matched. Historical original/display image full-byte hashes reused; no new downloaded files and no fresh human inspection of local artifacts.",
+    "observed": "A sombre richly dressed man wearing a gleaming gold chain stands behind, lays his right hand upon a marble bust of a bearded man at left, and touches a gold chain near his waist. Independent image of Rembrandt's Aristotle and official Met object image correspond to Met accession 61.198 and stored original DP-30758-001; no fresh SHA of registered JPEG measured."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Initial existing PR #3 text/draft examination, a second pass from official institutional pages and written artist account where available, then skeptical check of attribution, modal wording, emotional tag, object ID and rights.",
+    "limitations": "Same AI separate review stages, not a second AI or third-party expert. No newly fetched full artwork JPEG and no new SHA-256 proof; verified old official registry hashes/ID are cited historically only. Image public-domain designation cannot be extended to published museum text. Current legal review means no specific material infringement obstacle identified, not an attorney warranty.",
+    "reviewed_artwork_sha256": "1e60a02538ddb144803c669af5149085d544684a9dba46dd7a987d4307dbac41",
+    "reviewed_visitor_draft_sha256": "cdffa1f11f158786cc9f223fda2bab2f9c6de7ae78b5de32288d1ff93cc9d0fb",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met object 437394, accession 61.198, Rembrandt van Rijn, 1653, oil on canvas 143.5 x 136.5 cm. The work was painted for a Sicilian patron."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met's overview depicts Aristotle with his hand on the bust of Homer and the gold Alexander medallion. Aristotle's imagined comparison of worldly fame with the poet's enduring stature is a hypothesis introduced by perhaps, not a documented inner monologue or direct Rembrandt statement. The museum notes Rembrandt's dark palette and sculptural paint becoming less fashionable in Amsterdam."
+      },
+      {
+        "area": "emotion",
+        "finding": "No emotional tags: meditation on fame is a historical interpretation, not enough to force sadness, loneliness, or curiosity as an automated emotional index."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Original two paragraphs preserve 'perhaps' for Aristotle's reflection and distinguish Homer (many centuries older), Alexander pupil and Sicilian patron. Neither the persona's mental state nor Rembrandt's biography is falsely asserted to be first-hand testimony. Brief new Japanese prose is not a substantial verbatim reproduction of Met authored passages; no legal noninfringement guarantee."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "1e60a02538ddb144803c669af5149085d544684a9dba46dd7a987d4307dbac41",
+    "visitor_draft_sha256": "cdffa1f11f158786cc9f223fda2bab2f9c6de7ae78b5de32288d1ff93cc9d0fb",
+    "proposal_sha256": "ab5e3a98162b059a6a28c0becd9359cf0fd2b8de840ea31e34c00dded3f34450",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "registered_old_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Local JS validated ID uniqueness, SHA-bound audited draft and unchanged remaining records, not official Python scripts. GitHub Actions validate-format and validate-drafts must pass before main integration."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437394.json",
+    "sha256": "ab5e3a98162b059a6a28c0becd9359cf0fd2b8de840ea31e34c00dded3f34450",
+    "proposed_artwork_sha256": "1e60a02538ddb144803c669af5149085d544684a9dba46dd7a987d4307dbac41",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met Open Access/Public Domain image per object page and image/data FAQ; distinguish curator and scholarship prose rights.",
+      "Existing Japanese draft wording compared against source and kept concise, independent; legal rights not certified."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No material evidence in current verification preventing the corresponding public-domain work/image metadata and independently worded Japanese commentary from being kept in GitHub DB. No copyright transfer or reproduction of protected Met text is claimed."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "The AI evidence review and source reread occurred in this turn and was not a second AI or human reviewer.",
+    "Original two paragraphs preserve 'perhaps' for Aristotle's reflection and distinguish Homer (many centuries older), Alexander pupil and Sicilian patron. Neither the persona's mental state nor Rembrandt's biography is falsely asserted to be first-hand testimony.",
+    "No emotional tags: meditation on fame is a historical interpretation, not enough to force sadness, loneliness, or curiosity as an automated emotional index.",
+    "Oct 2026 image SHA values and HTTP200 historical results reused, not measured in this turn."
+  ]
+}
