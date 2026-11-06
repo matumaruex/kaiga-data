@@ -1,0 +1,146 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437412",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "8faadf089b38447ecc24420337841be3e862b406",
+    "artwork_record_sha256": "6c5e9db5a5966da9b5bb9951194becb837be7be39e4ba9634dedd57a30be3c45",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437412.json",
+    "draft_sha256": "31139069518008efacfacb6d4b838e8ff2eb6a3bd49d4948943032bbd80d1408"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437412",
+      "access": "page_read_twice",
+      "locations": [
+        "Met official 14.40.609, Style of Rembrandt, 1655–60, 126.1×101.9 cm: Nicolaes Maes and Abraham van Dijck previous attributions; sewing tools and nail clipping 'probably' suggest domestic virtues associated with widowhood; monumental scale inspired by Rembrandt."
+      ],
+      "observed": "Searched then opened Met official object record, compared interpretation, qualifiers, dimensions and accession with Japanese draft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Old_Woman_Cutting_Her_Nails_MET_DP146474.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met-donated CC0 reproduction Old Woman Cutting Her Nails MET DP146474, 3,131×3,856, accession 14.40.609; same date and matching registered original high-resolution dimensions."
+      ],
+      "observed": "Checked Met-donated file attribution, object ID, matching official filename and image identity; original Met JPEG is only historically SHA-checked."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access FAQ identifies eligible public-domain artwork images and the scope of CC0 image reuse, not a blanket license for curatorial paragraphs."
+      ],
+      "observed": "Read rights policy and separated images from museum authored text."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437412",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146474.jpg",
+      "sha256": "55d9093f991bb23c34b2521da24a2843e06edaf7be8d12032253629d8675971d",
+      "byte_length": 2386431,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met 2026-10-20 registered JPEG download SHA/HTTP200, reused as dated evidence only; this turn did not download the registered JPEG anew."
+    },
+    {
+      "id": "met-437412",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146474.jpg",
+      "sha256": "6bb6533ea808648cb4aef0272f6ce7d176f62de475ef043c50acbc591cf6a7b2",
+      "byte_length": 54698,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met 2026-10-20 registered JPEG download SHA/HTTP200, reused as dated evidence only; this turn did not download the registered JPEG anew."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compared the public Met-donated reproduction and image-query view with official object 14.40.609 and registered official filename DP146474. Historic SHA is distinct from a fresh byte comparison.",
+    "observed": "Matching picture depicts elderly woman with white head covering and brown-red robe engaged in fingernail cutting, illuminated in dark space; Met-donated file accession 14.40.609 and original resolution 3131×3856 match registry."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Independent source-focused pass against current Met official page and CC0 museum-donated representation after examining PR #3 draft. Reviewed attribution, tentative symbolism, genre, imagery, Japanese wording, emotional tags and rights.",
+    "limitations": "Performed by same AI in different source-focused pass, not another model or independent third party. Registered JPEG byte SHA and HTTP200 from October 2026 reused; no new bytes received. Rights assessment is not legal advice.",
+    "reviewed_artwork_sha256": "6c5e9db5a5966da9b5bb9951194becb837be7be39e4ba9634dedd57a30be3c45",
+    "reviewed_visitor_draft_sha256": "31139069518008efacfacb6d4b838e8ff2eb6a3bd49d4948943032bbd80d1408",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 14.40.609, Style of Rembrandt, c.1655–60, oil on canvas; Met-donated artwork image DP146474 matches ID and depiction."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Attributed variously to Rembrandt, Nicolaes Maes, Abraham van Dijck. Domestic virtues tied to widowhood 'probably', not confirmed sitter identity or artist-stated intention."
+      },
+      {
+        "area": "emotion",
+        "finding": "No existing emotion tags. A mundane activity and subdued lighting alone do not justify nostalgia, sadness or reassurance."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Existing Japanese draft briefly paraphrases object-specific facts with qualifications and attribution; no extended copy or literal translation of Met prose."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "6c5e9db5a5966da9b5bb9951194becb837be7be39e4ba9634dedd57a30be3c45",
+    "visitor_draft_sha256": "31139069518008efacfacb6d4b838e8ff2eb6a3bd49d4948943032bbd80d1408",
+    "proposal_sha256": "2f6672fdfd68a1b105965bab044595ca68facc340abc859a6fb2e0a06e37c558",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Local JS computed canonical target hashes and checked 300 unique records, source URL binding, untouched other 299 records and historical image metadata. Repo's own Python validators and saved completion check require Actions PASS."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437412.json",
+    "sha256": "2f6672fdfd68a1b105965bab044595ca68facc340abc859a6fb2e0a06e37c558",
+    "proposed_artwork_sha256": "6c5e9db5a5966da9b5bb9951194becb837be7be39e4ba9634dedd57a30be3c45",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met public domain designation and Met-donated CC0 work-specific reproduction supported.",
+      "Japanese short visitor explanation is independent work and does not copy large sections of museum scholarly prose."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material rights obstacle for a short original description and registered OA image reference. No legal warranty."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Registered JPEG full SHA and HTTP200 taken 2026-10-20 as historical prior measurements, not remeasured.",
+    "Separate source-focused pass by same assistant; no separate model or expert.",
+    "Prior facts, meaning basis, emotions, images and other 299 artworks unchanged."
+  ]
+}

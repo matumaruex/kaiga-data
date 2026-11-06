@@ -1,0 +1,146 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437547",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "34a863392287b9876546598542664191c565db73",
+    "artwork_record_sha256": "2b9b1412c3a2b58872e154bb1e88dd55c35ba1ca497fd1f660c4b258cca656fd",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437547.json",
+    "draft_sha256": "f5a44a377c7992caa8d7853a8afbbeee7e71bd6ee64d21aa8174392411756bf1"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437547",
+      "access": "page_read_twice",
+      "locations": [
+        "Met official 32.100.14: Jacob van Ruisdael, Grainfields, mid- or late 1660s, oil on canvas, road across fields, distant church, relation of clouds/crops/windmill understood at time, owned by Sir Joshua Reynolds from 1756 to his death 1792."
+      ],
+      "observed": "Searched and then opened the current Met object page; checked all Japanese draft's claims against official description and dates."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Grainfields_MET_DP146453.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Wikimedia Met-donated file Grainfields MET DP146453, Met 32.100.14, CC0; original JPEG reported 3,895×3,233 and 3,098,517 bytes, consistent with registered original file dimensions and length."
+      ],
+      "observed": "Checked that Met original donated image and registry share ID 437547, accession 32.100.14 and filename DP146453; no fresh JPEG hash measured."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met OA FAQ covers public-domain work images available under CC0; the image license does not automatically apply to Met curator's authorship."
+      ],
+      "observed": "Directly read Met policy terms for OA images."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437547",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146453.jpg",
+      "sha256": "713d84650631b41107f940089e480375798bf97ebedf9c5eccec8120d0923400",
+      "byte_length": 3098539,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met 2026-10-20 registered JPEG download SHA/HTTP200, reused as dated evidence; this turn did not download the registered JPEG again."
+    },
+    {
+      "id": "met-437547",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146453.jpg",
+      "sha256": "b6f671407bbc65eb25c675768dbf097b12e879bafdfdd3c46cc95ffe50063ce2",
+      "byte_length": 73814,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met 2026-10-20 registered JPEG download SHA/HTTP200, reused as dated evidence; this turn did not download the registered JPEG again."
+    }
+  ],
+  "visual_observations": {
+    "method": "Identified Met's official subject and checked public Met-donated file identity, accession 32.100.14, JPEG filename DP146453 and original dimensions against registered image. Did not download registered JPEG or directly re-inspect its pixels this turn.",
+    "observed": "The public Met donated reproduction of Grainfields (same accession 32.100.14) is recorded as a landscape with fields and windmill. The historic Met API registered DP146453, size 3895×3233, binds same painting; note image search for distinct 'Wheat Fields' DP145911 is not used."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Second source-focused reading of official Met object page, Met-donated painting attribution and older registered image metadata compared with stored Japanese visitor draft, tags and rights.",
+    "limitations": "Same assistant distinct verification pass, not separate AI or third party. No fresh binary/pixel inspection of registered JPEG; Met-donated matching accession provides image identity support plus previously hashed registered JPEG. No copyright guarantee.",
+    "reviewed_artwork_sha256": "2b9b1412c3a2b58872e154bb1e88dd55c35ba1ca497fd1f660c4b258cca656fd",
+    "reviewed_visitor_draft_sha256": "f5a44a377c7992caa8d7853a8afbbeee7e71bd6ee64d21aa8174392411756bf1",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 32.100.14, Jacob van Ruisdael, mid- to late 1660s oil on canvas. Met-donated Commons DP146453 shares object accession and original dimensions."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met explains interplay of rainclouds, grain and mill understood by historic viewers and Reynolds ownership 1756–1792; no unsupported theological allegory."
+      },
+      {
+        "area": "emotion",
+        "finding": "No existing emotion tags; windmill, sky and rural quiet alone do not justify awe, security or nostalgia."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Japanese visitor draft briefly states work-specific source claims, curator explanation and verified ownership. Not copied or literal translation of Met interpretative paragraph."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "2b9b1412c3a2b58872e154bb1e88dd55c35ba1ca497fd1f660c4b258cca656fd",
+    "visitor_draft_sha256": "f5a44a377c7992caa8d7853a8afbbeee7e71bd6ee64d21aa8174392411756bf1",
+    "proposal_sha256": "7648bc4e8ae27570c5afdd3449ffa59ae6494ac19be1a8d38a505d4e64973d6a",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS local check of unique art IDs/count, canonical hashes, unchanged other 299 records, bound source and historical original/display JPEG fingerprints. Repo Python structural/snapshot/complete_artwork checks await Actions."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437547.json",
+    "sha256": "7648bc4e8ae27570c5afdd3449ffa59ae6494ac19be1a8d38a505d4e64973d6a",
+    "proposed_artwork_sha256": "2b9b1412c3a2b58872e154bb1e88dd55c35ba1ca497fd1f660c4b258cca656fd",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met public-domain art image and its donated CC0 work-specific reproduction can be referenced for reuse.",
+      "The independently phrased short Japanese commentary does not copy large parts of the museum's authored prose."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material rights obstacle for this new original Japanese explanation plus CC0 artwork image; no legal warranty."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Registered JPEG SHA/HTTP200 were measured in October 2026 and are historical, not freshly remeasured.",
+    "Same assistant different review pass, not other AI or third-party.",
+    "No changes to original artwork facts, imagery, curation/emotions and other 299 records."
+  ]
+}
