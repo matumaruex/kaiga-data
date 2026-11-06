@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437023",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "08f9b4bffd2ed0d944bc9814058ca43dc57f074e",
+    "artwork_record_sha256": "70332d4e1ed96b43d422406c151ded25ee268abef23e4aacaf13746f4a96929d",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437023.json",
+    "draft_sha256": "b4da1f778e5764748e88adc5f46ff8f2a7c73fdfab3c3631c786d26c3acdf126"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437023",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 49.39: Master of Varlungo, Madonna and Child Enthroned with Angels, painted about 1290, Florence, tempera on wood with silver ground, Public Domain",
+        "Overview: pre-polyptych altarpiece panel, follower of Cimabue responding to Duccio and Giotto",
+        "Overview: Hans Belting's qualified interpretation of Child trying to draw mother away from melancholy; gesture linked to French Gothic ivory secular-love imagery"
+      ],
+      "observed": "Met公式個別作品ページのOverviewおよびArtwork Detailsを一次・別工程で開き、対象作品のID・作者帰属・年代・主張と日本語本文を再照合した。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Madonna_and_Child_Enthroned_with_Angels_MET_DT242200.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met object ID 437023, accession 49.39, image filename DT242200.jpg",
+        "Original 2408 by 3722 pixels, CC0 structured data"
+      ],
+      "observed": "Met公開元画像とWikimediaに記録された同じ作品番号・画像名・画像寸法を照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "The Met Open Access/CC0 guidance for public domain artwork image",
+        "Open Access for object images does not transfer a separate written curatorial essay's copyright"
+      ],
+      "observed": "画像の利用条件と所蔵館本文の著作権を別に検討。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437023",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT242200.jpg",
+      "status": 200,
+      "sha256": "003895f62aaba483b88eafdf6646b5a77bb56b7af7adefb72490c7a42d4d72d6",
+      "byte_length": 2528659,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "登録当時の2026-10-20のMet公式JPEG全量SHA256・サイズの記録を再利用。今回このファイル全体をダウンロード・再測定したわけではない。"
+    },
+    {
+      "id": "met-437023",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT242200.jpg",
+      "status": 200,
+      "sha256": "94f447083119dfab5a48f21359aa87f5886be861dcee55260ea4c10e72d27d0c",
+      "byte_length": 112749,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "登録当時の2026-10-19のMet公式JPEG全量SHA256・サイズの記録を再利用。今回このファイル全体をダウンロード・再測定したわけではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式の作品画像を画面視認し登録作品番号・画像ファイル名・旧SHA照合情報と突合。今回の登録JPEG全バイトの再取得・SHA測定・全画素検査は行っていない。",
+    "observed": "公開原図で中央の青衣の聖母と母の頬に手を触れる幼子、左右の翼ある天使と装飾玉座を視認。Met 49.39と原画像DT242200.jpgの同定。銀地は現在の画像で金属的な光沢を感じにくくても登録材質として記載。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "一次確認後、同じMet公式原資料を別の閲覧工程で再読。出典の事実、作品画像の同定、意味の限定、感情、独立した日本語本文の類似度および画像/文章権利をそれぞれ確認。",
+    "limitations": "同一AIの別工程であり別AI・第三者審査ではない。2026-10-19/20公式JPEG全量SHAは過去記録を再利用。今回原JPEGの全量再取得はしていない。個別の法的非侵害は保証しない。",
+    "reviewed_artwork_sha256": "70332d4e1ed96b43d422406c151ded25ee268abef23e4aacaf13746f4a96929d",
+    "reviewed_visitor_draft_sha256": "b4da1f778e5764748e88adc5f46ff8f2a7c73fdfab3c3631c786d26c3acdf126",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 49.39、Master of Varlungo、1290年頃、木板テンペラ銀地。原画と別作の区別を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met説明はチマブーエの影響とドゥッチョ／ジョットの新傾向を示す。ベルティングの『憂いを紛らわすよう』という仮定的読解は作者の直接証言ではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『慈しみ』2・補助『悲しみ』1は幼子の頬への身ぶりとベルティングの限定的読解に対応。聖母の心理を確定するものではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "新規日本語3段落は作品構造・材質・研究者の読解と画面に依拠。所蔵館英文の長文逐語訳ではなく独自の説明。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "70332d4e1ed96b43d422406c151ded25ee268abef23e4aacaf13746f4a96929d",
+    "visitor_draft_sha256": "b4da1f778e5764748e88adc5f46ff8f2a7c73fdfab3c3631c786d26c3acdf126",
+    "proposal_sha256": "ca11342965bc55ad2e61d6be6233d366a155e915e985048a6784cd86946198c2",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match_or_new_text",
+      "canonical_hash",
+      "previous_image_sha_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub書込前のJSで300 ID、他作品不変、下書きと対象レコード正規化ハッシュを算出。Python形式検証とGitHub ActionsはPRで別途確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437023.json",
+    "sha256": "ca11342965bc55ad2e61d6be6233d366a155e915e985048a6784cd86946198c2",
+    "proposed_artwork_sha256": "70332d4e1ed96b43d422406c151ded25ee268abef23e4aacaf13746f4a96929d",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Each Met individual object is marked Public Domain",
+      "Met OA/CC0 applies to eligible object images, distinct from Met's original English essays",
+      "Reviewed Japanese text is an original summary rather than sustained line-by-line translation"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Metのパブリックドメイン画像と同館英文の権利を混同せず、日本語文が所蔵館の独自表現を長く逐語翻訳・転載していないか点検。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "新規日本語3段落を直接Metに照合し、本人発言とベルティングの研究者解釈を区別して登録。",
+    "旧画像のハッシュを今回の実測と混同しない。GitHub CI・main統合後に完成数を確定。"
+  ]
+}
