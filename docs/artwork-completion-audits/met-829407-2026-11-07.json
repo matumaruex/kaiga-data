@@ -1,0 +1,139 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-829407",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "0fc2f868fc5b8a0095e7ed36c3737d63b9907c30",
+    "artwork_record_sha256": "09e0a451d94a64978b01544503a005685834e3963d00a745f196d64b219937b5",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-829407.json",
+    "draft_sha256": "63bf7da53fe0c0746f34fd1b98b2a8a2486f46161f7926057cb9f8675c19705d"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/829407",
+      "access": "page_read_twice",
+      "locations": [
+        "829407 / 2019.420.30: 伯牙と鍾子期の故事、琴・太湖石・煎茶・茶器というMetの作品固有の説明を再照合。館のRyūzan/Ritsuzan表記揺れや『故事を共著』という不自然な記述を史実化せず、既存の友情に関する索引を維持。"
+      ],
+      "observed": "PR #3の既存日本語解説とは別に、2026-11-07 Met公式作品ページの解説と写真を検索・開いて照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "MetのOpen Access CC0作品画像は商用・非商用で利用可能。ただし館の解説本文の権利とは区別する。"
+      ],
+      "observed": "Met公式FAQのOpen Accessの対象と制限を確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-829407",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-25830-002.jpg",
+      "sha256": "04232e612e5f3ad85551a0a0584be0b9ca7534722daa0319accd639704413962",
+      "byte_length": 2568192,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月の原画像全量SHA/HTTP200検証値を画像台帳から継承。今回の再取得・再計測ではない。"
+    },
+    {
+      "id": "met-829407",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-25830-002.jpg",
+      "sha256": "5fce015d2fb4a203cee037426532da7a72fbf681c83fe8186bb1bec9aa85258d",
+      "byte_length": 81192,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月の表示用JPEG全量SHA/HTTP200検証値を画像台帳から継承。今回の再取得・再計測ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "2026-11-07にMet公式の当該作品画像と所蔵ID・題材を視認し、旧Met APIが登録画像を同作品のprimaryImageに結びつけた2026-10月の記録を照合。今回の登録JPEGそのものの新規直接バイト照合・画素同定は行っていない。",
+    "observed": "Met公式サイトの作品画像は中国風山水の縦長掛軸で、伯牙・鍾子期の庭園場面が含まれる。登録DP-25830-002は旧Met APIの同作品画像として検証済み。今回登録JPEGの画素・バイトを再照合していない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "過去PR #3の保存本文と既存DBを先に読み、別工程でMet公式作品解説と公式画像を開き、事実・作品の意味・感情索引・出典と文章の利用条件を点検した。",
+    "limitations": "同じAIによる別工程であり独立した別AI・人間の監査ではない。Met登録JPEGの2026-10月の画像バイト検証を履歴として引き継いだが、今回新規取得していない。著作権に関する判断は法的保証ではない。",
+    "reviewed_artwork_sha256": "09e0a451d94a64978b01544503a005685834e3963d00a745f196d64b219937b5",
+    "reviewed_visitor_draft_sha256": "63bf7da53fe0c0746f34fd1b98b2a8a2486f46161f7926057cb9f8675c19705d",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met公式ID 829407、所蔵番号2019.420.30、作品題名・帰属・年代・図像と旧primaryImage紐付け記録を照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "伯牙と鍾子期の故事、琴・太湖石・煎茶・茶器というMetの作品固有の説明を再照合。館のRyūzan/Ritsuzan表記揺れや『故事を共著』という不自然な記述を史実化せず、既存の友情に関する索引を維持。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存の主感情喜び、補助安心は作品固有の根拠から不自然でない。作者個人の感情の断定は加えない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "PR #3日本語解説はMetの主要な研究事実と合致する簡潔な独自の説明。館の文章の長文転載・逐語訳としては扱わず、作者の心理や異説の断定を追加しない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "09e0a451d94a64978b01544503a005685834e3963d00a745f196d64b219937b5",
+    "visitor_draft_sha256": "63bf7da53fe0c0746f34fd1b98b2a8a2486f46161f7926057cb9f8675c19705d",
+    "proposal_sha256": "6c2eb6ca096fad672d676c9434c436983844e075803779bff6991c1017787ce9",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JavaScriptで既存300 ID重複・対象外不変・SHA256正規化と出典対応を事前照合。Python公式登録ガード/CIはPR後にGitHub Actionsで確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-829407.json",
+    "sha256": "6c2eb6ca096fad672d676c9434c436983844e075803779bff6991c1017787ce9",
+    "proposed_artwork_sha256": "09e0a451d94a64978b01544503a005685834e3963d00a745f196d64b219937b5",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "対象作品はMet公式でPublic Domainと表示され画像Open Accessを確認。",
+      "既存日本語解説はMet文を長文転載したものではなく、出典の要点を自分の表現で要約。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品画像のOpen Accessと館の解説著述を分離。現段階でこの短い日本語DB解説・公開図版に重大な未解決権利問題は認めないが、許諾保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "met-829407 Met 2019.420.30, PR #3 existing visitor draft used.",
+    "Recorded image hash and HTTP from October 2026; no fresh byte-level image verification.",
+    "Same assistant source review, not independent second model.",
+    "No curation fact, emotion tag or other artwork modified."
+  ]
+}
