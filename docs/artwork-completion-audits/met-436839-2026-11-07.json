@@ -1,0 +1,146 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436839",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "34c207cbaa61d7fc5588d6ff145beeec652b0513",
+    "artwork_record_sha256": "82edd160e79f781e3e4b66afbf8c61d342f8335109fa71773da330925ab19874",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436839.json",
+    "draft_sha256": "238bf20200d590970b37637da4ef3da9620da6b159017bfaab3c06e6e01b896e"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436839",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Georges de La Tour, The Penitent Magdalen, ca.1640, 1978.517; simplified Caravaggesque geometry and candlelight; mirror vanity, skull mortality, candle probably spiritual enlightenment."
+      ],
+      "observed": "Checked official Met search and opened artwork entry independently; verified wording 'probably', iconography and attribution."
+    },
+    {
+      "url": "https://www.metmuseum.org/ja/perspectives/peter-hristoff-reading-symbols-in-art",
+      "access": "page_read_once",
+      "locations": [
+        "Met educator Peter Hristoff discusses objects including mirror, skull and candle and their symbolism in this artwork, distinct from artist's own intention."
+      ],
+      "observed": "Museum commentary serves as cross-check and not as a direct historical quote by artist."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access is for its public-domain art images and does not grant unrestricted rights to museum-authored scholarly prose."
+      ],
+      "observed": "Museum policy examined."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436839",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-27910-001.jpg",
+      "sha256": "408b6ed786d8a1bb24a9f407c0a0fa8bf6f4211c2d30dd0f4d14b9bea9047d18",
+      "byte_length": 3255733,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 historical Met official JPEG and HTTP200 evidence kept in repo, not a freshly measured hash or current HTTP status."
+    },
+    {
+      "id": "met-436839",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-27910-001.jpg",
+      "sha256": "ffe6f83849174c52dc450d604d8cca1e40108f7d556f081d28c26228ffc7761f",
+      "byte_length": 79155,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 historical Met official JPEG and HTTP200 evidence kept in repo, not a freshly measured hash or current HTTP status."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compare visible subject in original museum-labelled public reproduction against work-specific Met accession and image filename. Registered official JPEG SHA/HTTP200 are historical; no fresh byte inspection.",
+    "observed": "Met 1978.517 image identifier DP-27910-001 and public Wikimedia frame photograph show seated Magdalen in profile with skull on lap and candle before mirror; matching object depiction and the earlier Met-registered JPEG identity."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Separate source-focused rereading of official Met collection page, image subject and historic registered image identity, independent of the PR #3 draft's first-pass notes; comparison of Japanese prose, source attribution, search tags and copyright scope.",
+    "limitations": "Same assistant in different passes, not a different AI or third-party expert. October 2026 JPEG byte measurements reused; not redownloaded. This copyright analysis is not legal advice or a warranty.",
+    "reviewed_artwork_sha256": "82edd160e79f781e3e4b66afbf8c61d342f8335109fa71773da330925ab19874",
+    "reviewed_visitor_draft_sha256": "238bf20200d590970b37637da4ef3da9620da6b159017bfaab3c06e6e01b896e",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 1978.517 image identifier DP-27910-001 and public Wikimedia frame photograph show seated Magdalen in profile with skull on lap and candle before mirror; matching object depiction and the earlier Met-registered JPEG identity."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metは簡潔な幾何学と暗闇・ろうそくの光による黙想を説明。鏡の虚栄と髑髏の死は図像の意味、ろうそくの宗教的啓明は可能性であって作者の断定的証言ではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存0タグ維持。宗教的悔悛・黙想を現代の悲しみ／喪失感と自動的に同一視しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "The prior Japanese text states key item-specific facts in original prose with relevant museum attributions, not copied or extensive literal translation; no substantive rewrite required."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "82edd160e79f781e3e4b66afbf8c61d342f8335109fa71773da330925ab19874",
+    "visitor_draft_sha256": "238bf20200d590970b37637da4ef3da9620da6b159017bfaab3c06e6e01b896e",
+    "proposal_sha256": "fbec99268b7cecd6608d8c0fb4f73bc7ee498c6cee6db2641861fe2a0f400fe6",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS locally checked canonical content hashes, unique IDs, scope and source URLs. Final repo Python validator, snapshot check, and draft check require GitHub Actions PASS."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436839.json",
+    "sha256": "fbec99268b7cecd6608d8c0fb4f73bc7ee498c6cee6db2641861fe2a0f400fe6",
+    "proposed_artwork_sha256": "82edd160e79f781e3e4b66afbf8c61d342f8335109fa71773da330925ab19874",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met object labelled Public Domain with Met Open Access picture reuse.",
+      "Japanese draft is original concise explanation and does not copy museum-written curatorial prose verbatim."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material rights blocker to saving the original Japanese text or referencing the public-domain museum image. No legal non-infringement guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "2026-10-20 actual original and display JPEG SHA/HTTP200 reused as dated historic evidence; not presented as newly measured.",
+    "Source pass by same assistant, not separate model or third-party independence.",
+    "No changes to 299 other artwork records, or existing item facts, curation, emotion tags or picture URLs."
+  ]
+}
