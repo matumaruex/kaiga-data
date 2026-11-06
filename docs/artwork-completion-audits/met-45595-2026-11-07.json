@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-45595",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "7783ad6c06128d8a1ed81990ca55f674ee0d1eb6",
+    "artwork_record_sha256": "246605ff04970f58122981f7960fc9c5f1533980a68a659f1a00c82345e52dd5",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-45595.json",
+    "draft_sha256": "a6cdcbb61aed6a77a36b44a66444fc058f3939d31c8157ad0853c3ea2043459f"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/45595",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 30.72.3: anonymous Japanese Muromachi scroll, mid-late 16th century. Kannon descends alone on clouds; open right hand with crystal rosary, lotus in vase left, Amida head and golden radial rays; Met official overview and details."
+      ],
+      "observed": "Official Met summary and subsequently opened full collection entry checked for identity, direct claim location and artwork facts compared to the draft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:%E5%8D%81%E4%B8%80%E9%9D%A2%E8%A6%B3%E9%9F%B3%E6%9D%A5%E8%BF%8E%E5%9B%B3-Descent_of_Eleven-Headed_Kannon_MET_DP317450.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Official image DP317450 2246x4000 identified via Met-contributed Commons file and accession; separate DP317451 visual represents same object but differs in framing. Old Oct 20 registered byte hashes retained, not rechecked."
+      ],
+      "observed": "Met-donated same-object Commons metadata confirmed accession, filename/resolution, subject and CC0 image availability; some image previews depict alternate photo of same work."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access policy applies to eligible public-domain object reproductions under CC0, not automatically to Met-written scholarship."
+      ],
+      "observed": "Met Open Access FAQ read; copyrighted curatorial text distinguished from CC0 images."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-45595",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP317450.jpg",
+      "sha256": "30918e465165f046f5adff6df6ae04e09f5632e6484361db9e1fcd123e14785e",
+      "byte_length": 2927890,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 historic complete JPEG byte/SHA and HTTP200 evidence; not downloaded today."
+    },
+    {
+      "id": "met-45595",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP317450.jpg",
+      "sha256": "c6f741aff4786300f9ba7be5bd476001ea2d8742671bfebbbbea0aa2f3d39466",
+      "byte_length": 65383,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 historic registered display JPEG SHA/HTTP200; not downloaded today."
+    }
+  ],
+  "visual_observations": {
+    "method": "Official Met image and same-object Met/Commons work number and original JPEG identifier/resolution compared to published visual result; historical Oct 20 JPEG byte/SHA retained, not newly checked.",
+    "observed": "Official image DP317450 2246x4000 identified via Met-contributed Commons file and accession; separate DP317451 visual represents same object but differs in framing. Old Oct 20 registered byte hashes retained, not rechecked."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Compared saved historical Japanese draft against a separately reopened official museum page, the correct work image/caption and Open Access rights reference, separating art history from impressions.",
+    "limitations": "Same AI separate pass; no second model, third party or full registered original JPEG byte download in this session. Some preview images are alternate reproductions of same work. Rights conclusion is not legal guarantee.",
+    "reviewed_artwork_sha256": "246605ff04970f58122981f7960fc9c5f1533980a68a659f1a00c82345e52dd5",
+    "reviewed_visitor_draft_sha256": "a6cdcbb61aed6a77a36b44a66444fc058f3939d31c8157ad0853c3ea2043459f",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Verified Met 45595 / 30.72.3 mid-late 16th century Kannon: not separately catalogued 14th-century same-title Met 44984."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "The preserved draft correctly depicts cloud descent, right rosary, left lotus vase, Amida above and radiant light; it makes no unsupported direct author claim."
+      },
+      {
+        "area": "emotion",
+        "finding": "慈しみ primary2 by compassion, 希望 secondary1 by devotional rescue, without predicting visitor response."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Concise Japanese draft original wording grounded in Met artwork detail; no long quote or close translation and no unsupported psychological claims."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "246605ff04970f58122981f7960fc9c5f1533980a68a659f1a00c82345e52dd5",
+    "visitor_draft_sha256": "a6cdcbb61aed6a77a36b44a66444fc058f3939d31c8157ad0853c3ea2043459f",
+    "proposal_sha256": "29371f6edded49b95d692b4e6e99d118cf227527cde2239cfbeba53e4b620e7e",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS verified IDs, canonical SHA, source relationship, preserved original record and all unrelated artwork records, historical image URLs/hashes. Full Python registration and schema/snapshot are subject to subsequent GitHub Actions CI."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-45595.json",
+    "sha256": "29371f6edded49b95d692b4e6e99d118cf227527cde2239cfbeba53e4b620e7e",
+    "proposed_artwork_sha256": "246605ff04970f58122981f7960fc9c5f1533980a68a659f1a00c82345e52dd5",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met marks the artwork Public Domain; specific Commons donated image is CC0.",
+      "Short Japanese explanation separately authored, without substantial museum textual copying."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material rights conflict in saving same-work CC0 image and original Japanese explanation; not a copyright legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met ID and official curator description verified separately from saved draft.",
+    "Oct 20 registered image byte-SHA retained as old evidence, not new.",
+    "Same AI separate review, not independent third party.",
+    "No changes to facts/meaning/emotions/image metadata or other 299 works."
+  ]
+}

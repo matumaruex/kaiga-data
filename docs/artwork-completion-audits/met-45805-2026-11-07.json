@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-45805",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "165625a3dc143105abdb85b4bef3aa77da21ff60",
+    "artwork_record_sha256": "daa682c6fd1f178bc9f9968d234e0ed392027387f4c9305892c63bdbd3b11b05",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-45805.json",
+    "draft_sha256": "b90e0a392db5a5d966a7281196fb667d59d98f019fe52de0a557053137740ad5"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/45805",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 14.76.70f: Utagawa Toyoharu, Mother and Children at the New Year, 18th century Edo hanging scroll. A boy hides in kimono to entertain wriggling younger child held by mother; New Year pine/bamboo, Utagawa school founder. Met official overview/details."
+      ],
+      "observed": "Official Met summary and subsequently opened full collection entry checked for identity, direct claim location and artwork facts compared to the draft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Utagawa_Toyoharu_-_Mother_and_Children_at_the_New_Year_-_14.76.70f_-_Metropolitan_Museum_of_Art.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Official Met original DP162915 explicitly visible in web image result and work-specific Commons image 3001x4000 accession 14.76.70f match registry. Oct 20 original and display JPEG SHA are prior measurements, not new."
+      ],
+      "observed": "Met-donated same-object Commons metadata confirmed accession, filename/resolution, subject and CC0 image availability; some image previews depict alternate photo of same work."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access policy applies to eligible public-domain object reproductions under CC0, not automatically to Met-written scholarship."
+      ],
+      "observed": "Met Open Access FAQ read; copyrighted curatorial text distinguished from CC0 images."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-45805",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP162915.jpg",
+      "sha256": "233ab55ebcf1e789ee1256ede0429644ea64792c2e77e8809328797bb6b7b7f2",
+      "byte_length": 2717324,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 historic complete JPEG byte/SHA and HTTP200 evidence; not downloaded today."
+    },
+    {
+      "id": "met-45805",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP162915.jpg",
+      "sha256": "d49a9cc63d5f70a663c3b9cbc0b63db00913c58caedf129cd7ec6a9fdd8ba8c4",
+      "byte_length": 74132,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 historic registered display JPEG SHA/HTTP200; not downloaded today."
+    }
+  ],
+  "visual_observations": {
+    "method": "Official Met image and same-object Met/Commons work number and original JPEG identifier/resolution compared to published visual result; historical Oct 20 JPEG byte/SHA retained, not newly checked.",
+    "observed": "Official Met original DP162915 explicitly visible in web image result and work-specific Commons image 3001x4000 accession 14.76.70f match registry. Oct 20 original and display JPEG SHA are prior measurements, not new."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Compared saved historical Japanese draft against a separately reopened official museum page, the correct work image/caption and Open Access rights reference, separating art history from impressions.",
+    "limitations": "Same AI separate pass; no second model, third party or full registered original JPEG byte download in this session. Some preview images are alternate reproductions of same work. Rights conclusion is not legal guarantee.",
+    "reviewed_artwork_sha256": "daa682c6fd1f178bc9f9968d234e0ed392027387f4c9305892c63bdbd3b11b05",
+    "reviewed_visitor_draft_sha256": "b90e0a392db5a5d966a7281196fb667d59d98f019fe52de0a557053137740ad5",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Verified Met 45805 / 14.76.70f Toyoharu painting rather than related prints, correct original filename DP162915."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Japanese visitor draft correctly places small child wriggling in mother's arms, other boy playing in kimono folds, pine and bamboo; no inference about real family or artist memories."
+      },
+      {
+        "area": "emotion",
+        "finding": "喜び primary2 based on New Year's playful joy; 慈しみ secondary1 on care, not artist's psychology."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Concise Japanese draft original wording grounded in Met artwork detail; no long quote or close translation and no unsupported psychological claims."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "daa682c6fd1f178bc9f9968d234e0ed392027387f4c9305892c63bdbd3b11b05",
+    "visitor_draft_sha256": "b90e0a392db5a5d966a7281196fb667d59d98f019fe52de0a557053137740ad5",
+    "proposal_sha256": "41d88900b8b5206d82bf95a9ab296e0c2b06c182ba230319257769030df89d57",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS verified IDs, canonical SHA, source relationship, preserved original record and all unrelated artwork records, historical image URLs/hashes. Full Python registration and schema/snapshot are subject to subsequent GitHub Actions CI."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-45805.json",
+    "sha256": "41d88900b8b5206d82bf95a9ab296e0c2b06c182ba230319257769030df89d57",
+    "proposed_artwork_sha256": "daa682c6fd1f178bc9f9968d234e0ed392027387f4c9305892c63bdbd3b11b05",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met marks the artwork Public Domain; specific Commons donated image is CC0.",
+      "Short Japanese explanation separately authored, without substantial museum textual copying."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material rights conflict in saving same-work CC0 image and original Japanese explanation; not a copyright legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met ID and official curator description verified separately from saved draft.",
+    "Oct 20 registered image byte-SHA retained as old evidence, not new.",
+    "Same AI separate review, not independent third party.",
+    "No changes to facts/meaning/emotions/image metadata or other 299 works."
+  ]
+}
