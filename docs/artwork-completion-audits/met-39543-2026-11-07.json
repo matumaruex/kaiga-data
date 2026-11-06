@@ -1,0 +1,146 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-39543",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "8fca43d8c5a6120bc0b1c707885192487b0d27a0",
+    "artwork_record_sha256": "ca13231f38a40abf00f7e8f1440a9a9c82e5c8f1523e4e12fca3c0ef8b7d0dd9",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-39543.json",
+    "draft_sha256": "b6c66c6a827e04d54a837c54ce60ae80d22af7f42e673338bcd16e118a7df44a"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/39543",
+      "access": "page_read_twice",
+      "locations": [
+        "Met object 2010.473: Five Dynasties or Northern Song, anonymous, ruled-line architectural scroll; seventh-month seventh-day needle-threading women; Bai Juyi, Tang Xuanzong and Yang Guifei, political admonition framed as museum interpretation."
+      ],
+      "observed": "Earlier checked draft evidence was re-read against the current Met official narrative and accession in this review."
+    },
+    {
+      "url": "https://artmuseum.princeton.edu/art/stories-perspectives/eternal-feast-banqueting-chinese-art-10th-14th-century",
+      "access": "page_read_twice",
+      "locations": [
+        "The Eternal Feast, Ladies Banqueting in Seclusion: palace dinner is imagined Tang-era scene and form of nostalgia; Princeton calls the maker early 12th-century, unlike the Met period label."
+      ],
+      "observed": "Rechecked the Princeton museum's exhibition interpretation; chronological discrepancy preserved without asserting one exact year."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access public-domain image policy does not automatically authorize reuse of authored curatorial text."
+      ],
+      "observed": "Rechecked the separation of image rights and museum scholarly prose."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-39543",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-13657-002.jpg",
+      "sha256": "c3b97702262f2746127e778d46b3097b9ce9b82fce23b39b2d70eb14cdeabc13",
+      "byte_length": 2381926,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historic 2026-10-20 SHA256 and HTTP 200 persisted in repository. No fresh registered-JPEG download, decoded-pixel check or SHA measurement in this session."
+    },
+    {
+      "id": "met-39543",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-13657-002.jpg",
+      "sha256": "8c86c6e4775577496e21074bd93415f5ea4768c8b6610e7b3e4a7d9d346ed1ac",
+      "byte_length": 79302,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Historic 2026-10-20 SHA256 and HTTP 200 persisted in repository; not a new byte comparison."
+    }
+  ],
+  "visual_observations": {
+    "method": "Cross-check official Met accession and linked primaryImage filename DP-13657-002 with Met-sourced Commons original (MET DP-13657-002), Met's architectural composition description and past matching image metadata.",
+    "observed": "Met accession 2010.473 and Commons' DP-13657-002 match the registered original image identifier; Met describes multi-storey palace courtyards and women at a raised banquet terrace. Image/subject mapping is supported by museum-origin object metadata and the same identified public reproduction; fresh byte/pixel inspection of registered JPEG is not claimed."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Source-focused second pass against the museum pages and earlier independently worded draft evidence; compare object identification, interpretation attribution, emotion index, and image rights.",
+    "limitations": "Same assistant, not a separate independent AI or expert. No fresh registered-JPEG download. Princeton/Met period labels differ; manuscript dates are not resolved. No legal noninfringement guarantee.",
+    "reviewed_artwork_sha256": "ca13231f38a40abf00f7e8f1440a9a9c82e5c8f1523e4e12fca3c0ef8b7d0dd9",
+    "reviewed_visitor_draft_sha256": "b6c66c6a827e04d54a837c54ce60ae80d22af7f42e673338bcd16e118a7df44a",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 2010.473, Chinese anonymous Five Dynasties/Northern Song palace scroll; source and linked primary image id aligned."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met's Qixi and Bai Juyi context separated from Princeton's nostalgic Tang court reading; different dating not suppressed."
+      },
+      {
+        "area": "emotion",
+        "finding": "Primary 期待2 and secondary 喜び1 retained as relevant possible entry points, not historical diagnosis or evidence that the author felt joy."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Existing Japanese draft is a concise independent recomposition with explicit attribution to each museum, not a lengthy literal translation."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "ca13231f38a40abf00f7e8f1440a9a9c82e5c8f1523e4e12fca3c0ef8b7d0dd9",
+    "visitor_draft_sha256": "b6c66c6a827e04d54a837c54ce60ae80d22af7f42e673338bcd16e118a7df44a",
+    "proposal_sha256": "13b1b353b83be83cf4dbfe589c8306d5e5b597f961060d3882fb77deed2a8696",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Canonical hashes and artwork count reviewed in JS; GitHub Actions' Python registration/structure/snapshot checks must still pass before PR merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-39543.json",
+    "sha256": "13b1b353b83be83cf4dbfe589c8306d5e5b597f961060d3882fb77deed2a8696",
+    "proposed_artwork_sha256": "ca13231f38a40abf00f7e8f1440a9a9c82e5c8f1523e4e12fca3c0ef8b7d0dd9",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met object flagged Public Domain, linked images offered via Open Access.",
+      "Japanese text is a short original interpretative description with sources rather than reproduction of Met or Princeton article prose."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material rights blocker to preserving an original short Japanese summary and referencing Met PD image; no legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Historical Met JPEG hashes and HTTP 200 evidence reused from October 2026, never represented as a fresh measurement.",
+    "Second review by same AI in separate pass, not a different model or third party.",
+    "All non-target 299 artwork records unchanged."
+  ]
+}
