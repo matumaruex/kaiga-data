@@ -1,0 +1,146 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-40063",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "aee26a1ea7c3ec2960d7e5ef4208378691dc32cb",
+    "artwork_record_sha256": "d2b93256b2ab6415d8e85a7660abc6c301006dc494464a419527a8e726719aa6",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-40063.json",
+    "draft_sha256": "ce162dde2efca2cd9adbf4f8d706dca8ac9acc68df04ab10c99a7b6e13d88673"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/40063",
+      "access": "page_read_twice",
+      "locations": [
+        "Official Met collection depicts a late 12th century silk fan album leaf with plum blossoms, bamboo, and sparrows. The academy tradition is a stylistic category; artist name and academy employment are not asserted. The collection description, artwork number, artist attribution, material, date, open-access flag and the image were cross-checked with the Japanese draft."
+      ],
+      "observed": "Met collection description independently re-opened and compared in a second pass with existing draft claims and original exhibit image; no newly measured JPEG checksum."
+    },
+    {
+      "url": "https://www.metmuseum.org/essays/southern-song-dynasty-1127-1279",
+      "access": "page_read_twice",
+      "locations": [
+        "Met educational essay's Imperial Painting Academy discussion of fan and album forms; applied as background, not artist attribution for this specific artwork."
+      ],
+      "observed": "Museum essay read and checked in a separate pass for original source scope and proper limitation."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access image rights and distinction from museum's descriptive prose."
+      ],
+      "observed": "Artwork images are shown as Public Domain; curatorial text is not assumed to be CC0."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-40063",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP153502.jpg",
+      "sha256": "605a8d6294f747463ea7f71588a4be0632a67207ce793dc8354d239a7b367076",
+      "byte_length": 3331458,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met primaryImage original historical full-JPEG SHA and HTTP200 checked 2026-10-20; not a fresh transfer in this work session."
+    },
+    {
+      "id": "met-40063",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP153502.jpg",
+      "sha256": "66d3491fcf296b8e49697e3efe197d5922d27842f14c190038f4c887fd524491",
+      "byte_length": 69571,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met official display JPEG historic SHA/HTTP200 from October 2026; the direct displayed image was visually examined this session, but no current byte SHA was measured."
+    }
+  ],
+  "visual_observations": {
+    "method": "The official Met object page raster image was viewed directly during this work and matched to title, accession and prior primaryImage URL mapping; no current registered JPEG file SHA calculation.",
+    "observed": "A nearly square pictorial leaf with little brown sparrows near white flowering plum and bamboo; compared with the Met page and official image."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Compared the primary Met object description and image to the PR #3 draft in a second separate pass, including title, date, attribution uncertainty, iconography, curation, rights and source coverage.",
+    "limitations": "This is a same-AI separate-source review, not an independent model or human third party; historic image checksums were reused without new JPEG byte validation and copyright evaluation is not a legal guarantee.",
+    "reviewed_artwork_sha256": "d2b93256b2ab6415d8e85a7660abc6c301006dc494464a419527a8e726719aa6",
+    "reviewed_visitor_draft_sha256": "ce162dde2efca2cd9adbf4f8d706dca8ac9acc68df04ab10c99a7b6e13d88673",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met object met-40063, accession 24.80.487, artist \"Unidentified artist\", dated late 12th century and Public Domain object page identified; no other object conflated."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Official Met collection depicts a late 12th century silk fan album leaf with plum blossoms, bamboo, and sparrows. The academy tradition is a stylistic category; artist name and academy employment are not asserted."
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing emotion categories were retained: {\"primary\":[],\"secondary\":[]}. Search emotion is a visitor query association rather than a documented emotion of the painter or a guarantee of effect."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "The checked Japanese explanation has original concise phrasing, qualifies uncertain readings and avoids long museum-text reproduction; no evidence of extensive copy. Curatorial source rights are separate from Open Access images."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "d2b93256b2ab6415d8e85a7660abc6c301006dc494464a419527a8e726719aa6",
+    "visitor_draft_sha256": "ce162dde2efca2cd9adbf4f8d706dca8ac9acc68df04ab10c99a7b6e13d88673",
+    "proposal_sha256": "608a5f1a9078b09819eee5f8150afedcb2a9e4ffd08a94845b4f306ed334f448",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historic_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Initial JS SHA, structural IDs, archived image metadata and source-reference checks; the actual Python validators/complete_artwork check and CI are required before main integration."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-40063.json",
+    "sha256": "608a5f1a9078b09819eee5f8150afedcb2a9e4ffd08a94845b4f306ed334f448",
+    "proposed_artwork_sha256": "d2b93256b2ab6415d8e85a7660abc6c301006dc494464a419527a8e726719aa6",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met openly releases PD identified artwork images, not blanket copyright in museum curatorial writing.",
+      "Concise original Japanese description reviewed against source; no substantial verbatim museum prose re-used."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material barrier to GitHub storage of this concise Japanese text and PD image metadata. Not a legal noninfringement guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Official museum page and image checked in current review; registered JPEG SHA/HTTP200 are historical verification from 2026-10-20.",
+    "Same AI in a separate pass; no other model and no independent external auditor.",
+    "Original artwork facts, selection basis and emotion tags remain unchanged."
+  ]
+}
