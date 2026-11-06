@@ -1,0 +1,154 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437284",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "b5039c96060bc3e599b62ed4a3a165dcdd19daae",
+    "artwork_record_sha256": "cc58c7a44789359cf0e66b92b34d81e65729f02ab68071e5f9e4d0a6fb9cf87d",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437284.json",
+    "draft_sha256": "5813820b82a5b446cd8617313ae5ca922fa247ab9e62e05b569785210c7bd489"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437284",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 75.7.1: Piero di Cosimo The Return from the Hunt, ca.1494–1500, tempera and oil on wood. In one of a pair of imagined early human-history scenes, figures and mythic beings bring game ashore. Lucretius and possible study/reading-room panel function are curatorial interpretations."
+      ],
+      "observed": "Read Met result and opened its official object page. The object number, title, ca.1494–1500, scene order, room-purpose possibility, and Lucretius interpretation are correctly framed."
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437283",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 75.7.2 A Hunting Scene, forest fire/animal hunting; same painter and period. This is the other panel, not a scene shown in 75.7.1."
+      ],
+      "observed": "Read companion Met object record and checked number 75.7.2, its distinct subject and medium; no conflation with accession 75.7.1."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Return_from_the_Hunt_MET_DT1505.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met-linked Commons work-specific page, artwork id met-437284, Met accession 75.7.1; Met-donated or identified public-domain representation."
+      ],
+      "observed": "Compared work title, owner, accession, artistic subject and open-access provenance; this is a separate reproduction source and cannot prove fresh registered JPEG bytes."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "The Met Open Access policy grants reuse for eligible public-domain artwork images. It is not permission to reproduce long curator-authored descriptions or museum essays."
+      ],
+      "observed": "Museum policy page reviewed with distinction between image and written explanatory content."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437284",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-24048-001.jpg",
+      "sha256": "75a2ce2514dc802caa9914ba993a51e3f778a9ed29015d3a9a6b3b40229964e1",
+      "byte_length": 2546391,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met official JPEG full SHA and HTTP200 recorded 2026-10-20 in repository, reused only as dated historical evidence. The registered JPEG bytes were not freshly downloaded or hashed."
+    },
+    {
+      "id": "met-437284",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-24048-001.jpg",
+      "sha256": "8194c9cae4fc8fdaeab7ed674e8c15514145b32eebb76846d3798aced1392ee9",
+      "byte_length": 76591,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met official JPEG full SHA and HTTP200 recorded 2026-10-20 in repository, reused only as dated historical evidence. The registered JPEG bytes were not freshly downloaded or hashed."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compared the work-specific Met museum record with a public Met-donated reproduction and older registered Met API image identity by accession. No fresh pixel comparison or byte measurement of the registered JPEG; the separate reproduction's visible scene and linked accession provide the artwork-specific subject check.",
+    "observed": "Met-donated open-access public reproduction identifies 75.7.1 and shows very wide panel with human and mythic figures, boat and game carried on a shore; historical registered DP-24048-001 is linked by museum object ID, not freshly pixel-hashed."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Separate direct official-source rereading and comparison of work-specific public reproduced imagery with prior draft, source and rights evidence. Checked facts, interpretations, tags and similarity after independently evaluating the stored draft.",
+    "limitations": "One assistant's distinct verification pass, not another AI model or external human. Original/display JPEG SHA and HTTP200 were measured in Oct 2026 and not freshly measured. Distinct public image reproduction has the same Met accession but is not cryptographically identical to registered JPEG; copyright assessment is not a legal guarantee.",
+    "reviewed_artwork_sha256": "cc58c7a44789359cf0e66b92b34d81e65729f02ab68071e5f9e4d0a6fb9cf87d",
+    "reviewed_visitor_draft_sha256": "5813820b82a5b446cd8617313ae5ca922fa247ab9e62e05b569785210c7bd489",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met official 75.7.1 and Met-donated public-domain artwork reproduction, Piero di Cosimo, 1494–1500; 75.7.2 is the separate hunting/fire panel."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "The museum presents early humanity and Lucretius as painterly intellectual context, while study-room installation is possible rather than proved. The picture is not an archaeological reconstruction."
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing zero emotions maintained. The mythological imagined prehistory is not automatically a viewer's nostalgia or curiosity."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Draft accurately separates the hunting panel from this carrying-home panel; original Japanese paraphrase does not copy the museum paragraph."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "cc58c7a44789359cf0e66b92b34d81e65729f02ab68071e5f9e4d0a6fb9cf87d",
+    "visitor_draft_sha256": "5813820b82a5b446cd8617313ae5ca922fa247ab9e62e05b569785210c7bd489",
+    "proposal_sha256": "0ac2798ebc34e49bb445215bf269a0994d306f48311b668ae9581e7012905326",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS locally checked canonical hashes, source URL bindings, stable 300 IDs, untouched 299 artwork records and historical image hashes. Repository Python registration guard and complete_artwork.py check will be verified by GitHub Actions before merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437284.json",
+    "sha256": "0ac2798ebc34e49bb445215bf269a0994d306f48311b668ae9581e7012905326",
+    "proposed_artwork_sha256": "cc58c7a44789359cf0e66b92b34d81e65729f02ab68071e5f9e4d0a6fb9cf87d",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Official Met item marked Public Domain; original artwork reproduction is under Met Open Access (CC0).",
+      "Japanese standalone visitor explanation is short, uses its own prose and credits the museum's interpretations rather than reproducing the curator's original paragraph."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No material obstacle found to storing this original concise Japanese description alongside a link to Met Open Access artwork imagery. No legal warranty or license claim over museum scholarly prose."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Prior 2026-10-20 registered JPEG full SHA and HTTP200 retained as dated evidence; no new complete JPEG bytes obtained.",
+    "Same assistant source reread is not separate model or third-party validation.",
+    "Other 299 artwork records and all existing image, fact, emotion and selected-material fields unchanged."
+  ]
+}

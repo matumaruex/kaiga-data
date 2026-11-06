@@ -1,0 +1,146 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437042",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "092a318cf884798eb7c13391eb15db3650e33ddd",
+    "artwork_record_sha256": "0c0c72f0f39114721196c9fe9cfc20ba44f6f1d303b33a825244c273bb4ef72a",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437042.json",
+    "draft_sha256": "a34aa640fc5ddab338b4c6354c78e53a8ba16c89c191fed20c9f152d9c19526b"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437042",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 14.40.816: Anton Mauve, The Return to the Fold, oil on canvas, no specific creation date listed. Leading Hague school painter of southwest Dutch rural subjects, sheep going away vs approaching market price comparison, and Van Gogh 1881–82 study with Mauve."
+      ],
+      "observed": "Read current official object result and opened the complete Met record; explicitly verified absent creation date and contemporary market phrase 'sheep going', with Van Gogh praise of Mauve rather than of this individual canvas."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Return_to_the_Fold_MET_ep14.40.816.bw.R.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met-linked Commons work-specific page, artwork id met-437042, Met accession 14.40.816; Met-donated or identified public-domain representation."
+      ],
+      "observed": "Compared work title, owner, accession, artistic subject and open-access provenance; this is a separate reproduction source and cannot prove fresh registered JPEG bytes."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "The Met Open Access policy grants reuse for eligible public-domain artwork images. It is not permission to reproduce long curator-authored descriptions or museum essays."
+      ],
+      "observed": "Museum policy page reviewed with distinction between image and written explanatory content."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437042",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-23076-001.jpg",
+      "sha256": "ea12b1a5bcac51b9d5477fa1a3b35bcec0d9d3cb1b28e867341a05d0a6479f72",
+      "byte_length": 3597716,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met official JPEG full SHA and HTTP200 recorded 2026-10-20 in repository, reused only as dated historical evidence. The registered JPEG bytes were not freshly downloaded or hashed."
+    },
+    {
+      "id": "met-437042",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23076-001.jpg",
+      "sha256": "0f7c974a2cd598f48aaca3990fae91c45e81f1c23066c9493178f1f49e78e045",
+      "byte_length": 76839,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met official JPEG full SHA and HTTP200 recorded 2026-10-20 in repository, reused only as dated historical evidence. The registered JPEG bytes were not freshly downloaded or hashed."
+    }
+  ],
+  "visual_observations": {
+    "method": "Compared the work-specific Met museum record with a public Met-donated reproduction and older registered Met API image identity by accession. No fresh pixel comparison or byte measurement of the registered JPEG; the separate reproduction's visible scene and linked accession provide the artwork-specific subject check.",
+    "observed": "Met-donated Wikimedia public reproduction explicitly identifies Anton Mauve The Return to the Fold, 14.40.816, shepherd, dog and group of sheep seen moving away; historical registered DP-23076-001 is linked by object ID, and the actual JPEG was not redownloaded."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Separate direct official-source rereading and comparison of work-specific public reproduced imagery with prior draft, source and rights evidence. Checked facts, interpretations, tags and similarity after independently evaluating the stored draft.",
+    "limitations": "One assistant's distinct verification pass, not another AI model or external human. Original/display JPEG SHA and HTTP200 were measured in Oct 2026 and not freshly measured. Distinct public image reproduction has the same Met accession but is not cryptographically identical to registered JPEG; copyright assessment is not a legal guarantee.",
+    "reviewed_artwork_sha256": "0c0c72f0f39114721196c9fe9cfc20ba44f6f1d303b33a825244c273bb4ef72a",
+    "reviewed_visitor_draft_sha256": "a34aa640fc5ddab338b4c6354c78e53a8ba16c89c191fed20c9f152d9c19526b",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met oil-on-canvas object 14.40.816 matches artist, title, moving flock depiction and previously recorded image ID; distinguish A Shepherdess and Her Flock (1985.88)."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met describes Hague school sheep paintings and difference in historical market prices between 'sheep coming' and 'sheep going'; not a verified transaction value for this particular piece. Van Gogh's admiration for Mauve is general, not testimony on this canvas."
+      },
+      {
+        "area": "emotion",
+        "finding": "Zero emotions retained; word return does not by itself justify nostalgia or a conclusion about the shepherd's feelings."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Prior Japanese draft clearly distinguishes pricing category, absent date, and Van Gogh's general praise; it is a short original explanation, not a translation of the entire Met text."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "0c0c72f0f39114721196c9fe9cfc20ba44f6f1d303b33a825244c273bb4ef72a",
+    "visitor_draft_sha256": "a34aa640fc5ddab338b4c6354c78e53a8ba16c89c191fed20c9f152d9c19526b",
+    "proposal_sha256": "d0047c5bf2158567afc7d18384d90bdedd89aff1d14dfa272eef8bffbaab973f",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS locally checked canonical hashes, source URL bindings, stable 300 IDs, untouched 299 artwork records and historical image hashes. Repository Python registration guard and complete_artwork.py check will be verified by GitHub Actions before merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437042.json",
+    "sha256": "d0047c5bf2158567afc7d18384d90bdedd89aff1d14dfa272eef8bffbaab973f",
+    "proposed_artwork_sha256": "0c0c72f0f39114721196c9fe9cfc20ba44f6f1d303b33a825244c273bb4ef72a",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Official Met item marked Public Domain; original artwork reproduction is under Met Open Access (CC0).",
+      "Japanese standalone visitor explanation is short, uses its own prose and credits the museum's interpretations rather than reproducing the curator's original paragraph."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No material obstacle found to storing this original concise Japanese description alongside a link to Met Open Access artwork imagery. No legal warranty or license claim over museum scholarly prose."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Prior 2026-10-20 registered JPEG full SHA and HTTP200 retained as dated evidence; no new complete JPEG bytes obtained.",
+    "Same assistant source reread is not separate model or third-party validation.",
+    "Other 299 artwork records and all existing image, fact, emotion and selected-material fields unchanged."
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437429",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "396f86f3e12e24f3e4891674022287f9716941c8",
+    "artwork_record_sha256": "6c35d0796ea1aed0b9c836c22fcf26fe8d67ab2bde89e473e34e52805f103eb3",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437429.json",
+    "draft_sha256": "d2e80229d50495940870817e0ef41101d6a7bd897a4bdea1dd43aa931419ef31"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437429",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 61.101.12: Auguste Renoir Still Life with Peaches, 1881, public domain, 1882 Impressionist exhibition criticism of velvety nearly trompe-l'oeil fruit, Paul Berard countryside, one of two still lifes featuring the same faïence jardinière."
+      ],
+      "observed": "Official Met search and direct object page read. Confirmed the subject, 1881/1882 chronology, attribution and Met work 61.101.12."
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437428",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 56.218: Still Life with Peaches and Grapes, 1881. Museum expressly notes contrasting color harmonies, Paul Berard's purchase of this companion, whereas other 61.101.12 went to seventh Impressionist exhibition."
+      ],
+      "observed": "Met 56.218 official search and direct page opened separately, reviewed accession and ownership facts without confusing the second canvas with 61.101.12."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Still_Life_with_Peaches_MET_DT1140.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Met-donated file Still Life with Peaches MET DT1140, 61.101.12, 3,803x3,153, CC0."
+      ],
+      "observed": "Compared accession and filename DT1140 to historical registered Met original JPEG and directly opened Met collection image 437429."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met OA images of public-domain artworks designated CC0 reusable; OA image terms do not automatically grant copyright in museum-authored collection explanations."
+      ],
+      "observed": "Read Met policy scope; Japanese prose independently phrased."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437429",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1140.jpg",
+      "sha256": "969596fc82615e5334abad426ff7f0efbdf4ede4d0ab97213e1a7511de14c6fd",
+      "byte_length": 3180167,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met 2026-10-20 full JPEG SHA and HTTP200 historical verification retained; not redownloaded in this turn."
+    },
+    {
+      "id": "met-437429",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1140.jpg",
+      "sha256": "3b270ba5d1678d0df19eda1fd2c040586d1910282a03de820a947cb5af00bbb7",
+      "byte_length": 116329,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met 2026-10-20 full JPEG SHA and HTTP200 historical verification retained; not redownloaded in this turn."
+    }
+  ],
+  "visual_observations": {
+    "method": "Direct observation of Met official JPEG served from 437429 object page via visual image, compared with Met-donated Wikimedia DT1140 at the same accession and historic registered JPEG metadata. No new byte hash of official registered file.",
+    "observed": "Correct Met 61.101.12 image: blue-white earthenware vessel with many peaches, elaborate warm tapestry behind, few loose fruit on white drapery. The separate 56.218 image has peaches and grapes against cool blue backdrop; distinct composition. Historical registered DT1140 filename belongs to 61.101.12."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Second pass of official Met 437429 and 437428 pages and specific pictures, compared with PR #3 draft, tags and similarity of Japanese prose.",
+    "limitations": "Source reread performed by same assistant in separate pass, not a different AI or external reviewer. JPEG SHA and HTTP200 are original 2026-10-20 metadata only; no fresh byte comparison. Rights assessment not legal advice.",
+    "reviewed_artwork_sha256": "6c35d0796ea1aed0b9c836c22fcf26fe8d67ab2bde89e473e34e52805f103eb3",
+    "reviewed_visitor_draft_sha256": "d2e80229d50495940870817e0ef41101d6a7bd897a4bdea1dd43aa931419ef31",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Direct official view and accession 61.101.12 show ornate warm background and peach-filled blue-white bowl matching historical DT1140; 56.218 is different with grapes."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met 61.101.12 documents critic's 1882 trompe-l'oeil-like remark and 1881 patron stay. Met 56.218 confirms separate version, two harmonies, and Bérard's purchase of the latter."
+      },
+      {
+        "area": "emotion",
+        "finding": "No existing emotion categories. Vibrant warm color or fine texture alone does not provide an evidence-based joy tag."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Japanese visitor text states accurate museum facts and clearly distinguishes related version; concise independent commentary, not long copied or literal curatorial prose."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "6c35d0796ea1aed0b9c836c22fcf26fe8d67ab2bde89e473e34e52805f103eb3",
+    "visitor_draft_sha256": "d2e80229d50495940870817e0ef41101d6a7bd897a4bdea1dd43aa931419ef31",
+    "proposal_sha256": "90adc0d51d1e745a84c6463b2cd072c9677d213af06a9ad5794c65fd62bdfa83",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Locally checked ID, full catalog count, canonical hashes, history-sourced image identity and unchanged other artwork records. GitHub Actions final Python validators, completion check and snapshot tests pending."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437429.json",
+    "sha256": "90adc0d51d1e745a84c6463b2cd072c9677d213af06a9ad5794c65fd62bdfa83",
+    "proposed_artwork_sha256": "6c35d0796ea1aed0b9c836c22fcf26fe8d67ab2bde89e473e34e52805f103eb3",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met 61.101.12 is designated Public Domain with eligible Open Access image reuse.",
+      "Original concise Japanese explanation avoids lengthy copying or close literal translation of Met explanatory prose."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No identified material rights obstacle to storing this short original Japanese explanation and referencing the OA artwork image. No legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "2026-10-20 registered JPEG SHA and HTTP 200 used as dated historical evidence, no fresh byte download.",
+    "Separate source reread by same assistant, not different model.",
+    "No alterations to images, facts, interpretation index, emotion tags or other 299 works."
+  ]
+}
