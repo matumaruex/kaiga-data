@@ -1,0 +1,148 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-73188",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "366e248fd3e6fc8305320657661e9b3a6de78988",
+    "artwork_record_sha256": "7e48925a7e5cb446cb14927f7c88a6c27bd004fea6f60c13c286500ce128935c",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-73188.json",
+    "draft_sha256": "828beecd07b58ede8f3d1a13357b00bcbaac0972299f1466a2c5694c3ec09b99"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/73188",
+      "access": "page_read_twice",
+      "locations": [
+        "Met object 73188, accession 2006.104, Kim Su-gyu, Korea late 18th century, small album leaf now hung as a scroll. Two fishermen cross a bridge into mountain forest possibly towards village upper right, blue/grey washes and verse describing rain clearing and straw-coated fishermen returning, Hwalhoja signature, central crease as physical evidence of album origin."
+      ],
+      "observed": "Compared separately retrieved recent search excerpt with official museum collection page opened directly: work number, attribution, date, museum interpretation and exact Japanese visitor draft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:MET_2006_104_d01.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Current Met IIIF main image depicts the two figures crossing a small bridge at lower left and houses at upper right, with original poem at upper left; original registered DP-29285-002 was historically verified 4000×3000. Commons MET_2006_104_d01 independently confirms same Met accession/work but is not claimed to be byte-identical."
+      ],
+      "observed": "Checked matching Met-contributed same-work Commons description (object number/public domain/CC0) and museum IIIF image; a related image may be a different crop or original photograph, never claimed identical bytes without old checksum."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access policy allows CC0 artwork images for commercial/noncommercial use; museum-authored explanatory prose is a distinct copyright matter."
+      ],
+      "observed": "Read official FAQ, confirming image rights do not grant blanket rights to explanatory writing."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-73188",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-29285-002.jpg",
+      "sha256": "dd2da1eff2b23c845bca20d87dcd68d1e983a108914acedb85901456d135fb19",
+      "byte_length": 5039121,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 original Met JPEG full-byte hash and HTTP200 retained from older audit; not freshly measured today."
+    },
+    {
+      "id": "met-73188",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-29285-002.jpg",
+      "sha256": "73f98c8fc6eae5d5efed94fbbca108623f09600a442e6781c196ce1e234d285a",
+      "byte_length": 108612,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 display JPEG checks retained as historical evidence; not freshly requested or hashed today."
+    }
+  ],
+  "visual_observations": {
+    "method": "Directly viewed work-specific Met IIIF image linked from each official object page, cross-checked its subject with Met object ID, matching stored original photo and Met-donated Commons metadata; archived 2026-10-20 registered-file SHA retained rather than remeasured.",
+    "observed": "Current Met IIIF main image depicts the two figures crossing a small bridge at lower left and houses at upper right, with original poem at upper left; original registered DP-29285-002 was historically verified 4000×3000. Commons MET_2006_104_d01 independently confirms same Met accession/work but is not claimed to be byte-identical. Live official IIIF picture examined at https://collectionapi.metmuseum.org/api/collection/v1/iiif/73188/2195508/main-image"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Read preserved PR #3 Japanese text before separately retrieving museum object's official current description, specific picture and source citations. Evaluated identity, historical assertions, inferred psychology, category relevance, summary similarity and reuse rights. For 74448 read additional Met scholarly catalogue p99 screenshot.",
+    "limitations": "Same AI in a distinct source-review pass; no second model or independent third party. Prior October 2026 SHA256 of the registered JPEG carried forward; no new image-byte measurement. Source-text paraphrase assessment is not a legal guarantee.",
+    "reviewed_artwork_sha256": "7e48925a7e5cb446cb14927f7c88a6c27bd004fea6f60c13c286500ce128935c",
+    "reviewed_visitor_draft_sha256": "828beecd07b58ede8f3d1a13357b00bcbaac0972299f1466a2c5694c3ec09b99",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 2006.104: Current Met IIIF main image depicts the two figures crossing a small bridge at lower left and houses at upper right, with original poem at upper left; original registered DP-29285-002 was historically verified 4000×3000. Commons MET_2006_104_d01 independently confirms same Met accession/work but is not claimed to be byte-identical."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met explicitly suggests rather than asserts direction toward the village and former album-leaf status. Japanese draft preserves these possibilities, identifies Hwalhoja from translated Met scholarship, and does not pretend to have read the original Korean poem in full."
+      },
+      {
+        "area": "emotion",
+        "finding": "Zero emotion tags preserved: rain/mist and route home do not independently establish sadness, anxiety, or loneliness."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Preserved Japanese prose is a concise independently worded depiction and museum-attributed historical interpretation rather than a long literal translation; qualifiers are kept. For the 2008.55 age contradiction, visitor draft appropriately omits a numeric age."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "7e48925a7e5cb446cb14927f7c88a6c27bd004fea6f60c13c286500ce128935c",
+    "visitor_draft_sha256": "828beecd07b58ede8f3d1a13357b00bcbaac0972299f1466a2c5694c3ec09b99",
+    "proposal_sha256": "125fcfd2e9c0dd19356ced15a45f8a95f3a731aa1794e2929dccc335e80eed90",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Preflight JavaScript validated SHA256 known test vector, catalog count and uniqueness, source-url matching, and no other artwork records changed. Official Python complete_artwork.py, schema and catalog snapshot validation to be enforced by GitHub Actions before merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-73188.json",
+    "sha256": "125fcfd2e9c0dd19356ced15a45f8a95f3a731aa1794e2929dccc335e80eed90",
+    "proposed_artwork_sha256": "7e48925a7e5cb446cb14927f7c88a6c27bd004fea6f60c13c286500ce128935c",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "This Met object is listed Public Domain with downloadable work-specific image; the matching museum Commons upload is CC0.",
+      "Visitor draft is new concise Japanese prose, no extended direct quotation or substantial literal reproduction of the museum's curatorial text."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No material rights issue identified with historical CC0 artwork image and short original Japanese database commentary; this is not a legal guarantee, and museum prose is distinct."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Work met-73188, Met accession 2006.104, draft retained.",
+    "Existing facts/curation/emotions unchanged.",
+    "2026-10-20 image hashes/HTTP200 inherited as past checks, not freshly measured.",
+    "Same-model separate source pass; not independent second AI or human review.",
+    "Other 299 records unchanged."
+  ]
+}

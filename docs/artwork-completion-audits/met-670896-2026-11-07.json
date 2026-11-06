@@ -1,0 +1,148 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-670896",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "2926a663c6fce4f4fd93921e7c7db6935065d756",
+    "artwork_record_sha256": "4359b8fba25992c11ca7ed444b56a6b3b01a35b0796771a59231ac2a9cb81cf7",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-670896.json",
+    "draft_sha256": "5d940b634b207afbe990fc14da8e78584c9b8c336f1bf45a6ff0a3673c3c6e3f"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/670896",
+      "access": "page_read_twice",
+      "locations": [
+        "Met object 670896, 2015.300.62, Motsurin Jōtō (Bokusai), Japan 15th century, hanging scroll ink on paper. The circular ink wash and gnarled blossoming branch may suggest Zen enso, Heart Sutra form/emptiness, or enlightenment; the preference of mentor Ikkyū for plum is also a might, not certain intention. The inscription expresses the painter's specific comparison of plum with peony and jasmine."
+      ],
+      "observed": "Compared separately retrieved recent search excerpt with official museum collection page opened directly: work number, attribution, date, museum interpretation and exact Japanese visitor draft."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:MET_DP-12232-053.jpg",
+      "access": "page_read_once",
+      "locations": [
+        "Current official work-specific Met IIIF picture shows an ink-wash circle, contorted branches and the artist's right-side inscription; registered DP-12232-053 original 4000×3002 agrees with Met-donated Commons original 4000×3002 (2015.300.62). Matching historic 2026-10-20 byte hashes are inherited, not retested."
+      ],
+      "observed": "Checked matching Met-contributed same-work Commons description (object number/public domain/CC0) and museum IIIF image; a related image may be a different crop or original photograph, never claimed identical bytes without old checksum."
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access policy allows CC0 artwork images for commercial/noncommercial use; museum-authored explanatory prose is a distinct copyright matter."
+      ],
+      "observed": "Read official FAQ, confirming image rights do not grant blanket rights to explanatory writing."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-670896",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-12232-053.jpg",
+      "sha256": "ad1ea3450fa2335bd9a65e6ff7b2e1fe4b041c2a9def0daccff82c7bf400eafd",
+      "byte_length": 4655501,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 original Met JPEG full-byte hash and HTTP200 retained from older audit; not freshly measured today."
+    },
+    {
+      "id": "met-670896",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-12232-053.jpg",
+      "sha256": "c4953f077172b96ff2dd11a551edd700c7f1e6c67d54e4e3ad50676212f32375",
+      "byte_length": 108283,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 display JPEG checks retained as historical evidence; not freshly requested or hashed today."
+    }
+  ],
+  "visual_observations": {
+    "method": "Directly viewed work-specific Met IIIF image linked from each official object page, cross-checked its subject with Met object ID, matching stored original photo and Met-donated Commons metadata; archived 2026-10-20 registered-file SHA retained rather than remeasured.",
+    "observed": "Current official work-specific Met IIIF picture shows an ink-wash circle, contorted branches and the artist's right-side inscription; registered DP-12232-053 original 4000×3002 agrees with Met-donated Commons original 4000×3002 (2015.300.62). Matching historic 2026-10-20 byte hashes are inherited, not retested. Live official IIIF picture examined at https://collectionapi.metmuseum.org/api/collection/v1/iiif/670896/1642070/main-image"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Read preserved PR #3 Japanese text before separately retrieving museum object's official current description, specific picture and source citations. Evaluated identity, historical assertions, inferred psychology, category relevance, summary similarity and reuse rights. For 74448 read additional Met scholarly catalogue p99 screenshot.",
+    "limitations": "Same AI in a distinct source-review pass; no second model or independent third party. Prior October 2026 SHA256 of the registered JPEG carried forward; no new image-byte measurement. Source-text paraphrase assessment is not a legal guarantee.",
+    "reviewed_artwork_sha256": "4359b8fba25992c11ca7ed444b56a6b3b01a35b0796771a59231ac2a9cb81cf7",
+    "reviewed_visitor_draft_sha256": "5d940b634b207afbe990fc14da8e78584c9b8c336f1bf45a6ff0a3673c3c6e3f",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 2015.300.62: Current official work-specific Met IIIF picture shows an ink-wash circle, contorted branches and the artist's right-side inscription; registered DP-12232-053 original 4000×3002 agrees with Met-donated Commons original 4000×3002 (2015.300.62). Matching historic 2026-10-20 byte hashes are inherited, not retested."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "The Met says circle meaning may reflect Zen Heart Sutra or enlightenment, and mentor influence might explain subject. The preserved Japanese text uses 可能性 and attributes these claims to the museum. The artist's inscription about plum over peony/jasmine is distinguished from inferred purpose."
+      },
+      {
+        "area": "emotion",
+        "finding": "Zero emotion tags retained: plum blossom/spring and the quiet circular ink wash by themselves do not require 希望, 喜び, or 安心."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Preserved Japanese prose is a concise independently worded depiction and museum-attributed historical interpretation rather than a long literal translation; qualifiers are kept. For the 2008.55 age contradiction, visitor draft appropriately omits a numeric age."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "4359b8fba25992c11ca7ed444b56a6b3b01a35b0796771a59231ac2a9cb81cf7",
+    "visitor_draft_sha256": "5d940b634b207afbe990fc14da8e78584c9b8c336f1bf45a6ff0a3673c3c6e3f",
+    "proposal_sha256": "7073dcaa6e25f11b8e438723d0e9751aa09ab7e4475642c6144c67f823820e58",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Preflight JavaScript validated SHA256 known test vector, catalog count and uniqueness, source-url matching, and no other artwork records changed. Official Python complete_artwork.py, schema and catalog snapshot validation to be enforced by GitHub Actions before merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-670896.json",
+    "sha256": "7073dcaa6e25f11b8e438723d0e9751aa09ab7e4475642c6144c67f823820e58",
+    "proposed_artwork_sha256": "4359b8fba25992c11ca7ed444b56a6b3b01a35b0796771a59231ac2a9cb81cf7",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "This Met object is listed Public Domain with downloadable work-specific image; the matching museum Commons upload is CC0.",
+      "Visitor draft is new concise Japanese prose, no extended direct quotation or substantial literal reproduction of the museum's curatorial text."
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "No material rights issue identified with historical CC0 artwork image and short original Japanese database commentary; this is not a legal guarantee, and museum prose is distinct."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Work met-670896, Met accession 2015.300.62, draft retained.",
+    "Existing facts/curation/emotions unchanged.",
+    "2026-10-20 image hashes/HTTP200 inherited as past checks, not freshly measured.",
+    "Same-model separate source pass; not independent second AI or human review.",
+    "Other 299 records unchanged."
+  ]
+}
