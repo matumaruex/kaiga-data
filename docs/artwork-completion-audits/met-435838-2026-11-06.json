@@ -1,0 +1,142 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435838",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "7bd6062b590318f2886b557628790d0b0bfbdb00",
+    "artwork_record_sha256": "7b7b6a32bbe56539853bd5530b82a395e86cdbf2bc66e453f22924a5b0fc9fea",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435838.json",
+    "draft_sha256": "1c6eb5c3fd73cfa6af812aa315c426ed25b4069159c466548740658bb97df84e"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435838",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 05.39.2 Virgin and Child in an Apse, Copy after Robert Campin, ca.1480; oil on canvas transferred from wood; Public Domain",
+        "Lost Campin prototype circa 1420; current painting one of earliest and finest of over 60 variants",
+        "The Met links prototype to 13th-century Byzantine nursing Virgin icons arriving in Burgundian Netherlands in 15th century",
+        "Downcast Virgin gaze and Christ Child reaching upwards, music-making angels in chapel"
+      ],
+      "observed": "現行Met公式Overview／Artwork Detailsを開き、既存作品の記録・日本語解説と一次/別パスの二回照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access/CC0 designation applies to eligible artwork images",
+        "Curatorial text rights are not implied by an artwork image public-domain designation"
+      ],
+      "observed": "同館のCC0画像を、所蔵館が書いた作品解説の権利と別に扱った。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435838",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-41688-001.jpg",
+      "status": 200,
+      "sha256": "029aa86bde3cbc64a96bed248723401f13e68a586724486fc2d419916d4f72f3",
+      "byte_length": 4546074,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met登録時2026-10-20の公式JPEG全量SHA・サイズ検査を今回再利用した。今回新規に全バイトをダウンロードしてSHA測定したわけではない。"
+    },
+    {
+      "id": "met-435838",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-41688-001.jpg",
+      "status": 200,
+      "sha256": "b37cab886a39c21a1bc125c14937e45725c3fee6f9f219078eec94b7506cdf32",
+      "byte_length": 115403,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met登録時2026-10-19の公式JPEG全量SHA・サイズ検査を今回再利用した。今回新規に全バイトをダウンロードしてSHA測定したわけではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式図版と作品番号、登録画像の過去SHAと同じ作品の図像を照合。今回の全JPEG再取得と全画素検査は行っていない。",
+    "observed": "Met公式全体画像では後陣の柱に囲まれた聖母が赤子を授乳し、左右の天使が弦楽器を演奏する。画面上で聖母は目を伏せ、幼子は上方に腕を伸ばす。登録画像は作品番号05.39.2・DP-41688-001と結び付いている。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "DBと既存本文の読み合わせ後、Met個別作品の概要を別パスで読み直し、作品同定・制作事情・感情索引・利用条件・日本語文面を再点検。",
+    "limitations": "同一AIの別工程であり別AI・第三者監査ではない。原/表示JPEGの全バイトSHAは2026-10-19/20既存記録の継承。今回の視認範囲は公式ページの表示画像に限定。法的な非侵害保証ではない。",
+    "reviewed_artwork_sha256": "7b7b6a32bbe56539853bd5530b82a395e86cdbf2bc66e453f22924a5b0fc9fea",
+    "reviewed_visitor_draft_sha256": "1c6eb5c3fd73cfa6af812aa315c426ed25b4069159c466548740658bb97df84e",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 05.39.2の作者表記は『Copy after Robert Campin』。現存本作は約1480年の模写で、カンピンの失われた1420年頃の原作とは別の作品。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "ビザンティン由来の授乳聖母のイコンと、それをネーデルラントで親密な自然表現へ置き換えた図像史はMetの解説に沿う。"
+      },
+      {
+        "area": "emotion",
+        "finding": "『慈しみ』主2は伏し目の母と手を伸ばす幼子の画面の関係からの鑑賞入口であり、具体的な作者の内面を断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "PR #3日本語2段落をMet個別作品概要と比較。60点超の異本、原画喪失、母子の身体表現を元文との関係で検証し、逐語翻訳でなく独自の説明としている。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "7b7b6a32bbe56539853bd5530b82a395e86cdbf2bc66e453f22924a5b0fc9fea",
+    "visitor_draft_sha256": "1c6eb5c3fd73cfa6af812aa315c426ed25b4069159c466548740658bb97df84e",
+    "proposal_sha256": "7454a46481be20acfbebef423c5f0f8c58a2e3478519b8cb50a5f1319536d7ed",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match_or_new_text",
+      "canonical_hash",
+      "previous_image_sha_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub書込前のJSで300ID・他作品不変・canonical hash・元本文と下書き一致を検査。Python本式検証、GitHub CIは保存後に確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435838.json",
+    "sha256": "7454a46481be20acfbebef423c5f0f8c58a2e3478519b8cb50a5f1319536d7ed",
+    "proposed_artwork_sha256": "7b7b6a32bbe56539853bd5530b82a395e86cdbf2bc66e453f22924a5b0fc9fea",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Public Domain marked in Met individual object",
+      "Met CC0 image rights and museum written text rights separately assessed",
+      "Existing or reviewed Japanese prose independently expressed, not a sustained long literal translation"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "所蔵館の画像OA/CC0と英文テキストの権利条件を分けた。日本語解説は出典の事実を独自に整理したもので英語原文の長文逐語翻訳を認めない。ただし非侵害の法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "後陣の聖母子はカンピンの自筆と混同せず模写を明記。1420年頃は失われた原作、現存本作は約1480年として保存。",
+    "前回の品質HOLD5件は変更なし。CI・main統合後のみ正式完成数を更新する。"
+  ]
+}
