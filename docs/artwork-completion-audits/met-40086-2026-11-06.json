@@ -1,0 +1,142 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-40086",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "0d4c718b8584d3479ccd49ee8c0e5941e5ea64ce",
+    "artwork_record_sha256": "a621c461e6e3f0eaecafd7e8b515ad82abb6f442219d30d0976256b81b6caf52",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-40086.json",
+    "draft_sha256": "ee66156739cccb1655cd0cb54b9b528831be059662a500c071b532a033546634"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/40086",
+      "access": "page_read_twice",
+      "locations": [
+        "Ma Yuan, early 13th century, Chinese Southern Song, accession 1973.120.9, ink and color on silk album leaf, PD",
+        "A fourth-generation painter and leading Southern Song court painter working in Hangzhou",
+        "A gentleman sits in a gardenlike setting, jagged pine/garden lines contrast with quiet mood as scholar looks at cascade"
+      ],
+      "observed": "Metの公式作品ページでOverviewとArtwork Detailsを初見時に読み、第二工程でも再確認。個別の公開作品画像も開いて図像を確認した。音声トランスクリプトを利用可能とは偽らない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+      "access": "page_read_once",
+      "locations": [
+        "Met Open Access policy for public domain artworks under CC0",
+        "Rights for museum-produced art historical prose assessed separately"
+      ],
+      "observed": "画像OA/CC0とMetの文章の著作権を切り分ける。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-40086",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP154090.jpg",
+      "status": 200,
+      "sha256": "2ba5d31803f54c802f6e50f99ea36055953d31110496885fd8c8243899c5bbf1",
+      "byte_length": 2987942,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "登録された原画像全量SHAは2026-10-20の過去測定。今回の新規ダウンロードやハッシュ計測を表さない。"
+    },
+    {
+      "id": "met-40086",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP154090.jpg",
+      "status": 200,
+      "sha256": "0b9be1da775f9bf72aa7aa3c3cccab06edcb9b60dabbfd96ea574a302af6f6ee",
+      "byte_length": 67775,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "表示画像全量SHAは2026-10-19に保存された過去測定値。今回の新規取得の主張はしない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品ページに埋め込まれた所蔵番号に対応する図版（Met collectionapi IIIF）で画面構成を確認。既存登録JPEGのバイト一致を新計測したわけではない。",
+    "observed": "四辺に余白を持つ小さな絹本画。左上から曲がる松、画面下部の橋・岩・庭、近くに一人の人物と従者と思われる小人物、右側に空間。流れ落ちる水を眺める静かな場面。人物の幸福の内心は描写だけから断定しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "DBの事実・本文・感情を一次読解した後、改めてMet公式の解説・作品画像と照らし、歴史的事実／館の解釈／画面の意味／感情の入口／権利を別工程で検証した。",
+    "limitations": "同一AIによる別パスであり、別AIや第三者審査ではない。原画像と表示JPEGの全量SHAは2026-10-19/20の旧記録を使用。著作権上の判断は法的な非侵害を保証しない。",
+    "reviewed_artwork_sha256": "a621c461e6e3f0eaecafd7e8b515ad82abb6f442219d30d0976256b81b6caf52",
+    "reviewed_visitor_draft_sha256": "ee66156739cccb1655cd0cb54b9b528831be059662a500c071b532a033546634",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "馬遠、南宋13世紀初頭、Met 1973.120.9、絹本の画帖葉であることを公式所蔵資料で確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "馬遠は代々画家の家系で杭州の南宋画院で活躍。曲がる松と庭の鋭い線、考え深げな人物と滝の対照はMetの解釈に基づく。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『安心』2は激しい水の動きと静かな人物の対照に結び付く鑑賞者の入口で、人物の実際の心理や作者自身の癒やしを決めつけない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語3段落は自然な独自文でMet所蔵解説の事実に整合し、長い逐語訳や転載にはならない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "a621c461e6e3f0eaecafd7e8b515ad82abb6f442219d30d0976256b81b6caf52",
+    "visitor_draft_sha256": "ee66156739cccb1655cd0cb54b9b528831be059662a500c071b532a033546634",
+    "proposal_sha256": "857494ade336e0616c97957aa707e719435b2bd7947de3241790b1f59e1cbc4e",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match",
+      "canonical_hash",
+      "historical_image_hashes_reused",
+      "emotion_consistency"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "GitHub保存前にJSで300ID・他299不変・正規化ハッシュ・既存鑑賞本文との完全一致を照合。正式Python validator/CIとcompletion checkはPR作成後に確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-40086.json",
+    "sha256": "857494ade336e0616c97957aa707e719435b2bd7947de3241790b1f59e1cbc4e",
+    "proposed_artwork_sha256": "a621c461e6e3f0eaecafd7e8b515ad82abb6f442219d30d0976256b81b6caf52",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met individual artwork Public Domain / OA",
+      "Met Open Access images CC0",
+      "museum prose text rights analyzed separately",
+      "Japanese explanation original independent construction"
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "対象のOA/CC0画像と公式英語解説文の利用条件は別。鑑賞者向け日本語は独自構成であり原文の実質的な長文コピーや逐語訳ではない。これは法的な権利非侵害を保証しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met音声7313はオンラインtranscriptが公開されておらず、読んだとは記録しない。冒頭の作品ページは確認済み。",
+    "既存本文、事実・画像・選定索引を不変更。GitHub Actionsとmain統合後に完成数を加算。"
+  ]
+}
