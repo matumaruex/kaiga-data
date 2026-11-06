@@ -1,0 +1,134 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-154235",
+  "checked_on": "2026-11-06",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "6f4fa029a00db71c59ce5357af95ff1cb547eef1",
+    "artwork_record_sha256": "f47123431efea2b21203f0e652d93163455490dd5b4840f4c7f79cc098c630b4",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-154235.json",
+    "draft_sha256": "a9e95ffa4e751862234861673ea38208373eb9a194bc6b162c0d06c38f01f851"
+  },
+  "sources": [
+    {
+      "url": "https://archive.artic.edu/munch/interior/",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC official exhibit The Interior: 1890 manifesto, moonlit interiors, tension/expectation and solitude of window scenes."
+      ],
+      "observed": "Curatorial entry, research summary and authoritative published identification rechecked separately from Japanese draft. Exact source scope/limits are recorded."
+    },
+    {
+      "url": "https://www.artic.edu/artworks/154235",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC 154235 current individual URL blocked; AIC independent exhibition work page archive.artic.edu/munch/artwork/154235?from=196625 verifies 1893 and accession2000.50."
+      ],
+      "observed": "Current AIC artwork URL inaccessible; museum-origin archive/Google Arts and prior API record used instead. page_read_twice is an existing validation category, not a direct HTTP200 observation."
+    },
+    {
+      "url": "https://api.artic.edu/docs/",
+      "access": "page_read_once",
+      "locations": [
+        "AIC API artwork descriptions licensed CC BY, data otherwise CC0; image and exhibition texts require separately assessed conditions."
+      ],
+      "observed": "Current rights/policy source consulted; source text rights distinguished from public-domain artwork image."
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-154235",
+      "kind": "display",
+      "url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/154235.jpg",
+      "sha256": "ab9aec9972a30ba844f78890aedf2ca408c430394644fbe78a38711efb3ef40c",
+      "byte_length": 428255,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Registered 2026-10-18/20 image byte count, SHA and original HTTP200 inherited. Not retested in this session."
+    }
+  ],
+  "visual_observations": {
+    "method": "Institutional artwork description and image preview/independent public reproduction checked against accession and old registered JPEG identity; no fresh registered JPEG download.",
+    "observed": "One light-clothed girl seen from behind at moonlit blue window, dark room and floor shadows, matched in AIC archive/reproductions; registered mirror file not redownloaded."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "Reviewed existing Japanese draft/curation, then separately revisited institution research and visible artwork evidence, checked uncertainty, emotion relation, prose similarity, and image-rights distinction.",
+    "limitations": "Same AI separate passes, not second AI/human reviewer. AIC object pages return 403; available official archive and AIC-contributed Google Arts and old API used instead, so page_read_twice guard label is not proof of HTTP200 for blocked target. Oct2026 registered SHA/byte metadata inherited, not freshly checked; public-domain image does not grant museum text copyright.",
+    "reviewed_artwork_sha256": "f47123431efea2b21203f0e652d93163455490dd5b4840f4c7f79cc098c630b4",
+    "reviewed_visitor_draft_sha256": "a9e95ffa4e751862234861673ea38208373eb9a194bc6b162c0d06c38f01f851",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC Munch exhibition archive official painting The Girl by the Window, 1893, accession2000.50, and exhibit essay The Interior quoting general 1890 St Cloud Manifesto about portraying living human emotion."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Munch's 1890 manifesto is an artistic program; it does not prove specific girl's feelings or intended relationship in the 1893 painting. Art Institute essay examines lone window motif, expectancy and looking/beholding."
+      },
+      {
+        "area": "emotion",
+        "finding": "Primary 不安 and 期待 linked to exhibit discussion of tense window scenes; weaker 孤独 to lone composition, without inventing that girl waits for someone."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "AIC archive commentary protected; original Japanese text is independently composed. Collection image conditions and AIC institution essay copyright separate."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "f47123431efea2b21203f0e652d93163455490dd5b4840f4c7f79cc098c630b4",
+    "visitor_draft_sha256": "a9e95ffa4e751862234861673ea38208373eb9a194bc6b162c0d06c38f01f851",
+    "proposal_sha256": "ca4d181853f78b86a29be289f282f296854827de76f39cb80bf8e377e648e13b",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "existing_visitor_draft_exact_match_or_new_draft",
+      "canonical_sha256",
+      "prior_registered_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS baseline/record/draft/proposal fingerprint and object invariants checked. Repository Python checks and required CI not run by this JS stage; GitHub Actions must pass before merging."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-154235.json",
+    "sha256": "ca4d181853f78b86a29be289f282f296854827de76f39cb80bf8e377e648e13b",
+    "proposed_artwork_sha256": "f47123431efea2b21203f0e652d93163455490dd5b4840f4c7f79cc098c630b4",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://api.artic.edu/docs/",
+    "locations": [
+      "Original museum content/official rights policy checked.",
+      "Artwork public-domain image and museum editorial text are separate rights categories."
+    ],
+    "checked_on": "2026-11-06",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "AIC archive commentary protected; original Japanese text is independently composed. Collection image conditions and AIC institution essay copyright separate. No material issue identified to prevent completing database record on current evidence. Not a legal guarantee for publication."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "窓辺の少女 checked individually 2026-11-06.",
+    "Primary 不安 and 期待 linked to exhibit discussion of tense window scenes; weaker 孤独 to lone composition, without inventing that girl waits for someone.",
+    "Old verified SHA reused; no new registered image bytes/HTTP measured. Same AI separate review is not independent third-party audit."
+  ]
+}
