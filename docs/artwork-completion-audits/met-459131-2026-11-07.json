@@ -10,7 +10,7 @@
     "artwork_record_sha256": "5492cc60bce10a0acbb6a6a0e5fb2c51f530d0664ad49ac67c19f79804cf8ae1",
     "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
     "draft_path": "drafts/visitor-explanations/met-459131.json",
-    "draft_sha256": "9fd7846d9e7bc2f3bd192a071dc50a5183433ac65bbab0ae394f271ca973494b"
+    "draft_sha256": "26dc52de81d5992a48621c9a9dd13b26fbbf3376b14605e4ea0294071c7588cf"
   },
   "sources": [
     {
@@ -77,7 +77,7 @@
     "method": "本文作成後、Met作品ページの出典箇所、登録ID、Met提供公開画像の対応情報と感情索引を別工程で照合。",
     "limitations": "同一AIによる別工程で、別モデル・第三者による独立審査ではない。画像全量SHAは2026-10-20の旧証拠。",
     "reviewed_artwork_sha256": "5492cc60bce10a0acbb6a6a0e5fb2c51f530d0664ad49ac67c19f79804cf8ae1",
-    "reviewed_visitor_draft_sha256": "9fd7846d9e7bc2f3bd192a071dc50a5183433ac65bbab0ae394f271ca973494b",
+    "reviewed_visitor_draft_sha256": "26dc52de81d5992a48621c9a9dd13b26fbbf3376b14605e4ea0294071c7588cf",
     "checks": [
       {
         "area": "identity",
@@ -100,8 +100,8 @@
   "program_checks": {
     "result": "PASS",
     "proposed_artwork_sha256": "5492cc60bce10a0acbb6a6a0e5fb2c51f530d0664ad49ac67c19f79804cf8ae1",
-    "visitor_draft_sha256": "9fd7846d9e7bc2f3bd192a071dc50a5183433ac65bbab0ae394f271ca973494b",
-    "proposal_sha256": "6d4590abf47bf37c4cd8bdbaa641dea33d0e13eecd576f44a73eb6a2669d3560",
+    "visitor_draft_sha256": "26dc52de81d5992a48621c9a9dd13b26fbbf3376b14605e4ea0294071c7588cf",
+    "proposal_sha256": "1056ca2cf083e548a7111b789990349fa0faf44e89c6f0c989c3bf2a7f786780",
     "checks": [
       "300_unique_ids",
       "other_299_unchanged",
@@ -116,7 +116,7 @@
   },
   "proposal": {
     "path": "drafts/artwork-revisions/met-459131.json",
-    "sha256": "6d4590abf47bf37c4cd8bdbaa641dea33d0e13eecd576f44a73eb6a2669d3560",
+    "sha256": "1056ca2cf083e548a7111b789990349fa0faf44e89c6f0c989c3bf2a7f786780",
     "proposed_artwork_sha256": "5492cc60bce10a0acbb6a6a0e5fb2c51f530d0664ad49ac67c19f79804cf8ae1",
     "applied_to_catalog": false
   },
