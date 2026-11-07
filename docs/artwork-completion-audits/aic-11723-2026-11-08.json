@@ -1,0 +1,133 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-11723",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "f8bb2d0c18dbb7a99efd9be3d9f7a66ba4fcf3d9",
+    "artwork_record_sha256": "029664ea08e668987af5a274e6006b78a89024e9adc013d64b2c52741ca60214",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-11723.json",
+    "draft_sha256": "acdebafe84585c047ba04a0b0965032a04584e75a18c359af1c913fa7bbd3855"
+  },
+  "sources": [
+    {
+      "url": "https://shop.artic.edu/products/42642",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC Museum Shop: Morisot Woman at Her Toilette, 1875/80, image reproduction, pastel palette lavender/pink/blue/white/gray and feathery strokes, hair/satins/powder puffs/flower petals."
+      ],
+      "observed": "シカゴ美術館公式ミュージアムショップの作品固有の解説を直接2度開き、旧選定根拠の対象作品一致・筆触・色彩を再確認。"
+    },
+    {
+      "url": "https://artsandculture.google.com/asset/AAGmS3JhmArqeg",
+      "access": "page_read_twice",
+      "locations": [
+        "Art Institute of Chicago-provided artwork metadata: Berthe Morisot, Woman at Her Toilette, 1875/80, Painting, 60.3×80.4cm."
+      ],
+      "observed": "Google ArtsのAIC提供情報を2度開き作品題名、作者、年代を同一作品として照合。"
+    },
+    {
+      "url": "https://www.artic.edu/artworks/11723",
+      "access": "blocked",
+      "locations": [
+        "公式所蔵館個別作品ページ11723は今回403。旧API同定・所蔵番号1924.127を継承。"
+      ],
+      "observed": "未取得の現在の個別所蔵ページを読めたとみなさない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-11723",
+      "kind": "display",
+      "url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/11723.jpg",
+      "sha256": "d9c5937a41cd3553652247b5d93878745bdfac48d22abb7ddadab2d70f7754d1",
+      "byte_length": 203206,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18登録台帳の旧HTTP200/JPEG全量SHA256を継承。今回実ファイルを再取得したとの主張ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "AIC Museum Shop掲載の当該作品の再現図と公開Google Arts画像、旧登録ID1924.127・画像台帳を照合。登録JPEGの新規全量取得はなし。",
+    "observed": "背中を向けて鏡前で髪に手を伸ばす人物、淡いラベンダーとピンク・青・白の布・壁。AIC作品名と一致し、同作者の別の身支度作品とは区別。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初稿後にAICのミュージアムショップ解説と、AIC提供のGoogle Artsメタデータをそれぞれ再読し、筆触・色彩・制作年代と日本語本文を原文に照合。鏡に向かう人物心理を断定していないか、文章が原文を長く逐語訳していないか確認。",
+    "limitations": "同一AIによる別工程であり別AI・第三者監査ではない。AIC個別所蔵ページは403、登録JPEGの今回全バイト取得なし。旧画像HASHのみで画面一致を証明したとは扱わない。",
+    "reviewed_artwork_sha256": "029664ea08e668987af5a274e6006b78a89024e9adc013d64b2c52741ca60214",
+    "reviewed_visitor_draft_sha256": "acdebafe84585c047ba04a0b0965032a04584e75a18c359af1c913fa7bbd3855",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC所蔵1924.127、Morisot、Woman at Her Toilette、1875/80を公式AIC販売ページとAIC提供Google Artsメタデータで二重に同定。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "AIC公式の作品固有の色彩・羽毛状の筆触・現代生活という説明を基礎に、日本語の観察と歴史的説明を区別。"
+      },
+      {
+        "area": "emotion",
+        "finding": "従来の補助感情『安心』強度1は柔らかい色調・身支度の個人的時間という弱い関連として維持。人物が安心していると断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "美術館商品解説の個別事実・視覚表現を参照したオリジナル3段落。館の比喩を長文翻訳せず、作品への断定的な心理解釈を避ける。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "029664ea08e668987af5a274e6006b78a89024e9adc013d64b2c52741ca60214",
+    "visitor_draft_sha256": "acdebafe84585c047ba04a0b0965032a04584e75a18c359af1c913fa7bbd3855",
+    "proposal_sha256": "c227dca0933f9d2a15f97c5ccfa41368b667feaca46bc19910b83378179f298f",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象版と既存のハッシュ情報をプログラムで点検。Python構造検証・GitHub ActionsはPR後に確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-11723.json",
+    "sha256": "c227dca0933f9d2a15f97c5ccfa41368b667feaca46bc19910b83378179f298f",
+    "proposed_artwork_sha256": "029664ea08e668987af5a274e6006b78a89024e9adc013d64b2c52741ca60214",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.artic.edu/open-access/open-access-images",
+    "locations": [
+      "AIC作品本体のPublic Domain記録と旧登録JPEGの公開ミラーを分けて確認。",
+      "館の説明文は著作物として扱い、長文複写や逐語翻訳をせず独自の日本語解説を新規作成。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品の公開利用記録、本文独立性、旧画像台帳を確認し、本DB保存を妨げる重大事項なしと判断。ミラー画像の法的保証や新規HTTP到達保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "AIC個別ページは403のため旧公式API同定記録を継承。",
+    "AIC Museum Shopの文章は原資料の説明として参照し逐語翻訳しない。",
+    "同一AI別工程と2026-10画像ハッシュの再利用を明記。"
+  ]
+}
