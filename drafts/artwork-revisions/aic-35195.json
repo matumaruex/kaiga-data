@@ -1,0 +1,80 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "aic-35195",
+  "baseline_commit": "7d68b306e2efa8079ff12f8f30454bd7f8a14023",
+  "baseline_artwork_sha256": "ef638fc3f6be266cfb176a95eb6888c6d4e067d50742c4509bfb822e7133c4be",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "evidence_url"
+      ],
+      "before": "https://www.artic.edu/collection?classification_ids=european+painting%3Boil+paintings+%28visual+works%29%3Bpainting&material_ids=paint&page=13",
+      "after": "https://catalogo.fondazionezeri.unibo.it/scheda/opera/52821/Vaccaro%20Andrea%2C%20Compianto%20sul%20Cristo%20morto",
+      "reason": "AIC汎用検索一覧ではなく、作者とChicago所蔵・実寸を作品別に記録する大学財団の目録を出典にする。",
+      "source_urls": [
+        "https://catalogo.fondazionezeri.unibo.it/scheda/opera/52821/Vaccaro%20Andrea%2C%20Compianto%20sul%20Cristo%20morto"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation"
+      ],
+      "before": {
+        "summary": "十字架から降ろされたキリストの死を悼む宗教画。キリストの受難と周囲の人物の嘆きは図像上の主題として確認できるが、作者自身の死別体験を表す絵ではない。",
+        "source_url": "https://www.artic.edu/collection?classification_ids=european+painting%3Boil+paintings+%28visual+works%29%3Bpainting&material_ids=paint&page=13"
+      },
+      "after": {
+        "summary": "死んだキリストの哀悼という伝統的な宗教画主題。フェデリコ・ゼーリ財団の作品別目録はヴァッカロ作・キャンバス128×157cm・シカゴ美術館所蔵を記録する。美術史研究の紹介ではシカゴ版とナポリ所蔵の《降架》の比較、スタンツィオーネ的な古典的表現との関係が述べられるが、これらは学者による比較で作者本人の証言ではない。",
+        "source_url": "https://catalogo.fondazionezeri.unibo.it/scheda/opera/52821/Vaccaro%20Andrea%2C%20Compianto%20sul%20Cristo%20morto"
+      },
+      "reason": "作品別の目録と研究上の比較を分離し、旧AIC汎用検索だけでは不明だった同定と学術論点を更新。",
+      "source_urls": [
+        "https://catalogo.fondazionezeri.unibo.it/scheda/opera/52821/Vaccaro%20Andrea%2C%20Compianto%20sul%20Cristo%20morto",
+        "https://innersurfaces.com/2026/10/27/andrea-vaccaro-a-selection-of-works/"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "before": "伝統的な『哀悼』の宗教主題に根拠があるが、作者の個人的な喪失や後悔を表した証拠はない。個別作品についての学術的な細部分析は未完了。",
+      "after": "キリストの死を悼む伝統的な宗教主題を確認。作者の個人的な死別や後悔を直接表したという史料は未確認。シカゴ所蔵128×157cmの作品は、ナポリの別の同主題作126×177cmと混同しない。1977年AIC原研究の全文は今回未確認。",
+      "reason": "旧『個別学術的細部分析は未完了』を、判明した識別情報と未確認箇所を分けて改稿。",
+      "source_urls": [
+        "https://catalogo.fondazionezeri.unibo.it/scheda/opera/52821/Vaccaro%20Andrea%2C%20Compianto%20sul%20Cristo%20morto",
+        "https://innersurfaces.com/2026/10/27/andrea-vaccaro-a-selection-of-works/"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "selection_cautions"
+      ],
+      "before": [
+        "伝統的な『哀悼』の宗教主題に根拠があるが、作者の個人的な喪失や後悔を表した証拠はない。個別作品についての学術的な細部分析は未完了。"
+      ],
+      "after": [
+        "作者自身の私的な死別体験を描いたという根拠はない。宗教的な哀悼の図像と鑑賞者の感情を区別する。",
+        "同作者のナポリ所蔵の同題作（126×177cm）と混同しない。対象はシカゴ美術館所蔵・約128×157cm。"
+      ],
+      "reason": "未確認状態の一般文から、作者心情の限界と同題別作の誤同定予防へ具体化。",
+      "source_urls": [
+        "https://catalogo.fondazionezeri.unibo.it/scheda/opera/52821/Vaccaro%20Andrea%2C%20Compianto%20sul%20Cristo%20morto",
+        "https://innersurfaces.com/2026/10/27/andrea-vaccaro-a-selection-of-works/"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/aic-35195.json",
+  "visitor_draft_sha256": "86b05b98333a2fd33e291b6fdd46e9eea40bed65152ea4869d97a22fa04c8d63",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "da72e9f20c840e2cdd01d11fcdc3726e1920c69125f9a18aa65b97fbcb98f1ac",
+  "explanation": "AIC汎用検索のみの旧証拠をZeri財団作品個別目録に置換。シカゴとナポリのヴァッカロ同題別作を区別し、後世研究者の解釈と画家発言を区別。独自日本語鑑賞解説と版連動監査。"
+}

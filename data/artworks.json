@@ -3280,14 +3280,14 @@
             "source_url": null
           },
           "scholarly_interpretation": {
-            "summary": "十字架から降ろされたキリストの死を悼む宗教画。キリストの受難と周囲の人物の嘆きは図像上の主題として確認できるが、作者自身の死別体験を表す絵ではない。",
-            "source_url": "https://www.artic.edu/collection?classification_ids=european+painting%3Boil+paintings+%28visual+works%29%3Bpainting&material_ids=paint&page=13"
+            "summary": "死んだキリストの哀悼という伝統的な宗教画主題。フェデリコ・ゼーリ財団の作品別目録はヴァッカロ作・キャンバス128×157cm・シカゴ美術館所蔵を記録する。美術史研究の紹介ではシカゴ版とナポリ所蔵の《降架》の比較、スタンツィオーネ的な古典的表現との関係が述べられるが、これらは学者による比較で作者本人の証言ではない。",
+            "source_url": "https://catalogo.fondazionezeri.unibo.it/scheda/opera/52821/Vaccaro%20Andrea%2C%20Compianto%20sul%20Cristo%20morto"
           },
           "creation_context": "17世紀ナポリの画家による1652年の宗教主題。信仰的な共感を促すカトリック美術の表現に位置づけられる。",
           "visual_clues": "死んだキリストとその周囲で悲しむ人物。",
-          "uncertainty_note": "伝統的な『哀悼』の宗教主題に根拠があるが、作者の個人的な喪失や後悔を表した証拠はない。個別作品についての学術的な細部分析は未完了。"
+          "uncertainty_note": "キリストの死を悼む伝統的な宗教主題を確認。作者の個人的な死別や後悔を直接表したという史料は未確認。シカゴ所蔵128×157cmの作品は、ナポリの別の同主題作126×177cmと混同しない。1977年AIC原研究の全文は今回未確認。"
         },
-        "evidence_url": "https://www.artic.edu/collection?classification_ids=european+painting%3Boil+paintings+%28visual+works%29%3Bpainting&material_ids=paint&page=13",
+        "evidence_url": "https://catalogo.fondazionezeri.unibo.it/scheda/opera/52821/Vaccaro%20Andrea%2C%20Compianto%20sul%20Cristo%20morto",
         "search_profile": {
           "fitting_situations": [
             {
@@ -3297,7 +3297,8 @@
             }
           ],
           "selection_cautions": [
-            "伝統的な『哀悼』の宗教主題に根拠があるが、作者の個人的な喪失や後悔を表した証拠はない。個別作品についての学術的な細部分析は未完了。"
+            "作者自身の私的な死別体験を描いたという根拠はない。宗教的な哀悼の図像と鑑賞者の感情を区別する。",
+            "同作者のナポリ所蔵の同題作（126×177cm）と混同しない。対象はシカゴ美術館所蔵・約128×157cm。"
           ],
           "review_status": "evidence_review_pending"
         }
@@ -3312,6 +3313,26 @@
         "ai_content_review_status": "pending",
         "source_evidence_review_status": "pending",
         "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "十字架から降ろされたキリストの亡骸を囲み、人々がその死を悼んでいます。《キリストへの哀悼》という題は、悲しみの原因となる出来事だけでなく、残された者が死に向き合う時間にも目を向けさせます。ここで描かれている悲しみは、画家個人の死別体験を直接語るものではなく、キリスト教絵画に受け継がれてきた主題です。\n\n作者アンドレア・ヴァッカロは17世紀ナポリで活動した画家です。シカゴ美術館所蔵の本作は1652年の作品とされ、フェデリコ・ゼーリ財団の写真資料目録にも、ヴァッカロ作の《死せるキリストへの哀悼》として記録されています。画布の大きさは約128×157センチ。宗教画という共通の物語の中で、個々の人物の嘆きに目を向けられます。\n\n研究の紹介では、このシカゴの作品が同じ画家によるナポリの《キリスト降架》と比較され、マッシモ・スタンツィオーネなどの古典的で抑制された表現との関係が指摘されています。ただし、それは後世の研究者による作品比較であり、画家自身がそう説明したという意味ではありません。亡くなった人物をめぐる感情を入口にしつつ、宗教画として長く受け継がれてきた表現にも目を向けられる作品です。",
+        "source_urls": [
+          "https://catalogo.fondazionezeri.unibo.it/scheda/opera/52821/Vaccaro%20Andrea%2C%20Compianto%20sul%20Cristo%20morto",
+          "https://innersurfaces.com/2026/10/27/andrea-vaccaro-a-selection-of-works/"
+        ],
+        "review": {
+          "content_status": "pending",
+          "source_status": "pending",
+          "rights_status": "pending",
+          "reviewed_on": "2026-11-08"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/aic-35195-2026-11-08.json",
+        "audit_sha256": "49591b4d92076a5893703bb5b104e30f194483c2f0122558c48dae9442337f8e",
+        "record_sha256": "51a5d3b93f4b045896b35567d6065b3d143238c77444b4d409887272d5bc0bbd"
       }
     },
     {

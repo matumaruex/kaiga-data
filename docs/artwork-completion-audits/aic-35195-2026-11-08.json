@@ -1,0 +1,142 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-35195",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "7d68b306e2efa8079ff12f8f30454bd7f8a14023",
+    "artwork_record_sha256": "ef638fc3f6be266cfb176a95eb6888c6d4e067d50742c4509bfb822e7133c4be",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-35195.json",
+    "draft_sha256": "86b05b98333a2fd33e291b6fdd46e9eea40bed65152ea4869d97a22fa04c8d63"
+  },
+  "sources": [
+    {
+      "url": "https://catalogo.fondazionezeri.unibo.it/scheda/opera/52821/Vaccaro%20Andrea%2C%20Compianto%20sul%20Cristo%20morto",
+      "access": "page_read_twice",
+      "locations": [
+        "Zeri Photo Archive, opera 52821 scheda 50505 author Vaccaro Andrea, 128x157cm, Chicago, monogram attribution"
+      ],
+      "observed": "公式Zeri目録の索引公開本文抜粋を複数回照合してChicago所蔵と画面の主題・寸法を確認。ただしリンク先全文の直接再取得は本セッションのwebキャッシュミス。"
+    },
+    {
+      "url": "https://innersurfaces.com/2026/10/27/andrea-vaccaro-a-selection-of-works/",
+      "access": "page_read_twice",
+      "locations": [
+        "2026-10-27 research overview Chicago Lamentation 1652, Santucci comparison with Stanzione, Vasseur view and bibliography"
+      ],
+      "observed": "研究紹介の検索公開本文抜粋を複数回照合。紹介内の学者の評価は二次記述であり、Santucci 1999とVasseur 1977の原論文全文を読んだとはしない。"
+    },
+    {
+      "url": "https://www.artic.edu/collection?classification_ids=european+painting%3Boil+paintings+%28visual+works%29%3Bpainting&material_ids=paint&page=13",
+      "access": "prior_database_only",
+      "locations": [
+        "旧AIC一般作品一覧、対象作品への個別の学術的根拠としては弱く、Zeri作品別記述に置換"
+      ],
+      "observed": "既存DBの汎用資料を作品別の出典と区別。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:17th-century_paintings_of_the_lamentation_of_Christ",
+      "access": "page_read_twice",
+      "locations": [
+        "Wikimedia Commons category lists 'Andrea Vaccaro - The Lamentation - 1970.1013 - Art Institute of Chicago.jpg' as 2728x2250 JPEG"
+      ],
+      "observed": "Commonsの画像ファイル名・AIC所蔵番号1970.1013を直接カテゴリーで照合。ナポリの別版画像を当該シカゴ版と混同しない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-35195",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Andrea_Vaccaro_-_The_Lamentation_-_1970.1013_-_Art_Institute_of_Chicago.jpg/960px-Andrea_Vaccaro_-_The_Lamentation_-_1970.1013_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "b11cc4b11a7577c139f6540700117218a7d6840757c800a7877d88bd1024d684",
+      "byte_length": 199843,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18 Commons960px JPEG HTTP200・登録SHA256一致の過去証拠継承。今回の新規画素・バイト取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Zeri財団のシカゴ所蔵作品目録（キャンバス128×157cm）とCommonsの1970.1013ファイル名・旧JPEG SHA取得記録を突合。画素の直接新規視認は不可。ナポリ教区美術館所蔵126×177cmの同題別作の写真を明確に除外。",
+    "observed": "作品の画題は『死んだキリストへの哀悼』で、AIC1970.1013の登録画像がCommonsカテゴリー上同題同作者として整理されている。具体的な人物の位置・衣の色は今回直接画像確認できず本文で断定しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "文案・出典入替後にZeri公表目録抜粋・Commonsカテゴリー内の所蔵番号・研究紹介のChicago版への記述を再照合。ナポリ別版や作者の意図と学術解釈を混同しないか点検。",
+    "limitations": "同一AI別工程で別AI/人間の独立監査ではない。Zeriと研究サイトの直接ページ再取得はキャッシュミス、検索公開本文の複数回照合にとどまる。登録JPEGも今回新規画素視認・全量再取得なし。1977年AIC研究本文原本の直接閲覧なし。",
+    "reviewed_artwork_sha256": "da72e9f20c840e2cdd01d11fcdc3726e1920c69125f9a18aa65b97fbcb98f1ac",
+    "reviewed_visitor_draft_sha256": "86b05b98333a2fd33e291b6fdd46e9eea40bed65152ea4869d97a22fa04c8d63",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Zeri catalog128x157cm Chicago VaccaroとCommonsシカゴ1970.1013が同対象。ナポリ教区美術館126x177cm別作ではない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "キリストへの哀悼の図像は伝統的主題。シカゴ作品の古典的傾向は研究者の比較として限定し、作者の発言に転用しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存主『喪失感』2・『悲しみ』3は哀悼の宗教主題による接点として維持。作者の個人的死別の証明とはしない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "研究紹介から長い翻訳や本文転載をせず、作品の一般的な意味・資料の識別・研究上の区別を自分の日本語で説明。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "da72e9f20c840e2cdd01d11fcdc3726e1920c69125f9a18aa65b97fbcb98f1ac",
+    "visitor_draft_sha256": "86b05b98333a2fd33e291b6fdd46e9eea40bed65152ea4869d97a22fa04c8d63",
+    "proposal_sha256": "cafd1293e55387957e108fc36fa57cfdd2a9936980f839d63163118790023df3",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "変更元/変更後を正準指紋照合し他299件無変更をデータ上で確認。正式Pythonスクリプトと両CIはPRで判定する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-35195.json",
+    "sha256": "cafd1293e55387957e108fc36fa57cfdd2a9936980f839d63163118790023df3",
+    "proposed_artwork_sha256": "da72e9f20c840e2cdd01d11fcdc3726e1920c69125f9a18aa65b97fbcb98f1ac",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Andrea_Vaccaro_-_The_Lamentation_-_1970.1013_-_Art_Institute_of_Chicago.jpg",
+    "locations": [
+      "過去2026-10-18 AIC is_public_domain_at_source=true とCommons画像SHA取得の記録を継承。",
+      "Zeriや研究紹介サイトの現代文章を複写せず独自の短い解説を制作した。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "原作品のPD表示と公開画像、現代研究文の別個の権利を区別。DB独自本文を登録する重大な未解消問題なしと評価。ただし画像・本文の法的非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "ナポリ所蔵同題別作の画像を今回作品の図版に誤用しない",
+    "Zeri本文・研究紹介はindexed snippet照合で全文直接閲覧ではない",
+    "旧JPEG SHA証拠継承、今回新取得なし"
+  ]
+}
