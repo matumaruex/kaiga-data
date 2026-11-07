@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437757",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "5c0f44a369c5f17939e8396165a85aa6b9de7439",
+    "artwork_record_sha256": "69108c7c388754787d777796356f3719c9c967326956182a94bffec6dbca223c",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437757.json",
+    "draft_sha256": "9ed29c658bc8075b2c6a6d822920a390ee7c3c40a162f0970dac7d7732270dfb"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437757",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Old Woman Praying, Overview: Caravaggesque strong light and shadow, leathery skin suited to elderly characters; origin historically debated (Dutch record versus Flemish speculation).",
+        "Met Artwork Details: Matthias Stom; late 1630s or early 1640s; Oil on canvas; 1981.25; Public Domain; official illustration DP146510."
+      ],
+      "observed": "Met公式所蔵ページと作品概要を本文制作前後で直接照合。年代は幅を残し国籍を確定させない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437757",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146510.jpg",
+      "sha256": "cd8796d544b6cb51fb43e10757662189b95e98943adad528b8288916b29b104f",
+      "byte_length": 3052093,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月20日のMet公式JPEG全バイトSHA/HTTP記録。今回新規ダウンロード・SHA測定はしていない。"
+    },
+    {
+      "id": "met-437757",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146510.jpg",
+      "sha256": "e99809e2c03e4cf7366fed753eb49976f164578d2d5b238fa89d7aa6e4f23801",
+      "byte_length": 78125,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met DP146510の2026年10月の旧web-large画像バイト照合記録を継承。今回の実測ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met 1981.25公開画像DP146510の視覚確認とMet作品ページの同定を照合。登録JPEGバイトSHAは2026年10月の旧証拠を継承。",
+    "observed": "暗い地に白い頭布の女性。顔、組んだ手と珠が片側からの光に浮かび、皺や衣の深い影が際立つ。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "日本語本文制作後、Metの作品解説と館画像DP146510を別パスで確認。作者の国籍断定を避け、カラヴァッジョ風の技法をMetの学芸説明として表現し、祈りの内容を推測で断定していないか確認。",
+    "limitations": "同じAIの別工程であり別モデル・第三者の独立審査ではない。登録JPEG全バイトは今回取得せず2026年10月の記録を継承。",
+    "reviewed_artwork_sha256": "69108c7c388754787d777796356f3719c9c967326956182a94bffec6dbca223c",
+    "reviewed_visitor_draft_sha256": "9ed29c658bc8075b2c6a6d822920a390ee7c3c40a162f0970dac7d7732270dfb",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met accession 1981.25、Stom、1630年代末〜40年代初頭の油彩、公開画像DP146510を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metの画家研究を使用。Dutch/Flemish帰属の相違は単純化せず、老女の具体的な祈願内容は不明として扱う。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存の感情タグなしを維持。祈りを不安・寂しさと機械的に結びつけない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Met学芸解説の長文翻訳・転載なし。画面に見える表情・手と光の関係に主眼を置く独自日本語文。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "69108c7c388754787d777796356f3719c9c967326956182a94bffec6dbca223c",
+    "visitor_draft_sha256": "9ed29c658bc8075b2c6a6d822920a390ee7c3c40a162f0970dac7d7732270dfb",
+    "proposal_sha256": "0a9f6dbe8c50ee641db5041c1c1969a2bd23b7eafc46d66bcf9e66b2bdade66e",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "版・対象外不変性の事前点検であり、GitHub Actionsの結果ではない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437757.json",
+    "sha256": "0a9f6dbe8c50ee641db5041c1c1969a2bd23b7eafc46d66bcf9e66b2bdade66e",
+    "proposed_artwork_sha256": "69108c7c388754787d777796356f3719c9c967326956182a94bffec6dbca223c",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "MetのPublic Domainマークと公式Open Access画像CC0方針を区別して確認。",
+      "館の著作権保護を受け得る文章を転載せず、独自日本語本文を制作。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "公開画像と独自日本語本文のDB保存に重大な未解消の権利問題はないと判断。法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met 1981.25、Matthias Stom《祈る老女》。同一AIの別工程で第三者確認ではない。",
+    "2026年10月の登録画像バイト検証証拠を継承、今回の新規計測ではない。"
+  ]
+}
