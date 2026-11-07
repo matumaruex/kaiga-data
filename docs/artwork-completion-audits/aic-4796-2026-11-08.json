@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-4796",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "314956451a64c6933f686250cd5e7f4e22dd2f18",
+    "artwork_record_sha256": "80d1276423825bce34b38167421403cdcd877f9dadb11c9d5e6cd007f5838c1d",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-4796.json",
+    "draft_sha256": "81d160499fc1253d2cfcac239a5d93933445d6d26e4a5d0c3e93fb06adbe8c7e"
+  },
+  "sources": [
+    {
+      "url": "https://www.artic.edu/artworks/4796",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC artwork 4796 1922.4472, J.M.W. Turner, 1837/38; Art Institute exhibition label reproduced with attribution at artnap.com/artwork/aic-4796: large boat and fish hucksters, distant steamer, left background storm, sunlight and impasto.",
+        "Art Institute museum interpretive text specifically notes Willem van de Velde Dutch marine tradition, low horizon and light effects."
+      ],
+      "observed": "館解説の全文相当がAIC明記・CC BY4.0表示とともに引用されるページを確認し、別のAIC展示テキスト掲載ページとも照合。AIC公式HTML/APIの本セッション直接取得は403/URL不達であり、公式ページ直接再読と称さない。登録時ID/所蔵番号、館資料の出典追跡と他の所蔵掲載記録を補強資料として利用。"
+    },
+    {
+      "url": "https://archive.artic.edu/sciarttech/global_pages/g3.3.html",
+      "access": "page_read_twice",
+      "locations": [
+        "2026-10時点の作品選定根拠URLでAIC archived educational text; recorded in original artwork curation scholarly_interpretation as turbulent sea, billowing sails and the threatening sky."
+      ],
+      "observed": "同一版の既存curation source referenceを継承。今回ページを直接再取得しようとしたが403、旧登録時の説明範囲以上の新規学術主張をそこから付加しない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-4796",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Joseph_Mallord_William_Turner_-_Fishing_Boats_with_Hucksters_Bargaining_for_Fish_-_1922.4472_-_Art_Institute_of_Chicago.jpg/960px-Joseph_Mallord_William_Turner_-_Fishing_Boats_with_Hucksters_Bargaining_for_Fish_-_1922.4472_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "e912bf9ac13b96148048128ab19252f2ff9fcf9c4ba87f0c26843b2fc7077a0e",
+      "byte_length": 188836,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18の同一登録ミラーJPEG全量SHA256/HTTP200既存証拠を再利用。今回ミラー再取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "1837–38年、AIC 1922.4472に一致するWikimediaの作品写真を画像検索で目視し、館テキストの描写と突合。登録ミラーJPEGの今回のバイト再確認ではない。",
+    "observed": "左に大きな白い二枚の帆と人々で混み合う漁船、中央下に細い小舟、左側の鉛色の暗雲と右の淡い青空、激しくうねる海、遠景の船。額入りの公開撮影画像を見た。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文を作った後の別工程で、AIC館文の記述を掲載する別サイトと原図像、制作年と所蔵番号、異なるオランダ海景画との関係を照合し、推測を画家本人の発言として書いていないか再点検した。",
+    "limitations": "同一AI別工程であり第三者または別AIの独立審査ではない。AIC現行HTMLの直接取得は失敗し、館文章の出典を表示する二次掲載と過去2026-10同一版資料を利用した。JPEG新取得なし。",
+    "reviewed_artwork_sha256": "80d1276423825bce34b38167421403cdcd877f9dadb11c9d5e6cd007f5838c1d",
+    "reviewed_visitor_draft_sha256": "81d160499fc1253d2cfcac239a5d93933445d6d26e4a5d0c3e93fb06adbe8c7e",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Turner、1837–38、AIC 1922.4472の作品を画像および作品ID4796と照合し、別の海景作と区別した。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "魚取引・蒸気船・オランダ海景画の影響は美術館が作品について記述。描写と作者心理は区別し、危険への感情は鑑賞上の入口。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存主『不安』『畏敬』強度2/2を荒波と船の対比から維持し、画家自身がその感情を明示したとは書かない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "新規日本語本文は画面の順に独自に構成し、CC BY4.0の館英文解説の逐語翻訳・長い引用を避けた。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "80d1276423825bce34b38167421403cdcd877f9dadb11c9d5e6cd007f5838c1d",
+    "visitor_draft_sha256": "81d160499fc1253d2cfcac239a5d93933445d6d26e4a5d0c3e93fb06adbe8c7e",
+    "proposal_sha256": "a66061da9761ec9a4ad9d217ecdc2493d6f9825d5190fe8acd70f8a5cfa6dba7",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "作成時の版・対象ID・根拠URL/画像メタデータ・原データ不変更の照合で、GitHub CIの成功を事前に偽装したものではない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-4796.json",
+    "sha256": "a66061da9761ec9a4ad9d217ecdc2493d6f9825d5190fe8acd70f8a5cfa6dba7",
+    "proposed_artwork_sha256": "80d1276423825bce34b38167421403cdcd877f9dadb11c9d5e6cd007f5838c1d",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.artic.edu/artworks/4796",
+    "locations": [
+      "AIC 4796の画像は既存public domain記録と複数の公開画像表示でPD扱い。",
+      "館解説は二次掲載でCC BY4.0表示。新作日本語本文は館の文章を転載・逐語翻訳せず、参考出典URLを明記。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "絵画画像PDと館の解説文章のCC BYを区別。記録保存に重大な未解消権利問題は認めない範囲の審査であり法的非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "AIC直接HTML403/公式API不達。AIC解説文の出典を明示する掲載記事を参照し、その制約を隠さない。",
+    "登録JPEG新しい全量SHA検証は行わず2026-10履歴を継承。",
+    "別AI/第三者監査ではなく同一AI別工程。"
+  ]
+}
