@@ -1,0 +1,134 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-14591",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "f5d0411ea1200c1725e1a286735995585f8903b7",
+    "artwork_record_sha256": "65f3043c9ae0d3978d41dfb564e06969b5286de9b14d137be4c82e7618105365",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-14591.json",
+    "draft_sha256": "fed3b1ee24b3ff4e1e4ef3750677caed97e5d5608507dd6494db7071c539472b"
+  },
+  "sources": [
+    {
+      "url": "https://archive.artic.edu/500ways/artwork/14591",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC archival artwork 14591: Manet, Woman Reading, 1879/80, oil on canvas, accession 1933.435, ownership/exhibition history."
+      ],
+      "observed": "シカゴ美術館旧作品ページを2回開いて作品の同定・制作年表記・所蔵番号を直接照合。"
+    },
+    {
+      "url": "https://www.getty.edu/art/mobile/center/manet/stop.php?id=370075",
+      "access": "page_read_twice",
+      "locations": [
+        "GettyGuide Mobile 1003, curator Emily Beeny and narrator transcript: staged painting in Manet's studio using The Promenade hanging as backdrop; foamy beer, gloves, magazine; Getty dates about 1880-81."
+      ],
+      "observed": "Getty学芸員解説を繰り返し確認し、背後は窓外の実景ではなく以前に描いた庭の絵という主張と年代差を分離。"
+    },
+    {
+      "url": "https://www.artic.edu/artworks/14591",
+      "access": "blocked",
+      "locations": [
+        "現在のAIC個別URLはキャッシュミスのため現行本文は直接取得不可。アーカイブとGetty所蔵番号一致で代替。"
+      ],
+      "observed": "取得できていない現在のAICページを閲覧済みと扱わない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-14591",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/%C3%89douard_Manet_-_Woman_Reading_-_1933.435_-_Art_Institute_of_Chicago.jpg/960px-%C3%89douard_Manet_-_Woman_Reading_-_1933.435_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "6a32eac233c0a6dffa0e4ac986ceb41adb0513250bf8c408c07afb92b35e8e73",
+      "byte_length": 506272,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18 AIC登録画像の公開Commons JPEG HTTP200および全量SHA256証拠を継承。今回は再取得をしない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Gettyの該当作品の図版と同館のキュレーターによる具体的な図像描写を旧所蔵番号1933.435、公開Commons同番号作品画像と照合。登録JPEGの新規バイト取得なし。",
+    "observed": "黒い帽子と手袋の女性が紙面を読み、左下に泡のある飲み物、奥に緑の小道・木と花。Gettyが《The Promenade》の庭の画中画背景と指摘。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初稿後にAICアーカイブの作品番号・制作年とGetty学芸員証言の演出背景・飲み物・道具の細部を別工程で再読、両出典の年代表記差を保持し、文章の独自性・感情の推定をチェック。",
+    "limitations": "同一AIの別工程であり第三者や別AIによる独立審査ではない。AIC現行URLは取得できず旧アーカイブで代替。登録JPEGの今回の新規全量取得なし。",
+    "reviewed_artwork_sha256": "4d33eaf79e0c83cadc4e67a002bdc394ec47e347eca3486db18b8500c0bb2adf",
+    "reviewed_visitor_draft_sha256": "fed3b1ee24b3ff4e1e4ef3750677caed97e5d5608507dd6494db7071c539472b",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AICアーカイブではManet Woman Reading 1879/80、1933.435。Gettyではabout 1880-81と幅あり、同一所蔵番号1933.435。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Gettyの学芸員Emily Beenyは室内アトリエで自作《The Promenade》を壁に掛けて花咲く庭の背景に用いたと説明。実際にカフェでの屋外制作ではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "従来の補助タグ『安心』1は静かな読書の情景への弱い接点として維持するが、作者や女性の心理として断言しない。情景が演出された点も選定注意に明記。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "AIC・Gettyの作品固有の事実を読んで新規3段落の独自日本語本文を作成。原文の長文転載・逐語訳を回避。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "4d33eaf79e0c83cadc4e67a002bdc394ec47e347eca3486db18b8500c0bb2adf",
+    "visitor_draft_sha256": "fed3b1ee24b3ff4e1e4ef3750677caed97e5d5608507dd6494db7071c539472b",
+    "proposal_sha256": "f7d46d73eef0637bd784441cf570af857df58c9032e187e381f4423b60cc6c5b",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象版・提案後のハッシュ、ID、対象外作品をJSで照合。Python検証・CIをPR後に確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-14591.json",
+    "sha256": "f7d46d73eef0637bd784441cf570af857df58c9032e187e381f4423b60cc6c5b",
+    "proposed_artwork_sha256": "4d33eaf79e0c83cadc4e67a002bdc394ec47e347eca3486db18b8500c0bb2adf",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Manet_-_Woman_Reading_-_1933.435_-_Art_Institute_of_Chicago.jpg",
+    "locations": [
+      "AIC旧作品DBのis_public_domain_at_source=trueおよび1933.435付き公開Commons画像と画像台帳を区別。",
+      "Getty学芸員解説は作品内容と制作背景のみ取材し、音声や文章の長文翻訳・転載をせず独自の日本語本文とした。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "対象作品画像の旧公開利用記録と出典の文章権利を区別し、DB保存に明白な未解決の重大事項は認めない。ただし今回現行配信の新取得や法的非侵害保証は行っていない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "AIC1879/80とGetty約1880-81は別表記のまま保持。",
+    "アトリエで演出された読書場面と修正し、実際の外景の写生としない。",
+    "2026-10登録画像SHA再利用、同一AI別工程の限界を明記。"
+  ]
+}
