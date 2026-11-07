@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437354",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "ff36a91cdc204677215392feb930b9a098e36d68",
+    "artwork_record_sha256": "fe7292cf6613442c4d28bab0c2e64094bcc31842c7fe7a2cc9164400a1005d60",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437354.json",
+    "draft_sha256": "97da2180f6fc41975c67251e10940a1c6e7aaba81b9b9f369bcaf61566aadf52"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437354",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overview：馬に乗る6歳のジョージ、見上げる義理のきょうだい、自然な子ども描写、後年の家族史。",
+        "Met Artwork Details：Sir Henry Raeburn、ca.1808–9、50.145.31、Public Domain。"
+      ],
+      "observed": "公式所蔵作品の内容を解説制作と別の照合工程で確認。後年の家族の経緯を制作時の感情・作家の予見として扱わない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437354",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP170905.jpg",
+      "sha256": "efe6ff1e45115f42cf291b8e70948c2ce5a5b2cc7608cf6189d554b22f51da79",
+      "byte_length": 1649825,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet公式JPEG全量ハッシュ検証履歴を継承。今回の再取得ではない。"
+    },
+    {
+      "id": "met-437354",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP170905.jpg",
+      "sha256": "e3674f018d5518f07ec8d11c089e067cb739b3dcd999216f3c5c1b20e54389b0",
+      "byte_length": 59172,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "旧登録Met web-large JPEGのハッシュ・HTTP確認を継承。今回の再取得ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met 50.145.31と公開同作図版を視認し、登録Met画像のDP170905識別子と構図を照合。JPEG全量ハッシュは2026-10の証拠を継承。",
+    "observed": "ポニーにまたがる暗色衣服の少年、見上げるもう一人の少年、白衣の少女、背景の木立と空を確認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文案作成後、Met公式Overview・作品詳細・公開図像を再点検し、年齢・義理のきょうだい・後年の家族史と現在の肖像描写を切り分けた。",
+    "limitations": "同一AIの別パスであり別モデル・第三者の独立審査ではない。JPEGの全量再取得はせず2026-10の証拠を再利用。",
+    "reviewed_artwork_sha256": "fe7292cf6613442c4d28bab0c2e64094bcc31842c7fe7a2cc9164400a1005d60",
+    "reviewed_visitor_draft_sha256": "97da2180f6fc41975c67251e10940a1c6e7aaba81b9b9f369bcaf61566aadf52",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 50.145.31、Raeburn、ca.1808–9、作品画像DP170905を照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "6歳のジョージ、義理のきょうだいと自然な子ども描写を館説明で再照合。後年の家族史を制作意図と混同しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存主タグ『喜び』2を維持。肖像に描かれた瞬間に作者・三人が実際に喜んだと断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Metの論旨を短く独自日本語で展開し、公式原文の長文翻訳・複製を行っていない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "fe7292cf6613442c4d28bab0c2e64094bcc31842c7fe7a2cc9164400a1005d60",
+    "visitor_draft_sha256": "97da2180f6fc41975c67251e10940a1c6e7aaba81b9b9f369bcaf61566aadf52",
+    "proposal_sha256": "0f230de4cc5ea12e78e924f9f737c7b6ed147a1cdabe066bd409a8cfae20426a",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "版ハッシュ・対象外不変・タグと画像台帳の事前整合確認。CI結果はPR作成後に別途確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437354.json",
+    "sha256": "0f230de4cc5ea12e78e924f9f737c7b6ed147a1cdabe066bd409a8cfae20426a",
+    "proposed_artwork_sha256": "fe7292cf6613442c4d28bab0c2e64094bcc31842c7fe7a2cc9164400a1005d60",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met公式作品にPublic Domain表示。Metのオープンアクセス画像のCC0範囲を確認。",
+      "学芸解説の転載許諾とは分離し、独自日本語本文を作成。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "対象本文と旧PD/CC0画像をDBへ登録することに重大な権利未解決を確認しないというレビュー判断。法的な権利保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "1808〜1809年頃の肖像画で、6歳のジョージがポニーに乗り、傍らの義理のきょうだいが見上げる。後年の家族事情は画中の未来を示す証拠ではない。",
+    "既存JPEGの全バイトSHAは旧履歴。今回の新規測定ではない。"
+  ]
+}
