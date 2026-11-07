@@ -1,0 +1,86 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "aic-27949",
+  "baseline_commit": "8634bcb08e028a5e4723db30635c9dcebe3ed77b",
+  "baseline_artwork_sha256": "6d41439d38b345d3b69c17c4cc72f3cdfcb4d9f63e979488a131ba5e87d062bd",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "author_intent"
+      ],
+      "before": {
+        "status": "related_motif_or_series",
+        "summary": "ゴッホはラ・ベルスーズを複数回描き、色で子守歌の効果を生み、危険な海へ出る船乗りにも母の慰めを思い出させたいと書いている。シカゴ版だけを限定した言葉ではない。",
+        "source_url": "https://vangoghletters.org/vg/letters/let745/letter.html"
+      },
+      "after": {
+        "status": "related_motif_or_series",
+        "summary": "1889年1月28日テオ宛の手紙で、ゴッホは孤独な航海者が母の揺りかごや子守歌を思い出すような絵を構想したと述べた。2月3日には『ラ・ベルスーズ』の色彩で小さな音楽を表す試みだと語った。複数版の主題全体についての言葉で、シカゴ版のみを名指ししない。",
+        "source_url": "https://www.webexhibits.org/vangogh/letter/19/574.htm?qp=green"
+      },
+      "reason": "旧出典let745の『船乗りへの慰め』だけでは不十分なので、28 January 1889の直接書簡内容へ出典を切り替え、2月の別書簡と区別。",
+      "source_urls": [
+        "https://www.webexhibits.org/vangogh/letter/19/574.htm?qp=green",
+        "https://vangoghletters.org/vg/letters/let745/letter.html"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation"
+      ],
+      "before": {
+        "summary": "ルーラン夫人の肖像は揺りかごを動かす紐と強い色彩の組み合わせによって『子守歌』を視覚化するものとして読める。ゴッホ自身が色彩による音楽的効果を示唆しているが、その発言をシカゴ所蔵の版だけへの証言としない。",
+        "source_url": "https://vangoghletters.org/vg/letters/let745/letter.html"
+      },
+      "after": {
+        "summary": "ゴッホ研究者Debora Silvermanは母親の姿を古来の信仰画像に代わる慰めの像として読み、船乗りに対する子守歌と記憶の効果を考察する。ゴッホ本人の手紙は連作全体の構想を語るもので、特定のシカゴ版だけへの専属説明ではない。",
+        "source_url": "https://www.dbnl.org/tekst/_van012200101_01/_van012200101_01_0004.php"
+      },
+      "reason": "作者の直接発言と学術解釈の混同を防ぎ、専門家の研究を別欄に記録。",
+      "source_urls": [
+        "https://www.dbnl.org/tekst/_van012200101_01/_van012200101_01_0004.php",
+        "https://www.webexhibits.org/vangogh/letter/19/574.htm?qp=green"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "1889年初めのアルルでゴッホは郵便配達人ルーランの妻オーギュスティーヌをモデルに『ラ・ベルスーズ』を複数制作した。1889年2月3日のテオ宛て書簡で、ルーラン夫妻に版を選ばせ、別の版を描いていると述べた。",
+      "after": "1889年のアルルで、ゴッホは郵便配達人ジョゼフ・ルーランの妻オーギュスティーヌを描いた『ラ・ベルスーズ』の複数の版を制作。シカゴ美術館の展覧会作品一覧は同館の1926.200を1889年1月29日と記録し、ボストン美術館・アムステルダム版と区別する。2月3日の手紙は、モデル夫妻に3枚から選ばせ、自分用の別版も描くと述べる。",
+      "reason": "同題別版の区別とAIC公式展覧会の日付を明記し、個別版への直接書簡を誤帰属させない。",
+      "source_urls": [
+        "https://archive.artic.edu/vangogh/vg_list.html",
+        "https://vangoghletters.org/vg/letters/let745/letter.html"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "ルーラン夫人と揺りかごを動かす紐、花柄の壁紙、強い補色。",
+      "after": "正面寄りに座るオーギュスティーヌ、濃い緑の上着・鮮やかな緑のスカート・橙色の髪、赤い椅子、花模様の壁紙。手の下から続く紐は画面外の揺りかごにつながり、赤ん坊は描かれていない。",
+      "reason": "現存作の画面と作者による色彩・揺りかご紐の言及を具体化。",
+      "source_urls": [
+        "https://www.webexhibits.org/vangogh/letter/19/574.htm?qp=green",
+        "https://vangoghletters.org/vg/letters/let745/letter.html",
+        "https://archive.artic.edu/vangogh/vg_list.html"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/aic-27949.json",
+  "visitor_draft_sha256": "10b170e32ece88e2496cbdc495f431e1610ac5bd4001cbe478eca9dbecf1a0ec",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "02dd76079ba4044cdf30b3410c1a7d8482773541fd2adb5e917d8d46c958b1f6",
+  "explanation": "ゴッホの書簡（1889-01-28と02-03）・AIC同題別版所蔵一覧・Van Gogh Museum Journalの研究を照合。『船乗りと母への慰め』は745のみを根拠にせず書簡743も使用、心理と版特定を区別。感情タグを維持。"
+}
