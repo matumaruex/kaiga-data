@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-45739",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "da1a10804e9b0eee3a000d05ec65f3a5af8c06a8",
+    "artwork_record_sha256": "7f19a71556a394dd9eb957075cada78e5573fe1efa13d3f2a29fdc1d030de232",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-45739.json",
+    "draft_sha256": "574bb59a42334d51630454e31242d89fb96105c19c653ca14bdef446841d61e3"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/45739",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overview: white beard elder with a staff, a deer, one of the Japanese Seven Lucky Gods, symbolizing long life and New Year blessings.",
+        "Met Artwork Details: Kano Tanshin (Moromichi), early 19th century, hanging scroll ink on silk, 1975.268.54, Public Domain."
+      ],
+      "observed": "Metの検索表示と公式作品ページを別の段階で再読し、同作IDと解説・図像の対応を確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-45739",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP276289.jpg",
+      "sha256": "a04045ed902aa33d61e477f3cb55b6283f9325bc70fa7269385295af46d52aeb",
+      "byte_length": 1611661,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet公式DP276289原版・表示版JPEGの既存HTTP200と全量SHA256証拠を継承。今回の新たなJPEG全量取得ではない。"
+    },
+    {
+      "id": "met-45739",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP276289.jpg",
+      "sha256": "59314436fdebd01498329bbad36dc1820865d9ff8300b3f2bc16909f4bcdcee9",
+      "byte_length": 173016,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet公式DP276289原版・表示版JPEGの既存HTTP200と全量SHA256証拠を継承。今回の新たなJPEG全量取得ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met所蔵番号1975.268.54に紐づく寿老人の公開画像を視認、登録済み画像DP276289と同作品IDを比較。2026-10 JPEG全バイトSHAを履歴継承。",
+    "observed": "絹本の縦長掛軸の中央に、細長い杖を持ち頭巾をかぶった白ひげの老人、右下に枝分かれした角を持つ白鹿が描かれている。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "執筆後にMet作品ページのOverview・Artwork Detailsと公式由来の同作画像を別パスで点検。鹿、老人、杖、時代、祝いの文脈を確認。",
+    "limitations": "同一AIの別パスであり、第三者・別AIによる独立監査ではない。今回の画像JPEG全バイト再取得なし。",
+    "reviewed_artwork_sha256": "7f19a71556a394dd9eb957075cada78e5573fe1efa13d3f2a29fdc1d030de232",
+    "reviewed_visitor_draft_sha256": "574bb59a42334d51630454e31242d89fb96105c19c653ca14bdef446841d61e3",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 1975.268.54、狩野探信（守道）、19世紀初頭、絹本墨画、Public Domain。公式図版と同定。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metの長寿の象徴、七福神、杖・鹿、正月の祝いに関する解説を検証。特定の依頼主の意図は断定しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存主『希望』2は長寿を願う吉祥図との関連として維持し、画家の私的な願望と決めない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "公式本文の逐語翻訳・長文転載を避け、新しい日本語鑑賞文とした。画像CC0と公式解説の権利を分離。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "7f19a71556a394dd9eb957075cada78e5573fe1efa13d3f2a29fdc1d030de232",
+    "visitor_draft_sha256": "574bb59a42334d51630454e31242d89fb96105c19c653ca14bdef446841d61e3",
+    "proposal_sha256": "2b30865d8894a805fd979be225ca8b3cb85699019b51eb904cdb13b7be8071b3",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "作品の版・構造・他299件の不変更を事前に確認。正式CIはPR後に実行。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-45739.json",
+    "sha256": "2b30865d8894a805fd979be225ca8b3cb85699019b51eb904cdb13b7be8071b3",
+    "proposed_artwork_sha256": "7f19a71556a394dd9eb957075cada78e5573fe1efa13d3f2a29fdc1d030de232",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met公式作品がPublic DomainでOpen Access画像はCC0条件で提供。",
+      "画像利用条件を館の解説文章に拡張せず、作品情報に基づき独自日本語文を作成。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "DB保存で重大な未解決利用条件を認めないという審査判断で、法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "別AIによる確認と偽らない。",
+    "画像原版・表示版のSHAは過去証拠の継承。"
+  ]
+}
