@@ -1,0 +1,138 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437422",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "d45bd297c2824e4425f25f640a8b19aa3397f64f",
+    "artwork_record_sha256": "fa3552c9c49a143f8419fd9802c137f2c15ca315b3f21fdf02589cd70732468e",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437422.json",
+    "draft_sha256": "adc8837ab494611c92aeaacbdec1f760cc29c8ed62bec7a8b76c89d15c66078f"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437422",
+      "access": "page_read_twice",
+      "locations": [
+        "Met公式437422／1974.348。授乳する女性と子どもたちの寓意『慈愛』、1629年のバルベリーニ家フレスコの眠る子との類似、リヒテンシュタイン公の注文または購入は推定。"
+      ],
+      "observed": "所蔵館の作品概要と題・作者・年代・収蔵番号・作品固有の背景を照合。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Charity_MET_DT10776.jpg",
+      "access": "page_read_twice",
+      "locations": [
+        "Met提供Commons画像DT10776の作品番号1974.348・物体ID437422と登録Met原画像DT10776の番号・寸法を照合。館が説明する授乳する女性・子供たち・眠る子を構図の同定特徴とした。登録JPEGのバイト再取得はなし。"
+      ],
+      "observed": "Met提供の同作品公開画像のメタデータ・収蔵番号を確認。登録画像のバイト再取得はしていない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437422",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT10776.jpg",
+      "sha256": "fdf6d58d61dc8ad86b528f928fd6d792e8d914a7d0e77e1a1c1c8f503d69c32b",
+      "byte_length": 1665636,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の既存Met公式API/全量JPEG SHA-256記録の継承。現在の再取得ではない。"
+    },
+    {
+      "id": "met-437422",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT10776.jpg",
+      "sha256": "f7ce24f236ed393a267098d3b12581b76f8007217e6311f04010e9127e5332d6",
+      "byte_length": 66499,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の既存Met公式API/表示画像SHA-256記録の継承。現在の再取得ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met提供の作品とCommons公開ファイルの同定およびMet公式画像の画面確認。画像バイト検証は過去履歴を継承。",
+    "observed": "Met提供Commons画像DT10776の作品番号1974.348・物体ID437422と登録Met原画像DT10776の番号・寸法を照合。館が説明する授乳する女性・子供たち・眠る子を構図の同定特徴とした。登録JPEGのバイト再取得はなし。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文作成後、Met作品ページの出典箇所、登録ID、Met提供公開画像の対応情報と感情索引を別工程で照合。",
+    "limitations": "同一AIによる別工程で、別モデル・第三者による独立審査ではない。画像全量SHAは2026-10-20の旧証拠。",
+    "reviewed_artwork_sha256": "fa3552c9c49a143f8419fd9802c137f2c15ca315b3f21fdf02589cd70732468e",
+    "reviewed_visitor_draft_sha256": "adc8837ab494611c92aeaacbdec1f760cc29c8ed62bec7a8b76c89d15c66078f",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met公式437422／1974.348。授乳する女性と子どもたちの寓意『慈愛』、1629年のバルベリーニ家フレスコの眠る子との類似、リヒテンシュタイン公の注文または購入は推定。 Met収蔵番号を公式ページとCommonsのMet提供画像の同定と照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met所蔵品説明の主張・歴史的背景と不確定部分を分けて確認。作者本人の未確認の直接発言は創作しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『慈しみ』2と補助『安心』1は実際の母親の気持ちではなく、寓意の子どもを養育し保護する図像との接点。既存タグ維持。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "公式解説の逐語翻訳や長文転載をせず独自日本語本文で描写と館の解説を区別した。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "fa3552c9c49a143f8419fd9802c137f2c15ca315b3f21fdf02589cd70732468e",
+    "visitor_draft_sha256": "adc8837ab494611c92aeaacbdec1f760cc29c8ed62bec7a8b76c89d15c66078f",
+    "proposal_sha256": "c2393afd3f586d55ec3525f3d3351615166ac2b728fa113eea4c9d4e220235ab",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JSで同一基準の版ハッシュ・全件ID・対象外不変更を確認。GitHubの正式CIはPR後に判定する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437422.json",
+    "sha256": "c2393afd3f586d55ec3525f3d3351615166ac2b728fa113eea4c9d4e220235ab",
+    "proposed_artwork_sha256": "fa3552c9c49a143f8419fd9802c137f2c15ca315b3f21fdf02589cd70732468e",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met Open Access作品画像のCC0/PD表示と所蔵品のPublic Domain表示を確認。",
+      "Metの著述テキストは自由転載とみなさず、新規の日本語解説を作成。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "DB登録を妨げる未解消の著作権問題を認めない。法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "《慈愛》 Met公式437422／1974.348。授乳する女性と子どもたちの寓意『慈愛』、1629年のバルベリーニ家フレスコの眠る子との類似、リヒテンシュタイン公の注文または購入は推定。",
+    "同じAIの別工程であり第三者検証ではない。",
+    "登録JPEG全バイトSHAは2026-10-20の既存証拠。"
+  ]
+}
