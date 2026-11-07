@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-25825",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "4ba906dee1080c94c5e7f9ca38b0bac5586888ea",
+    "artwork_record_sha256": "e36afff7216c02600c296385f55442f9841dedb72515b724f9de58af1bff9b69",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-25825.json",
+    "draft_sha256": "2e11e384ed30668e4c4015cbedb5c1d5907ce7c8dd919c8b6513ad0039c10a18"
+  },
+  "sources": [
+    {
+      "url": "https://publications.artic.edu/api/epub/paintingsanddrawings/135452/print_view",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC Renoir Paintings and Drawings Cat.3 lines 7-20: 1875/76, oil on canvas, 1937.1025, likely Nini Lopez, bourgeois interior, upright piano, peignoir",
+        "Cat.3 lines 119-124 Technical Report: X-radiography of changes to piano perspective, woman's hair and altered skirt and seated posture"
+      ],
+      "observed": "AIC学芸員による個別作品ページを検索結果と開いた本文で再読し、事実・絵画技術・モデルの不確実性を直接照合。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-25825",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Pierre-Auguste_Renoir_-_Woman_at_the_Piano_-_1937.1025_-_Art_Institute_of_Chicago.jpg/960px-Pierre-Auguste_Renoir_-_Woman_at_the_Piano_-_1937.1025_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "3a80704e0fbe2a78396edd9de3609e40541087459cbf6c8175a4b60d29d17db7",
+      "byte_length": 495549,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "旧2026-10-18 Commons JPEGのHTTP200とSHA256一致記録を継承。今回JPEGバイトは再取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "同じタイトル・制作年の公開絵画画像（ABC Books検索画像）を視認、AICカタログの図像（ピアノ、楽譜、華やかな青白い室内服装）と照合。直接の登録JPEGバイト／画素の新取得はしていない。",
+    "observed": "赤みがかった髪の女性は青白いドレス、鍵盤、黒いピアノ・楽譜・燭台、左の青緑の鉢に囲まれ、AIC 1937.1025の構図と合致する。後年の《Young Girls at the Piano》とは別作品。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初稿と修正案確定後、AIC作品研究本文および技術調査を別パスで再読。モデルNini Lopezは推定と明記し、ピアノの視点・衣服・髪の変更に限り、作者の安心・女性の曲目を断定しないことを確認。",
+    "limitations": "同一AIによる別工程で独立した別AIではない。今回新規JPEGバイト・画素の検証は行わず旧2026-10の実取得SHAを再利用。元登録画像の視覚的な直接照合は限定的。",
+    "reviewed_artwork_sha256": "48e5b543f403b3ca6ee2b6bc100f16fa03d0f8dd26a9a885f5091a42af1bcd41",
+    "reviewed_visitor_draft_sha256": "2e11e384ed30668e4c4015cbedb5c1d5907ce7c8dd919c8b6513ad0039c10a18",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Renoir『Woman at the Piano』1875/76、AIC Ryerson Collection 1937.1025、油彩93×74cm。モデルはlikelyの仮説。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "パリ中産階級家庭の室内、音楽と当時のファッション。技術調査で衣装・髪・姿勢・ピアノの構図変更。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主タグなし、副『安心』1を音楽のある静かな室内への弱い接点として維持。旧『好奇心中心』という非登録タグ示唆を修正。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "AIC学術カタログの構成や表現をそのまま逐語訳せず、画面と技術分析を独自日本語3段落に組み替えた。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "48e5b543f403b3ca6ee2b6bc100f16fa03d0f8dd26a9a885f5091a42af1bcd41",
+    "visitor_draft_sha256": "2e11e384ed30668e4c4015cbedb5c1d5907ce7c8dd919c8b6513ad0039c10a18",
+    "proposal_sha256": "0527b1d0412b49683c65da554a11f74c309d67457865a69cfcfd79258e2b3276",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "old_image_sha_record_preserved",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "基準ハッシュと対象のみの書換をJSで検証。最終構造ガード・既存300件不変性・CIはPR側で確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-25825.json",
+    "sha256": "0527b1d0412b49683c65da554a11f74c309d67457865a69cfcfd79258e2b3276",
+    "proposed_artwork_sha256": "48e5b543f403b3ca6ee2b6bc100f16fa03d0f8dd26a9a885f5091a42af1bcd41",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Woman_at_the_Piano_-_1937.1025_-_Art_Institute_of_Chicago.jpg",
+    "locations": [
+      "AIC公式旧API is_public_domain_at_source=trueと2026-10に取得されたCommons JPEG の全バイトSHAを利用。",
+      "学術研究の著作権と絵画の公有性を混同せず、資料中の事実に基づくオリジナル日本語鑑賞文のみ書く。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "絵画Public Domainの旧記録と画像配信証拠を再利用し、学芸員の説明文を転載しない。個別画像の現行サイト条件や全利用形態を法的保証しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "AIC作品別研究・技術報告を直接確認。",
+    "今回の登録JPEG再取得なし、旧SHAを継承。",
+    "同一AI別工程の限界を記録。"
+  ]
+}
