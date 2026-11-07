@@ -10,7 +10,7 @@
     "artwork_record_sha256": "6b90bfc1a2aaad4759c59d2a21c8a1edd6674e65887af604e756f4893b84bcc5",
     "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
     "draft_path": "drafts/visitor-explanations/aic-28560.json",
-    "draft_sha256": "580fd0374fe0a68f540ec2efc95c2f9fe31212e18a9275641230971130a4fd96"
+    "draft_sha256": "ba076bcf14483c29f538ecbba93ba80f9942604d78cf667b3ac85e3c45652946"
   },
   "sources": [
     {
@@ -58,7 +58,7 @@
     "method": "執筆後にAIC公式APIの作品解説・版・年代・画像IDと1889シカゴ版図版を別工程で突き合わせ、初作本人発言をシカゴ版の直接発言と取り違えていないか精査。",
     "limitations": "同一AIの別パスであり第三者・別AIではない。登録ミラーJPEGの最新バイト再取得なし。",
     "reviewed_artwork_sha256": "6b90bfc1a2aaad4759c59d2a21c8a1edd6674e65887af604e756f4893b84bcc5",
-    "reviewed_visitor_draft_sha256": "580fd0374fe0a68f540ec2efc95c2f9fe31212e18a9275641230971130a4fd96",
+    "reviewed_visitor_draft_sha256": "ba076bcf14483c29f538ecbba93ba80f9942604d78cf667b3ac85e3c45652946",
     "checks": [
       {
         "area": "identity",
@@ -81,8 +81,8 @@
   "program_checks": {
     "result": "PASS",
     "proposed_artwork_sha256": "6b90bfc1a2aaad4759c59d2a21c8a1edd6674e65887af604e756f4893b84bcc5",
-    "visitor_draft_sha256": "580fd0374fe0a68f540ec2efc95c2f9fe31212e18a9275641230971130a4fd96",
-    "proposal_sha256": "0100ed0575615c4883e65b3ce8c671d40b2e6c57e27671aab121da25f1ac765c",
+    "visitor_draft_sha256": "ba076bcf14483c29f538ecbba93ba80f9942604d78cf667b3ac85e3c45652946",
+    "proposal_sha256": "748345fd08df118933172f1b3a8a14853c390b132f49c1a572a74de22a153ec6",
     "checks": [
       "300_unique_ids",
       "other_299_unchanged",
@@ -97,7 +97,7 @@
   },
   "proposal": {
     "path": "drafts/artwork-revisions/aic-28560.json",
-    "sha256": "0100ed0575615c4883e65b3ce8c671d40b2e6c57e27671aab121da25f1ac765c",
+    "sha256": "748345fd08df118933172f1b3a8a14853c390b132f49c1a572a74de22a153ec6",
     "proposed_artwork_sha256": "6b90bfc1a2aaad4759c59d2a21c8a1edd6674e65887af604e756f4893b84bcc5",
     "applied_to_catalog": false
   },
