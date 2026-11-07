@@ -10,7 +10,7 @@
     "artwork_record_sha256": "51ae2f8b48d411dbea3ae751d3b5166ecc80cd7dd7f1611a3c99a588c5577a18",
     "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
     "draft_path": "drafts/visitor-explanations/met-437286.json",
-    "draft_sha256": "4e7e34489d579394ace04486acb1d814bd045b2288f83999f0ff0643085f8675"
+    "draft_sha256": "6d32129e1112e908490f179065ffb86a0ce14c11494e9be67dda03f4f7752442"
   },
   "sources": [
     {
@@ -69,7 +69,7 @@
     "method": "本文を作成したあと公式Metの同定・解説、画像DP335085、主題・出品の留保表現を別パスで照合。",
     "limitations": "同一AIによる別工程で、別モデル／第三者審査ではない。JPEG SHAは2026-10-20の旧証拠を継承。",
     "reviewed_artwork_sha256": "51ae2f8b48d411dbea3ae751d3b5166ecc80cd7dd7f1611a3c99a588c5577a18",
-    "reviewed_visitor_draft_sha256": "4e7e34489d579394ace04486acb1d814bd045b2288f83999f0ff0643085f8675",
+    "reviewed_visitor_draft_sha256": "6d32129e1112e908490f179065ffb86a0ce14c11494e9be67dda03f4f7752442",
     "checks": [
       {
         "area": "identity",
@@ -92,8 +92,8 @@
   "program_checks": {
     "result": "PASS",
     "proposed_artwork_sha256": "51ae2f8b48d411dbea3ae751d3b5166ecc80cd7dd7f1611a3c99a588c5577a18",
-    "visitor_draft_sha256": "4e7e34489d579394ace04486acb1d814bd045b2288f83999f0ff0643085f8675",
-    "proposal_sha256": "8a13b06ce373848b0a728c0785918a480b9d36a1365440fbcbf1390b76efe0c3",
+    "visitor_draft_sha256": "6d32129e1112e908490f179065ffb86a0ce14c11494e9be67dda03f4f7752442",
+    "proposal_sha256": "8f032153260da83e3f21c43077868fd09501b90646acdbf931857ba9613df233",
     "checks": [
       "300_unique_ids",
       "other_299_unchanged",
@@ -108,7 +108,7 @@
   },
   "proposal": {
     "path": "drafts/artwork-revisions/met-437286.json",
-    "sha256": "8a13b06ce373848b0a728c0785918a480b9d36a1365440fbcbf1390b76efe0c3",
+    "sha256": "8f032153260da83e3f21c43077868fd09501b90646acdbf931857ba9613df233",
     "proposed_artwork_sha256": "51ae2f8b48d411dbea3ae751d3b5166ecc80cd7dd7f1611a3c99a588c5577a18",
     "applied_to_catalog": false
   },
