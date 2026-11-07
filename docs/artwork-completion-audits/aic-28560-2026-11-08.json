@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-28560",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "bec708cfb92c0f54cd32c460df5454bd840d9fcc",
+    "artwork_record_sha256": "6b90bfc1a2aaad4759c59d2a21c8a1edd6674e65887af604e756f4893b84bcc5",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-28560.json",
+    "draft_sha256": "580fd0374fe0a68f540ec2efc95c2f9fe31212e18a9275641230971130a4fd96"
+  },
+  "sources": [
+    {
+      "url": "https://api.artic.edu/api/v1/artworks/28560",
+      "access": "official_api_live_response",
+      "locations": [
+        "data.id=28560, main_reference_number=1926.417, artist_display, date_display=1889, oil on canvas, image_id=6644829f-f292-c5c4-a73c-0356a6fdbf0d, is_public_domain=true.",
+        "data.description: three Bedroom versions; 1888 Arles original, September 1889 Art Institute second version; Van Gogh letter to Theo about colours and repose."
+      ],
+      "observed": "2026-11-08 web.open AIC public API result and a separate find of is_public_domain/image_id, official field values confirmed."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_Bedroom_-_Google_Art_Project.jpg",
+      "access": "identifiable_visual_reference",
+      "locations": [
+        "Wikimedia artwork reproduced as 1889 Chicago version, reference 1926.417 and AIC id28560; visible image of blue walls, bed, chairs, washstand and green window."
+      ],
+      "observed": "2026-11-08 web.image returned the identified 1889 Chicago edition. Comparison limited to work-level visual identity; not a new byte-hash of the specific registered GitHub mirror."
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-28560",
+      "kind": "registered_display",
+      "url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/28560.jpg",
+      "sha256": "34c2a15bbc1721cd49d9e51f1522b0ec27fedd504d6e491b00e6ddad1f59f832",
+      "byte_length": 317192,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18の登録ミラーJPEGバイトSHA確認履歴。今回画像URLのJPEGを取得していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "AIC公式API image_id + thumbnail alt_text と、シカゴ美術館所蔵1926.417と同定された公開図版の描写を目視で比較。登録ミラーJPEGの直接取得なし。",
+    "observed": "青い壁、緑の窓、黄色い木のベッドと椅子、赤い寝具、左の机と水差し、壁の小絵の構成を確認。アムステルダムの初版と混同しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "執筆後にAIC公式APIの作品解説・版・年代・画像IDと1889シカゴ版図版を別工程で突き合わせ、初作本人発言をシカゴ版の直接発言と取り違えていないか精査。",
+    "limitations": "同一AIの別パスであり第三者・別AIではない。登録ミラーJPEGの最新バイト再取得なし。",
+    "reviewed_artwork_sha256": "6b90bfc1a2aaad4759c59d2a21c8a1edd6674e65887af604e756f4893b84bcc5",
+    "reviewed_visitor_draft_sha256": "580fd0374fe0a68f540ec2efc95c2f9fe31212e18a9275641230971130a4fd96",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "シカゴ1926.417第2版1889と作品ID28560を一致させ、他2版と区別。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1888初版のテオ宛手紙と1889第2版を分け、休息の意図は関連題材の一次証言として限定。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存の主『安心』3、副『寂しさ』1を鑑賞者の入口として保持。作者心理の確定ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "公式説明文の逐語翻訳や長文転載は行わず、観察・制作背景・版差を用いて独自日本語本文を制作。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "6b90bfc1a2aaad4759c59d2a21c8a1edd6674e65887af604e756f4893b84bcc5",
+    "visitor_draft_sha256": "580fd0374fe0a68f540ec2efc95c2f9fe31212e18a9275641230971130a4fd96",
+    "proposal_sha256": "0100ed0575615c4883e65b3ce8c671d40b2e6c57e27671aab121da25f1ac765c",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象版・関連ファイルのSHA指紋を作成。PR後に2系統GitHub CIを別途確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-28560.json",
+    "sha256": "0100ed0575615c4883e65b3ce8c671d40b2e6c57e27671aab121da25f1ac765c",
+    "proposed_artwork_sha256": "6b90bfc1a2aaad4759c59d2a21c8a1edd6674e65887af604e756f4893b84bcc5",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://api.artic.edu/api/v1/artworks/28560",
+    "locations": [
+      "公式AIC API is_public_domain=true。",
+      "APIレスポンスinfoはdescriptionがCC BY 4.0と記すため逐語転載せず独自日本語で執筆。",
+      "旧登録画像は前回検証済みバイト一致のみ再利用。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "画像PDと美術館文章のCC BY条件を分けて取り扱う。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "2026-10-18登録画像SHAを歴史的検査として引用、今回のダウンロードと偽らない。",
+    "外部第三者審査と偽らず同一AIの別パスと記録。"
+  ]
+}
