@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437168",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "c14ee3898ee7ed088c3be719895518bc99eb92dd",
+    "artwork_record_sha256": "b2449760086f6a0b153873ad05975829de17e1da8b993d81fb3dea4059b04f64",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437168.json",
+    "draft_sha256": "8bb50abeb0abf70ece157fedf21d15d2d8bb3dbc56568073eec392662898686b"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437168",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overviewは1510–15、ピラトがキリストを群衆に示す場面、半身像の前景、手の対話、悲しみで倒れた聖母、二連画の可能性を示す。二連画を確定的に書かない。",
+        "Met Artwork Details: Jan Mostaert、1510–15、所蔵番号 1982.60.25、Public Domain"
+      ],
+      "observed": "公式ページを初回読取後、別パスでOverviewとArtwork Detailsを再参照し同定・解釈を照合。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437168",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT8855.jpg",
+      "sha256": "56950a2d10b473cd5e7caf9863bc60bb881cfa646e5992a209c795589c78af18",
+      "byte_length": 3775010,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の登録済みMet公式JPEG全バイトのSHA256・HTTP200記録を継承。今回の新たな全量JPEG取得・計測ではない。"
+    },
+    {
+      "id": "met-437168",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT8855.jpg",
+      "sha256": "57cd3c33af672a3d17962088660066eb155be6edb72c7cfc2b065b36c7b0ca42",
+      "byte_length": 134827,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の登録済みMet公式JPEG全バイトのSHA256・HTTP200記録を継承。今回の新たな全量JPEG取得・計測ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品ページと同館画像DT8855の公開図版を視認して所蔵番号1982.60.25と一致する画題・構図を照合。全バイトSHAは2026-10の旧記録。",
+    "observed": "公式作品画像DT8855に茨の冠のキリスト、手前両側の半身人物と指先の動作、奥の通りの嘆き倒れる聖母を確認。同題の別構図Artvee画像は使用しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "執筆後に公式ページのOverview、Artwork Detailsと同作品公開画像を別パスで再参照し、固有の事実・解釈・図像・権利の整合を確認。",
+    "limitations": "同一AIの別工程であり、別モデル・第三者による独立監査ではない。画像全バイト再取得なし。",
+    "reviewed_artwork_sha256": "b2449760086f6a0b153873ad05975829de17e1da8b993d81fb3dea4059b04f64",
+    "reviewed_visitor_draft_sha256": "8bb50abeb0abf70ece157fedf21d15d2d8bb3dbc56568073eec392662898686b",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 1982.60.25、Jan Mostaert、1510–15、Oil on wood、Public Domainを公式ページで照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metの説明するEcce Homo相当の受難、前景半身像、手の動き、奥の聖母を確認。二連画は可能性に留める。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存『悲しみ』の主タグ2を維持し、作者自身の感情の直接証言としない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "公式本文の逐語訳でなく独自構成と画面観察を記述し、画像CC0と解説文の権利を区別。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "b2449760086f6a0b153873ad05975829de17e1da8b993d81fb3dea4059b04f64",
+    "visitor_draft_sha256": "8bb50abeb0abf70ece157fedf21d15d2d8bb3dbc56568073eec392662898686b",
+    "proposal_sha256": "272461d0a2ee9c8e64f6b0c3f93a0a62c8f7ce8dc5adabecc2344473d5a68d47",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "登録前の構造・版・対象外不変更の事前整合検査。GitHub Actionsによるプログラム検証はPR作成後の別工程。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437168.json",
+    "sha256": "272461d0a2ee9c8e64f6b0c3f93a0a62c8f7ce8dc5adabecc2344473d5a68d47",
+    "proposed_artwork_sha256": "b2449760086f6a0b153873ad05975829de17e1da8b993d81fb3dea4059b04f64",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met作品ページにPublic Domainを明記し、Open Access対象画像はCC0で提供。",
+      "館の画像提供条件と学芸解説の著作権を区別。本文は公式情報に基づく新規構成・独自日本語。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "公開済みPD図版と独自本文のDB保存に重大な未解決事項を認めないという範囲の判断。非侵害の法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "同一AI別パス監査であり第三者・別AI監査ではない。",
+    "登録画像の全バイトSHAは2026-10の過去証拠を再利用。"
+  ]
+}
