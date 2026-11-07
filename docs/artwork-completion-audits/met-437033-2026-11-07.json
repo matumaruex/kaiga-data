@@ -1,0 +1,131 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437033",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "6bae310f4d98509feb6dc9ca7a09f5bb09580d4e",
+    "artwork_record_sha256": "cf5ce935e2110e2a566614bf3addf2dd8a33d2c5fb779724e7bbfbc517e61b6e",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437033.json",
+    "draft_sha256": "61e7b2891c59ff4b8af1179895750050fb3536f01bb3c2b721b990e8e6d3f044"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437033",
+      "access": "page_read_twice",
+      "locations": [
+        "作品17.190.16、1480–90年頃、Follower of Rogier van der Weyden、breastfeeding Virgin、金地・温かな写実、蝶番跡のある当初額縁"
+      ],
+      "observed": "現行作品ページの作者帰属・所蔵番号・公式説明と作品画像の表示情報を再照合"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437033",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-20393-001.jpg",
+      "sha256": "0824d6015915bdc18c166f9370f9c961a7efa5899fe8b645ca01a47f56c209fb",
+      "byte_length": 5864023,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20登録時の全JPEG取得・SHA256/HTTP200を既存の履歴として再利用。今セッションで新たなJPEGバイト取得は実施していない。"
+    },
+    {
+      "id": "met-437033",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20393-001.jpg",
+      "sha256": "f69354e39dbc545fa507e4298bde3ff1871d9bd1797e15f0f382ee756f457fc8",
+      "byte_length": 181102,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20登録時の全JPEG取得・SHA256/HTTP200を既存の履歴として再利用。今セッションで新たなJPEGバイト取得は実施していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "公式Met作品ページの図版情報・所蔵番号・既存Met Object API由来画像識別と、保持された2026年10月の登録JPEGハッシュ記録を照合。過去のハッシュは現在の全JPEG新規取得ではない。",
+    "observed": "Met作品画像の授乳する聖母子・金地・当初の額縁と説明を対応付け、Met 17.190.16と登録のDP-20393-001画像識別子を確認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文案の完成後に出典の個別説明・所蔵番号・画像同定の資料を別工程で読み、既存の選定資料・感情索引・文章の類似／利用条件と対応を確認。",
+    "limitations": "同一AI別工程であって別モデル／独立した第三者の監査ではない。今セッションの登録JPEGバイト再計測はしていない。利用権の法的保証ではない。",
+    "reviewed_artwork_sha256": "cf5ce935e2110e2a566614bf3addf2dd8a33d2c5fb779724e7bbfbc517e61b6e",
+    "reviewed_visitor_draft_sha256": "61e7b2891c59ff4b8af1179895750050fb3536f01bb3c2b721b990e8e6d3f044",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 17.190.16・作者／年代・作品番号と登録ID met-437033の対応を公式Met情報と照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1480～90年頃の《聖母子》。授乳する聖母、金地、写実性、蝶番跡のある当初額縁と三連祭壇画の中央だった可能性。ロヒール本人作ではなく追随者に帰属。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存の主感情「慈しみ」2は授乳の具体的行為との結び付きがあり、作者の内面と同一視せず保持。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "公式資料の個別事実を自然な日本語で独自の構成に組み直し、原文の長文の引用や逐語翻訳を避けた。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "cf5ce935e2110e2a566614bf3addf2dd8a33d2c5fb779724e7bbfbc517e61b6e",
+    "visitor_draft_sha256": "61e7b2891c59ff4b8af1179895750050fb3536f01bb3c2b721b990e8e6d3f044",
+    "proposal_sha256": "00e205e89a6f0a94207068aa6f21ee926d04d9c73927662c2497765f0b1da6a4",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "作品IDと現行300件の一意性、対象版のJS正規化SHA、既存JPEG情報と提案変更なしを確認。Python登録ガードとsnapshot/CIはこの後GitHub Actionsで確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437033.json",
+    "sha256": "00e205e89a6f0a94207068aa6f21ee926d04d9c73927662c2497765f0b1da6a4",
+    "proposed_artwork_sha256": "cf5ce935e2110e2a566614bf3addf2dd8a33d2c5fb779724e7bbfbc517e61b6e",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "公式の個別ページにPublic Domain表示があり、Met OA/CC0画像と学芸員の文章の権利は別々に扱う。",
+      "今回の日本語本文は作成文であり、館の文章の長文転載や逐語翻訳ではない。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "登録する独自本文とPD対象画像の利用に、本記録に基づく重大な未解消問題は認めない。ただし法的な無条件の利用許諾・無侵害を保証しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "聖母子 Met 17.190.16",
+    "JPEGハッシュ/HTTPは2026年10月の既存証拠であり新規検査ではない。",
+    "同一AI別工程・別モデルによる独立審査ではない。",
+    "既存選定資料・感情タグ・対象外299作品を変更しない。"
+  ]
+}
