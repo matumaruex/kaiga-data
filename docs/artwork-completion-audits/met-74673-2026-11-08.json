@@ -1,0 +1,132 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-74673",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "3c09765711d7b06ac57957a576eaddec6a5f747d",
+    "artwork_record_sha256": "09e7508f52233aab534c9bfd33c3fa013400b3914137ff26f965c6c2fe156f86",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-74673.json",
+    "draft_sha256": "43238db0e4592a11669bbb1d34192af1fd408d89613c8a9018438d479f6e9c6d"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/74673",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overview: two lovers approach a bedchamber with globular domes and open pavilions characteristic of Bundi in southern Rajasthan.",
+        "Met Overview: preparatory ink painting with color swatches marked by studio master as instructions for finishing artists.",
+        "Met Details: late 18th century, India Rajasthan Bundi, Ink and opaque watercolor on paper, 22.9 x 14 cm, 2008.359.21, Public Domain."
+      ],
+      "observed": "Met公式作品ページを直接閲覧し、別の検索結果で同一作品・Met所蔵番号・制作説明を再参照。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-74673",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP166088.jpg",
+      "sha256": "a9356c438ca37077accde7278ce454e43db751b5126236050c000da187ea3250",
+      "byte_length": 1861137,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 Met公式Object API primaryImage・JPEG原版SHA256とHTTP200履歴の継承。今回新規再取得なし。"
+    },
+    {
+      "id": "met-74673",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP166088.jpg",
+      "sha256": "bba3350f0979b45a02868dbe160a62f749679dad46de6e538301a1fc49734e42",
+      "byte_length": 217813,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 Met公式web-large JPEG・SHA256旧履歴の継承。今回新規再取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式画像キャプションと過去登録Met API primaryImage URLの同定記録を相互確認。登録JPEG画素の本セッションの直接目視は未実施。",
+    "observed": "Met公式画像欄は同作の『Ink and opaque watercolor on paper, India (Rajasthan, Bundi)』と表示し、旧API検証記録はDP166088原版・表示版を同じ所蔵番号2008.359.21に結び付ける。図像細部の新規直接視認を偽らない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初稿後の別工程として公式OverviewとArtwork Detailsを再読、色見本が完成画そのものの彩色と混同されていないか、Bundiの宮殿意匠が当該作品と結び付くか、作者心理の断定をしていないか点検。",
+    "limitations": "同一AIによる別工程であって第三者・別AI監査ではない。登録済みJPEGの直接画素確認とファイルSHA新測定は今回行わず、2026-10版証拠を継承。",
+    "reviewed_artwork_sha256": "09e7508f52233aab534c9bfd33c3fa013400b3914137ff26f965c6c2fe156f86",
+    "reviewed_visitor_draft_sha256": "43238db0e4592a11669bbb1d34192af1fd408d89613c8a9018438d479f6e9c6d",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 2008.359.21《Lovers Returning to a Palace》、18世紀後半Bundi、墨と不透明水彩の紙本。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "公式館解説の宮殿・寝室・球状ドーム・開放亭と準備画の色見本を別の制作要素として解説。人物の心理は事実として言及しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存の主『期待』2は登場人物が寝室へ歩み寄る図からの鑑賞上の仮説として維持し、作者や恋人の内面とは区別。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存Met英語Overviewの文章構造や長い叙述を流用せず、独自の日本語で図像と制作工程を説明する。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "09e7508f52233aab534c9bfd33c3fa013400b3914137ff26f965c6c2fe156f86",
+    "visitor_draft_sha256": "43238db0e4592a11669bbb1d34192af1fd408d89613c8a9018438d479f6e9c6d",
+    "proposal_sha256": "d93ae4836cb8333f73434b5402c4a8ba01c484983b4708bafff53a1a366b72a2",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "登録済み全300ID重複なしと対象版・旧画像メタデータ・対象外299件の不変を事前確認。正式テストはPR後のCIで確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-74673.json",
+    "sha256": "d93ae4836cb8333f73434b5402c4a8ba01c484983b4708bafff53a1a366b72a2",
+    "proposed_artwork_sha256": "09e7508f52233aab534c9bfd33c3fa013400b3914137ff26f965c6c2fe156f86",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "作品ページにPublic Domainの明記、Met画像のOpen Access/CC0は公式利用ポリシーにある。",
+      "学芸員英文の文章は画像とは別扱いとし、短く独自日本語本文を制作、逐語翻訳や長文転載はしない。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "当該版のDB保存に重大な権利条件の未解決事項を確認しない。画像CC0を館本文に拡張せず、法律上の非侵害保証とはしない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met公式ページの概要と作品詳細を再確認。",
+    "JPEGの今回新取得と画素直接確認なし。",
+    "同一AI別工程の限界を明記。"
+  ]
+}
