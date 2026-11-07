@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-459079",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "e40cb4ef7b5067aadcfe7e005ab42b08e508893d",
+    "artwork_record_sha256": "5e2cb274c8b64834b1212950bed597e3d4af4285b54ca79736b17d507d983421",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-459079.json",
+    "draft_sha256": "07097f329752da2c07bccaa6b409280b0e216c3dc5eeb29ed4fe4d208a64d644"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/459079",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Mary of Burgundy Overview第1〜2段：hennin、agrafe、three necklaces、1477年婚姻、帰属根拠。",
+        "Met Overview第3段とArtwork Details：死後制作と失われた原型の可能性、ハプスブルクの領地継承、1528年、1975.1.137、Public Domain。"
+      ],
+      "observed": "作者の帰属の限界、歴史的文脈および画像の装飾表現を照合。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-459079",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/rl/original/DP164856.jpg",
+      "sha256": "602767639dbefaf84e4c85e0b11c1bed202f34145eed09551071a91ad8dfa3ee",
+      "byte_length": 2214495,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月のMet公式登録JPEG全量SHA/HTTP200の既存記録。新規バイト測定は実施していない。"
+    },
+    {
+      "id": "met-459079",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/rl/web-large/DP164856.jpg",
+      "sha256": "e27e01817e256354154de36355d3bebab8f6bbcd7fb737de605f2d6310d3a38b",
+      "byte_length": 241680,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月のMet表示画像SHA/HTTP200確認を継承。今回再計測なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式収蔵画像DP164856の公開図像を作品番号1975.1.137と比較。JPEGバイトは過去記録。",
+    "observed": "青緑色の地に左向きの女性の横顔。黒い布、背の高い円錐形の赤い頭飾り、宝石のある留め具、重なった首飾り、明るい肌と衣を確認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "新規本文後にMet収蔵品ページの帰属・紋章の発見位置・マリーとマクシミリアンの婚姻・肖像の制作年および画像DP164856を再照合。",
+    "limitations": "同じAIによる別パスであり別モデル・第三者ではない。JPEGの全バイト照合は10月の履歴を継承。",
+    "reviewed_artwork_sha256": "5e2cb274c8b64834b1212950bed597e3d4af4285b54ca79736b17d507d983421",
+    "reviewed_visitor_draft_sha256": "07097f329752da2c07bccaa6b409280b0e216c3dc5eeb29ed4fe4d208a64d644",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met1975.1.137、1528年、Master H.A. or A.H.、oil on fir panel、公開画像DP164856を照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "裏面の後補聖母画の下のモノグラムによる帰属、現存肖像の原型はprobablyであり断定しない。マリー本人が1528年にポーズを取ったと誤記しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "感情タグ0件を維持し、死後の肖像だけで画家の喪失感と断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "メト館解説を逐語翻訳・長文転載せず、図像・帰属・歴史的文脈を独自の日本語で説明。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "5e2cb274c8b64834b1212950bed597e3d4af4285b54ca79736b17d507d983421",
+    "visitor_draft_sha256": "07097f329752da2c07bccaa6b409280b0e216c3dc5eeb29ed4fe4d208a64d644",
+    "proposal_sha256": "b1764b190e6869fac027aa2083ee3c38f707483778692b7f77f40a38ef403cfd",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "事前の版・構造・対象外不変性の確認、GitHub ActionsはPR作成後に検証。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-459079.json",
+    "sha256": "b1764b190e6869fac027aa2083ee3c38f707483778692b7f77f40a38ef403cfd",
+    "proposed_artwork_sha256": "5e2cb274c8b64834b1212950bed597e3d4af4285b54ca79736b17d507d983421",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met公式ページのPublic Domain表示、Open Access画像はCC0。",
+      "Met学芸本文の転載権と画像CC0を別に扱い独自日本語文を執筆。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "DB登録を妨げる重大な未解決画像・本文の権利問題なしと判断。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "メト1975.1.137《ブルゴーニュのマリー》：マリー死後の1528年の肖像、帰属は板裏のモノグラムが根拠。",
+    "2026年10月のJPEG記録を履歴として扱う。別モデル／第三者監査ではない。"
+  ]
+}
