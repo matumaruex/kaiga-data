@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-16568",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "a622469be7fb14a91abc038b93ef6e6b93988cc7",
+    "artwork_record_sha256": "0a964603b34ba7c04ecc8627e872539e86d94da6c1d1e7cae4c04e636ac07f03",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-16568.json",
+    "draft_sha256": "83f4f3adfe308496b479e92b47b81bdc03002ae1f40e2cbc905045f7304369c4"
+  },
+  "sources": [
+    {
+      "url": "https://api.artic.edu/api/v1/artworks/16568",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC official API data.id16568, Claude Monet, Water Lilies, 1906, 1933.1157, oil on canvas, is_public_domain=true, image_id=3c27b499-af56-f0d5-93b5-a7f2f1ad5813.",
+        "AIC data.description: near-square format, clusters upper right/lower left, open diagonal water, reflected sky/trees, hidden canvas rework through technical study."
+      ],
+      "observed": "公式AIC APIの当該作品全文をweb.openで確認し、別パスweb.findでis_public_domain・image_idおよび収蔵番号を再参照。公式HTMLが403のため一次資料として公式APIを使用。"
+    },
+    {
+      "url": "https://publications.artic.edu/api/epub/monet/135621/print_view",
+      "access": "indexed_museum_scholarly_source_not_directly_reopened",
+      "locations": [
+        "AIC scholarly catalog Cat.44, Water Lilies 1906, 1933.1157, clusters upper right and lower left, revision/complex process, Monet letter to Geffroy 1908."
+      ],
+      "observed": "検索の収録抜粋で該当段落と所蔵番号を確認したが直接のweb.openはCache miss。直接再読済みとは扱わず補足参照に限定。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-16568",
+      "kind": "registered_display",
+      "url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/16568.jpg",
+      "sha256": "8e87b1ca2d8f4727fcb29b30c1b96b3aaf311ec8589a9e377a3cb9ae9adf42de",
+      "byte_length": 363975,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18の登録ミラーJPEG全量SHA/HTTP履歴を継承。今回のJPEGファイル直接再取得や再ハッシュは実施していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "公式AIC APIによる1906年/1933.1157の作品同定と同じ1906年シカゴ美術館所蔵作品の公開図版を画像検索で目視。画像リンクは別の写真で登録ミラーを再測定したものではない。",
+    "observed": "ほぼ正方形の画面、睡蓮の葉が右上と左下に集まり、中央に青紫色の反射する水面が斜めに開く。金色の額縁を含む公開写真と館の作品記録が対応。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初稿後にAIC公式API再閲覧で1906年シカゴ版、花の配置・反射・画面修正痕を確認。画家の一般的探求と『安心』への鑑賞者の接点を混同していないか別工程で点検。",
+    "limitations": "同一AI別パスであり第三者／別AIの独立監査ではない。学術カタログの直接ページ取得は失敗し検索索引に限定、公式API本文は直接照合した。登録ミラーJPEG新取得なし。",
+    "reviewed_artwork_sha256": "0a964603b34ba7c04ecc8627e872539e86d94da6c1d1e7cae4c04e636ac07f03",
+    "reviewed_visitor_draft_sha256": "83f4f3adfe308496b479e92b47b81bdc03002ae1f40e2cbc905045f7304369c4",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC 1933.1157と1906年・Monet・Oil on canvas・登録画像IDを公式APIで確認。他の睡蓮連作と同一視しない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "AIC APIによる水面反射、花の配置と制作中の多数の修正を参照。モネの平穏や鑑賞者の幸福感を作家意図と断定しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存の主感情なし・補助『安心』『好奇心』それぞれ強度1を変更せず、主題の複雑な制作過程も踏まえて維持。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "所蔵館の説明文の逐語翻訳や長文複製を避け、視点を変えた独自日本語鑑賞本文にした。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "0a964603b34ba7c04ecc8627e872539e86d94da6c1d1e7cae4c04e636ac07f03",
+    "visitor_draft_sha256": "83f4f3adfe308496b479e92b47b81bdc03002ae1f40e2cbc905045f7304369c4",
+    "proposal_sha256": "af8cdb014592a3bde30b02dcb466d353707efcd8b2b86f3fae2cdf54e4e3f5b5",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "事前の版・識別子・他299件不変更検査であり、GitHub CIはPR後に別途確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-16568.json",
+    "sha256": "af8cdb014592a3bde30b02dcb466d353707efcd8b2b86f3fae2cdf54e4e3f5b5",
+    "proposed_artwork_sha256": "0a964603b34ba7c04ecc8627e872539e86d94da6c1d1e7cae4c04e636ac07f03",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://api.artic.edu/api/v1/artworks/16568",
+    "locations": [
+      "AIC公式API is_public_domain=true、他の収蔵データがCC0である一方説明文にはCC BY 4.0が明記されている。",
+      "作品画像をPDとして扱い、学芸員の英文解説を転載せず独自日本語本文を作成。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "画像と館説明文の利用条件を区別。重大な未解決利用条件を確認しなかった範囲の判断であり非侵害の法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "公式API以外の所蔵館学術カタログは検索索引のみで確認。直接再読済みと称さない。",
+    "旧JPEG SHAを継承し新規ダウンロード無し。",
+    "第三者・別AIと称さず同一AI別工程。"
+  ]
+}
