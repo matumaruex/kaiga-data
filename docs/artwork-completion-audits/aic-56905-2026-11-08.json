@@ -1,0 +1,142 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-56905",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "595c795def361bc1f7d633f08bd674c0b3aa8489",
+    "artwork_record_sha256": "71eebe169e299fda020334a2d55f1683b16ecdd51b465f7c83531537b7b7b457",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-56905.json",
+    "draft_sha256": "5df366e7163ed4547f72b6fcf81c282431cffdb64dbc557f5f4e21881509186b"
+  },
+  "sources": [
+    {
+      "url": "https://whistlerpaintings.gla.ac.uk/catalogue/display/?mid=y117",
+      "access": "page_read_twice",
+      "locations": [
+        "Glasgow YMSM117 object header accession 1900.52"
+      ],
+      "observed": "1872油彩・AIC所蔵YMSM117を確認"
+    },
+    {
+      "url": "https://www.whistlerpaintings.gla.ac.uk/catalogue/display/?mid=y117&xml=sub",
+      "access": "page_read_twice",
+      "locations": [
+        "Titles, 1872 Dudley and Leyland; Description of harbour"
+      ],
+      "observed": "題名・手紙・港の月と船の説明を再読"
+    },
+    {
+      "url": "https://www.whistlerpaintings.gla.ac.uk/catalogue/display/?mid=y117&xml=tec",
+      "access": "page_read_twice",
+      "locations": [
+        "Technique, Muir 2020 AIC technical summary"
+      ],
+      "observed": "灰色下地・薄い水平筆致・表面の擦り取りを再読"
+    },
+    {
+      "url": "https://artsandculture.google.com/asset/nocturne-blue-and-gold%E2%80%94southampton-water/agE7XpmV_fjNfQ",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC supplied object details and interpretive text"
+      ],
+      "observed": "AIC解説で作品固有の色彩と表現意図を確認"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-56905",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/James_McNeill_Whistler_-_Nocturne%2C_Blue_and_Gold%E2%80%94Southampton_Water_-_1900.52_-_Art_Institute_of_Chicago.jpg/960px-James_McNeill_Whistler_-_Nocturne%2C_Blue_and_Gold%E2%80%94Southampton_Water_-_1900.52_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "e31e38a81632c6b7eed8ddb22fa71c3615abb153cd2eb464cbbf7ddff98c30c5",
+      "byte_length": 147527,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18のCommons960px JPEG HTTP200と全量SHA一致の旧登録履歴を継承。今回新規取得・再測定なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Glasgow作品別図版・AIC作品別研究の記述と、Commons登録画像の作者・題名・1900.52を照合。今回は登録JPEG画素の新規直接取得・再照合なし。",
+    "observed": "Glasgowに記録された左の岬の背後の月、左右の船、岸の灯と反射が既存の作品記述と一致。他のSouthampton同題夜想曲と区別。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "新規本文の生成後、GlasgowのTitle/DescriptionとTechniqueの別節、AIC提供解説の原文に戻り主張・年・典拠・言葉の類似を照合した。",
+    "limitations": "別AI／第三者による再照合ではなく同一AIの別工程。旧登録JPEGの画素は今回直接取得・視認していない。",
+    "reviewed_artwork_sha256": "71eebe169e299fda020334a2d55f1683b16ecdd51b465f7c83531537b7b7b457",
+    "reviewed_visitor_draft_sha256": "5df366e7163ed4547f72b6fcf81c282431cffdb64dbc557f5f4e21881509186b",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Glasgow YMSM117とAIC 1900.52が同作品・1872頃・油彩カンヴァスで一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1872展示の旧題は確定でなく可能性として記録。技術研究はAIC Muirのものと明記。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存『安心』強度2は青と金の港の調和を入口とする索引であり、作者の安心を断定していない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "個別研究の出典を保ちながら原文の長い逐語翻訳・無断転載を避け、独自日本語で制作。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "71eebe169e299fda020334a2d55f1683b16ecdd51b465f7c83531537b7b7b457",
+    "visitor_draft_sha256": "5df366e7163ed4547f72b6fcf81c282431cffdb64dbc557f5f4e21881509186b",
+    "proposal_sha256": "d0b06b277a104e6191f6ef16812467a6c0f8e1ec0ae0d205ed3c057fa9b89d3a",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "正式Python構造テストとCIはPR作成後に確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-56905.json",
+    "sha256": "d0b06b277a104e6191f6ef16812467a6c0f8e1ec0ae0d205ed3c057fa9b89d3a",
+    "proposed_artwork_sha256": "71eebe169e299fda020334a2d55f1683b16ecdd51b465f7c83531537b7b7b457",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Paintings_by_James_McNeill_Whistler",
+    "locations": [
+      "AIC旧API作品本体Public Domain true",
+      "2026-10 Commons JPEGの権利記録とSHA一致を継承; Glasgow・AICの現代解説文は転載せず"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品自体のPDと旧画像提供条件、現代研究本文の権利を分離し、独自説明を保存する重大な障害なしと判断。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "過去登録JPEG SHAのみ再利用",
+    "同一AI別工程",
+    "感情索引保持"
+  ]
+}
