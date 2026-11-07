@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-857030",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "38985a06619c92514620721de054b569abe4a581",
+    "artwork_record_sha256": "0acdfe048fbd7a05eadaf114a09c9a39faeb99b27b0fa04b8363f2e53553c2f4",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-857030.json",
+    "draft_sha256": "cc1cdbbcb1addb70a896d1d703bab7567b8b2157d1d7a02624f00236494929b4"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/857030",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 2021.425 Overview: four Kalighat deity watercolors made by 19th century patua artists near Kali temple, affordable souvenirs sold to pilgrims.",
+        "Met Details: title The avatar Narasimha, unidentified artist, ca.1870s, Kolkata, watercolor colloidal tin ink graphite on mill paper, object 2021.425 and public domain."
+      ],
+      "observed": "Met公式ページを直接閲覧し別の公式ページ検索結果とも所蔵番号とテキストを再照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/39251",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 2000.284.4 Yoga Narasimha Overview: incarnation of Vishnu with man/lion character and Hiranyakashipu story; unrelated sculpture."
+      ],
+      "observed": "Metの別作品の公式解説を直接開き、本作品の固有画面の事実ではなくナラシンハ神話の一般的理解としてのみ使用。"
+    },
+    {
+      "url": "https://www.vam.ac.uk/articles/kalighat-painting",
+      "access": "page_read_twice",
+      "locations": [
+        "V&A Kalighat painting, 2024 article Origins paragraphs: patuas, urban Kolkata, inexpensive religious pilgrim souvenirs and single image compositions."
+      ],
+      "observed": "Victoria & Albert Museum公式研究記事を直接閲覧して時代・制作地域の背景だけ確認。本作品の具体的作者を同定する根拠とはしない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-857030",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/LC-TR_286a_d_2021_sr1-001.jpg",
+      "sha256": "905d2a9fa639af4cd0f98f44b516018f0c904eb536696871e4bcf55e3a216101",
+      "byte_length": 3111192,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet Object API primaryImage原版JPEG HTTP200・全量SHA256確認記録を継承。今回新取得なし。"
+    },
+    {
+      "id": "met-857030",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/LC-TR_286a_d_2021_sr1-001.jpg",
+      "sha256": "340abd20a374190afd576ea7e4f68df97f81fd65de1edeaf54f1c3ee4fbad4d4",
+      "byte_length": 326525,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet表示版JPEG HTTP200・全量SHA256確認記録を継承。今回新取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式画像の題名と素材のキャプションと2026-10 Met API primaryImage・画像ハッシュ記録を再照合。今回JPEGの画素直接目視は未実施。",
+    "observed": "公式主画像キャプションはThe avatar Narasimha、Calcutta、Watercolor colloidal tin ink graphite on mill paperの同作。登録されたLC-TR_286a_d_2021_sr1-001のMet画像URLは同IDの過去API記録に対応。画像の実際の画素を今回再取得したとは記録しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初稿後、Met 2021.425の制作圏と別Met神話作品・V&Aのカリガート歴史を別工程で再照合し、特定の図像や制作意図について資料以上に断定していないか点検。",
+    "limitations": "同一AI別工程であり第三者や別AIによる独立検証ではない。JPEG全量は2026-10の先行記録を再利用し、今回新ダウンロードや画素直接目視を行っていない。",
+    "reviewed_artwork_sha256": "0acdfe048fbd7a05eadaf114a09c9a39faeb99b27b0fa04b8363f2e53553c2f4",
+    "reviewed_visitor_draft_sha256": "cc1cdbbcb1addb70a896d1d703bab7567b8b2157d1d7a02624f00236494929b4",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 2021.425, the avatar Narasimha, 1870年代、コルカタの未詳画家による紙本絵画を同定。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met当該作品のパトゥア工房・巡礼土産、別Met作品の一般神話、V&Aのジャンル史を混ぜずに説明。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『畏敬』2を超人的神格の図像に鑑賞者が感じ得る接点として保持し、作者の私的感情としない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "独自の日本語を作成し館解説の長文転載・逐語翻訳なし。宗教的表現と流通史を分けて記述。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "0acdfe048fbd7a05eadaf114a09c9a39faeb99b27b0fa04b8363f2e53553c2f4",
+    "visitor_draft_sha256": "cc1cdbbcb1addb70a896d1d703bab7567b8b2157d1d7a02624f00236494929b4",
+    "proposal_sha256": "1ba0c568390198a48a3fae453b747a9fdd0f8257b6bb29054d1b6de1502103a9",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "300ID重複・対象の版・旧画像の記録一致を事前点検。正式なプログラム検査はCIの結果を別確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-857030.json",
+    "sha256": "1ba0c568390198a48a3fae453b747a9fdd0f8257b6bb29054d1b6de1502103a9",
+    "proposed_artwork_sha256": "0acdfe048fbd7a05eadaf114a09c9a39faeb99b27b0fa04b8363f2e53553c2f4",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met公式作品ページはPublic Domainと明記、館公式Open Accessの画像はCC0。",
+      "Met・V&Aの文章は画像CC0の権利ではなく、独自本文を作成して参照先だけ保持。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品画像と美術館文章を区別し、DB保存上重大な未解決利用条件は確認されなかった範囲の判断。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "神話一般の別作品との同一視を避ける。",
+    "2026-10 JPEG全バイト検証の履歴のみ再利用、今回新計測なし。",
+    "同一AI別工程審査。"
+  ]
+}
