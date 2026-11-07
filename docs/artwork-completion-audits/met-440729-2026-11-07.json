@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-440729",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "521bafd39e50a74f1310ecf27d18786e0f2f18f6",
+    "artwork_record_sha256": "7b87203277574c6c1fceaa184f4e4ab3d3f5f66dc9d5706e8bc6afd98fa4c0e4",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-440729.json",
+    "draft_sha256": "a61732de5f5d6981ff1013ded30b477a78c1217b1f6e0a6667c0281af89fac8f"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/440729",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overview：春の強い日差しを避ける女性と逆光、袖と日傘を通す光、1870〜80年代の印象派周辺の表現、日本木版画の影響の可能性（may have）。",
+        "Met Artwork Details：James Tissot、ca.1875、Oil on canvas、2009.359、Public Domain。"
+      ],
+      "observed": "公式作品概要を解説制作時と別工程で二度参照し、逆光の意味と日本版画の影響を確定事実ではなく美術館の可能性として扱う。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-440729",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP232138.jpg",
+      "sha256": "914b099f8ad8312969c9b5fa5e8d16db860896ac53258df008f0d7d13bb58102",
+      "byte_length": 3195044,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet DP232138公式原画像JPEGの全バイトSHA・寸法記録を再利用。今回の新計測ではない。"
+    },
+    {
+      "id": "met-440729",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP232138.jpg",
+      "sha256": "eeb03ed76ce44bdf5f0012e6cfaed26f24bec15ba8b9793354bc82722686cb9c",
+      "byte_length": 114649,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet DP232138 web-largeのJPEGハッシュ・配信確認の旧履歴を継承。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met 2009.359の公式作品情報と公開された同一作品図像（Met DP232138、および同作品として示すMet提供図版）を視認・照合。JPEGバイト検証は過去のSHA記録。",
+    "observed": "庭の植物に囲まれた日傘を持つ女性、額にかざした手、黄色い日傘と衣服、背景の明るい緑、正面に影が落ちる逆光の姿を確認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文作成後にMet公式OverviewとArtwork Details・作品図版を別パスで再確認。光を避けるしぐさと逆光、袖と傘の透過光、版画影響の不確定性を照合し、作家の意図を断定しない。",
+    "limitations": "同一AIの別工程であり別AI・第三者の独立監査ではない。登録JPEGの新規全量取得はせず2026-10のSHA記録を再利用。",
+    "reviewed_artwork_sha256": "7b87203277574c6c1fceaa184f4e4ab3d3f5f66dc9d5706e8bc6afd98fa4c0e4",
+    "reviewed_visitor_draft_sha256": "a61732de5f5d6981ff1013ded30b477a78c1217b1f6e0a6667c0281af89fac8f",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 2009.359、James Tissot、ca.1875、DP232138の同一図像・Oil on canvas・PD表示を照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "逆光による服と顔の影、袖と日傘への透過光を確認。日本版画影響はmay have been inspiredという館の限定つき読みとして記録。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存感情タグ0件維持。季節が春というだけで希望や喜びを付けない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "所蔵館公式の該当事実を独自日本語で構成し、逐語訳や長文転載を避け、画面の具体的観察と解釈を明確に分けた。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "7b87203277574c6c1fceaa184f4e4ab3d3f5f66dc9d5706e8bc6afd98fa4c0e4",
+    "visitor_draft_sha256": "a61732de5f5d6981ff1013ded30b477a78c1217b1f6e0a6667c0281af89fac8f",
+    "proposal_sha256": "fbc9038d05d53a38a01d299ef934e5cf90911e8410ea0e68346be43dc8555aa6",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "構造・版と対象外299件の不変性の事前確認であり、CIはPR後に別途検証。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-440729.json",
+    "sha256": "fbc9038d05d53a38a01d299ef934e5cf90911e8410ea0e68346be43dc8555aa6",
+    "proposed_artwork_sha256": "7b87203277574c6c1fceaa184f4e4ab3d3f5f66dc9d5706e8bc6afd98fa4c0e4",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met作品ページはPublic Domain表示。Met Open Accessは対象のPD画像をCC0として提供。",
+      "学芸文章はCC0画像と区別し、解説の英語原文の長文翻訳・転載ではなく独自の日本語を作成。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "独自日本語本文と登録PD画像をDBに追加することに重大な未解消事項を認めないというレビュー判断。法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "同一AI別工程による公式出典再照合。",
+    "既存300作品の感情・事実・画像を保持し対象の解説とcompletionのみ新規保存。全JPEG SHAの新計測なし。"
+  ]
+}
