@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-49475",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "f60b1ec0a0900e27b9efe1b341a1f918dc133b18",
+    "artwork_record_sha256": "2000f093db74acfc3afa28be0cbb107827b587de7fed25189711003ee20d73d4",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-49475.json",
+    "draft_sha256": "c7f1276a1c1955ca7b51621ba5022a7b3bc4471c996a0028de894809ffe301fd"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/49475",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overview: one of Shanghai Nine Friends, Wang Mian influence, silver-blue wash, the white reserve moon and plum, dedication to Lu Hui.",
+        "Met Artwork Details: Jin Lan, 1886, folding fan with ink/color on alum paper, Object number 1986.267.79, Public Domain."
+      ],
+      "observed": "Met公式作品の英語資料を検索表示と直接開いたページで再参照し、扇面・出典と一致する画題を確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-49475",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP161448.jpg",
+      "sha256": "5a814de24eb59269ffcf1089448e73c7e7866fea2528080b1e6771fd240352f7",
+      "byte_length": 553272,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet画像DP161448原版・縮小版の全バイトSHA256とHTTP200履歴を継承。今回新しいJPEG取得なし。"
+    },
+    {
+      "id": "met-49475",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP161448.jpg",
+      "sha256": "459effc1194621c01d1998b60e8b8e6685721a92f2410cc86e724417c6fce240",
+      "byte_length": 84085,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet画像DP161448原版・縮小版の全バイトSHA256とHTTP200履歴を継承。今回新しいJPEG取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式1986.267.79に紐付く原画像DP161448を視認し、登録DP161448原版・表示版の履歴と対応を確認。",
+    "observed": "扇形画面に灰白の梅枝が密集し、淡い青灰色の地に白く残す月と花があり、朱の印章が下端近くに見える。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文案の作成後、Met OverviewとArtwork Detailsおよび同作品画像DP161448を別パス照合し、主張と視覚的描写、画家の言葉の伝聞範囲を点検。",
+    "limitations": "同一AI別工程であり別AIや第三者監査ではない。登録JPEG全バイトを今回再取得せず2026-10証拠を継承。",
+    "reviewed_artwork_sha256": "2000f093db74acfc3afa28be0cbb107827b587de7fed25189711003ee20d73d4",
+    "reviewed_visitor_draft_sha256": "c7f1276a1c1955ca7b51621ba5022a7b3bc4471c996a0028de894809ffe301fd",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 1986.267.79、Jin Lan、1886、清代の紙の扇面に墨と彩色、PD。登録DP161448の一致を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "王冕に倣うとのMet解説・明代の梅花画技法・呂輝に贈った事実を照合。呂輝との個人的友情の深さを断定しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "感情タグ0件を維持。静かな月夜の光だけで『安心』や『懐かしさ』を追加しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "館の解説を丸写し・逐語翻訳せず、独自の観察と日本語構成にし、画像CC0と文章権利を別扱い。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "2000f093db74acfc3afa28be0cbb107827b587de7fed25189711003ee20d73d4",
+    "visitor_draft_sha256": "c7f1276a1c1955ca7b51621ba5022a7b3bc4471c996a0028de894809ffe301fd",
+    "proposal_sha256": "05741523fbe728cbab5f416d76bd3137efbb5e1f97608efc6334d248b8ce8f7a",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象版・形式・他299件不変更を事前計算。GitHub CIは後工程。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-49475.json",
+    "sha256": "05741523fbe728cbab5f416d76bd3137efbb5e1f97608efc6334d248b8ce8f7a",
+    "proposed_artwork_sha256": "2000f093db74acfc3afa28be0cbb107827b587de7fed25189711003ee20d73d4",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Metが作品ページでPublic Domainを表示し、Open Access対応画像をCC0配布。",
+      "館の独自研究文章を転載せず、作品事実と自作日本語を分けた。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品画像と今回の独自本文をDB保存するうえで重大な未解決利用条件を認めない範囲の判断。法的非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "画像DP161448の全JPEG SHAは旧証拠再利用。",
+    "人間の確認・第三者AIの監査を装わない。"
+  ]
+}
