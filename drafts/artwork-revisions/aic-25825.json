@@ -1,0 +1,85 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "aic-25825",
+  "baseline_commit": "4ba906dee1080c94c5e7f9ca38b0bac5586888ea",
+  "baseline_artwork_sha256": "e36afff7216c02600c296385f55442f9841dedb72515b724f9de58af1bff9b69",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation"
+      ],
+      "before": {
+        "summary": "単なる美しいピアノ演奏の場面ではなく、描き手が人物と楽器の見え方を何度も直して構成した作品。美術館の技術研究で姿勢・ピアノの位置変更が明らかになっている。",
+        "source_url": "https://publications.artic.edu/api/epub/paintingsanddrawings/135452/print_view"
+      },
+      "after": {
+        "summary": "シカゴ美術館の研究によると、1875–76年の本作はパリのブルジョワ家庭と『パリジェンヌ』の衣装・室内の音楽を結びつけた。X線から、女性の髪・輪郭・衣装とピアノの形・視点を複数回描き直したことが分かる。モデルがニニ・ロペスという説は『おそらく』の段階。",
+        "source_url": "https://publications.artic.edu/api/epub/paintingsanddrawings/135452/print_view"
+      },
+      "reason": "AIC公式の実作品個別学術カタログの研究を反映し、技法だけでなく現代生活・服飾のテーマと未確定のモデル帰属を明示。",
+      "source_urls": [
+        "https://publications.artic.edu/api/epub/paintingsanddrawings/135452/print_view"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "ピアノに向かう女性の手元、衣服、室内の暗さと光。",
+      "after": "青みがかった白い衣服の女性が黒いアップライトピアノの鍵盤へ手を伸ばす。上には開いた楽譜・燭台、室内左には大きな鉢と暗い壁。衣服と肌の明るさが室内の暗さと対比される。",
+      "reason": "公開作品図像とAIC個別の視覚記述を合わせ、曖昧な『衣服、室内の暗さと光』を具体化。",
+      "source_urls": [
+        "https://publications.artic.edu/api/epub/paintingsanddrawings/135452/print_view"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "before": "本人が穏やかだったという意図は不明。喜びと確定する根拠はないため、好奇心を中心とする。",
+      "after": "ピアノを弾く人物の心情や作者自身の『安心』を示す直接証言は未確認。モデルをニニ・ロペスとするAIC学説も『likely』であり確定ではない。安心は音楽のある室内からの弱い展示上の接点だけに留める。",
+      "reason": "旧欄の『好奇心を中心』は現行感情タグに存在しないため意味の矛盾を修正。",
+      "source_urls": [
+        "https://publications.artic.edu/api/epub/paintingsanddrawings/135452/print_view"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "fitting_situations"
+      ],
+      "before": [
+        {
+          "situation": "音楽のある室内の穏やかな時間に触れたい",
+          "reason": "室内でピアノに向かう人物は安心への弱い接点になる",
+          "strength": 1
+        }
+      ],
+      "after": [
+        {
+          "situation": "音楽のある室内の穏やかな時間に触れたい",
+          "reason": "室内で鍵盤に向かう女性と楽譜・柔らかな衣服の光が、日常の落ち着きや安心への弱い鑑賞上の接点を生む。",
+          "strength": 1
+        }
+      ],
+      "reason": "AIC資料の図像と感情の弱い接点を明示し、人物の内心を作者意図と混同しない。",
+      "source_urls": [
+        "https://publications.artic.edu/api/epub/paintingsanddrawings/135452/print_view"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/aic-25825.json",
+  "visitor_draft_sha256": "2e11e384ed30668e4c4015cbedb5c1d5907ce7c8dd919c8b6513ad0039c10a18",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "48e5b543f403b3ca6ee2b6bc100f16fa03d0f8dd26a9a885f5091a42af1bcd41",
+  "explanation": "AICの学術カタログ・X線技術調査を再確認し、画面の具体的な根拠と『安心』弱1を保持。モデルの確度と旧『好奇心中心』不整合を修正。"
+}
