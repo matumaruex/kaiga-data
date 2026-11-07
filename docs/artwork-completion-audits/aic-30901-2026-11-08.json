@@ -1,0 +1,134 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-30901",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "9d3aaab672c387419f3402613303e2de08c5b5c5",
+    "artwork_record_sha256": "8f9486609a7957a73bea7f66a39baa8dd8ea86c6ef805081315dcb391c5bcc99",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-30901.json",
+    "draft_sha256": "ee9239ff6078a3692dd9f9237bde369cd9f76a9919f6bd01a588d96107b68ca2"
+  },
+  "sources": [
+    {
+      "url": "https://jhna.org/articles/hendrick-ter-brugghen-crucifixion-new-york-turin-problem-early-chronology/",
+      "access": "page_read_twice",
+      "locations": [
+        "JHNA 9:1 (2017), Wayne Franits figs. 3-4 and paragraphs about new attribution, fig.4 Chicago 1969.3 c1626-27 oil on canvas 132.2x178cm, contrasting much larger Spier London work of debated attribution."
+      ],
+      "observed": "JHNA公開査読論文の作品図版キャプションと同題別作との比較を検索後2度ページを再読し、Chicago所蔵番号を確認した。"
+    },
+    {
+      "url": "https://ccca.biola.edu/lent/2026/peter-denies-christ",
+      "access": "page_read_twice",
+      "locations": [
+        "Biola University CCCA April 1 2026, About the Artwork lines 124-139: 1969.3 painting fire, soldiers, maid pointing and Peter in dark; Mark 14:53-72 lines 53-79: denial and later remorse; application/deduction in devotional distinguished from scholarly identity."
+      ],
+      "observed": "Biola大学の作品別展示とマルコ福音書の記述、デボーショナルの解釈を別物として区別し、画像と人物の配置を確認した。"
+    },
+    {
+      "url": "https://www.artic.edu/collection?classification_ids=european+painting%3Bpainting%3Boil+paintings+%28visual+works%29&page=8&sort_by=artist_title",
+      "access": "prior_database_only",
+      "locations": [
+        "既存の汎用AIC検索は作品別研究ではない。旧DBで唯一示されていた根拠の不足を新規専門研究で補足。"
+      ],
+      "observed": "汎用一覧の作品固有証拠としての弱さを指摘し、現行の個別出典を登録する。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-30901",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Hendrick_Terbrugghen_-_The_Denial_of_Saint_Peter_-_1969.3_-_Art_Institute_of_Chicago.jpg/960px-Hendrick_Terbrugghen_-_The_Denial_of_Saint_Peter_-_1969.3_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "4ec45bb047625865b40f0ba0f075926d6b146ba37e807ecac88b88250975562d",
+      "byte_length": 107169,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "旧2026-10-18 Commons 960px JPEG HTTP200と登録SHA256全量一致履歴を継承。今回新規JPEGバイト取得・再ハッシュなし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "2026-11のBiola University提供の対象作品画像をAI視覚で観察し、JHNAのChicago 1969.3キャプション、左右人物・焚き火の図像を照合。旧登録JPEGの新規画素取得は未実施。",
+    "observed": "火の前に背を向ける前景人物、中央の白衣の女中が左へ指を向け、左端の暗いペテロを問いただす。画面右奥には複数人物。別のSpierロンドン蔵大作とは画面比・人物構図を区別。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初稿と修正案をまとめたあとJHNAの図番号・年代・所蔵番号、Biolaの火を囲む人物関係・マルコ福音書の記述を再読。作品画面が悔恨でなく否認の瞬間であること、作者の心情へ飛躍しないことを確認。",
+    "limitations": "同一AIによる別工程で第三者または別AI審査ではない。今回旧Commons登録JPEG全量取得・SHA再測定はせず旧2026-10の証拠継承。制作年は資料にc1626–27とc1628など小幅な揺れがあり、既存のc1626を無断で上書きしない。",
+    "reviewed_artwork_sha256": "45f633314f76b9c48678af1c195cb385096e6b04aeda85494a23e3bfd2a3b52c",
+    "reviewed_visitor_draft_sha256": "ee9239ff6078a3692dd9f9237bde369cd9f76a9919f6bd01a588d96107b68ca2",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "JHNA図4とBiolaの作品紹介がChicago 1969.3 / Ter Brugghen / oil on canvas、1620年代後半で一致。JHNAは1626–27、Biolaは1628と見積りに差があり、個別年は確定できない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "マルコ14章の女中による問いとペテロの否認、後の涙は物語上の次段。絵画はその否認の瞬間を描き、宗教的教訓は信仰的解釈である。"
+      },
+      {
+        "area": "emotion",
+        "finding": "『不安』2は問い詰められる場面・暗い照明から、『未練』1は後の悔恨という物語上の弱い接点として維持。作者の直接発言ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "大学の宗教的随想の祈りや詩は一切転用せず、作品図像・査読研究・物語の区別を独自の日本語鑑賞文として再構成。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "45f633314f76b9c48678af1c195cb385096e6b04aeda85494a23e3bfd2a3b52c",
+    "visitor_draft_sha256": "ee9239ff6078a3692dd9f9237bde369cd9f76a9919f6bd01a588d96107b68ca2",
+    "proposal_sha256": "ba21d84ae16be9b3ac5317b5501da9dc024cb0e0e3ee9348c25aa063469b6e71",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "変更前後レコード指紋と対象作品だけの変更をプログラムで確定し、正式script/CIはPR後のGitHub Actionsで確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-30901.json",
+    "sha256": "ba21d84ae16be9b3ac5317b5501da9dc024cb0e0e3ee9348c25aa063469b6e71",
+    "proposed_artwork_sha256": "45f633314f76b9c48678af1c195cb385096e6b04aeda85494a23e3bfd2a3b52c",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hendrick_Terbrugghen_-_The_Denial_of_Saint_Peter_-_1969.3_-_Art_Institute_of_Chicago.jpg",
+    "locations": [
+      "AIC公式旧API is_public_domain_at_source=true と旧2026-10 Commons JPEGのSHA256取得履歴を継承。",
+      "JHNA図版はpublic-domain artwork、Biola大学掲載の現代詩・随想・紹介文章は著作権対象として転載しない。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "絵画のPublic Domain、旧画像配信の記録、現代研究文の著作権を区別。独自日本語鑑賞文章をDBに保存する重大な未解消障害なしと判定するが法律上の無条件保証はしない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "同題別の大画面ロンドン作品とはJHNAの図3/4で区別。",
+    "主不安2/副未練1の意味範囲を区別。",
+    "新規JPEGバイト取得なし・同一AI別工程。"
+  ]
+}
