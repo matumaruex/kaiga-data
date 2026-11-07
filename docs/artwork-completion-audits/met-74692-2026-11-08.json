@@ -1,0 +1,131 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-74692",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "435004a16320ffe3f263ff8b01aab7a5fddc6a5b",
+    "artwork_record_sha256": "6759c902105eb95a2889a23ff4070fe107201cb51a9cfc2d1292a652e98a9f6c",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-74692.json",
+    "draft_sha256": "ea588ed06a2249186bb16a314de717066acbc37ec012120f4a1675e9b1a9f823"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/74692",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overview: Poetic scenes of lovers and distress of their separation were popular in Pahari Hills; Kangra and Guler workshops; delicate execution of central heroine.",
+        "Met Artwork Details: ca.1790–1820; India (Pahari Hills Kangra or Guler); ink and wash on paper; 24.1 x 19.1 cm; accession 2008.359.35, public domain."
+      ],
+      "observed": "Met公式作品ページの本文と作品詳細を直接閲覧した後、検索索引でも別経路により同じIDと所蔵番号を再照合した。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-74692",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP166102.jpg",
+      "sha256": "1644b0ea3b1469d316395d2f758174ef96fb1e5e9817e9e0530ab16a71108bec",
+      "byte_length": 3219553,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet Object API primaryImage原版JPEG全量SHA256・HTTP200の証拠を再利用。今回はファイル新取得なし。"
+    },
+    {
+      "id": "met-74692",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP166102.jpg",
+      "sha256": "491a9ad7b0ad64dc00696af0fafe724eefd81ed8c9a42850f09e4458637109bd",
+      "byte_length": 95564,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10のMet公式表示JPEGのHTTP200とSHA256登録証拠を継承。今回はファイル新取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品ページの作品画像キャプション・所蔵IDと登録済みMet API primaryImage紐付けを確認。登録JPEGの画素の今回直接目視はない。",
+    "observed": "公式ページの作品画像キャプションは同タイトル・インド北部パハーリーの紙本墨画と一致。既存Met Object API一次図版DP166102の画像ID/URLおよび全量SHA履歴が同一作品に対応。画面にない人物や色彩の詳細は新たに断言しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存本文を再読後、別パスでMet公式Overview/Detailを再照合し、時代・地域・帰属の不確実性と詩的主題の根拠を点検。",
+    "limitations": "同一AI別工程であって別AI/第三者審査ではない。登録JPEGの本セッション新規バイト測定・画素直接目視はせず、2026-10の公式一次画像確認を同一版で継承した。",
+    "reviewed_artwork_sha256": "6759c902105eb95a2889a23ff4070fe107201cb51a9cfc2d1292a652e98a9f6c",
+    "reviewed_visitor_draft_sha256": "ea588ed06a2249186bb16a314de717066acbc37ec012120f4a1675e9b1a9f823",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 2008.359.35・1790–1820・KangraまたはGuler・墨淡彩の紙本の同一作品を公式情報で確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "離別の詩的主題と工房の繊細な筆致に限定し、人物名や具体的な物語と作者の個人的失恋を創作しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『未練』2/補『不安』1は鑑賞者の題材への入口として保持。作者本人の心理の事実とは区別。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "PR #3の既存本文を同一に保ち、所蔵館の原文の逐語長文翻訳や引用を行っていない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "6759c902105eb95a2889a23ff4070fe107201cb51a9cfc2d1292a652e98a9f6c",
+    "visitor_draft_sha256": "ea588ed06a2249186bb16a314de717066acbc37ec012120f4a1675e9b1a9f823",
+    "proposal_sha256": "0c67b0561110f38a813cc73ef73d0e9488e47ff0067766420be479af952d878b",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "事前に作品ID・原資料・ハッシュ・他299件の不変更を確認。正式機械検証はCI結果で別途確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-74692.json",
+    "sha256": "0c67b0561110f38a813cc73ef73d0e9488e47ff0067766420be479af952d878b",
+    "proposed_artwork_sha256": "6759c902105eb95a2889a23ff4070fe107201cb51a9cfc2d1292a652e98a9f6c",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met作品ページがPublic Domain明示、館のOpen Access公開画像はCC0と公式ポリシーで説明。",
+      "画像の権利と館の解説文は別扱い。独自の日本語鑑賞本文をPR #3から変更せず継承。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "画像と英文館解説の権利を区別。保存の重大な権利未解決事項を認めなかった範囲の判断であり法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "2026-10-28のPR #3下書きを再利用。",
+    "画像の実バイトと画素の今回新確認はしていない。",
+    "第三者/別AI監査と偽らない。"
+  ]
+}
