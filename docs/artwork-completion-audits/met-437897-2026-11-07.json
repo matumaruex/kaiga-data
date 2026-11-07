@@ -1,0 +1,131 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437897",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "ca523d3a43cb553272d0e3ce70dd53e047680390",
+    "artwork_record_sha256": "c908c6824135ee4a7ad4f633ef394a5d0cbca2ea8b7ce747cb31ecd1b68d8501",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437897.json",
+    "draft_sha256": "661b3e53db315fb1287dd90b6bd3f0c1c9e241ae428f65e6d62ed89855e4fff4"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437897",
+      "access": "page_read_twice",
+      "locations": [
+        "Met作品ページ冒頭: Jan Victors (Dutch)、ca.1655–65、Abraham's Parting from the Family of Lot、Public Domain、71.170。",
+        "Metの作品画像DP143196の人物配置と食卓・犬・背景。絵の説明本文の掲載は限られるため、台詞や人々の個別心理・別れの理由に踏み込まない。"
+      ],
+      "observed": "公式館ページと同館所蔵番号・画像の内容を別工程で再確認。作品解説の範囲を超えた聖書の物語細部を記さず、画像で見えるものと観察に基づく鑑賞者の印象を分けた。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437897",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP143196.jpg",
+      "sha256": "571cd0d3dab0413ebf2e7667e042411730f9afd202dec61b4cb3cfb4c2d201d7",
+      "byte_length": 2754785,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月の既存Met API/JPEG全量照合記録に基づく。今回の新たなダウンロード・バイト測定ではない。"
+    },
+    {
+      "id": "met-437897",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP143196.jpg",
+      "sha256": "8fcbc30cb609e0747f05382621e8f3d127d1c29ae4e51c900440d272cbd76a52",
+      "byte_length": 86692,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月の既存Met API/JPEG全量照合記録に基づく。今回の新たなダウンロード・バイト測定ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式の437897作品ページの図版DP143196を画像検索で確認。既存登録画像URLと同一のMet画像IDと同一作品番号に紐づくことを照合。",
+    "observed": "右の帽子と長い髭のある男性が右腕を広げる。左下には白い布の食卓、座る人々、料理、右下の犬、背後の道と旅人の様子を確認。別れの場面だが人物の心理は読んだ事実として断定しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "制作後にMet公式の同一作品番号・画像・題名を再参照し、作品文と画像観察・聖書の語りを区別して検証。本文が外部館解説を逐語的に移したものではないことを点検。",
+    "limitations": "同一AIによる別工程のみ。別モデル・第三者の独立審査ではない。作品の個別館解説は限られており、心理は一切断定しない。画像ハッシュは2026年10月の履歴。",
+    "reviewed_artwork_sha256": "c908c6824135ee4a7ad4f633ef394a5d0cbca2ea8b7ce747cb31ecd1b68d8501",
+    "reviewed_visitor_draft_sha256": "661b3e53db315fb1287dd90b6bd3f0c1c9e241ae428f65e6d62ed89855e4fff4",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "作品ID437897、所蔵番号71.170、作者Jan Victors、1655–65年頃、油彩カンヴァス、Public DomainをMet公式で確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met公式は旧約のアブラハムとロトの家族の別れを題名で示す。食卓と腕を伸ばす立像、犬、旅人のいる風景は同一画像で確認。個別心理や聖書場面の細部を創作しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存感情タグなしを維持。別れの題名だけで人物の悲しみ・未練や鑑賞者の寂しさを自動付与しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "当該作品の画面と公開識別情報を基に構成したオリジナル日本語。館説明の表現の逐語訳・長文再現は行わない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "c908c6824135ee4a7ad4f633ef394a5d0cbca2ea8b7ce747cb31ecd1b68d8501",
+    "visitor_draft_sha256": "661b3e53db315fb1287dd90b6bd3f0c1c9e241ae428f65e6d62ed89855e4fff4",
+    "proposal_sha256": "7b07be16f7b4cc4f82240f38f3fcb5c82b9bd6426b7c1bc1cd61a0da10975fc1",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "museum_id_image_subject_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "この保存前検査はSHAと構造の整合性の確認。プログラム公式CIの合格はPRで別途確認してから完了とする。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437897.json",
+    "sha256": "7b07be16f7b4cc4f82240f38f3fcb5c82b9bd6426b7c1bc1cd61a0da10975fc1",
+    "proposed_artwork_sha256": "c908c6824135ee4a7ad4f633ef394a5d0cbca2ea8b7ce747cb31ecd1b68d8501",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met公式作品ページはPublic Domain、Met Open Accessの当該公開画像はCC0の利用対象。",
+      "館の文章の著作権と画像の利用条件を混同せず、日本語鑑賞本文は独自構成とした。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "MetのOA画像・独立した本文作成の条件を確認。法律上の保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met 71.170: Jan Victors《Abraham's Parting from the Family of Lot》",
+    "館の解説が限られるため、別れという題名と画面外の人物心理を混同しない。",
+    "Met JPEGハッシュは2026年10月履歴を継承。",
+    "同じAIの別パス検証であり第三者独立審査ではない。"
+  ]
+}
