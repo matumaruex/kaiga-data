@@ -1,0 +1,126 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-869",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "73039f85afe180c9bf744931768a7b2c792f8a47",
+    "artwork_record_sha256": "1ff7d6cc550dc3d0a8655b27c4021d7b55a55df67b540153319c77d8fc72d429",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-869.json",
+    "draft_sha256": "d4c3ce219ef7d9dbee2cec89183446c36f0386a69e5161eeda1bddc19eff31d1"
+  },
+  "sources": [
+    {
+      "url": "https://www.artic.edu/artworks/869",
+      "access": "prior_verified_museum_api_plus_current_indexed_record",
+      "locations": [
+        "2026-10-18 museum API record: id869, The Watermill with the Great Red Roof, Meindert Hobbema, dated 1662/65; public-domain record, AIC image_id 237c25a2...",
+        "Art Institute Chicago historical museum catalog and visual reproduction: large red-roofed watermill by a stream; museum collection number 1894.1031."
+      ],
+      "observed": "現在のAIC artwork HTML/APIは閲覧ツールから直接取得できず、既存の館API照合記録と現行索引・同作品の画像表示を使った。確認範囲を限定。"
+    },
+    {
+      "url": "https://api.artic.edu/docs/",
+      "access": "current_public_documentation",
+      "locations": [
+        "AIC API docs: CC0 metadata, CC BY museum description, IIIF and public domain images"
+      ],
+      "observed": "本件の鑑賞文は独自執筆で館解説を長文複製していない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-869",
+      "kind": "registered_display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Meindert_Hobbema_-_The_Watermill_with_the_Great_Red_Roof_-_1894.1031_-_Art_Institute_of_Chicago.jpg/960px-Meindert_Hobbema_-_The_Watermill_with_the_Great_Red_Roof_-_1894.1031_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "965d92306503ab6c30d27d58458345160652aca32cf7d3b943c19e94b773972d",
+      "byte_length": 194911,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "既存のWikimediaミラーJPEG HTTP/SHA-256記録を継承。今回全バイト再取得なし。現在の作品図版は別画面で再確認したが登録ミラーの全バイト同一性を再測定していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "同作名・シカゴ美術館収蔵番号1894.1031で同定された公開図版を視認し、登録済みAIC主画像記録と構図を比較。",
+    "observed": "赤い屋根の水車小屋、橋、落水、木立の影、広い空と川面。画像は別ミラーからの同作品であり今回登録ファイルのバイト全量は再検証していない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文を作成後、所蔵番号と画題、描写の水車・橋・水流の一致、旧収蔵データと刊行史の年代、感情タグの限界を別パスで確認。",
+    "limitations": "同一AIによる別パスで第三者／別モデルではない。最新AIC API生レスポンスと登録JPEG全量はこのパスでは取得していない。",
+    "reviewed_artwork_sha256": "1ff7d6cc550dc3d0a8655b27c4021d7b55a55df67b540153319c77d8fc72d429",
+    "reviewed_visitor_draft_sha256": "d4c3ce219ef7d9dbee2cec89183446c36f0386a69e5161eeda1bddc19eff31d1",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Art Institute Chicago 1894.1031のHobbema作と登録参照画像名・目視された赤い屋根／橋／水車を照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1662/65、オランダ水車風景。作家個人の郷愁や象徴の意図を出典不在のまま断定しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存の主安心・副懐かしさは鑑賞側の接点として維持。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "独自日本語の観察文であり美術館の解説を逐語転載していない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "1ff7d6cc550dc3d0a8655b27c4021d7b55a55df67b540153319c77d8fc72d429",
+    "visitor_draft_sha256": "d4c3ce219ef7d9dbee2cec89183446c36f0386a69e5161eeda1bddc19eff31d1",
+    "proposal_sha256": "c79b24daecdece27ce2bd712132e547a18f93f944c92e6e785e4a3001de81fd3",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "事前の版・構造確認でありCI結果ではない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-869.json",
+    "sha256": "c79b24daecdece27ce2bd712132e547a18f93f944c92e6e785e4a3001de81fd3",
+    "proposed_artwork_sha256": "1ff7d6cc550dc3d0a8655b27c4021d7b55a55df67b540153319c77d8fc72d429",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://api.artic.edu/docs/",
+    "locations": [
+      "AICのAPI配布条件は収蔵データCC0、説明文CC BYと明示。",
+      "Public Domain作品の同定・登録画像は以前の公開データを継承、日本語解説は転載せず独自執筆。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "内容の再利用・登録を妨げる未解決問題を認めなかった判断。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "公式サイト現在の直接レスポンスが取得不可のため既存Met/AIC収蔵記録と同作品の公開図像・館の刊行資料を区別。",
+    "旧Wikimedia画像SHA履歴を新規取得と偽らない。"
+  ]
+}
