@@ -1,0 +1,118 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-57148",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "909ccb3cb362c07aa541bb543b02c6b3f1a26a4e",
+    "artwork_record_sha256": "200ce97fe7af9b9907606a1a26569085d8a4afaf2caf59c440bf053826e225f8",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-57148.json",
+    "draft_sha256": "e6ca225abf4390b8152b0f295fab9ed83a07522fddd3d888b10e89323c4777b2"
+  },
+  "sources": [
+    {
+      "url": "https://www.artic.edu/files/89870406-3fd5-4f1d-b54c-497b22291270/AIC_MuseumStudies_27-1_UPDF.pdf",
+      "access": "page_read_twice",
+      "locations": [
+        "The Art Institute of Chicago Museum Studies 27(1), The History in the Art: Painting the Civil War, page 64 text and figure 2; West Death of Procris 1900.445 1770 retouched 1803; the Ovid myth and 1771 Royal Academy exhibition"
+      ],
+      "observed": "AIC研究誌本文と図2キャプションの作品番号・画面主題・制作年、歴史画としての研究記述を直接再読。PDFタイトルは南北戦争だが本作は18世紀絵画の先例として登場することを確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-57148",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Benjamin_West_-_The_Death_of_Procris_-_1900.445_-_Art_Institute_of_Chicago.jpg/960px-Benjamin_West_-_The_Death_of_Procris_-_1900.445_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "53faf4cb470007556d651d2d35ab82a89906a6e36db556d170e0fc4cbc745e48",
+      "byte_length": 270998,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18 Commons版JPEG HTTP200・登録SHA256全量一致履歴の再利用。今回の新規JPEGバイト取得・再ハッシュなし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "AIC研究誌図2の所蔵番号と公開West作品画像の人物配置（暗い森、横たわる女性、寄り添うフードの男性）をAI視覚で比較。AIC PDFスクリーンショット取得はツール側cache miss、図2キャプションは本文で確認。登録JPEGの画素新規取得なし。",
+    "observed": "森に倒れた白い肌のプロクリスと身をかがめる男性、青い布と暗い樹木。AIC研究誌が図2としてChicago 1900.445を同定しており別版・同題を混同しない。犬の存在は画像で確認できないため解説に採用しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初稿作成後、AIC論文の本文と図2キャプション（1770/1803、Ovid、1771 Royal Academy）を読み直し、神話の物語と画家個人の心理、南北戦争美術の論文全体の論旨を区別して確認。",
+    "limitations": "同一AIによる別工程で第三者・別AI審査ではない。AIC PDFの画面スクリーンショットはcache miss、本文・キャプションと別公開画像に基づく。登録Commons JPEGの今回新取得・直接画素比較なし。",
+    "reviewed_artwork_sha256": "200ce97fe7af9b9907606a1a26569085d8a4afaf2caf59c440bf053826e225f8",
+    "reviewed_visitor_draft_sha256": "e6ca225abf4390b8152b0f295fab9ed83a07522fddd3d888b10e89323c4777b2",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC研究論文図2が所蔵番号1900.445、1770制作1803加筆、油彩板と明示し、登録資料と一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "オウィディウス由来の不信・誤解と女性の演劇的姿勢、1771王立美術院での展示を原文で照合。南北戦争の絵とは誤認しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存主『喪失感』『未練』副『悲しみ』は登場人物の悲劇と鑑賞者との接点。ウェスト本人の失恋や死別の表明ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "AIC論文の一続きの日本語逐語訳は用いず、作品の具体的な画面・神話・展示事情を独自の自然な鑑賞文にまとめた。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "200ce97fe7af9b9907606a1a26569085d8a4afaf2caf59c440bf053826e225f8",
+    "visitor_draft_sha256": "e6ca225abf4390b8152b0f295fab9ed83a07522fddd3d888b10e89323c4777b2",
+    "proposal_sha256": "e16feacc2f23e63357c861291f363cf108603e78033a8e4c83dc2fb8385ca37e",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "書込前レコード版・構造・対象外不変を検査。GitHub Actionsの正式検証はPRで確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-57148.json",
+    "sha256": "e16feacc2f23e63357c861291f363cf108603e78033a8e4c83dc2fb8385ca37e",
+    "proposed_artwork_sha256": "200ce97fe7af9b9907606a1a26569085d8a4afaf2caf59c440bf053826e225f8",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Paintings_by_Benjamin_West",
+    "locations": [
+      "既存AIC旧API is_public_domain_at_source=true とCommons公開JPEG SHAが2026-10-18一致した証拠を引き継ぐ。",
+      "AIC Museum Studies 2001論文文章は著作権対象の研究文として転載せず、作品から独自の日本語鑑賞文を作成。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "絵画のPD表示・Commons画像提供条件と現代の研究文章を区別し、DB内独自解説に重大な未解決の権利障害なしと評価。法的保証はしない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存のAIC PDFは南北戦争美術の論文だが図2に本作固有の資料がある",
+    "旧JPEG証拠継承",
+    "別AIでなく同一AI別工程"
+  ]
+}
