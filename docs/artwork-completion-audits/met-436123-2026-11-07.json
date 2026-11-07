@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436123",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "7c6485f1ecc4c02f0229ed37c908d6761adbfed4",
+    "artwork_record_sha256": "cfe94b42b38aecd13732ed0495225d2590853d0580075ace7a2b8935d57f5935",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436123.json",
+    "draft_sha256": "dab88e382b22db2133e6bb30781a1099aa802149ab14c9c24c95dd3897c69c63"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436123",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overview：マイヤベーア《悪魔ロベール》第三幕、月夜の修道院跡の修道女たち、舞台でなく客席へ向けたオペラグラス、1872年展示と後のフォール版。",
+        "Met Artwork Details：Edgar Degas、1871、29.100.552、Public Domain。"
+      ],
+      "observed": "制作時期と描かれた劇中の怪異、客席の社会的行動を別パスで確認。同題別版との混同を避けた。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436123",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1911.jpg",
+      "sha256": "a1bde9d7d65d4805505ea5955ff0c9ed6318dd80feccd1936123ccdfd37a0972",
+      "byte_length": 2507914,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met公式DT1911の2026-10-20全JPEG SHA履歴を継承。今回は新規全量取得なし。"
+    },
+    {
+      "id": "met-436123",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1911.jpg",
+      "sha256": "82e9fed7f4cceb420be9ff8912874b01c9cd59e296f76678e019ad5b6fd31480",
+      "byte_length": 124800,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の登録Met DT1911 web-large JPEGハッシュ検証記録を再利用。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met 29.100.552の公表図版と作品ページの劇場絵画を視認し、登録画像DT1911の場面・舞台/客席構成と照合。JPEGの全量SHAは旧記録。",
+    "observed": "手前に暗い客席の人物、向こうに舞台の廃墟と淡く照らされた踊り手、中央付近で双眼鏡をのぞく男性を確認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "日本語本文執筆の後、Met公式解説と公開画像の別確認を通して、1871年作・1872年年記、マイヤベーアの劇中世界、舞台より客席を見る観客、後の別作の関係を再点検。",
+    "limitations": "同一AIの別パス確認であり別AIや第三者による独立監査ではない。登録JPEGは2026-10のSHA履歴を継承し今回は全バイト再取得なし。",
+    "reviewed_artwork_sha256": "cfe94b42b38aecd13732ed0495225d2590853d0580075ace7a2b8935d57f5935",
+    "reviewed_visitor_draft_sha256": "dab88e382b22db2133e6bb30781a1099aa802149ab14c9c24c95dd3897c69c63",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 29.100.552、Degas、1871、公式DT1911作品図像の対応を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "第三幕の修道女の踊り、観客が客席をのぞく視線、初演から約40年、1872年年記と後のFaure別版を館資料へ再照合。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存主感情『好奇心』2を維持。視線の対象と舞台の怪異への関心は説明できるが、作者や観客の個人心理の断定は避ける。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "公式解説の該当事実に基づく独自日本語で、長文転載・逐語訳ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "cfe94b42b38aecd13732ed0495225d2590853d0580075ace7a2b8935d57f5935",
+    "visitor_draft_sha256": "dab88e382b22db2133e6bb30781a1099aa802149ab14c9c24c95dd3897c69c63",
+    "proposal_sha256": "72935784af7e4aec4b887c40ed9fc0c30b237a0e87e49efe00f74679b6aac999",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "事前に版・ハッシュ・対象外不変を点検。GitHub Actions実行結果はPR作成後に確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436123.json",
+    "sha256": "72935784af7e4aec4b887c40ed9fc0c30b237a0e87e49efe00f74679b6aac999",
+    "proposed_artwork_sha256": "cfe94b42b38aecd13732ed0495225d2590853d0580075ace7a2b8935d57f5935",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Metは該当作品をPublic Domainと表記し、Open Access対象のPD画像をCC0で提供。",
+      "所蔵館の学芸解説には別の権利があるため、長文翻訳・転載ではなく独自の日本語本文を作成。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "対象作品の独自日本語解説・既存PD画像のDB保存に重大な未解消の権利問題は認めないという判断。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "1871年制作、画中の1872年年記と同年初めの展示を区別。後のV&A別版は別作品。",
+    "同一AI別パスで審査しJPEGバイト再取得なし。"
+  ]
+}
