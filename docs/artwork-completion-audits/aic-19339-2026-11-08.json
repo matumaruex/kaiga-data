@@ -1,0 +1,133 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-19339",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "0f930cd2fc94111144f248fd7e8c40e09736b97b",
+    "artwork_record_sha256": "1c81a5bf678795028d4cf8717f20629c8bf40826bd8230d5842c4832ff077467",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-19339.json",
+    "draft_sha256": "95d22a9cc0fca06041a380b170622913fa0e173a478cba35e10e85ba26408813"
+  },
+  "sources": [
+    {
+      "url": "https://archive.artic.edu/vangogh/vg_list.html",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC 2002 Studio of the South list: Gauguin Arlésiennes (Mistral), Arles mid-December 1888, oil on jute, 73×92cm, accession 1934.391."
+      ],
+      "observed": "公式AIC旧展覧会一覧を直接確認し、同題作の所蔵番号・時期・支持体を照合。"
+    },
+    {
+      "url": "https://www.lapsedart.com/front-page/arlsiennes-mistral-paul-gauguin-1888",
+      "access": "page_read_twice",
+      "locations": [
+        "Third-party Lapsed Art republishing AIC text, paragraphs on four shawled women in park outside Yellow House; flat colour; face-like bush; author attribution AIC; NOT direct AIC website."
+      ],
+      "observed": "AIC解説の第三者転載であることを明記し、同一ページの描写と原出典表示を2度再読。現行AIC本文の直接取得とはしない。"
+    },
+    {
+      "url": "https://publications.artic.edu/gauguin/reader/gauguinart/section/140235",
+      "access": "prior_2026_10_verified_current_page_unavailable",
+      "locations": [
+        "2026-10-20に内容照合済みという旧DBレビュー記録。今回のサイト表示は画面幅制限の説明だけで個別本文取得不可。"
+      ],
+      "observed": "過去の照合は再利用。ただし今回読み直したと称さない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-19339",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Paul_Gauguin_-_Arl%C3%A9siennes_%28Mistral%29_-_1934.391_-_Art_Institute_of_Chicago.jpg/960px-Paul_Gauguin_-_Arl%C3%A9siennes_%28Mistral%29_-_1934.391_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "df13413caf963a7a39b923bf114a28c1f3bb9ce91d07a2419fa933028e48c4a8",
+      "byte_length": 286017,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18の公開Commons JPEG HTTP200/全量SHA256を継承。今回再取得・再測定なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "AIC資料として再掲載された同作図版と同所蔵番号1934.391の公開画像検索結果を視覚照合。登録済みJPEG全量再取得はない。",
+    "observed": "画面左前に青いショールの女性二人、後方の二人と公園、緑の大きな茂み・赤い柵・オレンジの円錐状の木、平坦な色面。別のゴッホ作品との取り違えなし。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初稿後、AIC旧展覧会リストの所蔵番号と制作月を別読し、AIC由来の再掲載説明を再読。曖昧な『茂みの顔』や『悲しみの行列』を作者・女性の確定心理としないこと、現在の館ページを直接参照できたように書かないことを確認。",
+    "limitations": "同一AIの別工程で第三者AI監査ではない。AIC学術カタログ現行本文は今回表示制限で直接読み込めず2026-10の旧検証を継承。主要解釈は出典表記つきの第三者によるAIC旧文再掲載と作品画像で追加照合。新規JPEGバイト取得なし。",
+    "reviewed_artwork_sha256": "1c81a5bf678795028d4cf8717f20629c8bf40826bd8230d5842c4832ff077467",
+    "reviewed_visitor_draft_sha256": "95d22a9cc0fca06041a380b170622913fa0e173a478cba35e10e85ba26408813",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC公式展覧会一覧が1888年12月半ばのArlésiennes (Mistral)、jute、1934.391と同定。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "AIC由来の転載解説は四人の女性、風、ショール、平面色彩、霜よけの低木、顔に見える茂みを記述。前景の曖昧な表情を確定事実としない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "旧副感情『不安』強度1は風に抗する仕草と抑えた厳粛な表現を根拠とする弱い接点に留め、作者本人の不安の証拠にしない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "AIC旧解説の転載箇所の情報を参照した別構成の日本語3段落。長文・逐語訳の転用なし。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "1c81a5bf678795028d4cf8717f20629c8bf40826bd8230d5842c4832ff077467",
+    "visitor_draft_sha256": "95d22a9cc0fca06041a380b170622913fa0e173a478cba35e10e85ba26408813",
+    "proposal_sha256": "9eb923d60d5f09fdcfdd1ebbda067f1439885774c67552a332292f97fd05d065",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象の版・ID・ハッシュをJSで整合確認、PR後にPython validatorとCIを確定。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-19339.json",
+    "sha256": "9eb923d60d5f09fdcfdd1ebbda067f1439885774c67552a332292f97fd05d065",
+    "proposed_artwork_sha256": "1c81a5bf678795028d4cf8717f20629c8bf40826bd8230d5842c4832ff077467",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paul_Gauguin_-_Arl%C3%A9siennes_(Mistral)_-_1934.391_-_Art_Institute_of_Chicago.jpg",
+    "locations": [
+      "旧AIC公開作品DBのPublic DomainフラグとCommons公開ミラーの登録済み画像SHAを参照。",
+      "AIC解説を転載した別サイトに表示されるテキストは自由利用可能とはみなさず、事実と図像の要点から独自の日本語文章を執筆。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "古典作品・旧画像のPD記録と現代の館解説の権利を区別し、本DB保存の重大問題なしと判断。今回のURL再配布適法性を保証するものではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "学術カタログ140235は今回直接取得できず、旧2026-10照合記録を継承。",
+    "AIC由来文章の再掲載先はAIC公式サイトと混同しない。",
+    "登録JPEGの新取得なし、同一AI別工程監査。"
+  ]
+}
