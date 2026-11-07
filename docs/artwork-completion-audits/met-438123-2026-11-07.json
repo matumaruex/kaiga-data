@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-438123",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "52d85f07c496754e7e9ed49a9c2b3375a242cb1b",
+    "artwork_record_sha256": "8ed518557c92105bf43fc581451ed2261f1204959289754b535b65b9dd155f72",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-438123.json",
+    "draft_sha256": "03b28429b61d2d1b4d7e4934d22ffb2e1f6acb48012b858d0262e57957dc4c79"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/438123",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overview：没後アトリエ目録のpanel no. 1、初期の1880–81年の単独人物像群、光と輪郭・平坦な幾何学形態、フランス学士院のドーム。",
+        "Met Artwork Details：Georges Seurat、ca.1881、Oil on wood、2019.141.17、Public Domain。"
+      ],
+      "observed": "Met公式作品記述を直接参照し、同画題・人物画の位置づけ・風景上の建物の同定を既存DBと日本語文に照合。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-438123",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-18528-001.jpg",
+      "sha256": "bd39f20020725971c15b3677248545102d57e8e18db622e12696d00828200a76",
+      "byte_length": 7089753,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet公式DP-18528-001原版JPEG全量SHA256の過去記録。今回はJPEG全量再取得を実施していない。"
+    },
+    {
+      "id": "met-438123",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-18528-001.jpg",
+      "sha256": "bfbbb50e9fd8d91fc0d3e520a84984867d671f8e051989c7323379da2461c185",
+      "byte_length": 198702,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "旧Met web-large DP-18528-001の登録バイト・ハッシュ・配信確認履歴を再利用。"
+    }
+  ],
+  "visual_observations": {
+    "method": "公式所蔵番号2019.141.17の作品を示すMet提供由来の公開図版（Wikimedia同作）を視認し、登録主画像DP-18528-001の識別情報と比較。登録JPEGのバイト同定は2026-10履歴による。",
+    "observed": "画面左手前の木、中央奥に欄干に肘をつく暗い人物、欄干・川の向こうの薄い背景、上部の葉を確認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文を起こした後、Met公式Overview・Artwork Detailsと同一作品の公開図版を別パスで再照合。制作年と没後目録、構図の光と幾何学表現、ドームの地理的説明を確認。",
+    "limitations": "同一AIの別工程であり第三者・別AI監査ではない。登録JPEGのバイト全量は新たに取得せず、2026-10の履歴を再利用。",
+    "reviewed_artwork_sha256": "8ed518557c92105bf43fc581451ed2261f1204959289754b535b65b9dd155f72",
+    "reviewed_visitor_draft_sha256": "03b28429b61d2d1b4d7e4934d22ffb2e1f6acb48012b858d0262e57957dc4c79",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 2019.141.17、Georges Seurat、ca.1881、Oil on wood、登録図版DP-18528-001と同作を照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "没後目録にpanel no.1、1880–81年初期小品群、幾何学化した構図と葉越しのフランス学士院ドームを公式記述に照合。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存感情タグ0件維持。画中の一人きりの人物を即座に『孤独』と心理診断しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "館の解説と画面観察を区別した独自日本語で、長文転載・逐語的な英語説明の翻訳ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "8ed518557c92105bf43fc581451ed2261f1204959289754b535b65b9dd155f72",
+    "visitor_draft_sha256": "03b28429b61d2d1b4d7e4934d22ffb2e1f6acb48012b858d0262e57957dc4c79",
+    "proposal_sha256": "244f1ff666c0573430f63c72fb33b0d631cf7107c6e8795a9d08dd17b27a1ada",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "事前の版・形式・対象外作品不変の確認。CI結果はPR作成後に別途確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-438123.json",
+    "sha256": "244f1ff666c0573430f63c72fb33b0d631cf7107c6e8795a9d08dd17b27a1ada",
+    "proposed_artwork_sha256": "8ed518557c92105bf43fc581451ed2261f1204959289754b535b65b9dd155f72",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met公式の対象ページがPublic Domainと表示し、オープンアクセス方針は対象PD画像をCC0で提供。",
+      "解説の権利と画像の利用条件を分け、独自日本語文は公式英文の長い転載・逐語翻訳をしない。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "独自日本語本文とPD/CC0画像のDB登録に重大な未解決権利問題を認めないというレビュー判断。法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "同じ作者の後年の点描法から制作意図を推定していない。",
+    "2026-10の旧JPEGバイトSHA記録を再利用、同一AI別工程審査。"
+  ]
+}
