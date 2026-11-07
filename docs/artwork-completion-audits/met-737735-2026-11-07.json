@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-737735",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "47571788ffb2f5c5c32941a28af3851dbe25b53b",
+    "artwork_record_sha256": "7e5e1a3a023fdc236201ddec8918c33f060ceb4d0925c071cf94f6c8a119ca1f",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-737735.json",
+    "draft_sha256": "80eeeb2a3e705cec403d2d4305979cc0f816b15a76aa75a1336ba6284f15e999"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/737735",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overview：父親と幼い息子が開かれた建物で月を見つめる。画賛は哀悼の詩に由来し、空の部屋と月を愛する人の喪失に結び付ける。",
+        "Met Artwork Details：清朝、Gu Luo、1829、Album leaf/ink and color on paper、2024.549.7、Public Domain。"
+      ],
+      "observed": "公式作品概要と所蔵番号・絵画図像の対応を再読。絵に寄せた詩の意味と顧洛自身の個人的な死別経験の事実認定を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-737735",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-42601-001.jpg",
+      "sha256": "b3643c73083869cc645489302f49cf858e78f2f7d77f18eb73bb8cd5435b44e7",
+      "byte_length": 2272097,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet公式DP-42601-001原版JPEG全バイトSHA・サイズ記録を再利用。今回の新規取得ではない。"
+    },
+    {
+      "id": "met-737735",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-42601-001.jpg",
+      "sha256": "399f39f3339cbe11c7da04286e474e058c26d06a6d78a4fd5621de966fd698f2",
+      "byte_length": 72994,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met web-large DP-42601-001の過去JPEG SHA/HTTP証拠。今セッションの新バイト測定ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式画帖メイン図像を視認し、作品ID 737735 と登録画像DP-42601-001の組を確認。Metの同ページに別の書跡画像もあるため文字だけの別画像DP-42601-008を誤同定しない。JPEG全量SHAは2026-10旧履歴。",
+    "observed": "屋根のある開放的な建物に座る大人と小さな子、建物周辺の樹木と霞んだ遠景、画面上部の書き入れを確認。登録作品が画帖の絵のページであり文字だけの別葉ではないと照合。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存鑑賞解説の内容をMet公式概要・Artwork Details・図版と別工程で再照合。哀悼詩という発想源と作者自身の個別人生を混同しない。作品ページに付いた複数画像を区別した。",
+    "limitations": "同一AIの別照合工程であり別AI・第三者の独立監査ではない。JPEGの全バイトは今回取り直さず2026-10の旧検証を継承。",
+    "reviewed_artwork_sha256": "7e5e1a3a023fdc236201ddec8918c33f060ceb4d0925c071cf94f6c8a119ca1f",
+    "reviewed_visitor_draft_sha256": "80eeeb2a3e705cec403d2d4305979cc0f816b15a76aa75a1336ba6284f15e999",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 2024.549.7、Gu Luo、清朝・1829年、紙本着色画帖、絵の主画像DP-42601-001を同定。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metは作者の画賛が哀悼詩から着想を得たと記載。故人は画家自身の親族だとは確認できず、既存日本語はこれを区別している。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『喪失感』『悲しみ』各2、補助『寂しさ』1を維持。哀悼詩からの具体的根拠があり作者自身の喪失を断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語解説は独立した描写と不確実性の注記を含み、Metの英語の長文転載・逐語翻訳ではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "7e5e1a3a023fdc236201ddec8918c33f060ceb4d0925c071cf94f6c8a119ca1f",
+    "visitor_draft_sha256": "80eeeb2a3e705cec403d2d4305979cc0f816b15a76aa75a1336ba6284f15e999",
+    "proposal_sha256": "8236d183dcda0d0aa6902b8d24fd320971e2ad8d50910320b2c0fe96434004c4",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象版と歴史的JPEG情報の整合・対象外不変を事前照合。GitHub Actionsの実測は別途。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-737735.json",
+    "sha256": "8236d183dcda0d0aa6902b8d24fd320971e2ad8d50910320b2c0fe96434004c4",
+    "proposed_artwork_sha256": "7e5e1a3a023fdc236201ddec8918c33f060ceb4d0925c071cf94f6c8a119ca1f",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met作品ページはPublic Domainと表示。PD画像はMet Open Access CC0の対象で、作品ページでダウンロード可能。",
+      "館のテキストは画像CC0とは別に取り扱い、以前に作成された独自日本語本文を確認。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "対象の独自日本語本文とMet登録画像をデータベース利用するうえで重大な権利保留を認めないというレビュー判断。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "以前の鑑賞日本語解説を同一版のまま再利用。",
+    "絵の主画像DP-42601-001と文字図版DP-42601-008を区別。旧JPEGバイトSHA再利用。"
+  ]
+}
