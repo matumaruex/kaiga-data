@@ -10,7 +10,7 @@
     "artwork_record_sha256": "ec17eed1966696461ff695ad8d9d10c6c0a692f8065e0b9579fd9c644bb0e376",
     "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
     "draft_path": "drafts/visitor-explanations/aic-25865.json",
-    "draft_sha256": "5b50d2f9499a07f2f6d6bfbb8e5b6bef7a4c6b5c54e0363e92936e091e6d40d6"
+    "draft_sha256": "fa5a428f2a1f687d429bb1819668e917a85b6feee00f527a05066c02d10977da"
   },
   "sources": [
     {
@@ -65,7 +65,7 @@
     "method": "初期の既存本文を変えず、別工程でAIC研究資料の漁の観察と素描・油彩の差、画面と作品IDを再照合。",
     "limitations": "同一AIによる別工程で第三者・別AIの独立審査ではない。AIC現行作品HTML直接取得が失敗し既存の同版公式出典検証を継承。JPEGは過去SHA記録のみ継承。",
     "reviewed_artwork_sha256": "ec17eed1966696461ff695ad8d9d10c6c0a692f8065e0b9579fd9c644bb0e376",
-    "reviewed_visitor_draft_sha256": "5b50d2f9499a07f2f6d6bfbb8e5b6bef7a4c6b5c54e0363e92936e091e6d40d6",
+    "reviewed_visitor_draft_sha256": "fa5a428f2a1f687d429bb1819668e917a85b6feee00f527a05066c02d10977da",
     "checks": [
       {
         "area": "identity",
@@ -88,8 +88,8 @@
   "program_checks": {
     "result": "PASS",
     "proposed_artwork_sha256": "ec17eed1966696461ff695ad8d9d10c6c0a692f8065e0b9579fd9c644bb0e376",
-    "visitor_draft_sha256": "5b50d2f9499a07f2f6d6bfbb8e5b6bef7a4c6b5c54e0363e92936e091e6d40d6",
-    "proposal_sha256": "557eb02963c5f6333c12cec87e7e0f6b950f442afad659199d2c48b7c214e000",
+    "visitor_draft_sha256": "fa5a428f2a1f687d429bb1819668e917a85b6feee00f527a05066c02d10977da",
+    "proposal_sha256": "9e276acdc9c1e3fc11d662906f6be58ce14aa228e9e6135cb28e5d5d0a071b03",
     "checks": [
       "300_unique_ids",
       "other_299_unchanged",
@@ -104,7 +104,7 @@
   },
   "proposal": {
     "path": "drafts/artwork-revisions/aic-25865.json",
-    "sha256": "557eb02963c5f6333c12cec87e7e0f6b950f442afad659199d2c48b7c214e000",
+    "sha256": "9e276acdc9c1e3fc11d662906f6be58ce14aa228e9e6135cb28e5d5d0a071b03",
     "proposed_artwork_sha256": "ec17eed1966696461ff695ad8d9d10c6c0a692f8065e0b9579fd9c644bb0e376",
     "applied_to_catalog": false
   },
