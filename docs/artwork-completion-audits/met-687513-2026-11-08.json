@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-687513",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "5779c72056fae4f7bcc70856a23c35281ec7c77b",
+    "artwork_record_sha256": "0643137f206596f1ccc02f7bffd587fb531324e5955a914253b45fabb649a07c",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-687513.json",
+    "draft_sha256": "873d86fc937544a38718626e804a5d4697c2f5e08385eec3988295c10fb2435c"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/687513",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overviewにモラレスの滑らかな画肌、母の腕から崩れるキリスト、最期の親密な瞬間、まつ毛・涙・血の細密表現と北方絵画の影響を明記。Artwork Detailsはca.1560、oil on walnut、2015.398、Public Domain。",
+        "Met Artwork Details: Luis de Morales、ca.1560、2015.398、Public Domain"
+      ],
+      "observed": "公式Met OverviewとArtwork Detailsを執筆前後の別パスで確認した。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-687513",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP370255.jpg",
+      "sha256": "3210d2353d83efeae5c65af640b09157e3a8af38ca6a84f6dbc59b129ee8e63d",
+      "byte_length": 1727705,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20旧Met原版・表示版JPEGの全バイトSHAとHTTP200記録を継承。今回新たに全量ダウンロードした記録ではない。"
+    },
+    {
+      "id": "met-687513",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP370255.jpg",
+      "sha256": "b9731499cc4739e9a8e3103c9a5e586cd1953ab44b2b8c961b8743faaab0f1ce",
+      "byte_length": 62101,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20旧Met原版・表示版JPEGの全バイトSHAとHTTP200記録を継承。今回新たに全量ダウンロードした記録ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式所蔵番号2015.398と原画像DP370255を公開図版で視認・同定し、旧JPEG SHA履歴と対応付けた。",
+    "observed": "Met同作画像DP370255の暗い画面で、死にゆくキリストが緑の頭巾の聖母マリアにもたれ、左右の人物が見守る。まつ毛・表情・血の細部が見える。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "作品本文の制作後にMet公式Overview・作品画像・Artwork Detailsを別パス再照合し、初回文章を独立に点検。",
+    "limitations": "同じAIの別パスであり別AIや第三者の検査ではない。登録JPEGは今回再ダウンロードなし。",
+    "reviewed_artwork_sha256": "0643137f206596f1ccc02f7bffd587fb531324e5955a914253b45fabb649a07c",
+    "reviewed_visitor_draft_sha256": "873d86fc937544a38718626e804a5d4697c2f5e08385eec3988295c10fb2435c",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 2015.398、Luis de Morales、ca.1560、Oil on walnut、Public Domainと同一作品画像DP370255を照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "キリストと聖母の近接した哀悼、人物の涙・血の細部、滑らかな画肌・北方絵画の影響をMet Overviewで再確認。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存感情『悲しみ』主3、『喪失感』補助1は受難の場面への入口として維持し、画家の実体験としない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "公式の文章の逐語的な翻訳・転載をせず、観察から独自に日本語構成。作品画像CC0と解説文章の権利を分離。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "0643137f206596f1ccc02f7bffd587fb531324e5955a914253b45fabb649a07c",
+    "visitor_draft_sha256": "873d86fc937544a38718626e804a5d4697c2f5e08385eec3988295c10fb2435c",
+    "proposal_sha256": "486d4e3541269131f1b0f83e882e5e115952de541a10a8fcb62d8edf3299e349",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "事前の構造・ハッシュ・未変更範囲の整合性点検。GitHub Actionsの最終判定ではない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-687513.json",
+    "sha256": "486d4e3541269131f1b0f83e882e5e115952de541a10a8fcb62d8edf3299e349",
+    "proposed_artwork_sha256": "0643137f206596f1ccc02f7bffd587fb531324e5955a914253b45fabb649a07c",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met公式ページにPublic DomainとOpen Access画像のCC0を明記。",
+      "画像利用条件と公式解説の文章の権利を区別し、日本語本文を独自構成で記録。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "DB保存を妨げる重大な未解消の利用条件を現時点で認めないという範囲の判断。法的な保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "原資料と展示用文章を混同しない。",
+    "同一AIの別工程、旧JPEG全量SHAを継承。"
+  ]
+}
