@@ -1,0 +1,134 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-111436",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "613188d4321e40e888c38b7684747450cf52ebf2",
+    "artwork_record_sha256": "d16916b5af228f5ef2fbddd7a01e2468de851eb0b3aa4f088c06fcd7e6730769",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-111436.json",
+    "draft_sha256": "c9cef698cd418deebdd30b35cc21ada5a5c20ff616010406705e20175026ee87"
+  },
+  "sources": [
+    {
+      "url": "https://www.artic.edu/pdf/static/download-collection.publications.digital-publications-articles.show-362.pdf",
+      "access": "page_read_twice",
+      "locations": [
+        "Art Institute technical essay 'A Harmony Parallel to Nature', oil paintings paragraph and IR reflectography fig.4: detailed dry carbon underdrawing, disjoint table, tilted bottle, later adjustments."
+      ],
+      "observed": "2026-10-20に内容検証済みの同一本文を継承。今回は学術論文検索の出典抜粋を再照合し、PDF直取得は403で新規全文再読とは扱わない。"
+    },
+    {
+      "url": "https://smarthistory.org/cezanne-the-basket-of-apples/",
+      "access": "page_read_twice",
+      "locations": [
+        "Smarthistory sections 'Purposeful errors', 'Sight and memory', 'Purposeful destruction' by Beth Harris and Steven Zucker; differing tabletop alignments, biscuit viewpoints."
+      ],
+      "observed": "検索索引から対象記事の長文を再参照。直接web.openは403だったため全文直接閲覧済みとは記録しない。"
+    },
+    {
+      "url": "https://www.artic.edu/artworks/111436",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC 111436 Paul Cézanne c.1893 oil on canvas accession 1926.252 and museum collection description; prior same visitor text source review verified 2026-10-20."
+      ],
+      "observed": "同一既存本文の2026-10旧資料審査を継承。現行HTMLは403、他の館研究・作品画像・カタログによる同定を別途参照。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-111436",
+      "kind": "display",
+      "url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/111436.jpg",
+      "sha256": "17fa8e013cc995178c05dfccdd26c7135d209295b3189c113e5d3831be019746",
+      "byte_length": 262722,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18のJPEG200応答と全量SHA256の既存履歴を同一URLの証拠として継承。今回再取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "1926.252と同題の公開美術館所蔵図版を画像検索で確認。登録されたGitHubミラーJPEGのバイトは今回再計測していない。",
+    "observed": "左上の傾いた果物籠、やや左へ傾く瓶、右上の菓子の皿、手前の白布とずれたテーブル縁、赤や緑のリンゴを確認。同作品と整合。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存文を変更しない方針を採り、後段の別照合でSmarthistoryの複数視点の説明とAIC技術論文の赤外線による下描きを確認。",
+    "limitations": "同じAIの別工程であり別モデルや第三者による独立監査ではない。直接アクセス403の出典は2026-10既存検証と今回検索索引の該当箇所の両方に依存。登録ミラーJPEG新ダウンロードなし。",
+    "reviewed_artwork_sha256": "d16916b5af228f5ef2fbddd7a01e2468de851eb0b3aa4f088c06fcd7e6730769",
+    "reviewed_visitor_draft_sha256": "c9cef698cd418deebdd30b35cc21ada5a5c20ff616010406705e20175026ee87",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC 111436, Paul Cézanne, 1926.252, 1893年頃と図版を照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Smarthistoryは空間の複数視点を研究者の分析として示す。赤外線下描きはAIC技術論文の具体的測定で裏付ける。作者の内面を断定しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "登録主『好奇心』強度3を絵画空間への鑑賞上の問いとして保持、作者自身の心理ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存の日本語説明を変更せず、英文館論文・Smarthistoryの表現を逐語転載していないことと主要主張の適合を点検。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "d16916b5af228f5ef2fbddd7a01e2468de851eb0b3aa4f088c06fcd7e6730769",
+    "visitor_draft_sha256": "c9cef698cd418deebdd30b35cc21ada5a5c20ff616010406705e20175026ee87",
+    "proposal_sha256": "d8e4cf5d981cd8283b73f5686e81779d636579041fa7a89d9989b4c2c016e568",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "事前に版・識別子・登録済み旧画像メタデータを整合照合。実CIはPR後に別確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-111436.json",
+    "sha256": "d8e4cf5d981cd8283b73f5686e81779d636579041fa7a89d9989b4c2c016e568",
+    "proposed_artwork_sha256": "d16916b5af228f5ef2fbddd7a01e2468de851eb0b3aa4f088c06fcd7e6730769",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.artic.edu/artworks/111436",
+    "locations": [
+      "AIC公式登録のis_public_domain=trueと既存所蔵版権利メタデータを継承。",
+      "AIC研究論文とSmarthistory本文の長文コピー・逐語翻訳はせず2026-10に保存した独自日本語文を維持。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "PD作品画像の権利と調査文章の著作権を分離し、DB保存を妨げる重大な未解消問題を認めない範囲のレビュー判断。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "公式PDF及び公式館ページは今回直接403。2026-10以前の同版検証と今回の検索索引を利用。",
+    "旧JPEG全量SHAは2026-10履歴のみを継承し今回新計測なし。",
+    "同一AIの別工程を第三者審査と誤称しない。"
+  ]
+}
