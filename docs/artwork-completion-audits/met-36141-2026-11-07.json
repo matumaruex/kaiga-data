@@ -1,0 +1,132 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-36141",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "254b8a50636b853b8dbf50c8949157230c2a4632",
+    "artwork_record_sha256": "c9829978be7143767661b09f827e899a9db273d341e87f6c4e5369a1ae211d25",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-36141.json",
+    "draft_sha256": "5add569bb7d4befac7c637183d2bfeb03d1c7cd8d3a9e0f71a0af78ab40909d7"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/36141",
+      "access": "page_read_twice",
+      "locations": [
+        "Met所蔵番号1982.7.3／After Xia Gui／early 13th century／fan mounted as album leaf; ink and color on silk／Public Domain",
+        "Met概要は夏の豪雨の中で帰る2人の農夫を説明。怒ったような崖、風に踊る葉、誇張された舞台的表現、丸みある筆が夏珪に由来するが別の追随者の手と明示。"
+      ],
+      "observed": "作品の同定、画像の画面構成、作者帰属の不確実性、素材・年代を現行Met公式作品ページで照合。原文の『probably close follower』を確定帰属へ変更しない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-36141",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DT8800.jpg",
+      "sha256": "bee269abbf7278578f501db5d437edc9ef6d9c129882d2c366034dba018f9bb8",
+      "byte_length": 4320718,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月のMet画像全量JPEG/SHA256/HTTP200記録を継承。今回の再ダウンロード・再ハッシュではない。"
+    },
+    {
+      "id": "met-36141",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DT8800.jpg",
+      "sha256": "49103e03335d367539bdb0121412bb62f221f969a226b6b7befa43511f280714",
+      "byte_length": 327866,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月のMet画像全量JPEG/SHA256/HTTP200記録を継承。今回の再ダウンロード・再ハッシュではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Metの公式作品ページ画像を画像検索で直接確認し、保存済み原画像ファイル名DT8800およびMet作品ID・作品番号と一致させた。2026-10月の全量バイト検証とは別の内容視認。",
+    "observed": "淡い金地の円形画面、左の崖、斜めに揺れる樹木、画面左下に小さな人影・家屋、上部の朱印が見える。Met公式は農夫2人とするがこの大きさでは二人を明瞭に個別カウントするのは困難であり館テキストに依拠する。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存本文と画像の視認後、Metの現行作品概要を別工程で文ごとに再照合し、帰属表現・主張の根拠・タグと翻案の範囲を判定。",
+    "limitations": "同じAIによる別パス。別モデルや第三者による独立検証ではない。画像バイト照合は2026年10月の履歴であり今回実施していない。",
+    "reviewed_artwork_sha256": "c9829978be7143767661b09f827e899a9db273d341e87f6c4e5369a1ae211d25",
+    "reviewed_visitor_draft_sha256": "5add569bb7d4befac7c637183d2bfeb03d1c7cd8d3a9e0f71a0af78ab40909d7",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "After Xia Gui／1982.7.3／南宋13世紀初め、扇面を画帖に貼り込んだ絹本彩色画。夏珪真筆としない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "豪雨下の2農夫、険しい崖と風に踊る木の葉、円弧状の筆使いとやや演劇的な効果。本文はMet概要と一致。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『不安』、補助『安心』を維持。豪雨と帰路への自然な連想だが、農夫が安心したと断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "2026年10月保存のオリジナル日本語解説を再利用。Met原文の長文逐語翻訳や見えない作者の動機の断定は含まない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "c9829978be7143767661b09f827e899a9db273d341e87f6c4e5369a1ae211d25",
+    "visitor_draft_sha256": "5add569bb7d4befac7c637183d2bfeb03d1c7cd8d3a9e0f71a0af78ab40909d7",
+    "proposal_sha256": "0dd51026899da1c4698e0070ef4d5fc554a2a5022874d74def79c692b7610623",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "museum_subject_image_match",
+      "source_urls_bound",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "ここでは作品版と対象外299件不変・保存済みハッシュの構造照合のみ。GitHub CIの公式検査は後続。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-36141.json",
+    "sha256": "0dd51026899da1c4698e0070ef4d5fc554a2a5022874d74def79c692b7610623",
+    "proposed_artwork_sha256": "c9829978be7143767661b09f827e899a9db273d341e87f6c4e5369a1ae211d25",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met公開作品ページはPublic Domain、Met公式は当該公開画像をOA/CC0対象と説明。",
+      "本文の権利と作品画像の権利を区別。本文は別作成の日本語鑑賞文章であり館解説を転載しない。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met OA/CC0画像を利用するための基本条件を確認。権利関係の法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met 1982.7.3 激しい雨の中の帰宅",
+    "既存の日本語本文を変更せず再利用。",
+    "画像バイト証拠は2026年10月の履歴。",
+    "同一AIの別パスのみで第三者検証とは呼ばない。"
+  ]
+}
