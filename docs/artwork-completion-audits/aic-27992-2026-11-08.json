@@ -1,0 +1,126 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-27992",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "93fe1c38b78a5b3c570e9c6cd3c6f108bec77f66",
+    "artwork_record_sha256": "f488a6f8fae12dc208fd0d5e99737b34613fd41835273263e9017d7799cfa9ff",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-27992.json",
+    "draft_sha256": "a92625e60524821cac54c98e22dce10ca118e431b6457f2cb21a69668f27f51e"
+  },
+  "sources": [
+    {
+      "url": "https://api.artic.edu/api/v1/artworks/27992",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC API id=27992, 1926.224, Georges Seurat, 1884–86, border added 1888–89, oil on canvas, is_public_domain=true, image_id=2d484387-2509-5e8e-2c43-22f9981972eb.",
+        "AIC API description: people on Seine riverbank, complementary color dots/dashes, preparatory studies, added monkey and frieze-like formal layout."
+      ],
+      "observed": "公式AIC APIの全項目をweb.openで読んだ後、同じ応答のis_public_domainやimage_idをweb.findして再照合した。公式HTMLは403なので公式APIを一次出典とした。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:A_Sunday_on_La_Grande_Jatte_by_Georges_Seurat_-_Joy_of_Museums_-_Art_Institute_of_Chicago.jpg",
+      "access": "identifiable_visual_reference",
+      "locations": [
+        "2026-11-08 image search showed a cropped photographic rendering of the AIC Seurat work, revealing right foreground standing woman, dog/monkey, parasols and riverside walkers."
+      ],
+      "observed": "これは画像検索で見える公開撮影画像であり、登録画像のJPEGバイト再測定を行ったものではない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-27992",
+      "kind": "registered_display",
+      "url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/27992.jpg",
+      "sha256": "27edcc5c9d04e2271fe7db62312f8574d4354809aadc77d45fc288cd0450a656",
+      "byte_length": 229143,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18既存登録ミラーJPEGのバイトハッシュとHTTP確認記録。今回の直接画像再取得ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "AIC公式APIのimage_id及び作品名・所蔵番号と一致する公開写真を画像検索で視認。登録されたGitHubミラーJPEG自体は再取得していない。",
+    "observed": "日傘を差した人々、芝生の群衆、セーヌ川、手前の犬と小型の猿、青緑と黄色の色点による立体感を視認。公開写真は部分トリミングがある。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "原稿完成後に公式APIの年代・縁の追加時期と作品解説を再読し、点描の物理的見え方、猿の追加、特定人物の内面の断定を避けたか確認。",
+    "limitations": "同一AIの別工程で、第三者または別AIの監査ではない。登録ミラーJPEGの現在の全量バイトを今回再測定していない。",
+    "reviewed_artwork_sha256": "f488a6f8fae12dc208fd0d5e99737b34613fd41835273263e9017d7799cfa9ff",
+    "reviewed_visitor_draft_sha256": "a92625e60524821cac54c98e22dce10ca118e431b6457f2cb21a69668f27f51e",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Chicago 1926.224、Seurat、1884–86の大作、1888–89縁加筆を正式作品APIと照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "補色の点描と構成への説明を再検証し、近代都市生活の肯定や孤独の断定を排除。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存主『好奇心』2のみ保持し、技法を見る鑑賞上の入口に限定。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "日本語説明は画面観察に焦点を置いた新構成、公式本文の逐語翻訳・長文転載なし。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "f488a6f8fae12dc208fd0d5e99737b34613fd41835273263e9017d7799cfa9ff",
+    "visitor_draft_sha256": "a92625e60524821cac54c98e22dce10ca118e431b6457f2cb21a69668f27f51e",
+    "proposal_sha256": "99d6d0bd9e99b15048298625212ea763777f86b1a64ae5777487344be1645193",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "登録版照合と対象外不変更の事前検証でありCI結果ではない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-27992.json",
+    "sha256": "99d6d0bd9e99b15048298625212ea763777f86b1a64ae5777487344be1645193",
+    "proposed_artwork_sha256": "f488a6f8fae12dc208fd0d5e99737b34613fd41835273263e9017d7799cfa9ff",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://api.artic.edu/api/v1/artworks/27992",
+    "locations": [
+      "AIC API is_public_domain=true、descriptionの著作権ライセンスはCC BY 4.0と明記。",
+      "画像のPDと館解説のCC BYを混同せず独自文章を作成。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品画像の公共利用と学芸文章を分け、現時点でDB保存を妨げる重大な未解決条件を認めない。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "2026-10以前の登録JPEG SHA記録を継承。今回新測定なし。",
+    "同一AI別工程であり外部独立監査とは呼ばない。"
+  ]
+}
