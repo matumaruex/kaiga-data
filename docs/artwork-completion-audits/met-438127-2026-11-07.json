@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-438127",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "cef41f328027459b12de1c072e4ebd1664908744",
+    "artwork_record_sha256": "bf5affcd2ae184a113eb6e0a825e1dffbf94a145931188028d15d698f440ba18",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-438127.json",
+    "draft_sha256": "2325b0a22182ffb5a45ee23be0d1eb68c82a6eddd684add135c7ab2b3d14b7a7"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/438127",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overview：tableaux de mode・The Garterが対作品・室内のマルスとヴィーナス画・犬と二人の情熱、反復する曲線の意味。",
+        "Met Artwork Details：Jean François de Troy、ca.1724、oil on canvas、2019.141.21、Public Domain。"
+      ],
+      "observed": "Met 2019.141.21公式概要・作品詳細を本文執筆時と別工程で再確認。画中の恋の結末を断言せず、Metの解釈と観察を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-438127",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-19651-001.jpg",
+      "sha256": "ad8855804e447722603614d0ec3f9b6d2700c497b15af0eeb60871ace0b092af",
+      "byte_length": 4727474,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10 Met公式原画像DP-19651-001の全JPEG SHA履歴。今回の再取得ではない。"
+    },
+    {
+      "id": "met-438127",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19651-001.jpg",
+      "sha256": "db5c617b039da8b36f4d0cefe4cd2fb5a92494735610967c89573e5d088429c7",
+      "byte_length": 134565,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10登録Met web-large JPEGの全量SHA履歴を再利用。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Metの同作品と所蔵番号2019.141.21が一致する公式画像DP-19651-001を視認し、既存画像の識別情報と対照。JPEGバイトSHA自体は2026-10履歴。",
+    "observed": "室内の男性が女性の手を取る、鮮やかなソファとドレス、小さな犬、上方のマルスとヴィーナスを描く額装画、曲線的な額縁を確認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文後にMet概要と作品詳細を別パスで読み、マルスとヴィーナスの扱い、犬と曲線の意味、対作品と所蔵番号を照合。期待タグが作者・画中人物の診断と誤認されないように点検。",
+    "limitations": "同一AIによる別工程であり別AI／第三者による独立監査ではない。画像JPEGの全バイトは今回は新規取得せず2026-10記録を引き継ぐ。",
+    "reviewed_artwork_sha256": "bf5affcd2ae184a113eb6e0a825e1dffbf94a145931188028d15d698f440ba18",
+    "reviewed_visitor_draft_sha256": "2325b0a22182ffb5a45ee23be0d1eb68c82a6eddd684add135c7ab2b3d14b7a7",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 2019.141.21、Jean François de Troy、ca.1724、oil on canvas、DP-19651-001を照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metの風俗画ジャンルと同作の装飾上の読み、対作品の関係を支持。個人の恋愛成就は断言しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主感情『期待』2の既存登録を維持。鑑賞者の入口であり二人・作者の実感情の決め付けではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "館の解説を長文翻訳するのでなく、実際の構図と示された解釈の関係を独立の自然な日本語にまとめた。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "bf5affcd2ae184a113eb6e0a825e1dffbf94a145931188028d15d698f440ba18",
+    "visitor_draft_sha256": "2325b0a22182ffb5a45ee23be0d1eb68c82a6eddd684add135c7ab2b3d14b7a7",
+    "proposal_sha256": "ce2cf4b643e9c8ca3c2b3dd6f4851e82705960d3445b0a1215502f1615c5d768",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "構造・ハッシュと対象外不変の事前照合。CI実測はPR作成後の別工程で確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-438127.json",
+    "sha256": "ce2cf4b643e9c8ca3c2b3dd6f4851e82705960d3445b0a1215502f1615c5d768",
+    "proposed_artwork_sha256": "bf5affcd2ae184a113eb6e0a825e1dffbf94a145931188028d15d698f440ba18",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Metはこの作品をPublic Domainと示し、公式Open AccessはPD画像をCC0提供。",
+      "画像と館の学芸解説を混同せず、資料を根拠に独自日本語を作成。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "この版の独自日本語本文・PD画像のDB利用に重大な権利保留を認めないというレビュー判断。法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met 2019.141.21《The Declaration of Love》と同館The Garterを明確に区別。",
+    "2026-10の登録JPEG SHAを履歴として継承。同一AI別工程。"
+  ]
+}
