@@ -1,0 +1,117 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "aic-14591",
+  "baseline_commit": "f5d0411ea1200c1725e1a286735995585f8903b7",
+  "baseline_artwork_sha256": "65f3043c9ae0d3978d41dfb564e06969b5286de9b14d137be4c82e7618105365",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "evidence_url"
+      ],
+      "before": "https://archive.artic.edu/500ways/artwork/14591",
+      "after": "https://www.getty.edu/art/mobile/center/manet/stop.php?id=370075",
+      "reason": "シカゴの所蔵基本情報に加え、当該作品の意味・制作工程を直接論じたGettyの学芸員解説を選定出典にする。",
+      "source_urls": [
+        "https://www.getty.edu/art/mobile/center/manet/stop.php?id=370075"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation"
+      ],
+      "before": {
+        "summary": "マネは現代の都市生活を描いた画家であり、帽子・手袋を着け、カフェのような場で読み物を持つ女性の姿が都市的な日常を示す。ただしこの作品で何を感じてほしかったかという明言は未確認。",
+        "source_url": "https://archive.artic.edu/500ways/artwork/14591"
+      },
+      "after": {
+        "summary": "ゲティ美術館の研究解説では、屋外のカフェで女性が読む情景に見えるが、マネはアトリエで自作《散歩》の庭の絵を背景に配置したとされる。速い筆づかいは即興的な屋外描写のように見せる工夫と考えられ、実際の戸外の写生と区別する。",
+        "source_url": "https://www.getty.edu/art/mobile/center/manet/stop.php?id=370075"
+      },
+      "reason": "当該作品について直接論じるGetty学芸員の読解を採用し、背景がアトリエ内の絵である点を正す。",
+      "source_urls": [
+        "https://www.getty.edu/art/mobile/center/manet/stop.php?id=370075"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "1879〜80年作。近代的な服装の女性の読書と飲み物が画面にあり、室内の隠遁とは異なる都市の日常が題材。",
+      "after": "シカゴ美術館アーカイブでは1879/80年作、Gettyは約1880–81年と幅を持って紹介する。足の不自由さが進んだ晩年、マネはアトリエでかつて親しんだカフェ生活の光景を構成したとGettyは説明する。背後の庭は以前の自作《散歩》を置いたもの。",
+      "reason": "都市生活を実際に屋外で描いたかのような誤解を防ぎ、制作場所と年代の資料差を記録する。",
+      "source_urls": [
+        "https://archive.artic.edu/500ways/artwork/14591",
+        "https://www.getty.edu/art/mobile/center/manet/stop.php?id=370075"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "before": "読書しているから『孤独』、安らいでいるという心情は確認できない。",
+      "after": "シカゴ旧資料は1879/80、Getty解説は約1880–81と年代表記が異なる。屋外カフェに見えるがアトリエで構成された場面であり、女性本人の気持ちや鑑賞者の『安心』を狙った作者の明言は確認できない。",
+      "reason": "資料上の年代差、アトリエ内の演出と人物心理の限界を明記する。",
+      "source_urls": [
+        "https://archive.artic.edu/500ways/artwork/14591",
+        "https://www.getty.edu/art/mobile/center/manet/stop.php?id=370075"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "fitting_situations"
+      ],
+      "before": [
+        {
+          "situation": "街で読書をする女性の時間を静かに眺めたい",
+          "reason": "都市の日常の中で読書する姿は、安心への弱い鑑賞上の接点になる",
+          "strength": 1
+        }
+      ],
+      "after": [
+        {
+          "situation": "街で読書をする女性の時間を静かに眺めたい",
+          "reason": "屋外カフェのように見せた読書場面は、都市の日常における一人の時間を連想できる。ただしアトリエで構成された絵。",
+          "strength": 1
+        }
+      ],
+      "reason": "画面上の情景はカフェだが実景の戸外制作ではないことを索引にも反映する。",
+      "source_urls": [
+        "https://www.getty.edu/art/mobile/center/manet/stop.php?id=370075"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "selection_cautions"
+      ],
+      "before": [
+        "公共のような場面を『誰にも邪魔されない自室』や『孤独』とは説明しない。"
+      ],
+      "after": [
+        "屋外のカフェで直接写生した実景と断定しない。Gettyの学芸員解説によれば、アトリエに置いた別の自作の庭の絵を背景として使った。",
+        "人物が孤独だ、安らいでいるといった内面は断定しない。"
+      ],
+      "reason": "演出された背景の根拠を残し、心理を読み過ぎない。",
+      "source_urls": [
+        "https://www.getty.edu/art/mobile/center/manet/stop.php?id=370075"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/aic-14591.json",
+  "visitor_draft_sha256": "fed3b1ee24b3ff4e1e4ef3750677caed97e5d5608507dd6494db7071c539472b",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "4d33eaf79e0c83cadc4e67a002bdc394ec47e347eca3486db18b8500c0bb2adf",
+  "explanation": "AICの旧所蔵作品記録とGetty専門学芸員解説を照合し、単なる戸外の読書風景でなく、アトリエで背景画を用いて演出した情景という事実を意味資料と索引へ反映。主題・感情タグは維持。"
+}
