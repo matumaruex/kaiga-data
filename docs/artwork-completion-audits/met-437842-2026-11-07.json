@@ -1,0 +1,140 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437842",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "a8991eef13c563b1d1aed8f3dc6d1fcca50e2a5b",
+    "artwork_record_sha256": "cc47bf123071656f7ff760984c037aed887bd146ad3f73f6237b67979eb64bdf",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437842.json",
+    "draft_sha256": "42f57a76ae0543848b5719a8e2210645b6d768bcf511126033fa92fa1caf1dc3"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437842",
+      "access": "page_read_twice",
+      "locations": [
+        "作品1976.100.19／Gaspare Traversi／ca.1760／油彩・カンヴァス／Public Domain。Met公式の作品解説は、老人が思い出の品の小箱を膝に置いて眠る少女をくすぐる場面と説明。",
+        "Metはトラヴェルシをナポリの風俗画家と位置付け、高度な自然主義と風刺、カラヴァッジョ的半身物語構図とホガースとの比較を述べている。"
+      ],
+      "observed": "Met公式の作品詳細・図像・作品番号を検索取得と個別ページで照合。取得できたキャッシュ版を含み、館文の出典と対象作品を区別。"
+    },
+    {
+      "url": "https://www.metmuseum.org/ja/essays/art-of-the-seventeenth-and-eighteenth-centuries-in-naples",
+      "access": "page_read_twice",
+      "locations": [
+        "Metはトラヴェルシをナポリの風俗画家と位置付け、高度な自然主義と風刺、カラヴァッジョ的半身物語構図とホガースとの比較を述べている。"
+      ],
+      "observed": "補助のMet公式ページまたは美術史データベースで作品固有情報を再確認。元の館ページの研究に依拠。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437842",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-22991-001.jpg",
+      "sha256": "a6f0a422551af1b52e0b6ba8e0231c72c81161a3172f26db1834752902c40518",
+      "byte_length": 3435670,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月にMet Object APIとJPEG全量バイト・HTTP200・SHA256を確認した既存原票に基づく。今回新たに画像全量を取得してはいない。"
+    },
+    {
+      "id": "met-437842",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-22991-001.jpg",
+      "sha256": "191f40f5c5bc81dc8d2628f6b08a23f628f7b944cbc600d85962f40a748ac840",
+      "byte_length": 84212,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月にMet Object APIとJPEG全量バイト・HTTP200・SHA256を確認した既存原票に基づく。今回新たに画像全量を取得してはいない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式の作品番号・公式表示画像または同じMet画像IDを掲載する公開画像と、保存済み画像ソース台帳の同定記録を照合。登録JPEGの2026年10月全量SHA256は過去の証拠として扱う。",
+    "observed": "Met所蔵1976.100.19の公式図版と、登録画像DP-22991-001が一致。青い上着・黄色い胸当ての眠る少女、膝の小箱、耳元へ寄る年配男性、背後の人物らを確認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "日本語下書き構成後、公式Met解説の主張と対象画像・作品番号を別パスで再読し、既存資料・タグ・解説文の事実と飛躍を確認。",
+    "limitations": "同一AIの別工程。別モデル／別人物による独立監査ではない。2026年10月の画像ハッシュは現在の全量JPEG取得でない。法律上の利用保証ではない。",
+    "reviewed_artwork_sha256": "cc47bf123071656f7ff760984c037aed887bd146ad3f73f6237b67979eb64bdf",
+    "reviewed_visitor_draft_sha256": "42f57a76ae0543848b5719a8e2210645b6d768bcf511126033fa92fa1caf1dc3",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met作品番号1976.100.19、同定、年代、作者の確定／帰属・画像出典を公式資料で照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1760年頃のナポリ風俗画。少女の膝のkeepsakesの箱、年長男性が眠った少女をくすぐる描写、画家の半身像を用いた社会風刺というMetの解釈を照合。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存の感情タグ0件を保持。いたずらが描かれるだけで喜びや不安を鑑賞入口に追加しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "原文の逐語翻訳・長文転載を避け、作品固有の事実と館の解釈を独自の日本語文に組み直した。制作意図を作者の直接発言と誤認しない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "cc47bf123071656f7ff760984c037aed887bd146ad3f73f6237b67979eb64bdf",
+    "visitor_draft_sha256": "42f57a76ae0543848b5719a8e2210645b6d768bcf511126033fa92fa1caf1dc3",
+    "proposal_sha256": "c60328aab22198bb7b6e87f532eb27a3d5316790c9c637abf3521aa660cafcc3",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JSの正規化SHA・作品数・保存版・同一画像ID対応を確認。Python公式登録ガード、snapshotおよびCIは後工程の検査結果で確定させる。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437842.json",
+    "sha256": "c60328aab22198bb7b6e87f532eb27a3d5316790c9c637abf3521aa660cafcc3",
+    "proposed_artwork_sha256": "cc47bf123071656f7ff760984c037aed887bd146ad3f73f6237b67979eb64bdf",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "Met作品ページがPublic Domainを表示し、作品に紐づいたMet Open Access画像の商用非商用利用が認められる。",
+      "日本語本文は作者の直接発言や公式解説の逐語的な翻訳・転載を避けた独自表現。画像のCC0条件を所蔵館の文章の権利に拡張しない。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "画像はMet Open Access公開図像、本文は独自構成。現時点の記録では重大な未解決の配布上の支障を確認していない。ただし法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met 1976.100.19: 眠る少女をからかう男",
+    "今回のJPEGバイト再計測なし。2026-10月の履歴を継承。",
+    "同一AI別パスであり第三者の独立監査ではない。",
+    "既存の感情索引・作品の意味資料と他作品を維持。"
+  ]
+}
