@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436502",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "57693c123d2b8447919a2e9a0679a9ec17cfac2c",
+    "artwork_record_sha256": "d472f1a28a3016462af423b4e947e3d3ae9337357eb051c0fd3dc1ea70e78103",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436502.json",
+    "draft_sha256": "d4b6da9f138c0fbe235de60ecb3dee564ee86cb4bd979052083869cf568063d9"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436502",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overview：ナポリで活動するルカ・ジョルダーノ、巨匠の様式を模倣、ヴェネツィア訪問後の祭壇画でティツィアーノへ直接の敬意。",
+        "Met Artwork Details：Luca Giordano、1672年、Oil on canvas、Met 1973.311.2、Public Domain。"
+      ],
+      "observed": "作品ページと公式作品画像の対応を執筆前と別工程で再確認。作家の敬意は館の解説として紹介し、マリアの個別の感情を歴史的な証言とはしない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436502",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-22842-001.jpg",
+      "sha256": "a76e00046346849d284e777072cff343a60faefa218178663071a08a10dc74b8",
+      "byte_length": 2720236,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 Met画像DP-22842-001の登録全量SHA記録を継承。今回は再取得なし。"
+    },
+    {
+      "id": "met-436502",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-22842-001.jpg",
+      "sha256": "bcc9315a5eccf1e557920d8527bab11e4a9cbb7d6a8910a29ad23ff9f0ad6e94",
+      "byte_length": 94350,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10 Met web-large DP-22842-001の登録JPEG履歴を再利用。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品ページの画面と同作の館画像に一致する図像（1973.311.2）を確認し登録画像DP-22842-001の識別子と照合。2026-10 JPEG SHAは履歴継承。",
+    "observed": "縦長の画面、左に白衣と翼の天使、白ユリの枝、右に赤衣・青いマントのマリア、上方で暗い幕を開く幼い天使を確認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "作品本文作成後、MetのOverview・Artwork Detailsを再参照。1672年と祭壇画の用途・ヴェネツィア旅行後のティツィアーノへの敬意を再確認。画面描写を伝記からの推測と区別。",
+    "limitations": "同じAIの別工程で、別AI・第三者の独立監査ではない。今回のJPEG全量再取得は行わず過去のSHAを引用。",
+    "reviewed_artwork_sha256": "d472f1a28a3016462af423b4e947e3d3ae9337357eb051c0fd3dc1ea70e78103",
+    "reviewed_visitor_draft_sha256": "d4b6da9f138c0fbe235de60ecb3dee564ee86cb4bd979052083869cf568063d9",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 1973.311.2、Luca Giordano、1672、oil on canvas、同一図像を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metは制作の旅行とティツィアーノへの敬意を述べているが、作者がマリアの心情を特定した記録とはしていない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存感情索引0件を維持。画面が宗教的であるだけで畏敬等を追加しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "原文を逐語翻訳しない独自日本語、伝記・館解説と目視描写を区別。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "d472f1a28a3016462af423b4e947e3d3ae9337357eb051c0fd3dc1ea70e78103",
+    "visitor_draft_sha256": "d4b6da9f138c0fbe235de60ecb3dee564ee86cb4bd979052083869cf568063d9",
+    "proposal_sha256": "6d3621d25718d98d8cea53f36dd5bc3622efad37b5a83af300cf2b4666ca7e04",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "版・形式の事前点検。CI結果はPR作成後に照合する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436502.json",
+    "sha256": "6d3621d25718d98d8cea53f36dd5bc3622efad37b5a83af300cf2b4666ca7e04",
+    "proposed_artwork_sha256": "d472f1a28a3016462af423b4e947e3d3ae9337357eb051c0fd3dc1ea70e78103",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met公式作品ページはPublic Domainと表示。Open Access方針はパブリックドメイン画像のCC0提供を明記。",
+      "学芸文章と所蔵画像は別権利。鑑賞本文は資料に基づく独自日本語で長文翻訳・転載なし。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "今回の独自日本語解説・既存PD画像のデータ登録に重大な未解決の利用条件を認めなかったとの判断。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met 1973.311.2、Giordano《The Annunciation》を同題の他作者作品と区別する。",
+    "JPEGバイトSHAは2026-10履歴。同一AI別工程レビュー。"
+  ]
+}
