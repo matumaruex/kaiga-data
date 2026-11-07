@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-459110",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "9d90f7e0bfada885000ecb217b7d7dd4934ca144",
+    "artwork_record_sha256": "e79dde3c459fab8c5427b90034a5ee73155fd999edad4ff780ad28bfdd669b6f",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-459110.json",
+    "draft_sha256": "1875feb8098cffcb6865196f6b519973297fa1e902bba3db74e557e9e6cd946c"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/459110",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Young Girl Bathing Overview：赤褐色の髪の水浴裸婦、アトリエ制作の推測、モネの所有と発言。",
+        "Met Artwork Details：1892、Renoir、Oil on canvas、1975.1.199、Public Domain。"
+      ],
+      "observed": "作品解説とMet提供画面の対応および可能性の表現を再照合。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-459110",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/rl/original/DP-17279-001.jpg",
+      "sha256": "2d315d901465f1a2a6f7b288b4fb99451c108e4e83d179b633fa1e468eb6a590",
+      "byte_length": 5820756,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月に保存済みのMet公式画像JPEG SHA/HTTP200確認。今回は再取得せず。"
+    },
+    {
+      "id": "met-459110",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/rl/web-large/DP-17279-001.jpg",
+      "sha256": "520a9fe1669f66eb45719f0b6a3803bbc36083dc18934afcb624cef3b892a65f",
+      "byte_length": 130381,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026年10月の表示画像バイト確認を継承。今回の測定ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met 459110館ページと同作品提供画像DP-17279-001を照合。バイトSHAは過去の検査値。",
+    "observed": "右を向いて座り視線を伏せた赤褐色の髪の女性。薄い筆使いの肌、自由な筆触で描かれた緑褐色の樹木を同定。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文作成後にMet公式作品ページの作者・所蔵番号・館の解釈、公開画像DP-17279-001と利用条件を別パスで読み直した。",
+    "limitations": "同じAIによる別工程で別モデル／第三者審査ではない。登録JPEGの全バイトSHAは2026年10月の既存証拠を継承。",
+    "reviewed_artwork_sha256": "e79dde3c459fab8c5427b90034a5ee73155fd999edad4ff780ad28bfdd669b6f",
+    "reviewed_visitor_draft_sha256": "1875feb8098cffcb6865196f6b519973297fa1e902bba3db74e557e9e6cd946c",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 1975.1.199、Renoir、1892年、Oil on canvas、Met公開画像DP-17279-001を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metのアトリエ制作はprobablyなので推定とし、モネの評言はルノワール自身の制作意図として扱わない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "原データの感情タグ0件を維持。人物の心理を画面から断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Met学芸解説の逐語訳・長文転載を避け、独自の順序と画面描写を用いた日本語本文。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "e79dde3c459fab8c5427b90034a5ee73155fd999edad4ff780ad28bfdd669b6f",
+    "visitor_draft_sha256": "1875feb8098cffcb6865196f6b519973297fa1e902bba3db74e557e9e6cd946c",
+    "proposal_sha256": "c8ee1f363ca13c88a685f20353d4d74b78eb5645e59bfcb7eb29975f30c03be9",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "ハッシュ・事前構造の点検でありGitHub CIの実行結果ではない。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-459110.json",
+    "sha256": "c8ee1f363ca13c88a685f20353d4d74b78eb5645e59bfcb7eb29975f30c03be9",
+    "proposed_artwork_sha256": "e79dde3c459fab8c5427b90034a5ee73155fd999edad4ff780ad28bfdd669b6f",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met作品Public Domain表示とOpen Access CC0ポリシーを照合。",
+      "作品画像のCC0と学芸員の解説テキストの権利を区別し独自の日本語を制作。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "本DBへの画像登録・独自解説保存を妨げる重大な未解消権利問題なしとの判断。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met1975.1.199の裸体画。所蔵モネの評価はルノワールの意図と区別。",
+    "旧JPEG測定を現在の新測定と表記しない。同一AI別パス審査。"
+  ]
+}
