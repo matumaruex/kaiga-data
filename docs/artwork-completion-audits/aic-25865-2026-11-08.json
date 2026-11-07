@@ -1,0 +1,134 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-25865",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "4cf643800a2de9a36e8b3baaf7f5b1cb47be731e",
+    "artwork_record_sha256": "ec17eed1966696461ff695ad8d9d10c6c0a692f8065e0b9579fd9c644bb0e376",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-25865.json",
+    "draft_sha256": "fa5a428f2a1f687d429bb1819668e917a85b6feee00f527a05066c02d10977da"
+  },
+  "sources": [
+    {
+      "url": "https://archive.artic.edu/homer_exhb/artwork/25865",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC archived exhibit entry, title 1885, oil canvas, 1937.1039; two figures in the small dory, glistening herring and mother schooners."
+      ],
+      "observed": "公式館展示説明を異なる検索結果2件で照合。元ページの直接web.openは403だったため、検索索引が保持する記事本文を再読した。"
+    },
+    {
+      "url": "https://www.artic.edu/artworks/25865",
+      "access": "page_read_twice",
+      "locations": [
+        "2026-10-20の同一版の既存解説でsource_status=verifiedと記録。シカゴ美術館作品ID25865と館展示ページ・所蔵番号1937.1039が一致。"
+      ],
+      "observed": "既存解説の旧出典審査を同一版の証拠として引き継ぐ。今回は同URLの直接取得がCache missのため新規に全文取得したものではない。"
+    },
+    {
+      "url": "https://archive.artic.edu/homer_exhb/resource/315",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC collection study: lines 20–26, 1885 maritime trilogy, 1884 sketches, modified scale and placement of waves/nets/schooners."
+      ],
+      "observed": "出典の該当段落を公開ページで直接再参照し、別検索でも本文を照合。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-25865",
+      "kind": "display",
+      "url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/25865.jpg",
+      "sha256": "bf40b803d46984f847d39578f59088cc717318e47a9c62fda6602ea07287a504",
+      "byte_length": 125154,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18の登録JPEG HTTP200・全量SHA256履歴を再利用。今回の現行URL画像バイトの再取得・再ハッシュなし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "シカゴ美術館《The Herring Net》として画像検索で表示された館の図版と、同一作品・収蔵番号の公式説明を照合。登録ミラーJPEG自体は今回未再取得。",
+    "observed": "緑灰色の波、船縁から身を乗り出す作業着の二人、網を扱う体勢、小舟を埋める手前の波、遠景の帆船が見える。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初期の既存本文を変えず、別工程でAIC研究資料の漁の観察と素描・油彩の差、画面と作品IDを再照合。",
+    "limitations": "同一AIによる別工程で第三者・別AIの独立審査ではない。AIC現行作品HTML直接取得が失敗し既存の同版公式出典検証を継承。JPEGは過去SHA記録のみ継承。",
+    "reviewed_artwork_sha256": "ec17eed1966696461ff695ad8d9d10c6c0a692f8065e0b9579fd9c644bb0e376",
+    "reviewed_visitor_draft_sha256": "fa5a428f2a1f687d429bb1819668e917a85b6feee00f527a05066c02d10977da",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC 25865 / 1937.1039 / Winslow Homer / 1885年を館公式の展覧会研究資料で照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1884年の漁を素描にし波・網・母船の位置を変更したのはAICの研究者による説明であり、作者の直接発言としない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存主『不安』『希望』と強度3/2を保持。生存と共同作業への接点として限定し鑑賞者に励ましを強制しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語解説を変更せず、AIC資料の英文逐語訳ではなく独自構成であることを確認。館の叙述にある重要な背景・技法の取り違えなし。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "ec17eed1966696461ff695ad8d9d10c6c0a692f8065e0b9579fd9c644bb0e376",
+    "visitor_draft_sha256": "fa5a428f2a1f687d429bb1819668e917a85b6feee00f527a05066c02d10977da",
+    "proposal_sha256": "9e276acdc9c1e3fc11d662906f6be58ce14aa228e9e6135cb28e5d5d0a071b03",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "記録の版/参照の事前構造照合。実際のCIはPR後に確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-25865.json",
+    "sha256": "9e276acdc9c1e3fc11d662906f6be58ce14aa228e9e6135cb28e5d5d0a071b03",
+    "proposed_artwork_sha256": "ec17eed1966696461ff695ad8d9d10c6c0a692f8065e0b9579fd9c644bb0e376",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://archive.artic.edu/homer_exhb/artwork/25865",
+    "locations": [
+      "館所蔵品はPD、画像の既存登録にもpublic domain確認履歴がある。",
+      "著作権表示のあるシカゴ美術館研究文章は引用・転載せず、既存日本語解説の独自性を確認。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "画像のPDと館の研究文の権利を区別。本文/画像のDB保存を妨げる重大な未解消条件は今回確認できない。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "現行AIC collection HTMLは直接取得不可。2026-10既存の同版出典レビューと今回公式展覧会本文を併用。",
+    "登録ミラーJPEGの新規全量再取得なし。",
+    "第三者・別AIの監査ではない。"
+  ]
+}
