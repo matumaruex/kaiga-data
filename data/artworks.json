@@ -740,17 +740,18 @@
           "他者との距離",
           "休息"
         ],
-        "evidence_url": "https://archive.artic.edu/500ways/artwork/14591",
+        "evidence_url": "https://www.getty.edu/art/mobile/center/manet/stop.php?id=370075",
         "search_profile": {
           "fitting_situations": [
             {
               "situation": "街で読書をする女性の時間を静かに眺めたい",
-              "reason": "都市の日常の中で読書する姿は、安心への弱い鑑賞上の接点になる",
+              "reason": "屋外カフェのように見せた読書場面は、都市の日常における一人の時間を連想できる。ただしアトリエで構成された絵。",
               "strength": 1
             }
           ],
           "selection_cautions": [
-            "公共のような場面を『誰にも邪魔されない自室』や『孤独』とは説明しない。"
+            "屋外のカフェで直接写生した実景と断定しない。Gettyの学芸員解説によれば、アトリエに置いた別の自作の庭の絵を背景として使った。",
+            "人物が孤独だ、安らいでいるといった内面は断定しない。"
           ],
           "review_status": "evidence_review_pending"
         },
@@ -761,12 +762,12 @@
             "source_url": null
           },
           "scholarly_interpretation": {
-            "summary": "マネは現代の都市生活を描いた画家であり、帽子・手袋を着け、カフェのような場で読み物を持つ女性の姿が都市的な日常を示す。ただしこの作品で何を感じてほしかったかという明言は未確認。",
-            "source_url": "https://archive.artic.edu/500ways/artwork/14591"
+            "summary": "ゲティ美術館の研究解説では、屋外のカフェで女性が読む情景に見えるが、マネはアトリエで自作《散歩》の庭の絵を背景に配置したとされる。速い筆づかいは即興的な屋外描写のように見せる工夫と考えられ、実際の戸外の写生と区別する。",
+            "source_url": "https://www.getty.edu/art/mobile/center/manet/stop.php?id=370075"
           },
-          "creation_context": "1879〜80年作。近代的な服装の女性の読書と飲み物が画面にあり、室内の隠遁とは異なる都市の日常が題材。",
+          "creation_context": "シカゴ美術館アーカイブでは1879/80年作、Gettyは約1880–81年と幅を持って紹介する。足の不自由さが進んだ晩年、マネはアトリエでかつて親しんだカフェ生活の光景を構成したとGettyは説明する。背後の庭は以前の自作《散歩》を置いたもの。",
           "visual_clues": "読み物、帽子、手袋、飲み物など日常の細部が同時に描かれる。",
-          "uncertainty_note": "読書しているから『孤独』、安らいでいるという心情は確認できない。"
+          "uncertainty_note": "シカゴ旧資料は1879/80、Getty解説は約1880–81と年代表記が異なる。屋外カフェに見えるがアトリエで構成された場面であり、女性本人の気持ちや鑑賞者の『安心』を狙った作者の明言は確認できない。"
         },
         "emotion_categories": {
           "primary": [],
@@ -785,6 +786,26 @@
         "ai_content_review_status": "pending",
         "source_evidence_review_status": "pending",
         "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "大きな黒い帽子と手袋を着けた女性が、紙面を広げています。左端には泡の立つ飲み物が少し見え、背後には緑の小道と花の色が重なります。屋外のカフェの一場面を、画家が素早く捉えたようにも見える絵です。\n\nけれども、この光景はアトリエで組み立てられたものです。ゲティ美術館の解説によれば、マネは以前描いた庭の絵《散歩》を壁に掛け、女性の背後に置いていました。季節を感じさせる木々や花の背景と、厚い帽子や手袋を着けた服装との食い違いも、この仕掛けをうかがわせます。\n\nシカゴ美術館が所蔵するこの作品は、同館の旧所蔵記録では1879〜80年作とされています。筆触は即興的でも、その背後には、アトリエで都市のカフェの光景を再現する工夫があります。女性が何を読んでいるのか、どんな気持ちでいるのかということまで、作者が明言したとする資料は確認できていません。",
+        "source_urls": [
+          "https://archive.artic.edu/500ways/artwork/14591",
+          "https://www.getty.edu/art/mobile/center/manet/stop.php?id=370075"
+        ],
+        "review": {
+          "content_status": "pending",
+          "source_status": "pending",
+          "rights_status": "pending",
+          "reviewed_on": "2026-11-08"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/aic-14591-2026-11-08.json",
+        "audit_sha256": "bb776a601d3868a9f9d4ef3d8cd84919bd0d5882747e34fbf9bb6aa56e8278b3",
+        "record_sha256": "ba216ace679b8b9db32bd178e636cfdb93d051858da61051108dbdc0bd474612"
       }
     },
     {
