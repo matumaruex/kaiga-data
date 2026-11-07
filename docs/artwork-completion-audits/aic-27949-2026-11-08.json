@@ -1,0 +1,142 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-27949",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "8634bcb08e028a5e4723db30635c9dcebe3ed77b",
+    "artwork_record_sha256": "6d41439d38b345d3b69c17c4cc72f3cdfcb4d9f63e979488a131ba5e87d062bd",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-27949.json",
+    "draft_sha256": "10b170e32ece88e2496cbdc495f431e1610ac5bd4001cbe478eca9dbecf1a0ec"
+  },
+  "sources": [
+    {
+      "url": "https://archive.artic.edu/vangogh/vg_list.html",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC Van Gogh and Gauguin exhibition list, lines 525-530 Boston version earlier; 656-667 Chicago 29 January 1889, 1926.200, and Amsterdam c 22 February"
+      ],
+      "observed": "AIC公式の2002年展示作品一覧を再読し、同題別版・シカゴ版1926.200・制作時期を確認した。"
+    },
+    {
+      "url": "https://www.webexhibits.org/vangogh/letter/19/574.htm?qp=green",
+      "access": "page_read_twice",
+      "locations": [
+        "WebExhibits 28 January 1889 letter to Theo: lines 40-44, two versions, Icelandic fishermen lullaby, green clothing orange hair and rose flowers, Sunflowers triptych concept"
+      ],
+      "observed": "19世紀手紙のWebExhibits英語転載を実際に開き再読。大学専門校訂の一次サイトと混同しない。"
+    },
+    {
+      "url": "https://vangoghletters.org/vg/letters/let745/letter.html",
+      "access": "page_read_twice",
+      "locations": [
+        "Van Gogh Letters scholarly official edition, 3 Feb 1889 letter 745, lines 44-49: multiple berceuse versions, models choosing, little music of local color"
+      ],
+      "observed": "ゴッホ書簡原典の学術編集サイトを2度閲覧し、色彩の音楽と複数版への明確な発言を照合した。"
+    },
+    {
+      "url": "https://www.dbnl.org/tekst/_van012200101_01/_van012200101_01_0004.php",
+      "access": "page_read_twice",
+      "locations": [
+        "Debora Silverman 2001 Van Gogh Museum Journal, 'La berceuse and sacred realism' section: sailors' consolation and lay devotional imagery"
+      ],
+      "observed": "専門家Debora Silvermanの研究は作者の直接証言でなく学術解釈として区別した。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-27949",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Vincent_van_Gogh_-_Madame_Roulin_Rocking_the_Cradle_%28La_berceuse%29_-_1926.200_-_Art_Institute_of_Chicago.jpg/960px-Vincent_van_Gogh_-_Madame_Roulin_Rocking_the_Cradle_%28La_berceuse%29_-_1926.200_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "e9b5163881e871d1d9d1aa88b5e56fd7c5be9f86963665eb4cc55017814c4ef7",
+      "byte_length": 440268,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18 Commons実取得JPEG HTTP200とSHA256を登録した旧証拠。今回新規JPEG全量取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "2026-11のWikimedia Commonsの正面作品画像をAI視覚で観察し、AIC1926.200・ゴッホ書簡にある色彩と紐、他館版と比較。同一登録JPEG自体を再ダウンロードはしていない。",
+    "observed": "赤い木椅子に座り、濃緑上着・明緑スカートの女性の手元から紐、青緑・桃色の花模様の壁紙、赤橙色の髪。画面外の揺りかご・赤子は見えない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文をまとめた後、AICの個別版一覧と2つの書簡、専門研究の対応を別パスで照合し、ゴッホ自身の色彩・子守歌構想とSilvermanの研究解釈、シカゴ版の時期を区別した。",
+    "limitations": "同一AIによる別工程で第三者／別AI審査ではない。van Gogh Letters 739・743の公式直接ページは403、28 Jan 1889の手紙はWebExhibitsの公開英訳と専門家研究で再確認。登録JPEGの全量・SHAを今回再測定せず旧履歴を利用。",
+    "reviewed_artwork_sha256": "02dd76079ba4044cdf30b3410c1a7d8482773541fd2adb5e917d8d46c958b1f6",
+    "reviewed_visitor_draft_sha256": "10b170e32ece88e2496cbdc495f431e1610ac5bd4001cbe478eca9dbecf1a0ec",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC公式展覧会でChicago版は1926.200、1889年1月29日と同定。ボストン・アムステルダム別版と区別。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1889年1月28日の手紙で船乗りへの子守歌構想、2月3日の手紙で色彩音楽試行。Silverman論文の『世俗的慰めの像』は研究者解釈。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『安心』『懐かしさ』2、補『希望』『慈しみ』1を、作者が求める安らぎ・船乗りの母の記憶・揺りかごの保護という連作への入口として維持。作者の私的感情とはしない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "伝承図像・画面観察・史料を日本語3段落の独自構成にまとめ、二次研究や手紙の長文転載なし。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "02dd76079ba4044cdf30b3410c1a7d8482773541fd2adb5e917d8d46c958b1f6",
+    "visitor_draft_sha256": "10b170e32ece88e2496cbdc495f431e1610ac5bd4001cbe478eca9dbecf1a0ec",
+    "proposal_sha256": "474fa4e1d8dc9bb436bff80a0ece2883dac9a173c548184e123c3fe9271ae90f",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "historical_image_sha_metadata_match",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "版固定の整合性を確認。最終スクリプトとCIのPASS判定は別途GitHub Actionsで確定する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-27949.json",
+    "sha256": "474fa4e1d8dc9bb436bff80a0ece2883dac9a173c548184e123c3fe9271ae90f",
+    "proposed_artwork_sha256": "02dd76079ba4044cdf30b3410c1a7d8482773541fd2adb5e917d8d46c958b1f6",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Madame_Roulin_Rocking_the_Cradle_(La_berceuse)_-_1926.200_-_Art_Institute_of_Chicago.jpg",
+    "locations": [
+      "2026-10のAIC API Public Domain表示とCommons公開のJPEG配信ハッシュの既存台帳を参照。",
+      "ゴッホ手紙と現代研究文章は出典情報として必要最小限で活用し、解説文はオリジナルの日本語で制作。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "旧パブリックドメイン作品・画像と現代研究解説の著作権を区別。今回新規全文転載や未解決のDB保存障害なし。個別の法的保証はしない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "AIC同題別版の区別・書簡743と745の別の発言を明記。",
+    "登録JPEG新取得なし、既存SHA証拠再利用。",
+    "同一AI別パス。"
+  ]
+}
