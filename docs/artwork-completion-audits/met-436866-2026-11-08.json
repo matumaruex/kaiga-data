@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436866",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "ec9049c87699f6c77b333f0c550a8022da6a753d",
+    "artwork_record_sha256": "c041c9322f564ce88146d80cfffc404138894625e314f2dc7f9014c7e39f1b59",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436866.json",
+    "draft_sha256": "5ec4a415ace72ec1bc490f56c54dbe418bdecb8979dcb384d4a1333b525a20de"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436866",
+      "access": "page_read_twice",
+      "locations": [
+        "Met OverviewにLamartine小説のナポリの漁師の孫娘と若いフランス人、青年が去ったのちヒロインが悲嘆で死亡、網を繕う女性・ヴェスヴィオ山・散る赤い花びらが情熱の衰えと悲劇を暗示。Artwork Details：1878、Oil on canvas、87.15.111、Public Domain。",
+        "Met Artwork Details: 1878, Jules-Joseph Lefebvre, oil on canvas, 87.15.111, Public Domain."
+      ],
+      "observed": "Met公式OverviewとArtwork Detailsを執筆前後で別パス参照し、筋・制作年・所蔵番号・画像を再照合。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436866",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT209324.jpg",
+      "sha256": "bcac368124d4ab056a1adbb37747a99ecfa0714d411b1283a7a94e205bc4f85c",
+      "byte_length": 1703997,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の公式Met登録JPEGの全量SHAとHTTP200の履歴を再利用。今回新たな全JPEG取得なし。"
+    },
+    {
+      "id": "met-436866",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT209324.jpg",
+      "sha256": "41ca722fd6803211b31d26487da994d377435d3e83d53e59fa2bf816264c6fda",
+      "byte_length": 58366,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の公式Met登録JPEGの全量SHAとHTTP200の履歴を再利用。今回新たな全JPEG取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met原JPEG DT209324の同作図像（Met由来Commons複製含む）を観察。所蔵番号87.15.111と画題を照合。JPEG SHAは2026-10記録の継承。",
+    "observed": "Metの同作DT209324（原版、Met由来Commons同名ファイル）と対応した画像を視認。青いスカートの女性、膝の漁網、海の向こうの火山、髪の赤い花と地面の花びらを照合。額付き別版の写真を登録JPEGと同一バイトだと扱わない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "日本語文を書いた後にMet公式Overview・Artwork Detailsと同作DT209324の公開図版を再確認し、物語・作品固有の細部・複製との違いを照合。",
+    "limitations": "同一AIの別パスで別AI・第三者監査ではない。今回JPEG全量再取得なし。",
+    "reviewed_artwork_sha256": "c041c9322f564ce88146d80cfffc404138894625e314f2dc7f9014c7e39f1b59",
+    "reviewed_visitor_draft_sha256": "5ec4a415ace72ec1bc490f56c54dbe418bdecb8979dcb384d4a1333b525a20de",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 87.15.111、Jules-Joseph Lefebvre、1878、Oil on canvas、Public Domainと同作画像DT209324を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Lamartine『Graziella』の筋と、網を繕う女性・ヴェスヴィオ山・散る花びらの解釈をMet Overviewの該当箇所と再照合。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存感情主『悲しみ』3、補助『未練』1は小説の筋と画面への入口として維持。画家自身の失恋と混同しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "公式の説明を長文翻訳・丸写しせず独自日本語で再構成。画像のCC0とMet学芸員文章の権利を分離。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "c041c9322f564ce88146d80cfffc404138894625e314f2dc7f9014c7e39f1b59",
+    "visitor_draft_sha256": "5ec4a415ace72ec1bc490f56c54dbe418bdecb8979dcb384d4a1333b525a20de",
+    "proposal_sha256": "45f318a192f4456e6f3ef5e7a5c15299c6ac08f18dac784271dc16e1f1c765ff",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "登録前の対象版・構造・対象外不変の整合確認であり、GitHub Actionsの合格結果とは別。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436866.json",
+    "sha256": "45f318a192f4456e6f3ef5e7a5c15299c6ac08f18dac784271dc16e1f1c765ff",
+    "proposed_artwork_sha256": "c041c9322f564ce88146d80cfffc404138894625e314f2dc7f9014c7e39f1b59",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met所蔵ページのPublic DomainとOpen AccessのCC0画像条件を確認。",
+      "学芸員の解説文を転載せず、作品の事実と独自日本語表現を分ける。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "登録PD画像と今回の独自本文をDBに保存するうえで重大な未解決の条件を認めない。法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "同一AI別工程の原資料照合、第三者審査ではない。",
+    "同一図像の額付き複製と登録Met JPEGのバイト一致を混同しない。"
+  ]
+}
