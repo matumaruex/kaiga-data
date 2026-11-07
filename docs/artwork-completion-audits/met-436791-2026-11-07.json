@@ -1,0 +1,140 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436791",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "c8cf27f9ed119db72ef73577634b14ff763c789e",
+    "artwork_record_sha256": "8364fed075802f59a9a5ef9327bbba7d63e7a9d00d3205251026cd2a75a66157",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436791.json",
+    "draft_sha256": "f2c2671f6e1cf448da2f66bc9364d0efa4427f537f5e63afa7eb50297d9f661c"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436791",
+      "access": "page_read_twice",
+      "locations": [
+        "Met作品ページ：Joos van Cleve／ca.1525／Oil on wood／Object Number 32.100.60／Public Domain。",
+        "Met作品概要はガブリエルとマリアが16世紀に親しみある室内に配され、altarpieceとwall woodcutに描かれる旧約の預言者が新約を予示、イタリア美術の影響と身振りの優美さを説明。"
+      ],
+      "observed": "Met公式館ページを再確認し、題名・収蔵番号・作者・年代と象徴解説、優美な身振りの解釈を確認。作者本人による意図の言葉とは断定しない。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Annunciation_MET_DT1469.jpg",
+      "access": "page_read_twice",
+      "locations": [
+        "MetがWikimedia Commonsに公開した『The Annunciation MET DT1469.jpg』：Met object ID 436791、同作品所蔵番号32.100.60、CC0、元画像はMet由来。"
+      ],
+      "observed": "Met由来の同作品の別撮影画像DT1469と公開主題図像を照合。既存登録画像DP-19433-001を今回ダウンロードしたとは扱わず、両画像の撮影ハッシュを同一と主張しない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436791",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-19433-001.jpg",
+      "sha256": "f294a91e54d1e073bbabf9c5d5ce4d8576febe145dff2ce5d278fc47dfb43d15",
+      "byte_length": 6327199,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet公式APIと登録JPEG全量SHA256/HTTP200照合記録。今回の新規バイト再計測ではない。"
+    },
+    {
+      "id": "met-436791",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19433-001.jpg",
+      "sha256": "b5a9e794cdef4aef1ae7c120ea85cb0208e8bf4b45414f0c59a369eb63b32bb9",
+      "byte_length": 185995,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet公式APIと登録JPEG全量SHA256/HTTP200照合記録。今回の新規バイト再計測ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met 436791作品ページ・Met提供の別写真DT1469の公開画像を見て同一構図を確認。登録原画像はDP-19433-001であり、2026年10月のAPIと全量画像ハッシュ照合を履歴として継承。",
+    "observed": "左の翼ある天使が掲げる指、右で胸に手を当て書物を見つめる聖母、室内の小祭壇、鳩、赤い寝台、タイル床を確認。Met館解説にない家具の象徴を新たに創作しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "新規日本語文の後で公式Met作品概要・館の公開画像と所蔵番号を再照合。作品内の人物の動作・旧約預言者の解釈、作者の個別制作意図と鑑賞者の感情を分けて点検。",
+    "limitations": "同一AIによる別工程であり別モデル／第三者監査ではない。登録DP-19433-001の全バイト検証は2026年10月の既存証拠、今回の別撮影画像とは異なる。",
+    "reviewed_artwork_sha256": "8364fed075802f59a9a5ef9327bbba7d63e7a9d00d3205251026cd2a75a66157",
+    "reviewed_visitor_draft_sha256": "f2c2671f6e1cf448da2f66bc9364d0efa4427f537f5e63afa7eb50297d9f661c",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met32.100.60、Joos van Cleve、ca.1525、Oil on wood、Public Domain、画像の同一構図を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "16世紀に身近な室内と受胎告知を結び、祭壇画・木版画の旧約預言者が新約に先行する象徴、イタリア美術の影響をMet作品個別解説で確認。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存の主『好奇心』強度2は家具に隠れた図像学的意味の探索に対応。祈るマリアの心理を『期待』等と無断変更しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Met学芸員解説を長く転載・逐語翻訳せず、実際の構図と鑑賞順路を使った独自日本語を構成。未確認の宗教図像の意味を足さない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "8364fed075802f59a9a5ef9327bbba7d63e7a9d00d3205251026cd2a75a66157",
+    "visitor_draft_sha256": "f2c2671f6e1cf448da2f66bc9364d0efa4427f537f5e63afa7eb50297d9f661c",
+    "proposal_sha256": "c2fdcf58e5b4a3f641657b739c0c881b74fc0d3b66214b1bef0e00c80de9ec67",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "ハッシュ・版整合・他作品不変を事前点検。GitHubの公式CIはPR後に別検証する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436791.json",
+    "sha256": "c2fdcf58e5b4a3f641657b739c0c881b74fc0d3b66214b1bef0e00c80de9ec67",
+    "proposed_artwork_sha256": "8364fed075802f59a9a5ef9327bbba7d63e7a9d00d3205251026cd2a75a66157",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met Open Access公開作品のPublic Domain画像はCC0指定。Met32.100.60の作品ページもPublic Domain。",
+      "Metの画像・メタデータ自由利用と、館解説文の転載自由を混同しない。本文は出典事実に基づく独自表現。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "対象作品画像のOpen Access利用条件と日本語本文の新規制作を確認。法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Joos van Cleve Met32.100.60《The Annunciation》。",
+    "既存感情『好奇心』と作品資料・画像の登録IDを保持。",
+    "登録JPEG全バイト検証は2026-10-20の旧証拠、現在の再測定ではない。",
+    "同一AI別工程であり第三者・別AIの監査ではない。"
+  ]
+}
