@@ -1,0 +1,139 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436065",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "cf11008bb7d68525d7ca766554daa9d4ac7794f5",
+    "artwork_record_sha256": "ae3e787c2fcfde9fa689bb8746c61ae18452f11e006320e4e6413f99ac0292d2",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436065.json",
+    "draft_sha256": "fe3cb66bee7b168358ed9a14d6f58394aff05940dd285454dc9a16aaf978a338"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436065",
+      "access": "page_read_twice",
+      "locations": [
+        "The Met page artwork details lines 28-40/72-80: Children and a Cow, Attributed to Aelbert Cuyp (NOT simply by Cuyp), 1635–39, Dutch, oil on wood, 34.83.1, Public Domain.",
+        "Museum primary image directly opened through the linked IIIF resource https://collectionapi.metmuseum.org/api/collection/v1/iiif/436065/795866/main-image; visual form matches children, cow, sheep and dog."
+      ],
+      "observed": "公式Met作品ページを直接閲覧後、検索再表示とIIIF公式画像も直接参照。対象同定と『帰属』留保、画像を独立の工程で確認した。"
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436065/795866/main-image",
+      "access": "image_display",
+      "locations": [
+        "Met official IIIF primary image link (opened via artwork page): large brown-and-white cow, three children, two sheep, small dog, muted countryside."
+      ],
+      "observed": "Met所蔵ID436065からリンクされた主画像を実際に表示した。登録済みJPEGとの全バイト比較は2026-10証拠を継承。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436065",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146486.jpg",
+      "sha256": "3605f1b0c5d7f985f14117de2c2b3b5d2e6a95bcec41fcc399fea64bb2c0652c",
+      "byte_length": 2669316,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet公式API原版JPEG HTTP200・全量SHA256履歴を継承。今回原版の全バイト再取得は行わない。"
+    },
+    {
+      "id": "met-436065",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146486.jpg",
+      "sha256": "76db9554984e1660215d6944970aa385fe84935fbb11ee3fa12e2d4c15eec36c",
+      "byte_length": 79517,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet公式web-large JPEG HTTP200・全量SHA256履歴を継承。今回登録JPEGの全バイト再取得はない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品ページに紐づくIIIF画像を実際に表示し作品名・Met収蔵番号と突合。旧登録JPEGのURL・全量SHAは2026-10の版一致証拠を再利用。",
+    "observed": "褐色と白の大きな牛が左寄りに立つ。右に青い服の子、中央に杖を持った子が二人、羊二頭と小犬が見える。全体は暗い緑褐色の田園。主画像は当該作品の所蔵ID436065に紐づく。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "執筆後、Met公式作家帰属欄と主画像を別パスで照合。子どもの数や動物の数、1640年代等の誤った年代、画材oil on canvasへの取り違え、幸福の心理断定を点検。",
+    "limitations": "別AI・第三者の独立監査ではなく、同じAIの別工程。今回新しい画像を表示したが登録JPEGの全バイトSHAは2026-10の同一版証拠を継承。",
+    "reviewed_artwork_sha256": "ae3e787c2fcfde9fa689bb8746c61ae18452f11e006320e4e6413f99ac0292d2",
+    "reviewed_visitor_draft_sha256": "fe3cb66bee7b168358ed9a14d6f58394aff05940dd285454dc9a16aaf978a338",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met34.83.1、1635-39、Oil on wood、Aelbert Cuyp帰属（確定ではない）を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "公式主画像で3人、牛、羊、小犬を照合。家畜のいる田園の図として観察内容だけ記載し制作意図を創作しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存タグ0、tones落ち着きとthemes日常・自然を矛盾しない仮説として維持。子どもが幸福と断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Metはこの作品のOverview長文を掲載していない。画像を具体的に描写し、出典の短い事実データを自然な独自日本語へ編集。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "ae3e787c2fcfde9fa689bb8746c61ae18452f11e006320e4e6413f99ac0292d2",
+    "visitor_draft_sha256": "fe3cb66bee7b168358ed9a14d6f58394aff05940dd285454dc9a16aaf978a338",
+    "proposal_sha256": "15c0abeeffc4205d441245028e9dbe7b76105100ef8f72c7f1935ad136b7a78c",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象基準版と旧画像ID/ハッシュ記録、作品ID重複、他299件不変更を確認。正式コード検査はPR CIで別途実施。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436065.json",
+    "sha256": "15c0abeeffc4205d441245028e9dbe7b76105100ef8f72c7f1935ad136b7a78c",
+    "proposed_artwork_sha256": "ae3e787c2fcfde9fa689bb8746c61ae18452f11e006320e4e6413f99ac0292d2",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met作品ページ Public Domain/Download Image表示。",
+      "Met Image and Data Resources policy: Open Access images for public-domain artworks under CC0, distinct from scholarly text; original Japanese text authored here."
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "所蔵画像のOpen Accessと館の学芸員文章の著作権を区別。DB保存に重大な未解消権利問題は確認せず、法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "同一AIによる別パスであり第三者・別AIではない。",
+    "作者帰属を断定しない。",
+    "2026-10画像ハッシュ記録継承、今回IIIFで主画像のみ直接表示。"
+  ]
+}
