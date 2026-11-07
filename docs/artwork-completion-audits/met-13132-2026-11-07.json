@@ -1,0 +1,131 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-13132",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "6bae310f4d98509feb6dc9ca7a09f5bb09580d4e",
+    "artwork_record_sha256": "cdca6de6c28b45ea33eaf5525c3035f2b5d3ceecc404fd6769fa68992817ec89",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-13132.json",
+    "draft_sha256": "4899dfc0766d420341101f83dd0d6e3d33e95aa7f6cff965a3a2673e96a13465"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/13132",
+      "access": "page_read_twice",
+      "locations": [
+        "作品00.6、Edgar Melville Ward、ca.1898、handicraftsへのnostalgiaと金属職人をartistとして描くという館の説明"
+      ],
+      "observed": "現行Met作品ページの固有の館解説・画題・公式表示画像を別工程で確認"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-13132",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/ap00.6.jpg",
+      "sha256": "7999982bea6c8e08c0146dbd049826b27818bb313f0d45cc3c27ed1042f0baa5",
+      "byte_length": 1162848,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20登録時の全JPEG取得・SHA256/HTTP200を既存の履歴として再利用。今セッションで新たなJPEGバイト取得は実施していない。"
+    },
+    {
+      "id": "met-13132",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/ap00.6.jpg",
+      "sha256": "6e634f199ebd7472939160d3fde69f8321602a4733c435bfc5e4d226c53993fd",
+      "byte_length": 91356,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20登録時の全JPEG取得・SHA256/HTTP200を既存の履歴として再利用。今セッションで新たなJPEGバイト取得は実施していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "公式Met作品ページの図版情報・所蔵番号・既存Met Object API由来画像識別と、保持された2026年10月の登録JPEGハッシュ記録を照合。過去のハッシュは現在の全JPEG新規取得ではない。",
+    "observed": "Met作品画像の職人・銅の器・道具がある室内の描写をMet 00.6と照合し、登録のap00.6.jpgに対応するものと確認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文案の完成後に出典の個別説明・所蔵番号・画像同定の資料を別工程で読み、既存の選定資料・感情索引・文章の類似／利用条件と対応を確認。",
+    "limitations": "同一AI別工程であって別モデル／独立した第三者の監査ではない。今セッションの登録JPEGバイト再計測はしていない。利用権の法的保証ではない。",
+    "reviewed_artwork_sha256": "cdca6de6c28b45ea33eaf5525c3035f2b5d3ceecc404fd6769fa68992817ec89",
+    "reviewed_visitor_draft_sha256": "4899dfc0766d420341101f83dd0d6e3d33e95aa7f6cff965a3a2673e96a13465",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 00.6・作者／年代・作品番号と登録ID met-13132の対応を公式Met情報と照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "エドガー・メルヴィル・ウォードの1898年頃《銅細工師》。産業化期の手仕事への郷愁、格調ある工房の職人像。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存の主感情「懐かしさ」3はMet公式が工業化時代のhandicraftsへのnostalgiaを明示しており保持。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "公式資料の個別事実を自然な日本語で独自の構成に組み直し、原文の長文の引用や逐語翻訳を避けた。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "cdca6de6c28b45ea33eaf5525c3035f2b5d3ceecc404fd6769fa68992817ec89",
+    "visitor_draft_sha256": "4899dfc0766d420341101f83dd0d6e3d33e95aa7f6cff965a3a2673e96a13465",
+    "proposal_sha256": "9df159df2180d74cee3e0894481be5c36d947bace34ca02633256f41f639511d",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_urls_bound",
+      "historical_image_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "作品IDと現行300件の一意性、対象版のJS正規化SHA、既存JPEG情報と提案変更なしを確認。Python登録ガードとsnapshot/CIはこの後GitHub Actionsで確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-13132.json",
+    "sha256": "9df159df2180d74cee3e0894481be5c36d947bace34ca02633256f41f639511d",
+    "proposed_artwork_sha256": "cdca6de6c28b45ea33eaf5525c3035f2b5d3ceecc404fd6769fa68992817ec89",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/frequently-asked-questions-image-and-data-resources",
+    "locations": [
+      "公式の個別ページにPublic Domain表示があり、Met OA/CC0画像と学芸員の文章の権利は別々に扱う。",
+      "今回の日本語本文は作成文であり、館の文章の長文転載や逐語翻訳ではない。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "登録する独自本文とPD対象画像の利用に、本記録に基づく重大な未解消問題は認めない。ただし法的な無条件の利用許諾・無侵害を保証しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "銅細工師 Met 00.6",
+    "JPEGハッシュ/HTTPは2026年10月の既存証拠であり新規検査ではない。",
+    "同一AI別工程・別モデルによる独立審査ではない。",
+    "既存選定資料・感情タグ・対象外299作品を変更しない。"
+  ]
+}
