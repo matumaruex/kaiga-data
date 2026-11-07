@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437479",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "3b8d6fa9f28e07d6dfcd1e17ddb1376c675a1fff",
+    "artwork_record_sha256": "02290dac393d3c8fd0a92fabee4cf2df784453d13458f740e1c1353939cae822",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437479.json",
+    "draft_sha256": "02e08a6a2ac8c3b6557c36ccbada7e56b69b2768f4b8bcb750529d296e17ab19"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437479",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 35.40.1 Overview：1775年サロンに出品。ディドロによる習作に見えるという批評。ロベールが大画面でもスケッチ風の筆遣いを意識的に採用。",
+        "Met Overview：対作品35.40.2とともに金融家François Bergeret de Frouvilleによる依頼。横乗り女性像はFrançois Boucherから。Artwork Details：ca.1773–75、oil on canvas、Hubert Robert、Public Domain。"
+      ],
+      "observed": "Met公式コレクションページを本文執筆と内容審査の別パスで確認。批評家ディドロの言葉の引用ではなく事実の要約にとどめる。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437479",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP264408.jpg",
+      "sha256": "aa8a96903fa69dc88a56c46cc139f73a0a55f1ebb60b5bf314687b91f0f79e59",
+      "byte_length": 1655411,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10のMet公式画像DP264408原寸JPEGの全量SHA履歴を継承。今回新規取得せず。"
+    },
+    {
+      "id": "met-437479",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP264408.jpg",
+      "sha256": "9730de0339411bc7bc9be3d8438b2dcd792148e7d6e5b591ddf78ff440885617",
+      "byte_length": 201048,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "DP264408 web-large JPEGの2026-10全量SHA履歴を再利用。今回のハッシュ測定ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met 35.40.1の現行公式作品画像DP264408を視認し、登録主画像名と画面の対応を照合。旧画像バイトのSHAは2026年10月履歴。",
+    "observed": "縦長の大画面で古い石造建築の高い壁と柱、牛たちを導く人、人物群、金色がかった明るい背景がある。人物は廃墟に対して小さく見える。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "日本語本文作成後に公式作品概要と作品データを再確認し、作者・制作年代・サロン出品・注文主・対作品・批評とブーシェからの借用表現を照合。『帰還』を故郷への特定の郷愁と取り違えない。",
+    "limitations": "同一AIによる別工程照合で別モデルまたは第三者審査ではない。画像全バイトハッシュは2026-10の証拠を継承し、本回新規取得なし。",
+    "reviewed_artwork_sha256": "02290dac393d3c8fd0a92fabee4cf2df784453d13458f740e1c1353939cae822",
+    "reviewed_visitor_draft_sha256": "02e08a6a2ac8c3b6557c36ccbada7e56b69b2768f4b8bcb750529d296e17ab19",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 35.40.1《The Return of the Cattle》、Hubert Robert、ca.1773–75、oil on canvas、公式画像DP264408で同定。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metの説明にある1975年ではなく1775年のサロン、対作品との依頼、ディドロの批評と横乗り人物のブーシェ由来を区別して保持。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存感情タグ0件・強度空欄を維持。題名から憧れや郷愁を勝手に採用せず、制作意図と鑑賞者の受け止め方を分ける。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "所蔵館の英文を長文転載・逐語翻訳せず、画面描写と具体的資料を独自の日本語解説に組み直した。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "02290dac393d3c8fd0a92fabee4cf2df784453d13458f740e1c1353939cae822",
+    "visitor_draft_sha256": "02e08a6a2ac8c3b6557c36ccbada7e56b69b2768f4b8bcb750529d296e17ab19",
+    "proposal_sha256": "0fe891d3c20d211accd4be836f345acd1c8902516b975ba5d8d6b7088fd91357",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "差分・版・構造の事前照合であり、GitHub Actions CIはPR後に別確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437479.json",
+    "sha256": "0fe891d3c20d211accd4be836f345acd1c8902516b975ba5d8d6b7088fd91357",
+    "proposed_artwork_sha256": "02290dac393d3c8fd0a92fabee4cf2df784453d13458f740e1c1353939cae822",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "MetのPublic Domain作品画像のOpen Access/CC0公開方針と当該作品のPublic Domain表示。",
+      "館の学芸文章の著作権を画像のCC0扱いにせず、独自の日本語解説を新規執筆した。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "画像と独自解説のDB利用に重大な未解消の権利問題を認めなかったという審査判断で、法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met 35.40.1《The Return of the Cattle》。「帰還」を確定的な作者の郷愁としない。",
+    "画像の新規SHAではなく2026-10の履歴継承。同一AI別工程。"
+  ]
+}
