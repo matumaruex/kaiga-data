@@ -1,0 +1,112 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "aic-30901",
+  "baseline_commit": "9d3aaab672c387419f3402613303e2de08c5b5c5",
+  "baseline_artwork_sha256": "8f9486609a7957a73bea7f66a39baa8dd8ea86c6ef805081315dcb391c5bcc99",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "evidence_url"
+      ],
+      "before": "https://www.artic.edu/collection?classification_ids=european+painting%3Bpainting%3Boil+paintings+%28visual+works%29&page=8&sort_by=artist_title",
+      "after": "https://jhna.org/articles/hendrick-ter-brugghen-crucifixion-new-york-turin-problem-early-chronology/",
+      "reason": "旧sourceはAIC作品個別ではない汎用作品一覧。作品特定の学術誌JHNA（1969.3の図版）へ置換。",
+      "source_urls": [
+        "https://jhna.org/articles/hendrick-ter-brugghen-crucifixion-new-york-turin-problem-early-chronology/"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation"
+      ],
+      "before": {
+        "summary": "捕らえられたキリストをペテロが知らないと言った新約聖書の逸話。後に深く悔やむことが知られる聖人の弱さ・恐れが物語の核。",
+        "source_url": "https://www.artic.edu/collection?classification_ids=european+painting%3Bpainting%3Boil+paintings+%28visual+works%29&page=8&sort_by=artist_title"
+      },
+      "after": {
+        "summary": "新約聖書マルコ14章の大祭司邸中庭でのペテロの否認が主題。指をさす女中、火で照らされる人々、暗がりのペテロが場面を示す。ペテロがのちに泣いて悔やむ物語と絵画の一瞬の描写は別。ビオラ大学の鑑賞解説も後悔を宗教的読解として述べており、画家自身の自伝的証言ではない。",
+        "source_url": "https://ccca.biola.edu/lent/2026/peter-denies-christ"
+      },
+      "reason": "旧AIC汎用一覧だけでは補足されない、画面の人物関係・聖書の該当場面・後の悔恨と画面の区別を現行の作品別研究に基づき明確化。",
+      "source_urls": [
+        "https://ccca.biola.edu/lent/2026/peter-denies-christ"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "1620年代オランダで、カラヴァッジョ風の劇的な光と現実的な人物像を使った宗教画。",
+      "after": "オランダの画家ヘンドリック・テル・ブリュッヘンはイタリアで接したカラヴァッジョ流の強い明暗を帰国後の宗教画にも用いた。JHNAのWayne Franitsはシカゴ美術館蔵1969.3の《聖ペテロの否認》を1626〜27年頃の油彩と記録し、同主題のロンドンの別作品の真筆性には疑問を示している。",
+      "reason": "AIC作品別の同定を高品質の査読誌で補強し、同題別作品の鑑定問題を明確化。",
+      "source_urls": [
+        "https://jhna.org/articles/hendrick-ter-brugghen-crucifixion-new-york-turin-problem-early-chronology/",
+        "https://ccca.biola.edu/lent/2026/peter-denies-christ"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "灯火や身振りをめぐる複数人物のやり取り。",
+      "after": "中庭を思わせる暗い室内の焚き火、左の暗がりにいるペテロ、右側から身を乗り出し左へ指をさす女中、火を囲む兵士や奥の人物。焚き火の明暗によって視線・指先・否認の緊迫感が強調される。",
+      "reason": "対象作品の公開画像とBiola大学の作品固有の図像解説に照合し、人物の方向・役割を具体化。",
+      "source_urls": [
+        "https://ccca.biola.edu/lent/2026/peter-denies-christ",
+        "https://jhna.org/articles/hendrick-ter-brugghen-crucifixion-new-york-turin-problem-early-chronology/"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "before": "ペテロによる否認と悔悟は聖書の物語である。作者自身の不安・後悔の証拠はなく、未練は取り返しのつかない言葉への連想として弱いタグに留める。",
+      "after": "ペテロの三度の否認・後の悔恨は聖書の物語の展開。描かれているのは女中に問いただされる場面で、泣くペテロの姿ではない。作者自身の『不安』や『未練』という心理の証拠はない。弱い『未練』タグは物語後半の悔恨に接続する鑑賞上の入口に限定。",
+      "reason": "既存主不安/副未練を後の後悔と画面の構図から切り分ける。",
+      "source_urls": [
+        "https://ccca.biola.edu/lent/2026/peter-denies-christ"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "fitting_situations"
+      ],
+      "before": [
+        {
+          "situation": "怖さから大事なことを否定してしまい、あとから悔いている",
+          "reason": "捕らえられたキリストをペテロが知らないと言った新約聖書の逸話。後に深く悔やむことが知られる聖人の弱さ・恐れが物語の核。",
+          "strength": 2
+        }
+      ],
+      "after": [
+        {
+          "situation": "怖さから大切なことを否定してしまい、あとから悔いている",
+          "reason": "焚き火の場で女中の問いにイエスとの関係を否定するペテロを描き、聖書ではその後の後悔へ続く。絵画自体は問いただされる瞬間であり後悔の場面は描かれない。",
+          "strength": 2
+        }
+      ],
+      "reason": "選定時に前景の否認と続く物語の悔恨を誤同一視しないため、根拠を説明。",
+      "source_urls": [
+        "https://ccca.biola.edu/lent/2026/peter-denies-christ"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/aic-30901.json",
+  "visitor_draft_sha256": "ee9239ff6078a3692dd9f9237bde369cd9f76a9919f6bd01a588d96107b68ca2",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "45f633314f76b9c48678af1c195cb385096e6b04aeda85494a23e3bfd2a3b52c",
+  "explanation": "査読誌JHNAの1969.3同定とBiola大学の作品固有の図像・マルコ福音書の物語を直接照合。旧出典の単なるAICコレクション汎用検索を置換し、別画との混同を予防。感情は主不安2/副未練1を物語と画面の区別つきで維持。"
+}
