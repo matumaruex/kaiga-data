@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-438130",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "2f6d568017fa6cff448547d1ddcee1a90baf5f2d",
+    "artwork_record_sha256": "c78676ce08e9b367ee4a79e1f336b52fcfe0c86da1ae4eafd233e5e7104cee1b",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-438130.json",
+    "draft_sha256": "c62940e128ee3eba04ceeeb99872dda05545945014dde9f9fbb845fb8b03efdb"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/438130",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overview：仮面morette・ヴェールbautte・2月カーニバル・防寒小屋felzi、青と白の制服の男性と当時の奴隷・解放民のゴンドラ業。",
+        "Met Artwork Details：Giovanni Domenico Tiepolo、mid-1760s、oil on canvas、2019.141.20、Public Domain。"
+      ],
+      "observed": "2026-11-07に公式Met作品ページを本文執筆時と再照合時に確認。社会史を画中の個人の身分へ断定的に適用しない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-438130",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT209325.jpg",
+      "sha256": "c965c2bf20920a6b662328b3ac8511b3bba1a0378dd65bceadfbf5bf1859d5d5",
+      "byte_length": 2078374,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の画像DT209325全JPEG SHA/byte数の履歴。新規取得ではない。"
+    },
+    {
+      "id": "met-438130",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT209325.jpg",
+      "sha256": "4801d7c34edd5c3d8caef96691963ef0825a2c420850fa0396a4246e2207689d",
+      "byte_length": 77934,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10 Met web-large DT209325登録JPEGの既存バイト記録を継承。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met所蔵番号2019.141.20に一致する同作の図像を確認し、登録Met原画像名DT209325と照合。登録全JPEGバイトSHAは2026-10履歴。",
+    "observed": "細長い横長画面、左の柱のそばに黒い外套と仮面をつけた人物、運河のゴンドラ・二人の青白い制服の男性と小さな覆いのついた客室を確認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文作成後にMet作品のOverviewとArtwork Detailsを別工程で再参照し、カーニバル衣装・船室の用途・男性二人とギルドに関する説明を照合。Metが個人の身分を確定していない点も確認。",
+    "limitations": "同一AIによる別パスであって別AI・第三者の独立監査ではない。JPEG全量の再取得は行わず過去SHAを利用。",
+    "reviewed_artwork_sha256": "c78676ce08e9b367ee4a79e1f336b52fcfe0c86da1ae4eafd233e5e7104cee1b",
+    "reviewed_visitor_draft_sha256": "c62940e128ee3eba04ceeeb99872dda05545945014dde9f9fbb845fb8b03efdb",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 2019.141.20、Giovanni Domenico Tiepolo、mid-1760s、Oil on canvas、DT209325系画像を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met公式は仮面・防寒用船室・ゴンドラの労働と奴隷／解放民に言及。特定の二人の法的身分と区別。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存感情タグ0は維持。優雅な水辺だからと『喜び』『懐かしさ』を推測追加しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "館解説の英語を逐語翻訳せず、作品画面の記述と資料の社会史情報を自然な日本語に再構成。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "c78676ce08e9b367ee4a79e1f336b52fcfe0c86da1ae4eafd233e5e7104cee1b",
+    "visitor_draft_sha256": "c62940e128ee3eba04ceeeb99872dda05545945014dde9f9fbb845fb8b03efdb",
+    "proposal_sha256": "86e9b0bb7a4d11aaefc78d6bfefd1f046a9f8ce0257f065f312e2e1febe7f751",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "保存前の版・構造整合確認。CIはPR作成後に別途確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-438130.json",
+    "sha256": "86e9b0bb7a4d11aaefc78d6bfefd1f046a9f8ce0257f065f312e2e1febe7f751",
+    "proposed_artwork_sha256": "c78676ce08e9b367ee4a79e1f336b52fcfe0c86da1ae4eafd233e5e7104cee1b",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met公式Open AccessはPDと表示される作品画像をCC0で提供。",
+      "所蔵館解説文と画像の権利を混同せず、紹介文を独自日本語で執筆した。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "DBへ保存する独自本文とPD表示の登録画像に重大な未解消の利用問題を認めないとの判断。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met 2019.141.20《The Departure of the Gondola》は父Giovanni Battistaの別作品と混同しない。",
+    "画像JPEG SHAは2026-10の証拠再利用、同一AIによる別工程。"
+  ]
+}
