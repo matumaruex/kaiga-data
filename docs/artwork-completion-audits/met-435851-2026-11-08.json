@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435851",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "e3f5f3fa107bafd84029c9c597cd143ede9a427b",
+    "artwork_record_sha256": "9bc52903557f74d46eec98061b8c165c44a5215273f32f5353c1f09c08a5e47f",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435851.json",
+    "draft_sha256": "3ef596bd3959d4fb187913f99e527367a6dfa408d5dda08d368580d63241f501"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435851",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overview: Job, Saint Jerome, broken throne, crown of thorns, contrasting barren/lush background.",
+        "Met Artwork Details: Vittore Carpaccio, c.1490 (1480–1510), Oil and tempera on wood, 11.118, Public Domain."
+      ],
+      "observed": "Metの現在の公式作品概要と日本語・英語ページを再参照し、『ヨブ記』と宗教的解釈を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435851",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP296427.jpg",
+      "sha256": "af35ff47553ce437b24b7439ca2ac4afee30764d67ca78693ed55ededc801f4e",
+      "byte_length": 2982135,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の登録Met原版・表示版JPEG全量SHA履歴を継承。今回のHTTP200や全量再取得ではない。"
+    },
+    {
+      "id": "met-435851",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP296427.jpg",
+      "sha256": "79ccb719c78aea700f231af0db4e91bbcdb371a89b0bc4f8437a436ae3f07339",
+      "byte_length": 112465,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の登録Met原版・表示版JPEG全量SHA履歴を継承。今回のHTTP200や全量再取得ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品番号11.118の高解像図版DP296427（公式由来の公開画像）を視認。2026-10登録JPEG全量SHA履歴と同定IDを比較。",
+    "observed": "中央で頭を垂れるキリスト、足元の冠、左右に座る老人、右の髑髏、左の岩山と右の豊かな田園が確認できる。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文案の作成後、Met英語・日本語の作品紹介を別パスで照合。画像DP296427の人物配置と左右の風景を再確認し歴史解釈を点検。",
+    "limitations": "同一AIによる別工程で、別AIや第三者による独立監査ではない。登録JPEG全量SHA再測定なし。",
+    "reviewed_artwork_sha256": "9bc52903557f74d46eec98061b8c165c44a5215273f32f5353c1f09c08a5e47f",
+    "reviewed_visitor_draft_sha256": "3ef596bd3959d4fb187913f99e527367a6dfa408d5dda08d368580d63241f501",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 11.118／Vittore Carpaccio／ca.1490、油彩とテンペラの板絵、Public Domain。登録DP296427と図像を照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met Overview記載のヨブ・聖ヒエロニムスと受難／復活への解釈、左右の風景の対照を、説明の確実性に応じて区別。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存『畏敬』主2、『悲しみ』補助1を保持し、悲哀だけで死と復活の宗教的主題を上書きしない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "館の紹介の逐語翻訳や長文複製を避け、別構成の日本語鑑賞文にし、画像CC0と館の本文著作権を混同しない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "9bc52903557f74d46eec98061b8c165c44a5215273f32f5353c1f09c08a5e47f",
+    "visitor_draft_sha256": "3ef596bd3959d4fb187913f99e527367a6dfa408d5dda08d368580d63241f501",
+    "proposal_sha256": "a6de918d50f844727f7a5deba7ce7b25df0c07622759897a1ad19de6de2e6bac",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "版・形式・対象外不変性を事前点検。GitHub Actionsの結果はPR後に別途検査。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435851.json",
+    "sha256": "a6de918d50f844727f7a5deba7ce7b25df0c07622759897a1ad19de6de2e6bac",
+    "proposed_artwork_sha256": "9bc52903557f74d46eec98061b8c165c44a5215273f32f5353c1f09c08a5e47f",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met所蔵ページはPublic Domain、Open Access画像をCC0として配信。",
+      "画像の公開許諾と館の解説文の再利用条件を別に扱い独自本文を作成。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "DB保存を妨げる重大な未解決利用条件を認めない範囲の判断であり法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "別の学芸員や別AIの独立監査と称さない。",
+    "原版・表示版JPEGのバイトハッシュは2026-10記録から継承。"
+  ]
+}
