@@ -1,0 +1,141 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436724",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "892d6446c39625135936c7c9923fd1500153b2fe",
+    "artwork_record_sha256": "3965bd542e4251d58e282391127d8fb9251eaea1e88334b691af866494f92811",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436724.json",
+    "draft_sha256": "5a7a91e7c646ff6dbab5b381fe2c9f7222051be11a6718d56991b18e986cd74b"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436724",
+      "access": "page_read_twice",
+      "locations": [
+        "Met current official page: Expectation, Jozef Israëls Dutch, oil on canvas, 71 1/2 x 54 in, 87.8.13, Public Domain. No Date value listed.",
+        "The official main-image IIIF link 436724/797220/main-image produced cache miss; current image not directly rendered."
+      ],
+      "observed": "現行Met公式作品ページを直接開き、検索索引にある作品題名・作者・所蔵番号・権利表示も別工程で再読した。"
+    },
+    {
+      "url": "https://libmma.contentdm.oclc.org/digital/api/collection/p15324coll10/id/21004/download",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Library 1922 Catalogue of Paintings digitized standalone page, printed page 143, entry IS7-2 EXPECTATION: full-length seated Dutch peasant woman sewing a baby's cap, sewing materials on willow cradle to left, pot of flowering plants on table to right.",
+        "The same 1922 Catalogue also retrieved through another digitized full PDF edition and search text, allowing cross-check of exact scene without substituting another Israëls work. PDF screenshot rendering was attempted but failed with cache miss."
+      ],
+      "observed": "Metのスキャン目録の対象ページのテキストを直接取得し、同館の1922年完全版PDF索引テキストで別パス再確認。閲覧ツールのスクリーンショット取得はキャッシュ失敗と記録。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436724",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/ep87.8.13.R.jpg",
+      "sha256": "e237055708f110e75df0f7496bbf463b0327b8870b7987053a4ea7976e76c7ef",
+      "byte_length": 365551,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 Met公式Object API primaryImage原版JPEG全量SHA256記録を継承。今回新規実ファイル取得なし。"
+    },
+    {
+      "id": "met-436724",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/ep87.8.13.R.jpg",
+      "sha256": "952aafa5314cc8582430575be476272a19cced1ead3d5ad62fffb6c9cec08ad9",
+      "byte_length": 45764,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10 Met web-large JPEG HTTP200・全量SHA256記録を継承。今回新規実ファイル取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "2026-10 Met API primaryImage・旧JPEG全量SHAと収蔵ID一致記録、Met所蔵番号87.8.13が明記されたWikimedia CommonsのMet寄贈画像ページを照合。1922年Met目録の作品固有の図像説明を参照。今回写真のピクセルを直接開く操作は失敗した。",
+    "observed": "画像内容の記述はMet1922年の印刷目録に由来：座った女性が赤ん坊の帽子を縫い、左に柳の揺り籠と裁縫道具、右に花の鉢。Commonsは同題・同所蔵番号で元原版と同じ1337×1795のファイルを記録。今回は画像直接視認なし、史料・同定・先行ハッシュを合わせて判断。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初稿後にMet現行所蔵情報と1922年図像目録を別パスで比較。制作年不明のまま維持、他作の窓辺で縫う女性との混同、女性が妊娠している等の未証明な解釈、単なる題名からの心理断定を避けているか点検した。",
+    "limitations": "同じAIによる別工程で別AI・第三者監査ではない。今回Met画像の直接描画はキャッシュ失敗。2026-10のMet primaryImage URL/全量SHA記録と、所蔵館の1922年個別図像説明で間接照合し、今回新規の実画像直接確認を装わない。PDFスクリーンショットもキャッシュ失敗で内容はPDF抽出テキストから確認。",
+    "reviewed_artwork_sha256": "3965bd542e4251d58e282391127d8fb9251eaea1e88334b691af866494f92811",
+    "reviewed_visitor_draft_sha256": "5a7a91e7c646ff6dbab5b381fe2c9f7222051be11a6718d56991b18e986cd74b",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 87.8.13、Jozef Israëls、《Expectation》、油彩キャンバス、181.6×137.2cm、現行ページに制作年欄なし。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1922年Met目録の赤ん坊の帽子・柳の揺り籠・花の鉢を用いて旧『情景解説乏しい』記録を補強。人物の身元や具体的未来は不明として扱う。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存感情タグ0・tones余韻/落ち着きは維持。赤ん坊の帽子だから作者や人物が喜び・期待を感じたとの証拠にはしない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Met現行データと1922年目録から図像要点のみ取材。目録の英文を長文逐語翻訳せず独自の3段落を執筆。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "3965bd542e4251d58e282391127d8fb9251eaea1e88334b691af866494f92811",
+    "visitor_draft_sha256": "5a7a91e7c646ff6dbab5b381fe2c9f7222051be11a6718d56991b18e986cd74b",
+    "proposal_sha256": "5714ae819f863730c80b41bd7c2e6e71f2225d0df117ebfc2eedfb33d278c750",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "基準版ハッシュ、他299件の不変更、旧画像記録・作品IDを事前点検。正式機械検証はPR後CI。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436724.json",
+    "sha256": "5714ae819f863730c80b41bd7c2e6e71f2225d0df117ebfc2eedfb33d278c750",
+    "proposed_artwork_sha256": "3965bd542e4251d58e282391127d8fb9251eaea1e88334b691af866494f92811",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met当該ページのPublic DomainとOpen Access画像のCC0を公式ポリシーで照合。",
+      "1922年Met目録の事実内容だけを参照して独自日本語本文を制作。PDFの文章と画像の権利を混同せず原文長文を転載しない。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "DBに保存する画像はMet公開のCC0、独自日本語解説は史料の情報のみから制作。保存上の重大な未解決権利条件を認めない範囲の判断で、法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "1922年のMet所蔵目録の当該作品記述を新たに根拠として採用。",
+    "制作年を第三者サイトの推定値で上書きしない。",
+    "登録JPEG新規取得も画像直接目視も今回行っていないと明記。",
+    "同一AI別工程。"
+  ]
+}
