@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436174",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "f60093dfc82e27eb581e0fa1f191689488f5f0e0",
+    "artwork_record_sha256": "3a10e6b0434699e535398e455cfd63cbe98d438262718a7b049178bcfce01cc4",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436174.json",
+    "draft_sha256": "9aa7c9a26a9abf804c65a2a405a43107632d84372be3cd986d192326d3532540"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436174",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overview：洗濯女の熟練した反復動作、同構図3作中最初、フォールによる購入・補筆・1876年印象派展。",
+        "Met Artwork Details：Edgar Degas、1873、29.100.46、Public Domain。"
+      ],
+      "observed": "公式文中の画家の関心・制作経緯と画中の女性の内心を区別。制作時点・同版を再確認した。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436174",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1910.jpg",
+      "sha256": "32a867627ef07c553929550fbc41f553b01cb2a5101f994e37d8e625c9709f0d",
+      "byte_length": 3130390,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met DT1910の2026-10-20全JPEG SHA履歴を再利用。今回再取得していない。"
+    },
+    {
+      "id": "met-436174",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1910.jpg",
+      "sha256": "52b649f154d8a9dc158bbd99a715cb08e9af235c9ebfea7bc0dd7bfc2a63d6fc",
+      "byte_length": 106164,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met DT1910 web-largeの過去JPEGハッシュ・配信成功を継承。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met 29.100.46の公式図像と同作の公開画像を視認し、明るい白背景の人物像と登録DT1910を照合。JPEGバイトハッシュは旧証拠を継承。",
+    "observed": "白く明るい背景の前で体をかがめてアイロンを押す女性、輪郭を強調する暗い身体と背景の対比を確認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "日本語本文の執筆と別の照合パスでMet Overview・Artwork Details・同一作品図像を確認。3点の同構図・フォールの所蔵経緯・後の印象派展展示の範囲を再確認。",
+    "limitations": "同じAIの別工程で第三者・別AI監査ではない。登録JPEGの全量SHAは2026-10-20履歴で今回新規ダウンロードなし。",
+    "reviewed_artwork_sha256": "3a10e6b0434699e535398e455cfd63cbe98d438262718a7b049178bcfce01cc4",
+    "reviewed_visitor_draft_sha256": "9aa7c9a26a9abf804c65a2a405a43107632d84372be3cd986d192326d3532540",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 29.100.46、Degas、1873、oil on canvas、対応画像DT1910を照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "画家の女性労働の反復動作への関心、同版3点、フォール購入と1876年展示を確認。心理的苦痛などは断定しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "感情タグ0件を維持。労働の場面を悲しみ・不安等へ恣意的に分類しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "原資料の事実を独自の日本語で再構成。Met学芸解説の長文翻訳・丸写しではない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "3a10e6b0434699e535398e455cfd63cbe98d438262718a7b049178bcfce01cc4",
+    "visitor_draft_sha256": "9aa7c9a26a9abf804c65a2a405a43107632d84372be3cd986d192326d3532540",
+    "proposal_sha256": "b7e865240c29cdb6eaa4bf5ed07403a964aab81f0b8d81d0ab56f61708ce6f64",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "構造・版ハッシュ等の事前検証。GitHub CIは後から別途確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436174.json",
+    "sha256": "b7e865240c29cdb6eaa4bf5ed07403a964aab81f0b8d81d0ab56f61708ce6f64",
+    "proposed_artwork_sha256": "3a10e6b0434699e535398e455cfd63cbe98d438262718a7b049178bcfce01cc4",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met公式はPublic Domain表示。Met Open AccessはPD作品画像をCC0提供。",
+      "館の学芸文章はCC0画像と同じ権利ではないため独自日本語を作成し、転載・逐語翻訳を行わない。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "今回の独自日本語と既存PD画像のDB利用に重大な未解消事項を認めないレビュー判断。非侵害の法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "展示は労働の身振りを観察する絵として捉え、作者や人物の内心を推測しない。",
+    "2026-10-20の旧JPEGバイト証拠を継承。"
+  ]
+}
