@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437170",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "4653d61b132cce9041f3d0059a2e2cb454145f38",
+    "artwork_record_sha256": "5aa20075a9b173e4511c0c6ba7188bcbf0bc3d84ef6d23165e50b9228389d6c9",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437170.json",
+    "draft_sha256": "3c1efed9d77d504eec8ed85e82b3d1cd843dcb0d3a837d0ae580a4d578282add"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437170",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overview：1874年に画家がフランス人将軍の未亡人と結婚、ヴィリエ通りの家の豪華な音楽室、リストの演奏、1878～1887年の住居の題材化。",
+        "Met Artwork Details：Mihály Munkácsy、1878、Oil on wood、08.136.11、Public Domain。"
+      ],
+      "observed": "画家の住居の実際の社交用途を確認し、リストが画中に描かれたとは主張しない。制作年代と画中室内の同定を照合。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437170",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT224403.jpg",
+      "sha256": "174049b3f6a8799f517e865f4d0bcf4969ef6c93ab6a4ab6aae22ab14fac896b",
+      "byte_length": 2872182,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet DT224403原版JPEGの全バイトSHA256を旧記録として継承。今回全量再取得なし。"
+    },
+    {
+      "id": "met-437170",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT224403.jpg",
+      "sha256": "d09f3008865b94524cc0d19b17abb4c12dc225d54600bd41892654e6b28cd6cf",
+      "byte_length": 117078,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet web-large DT224403の過去バイト・SHA256確認を継承。新たなHTTP200ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品と同一所蔵番号08.136.11の公開図版（同作絵画の複製）を視認し、登録DT224403に付されたID・所蔵番号と比較。JPEG SHAは旧検証記録。",
+    "observed": "室内の中央付近にピアノ、楽器を囲む着飾った女性たち、赤い絨毯、装飾品の並ぶ暖炉と壁面、鉢植えや額装画を確認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "執筆後、Met Overview・Artwork Detailsと同作品の公開図版を別パスで読み直し。1872年パリ移住、1874年結婚、1878年制作、リストの演奏があった場所という事実と画中人物を区別して再確認。",
+    "limitations": "同一AIの別工程であり別モデル・第三者の独立監査ではない。登録JPEGの全量SHAは2026-10記録を再利用し今回新計測なし。",
+    "reviewed_artwork_sha256": "5aa20075a9b173e4511c0c6ba7188bcbf0bc3d84ef6d23165e50b9228389d6c9",
+    "reviewed_visitor_draft_sha256": "3c1efed9d77d504eec8ed85e82b3d1cd843dcb0d3a837d0ae580a4d578282add",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 08.136.11、Mihály Munkácsy、1878、Oil on wood、登録DT224403の同作品画像を照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "実在した画家のパリの音楽室で演奏会・リストの演奏があり、後の絵の舞台にもなったという館の説明を確認。画中にリストがいるとは断定しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存感情0件維持。華やかな交流の記録を直接の『喜び』診断に置き換えない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "館の所蔵情報と独自の画面観察・日本語構成を区別し、まとまった説明の直訳・転載をしない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "5aa20075a9b173e4511c0c6ba7188bcbf0bc3d84ef6d23165e50b9228389d6c9",
+    "visitor_draft_sha256": "3c1efed9d77d504eec8ed85e82b3d1cd843dcb0d3a837d0ae580a4d578282add",
+    "proposal_sha256": "c82b32d576286908e892c996a30dbb11c6d1a1f1929f6627ae1db9d91a32b3db",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "事前の対象版・形式・他299件不変の整合点検。CI結果はPR後の別工程で確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437170.json",
+    "sha256": "c82b32d576286908e892c996a30dbb11c6d1a1f1929f6627ae1db9d91a32b3db",
+    "proposed_artwork_sha256": "5aa20075a9b173e4511c0c6ba7188bcbf0bc3d84ef6d23165e50b9228389d6c9",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met作品ページにPublic Domain表示、Open Access対象画像をCC0で提供。",
+      "画像の権利と学芸解説の権利を区別し、日本語解説は出典の必要事実に基づく独自の文章とした。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "登録済みPD画像と独自日本語をDBへ保存するうえで重大な未解決の利用条件を認めないというレビュー判断。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met公式の『リストがこの部屋でときどき演奏した』と『この絵にリストを描いた』を混同しない。",
+    "旧2026-10 JPEG SHA履歴を使用、同一AI別工程。"
+  ]
+}
