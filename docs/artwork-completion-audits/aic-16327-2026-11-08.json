@@ -1,0 +1,118 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-16327",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "0bcaebc2a5ff9baf0cd109dd9e815738e27ba907",
+    "artwork_record_sha256": "020663aa9e2aa8968f5dd07b8ab8eaa8383a2cb9cdbb363980c31194635ad141",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-16327.json",
+    "draft_sha256": "12c204d305db76f98ccc51c96c3ffa24123438d28f1372f3c9cc22f6e3a236d8"
+  },
+  "sources": [
+    {
+      "url": "https://archive.artic.edu/kings-queens/artwork/16327",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC Essential Guide 2009 p.186: Jean Hey 1490/95, accession 1933.1062, oil on panel, Annunciation, Incarnation, right wing fragment of altarpiece, left panel London, central panel lost, Duke Pierre II and Anne of France."
+      ],
+      "observed": "AIC公式旧展覧会作品ページを2回開き、題材・年代・祭壇画左右の関係を実際に照合。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-16327",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Jean_Hey%2C_%28the_Master_of_Moulins%29_-_The_Annunciation_-_1933.1062_-_Art_Institute_of_Chicago.jpg/960px-Jean_Hey%2C_%28the_Master_of_Moulins%29_-_The_Annunciation_-_1933.1062_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "3407ddfd8cf10f671c0188669e3a024535f0e0b06a5eff1b4865a722d0f95e13",
+      "byte_length": 426885,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18の登録画像台帳のHTTP200/JPEG SHA256照合履歴。同一登録画像を今回は再取得していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "AIC公式作品ページに描画される画像と同所蔵番号1933.1062の公開作品画像を視覚的に対照。登録JPEGについては旧SHA証拠を引き継ぐ。",
+    "observed": "左に緑衣のガブリエルと翼・柱、右に青衣赤マントのマリアと本、間に白い鳩。AIC 1933.1062の構図に一致し、別のジャン・エイ祭壇画左翼と混同していない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文作成後、AIC公式解説の1500年前後の制作・左右祭壇画の位置・中央欠損を独立の再読パスで確認。『中心には必ず聖母子があった』と断言せず可能性に留め、作者の内面を推定しないか点検。",
+    "limitations": "同一AIの別パスで別のAI・第三者審査ではない。今回登録済みJPEGのHTTP全量取得をせず、2026-10の旧バイトSHAを継承。旧AIC作品ページは展覧会アーカイブ。",
+    "reviewed_artwork_sha256": "020663aa9e2aa8968f5dd07b8ab8eaa8383a2cb9cdbb363980c31194635ad141",
+    "reviewed_visitor_draft_sha256": "12c204d305db76f98ccc51c96c3ffa24123438d28f1372f3c9cc22f6e3a236d8",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Jean Hey / Master of Moulins、1490/95、AIC 1933.1062、板油彩の受胎告知。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "AICは右祭壇画断片、ロンドン左翼のマリア両親の出会い、失われた中央の聖母子可能性、ブルボン家の庇護を説明。本文はその範囲に限定。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『希望』2、補助『期待』1は受肉・救済と告知の主題に対する展示の入口として維持し、作者が希望を描こうとしたという証拠にはしない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "一次解説の情報を参照して日本語3段落を独自に構成。長文逐語訳・原文転載なし。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "020663aa9e2aa8968f5dd07b8ab8eaa8383a2cb9cdbb363980c31194635ad141",
+    "visitor_draft_sha256": "12c204d305db76f98ccc51c96c3ffa24123438d28f1372f3c9cc22f6e3a236d8",
+    "proposal_sha256": "f77f6b1906fbc962506a302a9cec243567e140ddf6a9425947f7ef931c64d055",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "old_jpeg_hash_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "レビュー対象レコードを哈希固定し、正式構造検証と全体スナップショットはPRのGitHub CIで実行する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-16327.json",
+    "sha256": "f77f6b1906fbc962506a302a9cec243567e140ddf6a9425947f7ef931c64d055",
+    "proposed_artwork_sha256": "020663aa9e2aa8968f5dd07b8ab8eaa8383a2cb9cdbb363980c31194635ad141",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jean_Hey,_the_Master_of_Moulins_-_The_Annunciation_-_1933.1062_-_Art_Institute_of_Chicago.jpg",
+    "locations": [
+      "AIC公式旧APIにis_public_domain_at_source=trueの記録、所蔵番号付きの旧Commons画像取得・ハッシュ記録がある。",
+      "現行のAIC解説は事実参照のみとし、作品説明の独立した日本語本文を新規執筆。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "歴史的絵画のPD記録と旧画像配信条件、文章非転載を区別し、DB保存に重大な未解決事項を認めないが法的保証はしない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "AIC展覧会アーカイブの作品内容を確認、左右・中央の祭壇画帰属を区別。",
+    "2026-10の旧画像SHAを継承、今回は新規取得なし。",
+    "監査は同一AI別工程。"
+  ]
+}
