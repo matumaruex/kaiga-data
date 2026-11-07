@@ -7,10 +7,10 @@
   "progress": "未完成",
   "version": {
     "baseline_commit": "ff36a91cdc204677215392feb930b9a098e36d68",
-    "artwork_record_sha256": "74e6238fc643ebad21eebc144be7fa9eb531a1626f369c98b57e9828d1301873",
+    "artwork_record_sha256": "fe7292cf6613442c4d28bab0c2e64094bcc31842c7fe7a2cc9164400a1005d60",
     "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
     "draft_path": "drafts/visitor-explanations/met-437354.json",
-    "draft_sha256": "2e935c517ff1246ff405f9b0877331f20e53f90d40a0825cfcaa60412db9b406"
+    "draft_sha256": "97da2180f6fc41975c67251e10940a1c6e7aaba81b9b9f369bcaf61566aadf52"
   },
   "sources": [
     {
@@ -61,8 +61,8 @@
     "separate_context_used": false,
     "method": "本文案作成後、Met公式Overview・作品詳細・公開図像を再点検し、年齢・義理のきょうだい・後年の家族史と現在の肖像描写を切り分けた。",
     "limitations": "同一AIの別パスであり別モデル・第三者の独立審査ではない。JPEGの全量再取得はせず2026-10の証拠を再利用。",
-    "reviewed_artwork_sha256": "74e6238fc643ebad21eebc144be7fa9eb531a1626f369c98b57e9828d1301873",
-    "reviewed_visitor_draft_sha256": "2e935c517ff1246ff405f9b0877331f20e53f90d40a0825cfcaa60412db9b406",
+    "reviewed_artwork_sha256": "fe7292cf6613442c4d28bab0c2e64094bcc31842c7fe7a2cc9164400a1005d60",
+    "reviewed_visitor_draft_sha256": "97da2180f6fc41975c67251e10940a1c6e7aaba81b9b9f369bcaf61566aadf52",
     "checks": [
       {
         "area": "identity",
@@ -84,9 +84,9 @@
   },
   "program_checks": {
     "result": "PASS",
-    "proposed_artwork_sha256": "74e6238fc643ebad21eebc144be7fa9eb531a1626f369c98b57e9828d1301873",
-    "visitor_draft_sha256": "2e935c517ff1246ff405f9b0877331f20e53f90d40a0825cfcaa60412db9b406",
-    "proposal_sha256": "1485962765e35e45c983212c43da3ae13108ef58bc3f8a0975fbdae77156e889",
+    "proposed_artwork_sha256": "fe7292cf6613442c4d28bab0c2e64094bcc31842c7fe7a2cc9164400a1005d60",
+    "visitor_draft_sha256": "97da2180f6fc41975c67251e10940a1c6e7aaba81b9b9f369bcaf61566aadf52",
+    "proposal_sha256": "0f230de4cc5ea12e78e924f9f737c7b6ed147a1cdabe066bd409a8cfae20426a",
     "checks": [
       "300_unique_ids",
       "other_299_unchanged",
@@ -101,8 +101,8 @@
   },
   "proposal": {
     "path": "drafts/artwork-revisions/met-437354.json",
-    "sha256": "1485962765e35e45c983212c43da3ae13108ef58bc3f8a0975fbdae77156e889",
-    "proposed_artwork_sha256": "74e6238fc643ebad21eebc144be7fa9eb531a1626f369c98b57e9828d1301873",
+    "sha256": "0f230de4cc5ea12e78e924f9f737c7b6ed147a1cdabe066bd409a8cfae20426a",
+    "proposed_artwork_sha256": "fe7292cf6613442c4d28bab0c2e64094bcc31842c7fe7a2cc9164400a1005d60",
     "applied_to_catalog": false
   },
   "rights_check": {
