@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436322",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "d36fb1178abe6ba5d904bb21512042bd7a1e7e0b",
+    "artwork_record_sha256": "1ee29839979f5236649bd1e1ce4f44e17969c762c74bdb22de764d87b1e34d55",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436322.json",
+    "draft_sha256": "74b92fcfffdf918bcb074e92ee570bbb6bdb4db9010c55214ea5d082bad28b9f"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436322",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overview：18世紀の油彩習作、完成作品としての即興的筆触、光の当たる帽子・顔・花束・服・犬。手紙と花束による画面外の物語、現行では肖像でなく風俗画とする説明。",
+        "Met Artwork Details：Fragonard、early 1770s、oil on canvas、49.7.49、Public Domain。"
+      ],
+      "observed": "Met公式作品ページを本文確認と別パスで読み直し。既存の日本語は現在の解説に即しており、別時代の肖像説と館の現在の判断を混ぜていない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436322",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-1014-001.jpg",
+      "sha256": "21f54f6847a0896938cc8a4d123807dac39f8e766b995c0c05f206c9c5a5c4f1",
+      "byte_length": 5886369,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet公式原版DP-1014-001 JPEG SHA256/寸法を履歴として継承。今回再取得していない。"
+    },
+    {
+      "id": "met-436322",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1014-001.jpg",
+      "sha256": "c2292c4f022dd15e21f0b38c642921bf6f3593c765ef50aac5c98d64eb8f05f1",
+      "byte_length": 150897,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "旧Met web-large DP-1014-001 JPEGのHTTP・SHA履歴。今回の新しいHTTP200計測ではない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met 49.7.49の公式作品図像DP-1014-001を画像参照として確認。原版・縮小版の登録識別子と対応させ、バイトSHAは2026-10の証拠を継承。",
+    "observed": "画面左の窓辺のテーブル、花束と手紙を持つ女性、白い帽子と青い衣服、右下の犬、顔に集まる光を確認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "既存解説の提出版を再度Met公式Overview・作品詳細・公開図像と照合。即興性と完成作、館の風俗画の判断、恋文の差出人の不確定性、出典の内容と言葉を点検。",
+    "limitations": "同一AI別パスであり第三者・別AI独立審査ではない。JPEG全量の新規ダウンロードはなく2026-10の記録を再利用。",
+    "reviewed_artwork_sha256": "1ee29839979f5236649bd1e1ce4f44e17969c762c74bdb22de764d87b1e34d55",
+    "reviewed_visitor_draft_sha256": "74b92fcfffdf918bcb074e92ee570bbb6bdb4db9010c55214ea5d082bad28b9f",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met所蔵番号49.7.49、Jean Honoré Fragonard、early 1770s、画像DP-1014-001を照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "完成した風俗画に油彩習作の即興的筆触を取り入れたという現行のMet解釈、17世紀の恋文絵画とVermeerの先例を確認。旧解釈は選定正本に留保として記載。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存の主『好奇心』2・補助『期待』1を保持。手紙の文面や相手・結末を断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "既存日本語解説を一字も修正せず、Met公式文のまとまった逐語翻訳・転載でない独自の説明と判断。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "1ee29839979f5236649bd1e1ce4f44e17969c762c74bdb22de764d87b1e34d55",
+    "visitor_draft_sha256": "74b92fcfffdf918bcb074e92ee570bbb6bdb4db9010c55214ea5d082bad28b9f",
+    "proposal_sha256": "ba24174b323b27eb06413771285d2dbf10d15938c05bde9ce53cbb95f054830d",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "事前の構造・対象外不変・ハッシュ整合チェック。GitHub CIはPR更新後に別途確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436322.json",
+    "sha256": "ba24174b323b27eb06413771285d2dbf10d15938c05bde9ce53cbb95f054830d",
+    "proposed_artwork_sha256": "1ee29839979f5236649bd1e1ce4f44e17969c762c74bdb22de764d87b1e34d55",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met作品ページはPublic Domain表示、Open Access/CC0は対象PD画像とデータに適用。",
+      "学芸員の文章の著作権と画像のCC0を混同せず、既存日本語本文の文言・構成を確認。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "今回の独自日本語本文・既存PD画像のDB登録を妨げる未解決の重大問題を認めないというレビュー判断。法的な保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "既存鑑賞者向け解説の版は変更しない。",
+    "新規JPEGのバイト再計測なし。同じAIの別工程監査。"
+  ]
+}
