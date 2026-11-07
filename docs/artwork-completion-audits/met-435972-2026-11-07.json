@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435972",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "a1c7faacc4f78629fba7d3e1ba9e9289c0a56722",
+    "artwork_record_sha256": "cf0df499665847af27e916be714a1457056835260a882f04187cc96738befe98",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435972.json",
+    "draft_sha256": "f9f5bb75add5c3b09e823c0905b91bb34af7566d65e529f74dc3a6cc25f641c3"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435972",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Honfleur: Calvary Overview：1628年に崖上に設けられた十字架祈祷所、オンフルール港への眺め、海へ出た人の帰りを祈る習慣。",
+        "Met Honfleur: Calvary Overview：probably 1830年のコローのノルマンディー旅行時に描画。Artwork Details：Camille Corot, ca. 1830, oil on wood, 1974.3, Public Domain. 画像DT10697。"
+      ],
+      "observed": "Met作品ページを本文制作前後に2パス直接再確認。『probably』を可能性として扱い、画家個人の祈りとは結びつけていない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435972",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT10697.jpg",
+      "sha256": "1a89b92f3ae418a5ba30c97d7d1bf70684394b281a36900d8994d471a8e2cb2c",
+      "byte_length": 3057761,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Met公式原寸画像DT10697の2026年10月の全量JPEG SHA/HTTP200履歴を継承。本回新規ダウンロードなし。"
+    },
+    {
+      "id": "met-435972",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT10697.jpg",
+      "sha256": "13d4b232bc2e5e42913504ae59100dce2e66aa4b3e6b8c7a264026326cf5a964",
+      "byte_length": 109444,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "登録web-large画像DT10697の2026年10月の全バイト照合記録。今回は再測定していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met 1974.3公式画像DT10697の視認と作品ページ・登録画像名を照合。既存JPEGのSHAは2026-10履歴。",
+    "observed": "手前に広がる緑と茶の木立、崖の高みに立つ十字架と小さな人物、背景の淡い海面・空、遠景の船の姿。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "日本語本文後にMet公式作品概要の1628年の祈祷所・巡礼の用途・1830年ノルマンディー旅行の推測と画像DT10697を再照合。希望は画家本人の確定感情ではないと確認。",
+    "limitations": "同じAIによる別工程であり別モデル・第三者の独立監査ではない。JPEGバイト検査は2026年10月の履歴を継承し本回再取得していない。",
+    "reviewed_artwork_sha256": "cf0df499665847af27e916be714a1457056835260a882f04187cc96738befe98",
+    "reviewed_visitor_draft_sha256": "f9f5bb75add5c3b09e823c0905b91bb34af7566d65e529f74dc3a6cc25f641c3",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 1974.3、Corot、ca.1830、oil on wood、公開画像DT10697を確認。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "祈祷所の1628年の設置と安全祈願はMet館の説明に依拠。旅行中の制作はprobablyで断定せず、作者の内心は不明とする。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存感情『希望』強さ2を維持し、海に出た人の無事を願う場の鑑賞入口として説明。作者の希望とは断定せず。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Metの長文説明を逐語的に転載せず、構図・景観・祈祷所の文化史を独自の日本語鑑賞本文にした。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "cf0df499665847af27e916be714a1457056835260a882f04187cc96738befe98",
+    "visitor_draft_sha256": "f9f5bb75add5c3b09e823c0905b91bb34af7566d65e529f74dc3a6cc25f641c3",
+    "proposal_sha256": "82f2a32049109aad8a11d2947b721c8e908b7a2c2bb2434df518678f539be872",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "版ハッシュ・事前構造検査でありGitHub Actions実測はPR後に別途確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435972.json",
+    "sha256": "82f2a32049109aad8a11d2947b721c8e908b7a2c2bb2434df518678f539be872",
+    "proposed_artwork_sha256": "cf0df499665847af27e916be714a1457056835260a882f04187cc96738befe98",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "MetのPublic Domain作品の画像をOpen Access CC0で提供する公式方針。",
+      "公式学芸文章の権利と画像利用は区別し、日本語説明は独自執筆。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "公式画像・独自説明のDB登録に重大な権利保留を認めなかったとのレビュー判断。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Corot《Honfleur: Calvary》Met 1974.3。祈祷所の歴史と作者の内心を区別。",
+    "2026-10のJPEG全量検証は履歴として継承。同一AI別パス監査。"
+  ]
+}
