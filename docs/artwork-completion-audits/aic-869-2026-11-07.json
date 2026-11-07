@@ -10,7 +10,7 @@
     "artwork_record_sha256": "1ff7d6cc550dc3d0a8655b27c4021d7b55a55df67b540153319c77d8fc72d429",
     "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
     "draft_path": "drafts/visitor-explanations/aic-869.json",
-    "draft_sha256": "d4c3ce219ef7d9dbee2cec89183446c36f0386a69e5161eeda1bddc19eff31d1"
+    "draft_sha256": "492ed823de1d5de2c1496f7bb3d069a48b4b1c790a8d3fb54a34dfecc041800f"
   },
   "sources": [
     {
@@ -29,6 +29,22 @@
         "AIC API docs: CC0 metadata, CC BY museum description, IIIF and public domain images"
       ],
       "observed": "本件の鑑賞文は独自執筆で館解説を長文複製していない。"
+    },
+    {
+      "url": "https://www.artic.edu/files/5bf91cf9-ad4b-40b9-b14a-830f40840e42/AIC_MuseumStudies_34-2_UPDF.pdf",
+      "access": "page_read_twice",
+      "locations": [
+        "The Art Institute of Chicago Museum Studies 34(2), 2008, p.7, 'The Book in the City Beautiful' (pp.7, lines 80–83): Hobbema's The Watermill with the Great Red Roof (1662/65), 1890 acquisition with Demidoff paintings."
+      ],
+      "observed": "Met/source text read in web index and reopened on 2026-11-07. PDF screenshot service returned cache miss, so not a visual validation of the printed page. The cited extract itself directly supports title, artist and date."
+    },
+    {
+      "url": "https://artvee.com/dl/the-watermill-with-the-great-red-roof/",
+      "access": "page_read_twice",
+      "locations": [
+        "Artvee item: The Watermill with the Great Red Roof (1662–65), Meindert Hobbema; illustrated artwork and public-domain image license, viewed twice on 2026-11-07."
+      ],
+      "observed": "The item's illustrated work aligns with red roof / bridge / falling water composition independently visible in image search. This is a distinct image host and not fresh byte-verification of the registered Wikimedia thumb."
     }
   ],
   "images": [
@@ -55,10 +71,10 @@
     "reviewer": "same_assistant_separate_pass",
     "separate_agent_used": false,
     "separate_context_used": false,
-    "method": "本文を作成後、所蔵番号と画題、描写の水車・橋・水流の一致、旧収蔵データと刊行史の年代、感情タグの限界を別パスで確認。",
-    "limitations": "同一AIによる別パスで第三者／別モデルではない。最新AIC API生レスポンスと登録JPEG全量はこのパスでは取得していない。",
+    "method": "本文を作成後、所蔵番号と画題、描写の水車・橋・水流の一致、旧収蔵データと刊行史の年代、感情タグの限界を別パスで確認。 Separate re-reading of AIC 2008 museum publication p.7 and the illustrated Artvee item supports the provided source URLs.",
+    "limitations": "同一AIによる別パスで第三者／別モデルではない。最新AIC API生レスポンスと登録JPEG全量はこのパスでは取得していない。 Official AIC page's full contents were not retrievable; the completed draft therefore links to the museum's accessible 2008 publication and a clearly distinguished illustration page.",
     "reviewed_artwork_sha256": "1ff7d6cc550dc3d0a8655b27c4021d7b55a55df67b540153319c77d8fc72d429",
-    "reviewed_visitor_draft_sha256": "d4c3ce219ef7d9dbee2cec89183446c36f0386a69e5161eeda1bddc19eff31d1",
+    "reviewed_visitor_draft_sha256": "492ed823de1d5de2c1496f7bb3d069a48b4b1c790a8d3fb54a34dfecc041800f",
     "checks": [
       {
         "area": "identity",
@@ -81,8 +97,8 @@
   "program_checks": {
     "result": "PASS",
     "proposed_artwork_sha256": "1ff7d6cc550dc3d0a8655b27c4021d7b55a55df67b540153319c77d8fc72d429",
-    "visitor_draft_sha256": "d4c3ce219ef7d9dbee2cec89183446c36f0386a69e5161eeda1bddc19eff31d1",
-    "proposal_sha256": "c79b24daecdece27ce2bd712132e547a18f93f944c92e6e785e4a3001de81fd3",
+    "visitor_draft_sha256": "492ed823de1d5de2c1496f7bb3d069a48b4b1c790a8d3fb54a34dfecc041800f",
+    "proposal_sha256": "d156a301524756d0282fd177ff48fdd128c1319ec434aeab9181f1c00a222843",
     "checks": [
       "300_unique_ids",
       "other_299_unchanged",
@@ -97,7 +113,7 @@
   },
   "proposal": {
     "path": "drafts/artwork-revisions/aic-869.json",
-    "sha256": "c79b24daecdece27ce2bd712132e547a18f93f944c92e6e785e4a3001de81fd3",
+    "sha256": "d156a301524756d0282fd177ff48fdd128c1319ec434aeab9181f1c00a222843",
     "proposed_artwork_sha256": "1ff7d6cc550dc3d0a8655b27c4021d7b55a55df67b540153319c77d8fc72d429",
     "applied_to_catalog": false
   },
