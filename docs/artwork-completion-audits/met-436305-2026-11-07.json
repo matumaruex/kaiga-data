@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436305",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "7f0bfb2235dce411ccd2c64adbc365a29ba4f56c",
+    "artwork_record_sha256": "fa5df053271018f3e04aeb49f80d91633502bfe4f6d4aae50658b7d7d7c218a4",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436305.json",
+    "draft_sha256": "117d4d56cedd611d9001fb3fedfc54b451a2fa210110632d8b96b337d62f1d4d"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436305",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overview：モラヴィア生まれ／フランクフルトの食卓静物専門、小鳥の死骸と生きた鳥の対置、静物画の生死の緊張。",
+        "Met Artwork Details：Georg Flegel、probably ca.1625–30、Oil on wood、21.152.1、Public Domain。"
+      ],
+      "observed": "2026-11-07にMet公式作品ページ・掲載図版を参照。生死の対比は館の説明として記し、個々の品の象徴や作者の意図は断定しない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436305",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-25893-001.jpg",
+      "sha256": "feae219a2ea0f9d289dbdbddb2c483e9a38815589d40e886d218668d822b4690",
+      "byte_length": 4073521,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet公式DP-25893-001原画像JPEG全バイトの過去SHA256記録を継承。今回再取得なし。"
+    },
+    {
+      "id": "met-436305",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25893-001.jpg",
+      "sha256": "b4bda435e9242d01ef50f9fe2e3c5be7e722b35d4e0fa528f7c3d02fe1472e2b",
+      "byte_length": 93219,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20の登録web-large JPEGのハッシュと配信確認の旧証拠。今回新規のHTTP計測なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式出典のDP-25893-001画像（ウェブ画像検索で取得した同作原図版）を視認し、所蔵番号21.152.1と旧登録画像URLを照合。JPEGバイトSHAは旧証拠を再利用。",
+    "observed": "茶褐色の容器、黄色い液体のグラス、切ったレモン、黒い皿の小鳥と果実、右のパンと生きた小鳥、白いテーブルクロスが暗い背景の前に並ぶ。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文作成後の別工程でMet公式Overview・Artwork Detailsと同作画像の同定を再確認し、小鳥の生死と不気味なユーモア、素材・制作年代が本文と矛盾しないか照合。",
+    "limitations": "同一AIの別工程であり別AI・第三者の独立監査ではない。バイトSHA256は2026-10の記録であり今回の全JPEG取得ではない。",
+    "reviewed_artwork_sha256": "fa5df053271018f3e04aeb49f80d91633502bfe4f6d4aae50658b7d7d7c218a4",
+    "reviewed_visitor_draft_sha256": "117d4d56cedd611d9001fb3fedfc54b451a2fa210110632d8b96b337d62f1d4d",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 21.152.1、Georg Flegel、probably ca.1625–30、Oil on wood、DP-25893-001を照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "食事静物の作者の背景、皿の小鳥の死骸とパン上の生きた小鳥の対比が所蔵館解説に一致。その他の象徴を勝手に特定しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存感情タグ0件維持。生と死の対置を単純に悲しみ・恐怖へ割り当てない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "公式説明をまとまった直訳にせず画面観察・制作の背景・館の解釈を独立した日本語で区別。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "fa5df053271018f3e04aeb49f80d91633502bfe4f6d4aae50658b7d7d7c218a4",
+    "visitor_draft_sha256": "117d4d56cedd611d9001fb3fedfc54b451a2fa210110632d8b96b337d62f1d4d",
+    "proposal_sha256": "659defb2848f71dea80610f303792c189db990029a9ab778350f14da16f3cbf7",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "保存前の対象版・画像台帳・関連IDの一致の事前確認。CIの実測はPR作成後に確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436305.json",
+    "sha256": "659defb2848f71dea80610f303792c189db990029a9ab778350f14da16f3cbf7",
+    "proposed_artwork_sha256": "fa5df053271018f3e04aeb49f80d91633502bfe4f6d4aae50658b7d7d7c218a4",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met作品ページにPublic Domain表示。Met Open Accessポリシーはパブリックドメイン対象画像をCC0で提供。",
+      "館の解説文は画像CC0と別で扱い、日本語本文は資料から独自に構成して転載を避けた。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "既存PD/CC0画像と独自日本語のデータベース登録に重大な未解決問題を認めないというレビュー判断。法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met公式作品個別ページを参照。小鳥の死骸と生きた鳥を区別。",
+    "2026-10 JPEG全量SHA記録を再利用し同一AI別工程審査。"
+  ]
+}
