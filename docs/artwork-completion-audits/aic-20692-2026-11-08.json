@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-20692",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "a39ba735fda03b43b39cfeece3edc9f7abb25c32",
+    "artwork_record_sha256": "82b9d8b1f3dc2aaa5ad399639df046d071fd9b7b92c8008b744d63b6e2be30c8",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-20692.json",
+    "draft_sha256": "8ce887a00913f932793644de057f883357189fb85bfd7682140a63cff462f873"
+  },
+  "sources": [
+    {
+      "url": "https://fundaciongoyaenaragon.es/eng/obra/el-maragato-amenaza-con-un-fusil-a-fray-pedro-de-zaldivia/168",
+      "access": "page_read_twice",
+      "locations": [
+        "Fundación Goya en Aragón official catalogue, entry 168, 1/6, 1806–07, oil on wood panel 29.2x38.5, AIC. Historia: artist's household inventory 1812. Análisis: 10 June 1806 arrest; first panel bandit threatening the monk, captive household at door."
+      ],
+      "observed": "作品個別の研究サイトを複数回開き、物語の段階・専門的解釈・所蔵館・支持体・事件年を照合した。"
+    },
+    {
+      "url": "https://www.artic.edu/artworks/20692/el-maragato-threatens-friar-pedro-de-zaldivia-with-his-gun",
+      "access": "not_directly_read",
+      "locations": [
+        "旧DBの出典で作品ID20692、1933.1071、PD表示は2026-10公式API証拠。今回は同館現行個別ページを直接閲覧できず。"
+      ],
+      "observed": "過去の公式同定・SHAは継承し、現行AIC本文を直接確認したとしない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-20692",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Francisco_Jos%C3%A9_de_Goya_y_Lucientes_-_El_Maragato_Threatens_Friar_Pedro_de_Zaldivia_with_His_Gun_-_1933.1071_-_Art_Institute_of_Chicago.jpg/960px-Francisco_Jos%C3%A9_de_Goya_y_Lucientes_-_El_Maragato_Threatens_Friar_Pedro_de_Zaldivia_with_His_Gun_-_1933.1071_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "d01b8581f662ea3863881f1e111844e11e59fc1bc0be7a24106995a268887349",
+      "byte_length": 172301,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18のCommons 960px JPEG HTTP200/全量SHA256一致記録を再利用。今回新規バイト取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Fundación Goya作品個別ページ・印刷版の同定図像説明および旧登録画像の所蔵番号1933.1071の情報を突合。今回公式画像のピクセル直接レンダリングや登録JPEG再取得はしておらず、印刷版スクリーンショットの取得もキャッシュ失敗。",
+    "observed": "第1図は青い上着と黄色いズボンの盗賊が左で長銃を修道士へ向け、右に茶色の修道服、奥の戸口に人々。第3図の銃奪取や第5図の発砲と取り違えない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初稿後に専門財団の作品個別ページの1/6、制作年・図像と、旧選定索引の『銃撃』という語を別パス再確認。第1図は脅しであり発砲は後の図であること、当事者の心理・作者の怒りは断定できないことを検証。",
+    "limitations": "同一AI別工程で別AI／第三者による審査ではない。今回AIC現行作品ページ、登録JPEG全量バイト、新規画像ピクセル、財団PDFページのスクリーンショットは取得できていない。財団現行作品情報と旧AIC/Commonsバイト・所蔵番号記録を併用。",
+    "reviewed_artwork_sha256": "93d03cfae3138ddd69c83e1b0df598d9b2daac0e7f00d9f75a2c3ff3799e5ec8",
+    "reviewed_visitor_draft_sha256": "8ce887a00913f932793644de057f883357189fb85bfd7682140a63cff462f873",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC ID20692/1933.1071のゴヤによる小型板油彩で、Foundation 1/6と対応。財団ページに所蔵番号の異なる『1990.558』があるが、AICの登録番号を無断で置換しない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1806年6月捕縛の実話が題材、六枚の連作1806–07、初図の威嚇とその後の形勢逆転を区別。1812年の財産目録への言及を資料どおり保持。"
+      },
+      {
+        "area": "emotion",
+        "finding": "第1図の銃の威嚇から『不安』2は明確な接点、『希望』1は連作後段の捕縛からの弱い接点に限定、特定の心理の断言ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "専門財団の研究を取材した独自日本語3段落。原文逐語翻訳・長文転載を避けた。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "93d03cfae3138ddd69c83e1b0df598d9b2daac0e7f00d9f75a2c3ff3799e5ec8",
+    "visitor_draft_sha256": "8ce887a00913f932793644de057f883357189fb85bfd7682140a63cff462f873",
+    "proposal_sha256": "ea9778e5fe6422757934edb18b84a11df58430a4707673f3c4616611cba1136e",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "curation_revision_paths_only",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "レコード指紋、公式登録番号と対象外不変を事前チェック。構造スクリプトと全体スナップショットCIはPR後に別途確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-20692.json",
+    "sha256": "ea9778e5fe6422757934edb18b84a11df58430a4707673f3c4616611cba1136e",
+    "proposed_artwork_sha256": "93d03cfae3138ddd69c83e1b0df598d9b2daac0e7f00d9f75a2c3ff3799e5ec8",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Francisco_Jos%C3%A9_de_Goya_y_Lucientes_-_El_Maragato_Threatens_Friar_Pedro_de_Zaldivia_with_His_Gun_-_1933.1071_-_Art_Institute_of_Chicago.jpg",
+    "locations": [
+      "2026-10旧AIC公式API is_public_domain_at_source=true、Commons配布JPEG旧台帳のHTTP200/全量SHA256を根拠として継承。",
+      "Fundación Goyaの専門解説は絵画の研究内容のみ取材し、原文・研究の長文転載や逐語訳を行わない。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "18世紀末生まれの画家による旧作品のPD記録と現代学術文章の著作権を区別、オリジナル解説のDB保存を妨げる重大懸念なしと判断。現行画像配信や法律上の非侵害は最終保証しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "財団の別在庫番号はAIC 1933.1071を置換しない。",
+    "第1図は威嚇、第5図は発砲。旧『銃撃の脅し』表現を改善。",
+    "新規登録JPEG全量検査なし／同一AI別工程／PDFスクショ失敗を記録。"
+  ]
+}
