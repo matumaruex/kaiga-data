@@ -1,0 +1,140 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436086",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "d4b4075298f958128f305c93614d5b2ded66e7c1",
+    "artwork_record_sha256": "659fdc1d8e17a2adf6c949e1440c3d61441b3c7c04d7cc1c46746c1a4d7b767d",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436086.json",
+    "draft_sha256": "57f0f3ca312e2b9f1bcca332e80d788151bd0132f8d9f8550f8e5b83a01515a7"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436086",
+      "access": "page_read_twice",
+      "locations": [
+        "The Met official listing: The Seine: Morning, Charles-François Daubigny, 1874, Oil on wood, 15 1/4 x 27 1/4 in, accession 87.15.120, Public Domain.",
+        "The Met page image link IIIF 436086/2005022/main-image was attempted but returned cache miss in this retrieval. Image attribution therefore supplemented with verified titled painting reproduction from Art Renewal Center."
+      ],
+      "observed": "Met公式作品ページを直接参照、検索結果で同じ所蔵番号・題名・作者・年代を再確認。公式画像は今回直接取得できないため外部の同題同年・同所蔵の掲載図を視認。"
+    },
+    {
+      "url": "https://www.artrenewal.org/artworks/the-seine-morning/charles-francois-daubigny/85527",
+      "access": "page_read_twice",
+      "locations": [
+        "Art Renewal Center The Seine: Morning, Charles-Francois Daubigny (1817–1878), 1874, Oil on wood, Metropolitan Museum of Art.",
+        "Reproduction visibly contains a wide still river, waterbirds, left-side tall trees and foliage, distant village/church spire, muted pink-gray sky."
+      ],
+      "observed": "Art Renewal Centerの同作品を検索結果の掲載データと実際に表示した画像で確認し、さらに公式掲載ページを直接開いて作品題名の一致も確認。Met画像の直接取得には失敗した制限を維持。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436086",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-19626-001.jpg",
+      "sha256": "0a84f4a554b2293b75de73e56c8b267327068a0e61c86e1326649d7bf424491a",
+      "byte_length": 3357422,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 Met公式原版JPEG・全量SHA256・同一作品画像対応記録を継承。今回公式画像直接取得を試みたがキャッシュ取得不可、旧証拠を新検証と偽らない。"
+    },
+    {
+      "id": "met-436086",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19626-001.jpg",
+      "sha256": "68c6d443bb28f00cdd61ae11e746c9fd2bcb22dfd07d6e10acbc064a1dd347d1",
+      "byte_length": 78009,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 Met表示版JPEG・全量SHA256・同定記録を継承。今回再ダウンロードなし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式の主画像はリンク取得がキャッシュミスのため、Metと作者・題名・年・画材・所蔵が一致するArt Renewal Centerの同作掲載画像を直接表示。旧登録JPEGの2026-10同定・SHA履歴を継承。",
+    "observed": "横長の画面。左に高い樹木、広い川面には点々と鳥、丘の村に建物と塔、空は薄い桃と灰色の雲。外部図版を同作と照合したが登録JPEGの今回ピクセルごとの直接比較ではない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初稿後、公式Metの作品タイトル・年代・板油彩を再読し、実際に表示した別館の同作品図版を別パスで照合。作者が鑑賞者に安心を与えようとした、あるいは夜明け時刻を特定したなどの推論を本文に持ち込まないか検査。",
+    "limitations": "同一AI別工程であり別AI/第三者監査ではない。Met公式主画像の今回直接ロードは失敗、Art Renewal Centerの同作品複製を視認して旧Met API primaryImage/SHA記録との同一作品の証拠を補った。",
+    "reviewed_artwork_sha256": "659fdc1d8e17a2adf6c949e1440c3d61441b3c7c04d7cc1c46746c1a4d7b767d",
+    "reviewed_visitor_draft_sha256": "57f0f3ca312e2b9f1bcca332e80d788151bd0132f8d9f8550f8e5b83a01515a7",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met87.15.120はDaubigny《The Seine: Morning》1874年、Oil on wood、38.7×69.2cm。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "公式は固有の学芸的Overviewを提示しないため、図像と事実からの鑑賞案内に限定。空の色や川の鳥の直接観察を詩的制作意図の証明にしない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主/補タグ0のまま、tones静けさ・themes自然/時間を画面との接点として維持。安心の感情の追加なし。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "公式Met作品レコードと別館図版を参照しつつ独自日本語を作成。長文転載や逐語翻訳なし。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "659fdc1d8e17a2adf6c949e1440c3d61441b3c7c04d7cc1c46746c1a4d7b767d",
+    "visitor_draft_sha256": "57f0f3ca312e2b9f1bcca332e80d788151bd0132f8d9f8550f8e5b83a01515a7",
+    "proposal_sha256": "820af6f23414bb2e7cdfbb71a0e43d41d0d13eb804db241f12ddab9d9318c8be",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象基準版・旧画像IDと全量SHA履歴、他299件の不変更を確認。正式機械検証はPR後のCIで確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436086.json",
+    "sha256": "820af6f23414bb2e7cdfbb71a0e43d41d0d13eb804db241f12ddab9d9318c8be",
+    "proposed_artwork_sha256": "659fdc1d8e17a2adf6c949e1440c3d61441b3c7c04d7cc1c46746c1a4d7b767d",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met作品ページがPublic DomainでDownload Imageを表示、Open Accessの画像CC0をMetが公式方針で説明。",
+      "外部のArt Renewal Center画像は検証閲覧だけに使用してGitHubへ複製保存せず、DBに登録したMet公式CC0画像を変更しない。所蔵館本文の著作権をCC0と混同しない。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公式画像はCC0利用対象、独自日本語解説を保存。外部サイトの画像を新規配布せず、既存DB画像を保持。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "同一AI別工程であり独立した別AIではない。",
+    "Met公式画像直取得失敗、外部の同作図版を視認したことを明記。",
+    "登録JPEGの2026-10全量SHA検証記録を継承。"
+  ]
+}
