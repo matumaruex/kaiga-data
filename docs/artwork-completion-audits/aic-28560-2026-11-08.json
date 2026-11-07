@@ -15,12 +15,12 @@
   "sources": [
     {
       "url": "https://api.artic.edu/api/v1/artworks/28560",
-      "access": "official_api_live_response",
+      "access": "page_read_twice",
       "locations": [
         "data.id=28560, main_reference_number=1926.417, artist_display, date_display=1889, oil on canvas, image_id=6644829f-f292-c5c4-a73c-0356a6fdbf0d, is_public_domain=true.",
         "data.description: three Bedroom versions; 1888 Arles original, September 1889 Art Institute second version; Van Gogh letter to Theo about colours and repose."
       ],
-      "observed": "2026-11-08 web.open AIC public API result and a separate find of is_public_domain/image_id, official field values confirmed."
+      "observed": "AIC公式APIをweb.openで読み、別工程で同ページのis_public_domainとimage_idをfindして再照合。HTML本体は403のため公式APIを一次出典とする。"
     },
     {
       "url": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_Bedroom_-_Google_Art_Project.jpg",
