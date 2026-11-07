@@ -1,0 +1,138 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437286",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "d45bd297c2824e4425f25f640a8b19aa3397f64f",
+    "artwork_record_sha256": "51ae2f8b48d411dbea3ae751d3b5166ecc80cd7dd7f1611a3c99a588c5577a18",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437286.json",
+    "draft_sha256": "b68e2b8a3d83f052074ffd09e0bcd8a12de89f1d14203afa45fd307b7c766352"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437286",
+      "access": "page_read_twice",
+      "locations": [
+        "Met公式437286／69.129、1740〜41年頃、古代シラクサの王位継承と殺害と自己犠牲の物語、1751年サロン目録では物語説明が必要、コシャンの同年版画が遅い出品の契機かもしれない。"
+      ],
+      "observed": "公式Metの作品名・作者・制作年・収蔵番号・解釈を確認。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Death_of_Harmonia_MET_DP335085.jpg",
+      "access": "page_read_twice",
+      "locations": [
+        "Met提供の同一画像DP335085をCommons（Met object 437286、69.129）と検索画像で確認。横たわる女性に腕を伸ばす兜の男、周りの人物、流れる衣を作品画面の同定特徴として確認。登録JPEGの旧SHAは2026年10月の検証記録の継承。"
+      ],
+      "observed": "Met提供画像のメタデータと作品図像、収蔵番号を確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437286",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP335085.jpg",
+      "sha256": "4d499c5ae3290d7efc127a840d4b939eeb72863161c15014fe3fb4f6c4cd0933",
+      "byte_length": 1948259,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 Met原画像全量JPEG SHA-256/HTTP200の過去記録を継承。今回は再取得なし。"
+    },
+    {
+      "id": "met-437286",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP335085.jpg",
+      "sha256": "9a1d34d0402333f300f781ffa3fc1598f0b0ca183d9bc4c0a6eabadfe1fb455e",
+      "byte_length": 82900,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20 Met表示画像の過去記録を継承。今回は再取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met提供同一画像のCommons情報・公開図像と公式ページを照合。登録JPEGのバイト実測は旧記録。",
+    "observed": "Met提供の同一画像DP335085をCommons（Met object 437286、69.129）と検索画像で確認。横たわる女性に腕を伸ばす兜の男、周りの人物、流れる衣を作品画面の同定特徴として確認。登録JPEGの旧SHAは2026年10月の検証記録の継承。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文を作成したあと公式Metの同定・解説、画像DP335085、主題・出品の留保表現を別パスで照合。",
+    "limitations": "同一AIによる別工程で、別モデル／第三者審査ではない。JPEG SHAは2026-10-20の旧証拠を継承。",
+    "reviewed_artwork_sha256": "51ae2f8b48d411dbea3ae751d3b5166ecc80cd7dd7f1611a3c99a588c5577a18",
+    "reviewed_visitor_draft_sha256": "b68e2b8a3d83f052074ffd09e0bcd8a12de89f1d14203afa45fd307b7c766352",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met公式437286／69.129、1740〜41年頃、古代シラクサの王位継承と殺害と自己犠牲の物語、1751年サロン目録では物語説明が必要、コシャンの同年版画が遅い出品の契機かもしれない。 Met収蔵番号・画像同定を照合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "古代史の主題、1751年出品と版画の推測をMet公式説明に照らして区別。出品動機の断定を避けた。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存タグ0維持。題名の『死』だけで鑑賞者の喪失感や恐怖を決めない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Metの解説を逐語翻訳・長文転載せず、図像描写と時代背景を独自日本語で記述。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "51ae2f8b48d411dbea3ae751d3b5166ecc80cd7dd7f1611a3c99a588c5577a18",
+    "visitor_draft_sha256": "b68e2b8a3d83f052074ffd09e0bcd8a12de89f1d14203afa45fd307b7c766352",
+    "proposal_sha256": "11d88e84b21c4b78d9f0cba665ecd624b0bba2efb2ea357d661ed685a5da5aad",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JSで版ハッシュ・全300ID・対象外不変更を確認。CIはPR後に別途判定する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437286.json",
+    "sha256": "11d88e84b21c4b78d9f0cba665ecd624b0bba2efb2ea357d661ed685a5da5aad",
+    "proposed_artwork_sha256": "51ae2f8b48d411dbea3ae751d3b5166ecc80cd7dd7f1611a3c99a588c5577a18",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "Met作品ページのPublic Domain表示とMet提供画像CC0を確認。",
+      "美術館の解説文の転載自由とはみなさず、独自の日本語文を作成。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品画像と新規日本語文のDB保存を妨げる未解消の重大権利問題を認めない。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met公式437286／69.129、1740〜41年頃、古代シラクサの王位継承と殺害と自己犠牲の物語、1751年サロン目録では物語説明が必要、コシャンの同年版画が遅い出品の契機かもしれない。",
+    "元の感情索引0件と元の画像・作品事実は維持。",
+    "画像SHAは2026年10月の旧記録を継承。別モデル審査ではない。"
+  ]
+}
