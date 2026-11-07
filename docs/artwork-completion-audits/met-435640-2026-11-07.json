@@ -10,7 +10,7 @@
     "artwork_record_sha256": "72885bf9261ef811158fbb22cde88e58cc7891a95b32be68781036af70bd86bb",
     "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
     "draft_path": "drafts/visitor-explanations/met-435640.json",
-    "draft_sha256": "eed4e7d1427161f6784701056bf1f12c39d3ad2f6ae1de233ad878d1fe9f9238"
+    "draft_sha256": "c8b57722abe898db6340193b6158ccc9e663d4b9beca3096b84bcb4ff80cca3a"
   },
   "sources": [
     {
@@ -70,7 +70,7 @@
     "method": "日本語下書き構成後、公式Met解説の主張と対象画像・作品番号を別パスで再読し、既存資料・タグ・解説文の事実と飛躍を確認。",
     "limitations": "同一AIの別工程。別モデル／別人物による独立監査ではない。2026年10月の画像ハッシュは現在の全量JPEG取得でない。法律上の利用保証ではない。",
     "reviewed_artwork_sha256": "72885bf9261ef811158fbb22cde88e58cc7891a95b32be68781036af70bd86bb",
-    "reviewed_visitor_draft_sha256": "eed4e7d1427161f6784701056bf1f12c39d3ad2f6ae1de233ad878d1fe9f9238",
+    "reviewed_visitor_draft_sha256": "c8b57722abe898db6340193b6158ccc9e663d4b9beca3096b84bcb4ff80cca3a",
     "checks": [
       {
         "area": "identity",
@@ -93,8 +93,8 @@
   "program_checks": {
     "result": "PASS",
     "proposed_artwork_sha256": "72885bf9261ef811158fbb22cde88e58cc7891a95b32be68781036af70bd86bb",
-    "visitor_draft_sha256": "eed4e7d1427161f6784701056bf1f12c39d3ad2f6ae1de233ad878d1fe9f9238",
-    "proposal_sha256": "50c05e282a94186b32c7d335288e1460b5f93c844583008a15b2a796af2b81c3",
+    "visitor_draft_sha256": "c8b57722abe898db6340193b6158ccc9e663d4b9beca3096b84bcb4ff80cca3a",
+    "proposal_sha256": "b44de5750d4011c37ce1f71419865cbfd49f1b0047935638663376d17954e3a2",
     "checks": [
       "300_unique_ids",
       "other_299_unchanged",
@@ -109,7 +109,7 @@
   },
   "proposal": {
     "path": "drafts/artwork-revisions/met-435640.json",
-    "sha256": "50c05e282a94186b32c7d335288e1460b5f93c844583008a15b2a796af2b81c3",
+    "sha256": "b44de5750d4011c37ce1f71419865cbfd49f1b0047935638663376d17954e3a2",
     "proposed_artwork_sha256": "72885bf9261ef811158fbb22cde88e58cc7891a95b32be68781036af70bd86bb",
     "applied_to_catalog": false
   },
