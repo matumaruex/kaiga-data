@@ -1,0 +1,130 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437802",
+  "checked_on": "2026-11-07",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "f0ad56b9ee38ce2d006a6e61bc7fe76a0a5175c1",
+    "artwork_record_sha256": "efdd86805ac43751999ecb29dee23694a4876615c5181b8d3075c5efc035b51f",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437802.json",
+    "draft_sha256": "7b0b049e36813ee6ffc4479847bb0ccf248868eb1a791f4283625d81974ed329"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437802",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Overview：ウェルギリウス『アエネーイス』、嵐を止める海神、頬を膨らませた風の神、舵にしがみつくアイネイアス。",
+        "Met Overview：天井画の構想、マドリード王宮向けはprobably。Artwork Details：1760s、37.165.4、Oil on canvas、Public Domain。"
+      ],
+      "observed": "Met作品ページの概要と図像、館提供画像を制作時および別工程で確認。特定の王宮への設置は断言しない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437802",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-17536-001.jpg",
+      "sha256": "67ac4d2753886858abee57dc9b5d152f77877fa528ed87ae9e6c42adc9d8fc37",
+      "byte_length": 6167487,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "第20群で実施した原画像DP-17536-001のJPEG全量SHA記録を継承。今回の再取得ではない。"
+    },
+    {
+      "id": "met-437802",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17536-001.jpg",
+      "sha256": "244147af1f8b19fe8c37cdd5c869a6b56f0ef33769031a6af382820e0e4c2eaf",
+      "byte_length": 137724,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "第20群web-large登録画像の2026-10 SHA記録。今回新規バイト計測なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met作品ページの公式画像DP-17536-001を視認し、旧Met画像登録名・作品番号を照合。JPEGバイト検査は2026-10の履歴。",
+    "observed": "ほぼ円形の彩色面、上部の青空と雲、手を上げ三叉の鉾を持つネプトゥヌス、吹き荒れる風の擬人像、下方に突き出す人物や船の一部を視認。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文作成後にMet現行Overview・Artwork Detailsを再照合し、神話の場面、天井からの見下ろしと『probably』が付く設置先の留保を検査。",
+    "limitations": "同一AI別工程であり別AI／第三者による独立審査ではない。新規のJPEG全量ハッシュ取得なし。",
+    "reviewed_artwork_sha256": "efdd86805ac43751999ecb29dee23694a4876615c5181b8d3075c5efc035b51f",
+    "reviewed_visitor_draft_sha256": "7b0b049e36813ee6ffc4479847bb0ccf248868eb1a791f4283625d81974ed329",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 37.165.4、Tiepolo、1760s、円形油彩／キャンバス、公式画像DP-17536-001と一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "アエネーイスの救出の場面、天井画の構想はMet所蔵解説の範囲。マドリード王宮は可能性と表示。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存『畏敬』主2・『不安』補助1を維持。海神と荒天の場面に結び付き、作者の心理とはしない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Met文章の翻訳転載ではなく具体的な画面描写と資料に基づく日本語独立構成。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "efdd86805ac43751999ecb29dee23694a4876615c5181b8d3075c5efc035b51f",
+    "visitor_draft_sha256": "7b0b049e36813ee6ffc4479847bb0ccf248868eb1a791f4283625d81974ed329",
+    "proposal_sha256": "d006c2b275a9d2feaee558e31bb6115a2e1b75269d7eb74c33d55e250c2f5f85",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "source_url_id_match",
+      "historical_image_sha_metadata_match",
+      "emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "版・構造の事前確認。CI結果はPR後に確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437802.json",
+    "sha256": "d006c2b275a9d2feaee558e31bb6115a2e1b75269d7eb74c33d55e250c2f5f85",
+    "proposed_artwork_sha256": "efdd86805ac43751999ecb29dee23694a4876615c5181b8d3075c5efc035b51f",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/image-resources",
+    "locations": [
+      "MetのPD作品画像をOpen Access/CC0で提供する方針と当該作品ページのPublic Domain表示。",
+      "所蔵館学芸文章は画像とは別条件。日本語本文は原資料に基づく独自表現。"
+    ],
+    "checked_on": "2026-11-07",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "今回のDB本文・既存画像の再利用に重大な未解消事項を認めない。法的保証を意味しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met 37.165.4《Neptune and the Winds》。天井画の実際の設置先は未確定。",
+    "JPEG SHAは2026年10月の証拠を再利用。同一AIの別工程。"
+  ]
+}
