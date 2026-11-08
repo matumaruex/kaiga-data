@@ -1,0 +1,86 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "aic-102227",
+  "baseline_commit": "49636ca73026bf526201045e9ac8f81a2a33c2c1",
+  "baseline_artwork_sha256": "69b39e9e29cd2ca19e331ae037ab67d6436af5c627a77266fd6102ccab6d2e35",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "evidence_url"
+      ],
+      "before": "https://www.artic.edu/collection?date-end=1799&date-start=1677&page=5",
+      "after": "https://www.thehistoryofart.org/benjamin-west/expulsion/",
+      "reason": "旧AIC一般所蔵検索ページでは当該作品の研究内容を照合できないため、シカゴ小版を具体的に比較した作品別解説へ変更。",
+      "source_urls": [
+        "https://www.thehistoryofart.org/benjamin-west/expulsion/"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation",
+        "source_url"
+      ],
+      "before": "https://www.artic.edu/collection?date-end=1799&date-start=1677&page=5",
+      "after": "https://www.thehistoryofart.org/benjamin-west/expulsion/",
+      "reason": "シカゴ小画面1791・1803加筆と大型ワシントン別版との違いを明記する資料を選定用意味資料の出典に設定。",
+      "source_urls": [
+        "https://www.thehistoryofart.org/benjamin-west/expulsion/"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation",
+        "summary"
+      ],
+      "before": "創世記の禁令違反と楽園追放を描く歴史的な宗教画。楽園を失うという明確な物語を手掛かりに、責任と喪失を考える作品。",
+      "after": "本作は1791年制作・1803年加筆の小さな画面で、同題の大型ワシントン版とは別物。天使がアダムとエヴァを追い、アダムは顔を覆い、エヴァはひざまずいて腕をつかむ。創世記の楽園追放を具体的な身ぶりで描くが、小版への後年の手直しを最初からの画家の意図と混同しない。",
+      "reason": "一般的な宗教主題の説明だけでなく、当該作品固有の構図・改変履歴・別版との区別を記録。",
+      "source_urls": [
+        "https://www.thehistoryofart.org/benjamin-west/expulsion/",
+        "https://commons.wikimedia.org/wiki/File:Benjamin_West_-_The_Expulsion_of_Adam_and_Eve_from_Paradise_-_1984.175_-_Art_Institute_of_Chicago.jpg",
+        "https://www.nga.gov/artworks/70986-expulsion-adam-and-eve-paradise"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "1791年制作・1803年加筆とされるベンジャミン・ウェストの旧約聖書主題。",
+      "after": "1791年に制作され1803年に加筆された小型油彩画。ウェストは別にウィンザー城の王室礼拝堂計画に関わる同主題の大型画面を制作し、その別作品は現在ワシントンのナショナル・ギャラリー（1989.12.1）に所蔵される。シカゴ版1984.175はそれと区別する。",
+      "reason": "1791／1803年を分け、同主題の大画面とシカゴ小型習作を混同しない文脈を追加。",
+      "source_urls": [
+        "https://www.thehistoryofart.org/benjamin-west/expulsion/",
+        "https://www.nga.gov/artworks/70986-expulsion-adam-and-eve-paradise"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "before": "現代的な離婚・失恋の象徴でも、作者の失敗談でもない。宗教的主題の文脈が中心。",
+      "after": "本作は聖書に基づく宗教画で、現代的な失恋や画家自身の失敗談の象徴と断定しない。シカゴ1984.175は1791年制作・1803年加筆の別版で、ワシントンの大型作1989.12.1と同じ画面ではない。見える構図差のうちどの部分が1803年の加筆によるかは確認できない。",
+      "reason": "制作後の加筆・別版との同定上の留保を維持。",
+      "source_urls": [
+        "https://www.thehistoryofart.org/benjamin-west/expulsion/",
+        "https://www.nga.gov/artworks/70986-expulsion-adam-and-eve-paradise",
+        "https://commons.wikimedia.org/wiki/File:Benjamin_West_-_The_Expulsion_of_Adam_and_Eve_from_Paradise_-_1984.175_-_Art_Institute_of_Chicago.jpg"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/aic-102227.json",
+  "visitor_draft_sha256": "eca0025c66b6f3f123f6d78742a6eacca7f697acc4dc4b4074c828716d389fb2",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "8922c093c4199ec53b3963713a69d42675345dec422c1b51b6cefc497f3dfdb4",
+  "explanation": "同題のNGA大型作品とAIC小型版の同定・1803年加筆を区別し、AIC一般一覧に代わり特定作品を扱う比較資料を出典に再設定。創世記の喪失主題を独自日本語鑑賞文として追加し、既存感情タグは変えない。"
+}
