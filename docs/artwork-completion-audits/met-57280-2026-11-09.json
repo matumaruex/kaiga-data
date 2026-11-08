@@ -1,0 +1,142 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-57280",
+  "checked_on": "2026-11-09",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "1a47ae63b788f408020bacb78b3a17df7911ac04",
+    "artwork_record_sha256": "6034428521968d8eb519be141fbd0980d2c8c7d35530a54f78f32cd67a33b577",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-57280.json",
+    "draft_sha256": "4f045351c41bad230da44f750ec434543afd59ba85cd14b3ed530cb8b55feafb"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/57280",
+      "access": "page_read_twice",
+      "locations": [
+        "Met57280 Artwork Details, lines 60–72",
+        "Met57280 PD heading/image and 1956 credit"
+      ],
+      "observed": "School of Katsushika Hokusai（北斎派）、18–19世紀、紙本墨画、Met56.121.30、Public Domain。作者の内面や寓意について個別の学芸員解説は公開ページにない。"
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/57279",
+      "access": "page_read_twice",
+      "locations": [
+        "Met57279 Artwork Details, lines 60–70",
+        "Met57279 item identity and same English title"
+      ],
+      "observed": "別作品57279は同じ英語題名でMet56.121.29。57280の56.121.30と同一視しない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-57280",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-24996-001.jpg",
+      "status": 200,
+      "sha256": "7d266746f3b8702ae57f2934816ae37a674d165de16badecbb36e8c0cee70bac",
+      "byte_length": 3025959,
+      "width": 2532,
+      "height": 3940,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10 GitHub Actions batch020 original DP-24996-001 SHA/size and downscale check."
+    },
+    {
+      "id": "met-57280",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-24996-001.jpg",
+      "status": 200,
+      "sha256": "5fd5cf52456fd9045107f0f75fdddda1a7d3345f285922061825d87a71cf8a13",
+      "byte_length": 101221,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10 batch020 web-large JPEG SHA; current session no new byte download."
+    }
+  ],
+  "visual_observations": {
+    "method": "web画像検索でMet公式の原図 `https://images.metmuseum.org/CRDImages/as/original/DP-24996-001.jpg` を2026-11-09に表示し画面主要部分を確認。Met57280の公式ID・所蔵番号と、登録オリジナルの同一URL・旧SHAを照合。512pxの視認表示で全体高解像度の詳細までは確認していない。",
+    "observed": "墨線で母親が身体をかがめ、手前の子どもに手を伸ばす。別の子が背・肩付近に寄り添い、服・髪に細い輪郭線。背景は余白が広い。画像索引は『北斎派・夏夜の母子』と明示。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文案を起こした後にMet57280と同題別作57279の公式表記・所蔵番号を別工程で開き直し、帰属と媒体・年代表記を比較。今回表示したMet正規原図の子どもと母の関係を文章と確認し、作者本人の家庭像と断定せず、一般史の典拠を個別学術解釈に転用していないか点検。",
+    "limitations": "同一AIによる別工程で別AI・第三者ではない。今見られた原図はWeb画像検索の縮小画面で、登録ファイルの全バイト新規取得・SHAは未実施。2026-10の同一URL/寸法/ハッシュを再利用。",
+    "reviewed_artwork_sha256": "5eefe5f0001c5d20ce8c135d4c1808175fafcda9892ba029807b7f7ccdaa4314",
+    "reviewed_visitor_draft_sha256": "4f045351c41bad230da44f750ec434543afd59ba85cd14b3ed530cb8b55feafb",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met57280=56.121.30と57279=56.121.29を明確に区別、北斎本人ではなく北斎派、18–19世紀紙本墨画。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "個別の専門的寓意が公式ページにないことを正直に明記し、画面観察は出典事実とは分離。一般風俗画史の無理な転用を修正。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『慈しみ』2の入口は母子が身を寄せる描写。鑑賞者が必ず慈しみを感じると断定せず、他タグは追加せず。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "公式データの事実と画面観察を独自日本語で構成、著作権のある長文解説の逐語翻訳なし。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "5eefe5f0001c5d20ce8c135d4c1808175fafcda9892ba029807b7f7ccdaa4314",
+    "visitor_draft_sha256": "4f045351c41bad230da44f750ec434543afd59ba85cd14b3ed530cb8b55feafb",
+    "proposal_sha256": "0bc698464a3d7832be70c2763aeeae0394cd8ff630c585aeefa21d853f9280c4",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JSで版・ID・対象以外の変更範囲を照合。Python実装のcheck/validate_artworks/snapshotはGitHub CIで確認後にmainへ統合。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-57280.json",
+    "sha256": "0bc698464a3d7832be70c2763aeeae0394cd8ff630c585aeefa21d853f9280c4",
+    "proposed_artwork_sha256": "5eefe5f0001c5d20ce8c135d4c1808175fafcda9892ba029807b7f7ccdaa4314",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/art/collection/search/57280",
+    "locations": [
+      "Met 57280 Public Domain artwork image",
+      "Met Open Access explanation",
+      "The Japanese explanation is original, not reuse of museum authored prose"
+    ],
+    "checked_on": "2026-11-09",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品画像はMet公式Public Domain/Open Access。日本語解説は画面観察と基本的な所蔵情報に基づく独自の文章。画像PDと現代の館解説の文章の権利は同一視しない。法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "同題別作57279との区別が最重要。Met公式画像URL/旧2026-10原バイト検証と今回のWeb画像視認は異なる証拠として記録。",
+    "感情強度2を本作の実際の母子の近接描写にのみ結び付け、一般的な幸福感を自動で付与しない。"
+  ]
+}

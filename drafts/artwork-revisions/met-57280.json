@@ -1,0 +1,73 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-57280",
+  "baseline_commit": "1a47ae63b788f408020bacb78b3a17df7911ac04",
+  "baseline_artwork_sha256": "6034428521968d8eb519be141fbd0980d2c8c7d35530a54f78f32cd67a33b577",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation",
+        "summary"
+      ],
+      "after": "Metの公開作品情報は本作を『北斎派』の江戸時代の紙本墨画と記すが、本作固有の寓意や作者の意図を専門的に説明していない。画面で観察できる母と子の接触・余白の構成は鑑賞の手掛かりとなるが、一般的な浮世絵史の説明を本作品固有の学術的解釈とはみなさない。",
+      "reason": "一般的な風俗画史を個別専門解釈と混同しないよう出典の範囲を限定。",
+      "before": "江戸時代の母子の日常を描く墨画として、近世の風俗画・浮世絵に見られる暮らしの表現という文脈から鑑賞できる。ただし東京国立博物館による風俗画と浮世絵の歴史解説は一般論で、Metの本作（56.121.30）について専門家が特定の構図や寓意を論じた資料ではない。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/57280",
+        "https://www.metmuseum.org/art/collection/search/57279"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation",
+        "source_url"
+      ],
+      "after": "https://www.metmuseum.org/art/collection/search/57280",
+      "reason": "作品固有の学術解釈不足を明示する根拠として対象のMet公式ページに置き換え。",
+      "before": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=4485&lang=ja",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/57280",
+        "https://www.metmuseum.org/art/collection/search/57279"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "after": "母親が上体をかがめ手前の子どもへ腕を伸ばし、肩や背にもう一人の子どもが寄り添う。輪郭線と衣服の描写以外は余白が広い。",
+      "reason": "今回確認できた実画像を踏まえ、一般名詞から具体的な構図へ。",
+      "before": "母親と子どもたちの様子。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/57280",
+        "https://www.metmuseum.org/art/collection/search/57279"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "after": "Metの帰属は北斎本人ではなく北斎派。作品ID57280・所蔵56.121.30を同題別作57279・所蔵56.121.29と区別する。本作固有の専門的な寓意解釈や作者の家庭生活の証言は確認されていない。風俗画一般の説明だけで裏付けず、母子の心情を断定しない。",
+      "reason": "旧needs_revisionの理由と同題異作の警告を、現時点の資料確認範囲に合わせ再整理。",
+      "before": "Metは北斎本人ではなく北斎派とする。同題名・同じ帰属の別番号56.121.29が存在するため画像・内容を混同しない。本作固有の解釈資料は確認できず、親子の内面や育児観、作者の感情を断定しない。一般的な風俗画史は個別の学術解釈を代替しないためneeds_revisionを維持。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/57280",
+        "https://www.metmuseum.org/art/collection/search/57279"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-57280.json",
+  "visitor_draft_sha256": "4f045351c41bad230da44f750ec434543afd59ba85cd14b3ed530cb8b55feafb",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "5eefe5f0001c5d20ce8c135d4c1808175fafcda9892ba029807b7f7ccdaa4314",
+  "explanation": "同名のMet57279と区別し、北斎本人への誤帰属・一般風俗画の過大な個別解釈を避ける。実画像の母子構図を踏まえて選定用意味資料を限定修正。主『慈しみ』2は維持。"
+}
