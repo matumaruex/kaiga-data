@@ -1,0 +1,133 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-36000",
+  "checked_on": "2026-11-09",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "662dffd33b5811661238f63a5e7a9ef8e1cdeb74",
+    "artwork_record_sha256": "95c3a66f2785e955ccc0a99d1ff5c0e5939bfe80e5d74ed9f03a02a163c2c76f",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-36000.json",
+    "draft_sha256": "3fa432fbb4799e74bfab1ed047680b2d37cf7244906b6a999eacc771f4e2e8b1"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/36000",
+      "access": "page_read_twice",
+      "locations": [
+        "Met36000 Overview and Public Domain label",
+        "Met36000 Artwork Details, accession 13.100.89, medium and dimensions"
+      ],
+      "observed": "作者荘冏生、友人のための扇面、1647年の進士と宮廷勤務、本人が銘文で董源・巨然に倣うと述べたこと、扇面冊頁、13.100.89、Public Domainを確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-36000",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP153851.jpg",
+      "status": 200,
+      "sha256": "e68e2c759cfd5a66c774991b283e89c9a4e93d57091fcbf3d3dec339f58b5399",
+      "byte_length": 1660714,
+      "width": 3858,
+      "height": 1796,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10 Met API original DP153851.jpg complete JPEG SHA256 and scaled JPEG match; no new byte download."
+    },
+    {
+      "id": "met-36000",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP153851.jpg",
+      "status": 200,
+      "sha256": "b3b3b41ceb676960e79a218f69201ac300f400c9d62a2cbc71d7a15d11193969",
+      "byte_length": 50321,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10 GitHub Actions batch020 complete JPEG hash; no new download."
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式作品ページ36000の画像リンク（collectionapi.metmuseum.org/api/collection/v1/iiif/36000/150533/main-image）を2026-11-09に直接表示し視認。Met公式ID・所蔵番号と2026-10保存のMet primaryImage URL/SHA記録を照合。表示画像の全バイト新取得はしていない。",
+    "observed": "扇面に淡い茶系の山並み・川の岸と小さな建物、中央の濃い樹木と岩、上部の草書風漢字銘文および印章。折り畳み扇の扇形を保った冊頁に見える。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文を作成した後にMet36000のOverview/Artwork Detailsと今回表示したMet公式画像を別工程で再照合し、銘文・董源巨然・1647年・友人宛・扇面の事実と、画面で見えた山・樹木・家・銘文を突合。作中の川を作者の故郷と断定していないか、逐語訳になっていないか確認。",
+    "limitations": "同一AIの別工程であり別AI・第三者による独立監査ではない。表示画像はMet公式IIIF画像、登録オリジナルファイルDP153851.jpgの今回全量取得・再ハッシュなし（2026-10の既存証拠を継承）。",
+    "reviewed_artwork_sha256": "95c3a66f2785e955ccc0a99d1ff5c0e5939bfe80e5d74ed9f03a02a163c2c76f",
+    "reviewed_visitor_draft_sha256": "3fa432fbb4799e74bfab1ed047680b2d37cf7244906b6a999eacc771f4e2e8b1",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met36000=13.100.89、荘冏生、中国・清代、折り畳み扇を冊頁化した紙本墨画、PD。原画像と公式図版の対象IDが一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met公式の作者銘文が董源・巨然にならうと述べた事実を作者の言葉として区別。川の所在地や作者内心は推測せず。"
+      },
+      {
+        "area": "emotion",
+        "finding": "感情索引0件を維持。山水の静けさのみで安心や郷愁を主感情へ付与しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Met公式の簡潔な作品説明から事実を抽出し、画面観察と分けて独自の日本語鑑賞文として構成。文章の逐語翻訳や大量転載なし。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "95c3a66f2785e955ccc0a99d1ff5c0e5939bfe80e5d74ed9f03a02a163c2c76f",
+    "visitor_draft_sha256": "3fa432fbb4799e74bfab1ed047680b2d37cf7244906b6a999eacc771f4e2e8b1",
+    "proposal_sha256": "07bcf6626ef3a729fd29279239cc98f9b336357ecbb0c19746e83f02f0037ce3",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS上で最新300レコードと対象ID、変更予定フィールド・ハッシュを点検。正式な構造・スナップショット検証はPRのCIで別途確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-36000.json",
+    "sha256": "07bcf6626ef3a729fd29279239cc98f9b336357ecbb0c19746e83f02f0037ce3",
+    "proposed_artwork_sha256": "95c3a66f2785e955ccc0a99d1ff5c0e5939bfe80e5d74ed9f03a02a163c2c76f",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/art/collection/search/36000",
+    "locations": [
+      "Met 36000 Public Domain label",
+      "Met official Open Access explanation",
+      "Original Japanese text not copied from museum modern commentary"
+    ],
+    "checked_on": "2026-11-09",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公式でPublic DomainおよびOpen Accessと記録。本文は図像観察とMet公開事実に基づく独自の日本語文。館の現代解説のPD化とはみなさず、法的な非侵害保証を意味しない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "前回の74996・916604は画像画素の直接照合未達のためシステム待機を維持。今回実画像が確認できた36000を先行。",
+    "旧JPEGハッシュは2026-10、2026-11-09はMet公式IIIF表示のみ。"
+  ]
+}
