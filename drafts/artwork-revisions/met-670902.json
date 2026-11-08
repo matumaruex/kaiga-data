@@ -1,0 +1,87 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-670902",
+  "baseline_commit": "2e516b8307c08740d3dd883df900294482d94859",
+  "baseline_artwork_sha256": "54727dd69bc8e1a5f04ed5c20f6a7dc0cacfa772bc16411dc39936a1ca897fad",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation",
+        "summary"
+      ],
+      "after": "Metは本作を18世紀の長号作《Pilgrims Travelling to Ise》と記録する。図像には乗馬・徒歩・駕籠など異なる移動方法で道を行く人々が見える。江戸東京博物館の説明により当時の伊勢参詣が信仰と旅行の文化に結び付いたことは分かるが、この画中集団が特定の伊勢講・代参・おかげまいりであるとは学術的に同定されていない。",
+      "reason": "アクセス不能の旧一般史典拠から現行の公的歴史資料へ置き換え、作品と時代一般を区別。",
+      "before": "伊勢参宮に向かう人々の姿は、江戸時代に信仰と庶民の旅が結び付いた文化を考える手掛かりとなる。国立歴史民俗博物館は講や代参の制度によって伊勢参宮の旅が広がったと説明しているが、これは当時の社会史であり、長号の本作に描かれた一行が特定の伊勢講や「おかげまいり」に参加していると断定できる資料ではない。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/670902",
+        "https://www.edo-tokyo-museum.or.jp/en/s-exhibition/tokaido2014/"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation",
+        "source_url"
+      ],
+      "after": "https://www.edo-tokyo-museum.or.jp/en/s-exhibition/tokaido2014/",
+      "reason": "旧リンクから実際に開いて確認した江戸東京博物館の展示解説へ置換。",
+      "before": "https://archive.rekihaku.ac.jp/events/lecture/old/l2008/index.html",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/670902",
+        "https://www.edo-tokyo-museum.or.jp/en/s-exhibition/tokaido2014/"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "after": "18世紀の江戸時代に長号が紙に墨と色彩で描いた伊勢参詣の掛軸。作品はメアリー・グリッグス・バーク・コレクションから2015年にMetへ寄贈された。江戸時代の伊勢参りが広く普及していた社会史は同館とは別の江戸東京博物館資料で確認できるが、画中集団の所属は特定できない。",
+      "reason": "メトロポリタン美術館の作品固有記録と他館の一般歴史資料の範囲を明示。",
+      "before": "18世紀の江戸時代に長号が制作した、紙本墨画着色の伊勢参詣を題材とする掛軸。江戸期は伊勢信仰や講・代参の制度を背景として参宮の旅が盛んになった。作品はメアリー・グリッグス・バーク・コレクションから2015年にMetへ寄贈された。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/670902",
+        "https://www.edo-tokyo-museum.or.jp/en/s-exhibition/tokaido2014/"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "after": "馬に乗る人物、徒歩の一行、駕籠と荷物を運ぶ人々、小型の犬が描かれる。上方には長い文字が記される。",
+      "reason": "今見えた図像に即し『道行く人々』という一般論を具体化。",
+      "before": "伊勢参詣の道行く人々。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/670902",
+        "https://www.edo-tokyo-museum.or.jp/en/s-exhibition/tokaido2014/"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "after": "Metの公式個別作品ページは作品の題名・長号作・年代・素材を示すが、細かな図像解釈や作者の制作意図は説明していない。江戸東京博物館資料は近世の伊勢参詣の一般史であり、この一行が伊勢講・代参・おかげまいりに所属していたと同定できない。個々の旅人の心情も資料から確定しない。",
+      "reason": "歴史的文脈と特定の図像の意味を誤接続しないための不確実性の明文化。",
+      "before": "伊勢参詣の社会史は確認できたが、長号のこの絵に描かれた集団の所属や旅の目的、個々の参詣者の感情、作品固有の風俗表現の評価について直接論じる学芸資料は見つからなかった。江戸期の「おかげまいり」と同定しない。本作固有の専門解釈に課題があるためneeds_revisionを維持。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/670902",
+        "https://www.edo-tokyo-museum.or.jp/en/s-exhibition/tokaido2014/"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-670902.json",
+  "visitor_draft_sha256": "4bc62295f506cde757e05db7f6ae55c8a11c1e4db1314909b3c9f6e06f4b5c2b",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "a9acda238b7bf32b094530e921414f5330b3fcef8fa4c4bef38a1bc3096b6409",
+  "explanation": "伊勢参詣の歴史一般と長号の特定作品の図像・制作意図を区別。現在閲覧できる江戸東京博物館資料を根拠に作品解釈の限界を修正し、画像に見える馬・駕籠・徒歩の一行を記載。感情タグ0件維持。"
+}
