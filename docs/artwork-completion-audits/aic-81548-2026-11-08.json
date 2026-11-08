@@ -1,0 +1,135 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-81548",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "15f9ca60535487087a7a62f4616cfabd9606abd1",
+    "artwork_record_sha256": "c1ebb048158f6baf70ed291f7fc237b0e55d178f688b107cb0a847cfdd788cfd",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-81548.json",
+    "draft_sha256": "2e0ec2758193a835e2c036b9a523324127c90a521ba408b83a3c6c0231e7dc54"
+  },
+  "sources": [
+    {
+      "url": "https://publications.artic.edu/pissarro/api/epub/7/20/print_view",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC official Cat9 2010.540 technical summary and drawing-to-painting comparison Cat10 1922.433"
+      ],
+      "observed": "素描と完成油彩は別作品。人物姿勢・両手とカップの角度が異なる点、準備画の線の単純転写ではない点を確認。"
+    },
+    {
+      "url": "https://publications.artic.edu/pissarro/reader/paintingsandpaper/section/1069",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC Director's Statement Pissarro catalogue, 1882 Impressionist exhibition and 1883 letter to Lucien"
+      ],
+      "observed": "1881年油彩1922.433の第7回印象派展出品と1883年息子への本人の肯定的な作品評価を確認。作者の書簡本文そのものではなく美術館による紹介と区別。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Young_Peasant_Having_Her_Coffee.jpg",
+      "access": "page_read_twice",
+      "locations": [
+        "Commons File Summary 1922.433/81548, CC0 license, visible thumbnail"
+      ],
+      "observed": "AIC所蔵番号と1881年の対象油彩を画像・ページで同定。画像権利のCC0記載を確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-81548",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Young_Peasant_Having_Her_Coffee.jpg/960px-Young_Peasant_Having_Her_Coffee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "6970f4f07f093b0e2d89a00badf67ea4764c7770363074f72114c9c4fe88cf15",
+      "byte_length": 475120,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18のCommons JPEG全量HTTP/SHA256確認を既存DBから継承。2026-11-08に登録済み画像バイトの再取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "CommonsのAIC1922.433作品画像を研究カタログの油彩Cat10と素描Cat9の説明・所蔵番号で突き合わせた。",
+    "observed": "窓近くで女性がカップを片手に持ち、スプーンを見つめる。準備素描2010.540とは別の1881年の油彩1922.433。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文構成後にAIC Cat9 technical summaryの素描と油彩の差、AIC館長序文の1882年展覧会と1883年本人評価、Commons作品番号・利用表示を別工程で再照合した。",
+    "limitations": "同一AIによる別工程で第三者・別AIではない。今回登録済みJPEG全量の再取得・SHA算出はせず2026-10の記録を再利用。",
+    "reviewed_artwork_sha256": "c1ebb048158f6baf70ed291f7fc237b0e55d178f688b107cb0a847cfdd788cfd",
+    "reviewed_visitor_draft_sha256": "2e0ec2758193a835e2c036b9a523324127c90a521ba408b83a3c6c0231e7dc54",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC 81548 / 1922.433 / 1881年油彩とCat9準備素描2010.540を混同しない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "素描の構図差と1883年本人による作品評価を検証。女性の内心は作者の言葉から推定しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存主『安心』2は日常の静かな鑑賞入口の暫定索引で、女性の心理や作者の意図と混同しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "公式カタログ説明文の逐語翻訳ではなく、視覚・準備素描・本人の評価をまとめた独自日本語本文。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "c1ebb048158f6baf70ed291f7fc237b0e55d178f688b107cb0a847cfdd788cfd",
+    "visitor_draft_sha256": "2e0ec2758193a835e2c036b9a523324127c90a521ba408b83a3c6c0231e7dc54",
+    "proposal_sha256": "30383a53b618ae74e74ce25066dcbf838120b8b942d7a87bbd6cde10ab8d5a85",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "この段階のプログラム照合はJS上で元作品を不変に保った整合チェック。Python preview/save/checkとGitHub CIはPRで検証する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-81548.json",
+    "sha256": "30383a53b618ae74e74ce25066dcbf838120b8b942d7a87bbd6cde10ab8d5a85",
+    "proposed_artwork_sha256": "c1ebb048158f6baf70ed291f7fc237b0e55d178f688b107cb0a847cfdd788cfd",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Young_Peasant_Having_Her_Coffee.jpg",
+    "locations": [
+      "Commons1922.433の画像にCC0 1.0表示。",
+      "所蔵研究文章を長文転載せず独自の日本語を制作。",
+      "登録JPEGは2026-10に全量SHA確認済みで今回再取得なし。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品と画像の利用条件を研究文の著作権と区別。独自日本語解説の保存を妨げる重大事項は確認されない（法的保証ではない）。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "作者の作品評価と女性の心理を区別",
+    "素描2010.540は当該油彩とは別の所蔵品",
+    "画像SHAは過去の記録を継承"
+  ]
+}
