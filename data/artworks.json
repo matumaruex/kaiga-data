@@ -32965,18 +32965,19 @@
         "emotions": [],
         "emotion_strengths": {},
         "tones": [
-          "落ち着き"
+          "落ち着き",
+          "余韻"
         ],
         "themes": [
           "日常",
-          "自然"
+          "時間"
         ],
         "evidence_url": "https://www.metmuseum.org/art/collection/search/435627",
         "search_profile": {
           "fitting_situations": [
             {
-              "situation": "19世紀の光の表現を観察したい",
-              "reason": "1875年のフランスの画家ボーモンによる油彩。太陽光を扱った風俗画として暫定的に収録する。",
+              "situation": "墓碑のそばで休む二人と歴史的な彫像を見比べたい",
+              "reason": "大きな墓碑とその前の草地でくつろぐ男女が同一画面に置かれ、生者の休息と歴史的な記念物の対照を観察できる。",
               "strength": 1
             }
           ],
@@ -32993,11 +32994,11 @@
             "source_url": null
           },
           "scholarly_interpretation": {
-            "summary": "暫定的な画題解説。作品固有の専門的な解釈の照合は未完了。",
+            "summary": "Met公式の作品情報には本作固有の詳しい図像解釈は掲載されていない。現存する画像に見られる墓碑と一組の男女の近接を、死者の記念と休息する生者の対照として観察できるが、作者の象徴的な意図と断定する学術根拠は未確認。",
             "source_url": "https://www.metmuseum.org/art/collection/search/435627"
           },
-          "creation_context": "暫定的な画題解説。作品固有の専門的な解釈の照合は未完了。",
-          "visual_clues": "日差しを受ける人々の場面。",
+          "creation_context": "フランスのシャルル＝エドゥアール・ド・ボーモンが1875年に制作したカンヴァス油彩（59.7×95.9cm）。1946年にMarie L. Russell遺産からMetに寄贈された、所蔵番号46.150.2の絵画。墓碑のモチーフはフィリップ・ポの墓碑と識別されるが、依頼主や制作目的・作者の直接発言は未確認。",
+          "visual_clues": "樹木を背にした石棺と彫像の墓碑を大きく配し、その手前の草地に白い衣服の女性と暗色の衣服の男性、傍らに日傘と帽子がある。",
           "uncertainty_note": "個別場面の情感や作者本人の発言は未照合。 作者本人の当該作品への直接発言は確認できない。"
         },
         "emotion_categories": {
@@ -33015,6 +33016,26 @@
         "ai_content_review_status": "needs_revision",
         "source_evidence_review_status": "pending",
         "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "木々の間に置かれた大きな石の墓碑。その足元の草地には、白い服の女性と黒い服の男性が身を寄せるように腰を下ろしています。そばには日傘や帽子があり、二人は屋外でのひと休みを楽しんでいるようにも見えます。墓碑には横たわる人物像が載り、まわりを何体もの僧衣のような服を着た人像が支えています。\n\n《日差しの中で》は、フランスの画家シャルル＝エドゥアール・ド・ボーモンが1875年に描いた油彩画です。メトロポリタン美術館に所蔵され、作品番号は46.150.2。絵に見える墓碑は、ブルゴーニュの貴族フィリップ・ポの墓碑として知られる彫刻を思わせますが、どこでどのように画家がこの場面を構想したかは、ここで参照した館の作品情報だけでは分かりません。\n\n題名は光の中にいる二人へ目を向けさせますが、画面の大きな部分を占めているのは過去の人を記念する石の像です。生きている二人と墓碑を見比べると、休息の時間と長い歴史が一つの場所に並んでいるようにも感じられます。それが作者の意図した教訓だったと決めつけず、まずその不思議な取り合わせを眺めてみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/435627",
+          "https://commons.wikimedia.org/wiki/File:In_the_Sun_-_Charles-%C3%89douard_de_Beaumont_-_MET_ep_46.150.2.jpg"
+        ],
+        "review": {
+          "content_status": "pending",
+          "source_status": "pending",
+          "rights_status": "pending",
+          "reviewed_on": "2026-11-08"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-435627-2026-11-08.json",
+        "audit_sha256": "85d2e9f91e96c7c21b517cc78e07638a91ccf46409699842121d708eec0ad551",
+        "record_sha256": "e59b1075c628a24e52b0b6a2753c419b0b6f9567efb627a3108d66e83e712c08"
       }
     },
     {

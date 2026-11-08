@@ -1,0 +1,143 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-435627",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "d782a1b0bbbcd9fc19fe012208e911146ef40ae8",
+    "artwork_record_sha256": "916b2b40901b96f5b0717c994cd3049ba044e29e5fd4c6898e7c276f22e2a39e",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-435627.json",
+    "draft_sha256": "bac93d54de4d5634bc65035102608ccd021337bb0b6f83a753f43f169c7f42eb"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435627",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 435627 Artwork Details lines 66–74",
+        "Met 435627 heading and PD lines 30–45"
+      ],
+      "observed": "Artist Charles-Edouard de Beaumont, 1875 oil on canvas, 59.7x95.9cm, Met 46.150.2, estate donation in 1946, PD."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:In_the_Sun_-_Charles-%C3%89douard_de_Beaumont_-_MET_ep_46.150.2.jpg",
+      "access": "page_read_twice",
+      "locations": [
+        "Wikimedia Commons 4000x2527 faithful image from Met435627",
+        "Commons accession 46.150.2, file license, image title and photograph metadata"
+      ],
+      "observed": "Met寄贈画像の所蔵番号・作品ID・写真寸法が既存Met公式Original画像4000x2527と一致。同一作品の白黒版・別版の画面を目視し、墓碑、人物二人、草地、日傘を確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-435627",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-23288-001.jpg",
+      "status": 200,
+      "sha256": "0e6b80bea7aa56e9528bc05046c1a612373ef23016049d917fc93a851698f552",
+      "byte_length": 3615854,
+      "width": 4000,
+      "height": 2527,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10 Met official original DP-23288-001 full JPEG SHA and 4000x2527 size verified. This session a separate black-white photograph of same painting was visually viewed, and Commons MET 46.150.2 exact primary image metadata 4000x2527 verified."
+    },
+    {
+      "id": "met-435627",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23288-001.jpg",
+      "status": 200,
+      "sha256": "f60e1cf1a63551f4489867a99b2e0dc48f1c45c8df25267e2a552bc0b3dd90c7",
+      "byte_length": 106500,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Previously verified Met official web-large full JPEG SHA from 2026-10; this session no re-download."
+    }
+  ],
+  "visual_observations": {
+    "method": "Web画像検索で視認できたMet435627《In the Sun》の白黒図版（Pinterestに再掲されたMetクレジットの同一作品）を目視。作品同定はMet公式所蔵番号46.150.2とWikimedia Commonsの同一作品写真4000x2527・原Met画像IDから照合。登録されたカラー版JPEG DP-23288-001を今回新たにダウンロード・直接描画したものではない（旧全量SHA検証を継承）。",
+    "observed": "左右に木々のある庭／墓地の中、彫刻の寝姿と周囲の頭巾を被った彫像を備えた高い石の墓碑、その手前に白い服の女性と暗い服の男性が草地に休む。女性の傍らに日傘、男性のそばに帽子。背景や草地に日差しの明暗がある。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文案後にMet公式435627の人物・年代・寸法・46.150.2を再照合、Wikimedia Commonsの同作品/所蔵番号/登録原図と同じ4000x2527寸法を再照合。直接確認した白黒図版の墓碑と二人・日傘・帽子を文章と突合。作者が教訓を狙ったと断定しないかチェック。",
+    "limitations": "同一AIの別工程。登録色彩JPEGの今回直接表示・新規バイトダウンロードなし。白黒別図版で画面の主要モチーフのみ点検し、原版との画像同定にはMet正規記録・Commonsの一致と旧2026-10の全量JPEG SHAを合わせた。色調の具体的判断はしていない。",
+    "reviewed_artwork_sha256": "b5dcd054dcaf1b80da4d6c5a40af03c01c56e2e0e6f9685f161be450a172b186",
+    "reviewed_visitor_draft_sha256": "bac93d54de4d5634bc65035102608ccd021337bb0b6f83a753f43f169c7f42eb",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met435627=46.150.2, Charles-Edouard de Beaumont, 1875, oil canvas. Commons同一作品画像4000x2527、既存Met Original画像の寸法と対応。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "墓碑と男女を図像として説明。墓碑をフィリップ・ポとする美術史・図像情報は別出典由来の識別に留め、画家の意図・休息の場所や時代背景は決めつけない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "落ち着き・余韻は静かな休息と墓碑の構図を鑑賞するトーン。主・補感情タグ0を維持し生者が悲しむとは断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "現代Met作品ページの簡素なデータと図像観察から自分の語りで書いた文章。一次解説の逐語転載はない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "b5dcd054dcaf1b80da4d6c5a40af03c01c56e2e0e6f9685f161be450a172b186",
+    "visitor_draft_sha256": "bac93d54de4d5634bc65035102608ccd021337bb0b6f83a753f43f169c7f42eb",
+    "proposal_sha256": "262e2dd3280663da985c8e00c24092aa692706691b8ed769060a972733ea7407",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JSで対象版SHA・ID重複・対象外作品の不変更を確認。Python登録ガード及びGitHub CIで正式検証。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-435627.json",
+    "sha256": "262e2dd3280663da985c8e00c24092aa692706691b8ed769060a972733ea7407",
+    "proposed_artwork_sha256": "b5dcd054dcaf1b80da4d6c5a40af03c01c56e2e0e6f9685f161be450a172b186",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "Met 435627 artwork PD label + Open Access Policy",
+      "Commons 46.150.2 faithful reproduction public domain note",
+      "Met terms text not conflated with artwork CC0"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met登録作品画像はPublic Domain OAで、Commonsも同作品写真PDを記録。独自日本語鑑賞文は原資料の事実と観察から生成し館の文章を転載しない。非侵害の法的な保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met435627公式作品記録はタイトル・作者・素材等の簡素なデータのみで個別図像の研究者解釈は非掲載。",
+    "今回白黒別図版を視認、登録カラーファイルそのものの表示や再取得は未実施。画像SHAは2026-10の旧検証を引き継ぐ。",
+    "以前の画像表示不能74996/916604/36000は未完成のまま。"
+  ]
+}
