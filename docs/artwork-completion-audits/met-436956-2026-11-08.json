@@ -1,0 +1,132 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436956",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "f90d6b8c27e7d29ef0fde0fab22c5184793d8a16",
+    "artwork_record_sha256": "0744c832d57e88801c123bfb677cb61e4e7f9650f0f057788c306aa9e2bcc0a5",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436956.json",
+    "draft_sha256": "c114a4ee84d2014645ecf1e47e5e018ba073c23e7d6dc6e479eff89d0c91dc8a"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436956",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Official 436956 overview lines 28–40",
+        "Met Official 436956 Artwork Details lines 69–76"
+      ],
+      "observed": "1882–83、マネとフォール（バリトン歌手・収集家）、冬のモデル、別習作59.129と大作の準備、マネ1883年4月死去時に大型肖像未完成。所蔵番号50.71.1、PD。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436956",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP241909.jpg",
+      "status": 200,
+      "sha256": "d384686625cbc5743f1c9412a72f30db31bd28cf53449ef3d199377777191c36",
+      "byte_length": 4126974,
+      "width": 3241,
+      "height": 3859,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10のMet原画像DP241909全量SHA256照合を再利用。今回画像検索の公式同ファイル図版を目視。"
+    },
+    {
+      "id": "met-436956",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP241909.jpg",
+      "status": 200,
+      "sha256": "c5763d9a36e205da8fac405059a545cae3226c933a487a82da32b40925d0b561",
+      "byte_length": 72214,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10保存のweb-large JPEG SHA256記録を継承（今回再ダウンロードなし）。"
+    }
+  ],
+  "visual_observations": {
+    "method": "web image queryが返したMet正規のoriginal/DP241909.jpg（作品436956、所蔵50.71.1）を画面として確認。既存GitHub Actionsの同じDP241909（原版+web-large）の2026-10 SHA256証拠と対照。今回画像バイト再取得なし。",
+    "observed": "暗い茶色背景で淡い肌、半身の髭のある男性、淡色の上着と黒いネクタイ。顔の一部は丁寧に明暗付けされ肩や服には粗めの筆触が残る。Met作品ページのモデル・肖像習作に合致。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "完成案の後、Met 436956公式Overview/Artwork Detailsを再読。習作50.71.1、別習作59.129、未完成なのは大型肖像画でこの習作ではないこと、1883年4月死去という関係を個別確認。実画像DP241909の顔・背景・服と記述を再照合。",
+    "limitations": "同一AIによる別パスであり別AI・第三者ではない。元画像はweb画像表示で観察したが、今回新規全バイト取得／ハッシュ検査は行っていない（2026-10既存検査証拠）。",
+    "reviewed_artwork_sha256": "34b5a50d71b80f72f097c4eb7b592aee16b1e35d2df3ba74bc7788315d93ad01",
+    "reviewed_visitor_draft_sha256": "c114a4ee84d2014645ecf1e47e5e018ba073c23e7d6dc6e479eff89d0c91dc8a",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 436956/50.71.1、マネ1882–83油彩。別習作59.129と混同しない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "未完成の『大きい肖像』と本習作を区別。画家の病状や内心は未確定と明示。"
+      },
+      {
+        "area": "emotion",
+        "finding": "肖像の視線や晩年という状況だけで個人的な悲嘆を断定できないため感情タグ0件維持。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "図像から観察に始まり、Metの事実、解釈限界の順に独自日本語で構成。館の文章を長く逐語訳していない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "34b5a50d71b80f72f097c4eb7b592aee16b1e35d2df3ba74bc7788315d93ad01",
+    "visitor_draft_sha256": "c114a4ee84d2014645ecf1e47e5e018ba073c23e7d6dc6e479eff89d0c91dc8a",
+    "proposal_sha256": "473a6434548a188b716d1ab8bd85f29d1fdf1819f248b82823e4b5b365027eaa",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JSでユニークID・版・他299不変・ハッシュを事前検査。正式Python登録ガードとCIはPRで確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436956.json",
+    "sha256": "473a6434548a188b716d1ab8bd85f29d1fdf1819f248b82823e4b5b365027eaa",
+    "proposed_artwork_sha256": "34b5a50d71b80f72f097c4eb7b592aee16b1e35d2df3ba74bc7788315d93ad01",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "Met 436956 Public Domain/OA label",
+      "Met official terms: CC0 OA work image and museum modern prose are distinct rights"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met作品画像はPD/OAとして公開。館の現代解説文と区別し、文章は観察と出典事実をもとに新規執筆。法的非侵害の保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "最初の候補74996は画素の直接照合不能でシステム待機。916604/36000も今回の正規画像直接表示が取得できず、次の画像同定可能な436956を先に完成登録。",
+    "旧SHAの保存日は2026-10、今回の画像表示はweb画像検索で原画像ファイルDP241909を視認。"
+  ]
+}

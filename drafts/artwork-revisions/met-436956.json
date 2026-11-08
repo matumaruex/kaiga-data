@@ -1,0 +1,42 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-436956",
+  "baseline_commit": "f90d6b8c27e7d29ef0fde0fab22c5184793d8a16",
+  "baseline_artwork_sha256": "0744c832d57e88801c123bfb677cb61e4e7f9650f0f057788c306aa9e2bcc0a5",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation",
+        "summary"
+      ],
+      "before": "マネの晩年、名高いバリトン歌手で収集家のフォールを描いた未完成肖像の準備作。1883年の画家の死の前に描かれた。",
+      "after": "Metは本作を、歌手で美術収集家だったジャン＝バティスト・フォールのための、より大きな未完成肖像に先行する二つの習作の一つと位置づける。制作途中の表情や筆跡を見られる資料だが、画家の病状や感情の記録とは断定できない。",
+      "reason": "旧解説が制作背景との同文重複だったためMetの学芸的分類と解釈上の限界を分離して明確化。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/436956"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "マネの晩年、名高いバリトン歌手で収集家のフォールを描いた未完成肖像の準備作。1883年の画家の死の前に描かれた。",
+      "after": "1882〜1883年の冬、フォールはマネのためにモデルを務めた。マネの死（1883年4月）の時点では本作をもとに進めていた大きな肖像画は未完成で、関連するもう一つの習作がMet所蔵番号59.129として記載される。",
+      "reason": "Metによる制作時期、モデルと作者の関係、別習作59.129、未完成肖像の位置づけを背景として整理。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/436956"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-436956.json",
+  "visitor_draft_sha256": "c114a4ee84d2014645ecf1e47e5e018ba073c23e7d6dc6e479eff89d0c91dc8a",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "34b5a50d71b80f72f097c4eb7b592aee16b1e35d2df3ba74bc7788315d93ad01",
+  "explanation": "Met公式436956及び実画像DP241909を確認、肖像習作としてオリジナル鑑賞文を作成。重複していた旧専門解釈／制作背景を限定的に分離修正。感情タグ0件は維持。"
+}
