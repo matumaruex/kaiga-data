@@ -1,0 +1,72 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-57171",
+  "baseline_commit": "c4c6c77ed4f8ec08d8e1876881e68aae1fb7e1c0",
+  "baseline_artwork_sha256": "3444d30402b89a63837132f28694891a8c81979e0023d573a4dc62c30c0564f9",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation",
+        "summary"
+      ],
+      "before": "19世紀日本で楠木正成が息子正行に別れを告げる場面を描く歴史画。",
+      "after": "Metは本作を楠木正成と子・正行の別れとして同定するが、作品固有の図像の意図は詳説していない。国立公文書館が紹介する『太平記』をもとにした後世の『桜井の別れ』の受容史は題名の背景を理解する手掛かりだが、この杉板画の作者・制作目的を直接説明する根拠ではない。",
+      "reason": "旧制作背景と同文だった一般的題名説明を、後世の受容と個別解釈の限界に分ける。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/57171",
+        "https://www.archives.go.jp/exhibition/digital/rekishitomonogatari/contents/24.html"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "19世紀日本で楠木正成が息子正行に別れを告げる場面を描く歴史画。",
+      "after": "19世紀日本の杉材の板に墨と彩色で描かれた、作者不詳の歴史物語画。現在Met1985.396.3として所蔵。『桜井の別れ』は『太平記』の逸話で、後世の文学や教育にも表されたが、本作品と特定の近代教科書の制作上の関係は確認されていない。",
+      "reason": "制作媒体・時代・文学的主題と後世の図像展開を混同しない。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/57171",
+        "https://www.archives.go.jp/exhibition/digital/rekishitomonogatari/contents/24.html"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "父と子の別れを示す人物像。",
+      "after": "濃い茶色の杉板に甲冑姿の人物と向かい合う座した人物が描かれ、淡色の上部には飾り模様が広がる。木地や画面の経年変化が見える。",
+      "reason": "公式原図の実際の構成に基づき具体化。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/57171",
+        "https://www.archives.go.jp/exhibition/digital/rekishitomonogatari/contents/24.html"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "before": "歴史物語の図像を作者自身の死別体験として説明しない。 作者の当該作品への本人の直接発言は未確認。",
+      "after": "Met作品ページは作者名や人物の台詞・細かな制作意図を示さない。正成・正行の『桜井の別れ』は『太平記』由来の後世の伝承として区別し、1336年にこの絵が描かれたものではない。1909年の教科書は19世紀作品の直接資料とみなせない。画家自身の死別体験と結び付けない。",
+      "reason": "時代差、伝承と史実、個人感情の飛躍を明示。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/57171",
+        "https://www.archives.go.jp/exhibition/digital/rekishitomonogatari/contents/24.html"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-57171.json",
+  "visitor_draft_sha256": "2d6e5b601b37680ebf4cedc3d6089255af1975264d147d69e31e22f2ab0c53bb",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "36271dae05c6248eb8c4b5c4f4018db03e2b6101ce3266d7475e5677dbdaeffb",
+  "explanation": "Met公式の杉板画と『太平記』の桜井の別れを区別して意味・制作背景の重複を修正。感情主『悲しみ』2と画像情報は維持。"
+}
