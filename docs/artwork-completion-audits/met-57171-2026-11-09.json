@@ -1,0 +1,142 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-57171",
+  "checked_on": "2026-11-09",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "c4c6c77ed4f8ec08d8e1876881e68aae1fb7e1c0",
+    "artwork_record_sha256": "3444d30402b89a63837132f28694891a8c81979e0023d573a4dc62c30c0564f9",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-57171.json",
+    "draft_sha256": "2d6e5b601b37680ebf4cedc3d6089255af1975264d147d69e31e22f2ab0c53bb"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/57171",
+      "access": "page_read_twice",
+      "locations": [
+        "Met57171 heading and Public Domain label",
+        "Met57171 Artwork Details 61–69"
+      ],
+      "observed": "Unknown artist; 19th-century Japan; ink and color on cryptomeria wood; Met1985.396.3; Public Domain. No detailed art-historical interpretation on Met entry."
+    },
+    {
+      "url": "https://www.archives.go.jp/exhibition/digital/rekishitomonogatari/contents/24.html",
+      "access": "page_read_twice",
+      "locations": [
+        "National Archives of Japan exhibition 24 lines 20–24",
+        "Description of textbook published 1909 and Taiheiki legend"
+      ],
+      "observed": "桜井の別れは『太平記』に基づく父子の別れの伝承、1909年の『尋常小学読本』に掲載。後世に忠孝の教訓として受容された。1909年の資料を19世紀絵画の作者証言とはしない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-57171",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/LC-1985_396_3_001.jpg",
+      "status": 200,
+      "sha256": "00f32c1aa87c02f32c977934afb4dbdf07aaa1a152f8b6fec3562958560c1ebf",
+      "byte_length": 2716315,
+      "width": 4000,
+      "height": 2666,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10 full Met original JPEG SHA/size and downscale verified in catalog; no new full download."
+    },
+    {
+      "id": "met-57171",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/LC-1985_396_3_001.jpg",
+      "status": 200,
+      "sha256": "227176bd96c548e39b1ca5923efa648b3272042e08a14c286439e9c505f7a48a",
+      "byte_length": 72574,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10 full web-large JPEG SHA verified; unchanged URL and hash."
+    }
+  ],
+  "visual_observations": {
+    "method": "web image query for official Met57171 returned the actual original/LC-1985_396_3_001.jpg preview; compared work ID, official page and accession, and known primary image URL. Preview display is not a full JPEG read.",
+    "observed": "Dark rectangular cedar-board field, pale upper space with repeated stylized patterns, armored figure in middle and small seated figures at right. Detailed expressions not resolvable in preview."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "After drafting, checked Met57171 title, medium and accession separately from National Archives historic textbook passage. Revisited visible official image and separated visual description from the later reception of the Taiheiki story; no attribution of artist emotions or definite historical accuracy.",
+    "limitations": "Same AI recheck, not a second model. 512px image preview is only partial detail; Met original JPEG full byte SHA is inherited from 2026-10, no new download.",
+    "reviewed_artwork_sha256": "36271dae05c6248eb8c4b5c4f4018db03e2b6101ce3266d7475e5677dbdaeffb",
+    "reviewed_visitor_draft_sha256": "2d6e5b601b37680ebf4cedc3d6089255af1975264d147d69e31e22f2ab0c53bb",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met57171/1985.396.3, unidentified artist, 19th century, ink and color on cryptomeria wood."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "The Taiheiki legend and 1909 educational depiction are related reception history, not sources for the particular 19th-century maker's intentions."
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing primary sadness strength2 is linked to subject of father-son farewell without inferring artist's own sadness."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Independent Japanese explanation separates visible image, artwork record, and later historical storytelling; no text copied at length."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "36271dae05c6248eb8c4b5c4f4018db03e2b6101ce3266d7475e5677dbdaeffb",
+    "visitor_draft_sha256": "2d6e5b601b37680ebf4cedc3d6089255af1975264d147d69e31e22f2ab0c53bb",
+    "proposal_sha256": "223c749527278b438b61c75bde341f8cf6fe88e9d8cf3cfa94cbac7d5d5683c5",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Record hashes and limited changed keys computed with JS; GitHub Actions will run full Python registration guards."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-57171.json",
+    "sha256": "223c749527278b438b61c75bde341f8cf6fe88e9d8cf3cfa94cbac7d5d5683c5",
+    "proposed_artwork_sha256": "36271dae05c6248eb8c4b5c4f4018db03e2b6101ce3266d7475e5677dbdaeffb",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/art/collection/search/57171",
+    "locations": [
+      "Met57171 Public Domain marker",
+      "Met Open Access policy",
+      "New Japanese original visitor text"
+    ],
+    "checked_on": "2026-11-09",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Museum image is marked Public Domain. National Archives page is used for facts and not text reproduction. Independently written Japanese visitor prose; no legal noninfringement guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "National Archives 1909 textbook is later than this 19th-century painting; artwork-specific origin undetermined.",
+    "Image preview only, full JPEG hashes inherited 2026-10."
+  ]
+}
