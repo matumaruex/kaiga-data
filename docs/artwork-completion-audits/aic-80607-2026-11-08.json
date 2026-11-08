@@ -1,0 +1,135 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-80607",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "26319c91530516ffc1a37c7e05c296dba14adc17",
+    "artwork_record_sha256": "5ee047734c6236e6daea63b96e4c909fa54736ba61af4cdd972440e2e68df618",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-80607.json",
+    "draft_sha256": "9782fd4ac9b5aca19b226ae9305087daca792c0b9c5c9becca062be19afc19c0"
+  },
+  "sources": [
+    {
+      "url": "https://www.artic.edu/files/5ed2e087-686e-4c69-8c65-98bc51d68e05/AIC_MuseumStudies_20-2_UPDF.pdf",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC Museum Studies20(2), 1994 p122, lines 340–350, work 1954.326, visible reproduction p123 (text alternative)"
+      ],
+      "observed": "公式PDFの抽出テキストを2回参照し、1954.326・1886/87・素材・スーラ風の色点と後年の精神状態との読み分けを確認。web PDF screenshotはcache missで取得できなかった。"
+    },
+    {
+      "url": "https://archive.artic.edu/vangogh/paris.html",
+      "access": "page_read_twice",
+      "locations": [
+        "Van Gogh and Gauguin: The Studio of the South, Paris section lines 13–20"
+      ],
+      "observed": "美術館展示のパリ滞在の事実・印象派/新印象派の研究に関する記述を再読。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-Portrait_-_1954.326_-_Art_Institute_of_Chicago.jpg",
+      "access": "page_read_twice",
+      "locations": [
+        "Commons file 1954.326, F345/JH1249, preview and licensing lines 238–309"
+      ],
+      "observed": "Commonsの所蔵番号・画像表示・PDマークとCC0を再読、1887年シカゴ版と別の自画像を区別。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-80607",
+      "kind": "display",
+      "url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/80607.jpg",
+      "sha256": "bfa0ac1981c9c17a757531ba50d40068972acf2875e323fe72839d2d341986b5",
+      "byte_length": 591800,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "旧2026-10-18のraw GitHub公開ミラーJPEG全量HTTP200/SHA256一致記録を引き継ぐ。今回ミラーJPEG自体は新規取得・バイト照合していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "AIC Museum Studies p123の作品図版テキストとCommons公開1954.326の画像、別の写真表示を確認。登録GitHubミラーJPEGの画素新規ダウンロードはなし。",
+    "observed": "赤い髭・黄褐色の短髪・斜め向きの顔・青緑の斑点状の背景・濃いジャケット。AIC1954.326/F345/JH1249に一致。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "新規日本語本文を作成後、AIC学術誌のp122の本作固有の所蔵番号・支持体・スーラの技法と、AIC展覧会のParis節・Commonsの版名を再読して異版や年代と病状の混同を点検した。",
+    "limitations": "同一AIによる別工程であって別AI/第三者審査ではない。AIC公式作品ページは403、AIC PDF screenshotはcache miss、PDF抽出文字・図版説明・Commons画像を用いた。登録ミラーJPEGの新規取得はなし。",
+    "reviewed_artwork_sha256": "5ee047734c6236e6daea63b96e4c909fa54736ba61af4cdd972440e2e68df618",
+    "reviewed_visitor_draft_sha256": "9782fd4ac9b5aca19b226ae9305087daca792c0b9c5c9becca062be19afc19c0",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC学術誌p122の1954.326、1886/87、油彩板41×32.5cmとCommons所蔵番号・1887年記載が整合。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "当該自画像の短い筆触と色彩はスーラらの点描の影響に結びつけられている。後年の病をこの1887年作の直接意図として断定しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存主・副0個維持。作者の技法研究だけを理由に『好奇心』タグを追加しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "学術誌を長文翻訳せず、外観・色彩・支持体と制作背景を独自の日本語で整理。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "5ee047734c6236e6daea63b96e4c909fa54736ba61af4cdd972440e2e68df618",
+    "visitor_draft_sha256": "9782fd4ac9b5aca19b226ae9305087daca792c0b9c5c9becca062be19afc19c0",
+    "proposal_sha256": "07b0814d4bfc7d5a08c7532ddfb116ecccf2ae869a1ba760147f4d7304894424",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象版の正準SHA、対象外299件不変、形式上の下書き・提案の整合を事前確認。正式Python検証・CIはPR作成後に確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-80607.json",
+    "sha256": "07b0814d4bfc7d5a08c7532ddfb116ecccf2ae869a1ba760147f4d7304894424",
+    "proposed_artwork_sha256": "5ee047734c6236e6daea63b96e4c909fa54736ba61af4cdd972440e2e68df618",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-Portrait_-_1954.326_-_Art_Institute_of_Chicago.jpg",
+    "locations": [
+      "Commons作品1954.326のPD Mark 1.0・CC0表示を直接照合。",
+      "AIC研究誌とAIC展示アーカイブの現代の文章は転載せず、新規の日本語解説を構成。",
+      "旧GitHubミラーJPEGの登録ハッシュ・パブリックドメイン出典を引き継ぐ。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品本体PD・Commonsの画像CC0・現代の学術文章の権利を分けて確認。独自説明をDBへ保存する重大な障害は確認されないが法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "AIC研究誌は当該作品の明示的図版・所蔵番号を含む",
+    "PDF screenshotキャッシュミス・旧JPEG画像SHA継承",
+    "同一AI別工程"
+  ]
+}
