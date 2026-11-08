@@ -1,0 +1,142 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-40432",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "f40ac32d60471a8553699ed86c1759d934241838",
+    "artwork_record_sha256": "75d2897ea2a4eb7400ce14e2a79c6f773a9275638678fdbbc3b547bed4907c21",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-40432.json",
+    "draft_sha256": "b1c432b58b3ac2e21346592710b27678d0c05f5cd0b1ea503bcb9cbe7e016277"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/40432",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 40432 official Overview lines 35–37",
+        "Met 40432 Artwork Details lines 66–76"
+      ],
+      "observed": "作家号Samojeと生涯不詳、明代中国画譜・南宗文人画と対幅の仮説、朝鮮18世紀末と15.96.6を照合。"
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/40429",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 40429 related but separate Pavilion by the Lake",
+        "Met 40429 Artwork Details 15.96.2"
+      ],
+      "observed": "二枚を混同せず、対幅は可能性であって事実認定ではないことを確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-40432",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/15_96_6.JPG",
+      "status": 200,
+      "sha256": "cd64b0c269ac6507a87023dbfbb66769161362752794c618c0abfb080d0d0c3c",
+      "byte_length": 134287,
+      "width": 543,
+      "height": 900,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet original JPEG 543x900全量SHA256一致を継承、今回新規バイト取得なし。"
+    },
+    {
+      "id": "met-40432",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/15_96_6.JPG",
+      "status": 200,
+      "sha256": "38791425c58bcf5c2e5b1a49ab93e2d31f9cc9456a20a8738ffc9d6b38b3af16",
+      "byte_length": 91609,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10のMet web-large画像のハッシュ記録を同一版として継承、今回新規バイト取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met 40432公式の実図版（collectionapi IIIF 40432/73661 main-image）を表示して目視し、2026-10の登録画像SHA同一性記録と対照。類似画40429の公式別画像と区別。",
+    "observed": "縦長の墨画、上部の山と遠景の峰、樹木と中ほどの建物、下部の水面と湖畔の亭、右上の号と印。濃淡の墨による奥行き。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文作成後の別工程でMet40432の号の説明・当該作品所蔵番号15.96.6と、対候補40429の15.96.2を再照合。作家の本名、確定した対幅、実在の地理や故郷という断定を避けたことを検査。",
+    "limitations": "同一AIの別パスで第三者・別AIの独立監査ではない。公式画像の表示は確認したが登録画像バイトは今回再取得せず、2026-10保存SHA証拠を継承。",
+    "reviewed_artwork_sha256": "75d2897ea2a4eb7400ce14e2a79c6f773a9275638678fdbbc3b547bed4907c21",
+    "reviewed_visitor_draft_sha256": "b1c432b58b3ac2e21346592710b27678d0c05f5cd0b1ea503bcb9cbe7e016277",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 40432=15.96.6、Samoje、朝鮮王朝18世紀末、麻または苧麻に墨・彩色。別番号40429=15.96.2と混同なし。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "明代画譜・南宗文人画・同作者別作との対幅はすべてMet公式の可能性表現に限定。"
+      },
+      {
+        "area": "emotion",
+        "finding": "静かな山水というだけでは安心や懐かしさを推定できないため既存感情タグ0件維持。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "見える岩・木・湖と館の美術史研究を独自の日本語で構成し、原文を長文逐語訳していない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "75d2897ea2a4eb7400ce14e2a79c6f773a9275638678fdbbc3b547bed4907c21",
+    "visitor_draft_sha256": "b1c432b58b3ac2e21346592710b27678d0c05f5cd0b1ea503bcb9cbe7e016277",
+    "proposal_sha256": "b6bd29f061be2239df0a3263ccf3778a61dbd5a84bedbad0cf1369eb6d3d7eb6",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "作品版・証拠SHA、IDの一意性、対象外不変更をJSで照合。正式PythonとCIはPR上で実行。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-40432.json",
+    "sha256": "b6bd29f061be2239df0a3263ccf3778a61dbd5a84bedbad0cf1369eb6d3d7eb6",
+    "proposed_artwork_sha256": "75d2897ea2a4eb7400ce14e2a79c6f773a9275638678fdbbc3b547bed4907c21",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "Met 40432 page Public Domain icon",
+      "Met Terms §§1,3(a): OA/CC0 versus modern textual exposition"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Metの所蔵画像はOA/PDで、現代の館文章は別の権利と区別。美術史上の事実と観察を新たな日本語本文に再構成した。法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "登録JPEGは2026-10保存証拠を継承し今回全量再取得なし。",
+    "別所蔵番号15.96.2の関連作と混同しない。",
+    "既存の感情タグ0件を尊重。"
+  ]
+}
