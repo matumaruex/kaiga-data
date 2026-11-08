@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-93782",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "31ca017559b5a3b2188804b0606f94d53efbaaf8",
+    "artwork_record_sha256": "069d25951f0abbab7591950dd247704a3ca30940d224183852ca79fef9b25570",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-93782.json",
+    "draft_sha256": "5a984ddfd7f60e9b65cf98a36ab1fb19fee12c6304cd74f8c4ae9efeda273c8f"
+  },
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Henri_Leopold_L%C3%A9vy_-_The_Death_of_Orpheus_-_1977.4_-_Art_Institute_of_Chicago.jpg",
+      "access": "page_read_twice",
+      "locations": [
+        "Commons Henri Leopold Lévy Death of Orpheus 1977.4 Summary, ARTIC93782, Licensing CC0 and original image"
+      ],
+      "observed": "シカゴ美術館1977.4、作者Lévy、約1870年、作品図版が同題・同所蔵番号で一致。Commonsの著作権PDM/CC0の区別を確認。"
+    },
+    {
+      "url": "https://www.theoi.com/Text/OvidMetamorphoses11.html",
+      "access": "page_read_twice",
+      "locations": [
+        "Theoi Ovid Metamorphoses 11, section Death of Orpheus, Brookes More [1]–[61], lines 173–185"
+      ],
+      "observed": "女たちの襲撃、亡骸が裂かれ頭と竪琴がヘブロス川に流れる話を原典の翻訳で2回確認。1870年作品に関する画家の直接的制作意図を証明する資料とは扱わない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-93782",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Henri_Leopold_L%C3%A9vy_-_The_Death_of_Orpheus_-_1977.4_-_Art_Institute_of_Chicago.jpg/960px-Henri_Leopold_L%C3%A9vy_-_The_Death_of_Orpheus_-_1977.4_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "7a6f2d3d4196e722ca5ba2dc2e2fa627dbc9fc9a09143f4bf5b5535adff80dc9",
+      "byte_length": 218273,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18 Commons960px JPEGでHTTP200・全量SHA256記録済みの登録画像証拠を継承。今回新規JPEG全量取得・ハッシュ再測定なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Commons1977.4の公開画像と別の公開図版で作品構図を確認し、オウィディウス原典の小道具（頭部と竪琴）との対応を照合。",
+    "observed": "左寄りの激しく流れる水面に頭、右岸に倒れた身体と竪琴、上部の暗い崖と灰色の空、飛ぶ鳥。殺害そのものより直後の景観。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "鑑賞本文を作成後にCommonsの所蔵1977.4/ARTIC93782・PD/CC0表示とTheoiの『変身物語』XI [1]–[61]の伝承を再読し、画面に描かれた死の結果と物語上の襲撃を混同しないよう照合。",
+    "limitations": "同一AIの別工程で他のAI/第三者監査ではない。シカゴ美術館の直接作品説明はwebでcache missであり作品帰属・画像はCommonsおよび旧AIC API照合記録に依拠。登録済み960px画像バイト再取得・SHA再計測なし。",
+    "reviewed_artwork_sha256": "069d25951f0abbab7591950dd247704a3ca30940d224183852ca79fef9b25570",
+    "reviewed_visitor_draft_sha256": "5a984ddfd7f60e9b65cf98a36ab1fb19fee12c6304cd74f8c4ae9efeda273c8f",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Henri Leopold Lévy c.1870, AIC1977.4 / ARTIC93782。オルフェウスを描いた別絵・古代神話の別描写と混同しない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Ovid XIの女たちの襲撃・川を流れる頭と竪琴は一つの古代伝承。レヴィの制作意図の本人証言とは扱わない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主喪失感2は死の結果、補怒り1は神話上の襲撃との弱い接点。作者自身の怒りを断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "原典・登録図版を素材として独自日本語文を執筆。作品に実証不能の特定心理を付与せず、古代本文を翻訳転載しない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "069d25951f0abbab7591950dd247704a3ca30940d224183852ca79fef9b25570",
+    "visitor_draft_sha256": "5a984ddfd7f60e9b65cf98a36ab1fb19fee12c6304cd74f8c4ae9efeda273c8f",
+    "proposal_sha256": "0df631f98e83d946c6131ee3ece406fa71ad07776c41c3a8d02cc75d89af9eeb",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象レコードSHA256、作品ID固有数、他299件不変を作業時に検査。正式Python/CIはPRで判定する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-93782.json",
+    "sha256": "0df631f98e83d946c6131ee3ece406fa71ad07776c41c3a8d02cc75d89af9eeb",
+    "proposed_artwork_sha256": "069d25951f0abbab7591950dd247704a3ca30940d224183852ca79fef9b25570",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Henri_Leopold_L%C3%A9vy_-_The_Death_of_Orpheus_-_1977.4_-_Art_Institute_of_Chicago.jpg",
+    "locations": [
+      "Commons1977.4作品は1904年に没したLévyのパブリックドメインでPDM 1.0。",
+      "同じCommons画像にはCC0 1.0での自由利用表示あり。",
+      "Ovid古代作品の現代英訳は長文引用・逐語翻訳せず独自の要約のみ。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "所蔵絵画のPDと登録された忠実な図版のCC0を確認し、神話の概要から独自解説を制作。画像と文章の権利を混同せず、法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "首の切断描写を含むという既存選定注意は維持",
+    "作者の意図とOvidの神話テキストを分ける",
+    "画像バイトは2026-10履歴のみ"
+  ]
+}
