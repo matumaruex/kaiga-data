@@ -1,0 +1,133 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-45217",
+  "checked_on": "2026-11-09",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "e58eac149fa32d4499788fbe854efa2bee5dd58d",
+    "artwork_record_sha256": "011686caf21e7aad4530752a8c3b0fc6c76025875c782fb0f9963274b807ffcf",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-45217.json",
+    "draft_sha256": "d5e2939132d2c82325e25a25285f961867931094eb6b18993659c2ce6c71589a"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/45217",
+      "access": "page_read_twice",
+      "locations": [
+        "Met45217 Overview, lines 34–36",
+        "Met45217 official PD statement and Artwork Details, 74–85"
+      ],
+      "observed": "Kano Chikanobu, 17th–18th century, six-panel folding screen (29.100.498), Public Domain; Met explains Daikoku/Ebisu/Hotei (three of seven), Chinese children and peony-laden flower cart as symbols of prosperity and longevity."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-45217",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP105850.jpg",
+      "status": 200,
+      "sha256": "582f2ca3bcfa16fc3adaa4dc128faca5371d3dce1d5a1f13ab1e11b5d64a6b8c",
+      "byte_length": 1964426,
+      "width": 4000,
+      "height": 1779,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Registered original DP105850 JPEG fully hashed 2026-10, 4000x1779; not newly downloaded."
+    },
+    {
+      "id": "met-45217",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP105850.jpg",
+      "status": 200,
+      "sha256": "b3d0a69d9b5a7a54ed82eaf9edbf5542c5c12510e10c706c5bf980919f0cf78c",
+      "byte_length": 63668,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Official web-large DP105850 fully hashed 2026-10; reused as unchanged."
+    }
+  ],
+  "visual_observations": {
+    "method": "Met image search on 2026-11-09 displayed official original DP105850.jpg thumbnail in response; Matched original filename and work accession with Met official record. Thumbnail is a crop/preview and not complete inspection of all reverse-side panels.",
+    "observed": "Gold-ground screen composition with large pine branches and trunk, groups of child-like figures drawing a wheeled flower cart amid pale pink/white blossoms, pale gold clouds and decorative painting. Number/identity of gods taken from Met's scholarly Overview rather than guessed from thumbnail."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "After drafting, reread Met45217 Overview and Artwork Details separately, checking the specific three named deities, Chinese children's auspicious themes, peonies, dates, 6-panel format, and matching primary image preview. Avoided attributing depicted happiness to author's feelings or suggesting seven deities are all visible.",
+    "limitations": "Same assistant independent pass, not external reviewer. Web image shows Met primary DP105850 thumbnail only; reversed panels and full-resolution source not inspected in this session. Registered full byte hashes from October 2026 retained.",
+    "reviewed_artwork_sha256": "011686caf21e7aad4530752a8c3b0fc6c76025875c782fb0f9963274b807ffcf",
+    "reviewed_visitor_draft_sha256": "d5e2939132d2c82325e25a25285f961867931094eb6b18993659c2ce6c71589a",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met45217/29.100.498: Kano Chikanobu; 17th–18th century six-panel screen, ink/color/gilt on paper."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met describes precisely Daikoku, Ebisu, Hotei and the Chinese-child auspicious motif; no false assertion that all seven gods appear."
+      },
+      {
+        "area": "emotion",
+        "finding": "Emotion tags remain 0: auspicious subject is not proof the artist felt personal joy."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "New Japanese visitor text constructed from object-specific interpretation and visual observation; not copied or paragraph-by-paragraph translated from Met commentary."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "011686caf21e7aad4530752a8c3b0fc6c76025875c782fb0f9963274b807ffcf",
+    "visitor_draft_sha256": "d5e2939132d2c82325e25a25285f961867931094eb6b18993659c2ce6c71589a",
+    "proposal_sha256": "4684726db3492afd083e850e9a963bcfbb6ff346130fc75679bd1a174072ea82",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS checked 300 count, target record and version hash; Python full tests and snapshot/registration guards to run in CI."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-45217.json",
+    "sha256": "4684726db3492afd083e850e9a963bcfbb6ff346130fc75679bd1a174072ea82",
+    "proposed_artwork_sha256": "011686caf21e7aad4530752a8c3b0fc6c76025875c782fb0f9963274b807ffcf",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/art/collection/search/45217",
+    "locations": [
+      "Met45217 Public Domain label",
+      "Met Open Access policy",
+      "Independently authored Japanese visitor explanation"
+    ],
+    "checked_on": "2026-11-09",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "PD status shown by Met for image and artwork. The museum's modern descriptive prose has separate copyright; generated Japanese visitor explanation is original and not a full translation. No legal warranty."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met also identifies ink/color/gold on screen reverse, but only registered primary image was previewed; not claimed reverse imagery was reviewed.",
+    "Old 2026-10 JPEG full-byte verification was reused without a fresh download; not conflated with image subject inspection."
+  ]
+}
