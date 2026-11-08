@@ -1,0 +1,121 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-435627",
+  "baseline_commit": "d782a1b0bbbcd9fc19fe012208e911146ef40ae8",
+  "baseline_artwork_sha256": "916b2b40901b96f5b0717c994cd3049ba044e29e5fd4c6898e7c276f22e2a39e",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation",
+        "summary"
+      ],
+      "before": "暫定的な画題解説。作品固有の専門的な解釈の照合は未完了。",
+      "after": "Met公式の作品情報には本作固有の詳しい図像解釈は掲載されていない。現存する画像に見られる墓碑と一組の男女の近接を、死者の記念と休息する生者の対照として観察できるが、作者の象徴的な意図と断定する学術根拠は未確認。",
+      "reason": "作品固有の専門解釈が未照合の状態を、Met公式が未記載という事実と画面観察を分けて明確化。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435627",
+        "https://commons.wikimedia.org/wiki/File:In_the_Sun_-_Charles-%C3%89douard_de_Beaumont_-_MET_ep_46.150.2.jpg"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "暫定的な画題解説。作品固有の専門的な解釈の照合は未完了。",
+      "after": "フランスのシャルル＝エドゥアール・ド・ボーモンが1875年に制作したカンヴァス油彩（59.7×95.9cm）。1946年にMarie L. Russell遺産からMetに寄贈された、所蔵番号46.150.2の絵画。墓碑のモチーフはフィリップ・ポの墓碑と識別されるが、依頼主や制作目的・作者の直接発言は未確認。",
+      "reason": "Met作品別詳細と画像メタデータに基づく制作・収蔵背景を明示。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435627",
+        "https://commons.wikimedia.org/wiki/File:In_the_Sun_-_Charles-%C3%89douard_de_Beaumont_-_MET_ep_46.150.2.jpg"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "日差しを受ける人々の場面。",
+      "after": "樹木を背にした石棺と彫像の墓碑を大きく配し、その手前の草地に白い衣服の女性と暗色の衣服の男性、傍らに日傘と帽子がある。",
+      "reason": "太陽光の一般論ではなく、同作画面の要素により作品固有にした。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435627",
+        "https://commons.wikimedia.org/wiki/File:In_the_Sun_-_Charles-%C3%89douard_de_Beaumont_-_MET_ep_46.150.2.jpg"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "fitting_situations"
+      ],
+      "before": [
+        {
+          "situation": "19世紀の光の表現を観察したい",
+          "reason": "1875年のフランスの画家ボーモンによる油彩。太陽光を扱った風俗画として暫定的に収録する。",
+          "strength": 1
+        }
+      ],
+      "after": [
+        {
+          "situation": "墓碑のそばで休む二人と歴史的な彫像を見比べたい",
+          "reason": "大きな墓碑とその前の草地でくつろぐ男女が同一画面に置かれ、生者の休息と歴史的な記念物の対照を観察できる。",
+          "strength": 1
+        }
+      ],
+      "reason": "旧『光の表現』という一般的説明から、実在する画面要素へ選定用接点を修正。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435627",
+        "https://commons.wikimedia.org/wiki/File:In_the_Sun_-_Charles-%C3%89douard_de_Beaumont_-_MET_ep_46.150.2.jpg"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "tones"
+      ],
+      "before": [
+        "落ち着き"
+      ],
+      "after": [
+        "落ち着き",
+        "余韻"
+      ],
+      "reason": "動かず休む二人と墓碑の並置に基づく鑑賞上の余韻を補う。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435627",
+        "https://commons.wikimedia.org/wiki/File:In_the_Sun_-_Charles-%C3%89douard_de_Beaumont_-_MET_ep_46.150.2.jpg"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "themes"
+      ],
+      "before": [
+        "日常",
+        "自然"
+      ],
+      "after": [
+        "日常",
+        "時間"
+      ],
+      "reason": "墓碑という歴史的記憶を示す造形物が中心で、自然だけを主題とする旧区分を修正。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435627",
+        "https://commons.wikimedia.org/wiki/File:In_the_Sun_-_Charles-%C3%89douard_de_Beaumont_-_MET_ep_46.150.2.jpg"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-435627.json",
+  "visitor_draft_sha256": "bac93d54de4d5634bc65035102608ccd021337bb0b6f83a753f43f169c7f42eb",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "b5dcd054dcaf1b80da4d6c5a40af03c01c56e2e0e6f9685f161be450a172b186",
+  "explanation": "Metの作品435627と同一作品の公式寄贈Commons写真を照合。旧情報の『日光を扱う風俗画』のみでは画面で重要な墓碑を見落とすため、人物と歴史的墓碑の並置に合わせて選定用資料を修正。意味の断定はしない。感情タグ0維持。"
+}
