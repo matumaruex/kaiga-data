@@ -1,0 +1,143 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-670902",
+  "checked_on": "2026-11-09",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "2e516b8307c08740d3dd883df900294482d94859",
+    "artwork_record_sha256": "54727dd69bc8e1a5f04ed5c20f6a7dc0cacfa772bc16411dc39936a1ca897fad",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-670902.json",
+    "draft_sha256": "4bc62295f506cde757e05db7f6ae55c8a11c1e4db1314909b3c9f6e06f4b5c2b"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/670902",
+      "access": "page_read_twice",
+      "locations": [
+        "Met670902 title and Public Domain label",
+        "Met670902 Artwork Details and accession 2015.300.223"
+      ],
+      "observed": "Met670902=2015.300.223、長号 Chōgō、18世紀、墨彩紙本の掛軸、2015年Burke Collectionからの寄贈、Public Domain。画中の旅人が伊勢講に属したという作品固有の確証はない。"
+    },
+    {
+      "url": "https://www.edo-tokyo-museum.or.jp/en/s-exhibition/tokaido2014/",
+      "access": "page_read_twice",
+      "locations": [
+        "Edo-Tokyo Museum 2014 '53 Stations of the Tokaido Road' Exhibition Outline",
+        "Overview of Edo travel and Ise pilgrimages"
+      ],
+      "observed": "江戸期の伊勢参りが信仰と広範な旅の文化に結び付いたことを説明。ただしMet670902の具体的な画中集団を調査した資料ではない。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-670902",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-12232-285.jpg",
+      "status": 200,
+      "sha256": "b85291d510d1f9c1fa23407afbe0774a5a15709c83b832c08ebb0a14d03baafb",
+      "byte_length": 4058942,
+      "width": 4000,
+      "height": 3002,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10 GitHub Actions batch020 Met original DP-12232-285 full-JPEG SHA256 and downscale verification. Registered bytes were not redownloaded this session."
+    },
+    {
+      "id": "met-670902",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-12232-285.jpg",
+      "status": 200,
+      "sha256": "a7f3974b4d163327d53a1690e9c8be68d8f039189d779a8b71d1b57d87e39d55",
+      "byte_length": 123922,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10 GitHub Actions batch020 registered web-large JPEG full-byte SHA256; not fetched again in this session."
+    }
+  ],
+  "visual_observations": {
+    "method": "2026-11-09 Web画像検索でMet670902《Pilgrims Travelling to Ise》と識別される別提供元の同作品複製図版を視認し、Met公式所蔵情報・旧登録Met primaryImage/旧SHA証拠と突合。登録MetのDP-12232-285原版そのものの今回の直接表示はできておらず、構図主要モチーフの同定の範囲に限定。",
+    "observed": "横長の画面に旅の一行が続き、徒歩の者・馬に乗る者・駕籠や荷を担ぐ者、小さな犬、上部の文字がある。人数・感情・所属は図像だけで断定しない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "制作後、Met670902の作品詳細・PD帰属と江戸東京博物館の伊勢参詣を含む一般旅行史をもう一度別工程で見直し、観察した同作品複製図版の馬・駕籠・徒歩・犬・文字と日本語本文・選定用修正案を突合。特定の伊勢講やおかげまいりへの所属の推測、作者意図の捏造、作品IDの混同を排除。",
+    "limitations": "同一AIによる別工程であり、別AI/独立した第三者レビューではない。今回見た画像は同作品の別提供元の複製図版であり、登録MetオリジナルJPEGの直接表示・新規全バイト取得なし。登録画像URLと旧2026-10のMet由来の全量SHA検証を併用。",
+    "reviewed_artwork_sha256": "a9acda238b7bf32b094530e921414f5330b3fcef8fa4c4bef38a1bc3096b6409",
+    "reviewed_visitor_draft_sha256": "4bc62295f506cde757e05db7f6ae55c8a11c1e4db1314909b3c9f6e06f4b5c2b",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met670902/2015.300.223、長号、18世紀墨彩掛軸。図版題名と対象を照合し別版を断定しない。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "伊勢参詣の社会史は公的資料で確認。特定の旅人・伊勢講・おかげまいりという同定に根拠はなく、そう断定しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "感情タグは主補とも0件維持。特定の旅人の喜び・信仰心・郷愁等を勝手に特定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "原作品情報と観察から独自日本語で記述し、館の現代解説の実質的な逐語翻訳・長文転載なし。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "a9acda238b7bf32b094530e921414f5330b3fcef8fa4c4bef38a1bc3096b6409",
+    "visitor_draft_sha256": "4bc62295f506cde757e05db7f6ae55c8a11c1e4db1314909b3c9f6e06f4b5c2b",
+    "proposal_sha256": "83b1ad0de5c782f4c04d5e13ce1fede4c407f45b19e1d578f65486c9665f1f2a",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JSで対象版指紋・限定した差分を事前検証。正式なPython登録ガード・カタログ整合・CIはPR上で確認してからmainへ統合。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-670902.json",
+    "sha256": "83b1ad0de5c782f4c04d5e13ce1fede4c407f45b19e1d578f65486c9665f1f2a",
+    "proposed_artwork_sha256": "a9acda238b7bf32b094530e921414f5330b3fcef8fa4c4bef38a1bc3096b6409",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/art/collection/search/670902",
+    "locations": [
+      "Met670902 Public Domain statement",
+      "Met Open Access for artwork imagery, separate from copyright of modern museum commentary",
+      "Original independent Japanese visitor prose"
+    ],
+    "checked_on": "2026-11-09",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met作品・登録画像はPublic Domain/Open Access。日本語本文は所蔵事実と図像観察に基づく独自の文章であり、現代館解説の文章をPDとみなしたものではない。個別の法的非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "登録Met JPEGは旧2026-10全バイトSHA証拠を再利用。今回の図像視認は別提供元の同題同作品図版であり、登録原画像の直接表示と混同しない。",
+    "出典を利用した伊勢参詣の一般史は、描かれた一行の特定・情緒の診断には使わない。",
+    "画像待ちのmet-74996・met-916604は今回も完成に算入しない。"
+  ]
+}
