@@ -1,0 +1,135 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-81551",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "e39ec4ce595b0705e4a0278171300008f9d5bbec",
+    "artwork_record_sha256": "6d8042040552652db8b1a534d919d65a90c817271f4933d7fac440ebcbae976e",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-81551.json",
+    "draft_sha256": "1d8a7b4d3bdebe23e3c2cbadc199bfd57d03e8ccd42b184b87858dc5d9a393db"
+  },
+  "sources": [
+    {
+      "url": "https://publications.artic.edu/pissarro/reader/paintingsandpaper/section/25/25_anchor",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC official indexed Cat13 opening and 1893 letters; direct browser reader displays JS viewport warning"
+      ],
+      "observed": "検索索引のAIC Cat13原文を2回参照。所蔵1922.434、ホテル滞在2月27日〜5月15日と2月22日窓景計画、当該作品への書簡の言及を確認。通常HTML表示は画面サイズ案内のみという限界あり。"
+    },
+    {
+      "url": "https://publications.artic.edu/pissarro/reader/paintingsandpaper/section/1069",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC official indexed Director’s Statement first paragraph, hotel window and busy intersection"
+      ],
+      "observed": "AIC館長序文の公開索引でホテル窓からの都市交差点画という同定を照合。直接HTMLはビューアの画面サイズ制限あり。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Camille_Pissarro_-_Place_du_Havre,_Paris_-_Art_Institute_of_Chicago.jpg",
+      "access": "page_read_twice",
+      "locations": [
+        "Commons File 1922.434/81551, PD-Art/PDM, public thumbnail 800x655 and 314111-byte metadata"
+      ],
+      "observed": "CommonsページにAIC1922.434と同じ作品画像、1893年、PDM 1.0表示と307KB元画像・構造化データ314111バイトを確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-81551",
+      "kind": "display",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Camille_Pissarro_-_Place_du_Havre%2C_Paris_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "sha256": "e8cec4d87f9ddc45cdf71e519054d9e39f89af5c2faa8ecf92d13913a3f465f2",
+      "byte_length": 314111,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18のCommons JPEGのHTTP200・全量SHA256検証履歴を再利用。今回新規取得・SHA再計算なし。Commons現行メタデータのサイズ314111も登録値に一致。"
+    }
+  ],
+  "visual_observations": {
+    "method": "AIC作品IDと所蔵番号が一致するCommons元画像の視覚的特徴とAIC Cat13の都市風景研究を対照。",
+    "observed": "上階の窓が続く大きな建物の前の広場、馬車と徒歩の人々、街灯・店舗の位置。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "新しい日本語本文の生成後にAIC Cat13の公開検索索引とDirector’s Statement・Commons元画像ページを別工程で再照合し、手紙の範囲と所蔵1922.434、権利表記と感情0件を再点検。",
+    "limitations": "同一AIによる別工程で別AIではない。AICの通常readerのHTMLは画面サイズ警告のみで、研究本文は公式検索索引で確認。2026-10登録JPEG実ファイルは今回再取得していない。",
+    "reviewed_artwork_sha256": "6d8042040552652db8b1a534d919d65a90c817271f4933d7fac440ebcbae976e",
+    "reviewed_visitor_draft_sha256": "1d8a7b4d3bdebe23e3c2cbadc199bfd57d03e8ccd42b184b87858dc5d9a393db",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC Cat13 Pissarro 1893 / 1922.434とCommons ARTIC81551が一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "ホテル滞在と2月22日の計画、作者が本作を手紙で言及した事実を、具体的な感情・心理の断定に利用していない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "本人の都市画制作と鑑賞者の心理を混同しないため、元の主副感情0件を維持。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "学術文の長文翻訳ではなく、都市画の配置と資料に基づく独立の日本語鑑賞文。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "6d8042040552652db8b1a534d919d65a90c817271f4933d7fac440ebcbae976e",
+    "visitor_draft_sha256": "1d8a7b4d3bdebe23e3c2cbadc199bfd57d03e8ccd42b184b87858dc5d9a393db",
+    "proposal_sha256": "a5915b59e81042b391998ecf28814116d99d92589daf4961a04b6bb220e2460e",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "構造・対象レコードの指紋と他299件不変性を構成時確認。正式Python preview/save/checkとCIはPRで検査。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-81551.json",
+    "sha256": "a5915b59e81042b391998ecf28814116d99d92589daf4961a04b6bb220e2460e",
+    "proposed_artwork_sha256": "6d8042040552652db8b1a534d919d65a90c817271f4933d7fac440ebcbae976e",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Camille_Pissarro_-_Place_du_Havre,_Paris_-_Art_Institute_of_Chicago.jpg",
+    "locations": [
+      "Commons1922.434画像はPD-ArtとPublic Domain Mark 1.0でありCC0とは記さない。",
+      "AIC学術本文は長文転載せず独自日本語へ再構成。",
+      "登録済みJPEG旧SHA証拠を継承。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "原作品・公開図版のPD/PD-Art条件を研究著作権と区別し、DB独自本文・公開画像リンクを阻害する重大事項なしと暫定判定。法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "1893年2月22日制作計画と個別作品への言及の区別",
+    "画像Commons利用表示はPDM",
+    "登録JPEGは過去の検証履歴継承"
+  ]
+}
