@@ -1,0 +1,133 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-770595",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "ca6a6d73094bcd618525692f95908ca6f04a490f",
+    "artwork_record_sha256": "248ca1d91a4681e155aabeb9b2fab2b54df33c92ae43ad981ba5eb098f36e135",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-770595.json",
+    "draft_sha256": "3c84309ed253534375d8472c683ab4bc2bb9986cc88222b6bc4b37255957ef00"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/770595",
+      "access": "page_read_twice",
+      "locations": [
+        "Met official 770595, heading and Artwork Details Italian/2018.87/ca.1400/tempera-gold-ground",
+        "Official curatorial Overview: affective grieving figures and International Gothic, gold roses and ermine"
+      ],
+      "observed": "Met公式解説を作成時・別工程の二度確認。作者のItaly文化区分、国際ゴシック、金地の棘のないバラと聖母、マグダラのマリアの高価な毛皮と上流の注文主の可能性を照合。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-770595",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-15505-001.jpg",
+      "status": 200,
+      "sha256": "7dfb3f5b091fec90adba21d2df2b5320a20107de975f7c24093b34c6c56dba67",
+      "byte_length": 5370614,
+      "width": 2560,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet公式original JPEG全量SHA256照合を継承。今回の新取得・新SHA算出は行っていない。"
+    },
+    {
+      "id": "met-770595",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-15505-001.jpg",
+      "status": 200,
+      "sha256": "82fd8fb52c9a3ce6925cd32b4cfb9ca7a25c145e2343f69f58539c17d24f39ea",
+      "byte_length": 156601,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10のMet公式web-large JPEG全量SHA256照合を同一版の証拠として再利用。今回再取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Metの同定済み作品公開画像と、旧2026-10の登録JPEGの作品同定・SHA記録を対照。今回原JPEGバイトの新取得なし。",
+    "observed": "キリストの磔刑を中央に、十字架下のマグダラのマリアと複数の悲しむ人物。きめ細かな金地装飾、衣服と表情の違い。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "制作後の別パスでMet作品別解説の作品番号・作者文化区分、時期、金地と花の象徴、毛皮と推測としての注文主を再読し、作者本人の直接証言のように扱っていないか、原文の長文逐語訳がないかを点検。",
+    "limitations": "別のAI/担当者の監査ではなく同一AIによる別パス。画像JPEGの今回再取得なし（2026-10に記録されたURLとSHAを継承）。",
+    "reviewed_artwork_sha256": "248ca1d91a4681e155aabeb9b2fab2b54df33c92ae43ad981ba5eb098f36e135",
+    "reviewed_visitor_draft_sha256": "3c84309ed253534375d8472c683ab4bc2bb9986cc88222b6bc4b37255957ef00",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 2018.87、Stefano da Verona、Italian、ca.1400、tempera on wood with gold groundに一致。文化区分の旧誤記はPR #196で修正済み。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Metの国際ゴシックの説明、マグダラのマリアの高価な毛皮からの上流注文主仮説を事実と推定に分けた。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『悲しみ』2は磔刑を悼む人物像からの感情の入口であり、作者個人の感情ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "画面の観察と信仰象徴・国際様式を日本語で独自に整理し、Met現代解説を長く転載・逐語翻訳していない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "248ca1d91a4681e155aabeb9b2fab2b54df33c92ae43ad981ba5eb098f36e135",
+    "visitor_draft_sha256": "3c84309ed253534375d8472c683ab4bc2bb9986cc88222b6bc4b37255957ef00",
+    "proposal_sha256": "f014479f8746c489203b4cf84b1fd11da2cfcc58b465df602b9804b5d7c628f7",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JSで版SHA256と300件固有性、非対象299件不変更、画像登録SHAの値不変を確認。正式PythonとCIはPRの実行結果を要確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-770595.json",
+    "sha256": "f014479f8746c489203b4cf84b1fd11da2cfcc58b465df602b9804b5d7c628f7",
+    "proposed_artwork_sha256": "248ca1d91a4681e155aabeb9b2fab2b54df33c92ae43ad981ba5eb098f36e135",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "Met公式作品770595のPublic Domain表示",
+      "Met規約第1節のOAと現代の館文章の区別、第3節(a)のCC0"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "歴史的作品とMet公開画像のPD/OA表記を確認。現代の研究解説とは権利を区別し、独自の日本語本文を制作。今回のDB保存に重大な未解消事項なし（法的保証ではない）。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met公式記録と一致するItalianは先行のPR #196で修正済み。",
+    "2026-10登録画像のURL/ハッシュ証拠を継承し、今回新規JPEGを取得しない。",
+    "感情タグ・選定情報・画像等は不変更。"
+  ]
+}
