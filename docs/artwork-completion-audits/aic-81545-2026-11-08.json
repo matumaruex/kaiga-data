@@ -1,0 +1,143 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-81545",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "329165b3ece3bb9edefa67d71521ee8ce913504f",
+    "artwork_record_sha256": "55adf838b45c5d6d64dad30fbe86ae88613e18b1ca8470640301c312aa07b950",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-81545.json",
+    "draft_sha256": "c5b3393c3d831906a222373b13a3048e569f50f6ad33008d3335aed8fba37b99"
+  },
+  "sources": [
+    {
+      "url": "https://publications.artic.edu/node/135603",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC official static Cat29 /node/135603 identification 1922.431, lines 45–60 and detailed technical study lines 118–131"
+      ],
+      "observed": "静的作品別研究を二度読み、雪の青桃と橙色、最初は左右に離れた積みわら・地平線の変更の可能性を照合。"
+    },
+    {
+      "url": "https://publications.artic.edu/node/135598",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC official Cats27–33 /node/135598 series study lines 237–246: dated Oct 7 1890 Monet to Geffroy; 1890–91 Giverny stacks"
+      ],
+      "observed": "連作研究を二度再読し、画家の1890年10月7日の手紙で異なる光の効果・時間の難しさを語ったが個別作品への声明ではないと区別。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Stacks_of_Wheat_(Sunset,_Snow_Effect)_-_1922.431_-_Art_Institute_of_Chicago.jpg",
+      "access": "page_read_twice",
+      "locations": [
+        "Wikimedia Commons File Monet Stacks of Wheat Sunset Snow Effect 1922.431 metadata ARTIC81545, 960px preview, licensing CC0 and Public Domain Mark"
+      ],
+      "observed": "Commons作品1922.431と画像・著作権表示を複数回照合して別の積みわら（Cat30／Cat32）と混同していないことを確認。"
+    },
+    {
+      "url": "https://publications.artic.edu/monet/reader/paintingsanddrawings/section/135603/p-27",
+      "access": "prior_database_only",
+      "locations": [
+        "旧AIC Monet JS reader URL。作品情報自体は同等だがwebテキストはJavaScript案内のみ"
+      ],
+      "observed": "旧URLは原文がブラウザ要求の案内だけなので、静的な同内容を指す新URLへ修正。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-81545",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Claude_Monet_-_Stacks_of_Wheat_%28Sunset%2C_Snow_Effect%29_-_1922.431_-_Art_Institute_of_Chicago.jpg/960px-Claude_Monet_-_Stacks_of_Wheat_%28Sunset%2C_Snow_Effect%29_-_1922.431_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "4a0806bfa5c14a09e6f4411276d4795793626c4a2390c94f6ab765f616a5df4d",
+      "byte_length": 236184,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "旧2026-10-18 Commons960px JPEG HTTP200と登録SHA256全量一致の証拠を継承。今回登録JPEGの新規バイト取得・再ハッシュなし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "当該作品AIC1922.431のCommons表示と作品個別Cat29の資料画像・赤外線/X線の技術記述を対照、別の積みわら作品とは所蔵番号・画面の2つの山の配置で区別。今回登録960px JPEGバイトの新規取得なし。",
+    "observed": "手前に大きな青褐色の積みわら、左奥に小さい積みわら、青桃色の雪、橙の夕空。AICのCat29は両積みわらがより離れた旧構図から移動した技術的痕跡を示す。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "下書き・修正案の作成後にAIC Cat29の位置変更・夕空の色・署名の位置とシリーズ研究の1889/90ではなく1890年10月7日Geffroy宛書簡を再照合、発言の対象を連作に限定。Commons画像と版番号を再読。",
+    "limitations": "同一AIによる別工程で第三者・別AIではない。登録済みCommons960px JPEGは旧2026-10-18の検査記録を再利用し、今回新規JPEGの全量再取得・再ハッシュなし。",
+    "reviewed_artwork_sha256": "e3cfb26d7f1e4edba5a55e63429026385f7285cdd1e16deb13a6e0801117cd3d",
+    "reviewed_visitor_draft_sha256": "c5b3393c3d831906a222373b13a3048e569f50f6ad33008d3335aed8fba37b99",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC Cat29の1922.431・1890/91・65.3×100.4cmとCommons1922.431/81545/ W1278一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "AIC個別技術記述に二つの積みわら旧配置と地平線修正の痕跡。連作研究に1890年Geffroy手紙があるが一作品に特定した直接意図ではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "『静かな雪だから安心・孤独』とは分類しない。元の主副感情0件をそのまま維持。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "美術館の学術研究と原文の長い逐語翻訳はせず、画面・筆触・連作と個別作の検証結果から独自鑑賞文を構成。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "e3cfb26d7f1e4edba5a55e63429026385f7285cdd1e16deb13a6e0801117cd3d",
+    "visitor_draft_sha256": "c5b3393c3d831906a222373b13a3048e569f50f6ad33008d3335aed8fba37b99",
+    "proposal_sha256": "8e8da319348b255b40721801fa667a641e2a3caaef6db9fdce5c3cc13d3169e1",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "変更元/後の対象SHAと他299件不変性はコード上で照合。正式PythonとCIはPRで判定する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-81545.json",
+    "sha256": "8e8da319348b255b40721801fa667a641e2a3caaef6db9fdce5c3cc13d3169e1",
+    "proposed_artwork_sha256": "e3cfb26d7f1e4edba5a55e63429026385f7285cdd1e16deb13a6e0801117cd3d",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Stacks_of_Wheat_(Sunset,_Snow_Effect)_-_1922.431_-_Art_Institute_of_Chicago.jpg",
+    "locations": [
+      "Commons1922.431に原作品Public Domainと画像のCC0 1.0表示。",
+      "AIC研究記事の現代の研究文章は転載・逐語翻訳せず独自日本語本文として制作。",
+      "登録されたCommons960px JPEGの旧全量SHA一致履歴を継承。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "絵画自体のPublic Domain・Commonsの画像利用・現代研究文章の別権利を区別。独自日本語鑑賞文のDB保存に重大な未解消障害なしと判断するが法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "旧reader URLを原文表示可能な公式node/135603へ変更",
+    "Geffroy書簡は連作一般",
+    "登録画像は旧証拠を継承"
+  ]
+}
