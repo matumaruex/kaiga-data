@@ -1,0 +1,135 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-102227",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "49636ca73026bf526201045e9ac8f81a2a33c2c1",
+    "artwork_record_sha256": "69b39e9e29cd2ca19e331ae037ab67d6436af5c627a77266fd6102ccab6d2e35",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-102227.json",
+    "draft_sha256": "eca0025c66b6f3f123f6d78742a6eacca7f697acc4dc4b4074c828716d389fb2"
+  },
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Benjamin_West_-_The_Expulsion_of_Adam_and_Eve_from_Paradise_-_1984.175_-_Art_Institute_of_Chicago.jpg",
+      "access": "page_read_twice",
+      "locations": [
+        "Commons file AIC1984.175 ARTIC102227, Summary lines 167–204, Licensing 213–229"
+      ],
+      "observed": "1971などの別年月でなく1791年、1946などの別所蔵番号ではなく1984.175のAIC油彩を同定。作品PDと忠実な複製CC0の表示を複数回確認。"
+    },
+    {
+      "url": "https://www.nga.gov/artworks/70986-expulsion-adam-and-eve-paradise",
+      "access": "page_read_twice",
+      "locations": [
+        "NGA 1989.12.1 official item overview / curatorial text lines 257–285"
+      ],
+      "observed": "国王ジョージ3世のウィンザー宗教画計画、創世記の追放を描くが、NGAは186.8×278.1cmの大型別版（1989.12.1）でありAIC1984.175と取り違えないと確認。"
+    },
+    {
+      "url": "https://www.thehistoryofart.org/benjamin-west/expulsion/",
+      "access": "page_read_twice",
+      "locations": [
+        "TheHistoryOfArt Benjamin West Expulsion indexed section The Chicago study and its later retouching"
+      ],
+      "observed": "同題のシカゴ小画面は1791年・1803年加筆、48.6×72.9cm、別の大型NGA版と構図上関係がありつつ同一の作品ではないことを検索索引で確認。原文HTMLはcache missで全文未取得。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-102227",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Benjamin_West_-_The_Expulsion_of_Adam_and_Eve_from_Paradise_-_1984.175_-_Art_Institute_of_Chicago.jpg/960px-Benjamin_West_-_The_Expulsion_of_Adam_and_Eve_from_Paradise_-_1984.175_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "874818326adada9ad6247fd4f9b860c92741423b0964087ee62a38a4f9456929",
+      "byte_length": 157011,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18 Commons960px AIC1984.175 JPEG HTTP200/全量SHA256照合を継承。今回登録画像JPEGを取得せず新SHAを算出していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Commonsシカゴ1984.175図版を同所蔵番号とともに確認し、比較記事でNGA1989.12.1との版の違いを参照。",
+    "observed": "左の翼ある天使と、顔を覆い右へ身を曲げるアダム、ひざまずき腕にすがるエヴァ。小型AICはNGA大型絵画とは衣服・周辺光の構成が異なる。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "鑑賞者向け本文・意味資料修正後にAIC同定のCommons1984.175、NGAの大型1989.12.1公式解説、比較記事のシカゴ小型版1791・1803年記述を再点検し、各作品の所蔵と改変年月を混同しないことを確認。",
+    "limitations": "同一AIによる別工程で別AI・第三者監査ではない。シカゴ公式個別ページは403、比較研究は公開検索索引のみで全文HTML取得はcache miss。登録JPEGは旧2026-10全量ハッシュ記録を再利用した。",
+    "reviewed_artwork_sha256": "8922c093c4199ec53b3963713a69d42675345dec422c1b51b6cefc497f3dfdb4",
+    "reviewed_visitor_draft_sha256": "eca0025c66b6f3f123f6d78742a6eacca7f697acc4dc4b4074c828716d389fb2",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "シカゴAIC1984.175（1791年・1803年加筆、48.6×72.9cm）とワシントンNGA1989.12.1（1791年大画面186.8×278.1cm）は関連するが別作品。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "王室礼拝堂装飾計画はNGA大型別版に直接関する文脈であり、シカゴ小型習作の制作にそのまま同一性を与えない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主喪失感2・補未練1/不安1は楽園喪失の宗教的主題への入口で、作者個人の回想や現代的失恋を意味しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "出典記述の丸写し・長文逐語訳ではなくシカゴ版の見え方・改変履歴・別版関係を独自日本語でまとめた。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "8922c093c4199ec53b3963713a69d42675345dec422c1b51b6cefc497f3dfdb4",
+    "visitor_draft_sha256": "eca0025c66b6f3f123f6d78742a6eacca7f697acc4dc4b4074c828716d389fb2",
+    "proposal_sha256": "0ed06556d293f121add9f89302bcacdbe97282df689e4cf82a10b2c7fe351c95",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象改訂案と版ハッシュ、非対象299作品不変性はJSで確認。正式PythonおよびCIはPRで検証する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-102227.json",
+    "sha256": "0ed06556d293f121add9f89302bcacdbe97282df689e4cf82a10b2c7fe351c95",
+    "proposed_artwork_sha256": "8922c093c4199ec53b3963713a69d42675345dec422c1b51b6cefc497f3dfdb4",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Benjamin_West_-_The_Expulsion_of_Adam_and_Eve_from_Paradise_-_1984.175_-_Art_Institute_of_Chicago.jpg",
+    "locations": [
+      "CommonsのウェストAIC1984.175は作品PD、デジタル複製CC0 1.0の表示を持つ。",
+      "NGA現代の所蔵解説文は著作権別とし長文を逐語転載しない。",
+      "既存のCommons960px JPEG取得・SHAは2026-10記録を継承。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "歴史的絵画と忠実な公開画像のPD/CC0を確認し、現代の専門解説を独自本文で要約した。法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "一般検索ページの出典をシカゴ小型版に触れる比較資料へ修正",
+    "国王の礼拝堂用NGA大型絵画とAIC小型版を区別",
+    "登録JPEGは旧SHA証拠を再利用"
+  ]
+}
