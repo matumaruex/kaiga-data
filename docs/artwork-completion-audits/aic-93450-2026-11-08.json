@@ -10,7 +10,7 @@
     "artwork_record_sha256": "1e80f7f1ea81e4ab170588a34625e4540ce90497b99ec65e49ca72ed022c8ab6",
     "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
     "draft_path": "drafts/visitor-explanations/aic-93450.json",
-    "draft_sha256": "72d487dd7b5652db613ccf64014f1734702faf5dc587223991ceec057b9a9d25"
+    "draft_sha256": "e1530d422546bb2b831f87d25c12ad8c3474e2b7a9245b0f7476d74de01d94e8"
   },
   "sources": [
     {
@@ -65,7 +65,7 @@
     "method": "鑑賞文作成後にAIC冬の企画資料の対象画記述、FGAの所蔵番号1990.558と習作区分、Commons権利表示および同定を別工程で再確認。製作年・図像・題材と心理解釈の境を点検。",
     "limitations": "同一AIによる別工程で別AI/第三者検証ではない。AIC PDF screenshot不可、FGA直接HTML cache missで公式検索索引文を参照。登録JPEGの新規取得・SHA測定なし。公式財団はtempera、Commonsはoilと記載し材質不一致があるため本文・DBとも素材断定は行わない。",
     "reviewed_artwork_sha256": "1e80f7f1ea81e4ab170588a34625e4540ce90497b99ec65e49ca72ed022c8ab6",
-    "reviewed_visitor_draft_sha256": "72d487dd7b5652db613ccf64014f1734702faf5dc587223991ceec057b9a9d25",
+    "reviewed_visitor_draft_sha256": "e1530d422546bb2b831f87d25c12ad8c3474e2b7a9245b0f7476d74de01d94e8",
     "checks": [
       {
         "area": "identity",
@@ -88,8 +88,8 @@
   "program_checks": {
     "result": "PASS",
     "proposed_artwork_sha256": "1e80f7f1ea81e4ab170588a34625e4540ce90497b99ec65e49ca72ed022c8ab6",
-    "visitor_draft_sha256": "72d487dd7b5652db613ccf64014f1734702faf5dc587223991ceec057b9a9d25",
-    "proposal_sha256": "199cfcc0117596d8ce4f96eed17dda3fae076933452d767f8e1a96bf6f1c8226",
+    "visitor_draft_sha256": "e1530d422546bb2b831f87d25c12ad8c3474e2b7a9245b0f7476d74de01d94e8",
+    "proposal_sha256": "261893366040cb7ba57e6cfabb5e91febf45c4980f68680e0ce0fc65397788e5",
     "checks": [
       "300_unique_ids",
       "other_299_unchanged",
@@ -104,7 +104,7 @@
   },
   "proposal": {
     "path": "drafts/artwork-revisions/aic-93450.json",
-    "sha256": "199cfcc0117596d8ce4f96eed17dda3fae076933452d767f8e1a96bf6f1c8226",
+    "sha256": "261893366040cb7ba57e6cfabb5e91febf45c4980f68680e0ce0fc65397788e5",
     "proposed_artwork_sha256": "1e80f7f1ea81e4ab170588a34625e4540ce90497b99ec65e49ca72ed022c8ab6",
     "applied_to_catalog": false
   },
@@ -130,6 +130,7 @@
   "notes": [
     "AIC公式ツアー説明に明確な図像・歴史文脈",
     "FGAのtemperaとCommonsのoilは表記差、事実として確定しない",
-    "今回JPEG全量再取得なし"
+    "今回JPEG全量再取得なし",
+    "FGAは監査の補助資料として維持し、出典一覧の不整合を避けるため鑑賞文の直接根拠リストからは除外（直接ページは取得不可）。"
   ]
 }
