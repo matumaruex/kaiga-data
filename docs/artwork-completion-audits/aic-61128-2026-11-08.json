@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-61128",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "a94d8efbf262e0026f99c23ca2a608d80d4289fd",
+    "artwork_record_sha256": "92565877264f5fcf1d36dcfa56026c51760c3b75f83c13e753afec16fdf88685",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-61128.json",
+    "draft_sha256": "271e033b5efb754bf52fd4d5bd835f9bae04ac5258242e2cd4e7daf19ae11e02"
+  },
+  "sources": [
+    {
+      "url": "https://archive.artic.edu/toulouse_lautrec/themes.html",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC Toulouse-Lautrec and Montmartre EXHIBITION THEMES, DANCE HALLS, lines 31–36"
+      ],
+      "observed": "シカゴ美術館の解説を再参照し、本作の人物の実名、歪んだ遠近法、光、魅力と疎外感の共存を確認。"
+    },
+    {
+      "url": "https://artsandculture.google.com/asset/at-the-moulin-rouge/pAGg8GwiHleSkA",
+      "access": "page_read_twice",
+      "locations": [
+        "Google Arts and Culture AIC collection object details 1928.610, 1892/95, paragraphs on May Milton and 1914"
+      ],
+      "observed": "AIC提供の作品固有説明で画家本人と従兄弟、メイ・ミルトン、キャンバス切除と復元の条件付き記述を再確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-61128",
+      "kind": "display",
+      "url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/61128.jpg",
+      "sha256": "b31d99eb8d49ef6dc284997eac00efdddd474cea8b833268ae6e6ed1bc5b5ab0",
+      "byte_length": 183737,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "既存2026-10-18公開GitHubミラーJPEG HTTP200・全量SHA256が現在の登録値に一致した履歴を継承。今回新規バイト取得・SHA測定なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "AIC提供の作品別画像・公開Wikimedia画像と現行DBのAIC1928.610の画像登録情報を比較。登録ミラーJPEGの新規全量取得や画素の直接照合は今回実施していない。",
+    "observed": "画面左下の手すり、テーブルの人々、中央奥の立ち姿、右端の緑の顔を確認。同題のポスター・別作と区別。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "鑑賞文を作成後、AICのテーマ解説とAIC提供の個別説明の別ページを再参照し、人物の名前・1892/95・1928.610と右端の切除・再接着に関する断定度を再照合。",
+    "limitations": "同一AIによる別工程であり第三者/別AI審査ではない。登録GitHub JPEGの今回の新規バイト取得・SHA再計測なし。",
+    "reviewed_artwork_sha256": "92565877264f5fcf1d36dcfa56026c51760c3b75f83c13e753afec16fdf88685",
+    "reviewed_visitor_draft_sha256": "271e033b5efb754bf52fd4d5bd835f9bae04ac5258242e2cd4e7daf19ae11e02",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC提供説明で1892–95、1928.610、油彩123×141cmを確認。作品の画像には右端メイ・ミルトンの緑色の顔がある。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "ムーラン・ルージュ実在の人物と作者の立ち位置、遠近・照明の表現効果をAIC研究で照合。切除の理由は可能性であり断定しない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存主『孤独』3、副『不安』1は集団内の疎外感・曖昧な人間関係を入口とする。作者本人の孤独の心理とは混同しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "館解説の文面を丸写しせず、画面観察・対象同定・制作変遷を独自日本語に再構成。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "92565877264f5fcf1d36dcfa56026c51760c3b75f83c13e753afec16fdf88685",
+    "visitor_draft_sha256": "271e033b5efb754bf52fd4d5bd835f9bae04ac5258242e2cd4e7daf19ae11e02",
+    "proposal_sha256": "2b2c367d6bedf59e53381a213fa4392c45d7e627e7e654c0fd1ab64413dcbd27",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "版と変更予定の整合をコード上で確認。正式Python検査・CIはPR上で判定する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-61128.json",
+    "sha256": "2b2c367d6bedf59e53381a213fa4392c45d7e627e7e654c0fd1ab64413dcbd27",
+    "proposed_artwork_sha256": "92565877264f5fcf1d36dcfa56026c51760c3b75f83c13e753afec16fdf88685",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.artic.edu/artworks/61128",
+    "locations": [
+      "2026-10-18のAIC公式APIでis_public_domain=trueを記録した既存検査証拠を継承。",
+      "登録された公開ミラー画像は2026-10-18に登録全量SHAが一致した記録がある。",
+      "AIC/Googleの現代解説文章は再転載せず独自日本語の鑑賞文とした。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品本体のPDと現代解説文章の権利を分け、独自文のDB保存に重大な未解消の問題は確認されない。画像の全面的な法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "AICテーマと個別説明の2資料を照合",
+    "旧登録JPEG SHA証拠継承・今回新取得なし",
+    "同一AI別工程"
+  ]
+}
