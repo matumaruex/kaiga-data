@@ -1,0 +1,134 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-94841",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "9502bc516d41a1f260f925c94f5c9a6f5ecb5a9c",
+    "artwork_record_sha256": "5c91eea021d9ca4c36b3a8c70038350f47b64d6e27ee8b8edb0cdc1ecd0974ee",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-94841.json",
+    "draft_sha256": "0d93ba2789c41c6a15225cf75955a0994cdcf56f3a6e9297f75c12d5beb8de93"
+  },
+  "sources": [
+    {
+      "url": "https://shop.artic.edu/collections/under-75/products/291148",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC official shop product 291148 description; search-index text directly inspected twice, direct fetch returned cache miss"
+      ],
+      "observed": "AIC公式の複製画ページの公開索引から1884年作・クーリエールの農村生活・人々の強さを称揚し理想化する画家という記述を複数回参照。直接HTML全文は取得できなかった。"
+    },
+    {
+      "url": "https://www.artic.edu/articles/980/listening-to-the-song-of-the-lark",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC article 980 Listening to the Song of the Lark indexed article description; direct HTML 403"
+      ],
+      "observed": "公開索引から女性の立ち姿・ひばりの声・日の出と同題の受容史を確認。AIC記事は1885と記す箇所があるが、DBの1884は署名およびAICショップの1884記載に整合。本文直接ページは403。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_Song_of_the_Lark_(Jules_Breton,_1884).jpg",
+      "access": "page_read_twice",
+      "locations": [
+        "Wikimedia Commons file 1884 image Summary 1894.1033 / ARTIC94841, Licensing PDM 1.0, lines 169–230"
+      ],
+      "observed": "同じ作品の作者、題名、1894.1033、ARTIC94841およびPD-Artの権利表記を2回直接照合。Commons画像版は登録済みGitHub公開ミラーとは別ファイルである。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-94841",
+      "kind": "display",
+      "url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/94841.jpg",
+      "sha256": "3efe9337c491c9732cca17b567382d6a1cc83b9874250fb8650e981e2fabb127",
+      "byte_length": 277751,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18 GitHub公開ミラー94841 JPEG HTTP200と全量SHA256一致の登録履歴を再利用。今回登録JPEG再取得・SHA測定なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "AIC公開画像とCommonsの1884 / 1894.1033に一致する作品図版を参照。登録GitHubミラーそのものの画素は今回は改めて取得せず旧同定履歴を継承。",
+    "observed": "明け方の太陽、農具を下げた裸足の農婦が顔をあげて立つ縦長の構図。赤い日の出・緑の畑・白い上衣が特徴。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文案の作成後、AICショップ公開索引の故郷・理想化の説明とCommons 1894.1033/PDM記録、AIC記事のひばり・日の出表現を再参照し、作者が希望と明言したと書いていないか別工程で確認。",
+    "limitations": "同一AIの別工程で第三者/別AIではない。AICの公式ショップ全文はcache miss、公式記事HTMLは403のため、公開検索索引の文章のみを直接検査した。登録済みGitHubミラーJPEGは今回再取得・ハッシュ算出なし。",
+    "reviewed_artwork_sha256": "5c91eea021d9ca4c36b3a8c70038350f47b64d6e27ee8b8edb0cdc1ecd0974ee",
+    "reviewed_visitor_draft_sha256": "0d93ba2789c41c6a15225cf75955a0994cdcf56f3a6e9297f75c12d5beb8de93",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Jules Breton, 1884年《The Song of the Lark》、AIC 1894.1033 / ARTIC94841の同一作品。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "農村の労働と音に耳を澄ます瞬間についてAIC記事の索引・作品を用いた。1884年署名と1885年の展覧会時期は区別。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『希望』2、補『喜び』1は鑑賞入口であり農婦の内面や作者の直接声明ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "館解説文の長い翻訳・転載はなく、画面の見え方と農村への画家の姿勢を独自日本語文で構成。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "5c91eea021d9ca4c36b3a8c70038350f47b64d6e27ee8b8edb0cdc1ecd0974ee",
+    "visitor_draft_sha256": "0d93ba2789c41c6a15225cf75955a0994cdcf56f3a6e9297f75c12d5beb8de93",
+    "proposal_sha256": "ca2cc24da92a262e4759e31ba67f862a1abfc8c8ee9f2bc58706f61c6a5cf0e7",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "作成時のSHAと300ID固有性・非対象レコード不変性を確認。正式PythonおよびCIはPR上で確認する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-94841.json",
+    "sha256": "ca2cc24da92a262e4759e31ba67f862a1abfc8c8ee9f2bc58706f61c6a5cf0e7",
+    "proposed_artwork_sha256": "5c91eea021d9ca4c36b3a8c70038350f47b64d6e27ee8b8edb0cdc1ecd0974ee",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Song_of_the_Lark_(Jules_Breton,_1884).jpg",
+    "locations": [
+      "Commons1894.1033の忠実な絵画複製はPublic Domain Mark 1.0表示（CC0と断言しない）。",
+      "登録JPEGの旧2026-10全量ハッシュの証拠を継承。",
+      "美術館現代解説の長文転載を避け独自日本語本文を制作。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "原作品および忠実な画像はPDとして表示、館の研究文章をそのまま複写せず独自本文を保存するため重大な権利障害は確認しない。法的な非侵害保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "AIC公開索引から公式説明を確認し記事の直接HTMLは403と明記",
+    "画像バイトは2026-10の保存済みSHAを継承"
+  ]
+}
