@@ -1,0 +1,133 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436053",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "c38d999c31c31b35f317cd17a445b72fdc2f5f0b",
+    "artwork_record_sha256": "8ae9b8e116d1d65f05ea26effa1def8bcd7a40c1b28ddabc2ef27399e5e0a60c",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436053.json",
+    "draft_sha256": "dac96d089a318e5834b85faae778eb8af4a647bb5a58cf7e3bcd5e57ba9729eb"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436053",
+      "access": "page_read_twice",
+      "locations": [
+        "Met official artwork 436053 current heading Italian, 1476, medium, accession 13.178",
+        "Met official Overview: Mary embracing Christ, John, Magdalene, gold background and Gothic altarpiece provenance"
+      ],
+      "observed": "Metの作品別解説を制作前後に読み直し、1476・Italian・13.178、聖母と聖ヨハネ・マグダラのマリアの各仕草、金地・髪の細密描写と祭壇画の来歴を再点検。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436053",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-19502-001.jpg",
+      "status": 200,
+      "sha256": "e203b010bcb650f91e9360420a9a91063fdb6586b2c6674c88464d286c0ec095",
+      "byte_length": 6900097,
+      "width": 3612,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet原JPEG全量SHA256と寸法照合の旧証拠を同一版に適用。今回の新しい全量ダウンロードはしていない。"
+    },
+    {
+      "id": "met-436053",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19502-001.jpg",
+      "status": 200,
+      "sha256": "0a126d7e802c5fde7f713b2c41ae10d679e582d6e3de9c01de6a68aeb07947a5",
+      "byte_length": 233306,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10の公式web-large JPEGのHTTP200・登録SHA256一致の旧証拠を継承。今回の画像バイトの再取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "Met公式の作品図版と公式の図像説明、および2026-10の登録済みJPEG照合と同定の記録を参照。今回JPEG全量の新規ダウンロードなし。",
+    "observed": "死んだキリストを聖母が抱き、ヨハネが嘆き、マグダラのマリアが手を持ち上げる。金地、石の墓、髪と肌の精緻な細部が視認される。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "鑑賞本文作成後、Met公式のPietà 436053を再度読み、他の同名ピエタと混同がないか、ロンドン所在の祭壇画とシカゴ/Met所蔵を混同していないか、聖母・ヨハネ・マグダラのマリアの手の役割と作者本人の心理を混同していないか別工程で検証。",
+    "limitations": "同一AIによる別パスで第三者・別AI独立監査ではない。登録JPEGの今回の新規取得・SHA再計算なし。2026-10の旧画像ハッシュと今回公開されたMet画像・解説を組み合わせた。",
+    "reviewed_artwork_sha256": "8ae9b8e116d1d65f05ea26effa1def8bcd7a40c1b28ddabc2ef27399e5e0a60c",
+    "reviewed_visitor_draft_sha256": "dac96d089a318e5834b85faae778eb8af4a647bb5a58cf7e3bcd5e57ba9729eb",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Carlo Crivelli、Italian、1476、Met 13.178、木板テンペラ金地に一致。Franceという古い誤記はPR #198でItalianへ変更済み。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "金地・肌や髪の細密描写、聖母の抱擁・ヨハネの嘆き・マグダラのマリアの手と、ロンドンの大きな祭壇画との関係を館の解説に沿って区別。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主悲しみ2・補慈しみ1はキリストの死を悲しむ姿からの鑑賞の入口。作者個人の死別を表すと断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "宗教的文脈と画面の細部を独自の日本語で整理し、Met公式現代文章の長い転載・逐語翻訳をしていない。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "8ae9b8e116d1d65f05ea26effa1def8bcd7a40c1b28ddabc2ef27399e5e0a60c",
+    "visitor_draft_sha256": "dac96d089a318e5834b85faae778eb8af4a647bb5a58cf7e3bcd5e57ba9729eb",
+    "proposal_sha256": "e374d3b48cc4b8d0cc267c1d235fc02c1a17105aa149cede30e4401d01d014ea",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JSによるID・版ハッシュ・対象外299作品の差分検査の後、正式Pythonのpreview/save/checkとCIはPRの結果で検証。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436053.json",
+    "sha256": "e374d3b48cc4b8d0cc267c1d235fc02c1a17105aa149cede30e4401d01d014ea",
+    "proposed_artwork_sha256": "8ae9b8e116d1d65f05ea26effa1def8bcd7a40c1b28ddabc2ef27399e5e0a60c",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "Met official Pietà 436053: Public Domain marking",
+      "Met site terms §1 and §3(a): artwork OA images CC0 versus modern curatorial text"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met公開画像はPD/OAと明記。館の解説文と画像の権利を混同せず、新しい日本語文を独自制作した。今回のDB保存に重大な未解決権利障害なし（法的非侵害保証や許諾の意味ではない）。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "文化区分Franceの旧誤りを先行PR #198でItalianに訂正・main統合後にこの監査を作成。",
+    "既存画像は2026-10のSHAと公式画像同定履歴を継承。今回バイト新取得なし。",
+    "現行感情主悲しみ2・補慈しみ1と既存選定情報は不変更。"
+  ]
+}
