@@ -1,0 +1,135 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-81539",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "b07637b85a788737abd85669dca2a288dd3a666b",
+    "artwork_record_sha256": "f79d7f91babf0cf703deaeec71da8296594bddb9e1f00d520a21e4a322a7862b",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-81539.json",
+    "draft_sha256": "140a312e2097e82667494d1ccb7f05d65f0c63da3f482dda700880097e12a1b9"
+  },
+  "sources": [
+    {
+      "url": "https://publications.artic.edu/monet/api/epub/135466/135549/print_view",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC Monet online scholarly catalogue Cat14 printed HTML lines 10–36, accession 1922.427; X-ray fig14.4, 14.7; Camille/Gloton"
+      ],
+      "observed": "AICの作品固有の学術記事・技術説明を検索・開示後に再読、人物の描き直しと誰だったか不明という区別を再確認。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_On_the_Bank_of_the_Seine,_Bennecourt_-_1922.427_-_Art_Institute_of_Chicago.jpg",
+      "access": "page_read_twice",
+      "locations": [
+        "Wikimedia Commons Claude Monet On the Bank of the Seine Bennecourt 1922.427 file, accession 1922.427, ARTIC 81539 and PD image license"
+      ],
+      "observed": "Commonsファイルで1922.427/81539の同定、画像・パブリックドメイン表記を確認。"
+    },
+    {
+      "url": "https://archive.artic.edu/munch/artwork/81539",
+      "access": "search_excerpt",
+      "locations": [
+        "AIC permanent collection label archived via search, Camille in 1868, possible child in repaint"
+      ],
+      "observed": "旧AIC作品ラベルは検索結果として存在するが、ページ本文取得は403。『子どもを消した』という断定を避けるため研究カタログを優先。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-81539",
+      "kind": "display",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Claude_Monet_-_On_the_Bank_of_the_Seine%2C_Bennecourt_-_1922.427_-_Art_Institute_of_Chicago.jpg",
+      "sha256": "db1fd38706d6510ba3bda7438800386498b2e20bc9afc07971d9d54ab2c9e86c",
+      "byte_length": 3976859,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18 Commons原JPEG HTTP200と当該SHA256の全量一致の以前の監査記録を継承。今回は新規バイト取得・再SHAなし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "画像検索結果の当該Bennecourt絵とCommonsシカゴ1922.427の登録・画像ページ、公式作品研究の図版説明を対照。登録JPEGを今回新たにバイト取得していない。",
+    "observed": "木陰に座る青白の縞の衣のカミーユ、手前に帽子と緑色の小舟、川に映る対岸の村。AIC1922.427の図と一致。別のGlotonの河景とは画面構図を区別。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "初稿後にAICの研究カタログ本文と同ページの技術画像の説明、Commonsの作品番号・パブリックドメインを再確認。資料から断定できない『消された人物は子ども』という読みを採らず、作者の家族観の心理診断を回避した。",
+    "limitations": "同一AI別工程で別AI/第三者ではない。AICアーカイブ作品ラベルページは403だがAIC現行学術カタログ本文は参照可。登録JPEGは旧2026-10証拠を利用し今回新規取得・再SHAなし。",
+    "reviewed_artwork_sha256": "f79d7f91babf0cf703deaeec71da8296594bddb9e1f00d520a21e4a322a7862b",
+    "reviewed_visitor_draft_sha256": "140a312e2097e82667494d1ccb7f05d65f0c63da3f482dda700880097e12a1b9",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AICの作品別Cat14はMonet1868年1922.427・油彩81.5×100.7cm、Commonsも1922.427/81539で一致。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Camille・幼子Jeanとのグロトン滞在、カミーユを向こう岸への視線誘導に用いる構図、X線に残る別人跡について、成人説を含む未確定事項と区別。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存タグ0件維持。画家の生活苦を鑑賞者の不安や孤独に置換しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "AICの原文を長文逐語訳せず、視覚的描写・生活背景・絵の構成改変を独自の日本語で説明。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "f79d7f91babf0cf703deaeec71da8296594bddb9e1f00d520a21e4a322a7862b",
+    "visitor_draft_sha256": "140a312e2097e82667494d1ccb7f05d65f0c63da3f482dda700880097e12a1b9",
+    "proposal_sha256": "60398c8dbe757855654f57908c75ee4bde03afda8e332fa4077fcc5bbc2aab8b",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "対象レコードの変更元・変更後SHAとほか299件不変を比較。Python正式検証とCIはPRで確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-81539.json",
+    "sha256": "60398c8dbe757855654f57908c75ee4bde03afda8e332fa4077fcc5bbc2aab8b",
+    "proposed_artwork_sha256": "f79d7f91babf0cf703deaeec71da8296594bddb9e1f00d520a21e4a322a7862b",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_On_the_Bank_of_the_Seine,_Bennecourt_-_1922.427_-_Art_Institute_of_Chicago.jpg",
+    "locations": [
+      "AIC旧API作品のis_public_domain trueと旧JPEG全量SHA記録を継承。",
+      "Commons作品1922.427にはPD原画と公開画像のPD-Art表記。",
+      "AIC現代の学芸員研究文章は逐語訳・転載せず独自日本語本文を作成。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "原作品のパブリックドメインと画像・現代研究の著作権を区別し、今回保存を妨げる重大障害を認めないが再配布の法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "AIC公式Cat14を直接参照",
+    "Camille近くの塗り消した人物の同定未確定を強調",
+    "画像SHA旧記録継承"
+  ]
+}
