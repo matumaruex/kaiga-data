@@ -1,0 +1,143 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-79349",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "6d1a7c219e75f8d71b77167200763178271a49f6",
+    "artwork_record_sha256": "4632abbf8a7725d118460ae9fc347fea8a523027d288b9bb25fbf20337146fbc",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-79349.json",
+    "draft_sha256": "1725068ddeedcde3aeb20e26717821e9305270b2523145df262d55200c2b18e7"
+  },
+  "sources": [
+    {
+      "url": "https://archive.artic.edu/casewine/artwork/79349",
+      "access": "page_read_twice",
+      "locations": [
+        "AIC Case for Wine permanent collection label, lines 19–30, four ages of man, wood engraving, possible absinthe association, 1953.178"
+      ],
+      "observed": "AIC一次の作品別ラベルを二度開き、ドーミエ由来の風刺・可能性と実際の作品番号を再読。"
+    },
+    {
+      "url": "https://www.webexhibits.org/vangogh/letter/20/626.htm?qp=art.theory",
+      "access": "page_read_twice",
+      "locations": [
+        "WebExhibits Vincent to Theo old letter 626, February 10 or 11 1890, line 36 mentions copying Men Drinking by Daumier and its difficulty"
+      ],
+      "observed": "伝存するゴッホ書簡の旧英訳で当該模写作品を名指しする文と難しさの述懐を再読。現代校訂版との日付差を分離。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_Drinkers_-_1953.178_-_Art_Institute_of_Chicago.jpg",
+      "access": "page_read_twice",
+      "locations": [
+        "Commons Vincent van Gogh The Drinkers AIC1953.178, 1890 Feb, image and CC0/PDM lines 70–145"
+      ],
+      "observed": "登録対象作品の所蔵番号・画面・1890年2月、PD/CC0画像利用条件を二度参照。"
+    },
+    {
+      "url": "https://vangoghletters.org/vg/letters/let854/letter.html",
+      "access": "index_date_only_403",
+      "locations": [
+        "Official Vincent van Gogh Letters critical edition indexed as letter 854 dated Wednesday 12 February 1890; full letter page 403"
+      ],
+      "observed": "現代校訂版の公表索引では同書簡854を2月12日とする。全文はweb取得403のため実際の文言検証はWebExhibitsの旧訳を使い、日付の競合を明記。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-79349",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Vincent_van_Gogh_-_The_Drinkers_-_1953.178_-_Art_Institute_of_Chicago.jpg/960px-Vincent_van_Gogh_-_The_Drinkers_-_1953.178_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "3ba978f5e0655b75872fbbac0e5637be07e76972009fbb8fb6220f688db2d824",
+      "byte_length": 281123,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18 Commons960px JPEG HTTP200と登録SHA256全量一致記録を継承。今回登録JPEGの新規ダウンロード・再ハッシュなし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "CommonsのAIC1953.178作品画像、AIC作品別ラベルと既存画像所蔵番号を照合し、画面に男三名と子一名、緑のテーブル・酒器があることを確認。登録960px JPEGバイトは今回新規取得していない。",
+    "observed": "三人の成人男性とテーブルの端に幼い子ども、緑の食卓と酒器。左の男性も含め四つの年齢を画面に示す。AICの同題作品・ドーミエ版画とゴッホ油彩を区別。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "鑑賞文と選定資料の修正後、AICの作品別資料・ゴッホ本人の1890年2月書簡の旧訳・Commons所蔵番号を再確認。模写の難しさを作者本人の道徳的主張に読み替えないことと日付差を点検。",
+    "limitations": "同一AIによる別工程で、別AI・第三者ではない。Van Gogh Museum校訂版の本文ページ403のため本文はWebExhibits旧訳で照合し、校訂版の書簡854日付は索引のみ。登録JPEGの新規取得・SHA再計測なし。AIC Museum Studies PDFスクリーンショットはキャッシュミスのため、その本文に固有の解釈は新規断定しない。",
+    "reviewed_artwork_sha256": "703c95716703e17880c8deac1aaf1b2c78b736c07a7e4548656f0e4a5d0ec324",
+    "reviewed_visitor_draft_sha256": "1725068ddeedcde3aeb20e26717821e9305270b2523145df262d55200c2b18e7",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "AIC作品別1953.178、1890年59.4×73.4cm、Commons F667/JH1884一致。ドーミエの木版原作とゴッホ油彩を明確に区別。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "ドーミエの四年齢・飲酒風刺はAIC解釈。1890年2月ゴッホ書簡で本人が模写の困難を述べたが、飲酒の個人的体験は証言していない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存副『不安』1は風刺に含まれる飲酒危険の弱い接点として維持。作者の精神状態診断ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "館ラベルと書簡から事実を抽出し、長文の逐語訳・転載を避けた新規日本語鑑賞文。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "703c95716703e17880c8deac1aaf1b2c78b736c07a7e4548656f0e4a5d0ec324",
+    "visitor_draft_sha256": "1725068ddeedcde3aeb20e26717821e9305270b2523145df262d55200c2b18e7",
+    "proposal_sha256": "62a03defb2719b3096a026b96eda46304a7d7717542fb78b6a5c0283ad0bfb1d",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "変更レコードの変更元・変更後SHAと他299不変性は事前チェック。Python正式検証・CIはPRで実行。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-79349.json",
+    "sha256": "62a03defb2719b3096a026b96eda46304a7d7717542fb78b6a5c0283ad0bfb1d",
+    "proposed_artwork_sha256": "703c95716703e17880c8deac1aaf1b2c78b736c07a7e4548656f0e4a5d0ec324",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_Drinkers_-_1953.178_-_Art_Institute_of_Chicago.jpg",
+    "locations": [
+      "CommonsのAIC1953.178作品ファイルにPublic Domain MarkとCC0 1.0の明示（Licensing lines 126–145）。",
+      "AIC展示ラベル・WebExhibits旧英訳の現代文章は著作権対象として長文転載せず、新規日本語本文を構成。",
+      "旧2026-10の登録JPEG SHA照合記録を継承。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "ゴッホ油彩のPDとCommons画像CC0表示を直接確認し、現代の解説文と区別。独自日本語鑑賞文のDB保存に重大な権利障害は確認されないが法的な保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "ゴッホ書簡を直接言及として追加、作品意味の作者心理へ拡張しない",
+    "公式現代校訂版書簡854は2月12日／旧訳は2月10–11日",
+    "旧登録JPEG SHA証拠を引継ぎ"
+  ]
+}

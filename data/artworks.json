@@ -3848,17 +3848,17 @@
         ],
         "meaning_basis": {
           "author_intent": {
-            "status": "not_verified_for_this_work",
-            "summary": null,
-            "source_url": null
+            "status": "direct_for_this_work",
+            "summary": "1890年2月、テオ宛ての手紙で『ドーミエの酒飲みを模写しようとしたが、非常に難しい』と記している。制作の試みと難しさへの本人の証言であり、飲酒や自身の不安を告白した発言ではない。校訂版の書簡854は2月12日、旧訳では10日または11日と日付が異なるため月までの表記にする。",
+            "source_url": "https://www.webexhibits.org/vangogh/letter/20/626.htm?qp=art.theory"
           },
           "scholarly_interpretation": {
             "summary": "療養先でドーミエの『酒を飲む人々』の版画を油彩で翻案した作品。ユーモラスに見える人物群は、飲酒の害を風刺する原作の文脈を持つ。単なる陽気な宴会ではない。",
             "source_url": "https://archive.artic.edu/casewine/artwork/79349"
           },
           "creation_context": "1890年、サン＝レミ療養中。ほかの画家の白黒の版画を色彩で描き直す創作に取り組んだ。",
-          "visual_clues": "テーブルに囲まれた異なる年齢の人物と緑がかった色調。",
-          "uncertainty_note": "本人の飲酒問題をこの場面に直接投影した証拠ではない。原作の風刺とゴッホの色彩による翻案は区別する。"
+          "visual_clues": "緑のテーブルを囲んで飲む帽子の男三人と、左下に見える子ども。誇張された風貌と緑がかった色彩。AICはアブサンとの色の関連を『ありうる』解釈として紹介している。",
+          "uncertainty_note": "ゴッホ本人はドーミエの《酒を飲む人々》を模写しようとした困難を手紙で述べるが、酒を飲む登場人物へ自身の飲酒問題や不安を投影したという直接の証言ではない。AICが述べるアブサンとの色彩の関連も可能性にとどまる。書簡の旧訳日付と現代校訂版には小差がある。"
         },
         "evidence_url": "https://archive.artic.edu/casewine/artwork/79349",
         "search_profile": {
@@ -3870,7 +3870,8 @@
             }
           ],
           "selection_cautions": [
-            "本人の飲酒問題をこの場面に直接投影した証拠ではない。原作の風刺とゴッホの色彩による翻案は区別する。"
+            "ドーミエの原図が持つ飲酒への風刺と、ゴッホ本人が模写を難しいと述べた制作上の証言を区別する。本人の飲酒問題をこの絵に直接投影したとは断定しない。",
+            "緑色がアブサンを表すというAICの説明は可能性であって確定事実ではない。"
           ],
           "review_status": "evidence_review_pending"
         }
@@ -3885,6 +3886,27 @@
         "ai_content_review_status": "pending",
         "source_evidence_review_status": "pending",
         "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "緑色のテーブルを囲み、帽子をかぶった三人の男がそれぞれ酒を口に運んでいます。左下には幼い子どもも見えます。ユーモラスな姿ですが、みな飲むことに夢中で、楽しげな集まりというだけでは片づけられない光景です。\n\n《酒を飲む人々》はゴッホが1890年、南仏サン＝レミの療養施設にいたころに描いた油彩画です。もとはフランスの風刺画家オノレ・ドーミエの図像をもとにした木版画で、人生の四つの年齢を酒飲みの姿になぞらえていました。ゴッホは版画をそのまま複製したのではなく、白黒の図像を自分の筆遣いと色彩で描き直しています。1890年2月のテオ宛ての手紙では、ドーミエの酒飲みを模写しようとしたが難しいと述べています。\n\nシカゴ美術館は、ドーミエの風刺には飲酒の危うさが含まれると解説し、絵の緑がかった色をアブサンへの連想かもしれないと指摘しています。ただし、それは美術館による読解であって、ゴッホがこの絵で自身の飲酒体験を告白したという意味ではありません。少し滑稽にも見える人々に、別の重さが重なっている作品です。",
+        "source_urls": [
+          "https://archive.artic.edu/casewine/artwork/79349",
+          "https://www.webexhibits.org/vangogh/letter/20/626.htm?qp=art.theory",
+          "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_Drinkers_-_1953.178_-_Art_Institute_of_Chicago.jpg"
+        ],
+        "review": {
+          "content_status": "pending",
+          "source_status": "pending",
+          "rights_status": "pending",
+          "reviewed_on": "2026-11-08"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/aic-79349-2026-11-08.json",
+        "audit_sha256": "4f254788533eeda85aedf9bdf4d7b3c7570628a3ba070c3c87a1e2cbbe504986",
+        "record_sha256": "74581a09c3e3c5328c96da48f092af23fa6c882eaa5c51884326da7a17470905"
       }
     },
     {

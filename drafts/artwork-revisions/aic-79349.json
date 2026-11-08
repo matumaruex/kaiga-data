@@ -1,0 +1,84 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "aic-79349",
+  "baseline_commit": "6d1a7c219e75f8d71b77167200763178271a49f6",
+  "baseline_artwork_sha256": "4632abbf8a7725d118460ae9fc347fea8a523027d288b9bb25fbf20337146fbc",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "author_intent"
+      ],
+      "before": {
+        "status": "not_verified_for_this_work",
+        "summary": null,
+        "source_url": null
+      },
+      "after": {
+        "status": "direct_for_this_work",
+        "summary": "1890年2月、テオ宛ての手紙で『ドーミエの酒飲みを模写しようとしたが、非常に難しい』と記している。制作の試みと難しさへの本人の証言であり、飲酒や自身の不安を告白した発言ではない。校訂版の書簡854は2月12日、旧訳では10日または11日と日付が異なるため月までの表記にする。",
+        "source_url": "https://www.webexhibits.org/vangogh/letter/20/626.htm?qp=art.theory"
+      },
+      "reason": "個別のドーミエ酒飲み模写を名指しした画家本人の手紙が確認できたため、未確認から直接言及へ変更。語られた内容を作画上の難しさに限定。",
+      "source_urls": [
+        "https://www.webexhibits.org/vangogh/letter/20/626.htm?qp=art.theory",
+        "https://archive.artic.edu/casewine/artwork/79349"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "テーブルに囲まれた異なる年齢の人物と緑がかった色調。",
+      "after": "緑のテーブルを囲んで飲む帽子の男三人と、左下に見える子ども。誇張された風貌と緑がかった色彩。AICはアブサンとの色の関連を『ありうる』解釈として紹介している。",
+      "reason": "作品個別の画面とAIC解説に基づき四つの年齢を示す人物構成・可能性の限定を具体化。",
+      "source_urls": [
+        "https://archive.artic.edu/casewine/artwork/79349",
+        "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_Drinkers_-_1953.178_-_Art_Institute_of_Chicago.jpg"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "before": "本人の飲酒問題をこの場面に直接投影した証拠ではない。原作の風刺とゴッホの色彩による翻案は区別する。",
+      "after": "ゴッホ本人はドーミエの《酒を飲む人々》を模写しようとした困難を手紙で述べるが、酒を飲む登場人物へ自身の飲酒問題や不安を投影したという直接の証言ではない。AICが述べるアブサンとの色彩の関連も可能性にとどまる。書簡の旧訳日付と現代校訂版には小差がある。",
+      "reason": "本人の個別作品への直接発言と、原作の飲酒風刺／後世の心理的推測を区別。",
+      "source_urls": [
+        "https://www.webexhibits.org/vangogh/letter/20/626.htm?qp=art.theory",
+        "https://archive.artic.edu/casewine/artwork/79349"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "selection_cautions"
+      ],
+      "before": [
+        "本人の飲酒問題をこの場面に直接投影した証拠ではない。原作の風刺とゴッホの色彩による翻案は区別する。"
+      ],
+      "after": [
+        "ドーミエの原図が持つ飲酒への風刺と、ゴッホ本人が模写を難しいと述べた制作上の証言を区別する。本人の飲酒問題をこの絵に直接投影したとは断定しない。",
+        "緑色がアブサンを表すというAICの説明は可能性であって確定事実ではない。"
+      ],
+      "reason": "新しい直接証言を作者の個人的心理に取り違える危険と、研究者の推測の度合いを選定段階でも保持。",
+      "source_urls": [
+        "https://www.webexhibits.org/vangogh/letter/20/626.htm?qp=art.theory",
+        "https://archive.artic.edu/casewine/artwork/79349"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/aic-79349.json",
+  "visitor_draft_sha256": "1725068ddeedcde3aeb20e26717821e9305270b2523145df262d55200c2b18e7",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "703c95716703e17880c8deac1aaf1b2c78b736c07a7e4548656f0e4a5d0ec324",
+  "explanation": "AIC作品別展示ラベルとゴッホ書簡の版の違いを照合し、作者本人による個別模写の難しさを直接言及として更新。飲酒の害の風刺・アブサン色の可能性と画家本人の心情を混同しない。独自日本語本文・版連動監査。"
+}
