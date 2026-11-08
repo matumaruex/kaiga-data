@@ -1,0 +1,151 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-64729",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "0c8ffce7dfc1890b00d029703986e4499d320b6b",
+    "artwork_record_sha256": "7fd51ef306853f88673b84de7a73c716323ea432a46effaa49dd893b56fe572d",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-64729.json",
+    "draft_sha256": "66fac457098e9b5442d64441275e1ab2bf99f860ef4670af34061062dbcf3222"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/ja/essays/george-inness-1825-1894",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Adrienne Baxter Bell George Inness essay, introductory paragraph, Swedenborg 1850s–1860s and Late Landscapes/Tarpon Springs paragraphs"
+      ],
+      "observed": "Metの作品総論を再訪し、スウェーデンボリの信仰と自然との対応およびTarpon Springs滞在を照合。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:George_Inness_-_Early_Morning,_Tarpon_Springs_-_1911.32_-_Art_Institute_of_Chicago.jpg",
+      "access": "page_read_twice",
+      "locations": [
+        "Commons George Inness Early Morning Tarpon Springs metadata 1911.32, 1892, image preview, and CC0/PDM licensing lines 57–115"
+      ],
+      "observed": "AIC所蔵番号1911.32、正しい作品画像、1892油彩、CC0画像権利表示を再参照。"
+    },
+    {
+      "url": "https://www.si.edu/object/early-morning-tarpon-springs-painting:siris_ari_254879",
+      "access": "search_excerpt",
+      "locations": [
+        "Smithsonian Inventory of American Painting and Sculpture work entry, owner AIC 1911.32, signed G Inness 1892, Florida scene"
+      ],
+      "observed": "Smithsonianの検索結果に一致した作品番号と署名・年を確認。本文ページ全文はキャッシュミス。"
+    },
+    {
+      "url": "https://invisiblenetwork.ai/art/work/aic/64729",
+      "access": "search_excerpt",
+      "locations": [
+        "AIC-provided description reproduced with CC BY 4.0 attribution, pink/blue dawn, tiny red-hatted man, natural/spiritual meanings"
+      ],
+      "observed": "AIC提供と明記された作品個別解説の検索スニペットを照合。再掲載サイト本文は直接取得できず、これ自体を作者の言葉とはしない。"
+    },
+    {
+      "url": "https://www.artic.edu/artworks/64729",
+      "access": "prior_database_only",
+      "locations": [
+        "AIC 2026-10-18 official API accession and public-domain record"
+      ],
+      "observed": "AIC現行作品ページは今回ツールでCache miss。旧API IDとPD記録を継承。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-64729",
+      "kind": "display",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/George_Inness_-_Early_Morning%2C_Tarpon_Springs_-_1911.32_-_Art_Institute_of_Chicago.jpg/960px-George_Inness_-_Early_Morning%2C_Tarpon_Springs_-_1911.32_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sha256": "42e627b1de8aca2b1b5dfd20b5f79727199e0e801c09c38acf0e728e698cacfb",
+      "byte_length": 316194,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18 Commons登録960px JPEG HTTP200と全量SHA256一致の既存記録。今回新規取得・SHA再算出なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "CommonsのAIC1911.32の公開画像と作品名・所蔵番号を確認し、画面で長い樹木、桃色と青の空、小さな赤い帽子の人物、奥の家々をAIの画面観察で確認。登録960px JPEGそのものは今回新規取得していない。",
+    "observed": "縦長の風景に長い木々、奥の低い建物、木立のそばの赤帽の人物。別作品《The Home of the Heron》1911.31とは所蔵番号と景観で区別。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "鑑賞本文作成後にMetのInness研究とCommonsの作品ページを再読。画家の自然観と個別作の作者声明を分離、AICの検索スニペット由来情報の取扱いと作品番号・PD表示を照合。",
+    "limitations": "同一AI別工程で第三者・別AI審査ではない。AIC公式詳細ページ・Smithsonian作品ページ・AIC転載サイトはいずれも直接全文取得に失敗したため、検索公開抜粋とMet原研究・Commons原画像情報を区別。登録JPEGを新規全量取得・SHA再測定していない。",
+    "reviewed_artwork_sha256": "78d3f797596cb0fff97a19a18a73b7a7696dd36238a02cc4039fe2a1d72ce32c",
+    "reviewed_visitor_draft_sha256": "66fac457098e9b5442d64441275e1ab2bf99f860ef4670af34061062dbcf3222",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "CommonsでAIC 1911.32、1892油彩と作品画像を照合。Smithsonian検索索引も1911.32・George Inness・1892を支持。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met研究はInnessのSwedenborg思想とTarpon Springs滞在を示すが本作一点への本人声明ではないことを明記。"
+      },
+      {
+        "area": "emotion",
+        "finding": "既存副『安心』1のみ。朝の風景にある補助的入口で、画家が安心させようとしたと断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "MetやAIC由来の英文の連続逐語翻訳を避け、観察できる具体的画面と学術背景を独自の日本語で解説。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "78d3f797596cb0fff97a19a18a73b7a7696dd36238a02cc4039fe2a1d72ce32c",
+    "visitor_draft_sha256": "66fac457098e9b5442d64441275e1ab2bf99f860ef4670af34061062dbcf3222",
+    "proposal_sha256": "a38ef9af5511bc5685eb29eb7d21a12cd04226fb8b5e4dafd516ffc09290d291",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "変更対象レコードの正準SHAと他299件不変性を検査。実Python＋CIはPRで確認。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-64729.json",
+    "sha256": "a38ef9af5511bc5685eb29eb7d21a12cd04226fb8b5e4dafd516ffc09290d291",
+    "proposed_artwork_sha256": "78d3f797596cb0fff97a19a18a73b7a7696dd36238a02cc4039fe2a1d72ce32c",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:George_Inness_-_Early_Morning,_Tarpon_Springs_-_1911.32_-_Art_Institute_of_Chicago.jpg",
+    "locations": [
+      "Commons作品1911.32のLicensing節でPD MarkおよびCC0 1.0を明示、対象原作の作者没年1894。",
+      "AIC提供の現代文章はCC BY 4.0の表示があるが本文を転載せず独自日本語にまとめた。",
+      "登録済み画像ファイルの旧2026-10-18 JPEG SHA一致履歴を再利用。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "絵画自体のPublic DomainとCommons画像CC0表記を直接照合。現代館文章の再配布と混同せず、独自文のDB保存に重大な未解消障害を確認しないが法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Met公式原研究とCommons個別画像を確認",
+    "AIC原サイト取得失敗・検索引用の限界を保持",
+    "既存JPEG SHA証拠継承"
+  ]
+}

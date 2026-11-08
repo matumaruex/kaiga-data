@@ -1,0 +1,62 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "aic-64729",
+  "baseline_commit": "0c8ffce7dfc1890b00d029703986e4499d320b6b",
+  "baseline_artwork_sha256": "7fd51ef306853f88673b84de7a73c716323ea432a46effaa49dd893b56fe572d",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "evidence_url"
+      ],
+      "before": "https://publicark.com/art/george-inness/early-morning-tarpon-springs-aic-64729",
+      "after": "https://www.metmuseum.org/ja/essays/george-inness-1825-1894",
+      "reason": "既存の外部再掲が今回直接確認できないため、画家の精神的自然観を直接解説するMetの研究へ差し替える。作品の個別同定はCommons／旧AIC API証拠と別管理する。",
+      "source_urls": [
+        "https://www.metmuseum.org/ja/essays/george-inness-1825-1894",
+        "https://commons.wikimedia.org/wiki/File:George_Inness_-_Early_Morning,_Tarpon_Springs_-_1911.32_-_Art_Institute_of_Chicago.jpg"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation"
+      ],
+      "before": {
+        "summary": "ジョージ・イネスの晩年の風景表現は、自然に精神的な意味を見いだし、形の細部より全体の気配を重視した。フロリダの朝を描いたこの作品も、光と風景の静かなまとまりを中心に理解できる。",
+        "source_url": "https://publicark.com/art/george-inness/early-morning-tarpon-springs-aic-64729"
+      },
+      "after": {
+        "summary": "メトロポリタン美術館の研究は、イネスが自然と精神世界の関係を探り、スウェーデンボリの思想に影響されたと説明する。本作に見える、淡い朝の光と樹木・小さな人物は、その絵画観に重ねて鑑賞できる。ただしこれは画家の全般的な思想と作品画面を合わせた解釈であり、この一枚について本人の具体的な宣言が確認されたわけではない。",
+        "source_url": "https://www.metmuseum.org/ja/essays/george-inness-1825-1894"
+      },
+      "reason": "『この作品の画家本人の意図』と『画家の芸術思想を本作へ適用する解釈』を明示的に区別。",
+      "source_urls": [
+        "https://www.metmuseum.org/ja/essays/george-inness-1825-1894",
+        "https://commons.wikimedia.org/wiki/File:George_Inness_-_Early_Morning,_Tarpon_Springs_-_1911.32_-_Art_Institute_of_Chicago.jpg"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "before": "自然の霊的な意味という解説は外部サイトによる美術館資料の再掲に基づく。原文との再照合は未完了で、この作品固有の作者発言としては扱わない。朝だから希望という推測も避ける。",
+      "after": "作品番号1911.32・1892年の同定はCommonsのAIC由来公開画像と旧AIC API記録に一致する。イネスの精神的自然観はMetの画家研究で確認できるが、本作1点を説明した作者本人の発言は未確認。AIC提供の本作紹介文は外部検索上の引用で確認したものの、このセッションで元のAICページ全文は取得できていない。",
+      "reason": "調査根拠の種類と取得制限を具体化し、作品単位での作者意思を過大評価しない。",
+      "source_urls": [
+        "https://www.metmuseum.org/ja/essays/george-inness-1825-1894",
+        "https://commons.wikimedia.org/wiki/File:George_Inness_-_Early_Morning,_Tarpon_Springs_-_1911.32_-_Art_Institute_of_Chicago.jpg"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/aic-64729.json",
+  "visitor_draft_sha256": "66fac457098e9b5442d64441275e1ab2bf99f860ef4670af34061062dbcf3222",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "78d3f797596cb0fff97a19a18a73b7a7696dd36238a02cc4039fe2a1d72ce32c",
+  "explanation": "Met公式イネス研究とCommons1911.32の画像・同定を再確認。外部再掲のみの旧解釈出典を修正し、画家の思想と個別作品の直接証言を区別。AIC公式掲載の本作解説は検索に表示された引用として参照、当セッションでページ全文取得不可の制限を保持。"
+}
