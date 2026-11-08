@@ -1,0 +1,68 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-57282",
+  "baseline_commit": "07ab10c0d7263bb71c5beb53b7d9bd495451d3eb",
+  "baseline_artwork_sha256": "bf5c0b156ec250003614dde68648fdc2976bae9f0ef23945934bd9633dd55ca8",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation",
+        "summary"
+      ],
+      "before": "江戸の北斎派による弁才天の姿。女性神を描く宗教的図像として受け止める。",
+      "after": "Metの作品ページは北斎派の18〜19世紀《Benten》と同定しているが、この1点の象徴的意味や作者の意図を論じる個別の学芸解説は公開されていない。画面に見える衣装と楽器から神格の図像を考える範囲に留め、題名の『愛の女神』を特定の恋愛感情の証明としない。",
+      "reason": "旧同文を解消して作品別研究の限界を明示。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/57282"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "江戸の北斎派による弁才天の姿。女性神を描く宗教的図像として受け止める。",
+      "after": "江戸時代18〜19世紀の紙本墨彩画。メトロポリタン美術館では葛飾北斎本人でなく「北斎派」とし、1956年にAnnette Youngから寄贈された作品として登録している（Met56.121.32）。",
+      "reason": "個別作品の時代・作者帰属・収蔵経緯を記録。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/57282"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "弁才天を描く墨と彩色の姿。",
+      "after": "髪飾りと赤い紐を付け、模様のある重ね着をまとう女性が大きな弦楽器を抱え、細長い棒状の道具を手にしている。背景は淡色の余白が広い。",
+      "reason": "実画像で確認できた要素に置換。楽器種を断定しない。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/57282"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "before": "英語題の『愛の女神』を現代の恋愛感情そのものへ翻訳しない。 作者の当該作品への本人の直接発言は未確認。",
+      "after": "作者帰属は北斎本人ではなく北斎派。英語題『Goddess of Love』は現代の恋愛心理を意味するとは限らない。作者の個人的な制作意図や作品固有の象徴解釈の一次資料は未確認。",
+      "reason": "帰属・解釈の限界を明確化。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/57282"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-57282.json",
+  "visitor_draft_sha256": "180096e4c4784a2416c7a321ca885230e222dcc5cc84f56837e134709dec6d34",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "33bb658d7fb0d76d73ae33dc81d8e6f1408a53455f05f018d2fa04a1cc3efc9f",
+  "explanation": "北斎派の帰属を保持し、専門解釈と制作背景の同文を分離。原画像の観察と公式の所蔵情報に基づく独自日本語鑑賞文。感情0件維持。"
+}

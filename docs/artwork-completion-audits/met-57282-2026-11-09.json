@@ -1,0 +1,133 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-57282",
+  "checked_on": "2026-11-09",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "07ab10c0d7263bb71c5beb53b7d9bd495451d3eb",
+    "artwork_record_sha256": "bf5c0b156ec250003614dde68648fdc2976bae9f0ef23945934bd9633dd55ca8",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-57282.json",
+    "draft_sha256": "180096e4c4784a2416c7a321ca885230e222dcc5cc84f56837e134709dec6d34"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/57282",
+      "access": "page_read_twice",
+      "locations": [
+        "Met57282 heading / PD label",
+        "Met57282 Artwork Details, 59–70"
+      ],
+      "observed": "Met 56.121.32, School of Katsushika Hokusai, 18th–19th century, ink and color on paper, Public Domain; no individual scholarly interpretation shown on the page."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-57282",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-24998-001.jpg",
+      "status": 200,
+      "sha256": "31284bb12e1f64aea9119529863665120a6fd6bef9e7286a7491dc304a32d93d",
+      "byte_length": 2321033,
+      "width": 2256,
+      "height": 3796,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10 registered Met original JPEG full-byte SHA and scaling check reused."
+    },
+    {
+      "id": "met-57282",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-24998-001.jpg",
+      "status": 200,
+      "sha256": "58881accd8d6a74eb0a1dd744afd767843048c8357184677c85520d58a09c7e2",
+      "byte_length": 121465,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10 registered Met web-large JPEG byte SHA reused."
+    }
+  ],
+  "visual_observations": {
+    "method": "2026-11-09 web image query rendered Met original DP-24998-001.jpg as a directly viewable thumbnail (not a new full-resolution download); identity cross-checked with Met 57282 and saved original-file URL.",
+    "observed": "髪飾りと赤い紐の女性が淡色の模様入りの衣服を着て、胴の大きい弦楽器と細い棒状の持ち物を構える。無地の余白が多い。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "日本語本文作成後にMet57282の公式作品ページを再照合。作者School of Katsushika Hokusai、江戸期年代・所蔵番号と公式画像の衣装・楽器を本文およびmeaning_basisと照らし合わせ、恋愛感情や楽器名の断定がないか確認。",
+    "limitations": "Same AI separate pass, not a distinct AI or third-party; original image preview directly seen but no fresh JPEG download or hash, older verified SHA retained.",
+    "reviewed_artwork_sha256": "33bb658d7fb0d76d73ae33dc81d8e6f1408a53455f05f018d2fa04a1cc3efc9f",
+    "reviewed_visitor_draft_sha256": "180096e4c4784a2416c7a321ca885230e222dcc5cc84f56837e134709dec6d34",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met57282/56.121.32 School of Hokusai, not personally attributed to Hokusai."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Meaning and context distinguished; artist intention and individual symbolism not asserted."
+      },
+      {
+        "area": "emotion",
+        "finding": "No emotion tag inferred from English subtitle 'Goddess of Love'."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Independent Japanese narrative based on identity and visible motifs; not a translation of museum prose."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "33bb658d7fb0d76d73ae33dc81d8e6f1408a53455f05f018d2fa04a1cc3efc9f",
+    "visitor_draft_sha256": "180096e4c4784a2416c7a321ca885230e222dcc5cc84f56837e134709dec6d34",
+    "proposal_sha256": "227d6d1443bbacd4e2df897df7b229bb5ae128ae932deec2c9151b2661201d12",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS baseline/target SHA and changes checked, full Python script and CI to be checked after commit."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-57282.json",
+    "sha256": "227d6d1443bbacd4e2df897df7b229bb5ae128ae932deec2c9151b2661201d12",
+    "proposed_artwork_sha256": "33bb658d7fb0d76d73ae33dc81d8e6f1408a53455f05f018d2fa04a1cc3efc9f",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/art/collection/search/57282",
+    "locations": [
+      "Met57282 Public Domain notice",
+      "Met Open Access explanation",
+      "Original Japanese prose, not copied museum text"
+    ],
+    "checked_on": "2026-11-09",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Image marked PD at Met; separate from rights in modern catalogue prose. Japanese text independently authored. Not a legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Original visual is a thumbnail of Met-original image, not fresh bytes. Full byte SHA evidence inherited 2026-10.",
+    "Artist-specific testimony was not found and is not invented."
+  ]
+}
