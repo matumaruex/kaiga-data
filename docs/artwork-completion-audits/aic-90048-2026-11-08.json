@@ -1,0 +1,126 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "aic-90048",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "f99244e1ad262937b4c10c18dcf7c64d26b6c0cc",
+    "artwork_record_sha256": "4ceb8a9293e794bcd6312d670918930eb4cc81b580490e02e23393c5b62f1421",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/aic-90048.json",
+    "draft_sha256": "e8f128d521535d4ce62581d2b973a1fa35ce715dda6ed6c5a53cb660ae4fd142"
+  },
+  "sources": [
+    {
+      "url": "https://archive.artic.edu/homer_exhb/assets/Rsrc_001087.pdf",
+      "access": "page_read_twice",
+      "locations": [
+        "Art Institute of Chicago American Art (2008), PDF text printed p.25, indexed lines 1128–1168, repeated excerpt inspection"
+      ],
+      "observed": "対象1946.396と構図・先住民2人、観光施設の省略、絵画が理想化されたアメリカ観を表すとの館の読みを確認。PDFは本文抽出で閲覧可能だがscreenshot呼出しはcache miss。"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Distant_View_of_Niagara_Falls_1830_Thomas_Cole.jpg",
+      "access": "page_read_twice",
+      "locations": [
+        "Commons Distant View of Niagara Falls 1830 Thomas Cole.jpg Summary/Permission, 1946.396, 90048"
+      ],
+      "observed": "作品タイトル・1830・シカゴ1946.396と権利Public Domain Mark 1.0を検索結果と直接ページで複数確認。"
+    }
+  ],
+  "images": [
+    {
+      "id": "aic-90048",
+      "kind": "display",
+      "url": "https://raw.githubusercontent.com/haranishi/hundred-days/8126fcc488c97e2d3e83926ac7975aedf94c1895/day-050-art-uncovered/assets/art/90048.jpg",
+      "sha256": "4ac9fab5fba5fabdec1bbc6a33524d78f0d39ed239be1a4ad17acef533f98b08",
+      "byte_length": 211781,
+      "status": 200,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-18",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-18登録済みGitHub公開ミラー90048 JPEGのHTTP200・全量SHA256確認履歴を継承。今回はバイト再取得せず、Commons1946.396の同一作品公開図版・絵柄と比較。"
+    }
+  ],
+  "visual_observations": {
+    "method": "ARTIC 90048・AIC 1946.396のCommons同定図版とシカゴ美術館教育資料の図像記述を見比べ、登録ミラーとの関係は旧SHA証拠を引き継いだ。",
+    "observed": "滝の水煙、秋色の樹木、岸から突出する岩に小さな2人物、強い暗雲と差す光が一致。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "鑑賞文の作成後、シカゴ美術館American Art p25の出版・作品ID、自然・人造物の省略・先住民描写の原文を再読。Commonsの1946.396 / ARTIC 90048・PDM 1.0を再参照し、作者本人の直接声明とは書かないよう照合した。",
+    "limitations": "同一AIの別工程で第三者・別AIではない。PDF screenshotはcache miss。現在の登録ミラーJPEG全量の新規取得・再ハッシュはできず、2026-10保存の記録を継承。",
+    "reviewed_artwork_sha256": "4ceb8a9293e794bcd6312d670918930eb4cc81b580490e02e23393c5b62f1421",
+    "reviewed_visitor_draft_sha256": "e8f128d521535d4ce62581d2b973a1fa35ce715dda6ed6c5a53cb660ae4fd142",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Cole 1830年油彩板、AIC1946.396、ARTIC90048。ナイアガラの別所蔵・別作は未混同。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "AICの美術館解説に基づく省略・理想化を作者の直接発言として誤帰属しない。先住民の歴史の省略についても説明。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主『畏敬』3と補『不安』1は画面の圧倒的な滝・暗雲の入口であり、作者の内心の断定ではない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "英語の説明の逐語翻訳でなく、画面を観察する順序と歴史の背景を分けて独自日本語解説を作成。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "4ceb8a9293e794bcd6312d670918930eb4cc81b580490e02e23393c5b62f1421",
+    "visitor_draft_sha256": "e8f128d521535d4ce62581d2b973a1fa35ce715dda6ed6c5a53cb660ae4fd142",
+    "proposal_sha256": "919ed1c6c6ac255cd438af431e47f294f928dd375c395a8c494ca42ddc798cd2",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JSで版ハッシュ・全300ID固有性・他299件不変を準備時に照合。正式Python/CIがPRで検査する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/aic-90048.json",
+    "sha256": "919ed1c6c6ac255cd438af431e47f294f928dd375c395a8c494ca42ddc798cd2",
+    "proposed_artwork_sha256": "4ceb8a9293e794bcd6312d670918930eb4cc81b580490e02e23393c5b62f1421",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://commons.wikimedia.org/wiki/File:Distant_View_of_Niagara_Falls_1830_Thomas_Cole.jpg",
+    "locations": [
+      "作品1830年ColeはPublic Domain、Commons同題1946.396図版はPDM 1.0表示。",
+      "登録ミラーの旧2026-10 SHA検査を引き継ぎ、別の現代著作物の特有の加工画像だと推定しない。",
+      "AIC教育資料の現代解説文章は自由再利用と扱わず独自日本語文を制作。"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "当該歴史的作品とその忠実な画像については再利用を阻む重大な条件を認めず、解説は自作した。法的な非侵害を保証するものではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "AIC公式2008教育PDFテキストは読めたがscreenshot cache miss",
+    "画像の公開GitHubミラーJPEGは2026-10 SHA履歴を再利用"
+  ]
+}
