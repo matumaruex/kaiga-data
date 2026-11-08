@@ -28943,12 +28943,12 @@
             "source_url": null
           },
           "scholarly_interpretation": {
-            "summary": "江戸時代の母子の日常を描く墨画として、近世の風俗画・浮世絵に見られる暮らしの表現という文脈から鑑賞できる。ただし東京国立博物館による風俗画と浮世絵の歴史解説は一般論で、Metの本作（56.121.30）について専門家が特定の構図や寓意を論じた資料ではない。",
-            "source_url": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=4485&lang=ja"
+            "summary": "Metの公開作品情報は本作を『北斎派』の江戸時代の紙本墨画と記すが、本作固有の寓意や作者の意図を専門的に説明していない。画面で観察できる母と子の接触・余白の構成は鑑賞の手掛かりとなるが、一般的な浮世絵史の説明を本作品固有の学術的解釈とはみなさない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/57280"
           },
           "creation_context": "18〜19世紀の紙本墨画で、1956年にMetに寄贈された。Metには類似題名の別番号作品（57279）もあるため、対象を作品ID57280として区別する。",
-          "visual_clues": "母親と子どもたちの様子。",
-          "uncertainty_note": "Metは北斎本人ではなく北斎派とする。同題名・同じ帰属の別番号56.121.29が存在するため画像・内容を混同しない。本作固有の解釈資料は確認できず、親子の内面や育児観、作者の感情を断定しない。一般的な風俗画史は個別の学術解釈を代替しないためneeds_revisionを維持。"
+          "visual_clues": "母親が上体をかがめ手前の子どもへ腕を伸ばし、肩や背にもう一人の子どもが寄り添う。輪郭線と衣服の描写以外は余白が広い。",
+          "uncertainty_note": "Metの帰属は北斎本人ではなく北斎派。作品ID57280・所蔵56.121.30を同題別作57279・所蔵56.121.29と区別する。本作固有の専門的な寓意解釈や作者の家庭生活の証言は確認されていない。風俗画一般の説明だけで裏付けず、母子の心情を断定しない。"
         },
         "emotion_categories": {
           "primary": [
@@ -28967,6 +28967,26 @@
         "ai_content_review_status": "needs_revision",
         "source_evidence_review_status": "pending",
         "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "墨だけで描かれた母子の姿が、余白の広い紙の上に浮かび上がっています。母親は身をかがめ、手前の子どもへ手を伸ばしています。背中の方にも幼い子が寄り添い、衣服の曲線や髪の輪郭が細い線で描き分けられています。大きな背景描写がないぶん、人物どうしの距離や仕草が目にとまります。\n\nメトロポリタン美術館はこの作品を、18〜19世紀の江戸時代に制作された紙本墨画と記録しています。作者の帰属は葛飾北斎本人ではなく「北斎派」です。同館には《夏夜の母子》という同じ英語題名を持つもう一つの作品（56.121.29）もあり、ここで見るのは所蔵番号56.121.30の作品です。\n\n題名は夏の夜のひとこまを伝えますが、子どもたちが何を求め、母親が何を感じているかまでは分かりません。親子が身を寄せる形から温かさを感じることもできる一方、それを画家自身の育児観や心情の証言に置き換えることはできません。簡潔な線だけで生き生きとしたやりとりが生まれているところを、ゆっくり眺めてみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/57280",
+          "https://www.metmuseum.org/art/collection/search/57279"
+        ],
+        "review": {
+          "content_status": "pending",
+          "source_status": "pending",
+          "rights_status": "pending",
+          "reviewed_on": "2026-11-09"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-57280-2026-11-09.json",
+        "audit_sha256": "23b8784abb1e797dba0a0edf89adc254c0f9c01e938619e60b8aac0eadafba45",
+        "record_sha256": "894b6113a889c6824595879a4b1bce7c72b5714f5d6d38c1318813b64ecb976a"
       }
     },
     {
