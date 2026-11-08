@@ -1,0 +1,42 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-437949",
+  "baseline_commit": "28dac387d9317e94c7d58c48604578416f98d61e",
+  "baseline_artwork_sha256": "83cde7a1d83b834b15764fdd04db5ff177d5d8697da4cc03a294cae0da0f41e0",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation",
+        "summary"
+      ],
+      "before": "18世紀オランダ風の装飾的な風俗画。子どもたちとヤギの遊びを主題とする。",
+      "after": "Metは本作の作者をヤコブ・デ・ウィット本人ではなく「Style of Jacob de Wit」とする。淡色の陰影で子どもとヤギを彫刻状に見せる効果は画像上の観察であり、特定の画家の意図を示す専門的な確証ではない。",
+      "reason": "同文で重複していた専門解釈を作者帰属の不確実性と視覚観察の範囲で区別。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437949"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "18世紀オランダ風の装飾的な風俗画。子どもたちとヤギの遊びを主題とする。",
+      "after": "18世紀オランダの画家ヤコブ・デ・ウィットの様式による作品として分類される油彩画。所蔵番号07.225.257で、J. ピアポント・モーガンから1906年にMetへ寄贈された。制作年代や個人名をさらに狭く確定する証拠はない。",
+      "reason": "Met公式のStyle of帰属・18世紀オランダ・油彩・1906年寄贈を制作／所蔵文脈として再編。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437949"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-437949.json",
+  "visitor_draft_sha256": "ed7e9a4316fc25449e66620fa80f61ad48feb3e9cc0aa60d1555ff8286d0edad",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "26e7fa29411381ae63bb3bad0fe07a805aa7c12b0efc0ca0b954b08bf4e9303a",
+  "explanation": "Met公式437949のStyle of Jacob de Wit帰属と実画像DP146935の彫刻状陰影を照合。重複していた旧meaning_basisを帰属／制作文脈へ分離修正。主喜び2は既存維持。"
+}

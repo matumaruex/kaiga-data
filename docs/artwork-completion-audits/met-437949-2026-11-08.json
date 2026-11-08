@@ -1,0 +1,133 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437949",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "28dac387d9317e94c7d58c48604578416f98d61e",
+    "artwork_record_sha256": "83cde7a1d83b834b15764fdd04db5ff177d5d8697da4cc03a294cae0da0f41e0",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437949.json",
+    "draft_sha256": "ed7e9a4316fc25449e66620fa80f61ad48feb3e9cc0aa60d1555ff8286d0edad"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437949",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 437949 heading lines 33–41, Style of Jacob de Wit",
+        "Met 437949 Artwork Details lines 64–71"
+      ],
+      "observed": "帰属Style of Jacob de Wit（オランダ18世紀）、油彩／カンヴァス、所蔵07.225.257、1906年J. Pierpont Morgan寄贈、PD表示を照合。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437949",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146935.jpg",
+      "status": 200,
+      "sha256": "dbebf1ca67acce6b85187d56ce1146e544851f186ac4fa3c1e19598696c9c1cb",
+      "byte_length": 1982973,
+      "width": 3903,
+      "height": 2564,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10登録のMet original/DP146935全量SHAと寸法は旧ログを継承。今回Web画像検索の原版を目視した。"
+    },
+    {
+      "id": "met-437949",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146935.jpg",
+      "status": 200,
+      "sha256": "1f700a2e41f086db7895c5ed06f1b6e9ed0af18364affc4ec442d604858d3575",
+      "byte_length": 55974,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10旧web-large SHA登録証拠を継承、今回バイト再取得なし。"
+    }
+  ],
+  "visual_observations": {
+    "method": "web画像検索のMet公式原画 original/DP146935.jpg（同作437949、07.225.257）を直接画面として確認。2026-10登録原版とweb-largeの旧ハッシュ検証記録へ結合。",
+    "observed": "明灰色と白を中心としたグリザイユ状の画面に、裸の幼い子四人がヤギの周囲で戯れる。棒を高く上げる子、ヤギに跨るような子、毛並みを手で触る子など。石彫風の陰影と平坦な背景。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文作成後の独立した照合工程でMet公式437949本文と原図DP146935を再確認し、公式帰属が「Style of」で本人作とは確定しないこと、子ども四人とヤギ・棒、実物の石彫ではなく油彩という記述を点検。",
+    "limitations": "同じAIによる別工程で第三者・別モデルによる独立審査ではない。現行画像を画面で見たが登録JPEGのバイトは今回取得せず2026-10のハッシュ証拠を再利用。",
+    "reviewed_artwork_sha256": "26e7fa29411381ae63bb3bad0fe07a805aa7c12b0efc0ca0b954b08bf4e9303a",
+    "reviewed_visitor_draft_sha256": "ed7e9a4316fc25449e66620fa80f61ad48feb3e9cc0aa60d1555ff8286d0edad",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 07.225.257とDP146935の子ども・ヤギの図が一致。作者本人作でなくStyle of帰属。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "彫刻風グリザイユは画像観察に限定。専門家が制作意図を特定した証拠ではない。"
+      },
+      {
+        "area": "emotion",
+        "finding": "画面の戯れと動きに対応する既存主喜び2は許容。子ども個々の感情や画家の意図と断定しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "画像の色調・構図の観察と資料の帰属・素材の情報を独自に構成し、所蔵館本文の逐語転載を避けた。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "26e7fa29411381ae63bb3bad0fe07a805aa7c12b0efc0ca0b954b08bf4e9303a",
+    "visitor_draft_sha256": "ed7e9a4316fc25449e66620fa80f61ad48feb3e9cc0aa60d1555ff8286d0edad",
+    "proposal_sha256": "fd99bdd911827d2f10797116f23a3369ddb24decf69980f5a205506b757db087",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JSによる構造・SHA・対象以外の不変更を事前検証。既存Python登録ガードおよびGitHub CIで本番検証。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437949.json",
+    "sha256": "fd99bdd911827d2f10797116f23a3369ddb24decf69980f5a205506b757db087",
+    "proposed_artwork_sha256": "26e7fa29411381ae63bb3bad0fe07a805aa7c12b0efc0ca0b954b08bf4e9303a",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "Met 437949 artwork page Public Domain",
+      "Met Open Access CC0 policy versus modern website text"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "作品画像はMet公式OA/PD。学芸員解説は画像とは別の権利として扱い、原事実と絵の観察から新文を作成。非侵害の法的保証ではない。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "登録JPEGを新規ダウンロードせず2026-10検証結果を継承、実図版はWeb画像検索から画面で確認。",
+    "既存need_revisionの意味資料の重複を解消。",
+    "作者帰属の限定を保持。"
+  ]
+}
