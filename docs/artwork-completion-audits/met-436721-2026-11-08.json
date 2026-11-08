@@ -1,0 +1,134 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436721",
+  "checked_on": "2026-11-08",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "9e47ac67e7bf2863d6dc67b066ef0435df971926",
+    "artwork_record_sha256": "eddfe58f48f6ee01d7f36b8543a54da0ac91103c55d75200124891a2a673c558",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436721.json",
+    "draft_sha256": "34fe86f0cc837fd3d58873312834901f8c50f6157e22a91287dbde33846b65f1"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436721",
+      "access": "page_read_twice",
+      "locations": [
+        "Met artwork 436721 public page and current same-day search index: Overview of Ecce Homo and Mater Dolorosa",
+        "Artwork Details 04.32 / Netherlandish / ca.1530–40 / oil on canvas transferred from wood"
+      ],
+      "observed": "作品番号04.32、作者文化区分Netherlandishと年代、受難のキリストの荊冠・傷、聖母の半身像、ピラト・群衆不在、個人向け黙想の解説を別パス再確認。公式ページの直接取得に一時的失敗があり、同日公式検索索引本文も利用。"
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436721",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-26164-001.jpg",
+      "status": 200,
+      "sha256": "69fe6aae9e565c621b05515ed4205044b216be63a5bcff6d7fe87163deb97623",
+      "byte_length": 4666803,
+      "width": 3549,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10-20のMet公式原JPEG全量SHA256照合記録を同一URL・同一版の証拠として継承。今回は再取得なし。"
+    },
+    {
+      "id": "met-436721",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26164-001.jpg",
+      "status": 200,
+      "sha256": "8d57c311f2ccd4aa9bcbb2fac52e1caa96625f48294705eb23b696c093cab572",
+      "byte_length": 120073,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-19",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "2026-10のMet公式web-large JPEGの全量SHA256照合記録を継承。今回は画像バイトを再取得していない。"
+    }
+  ],
+  "visual_observations": {
+    "method": "所蔵Metの公開図版とCommonsの同所蔵番号04.32の画像を比較。登録済みoriginal/web-largeの今回新規ハッシュ測定はせず旧証拠を再利用。",
+    "observed": "左側の茨冠のキリストの上半身と葦、右側のうつむくマリアの黒白の衣、二人を隔てる柱、背後の建築と景観。画中に群衆はない。"
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "本文を作成後、Met公式公開検索記載を別工程で読み直し、作品番号、1530～40年頃、群衆の不在、受難と聖母の関係、作者本人の心理の推測を混ぜていないかを再点検した。",
+    "limitations": "同一AIの別工程で独立した別担当・別AIの審査ではない。Met公式ページの直接HTMLは一時取得失敗し、公式公開検索インデックスを再確認。画像の全量再取得は行わず2026-10の登録済みSHAを継承した。",
+    "reviewed_artwork_sha256": "eddfe58f48f6ee01d7f36b8543a54da0ac91103c55d75200124891a2a673c558",
+    "reviewed_visitor_draft_sha256": "34fe86f0cc837fd3d58873312834901f8c50f6157e22a91287dbde33846b65f1",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 04.32、Adriaen Isenbrant、Netherlandish、ca.1530–40で一致。Franceの旧誤記はPR #194で訂正済み。"
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "キリストの荊冠・鞭打ちの傷、ピラトと群衆の省略、聖母とともに黙想に向けた近接像という館解説に沿う。作者個人の死別と区別。"
+      },
+      {
+        "area": "emotion",
+        "finding": "主悲しみ2・補慈しみ1は宗教図像と鑑賞入口との接点として妥当であり、作者心理と混同しない。"
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "館の文章を逐語訳・転記せず画面、物語の省略、二人の距離の順で独自日本語解説を作成。"
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "eddfe58f48f6ee01d7f36b8543a54da0ac91103c55d75200124891a2a673c558",
+    "visitor_draft_sha256": "34fe86f0cc837fd3d58873312834901f8c50f6157e22a91287dbde33846b65f1",
+    "proposal_sha256": "2ddde3e3fb16b6de4196a671f9e28ec4e0254c08b3ec3571707358e2480c0c53",
+    "checks": [
+      "300_unique_ids",
+      "other_299_unchanged",
+      "canonical_sha256",
+      "curation_revision_paths_only",
+      "prior_registered_image_sha_metadata_kept",
+      "emotion_categories_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JSで版ハッシュ・IDの重複・対象外299件不変性を確認。正式PythonおよびCIはPRで検証する。"
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436721.json",
+    "sha256": "2ddde3e3fb16b6de4196a671f9e28ec4e0254c08b3ec3571707358e2480c0c53",
+    "proposed_artwork_sha256": "eddfe58f48f6ee01d7f36b8543a54da0ac91103c55d75200124891a2a673c558",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/policies/terms-and-conditions",
+    "locations": [
+      "Met terms §1: OA作品と他の現代の文章は区別",
+      "§3(a): OA画像のCC0提供",
+      "当該Met作品ページのPublic Domain表示"
+    ],
+    "checked_on": "2026-11-08",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "Met所蔵作品と公開図版のPD/OAを確認し、館の著作物である現代的文章を丸写しにせず新規日本語で再構成。今回の正式DB保存を妨げる重大な権利障害を認めない（法的保証ではない）。"
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "原作品・登録JPEGの2026-10同一SHA記録を再利用し、今回の再取得はしていない。",
+    "met-436721の文化区分訂正は先行のPR #194で完了。",
+    "感情索引、選定用の既存情報と画像は不変更。"
+  ]
+}
