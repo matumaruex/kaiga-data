@@ -7,7 +7,7 @@ on:
       - .github/workflows/preview-pending-three.yml
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   preview-images:
     runs-on: ubuntu-latest
@@ -52,3 +52,33 @@ jobs:
                   print('INSPECT_FAILED '+ident+' '+repr(exc),flush=True)
               print('INSPECT_END '+ident,flush=True)
           PY
+      - name: Preview and save three evidence-checked artworks
+        shell: bash
+        run: |
+          set -euo pipefail
+          for id in met-45656 met-437985 met-436078; do
+            echo "Registering $id"
+            python3 scripts/complete_artwork.py preview --audit "docs/artwork-completion-audits/${id}-2026-11-09.json"
+            python3 scripts/complete_artwork.py save --audit "docs/artwork-completion-audits/${id}-2026-11-09.json"
+            python3 scripts/complete_artwork.py check
+          done
+          python3 scripts/validate_artworks.py
+          python3 scripts/check_catalog_snapshot.py
+      - name: Update current README count and commit successfully validated catalog
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('README.md')
+          s=p.read_text(encoding='utf-8')
+          old='**正式DBの鑑賞本文：290件／300作品。v2完成：290件'
+          new='**正式DBの鑑賞本文：293件／300作品。v2完成：293件'
+          assert s.count(old)==1, 'README current count must be 290 before revision'
+          s=s.replace(old,new,1)
+          p.write_text(s,encoding='utf-8')
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/artworks.json README.md
+          git commit -m "Complete Met 45656, 437985 and 436078 with audited originals"
+          git push
