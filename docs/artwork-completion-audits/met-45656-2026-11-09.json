@@ -1,0 +1,131 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-45656",
+  "checked_on": "2026-11-09",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "6f0f6e6c603983e5e8c2db33f98aa554feddfe83",
+    "artwork_record_sha256": "3bef718de16807d1da5948748757fbf822de3bfa47dc19dd5b34eccc3070466a",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-45656.json",
+    "draft_sha256": "0fc78211cfb8839ac8805d18c60f1b8cbd75348c0949db2d24f43ac436825d52"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/45656",
+      "access": "page_read_twice",
+      "locations": [
+        "Met45656 Overview lines 28–38, Artwork Details 71–85"
+      ],
+      "observed": "Unidentified Chinese artist; late 14th–15th century; 22 boys, hobbyhorses, masonry slide, early Ming revival of Song academy styles; Met1987.150, painting on silk, PD."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-45656",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DT4560.jpg",
+      "status": 200,
+      "sha256": "4bff7718f6294337acb04fe59833e5ebd13261cec4047c573a6ba6457a11d6b6",
+      "byte_length": 2514758,
+      "width": 1032,
+      "height": 1968,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-11-09",
+      "fresh_download_in_this_session": true,
+      "prior_evidence": "Verified at GitHub Actions run 42582521580, full original JPEG fetched 2026-11-09 and SHA256 matched catalog."
+    },
+    {
+      "id": "met-45656",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DT4560.jpg",
+      "status": 200,
+      "sha256": "8f920a61333f38e9bf8b11c87df6d50840454196dfbe6449d3d97fd36f4ed2a1",
+      "byte_length": 297323,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Display JPEG from 2026-10 batch audit; unchanged catalog and not freshly downloaded on 2026-11-09."
+    }
+  ],
+  "visual_observations": {
+    "method": "Actual registered full-resolution JPEG downloaded and hashed by GitHub Actions run 42582521580; after full SHA match, 650 px downsized JPEG was decoded and visually examined in a separate pass on 2026-11-09. 650 px preview, not all-pixel analysis of original.",
+    "observed": "The registered original shows a tall scroll with a large diagonal stone slide carrying multiple children at upper left, central courtyard structures and pavilion, and scattered boys playing around the garden. It is not a different Children's Games painting."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "After visitor draft creation, independently revisited the original Met collection entry, object details, applicable Met institutional publications, actual catalog-matched JPEG visual preview, author attribution and work-specific constraints. Revised no claims after the original draft because source checks matched; checked works against other versions.",
+    "limitations": "Same assistant on a separate pass, not an external reviewer or isolated independent agent. Visual review used a 650px derivative of a current fully verified source JPEG. The image rights check is not a legal opinion.",
+    "reviewed_artwork_sha256": "3bef718de16807d1da5948748757fbf822de3bfa47dc19dd5b34eccc3070466a",
+    "reviewed_visitor_draft_sha256": "0fc78211cfb8839ac8805d18c60f1b8cbd75348c0949db2d24f43ac436825d52",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Exact Met object ID met-45656 and accession 1987.150 independently matched museum source and registered original image hash."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Unidentified Chinese artist; late 14th–15th century; 22 boys, hobbyhorses, masonry slide, early Ming revival of Song academy styles; Met1987.150, painting on silk, PD."
+      },
+      {
+        "area": "emotion",
+        "finding": "Primary 喜び2 retained as an index into depicted children's play, not the unknown artist's personal emotion."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Original Japanese text distinguishes Met's tentative early-Ming dating from certainty, does not identify boys as known real individuals, and avoids a moralizing closing. Independently written Japanese paraphrase, not verbatim or paragraph-by-paragraph translated source."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "3bef718de16807d1da5948748757fbf822de3bfa47dc19dd5b34eccc3070466a",
+    "visitor_draft_sha256": "0fc78211cfb8839ac8805d18c60f1b8cbd75348c0949db2d24f43ac436825d52",
+    "proposal_sha256": "4835cf9e6295e787ff649a77e8c726bf5fe55d43bfb8976360261e2975dfe8c5",
+    "checks": [
+      "300_unique_ids",
+      "target_current_baseline_sha256",
+      "other_299_unchanged_by_empty_revision",
+      "2026_11_09_verified_original_sha_matches",
+      "existing_emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS checked structured version binding and source/image evidence; Python preview/save/check, catalog/snapshot validators and CI still must run before main merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-45656.json",
+    "sha256": "4835cf9e6295e787ff649a77e8c726bf5fe55d43bfb8976360261e2975dfe8c5",
+    "proposed_artwork_sha256": "3bef718de16807d1da5948748757fbf822de3bfa47dc19dd5b34eccc3070466a",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/art/collection/search/45656",
+    "locations": [
+      "Met collection public-domain designation",
+      "Met Open Access terms",
+      "Authored Japanese text checked against museum descriptive prose"
+    ],
+    "checked_on": "2026-11-09",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "The Met marks the registered work PD and makes its source image available for unrestricted reuse; the new Japanese prose is original and not licensed verbatim museum wording. This is a DB inclusion check, not a legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Run 42582521580 2026-11-09 matched high-resolution bytes (2514758) and visual preview to exact item; old display JPEG 2026-10 unchanged.",
+    "No evidence asserted of the particular artist's personal emotions."
+  ]
+}
