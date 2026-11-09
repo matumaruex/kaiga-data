@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-437985",
+  "checked_on": "2026-11-09",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "6f0f6e6c603983e5e8c2db33f98aa554feddfe83",
+    "artwork_record_sha256": "28b76fc4b700dbf9521cdbfac7b4fa4e372450e2b76b8fc7abef2924834a33f9",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-437985.json",
+    "draft_sha256": "a3dbaa563a56210c96bba7c45a5aaa6809f9aa9edf0843416476568325794aa8"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437985",
+      "access": "page_read_twice",
+      "locations": [
+        "Met437985 Overview lines 28–40; Artwork Details 66–74"
+      ],
+      "observed": "1996.517; Fantin-Latour; current date 1903; small basket-of-pansies study; likely painted from life; PD."
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436294",
+      "access": "page_read_twice",
+      "locations": [
+        "Met436294 Overview lines 28–38 and Artwork Details 68–76"
+      ],
+      "observed": "Distinct 1874 Still Life with Pansies 66.194; 1903 Pansies 1996.517 named as later related work."
+    },
+    {
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Recent_Acquisitions_A_Selection_1996_1997_The_Metropolitan_Museum_of_Art_Bulletin_v_55_no_2_1997.pdf",
+      "access": "page_read_twice",
+      "locations": [
+        "Met Bulletin Fall 1997, p.51, Pansies item 1996.517 (extracted lines 2177–2199)"
+      ],
+      "observed": "Older museum catalogue called the same 1996.517 work ca.1874; modern collection record calls it 1903, and visitor text explicitly attributes the date to the Met's current record."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-437985",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-17401-001.jpg",
+      "status": 200,
+      "sha256": "759862384a04271ec66e8c9fdb7b4e099bc16b96b88f77fdea4c1ae86c0dde6d",
+      "byte_length": 5253935,
+      "width": 4000,
+      "height": 3256,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-11-09",
+      "fresh_download_in_this_session": true,
+      "prior_evidence": "Verified at GitHub Actions run 42582521580, full original JPEG fetched 2026-11-09 and SHA256 matched catalog."
+    },
+    {
+      "id": "met-437985",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17401-001.jpg",
+      "status": 200,
+      "sha256": "bb514b05d82db9507932db3ab9cb4da8fbc0f5c63c5bbacbed4c4a71f6a08b97",
+      "byte_length": 146580,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Display JPEG from 2026-10 batch audit; unchanged catalog and not freshly downloaded on 2026-11-09."
+    }
+  ],
+  "visual_observations": {
+    "method": "Actual registered full-resolution JPEG downloaded and hashed by GitHub Actions run 42582521580; after full SHA match, 650 px downsized JPEG was decoded and visually examined in a separate pass on 2026-11-09. 650 px preview, not all-pixel analysis of original.",
+    "observed": "The matching registered original shows a small horizontal canvas with yellow, purple and cream pansies over a low visible basket against a dark brown-green background, and a signature at lower right. No apples or two pots; correctly distinct from the 1874 still life."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "After visitor draft creation, independently revisited the original Met collection entry, object details, applicable Met institutional publications, actual catalog-matched JPEG visual preview, author attribution and work-specific constraints. Revised no claims after the original draft because source checks matched; checked works against other versions.",
+    "limitations": "Same assistant on a separate pass, not an external reviewer or isolated independent agent. Visual review used a 650px derivative of a current fully verified source JPEG. The image rights check is not a legal opinion.",
+    "reviewed_artwork_sha256": "28b76fc4b700dbf9521cdbfac7b4fa4e372450e2b76b8fc7abef2924834a33f9",
+    "reviewed_visitor_draft_sha256": "a3dbaa563a56210c96bba7c45a5aaa6809f9aa9edf0843416476568325794aa8",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Exact Met object ID met-437985 and accession 1996.517 independently matched museum source and registered original image hash."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "1996.517; Fantin-Latour; current date 1903; small basket-of-pansies study; likely painted from life; PD. Distinct 1874 Still Life with Pansies 66.194; 1903 Pansies 1996.517 named as later related work. Older museum catalogue called the same 1996.517 work ca.1874; modern collection record calls it 1903, and visitor text explicitly attributes the date to the Met's current record."
+      },
+      {
+        "area": "emotion",
+        "finding": "No forced emotional index; existing untagged status kept. Floral subject alone not interpreted as happiness or tranquility."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Independent reread checked older 1997 Met catalogue's 'ca.1874' against the current 1903 record. Date remains appropriately framed as current Met attribution; older discrepancy retained in evidence and not erased. Independently written Japanese paraphrase, not verbatim or paragraph-by-paragraph translated source."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "28b76fc4b700dbf9521cdbfac7b4fa4e372450e2b76b8fc7abef2924834a33f9",
+    "visitor_draft_sha256": "a3dbaa563a56210c96bba7c45a5aaa6809f9aa9edf0843416476568325794aa8",
+    "proposal_sha256": "ee1d76363b740d4954e6da38f6f8a2290912ef8a7bb28311ca2d6a108696a213",
+    "checks": [
+      "300_unique_ids",
+      "target_current_baseline_sha256",
+      "other_299_unchanged_by_empty_revision",
+      "2026_11_09_verified_original_sha_matches",
+      "existing_emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "JS checked structured version binding and source/image evidence; Python preview/save/check, catalog/snapshot validators and CI still must run before main merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-437985.json",
+    "sha256": "ee1d76363b740d4954e6da38f6f8a2290912ef8a7bb28311ca2d6a108696a213",
+    "proposed_artwork_sha256": "28b76fc4b700dbf9521cdbfac7b4fa4e372450e2b76b8fc7abef2924834a33f9",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/art/collection/search/437985",
+    "locations": [
+      "Met collection public-domain designation",
+      "Met Open Access terms",
+      "Authored Japanese text checked against museum descriptive prose"
+    ],
+    "checked_on": "2026-11-09",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "The Met marks the registered work PD and makes its source image available for unrestricted reuse; the new Japanese prose is original and not licensed verbatim museum wording. This is a DB inclusion check, not a legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Run 42582521580 2026-11-09 matched high-resolution bytes (5253935) and visual preview to exact item; old display JPEG 2026-10 unchanged.",
+    "Old Met Bulletin 1997 called this same work ca.1874 while Met current web says 1903; this historic dating divergence is not resolved by the old bulletin and is explicitly attributed to current Met in new visitor text."
+  ]
+}
