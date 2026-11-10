@@ -1,0 +1,118 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-451256",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-451256.json",
+  "candidate_sha256": "d1405978d51c0167749467016eeef3997c0fdb77e3993610d7e4179ee746a1f1",
+  "draft_path": "drafts/visitor-explanations/met-451256.json",
+  "draft_sha256": "3053ca28069a9c4e0cda8666f538b04bbb1906ddea1a275e9ebdb07b8f4b5bd9",
+  "baseline": {
+    "artworks_sha256": "2f5b375d4326ab963496894491da575bcc67cb5e4dbf0eb986ba022e6e01e63b",
+    "image_registry_sha256": "d7947b9080df5db5c87658085243fe0c7163e6cce7f502a996e05f87d32d1b4d"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/451256",
+      "source_excerpt": "mural paintings were commissioned by Safavid rulers",
+      "visitor_claim": "16〜17世紀のサファヴィー朝では、宮殿のために壁画が注文されました",
+      "source_section": "Overview: Safavid palace murals"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/451256",
+      "source_excerpt": "were a popular subject for artists, who portrayed them in idealized form",
+      "visitor_claim": "宮廷で杯を扱う若者は、理想化された姿で好んで描かれる題材でした",
+      "source_section": "Overview: idealized cupbearers"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/451256",
+      "location": "Artwork Details and Overview; Overview: Safavid palace murals | Overview: idealized cupbearers",
+      "finding": "Met作品別Overviewによれば、16〜17世紀のサファヴィー朝宮殿では壁画が発注され、宮廷の杯を扱う若者は理想化された姿でよく描かれた。画面の題材は壁画にもアルバム用の作品にも用いられたと説明する。 Source/subject matched using same Met object page; visual: 縦長の傷みを帯びた壁画片に、大きなターバン、赤い衣装、杯と細長い瓶を持つ上半身が描かれる。Met公式の同一物体画像とprimary JPEG URLを照合し、部分像を別作品と混同しない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/451256",
+      "location": "Exact Met objectID, accession, date, primaryImage, primaryImageSmall, classification, public-domain API",
+      "finding": "Exact Met object official metadata; complete bytes and dimensions of original and display JPEGs checked in https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 public-domain object image and basic data policy",
+      "finding": "Images of PD works and basic facts are CC0, but modern artwork Overview writing is not automatically freely reusable.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/451256",
+      "finding": "Exact object labelled Public Domain at Met and API isPublicDomain:true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met OA/CC0 exact primary JPEG; both variants independently checked for full SHA256/dimensions https://github.com/matumaruex/kaiga-data/actions/runs/42916204559"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/451256",
+      "finding": "Newly written Japanese visitor prose, original structure, only brief exact quoted primary passages in source audits; no human legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Separate source-based same-AI evaluation of exact Met public domain webpage text, 2 source excerpt-to-Japanese-claim bindings, official image and primary JPEG API byte checks; research evidence https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+    "limitations": "Not an external human expert, human visual sign-off, or legal clearance. Met site may throttle CI re-fetch; offline quote binding is not a substitute for having read the original pages.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Exact Met object 451256, Man Holding a Bottle and a Cup, 55.121.8; attribution and date kept as source.",
+      "image_match": "縦長の傷みを帯びた壁画片に、大きなターバン、赤い衣装、杯と細長い瓶を持つ上半身が描かれる。Met公式の同一物体画像とprimary JPEG URLを照合し、部分像を別作品と混同しない。 Full official image bytes and downscale RMS 11.78245; https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "historical_interpretation": "Met作品別Overviewによれば、16〜17世紀のサファヴィー朝宮殿では壁画が発注され、宮廷の杯を扱う若者は理想化された姿でよく描かれた。画面の題材は壁画にもアルバム用の作品にも用いられたと説明する。 Limits: 特定の個人の肖像と断定しない。壁画が置かれた具体的な宮殿名や、杯の飲み物の中身は公式解説に無いので推測しない。作者個人は不詳。",
+      "emotion": "Tag selection grounded in scene, culture and cautious visitor associations; [].",
+      "visitor_text": "Independent Japanese paragraphs with two direct Met-Overview sourced claim-to-excerpt checks; source prose not translated verbatim.",
+      "rights": "Met official PD object; Met OA/CC0 primary JPEG; distinct current Overview content addressed separately."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/wb-55.121.8.JPG",
+      "sha256": "ef2db603126c62be152b506fb52edc8420cec7758b105d037d2579b1da091654",
+      "byte_length": 62392,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "縦長の傷みを帯びた壁画片に、大きなターバン、赤い衣装、杯と細長い瓶を持つ上半身が描かれる。Met公式の同一物体画像とprimary JPEG URLを照合し、部分像を別作品と混同しない。 Official exact-object primary JPEG and downscaled counterpart checked in https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/wb-55.121.8.JPG",
+      "sha256": "be79437178b3096fc7bb43d88acc9da63640dd7e84c9e8478b6dff1452fb8c4c",
+      "byte_length": 680141,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "縦長の傷みを帯びた壁画片に、大きなターバン、赤い衣装、杯と細長い瓶を持つ上半身が描かれる。Met公式の同一物体画像とprimary JPEG URLを照合し、部分像を別作品と混同しない。 Official exact-object primary JPEG and downscaled counterpart checked in https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "checked_on": "2026-11-11"
+    }
+  ],
+  "notes": [
+    "Sequential addition number 332; prior records unmodified.",
+    "Same AI independent checking pass, not human scholarly or legal approval."
+  ]
+}

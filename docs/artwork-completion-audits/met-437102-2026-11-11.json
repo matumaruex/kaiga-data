@@ -1,0 +1,118 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-437102",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-437102.json",
+  "candidate_sha256": "ec061edc5256f93bc40c3e746b71ec1c916a8c8c2e8d691eb508c80104639183",
+  "draft_path": "drafts/visitor-explanations/met-437102.json",
+  "draft_sha256": "220a2f658d454bef923c0c0b6d248e8de62b99bdb808595309b10d8ff2ae3214",
+  "baseline": {
+    "artworks_sha256": "9526b53f93a9d8d89fe0368e22a9db7e5cb34d35a028a9acb0f2750b6f8ab8a4",
+    "image_registry_sha256": "3020093d93289cd042aff6989e14f7448dfad0ea2c6a8984f4255b3dc249aa75"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437102",
+      "source_excerpt": "modest scenes of local topography in a somber palette",
+      "visitor_claim": "当時のオランダ風景画には、身近な地形を茶色や灰色、緑色の抑えた色合いで描く変化があった",
+      "source_section": "Overview: 1620s Dutch subdued local landscapes"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437102",
+      "source_excerpt": "the viewer is placed low to the ground in an area of heavy shadow",
+      "visitor_claim": "この絵では見る人の視点が地面に近く、深い影の中に置かれています",
+      "source_section": "Overview: viewpoint and shadow"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437102",
+      "location": "Artwork Details and Overview; Overview: 1620s Dutch subdued local landscapes | Overview: viewpoint and shadow",
+      "finding": "Met作品別Overviewでは、1620年代のオランダの風景画が、地域の土地の様子を茶・灰・緑など落ち着いた色調で描く方向へ変化したと説明する。上空から俯瞰するのでなく、視点は地面近くの深い影に置かれ、その時代の独立戦争と国民意識の高まりにも触れる。 Source/subject matched using same Met object page; visual: 低く伸びる砂地の道と小屋、小さな人影、暗い地面の上に大きな雲と空が広がる。Met公式の別撮影画像と、同作の原寸/表示主画像を物体ID 437102に紐づけた。地形が正確な場所を写したとまでは言えない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437102",
+      "location": "Exact Met objectID, accession, date, primaryImage, primaryImageSmall, classification, public-domain API",
+      "finding": "Exact Met object official metadata; complete bytes and dimensions of original and display JPEGs checked in https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 public-domain object image and basic data policy",
+      "finding": "Images of PD works and basic facts are CC0, but modern artwork Overview writing is not automatically freely reusable.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437102",
+      "finding": "Exact object labelled Public Domain at Met and API isPublicDomain:true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met OA/CC0 exact primary JPEG; both variants independently checked for full SHA256/dimensions https://github.com/matumaruex/kaiga-data/actions/runs/42916204559"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437102",
+      "finding": "Newly written Japanese visitor prose, original structure, only brief exact quoted primary passages in source audits; no human legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Separate source-based same-AI evaluation of exact Met public domain webpage text, 2 source excerpt-to-Japanese-claim bindings, official image and primary JPEG API byte checks; research evidence https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+    "limitations": "Not an external human expert, human visual sign-off, or legal clearance. Met site may throttle CI re-fetch; offline quote binding is not a substitute for having read the original pages.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Exact Met object 437102, Landscape with a Cottage, 95.7; attribution and date kept as source.",
+      "image_match": "低く伸びる砂地の道と小屋、小さな人影、暗い地面の上に大きな雲と空が広がる。Met公式の別撮影画像と、同作の原寸/表示主画像を物体ID 437102に紐づけた。地形が正確な場所を写したとまでは言えない。 Full official image bytes and downscale RMS 4.27892; https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "historical_interpretation": "Met作品別Overviewでは、1620年代のオランダの風景画が、地域の土地の様子を茶・灰・緑など落ち着いた色調で描く方向へ変化したと説明する。上空から俯瞰するのでなく、視点は地面近くの深い影に置かれ、その時代の独立戦争と国民意識の高まりにも触れる。 Limits: 絵に描かれた道・小屋を特定の地名に結びつけない。作者の内面や鑑賞者の感情を断定しない。作者のオランダ国籍をAPIに無い文化フィールドへ短絡させない。",
+      "emotion": "Tag selection grounded in scene, culture and cautious visitor associations; [].",
+      "visitor_text": "Independent Japanese paragraphs with two direct Met-Overview sourced claim-to-excerpt checks; source prose not translated verbatim.",
+      "rights": "Met official PD object; Met OA/CC0 primary JPEG; distinct current Overview content addressed separately."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146459.jpg",
+      "sha256": "66e562c6fe1f77ae7c803f981d7e66e6576bafa83a395f70302482c906876666",
+      "byte_length": 51907,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "低く伸びる砂地の道と小屋、小さな人影、暗い地面の上に大きな雲と空が広がる。Met公式の別撮影画像と、同作の原寸/表示主画像を物体ID 437102に紐づけた。地形が正確な場所を写したとまでは言えない。 Official exact-object primary JPEG and downscaled counterpart checked in https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146459.jpg",
+      "sha256": "5a852758a4f68883108dfbd6b35f5b4734588bcebab53891e8892b927b083f5e",
+      "byte_length": 2097556,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "低く伸びる砂地の道と小屋、小さな人影、暗い地面の上に大きな雲と空が広がる。Met公式の別撮影画像と、同作の原寸/表示主画像を物体ID 437102に紐づけた。地形が正確な場所を写したとまでは言えない。 Official exact-object primary JPEG and downscaled counterpart checked in https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "checked_on": "2026-11-11"
+    }
+  ],
+  "notes": [
+    "Sequential addition number 331; prior records unmodified.",
+    "Same AI independent checking pass, not human scholarly or legal approval."
+  ]
+}

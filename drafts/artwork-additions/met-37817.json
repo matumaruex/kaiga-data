@@ -1,0 +1,153 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-37817",
+  "artwork": {
+    "id": "met-37817",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 37817,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/37817",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/37817",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Portrait of Munchen Sangye Rinchen, the Eighth Abbot of Ngor Monastery",
+      "title_ja_provisional": "ンゴル寺第8代住職ムンチェン・サンゲ・リンチェンの肖像",
+      "artist": "Unknown artist",
+      "creation_date_display": "late 16th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Tibet",
+      "accession_number": "1971.176"
+    },
+    "image": {
+      "image_id": "met-37817-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP238089.jpg",
+      "source_registry_id": "met-37817",
+      "local_path": "/artworks/met-37817.jpg",
+      "sha256": "7a725c0827739f248a48cd549784db62b0d627ea5cd5df0937dc743e4c251226",
+      "byte_length": 76960,
+      "live_image_checked": true,
+      "live_check_scope": "Met exact object, complete original/display SHA256, dimensions and downscale: https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "source_accession_number": "1971.176",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP238089.jpg",
+        "sha256": "12b921a7bfdf07ec4a5d1207565ef3209c3972b162b7eeab21a30c69b5412400",
+        "byte_length": 1675446,
+        "width": 1834,
+        "height": 3562,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met exact official object original/display RGB downscale RMS 10.04085",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "畏敬": 2
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "共同体",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/37817",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "仏教の師の肖像を、まわりの尊像や経典との配置から読みたい",
+            "reason": "Met作品別Overviewは、ムンチェン・サンゲ・リンチェンが1513〜1516年にンゴル寺の第8代住職を務め、当時の寺がチベットのウー・ツァン地方に政治的な影響力を持っていたと記す。師が蓮華座に座り、教えを示す手と経典、周囲の祖師・守護尊が描かれると説明している。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "絵に描かれた儀礼や感情を現代的に断定せず、Metが説明する図像配置に留める。作者個人は不詳。16世紀末の制作と16世紀初頭の住職任期を混同しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewは、ムンチェン・サンゲ・リンチェンが1513〜1516年にンゴル寺の第8代住職を務め、当時の寺がチベットのウー・ツァン地方に政治的な影響力を持っていたと記す。師が蓮華座に座り、教えを示す手と経典、周囲の祖師・守護尊が描かれると説明している。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/37817"
+        },
+        "creation_context": "late 16th century; Tibet; Distemper and gold on cloth; accession 1971.176",
+        "visual_clues": "中央の僧が蓮華の座に坐り、赤・青・金色を含む枠の内外に多数の小さな像が整列する縦長のタンカ。絵の下部と上部に別の人物像が並び、装飾的な輪郭と細部が目立つ。Met同一作品の画像と所蔵番号1971.176に紐づく公式JPEGを照合。",
+        "uncertainty_note": "絵に描かれた儀礼や感情を現代的に断定せず、Metが説明する図像配置に留める。作者個人は不詳。16世紀末の制作と16世紀初頭の住職任期を混同しない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "畏敬"
+        ],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Separate same-AI source/subject review, official Met object and complete JPEGs https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "鮮やかな色彩の中央に、僧が蓮の座に座り、周囲を数多くの仏教尊像が取り囲んでいます。上部や左右には小さな像が並び、下部にも別の尊像が置かれています。\n\n主役のムンチェン・サンゲ・リンチェンは、1513年から1516年までンゴル寺の第8代住職を務めました。美術館によれば、当時の寺はチベットの中部や西部でも政治的な力を持っていました。彼は片手を教えを説く仕草で掲げ、もう一方の手には説法に使う経典を持っています。\n\n細部を見ると、宝石で飾られた書物や座の縁、周囲の小さな像が丁寧に重ねられています。ひとりの僧の姿を取り巻く、仏教の系譜や教えの広がりにも目を向けられる作品です。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/37817"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-37817",
+    "title": "Portrait of Munchen Sangye Rinchen, the Eighth Abbot of Ngor Monastery",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/37817",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/37817",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP238089.jpg",
+      "sha256": "7a725c0827739f248a48cd549784db62b0d627ea5cd5df0937dc743e4c251226",
+      "byte_length": 76960,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP238089.jpg",
+        "sha256": "12b921a7bfdf07ec4a5d1207565ef3209c3972b162b7eeab21a30c69b5412400",
+        "byte_length": 1675446,
+        "width": 1834,
+        "height": 3562,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met exact official object original/display RGB downscale RMS 10.04085",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "1971.176"
+  }
+}
