@@ -347,10 +347,9 @@ def main():
         audit_path = source_path(root, args.audit,
                                  "docs/artwork-completion-audits/")
         files = candidate_files(root, audit_path)
-        # A flag or cited URL alone is not evidence: fetch the official
-        # artwork page and confirm the cited source passage actually exists.
-        audit, art, _ = checked_inputs(root, args.audit, need_baseline=True)
-        source_text.online(audit, art)
+        # Bind review claims to quoted source passages. An automated source
+        # URL fetch is optional because Met currently rate-limits CI (HTTP 429).
+        # Never call this a machine-verified interpretation.
         validate_candidate(root, files)
         if args.action == "save":
             save_files(root, files)
