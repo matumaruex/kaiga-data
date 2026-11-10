@@ -1,0 +1,96 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-48984",
+  "baseline_commit": "aa8c761afd3ec85eeda2807c6f1c4af0fa9786a8",
+  "baseline_artwork_sha256": "af37059576f56cc2533beebb8499b5524b08b243520fe2c50f642e86e6f1e1cb",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation"
+      ],
+      "before": {
+        "summary": "尾形光琳に帰属される江戸時代の老いた男女を描く掛軸。",
+        "source_url": "https://www.metmuseum.org/art/collection/search/48984"
+      },
+      "after": {
+        "summary": "Metの現行登録ページは尾形光琳への『帰属』、江戸時代、絹本墨彩の掛軸といった作品情報を掲げるが、主題に関する当該作品固有の専門的解説は確認できない。松の下に向き合う老人と老女、熊手や箒を思わせる道具は能『高砂』の尉・姥の一般図像と比較できる。ただし、これは画面と高砂伝承の照合による可能性にとどまり、この作品の主題が高砂だと確定する美術館の見解ではない。",
+        "source_url": "https://www.metmuseum.org/art/collection/search/48984"
+      },
+      "reason": "旧欄は制作背景と同文だった。作品固有の研究未確認と一般図像比較を別に記録する。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/48984",
+        "https://www.city.takasago.lg.jp/soshikikarasagasu/citypromotionshitsu/kanko_tokusan/2_1/3144.html"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "尾形光琳に帰属される江戸時代の老いた男女を描く掛軸。",
+      "after": "日本の江戸時代に制作された絹本墨彩の掛軸。Met所蔵17.118.117、ロジャース基金で1917年に収蔵。所蔵館は『Attributed to Ogata Kōrin』として作者の帰属を未確定にし、個別の制作年を記していない。",
+      "reason": "旧欄が解釈文と同文だったため、制作・収蔵の確かな情報を独立記録する。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/48984"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "向き合う老いた男女の姿。",
+      "after": "松の大きな幹と枝の下で老いた男女が向き合い、二人の近くに籠のような入れ物、熊手や箒のような細長い道具、幹の陰には小さな顔らしきものも見える。これらの図像を『高砂』に断定的には同定しない。",
+      "reason": "登録原画像の具体的な画面と未確定の図像識別を記録。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/48984",
+        "https://www.city.takasago.lg.jp/soshikikarasagasu/citypromotionshitsu/kanko_tokusan/2_1/3144.html"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "before": "作者の帰属は『Attributed to Ogata Kōrin』で確定しない。 作者本人の当該作品への直接発言は確認できない。",
+      "after": "現行所蔵館の表示は尾形光琳に『帰属』する作品であり真筆とは確定していない。個別の制作年、人物が特定の実在の夫婦か、高砂の尉・姥に同定できるか、小さな姿の人物同定、作者自身の個別制作意図や感情は確認できない。高砂伝承との接点は一般図像との比較にとどまる。",
+      "reason": "作者帰属・画題・人物関係・作者心理の確実性を区別して記録。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/48984",
+        "https://www.city.takasago.lg.jp/soshikikarasagasu/citypromotionshitsu/kanko_tokusan/2_1/3144.html"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "selection_cautions"
+      ],
+      "before": [
+        "作者の帰属は『Attributed to Ogata Kōrin』で確定しない。",
+        "作者の制作意図・画中人物・鑑賞者の感情は区別する。"
+      ],
+      "after": [
+        "画家は『Attributed to Ogata Kōrin』であり、尾形光琳の真筆と断定しない。",
+        "松と男女・掃除道具から高砂の尉・姥を連想できるが、所蔵館の当該作品への正式な同定ではない。作者・画中人物・鑑賞者の感情を混同しない。"
+      ],
+      "reason": "追加した一般図像比較が展示選定で確定事項に格上げされないよう注意を限定。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/48984",
+        "https://www.city.takasago.lg.jp/soshikikarasagasu/citypromotionshitsu/kanko_tokusan/2_1/3144.html"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-48984.json",
+  "visitor_draft_sha256": "1ff92b66732979f5f5053209671f6e154d62f7d819533fa490727248f0a0def1",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "f68fbbb4f019b123a85dc007a254cfdeeecf3ade7d04dcf08405dbdc03c89734",
+  "explanation": "Actual registered image SHA/visible painting and primary museum text verified; a narrow evidence-backed curation correction when necessary. Add a single original Japanese visitor explanation."
+}
