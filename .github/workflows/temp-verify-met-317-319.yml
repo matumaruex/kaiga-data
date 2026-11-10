@@ -1,0 +1,57 @@
+name: Temporary Met image verification 317-319
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: codex/expand-artworks-317-319-v2
+      - name: Verify Met 317-319 official objects and exact JPEG bytes
+        shell: bash
+        run: |
+          python3 -m pip -q install pillow
+          python3 - <<'PY'
+          import hashlib,io,json,time,urllib.request
+          from PIL import Image,ImageChops,ImageStat
+          def get(url):
+              last=None
+              for n in range(4):
+                  try:
+                      req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 museum-primary-image-check/1.0"})
+                      with urllib.request.urlopen(req,timeout=70) as resp:return resp.read()
+                  except Exception as e:
+                      last=e;time.sleep(n+1)
+              raise last
+          failures=[]
+          for oid in (764094,635384,16580):
+              try:
+                  api="https://collectionapi.metmuseum.org/public/collection/v1/objects/"+str(oid)
+                  obj=json.loads(get(api))
+                  keys=("objectID","title","artistDisplayName","objectDate","classification","medium","isPublicDomain","accessionNumber","culture","primaryImage","primaryImageSmall")
+                  print("OBJECT",oid,json.dumps({k:obj.get(k) for k in keys},ensure_ascii=False),flush=True)
+                  if obj.get("objectID")!=oid or obj.get("isPublicDomain") is not True or obj.get("classification") not in ("Paintings","Painting"):
+                      raise RuntimeError("Object not verified public-domain painting")
+                  ims={}
+                  for k in ("primaryImageSmall","primaryImage"):
+                      url=obj.get(k)
+                      if not url or not url.startswith("https://images.metmuseum.org/"):raise RuntimeError("No official image for "+k)
+                      b=get(url)
+                      im=Image.open(io.BytesIO(b));im.load()
+                      if im.format!="JPEG":raise RuntimeError("Not JPEG")
+                      ims[k]=im.convert("RGB")
+                      print("IMAGE",oid,k,json.dumps({"url":url,"sha256":hashlib.sha256(b).hexdigest(),"byte_length":len(b),"width":im.width,"height":im.height,"format":im.format}),flush=True)
+                  sm=ims["primaryImageSmall"];resized=ims["primaryImage"].resize(sm.size,Image.Resampling.LANCZOS)
+                  rms=(sum(z*z for z in ImageStat.Stat(ImageChops.difference(sm,resized)).rms)/3)**0.5
+                  print("MATCH",oid,"original_to_display_RGB_RMS",round(rms,4),flush=True)
+              except Exception as e:
+                  failures.append(str(oid)+":"+repr(e))
+                  print("ERROR",oid,repr(e),flush=True)
+          if failures:raise SystemExit("Verification failed: "+"; ".join(failures))
+          PY
