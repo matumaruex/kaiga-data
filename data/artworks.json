@@ -38164,6 +38164,125 @@
         "audit_sha256": "0571d4bb351d8c5711b47c1093b9504d00668e9b66ebe846023ccfb5d5e3f706",
         "record_sha256": "accc0aa32b94d191848a8d7e535c785bbe5f39f53675434739348a3b513578ae"
       }
+    },
+    {
+      "id": "met-40447",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 40447,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/40447",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/40447",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "Grapevine and Squirrels",
+        "title_ja_provisional": "葡萄と栗鼠",
+        "artist": "Unidentified artist",
+        "creation_date_display": "early 19th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Korea",
+        "accession_number": "1987.195"
+      },
+      "image": {
+        "image_id": "met-40447-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-36420-002.jpg",
+        "source_registry_id": "met-40447",
+        "local_path": "/artworks/met-40447.jpg",
+        "sha256": "422fea0436ca1d62dc78dea153c81bf66bc0b06777d898bf4a75bf1b245e0bf9",
+        "byte_length": 95816,
+        "live_image_checked": true,
+        "live_check_scope": "Met full JPEG bytes/SHA256 and pixel fit at RMS 6.6427; image viewed in official-source GitHub Actions https://github.com/matumaruex/kaiga-data/actions/runs/42762928000",
+        "source_accession_number": "1987.195",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-36420-002.jpg",
+          "sha256": "64348586d7de3841dbaa614a7304e88f5359216e5c74a8e8a79f5707b1601bcc",
+          "byte_length": 2530607,
+          "width": 2079,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Official original/display downscale RMS 6.6427",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/40447",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "古い朝鮮絵画で、植物と小動物の細やかな筆致をじっくり見たい",
+              "reason": "垂れ下がる葡萄の房と蔓、ところどころに隠れた栗鼠、上部の詩文がひとつの縦長の画面に収まる。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "植物の豊かさだけを根拠に喜びや安心の感情を固定しない。",
+            "作者はMetの登録で不詳。上部の詩文を19世紀の日本人が書いたという説は一研究者の見解で、確定事実ではない。",
+            "Metの古いページに画像制限文が残る一方、同ページでPublic Domain / Open Accessと明記され、公式APIからPD対象の画像が取得できる。現在の画像利用条件と文章の著作権を区別する。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは、葡萄の蔓が朝鮮王朝時代を通して文人画家の好んだ主題であり、初期の画面が画帖に多かったのに対して19世紀には掛軸や屏風など大型化したと説明する。この作品は葡萄の枝に栗鼠を配する例で、上部の漢詩は一研究者によれば19世紀の日本人による筆跡の可能性がある。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/40447"
+          },
+          "creation_context": "朝鮮、19世紀初頭の紙本墨彩掛軸。Met1987.195、作者不詳。葡萄と栗鼠を描き、上部に漢文四行の詩と印がある。朝鮮文人画に通じる葡萄画の伝統と関連づけられる。",
+          "visual_clues": "縦長の掛軸に斜めに伸びる太い葡萄の蔓があり、葉と房が下へ垂れる。上部に墨書と赤い印、枝には小動物の姿が紛れる。広い紙地と墨の濃淡が葉や蔓の質感を分ける。",
+          "uncertainty_note": "作者名、葡萄・栗鼠の画中での限定的な寓意、詩文の筆者は特定されていない。19世紀日本人による銘文説も研究者の判断であり確証ではない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met website, object API, original JPEG visual preview and exact SHA check https://github.com/matumaruex/kaiga-data/actions/runs/42762928000; same assistant separate-pass analysis not external scholarly audit.",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "大きく曲がった葡萄の蔓から葉と房が垂れ、枝のあいだには小さな栗鼠も描き込まれています。上の方には縦書きの詩と印があり、植物の動きと文字がひとつの掛軸の中に重なります。\n\nこの《葡萄と栗鼠》は、19世紀初めの朝鮮で描かれた作品で、作者の名前は分かっていません。メトロポリタン美術館によれば、葡萄は朝鮮王朝の文人画で親しまれた画題でした。以前は画帖の小さな頁に描かれることが多かった葡萄画が、19世紀にはこうした縦長の掛軸や屏風にも描かれるようになったと説明されています。\n\n上の漢詩については、19世紀の日本人が書いた可能性を指摘する研究者もいます。ただし筆者が確定したわけではありません。葉と蔓の重なり、余白、文字の位置を行き来すると、風景画とは違う密度で自然を描きとめた作品であることが見えてきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/40447"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-40447-2026-11-10.json",
+        "audit_sha256": "babb51c81dfea47db22421fafdd990c4a1995585d6911ce3cb96c541851892b0",
+        "record_sha256": "d7674c527b137ae91e9afe1ae596cfff2bda8b7199c274aa1a4c720257f6d078"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

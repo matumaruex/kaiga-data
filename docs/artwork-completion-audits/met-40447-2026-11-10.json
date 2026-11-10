@@ -1,0 +1,105 @@
+{
+  "schema_version": "artwork-v2-new-registration-1",
+  "id": "met-40447",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-40447.json",
+  "candidate_sha256": "dcbdac4c5a846e6e649e0edeaa79768a636425d188172d57c922ad412bf76065",
+  "draft_path": "drafts/visitor-explanations/met-40447.json",
+  "draft_sha256": "de5a6bb06775856bf2a71459cf9acfdd25a075d3cc7372a209b57ea621933bcb",
+  "baseline": {
+    "artworks_sha256": "1ec3a7f0af8f0188b96ce4dd34215c2edcc23c32a2820d14e19f2b6b79c234b4",
+    "image_registry_sha256": "74bba51813e7536bf34f7fe0e2dbb52c54f8556d5459fcb7ac2a3da6a1a52d02"
+  },
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/40447",
+      "location": "Met Overview on grapevine motifs in Joseon literati art and nineteenth-century hanging scrolls; Signatures, Inscriptions, and Markings on four-line Chinese poem and speculative Japanese handwriting; Artwork Details accession 1987.195",
+      "finding": "Met documents the grape-and-squirrel theme, Korean nineteenth-century hanging-scroll format, and uncertain attribution of the inscription to a Japanese hand. Artist is unidentified; symbolism not fixed.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/40447",
+      "location": "Met API objectID, artistDisplayName, objectDate, accessionNumber, classification, Public Domain flag, original and small image URLs",
+      "finding": "Met object metadata and exact JPEG bytes reconfirmed after full SHA256 checks in https://github.com/matumaruex/kaiga-data/actions/runs/42762928000.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 release for public domain artwork images",
+      "finding": "Artwork is marked Public Domain and its official image is eligible for CC0; modern text rights are separate.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/40447",
+      "finding": "The Met explicitly marks the specific artwork Public Domain; this does not cover modern museum prose."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met primary-image and Open Access policy allow reuse of this PD work's image; full SHA and visually verified."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/40447",
+      "finding": "New original Japanese writing based on source facts, not long copying or close translation; legal certainty not guaranteed."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant rechecked source facts and visual observations separately from drafting, with direct Met API and image file re-download. Verified original/display SHA256 and resized pixel RMS; official-source visual previews in https://github.com/matumaruex/kaiga-data/actions/runs/42762928000.",
+    "limitations": "Not a different model or independent human expert. Legal reuse is an evidence-based assessment, not legal opinion. Previews examined; not every full-resolution pixel visually inspected.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met 40447, accession 1987.195, exact title/artist/date and Public Domain.",
+      "image_match": "縦長の掛軸に斜めに伸びる太い葡萄の蔓があり、葉と房が下へ垂れる。上部に墨書と赤い印、枝には小動物の姿が紛れる。広い紙地と墨の濃淡が葉や蔓の質感を分ける。 Original and display JPEGs match exact Met object 40447 and both versions agree (RGB RMS 6.6427); official original preview visually checked.",
+      "historical_interpretation": "Met documents the grape-and-squirrel theme, Korean nineteenth-century hanging-scroll format, and uncertain attribution of the inscription to a Japanese hand. Artist is unidentified; symbolism not fixed.",
+      "emotion": "Only {} linked as viewing index; no claims about figures' private feelings.",
+      "visitor_text": "New Japanese explanation checked for accuracy and independent wording.",
+      "rights": "Artwork PD, official image CC0, museum prose separately considered."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-36420-002.jpg",
+      "sha256": "422fea0436ca1d62dc78dea153c81bf66bc0b06777d898bf4a75bf1b245e0bf9",
+      "byte_length": 95816,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "縦長の掛軸に斜めに伸びる太い葡萄の蔓があり、葉と房が下へ垂れる。上部に墨書と赤い印、枝には小動物の姿が紛れる。広い紙地と墨の濃淡が葉や蔓の質感を分ける。 Original and display JPEGs match exact Met object 40447 and both versions agree (RGB RMS 6.6427); official original preview visually checked.",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-36420-002.jpg",
+      "sha256": "64348586d7de3841dbaa614a7304e88f5359216e5c74a8e8a79f5707b1601bcc",
+      "byte_length": 2530607,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "縦長の掛軸に斜めに伸びる太い葡萄の蔓があり、葉と房が下へ垂れる。上部に墨書と赤い印、枝には小動物の姿が紛れる。広い紙地と墨の濃淡が葉や蔓の質感を分ける。 Original and display JPEGs match exact Met object 40447 and both versions agree (RGB RMS 6.6427); official original preview visually checked.",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "User explicitly approved three selected works.",
+    "Same-assistant source/visual second pass not external expert review.",
+    "No changes to previously registered artworks."
+  ]
+}
