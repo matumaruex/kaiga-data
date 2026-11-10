@@ -1,0 +1,44 @@
+name: Temporary Corot 323 image research
+on:
+  push:
+    branches: [codex/expand-artwork-323-corot-20261110]
+    paths: ['.github/workflows/temp-corot-323.yml']
+permissions:
+  contents: read
+jobs:
+  inspect-official-api-and-images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - name: Verify official object and JPEG byte evidence
+        run: |
+          python3 - <<'PY'
+          import hashlib, io, json, urllib.request
+          from PIL import Image, ImageChops, ImageStat
+          oid=435991
+          def fetch(url):
+              req=urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0 (collection research; museum open access)'})
+              with urllib.request.urlopen(req, timeout=60) as f:
+                  return f.read()
+          obj=json.loads(fetch(f'https://collectionapi.metmuseum.org/public/collection/v1/objects/{oid}'))
+          fields=['objectID','title','artistDisplayName','objectDate','classification','medium','culture','accessionNumber','isPublicDomain','primaryImage','primaryImageSmall']
+          print('MET_OBJECT='+json.dumps({k:obj.get(k) for k in fields},ensure_ascii=False),flush=True)
+          assert obj['objectID']==oid and obj['isPublicDomain'] and obj['primaryImage'], 'identity or PD/image failed'
+          original=obj['primaryImage']
+          display=original.replace('/original/','/web-large/')
+          assert display!=original, 'unknown Met image path'
+          pics={}
+          for kind,url in [('original',original),('display',display)]:
+              b=fetch(url)
+              im=Image.open(io.BytesIO(b)); im.load()
+              assert im.format=='JPEG' and b[:2]==b'\xff\xd8' and b[-2:]==b'\xff\xd9'
+              pics[kind]=im.convert('RGB')
+              print('MET_IMAGE='+json.dumps(dict(kind=kind,url=url,sha256=hashlib.sha256(b).hexdigest(),byte_length=len(b),width=im.width,height=im.height,mime='image/jpeg',download_status=200),ensure_ascii=False),flush=True)
+          hi=pics['original']; lo=pics['display']
+          r=hi.resize(lo.size,Image.Resampling.LANCZOS)
+          stat=ImageStat.Stat(ImageChops.difference(r,lo))
+          rms=sum(x*x for x in stat.rms)/len(stat.rms)
+          rms=rms**0.5
+          print('DOWNSCALE_RMS='+str(round(rms,4)),flush=True)
+          assert rms<35, 'original/display image subject mismatch'
+          PY
