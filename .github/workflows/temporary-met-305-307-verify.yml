@@ -1,0 +1,51 @@
+name: Temporary verify Met 305-307 image identity
+on:
+  push:
+    branches: [codex/expand-artworks-305-307-v2]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch Met primary JPEGs and compare
+        run: |
+          python3 -m pip -q install pillow
+          python3 - <<'PY'
+          import urllib.request,json,hashlib,io,time,math
+          from PIL import Image,ImageChops,ImageStat
+          def get(url):
+            last=None
+            for i in range(3):
+              try:
+                req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (museum image identity audit)"})
+                with urllib.request.urlopen(req,timeout=100) as f:
+                  return f.read()
+              except Exception as e:last=e;time.sleep(2+i)
+            raise last
+          for oid in (48893,694642,765654):
+            try:
+              url="https://collectionapi.metmuseum.org/public/collection/v1/objects/"+str(oid)
+              obj=json.loads(get(url))
+              print("OBJECT",oid,json.dumps({k:obj.get(k) for k in ("objectID","title","artistDisplayName","objectDate","objectName","classification","medium","isPublicDomain","accessionNumber","culture","primaryImage","primaryImageSmall")},ensure_ascii=False),flush=True)
+              images={}
+              for kind in ("primaryImageSmall","primaryImage"):
+                source=obj.get(kind)
+                if not source:raise ValueError("empty "+kind)
+                raw=get(source)
+                im=Image.open(io.BytesIO(raw))
+                images[kind]=im.convert("RGB")
+                print("IMAGE",oid,kind,json.dumps({"url":source,"sha256":hashlib.sha256(raw).hexdigest(),"byte_length":len(raw),"width":im.width,"height":im.height,"format":im.format}),flush=True)
+              small=images["primaryImageSmall"]
+              orig=images["primaryImage"].resize(small.size,Image.Resampling.LANCZOS)
+              rms=ImageStat.Stat(ImageChops.difference(orig,small)).rms
+              value=(sum(x*x for x in rms)/3)**.5
+              print("MATCH",oid,"small_original_rms",round(value,4),flush=True)
+              assert obj["isPublicDomain"] and obj["classification"]=="Paintings"
+              assert value<40
+            except Exception as e:
+              print("ERROR",oid,repr(e),flush=True)
+              raise
+          PY
