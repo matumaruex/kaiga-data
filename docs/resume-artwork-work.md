@@ -10,4 +10,4 @@
 
 ## 過去の作業履歴
 
-日付別の進捗・作品別の問題・PR・出典は [旧再開メモの全文](history/resume-artwork-work-through-2026-11-10.md) に保管した。過去の「最新」「現行」は当時の状態を示す。
+日付別の進捗・作品別の問題・PR・出典は [旧再開メモの全文](history/resume-artwork-work-through-2026-11-10.md) と [その後の更新履歴](history/resume-updates.md) に保管する。過去の「最新」「現行」は当時の状態を示す。

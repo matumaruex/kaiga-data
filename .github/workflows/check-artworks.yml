@@ -9,6 +9,8 @@ on:
       - "tests/**"
       - "drafts/**"
       - "docs/artwork-completion-audits/**"
+      - "docs/resume-artwork-work.md"
+      - "docs/history/resume-updates.md"
       - ".github/workflows/check-artworks.yml"
 
 permissions:
@@ -44,6 +46,8 @@ jobs:
         run: python3 scripts/validate_artworks.py
       - name: Test registration guards
         run: python3 -m unittest discover -s tests -p 'test_*.py'
+      - name: Keep restart note short and archived
+        run: python3 scripts/rotate_resume.py check
       - name: Verify saved v2 completion evidence
         run: python3 scripts/complete_artwork.py check
       - name: Verify v2 additions and their image/source/audit bindings
