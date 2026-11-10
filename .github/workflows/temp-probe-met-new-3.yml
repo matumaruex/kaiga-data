@@ -19,7 +19,7 @@ jobs:
         shell: bash
         run: |
           python - <<'PY'
-          import hashlib,json,io,urllib.request,urllib.parse,math
+          import hashlib,json,io,urllib.request,urllib.parse,math,base64
           from PIL import Image,ImageChops,ImageStat
           def get(url):
               url=urllib.parse.quote(url,safe=':/%?=&,.-_~')
@@ -43,4 +43,7 @@ jobs:
                   stat=ImageStat.Stat(ImageChops.difference(a,pics['display']))
                   rec['rgb_rms']=round(math.sqrt(sum(x*x for x in stat.rms)/3),4)
               print('MET_WORK='+json.dumps(rec,ensure_ascii=False,separators=(',',':')),flush=True)
+              thumb=pics['original'].copy(); thumb.thumbnail((650,650),Image.Resampling.LANCZOS)
+              buf=io.BytesIO(); thumb.save(buf,'JPEG',quality=77)
+              print('MET_PREVIEW_'+str(oid)+'='+base64.b64encode(buf.getvalue()).decode(),flush=True)
           PY
