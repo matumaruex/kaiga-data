@@ -1,0 +1,112 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-860959",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-860959.json",
+  "candidate_sha256": "f1573bc882634ec37b1b1bda5acfb8b3e54e8cae8bcf155de66301ed056acd53",
+  "draft_path": "drafts/visitor-explanations/met-860959.json",
+  "draft_sha256": "a31bb70581486a5e976b206f2f14f61bfc3c2e08cf26a4c8b9050d49225c2351",
+  "baseline": {
+    "artworks_sha256": "4965ba13443a041dbd3c91ef8a574fe86c2a80bc91042d9628f480851f5293f9",
+    "image_registry_sha256": "469607b7c29892d524bf06241981589eecc188c86b03735dec92356c977a0934"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/860959",
+      "source_section": "Overview, first paragraph: diminutive officials on an outcrop",
+      "source_excerpt": "the figures are diminutively situated on an outcrop in the lower center",
+      "visitor_claim": "集まりが主題なのに、人物は景色に比べて驚くほど小さく描かれています"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/860959",
+      "location": "Artwork Details and full Overview including Overview, first paragraph: diminutive officials on an outcrop",
+      "finding": "Metは、朝鮮王朝の官人たちの会合を記録した契会図（gyehoedo）であると説明する。人物が下方の岩上に小さく描かれる。停泊した舟から来た可能性のある人々、近づく二人の官人、漁師、遠方の塔も記述される。 具体的な会合の日時、参加者の氏名、個々の人物の心理は公開情報から確定できない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/860959",
+      "location": "Official objectID, accession, classification, PD, primaryImageSmall/primaryImage",
+      "finding": "Met primary-image full SHA256 and size confirmed: https://github.com/matumaruex/kaiga-data/actions/runs/42781149191",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy and CC0 reuse for public domain works",
+      "finding": "The Met provides image and basic object data CC0; modern explanatory prose is not covered.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/860959",
+      "finding": "Exact Met object marked Public Domain."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met Open Access CC0 on exact official JPEGs verified by full hash."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/860959",
+      "finding": "Independent new Japanese explanation based on facts and viewing, not near translation; legal certainty not guaranteed."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant: direct Met Overview and Details independently checked against drafted claims, visual composition checked in Met-designated image, Met API original and display JPEG full SHA256, size and RMS evidence in https://github.com/matumaruex/kaiga-data/actions/runs/42781149191",
+    "limitations": "Not external scholarly or human review. Met official HTML quotes read directly; online CI re-fetch may HTTP 429. No legal clearance opinion.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met 860959 accession 2022.98 confirmed; 具体的な会合の日時、参加者の氏名、個々の人物の心理は公開情報から確定できない。",
+      "image_match": "掛軸に霧のかかる山水、下方の岩に集まる小さな人物、川の舟と対岸の道や村。Met公式画像と同作品の細部表示を目視照合。 Full hashes at https://github.com/matumaruex/kaiga-data/actions/runs/42781149191",
+      "historical_interpretation": "Metは、朝鮮王朝の官人たちの会合を記録した契会図（gyehoedo）であると説明する。人物が下方の岩上に小さく描かれる。停泊した舟から来た可能性のある人々、近づく二人の官人、漁師、遠方の塔も記述される。",
+      "emotion": "Source-grounded tags; zero allowed.",
+      "visitor_text": "Japanese text independently compared with Met Overview and Artwork Details.",
+      "rights": "Met Public Domain object, Met CC0 official image, independently worded Japanese text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-24854-002.jpg",
+      "sha256": "99797a2b5c8a541f7f0b4c45f4c34e025cb6f312b317561bdded5adf89599e98",
+      "byte_length": 104293,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "掛軸に霧のかかる山水、下方の岩に集まる小さな人物、川の舟と対岸の道や村。Met公式画像と同作品の細部表示を目視照合。 Official source image and resized pair RMS 3.9811.",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-24854-002.jpg",
+      "sha256": "3b60bbe44b28528f38e96a83c384a3384410e13c18b521c0d04f0d10e9088194",
+      "byte_length": 4594593,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "掛軸に霧のかかる山水、下方の岩に集まる小さな人物、川の舟と対岸の道や村。Met公式画像と同作品の細部表示を目視照合。 Official source image and resized pair RMS 3.9811.",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "One-off 314–316 research record. Previous 313 works and their original audits are unchanged.",
+    "Same-assistant separate pass; not independent human expert."
+  ]
+}

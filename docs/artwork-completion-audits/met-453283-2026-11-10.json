@@ -1,0 +1,112 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-453283",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-453283.json",
+  "candidate_sha256": "a251c503fc21d532a20f8ad139da5a413bbb14edbef36bf193db4072e20e6191",
+  "draft_path": "drafts/visitor-explanations/met-453283.json",
+  "draft_sha256": "36bcc51aa8b14e565af15e045bc17fb3c890e823e53fed2130217dae0eeb84b2",
+  "baseline": {
+    "artworks_sha256": "7a8d2ef106b633ec1bccdc65b0b871f19f14821d9aed22d842f769d1995add68",
+    "image_registry_sha256": "5ed890aa004d122341ac1c2d94d5027f245027b27ca2a73aa58f4f00d2a9dfa0"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/453283",
+      "source_section": "Overview, first paragraph: eight-panel room decoration",
+      "source_excerpt": "it was part of a series of eight works made to decorate a room",
+      "visitor_claim": "恋物語を題材に室内を飾った八点組の一枚でした"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/453283",
+      "location": "Artwork Details and full Overview including Overview, first paragraph: eight-panel room decoration",
+      "finding": "Metは、本作が恋物語を題材とする室内装飾用八点組の一枚で、上部が壁龕にはまる形であると説明する。マジュヌーンは結婚の申し出を拒絶された後に荒野に入り動物たちと暮らす姿として描かれる。ライラの衣装はザンド朝時代の服装に近い。 Metの制作地表記はシーラーズへの帰属で、作家名は公式APIに記載がない。登場人物の感情を作者自身の経験と同一視しない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/453283",
+      "location": "Official objectID, accession, classification, PD, primaryImageSmall/primaryImage",
+      "finding": "Met primary-image full SHA256 and size confirmed: https://github.com/matumaruex/kaiga-data/actions/runs/42781149191",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy and CC0 reuse for public domain works",
+      "finding": "The Met provides image and basic object data CC0; modern explanatory prose is not covered.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/453283",
+      "finding": "Exact Met object marked Public Domain."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met Open Access CC0 on exact official JPEGs verified by full hash."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/453283",
+      "finding": "Independent new Japanese explanation based on facts and viewing, not near translation; legal certainty not guaranteed."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant: direct Met Overview and Details independently checked against drafted claims, visual composition checked in Met-designated image, Met API original and display JPEG full SHA256, size and RMS evidence in https://github.com/matumaruex/kaiga-data/actions/runs/42781149191",
+    "limitations": "Not external scholarly or human review. Met official HTML quotes read directly; online CI re-fetch may HTTP 429. No legal clearance opinion.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met 453283 accession 1987.355.1 confirmed; Metの制作地表記はシーラーズへの帰属で、作家名は公式APIに記載がない。登場人物の感情を作者自身の経験と同一視しない。",
+      "image_match": "上辺がアーチ状の画面。赤い衣のライラと痩せたマジュヌーンが向かい合い、兎・鹿・獅子などの動物が周囲にいる。Met番号を表示するCommonsの該当画像を目視照合。 Full hashes at https://github.com/matumaruex/kaiga-data/actions/runs/42781149191",
+      "historical_interpretation": "Metは、本作が恋物語を題材とする室内装飾用八点組の一枚で、上部が壁龕にはまる形であると説明する。マジュヌーンは結婚の申し出を拒絶された後に荒野に入り動物たちと暮らす姿として描かれる。ライラの衣装はザンド朝時代の服装に近い。",
+      "emotion": "Source-grounded tags; zero allowed.",
+      "visitor_text": "Japanese text independently compared with Met Overview and Artwork Details.",
+      "rights": "Met Public Domain object, Met CC0 official image, independently worded Japanese text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/DT5774.jpg",
+      "sha256": "452537d036cadaedc0887ffe9a886632198a28ab76378dc2b375a55c320ca4ff",
+      "byte_length": 123184,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "上辺がアーチ状の画面。赤い衣のライラと痩せたマジュヌーンが向かい合い、兎・鹿・獅子などの動物が周囲にいる。Met番号を表示するCommonsの該当画像を目視照合。 Official source image and resized pair RMS 6.6572.",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/DT5774.jpg",
+      "sha256": "200a07fc06540886bfeee48b54d1f24405ea23b9f345aef760db92f245b21934",
+      "byte_length": 3397322,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "上辺がアーチ状の画面。赤い衣のライラと痩せたマジュヌーンが向かい合い、兎・鹿・獅子などの動物が周囲にいる。Met番号を表示するCommonsの該当画像を目視照合。 Official source image and resized pair RMS 6.6572.",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "One-off 314–316 research record. Previous 313 works and their original audits are unchanged.",
+    "Same-assistant separate pass; not independent human expert."
+  ]
+}

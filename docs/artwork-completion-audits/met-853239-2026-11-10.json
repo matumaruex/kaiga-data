@@ -1,0 +1,112 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-853239",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-853239.json",
+  "candidate_sha256": "22d9731e9e60450ee46af9974d3b2682be8f4c955f3b3b993dc9f5bf32d71191",
+  "draft_path": "drafts/visitor-explanations/met-853239.json",
+  "draft_sha256": "4349c74c03400cbf52b289233e5c0418e2aba98895bc42114394f6853143aa9f",
+  "baseline": {
+    "artworks_sha256": "4ad074da2dec5db1e8725d720f642cde02a757d6fb92fa3790a6c6415e6d43cf",
+    "image_registry_sha256": "49766f62b9f9903fbc10defc605ba35ab9bb5dda8b05b605cc9403ec7e18bbe8"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853239",
+      "source_section": "Overview, second sentence on the medicine jar",
+      "source_excerpt": "He cradles a small medicine jar in one hand",
+      "visitor_claim": "薬師如来は片手に小さな薬壺を持ち、もう一方の手を恐れを払う印相にしています"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/853239",
+      "location": "Artwork Details and full Overview including Overview, second sentence on the medicine jar",
+      "finding": "Metは日本で彫刻として知られやすい薬師三尊を描いた珍しい絵画と説明する。中央の薬師如来は脇侍の日光・月光菩薩より大きく、薬壺と恐れを払う印相を示す。金色の肌は中国由来の図像伝統との関連がある。 作者、制作を依頼した人物と具体的な祈願目的は特定されていない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853239",
+      "location": "Official objectID, accession, classification, PD, primaryImageSmall/primaryImage",
+      "finding": "Met primary-image full SHA256 and size confirmed: https://github.com/matumaruex/kaiga-data/actions/runs/42781149191",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy and CC0 reuse for public domain works",
+      "finding": "The Met provides image and basic object data CC0; modern explanatory prose is not covered.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853239",
+      "finding": "Exact Met object marked Public Domain."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met Open Access CC0 on exact official JPEGs verified by full hash."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853239",
+      "finding": "Independent new Japanese explanation based on facts and viewing, not near translation; legal certainty not guaranteed."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant: direct Met Overview and Details independently checked against drafted claims, visual composition checked in Met-designated image, Met API original and display JPEG full SHA256, size and RMS evidence in https://github.com/matumaruex/kaiga-data/actions/runs/42781149191",
+    "limitations": "Not external scholarly or human review. Met official HTML quotes read directly; online CI re-fetch may HTTP 429. No legal clearance opinion.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met 853239 accession 2021.396.3 confirmed; 作者、制作を依頼した人物と具体的な祈願目的は特定されていない。",
+      "image_match": "中央に大きな金色の薬師如来、その左右に二菩薩、上には天蓋と細かな文様。Met公式ページの作品画像を目視照合。 Full hashes at https://github.com/matumaruex/kaiga-data/actions/runs/42781149191",
+      "historical_interpretation": "Metは日本で彫刻として知られやすい薬師三尊を描いた珍しい絵画と説明する。中央の薬師如来は脇侍の日光・月光菩薩より大きく、薬壺と恐れを払う印相を示す。金色の肌は中国由来の図像伝統との関連がある。",
+      "emotion": "Source-grounded tags; zero allowed.",
+      "visitor_text": "Japanese text independently compared with Met Overview and Artwork Details.",
+      "rights": "Met Public Domain object, Met CC0 official image, independently worded Japanese text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-21707-002.jpg",
+      "sha256": "4639edebe0748009ace1325fbe8c8cdf7ede02c22d0b115556f6d556a1e71555",
+      "byte_length": 91183,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "中央に大きな金色の薬師如来、その左右に二菩薩、上には天蓋と細かな文様。Met公式ページの作品画像を目視照合。 Official source image and resized pair RMS 4.4001.",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-21707-002.jpg",
+      "sha256": "1f4061d200ba987900a01365feac1c00a45c53dce8c6ebe0e04ac3d27a75a9a9",
+      "byte_length": 3038446,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "中央に大きな金色の薬師如来、その左右に二菩薩、上には天蓋と細かな文様。Met公式ページの作品画像を目視照合。 Official source image and resized pair RMS 4.4001.",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "One-off 314–316 research record. Previous 313 works and their original audits are unchanged.",
+    "Same-assistant separate pass; not independent human expert."
+  ]
+}
