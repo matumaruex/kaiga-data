@@ -44,11 +44,13 @@ jobs:
           with urllib.request.urlopen(urllib.request.Request(original_url,headers=head),timeout=90) as r:
               original_bytes=r.read(18000000)
               original_status=r.status
-          assert original_status==200 and original_bytes[:3]==b"\\xff\\xd8\\xff" and len(original_bytes)<18000000
+          assert original_status==200 and original_bytes[:3]==b"\xff\xd8\xff" and len(original_bytes)<18000000
           original_image=Image.open(io.BytesIO(original_bytes))
           original_image.verify()
           original_image=Image.open(io.BytesIO(original_bytes))
           print("OFFICIAL_ORIGINAL="+json.dumps({"url":original_url,"status":original_status,"sha256":hashlib.sha256(original_bytes).hexdigest(),"byte_length":len(original_bytes),"width":original_image.width,"height":original_image.height}))
+          import os
+          os.makedirs("artifacts/met-21126",exist_ok=True)
           original_image.thumbnail((840,840))
           original_image.save("artifacts/met-21126/original-derived-thumbnail.jpg",quality=85)
 
