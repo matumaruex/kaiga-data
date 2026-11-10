@@ -28,6 +28,16 @@ class ArtworkExpansionTest(unittest.TestCase):
         (self.root / "README.md").write_bytes((ROOT / "README.md").read_bytes())
         db = add_artwork.load(self.root / "data/artworks.json")
         registry = add_artwork.load(self.root / "data/image-sources.json")
+        for existing in db["artworks"]:
+            completed = existing.get("completion", {})
+            if completed.get("schema_version") != "artwork-completion-v2-new-1":
+                continue
+            audit_path = completed["audit_path"]
+            audit_info = json.loads((ROOT / audit_path).read_text(encoding="utf-8"))
+            for ref in (audit_path, audit_info["candidate_path"], audit_info["draft_path"]):
+                dest = self.root / ref
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy(ROOT / ref, dest)
         original = next(a for a in db["artworks"] if a["id"].startswith("met-"))
         old_image = next(r for r in registry["records"] if r["id"] == original["id"])
         art = copy.deepcopy(original)
