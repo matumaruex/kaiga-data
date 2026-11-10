@@ -1,0 +1,140 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-436680",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "bca74e36d5a51dc0df0b242c2686d0aa23802905",
+    "artwork_record_sha256": "86508e449636aa5f0879113538e34911e8b4200d08b6ef9d5396e6c7214fc7a0",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-436680.json",
+    "draft_sha256": "93be8ff23249ae7009464d66a694e8af91c20c3dfbce200ac4f983bd2251871a"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436680",
+      "access": "page_read_twice",
+      "locations": [
+        "Met436680 heading and Overview lines 28–39, Details lines 68–76"
+      ],
+      "observed": "Samuel van Hoogstraten ca.1670, Met1992.133, angel foretells Mary's death, Catholic private devotion; artist Protestant, PD."
+    },
+    {
+      "url": "https://www.metmuseum.org/ja/essays/michiel-sweerts-and-biblical-subjects-in-dutch-art",
+      "access": "page_read_twice",
+      "locations": [
+        "Met art historical essay about Catholic devotional pictures, mention 1992.133"
+      ],
+      "observed": "Painting identified as a Catholic private devotional object; supports Met-specific interpretation."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-436680",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP145953.jpg",
+      "status": 200,
+      "sha256": "7f6e51314abe56227c0be8e83ff1b3a8341c69e909233177afcd10c63555b01e",
+      "byte_length": 1834300,
+      "width": 2999,
+      "height": 3721,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-11-10",
+      "fresh_download_in_this_session": true,
+      "prior_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42733477884 new source image check and visible downscaled preview on 2026-11-10"
+    },
+    {
+      "id": "met-436680",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145953.jpg",
+      "status": 200,
+      "sha256": "c918c49d2bbbabbbc43decbec754cfa9d688455c474f535e44da977cc756daf7",
+      "byte_length": 47793,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Registered web-large JPEG full-length hash checked in 2026-10 and unchanged catalog record; high-resolution original reverified on 2026-11-10"
+    }
+  ],
+  "visual_observations": {
+    "method": "The exact registered original (each of the three reviewed source paintings) was fetched and SHA-256 checked by GitHub Actions run 42733477884 on 2026-11-10. Its max-720px preview was individually visually examined in a separate pass. This run rechecks original bytes; the 720px review is not original-pixel-level scrutiny.",
+    "observed": "The matching original shows Virgin kneeling at lower right with hands crossed over her chest and a winged angel at upper left amid dark clouds holding a long palm-like branch. Viewed 720px derivative of the registered hash-matched 2999x3721 original."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "After drafting the Japanese visitor text, revisited the individual Met entry and (where applicable) the cited art-museum research, independently compared original JPEG visuals to claims and the catalog accession, and checked this exact work against same-name or different-folio alternatives.",
+    "limitations": "Same assistant in a separate review pass, not an independent human or external model. Actual picture reviewed as a 720px thumbnail derived from freshly SHA-verified registered JPEG; original source links were rechecked where available and institutional interpretations distinguished from artist testimony.",
+    "reviewed_artwork_sha256": "86508e449636aa5f0879113538e34911e8b4200d08b6ef9d5396e6c7214fc7a0",
+    "reviewed_visitor_draft_sha256": "93be8ff23249ae7009464d66a694e8af91c20c3dfbce200ac4f983bd2251871a",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Exact Met1992.133, original SHA matches and angel/Marian scene seen."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met's specific rare death-announcement reading and Catholic private devotion supported, unlike ordinary Incarnation Annunciation; artist religious denomination distinct from intended patron."
+      },
+      {
+        "area": "emotion",
+        "finding": "No emotion tags in catalog, left unchanged rather than reading grief from death scene."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Japanese text original, does not quote long Met paragraphs and clearly attributes museum's interpretation."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "86508e449636aa5f0879113538e34911e8b4200d08b6ef9d5396e6c7214fc7a0",
+    "visitor_draft_sha256": "93be8ff23249ae7009464d66a694e8af91c20c3dfbce200ac4f983bd2251871a",
+    "proposal_sha256": "fb91622fe1bb53c0f1226d3d823225341e2eda07e6f85523c50a88fd6d99ef39",
+    "checks": [
+      "300_unique_ids",
+      "target_baseline_artwork_sha256",
+      "other_299_unchanged_by_scoped_revision",
+      "2026_11_10_original_image_bytes_reverified",
+      "existing_emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Hash and input bindings checked here; Python preview/save/check and structural/snapshot validators are mandatory next, then PR CI before merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-436680.json",
+    "sha256": "fb91622fe1bb53c0f1226d3d823225341e2eda07e6f85523c50a88fd6d99ef39",
+    "proposed_artwork_sha256": "86508e449636aa5f0879113538e34911e8b4200d08b6ef9d5396e6c7214fc7a0",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/art/collection/search/436680",
+    "locations": [
+      "Met work-level Public Domain declaration",
+      "Met Open Access reuse policy as linked on the collection page",
+      "Original Japanese text checked for non-verbatim museum prose"
+    ],
+    "checked_on": "2026-11-10",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "The identified Met artwork is marked Public Domain and the registered image bytes match; the independently drafted Japanese prose does not reproduce museum prose. This database inclusion assessment is not a legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Image run: https://github.com/matumaruex/kaiga-data/actions/runs/42733477884",
+    "No attempt to infer a painter's personal feelings from iconography or topic. All visual statements are limited to visible composition and museum documentation.",
+    "Audit authored from a separate assistant content review; Python code does not invent or judge artistic meaning."
+  ]
+}

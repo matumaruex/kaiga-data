@@ -1,0 +1,140 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-45697",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "5e52b30ae64645ad10ec624f45c89dbbabdfffd6",
+    "artwork_record_sha256": "ba1f63573d0d859e42333eba228a3860399787a1f2e4cf4ea5c9bb0f467c01ee",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-45697.json",
+    "draft_sha256": "36ea77d05409b144c80d2d77b9d6d882be2cb5712d9ac2a7f848f4c1be93a357"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/45697",
+      "access": "page_read_twice",
+      "locations": [
+        "Met45697 heading and Artwork Details lines 28–38, 67–77"
+      ],
+      "observed": "Isei (Japan mid-16th century), Chinese Children at Play, 29.100.451, framed ink and color on paper, PD. No individual symbolic research stated."
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/45696",
+      "access": "page_read_twice",
+      "locations": [
+        "Met45696 heading/details showing no.29.100.450"
+      ],
+      "observed": "Different same-titled painting by Isei; different Met accession and dimensions."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-45697",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/LC-29_100_451_jps-003.jpg",
+      "status": 200,
+      "sha256": "b3a5e042227917484a45c5522f9a0ca555006df3725b2d38c462583b0348b6c9",
+      "byte_length": 2641989,
+      "width": 2755,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-11-10",
+      "fresh_download_in_this_session": true,
+      "prior_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42733477884 new source image check and visible downscaled preview on 2026-11-10"
+    },
+    {
+      "id": "met-45697",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/LC-29_100_451_jps-003.jpg",
+      "status": 200,
+      "sha256": "53e8277d0f938ee1608f841e0390c955fc0d6a7fbf67f97a69228d56e824ae6a",
+      "byte_length": 90568,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Registered web-large JPEG full-length hash checked in 2026-10 and unchanged catalog record; high-resolution original reverified on 2026-11-10"
+    }
+  ],
+  "visual_observations": {
+    "method": "The exact registered original (each of the three reviewed source paintings) was fetched and SHA-256 checked by GitHub Actions run 42733477884 on 2026-11-10. Its max-720px preview was individually visually examined in a separate pass. This run rechecks original bytes; the 720px review is not original-pixel-level scrutiny.",
+    "observed": "The matching original shows a tall brown-ground framed work with five Chinese-costumed children and several play objects including a small animal at lower left, a horse-shaped toy at right. Actual SHA-confirmed JPEG was viewed as 720px thumbnail; no specific game names inferred."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "After drafting the Japanese visitor text, revisited the individual Met entry and (where applicable) the cited art-museum research, independently compared original JPEG visuals to claims and the catalog accession, and checked this exact work against same-name or different-folio alternatives.",
+    "limitations": "Same assistant in a separate review pass, not an independent human or external model. Actual picture reviewed as a 720px thumbnail derived from freshly SHA-verified registered JPEG; original source links were rechecked where available and institutional interpretations distinguished from artist testimony.",
+    "reviewed_artwork_sha256": "7759dbf02503f20c5b3fb7c25581459be027478f88f3e174df2d19faa54e5b1f",
+    "reviewed_visitor_draft_sha256": "36ea77d05409b144c80d2d77b9d6d882be2cb5712d9ac2a7f848f4c1be93a357",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 29.100.451 exact match; same-name 29.100.450 is distinct; original JPEG SHA verified."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Museum verifies mid-sixteenth-century Japanese origin and Chinese subject, but not detailed child-game names or allegory. Scholarly interpretation is limited accordingly."
+      },
+      {
+        "area": "emotion",
+        "finding": "Original primary 喜び2 matches concrete play motif, not claimed artist emotion."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Independent Japanese prose based on official metadata and observed image, no lengthy copying; distinguishes same-name works."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "7759dbf02503f20c5b3fb7c25581459be027478f88f3e174df2d19faa54e5b1f",
+    "visitor_draft_sha256": "36ea77d05409b144c80d2d77b9d6d882be2cb5712d9ac2a7f848f4c1be93a357",
+    "proposal_sha256": "85a93cd2454ee13b8cf4442cb96c8365c4e588330ef6510d22a3b4f40f680098",
+    "checks": [
+      "300_unique_ids",
+      "target_baseline_artwork_sha256",
+      "other_299_unchanged_by_scoped_revision",
+      "2026_11_10_original_image_bytes_reverified",
+      "existing_emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Hash and input bindings checked here; Python preview/save/check and structural/snapshot validators are mandatory next, then PR CI before merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-45697.json",
+    "sha256": "85a93cd2454ee13b8cf4442cb96c8365c4e588330ef6510d22a3b4f40f680098",
+    "proposed_artwork_sha256": "7759dbf02503f20c5b3fb7c25581459be027478f88f3e174df2d19faa54e5b1f",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/art/collection/search/45697",
+    "locations": [
+      "Met work-level Public Domain declaration",
+      "Met Open Access reuse policy as linked on the collection page",
+      "Original Japanese text checked for non-verbatim museum prose"
+    ],
+    "checked_on": "2026-11-10",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "The identified Met artwork is marked Public Domain and the registered image bytes match; the independently drafted Japanese prose does not reproduce museum prose. This database inclusion assessment is not a legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Image run: https://github.com/matumaruex/kaiga-data/actions/runs/42733477884",
+    "No attempt to infer a painter's personal feelings from iconography or topic. All visual statements are limited to visible composition and museum documentation.",
+    "Audit authored from a separate assistant content review; Python code does not invent or judge artistic meaning."
+  ]
+}

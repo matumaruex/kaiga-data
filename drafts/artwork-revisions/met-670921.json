@@ -1,0 +1,103 @@
+{
+  "schema_version": "artwork-revision-proposal-v1",
+  "id": "met-670921",
+  "baseline_commit": "fe36d40a2158a4c0141cc13960a38a109075a6ae",
+  "baseline_artwork_sha256": "1e53d5f4b9d5fb18357377f196881b6429a24812e7bd3ee088db6ba6f5076205",
+  "hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+  "changes": [
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "scholarly_interpretation"
+      ],
+      "before": {
+        "summary": "岡田半江が谷文晁に向けて1833年に制作した送別の掛軸。",
+        "source_url": "https://www.metmuseum.org/art/collection/search/670921"
+      },
+      "after": {
+        "summary": "中村真菜美の江戸時代の送別画研究報告は、岡田半江筆《谷文二先生送別画》（1833年、Met蔵）を挙げ、送別画における理想化された画面と現実の出来事の関係を考察する作例の一つに位置づける。作者の直接証言やその日に描いた実景の証明ではない。",
+        "source_url": "https://kaken.nii.ac.jp/en/file/KAKENHI-PROJECT-19K23006/19K23006seika.pdf"
+      },
+      "reason": "制作背景と同文だった専門解釈を研究報告で置換。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/670921",
+        "https://kaken.nii.ac.jp/en/file/KAKENHI-PROJECT-19K23006/19K23006seika.pdf"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "creation_context"
+      ],
+      "before": "岡田半江が谷文晁に向けて1833年に制作した送別の掛軸。",
+      "after": "1833年、岡田半江が谷文二（Tani Bunji）に贈った送別の紙本墨彩掛軸（Met2015.300.179）。谷文二は谷文晁とは別人で文晁の息子。送別宴の実際の様子をこの絵がそのまま記録したとは限らない。",
+      "reason": "誤っていた受け手の同定と背景を訂正。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/670921",
+        "https://kaken.nii.ac.jp/en/file/KAKENHI-PROJECT-19K23006/19K23006seika.pdf",
+        "https://www.tv-tokyo.co.jp/kantei/smp/kaiun_db/otakara/20140401/07.html"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "visual_clues"
+      ],
+      "before": "水墨と彩色で描かれた送別の絵。",
+      "after": "横長の山水画面の左上に詩文や落款と見られる文字群。建物群、木々、水辺、右奥の塔を描く。地名・詩文全文の同定は未実施。",
+      "reason": "2026-11-10実画像を照合し画面固有の観察点を整理。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/670921"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "search_profile",
+        "fitting_situations"
+      ],
+      "before": [
+        {
+          "situation": "江戸の画家の交流と送別の文化に触れたい",
+          "reason": "岡田半江が谷文晁に向けて1833年に制作した送別の掛軸。",
+          "strength": 1
+        }
+      ],
+      "after": [
+        {
+          "situation": "江戸の画家の交流と送別の文化に触れたい",
+          "reason": "1833年の岡田半江による谷文二宛ての送別山水画。詩文と山水の組合せが文人の交遊を考える入口となる。",
+          "strength": 1
+        }
+      ],
+      "reason": "谷文晁と谷文二の取り違えを防止。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/670921",
+        "https://kaken.nii.ac.jp/en/file/KAKENHI-PROJECT-19K23006/19K23006seika.pdf"
+      ]
+    },
+    {
+      "path": [
+        "curation",
+        "meaning_basis",
+        "uncertainty_note"
+      ],
+      "before": "送別の関係性以上の個人的な悲しみや未練は未確認。 作者の当該作品への本人の直接発言は未確認。",
+      "after": "送別の史実と画家自身の悲嘆・未練は区別する。描かれた実在の場所、詩文の全文、具体的な送別会の状況、作者の個別意図を直接示す資料は今回は確認できない。谷文二は谷文晁と別人。",
+      "reason": "直接裏付けできない部分を明示。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/670921",
+        "https://kaken.nii.ac.jp/en/file/KAKENHI-PROJECT-19K23006/19K23006seika.pdf"
+      ]
+    }
+  ],
+  "visitor_draft_path": "drafts/visitor-explanations/met-670921.json",
+  "visitor_draft_sha256": "911e86fb4c5819693eb6f6c571c1b4a9f6e5123a0360194c96c26ce433ed5462",
+  "applied_to_catalog": false,
+  "independent_audit_completed": false,
+  "proposed_artwork_sha256": "a9582d122be716ec43b91397a9e9ce928b5999711b1a05d765f5da98a378bc4b",
+  "explanation": "Actual registered image SHA/visible painting and primary museum text verified; a narrow evidence-backed curation correction when necessary. Add a single original Japanese visitor explanation."
+}
