@@ -37179,6 +37179,377 @@
         "audit_sha256": "06b7e0b651bb36119c1a2680482f45e8ef21ee836dfcfb4dd406a3d5e4666e1b",
         "record_sha256": "c8ab4741cf9359dcf079c6050257ad33e3ad5a911882e5b4d4b2876ed38791d8"
       }
+    },
+    {
+      "id": "met-48893",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 48893,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/48893",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48893",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "Woman Walking in the Snow",
+        "title_ja_provisional": "雪中を歩く女性",
+        "artist": "Utagawa Hiroshige",
+        "creation_date_display": "1840s–early 1850s",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "36.100.22"
+      },
+      "image": {
+        "image_id": "met-48893-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-14527-002.jpg",
+        "source_registry_id": "met-48893",
+        "local_path": "/artworks/met-48893.jpg",
+        "sha256": "48d70772456774db8ac93023eb2ed5a9fb19dbb5877c21dbf8a741ab035de618",
+        "byte_length": 112905,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met API primaryImageSmall and primaryImage: exact full JPEG bytes/SHA256, pixel dimensions, LANCZOS resized RGB RMS; GitHub Actions 42753854022. Subject independently visually compared to Met online artwork image",
+        "source_accession_number": "36.100.22",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-14527-002.jpg",
+          "sha256": "e9e5d9966b8560220bdc7918b245c9dff78e998e7c72c95d4d479a1e33bcb808",
+          "byte_length": 3774499,
+          "width": 2997,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met API original and web-large primary JPEG. RGB LANCZOS resized RMS 8.6383",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "孤独"
+        ],
+        "emotion_strengths": {
+          "孤独": 2
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "他者との距離"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/48893",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "誰もいない風景に一人でいる感覚を、静かに見つめたい",
+              "reason": "雪景色の中に傘をさす女性を一人配置し、余白が周囲との距離を生む。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "孤独のタグは鑑賞者が一人の姿から入るための索引であり、女性が孤独を感じているとは断定しない。",
+            "雪の白は主に描かれなかった絹地と淡墨によるもので、紙の版画と素材を混同しない。",
+            "制作年代の推定幅を一つの年に固定しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは、版画にも用いた紙の白を雪に見立てる手法を、この肉筆の掛軸では絹地を塗り残す方法で応用したと解説する。淡墨を滲ませ、白の顔料を散らして降雪の質感を描き、女性の赤い下着がその白さを際立たせている。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/48893"
+          },
+          "creation_context": "歌川広重が1840年代から1850年代初頭に制作したとされる江戸時代の絹本着色掛軸。Metは、1820年代の初期の女性像から、後年は風景に背の高い美人を配する画風に変わったと指摘する。",
+          "visual_clues": "大きな笠をさして雪の中を進む着物の女性が一人。薄墨と白地の雪景色、松の枝、衣服の隙間に見える赤が強い対照をつくる。",
+          "uncertainty_note": "作者が寂しさや孤独を表現しようとした直接の制作意図は見つかっていない。雪の中の単独人物からの感情の連想は観客側のもの。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "孤独"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Direct Met object catalog plus public API and image previews; original/display JPEG byte-level SHA256/pixel-downscale in Actions 42753854022. Distinct same-assistant editorial review, no human expert or independent second AI.",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "雪の中を、一人の女性が大きな笠をさして歩いています。薄い墨で描かれた景色の中では、積もった雪の白さが目立ちます。着物の下からわずかに見える赤は、その白をいっそう強く感じさせます。\n\n広重は、画面に色を塗らずに残した部分を雪として見せました。版画で紙の白を生かすのと似た方法ですが、この作品は絹に直接描いた掛軸です。淡い墨をにじませて柔らかな積雪を表し、降る雪には白い顔料も使っています。\n\n制作は1840年代から1850年代初めと考えられています。メトロポリタン美術館は、広重が後年、風景の中に背の高い女性を描くようになったと解説しています。女性がどこへ向かうのか、何を思っているのかは分かりません。広い雪景色と歩く姿だけが、静かな一場面をつくっています。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/48893"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-48893-2026-11-10.json",
+        "audit_sha256": "af9d780304a4f50df2eb1b1b09f4a4d6ca318b4c5b40e26e54c66a65d29f9e21",
+        "record_sha256": "c7992cd75da301212bf0f7e328eb169f04827f27be7efd1d084102ff17b800d6"
+      }
+    },
+    {
+      "id": "met-694642",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 694642,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/694642",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/694642",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "The Trees, Early Afternoon, France",
+        "title_ja_provisional": "フランスの木々、午後の早い時間",
+        "artist": "William A. Harper",
+        "creation_date_display": "ca. 1905",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "American",
+        "accession_number": "2015.587"
+      },
+      "image": {
+        "image_id": "met-694642-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP701344.jpg",
+        "source_registry_id": "met-694642",
+        "local_path": "/artworks/met-694642.jpg",
+        "sha256": "da07367d97ba1da8cb53a277d8e4edcfb005948c4991758da1c020079e619b85",
+        "byte_length": 134410,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met API primaryImageSmall and primaryImage: exact full JPEG bytes/SHA256, pixel dimensions, LANCZOS resized RGB RMS; GitHub Actions 42753854022. Subject independently visually compared to Met online artwork image",
+        "source_accession_number": "2015.587",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP701344.jpg",
+          "sha256": "3071d911def7386ea69b5eb2ae48e1afdc5e1ce82fb5933f02f522a8f96b23b3",
+          "byte_length": 4684398,
+          "width": 3921,
+          "height": 2990,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met API original and web-large primary JPEG. RGB LANCZOS resized RMS 5.6856",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/694642",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "大きな木々と光のうつろいを、技法の違いに目を向けて眺めたい",
+              "reason": "樹冠の量感と空の柔らかな色彩、枝の輪郭と速い筆致が、静かな田園に現場で描いたような躍動を与える。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "静けさは画面の空気感（tone）であり、裏付けの弱い感情を作品に割り当てていない。",
+            "Metの記すバルビゾン派、印象派、ポスト印象派の技法的影響を、特定の一派への所属と誤認しない。",
+            "Metはタナーに学ぶ機会を求めたと記すが、個別の師弟関係が成立したと断定しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは、カナダ生まれのアメリカ人風景画家ハーパーが、フランスのバルビゾン派、印象派、ポスト印象派に見られる実験的な技法を組み合わせたと説明する。筆触と木の枝の暗い輪郭が、戸外のその場で描いたかのような即時性を生むと解説する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/694642"
+          },
+          "creation_context": "1905年頃のフランス田園を描いた油彩画。Metによると、ハーパーはシカゴ美術館附属美術学校を1901年に卒業し、パリのアカデミー・ジュリアンでも学び、のちに同じ黒人アメリカ人画家ヘンリー・オサワ・タナーのもとで修業しようとした。",
+          "visual_clues": "画面左の大きな緑の樹冠、前景の草地、明るい午後の空、木の暗い枝の輪郭と、木陰に見える小さな人影が画面に配置される。",
+          "uncertainty_note": "Metは制作時のハーパーの心情やこの風景が個人的な記憶と関係するかまでは示していない。そのため感情タグは付けず、風景・技法・時間帯で探索可能にした。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Direct Met object catalog plus public API and image previews; original/display JPEG byte-level SHA256/pixel-downscale in Actions 42753854022. Distinct same-assistant editorial review, no human expert or independent second AI.",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "画面の左側で、大きな木々が空を覆うように枝を広げています。明るい雲の浮かぶ空と、やわらかな草地が遠くへ続きます。木の下には小さな人影も見え、樹木の大きさがいっそう際立っています。\n\nウィリアム・A・ハーパーが1905年頃に描いたフランスの風景です。メトロポリタン美術館によれば、ハーパーはバルビゾン派の風景表現に加え、印象派やポスト印象派に見られる新しい描き方も取り入れました。木の枝の濃い輪郭と、筆で素早く置いたような色の重なりが、そこで風景を見ているような感覚を生みます。\n\nハーパーはカナダ生まれの黒人アメリカ人画家です。シカゴで美術を学んだ後、パリのアカデミー・ジュリアンへ進み、同じ黒人アメリカ人画家のヘンリー・オサワ・タナーにも学ぶ機会を求めました。この一枚では、木と光と空が画面の中心を占めています。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/694642"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-694642-2026-11-10.json",
+        "audit_sha256": "fbc80c35be5f2539d8f5c06ff6d311463dc85b71b4806ab9b0c6f24583a880d7",
+        "record_sha256": "1548f181ea9821f9d2b855b75895bb1656c1fe9682fe6b6e4bf1f4dc27e82437"
+      }
+    },
+    {
+      "id": "met-765654",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 765654,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/765654",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/765654",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "\"Krishna and the Gopis on the Bank of the Yamuna River\", Folio from the \"Second\" or \"Tehri Garhwal\" Gita Govinda (Song of the Cowherd)",
+        "title_ja_provisional": "ヤムナー川岸のクリシュナと牧女たち",
+        "artist": "Unidentified artist",
+        "creation_date_display": "ca. 1775–80",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India",
+        "accession_number": "2017.736"
+      },
+      "image": {
+        "image_id": "met-765654-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/TR.313.2017%20in%20SR1%209-21-17%20%20view-1.jpg",
+        "source_registry_id": "met-765654",
+        "local_path": "/artworks/met-765654.jpg",
+        "sha256": "f449e3c0df0c8ef241b34ab738018c25ac0e4e15b07d78f677300829f394d5f2",
+        "byte_length": 403237,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met API primaryImageSmall and primaryImage: exact full JPEG bytes/SHA256, pixel dimensions, LANCZOS resized RGB RMS; GitHub Actions 42753854022. Subject independently visually compared to Met online artwork image",
+        "source_accession_number": "2017.736",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/TR.313.2017%20in%20SR1%209-21-17%20%20view-1.jpg",
+          "sha256": "f9a75a7eaae772134744e6af7dd2425b5620f33c2f62ddde2f601182afe9b2a4",
+          "byte_length": 4684367,
+          "width": 2971,
+          "height": 1939,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met API original and web-large primary JPEG. RGB LANCZOS resized RMS 10.3154",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "喜び"
+        ],
+        "emotion_strengths": {
+          "喜び": 2
+        },
+        "tones": [
+          "にぎわい"
+        ],
+        "themes": [
+          "愛情",
+          "共同体",
+          "自然"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/765654",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "愛を祝う物語に込められた、信仰と人々の親密さを見つめたい",
+              "reason": "川辺の緑の中でクリシュナと牧女たちが身を寄せ、ギータ・ゴーヴィンダの精神的・恋愛的な愛を可視化する。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "喜びは愛を祝う場面に入るための索引で、人物全員が単純に幸福という断定ではない。牧女たちの切なる憧れもMetは記す。",
+            "作者がナインスークであると断定しない。Metはナインスークと一族の画風の特徴が見えると説明するにとどまる。",
+            "1781年のサンサール・チャンドの婚礼のための制作説は推測であり、確定した注文記録として示さない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは、12世紀のジャヤデーヴァ作『ギータ・ゴーヴィンダ』に由来する挿絵であり、クリシュナとラーダーの霊的かつ恋愛的な愛を祝う物語だと解説する。二人は抱き合い、周囲の牧女たちは神への思慕を表す。緑豊かな牧歌的景観と繊細な人物表現にはナインスークとその一族の影響があるとする。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/765654"
+          },
+          "creation_context": "インド北西部、カングラ／ガルワール地方の『ギータ・ゴーヴィンダ』連作の一葉。1775～1780年頃制作の紙本不透明水彩・金彩。Metはカングラの統治者サンサール・チャンドの1781年の初婚に関わる制作説を紹介するが推測にとどめる。作者はMet公式APIでは無記名。",
+          "visual_clues": "川辺と木々の緑、青い肌のクリシュナと彼に寄り添う色鮮やかな衣装の女性たち。画面左には水鳥と川、右には大きな幹、画面を囲む細い縁取りが見える。",
+          "uncertainty_note": "作者の実名は記録されておらず、ナインスーク本人とは断定できない。王の婚礼のための制作説はMetも可能性として扱う。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喜び"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Direct Met object catalog plus public API and image previews; original/display JPEG byte-level SHA256/pixel-downscale in Actions 42753854022. Distinct same-assistant editorial review, no human expert or independent second AI.",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "緑の川岸に、鮮やかな衣装の女性たちが集まっています。中心にいる青い肌の人物は、インドの神クリシュナです。何人もの女性が彼に寄り添い、少し離れて木のそばに立つ女性もいます。左側の川面には白い鳥が見え、木々の枝が頭上を覆っています。\n\nこれは12世紀の詩人ジャヤデーヴァが作った『ギータ・ゴーヴィンダ』という恋愛と信仰の詩を描いた一枚です。物語はクリシュナとラーダーの愛をたたえ、牧女たちは神への強い思慕を表しています。愛の喜びだけでなく、近づきたいという切実な気持ちもこの場面の一部です。\n\n作品は1775年から1780年頃、現在のインド北部で制作されました。メトロポリタン美術館は、繊細な人物表現や牧歌的な風景に、画家ナインスークとその一族の画風が見られると解説しています。カングラの王の結婚を祝うために描かれた可能性も指摘されていますが、制作事情が確定しているわけではありません。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/765654"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-765654-2026-11-10.json",
+        "audit_sha256": "1c5a3e0eefd120b885f922f31ee4ba06569ebecc5ab32557b125e74c5cf92dc5",
+        "record_sha256": "2be7f126b1bef640b5ff48ab70439e5c5446216c51de80b7ef934f5f3705ed79"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
