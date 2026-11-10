@@ -1,0 +1,156 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-765654",
+  "artwork": {
+    "id": "met-765654",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 765654,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/765654",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/765654",
+      "record_checked_on": "2026-11-10"
+    },
+    "facts": {
+      "title_original": "\"Krishna and the Gopis on the Bank of the Yamuna River\", Folio from the \"Second\" or \"Tehri Garhwal\" Gita Govinda (Song of the Cowherd)",
+      "title_ja_provisional": "ヤムナー川岸のクリシュナと牧女たち",
+      "artist": "Unidentified artist",
+      "creation_date_display": "ca. 1775–80",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "India",
+      "accession_number": "2017.736"
+    },
+    "image": {
+      "image_id": "met-765654-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/TR.313.2017%20in%20SR1%209-21-17%20%20view-1.jpg",
+      "source_registry_id": "met-765654",
+      "local_path": "/artworks/met-765654.jpg",
+      "sha256": "f449e3c0df0c8ef241b34ab738018c25ac0e4e15b07d78f677300829f394d5f2",
+      "byte_length": 403237,
+      "live_image_checked": true,
+      "live_check_scope": "Official Met API primaryImageSmall and primaryImage: exact full JPEG bytes/SHA256, pixel dimensions, LANCZOS resized RGB RMS; GitHub Actions 42753854022. Subject independently visually compared to Met online artwork image",
+      "source_accession_number": "2017.736",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/TR.313.2017%20in%20SR1%209-21-17%20%20view-1.jpg",
+        "sha256": "f9a75a7eaae772134744e6af7dd2425b5620f33c2f62ddde2f601182afe9b2a4",
+        "byte_length": 4684367,
+        "width": 2971,
+        "height": 1939,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met API original and web-large primary JPEG. RGB LANCZOS resized RMS 10.3154",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "喜び"
+      ],
+      "emotion_strengths": {
+        "喜び": 2
+      },
+      "tones": [
+        "にぎわい"
+      ],
+      "themes": [
+        "愛情",
+        "共同体",
+        "自然"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/765654",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "愛を祝う物語に込められた、信仰と人々の親密さを見つめたい",
+            "reason": "川辺の緑の中でクリシュナと牧女たちが身を寄せ、ギータ・ゴーヴィンダの精神的・恋愛的な愛を可視化する。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "喜びは愛を祝う場面に入るための索引で、人物全員が単純に幸福という断定ではない。牧女たちの切なる憧れもMetは記す。",
+          "作者がナインスークであると断定しない。Metはナインスークと一族の画風の特徴が見えると説明するにとどまる。",
+          "1781年のサンサール・チャンドの婚礼のための制作説は推測であり、確定した注文記録として示さない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metは、12世紀のジャヤデーヴァ作『ギータ・ゴーヴィンダ』に由来する挿絵であり、クリシュナとラーダーの霊的かつ恋愛的な愛を祝う物語だと解説する。二人は抱き合い、周囲の牧女たちは神への思慕を表す。緑豊かな牧歌的景観と繊細な人物表現にはナインスークとその一族の影響があるとする。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/765654"
+        },
+        "creation_context": "インド北西部、カングラ／ガルワール地方の『ギータ・ゴーヴィンダ』連作の一葉。1775～1780年頃制作の紙本不透明水彩・金彩。Metはカングラの統治者サンサール・チャンドの1781年の初婚に関わる制作説を紹介するが推測にとどめる。作者はMet公式APIでは無記名。",
+        "visual_clues": "川辺と木々の緑、青い肌のクリシュナと彼に寄り添う色鮮やかな衣装の女性たち。画面左には水鳥と川、右には大きな幹、画面を囲む細い縁取りが見える。",
+        "uncertainty_note": "作者の実名は記録されておらず、ナインスーク本人とは断定できない。王の婚礼のための制作説はMetも可能性として扱う。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "喜び"
+        ],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-10",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Direct Met object catalog plus public API and image previews; original/display JPEG byte-level SHA256/pixel-downscale in Actions 42753854022. Distinct same-assistant editorial review, no human expert or independent second AI.",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "緑の川岸に、鮮やかな衣装の女性たちが集まっています。中心にいる青い肌の人物は、インドの神クリシュナです。何人もの女性が彼に寄り添い、少し離れて木のそばに立つ女性もいます。左側の川面には白い鳥が見え、木々の枝が頭上を覆っています。\n\nこれは12世紀の詩人ジャヤデーヴァが作った『ギータ・ゴーヴィンダ』という恋愛と信仰の詩を描いた一枚です。物語はクリシュナとラーダーの愛をたたえ、牧女たちは神への強い思慕を表しています。愛の喜びだけでなく、近づきたいという切実な気持ちもこの場面の一部です。\n\n作品は1775年から1780年頃、現在のインド北部で制作されました。メトロポリタン美術館は、繊細な人物表現や牧歌的な風景に、画家ナインスークとその一族の画風が見られると解説しています。カングラの王の結婚を祝うために描かれた可能性も指摘されていますが、制作事情が確定しているわけではありません。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/765654"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-10"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-765654",
+    "title": "\"Krishna and the Gopis on the Bank of the Yamuna River\", Folio from the \"Second\" or \"Tehri Garhwal\" Gita Govinda (Song of the Cowherd)",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/765654",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/765654",
+      "license_label": "The Met Open Access / CC0 (work-level Public Domain, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/TR.313.2017%20in%20SR1%209-21-17%20%20view-1.jpg",
+      "sha256": "f449e3c0df0c8ef241b34ab738018c25ac0e4e15b07d78f677300829f394d5f2",
+      "byte_length": 403237,
+      "last_http_sha_checked_on": "2026-11-10",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42753854022",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/TR.313.2017%20in%20SR1%209-21-17%20%20view-1.jpg",
+        "sha256": "f9a75a7eaae772134744e6af7dd2425b5620f33c2f62ddde2f601182afe9b2a4",
+        "byte_length": 4684367,
+        "width": 2971,
+        "height": 1939,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met API original and web-large primary JPEG. RGB LANCZOS resized RMS 10.3154",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2017.736"
+  }
+}

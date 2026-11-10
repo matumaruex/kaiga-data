@@ -1,0 +1,156 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-48893",
+  "artwork": {
+    "id": "met-48893",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 48893,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/48893",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48893",
+      "record_checked_on": "2026-11-10"
+    },
+    "facts": {
+      "title_original": "Woman Walking in the Snow",
+      "title_ja_provisional": "雪中を歩く女性",
+      "artist": "Utagawa Hiroshige",
+      "creation_date_display": "1840s–early 1850s",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "36.100.22"
+    },
+    "image": {
+      "image_id": "met-48893-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-14527-002.jpg",
+      "source_registry_id": "met-48893",
+      "local_path": "/artworks/met-48893.jpg",
+      "sha256": "48d70772456774db8ac93023eb2ed5a9fb19dbb5877c21dbf8a741ab035de618",
+      "byte_length": 112905,
+      "live_image_checked": true,
+      "live_check_scope": "Official Met API primaryImageSmall and primaryImage: exact full JPEG bytes/SHA256, pixel dimensions, LANCZOS resized RGB RMS; GitHub Actions 42753854022. Subject independently visually compared to Met online artwork image",
+      "source_accession_number": "36.100.22",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-14527-002.jpg",
+        "sha256": "e9e5d9966b8560220bdc7918b245c9dff78e998e7c72c95d4d479a1e33bcb808",
+        "byte_length": 3774499,
+        "width": 2997,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met API original and web-large primary JPEG. RGB LANCZOS resized RMS 8.6383",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "孤独"
+      ],
+      "emotion_strengths": {
+        "孤独": 2
+      },
+      "tones": [
+        "静けさ",
+        "落ち着き"
+      ],
+      "themes": [
+        "自然",
+        "他者との距離"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/48893",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "誰もいない風景に一人でいる感覚を、静かに見つめたい",
+            "reason": "雪景色の中に傘をさす女性を一人配置し、余白が周囲との距離を生む。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "孤独のタグは鑑賞者が一人の姿から入るための索引であり、女性が孤独を感じているとは断定しない。",
+          "雪の白は主に描かれなかった絹地と淡墨によるもので、紙の版画と素材を混同しない。",
+          "制作年代の推定幅を一つの年に固定しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metは、版画にも用いた紙の白を雪に見立てる手法を、この肉筆の掛軸では絹地を塗り残す方法で応用したと解説する。淡墨を滲ませ、白の顔料を散らして降雪の質感を描き、女性の赤い下着がその白さを際立たせている。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/48893"
+        },
+        "creation_context": "歌川広重が1840年代から1850年代初頭に制作したとされる江戸時代の絹本着色掛軸。Metは、1820年代の初期の女性像から、後年は風景に背の高い美人を配する画風に変わったと指摘する。",
+        "visual_clues": "大きな笠をさして雪の中を進む着物の女性が一人。薄墨と白地の雪景色、松の枝、衣服の隙間に見える赤が強い対照をつくる。",
+        "uncertainty_note": "作者が寂しさや孤独を表現しようとした直接の制作意図は見つかっていない。雪の中の単独人物からの感情の連想は観客側のもの。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "孤独"
+        ],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-10",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Direct Met object catalog plus public API and image previews; original/display JPEG byte-level SHA256/pixel-downscale in Actions 42753854022. Distinct same-assistant editorial review, no human expert or independent second AI.",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "雪の中を、一人の女性が大きな笠をさして歩いています。薄い墨で描かれた景色の中では、積もった雪の白さが目立ちます。着物の下からわずかに見える赤は、その白をいっそう強く感じさせます。\n\n広重は、画面に色を塗らずに残した部分を雪として見せました。版画で紙の白を生かすのと似た方法ですが、この作品は絹に直接描いた掛軸です。淡い墨をにじませて柔らかな積雪を表し、降る雪には白い顔料も使っています。\n\n制作は1840年代から1850年代初めと考えられています。メトロポリタン美術館は、広重が後年、風景の中に背の高い女性を描くようになったと解説しています。女性がどこへ向かうのか、何を思っているのかは分かりません。広い雪景色と歩く姿だけが、静かな一場面をつくっています。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/48893"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-10"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-48893",
+    "title": "Woman Walking in the Snow",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/48893",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/48893",
+      "license_label": "The Met Open Access / CC0 (work-level Public Domain, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-14527-002.jpg",
+      "sha256": "48d70772456774db8ac93023eb2ed5a9fb19dbb5877c21dbf8a741ab035de618",
+      "byte_length": 112905,
+      "last_http_sha_checked_on": "2026-11-10",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42753854022",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-14527-002.jpg",
+        "sha256": "e9e5d9966b8560220bdc7918b245c9dff78e998e7c72c95d4d479a1e33bcb808",
+        "byte_length": 3774499,
+        "width": 2997,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met API original and web-large primary JPEG. RGB LANCZOS resized RMS 8.6383",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "36.100.22"
+  }
+}
