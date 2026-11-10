@@ -1,0 +1,155 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-319625",
+  "artwork": {
+    "id": "met-319625",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 319625,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/319625",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/319625",
+      "record_checked_on": "2026-11-10"
+    },
+    "facts": {
+      "title_original": "Icon triptych of Ewosṭatewos and eight of his disciples",
+      "title_ja_provisional": "エウォスタテウォスと八人の弟子の三連聖画像",
+      "artist": "Northern Highlands artist",
+      "creation_date_display": "late 17th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Amhara (Ethiopia)",
+      "accession_number": "2006.98"
+    },
+    "image": {
+      "image_id": "met-319625-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ao/web-large/DP124866.jpg",
+      "source_registry_id": "met-319625",
+      "local_path": "/artworks/met-319625.jpg",
+      "sha256": "fa7d701ebf2c1327b43adf738908a13c765539e65ab0a835ce4d3ea9582cee7c",
+      "byte_length": 119151,
+      "live_image_checked": true,
+      "live_check_scope": "Official Met API original+web-large full JPEG hashes and dimensions, downscale RMS, https://github.com/matumaruex/kaiga-data/actions/runs/42786337414",
+      "source_accession_number": "2006.98",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ao/original/DP124866.jpg",
+        "sha256": "d462a3fc80438dd6898a69d4d3e0af69f14e4ed2b160b2bb3a1f55bfd790992a",
+        "byte_length": 2910151,
+        "width": 2927,
+        "height": 3832,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Official original to web-large downscale RGB RMS 12.3316",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "畏敬": 2
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "共同体",
+        "記憶",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/319625",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "信仰と師弟のつながりを絵画の配置から考えたい",
+            "reason": "Metの作品別Overviewによれば、エチオピア正教会の二大修道会の一つである『エウォスタテウォスの家』の系譜を描いた、同種の主題で唯一知られた聖画像。聖人は1273年頃に生まれ、修道院を設立し、教義上の論争のためエジプトとアルメニアへ追放された。中央上部の聖人は巡礼者の杖、香炉と祝福用の十字架を持ち、その下と両脇に名が示された八人の弟子が小さく描かれる。修道院の歴史を示すために所有されていた可能性がある。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "歴史的な信仰の表現を説明するもので、信仰の正しさや霊的な効果を保証しない。個々の弟子の性格は分からない。",
+          "絵の制作を依頼した具体的な修道院は特定されていない。Metの『唯一知られた』は現在の知見を示す表現で、世界に他の作品が絶対存在しないという証明ではない。作者は特定個人名ではなく北部高地の画家という記述。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metの作品別Overviewによれば、エチオピア正教会の二大修道会の一つである『エウォスタテウォスの家』の系譜を描いた、同種の主題で唯一知られた聖画像。聖人は1273年頃に生まれ、修道院を設立し、教義上の論争のためエジプトとアルメニアへ追放された。中央上部の聖人は巡礼者の杖、香炉と祝福用の十字架を持ち、その下と両脇に名が示された八人の弟子が小さく描かれる。修道院の歴史を示すために所有されていた可能性がある。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/319625"
+        },
+        "creation_context": "late 17th century, Amhara (Ethiopia); Wood, tempera, cord, accession 2006.98.",
+        "visual_clues": "左右へ開いた木製三連画。赤や黄色を基調にした中央上部の聖人は杖と十字架、香炉を手にし、中央下に二人、左右の翼に三人ずつ、計八人の弟子が細いひげと模様のある衣をまとって描かれている。Met公式作品ページのIIIF画像を直接目視し、同IDの公式API一次JPEGを検証。",
+        "uncertainty_note": "絵の制作を依頼した具体的な修道院は特定されていない。Metの『唯一知られた』は現在の知見を示す表現で、世界に他の作品が絶対存在しないという証明ではない。作者は特定個人名ではなく北部高地の画家という記述。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "畏敬"
+        ],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-10",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same assistant separate pass; Met exact images full hashes in https://github.com/matumaruex/kaiga-data/actions/runs/42786337414",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "木の扉を左右に開くと、中央の大きな聖人と、その下や両脇に整然と並んだ人物が現れます。赤、黄、緑の衣には、それぞれ違う細かな文様が描き込まれています。\n\n17世紀後半のエチオピアで制作されたこの三連画は、修道会の祖であるエウォスタテウォスを描いたものです。左右の翼と中央下部には、師に従う八人の弟子が小さく描かれています。人物の大きさの違いは、単なる遠近感ではなく、教えを伝える師と弟子の関係も示しています。\n\n小さな弟子たちはそれぞれ名で区別され、共通する衣装や姿勢によってひとつの集団にも見えます。三枚の板をまたぐ配置を追うと、この絵が人の姿だけでなく、修道会の記憶を残そうとするものだったことが見えてきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/319625"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-10"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-319625",
+    "title": "Icon triptych of Ewosṭatewos and eight of his disciples",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/319625",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/319625",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ao/web-large/DP124866.jpg",
+      "sha256": "fa7d701ebf2c1327b43adf738908a13c765539e65ab0a835ce4d3ea9582cee7c",
+      "byte_length": 119151,
+      "last_http_sha_checked_on": "2026-11-10",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42786337414",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ao/original/DP124866.jpg",
+        "sha256": "d462a3fc80438dd6898a69d4d3e0af69f14e4ed2b160b2bb3a1f55bfd790992a",
+        "byte_length": 2910151,
+        "width": 2927,
+        "height": 3832,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Official original to web-large downscale RGB RMS 12.3316",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2006.98"
+  }
+}

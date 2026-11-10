@@ -1,0 +1,155 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-454054",
+  "artwork": {
+    "id": "met-454054",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 454054,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/454054",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/454054",
+      "record_checked_on": "2026-11-10"
+    },
+    "facts": {
+      "title_original": "Princesses Gather at a Fountain",
+      "title_ja_provisional": "泉に集う王女たち",
+      "artist": "Unidentified artist",
+      "creation_date_display": "ca. 1770",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "India (Farrukhabad)",
+      "accession_number": "2001.421"
+    },
+    "image": {
+      "image_id": "met-454054-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP231325.jpg",
+      "source_registry_id": "met-454054",
+      "local_path": "/artworks/met-454054.jpg",
+      "sha256": "539e2b25fc482586b5232ff17a37131823b28dec426fef66a4f0364d319702f7",
+      "byte_length": 102051,
+      "live_image_checked": true,
+      "live_check_scope": "Official Met API original+web-large full JPEG hashes and dimensions, downscale RMS, https://github.com/matumaruex/kaiga-data/actions/runs/42786337414",
+      "source_accession_number": "2001.421",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP231325.jpg",
+        "sha256": "5bc1819186b3137d860578183baf10ddf60e743456dd88bf5e534ea13db7e7cf",
+        "byte_length": 3097890,
+        "width": 3689,
+        "height": 2597,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Official original to web-large downscale RGB RMS 10.8922",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "喜び"
+      ],
+      "emotion_strengths": {
+        "喜び": 2
+      },
+      "tones": [
+        "にぎわい"
+      ],
+      "themes": [
+        "自然",
+        "共同体",
+        "愛情"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/454054",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "宮廷の庭園で過ごす女性たちと動物の賑わいを味わいたい",
+            "reason": "Metの作品別Overviewは、1770年頃のインド北部ファルッハーバード宮廷に帰属する細密画として、ハイウエストで流れるようなアンガルカを着た細身の女性たちと庭園の題材を説明する。泉には宮廷の女性十二人と子ども一人が集い、背景には幻想的な首の長い白鳥や対になった動物が見える。別のMet研究記事『Desiring Landscapes』は色調やつがいの動物を、宮廷的な恋愛感情を示す美術的表現として解釈している。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "美術史上の『宮廷の楽しみ』という主題から、人物の実際の感情や身分を断定しない。ファルッハーバード画派への帰属は確定した画家名ではない。",
+          "画家の実名はMetの公式作品別ページに示されない。題名のPrincessesを根拠に全員を個別の王女と確定しない。動物の寓意は研究者の読みで、描かれた人々の私的な感情の証拠ではない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metの作品別Overviewは、1770年頃のインド北部ファルッハーバード宮廷に帰属する細密画として、ハイウエストで流れるようなアンガルカを着た細身の女性たちと庭園の題材を説明する。泉には宮廷の女性十二人と子ども一人が集い、背景には幻想的な首の長い白鳥や対になった動物が見える。別のMet研究記事『Desiring Landscapes』は色調やつがいの動物を、宮廷的な恋愛感情を示す美術的表現として解釈している。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/454054"
+        },
+        "creation_context": "ca. 1770, India (Farrukhabad); Opaque watercolor and gold on paper, accession 2001.421.",
+        "visual_clues": "横長の色鮮やかな庭園図。中央左の階段状の泉に女性が腰掛け、周囲に細長い衣の女性たちと子どもが集う。上半分には水辺・動物のつがい・架空の長首の水鳥・遠くの建物が描かれる。Met作品ID454054の公式IIIF画像を直接確認。",
+        "uncertainty_note": "画家の実名はMetの公式作品別ページに示されない。題名のPrincessesを根拠に全員を個別の王女と確定しない。動物の寓意は研究者の読みで、描かれた人々の私的な感情の証拠ではない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "喜び"
+        ],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-10",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same assistant separate pass; Met exact images full hashes in https://github.com/matumaruex/kaiga-data/actions/runs/42786337414",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "大きな泉を取り囲むように、色とりどりの長い衣を着た女性たちが集まっています。左には建物、奥には緑の丘と小川が広がり、白い鳥や鹿のつがいが小さく描かれています。\n\nこの作品は1770年頃、インド北部のファルッハーバード宮廷の様式に属すると考えられる絵です。宮廷の女性十二人と子ども一人が、噴水を囲むように描かれています。衣服の細い線や、背景の鳥の大きさには、現実の風景をそのまま再現するより、庭の豊かさを見せる工夫が感じられます。\n\n人物同士の距離や手の動き、動物が二羽ずつ、二頭ずつ現れる様子にも目を向けると、庭園が人々の交流や憧れを映す舞台として描かれていることに気づきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/454054"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-10"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-454054",
+    "title": "Princesses Gather at a Fountain",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/454054",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/454054",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP231325.jpg",
+      "sha256": "539e2b25fc482586b5232ff17a37131823b28dec426fef66a4f0364d319702f7",
+      "byte_length": 102051,
+      "last_http_sha_checked_on": "2026-11-10",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42786337414",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP231325.jpg",
+        "sha256": "5bc1819186b3137d860578183baf10ddf60e743456dd88bf5e534ea13db7e7cf",
+        "byte_length": 3097890,
+        "width": 3689,
+        "height": 2597,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Official original to web-large downscale RGB RMS 10.8922",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2001.421"
+  }
+}

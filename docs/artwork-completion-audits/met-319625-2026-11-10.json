@@ -1,0 +1,112 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-319625",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-319625.json",
+  "candidate_sha256": "96381a7a91551d304eb3d25d320e013d03f596267c396619c1e49e86b447b519",
+  "draft_path": "drafts/visitor-explanations/met-319625.json",
+  "draft_sha256": "678832a02a5967d7377d6d22de0d1f4add058529572c3184ee11458aa82a48c1",
+  "baseline": {
+    "artworks_sha256": "5723f339bd4f1130c7377f847604a9ad276bf5b69aacb9f670aab3b2cb24b48c",
+    "image_registry_sha256": "f4341a12cde1e2f60eb3f9cdb4cd4e0873ec253f0a6e15526348132b50181445"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/319625",
+      "source_section": "Overview, first paragraph: eight disciples and hierarchical scale",
+      "source_excerpt": "Eight diminutive disciples are depicted in his image to underscore their devotion and allegiance.",
+      "visitor_claim": "左右の翼と中央下部には、師に従う八人の弟子が小さく描かれています"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/319625",
+      "location": "Artwork Details and full Overview including Overview, first paragraph: eight disciples and hierarchical scale",
+      "finding": "Metの作品別Overviewによれば、エチオピア正教会の二大修道会の一つである『エウォスタテウォスの家』の系譜を描いた、同種の主題で唯一知られた聖画像。聖人は1273年頃に生まれ、修道院を設立し、教義上の論争のためエジプトとアルメニアへ追放された。中央上部の聖人は巡礼者の杖、香炉と祝福用の十字架を持ち、その下と両脇に名が示された八人の弟子が小さく描かれる。修道院の歴史を示すために所有されていた可能性がある。 絵の制作を依頼した具体的な修道院は特定されていない。Metの『唯一知られた』は現在の知見を示す表現で、世界に他の作品が絶対存在しないという証明ではない。作者は特定個人名ではなく北部高地の画家という記述。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/319625",
+      "location": "Official objectID, accession, classification, PD, primaryImageSmall/primaryImage",
+      "finding": "Met primary-image full SHA256 and size confirmed: https://github.com/matumaruex/kaiga-data/actions/runs/42786337414",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy and CC0 reuse for public domain works",
+      "finding": "The Met provides image and basic object data CC0; modern explanatory prose is not covered.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/319625",
+      "finding": "Exact Met object marked Public Domain."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met Open Access CC0 on exact official JPEGs verified by full hash."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/319625",
+      "finding": "Independent new Japanese explanation based on facts and viewing, not near translation; legal certainty not guaranteed."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant: direct Met Overview and Details independently checked against drafted claims, visual composition checked in Met-designated image, Met API original and display JPEG full SHA256, size and RMS evidence in https://github.com/matumaruex/kaiga-data/actions/runs/42786337414",
+    "limitations": "Not external scholarly or human review. Met official HTML quotes read directly; online CI re-fetch may HTTP 429. No legal clearance opinion.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met 319625 accession 2006.98 confirmed; 絵の制作を依頼した具体的な修道院は特定されていない。Metの『唯一知られた』は現在の知見を示す表現で、世界に他の作品が絶対存在しないという証明ではない。作者は特定個人名ではなく北部高地の画家という記述。",
+      "image_match": "左右へ開いた木製三連画。赤や黄色を基調にした中央上部の聖人は杖と十字架、香炉を手にし、中央下に二人、左右の翼に三人ずつ、計八人の弟子が細いひげと模様のある衣をまとって描かれている。Met公式作品ページのIIIF画像を直接目視し、同IDの公式API一次JPEGを検証。 Full hashes at https://github.com/matumaruex/kaiga-data/actions/runs/42786337414",
+      "historical_interpretation": "Metの作品別Overviewによれば、エチオピア正教会の二大修道会の一つである『エウォスタテウォスの家』の系譜を描いた、同種の主題で唯一知られた聖画像。聖人は1273年頃に生まれ、修道院を設立し、教義上の論争のためエジプトとアルメニアへ追放された。中央上部の聖人は巡礼者の杖、香炉と祝福用の十字架を持ち、その下と両脇に名が示された八人の弟子が小さく描かれる。修道院の歴史を示すために所有されていた可能性がある。",
+      "emotion": "Source-grounded tags; zero allowed.",
+      "visitor_text": "Japanese text independently compared with Met Overview and Artwork Details.",
+      "rights": "Met Public Domain object, Met CC0 official image, independently worded Japanese text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ao/web-large/DP124866.jpg",
+      "sha256": "fa7d701ebf2c1327b43adf738908a13c765539e65ab0a835ce4d3ea9582cee7c",
+      "byte_length": 119151,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "左右へ開いた木製三連画。赤や黄色を基調にした中央上部の聖人は杖と十字架、香炉を手にし、中央下に二人、左右の翼に三人ずつ、計八人の弟子が細いひげと模様のある衣をまとって描かれている。Met公式作品ページのIIIF画像を直接目視し、同IDの公式API一次JPEGを検証。 Official source image and resized pair RMS 12.3316.",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ao/original/DP124866.jpg",
+      "sha256": "d462a3fc80438dd6898a69d4d3e0af69f14e4ed2b160b2bb3a1f55bfd790992a",
+      "byte_length": 2910151,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "左右へ開いた木製三連画。赤や黄色を基調にした中央上部の聖人は杖と十字架、香炉を手にし、中央下に二人、左右の翼に三人ずつ、計八人の弟子が細いひげと模様のある衣をまとって描かれている。Met公式作品ページのIIIF画像を直接目視し、同IDの公式API一次JPEGを検証。 Official source image and resized pair RMS 12.3316.",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "One-off 320–322 research record. Previous 313 works and their original audits are unchanged.",
+    "Same-assistant separate pass; not independent human expert."
+  ]
+}

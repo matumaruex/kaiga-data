@@ -1,0 +1,154 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-860960",
+  "artwork": {
+    "id": "met-860960",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 860960,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/860960",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/860960",
+      "record_checked_on": "2026-11-10"
+    },
+    "facts": {
+      "title_original": "Hawk at sunrise",
+      "title_ja_provisional": "日の出の鷹",
+      "artist": "Attributed to Jeong Hong-Rae 정홍래 鄭弘來",
+      "creation_date_display": "second half 18th century–first half 19th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Korea",
+      "accession_number": "2022.99"
+    },
+    "image": {
+      "image_id": "met-860960-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-24801-002.jpg",
+      "source_registry_id": "met-860960",
+      "local_path": "/artworks/met-860960.jpg",
+      "sha256": "dd64fe39c21da92b47ec2c0fe8b81970c28f904f920a4df2e35fff2ecd6085f1",
+      "byte_length": 96889,
+      "live_image_checked": true,
+      "live_check_scope": "Official Met API original+web-large full JPEG hashes and dimensions, downscale RMS, https://github.com/matumaruex/kaiga-data/actions/runs/42786337414",
+      "source_accession_number": "2022.99",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-24801-002.jpg",
+        "sha256": "c595e932963d12694bbf7c41a97686b6bfd7c7280c0f2f03cb4a79f57e3b969f",
+        "byte_length": 3588669,
+        "width": 2516,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Official original to web-large downscale RGB RMS 4.6538",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "畏敬": 2
+      },
+      "tones": [
+        "緊張"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/860960",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "海と猛禽の描写から力強さや威厳を感じる絵を鑑賞したい",
+            "reason": "Metの作品別Overviewでは、訓練した猛禽を台にとまらせた朝鮮初期の図像を改め、海上の岩に鷹を置いた作品とする。赤い太陽、岩、海の波は流麗な筆致で表し、鷹は精緻に描く。猛禽は朝鮮王朝初期以来、勇気と正義感を重視する監察機関（Imperial Censorate）に関連づけられ、18〜19世紀には水、青緑の岩、赤い日輪という吉祥の環境に描かれた。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "鷹の象徴を現代の個人の感情や政治的立場に置き換えない。作者帰属は未確定。",
+          "Met公式作品別ページは『鄭弘來に帰属』としており、署名による確定作とは扱わない。監察機関との関係は図像の文化的意味で、この特定絵の注文主を直接示すものではない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metの作品別Overviewでは、訓練した猛禽を台にとまらせた朝鮮初期の図像を改め、海上の岩に鷹を置いた作品とする。赤い太陽、岩、海の波は流麗な筆致で表し、鷹は精緻に描く。猛禽は朝鮮王朝初期以来、勇気と正義感を重視する監察機関（Imperial Censorate）に関連づけられ、18〜19世紀には水、青緑の岩、赤い日輪という吉祥の環境に描かれた。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/860960"
+        },
+        "creation_context": "second half 18th century–first half 19th century, Korea; Hanging scroll; ink and color on silk, accession 2022.99.",
+        "visual_clues": "縦長の掛軸に、波打つ海と青緑色の岩、その上に左を向いて立つ鷹がいる。画面上方に赤い太陽、鷹の鋭い眼と羽毛が細かく描かれる。Met公式IIIF画像と作品別記述を直接照合。",
+        "uncertainty_note": "Met公式作品別ページは『鄭弘來に帰属』としており、署名による確定作とは扱わない。監察機関との関係は図像の文化的意味で、この特定絵の注文主を直接示すものではない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "畏敬"
+        ],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-10",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same assistant separate pass; Met exact images full hashes in https://github.com/matumaruex/kaiga-data/actions/runs/42786337414",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "青緑の岩の上に、一羽の鷹がまっすぐ立っています。下には砕ける白い波、上には赤い太陽。波や岩が自由な線で表される一方、鷹の羽や眼は細密に描かれています。\n\n《日の出の鷹》は18世紀後半から19世紀前半の朝鮮で描かれ、画家・鄭弘來の作と考えられていますが、確定した作者ではありません。猛禽は、勇気や正義感を重んじた朝鮮王朝の監察機関とも結びついていました。こうした作品では、海や赤い日輪はめでたい景色として表現されることもありました。\n\n激しく動く波と、動かず遠くを見つめる鷹。その対照をたどると、写実的な鳥の姿と、強さを託す象徴としての鳥とが、ひとつの掛軸で重なって見えます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/860960"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-10"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-860960",
+    "title": "Hawk at sunrise",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/860960",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/860960",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-24801-002.jpg",
+      "sha256": "dd64fe39c21da92b47ec2c0fe8b81970c28f904f920a4df2e35fff2ecd6085f1",
+      "byte_length": 96889,
+      "last_http_sha_checked_on": "2026-11-10",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42786337414",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-24801-002.jpg",
+        "sha256": "c595e932963d12694bbf7c41a97686b6bfd7c7280c0f2f03cb4a79f57e3b969f",
+        "byte_length": 3588669,
+        "width": 2516,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Official original to web-large downscale RGB RMS 4.6538",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2022.99"
+  }
+}
