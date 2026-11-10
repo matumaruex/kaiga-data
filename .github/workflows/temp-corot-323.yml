@@ -141,3 +141,5 @@ jobs:
           git diff --cached --stat
           git commit -m "data: Add Met Corot A Woman Reading as work 323"
           git push origin HEAD:codex/expand-artwork-323-corot-20261110
+
+# Re-run after fixing test fixture support for v2 new-registration-2.
