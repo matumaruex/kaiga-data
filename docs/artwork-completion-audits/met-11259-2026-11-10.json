@@ -1,0 +1,105 @@
+{
+  "schema_version": "artwork-v2-new-registration-1",
+  "id": "met-11259",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-11259.json",
+  "candidate_sha256": "5e542455e34b41fe683ccd31e2723ee5ef2f05a7d922a8491719ac2c98d87b9b",
+  "draft_path": "drafts/visitor-explanations/met-11259.json",
+  "draft_sha256": "4eaea325df1901d6b3ff7a9211a5df3b182031ab9d3fe68fb46c81d2b299da8e",
+  "baseline": {
+    "artworks_sha256": "a3a1ade9bb97de315487b3e35e6c00b83eaf44102ad5b20f17fcd17c3ccda5ac",
+    "image_registry_sha256": "f9351a40a4c072a8b7a824af3625b2963799b80f1b3e94623096727048d0354a"
+  },
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/11259",
+      "location": "Met Overview on likely final study for 1876 exhibition, industrialization and labor, Reconstruction-era contrast; Artwork Details 07.68",
+      "finding": "Met considers this likely the final study for an acclaimed 1876 composition and situates the harvest in Northern Reconstruction-era communal labor, not solely timeless nostalgia.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11259",
+      "location": "Met API objectID, artistDisplayName, objectDate, accessionNumber, classification, Public Domain flag, original and small image URLs",
+      "finding": "Met object metadata and exact JPEG bytes reconfirmed after full SHA256 checks in https://github.com/matumaruex/kaiga-data/actions/runs/42760271445.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 release for public domain artwork images",
+      "finding": "Artwork is marked Public Domain and its official image is eligible for CC0; modern text rights are separate.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/11259",
+      "finding": "The Met explicitly marks the specific artwork Public Domain; this does not cover modern museum prose."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met primary-image and Open Access policy allow reuse of this PD work's image; full SHA and visually verified."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/11259",
+      "finding": "New original Japanese writing based on source facts, not long copying or close translation; legal certainty not guaranteed."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant rechecked source facts and visual observations separately from drafting, with direct Met API and image file re-download. Verified original/display SHA256 and resized pixel RMS; official-source visual previews in https://github.com/matumaruex/kaiga-data/actions/runs/42760271445.",
+    "limitations": "Not a different model or independent human expert. Legal reuse is an evidence-based assessment, not legal opinion. Previews examined; not every full-resolution pixel visually inspected.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met 11259, accession 07.68, exact title/artist/date and Public Domain.",
+      "image_match": "横長の野外風景。大きな藁の山や散った茎の間に大勢の作業者が座り、また立っている。前景に鶏、奥に建物と木立が見える。 Original and display JPEGs match exact Met object 11259 and both versions agree (RGB RMS 7.4277); official original preview visually checked.",
+      "historical_interpretation": "Met considers this likely the final study for an acclaimed 1876 composition and situates the harvest in Northern Reconstruction-era communal labor, not solely timeless nostalgia.",
+      "emotion": "Only {'懐かしさ': 2} linked as viewing index; no claims about figures' private feelings.",
+      "visitor_text": "New Japanese explanation checked for accuracy and independent wording.",
+      "rights": "Artwork PD, official image CC0, museum prose separately considered."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/ap07.68.jpg",
+      "sha256": "f179b3a12ddc5b809fe9eea841f70878dd152561d2327703b257b43864cd747f",
+      "byte_length": 66144,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "横長の野外風景。大きな藁の山や散った茎の間に大勢の作業者が座り、また立っている。前景に鶏、奥に建物と木立が見える。 Original and display JPEGs match exact Met object 11259 and both versions agree (RGB RMS 7.4277); official original preview visually checked.",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/ap07.68.jpg",
+      "sha256": "894bba83eb05ef045d002b9a490f816abbd62ae79fc3c5f676db51cc323ee13d",
+      "byte_length": 889409,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "横長の野外風景。大きな藁の山や散った茎の間に大勢の作業者が座り、また立っている。前景に鶏、奥に建物と木立が見える。 Original and display JPEGs match exact Met object 11259 and both versions agree (RGB RMS 7.4277); official original preview visually checked.",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "User explicitly approved three selected works.",
+    "Same-assistant source/visual second pass not external expert review.",
+    "No changes to previously registered artworks."
+  ]
+}
