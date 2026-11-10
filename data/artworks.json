@@ -39883,6 +39883,362 @@
         "audit_sha256": "a12c664d0d4a3e397a6137c6933f5dc027ec7b9cc81c1a70fa5dac58d27abe6d",
         "record_sha256": "210126bec1322022d454f651694946bac8ae328cf0e99e47207a0c9f5c806e46"
       }
+    },
+    {
+      "id": "met-49471",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 49471,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/49471",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/49471",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Meditation in a Cave",
+        "title_ja_provisional": "洞窟での瞑想",
+        "artist": "Ren Yu",
+        "creation_date_display": "Qing dynasty (1644–1911), exact date unknown",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "China",
+        "accession_number": "1986.267.71"
+      },
+      "image": {
+        "image_id": "met-49471-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-30337-002.jpg",
+        "source_registry_id": "met-49471",
+        "local_path": "/artworks/met-49471.jpg",
+        "sha256": "9084a3651327eb1f267c30aeaf3ff38d5317136a89b05858046133964cd8c769",
+        "byte_length": 64241,
+        "live_image_checked": true,
+        "live_check_scope": "Met exact object API and official original/display full JPEG SHA256 bytes/dimensions and downsizing https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+        "source_accession_number": "1986.267.71",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-30337-002.jpg",
+          "sha256": "5c0715b62d860b01baad0cc30050c75f2dc13b6fee46d7477fd1d93477485729",
+          "byte_length": 1585218,
+          "width": 1743,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met official original/display downscale RGB RMS 7.00703",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/49471",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "険しい自然の中に置かれた小さな人物を見て、静けさと画面のスケールを味わいたい",
+              "reason": "Metの作品別Overviewは、そそり立つ険しい岩が画面の大半を占め、その洞窟の奥で僧のような人物が静かに座ると説明している。人物の真上の山の開口部は仏教的な悟りの輝きを示す可能性があるとするが、解釈は断定されていない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "山の開口部の意味はMetも「可能性」とする。人物が具体的な僧侶であるか、悟りに達したかを断定しない。Met公式の基本情報には制作年の具体的な記載がない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metの作品別Overviewは、そそり立つ険しい岩が画面の大半を占め、その洞窟の奥で僧のような人物が静かに座ると説明している。人物の真上の山の開口部は仏教的な悟りの輝きを示す可能性があるとするが、解釈は断定されていない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/49471"
+          },
+          "creation_context": "Qing dynasty (1644–1911), exact date unknown; China; Hanging scroll; ink and color on paper; accession 1986.267.71",
+          "visual_clues": "Met公式同IDのIIIF画像で、縦にそびえる薄墨の岩壁と、その間にのぞく空間、下部の白い水流と緑の葉、小さな朱色の服の座像を確認。岩肌に対して人物はかなり小さく描かれる。",
+          "uncertainty_note": "山の開口部の意味はMetも「可能性」とする。人物が具体的な僧侶であるか、悟りに達したかを断定しない。Met公式の基本情報には制作年の具体的な記載がない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same assistant separate source-image review; not human expert. Full official JPEG SHA256 https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "ほとんど画面いっぱいに、灰色の岩壁がそそり立っています。岩の裂け目から白い空間がのぞき、その下には水が流れています。目を下へ移すと、緑の葉のそばに朱色の衣を着た小さな人物が座っていることに気づきます。\n\n《洞窟での瞑想》を描いた任預は、清時代の中国で活動した画家です。メトロポリタン美術館は、この人物を洞窟で静かに座る僧のような姿として説明しています。また、頭の真上にある山の開口部は、仏教における悟りの光を表している可能性があるとしています。\n\n人物を見つけてから再び大きな岩へ目を戻すと、自然の広がりと人の小ささが際立ちます。そこに宗教的な意味を見ることもできますが、まずは筆の濃淡がつくる険しい空間と、人物の静かな姿を見比べてみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/49471"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-49471-2026-11-11.json",
+        "audit_sha256": "98c41669dedf980ddf2927e5580a847edfc9d900511057535848260826b57bdb",
+        "record_sha256": "4de70deb23288b8bbea76c62c7bc1a0a93a23414333463c4ea1f1c06b15ade45"
+      }
+    },
+    {
+      "id": "met-747199",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 747199,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/747199",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/747199",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "The Virgin of Carmen and the Souls of Purgatory with St. Joseph and the Prophet Elijah",
+        "title_ja_provisional": "カルメンの聖母と煉獄の魂、聖ヨセフと預言者エリヤ",
+        "artist": "Juan Francisco de Aguilera",
+        "creation_date_display": "ca. 1720",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Mexican",
+        "accession_number": "2017.234"
+      },
+      "image": {
+        "image_id": "met-747199-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-15280-003.jpg",
+        "source_registry_id": "met-747199",
+        "local_path": "/artworks/met-747199.jpg",
+        "sha256": "ceba9e625c80c20326c53fa18f98fd62ee5fd23163a98c8412f6fd86935f3670",
+        "byte_length": 119888,
+        "live_image_checked": true,
+        "live_check_scope": "Met exact object API and official original/display full JPEG SHA256 bytes/dimensions and downsizing https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+        "source_accession_number": "2017.234",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-15280-003.jpg",
+          "sha256": "eb8ff93c4efb5062b2176bd107441e2c0ac1861e7dca523db7e2c0b741048320",
+          "byte_length": 3923005,
+          "width": 3042,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met official original/display downscale RGB RMS 4.39279",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 2
+        },
+        "tones": [
+          "緊張"
+        ],
+        "themes": [
+          "時間",
+          "共同体"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/747199",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "天上と地上を隔てる宗教画の構図や、救済への願いの表現を見たい",
+              "reason": "Met作品別Overviewによれば、1720年頃のメキシコで作られた個人礼拝用の小さな銅板絵画で、カルメンの聖母が煉獄の魂のためにとりなす。メトロポリタン美術館は、画家が苦しむ魂の足枷の上へ署名を記したことを、信仰の表現の可能性として説明している。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "煉獄はカトリックの教義として説明するのであり、実在を保証する事実として語らない。署名の位置に込めた画家の意図は公式解説でも推定である。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによれば、1720年頃のメキシコで作られた個人礼拝用の小さな銅板絵画で、カルメンの聖母が煉獄の魂のためにとりなす。メトロポリタン美術館は、画家が苦しむ魂の足枷の上へ署名を記したことを、信仰の表現の可能性として説明している。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/747199"
+          },
+          "creation_context": "ca. 1720; Mexican; Oil and gold on copper; frame: ebony, tortoise shell, and silver; accession 2017.234",
+          "visual_clues": "Met公式作品画像は、雲上の幼子を抱く冠を戴いた聖母と両脇の聖人、下部に火と助けを求めて腕を上げる人々を配置。黒と赤の豪華な縁取りも含めて写る。特定の魂の個人識別はできない。",
+          "uncertainty_note": "煉獄はカトリックの教義として説明するのであり、実在を保証する事実として語らない。署名の位置に込めた画家の意図は公式解説でも推定である。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "畏敬"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same assistant separate source-image review; not human expert. Full official JPEG SHA256 https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "冠を戴き、幼子を抱いた聖母が、雲の上に座っています。両脇には聖人が立ち、下方には炎の中から腕を伸ばす人々。上下の世界の違いが、人物の姿勢と光の差によってはっきりと示されています。\n\n1720年ごろのメキシコで描かれたこの銅板画は、個人の祈りのために作られました。メトロポリタン美術館の解説では、カルメンの聖母が煉獄にいる魂のためにとりなす場面だとされています。煉獄とは、カトリックの教えで、死後に魂が清められる場や状態を指します。\n\n画家フアン・フランシスコ・デ・アギレラは、苦しむ魂の足枷の上に自らの署名を書きました。美術館はこれを信仰を示す行為だった可能性として説明しています。細かな署名を含めて画面をたどると、この絵が単なる物語の挿絵ではなく、祈りと深く結びついていたことが伝わってきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/747199"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-747199-2026-11-11.json",
+        "audit_sha256": "31b1ffbf3a203f37d530ef6d07d34b966a784ffb3585d847b9842320e9f7b3be",
+        "record_sha256": "3da9b6d5822a32b96993f417136cedd5a08b607b317fb2fc73c4627a831d5dcb"
+      }
+    },
+    {
+      "id": "met-456966",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 456966,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/456966",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/456966",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Nawab Muzaffar 'Ali Khan on Horseback",
+        "title_ja_provisional": "馬上のナワーブ・ムザッファル・アリー・ハーン",
+        "artist": "Attributed to Rai Kalyan Das (Chitarman II)",
+        "creation_date_display": "ca. 1730",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Attributed to India (Met source geography; API culture unspecified)",
+        "accession_number": "2009.317"
+      },
+      "image": {
+        "image_id": "met-456966-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP230664.jpg",
+        "source_registry_id": "met-456966",
+        "local_path": "/artworks/met-456966.jpg",
+        "sha256": "9a12347744ff56f171a64d9fb58b6a24df4176407c6b4353198594b2176f0830",
+        "byte_length": 54478,
+        "live_image_checked": true,
+        "live_check_scope": "Met exact object API and official original/display full JPEG SHA256 bytes/dimensions and downsizing https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+        "source_accession_number": "2009.317",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP230664.jpg",
+          "sha256": "ca59221b6665346165454be0a21d93836ef0e3b70ae6643adb6485c56fda6a94",
+          "byte_length": 2310428,
+          "width": 3693,
+          "height": 2745,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met official original/display downscale RGB RMS 5.46304",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/456966",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "ムガル朝の人物の肖像を、線描と人物の歴史の両面から見たい",
+              "reason": "Met作品別Overviewによると、ムザッファル・アリー・ハーンはムハンマド・シャーの治世にアジメール地方を統治し、1739年のカルナールの戦いで亡くなった。肖像画はチタルマン2世とも呼ばれるラーイ・カリヤーン・ダースに帰属され、作者確定ではない。同画家の指導下でムガル宮廷絵画が再興したと説明する。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "「帰属される」の記載を無視して作者を断定しない。淡い筆致が意図的な未完成表現だったかどうかは出典から分からない。政治的な人物評・内心は推測しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによると、ムザッファル・アリー・ハーンはムハンマド・シャーの治世にアジメール地方を統治し、1739年のカルナールの戦いで亡くなった。肖像画はチタルマン2世とも呼ばれるラーイ・カリヤーン・ダースに帰属され、作者確定ではない。同画家の指導下でムガル宮廷絵画が再興したと説明する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/456966"
+          },
+          "creation_context": "ca. 1730; Attributed to India (Met source geography; API culture unspecified); Ink, opaque watercolor, gold on paper; accession 2009.317",
+          "visual_clues": "Met公式作品画像で、白い馬が左を向いて歩み、赤や黄のターバンをつけた男性が横向きに乗る。青緑の細い枠と淡い紙地、馬の身体に重なる薄い線描の従者が見える。制作完了状態や塗り残しの理由は決めつけない。",
+          "uncertainty_note": "「帰属される」の記載を無視して作者を断定しない。淡い筆致が意図的な未完成表現だったかどうかは出典から分からない。政治的な人物評・内心は推測しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same assistant separate source-image review; not human expert. Full official JPEG SHA256 https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "淡い紙の上に、左を向いて歩く白い馬が描かれています。馬上の男性は赤と黄色のターバンを巻き、まっすぐ前方を見ています。馬の周囲には、細い線で描かれた人物の姿も見えます。青緑色の枠が、その静かな場面を囲んでいます。\n\n描かれているのは、18世紀のムガル朝でアジメールを治めたムザッファル・アリー・ハーンです。メトロポリタン美術館によると、彼は1739年のカルナールの戦いで命を落としました。この騎馬像は、宮廷画家ラーイ・カリヤーン・ダース（チタルマン2世）の作と考えられていますが、作者は確定していません。\n\n衣装の一部には鮮やかな色がある一方、馬や周囲の人物は繊細な線で表されています。色の濃い部分と薄い部分を行き来すると、顔や馬具の細部を通して人物を描き分ける、宮廷肖像画の見方が開けてきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/456966"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-456966-2026-11-11.json",
+        "audit_sha256": "5da8be4bac074cd428d779b00be957ec2bf7193d67269d225ac3d1cc4d27fa50",
+        "record_sha256": "e25efe001c5e03e6f3e529b2c02427007437d77d16d8936b8de61868ab0d47dd"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

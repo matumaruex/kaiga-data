@@ -1,0 +1,118 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-747199",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-747199.json",
+  "candidate_sha256": "1151450decb08cf5d4d652849eeb8aa7eb249ad8941d5d36fa3d48d089a27750",
+  "draft_path": "drafts/visitor-explanations/met-747199.json",
+  "draft_sha256": "6878b42f6596b16bfdb7234c7370d71f4f83ac08b3af8526ae77cb0d6c7003ad",
+  "baseline": {
+    "artworks_sha256": "73c7e3aa5e97e0b4e1f3950d7e9d5678bebf9ed9d8d985178fb464866b79fb53",
+    "image_registry_sha256": "770429a4075f7b6316206333aa676283b33cff8a9afd7855c376114e9df336d2"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/747199",
+      "source_excerpt": "This small painting on copper, made for individual devotion",
+      "visitor_claim": "1720年ごろのメキシコで描かれたこの銅板画は、個人の祈りのために作られました",
+      "source_section": "Overview: small copper painting for private devotion"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/747199",
+      "source_excerpt": "artist has inscribed his signature above the shackles",
+      "visitor_claim": "画家フアン・フランシスコ・デ・アギレラは、苦しむ魂の足枷の上に自らの署名を書きました",
+      "source_section": "Overview: signature beside the shackles of anguished soul"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/747199",
+      "location": "Artwork Details and Overview (exact Met ID); Overview: small copper painting for private devotion | Overview: signature beside the shackles of anguished soul",
+      "finding": "Met作品別Overviewによれば、1720年頃のメキシコで作られた個人礼拝用の小さな銅板絵画で、カルメンの聖母が煉獄の魂のためにとりなす。メトロポリタン美術館は、画家が苦しむ魂の足枷の上へ署名を記したことを、信仰の表現の可能性として説明している。 「絵に見えるもの」は出典と同一作品のMet公式画像を照合。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/747199",
+      "location": "Met objectID / objectDate / classification / artist / PD / accession / official original and small JPEG",
+      "finding": "Met official API metadata and JPEG 200 status, SHA256 full bytes, image dimensions and resizing match in https://github.com/matumaruex/kaiga-data/actions/runs/42914013617; medium/culture values not inferred from ID.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 image and public-domain collection data licensing",
+      "finding": "Only public-domain Met primary images and basic facts are CC0; current museum artwork Overview prose is copyright-distinct and not reproduced at length.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/747199",
+      "finding": "Met exact object is labeled Public Domain and Met API confirms isPublicDomain:true; no unsupported artwork rights assumptions."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met official Open Access CC0 primary JPEG bytes from exact PD object; checked six pair images in https://github.com/matumaruex/kaiga-data/actions/runs/42914013617"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/747199",
+      "finding": "Newly authored Japanese visitor writing based on verified museum facts and direct visual observation, not a near-literal translation; not a legal clearance opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant's separate content-source review: direct Met exact-object Overview/Details, short quotation-to-specific Japanese claim checks, exact official IIIF visual and API metadata, primary original/display full JPEG SHA256, dimensions and downscale RMS in https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+    "limitations": "Not external art expert or human review. Met HTML may be HTTP 429 when CI re-fetches, so offline checks bind source excerpts but do not guarantee network quote re-fetch. Specific authorship where uncertain and spiritual meaning remain attributed interpretations, not proof. No legal clearance guarantee.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met exact artwork ID 747199, title The Virgin of Carmen and the Souls of Purgatory with St. Joseph and the Prophet Elijah, artist display/attribution Juan Francisco de Aguilera, accession 2017.234; known attribution/date uncertainty preserved.",
+      "image_match": "Met公式作品画像は、雲上の幼子を抱く冠を戴いた聖母と両脇の聖人、下部に火と助けを求めて腕を上げる人々を配置。黒と赤の豪華な縁取りも含めて写る。特定の魂の個人識別はできない。 Met IIIF actual image and official Met API original/display pairs, complete SHA256/dimensions and resized RGB RMS 4.39279, https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+      "historical_interpretation": "Met作品別Overviewによれば、1720年頃のメキシコで作られた個人礼拝用の小さな銅板絵画で、カルメンの聖母が煉獄の魂のためにとりなす。メトロポリタン美術館は、画家が苦しむ魂の足枷の上へ署名を記したことを、信仰の表現の可能性として説明している。 Limits: 煉獄はカトリックの教義として説明するのであり、実在を保証する事実として語らない。署名の位置に込めた画家の意図は公式解説でも推定である。",
+      "emotion": "Tags tied to subject/visual basis, including zero-tag works where assigning a psychological state is unsupported. Tags ['畏敬']",
+      "visitor_text": "Original Japanese readable body with two specific Met Overview excerpts bound to actual claims; artistic observations separately inspected. Avoided close English source translation.",
+      "rights": "PD Met object, CC0 official Met images, independent Japanese visitor prose, distinct rights review."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-15280-003.jpg",
+      "sha256": "ceba9e625c80c20326c53fa18f98fd62ee5fd23163a98c8412f6fd86935f3670",
+      "byte_length": 119888,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "Met公式作品画像は、雲上の幼子を抱く冠を戴いた聖母と両脇の聖人、下部に火と助けを求めて腕を上げる人々を配置。黒と赤の豪華な縁取りも含めて写る。特定の魂の個人識別はできない。 Display primary JPEG identity verified against original by Met official object API and full-file hash/downsizing RMS, https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-15280-003.jpg",
+      "sha256": "eb8ff93c4efb5062b2176bd107441e2c0ac1861e7dca523db7e2c0b741048320",
+      "byte_length": 3923005,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "Met公式作品画像は、雲上の幼子を抱く冠を戴いた聖母と両脇の聖人、下部に火と助けを求めて腕を上げる人々を配置。黒と赤の豪華な縁取りも含めて写る。特定の魂の個人識別はできない。 Official original JPEG 3042x4000 same Met object and downscaled image; complete hash/length and resizing checked https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+      "checked_on": "2026-11-11"
+    }
+  ],
+  "notes": [
+    "Sequential individual addition number 328, previous completed artwork records unchanged.",
+    "Same AI separate pass, not external scholarly/human sign-off. Met page quotes read via official page, online CI re-fetch may be rate-limited."
+  ]
+}
