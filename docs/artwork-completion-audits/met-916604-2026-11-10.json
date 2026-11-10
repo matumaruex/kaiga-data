@@ -1,0 +1,141 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-916604",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "30150393db7a2580cd08be5b2d5fa08b5281abdc",
+    "artwork_record_sha256": "ecaa549b3dd0d50f7cad2185136a1c4dc466ad631ce286aac7de39bd38be57f1",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-916604.json",
+    "draft_sha256": "3a948506e6297eafc4cd27759258802b93e4102ca25292dcbc2a1484190abe47"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/916604",
+      "access": "page_read_twice",
+      "locations": [
+        "Met916604 heading, Japanese alternate title, artwork details: 1900s, 2025.981.55, Hanging scroll ink/color on silk, PD"
+      ],
+      "observed": "Okuhara Seiko, 梅花残月図, Japanese Meiji, 1900s, image 144.1x35.5cm, accession 2025.981.55, a scroll painting and not similar-titled Met916605."
+    },
+    {
+      "url": "https://www.tenshin.museum.ibk.ed.jp/viewer/info.html?id=149",
+      "access": "page_read_twice",
+      "locations": [
+        "Ibaraki Tenshin Memorial Museum of Art exhibition '奥原晴湖と近代の南画', text on stylistic evolution after 1891",
+        "Public exhibition summary discussing later, detailed working manner"
+      ],
+      "observed": "General artist career and painting style after move to Kumagaya in 1891. Does not describe the moon or plum details of this specific Met work."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-916604",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-39976-002.jpg",
+      "status": 200,
+      "sha256": "afc421b1e4b4af80fc00b831af39ff717a5e6915881a0764709359fa8d227f08",
+      "byte_length": 1731619,
+      "width": 1369,
+      "height": 4000,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-11-10",
+      "fresh_download_in_this_session": true,
+      "prior_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42731431238 new source image check and visible downscaled preview on 2026-11-10"
+    },
+    {
+      "id": "met-916604",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-39976-002.jpg",
+      "status": 200,
+      "sha256": "f76d3a54a2619986072e82a2feb11e89f1bfc89e4a0484fc59542e52c3713c23",
+      "byte_length": 61525,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Registered web-large JPEG full-length hash checked in 2026-10 and unchanged catalog record; high-resolution original reverified on 2026-11-10"
+    }
+  ],
+  "visual_observations": {
+    "method": "The exact registered original (or registered display JPEG for met-74996) was fetched and SHA-256 checked by GitHub Actions run 42731431238 on 2026-11-10. Its max-650px preview was individually visually examined in a separate pass. This run rechecks original bytes; the 650px review is not original-pixel-level scrutiny.",
+    "observed": "Newly verified 1369x4000 registered Met original downscaled to 650 pixels: a narrow hanging scroll of layered mountains, drifting mist, trees, built structures and rocks; a column of writing at upper right. The plum/moon theme is integrated into a large landscape and is not a close-up flower study. No transcription of its inscription attempted."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "After drafting the Japanese visitor text, revisited the individual Met entry and (where applicable) the cited art-museum research, independently compared original JPEG visuals to claims and the catalog accession, and checked this exact work against same-name or different-folio alternatives.",
+    "limitations": "Same assistant in a separate review pass, not an independent human or external model. Actual picture reviewed as a 650px thumbnail derived from freshly SHA-verified registered JPEG; original source links were rechecked where available and institutional interpretations distinguished from artist testimony.",
+    "reviewed_artwork_sha256": "ecaa549b3dd0d50f7cad2185136a1c4dc466ad631ce286aac7de39bd38be57f1",
+    "reviewed_visitor_draft_sha256": "3a948506e6297eafc4cd27759258802b93e4102ca25292dcbc2a1484190abe47",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met 2025.981.55 by Okuhara Seiko, title 梅花残月図, verified image 1369x4000 and registered SHA; distinct from another Met painting under a similar translated title (916605)."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "The Met page establishes title, date, materials and ownership but not a detailed interpretation of this particular image. Ibaraki art museum's general late-style discussion is explicitly not treated as an author testimony for this work."
+      },
+      {
+        "area": "emotion",
+        "finding": "No index emotion is forced merely because the landscape looks quiet. Existing zero emotion tags preserved."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "Original Japanese visitor text is based on actual visual image plus official metadata and cautious career context, leaves inscription and moon symbolism undecided, and does not reproduce museum prose."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "ecaa549b3dd0d50f7cad2185136a1c4dc466ad631ce286aac7de39bd38be57f1",
+    "visitor_draft_sha256": "3a948506e6297eafc4cd27759258802b93e4102ca25292dcbc2a1484190abe47",
+    "proposal_sha256": "a4d94297db8910f6672a724ae4b9cb05f2df36ef8d54376a2175b6c4482d687e",
+    "checks": [
+      "300_unique_ids",
+      "target_baseline_artwork_sha256",
+      "other_299_unchanged_by_empty_revision",
+      "2026_11_10_original_image_bytes_reverified",
+      "existing_emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Hash and input bindings checked here; Python preview/save/check and structural/snapshot validators are mandatory next, then PR CI before merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-916604.json",
+    "sha256": "a4d94297db8910f6672a724ae4b9cb05f2df36ef8d54376a2175b6c4482d687e",
+    "proposed_artwork_sha256": "ecaa549b3dd0d50f7cad2185136a1c4dc466ad631ce286aac7de39bd38be57f1",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/art/collection/search/916604",
+    "locations": [
+      "Met work-level Public Domain declaration",
+      "Met Open Access reuse policy as linked on the collection page",
+      "Original Japanese text checked for non-verbatim museum prose"
+    ],
+    "checked_on": "2026-11-10",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "The identified Met artwork is marked Public Domain and the registered image bytes match; the independently drafted Japanese prose does not reproduce museum prose. This database inclusion assessment is not a legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Image run: https://github.com/matumaruex/kaiga-data/actions/runs/42731431238",
+    "No attempt to infer personal feelings or intentions of an unidentified artist. All visual statements are limited to visible composition and museum documentation.",
+    "Audit authored from a separate assistant content review; Python code does not invent or judge artistic meaning."
+  ]
+}
