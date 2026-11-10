@@ -1,0 +1,148 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-670921",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "fe36d40a2158a4c0141cc13960a38a109075a6ae",
+    "artwork_record_sha256": "1e53d5f4b9d5fb18357377f196881b6429a24812e7bd3ee088db6ba6f5076205",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-670921.json",
+    "draft_sha256": "911e86fb4c5819693eb6f6c571c1b4a9f6e5123a0360194c96c26ce433ed5462"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/670921",
+      "access": "page_read_twice",
+      "locations": [
+        "Met670921 object heading and Artwork Details lines 36–46, 67–79"
+      ],
+      "observed": "Okada Hankō, Farewell Gift to Tani Bunji, 1833, accession 2015.300.179, ink/color paper hanging scroll, PD."
+    },
+    {
+      "url": "https://kaken.nii.ac.jp/en/file/KAKENHI-PROJECT-19K23006/19K23006seika.pdf",
+      "access": "page_read_twice",
+      "locations": [
+        "Nakamura 19K23006 research report section 4 extracted lines 191–195; PDF screenshot unavailable, extracted text checked"
+      ],
+      "observed": "Research expressly names 岡田半江筆『谷文二先生送別画』 (Farewell Gift to Tani Bunji), Met, 1833, discussing late Edo farewell landscapes and ideal/reality."
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/kantei/smp/kaiun_db/otakara/20140401/07.html",
+      "access": "page_read_twice",
+      "locations": [
+        "TV Tokyo 2014/04/01 article 鑑定士総評"
+      ],
+      "observed": "谷文二 is son of 谷文晁, not the same painter. Identity support only, not this work's interpretation."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-670921",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-12232-216.jpg",
+      "status": 200,
+      "sha256": "288ee427b68d9ed5c52a0887af43ba82cc4b07b3c7bfad2f7e0cf48ebe62e36e",
+      "byte_length": 4710739,
+      "width": 4000,
+      "height": 3002,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-11-10",
+      "fresh_download_in_this_session": true,
+      "prior_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42733477884 new source image check and visible downscaled preview on 2026-11-10"
+    },
+    {
+      "id": "met-670921",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-12232-216.jpg",
+      "status": 200,
+      "sha256": "89c87c33db91110dcb102adcd0c5b132c167063521a6e2c2f2529a1fb24911ed",
+      "byte_length": 106446,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Registered web-large JPEG full-length hash checked in 2026-10 and unchanged catalog record; high-resolution original reverified on 2026-11-10"
+    }
+  ],
+  "visual_observations": {
+    "method": "The exact registered original (each of the three reviewed source paintings) was fetched and SHA-256 checked by GitHub Actions run 42733477884 on 2026-11-10. Its max-720px preview was individually visually examined in a separate pass. This run rechecks original bytes; the 720px review is not original-pixel-level scrutiny.",
+    "observed": "Original matching 4000x3002 JPEG reviewed as 720px image: horizontally oriented literati landscape painted on a patterned scroll mounting, poem/inscription on upper left, houses among woods, buildings and watercourse leading to pagoda at upper right. Written text not fully deciphered."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "After drafting the Japanese visitor text, revisited the individual Met entry and (where applicable) the cited art-museum research, independently compared original JPEG visuals to claims and the catalog accession, and checked this exact work against same-name or different-folio alternatives.",
+    "limitations": "Same assistant in a separate review pass, not an independent human or external model. Actual picture reviewed as a 720px thumbnail derived from freshly SHA-verified registered JPEG; original source links were rechecked where available and institutional interpretations distinguished from artist testimony.",
+    "reviewed_artwork_sha256": "a9582d122be716ec43b91397a9e9ce928b5999711b1a05d765f5da98a378bc4b",
+    "reviewed_visitor_draft_sha256": "911e86fb4c5819693eb6f6c571c1b4a9f6e5123a0360194c96c26ce433ed5462",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met2015.300.179 is addressed to 谷文二 (Tani Bunji), not 谷文晁 (Tani Buncho); original Japanese title was wrong and requires a separately versioned fact correction."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Osaka University KAKENHI report explicitly treats this exact 1833 farewell work as an example of late-Edo literati farewell painting in a lineage of ideal and real. No evidence for artist's inner sorrow or real landscape location."
+      },
+      {
+        "area": "emotion",
+        "finding": "Existing zero emotion tags justified; farewell topic not sufficient to attribute sorrow."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "New original Japanese interpretation distinguishes recipient and father, identifies visible inscription/landscape but does not invent translation."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "a9582d122be716ec43b91397a9e9ce928b5999711b1a05d765f5da98a378bc4b",
+    "visitor_draft_sha256": "911e86fb4c5819693eb6f6c571c1b4a9f6e5123a0360194c96c26ce433ed5462",
+    "proposal_sha256": "8af1d9dad104dc64dc4a55b0b82cb4b7237082b1687f819498fd1da3085273d7",
+    "checks": [
+      "300_unique_ids",
+      "target_baseline_artwork_sha256",
+      "other_299_unchanged_by_scoped_revision",
+      "2026_11_10_original_image_bytes_reverified",
+      "existing_emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Hash and input bindings checked here; Python preview/save/check and structural/snapshot validators are mandatory next, then PR CI before merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-670921.json",
+    "sha256": "8af1d9dad104dc64dc4a55b0b82cb4b7237082b1687f819498fd1da3085273d7",
+    "proposed_artwork_sha256": "a9582d122be716ec43b91397a9e9ce928b5999711b1a05d765f5da98a378bc4b",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/art/collection/search/670921",
+    "locations": [
+      "Met work-level Public Domain declaration",
+      "Met Open Access reuse policy as linked on the collection page",
+      "Original Japanese text checked for non-verbatim museum prose"
+    ],
+    "checked_on": "2026-11-10",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "The identified Met artwork is marked Public Domain and the registered image bytes match; the independently drafted Japanese prose does not reproduce museum prose. This database inclusion assessment is not a legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Image run: https://github.com/matumaruex/kaiga-data/actions/runs/42733477884",
+    "No attempt to infer a painter's personal feelings from iconography or topic. All visual statements are limited to visible composition and museum documentation.",
+    "Audit authored from a separate assistant content review; Python code does not invent or judge artistic meaning."
+  ]
+}
