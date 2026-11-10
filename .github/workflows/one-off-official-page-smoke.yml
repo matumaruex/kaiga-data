@@ -1,0 +1,27 @@
+name: Temporary source-text verification smoke test
+on:
+  push:
+    branches: [codex/verify-source-text-on-new-art]
+    paths: [.github/workflows/one-off-official-page-smoke.yml]
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Actually fetch Met 45808 overview and prove matching source prose
+        run: |
+          python - <<'PY'
+          from scripts import verify_official_source_text as checker
+          url="https://www.metmuseum.org/art/collection/search/45808"
+          quote="Both look relaxed; the husband is about to sing, while his wife, fanning herself, appears to be asking for a sip of wine."
+          claim="夕涼みをする夫婦の姿が描かれている。"
+          art={"id":"met-45808","source":{"artwork_url":url},"visitor_explanation":{"text":claim,"source_urls":[url]}}
+          audit={"official_text_checks":[{"source_url":url,"source_section":"Artwork Overview","source_excerpt":quote,"visitor_claim":claim}]}
+          checker.online(audit,art)
+          PY
