@@ -1,0 +1,105 @@
+{
+  "schema_version": "artwork-v2-new-registration-1",
+  "id": "met-45808",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-45808.json",
+  "candidate_sha256": "b578bd9eeb6f7172542f30356be79be65a4b42f50f9d9cfef0ba2e1a6f63bc84",
+  "draft_path": "drafts/visitor-explanations/met-45808.json",
+  "draft_sha256": "2d4c52d15f33015e19218e3fd82c955ee77b33a25b2df813c1418e67bc3807cb",
+  "baseline": {
+    "artworks_sha256": "67cf1053bb6a3bf4e44ac14ed8d263cb7899118e78f0c4a26caaff2b2761f811",
+    "image_registry_sha256": "fa5dad1b63b7bbb8db5352b69b801c65ea8632b5381560f4774fa8879ddfb820"
+  },
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/45808",
+      "location": "Met Overview paragraph 1 on couple, summer evening, the wife's fan and drink, song and Kinoshita Chōshōshi verse; Artwork Details 1975.268.129",
+      "finding": "Met identifies an early-19th-century ink/color hanging scroll by Utagawa Toyohiro and connects the evening-cooling genre scene to an earlier Japanese waka. Personal motives remain uncertain.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45808",
+      "location": "Met API objectID, artistDisplayName, objectDate, accessionNumber, classification, Public Domain flag, original and small image URLs",
+      "finding": "Met object metadata and exact JPEG bytes reconfirmed after full SHA256 checks in https://github.com/matumaruex/kaiga-data/actions/runs/42762928000.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 release for public domain artwork images",
+      "finding": "Artwork is marked Public Domain and its official image is eligible for CC0; modern text rights are separate.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/45808",
+      "finding": "The Met explicitly marks the specific artwork Public Domain; this does not cover modern museum prose."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met primary-image and Open Access policy allow reuse of this PD work's image; full SHA and visually verified."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/45808",
+      "finding": "New original Japanese writing based on source facts, not long copying or close translation; legal certainty not guaranteed."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant rechecked source facts and visual observations separately from drafting, with direct Met API and image file re-download. Verified original/display SHA256 and resized pixel RMS; official-source visual previews in https://github.com/matumaruex/kaiga-data/actions/runs/42762928000.",
+    "limitations": "Not a different model or independent human expert. Legal reuse is an evidence-based assessment, not legal opinion. Previews examined; not every full-resolution pixel visually inspected.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met 45808, accession 1975.268.129, exact title/artist/date and Public Domain.",
+      "image_match": "縦長の掛軸の上に葉を広げる棚があり、その下の敷物に男女が座る。扇と飲み物を入れた器や壺が見え、背景は簡素な余白として残る。 Original and display JPEGs match exact Met object 45808 and both versions agree (RGB RMS 9.6961); official original preview visually checked.",
+      "historical_interpretation": "Met identifies an early-19th-century ink/color hanging scroll by Utagawa Toyohiro and connects the evening-cooling genre scene to an earlier Japanese waka. Personal motives remain uncertain.",
+      "emotion": "Only {'安心': 2} linked as viewing index; no claims about figures' private feelings.",
+      "visitor_text": "New Japanese explanation checked for accuracy and independent wording.",
+      "rights": "Artwork PD, official image CC0, museum prose separately considered."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156304.jpg",
+      "sha256": "6c09bcef6c2fd006229388869efb7eefae572e44b32d8fb2e0b7882122a5437e",
+      "byte_length": 57279,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "縦長の掛軸の上に葉を広げる棚があり、その下の敷物に男女が座る。扇と飲み物を入れた器や壺が見え、背景は簡素な余白として残る。 Original and display JPEGs match exact Met object 45808 and both versions agree (RGB RMS 9.6961); official original preview visually checked.",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP156304.jpg",
+      "sha256": "6c6a9b90e73a8c0db37c7b82d3edd0283696a97b760c54680b52f78f09fae297",
+      "byte_length": 1925275,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "縦長の掛軸の上に葉を広げる棚があり、その下の敷物に男女が座る。扇と飲み物を入れた器や壺が見え、背景は簡素な余白として残る。 Original and display JPEGs match exact Met object 45808 and both versions agree (RGB RMS 9.6961); official original preview visually checked.",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "User explicitly approved three selected works.",
+    "Same-assistant source/visual second pass not external expert review.",
+    "No changes to previously registered artworks."
+  ]
+}

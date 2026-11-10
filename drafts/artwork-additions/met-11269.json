@@ -1,0 +1,149 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-11269",
+  "artwork": {
+    "id": "met-11269",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 11269,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/11269",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11269",
+      "record_checked_on": "2026-11-10"
+    },
+    "facts": {
+      "title_original": "Edward and Sarah Rutter",
+      "title_ja_provisional": "エドワードとサラ・ラター",
+      "artist": "Joshua Johnson",
+      "creation_date_display": "ca. 1805",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "American",
+      "accession_number": "65.254.3"
+    },
+    "image": {
+      "image_id": "met-11269-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT5512.jpg",
+      "source_registry_id": "met-11269",
+      "local_path": "/artworks/met-11269.jpg",
+      "sha256": "746c8e3d2514859415c6d11c8b44fe6177ba3b63aab3f5306ae4876dbbbf80be",
+      "byte_length": 76643,
+      "live_image_checked": true,
+      "live_check_scope": "Met full JPEG bytes/SHA256 and pixel fit at RMS 6.2517; image viewed in official-source GitHub Actions https://github.com/matumaruex/kaiga-data/actions/runs/42762928000",
+      "source_accession_number": "65.254.3",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DT5512.jpg",
+        "sha256": "d377c608946cfe9717456418c78b6df9d2ac7961fa3c645c0a98caff4cc705f8",
+        "byte_length": 2958952,
+        "width": 3289,
+        "height": 3692,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Official original/display downscale RMS 6.2517",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [],
+      "emotion_strengths": {},
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "日常",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/11269",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "幼い兄妹の姿に残された家族肖像と、画家の描写技法を見つめたい",
+            "reason": "同じ空間に立つラター家の二人の子どもを、強い色彩と細部の観察が伝える。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "幼い兄妹の表情や家族の姿だけで慈しみや喜びのタグを付けない。",
+          "ジョンソンの生い立ちは美術館の解説を根拠とするが、被写体の内面や画家本人の発言とは区別する。",
+          "赤い鳥や果実、籠の寓意を公式出典なしに断定しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metによれば、本作は船長ジョシュア・ラターとメアリー・ペニントン・ラターの子、エドワードとサラの肖像である。アフリカ系アメリカ人で初期の職業的肖像画家ジョシュア・ジョンソンの、鮮やかな色彩と精緻な細部に対する関心が表れるとされ、その率直な表現は20世紀の芸術家や収集家からも評価された。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/11269"
+        },
+        "creation_context": "1805年頃のアメリカ、ボルティモアの画家ジョシュア・ジョンソンによるキャンバス油彩。ジョンソンは奴隷身分に置かれた黒人女性と白人男性のもとに生まれ、18世紀末から19世紀初めにかけて海運・商業関係者や家族の肖像を制作した。",
+        "visual_clues": "黒い服と白い襟を着た年長の子、白いドレスに赤い靴の年少の子が並び、片方が小さな籠を持つ。左に赤い鳥、二人が果実を手に持つ。暗色の背景が衣装と顔の輪郭を際立たせる。",
+        "uncertainty_note": "ラター家が画家にどう注文したか、絵の鳥や果実の具体的な象徴、二人の気持ちは公式資料で確定できない。感情索引は無理に付けない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-10",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Met website, object API, original JPEG visual preview and exact SHA check https://github.com/matumaruex/kaiga-data/actions/runs/42762928000; same assistant separate-pass analysis not external scholarly audit.",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "暗い背景の前に、二人の子どもが並んで立っています。年上の子は黒い服に白い襟を着け、年下の子は白いドレスと赤い靴を身に着けています。小さな籠や果実、左端の赤い鳥まで、さまざまな色と形が丁寧に描かれています。\n\n1805年頃、ジョシュア・ジョンソンが描いた《エドワードとサラ・ラター》です。二人は船長ジョシュア・ラターとメアリー・ペニントン・ラターの子どもたちで、画家が活動していたボルティモアの家庭を伝える肖像画です。\n\nメトロポリタン美術館によれば、ジョンソンはアフリカ系アメリカ人として職業的に肖像画を描いて生計を立てた最初期の画家とされています。強い色彩と細部の明晰さは、後の時代の芸術家たちにも注目されました。今の私たちには二人の生活の全体は分かりませんが、この一枚には家族が子どもの姿を残そうとした時代の表現が留められています。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/11269"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-10"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-11269",
+    "title": "Edward and Sarah Rutter",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/11269",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/11269",
+      "license_label": "The Met Open Access / CC0 (work-level Public Domain, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT5512.jpg",
+      "sha256": "746c8e3d2514859415c6d11c8b44fe6177ba3b63aab3f5306ae4876dbbbf80be",
+      "byte_length": 76643,
+      "last_http_sha_checked_on": "2026-11-10",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42762928000",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DT5512.jpg",
+        "sha256": "d377c608946cfe9717456418c78b6df9d2ac7961fa3c645c0a98caff4cc705f8",
+        "byte_length": 2958952,
+        "width": 3289,
+        "height": 3692,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Official original/display downscale RMS 6.2517",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "65.254.3"
+  }
+}

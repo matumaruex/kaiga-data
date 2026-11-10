@@ -1,0 +1,105 @@
+{
+  "schema_version": "artwork-v2-new-registration-1",
+  "id": "met-11269",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-11269.json",
+  "candidate_sha256": "8049ae9cdab8b612a07069033af76fb739782f474a108f650165ada713662b86",
+  "draft_path": "drafts/visitor-explanations/met-11269.json",
+  "draft_sha256": "7fcfc5f37f9641cc9f4212fc520afe98597f2cb2715512184bd79f4610b82e4c",
+  "baseline": {
+    "artworks_sha256": "0dfddf4e8e51ab595712b1e83fd301c26b840572c10bb6a554f5ac6184db5540",
+    "image_registry_sha256": "8e524908f7634d4df1c3c64a08c6cd52cdd110b0c22f784e811a0ea546551d09"
+  },
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/11269",
+      "location": "Met Overview, description of Captain Joshua and Mary Pennington Rutter's children, painter's professional history, colors and detail; Artwork Details accession 65.254.3",
+      "finding": "Met identifies children of the Rutter family and contextualizes Joshua Johnson's pioneering professional portrait practice and bold-detail style; it does not assign emotional allegories to the bird or fruit.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11269",
+      "location": "Met API objectID, artistDisplayName, objectDate, accessionNumber, classification, Public Domain flag, original and small image URLs",
+      "finding": "Met object metadata and exact JPEG bytes reconfirmed after full SHA256 checks in https://github.com/matumaruex/kaiga-data/actions/runs/42762928000.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 release for public domain artwork images",
+      "finding": "Artwork is marked Public Domain and its official image is eligible for CC0; modern text rights are separate.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/11269",
+      "finding": "The Met explicitly marks the specific artwork Public Domain; this does not cover modern museum prose."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met primary-image and Open Access policy allow reuse of this PD work's image; full SHA and visually verified."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/11269",
+      "finding": "New original Japanese writing based on source facts, not long copying or close translation; legal certainty not guaranteed."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant rechecked source facts and visual observations separately from drafting, with direct Met API and image file re-download. Verified original/display SHA256 and resized pixel RMS; official-source visual previews in https://github.com/matumaruex/kaiga-data/actions/runs/42762928000.",
+    "limitations": "Not a different model or independent human expert. Legal reuse is an evidence-based assessment, not legal opinion. Previews examined; not every full-resolution pixel visually inspected.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met 11269, accession 65.254.3, exact title/artist/date and Public Domain.",
+      "image_match": "黒い服と白い襟を着た年長の子、白いドレスに赤い靴の年少の子が並び、片方が小さな籠を持つ。左に赤い鳥、二人が果実を手に持つ。暗色の背景が衣装と顔の輪郭を際立たせる。 Original and display JPEGs match exact Met object 11269 and both versions agree (RGB RMS 6.2517); official original preview visually checked.",
+      "historical_interpretation": "Met identifies children of the Rutter family and contextualizes Joshua Johnson's pioneering professional portrait practice and bold-detail style; it does not assign emotional allegories to the bird or fruit.",
+      "emotion": "Only {} linked as viewing index; no claims about figures' private feelings.",
+      "visitor_text": "New Japanese explanation checked for accuracy and independent wording.",
+      "rights": "Artwork PD, official image CC0, museum prose separately considered."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT5512.jpg",
+      "sha256": "746c8e3d2514859415c6d11c8b44fe6177ba3b63aab3f5306ae4876dbbbf80be",
+      "byte_length": 76643,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "黒い服と白い襟を着た年長の子、白いドレスに赤い靴の年少の子が並び、片方が小さな籠を持つ。左に赤い鳥、二人が果実を手に持つ。暗色の背景が衣装と顔の輪郭を際立たせる。 Original and display JPEGs match exact Met object 11269 and both versions agree (RGB RMS 6.2517); official original preview visually checked.",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DT5512.jpg",
+      "sha256": "d377c608946cfe9717456418c78b6df9d2ac7961fa3c645c0a98caff4cc705f8",
+      "byte_length": 2958952,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "黒い服と白い襟を着た年長の子、白いドレスに赤い靴の年少の子が並び、片方が小さな籠を持つ。左に赤い鳥、二人が果実を手に持つ。暗色の背景が衣装と顔の輪郭を際立たせる。 Original and display JPEGs match exact Met object 11269 and both versions agree (RGB RMS 6.2517); official original preview visually checked.",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "User explicitly approved three selected works.",
+    "Same-assistant source/visual second pass not external expert review.",
+    "No changes to previously registered artworks."
+  ]
+}
