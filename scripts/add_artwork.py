@@ -265,6 +265,7 @@ def validate_candidate(root, files):
 def save_files(root, files):
     previous = {name: (root / name).read_bytes() for name in files}
     staging = {}
+    replaced = []
     try:
         # Pre-build all files, then replace; Git commit is the publication boundary.
         for name, content in files.items():
@@ -279,9 +280,11 @@ def save_files(root, files):
                 "files changed during validation")
         for name, tmp in staging.items():
             os.replace(tmp, root / name)
+            replaced.append(name)
     except Exception:
-        for name, value in previous.items():
-            (root / name).write_bytes(value)
+        # Never roll back a concurrent edit if no part of this save was written.
+        for name in replaced:
+            (root / name).write_bytes(previous[name])
         raise
     finally:
         for tmp in staging.values():

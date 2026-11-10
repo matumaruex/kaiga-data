@@ -155,6 +155,11 @@ class ArtworkExpansionTest(unittest.TestCase):
         self.assertEqual(json.loads(previous)["artworks"], saved[:-1])
         self.assertIn("**v2完成登録：301作品**",
                       (self.root / "README.md").read_text(encoding="utf-8"))
+        self.audit["baseline"]["artworks_sha256"] = add_artwork.file_sha(
+            self.root / "data/artworks.json")
+        self.audit["baseline"]["image_registry_sha256"] = add_artwork.file_sha(
+            self.root / "data/image-sources.json")
+        self.flush_audit()
         with self.assertRaisesRegex(ValueError, "already registered"):
             add_artwork.candidate_files(self.root, self.audit_path)
 
