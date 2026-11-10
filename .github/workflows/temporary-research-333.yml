@@ -1,0 +1,65 @@
+name: Temporary Met candidate research 333-335
+on:
+  push:
+    branches: [codex/expand-artworks-333-335-20261111]
+permissions:
+  contents: read
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet requests pillow
+      - name: Check exact objects, duplicates, rights and both official JPEGs
+        shell: bash
+        run: |
+          python - <<'PY'
+          import requests, json, io,hashlib, math, time
+          from PIL import Image,ImageChops,ImageStat
+          ids=[816194,929265,11287,853895]
+          c=json.load(open('data/artworks.json'))['artworks']
+          reg=json.load(open('data/image-sources.json'))['records']
+          print("CATALOG",len(c),"SOURCE_RECORDS",len(reg),flush=True)
+          assert len(c)==332
+          def get(url):
+              for k in range(5):
+                  try:
+                      r=requests.get(url,timeout=70,headers={"User-Agent":"OpenAccessMuseumResearch/1.0"})
+                      if r.status_code==200: return r
+                      print("FETCH_STATUS",r.status_code,url,flush=True)
+                  except Exception as e: print("FETCH_ERR",str(e)[:150],flush=True)
+                  time.sleep(2+k*2)
+              raise RuntimeError("failed: "+url)
+          for num in ids:
+              try:
+                  o=get(f'https://collectionapi.metmuseum.org/public/collection/v1/objects/{num}').json()
+                  oid='met-'+str(num)
+                  assert o['objectID']==num
+                  dupe_ids=[x['id'] for x in c if x['id']==oid]
+                  dupe_title=[x['id'] for x in c if x['facts']['title_original']==o['title'] and x['facts']['artist']==(o.get('artistDisplayName') or 'Unknown artist')]
+                  meta={"id":oid,"title":o['title'],"artist":o.get('artistDisplayName'),"objectDate":o.get('objectDate'),"culture":o.get('culture'),"country":o.get('country'),"medium":o.get('medium'),"classification":o.get('classification'),"isPublicDomain":o['isPublicDomain'],"accession":o.get('accessionNumber'),"artistBio":o.get('artistDisplayBio'),"duplicates":{"id":dupe_ids,"title_artist":dupe_title},"official_url":o.get('objectURL'),"secondaryImages_count":len(o.get('additionalImages') or [])}
+                  if not(o['isPublicDomain'] and o['classification']=='Paintings' and not dupe_ids and not dupe_title):
+                      print("CANDIDATE_HOLD",json.dumps(meta,ensure_ascii=False),flush=True);continue
+                  pics={}
+                  for key,kind in [("primaryImage","original"),("primaryImageSmall","display")]:
+                      url=o.get(key) or ""
+                      if not url.startswith('https://images.metmuseum.org/'): raise RuntimeError('missing official JPEG '+key)
+                      dat=get(url).content
+                      im=Image.open(io.BytesIO(dat));im.load()
+                      if im.format!='JPEG':raise RuntimeError("not JPEG")
+                      pics[kind]={"url":url,"sha256":hashlib.sha256(dat).hexdigest(),"byte_length":len(dat),"width":im.width,"height":im.height}
+                  originals=get(pics['original']['url']).content
+                  displays=get(pics['display']['url']).content
+                  hi=Image.open(io.BytesIO(originals)).convert("RGB")
+                  small=Image.open(io.BytesIO(displays)).convert("RGB")
+                  rms=math.sqrt(sum(v*v for v in ImageStat.Stat(ImageChops.difference(hi.resize(small.size,Image.Resampling.LANCZOS),small)).rms)/3)
+                  meta['images']=pics;meta['rms']=round(rms,5)
+                  meta['duplicate_sha']=[x['id'] for x in c if x['image']['sha256']==pics['display']['sha256']]
+                  assert rms<30 and not meta['duplicate_sha']
+                  print("CANDIDATE_VALID",json.dumps(meta,ensure_ascii=False),flush=True)
+              except Exception as e:print("CANDIDATE_ERROR",num,str(e),flush=True)
+          PY
