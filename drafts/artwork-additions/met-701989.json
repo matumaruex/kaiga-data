@@ -1,0 +1,153 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-701989",
+  "artwork": {
+    "id": "met-701989",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 701989,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/701989",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/701989",
+      "record_checked_on": "2026-11-10"
+    },
+    "facts": {
+      "title_original": "Emma Van Name",
+      "title_ja_provisional": "エマ・ヴァン・ネーム",
+      "artist": "Joshua Johnson",
+      "creation_date_display": "ca. 1805",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "not specified by source",
+      "accession_number": "2016.116"
+    },
+    "image": {
+      "image_id": "met-701989-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-952-001.jpg",
+      "source_registry_id": "met-701989",
+      "local_path": "/artworks/met-701989.jpg",
+      "sha256": "6a9582d59d8fa163bc7ace5f325448acd08d4ec25e0724e4fac2c1bb341a8986",
+      "byte_length": 107120,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API identity+PD, 2 complete JPEG SHA256, byte counts, dimensions and downscale RMS: https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+      "source_accession_number": "2016.116",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-952-001.jpg",
+        "sha256": "889c24792982b6a66ca554450172b0844fdcdf617cd286a04ab0fb6f889d19fb",
+        "byte_length": 4737248,
+        "width": 3218,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met official API same-object original/display JPEGs downscale RMS 5.9335",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "慈しみ"
+      ],
+      "emotion_strengths": {
+        "慈しみ": 1
+      },
+      "tones": [
+        "落ち着き"
+      ],
+      "themes": [
+        "日常",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/701989",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "幼い子どもの肖像画を細部から見て、初期アメリカの画家の工夫を知りたい",
+            "reason": "Met作品別Overviewは、ジョシュア・ジョンソンを職業的に活動した最初期のアフリカ系アメリカ人肖像画家として位置づけ、1805年ごろのエマの肖像の色彩・細部・構図を高く評価する。この絵は1950年代後半に画商イーディス・ハルパートによって見いだされ、以後展覧会で紹介された。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "幼いモデルの感情を目・口元の表情だけから断定しない。『最初期』という美術史上の位置づけと、唯一の作家だったという主張を混同しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewは、ジョシュア・ジョンソンを職業的に活動した最初期のアフリカ系アメリカ人肖像画家として位置づけ、1805年ごろのエマの肖像の色彩・細部・構図を高く評価する。この絵は1950年代後半に画商イーディス・ハルパートによって見いだされ、以後展覧会で紹介された。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/701989"
+        },
+        "creation_context": "ca. 1805, not specified by source; Oil on canvas; accession 2016.116.",
+        "visual_clues": "Met公式IIIFで、白いレースの帽子と淡い桃色のドレス、首の十字架、手に持つ赤い果実、右の大きな透明な器に盛られた実、緑のカーテンと格子状の床を確認。",
+        "uncertainty_note": "幼いモデルの感情を目・口元の表情だけから断定しない。『最初期』という美術史上の位置づけと、唯一の作家だったという主張を混同しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "慈しみ"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-10",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI separate review; Met exact work official Overview and IIIF shown, full JPEG SHA256 + dimensions and RMS at https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "レースの帽子をかぶった幼い女の子が、淡い桃色の服を着て立っています。片手には小さな赤い果実。すぐ隣には、同じ色の実を盛った大きなガラスの器があり、床の模様や緑のカーテンまで丁寧に描かれています。\n\n《エマ・ヴァン・ネーム》は、1805年ごろにアメリカの画家ジョシュア・ジョンソンが描いた肖像画です。彼はアフリカ系アメリカ人として、職業画家として活動したことが知られる最初期の人物の一人です。美術館によれば、この絵は1950年代後半に画商イーディス・ハルパートによって見いだされ、その後さまざまな展覧会で紹介されました。\n\n衣服の小さな模様、透明な器、背景の布。ひとつずつ細部をたどると、子どもの姿だけでなく、色と質感を丁寧に組み立てる画家の仕事も見えてきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/701989"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-10"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-701989",
+    "title": "Emma Van Name",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/701989",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/701989",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-952-001.jpg",
+      "sha256": "6a9582d59d8fa163bc7ace5f325448acd08d4ec25e0724e4fac2c1bb341a8986",
+      "byte_length": 107120,
+      "last_http_sha_checked_on": "2026-11-10",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-952-001.jpg",
+        "sha256": "889c24792982b6a66ca554450172b0844fdcdf617cd286a04ab0fb6f889d19fb",
+        "byte_length": 4737248,
+        "width": 3218,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met official API same-object original/display JPEGs downscale RMS 5.9335",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2016.116"
+  }
+}
