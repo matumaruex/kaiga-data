@@ -2,6 +2,8 @@ name: Temporary Met image verification 314-316
 on:
   push:
     branches: [codex/expand-artworks-314-316-v2]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
