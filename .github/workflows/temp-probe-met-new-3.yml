@@ -1,0 +1,46 @@
+name: Temporary check of three proposed Met artwork images
+on:
+  push:
+    branches: [codex/museum-approved-308-310-20261110]
+    paths: [.github/workflows/temp-probe-met-new-3.yml]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check Pillow
+      - name: Fetch official Met API and full original/thumbnail image bytes
+        shell: bash
+        run: |
+          python - <<'PY'
+          import hashlib,json,io,urllib.request,urllib.parse,math
+          from PIL import Image,ImageChops,ImageStat
+          def get(url):
+              url=urllib.parse.quote(url,safe=':/%?=&,.-_~')
+              req=urllib.request.Request(url,headers={'User-Agent':'MuseumResearch/1.0 (public artworks verification)'})
+              with urllib.request.urlopen(req,timeout=65) as r:
+                  return r.read(),r.status,r.url
+          for oid in (435826,11259,57318):
+              info=json.loads(get(f'https://collectionapi.metmuseum.org/public/collection/v1/objects/{oid}')[0])
+              rec={k:info.get(k) for k in ('objectID','title','artistDisplayName','objectDate','objectName','classification','culture','accessionNumber','isPublicDomain','primaryImageSmall','primaryImage')}
+              rec['images']={}
+              pics={}
+              for label,key in [('display','primaryImageSmall'),('original','primaryImage')]:
+                  u=info.get(key)
+                  if not u: continue
+                  raw,status,url=get(u)
+                  im=Image.open(io.BytesIO(raw))
+                  pics[label]=im.convert('RGB')
+                  rec['images'][label]={'url':url,'status':status,'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest(),'width':im.width,'height':im.height,'format':im.format}
+              if 'display' in pics and 'original' in pics:
+                  a=pics['original'].resize(pics['display'].size,Image.Resampling.LANCZOS)
+                  stat=ImageStat.Stat(ImageChops.difference(a,pics['display']))
+                  rec['rgb_rms']=round(math.sqrt(sum(x*x for x in stat.rms)/3),4)
+              print('MET_WORK='+json.dumps(rec,ensure_ascii=False,separators=(',',':')),flush=True)
+          PY
