@@ -52,3 +52,15 @@
 - 新規登録は [追加手順](artwork-expansion-v2.md) と [共通v2基準](artwork-completion-workflow-v2.md) を守る。新規監査形式は `artwork-v2-new-registration-2`。
 - 3作品のMet公式ページOverviewを直接読み、公式IIIF画像を目視。Met API配信の大小JPEGについて完全SHA256・バイト数とリサイズ一致をGitHub Actionsで確認。HTMLのオンライン再照合はMetによるHTTP制限があり保証しない。
 - 過去319件の作品・元監査は不変。過去の出典追加照合は `docs/source-rechecks/` を参照。
+
+---
+
+### 2026-11-10 11:20 UTC
+
+#### 保存前の状態（2026-11-10時点）
+
+- **完成登録：323作品**。正式数は最新 `main` の `data/artworks.json` とREADMEを確認する。
+- **次：324作品目から候補調査**。既存の完成作品を再登録しない。
+- 323番目は `met-435991`（Camille Corot, *A Woman Reading*, 1869 and 1870）。Metの作品別Overviewと公式画像を照合し、独自日本語解説・v2監査に登録。
+- Met APIの原寸／表示JPEGを完全SHA256・サイズ・縮小RMSで照合（[GitHub Actionsの検証](https://github.com/matumaruex/kaiga-data/actions/runs/42802438308)）。同AIの別工程審査であり人間の外部審査ではない。
+- 既存322件と各監査は不変。323件目は登録プログラムと全体検査に合格。一時検証ワークフローは撤去済み。次は [追加ガイド](artwork-expansion-v2.md) と [共通基準](artwork-completion-workflow-v2.md) に従う。

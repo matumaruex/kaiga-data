@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-77180",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-77180.json",
+  "candidate_sha256": "5f0b76d64e0e24c429b12ce46b1db41a73895f99afd728d129d67a2d98e6a1e0",
+  "draft_path": "drafts/visitor-explanations/met-77180.json",
+  "draft_sha256": "c72dd0c85bfdefe75f41119db084b5bc4476682e14f043a23b2bc5ae13646c29",
+  "baseline": {
+    "artworks_sha256": "dc9291f9ee2bb613f42f5316a88feeb9c2d61d4392a1db4b14ceaddfd4928659",
+    "image_registry_sha256": "7096c3e1af2d089f9155d9a21a4197827317c43b1aab59752489120c9dfcbdb4"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/77180",
+      "source_section": "Overview first paragraph: Yoshiwara oiran identified through robes and ornaments",
+      "source_excerpt": "The array of hair ornaments and the elaborate layers of her richly colored robes declare her to be an oiran, or a highly ranked courtesan of the Yoshiwara pleasure quarters.",
+      "visitor_claim": "18世紀後半にモモカワ・シコウが描いたのは、江戸・吉原の高位の遊女である花魁です"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/77180",
+      "source_section": "Overview: quotation of Takuan Sōhō in artist's inscription",
+      "source_excerpt": "The inscription by the artist quotes the Rinzai Zen monk Takuan Sōhō (1573–1645), weaving in famous Zen sayings:",
+      "visitor_claim": "美術館の解説によると、絵師による上部の文章には、禅僧の沢庵宗彭の言葉や「色即是空」に通じる句が引かれています"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/77180",
+      "location": "Exact Met object page Artwork Details and Overview; Overview first paragraph: Yoshiwara oiran identified through robes and ornaments | Overview: quotation of Takuan Sōhō in artist's inscription",
+      "finding": "Met overview: lavishly dressed oiran, high-ranking Yoshiwara courtesan, adjusting a pin in a double-bunned hyōgo-mage style. Upper inscription by Momokawa Shikō quotes Takuan Sōhō and Zen sayings contrasting form and emptiness.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/77180",
+      "location": "Met official API: objectID, title, artist, objectDate, culture, accession, isPublicDomain, primaryImage/primaryImageSmall",
+      "finding": "Verified full JSON metadata and exact original/display bytes in https://github.com/matumaruex/kaiga-data/actions/runs/42805639776; image dimensions and resizing correspondence recorded. Met API metadata not inferred from title.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for public-domain artworks and their official primary images",
+      "finding": "Met PD work object and CC0 licensed public-domain digital images; copyrighted contemporary Met exposition is excluded.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/77180",
+      "finding": "The Met public-domain flag is true for this exact object; artist/date and provenance retained with attribution uncertainty."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met official primary Open Access CC0 JPEG original/display, full bytes and image identity verified; Met official Open Access Public Domain painting and CC0 primary JPEGs; original new Japanese explanation, not close translation of Met text."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/77180",
+      "finding": "Original Japanese presentation newly written from checked museum facts and visual observation, not a long quotation or near-translation. No legal guarantee."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate substantive review: exact object-specific Met Overview read, short excerpts checked against visitor claims; Met IIIF main-image visually inspected; official API/primary JPEG SHA256, dimensions and downscale matched at https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+    "limitations": "Same AI separate pass; not human expert. Exact reading of brush-written calligraphy relies on Met curatorial transcription rather than independent palaeographic interpretation. Not a legal opinion.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met ID met-77180 title=Parading Courtesan, artist=Momokawa Shikō, accession=2020.393.1. Explicit differences from other works and artist attribution reviewed.",
+      "image_match": "Met 77180 official IIIF main image (https://collectionapi.metmuseum.org/api/collection/v1/iiif/77180/2026345/main-image) shows long vertical hanging scroll, dense calligraphy above, courtesan below with elaborate dark, red, green robes; right arm raised to hair ornaments and other arm near the collar. Official API original/display full SHA256/dimensions and resize match run: https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+      "historical_interpretation": "Text and visual combine the image of a high-ranking courtesan with Buddhist quotations. Do not infer that she herself wrote or spoke the text or that the artist condemned her.",
+      "emotion": "No fixed emotional response is established; no primary/secondary emotion tags claimed.",
+      "visitor_text": "Two exact Met artwork-page excerpts bound to two concrete Japanese visitor claims; visual language independently compared with depicted figures and forms. No near-literal prose copying.",
+      "rights": "Met official Open Access Public Domain painting and CC0 primary JPEGs; original new Japanese explanation, not close translation of Met text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-21616-002.jpg",
+      "sha256": "ddd2cbfb6e93dfda1a11c94b3ab51f02d5d6505b4a687ab19641aa67f40ae71d",
+      "byte_length": 94159,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "Met 77180 official IIIF main image (https://collectionapi.metmuseum.org/api/collection/v1/iiif/77180/2026345/main-image) shows long vertical hanging scroll, dense calligraphy above, courtesan below with elaborate dark, red, green robes; right arm raised to hair ornaments and other arm near the collar. Display and original form same image as official Met ID; corresponding full JPEG hashes/size and downscale RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-21616-002.jpg",
+      "sha256": "fbc966bc9fc7057e7b2c5f4e28717b603c040d842a4967b937828a07e42864f7",
+      "byte_length": 3147825,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "Met 77180 official IIIF main image (https://collectionapi.metmuseum.org/api/collection/v1/iiif/77180/2026345/main-image) shows long vertical hanging scroll, dense calligraphy above, courtesan below with elaborate dark, red, green robes; right arm raised to hair ornaments and other arm near the collar. Original JPEG resolution 3000x4000 checked; reduced to display pair, same artwork https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "One individually investigated, version-bound work; do not modify older artworks and their audits.",
+    "Separate review by the same AI is not external professional or human review.",
+    "The displayed-image JPEG and high-resolution JPEG are official public files, not embedded binary assets in the Git data repository."
+  ]
+}

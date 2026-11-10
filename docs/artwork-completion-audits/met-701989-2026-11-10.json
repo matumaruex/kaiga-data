@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-701989",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-701989.json",
+  "candidate_sha256": "5d61a2412931445e561d0159290e5b8d8c6efa1ee381bb83f4e4152f803f36bc",
+  "draft_path": "drafts/visitor-explanations/met-701989.json",
+  "draft_sha256": "d7d7885d5306ca5d66e0bca62ba20ce48703c61097534f937814ae65a22b4225",
+  "baseline": {
+    "artworks_sha256": "69ce5c4d3e516587d9a37340d68c9ba7d214d737c0577955a66582c0abc7a972",
+    "image_registry_sha256": "634f1c6d5b09d7ae2536f716f1eebf22c24a0f83eeb9b8e612465026bb37a451"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/701989",
+      "source_section": "Overview first paragraph: Johnson as earliest known professional African American painter",
+      "source_excerpt": "it is now accepted as an important work by Joshua Johnson, the earliest known professional African American painter.",
+      "visitor_claim": "彼はアフリカ系アメリカ人として、職業画家として活動したことが知られる最初期の人物の一人です"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/701989",
+      "source_section": "Overview opening paragraph: Edith Halpert discovery in late 1950s",
+      "source_excerpt": "Included in numerous international exhibitions since its discovery in the late 1950s by Edith Halpert",
+      "visitor_claim": "美術館によれば、この絵は1950年代後半に画商イーディス・ハルパートによって見いだされ、その後さまざまな展覧会で紹介されました"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/701989",
+      "location": "Exact Met object page Artwork Details and Overview; Overview first paragraph: Johnson as earliest known professional African American painter | Overview opening paragraph: Edith Halpert discovery in late 1950s",
+      "finding": "Met Overview identifies the sitter as Emma Van Name, painted circa 1805 by Joshua Johnson. Johnson is described as the earliest known professional African American painter; artwork discovered by art dealer Edith Halpert in the late 1950s and later exhibited widely. Colors, compositional complexity and meticulous detailing make this an outstanding child portrait.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/701989",
+      "location": "Met official API: objectID, title, artist, objectDate, culture, accession, isPublicDomain, primaryImage/primaryImageSmall",
+      "finding": "Verified full JSON metadata and exact original/display bytes in https://github.com/matumaruex/kaiga-data/actions/runs/42805639776; image dimensions and resizing correspondence recorded. Met API metadata not inferred from title.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for public-domain artworks and their official primary images",
+      "finding": "Met PD work object and CC0 licensed public-domain digital images; copyrighted contemporary Met exposition is excluded.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/701989",
+      "finding": "The Met public-domain flag is true for this exact object; artist/date and provenance retained with attribution uncertainty."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met official primary Open Access CC0 JPEG original/display, full bytes and image identity verified; Met work PD with API PD flag; original and display images are Met Open Access CC0. New original Japanese prose distinct from Met commentary."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/701989",
+      "finding": "Original Japanese presentation newly written from checked museum facts and visual observation, not a long quotation or near-translation. No legal guarantee."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate substantive review: exact object-specific Met Overview read, short excerpts checked against visitor claims; Met IIIF main-image visually inspected; official API/primary JPEG SHA256, dimensions and downscale matched at https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+    "limitations": "Same AI separate assessment, not an outside expert. Met API culture/classification fields are blank but official artwork page specifies Baltimore, circa 1805 and painting medium; do not infer the artwork's culture from the painter's nationality. No legal clearance guarantee.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met ID met-701989 title=Emma Van Name, artist=Joshua Johnson, accession=2016.116. Explicit differences from other works and artist attribution reviewed.",
+      "image_match": "Official Met 701989 IIIF main-image (https://collectionapi.metmuseum.org/api/collection/v1/iiif/701989/1590752/main-image) shows young girl in lace cap and pale pink dress holding small red fruit, large glass bowl of berries at right, green drapery at right, cross pendant and patterned floor. Official API original/display full SHA256/dimensions and resize match run: https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+      "historical_interpretation": "Portray a child and painterly choices, but do not assert the child's emotion. 'Earliest known' is a historical assessment and does not imply no other Black professional painters existed.",
+      "emotion": "Only secondary tentative 慈しみ strength 1, as a possible viewer response to a child's portrait; no asserted sitter emotion or creator intent.",
+      "visitor_text": "Two exact Met artwork-page excerpts bound to two concrete Japanese visitor claims; visual language independently compared with depicted figures and forms. No near-literal prose copying.",
+      "rights": "Met work PD with API PD flag; original and display images are Met Open Access CC0. New original Japanese prose distinct from Met commentary."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-952-001.jpg",
+      "sha256": "6a9582d59d8fa163bc7ace5f325448acd08d4ec25e0724e4fac2c1bb341a8986",
+      "byte_length": 107120,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "Official Met 701989 IIIF main-image (https://collectionapi.metmuseum.org/api/collection/v1/iiif/701989/1590752/main-image) shows young girl in lace cap and pale pink dress holding small red fruit, large glass bowl of berries at right, green drapery at right, cross pendant and patterned floor. Display and original form same image as official Met ID; corresponding full JPEG hashes/size and downscale RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-952-001.jpg",
+      "sha256": "889c24792982b6a66ca554450172b0844fdcdf617cd286a04ab0fb6f889d19fb",
+      "byte_length": 4737248,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "Official Met 701989 IIIF main-image (https://collectionapi.metmuseum.org/api/collection/v1/iiif/701989/1590752/main-image) shows young girl in lace cap and pale pink dress holding small red fruit, large glass bowl of berries at right, green drapery at right, cross pendant and patterned floor. Original JPEG resolution 3218x4000 checked; reduced to display pair, same artwork https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "One individually investigated, version-bound work; do not modify older artworks and their audits.",
+    "Separate review by the same AI is not external professional or human review.",
+    "The displayed-image JPEG and high-resolution JPEG are official public files, not embedded binary assets in the Git data repository."
+  ]
+}

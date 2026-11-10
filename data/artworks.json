@@ -39520,6 +39520,369 @@
         "audit_sha256": "57e44bf3f45890ee838591a2b09900022dd5c189773e68b9aef185031885abc7",
         "record_sha256": "c92be5f16d3d492fe28280400f4b1dfa8182509afa1b91ad6ee79bd7b4bf3852"
       }
+    },
+    {
+      "id": "met-764090",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 764090,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/764090",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764090",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "Adam and Eve in Paradise",
+        "title_ja_provisional": "楽園のアダムとエバ",
+        "artist": "Unknown",
+        "creation_date_display": "18th Century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Peruvian (Cuzco)",
+        "accession_number": "2022.426"
+      },
+      "image": {
+        "image_id": "met-764090-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18756-001.jpg",
+        "source_registry_id": "met-764090",
+        "local_path": "/artworks/met-764090.jpg",
+        "sha256": "b6d9d66a9933c15327540b601f85f7193fe2af44fbc258664205d70a7f2c98f5",
+        "byte_length": 92814,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API identity+PD, 2 complete JPEG SHA256, byte counts, dimensions and downscale RMS: https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+        "source_accession_number": "2022.426",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18756-001.jpg",
+          "sha256": "c933b7643fe51c0123d1ca9fcd951f7a3953e8a05750957b1f58b5368049a1f9",
+          "byte_length": 3877177,
+          "width": 4000,
+          "height": 2565,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met official API same-object original/display JPEGs downscale RMS 4.6395",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 2
+        },
+        "tones": [
+          "緊張"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/764090",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "聖書の場面が異なる土地の絵画に受け継がれた様子を知りたい",
+              "reason": "Met作品別Overviewでは、木を指さして忠告する神、抱き合うアダムとエバ、クスコ絵画に特徴的な鳥や草木が描かれ、人物の構図は1583年にアントウェルペンで出版されたヤン・サーデラー1世（マールテン・デ・フォスによる原図）の版画に基づくと説明される。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作者個人は不詳。下敷きになったヨーロッパの版画と、この18世紀ペルー制作の油彩画を同じ作品・同一の作者と混同しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewでは、木を指さして忠告する神、抱き合うアダムとエバ、クスコ絵画に特徴的な鳥や草木が描かれ、人物の構図は1583年にアントウェルペンで出版されたヤン・サーデラー1世（マールテン・デ・フォスによる原図）の版画に基づくと説明される。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/764090"
+          },
+          "creation_context": "18th Century, Peruvian (Cuzco); Oil on canvas; accession 2022.426.",
+          "visual_clues": "Met公式IIIFで、左に赤い外衣の神、中央の木の下に裸身の二人、上に赤い果実、背景に濃い緑の木々やカラフルな鳥を確認。版画の複製ではなくクスコの彩色絵画としての画面を区別。",
+          "uncertainty_note": "作者個人は不詳。下敷きになったヨーロッパの版画と、この18世紀ペルー制作の油彩画を同じ作品・同一の作者と混同しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "畏敬"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI separate review; Met exact work official Overview and IIIF shown, full JPEG SHA256 + dimensions and RMS at https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "赤い衣をまとった人物が、木に実った果実を指さしています。そのすぐそばには、互いに肩を寄せるアダムとエバ。周囲には濃い葉が広がり、枝には色鮮やかな鳥がとまっています。\n\n18世紀のペルー・クスコで描かれたこの作品は、1583年にアントウェルペンで出版されたヤン・サーデラー1世の版画をもとにしています。その版画はマールテン・デ・フォスの構想に由来します。メトロポリタン美術館によると、元の版画で強調されていた人体表現は、この絵では肌の色の対比によってさらに際立っています。\n\n鳥や草木に満ちた楽園の風景も、当時のクスコ絵画の特徴です。人物の構図と豊かな自然をあわせて見ると、遠くから伝えられた宗教的な物語が、別の土地で新しい色彩をまとっていく様子に気づきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/764090"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-764090-2026-11-10.json",
+        "audit_sha256": "dc62560ea9d8817f555af260aeacabfb023ceef876bd9452d41e4768ff4996ec",
+        "record_sha256": "c67397555583e82615e747b5c6db0ccacf94cb74f2a7e1ae119533e287cf12d1"
+      }
+    },
+    {
+      "id": "met-77180",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 77180,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/77180",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/77180",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "Parading Courtesan",
+        "title_ja_provisional": "花魁図",
+        "artist": "Momokawa Shikō",
+        "creation_date_display": "late 18th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2020.393.1"
+      },
+      "image": {
+        "image_id": "met-77180-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-21616-002.jpg",
+        "source_registry_id": "met-77180",
+        "local_path": "/artworks/met-77180.jpg",
+        "sha256": "ddd2cbfb6e93dfda1a11c94b3ab51f02d5d6505b4a687ab19641aa67f40ae71d",
+        "byte_length": 94159,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API identity+PD, 2 complete JPEG SHA256, byte counts, dimensions and downscale RMS: https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+        "source_accession_number": "2020.393.1",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-21616-002.jpg",
+          "sha256": "fbc966bc9fc7057e7b2c5f4e28717b603c040d842a4967b937828a07e42864f7",
+          "byte_length": 3147825,
+          "width": 3000,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met official API same-object original/display JPEGs downscale RMS 5.1611",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "余韻"
+        ],
+        "themes": [
+          "都市",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/77180",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "華やかな江戸の人物像と、その上に書かれた禅の言葉の組み合わせを読みたい",
+              "reason": "Met作品別Overviewは豪華な着物と兵庫髷の簪から人物を吉原の高位の遊女・花魁と同定し、絵師の書いた上部の賛文が禅僧沢庵宗彭（1573–1645）の言葉や禅句を引用すると説明する。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "女性本人の境遇・心情や、この絵に託した作者の倫理的意図は公式説明から特定できない。絵に書かれた禅句をこの女性個人の発言として扱わない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewは豪華な着物と兵庫髷の簪から人物を吉原の高位の遊女・花魁と同定し、絵師の書いた上部の賛文が禅僧沢庵宗彭（1573–1645）の言葉や禅句を引用すると説明する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/77180"
+          },
+          "creation_context": "late 18th century, Japan; Hanging scroll; ink and color on silk; accession 2020.393.1.",
+          "visual_clues": "Met公式IIIFでは縦長の掛軸の下半に、赤・緑・暗色の衣を幾重にも重ね、両手を髪飾りへ伸ばす人物、上半に細かな墨書がある。衣装模様と書の配置を確認。",
+          "uncertainty_note": "女性本人の境遇・心情や、この絵に託した作者の倫理的意図は公式説明から特定できない。絵に書かれた禅句をこの女性個人の発言として扱わない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI separate review; Met exact work official Overview and IIIF shown, full JPEG SHA256 + dimensions and RMS at https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "長い掛軸の下側に、鮮やかな衣を重ね着した女性が立っています。大きく結い上げた髪に手を伸ばし、細かな髪飾りを整える姿。上半分には、人物を取り囲む余白を残して、墨の文字が書かれています。\n\n18世紀後半にモモカワ・シコウが描いたのは、江戸・吉原の高位の遊女である花魁です。特徴的な兵庫髷や幾重もの衣装が、その立場を示しています。美術館の解説によると、絵師による上部の文章には、禅僧の沢庵宗彭の言葉や「色即是空」に通じる句が引かれています。\n\n華やかな装いと、静かに置かれた墨書。色や模様を追ったあとに文字へ視線を移すと、ひとつの人物画の中に異なる表現が重ねられていることが分かります。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/77180"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-77180-2026-11-10.json",
+        "audit_sha256": "65caca94631bc4547a2485e93e28da3573de37af9423c9c7676a8da9820a2fe5",
+        "record_sha256": "3dc68c0cd9b4714743c44af2ac35d2e27fb1dc0b87f280825bb9ec15fad81ab1"
+      }
+    },
+    {
+      "id": "met-701989",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 701989,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/701989",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/701989",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "Emma Van Name",
+        "title_ja_provisional": "エマ・ヴァン・ネーム",
+        "artist": "Joshua Johnson",
+        "creation_date_display": "ca. 1805",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "not specified by source",
+        "accession_number": "2016.116"
+      },
+      "image": {
+        "image_id": "met-701989-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-952-001.jpg",
+        "source_registry_id": "met-701989",
+        "local_path": "/artworks/met-701989.jpg",
+        "sha256": "6a9582d59d8fa163bc7ace5f325448acd08d4ec25e0724e4fac2c1bb341a8986",
+        "byte_length": 107120,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API identity+PD, 2 complete JPEG SHA256, byte counts, dimensions and downscale RMS: https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+        "source_accession_number": "2016.116",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-952-001.jpg",
+          "sha256": "889c24792982b6a66ca554450172b0844fdcdf617cd286a04ab0fb6f889d19fb",
+          "byte_length": 4737248,
+          "width": 3218,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met official API same-object original/display JPEGs downscale RMS 5.9335",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "慈しみ"
+        ],
+        "emotion_strengths": {
+          "慈しみ": 1
+        },
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "日常",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/701989",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "幼い子どもの肖像画を細部から見て、初期アメリカの画家の工夫を知りたい",
+              "reason": "Met作品別Overviewは、ジョシュア・ジョンソンを職業的に活動した最初期のアフリカ系アメリカ人肖像画家として位置づけ、1805年ごろのエマの肖像の色彩・細部・構図を高く評価する。この絵は1950年代後半に画商イーディス・ハルパートによって見いだされ、以後展覧会で紹介された。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "幼いモデルの感情を目・口元の表情だけから断定しない。『最初期』という美術史上の位置づけと、唯一の作家だったという主張を混同しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewは、ジョシュア・ジョンソンを職業的に活動した最初期のアフリカ系アメリカ人肖像画家として位置づけ、1805年ごろのエマの肖像の色彩・細部・構図を高く評価する。この絵は1950年代後半に画商イーディス・ハルパートによって見いだされ、以後展覧会で紹介された。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/701989"
+          },
+          "creation_context": "ca. 1805, not specified by source; Oil on canvas; accession 2016.116.",
+          "visual_clues": "Met公式IIIFで、白いレースの帽子と淡い桃色のドレス、首の十字架、手に持つ赤い果実、右の大きな透明な器に盛られた実、緑のカーテンと格子状の床を確認。",
+          "uncertainty_note": "幼いモデルの感情を目・口元の表情だけから断定しない。『最初期』という美術史上の位置づけと、唯一の作家だったという主張を混同しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "慈しみ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI separate review; Met exact work official Overview and IIIF shown, full JPEG SHA256 + dimensions and RMS at https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "レースの帽子をかぶった幼い女の子が、淡い桃色の服を着て立っています。片手には小さな赤い果実。すぐ隣には、同じ色の実を盛った大きなガラスの器があり、床の模様や緑のカーテンまで丁寧に描かれています。\n\n《エマ・ヴァン・ネーム》は、1805年ごろにアメリカの画家ジョシュア・ジョンソンが描いた肖像画です。彼はアフリカ系アメリカ人として、職業画家として活動したことが知られる最初期の人物の一人です。美術館によれば、この絵は1950年代後半に画商イーディス・ハルパートによって見いだされ、その後さまざまな展覧会で紹介されました。\n\n衣服の小さな模様、透明な器、背景の布。ひとつずつ細部をたどると、子どもの姿だけでなく、色と質感を丁寧に組み立てる画家の仕事も見えてきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/701989"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-701989-2026-11-10.json",
+        "audit_sha256": "a12c664d0d4a3e397a6137c6933f5dc027ec7b9cc81c1a70fa5dac58d27abe6d",
+        "record_sha256": "210126bec1322022d454f651694946bac8ae328cf0e99e47207a0c9f5c806e46"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
