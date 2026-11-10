@@ -37550,6 +37550,131 @@
         "audit_sha256": "1c5a3e0eefd120b885f922f31ee4ba06569ebecc5ab32557b125e74c5cf92dc5",
         "record_sha256": "2be7f126b1bef640b5ff48ab70439e5c5446216c51de80b7ef934f5f3705ed79"
       }
+    },
+    {
+      "id": "met-435826",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 435826,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/435826",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435826",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "The Love Song",
+        "title_ja_provisional": "恋歌",
+        "artist": "Sir Edward Burne-Jones",
+        "creation_date_display": "1868–77",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "British",
+        "accession_number": "47.26"
+      },
+      "image": {
+        "image_id": "met-435826-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP323394.jpg",
+        "source_registry_id": "met-435826",
+        "local_path": "/artworks/met-435826.jpg",
+        "sha256": "b7999cfd7919574fd5e5c65683e4b7dbaac576ddfdc4f61082defeeba311cf0d",
+        "byte_length": 92406,
+        "live_image_checked": true,
+        "live_check_scope": "Met full JPEG bytes/SHA256 and pixel fit at RMS 6.5805; image viewed in official-source GitHub Actions https://github.com/matumaruex/kaiga-data/actions/runs/42760271445",
+        "source_accession_number": "47.26",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP323394.jpg",
+          "sha256": "9b0a356726da653f082ef10f8cd79122d17eabda035ed09ae320461d0c111f98",
+          "byte_length": 3060160,
+          "width": 4000,
+          "height": 2948,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Official original/display downscale RMS 6.5805",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "悲しみ"
+        ],
+        "emotion_strengths": {
+          "悲しみ": 1
+        },
+        "tones": [
+          "余韻"
+        ],
+        "themes": [
+          "愛情",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/435826",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "恋の喜びと切なさが交差する絵に触れたい",
+              "reason": "古い恋歌の哀歓を主題とし、音楽と三者の視線・距離が感情の余地を生む。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "悲しみは恋歌の憂いから鑑賞を始める弱い接点で、画中人物の心理を証明しない。",
+            "画家とマリア・ザンバコとの関係を画中の人物の同定や当該作品に関する画家自身の直接証言と混同しない。",
+            "恋を悲しみだけの物語に固定しない。Metは喜びと悲しみの交錯を記す。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは、古い恋歌にある悲しみと喜びの繰り返しから着想した絵と説明する。右ではクピドがオルガンのふいごを動かし、画面は音楽を通して物語に還元しきれない感情を表す。画家とモデルのマリア・ザンバコとの関係にもMetは言及する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/435826"
+          },
+          "creation_context": "1868〜1877年のキャンバス油彩。中世風の城跡と甲冑、古典風の衣装など異なる時代を重ねた、ラファエロ前派とイタリア・ルネサンスの影響を示す幻想画。画家は《Chant d’Amour》と呼んでいたとMetは紹介する。",
+          "visual_clues": "夕暮れの城を背に、銀色の衣の女性がオルガンに手を添える。左に甲冑姿の人物、右に赤い衣の翼のあるクピド。手前に花が咲く。",
+          "uncertainty_note": "人物それぞれの内面は資料から確定できない。画家の恋愛との結び付けはMetの解説であり、画家の当該作品への直接引用とみなさない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "悲しみ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met website, object API, original JPEG visual preview and exact SHA check https://github.com/matumaruex/kaiga-data/actions/runs/42760271445; same assistant separate-pass analysis not external scholarly audit.",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "夕暮れの城跡を背に、銀色の衣をまとった女性がオルガンに手を添えています。甲冑を着た人物は彼女に目を向け、右では赤い衣のクピドがオルガンのふいごを動かします。足元には花が並び、互いの距離と視線が静かな緊張を生んでいます。\n\nエドワード・バーン＝ジョーンズが1868年から1877年にかけて描いた《恋歌》です。メトロポリタン美術館によれば、発想のもとにあるのは、恋歌には悲しいものも楽しいものもあるという古い歌の一節でした。画家はこの作品をフランス語で《Chant d’Amour》と呼びました。\n\n甲冑と城の中世的な世界に、別の時代を思わせる衣装が重ねられています。美術館は画家とモデルのマリア・ザンバコとの関係にも触れますが、画面の人物をそのまま実在の誰かと決めることはできません。音楽の響きは描かれていないのに、耳を澄ませたくなる絵です。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/435826"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-435826-2026-11-10.json",
+        "audit_sha256": "2b05186df7c9db77c1e908effb5cbf875f34dbc15f44ff9c1b39cab0cbfda5c5",
+        "record_sha256": "078886fc5b88c7d6822c962f197ac4d6912d35c5e9b26153fbb2769c2d3779a1"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

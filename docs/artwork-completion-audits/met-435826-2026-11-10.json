@@ -1,0 +1,105 @@
+{
+  "schema_version": "artwork-v2-new-registration-1",
+  "id": "met-435826",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-435826.json",
+  "candidate_sha256": "a6f5e9ec6525a632a1f2fcb22df86f914b22eda8b6d7e871412e20ab7d8b5c74",
+  "draft_path": "drafts/visitor-explanations/met-435826.json",
+  "draft_sha256": "411abfe4c4dcde5bd9ea1594debc81297857b4c6e13d882b088b988f03a4ae31",
+  "baseline": {
+    "artworks_sha256": "309eb569581fdb0098a876579e8f42d9fabe0e9db25d790080dea2cbf84d989c",
+    "image_registry_sha256": "b8d046a372565a3bc88eeb6cf86cd82f46c03508a3639359f08ff85478367287"
+  },
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435826",
+      "location": "Met Overview, first two paragraphs; Artwork Details 47.26; curator audio transcript on chant, music, Cupid, medieval and classical motifs",
+      "finding": "Met ties the work to a love-song refrain of sadness and joy, organ/Cupid, historical motifs and Maria Zambaco, without certifying depicted persons' inner states.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435826",
+      "location": "Met API objectID, artistDisplayName, objectDate, accessionNumber, classification, Public Domain flag, original and small image URLs",
+      "finding": "Met object metadata and exact JPEG bytes reconfirmed after full SHA256 checks in https://github.com/matumaruex/kaiga-data/actions/runs/42760271445.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 release for public domain artwork images",
+      "finding": "Artwork is marked Public Domain and its official image is eligible for CC0; modern text rights are separate.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/435826",
+      "finding": "The Met explicitly marks the specific artwork Public Domain; this does not cover modern museum prose."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met primary-image and Open Access policy allow reuse of this PD work's image; full SHA and visually verified."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/435826",
+      "finding": "New original Japanese writing based on source facts, not long copying or close translation; legal certainty not guaranteed."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant rechecked source facts and visual observations separately from drafting, with direct Met API and image file re-download. Verified original/display SHA256 and resized pixel RMS; official-source visual previews in https://github.com/matumaruex/kaiga-data/actions/runs/42760271445.",
+    "limitations": "Not a different model or independent human expert. Legal reuse is an evidence-based assessment, not legal opinion. Previews examined; not every full-resolution pixel visually inspected.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met 435826, accession 47.26, exact title/artist/date and Public Domain.",
+      "image_match": "夕暮れの城を背に、銀色の衣の女性がオルガンに手を添える。左に甲冑姿の人物、右に赤い衣の翼のあるクピド。手前に花が咲く。 Original and display JPEGs match exact Met object 435826 and both versions agree (RGB RMS 6.5805); official original preview visually checked.",
+      "historical_interpretation": "Met ties the work to a love-song refrain of sadness and joy, organ/Cupid, historical motifs and Maria Zambaco, without certifying depicted persons' inner states.",
+      "emotion": "Only {'悲しみ': 1} linked as viewing index; no claims about figures' private feelings.",
+      "visitor_text": "New Japanese explanation checked for accuracy and independent wording.",
+      "rights": "Artwork PD, official image CC0, museum prose separately considered."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP323394.jpg",
+      "sha256": "b7999cfd7919574fd5e5c65683e4b7dbaac576ddfdc4f61082defeeba311cf0d",
+      "byte_length": 92406,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "夕暮れの城を背に、銀色の衣の女性がオルガンに手を添える。左に甲冑姿の人物、右に赤い衣の翼のあるクピド。手前に花が咲く。 Original and display JPEGs match exact Met object 435826 and both versions agree (RGB RMS 6.5805); official original preview visually checked.",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP323394.jpg",
+      "sha256": "9b0a356726da653f082ef10f8cd79122d17eabda035ed09ae320461d0c111f98",
+      "byte_length": 3060160,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "夕暮れの城を背に、銀色の衣の女性がオルガンに手を添える。左に甲冑姿の人物、右に赤い衣の翼のあるクピド。手前に花が咲く。 Original and display JPEGs match exact Met object 435826 and both versions agree (RGB RMS 6.5805); official original preview visually checked.",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "User explicitly approved three selected works.",
+    "Same-assistant source/visual second pass not external expert review.",
+    "No changes to previously registered artworks."
+  ]
+}
