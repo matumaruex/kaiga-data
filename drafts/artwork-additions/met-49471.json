@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-49471",
+  "artwork": {
+    "id": "met-49471",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 49471,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/49471",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/49471",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Meditation in a Cave",
+      "title_ja_provisional": "洞窟での瞑想",
+      "artist": "Ren Yu",
+      "creation_date_display": "Qing dynasty (1644–1911), exact date unknown",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "China",
+      "accession_number": "1986.267.71"
+    },
+    "image": {
+      "image_id": "met-49471-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-30337-002.jpg",
+      "source_registry_id": "met-49471",
+      "local_path": "/artworks/met-49471.jpg",
+      "sha256": "9084a3651327eb1f267c30aeaf3ff38d5317136a89b05858046133964cd8c769",
+      "byte_length": 64241,
+      "live_image_checked": true,
+      "live_check_scope": "Met exact object API and official original/display full JPEG SHA256 bytes/dimensions and downsizing https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+      "source_accession_number": "1986.267.71",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-30337-002.jpg",
+        "sha256": "5c0715b62d860b01baad0cc30050c75f2dc13b6fee46d7477fd1d93477485729",
+        "byte_length": 1585218,
+        "width": 1743,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met official original/display downscale RGB RMS 7.00703",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [],
+      "emotion_strengths": {},
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/49471",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "険しい自然の中に置かれた小さな人物を見て、静けさと画面のスケールを味わいたい",
+            "reason": "Metの作品別Overviewは、そそり立つ険しい岩が画面の大半を占め、その洞窟の奥で僧のような人物が静かに座ると説明している。人物の真上の山の開口部は仏教的な悟りの輝きを示す可能性があるとするが、解釈は断定されていない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "山の開口部の意味はMetも「可能性」とする。人物が具体的な僧侶であるか、悟りに達したかを断定しない。Met公式の基本情報には制作年の具体的な記載がない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metの作品別Overviewは、そそり立つ険しい岩が画面の大半を占め、その洞窟の奥で僧のような人物が静かに座ると説明している。人物の真上の山の開口部は仏教的な悟りの輝きを示す可能性があるとするが、解釈は断定されていない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/49471"
+        },
+        "creation_context": "Qing dynasty (1644–1911), exact date unknown; China; Hanging scroll; ink and color on paper; accession 1986.267.71",
+        "visual_clues": "Met公式同IDのIIIF画像で、縦にそびえる薄墨の岩壁と、その間にのぞく空間、下部の白い水流と緑の葉、小さな朱色の服の座像を確認。岩肌に対して人物はかなり小さく描かれる。",
+        "uncertainty_note": "山の開口部の意味はMetも「可能性」とする。人物が具体的な僧侶であるか、悟りに達したかを断定しない。Met公式の基本情報には制作年の具体的な記載がない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same assistant separate source-image review; not human expert. Full official JPEG SHA256 https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "ほとんど画面いっぱいに、灰色の岩壁がそそり立っています。岩の裂け目から白い空間がのぞき、その下には水が流れています。目を下へ移すと、緑の葉のそばに朱色の衣を着た小さな人物が座っていることに気づきます。\n\n《洞窟での瞑想》を描いた任預は、清時代の中国で活動した画家です。メトロポリタン美術館は、この人物を洞窟で静かに座る僧のような姿として説明しています。また、頭の真上にある山の開口部は、仏教における悟りの光を表している可能性があるとしています。\n\n人物を見つけてから再び大きな岩へ目を戻すと、自然の広がりと人の小ささが際立ちます。そこに宗教的な意味を見ることもできますが、まずは筆の濃淡がつくる険しい空間と、人物の静かな姿を見比べてみてください。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/49471"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-49471",
+    "title": "Meditation in a Cave",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/49471",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/49471",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-30337-002.jpg",
+      "sha256": "9084a3651327eb1f267c30aeaf3ff38d5317136a89b05858046133964cd8c769",
+      "byte_length": 64241,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-30337-002.jpg",
+        "sha256": "5c0715b62d860b01baad0cc30050c75f2dc13b6fee46d7477fd1d93477485729",
+        "byte_length": 1585218,
+        "width": 1743,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met official original/display downscale RGB RMS 7.00703",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "1986.267.71"
+  }
+}

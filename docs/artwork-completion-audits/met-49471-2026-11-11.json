@@ -1,0 +1,118 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-49471",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-49471.json",
+  "candidate_sha256": "3759db9dc3eb50bbbac8664bf6ed31deb8aba68b3b6b08279e2e99811a2c68da",
+  "draft_path": "drafts/visitor-explanations/met-49471.json",
+  "draft_sha256": "b7a3ab57fd263e379ae0e0ece16b4e35ba4e4bce3729383b97921bd5cd962834",
+  "baseline": {
+    "artworks_sha256": "f22cb661e2cd50ceb8f0de7d987c2f1343614a66ec0e178dfe48fe2d22c07d16",
+    "image_registry_sha256": "7ae2566e67775279b6436094965ece6c935381e2238b6af450712e66f308fbee"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/49471",
+      "source_excerpt": "a monk-like figure sits calmly within the recesses of a jagged overhanging cliff",
+      "visitor_claim": "メトロポリタン美術館は、この人物を洞窟で静かに座る僧のような姿として説明しています",
+      "source_section": "Overview: monk-like figure inside the overhanging cliff"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/49471",
+      "source_excerpt": "may represent the radiance of Buddhist enlightenment",
+      "visitor_claim": "また、頭の真上にある山の開口部は、仏教における悟りの光を表している可能性があるとしています",
+      "source_section": "Overview: possible Buddhist meaning of the mountain opening"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/49471",
+      "location": "Artwork Details and Overview (exact Met ID); Overview: monk-like figure inside the overhanging cliff | Overview: possible Buddhist meaning of the mountain opening",
+      "finding": "Metの作品別Overviewは、そそり立つ険しい岩が画面の大半を占め、その洞窟の奥で僧のような人物が静かに座ると説明している。人物の真上の山の開口部は仏教的な悟りの輝きを示す可能性があるとするが、解釈は断定されていない。 「絵に見えるもの」は出典と同一作品のMet公式画像を照合。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/49471",
+      "location": "Met objectID / objectDate / classification / artist / PD / accession / official original and small JPEG",
+      "finding": "Met official API metadata and JPEG 200 status, SHA256 full bytes, image dimensions and resizing match in https://github.com/matumaruex/kaiga-data/actions/runs/42914013617; medium/culture values not inferred from ID.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 image and public-domain collection data licensing",
+      "finding": "Only public-domain Met primary images and basic facts are CC0; current museum artwork Overview prose is copyright-distinct and not reproduced at length.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/49471",
+      "finding": "Met exact object is labeled Public Domain and Met API confirms isPublicDomain:true; no unsupported artwork rights assumptions."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met official Open Access CC0 primary JPEG bytes from exact PD object; checked six pair images in https://github.com/matumaruex/kaiga-data/actions/runs/42914013617"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/49471",
+      "finding": "Newly authored Japanese visitor writing based on verified museum facts and direct visual observation, not a near-literal translation; not a legal clearance opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant's separate content-source review: direct Met exact-object Overview/Details, short quotation-to-specific Japanese claim checks, exact official IIIF visual and API metadata, primary original/display full JPEG SHA256, dimensions and downscale RMS in https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+    "limitations": "Not external art expert or human review. Met HTML may be HTTP 429 when CI re-fetches, so offline checks bind source excerpts but do not guarantee network quote re-fetch. Specific authorship where uncertain and spiritual meaning remain attributed interpretations, not proof. No legal clearance guarantee.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met exact artwork ID 49471, title Meditation in a Cave, artist display/attribution Ren Yu, accession 1986.267.71; known attribution/date uncertainty preserved.",
+      "image_match": "Met公式同IDのIIIF画像で、縦にそびえる薄墨の岩壁と、その間にのぞく空間、下部の白い水流と緑の葉、小さな朱色の服の座像を確認。岩肌に対して人物はかなり小さく描かれる。 Met IIIF actual image and official Met API original/display pairs, complete SHA256/dimensions and resized RGB RMS 7.00703, https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+      "historical_interpretation": "Metの作品別Overviewは、そそり立つ険しい岩が画面の大半を占め、その洞窟の奥で僧のような人物が静かに座ると説明している。人物の真上の山の開口部は仏教的な悟りの輝きを示す可能性があるとするが、解釈は断定されていない。 Limits: 山の開口部の意味はMetも「可能性」とする。人物が具体的な僧侶であるか、悟りに達したかを断定しない。Met公式の基本情報には制作年の具体的な記載がない。",
+      "emotion": "Tags tied to subject/visual basis, including zero-tag works where assigning a psychological state is unsupported. Tags []",
+      "visitor_text": "Original Japanese readable body with two specific Met Overview excerpts bound to actual claims; artistic observations separately inspected. Avoided close English source translation.",
+      "rights": "PD Met object, CC0 official Met images, independent Japanese visitor prose, distinct rights review."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-30337-002.jpg",
+      "sha256": "9084a3651327eb1f267c30aeaf3ff38d5317136a89b05858046133964cd8c769",
+      "byte_length": 64241,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "Met公式同IDのIIIF画像で、縦にそびえる薄墨の岩壁と、その間にのぞく空間、下部の白い水流と緑の葉、小さな朱色の服の座像を確認。岩肌に対して人物はかなり小さく描かれる。 Display primary JPEG identity verified against original by Met official object API and full-file hash/downsizing RMS, https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-30337-002.jpg",
+      "sha256": "5c0715b62d860b01baad0cc30050c75f2dc13b6fee46d7477fd1d93477485729",
+      "byte_length": 1585218,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "Met公式同IDのIIIF画像で、縦にそびえる薄墨の岩壁と、その間にのぞく空間、下部の白い水流と緑の葉、小さな朱色の服の座像を確認。岩肌に対して人物はかなり小さく描かれる。 Official original JPEG 1743x4000 same Met object and downscaled image; complete hash/length and resizing checked https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+      "checked_on": "2026-11-11"
+    }
+  ],
+  "notes": [
+    "Sequential individual addition number 327, previous completed artwork records unchanged.",
+    "Same AI separate pass, not external scholarly/human sign-off. Met page quotes read via official page, online CI re-fetch may be rate-limited."
+  ]
+}

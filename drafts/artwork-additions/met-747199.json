@@ -1,0 +1,153 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-747199",
+  "artwork": {
+    "id": "met-747199",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 747199,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/747199",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/747199",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "The Virgin of Carmen and the Souls of Purgatory with St. Joseph and the Prophet Elijah",
+      "title_ja_provisional": "カルメンの聖母と煉獄の魂、聖ヨセフと預言者エリヤ",
+      "artist": "Juan Francisco de Aguilera",
+      "creation_date_display": "ca. 1720",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Mexican",
+      "accession_number": "2017.234"
+    },
+    "image": {
+      "image_id": "met-747199-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-15280-003.jpg",
+      "source_registry_id": "met-747199",
+      "local_path": "/artworks/met-747199.jpg",
+      "sha256": "ceba9e625c80c20326c53fa18f98fd62ee5fd23163a98c8412f6fd86935f3670",
+      "byte_length": 119888,
+      "live_image_checked": true,
+      "live_check_scope": "Met exact object API and official original/display full JPEG SHA256 bytes/dimensions and downsizing https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+      "source_accession_number": "2017.234",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-15280-003.jpg",
+        "sha256": "eb8ff93c4efb5062b2176bd107441e2c0ac1861e7dca523db7e2c0b741048320",
+        "byte_length": 3923005,
+        "width": 3042,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met official original/display downscale RGB RMS 4.39279",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "畏敬": 2
+      },
+      "tones": [
+        "緊張"
+      ],
+      "themes": [
+        "時間",
+        "共同体"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/747199",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "天上と地上を隔てる宗教画の構図や、救済への願いの表現を見たい",
+            "reason": "Met作品別Overviewによれば、1720年頃のメキシコで作られた個人礼拝用の小さな銅板絵画で、カルメンの聖母が煉獄の魂のためにとりなす。メトロポリタン美術館は、画家が苦しむ魂の足枷の上へ署名を記したことを、信仰の表現の可能性として説明している。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "煉獄はカトリックの教義として説明するのであり、実在を保証する事実として語らない。署名の位置に込めた画家の意図は公式解説でも推定である。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによれば、1720年頃のメキシコで作られた個人礼拝用の小さな銅板絵画で、カルメンの聖母が煉獄の魂のためにとりなす。メトロポリタン美術館は、画家が苦しむ魂の足枷の上へ署名を記したことを、信仰の表現の可能性として説明している。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/747199"
+        },
+        "creation_context": "ca. 1720; Mexican; Oil and gold on copper; frame: ebony, tortoise shell, and silver; accession 2017.234",
+        "visual_clues": "Met公式作品画像は、雲上の幼子を抱く冠を戴いた聖母と両脇の聖人、下部に火と助けを求めて腕を上げる人々を配置。黒と赤の豪華な縁取りも含めて写る。特定の魂の個人識別はできない。",
+        "uncertainty_note": "煉獄はカトリックの教義として説明するのであり、実在を保証する事実として語らない。署名の位置に込めた画家の意図は公式解説でも推定である。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "畏敬"
+        ],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same assistant separate source-image review; not human expert. Full official JPEG SHA256 https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "冠を戴き、幼子を抱いた聖母が、雲の上に座っています。両脇には聖人が立ち、下方には炎の中から腕を伸ばす人々。上下の世界の違いが、人物の姿勢と光の差によってはっきりと示されています。\n\n1720年ごろのメキシコで描かれたこの銅板画は、個人の祈りのために作られました。メトロポリタン美術館の解説では、カルメンの聖母が煉獄にいる魂のためにとりなす場面だとされています。煉獄とは、カトリックの教えで、死後に魂が清められる場や状態を指します。\n\n画家フアン・フランシスコ・デ・アギレラは、苦しむ魂の足枷の上に自らの署名を書きました。美術館はこれを信仰を示す行為だった可能性として説明しています。細かな署名を含めて画面をたどると、この絵が単なる物語の挿絵ではなく、祈りと深く結びついていたことが伝わってきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/747199"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-747199",
+    "title": "The Virgin of Carmen and the Souls of Purgatory with St. Joseph and the Prophet Elijah",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/747199",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/747199",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-15280-003.jpg",
+      "sha256": "ceba9e625c80c20326c53fa18f98fd62ee5fd23163a98c8412f6fd86935f3670",
+      "byte_length": 119888,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-15280-003.jpg",
+        "sha256": "eb8ff93c4efb5062b2176bd107441e2c0ac1861e7dca523db7e2c0b741048320",
+        "byte_length": 3923005,
+        "width": 3042,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met official original/display downscale RGB RMS 4.39279",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2017.234"
+  }
+}

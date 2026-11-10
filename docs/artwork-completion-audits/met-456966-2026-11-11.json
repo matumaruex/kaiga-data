@@ -1,0 +1,118 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-456966",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-456966.json",
+  "candidate_sha256": "88b41444d72dd3b12c94b34ae2f5963dd095699382111556fea7da77a74aff7c",
+  "draft_path": "drafts/visitor-explanations/met-456966.json",
+  "draft_sha256": "c903dd2f56cb404f16d6f985a93f4f5064ad40e5120fbf3f7004db10492bf976",
+  "baseline": {
+    "artworks_sha256": "288d669de33e09e6ddf2d27ff462dbcf8bbf9d0618db678aadc59be9c7ef00d2",
+    "image_registry_sha256": "f4e729e5e20d2f87eb98a7c9f0b3c0fab5b5bcc8b3dd8f7624afc93eaada1556"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/456966",
+      "source_excerpt": "Muzaffar 'Ali Khan was governor of Ajmer",
+      "visitor_claim": "描かれているのは、18世紀のムガル朝でアジメールを治めたムザッファル・アリー・ハーンです",
+      "source_section": "Overview opening: Ajmer governorship"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/456966",
+      "source_excerpt": "His portrait can be attributed to Rai Kalyan Das",
+      "visitor_claim": "この騎馬像は、宮廷画家ラーイ・カリヤーン・ダース（チタルマン2世）の作と考えられていますが、作者は確定していません",
+      "source_section": "Overview: artist attribution to Chitarman II"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/456966",
+      "location": "Artwork Details and Overview (exact Met ID); Overview opening: Ajmer governorship | Overview: artist attribution to Chitarman II",
+      "finding": "Met作品別Overviewによると、ムザッファル・アリー・ハーンはムハンマド・シャーの治世にアジメール地方を統治し、1739年のカルナールの戦いで亡くなった。肖像画はチタルマン2世とも呼ばれるラーイ・カリヤーン・ダースに帰属され、作者確定ではない。同画家の指導下でムガル宮廷絵画が再興したと説明する。 「絵に見えるもの」は出典と同一作品のMet公式画像を照合。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/456966",
+      "location": "Met objectID / objectDate / classification / artist / PD / accession / official original and small JPEG",
+      "finding": "Met official API metadata and JPEG 200 status, SHA256 full bytes, image dimensions and resizing match in https://github.com/matumaruex/kaiga-data/actions/runs/42914013617; medium/culture values not inferred from ID.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 image and public-domain collection data licensing",
+      "finding": "Only public-domain Met primary images and basic facts are CC0; current museum artwork Overview prose is copyright-distinct and not reproduced at length.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/456966",
+      "finding": "Met exact object is labeled Public Domain and Met API confirms isPublicDomain:true; no unsupported artwork rights assumptions."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met official Open Access CC0 primary JPEG bytes from exact PD object; checked six pair images in https://github.com/matumaruex/kaiga-data/actions/runs/42914013617"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/456966",
+      "finding": "Newly authored Japanese visitor writing based on verified museum facts and direct visual observation, not a near-literal translation; not a legal clearance opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant's separate content-source review: direct Met exact-object Overview/Details, short quotation-to-specific Japanese claim checks, exact official IIIF visual and API metadata, primary original/display full JPEG SHA256, dimensions and downscale RMS in https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+    "limitations": "Not external art expert or human review. Met HTML may be HTTP 429 when CI re-fetches, so offline checks bind source excerpts but do not guarantee network quote re-fetch. Specific authorship where uncertain and spiritual meaning remain attributed interpretations, not proof. No legal clearance guarantee.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met exact artwork ID 456966, title Nawab Muzaffar 'Ali Khan on Horseback, artist display/attribution Attributed to Rai Kalyan Das (Chitarman II), accession 2009.317; known attribution/date uncertainty preserved.",
+      "image_match": "Met公式作品画像で、白い馬が左を向いて歩み、赤や黄のターバンをつけた男性が横向きに乗る。青緑の細い枠と淡い紙地、馬の身体に重なる薄い線描の従者が見える。制作完了状態や塗り残しの理由は決めつけない。 Met IIIF actual image and official Met API original/display pairs, complete SHA256/dimensions and resized RGB RMS 5.46304, https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+      "historical_interpretation": "Met作品別Overviewによると、ムザッファル・アリー・ハーンはムハンマド・シャーの治世にアジメール地方を統治し、1739年のカルナールの戦いで亡くなった。肖像画はチタルマン2世とも呼ばれるラーイ・カリヤーン・ダースに帰属され、作者確定ではない。同画家の指導下でムガル宮廷絵画が再興したと説明する。 Limits: 「帰属される」の記載を無視して作者を断定しない。淡い筆致が意図的な未完成表現だったかどうかは出典から分からない。政治的な人物評・内心は推測しない。",
+      "emotion": "Tags tied to subject/visual basis, including zero-tag works where assigning a psychological state is unsupported. Tags []",
+      "visitor_text": "Original Japanese readable body with two specific Met Overview excerpts bound to actual claims; artistic observations separately inspected. Avoided close English source translation.",
+      "rights": "PD Met object, CC0 official Met images, independent Japanese visitor prose, distinct rights review."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/DP230664.jpg",
+      "sha256": "9a12347744ff56f171a64d9fb58b6a24df4176407c6b4353198594b2176f0830",
+      "byte_length": 54478,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "Met公式作品画像で、白い馬が左を向いて歩み、赤や黄のターバンをつけた男性が横向きに乗る。青緑の細い枠と淡い紙地、馬の身体に重なる薄い線描の従者が見える。制作完了状態や塗り残しの理由は決めつけない。 Display primary JPEG identity verified against original by Met official object API and full-file hash/downsizing RMS, https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/DP230664.jpg",
+      "sha256": "ca59221b6665346165454be0a21d93836ef0e3b70ae6643adb6485c56fda6a94",
+      "byte_length": 2310428,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "Met公式作品画像で、白い馬が左を向いて歩み、赤や黄のターバンをつけた男性が横向きに乗る。青緑の細い枠と淡い紙地、馬の身体に重なる薄い線描の従者が見える。制作完了状態や塗り残しの理由は決めつけない。 Official original JPEG 3693x2745 same Met object and downscaled image; complete hash/length and resizing checked https://github.com/matumaruex/kaiga-data/actions/runs/42914013617",
+      "checked_on": "2026-11-11"
+    }
+  ],
+  "notes": [
+    "Sequential individual addition number 329, previous completed artwork records unchanged.",
+    "Same AI separate pass, not external scholarly/human sign-off. Met page quotes read via official page, online CI re-fetch may be rate-limited."
+  ]
+}
