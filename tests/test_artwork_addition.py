@@ -108,8 +108,14 @@ class ArtworkExpansionTest(unittest.TestCase):
             for url in dict.fromkeys([official, rights_url])
         ]
         self.audit = {
-            "schema_version": "artwork-v2-new-registration-1",
+            "schema_version": "artwork-v2-new-registration-2",
             "id": ident,
+            "official_text_checks": [{
+                "source_url": official,
+                "source_section": "Artwork Overview",
+                "source_excerpt": "Fictional artist's original introductory statement about the everyday subject.",
+                "visitor_claim": "試験データです。実在する美術品の説明ではありません。",
+            }],
             "result": "PASS", "unresolved_material_issues": [],
             "candidate_path": str(self.proposal_path.relative_to(self.root)),
             "candidate_sha256": add_artwork.file_sha(self.proposal_path),
@@ -173,6 +179,32 @@ class ArtworkExpansionTest(unittest.TestCase):
             self.root / "data/image-sources.json")
         self.flush_audit()
         with self.assertRaisesRegex(ValueError, "already registered"):
+            add_artwork.candidate_files(self.root, self.audit_path)
+
+    def test_unbacked_official_explanation_rejected(self):
+        self.audit["official_text_checks"] = []
+        self.flush_audit()
+        with self.assertRaisesRegex(ValueError, "official text"):
+            add_artwork.candidate_files(self.root, self.audit_path)
+
+    def test_api_url_cannot_replace_work_specific_description(self):
+        self.audit["official_text_checks"][0]["source_url"] = (
+            "https://collectionapi.metmuseum.org/public/collection/v1/objects/99999999"
+        )
+        self.flush_audit()
+        with self.assertRaisesRegex(ValueError, "official page"):
+            add_artwork.candidate_files(self.root, self.audit_path)
+
+    def test_japanese_claim_must_appear_in_reviewed_text(self):
+        self.audit["official_text_checks"][0]["visitor_claim"] = "この文章は登録本文に存在していません"
+        self.flush_audit()
+        with self.assertRaisesRegex(ValueError, "not found in visitor text"):
+            add_artwork.candidate_files(self.root, self.audit_path)
+
+    def test_old_audit_schema_cannot_register_new_artwork(self):
+        self.audit["schema_version"] = "artwork-v2-new-registration-1"
+        self.flush_audit()
+        with self.assertRaisesRegex(ValueError, "require v2 official-page"):
             add_artwork.candidate_files(self.root, self.audit_path)
 
     def test_rights_and_visual_review_must_both_pass(self):

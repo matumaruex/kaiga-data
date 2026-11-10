@@ -18,8 +18,10 @@ import tempfile
 
 try:
     from . import visitor_draft_queue as drafts
+    from . import verify_official_source_text as source_text
 except ImportError:
     import visitor_draft_queue as drafts
+    import verify_official_source_text as source_text
 
 ROOT = Path(__file__).resolve().parents[1]
 ID = re.compile(r"^(aic|met)-[1-9][0-9]*$")
@@ -58,8 +60,9 @@ def source_path(root, relative, parent):
 def checked_inputs(root, relative, *, need_baseline):
     path = source_path(root, relative, "docs/artwork-completion-audits/")
     audit = load(path)
-    require(audit.get("schema_version") == "artwork-v2-new-registration-1",
-            "unsupported new-artwork audit")
+    require(audit.get("schema_version") in {
+        "artwork-v2-new-registration-1", "artwork-v2-new-registration-2"},
+        "unsupported new-artwork audit")
     ident = audit.get("id")
     require(isinstance(ident, str) and ID.fullmatch(ident), "unsupported artwork ID")
     require(audit.get("result") == "PASS"
@@ -141,6 +144,8 @@ def checked_inputs(root, relative, *, need_baseline):
     require(all(e["checked_against_source"] is True for e in draft["evidence"]),
             "unread visitor text evidence")
     visitor = art["visitor_explanation"]
+    if audit["schema_version"] == "artwork-v2-new-registration-2":
+        source_text.offline(audit, art)
     require(all(visitor["review"][k] == "verified" for k in
                 ("content_status", "source_status", "rights_status")),
             "new visitor text needs all three reviews verified")
@@ -208,6 +213,10 @@ def render_summary(readme, total):
 
 
 def candidate_files(root, audit_file):
+    # Historical v1 remains valid for already saved works, but future
+    # registrations must include an independently fetchable source excerpt.
+    require(load(audit_file).get("schema_version") == "artwork-v2-new-registration-2",
+            "new registrations require v2 official-page text evidence")
     relative = str(audit_file.relative_to(root))
     _, art, image_record = checked_inputs(root, relative, need_baseline=True)
     data = load(root / "data/artworks.json")
@@ -338,6 +347,9 @@ def main():
         audit_path = source_path(root, args.audit,
                                  "docs/artwork-completion-audits/")
         files = candidate_files(root, audit_path)
+        # Bind review claims to quoted source passages. An automated source
+        # URL fetch is optional because Met currently rate-limits CI (HTTP 429).
+        # Never call this a machine-verified interpretation.
         validate_candidate(root, files)
         if args.action == "save":
             save_files(root, files)
