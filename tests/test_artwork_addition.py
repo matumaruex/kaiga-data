@@ -72,6 +72,8 @@ class ArtworkExpansionTest(unittest.TestCase):
         image["image_source"]["sha256"] = digest
         image["image_source"]["byte_length"] = 89000
         image["image_source"].pop("high_resolution", None)
+        self.existing_additions = sum(x["id"] not in set(add_artwork.load(self.root / "data/baseline-300-ids.json")["ids"]) for x in db["artworks"])
+        self.baseline_count = len(db["artworks"])
         self.ident = ident
         self.proposal_path = self.root / "drafts/artwork-additions" / (ident + ".json")
         self.draft_path = self.root / "drafts/visitor-explanations" / (ident + ".json")
@@ -149,11 +151,11 @@ class ArtworkExpansionTest(unittest.TestCase):
         self.assertEqual((self.root / "data/artworks.json").read_bytes(), previous)
         add_artwork.save_files(self.root, outputs)
         additions = add_artwork.check(self.root)
-        self.assertEqual(additions, 1)
+        self.assertEqual(additions, self.existing_additions + 1)
         saved = add_artwork.load(self.root / "data/artworks.json")["artworks"]
-        self.assertEqual(len(saved), 301)
+        self.assertEqual(len(saved), self.baseline_count + 1)
         self.assertEqual(json.loads(previous)["artworks"], saved[:-1])
-        self.assertIn("**v2完成登録：301作品**",
+        self.assertIn(f"**v2完成登録：{self.baseline_count + 1}作品**",
                       (self.root / "README.md").read_text(encoding="utf-8"))
         self.audit["baseline"]["artworks_sha256"] = add_artwork.file_sha(
             self.root / "data/artworks.json")
