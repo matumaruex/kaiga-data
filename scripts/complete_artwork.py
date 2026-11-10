@@ -192,6 +192,14 @@ def check(root):
         if c is None:
             counts["保留" if (art["id"], digest(art)) in holds else "未完成"] += 1
             continue
+        if c.get("schema_version") == "artwork-completion-v2-new-1":
+            try:
+                from .add_artwork import verify_saved
+            except ImportError:
+                from add_artwork import verify_saved
+            verify_saved(root, art)
+            counts["完成"] += 1
+            continue
         require(c.get("schema_version") == "artwork-completion-v2-1", "unsupported completion")
         require(record_hash(art) == c["record_sha256"], "saved artwork changed: " + art["id"])
         require(file_hash(local_path(root, c["audit_path"])) == c["audit_sha256"], "saved audit changed")

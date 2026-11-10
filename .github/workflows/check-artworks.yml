@@ -46,9 +46,11 @@ jobs:
         run: python3 -m unittest discover -s tests -p 'test_*.py'
       - name: Verify saved v2 completion evidence
         run: python3 scripts/complete_artwork.py check
+      - name: Verify v2 additions and their image/source/audit bindings
+        run: python3 scripts/add_artwork.py check
       - name: Verify visitor drafts
         run: python3 scripts/visitor_draft_queue.py check
-      - name: Verify stable 300-work snapshot and interrupted-edit guards
+      - name: Verify original 300-work baseline, growth and interrupted-edit guards
         run: python3 scripts/check_catalog_snapshot.py
       - name: Verify candidate data structure
         run: python3 scripts/validate_candidates.py
