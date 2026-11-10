@@ -319,7 +319,7 @@ def main():
         },
         "image_evidence": [
             {
-                "kind": kind, "url": api["primaryImageSmall"] if kind == "display" else api["primaryImage"],
+                "kind": kind, "url": api["primaryImageSmall"] if kind == "web" else api["primaryImage"],
                 "sha256": EXPECTED[kind]["sha256"],
                 "byte_length": EXPECTED[kind]["size"],
                 "download_status": 200,
