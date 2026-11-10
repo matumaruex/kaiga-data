@@ -1,0 +1,112 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-860960",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-860960.json",
+  "candidate_sha256": "5b45cf9384340c593616e056029fd02b6653b98be3c8681018502c14934d7c8e",
+  "draft_path": "drafts/visitor-explanations/met-860960.json",
+  "draft_sha256": "de6acb993b996255c750929b45d74c75b6dc3ca8e0fd0acdbeb49b265b3b6091",
+  "baseline": {
+    "artworks_sha256": "b7841822a7120db090fb612093674d01396b6f684862c2ac6f7df12ae269fa38",
+    "image_registry_sha256": "41bcc13b626f0898856ce261422533de066a227f4bd6aa286d216f0933ceed6a"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/860960",
+      "source_section": "Overview, second paragraph: hawks and the Imperial Censorate",
+      "source_excerpt": "birds of prey were associated with the Imperial Censorate",
+      "visitor_claim": "猛禽は、勇気や正義感を重んじた朝鮮王朝の監察機関とも結びついていました"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/860960",
+      "location": "Artwork Details and full Overview including Overview, second paragraph: hawks and the Imperial Censorate",
+      "finding": "Metの作品別Overviewでは、訓練した猛禽を台にとまらせた朝鮮初期の図像を改め、海上の岩に鷹を置いた作品とする。赤い太陽、岩、海の波は流麗な筆致で表し、鷹は精緻に描く。猛禽は朝鮮王朝初期以来、勇気と正義感を重視する監察機関（Imperial Censorate）に関連づけられ、18〜19世紀には水、青緑の岩、赤い日輪という吉祥の環境に描かれた。 Met公式作品別ページは『鄭弘來に帰属』としており、署名による確定作とは扱わない。監察機関との関係は図像の文化的意味で、この特定絵の注文主を直接示すものではない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/860960",
+      "location": "Official objectID, accession, classification, PD, primaryImageSmall/primaryImage",
+      "finding": "Met primary-image full SHA256 and size confirmed: https://github.com/matumaruex/kaiga-data/actions/runs/42786337414",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy and CC0 reuse for public domain works",
+      "finding": "The Met provides image and basic object data CC0; modern explanatory prose is not covered.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/860960",
+      "finding": "Exact Met object marked Public Domain."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met Open Access CC0 on exact official JPEGs verified by full hash."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/860960",
+      "finding": "Independent new Japanese explanation based on facts and viewing, not near translation; legal certainty not guaranteed."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant: direct Met Overview and Details independently checked against drafted claims, visual composition checked in Met-designated image, Met API original and display JPEG full SHA256, size and RMS evidence in https://github.com/matumaruex/kaiga-data/actions/runs/42786337414",
+    "limitations": "Not external scholarly or human review. Met official HTML quotes read directly; online CI re-fetch may HTTP 429. No legal clearance opinion.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met 860960 accession 2022.99 confirmed; Met公式作品別ページは『鄭弘來に帰属』としており、署名による確定作とは扱わない。監察機関との関係は図像の文化的意味で、この特定絵の注文主を直接示すものではない。",
+      "image_match": "縦長の掛軸に、波打つ海と青緑色の岩、その上に左を向いて立つ鷹がいる。画面上方に赤い太陽、鷹の鋭い眼と羽毛が細かく描かれる。Met公式IIIF画像と作品別記述を直接照合。 Full hashes at https://github.com/matumaruex/kaiga-data/actions/runs/42786337414",
+      "historical_interpretation": "Metの作品別Overviewでは、訓練した猛禽を台にとまらせた朝鮮初期の図像を改め、海上の岩に鷹を置いた作品とする。赤い太陽、岩、海の波は流麗な筆致で表し、鷹は精緻に描く。猛禽は朝鮮王朝初期以来、勇気と正義感を重視する監察機関（Imperial Censorate）に関連づけられ、18〜19世紀には水、青緑の岩、赤い日輪という吉祥の環境に描かれた。",
+      "emotion": "Source-grounded tags; zero allowed.",
+      "visitor_text": "Japanese text independently compared with Met Overview and Artwork Details.",
+      "rights": "Met Public Domain object, Met CC0 official image, independently worded Japanese text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-24801-002.jpg",
+      "sha256": "dd64fe39c21da92b47ec2c0fe8b81970c28f904f920a4df2e35fff2ecd6085f1",
+      "byte_length": 96889,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "縦長の掛軸に、波打つ海と青緑色の岩、その上に左を向いて立つ鷹がいる。画面上方に赤い太陽、鷹の鋭い眼と羽毛が細かく描かれる。Met公式IIIF画像と作品別記述を直接照合。 Official source image and resized pair RMS 4.6538.",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-24801-002.jpg",
+      "sha256": "c595e932963d12694bbf7c41a97686b6bfd7c7280c0f2f03cb4a79f57e3b969f",
+      "byte_length": 3588669,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "縦長の掛軸に、波打つ海と青緑色の岩、その上に左を向いて立つ鷹がいる。画面上方に赤い太陽、鷹の鋭い眼と羽毛が細かく描かれる。Met公式IIIF画像と作品別記述を直接照合。 Official source image and resized pair RMS 4.6538.",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "One-off 320–322 research record. Previous 313 works and their original audits are unchanged.",
+    "Same-assistant separate pass; not independent human expert."
+  ]
+}
