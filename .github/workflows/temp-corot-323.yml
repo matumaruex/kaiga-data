@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 7
     steps:
+      - name: Prepare Pillow
+        run: python3 -m pip install --break-system-packages Pillow
       - name: Verify official object and JPEG byte evidence
         run: |
           python3 - <<'PY'
