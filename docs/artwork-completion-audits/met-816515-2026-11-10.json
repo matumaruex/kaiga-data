@@ -1,0 +1,132 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-816515",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "30150393db7a2580cd08be5b2d5fa08b5281abdc",
+    "artwork_record_sha256": "6ec19f91580e4f5f65dd895175f3cb7066a6f428dacb24e01c985cd631937374",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-816515.json",
+    "draft_sha256": "6fd69c7397b3109fed46acd714b1c6c5b032e935f93f86eff5f00b8b4bdaf2a4"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/816515",
+      "access": "page_read_twice",
+      "locations": [
+        "Met816515 Overview on Reni, instruments and virtue, heading, Artwork Details lines 30–76"
+      ],
+      "observed": "Michele Desubleo (Flemish) 1665-75; oil on canvas 2020.263.7 PD. Met explains Reni's influence and learned humanists' balance of pleasures with virtuous behavior."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-816515",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-21344-001.jpg",
+      "status": 200,
+      "sha256": "89980c701e6615a6d4b9abdbf86772268382a3a3a6bf2a07c4eb9ceee48cc459",
+      "byte_length": 3453245,
+      "width": 4000,
+      "height": 3129,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-11-10",
+      "fresh_download_in_this_session": true,
+      "prior_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42731431238 new source image check and visible downscaled preview on 2026-11-10"
+    },
+    {
+      "id": "met-816515",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-21344-001.jpg",
+      "status": 200,
+      "sha256": "c878c1b82428f127f32f5d07cbf210445f4e014fb1faebfc5f157efd8e4b800f",
+      "byte_length": 113845,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Registered web-large JPEG full-length hash checked in 2026-10 and unchanged catalog record; high-resolution original reverified on 2026-11-10"
+    }
+  ],
+  "visual_observations": {
+    "method": "The exact registered original (or registered display JPEG for met-74996) was fetched and SHA-256 checked by GitHub Actions run 42731431238 on 2026-11-10. Its max-650px preview was individually visually examined in a separate pass. This run rechecks original bytes; the 650px review is not original-pixel-level scrutiny.",
+    "observed": "Matched 4000x3129 registered original downscaled to 650: central partly nude winged adolescent seated amid blue fabric, lifting green leaves; smaller cupid to left, and dense instruments, score/books, wooden items and sculpture/armor-like objects to right. Not Titian's unrelated painting or the Guido Reni painting it cites."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "After drafting the Japanese visitor text, revisited the individual Met entry and (where applicable) the cited art-museum research, independently compared original JPEG visuals to claims and the catalog accession, and checked this exact work against same-name or different-folio alternatives.",
+    "limitations": "Same assistant in a separate review pass, not an independent human or external model. Actual picture reviewed as a 650px thumbnail derived from freshly SHA-verified registered JPEG; original source links were rechecked where available and institutional interpretations distinguished from artist testimony.",
+    "reviewed_artwork_sha256": "6ec19f91580e4f5f65dd895175f3cb7066a6f428dacb24e01c985cd631937374",
+    "reviewed_visitor_draft_sha256": "6fd69c7397b3109fed46acd714b1c6c5b032e935f93f86eff5f00b8b4bdaf2a4",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Exact Met 2020.263.7 Michele Desubleo, 1665–75, registered original DP-21344-001 image and SHA confirmed, not another Allegory of Sacred and Profane Love."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met describes Guido Reni and ensemble of painter's palette, sculpture fragments, armor, musical instruments, and humanist balance of pleasure/virtue. This is institutional reading and not a quoted personal declaration of Desubleo."
+      },
+      {
+        "area": "emotion",
+        "finding": "Retain primary 好奇心2 as an invitation to inspect concrete allegorical objects, not the painter's feelings or a prescriptive experience of romantic love."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "New Japanese text describes visible winged young figure and grouped objects and carefully attributes philosophical reading to Met; independently phrased without extended translation."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "6ec19f91580e4f5f65dd895175f3cb7066a6f428dacb24e01c985cd631937374",
+    "visitor_draft_sha256": "6fd69c7397b3109fed46acd714b1c6c5b032e935f93f86eff5f00b8b4bdaf2a4",
+    "proposal_sha256": "07c48fbeade69767c0a8b3aceb42ffc3a754975ca0cc0101c3b4a613568fdb2b",
+    "checks": [
+      "300_unique_ids",
+      "target_baseline_artwork_sha256",
+      "other_299_unchanged_by_empty_revision",
+      "2026_11_10_original_image_bytes_reverified",
+      "existing_emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Hash and input bindings checked here; Python preview/save/check and structural/snapshot validators are mandatory next, then PR CI before merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-816515.json",
+    "sha256": "07c48fbeade69767c0a8b3aceb42ffc3a754975ca0cc0101c3b4a613568fdb2b",
+    "proposed_artwork_sha256": "6ec19f91580e4f5f65dd895175f3cb7066a6f428dacb24e01c985cd631937374",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/art/collection/search/816515",
+    "locations": [
+      "Met work-level Public Domain declaration",
+      "Met Open Access reuse policy as linked on the collection page",
+      "Original Japanese text checked for non-verbatim museum prose"
+    ],
+    "checked_on": "2026-11-10",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "The identified Met artwork is marked Public Domain and the registered image bytes match; the independently drafted Japanese prose does not reproduce museum prose. This database inclusion assessment is not a legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Image run: https://github.com/matumaruex/kaiga-data/actions/runs/42731431238",
+    "No attempt to infer personal feelings or intentions of an unidentified artist. All visual statements are limited to visible composition and museum documentation.",
+    "Audit authored from a separate assistant content review; Python code does not invent or judge artistic meaning."
+  ]
+}
