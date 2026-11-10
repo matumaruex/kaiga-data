@@ -1,0 +1,149 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-694642",
+  "artwork": {
+    "id": "met-694642",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 694642,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/694642",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/694642",
+      "record_checked_on": "2026-11-10"
+    },
+    "facts": {
+      "title_original": "The Trees, Early Afternoon, France",
+      "title_ja_provisional": "フランスの木々、午後の早い時間",
+      "artist": "William A. Harper",
+      "creation_date_display": "ca. 1905",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "American",
+      "accession_number": "2015.587"
+    },
+    "image": {
+      "image_id": "met-694642-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP701344.jpg",
+      "source_registry_id": "met-694642",
+      "local_path": "/artworks/met-694642.jpg",
+      "sha256": "da07367d97ba1da8cb53a277d8e4edcfb005948c4991758da1c020079e619b85",
+      "byte_length": 134410,
+      "live_image_checked": true,
+      "live_check_scope": "Official Met API primaryImageSmall and primaryImage: exact full JPEG bytes/SHA256, pixel dimensions, LANCZOS resized RGB RMS; GitHub Actions 42753854022. Subject independently visually compared to Met online artwork image",
+      "source_accession_number": "2015.587",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP701344.jpg",
+        "sha256": "3071d911def7386ea69b5eb2ae48e1afdc5e1ce82fb5933f02f522a8f96b23b3",
+        "byte_length": 4684398,
+        "width": 3921,
+        "height": 2990,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met API original and web-large primary JPEG. RGB LANCZOS resized RMS 5.6856",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [],
+      "emotion_strengths": {},
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/694642",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "大きな木々と光のうつろいを、技法の違いに目を向けて眺めたい",
+            "reason": "樹冠の量感と空の柔らかな色彩、枝の輪郭と速い筆致が、静かな田園に現場で描いたような躍動を与える。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "静けさは画面の空気感（tone）であり、裏付けの弱い感情を作品に割り当てていない。",
+          "Metの記すバルビゾン派、印象派、ポスト印象派の技法的影響を、特定の一派への所属と誤認しない。",
+          "Metはタナーに学ぶ機会を求めたと記すが、個別の師弟関係が成立したと断定しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metは、カナダ生まれのアメリカ人風景画家ハーパーが、フランスのバルビゾン派、印象派、ポスト印象派に見られる実験的な技法を組み合わせたと説明する。筆触と木の枝の暗い輪郭が、戸外のその場で描いたかのような即時性を生むと解説する。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/694642"
+        },
+        "creation_context": "1905年頃のフランス田園を描いた油彩画。Metによると、ハーパーはシカゴ美術館附属美術学校を1901年に卒業し、パリのアカデミー・ジュリアンでも学び、のちに同じ黒人アメリカ人画家ヘンリー・オサワ・タナーのもとで修業しようとした。",
+        "visual_clues": "画面左の大きな緑の樹冠、前景の草地、明るい午後の空、木の暗い枝の輪郭と、木陰に見える小さな人影が画面に配置される。",
+        "uncertainty_note": "Metは制作時のハーパーの心情やこの風景が個人的な記憶と関係するかまでは示していない。そのため感情タグは付けず、風景・技法・時間帯で探索可能にした。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-10",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Direct Met object catalog plus public API and image previews; original/display JPEG byte-level SHA256/pixel-downscale in Actions 42753854022. Distinct same-assistant editorial review, no human expert or independent second AI.",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "画面の左側で、大きな木々が空を覆うように枝を広げています。明るい雲の浮かぶ空と、やわらかな草地が遠くへ続きます。木の下には小さな人影も見え、樹木の大きさがいっそう際立っています。\n\nウィリアム・A・ハーパーが1905年頃に描いたフランスの風景です。メトロポリタン美術館によれば、ハーパーはバルビゾン派の風景表現に加え、印象派やポスト印象派に見られる新しい描き方も取り入れました。木の枝の濃い輪郭と、筆で素早く置いたような色の重なりが、そこで風景を見ているような感覚を生みます。\n\nハーパーはカナダ生まれの黒人アメリカ人画家です。シカゴで美術を学んだ後、パリのアカデミー・ジュリアンへ進み、同じ黒人アメリカ人画家のヘンリー・オサワ・タナーにも学ぶ機会を求めました。この一枚では、木と光と空が画面の中心を占めています。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/694642"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-10"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-694642",
+    "title": "The Trees, Early Afternoon, France",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/694642",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/694642",
+      "license_label": "The Met Open Access / CC0 (work-level Public Domain, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP701344.jpg",
+      "sha256": "da07367d97ba1da8cb53a277d8e4edcfb005948c4991758da1c020079e619b85",
+      "byte_length": 134410,
+      "last_http_sha_checked_on": "2026-11-10",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42753854022",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP701344.jpg",
+        "sha256": "3071d911def7386ea69b5eb2ae48e1afdc5e1ce82fb5933f02f522a8f96b23b3",
+        "byte_length": 4684398,
+        "width": 3921,
+        "height": 2990,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met API original and web-large primary JPEG. RGB LANCZOS resized RMS 5.6856",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2015.587"
+  }
+}

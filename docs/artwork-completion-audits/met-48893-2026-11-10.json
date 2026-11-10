@@ -1,0 +1,106 @@
+{
+  "schema_version": "artwork-v2-new-registration-1",
+  "id": "met-48893",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-48893.json",
+  "candidate_sha256": "ddab52d9154279ace207d3420af66172c08d54f7c19339c3680682063a6063f0",
+  "draft_path": "drafts/visitor-explanations/met-48893.json",
+  "draft_sha256": "6438e613f3f9b2c36bf8137a3ce7a1f16626f79dbcfad9f45a3ce784f5776d1c",
+  "baseline": {
+    "artworks_sha256": "c59db09eacb5cdf19bcd4cbebf84a114271dd058bbe8916f0ae7864543c58708",
+    "image_registry_sha256": "a4e9ca6d2b6fea91d8bbedaebc12222673d18b6c1a03d25354188ea5602ffd4c"
+  },
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/48893",
+      "location": "Overview paragraphs and Artwork Details: title, Utagawa Hiroshige, 1840s–early 1850s, 36.100.22, PD, use of untouched silk and snowy ink effects",
+      "finding": "The individual Met page supports precisely the materials, period, snow painting technique and contrast with the red undergarment, but no direct author statement of loneliness.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48893",
+      "location": "Met official object API objectID, artistDisplayName, objectDate, isPublicDomain, accessionNumber, objectName/classification, primaryImageSmall and primaryImage",
+      "finding": "Exact object ID and public-domain flag matched artist/title/date; full exact JPEGs downloaded and SHA256 checked in GitHub Actions 42753854022",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy section on CC0 public-domain artwork images and collection data",
+      "finding": "The Met releases qualifying Public Domain artwork images and basic data under Creative Commons Zero (CC0) for unrestricted use. Copyright in modern prose is a separate matter.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/48893",
+      "finding": "Specific artwork is marked Public Domain by The Met; does not grant rights to contemporary essays."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met Public Domain work and matching official primary JPEG URLs; CC0 open access. Verified full-file bytes and image content with source object."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/48893",
+      "finding": "Original Japanese visitor text independently composed from cited museum facts, without lengthy copying or close verbatim translation; no guarantee of legal clearance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant conducted a second content/visual review distinct from writing: checked official Met object description and page, identity details, image composition, distinctions between museum interpretation/author intent, primary/auxiliary emotion mapping, freshly authored Japanese explanation, and Open Access licensing. GitHub Actions 42753854022 separately fetched and compared exact JPEG bytes.",
+    "limitations": "No independent human or different AI-model reviewer. Artwork image visually examined from official-referenced online previews; full original/display JPEGs were separately checked by machine, not manually examined at every pixel. The Met API returns an empty classification for 694642 but objectName is Painting and official collection page confirms it is an oil painting. URL-encoded spaces in 765654 original API image URLs are equivalent bytes, and verified in the same run.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "The individual Met page supports precisely the materials, period, snow painting technique and contrast with the red undergarment, but no direct author statement of loneliness.",
+      "image_match": "Met 48893 published image: solitary gray-kimono figure under broad straw umbrella walking beside snow-covered pine, pale unpainted snow field, touches of red clothing, long hanging scroll. Visually matched web image search result to official Met page. Met original and web-large JPEG full byte SHA256 match downloaded copies, and RGB downscale RMS 8.6383.",
+      "historical_interpretation": "Individual work-specific Met catalogue prose is described as scholarly interpretation, not author testimony. Uncertain context or sitter/artist identity is explicitly qualified.",
+      "emotion": "Viewer-facing emotions retained only where scene provides a relevant connection. Harper kept with zero emotion tags rather than forced index coverage.",
+      "visitor_text": "New three-paragraph Japanese prose, independent phrasing with source-supported major claims and express uncertainty.",
+      "rights": "Artwork PD, official Met primary-image CC0, and original Japanese essay text assessed separately."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-14527-002.jpg",
+      "sha256": "48d70772456774db8ac93023eb2ed5a9fb19dbb5877c21dbf8a741ab035de618",
+      "byte_length": 112905,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "Met 48893 published image: solitary gray-kimono figure under broad straw umbrella walking beside snow-covered pine, pale unpainted snow field, touches of red clothing, long hanging scroll. Visually matched web image search result to official Met page. Met original and web-large JPEG full byte SHA256 match downloaded copies, and RGB downscale RMS 8.6383.",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-14527-002.jpg",
+      "sha256": "e9e5d9966b8560220bdc7918b245c9dff78e998e7c72c95d4d479a1e33bcb808",
+      "byte_length": 3774499,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "Met 48893 published image: solitary gray-kimono figure under broad straw umbrella walking beside snow-covered pine, pale unpainted snow field, touches of red clothing, long hanging scroll. Visually matched web image search result to official Met page. Met original and web-large JPEG full byte SHA256 match downloaded copies, and RGB downscale RMS 8.6383.",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "Approved by user in chat after display of these three proposed works; no individual subsequent human approval gate.",
+    "Met API primary image path for met-765654 contains literal spaces. Stored URLs are percent-encoded to form valid HTTP request paths; bytes were verified after this encoding.",
+    "add_artwork.py preview/save/check, regression tests and CI must pass before completion/main merge.",
+    "Do not alter pre-existing 304 artworks."
+  ]
+}
