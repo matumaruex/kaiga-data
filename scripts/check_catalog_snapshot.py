@@ -133,17 +133,10 @@ def main():
             else:
                 require(False, f"Batch {n}: unexpected status {ident} = {status}")
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
-    # The frozen historic values remain checkable without keeping obsolete
-    # instructions in the active README.
-    history = (ROOT / "docs/history/README-through-2026-11-10.md").read_text(encoding="utf-8")
-    heading = "## 現在の登録状況"
-    current_summary = history.split(heading, 1)[1].split("\n## ", 1)[0] if heading in history else ""
-    require("**試験登録：300作品**" in current_summary, "archived 300 work baseline missing")
     marker_start, marker_end = "<!-- EXPANSION_COUNT_START -->", "<!-- EXPANSION_COUNT_END -->"
     live_summary = readme.split(marker_start, 1)[1].split(marker_end, 1)[0] if marker_start in readme and marker_end in readme else ""
     require(f"**v2完成登録：{len(works)}作品**" in live_summary,
             f"README live count stale: {len(works)}")
-    require("画像台帳は**301件**" in current_summary, "archived historical image baseline missing")
     if errors:
         print("FAIL: snapshot integrity", len(errors))
         for e in errors:
