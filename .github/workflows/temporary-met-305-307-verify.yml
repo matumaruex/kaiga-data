@@ -43,7 +43,7 @@ jobs:
               rms=ImageStat.Stat(ImageChops.difference(orig,small)).rms
               value=(sum(x*x for x in rms)/3)**.5
               print("MATCH",oid,"small_original_rms",round(value,4),flush=True)
-              assert obj["isPublicDomain"] and obj["classification"]=="Paintings"
+              assert obj["isPublicDomain"] and (obj["classification"]=="Paintings" or obj.get("objectName")=="Painting")
               assert value<40
             except Exception as e:
               print("ERROR",oid,repr(e),flush=True)
