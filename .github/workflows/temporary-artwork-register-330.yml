@@ -32,6 +32,10 @@ jobs:
           assert old2 in s
           new2="state.write_text('## 現在の状態'+newstate.split('## 現在の状態',1)[1].split('## 過去の作業履歴',1)[0].strip()+'\\n',encoding='utf-8')\\n call('python','scripts/rotate_resume.py','update','--from',str(state))"
           s=s.replace(old2,new2.replace('\\n call','\n call'))
+          old3="  binary=get(url).content\\n  im=Image.open(io.BytesIO(binary));im.load()"
+          assert old3.replace('\\n','\n') in s
+          new3="  binary=get(url).content\\n  for attempt in range(4):\\n   if len(binary)==length and hashlib.sha256(binary).hexdigest()==sha: break\\n   print('JPEG retry',kind,'got',len(binary),hashlib.sha256(binary).hexdigest(),flush=True)\\n   time.sleep(2+attempt)\\n   binary=get(url).content\\n  im=Image.open(io.BytesIO(binary));im.load()"
+          s=s.replace(old3.replace('\\n','\n'),new3.replace('\\n','\n'))
           path.write_text(s,encoding='utf-8')
           PY
           python scripts/_tmp_register_330_332.py
