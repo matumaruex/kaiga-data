@@ -39,7 +39,7 @@ class CompletionTests(unittest.TestCase):
             self.other_completed_count += 1
             audit_path = completion["audit_path"]
             audit_data = json.loads((ROOT / audit_path).read_text())
-            if audit_data.get("schema_version") == "artwork-v2-new-registration-1":
+            if audit_data.get("schema_version") in {"artwork-v2-new-registration-1", "artwork-v2-new-registration-2"}:
                 evidence_paths = (
                     audit_path, audit_data["candidate_path"], audit_data["draft_path"]
                 )
