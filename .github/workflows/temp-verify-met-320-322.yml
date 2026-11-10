@@ -1,0 +1,53 @@
+name: Temporary Met image verification 320-322
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: codex/expand-artworks-320-322-v2
+      - name: Verify Met original and web-large JPEGs
+        shell: bash
+        run: |
+          python3 -m pip -q install pillow
+          python3 - <<'PY'
+          import json,urllib.request,hashlib,time,io
+          from PIL import Image,ImageChops,ImageStat
+          def get(u):
+              err=None
+              for n in range(4):
+                  try:
+                      req=urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0 museum-met-research/1.0"})
+                      with urllib.request.urlopen(req,timeout=65) as f:return f.read()
+                  except Exception as e:err=e;time.sleep(n+1)
+              raise err
+          failures=[]
+          for oid in [319625,454054,860960]:
+              try:
+                  obj=json.loads(get("https://collectionapi.metmuseum.org/public/collection/v1/objects/"+str(oid)))
+                  keys=("objectID","title","artistDisplayName","objectDate","classification","objectName","medium","isPublicDomain","accessionNumber","culture","primaryImageSmall","primaryImage","geographyType","country")
+                  print("OBJECT",oid,json.dumps({k:obj.get(k) for k in keys},ensure_ascii=False),flush=True)
+                  if obj["objectID"]!=oid or obj["isPublicDomain"]!=True:raise ValueError("Not matching PD object")
+                  images=[]
+                  for k in ("primaryImageSmall","primaryImage"):
+                      url=obj.get(k)
+                      if not url or not url.startswith("https://images.metmuseum.org/"):raise ValueError("No official "+k)
+                      raw=get(url)
+                      im=Image.open(io.BytesIO(raw));im.load()
+                      if im.format!="JPEG":raise ValueError("Not JPEG")
+                      print("IMAGE",oid,k,json.dumps({"url":url,"sha256":hashlib.sha256(raw).hexdigest(),"byte_length":len(raw),"width":im.width,"height":im.height,"format":im.format}),flush=True)
+                      images.append(im.convert("RGB"))
+                  sm=images[0];lg=images[1].resize(sm.size,Image.Resampling.LANCZOS)
+                  rms=(sum(v*v for v in ImageStat.Stat(ImageChops.difference(sm,lg)).rms)/3)**0.5
+                  print("MATCH",oid,"resized_RGB_RMS",round(rms,4),flush=True)
+              except Exception as e:
+                  print("ERROR",oid,repr(e),flush=True);failures.append(f"{oid}: {e}")
+          if failures:raise SystemExit("FAILED "+str(failures))
+          PY
