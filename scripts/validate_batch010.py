@@ -78,6 +78,44 @@ for candidate in candidates:
                 and current_image["image_source"]["sha256"] == newer_proof.get("image_sha256")
                 and current["image"]["display_url"] == newer_proof.get("image_url_verified")
             )
+            if not justified and key == "met-11269" and state == "held_artist_biography_not_work_emotion":
+                # The 2026-10 hold rejected Hope/Curiosity tags inferred from
+                # the painter's biography rather than the Rutter portrait.
+                # In 2026-11 a new, source-bound v2 completion was separately
+                # researched with ZERO emotion tags; retain this historic hold
+                # while permitting this exact, individually audited version.
+                audit_path = "docs/artwork-completion-audits/met-11269-2026-11-10.json"
+                new_audit = load(audit_path)
+                completion = (current or {}).get("completion", {})
+                reviewed_sources = new_audit.get("source_evidence", [])
+                newer_review = new_audit.get("separate_pass_review", {})
+                new_rights = new_audit.get("rights", {})
+                justified = (
+                    current is not None and current_image is not None
+                    and candidate.get("provisional_emotions") ==
+                        {"primary": ["希望"], "secondary": ["好奇心"]}
+                    and proof.get("museum_record_verified") is True
+                    and proof.get("image_verified") is True
+                    and proof.get("isPublicDomain") is True
+                    and completion.get("schema_version") == "artwork-completion-v2-new-1"
+                    and completion.get("audit_path") == audit_path
+                    and current["curation"]["emotions"] == []
+                    and current["curation"]["emotion_strengths"] == {}
+                    and current["curation"]["emotion_categories"] ==
+                        {"primary": [], "secondary": []}
+                    and current["image"]["sha256"] == proof.get("image_sha256")
+                    and current_image["image_source"]["sha256"] == proof.get("image_sha256")
+                    and current["image"]["display_url"] == proof.get("image_url_verified")
+                    and new_audit.get("id") == key
+                    and new_audit.get("result") == "PASS"
+                    and new_audit.get("unresolved_material_issues") == []
+                    and any(e.get("url") == candidate.get("official_url")
+                            and e.get("checked_against_source") is True
+                            for e in reviewed_sources)
+                    and newer_review.get("result") == "PASS"
+                    and all(new_rights.get(k, {}).get("verified") is True
+                            for k in ("artwork", "image", "text"))
+                )
             if not justified:
                 errors.append(f"{key}: held item promoted without justified independent reassessment")
         if state == "held_official_pd_false" and proof.get("isPublicDomain") is not False:
