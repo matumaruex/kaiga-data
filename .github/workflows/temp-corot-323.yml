@@ -57,7 +57,7 @@ jobs:
             ],
             'source_evidence':[
               {'url':url,'location':'Artwork Details and full Overview; first/only paragraph, Salon 1869, Gautier response and later landscape revisions',
-               'finding':'Met Overview says the painter exhibited the work at Salon 1869, rare among his publicly exhibited figure studies; Théophile Gautier praised color and naïveté but found the woman's drawing faulty. The artist later repainted the landscape while retaining the figure. Exact quotes bound to three Japanese claims.', 'checked_against_source':True},
+               'finding':'Met Overview says the painter exhibited the work at Salon 1869, rare among his publicly exhibited figure studies; Théophile Gautier praised color and naïveté but found the female figure drawing faulty. The artist later repainted the landscape while retaining the figure. Exact quotes bound to three Japanese claims.', 'checked_against_source':True},
               {'url':api,'location':'Official Met object API: objectID 435991, accession 28.90, artist, objectDate, classification, PD and primary-image URLs',
                'finding':'Actual Met API checked in '+run+'; full original 2926x4000 and web-large 457x625 JPEG SHA256/bytes; same-image downscale RMS 4.3086. Met API culture field is empty; artist nationality is not presented as work culture.','checked_against_source':True},
               {'url':oa,'location':'Met Open Access: CC0 images and basic data of public-domain works',
