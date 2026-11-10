@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-764090",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-764090.json",
+  "candidate_sha256": "aec9182651aea4991722c35400015fff3347dd09346035ca56838b68edfb3af7",
+  "draft_path": "drafts/visitor-explanations/met-764090.json",
+  "draft_sha256": "e403e82afd10a1b7c6a332b6571ca0ccb97cefa4cc850603fc119da81edc8c90",
+  "baseline": {
+    "artworks_sha256": "91d2f95a2570762696f92adcfb7749bfa290cf937fc1f9815e51386f42f9ba0e",
+    "image_registry_sha256": "188228c99fdc6312935cd32f4be267a8ebfacf0f9f13bf9bb51567a71d7bf866"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/764090",
+      "source_section": "Overview, second sentence: Antwerp engraving by Jan Sadeler I after Maerten de Vos",
+      "source_excerpt": "The figures derive from an engraving by Jan Sadeler I (after Maerten de Vos), published in Antwerp in 1583.",
+      "visitor_claim": "18世紀のペルー・クスコで描かれたこの作品は、1583年にアントウェルペンで出版されたヤン・サーデラー1世の版画をもとにしています"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/764090",
+      "source_section": "Overview, final sentence: birds and Cuzco landscape",
+      "source_excerpt": "The paradise landscape they inhabit, with its lush vegetation and brightly colored birds, is typical of Cuzco painting in the 18th century.",
+      "visitor_claim": "鳥や草木に満ちた楽園の風景も、当時のクスコ絵画の特徴です"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/764090",
+      "location": "Exact Met object page Artwork Details and Overview; Overview, second sentence: Antwerp engraving by Jan Sadeler I after Maerten de Vos | Overview, final sentence: birds and Cuzco landscape",
+      "finding": "Met Overview: the figures are taken from Jan Sadeler I's 1583 engraving after Maerten de Vos; God points to the tree of knowledge; the painter uses contrasting flesh colors. Birds and plants are typical of 18th-century Cuzco painting. Same artist is unknown; do not attribute this canvas to Sadeler or de Vos.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764090",
+      "location": "Met official API: objectID, title, artist, objectDate, culture, accession, isPublicDomain, primaryImage/primaryImageSmall",
+      "finding": "Verified full JSON metadata and exact original/display bytes in https://github.com/matumaruex/kaiga-data/actions/runs/42805639776; image dimensions and resizing correspondence recorded. Met API metadata not inferred from title.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for public-domain artworks and their official primary images",
+      "finding": "Met PD work object and CC0 licensed public-domain digital images; copyrighted contemporary Met exposition is excluded.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/764090",
+      "finding": "The Met public-domain flag is true for this exact object; artist/date and provenance retained with attribution uncertainty."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met official primary Open Access CC0 JPEG original/display, full bytes and image identity verified; Exact work marked Public Domain by Met; its official API primary JPEG files are Open Access CC0. Modern Met prose is not reused; the Japanese explanation is newly worded."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/764090",
+      "finding": "Original Japanese presentation newly written from checked museum facts and visual observation, not a long quotation or near-translation. No legal guarantee."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate substantive review: exact object-specific Met Overview read, short excerpts checked against visitor claims; Met IIIF main-image visually inspected; official API/primary JPEG SHA256, dimensions and downscale matched at https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+    "limitations": "Same AI independently reread the source and Met artwork image as a separate pass, not a human expert. Unknown painter, exact print comparison beyond Met claim not independently established, and legal noninfringement is not guaranteed.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met ID met-764090 title=Adam and Eve in Paradise, artist=Unknown, accession=2022.426. Explicit differences from other works and artist attribution reviewed.",
+      "image_match": "The same Met 764090 official IIIF main-image (https://collectionapi.metmuseum.org/api/collection/v1/iiif/764090/1954438/main-image) shows a red-cloaked gray-haired God on left pointing up toward a fruit-bearing tree; center are Eve and Adam, surrounded by dark trees and multicolored birds. The painting is not the earlier engraving. Official API original/display full SHA256/dimensions and resize match run: https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+      "historical_interpretation": "The composition came via a 1583 print from Antwerp but the canvas was painted in 18th-century Cuzco; flora, birds, and color contrast belong to its local painted expression.",
+      "emotion": "The biblical warning and sacred figures substantiate modest 畏敬 strength 2; no invented feelings for Adam, Eve, God, or maker.",
+      "visitor_text": "Two exact Met artwork-page excerpts bound to two concrete Japanese visitor claims; visual language independently compared with depicted figures and forms. No near-literal prose copying.",
+      "rights": "Exact work marked Public Domain by Met; its official API primary JPEG files are Open Access CC0. Modern Met prose is not reused; the Japanese explanation is newly worded."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18756-001.jpg",
+      "sha256": "b6d9d66a9933c15327540b601f85f7193fe2af44fbc258664205d70a7f2c98f5",
+      "byte_length": 92814,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "The same Met 764090 official IIIF main-image (https://collectionapi.metmuseum.org/api/collection/v1/iiif/764090/1954438/main-image) shows a red-cloaked gray-haired God on left pointing up toward a fruit-bearing tree; center are Eve and Adam, surrounded by dark trees and multicolored birds. The painting is not the earlier engraving. Display and original form same image as official Met ID; corresponding full JPEG hashes/size and downscale RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18756-001.jpg",
+      "sha256": "c933b7643fe51c0123d1ca9fcd951f7a3953e8a05750957b1f58b5368049a1f9",
+      "byte_length": 3877177,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "The same Met 764090 official IIIF main-image (https://collectionapi.metmuseum.org/api/collection/v1/iiif/764090/1954438/main-image) shows a red-cloaked gray-haired God on left pointing up toward a fruit-bearing tree; center are Eve and Adam, surrounded by dark trees and multicolored birds. The painting is not the earlier engraving. Original JPEG resolution 4000x2565 checked; reduced to display pair, same artwork https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "One individually investigated, version-bound work; do not modify older artworks and their audits.",
+    "Separate review by the same AI is not external professional or human review.",
+    "The displayed-image JPEG and high-resolution JPEG are official public files, not embedded binary assets in the Git data repository."
+  ]
+}

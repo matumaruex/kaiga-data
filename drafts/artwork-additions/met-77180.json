@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-77180",
+  "artwork": {
+    "id": "met-77180",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 77180,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/77180",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/77180",
+      "record_checked_on": "2026-11-10"
+    },
+    "facts": {
+      "title_original": "Parading Courtesan",
+      "title_ja_provisional": "花魁図",
+      "artist": "Momokawa Shikō",
+      "creation_date_display": "late 18th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "2020.393.1"
+    },
+    "image": {
+      "image_id": "met-77180-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-21616-002.jpg",
+      "source_registry_id": "met-77180",
+      "local_path": "/artworks/met-77180.jpg",
+      "sha256": "ddd2cbfb6e93dfda1a11c94b3ab51f02d5d6505b4a687ab19641aa67f40ae71d",
+      "byte_length": 94159,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API identity+PD, 2 complete JPEG SHA256, byte counts, dimensions and downscale RMS: https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+      "source_accession_number": "2020.393.1",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-21616-002.jpg",
+        "sha256": "fbc966bc9fc7057e7b2c5f4e28717b603c040d842a4967b937828a07e42864f7",
+        "byte_length": 3147825,
+        "width": 3000,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met official API same-object original/display JPEGs downscale RMS 5.1611",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [],
+      "emotion_strengths": {},
+      "tones": [
+        "余韻"
+      ],
+      "themes": [
+        "都市",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/77180",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "華やかな江戸の人物像と、その上に書かれた禅の言葉の組み合わせを読みたい",
+            "reason": "Met作品別Overviewは豪華な着物と兵庫髷の簪から人物を吉原の高位の遊女・花魁と同定し、絵師の書いた上部の賛文が禅僧沢庵宗彭（1573–1645）の言葉や禅句を引用すると説明する。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "女性本人の境遇・心情や、この絵に託した作者の倫理的意図は公式説明から特定できない。絵に書かれた禅句をこの女性個人の発言として扱わない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewは豪華な着物と兵庫髷の簪から人物を吉原の高位の遊女・花魁と同定し、絵師の書いた上部の賛文が禅僧沢庵宗彭（1573–1645）の言葉や禅句を引用すると説明する。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/77180"
+        },
+        "creation_context": "late 18th century, Japan; Hanging scroll; ink and color on silk; accession 2020.393.1.",
+        "visual_clues": "Met公式IIIFでは縦長の掛軸の下半に、赤・緑・暗色の衣を幾重にも重ね、両手を髪飾りへ伸ばす人物、上半に細かな墨書がある。衣装模様と書の配置を確認。",
+        "uncertainty_note": "女性本人の境遇・心情や、この絵に託した作者の倫理的意図は公式説明から特定できない。絵に書かれた禅句をこの女性個人の発言として扱わない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-10",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI separate review; Met exact work official Overview and IIIF shown, full JPEG SHA256 + dimensions and RMS at https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "長い掛軸の下側に、鮮やかな衣を重ね着した女性が立っています。大きく結い上げた髪に手を伸ばし、細かな髪飾りを整える姿。上半分には、人物を取り囲む余白を残して、墨の文字が書かれています。\n\n18世紀後半にモモカワ・シコウが描いたのは、江戸・吉原の高位の遊女である花魁です。特徴的な兵庫髷や幾重もの衣装が、その立場を示しています。美術館の解説によると、絵師による上部の文章には、禅僧の沢庵宗彭の言葉や「色即是空」に通じる句が引かれています。\n\n華やかな装いと、静かに置かれた墨書。色や模様を追ったあとに文字へ視線を移すと、ひとつの人物画の中に異なる表現が重ねられていることが分かります。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/77180"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-10"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-77180",
+    "title": "Parading Courtesan",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/77180",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/77180",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-21616-002.jpg",
+      "sha256": "ddd2cbfb6e93dfda1a11c94b3ab51f02d5d6505b4a687ab19641aa67f40ae71d",
+      "byte_length": 94159,
+      "last_http_sha_checked_on": "2026-11-10",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42805639776",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-21616-002.jpg",
+        "sha256": "fbc966bc9fc7057e7b2c5f4e28717b603c040d842a4967b937828a07e42864f7",
+        "byte_length": 3147825,
+        "width": 3000,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met official API same-object original/display JPEGs downscale RMS 5.1611",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2020.393.1"
+  }
+}
