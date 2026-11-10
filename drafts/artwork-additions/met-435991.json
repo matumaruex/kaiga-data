@@ -1,0 +1,155 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-435991",
+  "artwork": {
+    "id": "met-435991",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 435991,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/435991",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435991",
+      "record_checked_on": "2026-11-10"
+    },
+    "facts": {
+      "title_original": "A Woman Reading",
+      "title_ja_provisional": "読書する女性",
+      "artist": "Camille Corot",
+      "creation_date_display": "1869 and 1870",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "not specified by source",
+      "accession_number": "28.90"
+    },
+    "image": {
+      "image_id": "met-435991-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16589-001.jpg",
+      "source_registry_id": "met-435991",
+      "local_path": "/artworks/met-435991.jpg",
+      "sha256": "01636f97776dc6101f6f7f2f0883914b7ced510a662f693e8f2577f76c27226a",
+      "byte_length": 96559,
+      "live_image_checked": true,
+      "live_check_scope": "Met API object ID and original/web-large complete SHA256 + dimensions + downscale RMS https://github.com/matumaruex/kaiga-data/actions/runs/42802438308",
+      "source_accession_number": "28.90",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-16589-001.jpg",
+        "sha256": "8408e849f433f0f42f3c8e7975f9b62beabe363d447f08e348863a7cffd19b85",
+        "byte_length": 3389355,
+        "width": 2926,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Official Met original to web-large JPEG downscale RGB RMS 4.3086",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "日常",
+        "時間",
+        "自然"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/435991",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "静かな日常風景を見ながら、絵が描き直された過程も考えたい",
+            "reason": "Met作品別Overviewによると、コローは1869年のサロンに本作を出品し、風景画家として珍しい人物画の公開作となった。ゴーティエは色彩を褒めつつ女性の描写を批判。コローはその後、人物をそのまま残し、風景の部分を描き直した。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "読書する女性の気持ちや読んでいる本の内容は特定されていない。",
+          "人物の描写が批評されたことと、作品の価値・モデルの心理を同一視しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによると、コローは1869年のサロンに本作を出品し、風景画家として珍しい人物画の公開作となった。ゴーティエは色彩を褒めつつ女性の描写を批判。コローはその後、人物をそのまま残し、風景の部分を描き直した。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/435991"
+        },
+        "creation_context": "1869 and 1870, French painter Camille Corot, oil on canvas; shown at Salon of 1869; accession 28.90.",
+        "visual_clues": "草地に座り、頬を手に載せて本を読む人物。濃い髪、明るい肩と青い袖、広がる茶色のスカート、草地と低い地平線、淡色の空。Met作品ID 435991の公式IIIF画像を目視し、同じ対象のMet API JPEG原寸と表示版の縮小一致を確認。",
+        "uncertainty_note": "女性の身元・読書の内容・心理は出典から確認できない。制作後の加筆はMet Overviewに記録されるが、具体的な筆致の変更箇所を独立した技術調査で特定したわけではない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-10",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same assistant's separate evidence pass, not human scholarly review. Official Met source, IIIF and JPEG verification https://github.com/matumaruex/kaiga-data/actions/runs/42802438308",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "草地に座った女性は、片手で頬を支え、膝の上の開いた本に目を落としています。青い袖が、背後の淡い空の色と呼応します。人物のすぐ後ろには草木が広がり、その向こうには低い地平線が見えます。\n\n風景画で知られるコローは、1869年、この作品をパリのサロンに出品しました。人物を描いた作品を展覧会に出すのは彼にとって珍しいことでした。批評家テオフィル・ゴーティエは色彩を評価する一方、女性の描き方には不備があると評しました。メトロポリタン美術館によれば、コローはその後、人物は変えず、背景の風景を描き直しました。\n\n女性がどんな本を読み、何を考えているのかは分かりません。描き直された風景と、残された読書する姿。その二つに目を向けると、静かな光景の中にも、画家が制作を重ねた時間が感じられます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/435991"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-10"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-435991",
+    "title": "A Woman Reading",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/435991",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/435991",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16589-001.jpg",
+      "sha256": "01636f97776dc6101f6f7f2f0883914b7ced510a662f693e8f2577f76c27226a",
+      "byte_length": 96559,
+      "last_http_sha_checked_on": "2026-11-10",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42802438308",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-16589-001.jpg",
+        "sha256": "8408e849f433f0f42f3c8e7975f9b62beabe363d447f08e348863a7cffd19b85",
+        "byte_length": 3389355,
+        "width": 2926,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Official Met original to web-large JPEG downscale RGB RMS 4.3086",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "28.90"
+  }
+}

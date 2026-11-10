@@ -1,0 +1,124 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-435991",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-435991.json",
+  "candidate_sha256": "5ad2fc36a9133721d376d877d1fd23a45a7e8de61c3c6754a931e862ee0b3587",
+  "draft_path": "drafts/visitor-explanations/met-435991.json",
+  "draft_sha256": "e4f750c309e08675a9d6d50b1fd52d9e1d49ae0470e91e38828ab80660d74a8b",
+  "baseline": {
+    "artworks_sha256": "b5a35cf64a137adfc27f0a04dc4be42077e688f88aac11bb8e7847150885bae1",
+    "image_registry_sha256": "ed2f35e9f8d153656d6440c621da4ad99b365c6269cfc99e4737c71f6646a926"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/435991",
+      "source_section": "Overview, opening sentence: Corot and the Salon of 1869",
+      "source_excerpt": "When the seventy-two-year-old Corot showed A Woman Reading at the Salon of 1869",
+      "visitor_claim": "風景画で知られるコローは、1869年、この作品をパリのサロンに出品しました"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/435991",
+      "source_section": "Overview, critic Théophile Gautier assessment",
+      "source_excerpt": "praised its naïveté and its color but criticized the faulty drawing of the woman",
+      "visitor_claim": "批評家テオフィル・ゴーティエは色彩を評価する一方、女性の描き方には不備があると評しました"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/435991",
+      "source_section": "Overview, final sentence: landscape repainted and figure retained",
+      "source_excerpt": "he reworked the landscape but left the figure intact",
+      "visitor_claim": "メトロポリタン美術館によれば、コローはその後、人物は変えず、背景の風景を描き直しました"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/435991",
+      "location": "Artwork Details and full Overview; first/only paragraph, Salon 1869, Gautier response and later landscape revisions",
+      "finding": "Met Overview says the painter exhibited the work at Salon 1869, rare among his publicly exhibited figure studies; Théophile Gautier praised color and naïveté but found the female figure drawing faulty. The artist later repainted the landscape while retaining the figure. Exact quotes bound to three Japanese claims.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/435991",
+      "location": "Official Met object API: objectID 435991, accession 28.90, artist, objectDate, classification, PD and primary-image URLs",
+      "finding": "Actual Met API checked in https://github.com/matumaruex/kaiga-data/actions/runs/42802438308; full original 2926x4000 and web-large 457x625 JPEG SHA256/bytes; same-image downscale RMS 4.3086. Met API culture field is empty; artist nationality is not presented as work culture.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access: CC0 images and basic data of public-domain works",
+      "finding": "Met grants CC0 use of official PD work images and basic object data; modern Met prose is not covered by image CC0.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/435991",
+      "finding": "Met exact object marked Public Domain; creator died 1875."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met CC0 for Open Access public-domain object images; exact primary JPEGs were downloaded and hashed."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/435991",
+      "finding": "New Japanese text independently worded from facts and observation, not a translation or lengthy copy; not a legal guarantee."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant separate evidence check: reread exact Met Overview and Details; compared the painter, Salon date, critic and revised sections against the drafted Japanese text; examined the official Met IIIF image, checked the official Met object API, full original/display hashes, dimensions and RGB downscale RMS in https://github.com/matumaruex/kaiga-data/actions/runs/42802438308",
+    "limitations": "Not a separate human or independent scholarly expert. Website HTML accessible for direct inspection; CI re-fetch may encounter 429. The figure’s mental state and the changes’ precise microscopic locations are not verified. No legal clearance opinion.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 435991, Corot, A Woman Reading, 1869 and 1870, accession 28.90; painting not confused with other Corot readers.",
+      "image_match": "Met IIIF for same object displays woman in blue-sleeved bodice reading outdoors; official primaryJPEG and web-large RMS 4.3086, URLs and hashes in run https://github.com/matumaruex/kaiga-data/actions/runs/42802438308",
+      "historical_interpretation": "Met Overview confirms Salon 1869, Gautier color praise and figure criticism, and that Corot reworked landscape but not figure. Do not assert unknown thought, text of book, or psychological intent.",
+      "emotion": "Only secondary 好奇心 (strength 1), a tentative viewer association; no claim about her feelings.",
+      "visitor_text": "Three central historical claims linked to short exact Met-source excerpts. Visual observations are visible in Met official IIIF artwork image.",
+      "rights": "Specific painting PD, Met Open Access image CC0, distinct original explanatory prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16589-001.jpg",
+      "sha256": "01636f97776dc6101f6f7f2f0883914b7ced510a662f693e8f2577f76c27226a",
+      "byte_length": 96559,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "The official ID 435991 IIIF image depicts a seated, dark-haired woman with blue sleeves reading outdoors. Primary image exact web-large bytes SHA256 and dimensions independently verified in https://github.com/matumaruex/kaiga-data/actions/runs/42802438308; downscale RMS 4.3086.",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-16589-001.jpg",
+      "sha256": "8408e849f433f0f42f3c8e7975f9b62beabe363d447f08e348863a7cffd19b85",
+      "byte_length": 3389355,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "Met official original matching same subject and exact object API primaryImage. Full JPEG SHA256 2926x4000, resized to 457x625 with RMS 4.3086 against display, https://github.com/matumaruex/kaiga-data/actions/runs/42802438308",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "One newly researched artwork, existing 322 records preserved.",
+    "Same assistant separate pass is not independent human review; app-publication timing and future image license issues separate."
+  ]
+}
