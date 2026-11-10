@@ -1,0 +1,140 @@
+{
+  "schema_version": "artwork-v2-source-recheck-1",
+  "id": "met-48984",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "result_applies_to": "proposed_artwork_and_current_visitor_draft",
+  "progress": "未完成",
+  "version": {
+    "baseline_commit": "aa8c761afd3ec85eeda2807c6f1c4af0fa9786a8",
+    "artwork_record_sha256": "af37059576f56cc2533beebb8499b5524b08b243520fe2c50f642e86e6f1e1cb",
+    "artwork_record_hash_encoding": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon)",
+    "draft_path": "drafts/visitor-explanations/met-48984.json",
+    "draft_sha256": "1ff92b66732979f5f5053209671f6e154d62f7d819533fa490727248f0a0def1"
+  },
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/48984",
+      "access": "page_read_twice",
+      "locations": [
+        "Met 48984 heading lines 28–40; Artwork Details lines 70–79; official Open Access link 99–102"
+      ],
+      "observed": "Met currently calls it Old Man and Woman, Attributed to Ogata Kōrin (not proven original), Japanese Edo period; ink and color on silk hanging scroll, 29.8x41.9cm; Met17.118.117, Rogers Fund 1917, Public Domain. No individual painting-symbolism interpretation provided in published record."
+    },
+    {
+      "url": "https://www.city.takasago.lg.jp/soshikikarasagasu/citypromotionshitsu/kanko_tokusan/2_1/3144.html",
+      "access": "page_read_twice",
+      "locations": [
+        "Takasago City '尉と姥伝説' updated 2026-02-20, lines 131–138 and story 153–165, paired mythical elderly cleaners with rake/broom under pine"
+      ],
+      "observed": "The general Takasago tradition depicts 尉 and 姥 as symbolic elderly couple under pine, cleaning using rake and broom, emblem of marital harmony; this city's text does not identify or academically attribute Met48984."
+    }
+  ],
+  "images": [
+    {
+      "id": "met-48984",
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP260447.jpg",
+      "status": 200,
+      "sha256": "ce690d548fea328fadd92718042b3837555e1ed1ea1bc522639af4cbb0e700ae",
+      "byte_length": 2668856,
+      "width": 2000,
+      "height": 1500,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-11-10",
+      "fresh_download_in_this_session": true,
+      "prior_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42735434769 new source image check and visible downscaled preview on 2026-11-10"
+    },
+    {
+      "id": "met-48984",
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP260447.jpg",
+      "status": 200,
+      "sha256": "23b9af9a4dd0bfb8eb3cf032189cebeff474bf8354a92f72604ed43094357732",
+      "byte_length": 218567,
+      "matches_registered_bytes": true,
+      "sha_checked_on": "2026-10-20",
+      "fresh_download_in_this_session": false,
+      "prior_evidence": "Registered web-large JPEG full-length hash checked in 2026-10 and unchanged catalog record; high-resolution original reverified on 2026-11-10"
+    }
+  ],
+  "visual_observations": {
+    "method": "The exact registered original () was fetched and SHA-256 checked by GitHub Actions run 42735434769 on 2026-11-10. Its max-800px preview was individually visually examined in a separate pass. This run rechecks original bytes; the 800px review is not original-pixel-level scrutiny.",
+    "observed": "Verified 2000x1500 source image downscaled to 800px shows two elderly people facing one another in patterned robes beneath large pine tree, a small face/figure peeking from behind trunk at upper left, round wicker basket or container, rake-like implement across foreground, long broom-like twig at far right. Individual figure identities and purpose of implements cannot be asserted; compositional resemblance to traditional 尉/姥 iconography is a comparison, not a verified painting-specific identification."
+  },
+  "separate_pass_review": {
+    "completed": true,
+    "result": "PASS",
+    "reviewer": "same_assistant_separate_pass",
+    "separate_agent_used": false,
+    "separate_context_used": false,
+    "method": "After drafting the Japanese visitor text, revisited the individual Met entry and (where applicable) the cited art-museum research, independently compared original JPEG visuals to claims and the catalog accession, and checked this exact work against same-name or different-folio alternatives.",
+    "limitations": "Same assistant in a separate review pass, not an independent human or external model. Actual picture reviewed as an 800px thumbnail derived from freshly SHA-verified registered JPEG; original source links were rechecked where available and institutional interpretations distinguished from artist testimony.",
+    "reviewed_artwork_sha256": "f68fbbb4f019b123a85dc007a254cfdeeecf3ade7d04dcf08405dbdc03c89734",
+    "reviewed_visitor_draft_sha256": "1ff92b66732979f5f5053209671f6e154d62f7d819533fa490727248f0a0def1",
+    "checks": [
+      {
+        "area": "identity",
+        "finding": "Met48984, accession 17.118.117, original source file DP260447 2000x1500 SHA-256 ce690d548fea328fadd92718042b3837555e1ed1ea1bc522639af4cbb0e700ae, catalog SHA matches; current Met's 'Attributed to' is preserved, author not certified."
+      },
+      {
+        "area": "context_and_interpretation",
+        "finding": "Met gives no dedicated scholarly meaning paragraph. Elderly figures, pine and cleaning implements may suggest Japanese Takasago 尉/姥 motif, whose general significance is documented by Takasago City, but museum has not identified this exact work as Takasago; artwork-specific conclusion held uncertain."
+      },
+      {
+        "area": "emotion",
+        "finding": "Zero primary and secondary emotions are retained; the motif's possible marital harmony is an iconographic subject and not evidence viewer must feel ease or painter's private emotion."
+      },
+      {
+        "area": "text_and_similarity",
+        "finding": "New Japanese visitor text is independently worded, separates official museum facts from tentative motif, avoids inventing a date or author intent, notes small additional figure and implements as observations. Neither copyrighted Met explanation nor city narrative is reproduced extensively."
+      }
+    ]
+  },
+  "program_checks": {
+    "result": "PASS",
+    "proposed_artwork_sha256": "f68fbbb4f019b123a85dc007a254cfdeeecf3ade7d04dcf08405dbdc03c89734",
+    "visitor_draft_sha256": "1ff92b66732979f5f5053209671f6e154d62f7d819533fa490727248f0a0def1",
+    "proposal_sha256": "f89245a1b63cba8cde5f868eb9179a3afb612ca50a5fa5be9829de8ca03c8cb8",
+    "checks": [
+      "300_unique_ids",
+      "target_baseline_artwork_sha256",
+      "other_299_unchanged_by_scoped_revision",
+      "2026_11_10_original_image_bytes_reverified",
+      "existing_emotion_tags_unchanged"
+    ],
+    "structure_count": 300,
+    "ai_judgment_included": false,
+    "limitations": "Hash and input bindings checked here; Python preview/save/check and structural/snapshot validators are mandatory next, then PR CI before merge."
+  },
+  "proposal": {
+    "path": "drafts/artwork-revisions/met-48984.json",
+    "sha256": "f89245a1b63cba8cde5f868eb9179a3afb612ca50a5fa5be9829de8ca03c8cb8",
+    "proposed_artwork_sha256": "f68fbbb4f019b123a85dc007a254cfdeeecf3ade7d04dcf08405dbdc03c89734",
+    "applied_to_catalog": false
+  },
+  "rights_check": {
+    "source_url": "https://www.metmuseum.org/art/collection/search/48984",
+    "locations": [
+      "Met work-level Public Domain declaration",
+      "Met Open Access reuse policy as linked on the collection page",
+      "Original Japanese text checked for non-verbatim museum prose"
+    ],
+    "checked_on": "2026-11-10",
+    "result": "PASS",
+    "unresolved_material_issues": [],
+    "finding": "The identified Met artwork is marked Public Domain and the registered image bytes match; the independently drafted Japanese prose does not reproduce museum prose. This database inclusion assessment is not a legal guarantee."
+  },
+  "remaining": [],
+  "promotion": {
+    "eligible": true,
+    "production_changed": false,
+    "merged": false,
+    "human_approval_required": false
+  },
+  "notes": [
+    "Image run: https://github.com/matumaruex/kaiga-data/actions/runs/42735434769",
+    "No attempt to infer a painter's personal feelings from iconography or topic. All visual statements are limited to visible composition and museum documentation.",
+    "Audit authored from a separate assistant content review; Python code does not invent or judge artistic meaning."
+  ]
+}

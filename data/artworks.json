@@ -36184,7 +36184,7 @@
       },
       "facts": {
         "title_original": "Old Man and Woman",
-        "title_ja_provisional": "老夫婦（尾形光琳伝）",
+        "title_ja_provisional": "老人と老女（尾形光琳に帰属）",
         "artist": "Attributed to Ogata Kōrin",
         "creation_date_display": "Date not specified by museum API",
         "type": "Painting",
@@ -36235,8 +36235,8 @@
             }
           ],
           "selection_cautions": [
-            "作者の帰属は『Attributed to Ogata Kōrin』で確定しない。",
-            "作者の制作意図・画中人物・鑑賞者の感情は区別する。"
+            "画家は『Attributed to Ogata Kōrin』であり、尾形光琳の真筆と断定しない。",
+            "松と男女・掃除道具から高砂の尉・姥を連想できるが、所蔵館の当該作品への正式な同定ではない。作者・画中人物・鑑賞者の感情を混同しない。"
           ],
           "review_status": "evidence_review_pending"
         },
@@ -36247,12 +36247,12 @@
             "source_url": null
           },
           "scholarly_interpretation": {
-            "summary": "尾形光琳に帰属される江戸時代の老いた男女を描く掛軸。",
+            "summary": "Metの現行登録ページは尾形光琳への『帰属』、江戸時代、絹本墨彩の掛軸といった作品情報を掲げるが、主題に関する当該作品固有の専門的解説は確認できない。松の下に向き合う老人と老女、熊手や箒を思わせる道具は能『高砂』の尉・姥の一般図像と比較できる。ただし、これは画面と高砂伝承の照合による可能性にとどまり、この作品の主題が高砂だと確定する美術館の見解ではない。",
             "source_url": "https://www.metmuseum.org/art/collection/search/48984"
           },
-          "creation_context": "尾形光琳に帰属される江戸時代の老いた男女を描く掛軸。",
-          "visual_clues": "向き合う老いた男女の姿。",
-          "uncertainty_note": "作者の帰属は『Attributed to Ogata Kōrin』で確定しない。 作者本人の当該作品への直接発言は確認できない。"
+          "creation_context": "日本の江戸時代に制作された絹本墨彩の掛軸。Met所蔵17.118.117、ロジャース基金で1917年に収蔵。所蔵館は『Attributed to Ogata Kōrin』として作者の帰属を未確定にし、個別の制作年を記していない。",
+          "visual_clues": "松の大きな幹と枝の下で老いた男女が向き合い、二人の近くに籠のような入れ物、熊手や箒のような細長い道具、幹の陰には小さな顔らしきものも見える。これらの図像を『高砂』に断定的には同定しない。",
+          "uncertainty_note": "現行所蔵館の表示は尾形光琳に『帰属』する作品であり真筆とは確定していない。個別の制作年、人物が特定の実在の夫婦か、高砂の尉・姥に同定できるか、小さな姿の人物同定、作者自身の個別制作意図や感情は確認できない。高砂伝承との接点は一般図像との比較にとどまる。"
         },
         "emotion_categories": {
           "primary": [],
@@ -36269,6 +36269,26 @@
         "ai_content_review_status": "needs_revision",
         "source_evidence_review_status": "pending",
         "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "松の太い幹の下で、年老いた男性と女性が向き合って座っています。二人の衣には色や文様が描き分けられ、そばには籠や熊手・箒を思わせる道具が置かれています。木の陰から小さな姿も顔をのぞかせています。大きな余白のなかに、人物と道具がゆったりと配されています。\n\n松の下の老人と老女、熊手や箒という組み合わせは、能『高砂』に登場する「尉（じょう）と姥（うば）」の図像を連想させます。高砂市が紹介する伝承では、二人は相生の松の精であり、夫婦和合の象徴とされます。ただし、メトロポリタン美術館の現行登録名は《Old Man and Woman》で、この二人が尉と姥であるとは明記されていません。ここでは確定した作品名や作者の意図としてではなく、図像を理解する手掛かりとして挙げています。\n\n作品は江戸時代の日本で制作された絹本墨彩の掛軸で、1917年に同美術館の所蔵となりました。作者は尾形光琳に「帰属する」と記されており、光琳の真筆と確定しているわけではありません。具体的な制作年や、画家がこの場面で表そうとしたことも、現在確認できる作品別資料だけでは分かりません。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/48984",
+          "https://www.city.takasago.lg.jp/soshikikarasagasu/citypromotionshitsu/kanko_tokusan/2_1/3144.html"
+        ],
+        "review": {
+          "content_status": "pending",
+          "source_status": "pending",
+          "rights_status": "pending",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-1",
+        "audit_path": "docs/artwork-completion-audits/met-48984-2026-11-10.json",
+        "audit_sha256": "eb0c2a20af9570ca8ec0d706a4d84c5b4f5af040f57f8dd51cbcd50a802872f2",
+        "record_sha256": "2618f0e41bc7f59c3d594aa69ea978139261f3259f7903008fa6c3b49891e6d4"
       }
     },
     {
