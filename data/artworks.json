@@ -37675,6 +37675,132 @@
         "audit_sha256": "2b05186df7c9db77c1e908effb5cbf875f34dbc15f44ff9c1b39cab0cbfda5c5",
         "record_sha256": "078886fc5b88c7d6822c962f197ac4d6912d35c5e9b26153fbb2769c2d3779a1"
       }
+    },
+    {
+      "id": "met-11259",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 11259,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/11259",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11259",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "Corn Husking at Nantucket",
+        "title_ja_provisional": "ナンタケットのトウモロコシの皮むき",
+        "artist": "Eastman Johnson",
+        "creation_date_display": "ca. 1875",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "American",
+        "accession_number": "07.68"
+      },
+      "image": {
+        "image_id": "met-11259-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/ap07.68.jpg",
+        "source_registry_id": "met-11259",
+        "local_path": "/artworks/met-11259.jpg",
+        "sha256": "f179b3a12ddc5b809fe9eea841f70878dd152561d2327703b257b43864cd747f",
+        "byte_length": 66144,
+        "live_image_checked": true,
+        "live_check_scope": "Met full JPEG bytes/SHA256 and pixel fit at RMS 7.4277; image viewed in official-source GitHub Actions https://github.com/matumaruex/kaiga-data/actions/runs/42760271445",
+        "source_accession_number": "07.68",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/ap07.68.jpg",
+          "sha256": "894bba83eb05ef045d002b9a490f816abbd62ae79fc3c5f676db51cc323ee13d",
+          "byte_length": 889409,
+          "width": 2872,
+          "height": 1432,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Official original/display downscale RMS 7.4277",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "懐かしさ"
+        ],
+        "emotion_strengths": {
+          "懐かしさ": 2
+        },
+        "tones": [
+          "にぎわい"
+        ],
+        "themes": [
+          "共同体",
+          "日常",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/11259",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "人々が集まり季節の仕事を分かち合う昔の暮らしを眺めたい",
+              "reason": "秋の共同作業と、近代化の中で古い労働風景を描きとめたというMetの解説が結び付く。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "懐かしさは鑑賞の入口であり、作者や登場人物の心情を断定しない。",
+            "北部の自由な共同労働と南部の小作制度の対比はMetによる制作時代の読解として示す。",
+            "同題の別作、とくにシカゴ美術館版との取り違えを避ける。Met所蔵07.68の屋外群像。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは1876年のナショナル・アカデミー・オブ・デザイン展で注目された大作の最終習作の可能性が高いと説明する。産業化が進む時代に伝統的なニューイングランドの仕事を描いたこと、再建期の北部の共同労働が南部の小作制度に対比されたことを論じる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/11259"
+          },
+          "creation_context": "1875年頃、ナンタケット島の野外の収穫作業を描いた油彩。大作の最終習作と見られるが断定ではない。画家はクランベリー収穫や樹液採取なども描いた。",
+          "visual_clues": "横長の野外風景。大きな藁の山や散った茎の間に大勢の作業者が座り、また立っている。前景に鶏、奥に建物と木立が見える。",
+          "uncertainty_note": "1876年展の大作とのつながりはMetも推定にとどめる。農村労働の社会的読解と登場人物の個々の境遇は区別する。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "懐かしさ"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met website, object API, original JPEG visual preview and exact SHA check https://github.com/matumaruex/kaiga-data/actions/runs/42760271445; same assistant separate-pass analysis not external scholarly audit.",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "広い畑に人が集まり、藁やトウモロコシに囲まれて手を動かしています。奥には大きな束が積み上がり、手前には鶏が歩いています。人々はそれぞれの場所で作業しながら、ひとつの季節の仕事を進めています。\n\nイーストマン・ジョンソンが1875年頃に描いた、アメリカ・ナンタケット島の収穫風景です。メトロポリタン美術館はこの作品を、翌1876年の展覧会で高く評価された大作に向けた最後の習作だった可能性が高いと説明しています。\n\n産業化が進む時代、ジョンソンはクランベリーの収穫や樹液採取など、地域に根付いた仕事を繰り返し描きました。美術館は、南北戦争後の再建期にこの絵の共同作業が北部の自由な労働の象徴としても読まれたことを指摘しています。穏やかな田園の集まりに見える一枚には、当時の社会の捉え方も重なっています。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/11259"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-11259-2026-11-10.json",
+        "audit_sha256": "719ec38c25e22e383348e331129326f3b781109924a7a18530558b79f25a7ba4",
+        "record_sha256": "6e96fc9349e1f35bf11178e659901e24f78022343615b9f4484d88e3a40fc121"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
