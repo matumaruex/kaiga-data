@@ -5,7 +5,7 @@
 ## 登録状況
 
 <!-- EXPANSION_COUNT_START -->
-**v2完成登録：316作品**
+**v2完成登録：319作品**
 <!-- EXPANSION_COUNT_END -->
 
 登録数は最新 `main` の `data/artworks.json` を正本とする。DBへの登録と公開サイトへの反映は別。

@@ -1,0 +1,112 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-16580",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-16580.json",
+  "candidate_sha256": "86ecd9d6a62a17f33951c17fdef16f5b017ed4c3d6621b84b5c2ce7f3b1c033f",
+  "draft_path": "drafts/visitor-explanations/met-16580.json",
+  "draft_sha256": "01d66d6039b99a8e0d6971843c4c7565e4c1a8ccc329bce30a214fd79e397931",
+  "baseline": {
+    "artworks_sha256": "5f71a6f14da8b2d0aacff0abdb132039a8c35b6ccee0295be4f0548ea752ee86",
+    "image_registry_sha256": "3ca218ad5b898ed1b2e0decd7627e4f4e80d633b7213bce6e77cd219c0075f68"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/16580",
+      "source_section": "Overview, first paragraph, classes for women in New York studio",
+      "source_excerpt": "taught art classes for women in his New York City studio",
+      "visitor_claim": "ラングは、1867年からニューヨークの自分のアトリエで女性に美術を教えていました"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/16580",
+      "location": "Artwork Details and full Overview including Overview, first paragraph, classes for women in New York studio",
+      "finding": "Metによると、ドイツ生まれのルイス・ラングは1867年からニューヨークのブロードウェイと西28丁目にあった自身のアトリエで女性向けの絵画教室を開いた。本作にはパレット、絵具、版画の本、石膏像、建築の断片、画架といった学習道具が集まる。1860年代後半には女性が専門家として美術を学ぶ場が私塾から教育機関へ広がり、クーパー・ユニオン（1859年創設）やレディース・アート・アソシエーション（1867年設立）もあった。 絵に描かれた女性たちの実名、卒業後の進路、画家の内心は資料で確定されていない。美術教育の拡大を描くことと当時の機会が平等だったことは同じではない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/16580",
+      "location": "Official objectID, accession, classification, PD, primaryImageSmall/primaryImage",
+      "finding": "Met primary-image full SHA256 and size confirmed: https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy and CC0 reuse for public domain works",
+      "finding": "The Met provides image and basic object data CC0; modern explanatory prose is not covered.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/16580",
+      "finding": "Exact Met object marked Public Domain."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met Open Access CC0 on exact official JPEGs verified by full hash."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/16580",
+      "finding": "Independent new Japanese explanation based on facts and viewing, not near translation; legal certainty not guaranteed."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant: direct Met Overview and Details independently checked against drafted claims, visual composition checked in Met-designated image, Met API original and display JPEG full SHA256, size and RMS evidence in https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+    "limitations": "Not external scholarly or human review. Met official HTML quotes read directly; online CI re-fetch may HTTP 429. No legal clearance opinion.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met 16580 accession 1999.143 confirmed; 絵に描かれた女性たちの実名、卒業後の進路、画家の内心は資料で確定されていない。美術教育の拡大を描くことと当時の機会が平等だったことは同じではない。",
+      "image_match": "室内には画架に向かう女性、紙に絵を描く人物、石膏像を眺める女性などがいる。壁に石膏像や彫刻、右端に図版が並び、室内の奥にも人物が見える。Met作品別画像で確認し、公式APIからの大小JPEGのハッシュ・縮小一致を別工程で確認。 Full hashes at https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+      "historical_interpretation": "Metによると、ドイツ生まれのルイス・ラングは1867年からニューヨークのブロードウェイと西28丁目にあった自身のアトリエで女性向けの絵画教室を開いた。本作にはパレット、絵具、版画の本、石膏像、建築の断片、画架といった学習道具が集まる。1860年代後半には女性が専門家として美術を学ぶ場が私塾から教育機関へ広がり、クーパー・ユニオン（1859年創設）やレディース・アート・アソシエーション（1867年設立）もあった。",
+      "emotion": "Source-grounded tags; zero allowed.",
+      "visitor_text": "Japanese text independently compared with Met Overview and Artwork Details.",
+      "rights": "Met Public Domain object, Met CC0 official image, independently worded Japanese text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-19092-001.jpg",
+      "sha256": "4bcbae9cd800e72a99d4b0054a77ad9257985aa6c58bf02b42bc9cbe2522ef68",
+      "byte_length": 122047,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "室内には画架に向かう女性、紙に絵を描く人物、石膏像を眺める女性などがいる。壁に石膏像や彫刻、右端に図版が並び、室内の奥にも人物が見える。Met作品別画像で確認し、公式APIからの大小JPEGのハッシュ・縮小一致を別工程で確認。 Official source image and resized pair RMS 5.1767.",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-19092-001.jpg",
+      "sha256": "857339e8f34b9a44fa99718e25387af5ace5bc523fa59057047dc9742b9a9ca0",
+      "byte_length": 4824227,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "室内には画架に向かう女性、紙に絵を描く人物、石膏像を眺める女性などがいる。壁に石膏像や彫刻、右端に図版が並び、室内の奥にも人物が見える。Met作品別画像で確認し、公式APIからの大小JPEGのハッシュ・縮小一致を別工程で確認。 Official source image and resized pair RMS 5.1767.",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "One-off 317–319 research record. Previous 313 works and their original audits are unchanged.",
+    "Same-assistant separate pass; not independent human expert."
+  ]
+}

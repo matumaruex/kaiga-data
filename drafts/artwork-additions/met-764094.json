@@ -1,0 +1,155 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-764094",
+  "artwork": {
+    "id": "met-764094",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 764094,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/764094",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764094",
+      "record_checked_on": "2026-11-10"
+    },
+    "facts": {
+      "title_original": "Our Lady of Cocharcas",
+      "title_ja_provisional": "コチャルカスの聖母",
+      "artist": "Unknown",
+      "creation_date_display": "1759",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Peru (Cuzco)",
+      "accession_number": "2019.14"
+    },
+    "image": {
+      "image_id": "met-764094-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18755-015.jpg",
+      "source_registry_id": "met-764094",
+      "local_path": "/artworks/met-764094.jpg",
+      "sha256": "7cd23dc34fe49c79097be5372e1f9375f2f98fc9a99df9b7c82d92c3fc054dd7",
+      "byte_length": 154576,
+      "live_image_checked": true,
+      "live_check_scope": "Official Met API original+web-large full JPEG hashes and dimensions, downscale RMS, https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+      "source_accession_number": "2019.14",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18755-015.jpg",
+        "sha256": "436cb0b6d99ada0b73fb8d70a0e04ebc73ab8b3ce364d9d770f368cb97b48b8e",
+        "byte_length": 4911718,
+        "width": 2927,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Official original to web-large downscale RGB RMS 6.6959",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "畏敬": 2
+      },
+      "tones": [
+        "にぎわい"
+      ],
+      "themes": [
+        "共同体",
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/764094",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "宗教的な行列とアンデスの風景が一枚に重なる絵を味わいたい",
+            "reason": "Metの作品別解説によれば、コチャルカスの聖母の奇跡の像がアンデスの険しい山間にある行列用の祭壇に示され、周囲の曲がりくねった山道には巡礼者や信心深い人々が配される。像を周囲の人物より著しく大きく描くことで、像と場所の神聖さが強調される。9月8日の聖母祭に結びつく巡礼行列を描いたと考えられている。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "奇跡は信仰の伝承として紹介し、史実として実証された出来事とは扱わない。巡礼行列を描いたという説も推定表現。",
+          "行列が実際の特定日の様子そのものと断定しない。制作した画家の名前も不詳。画中の聖母像への奇跡の信仰と作品の物理的効果は別。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metの作品別解説によれば、コチャルカスの聖母の奇跡の像がアンデスの険しい山間にある行列用の祭壇に示され、周囲の曲がりくねった山道には巡礼者や信心深い人々が配される。像を周囲の人物より著しく大きく描くことで、像と場所の神聖さが強調される。9月8日の聖母祭に結びつく巡礼行列を描いたと考えられている。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/764094"
+        },
+        "creation_context": "1759, Peru (Cuzco); Oil and gold on canvas, accession 2019.14.",
+        "visual_clues": "画面の中心を大きく占める冠を戴いた聖母子像は天蓋と豪華な装飾に囲まれ、両側には山道を行く小さな巡礼者、遠くの教会や集落が描かれる。Met作品別画像で画面を確認。オリジナルと表示JPEGの全量ハッシュ・画素縮小一致は公式APIに基づくGitHub Actionsで確認。",
+        "uncertainty_note": "行列が実際の特定日の様子そのものと断定しない。制作した画家の名前も不詳。画中の聖母像への奇跡の信仰と作品の物理的効果は別。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "畏敬"
+        ],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-10",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same assistant separate pass; Met exact images full hashes in https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "中央には、大きな冠を戴いた聖母子像。刺繍のように細かな衣と天蓋のまわりから目を外すと、その両側の険しい山道に、驚くほど小さな人々がいることに気づきます。\n\n《コチャルカスの聖母》は1759年、ペルーのクスコ地方で描かれた油彩画です。聖母の像を行列用の祭壇に据え、まわりには山間を行く巡礼者や信者たちを描いています。メトロポリタン美術館は、毎年9月8日の聖母祭に関連する巡礼行列を表した可能性を指摘しています。\n\n聖母子像が人々よりはるかに大きいのは、遠近法だけでは説明できません。小さな旅人をたどり、大きな像へ視線を戻すと、人々がその場所に寄せてきた信仰の重みが、画面の尺度からも伝わってきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/764094"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-10"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-764094",
+    "title": "Our Lady of Cocharcas",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/764094",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/764094",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18755-015.jpg",
+      "sha256": "7cd23dc34fe49c79097be5372e1f9375f2f98fc9a99df9b7c82d92c3fc054dd7",
+      "byte_length": 154576,
+      "last_http_sha_checked_on": "2026-11-10",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18755-015.jpg",
+        "sha256": "436cb0b6d99ada0b73fb8d70a0e04ebc73ab8b3ce364d9d770f368cb97b48b8e",
+        "byte_length": 4911718,
+        "width": 2927,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Official original to web-large downscale RGB RMS 6.6959",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2019.14"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-635384",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-635384.json",
+  "candidate_sha256": "ea30643a3ecc257e719760b4cf4431e20bf8272d88850168c72599ed25c7d81b",
+  "draft_path": "drafts/visitor-explanations/met-635384.json",
+  "draft_sha256": "41661ac15ed0f7fa3f8992a339c96d23872f441c0eeba1c52cf7c906575a14dc",
+  "baseline": {
+    "artworks_sha256": "e7de04fcf4d81ac87fefbc01c34007252413c94a9a03dd79040d535fceffaa17",
+    "image_registry_sha256": "309cc296b8b18f2ab6a645cc4c1c6015849bbf462872f7184a885d89cefe94f7"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/635384",
+      "source_section": "Overview, first paragraph, private devotional five-painting series",
+      "source_excerpt": "created this set of five paintings for the private devotional use of Juan Bautista Echeverría",
+      "visitor_claim": "エンリケスは商人フアン・バウティスタ・エチェベリアの個人的な信仰のため、五枚組の絵を制作しました"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/635384",
+      "location": "Artwork Details and full Overview including Overview, first paragraph, private devotional five-painting series",
+      "finding": "Metの作品別解説では、メキシコの画家ニコラス・エンリケスが1773年、スペイン生まれの商人フアン・バウティスタ・エチェベリアの私的礼拝のために制作した五枚組のうちの一枚。洗礼者ヨハネは依頼人の名に関係する聖人であり、水の透明な滴とキリストの水に入った足を細やかに表している。銘文は依頼人の信仰によって描かれたことを伝える。 依頼人の内心や五枚組のすべての展示場所は本作品の解説だけでは断定しない。洗礼の奇跡の実証ではなく宗教主題の絵画。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/635384",
+      "location": "Official objectID, accession, classification, PD, primaryImageSmall/primaryImage",
+      "finding": "Met primary-image full SHA256 and size confirmed: https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy and CC0 reuse for public domain works",
+      "finding": "The Met provides image and basic object data CC0; modern explanatory prose is not covered.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/635384",
+      "finding": "Exact Met object marked Public Domain."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met Open Access CC0 on exact official JPEGs verified by full hash."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/635384",
+      "finding": "Independent new Japanese explanation based on facts and viewing, not near translation; legal certainty not guaranteed."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant: direct Met Overview and Details independently checked against drafted claims, visual composition checked in Met-designated image, Met API original and display JPEG full SHA256, size and RMS evidence in https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+    "limitations": "Not external scholarly or human review. Met official HTML quotes read directly; online CI re-fetch may HTTP 429. No legal clearance opinion.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met 635384 accession 2014.171 confirmed; 依頼人の内心や五枚組のすべての展示場所は本作品の解説だけでは断定しない。洗礼の奇跡の実証ではなく宗教主題の絵画。",
+      "image_match": "川に足をつけたキリストが画面左寄りに立ち、右側の赤い衣をまとった洗礼者ヨハネがその頭へ水を注ぐ。上方には鳩と雲間の人物が描かれる。Met公式作品画像で確認し、公式API提供の大小JPEGの全量ハッシュと縮小一致も確認。 Full hashes at https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+      "historical_interpretation": "Metの作品別解説では、メキシコの画家ニコラス・エンリケスが1773年、スペイン生まれの商人フアン・バウティスタ・エチェベリアの私的礼拝のために制作した五枚組のうちの一枚。洗礼者ヨハネは依頼人の名に関係する聖人であり、水の透明な滴とキリストの水に入った足を細やかに表している。銘文は依頼人の信仰によって描かれたことを伝える。",
+      "emotion": "Source-grounded tags; zero allowed.",
+      "visitor_text": "Japanese text independently compared with Met Overview and Artwork Details.",
+      "rights": "Met Public Domain object, Met CC0 official image, independently worded Japanese text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP356935.jpg",
+      "sha256": "381e0a5eef3c8f6bc852979411c099bd1917373ef7633760a58aebfbcf5e149c",
+      "byte_length": 67464,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "川に足をつけたキリストが画面左寄りに立ち、右側の赤い衣をまとった洗礼者ヨハネがその頭へ水を注ぐ。上方には鳩と雲間の人物が描かれる。Met公式作品画像で確認し、公式API提供の大小JPEGの全量ハッシュと縮小一致も確認。 Official source image and resized pair RMS 3.7764.",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP356935.jpg",
+      "sha256": "b3800790438aeb5afbb3b5db31bbca0bcf8826ed7249db30f805ab31fa4051ff",
+      "byte_length": 2333469,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "川に足をつけたキリストが画面左寄りに立ち、右側の赤い衣をまとった洗礼者ヨハネがその頭へ水を注ぐ。上方には鳩と雲間の人物が描かれる。Met公式作品画像で確認し、公式API提供の大小JPEGの全量ハッシュと縮小一致も確認。 Official source image and resized pair RMS 3.7764.",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "One-off 317–319 research record. Previous 313 works and their original audits are unchanged.",
+    "Same-assistant separate pass; not independent human expert."
+  ]
+}
