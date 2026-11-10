@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-437102",
+  "artwork": {
+    "id": "met-437102",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 437102,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/437102",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437102",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Landscape with a Cottage",
+      "title_ja_provisional": "小屋のある風景",
+      "artist": "Pieter de Molijn",
+      "creation_date_display": "1629",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Unknown (Met API culture unspecified; Dutch artist)",
+      "accession_number": "95.7"
+    },
+    "image": {
+      "image_id": "met-437102-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146459.jpg",
+      "source_registry_id": "met-437102",
+      "local_path": "/artworks/met-437102.jpg",
+      "sha256": "66e562c6fe1f77ae7c803f981d7e66e6576bafa83a395f70302482c906876666",
+      "byte_length": 51907,
+      "live_image_checked": true,
+      "live_check_scope": "Met exact object, complete original/display SHA256, dimensions and downscale: https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "source_accession_number": "95.7",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146459.jpg",
+        "sha256": "5a852758a4f68883108dfbd6b35f5b4734588bcebab53891e8892b927b083f5e",
+        "byte_length": 2097556,
+        "width": 3903,
+        "height": 2647,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met exact official object original/display RGB downscale RMS 4.27892",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [],
+      "emotion_strengths": {},
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "自然",
+        "日常"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/437102",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "身近な風景の中で、低い視点や抑えた色彩が生む空気を味わいたい",
+            "reason": "Met作品別Overviewでは、1620年代のオランダの風景画が、地域の土地の様子を茶・灰・緑など落ち着いた色調で描く方向へ変化したと説明する。上空から俯瞰するのでなく、視点は地面近くの深い影に置かれ、その時代の独立戦争と国民意識の高まりにも触れる。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "絵に描かれた道・小屋を特定の地名に結びつけない。作者の内面や鑑賞者の感情を断定しない。作者のオランダ国籍をAPIに無い文化フィールドへ短絡させない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewでは、1620年代のオランダの風景画が、地域の土地の様子を茶・灰・緑など落ち着いた色調で描く方向へ変化したと説明する。上空から俯瞰するのでなく、視点は地面近くの深い影に置かれ、その時代の独立戦争と国民意識の高まりにも触れる。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/437102"
+        },
+        "creation_context": "1629; Unknown (Met API culture unspecified; Dutch artist); Oil on wood; accession 95.7",
+        "visual_clues": "低く伸びる砂地の道と小屋、小さな人影、暗い地面の上に大きな雲と空が広がる。Met公式の別撮影画像と、同作の原寸/表示主画像を物体ID 437102に紐づけた。地形が正確な場所を写したとまでは言えない。",
+        "uncertainty_note": "絵に描かれた道・小屋を特定の地名に結びつけない。作者の内面や鑑賞者の感情を断定しない。作者のオランダ国籍をAPIに無い文化フィールドへ短絡させない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Separate same-AI source/subject review, official Met object and complete JPEGs https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "砂地の道が緩やかに奥へ続き、低い地平線の上を大きな雲が覆っています。道の近くには小さな家屋と人影があり、広い空と暗い地面の対比が目を引きます。\n\n1629年の作品です。メトロポリタン美術館は、当時のオランダ風景画には、身近な地形を茶色や灰色、緑色の抑えた色合いで描く変化があったと説明しています。また、この絵では見る人の視点が地面に近く、深い影の中に置かれています。\n\n遠景を上から見下ろすのではなく、道を歩く人と同じ高さに立つように見ると、雲の大きさと地面の質感が際立ちます。何気ない場所を描くことが、当時の絵画表現の新しさにもつながっていたのです。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437102"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-437102",
+    "title": "Landscape with a Cottage",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/437102",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/437102",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146459.jpg",
+      "sha256": "66e562c6fe1f77ae7c803f981d7e66e6576bafa83a395f70302482c906876666",
+      "byte_length": 51907,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146459.jpg",
+        "sha256": "5a852758a4f68883108dfbd6b35f5b4734588bcebab53891e8892b927b083f5e",
+        "byte_length": 2097556,
+        "width": 3903,
+        "height": 2647,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met exact official object original/display RGB downscale RMS 4.27892",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "95.7"
+  }
+}

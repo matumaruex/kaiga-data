@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-451256",
+  "artwork": {
+    "id": "met-451256",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 451256,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/451256",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/451256",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Man Holding a Bottle and a Cup",
+      "title_ja_provisional": "瓶と杯を持つ人物",
+      "artist": "Unknown artist",
+      "creation_date_display": "16th–17th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Iran, Isfahan (Met geography; culture not specified by API)",
+      "accession_number": "55.121.8"
+    },
+    "image": {
+      "image_id": "met-451256-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/wb-55.121.8.JPG",
+      "source_registry_id": "met-451256",
+      "local_path": "/artworks/met-451256.jpg",
+      "sha256": "ef2db603126c62be152b506fb52edc8420cec7758b105d037d2579b1da091654",
+      "byte_length": 62392,
+      "live_image_checked": true,
+      "live_check_scope": "Met exact object, complete original/display SHA256, dimensions and downscale: https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "source_accession_number": "55.121.8",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/wb-55.121.8.JPG",
+        "sha256": "be79437178b3096fc7bb43d88acc9da63640dd7e84c9e8478b6dff1452fb8c4c",
+        "byte_length": 680141,
+        "width": 1016,
+        "height": 2560,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met exact official object original/display RGB downscale RMS 11.78245",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [],
+      "emotion_strengths": {},
+      "tones": [
+        "落ち着き"
+      ],
+      "themes": [
+        "共同体",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/451256",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "イランの宮廷装飾と人物画を、壁画片の材質ごと眺めたい",
+            "reason": "Met作品別Overviewによれば、16〜17世紀のサファヴィー朝宮殿では壁画が発注され、宮廷の杯を扱う若者は理想化された姿でよく描かれた。画面の題材は壁画にもアルバム用の作品にも用いられたと説明する。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "特定の個人の肖像と断定しない。壁画が置かれた具体的な宮殿名や、杯の飲み物の中身は公式解説に無いので推測しない。作者個人は不詳。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによれば、16〜17世紀のサファヴィー朝宮殿では壁画が発注され、宮廷の杯を扱う若者は理想化された姿でよく描かれた。画面の題材は壁画にもアルバム用の作品にも用いられたと説明する。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/451256"
+        },
+        "creation_context": "16th–17th century; Iran, Isfahan (Met geography; culture not specified by API); Ink, opaque watercolor, and gold on plaster; accession 55.121.8",
+        "visual_clues": "縦長の傷みを帯びた壁画片に、大きなターバン、赤い衣装、杯と細長い瓶を持つ上半身が描かれる。Met公式の同一物体画像とprimary JPEG URLを照合し、部分像を別作品と混同しない。",
+        "uncertainty_note": "特定の個人の肖像と断定しない。壁画が置かれた具体的な宮殿名や、杯の飲み物の中身は公式解説に無いので推測しない。作者個人は不詳。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Separate same-AI source/subject review, official Met object and complete JPEGs https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "縦長の壁画片に、大きなターバンを巻いた若者が描かれています。赤い衣装には丸い飾りが連なり、手には杯と瓶が見えます。ところどころ色が剥がれた表面は、この絵が長い時間を経て残ったことを伝えます。\n\n16〜17世紀のサファヴィー朝では、宮殿のために壁画が注文されました。美術館によれば、宮廷で杯を扱う若者は、理想化された姿で好んで描かれる題材でした。同じような人物は、壁画だけでなくアルバム用の絵にも登場しました。\n\n顔や布の細かな線と、欠けた壁面の対比に目を向けると、華やかな宮廷文化のイメージと、実際の作品に刻まれた時間とを同時に感じ取れます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/451256"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-451256",
+    "title": "Man Holding a Bottle and a Cup",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/451256",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/451256",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/is/web-large/wb-55.121.8.JPG",
+      "sha256": "ef2db603126c62be152b506fb52edc8420cec7758b105d037d2579b1da091654",
+      "byte_length": 62392,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/wb-55.121.8.JPG",
+        "sha256": "be79437178b3096fc7bb43d88acc9da63640dd7e84c9e8478b6dff1452fb8c4c",
+        "byte_length": 680141,
+        "width": 1016,
+        "height": 2560,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met exact official object original/display RGB downscale RMS 11.78245",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "55.121.8"
+  }
+}

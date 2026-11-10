@@ -1,0 +1,118 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-37817",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-37817.json",
+  "candidate_sha256": "28d50e7842ce246c4f07d55c70fdacc81089e6d478e5f9f9640a75048a02153c",
+  "draft_path": "drafts/visitor-explanations/met-37817.json",
+  "draft_sha256": "8aa7b74ba37e1c4ab6effb25f71c5796d5d55aef36fc3fb117aa923311de8b51",
+  "baseline": {
+    "artworks_sha256": "55c47ad87f770013da8f294e68cb6f508f29c2728a6b7a99504bd939a78165db",
+    "image_registry_sha256": "88dd1c1cb0a32cac86d925dcdb6176eded54edcec35cfa41e468051a0101a03d"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/37817",
+      "source_excerpt": "Munchen Sangye Rinchen served as abbot from 1513 to 1516",
+      "visitor_claim": "主役のムンチェン・サンゲ・リンチェンは、1513年から1516年までンゴル寺の第8代住職を務めました",
+      "source_section": "Overview: abbot tenure"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/37817",
+      "source_excerpt": "one hand raised in exposition, the other holding the text",
+      "visitor_claim": "彼は片手を教えを説く仕草で掲げ、もう一方の手には説法に使う経典を持っています",
+      "source_section": "Overview: raised hand and preaching text"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/37817",
+      "location": "Artwork Details and Overview; Overview: abbot tenure | Overview: raised hand and preaching text",
+      "finding": "Met作品別Overviewは、ムンチェン・サンゲ・リンチェンが1513〜1516年にンゴル寺の第8代住職を務め、当時の寺がチベットのウー・ツァン地方に政治的な影響力を持っていたと記す。師が蓮華座に座り、教えを示す手と経典、周囲の祖師・守護尊が描かれると説明している。 Source/subject matched using same Met object page; visual: 中央の僧が蓮華の座に坐り、赤・青・金色を含む枠の内外に多数の小さな像が整列する縦長のタンカ。絵の下部と上部に別の人物像が並び、装飾的な輪郭と細部が目立つ。Met同一作品の画像と所蔵番号1971.176に紐づく公式JPEGを照合。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/37817",
+      "location": "Exact Met objectID, accession, date, primaryImage, primaryImageSmall, classification, public-domain API",
+      "finding": "Exact Met object official metadata; complete bytes and dimensions of original and display JPEGs checked in https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 public-domain object image and basic data policy",
+      "finding": "Images of PD works and basic facts are CC0, but modern artwork Overview writing is not automatically freely reusable.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/37817",
+      "finding": "Exact object labelled Public Domain at Met and API isPublicDomain:true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met OA/CC0 exact primary JPEG; both variants independently checked for full SHA256/dimensions https://github.com/matumaruex/kaiga-data/actions/runs/42916204559"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/37817",
+      "finding": "Newly written Japanese visitor prose, original structure, only brief exact quoted primary passages in source audits; no human legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Separate source-based same-AI evaluation of exact Met public domain webpage text, 2 source excerpt-to-Japanese-claim bindings, official image and primary JPEG API byte checks; research evidence https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+    "limitations": "Not an external human expert, human visual sign-off, or legal clearance. Met site may throttle CI re-fetch; offline quote binding is not a substitute for having read the original pages.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Exact Met object 37817, Portrait of Munchen Sangye Rinchen, the Eighth Abbot of Ngor Monastery, 1971.176; attribution and date kept as source.",
+      "image_match": "中央の僧が蓮華の座に坐り、赤・青・金色を含む枠の内外に多数の小さな像が整列する縦長のタンカ。絵の下部と上部に別の人物像が並び、装飾的な輪郭と細部が目立つ。Met同一作品の画像と所蔵番号1971.176に紐づく公式JPEGを照合。 Full official image bytes and downscale RMS 10.04085; https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "historical_interpretation": "Met作品別Overviewは、ムンチェン・サンゲ・リンチェンが1513〜1516年にンゴル寺の第8代住職を務め、当時の寺がチベットのウー・ツァン地方に政治的な影響力を持っていたと記す。師が蓮華座に座り、教えを示す手と経典、周囲の祖師・守護尊が描かれると説明している。 Limits: 絵に描かれた儀礼や感情を現代的に断定せず、Metが説明する図像配置に留める。作者個人は不詳。16世紀末の制作と16世紀初頭の住職任期を混同しない。",
+      "emotion": "Tag selection grounded in scene, culture and cautious visitor associations; ['畏敬'].",
+      "visitor_text": "Independent Japanese paragraphs with two direct Met-Overview sourced claim-to-excerpt checks; source prose not translated verbatim.",
+      "rights": "Met official PD object; Met OA/CC0 primary JPEG; distinct current Overview content addressed separately."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP238089.jpg",
+      "sha256": "7a725c0827739f248a48cd549784db62b0d627ea5cd5df0937dc743e4c251226",
+      "byte_length": 76960,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "中央の僧が蓮華の座に坐り、赤・青・金色を含む枠の内外に多数の小さな像が整列する縦長のタンカ。絵の下部と上部に別の人物像が並び、装飾的な輪郭と細部が目立つ。Met同一作品の画像と所蔵番号1971.176に紐づく公式JPEGを照合。 Official exact-object primary JPEG and downscaled counterpart checked in https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "checked_on": "2026-11-11"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP238089.jpg",
+      "sha256": "12b921a7bfdf07ec4a5d1207565ef3209c3972b162b7eeab21a30c69b5412400",
+      "byte_length": 1675446,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "中央の僧が蓮華の座に坐り、赤・青・金色を含む枠の内外に多数の小さな像が整列する縦長のタンカ。絵の下部と上部に別の人物像が並び、装飾的な輪郭と細部が目立つ。Met同一作品の画像と所蔵番号1971.176に紐づく公式JPEGを照合。 Official exact-object primary JPEG and downscaled counterpart checked in https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+      "checked_on": "2026-11-11"
+    }
+  ],
+  "notes": [
+    "Sequential addition number 330; prior records unmodified.",
+    "Same AI independent checking pass, not human scholarly or legal approval."
+  ]
+}

@@ -40239,6 +40239,363 @@
         "audit_sha256": "5da8be4bac074cd428d779b00be957ec2bf7193d67269d225ac3d1cc4d27fa50",
         "record_sha256": "e25efe001c5e03e6f3e529b2c02427007437d77d16d8936b8de61868ab0d47dd"
       }
+    },
+    {
+      "id": "met-37817",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 37817,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/37817",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/37817",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Portrait of Munchen Sangye Rinchen, the Eighth Abbot of Ngor Monastery",
+        "title_ja_provisional": "ンゴル寺第8代住職ムンチェン・サンゲ・リンチェンの肖像",
+        "artist": "Unknown artist",
+        "creation_date_display": "late 16th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Tibet",
+        "accession_number": "1971.176"
+      },
+      "image": {
+        "image_id": "met-37817-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP238089.jpg",
+        "source_registry_id": "met-37817",
+        "local_path": "/artworks/met-37817.jpg",
+        "sha256": "7a725c0827739f248a48cd549784db62b0d627ea5cd5df0937dc743e4c251226",
+        "byte_length": 76960,
+        "live_image_checked": true,
+        "live_check_scope": "Met exact object, complete original/display SHA256, dimensions and downscale: https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+        "source_accession_number": "1971.176",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP238089.jpg",
+          "sha256": "12b921a7bfdf07ec4a5d1207565ef3209c3972b162b7eeab21a30c69b5412400",
+          "byte_length": 1675446,
+          "width": 1834,
+          "height": 3562,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met exact official object original/display RGB downscale RMS 10.04085",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 2
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/37817",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "仏教の師の肖像を、まわりの尊像や経典との配置から読みたい",
+              "reason": "Met作品別Overviewは、ムンチェン・サンゲ・リンチェンが1513〜1516年にンゴル寺の第8代住職を務め、当時の寺がチベットのウー・ツァン地方に政治的な影響力を持っていたと記す。師が蓮華座に座り、教えを示す手と経典、周囲の祖師・守護尊が描かれると説明している。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "絵に描かれた儀礼や感情を現代的に断定せず、Metが説明する図像配置に留める。作者個人は不詳。16世紀末の制作と16世紀初頭の住職任期を混同しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewは、ムンチェン・サンゲ・リンチェンが1513〜1516年にンゴル寺の第8代住職を務め、当時の寺がチベットのウー・ツァン地方に政治的な影響力を持っていたと記す。師が蓮華座に座り、教えを示す手と経典、周囲の祖師・守護尊が描かれると説明している。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/37817"
+          },
+          "creation_context": "late 16th century; Tibet; Distemper and gold on cloth; accession 1971.176",
+          "visual_clues": "中央の僧が蓮華の座に坐り、赤・青・金色を含む枠の内外に多数の小さな像が整列する縦長のタンカ。絵の下部と上部に別の人物像が並び、装飾的な輪郭と細部が目立つ。Met同一作品の画像と所蔵番号1971.176に紐づく公式JPEGを照合。",
+          "uncertainty_note": "絵に描かれた儀礼や感情を現代的に断定せず、Metが説明する図像配置に留める。作者個人は不詳。16世紀末の制作と16世紀初頭の住職任期を混同しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "畏敬"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Separate same-AI source/subject review, official Met object and complete JPEGs https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "鮮やかな色彩の中央に、僧が蓮の座に座り、周囲を数多くの仏教尊像が取り囲んでいます。上部や左右には小さな像が並び、下部にも別の尊像が置かれています。\n\n主役のムンチェン・サンゲ・リンチェンは、1513年から1516年までンゴル寺の第8代住職を務めました。美術館によれば、当時の寺はチベットの中部や西部でも政治的な力を持っていました。彼は片手を教えを説く仕草で掲げ、もう一方の手には説法に使う経典を持っています。\n\n細部を見ると、宝石で飾られた書物や座の縁、周囲の小さな像が丁寧に重ねられています。ひとりの僧の姿を取り巻く、仏教の系譜や教えの広がりにも目を向けられる作品です。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/37817"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-37817-2026-11-11.json",
+        "audit_sha256": "cfb75efa83a70e135440852d25292bb480806b1d23b015ccb4536d989f05e312",
+        "record_sha256": "c124d06116cfa2d8efbe104acc47a0a223deeca079c519f78ffa70a69abd71ae"
+      }
+    },
+    {
+      "id": "met-437102",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437102,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437102",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437102",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Landscape with a Cottage",
+        "title_ja_provisional": "小屋のある風景",
+        "artist": "Pieter de Molijn",
+        "creation_date_display": "1629",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Unknown (Met API culture unspecified; Dutch artist)",
+        "accession_number": "95.7"
+      },
+      "image": {
+        "image_id": "met-437102-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146459.jpg",
+        "source_registry_id": "met-437102",
+        "local_path": "/artworks/met-437102.jpg",
+        "sha256": "66e562c6fe1f77ae7c803f981d7e66e6576bafa83a395f70302482c906876666",
+        "byte_length": 51907,
+        "live_image_checked": true,
+        "live_check_scope": "Met exact object, complete original/display SHA256, dimensions and downscale: https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+        "source_accession_number": "95.7",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146459.jpg",
+          "sha256": "5a852758a4f68883108dfbd6b35f5b4734588bcebab53891e8892b927b083f5e",
+          "byte_length": 2097556,
+          "width": 3903,
+          "height": 2647,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met exact official object original/display RGB downscale RMS 4.27892",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "自然",
+          "日常"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437102",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "身近な風景の中で、低い視点や抑えた色彩が生む空気を味わいたい",
+              "reason": "Met作品別Overviewでは、1620年代のオランダの風景画が、地域の土地の様子を茶・灰・緑など落ち着いた色調で描く方向へ変化したと説明する。上空から俯瞰するのでなく、視点は地面近くの深い影に置かれ、その時代の独立戦争と国民意識の高まりにも触れる。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "絵に描かれた道・小屋を特定の地名に結びつけない。作者の内面や鑑賞者の感情を断定しない。作者のオランダ国籍をAPIに無い文化フィールドへ短絡させない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewでは、1620年代のオランダの風景画が、地域の土地の様子を茶・灰・緑など落ち着いた色調で描く方向へ変化したと説明する。上空から俯瞰するのでなく、視点は地面近くの深い影に置かれ、その時代の独立戦争と国民意識の高まりにも触れる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437102"
+          },
+          "creation_context": "1629; Unknown (Met API culture unspecified; Dutch artist); Oil on wood; accession 95.7",
+          "visual_clues": "低く伸びる砂地の道と小屋、小さな人影、暗い地面の上に大きな雲と空が広がる。Met公式の別撮影画像と、同作の原寸/表示主画像を物体ID 437102に紐づけた。地形が正確な場所を写したとまでは言えない。",
+          "uncertainty_note": "絵に描かれた道・小屋を特定の地名に結びつけない。作者の内面や鑑賞者の感情を断定しない。作者のオランダ国籍をAPIに無い文化フィールドへ短絡させない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Separate same-AI source/subject review, official Met object and complete JPEGs https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "砂地の道が緩やかに奥へ続き、低い地平線の上を大きな雲が覆っています。道の近くには小さな家屋と人影があり、広い空と暗い地面の対比が目を引きます。\n\n1629年の作品です。メトロポリタン美術館は、当時のオランダ風景画には、身近な地形を茶色や灰色、緑色の抑えた色合いで描く変化があったと説明しています。また、この絵では見る人の視点が地面に近く、深い影の中に置かれています。\n\n遠景を上から見下ろすのではなく、道を歩く人と同じ高さに立つように見ると、雲の大きさと地面の質感が際立ちます。何気ない場所を描くことが、当時の絵画表現の新しさにもつながっていたのです。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/437102"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-437102-2026-11-11.json",
+        "audit_sha256": "584edb125e90151731063f499290712b7c6d6be29dfd2b458bb583afa4e6bd5e",
+        "record_sha256": "3170d7e2147785f1abec2e6dfb454e91e2e06905e1c8ad99a8d37a9434c078c7"
+      }
+    },
+    {
+      "id": "met-451256",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 451256,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/451256",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/451256",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Man Holding a Bottle and a Cup",
+        "title_ja_provisional": "瓶と杯を持つ人物",
+        "artist": "Unknown artist",
+        "creation_date_display": "16th–17th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Iran, Isfahan (Met geography; culture not specified by API)",
+        "accession_number": "55.121.8"
+      },
+      "image": {
+        "image_id": "met-451256-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/wb-55.121.8.JPG",
+        "source_registry_id": "met-451256",
+        "local_path": "/artworks/met-451256.jpg",
+        "sha256": "ef2db603126c62be152b506fb52edc8420cec7758b105d037d2579b1da091654",
+        "byte_length": 62392,
+        "live_image_checked": true,
+        "live_check_scope": "Met exact object, complete original/display SHA256, dimensions and downscale: https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+        "source_accession_number": "55.121.8",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/wb-55.121.8.JPG",
+          "sha256": "be79437178b3096fc7bb43d88acc9da63640dd7e84c9e8478b6dff1452fb8c4c",
+          "byte_length": 680141,
+          "width": 1016,
+          "height": 2560,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met exact official object original/display RGB downscale RMS 11.78245",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/451256",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "イランの宮廷装飾と人物画を、壁画片の材質ごと眺めたい",
+              "reason": "Met作品別Overviewによれば、16〜17世紀のサファヴィー朝宮殿では壁画が発注され、宮廷の杯を扱う若者は理想化された姿でよく描かれた。画面の題材は壁画にもアルバム用の作品にも用いられたと説明する。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "特定の個人の肖像と断定しない。壁画が置かれた具体的な宮殿名や、杯の飲み物の中身は公式解説に無いので推測しない。作者個人は不詳。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによれば、16〜17世紀のサファヴィー朝宮殿では壁画が発注され、宮廷の杯を扱う若者は理想化された姿でよく描かれた。画面の題材は壁画にもアルバム用の作品にも用いられたと説明する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/451256"
+          },
+          "creation_context": "16th–17th century; Iran, Isfahan (Met geography; culture not specified by API); Ink, opaque watercolor, and gold on plaster; accession 55.121.8",
+          "visual_clues": "縦長の傷みを帯びた壁画片に、大きなターバン、赤い衣装、杯と細長い瓶を持つ上半身が描かれる。Met公式の同一物体画像とprimary JPEG URLを照合し、部分像を別作品と混同しない。",
+          "uncertainty_note": "特定の個人の肖像と断定しない。壁画が置かれた具体的な宮殿名や、杯の飲み物の中身は公式解説に無いので推測しない。作者個人は不詳。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Separate same-AI source/subject review, official Met object and complete JPEGs https://github.com/matumaruex/kaiga-data/actions/runs/42916204559",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "縦長の壁画片に、大きなターバンを巻いた若者が描かれています。赤い衣装には丸い飾りが連なり、手には杯と瓶が見えます。ところどころ色が剥がれた表面は、この絵が長い時間を経て残ったことを伝えます。\n\n16〜17世紀のサファヴィー朝では、宮殿のために壁画が注文されました。美術館によれば、宮廷で杯を扱う若者は、理想化された姿で好んで描かれる題材でした。同じような人物は、壁画だけでなくアルバム用の絵にも登場しました。\n\n顔や布の細かな線と、欠けた壁面の対比に目を向けると、華やかな宮廷文化のイメージと、実際の作品に刻まれた時間とを同時に感じ取れます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/451256"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-451256-2026-11-11.json",
+        "audit_sha256": "e71d4c71429e976c113c7da925cf56fd5c127ea3ed239640231e943fa712bea6",
+        "record_sha256": "bc2b1198b5f2b30319e2b5f837aca4e6cc1f0c72f92ca151b37eea89c41d3801"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
