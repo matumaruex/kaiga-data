@@ -28,6 +28,16 @@ class ArtworkExpansionTest(unittest.TestCase):
         (self.root / "README.md").write_bytes((ROOT / "README.md").read_bytes())
         db = add_artwork.load(self.root / "data/artworks.json")
         registry = add_artwork.load(self.root / "data/image-sources.json")
+        for existing in db["artworks"]:
+            completed = existing.get("completion", {})
+            if completed.get("schema_version") != "artwork-completion-v2-new-1":
+                continue
+            audit_path = completed["audit_path"]
+            audit_info = json.loads((ROOT / audit_path).read_text(encoding="utf-8"))
+            for ref in (audit_path, audit_info["candidate_path"], audit_info["draft_path"]):
+                dest = self.root / ref
+                dest.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy(ROOT / ref, dest)
         original = next(a for a in db["artworks"] if a["id"].startswith("met-"))
         old_image = next(r for r in registry["records"] if r["id"] == original["id"])
         art = copy.deepcopy(original)
@@ -72,6 +82,8 @@ class ArtworkExpansionTest(unittest.TestCase):
         image["image_source"]["sha256"] = digest
         image["image_source"]["byte_length"] = 89000
         image["image_source"].pop("high_resolution", None)
+        self.existing_additions = sum(x["id"] not in set(add_artwork.load(self.root / "data/baseline-300-ids.json")["ids"]) for x in db["artworks"])
+        self.baseline_count = len(db["artworks"])
         self.ident = ident
         self.proposal_path = self.root / "drafts/artwork-additions" / (ident + ".json")
         self.draft_path = self.root / "drafts/visitor-explanations" / (ident + ".json")
@@ -149,11 +161,11 @@ class ArtworkExpansionTest(unittest.TestCase):
         self.assertEqual((self.root / "data/artworks.json").read_bytes(), previous)
         add_artwork.save_files(self.root, outputs)
         additions = add_artwork.check(self.root)
-        self.assertEqual(additions, 1)
+        self.assertEqual(additions, self.existing_additions + 1)
         saved = add_artwork.load(self.root / "data/artworks.json")["artworks"]
-        self.assertEqual(len(saved), 301)
+        self.assertEqual(len(saved), self.baseline_count + 1)
         self.assertEqual(json.loads(previous)["artworks"], saved[:-1])
-        self.assertIn("**v2完成登録：301作品**",
+        self.assertIn(f"**v2完成登録：{self.baseline_count + 1}作品**",
                       (self.root / "README.md").read_text(encoding="utf-8"))
         self.audit["baseline"]["artworks_sha256"] = add_artwork.file_sha(
             self.root / "data/artworks.json")

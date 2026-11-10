@@ -1,0 +1,157 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-21126",
+  "artwork": {
+    "id": "met-21126",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 21126,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/21126",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/21126",
+      "record_checked_on": "2026-11-10"
+    },
+    "facts": {
+      "title_original": "Young Husband: First Marketing",
+      "title_ja_provisional": "若い夫、初めての買い物",
+      "artist": "Lilly Martin Spencer",
+      "creation_date_display": "1854",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "United States",
+      "accession_number": "2015.401"
+    },
+    "image": {
+      "image_id": "met-21126-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP355340.jpg",
+      "source_registry_id": "met-21126",
+      "local_path": "/artworks/met-21126.jpg",
+      "sha256": "ec9e67c30cda9c3b3c54d643f61a41a4a3f78a21042c61c22e566a599c4a9fc5",
+      "byte_length": 94074,
+      "live_image_checked": true,
+      "live_check_scope": "Met API primaryImageSmall, exact JPEG bytes/SHA256; 2026-11-10 image correspondence compared to original and Commons Met DP355340 visual",
+      "source_accession_number": "2015.401",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP355340.jpg",
+        "sha256": "46f0b3ac82f6ad6240d5c2a93121090e95e4a6b9f2dc1b8fcc386bb918a73dcc",
+        "byte_length": 3223627,
+        "width": 3229,
+        "height": 3869,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met API primaryImage + same frame/dimensions and web-large pixel comparison",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "喜び"
+      ],
+      "emotion_strengths": {
+        "喜び": 2
+      },
+      "tones": [
+        "にぎわい",
+        "緊張"
+      ],
+      "themes": [
+        "日常",
+        "他者との距離"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/21126",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "日々の小さな失敗を、他人の視線も含めたユーモアとして眺めたい",
+            "reason": "買い物籠を持て余す夫と、傘の下の通行人を通じて、日常の不器用さを喜劇的に描いている。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "面白い失敗を扱うが、登場人物本人が喜んでいると決めない。喜びタグは鑑賞者への入口。",
+          "Metの説明する19世紀の家事分担と世間体の問題を、作者本人の直接証言と混同しない。",
+          "夫と妻を現代の価値観だけで評価せず、別作品との関係も所蔵館の解説の範囲にとどめる。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metは、買い物に不慣れな若い夫が食材を抱えて街路でよろめき、傍観者の視線にさらされる場面を、新婚の家事運営をめぐる当時の社会的な不安をユーモラスに示す風俗画と解説する。夫をモデルにした事実と、作者の個人的感情の推測は区別する。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/21126"
+        },
+        "creation_context": "米国で1854年に制作された油彩画。所蔵館はリリー・マーティン・スペンサー自身の夫がモデルであると説明する。同年の対作品《Young Wife: First Stew》では、夫が買った食材が妻の台所に移るとMetが記している。",
+        "visual_clues": "黒い帽子と上着の男性が、卵や野菜の詰まった籠を抱え、手には食用の鳥をぶら下げて歩く。後方の傘の下の人物や道沿いの人々、濡れた石畳、階段が見える。",
+        "uncertainty_note": "画中の若い夫の感情を断定しない。Metの解説は19世紀の家事と世間体の緊張を読み取るが、作者本人によるこの作品への直接的な制作意図の言葉までは確認できていない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "喜び"
+        ],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-10",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Met individual official explanation, companion painting, original and web JPEG hashes and imagery, Open Access policy reviewed; v2 completion audit separately bound. No independent human or different model reviewer.",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "雨に濡れた石畳を、黒い帽子の男性が食材でいっぱいの籠を抱えて進んでいます。籠からは卵や野菜がのぞき、片手には鳥がぶら下がっています。傘の下の通行人はその姿を面白がっているようです。目の前には階段。家まで無事に持ち帰るのも簡単ではなさそうです。\n\nこの《若い夫、初めての買い物》を1854年に描いたリリー・マーティン・スペンサーは、自分の夫を買い物に苦戦する男性のモデルにしました。メトロポリタン美術館は、慣れない家事や人前での失敗を笑いに変えながら、新婚生活で家を切り盛りすることへの当時の不安を表した作品と説明しています。\n\n同じ年に描かれた対作品《Young Wife: First Stew》では、夫が持ち帰った食材が妻の台所に現れます。妻も料理に戸惑い、そばにいる手伝いの人物は不思議そうに見つめています。二枚の絵は、家事の分担にまつわるぎこちなさをそれぞれ別の場面から映し出します。登場人物が内心でどう感じたかまでは、画面だけで決めることはできません。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/21126",
+        "https://www.metmuseum.org/art/collection/search/765285"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-10"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-21126",
+    "title": "Young Husband: First Marketing",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/21126",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/21126",
+      "license_label": "The Met Open Access / CC0 (work-level Public Domain, primary image)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP355340.jpg",
+      "sha256": "ec9e67c30cda9c3b3c54d643f61a41a4a3f78a21042c61c22e566a599c4a9fc5",
+      "byte_length": 94074,
+      "last_http_sha_checked_on": "2026-11-10",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42745645404",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP355340.jpg",
+        "sha256": "46f0b3ac82f6ad6240d5c2a93121090e95e4a6b9f2dc1b8fcc386bb918a73dcc",
+        "byte_length": 3223627,
+        "width": 3229,
+        "height": 3869,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met API primaryImage + same frame/dimensions and web-large pixel comparison",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2015.401"
+  }
+}

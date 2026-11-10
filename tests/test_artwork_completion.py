@@ -39,10 +39,16 @@ class CompletionTests(unittest.TestCase):
             self.other_completed_count += 1
             audit_path = completion["audit_path"]
             audit_data = json.loads((ROOT / audit_path).read_text())
-            for evidence_path in (
-                audit_path, audit_data["proposal"]["path"],
-                audit_data["version"]["draft_path"]
-            ):
+            if audit_data.get("schema_version") == "artwork-v2-new-registration-1":
+                evidence_paths = (
+                    audit_path, audit_data["candidate_path"], audit_data["draft_path"]
+                )
+            else:
+                evidence_paths = (
+                    audit_path, audit_data["proposal"]["path"],
+                    audit_data["version"]["draft_path"]
+                )
+            for evidence_path in evidence_paths:
                 target = self.root / evidence_path
                 target.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy(ROOT / evidence_path, target)

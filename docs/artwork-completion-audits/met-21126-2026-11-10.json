@@ -1,0 +1,117 @@
+{
+  "schema_version": "artwork-v2-new-registration-1",
+  "id": "met-21126",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-21126.json",
+  "candidate_sha256": "293e480422aa6c7a3aa86704e412b5d8ad5edafd3e6cd971d2f12aeed5589961",
+  "draft_path": "drafts/visitor-explanations/met-21126.json",
+  "draft_sha256": "9015d89be53f57e6453165cfdb87efcba16ea0cdc914f3c0e17ac19ef6b99c67",
+  "baseline": {
+    "artworks_sha256": "c233d2c9c6c5b1d2e8400e0cf4436da4c69881e587c788429cd1fcf59fe446fc",
+    "image_registry_sha256": "8d667254b37773f81cf6ebed2be2fc7831d49201b3a837671e1739bce6d0ac11"
+  },
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/21126",
+      "location": "Overview paragraphs and Artwork Details: title, artist, 1854, 2015.401, oil/canvas, public domain",
+      "finding": "Specific Met object ID 21126, artist's spouse as sitter, comic public embarrassment, new-household social anxiety, public-domain indication",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/765285",
+      "location": "Overview paragraph: companion relationship and kitchen ingredients",
+      "finding": "1854 companion work exists and depicts wife peeling onion and domestic awkwardness; not used as a registered image",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/21126",
+      "location": "Met JSON object 21126 fields primaryImage/primaryImageSmall/isPublicDomain/accessionNumber",
+      "finding": "Official object API confirms title, authorship, date, PD status, exact image URLs and accession",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access policy overview on CC0 and reuse of public-domain artwork images",
+      "finding": "The Met makes qualifying PD artwork images available under CC0 for commercial and noncommercial reuse",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Young_Husband-_First_Marketing_MET_DP355340.jpg",
+      "location": "File summary / Met object accession 2015.401 / image DP355340 / thumbnail",
+      "finding": "Independent public image page shows same Met painting ID and DP355340, matching the supplied web-large/original JPEG frame and subject",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/21126",
+      "finding": "Met flags the specific 1854 painting as Public Domain and artist died in 1902. This refers to the artwork, not modern interpretive prose."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met Open Access / CC0 applies to the identified public-domain painting's official original and web-large primary JPEG; exact file hashes are recorded."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/21126",
+      "finding": "Japanese visitor explanation was newly written and separately compared against cited museum interpretations; no passage or close translation of copyrighted explanatory prose reproduced. No legal guarantee implied."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant, second distinct review pass: independently re-opened Met 21126, Met 765285, Met Open Access and Commons DP355340, checked draft's identity, meaning, tag caution, visual claims and text against source locations. Image bytes/pixel resize verified by separate GitHub Actions run and this creation run.",
+    "limitations": "No independent human or separate AI model; verified source image previews at reduced display resolution, while full source JPEGs received byte-level machine checks. A content review does not constitute individual legal advice.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met objectID 21126 and accession 2015.401, not paired 765285; source API 21126 crosschecked.",
+      "image_match": "Met 21126 / DP355340 image: black hat and dark green coat on man, overloaded woven basket with eggs and greens, upside-down poultry on one side, laughing-looking person under umbrella on left, rain-wet stone roadway and steps at right. Compared Met object and Commons DP355340 picture. Original and web-large exact bytes verified by GitHub Actions; resized-image RMS under 40.",
+      "historical_interpretation": "Met work-specific essay frames shopping as domestic comedy in context of mid-19th-century expectations; pair essay confirms continuation but not author's private intent.",
+      "emotion": "Primary 喜び strength2 is a viewer-facing entrance via the depicted humor; do not infer figures themselves are happy; no other unsupported tags.",
+      "visitor_text": "Freely authored Japanese prose, factual scene and pair-work statements grounded in Met sources, avoids rhetorical forced reaction and unsupported inner feelings.",
+      "rights": "Public-domain painting + separate CC0 JPEG image rights + independent prose, with distinct supporting sources."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP355340.jpg",
+      "sha256": "ec9e67c30cda9c3b3c54d643f61a41a4a3f78a21042c61c22e566a599c4a9fc5",
+      "byte_length": 94074,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "Met 21126 / DP355340 image: black hat and dark green coat on man, overloaded woven basket with eggs and greens, upside-down poultry on one side, laughing-looking person under umbrella on left, rain-wet stone roadway and steps at right. Compared Met object and Commons DP355340 picture. Original and web-large exact bytes verified by GitHub Actions; resized-image RMS under 40.",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP355340.jpg",
+      "sha256": "46f0b3ac82f6ad6240d5c2a93121090e95e4a6b9f2dc1b8fcc386bb918a73dcc",
+      "byte_length": 3223627,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "Met 21126 / DP355340 image: black hat and dark green coat on man, overloaded woven basket with eggs and greens, upside-down poultry on one side, laughing-looking person under umbrella on left, rain-wet stone roadway and steps at right. Compared Met object and Commons DP355340 picture. Original and web-large exact bytes verified by GitHub Actions; resized-image RMS under 40.",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "Met API and exact JPEG download verified twice by distinct GitHub Actions runs; web/original image resize comparison checked in this run.",
+    "Registered image pixels are not stored in the repository; the official URL and SHA256 are version-bound.",
+    "No unrelated baseline records, semantics or legacy completion records should change."
+  ]
+}
