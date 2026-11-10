@@ -1,0 +1,106 @@
+{
+  "schema_version": "artwork-v2-new-registration-1",
+  "id": "met-827660",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-827660.json",
+  "candidate_sha256": "b13d1ae56fa3b6eb94857836949c6a85a429f0ab3f2d71a1dd766c9d283bb50d",
+  "draft_path": "drafts/visitor-explanations/met-827660.json",
+  "draft_sha256": "ed61be97c06af52c9b908588e345ecb281de73bbfac979b64eb34b0a5ec6bbba",
+  "baseline": {
+    "artworks_sha256": "972b03311dc5b1d6ca0fbec98e364eb4def72dbcd33fb77e732593009cab0a46",
+    "image_registry_sha256": "95a7f01a71d712120832ee5f9d10ebd4c30811a8f3a7475848b93b6bee1d14cb"
+  },
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/827660",
+      "location": "Overview, artwork details and curator audio transcript; ca.1612, 2020.22, oil on panel, flowers and decay, signature and forget-me-nots; Public Domain",
+      "finding": "Met identifies Clara Peeters and read-through of dewdrops, insects, wilting and fallen blooms and signature as observation and transience",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/827660",
+      "location": "Met public object API fields: objectID, title, artistDisplayName, accessionNumber, objectDate, classification, isPublicDomain, primaryImage and primaryImageSmall",
+      "finding": "Official API details and URLs verified against two full-file JPEG downloads with exact SHA256 in Actions run 42750863200",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy: CC0 images of public-domain artworks, basic collection data",
+      "finding": "Met states qualifying public-domain artwork photographs released for reuse under CC0; museum interpretation prose has distinct rights",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/827660",
+      "finding": "Met marks this identified artwork Public Domain; this does not imply reuse rights for modern scholarly text."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Original and display JPEGs match this Met object's primary image URLs; Open Access CC0 applies to qualifying Public Domain artwork image."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/827660",
+      "finding": "A new Japanese visitor explanation was written from directly checked facts and museum interpretation; no long museum prose quote or near-literal translation reused. Legal certainty is not claimed."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant, separate editorial review pass: rechecked the museum's individual work commentary, artwork details, original Japanese explanation, meaning basis and source-supported emotion rationale; Met API and image bytes separately checked by GitHub Actions run 42750863200. Subject was visually compared with published museum artwork image.",
+    "limitations": "Same AI conducted a distinct verification pass, not an external second model or independent human art historian. Official source images were inspected through online previews, while GitHub Actions verified original and display JPEG full-byte hashes, image dimensions and downscale similarity. Not a legal clearance opinion.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met identifies Clara Peeters and read-through of dewdrops, insects, wilting and fallen blooms and signature as observation and transience",
+      "image_match": "Official Met image shows a tall bouquet in glass vase against dark ground, assorted bright flowers, fallen blooms on lower ledge and drooping stems. Original and web-large images have close resized RGB alignment (RMS 6.698).",
+      "historical_interpretation": "Museum-specific reading is distinguished from unverified author testimony; probable sitter identification remains tentative where applicable.",
+      "emotion": "Emotion tags only indicate a source-supported viewer-facing entry; no required audience response or fictional author emotion.",
+      "visitor_text": "Japanese text is newly authored, does not copy full paragraphs or close-translate museum prose, and distinguishes established facts from speculation.",
+      "rights": "Met object Public Domain and Open Access CC0 image are separately checked from copyright in modern museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19451-001.jpg",
+      "sha256": "a94b3dc7f62f473c164085b76c5f495dd856dbb6dea07891159ed0984329ed21",
+      "byte_length": 128237,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "Official Met image shows a tall bouquet in glass vase against dark ground, assorted bright flowers, fallen blooms on lower ledge and drooping stems. Original and web-large images have close resized RGB alignment (RMS 6.698).",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-19451-001.jpg",
+      "sha256": "058cae7ad9abdee20937c6dcee7df5aabc32a7547801dde0c8686e4d999906a2",
+      "byte_length": 3742974,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "Official Met image shows a tall bouquet in glass vase against dark ground, assorted bright flowers, fallen blooms on lower ledge and drooping stems. Original and web-large images have close resized RGB alignment (RMS 6.698).",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "New artwork pending add_artwork.py preview/save/check and CI before treating it as completed.",
+    "Candidate, draft and baseline SHA256 placeholders are filled deterministically by a GitHub Actions registration check against actual branch files; checks reject unmatched copies.",
+    "Source image API and full JPEG bytes were verified on 2026-11-10 at https://github.com/matumaruex/kaiga-data/actions/runs/42750863200",
+    "Existing registered artworks must remain unchanged."
+  ]
+}

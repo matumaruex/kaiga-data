@@ -1,0 +1,106 @@
+{
+  "schema_version": "artwork-v2-new-registration-1",
+  "id": "met-871866",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-871866.json",
+  "candidate_sha256": "f3a57ad83ddf2178a08dc9068644160bcd6f423442b6cba52e4bac7d25964853",
+  "draft_path": "drafts/visitor-explanations/met-871866.json",
+  "draft_sha256": "5ae0f60bfe1278635fc0855e3f486df3b679318a755ac9b3ad15486b5869d5a1",
+  "baseline": {
+    "artworks_sha256": "c0f8820a03ed83534c039fb5afff4a68849b0cea7cac43a3140d0a8f137dbf86",
+    "image_registry_sha256": "5269f88ffb680d722ec6c47e737d40e31e45ae8848be11649fd7e27eb003075d"
+  },
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/871866",
+      "location": "Overview + Artwork Details; 1909, 2023.1, two-panel screen, siblings calligraphy, iroha and kimono crest; Public Domain",
+      "finding": "Direct Met text confirms painter, date, medium and the teaching scene, career context; separate from artist's personal intent",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/871866",
+      "location": "Met public object API fields: objectID, title, artistDisplayName, accessionNumber, objectDate, classification, isPublicDomain, primaryImage and primaryImageSmall",
+      "finding": "Official API details and URLs verified against two full-file JPEG downloads with exact SHA256 in Actions run 42750863200",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy: CC0 images of public-domain artworks, basic collection data",
+      "finding": "Met states qualifying public-domain artwork photographs released for reuse under CC0; museum interpretation prose has distinct rights",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/871866",
+      "finding": "Met marks this identified artwork Public Domain; this does not imply reuse rights for modern scholarly text."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Original and display JPEGs match this Met object's primary image URLs; Open Access CC0 applies to qualifying Public Domain artwork image."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/871866",
+      "finding": "A new Japanese visitor explanation was written from directly checked facts and museum interpretation; no long museum prose quote or near-literal translation reused. Legal certainty is not claimed."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant, separate editorial review pass: rechecked the museum's individual work commentary, artwork details, original Japanese explanation, meaning basis and source-supported emotion rationale; Met API and image bytes separately checked by GitHub Actions run 42750863200. Subject was visually compared with published museum artwork image.",
+    "limitations": "Same AI conducted a distinct verification pass, not an external second model or independent human art historian. Official source images were inspected through online previews, while GitHub Actions verified original and display JPEG full-byte hashes, image dimensions and downscale similarity. Not a legal clearance opinion.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Direct Met text confirms painter, date, medium and the teaching scene, career context; separate from artist's personal intent",
+      "image_match": "Official Met image shows two-panel gilt ground, older sister guiding a young boy at his low calligraphy desk, and his hobbyhorse placed beside them. Original and web-large images have close resized RGB alignment (RMS 4.924).",
+      "historical_interpretation": "Museum-specific reading is distinguished from unverified author testimony; probable sitter identification remains tentative where applicable.",
+      "emotion": "Emotion tags only indicate a source-supported viewer-facing entry; no required audience response or fictional author emotion.",
+      "visitor_text": "Japanese text is newly authored, does not copy full paragraphs or close-translate museum prose, and distinguishes established facts from speculation.",
+      "rights": "Met object Public Domain and Open Access CC0 image are separately checked from copyright in modern museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-27283-001.jpg",
+      "sha256": "f4f7f3317d4770f3a28b85bcb9f2628f3c94db3e50741ebf884957bd953b2f8b",
+      "byte_length": 93913,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "Official Met image shows two-panel gilt ground, older sister guiding a young boy at his low calligraphy desk, and his hobbyhorse placed beside them. Original and web-large images have close resized RGB alignment (RMS 4.924).",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-27283-001.jpg",
+      "sha256": "3398ae2147c3cc758b509416afe260e93cec318b7e7e2a1ace84488c456beb4e",
+      "byte_length": 2892304,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "Official Met image shows two-panel gilt ground, older sister guiding a young boy at his low calligraphy desk, and his hobbyhorse placed beside them. Original and web-large images have close resized RGB alignment (RMS 4.924).",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "New artwork pending add_artwork.py preview/save/check and CI before treating it as completed.",
+    "Candidate, draft and baseline SHA256 placeholders are filled deterministically by a GitHub Actions registration check against actual branch files; checks reject unmatched copies.",
+    "Source image API and full JPEG bytes were verified on 2026-11-10 at https://github.com/matumaruex/kaiga-data/actions/runs/42750863200",
+    "Existing registered artworks must remain unchanged."
+  ]
+}

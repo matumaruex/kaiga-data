@@ -1,0 +1,164 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-871866",
+  "artwork": {
+    "id": "met-871866",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 871866,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/871866",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/871866",
+      "record_checked_on": "2026-11-10"
+    },
+    "facts": {
+      "title_original": "Calligraphy Practice (Tenarai)",
+      "title_ja_provisional": "手習い",
+      "artist": "Ikeda Shōen",
+      "creation_date_display": "1909",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "2023.1"
+    },
+    "image": {
+      "image_id": "met-871866-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-27283-001.jpg",
+      "source_registry_id": "met-871866",
+      "local_path": "/artworks/met-871866.jpg",
+      "sha256": "f4f7f3317d4770f3a28b85bcb9f2628f3c94db3e50741ebf884957bd953b2f8b",
+      "byte_length": 93913,
+      "live_image_checked": true,
+      "live_check_scope": "Full original and display JPEG download with SHA256, resized RGB correspondence, GitHub Actions 42750863200; official image composition separately visually compared",
+      "source_accession_number": "2023.1",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-27283-001.jpg",
+        "sha256": "3398ae2147c3cc758b509416afe260e93cec318b7e7e2a1ace84488c456beb4e",
+        "byte_length": 2892304,
+        "width": 4000,
+        "height": 3387,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met API primaryImage and primaryImageSmall; LANCZOS resized-image RMS 4.924",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "慈しみ",
+        "懐かしさ"
+      ],
+      "emotion_strengths": {
+        "慈しみ": 2,
+        "懐かしさ": 1
+      },
+      "tones": [
+        "落ち着き"
+      ],
+      "themes": [
+        "日常",
+        "愛情",
+        "記憶"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/871866",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "家族が子に何かを教える穏やかな時間に触れたい",
+            "reason": "習字を始める弟の手を姉が導く、具体的な保護と学びの場面。",
+            "strength": 2
+          },
+          {
+            "situation": "昔の暮らしの学びを思い浮かべたい",
+            "reason": "筆と硯、いろは歌という伝統的な手習いが描かれている。",
+            "strength": 1
+          }
+        ],
+        "selection_cautions": [
+          "姉弟の慈しみは描かれた行為への鑑賞入口であり、作者の心情を示す直接証言ではない。",
+          "懐かしさは伝統的な学びへの弱い連想で、鑑賞者が同じ経験を持つ必要はない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metは、木馬を脇に置いた少年が姉に筆を導かれて「いろは」を習う様子、橘文様の長寿を願う意味と、池田蕉園が女性日本画家の一人として評価された歴史を説明する。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/871866"
+        },
+        "creation_context": "1909年、明治時代の絹本着色・金彩の二曲屏風。少年は「いろは」の冒頭を習字する。蕉園は1886年生まれ、1917年に没した。",
+        "visual_clues": "金地の二曲屏風。座卓で筆を持つ少年と背後から手を添える姉、木馬、紙と墨の道具が見える。",
+        "uncertainty_note": "画家自身の個人的な郷愁や家庭への感情をこの作品に直接記した言葉は未確認。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "慈しみ"
+        ],
+        "secondary": [
+          "懐かしさ"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-10",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Met official page and object API checked; JPEG original/display full SHA and resize comparison in Actions 42750863200; image subject compared with museum published image; same assistant separate review is not external independent audit.",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "金色の屏風の中央で、少年が小さな机に向かっています。筆を握る手には、年上の姉がそっと手を添えています。脇に置かれた木馬からは、遊びを中断して机に座ったばかりの時間も感じられます。\n\n紙に書かれているのは「いろは歌」の冒頭です。一文字ずつ筆を動かす場面を、池田蕉園は1909年の二曲屏風に描きました。メトロポリタン美術館は、少年の着物にある橘の模様にも、長寿を願う意味があると解説しています。\n\n池田蕉園は、明治末から大正期に活躍した女性日本画家の一人です。身近な手習いの場面でありながら、着物の模様や金地には繊細な表現が重ねられています。姉弟が何を話しているかは描かれず、二人の短い時間が画面に残されています。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/871866"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-10"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-871866",
+    "title": "Calligraphy Practice (Tenarai)",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/871866",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/871866",
+      "license_label": "The Met Open Access / CC0, work Public Domain",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-27283-001.jpg",
+      "sha256": "f4f7f3317d4770f3a28b85bcb9f2628f3c94db3e50741ebf884957bd953b2f8b",
+      "byte_length": 93913,
+      "last_http_sha_checked_on": "2026-11-10",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42750863200",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-27283-001.jpg",
+        "sha256": "3398ae2147c3cc758b509416afe260e93cec318b7e7e2a1ace84488c456beb4e",
+        "byte_length": 2892304,
+        "width": 4000,
+        "height": 3387,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met API primaryImage and primaryImageSmall; LANCZOS resized-image RMS 4.924",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2023.1"
+  }
+}
