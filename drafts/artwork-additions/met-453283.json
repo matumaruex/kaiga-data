@@ -1,0 +1,159 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-453283",
+  "artwork": {
+    "id": "met-453283",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 453283,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/453283",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/453283",
+      "record_checked_on": "2026-11-10"
+    },
+    "facts": {
+      "title_original": "Laila and Majnun",
+      "title_ja_provisional": "ライラとマジュヌーン",
+      "artist": "Unidentified artist",
+      "creation_date_display": "mid-18th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Iran (attributed to Shiraz)",
+      "accession_number": "1987.355.1"
+    },
+    "image": {
+      "image_id": "met-453283-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DT5774.jpg",
+      "source_registry_id": "met-453283",
+      "local_path": "/artworks/met-453283.jpg",
+      "sha256": "452537d036cadaedc0887ffe9a886632198a28ab76378dc2b375a55c320ca4ff",
+      "byte_length": 123184,
+      "live_image_checked": true,
+      "live_check_scope": "Official Met API original+web-large full JPEG hashes and dimensions, downscale RMS, https://github.com/matumaruex/kaiga-data/actions/runs/42781149191",
+      "source_accession_number": "1987.355.1",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DT5774.jpg",
+        "sha256": "200a07fc06540886bfeee48b54d1f24405ea23b9f345aef760db92f245b21934",
+        "byte_length": 3397322,
+        "width": 3417,
+        "height": 3655,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Official original to web-large downscale RGB RMS 6.6572",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "未練",
+        "孤独"
+      ],
+      "emotion_strengths": {
+        "未練": 3,
+        "孤独": 1
+      },
+      "tones": [
+        "余韻"
+      ],
+      "themes": [
+        "愛情",
+        "他者との距離",
+        "自然"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/453283",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "叶わない恋の物語を絵画から考えたい",
+            "reason": "Metは、本作が恋物語を題材とする室内装飾用八点組の一枚で、上部が壁龕にはまる形であると説明する。マジュヌーンは結婚の申し出を拒絶された後に荒野に入り動物たちと暮らす姿として描かれる。ライラの衣装はザンド朝時代の服装に近い。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "恋の結末や人物の内心を画面だけから断定しない。制作地は帰属表記。",
+          "Metの制作地表記はシーラーズへの帰属で、作家名は公式APIに記載がない。登場人物の感情を作者自身の経験と同一視しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metは、本作が恋物語を題材とする室内装飾用八点組の一枚で、上部が壁龕にはまる形であると説明する。マジュヌーンは結婚の申し出を拒絶された後に荒野に入り動物たちと暮らす姿として描かれる。ライラの衣装はザンド朝時代の服装に近い。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/453283"
+        },
+        "creation_context": "mid-18th century, Iran (attributed to Shiraz); Oil on canvas, accession 1987.355.1.",
+        "visual_clues": "上辺がアーチ状の画面。赤い衣のライラと痩せたマジュヌーンが向かい合い、兎・鹿・獅子などの動物が周囲にいる。Met番号を表示するCommonsの該当画像を目視照合。",
+        "uncertainty_note": "Metの制作地表記はシーラーズへの帰属で、作家名は公式APIに記載がない。登場人物の感情を作者自身の経験と同一視しない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "未練"
+        ],
+        "secondary": [
+          "孤独"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-10",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same assistant separate pass; Met exact images full hashes in https://github.com/matumaruex/kaiga-data/actions/runs/42781149191",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "上辺が弓なりの画面で、赤い衣の女性と痩せ細った青年が向かい合っています。足元には兎や鹿、獅子などの動物が集まり、静かながらも不思議な賑わいがあります。\n\nこの絵は18世紀半ば、イランのシーラーズに由来すると考えられる油彩画で、恋物語を題材に室内を飾った八点組の一枚でした。ライラの父から結婚を認められなかったマジュヌーンは、人里を離れ、動物たちに囲まれて暮らす青年として描かれています。\n\n赤い衣と細い体、向かい合う姿とその間の空間。悲恋の物語を知ってから眺めると、動物の穏やかさとは対照的に、人間同士の距離が浮かび上がります。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/453283"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-10"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-453283",
+    "title": "Laila and Majnun",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/453283",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/453283",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/is/web-large/DT5774.jpg",
+      "sha256": "452537d036cadaedc0887ffe9a886632198a28ab76378dc2b375a55c320ca4ff",
+      "byte_length": 123184,
+      "last_http_sha_checked_on": "2026-11-10",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42781149191",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DT5774.jpg",
+        "sha256": "200a07fc06540886bfeee48b54d1f24405ea23b9f345aef760db92f245b21934",
+        "byte_length": 3397322,
+        "width": 3417,
+        "height": 3655,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Official original to web-large downscale RGB RMS 6.6572",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "1987.355.1"
+  }
+}

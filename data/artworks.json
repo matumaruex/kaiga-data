@@ -38283,6 +38283,377 @@
         "audit_sha256": "babb51c81dfea47db22421fafdd990c4a1995585d6911ce3cb96c541851892b0",
         "record_sha256": "d7674c527b137ae91e9afe1ae596cfff2bda8b7199c274aa1a4c720257f6d078"
       }
+    },
+    {
+      "id": "met-453283",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 453283,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/453283",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/453283",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "Laila and Majnun",
+        "title_ja_provisional": "ライラとマジュヌーン",
+        "artist": "Unidentified artist",
+        "creation_date_display": "mid-18th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Iran (attributed to Shiraz)",
+        "accession_number": "1987.355.1"
+      },
+      "image": {
+        "image_id": "met-453283-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DT5774.jpg",
+        "source_registry_id": "met-453283",
+        "local_path": "/artworks/met-453283.jpg",
+        "sha256": "452537d036cadaedc0887ffe9a886632198a28ab76378dc2b375a55c320ca4ff",
+        "byte_length": 123184,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met API original+web-large full JPEG hashes and dimensions, downscale RMS, https://github.com/matumaruex/kaiga-data/actions/runs/42781149191",
+        "source_accession_number": "1987.355.1",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DT5774.jpg",
+          "sha256": "200a07fc06540886bfeee48b54d1f24405ea23b9f345aef760db92f245b21934",
+          "byte_length": 3397322,
+          "width": 3417,
+          "height": 3655,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Official original to web-large downscale RGB RMS 6.6572",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "未練",
+          "孤独"
+        ],
+        "emotion_strengths": {
+          "未練": 3,
+          "孤独": 1
+        },
+        "tones": [
+          "余韻"
+        ],
+        "themes": [
+          "愛情",
+          "他者との距離",
+          "自然"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/453283",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "叶わない恋の物語を絵画から考えたい",
+              "reason": "Metは、本作が恋物語を題材とする室内装飾用八点組の一枚で、上部が壁龕にはまる形であると説明する。マジュヌーンは結婚の申し出を拒絶された後に荒野に入り動物たちと暮らす姿として描かれる。ライラの衣装はザンド朝時代の服装に近い。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "恋の結末や人物の内心を画面だけから断定しない。制作地は帰属表記。",
+            "Metの制作地表記はシーラーズへの帰属で、作家名は公式APIに記載がない。登場人物の感情を作者自身の経験と同一視しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは、本作が恋物語を題材とする室内装飾用八点組の一枚で、上部が壁龕にはまる形であると説明する。マジュヌーンは結婚の申し出を拒絶された後に荒野に入り動物たちと暮らす姿として描かれる。ライラの衣装はザンド朝時代の服装に近い。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/453283"
+          },
+          "creation_context": "mid-18th century, Iran (attributed to Shiraz); Oil on canvas, accession 1987.355.1.",
+          "visual_clues": "上辺がアーチ状の画面。赤い衣のライラと痩せたマジュヌーンが向かい合い、兎・鹿・獅子などの動物が周囲にいる。Met番号を表示するCommonsの該当画像を目視照合。",
+          "uncertainty_note": "Metの制作地表記はシーラーズへの帰属で、作家名は公式APIに記載がない。登場人物の感情を作者自身の経験と同一視しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "未練"
+          ],
+          "secondary": [
+            "孤独"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same assistant separate pass; Met exact images full hashes in https://github.com/matumaruex/kaiga-data/actions/runs/42781149191",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "上辺が弓なりの画面で、赤い衣の女性と痩せ細った青年が向かい合っています。足元には兎や鹿、獅子などの動物が集まり、静かながらも不思議な賑わいがあります。\n\nこの絵は18世紀半ば、イランのシーラーズに由来すると考えられる油彩画で、恋物語を題材に室内を飾った八点組の一枚でした。ライラの父から結婚を認められなかったマジュヌーンは、人里を離れ、動物たちに囲まれて暮らす青年として描かれています。\n\n赤い衣と細い体、向かい合う姿とその間の空間。悲恋の物語を知ってから眺めると、動物の穏やかさとは対照的に、人間同士の距離が浮かび上がります。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/453283"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-453283-2026-11-10.json",
+        "audit_sha256": "249034a8fe13c609b63adc9cdc5fdb5bf5f4ec7c074466e4320b97b8eb5aeac4",
+        "record_sha256": "7294c633eb3561ecf45d3549958093ff2796d6ce2a256bd78bec70bc4223e5a2"
+      }
+    },
+    {
+      "id": "met-860959",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 860959,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/860959",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/860959",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "Gathering of Government Officials",
+        "title_ja_provisional": "官人たちの集まり",
+        "artist": "Unidentified artist",
+        "creation_date_display": "16th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Korea",
+        "accession_number": "2022.98"
+      },
+      "image": {
+        "image_id": "met-860959-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-24854-002.jpg",
+        "source_registry_id": "met-860959",
+        "local_path": "/artworks/met-860959.jpg",
+        "sha256": "99797a2b5c8a541f7f0b4c45f4c34e025cb6f312b317561bdded5adf89599e98",
+        "byte_length": 104293,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met API original+web-large full JPEG hashes and dimensions, downscale RMS, https://github.com/matumaruex/kaiga-data/actions/runs/42781149191",
+        "source_accession_number": "2022.98",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-24854-002.jpg",
+          "sha256": "3b60bbe44b28528f38e96a83c384a3384410e13c18b521c0d04f0d10e9088194",
+          "byte_length": 4594593,
+          "width": 3000,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Official original to web-large downscale RGB RMS 3.9811",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "共同体",
+          "自然",
+          "記憶"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/860959",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "人物と広い山水の関係を古い朝鮮絵画で鑑賞したい",
+              "reason": "Metは、朝鮮王朝の官人たちの会合を記録した契会図（gyehoedo）であると説明する。人物が下方の岩上に小さく描かれる。停泊した舟から来た可能性のある人々、近づく二人の官人、漁師、遠方の塔も記述される。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "集まりが楽しげだったといった感情を捏造しない。会合の参加者や日時を確定しない。",
+            "具体的な会合の日時、参加者の氏名、個々の人物の心理は公開情報から確定できない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは、朝鮮王朝の官人たちの会合を記録した契会図（gyehoedo）であると説明する。人物が下方の岩上に小さく描かれる。停泊した舟から来た可能性のある人々、近づく二人の官人、漁師、遠方の塔も記述される。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/860959"
+          },
+          "creation_context": "16th century, Korea; Hanging scroll; ink on silk, accession 2022.98.",
+          "visual_clues": "掛軸に霧のかかる山水、下方の岩に集まる小さな人物、川の舟と対岸の道や村。Met公式画像と同作品の細部表示を目視照合。",
+          "uncertainty_note": "具体的な会合の日時、参加者の氏名、個々の人物の心理は公開情報から確定できない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same assistant separate pass; Met exact images full hashes in https://github.com/matumaruex/kaiga-data/actions/runs/42781149191",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "水辺の向こうに山並みが重なり、遠い峰は霧の中に溶けていきます。川には舟が浮かび、画面の下方、岩の上に小さな人びとの集まりが見えます。\n\nこれは16世紀朝鮮の作品で、官人たちの会合を記録する「契会図（けいかいず）」という絵画の一例です。集まりが主題なのに、人物は景色に比べて驚くほど小さく描かれています。所蔵館は、舟で到着した人がいた可能性や、岩陰から近づく二人の官人にも目を向けています。\n\n会話の内容は分かりません。けれど、集った人びとが広い山水の中の一点として残されたことで、行事の記録と風景を味わう楽しみが同じ画面に収まっています。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/860959"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-860959-2026-11-10.json",
+        "audit_sha256": "a39f699382b33dfc710b536e02b7d9d557da5e957410a9ef3598fdd25c85d540",
+        "record_sha256": "a8e7d5cfffdf1f80908781e770623e9ba51394cbb5b36cf80524649fe3e767aa"
+      }
+    },
+    {
+      "id": "met-853239",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 853239,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/853239",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853239",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "Triad of the Medicine Master Buddha Yakushi (Bhaisajya Buddha)",
+        "title_ja_provisional": "薬師三尊図",
+        "artist": "Unidentified artist",
+        "creation_date_display": "17th or 18th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2021.396.3"
+      },
+      "image": {
+        "image_id": "met-853239-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-21707-002.jpg",
+        "source_registry_id": "met-853239",
+        "local_path": "/artworks/met-853239.jpg",
+        "sha256": "4639edebe0748009ace1325fbe8c8cdf7ede02c22d0b115556f6d556a1e71555",
+        "byte_length": 91183,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met API original+web-large full JPEG hashes and dimensions, downscale RMS, https://github.com/matumaruex/kaiga-data/actions/runs/42781149191",
+        "source_accession_number": "2021.396.3",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-21707-002.jpg",
+          "sha256": "1f4061d200ba987900a01365feac1c00a45c53dce8c6ebe0e04ac3d27a75a9a9",
+          "byte_length": 3038446,
+          "width": 2187,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Official original to web-large downscale RGB RMS 4.4001",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 2
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/853239",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "仏画の三尊構成と装飾表現をじっくり見たい",
+              "reason": "Metは日本で彫刻として知られやすい薬師三尊を描いた珍しい絵画と説明する。中央の薬師如来は脇侍の日光・月光菩薩より大きく、薬壺と恐れを払う印相を示す。金色の肌は中国由来の図像伝統との関連がある。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "薬師という名から医療的な効果を保証しない。鑑賞者の信仰を推定しない。",
+            "作者、制作を依頼した人物と具体的な祈願目的は特定されていない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは日本で彫刻として知られやすい薬師三尊を描いた珍しい絵画と説明する。中央の薬師如来は脇侍の日光・月光菩薩より大きく、薬壺と恐れを払う印相を示す。金色の肌は中国由来の図像伝統との関連がある。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/853239"
+          },
+          "creation_context": "17th or 18th century, Japan; Hanging scroll; ink, color, metallic paint, and kirikane (cut gold) on silk, accession 2021.396.3.",
+          "visual_clues": "中央に大きな金色の薬師如来、その左右に二菩薩、上には天蓋と細かな文様。Met公式ページの作品画像を目視照合。",
+          "uncertainty_note": "作者、制作を依頼した人物と具体的な祈願目的は特定されていない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "畏敬"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same assistant separate pass; Met exact images full hashes in https://github.com/matumaruex/kaiga-data/actions/runs/42781149191",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "淡い金色の肌で大きく座る薬師如来。その左右に日光菩薩と月光菩薩が立ち、二尊が掲げる日と月が画面の両側に配されています。\n\nこの《薬師三尊図》は、17〜18世紀の日本で描かれた掛軸です。薬師如来は片手に小さな薬壺を持ち、もう一方の手を恐れを払う印相にしています。メトロポリタン美術館によると、この三尊の姿は日本では彫刻としてよく知られ、絵画としては比較的珍しい題材です。\n\n中央の大きな姿と、脇侍の細やかな装身具。金を使った文様や上部の天蓋まで目を移すと、仏への信仰が色や大きさ、整った配置に表れていることを感じられます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/853239"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-853239-2026-11-10.json",
+        "audit_sha256": "d1830b65556e433151b21e52c8db42ab2c422d33a01f5cbbdeec4cb14046ead9",
+        "record_sha256": "d4fe5f515d521adf5992e72d73dfd9c2a380c1f55e170d425a5f1d998679fb53"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
