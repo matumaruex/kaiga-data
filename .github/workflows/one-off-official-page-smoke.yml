@@ -23,5 +23,18 @@ jobs:
           claim="夕涼みをする夫婦の姿が描かれている。"
           art={"id":"met-45808","source":{"artwork_url":url},"visitor_explanation":{"text":claim,"source_urls":[url]}}
           audit={"official_text_checks":[{"source_url":url,"source_section":"Artwork Overview","source_excerpt":quote,"visitor_claim":claim}]}
-          checker.online(audit,art)
+          import urllib.request
+          for candidate in [
+              "https://collectionapi.metmuseum.org/art/collection/search/45808",
+              "https://www.metmuseum.org/art/collection/search/45808",
+          ]:
+              try:
+                  with urllib.request.urlopen(urllib.request.Request(candidate,headers={"User-Agent":"Mozilla/5.0"}),timeout=30) as resp:
+                      raw=resp.read(4000000)
+                      print("SOURCE",candidate,"status",resp.status,"bytes",len(raw),"quote",bool(checker.normal(quote) in checker.normal(raw.decode("utf-8",errors="replace"))))
+                      try: print("EXCERPT-SHA",checker.check_html(raw.decode("utf-8",errors="replace"),audit["official_text_checks"]))
+                      except ValueError as e: print("NO-EXCERPT",str(e))
+              except Exception as e:
+                  print("FETCH-UNAVAILABLE",candidate,type(e).__name__,str(e))
+
           PY
