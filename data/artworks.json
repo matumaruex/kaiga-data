@@ -37919,6 +37919,132 @@
         "audit_sha256": "51b4926404acfcc84748e8e2b2e7211db42c239fab79098b356a3624dfa3b6c0",
         "record_sha256": "c56bfa381caa2ab79c132a23762e834bfdea52a7f466a50730d28b7ddf4d8be2"
       }
+    },
+    {
+      "id": "met-45808",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 45808,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/45808",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45808",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "Enjoying the Evening Cool under a Gourd Trellis",
+        "title_ja_provisional": "夕顔棚下納涼図",
+        "artist": "Utagawa Toyohiro",
+        "creation_date_display": "early 19th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "1975.268.129"
+      },
+      "image": {
+        "image_id": "met-45808-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156304.jpg",
+        "source_registry_id": "met-45808",
+        "local_path": "/artworks/met-45808.jpg",
+        "sha256": "6c09bcef6c2fd006229388869efb7eefae572e44b32d8fb2e0b7882122a5437e",
+        "byte_length": 57279,
+        "live_image_checked": true,
+        "live_check_scope": "Met full JPEG bytes/SHA256 and pixel fit at RMS 9.6961; image viewed in official-source GitHub Actions https://github.com/matumaruex/kaiga-data/actions/runs/42762928000",
+        "source_accession_number": "1975.268.129",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP156304.jpg",
+          "sha256": "6c6a9b90e73a8c0db37c7b82d3edd0283696a97b760c54680b52f78f09fae297",
+          "byte_length": 1925275,
+          "width": 1699,
+          "height": 3880,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Official original/display downscale RMS 9.6961",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "安心"
+        ],
+        "emotion_strengths": {
+          "安心": 2
+        },
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "日常",
+          "休息",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/45808",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "身近な人と夏の夜風を味わう、くつろいだ時間に触れたい",
+              "reason": "夕顔の棚の下で、男女が涼み、扇とうつわを交わす具体的な休息の場面。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "安心は画中の具体的な涼みと休息に基づく鑑賞への入口であり、作者本人の心情の証明ではない。",
+            "Metが紹介する木下長嘯子の和歌への呼応は作品解釈であり、男女の発言を直接記録したものではない。",
+            "夏の終わりの寂寥感を必ず感じるよう誘導せず、涼を共有する日常として見せる。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは、夕顔の棚の下で涼む男女を描いた本作が、木下長嘯子の和歌に通じると解説する。男が歌いかけ、女が扇を持ち飲み物を求めるような動作を、ただの日常風俗画ではなく絵画と詩の親密な結び付きとして説明している。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/45808"
+          },
+          "creation_context": "江戸時代、19世紀初頭の紙本着色掛軸。和歌に詠まれた夕顔の棚下での夕涼みの情景を踏まえ、歌川豊広が庶民の日々のひとこまを描く。",
+          "visual_clues": "縦長の掛軸の上に葉を広げる棚があり、その下の敷物に男女が座る。扇と飲み物を入れた器や壺が見え、背景は簡素な余白として残る。",
+          "uncertainty_note": "二人が実在の夫婦かどうか、どの詩句を画家が直接意図したかを証明する自筆の文は未確認。和歌の結び付けはMetによる研究解釈。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "安心"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met website, object API, original JPEG visual preview and exact SHA check https://github.com/matumaruex/kaiga-data/actions/runs/42762928000; same assistant separate-pass analysis not external scholarly audit.",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "縦に伸びる夕顔の棚の下で、二人の人物が涼んでいます。一人は扇を手に持ち、もう一人は空を見上げるように座っています。敷物の近くには飲み物の器が置かれ、夏の日の終わりの小さな休息が描かれています。\n\n19世紀初めに歌川豊広が描いた《夕顔棚下納涼図》です。メトロポリタン美術館は、この何気ない暮らしの風景に、木下長嘯子の和歌とのつながりを見いだしています。庶民の夕涼みを描く風俗画であると同時に、詩の情景を絵へ移す営みでもあります。\n\n画面の上の葉と、下でくつろぐ二人のあいだには大きな余白が残されています。会話や歌は聞こえませんが、扇や手の動きを追うと、外の風や人と過ごす時間を想像できます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/45808"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-45808-2026-11-10.json",
+        "audit_sha256": "80251e5e052d0c31ac45712323b8eb1367738beb078043efbc9caa236d1c0ad6",
+        "record_sha256": "0c62e8ccbbdc45b560d28d90079cc8bcae554f0da8effd9ad9c968568ca8f2a8"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
