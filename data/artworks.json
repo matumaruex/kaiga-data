@@ -36787,6 +36787,398 @@
         "audit_sha256": "655b0774fef9e37e1137e01a9586637e4c52aa8a1062534c932906a1ac7eec91",
         "record_sha256": "a27f14ede026ac2362999736e70151db48aa4a924732a0d926033bd566da8ad8"
       }
+    },
+    {
+      "id": "met-871866",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 871866,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/871866",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/871866",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "Calligraphy Practice (Tenarai)",
+        "title_ja_provisional": "手習い",
+        "artist": "Ikeda Shōen",
+        "creation_date_display": "1909",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2023.1"
+      },
+      "image": {
+        "image_id": "met-871866-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-27283-001.jpg",
+        "source_registry_id": "met-871866",
+        "local_path": "/artworks/met-871866.jpg",
+        "sha256": "f4f7f3317d4770f3a28b85bcb9f2628f3c94db3e50741ebf884957bd953b2f8b",
+        "byte_length": 93913,
+        "live_image_checked": true,
+        "live_check_scope": "Full original and display JPEG download with SHA256, resized RGB correspondence, GitHub Actions 42750863200; official image composition separately visually compared",
+        "source_accession_number": "2023.1",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-27283-001.jpg",
+          "sha256": "3398ae2147c3cc758b509416afe260e93cec318b7e7e2a1ace84488c456beb4e",
+          "byte_length": 2892304,
+          "width": 4000,
+          "height": 3387,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met API primaryImage and primaryImageSmall; LANCZOS resized-image RMS 4.924",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "慈しみ",
+          "懐かしさ"
+        ],
+        "emotion_strengths": {
+          "慈しみ": 2,
+          "懐かしさ": 1
+        },
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "日常",
+          "愛情",
+          "記憶"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/871866",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "家族が子に何かを教える穏やかな時間に触れたい",
+              "reason": "習字を始める弟の手を姉が導く、具体的な保護と学びの場面。",
+              "strength": 2
+            },
+            {
+              "situation": "昔の暮らしの学びを思い浮かべたい",
+              "reason": "筆と硯、いろは歌という伝統的な手習いが描かれている。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "姉弟の慈しみは描かれた行為への鑑賞入口であり、作者の心情を示す直接証言ではない。",
+            "懐かしさは伝統的な学びへの弱い連想で、鑑賞者が同じ経験を持つ必要はない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは、木馬を脇に置いた少年が姉に筆を導かれて「いろは」を習う様子、橘文様の長寿を願う意味と、池田蕉園が女性日本画家の一人として評価された歴史を説明する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/871866"
+          },
+          "creation_context": "1909年、明治時代の絹本着色・金彩の二曲屏風。少年は「いろは」の冒頭を習字する。蕉園は1886年生まれ、1917年に没した。",
+          "visual_clues": "金地の二曲屏風。座卓で筆を持つ少年と背後から手を添える姉、木馬、紙と墨の道具が見える。",
+          "uncertainty_note": "画家自身の個人的な郷愁や家庭への感情をこの作品に直接記した言葉は未確認。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "慈しみ"
+          ],
+          "secondary": [
+            "懐かしさ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met official page and object API checked; JPEG original/display full SHA and resize comparison in Actions 42750863200; image subject compared with museum published image; same assistant separate review is not external independent audit.",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "金色の屏風の中央で、少年が小さな机に向かっています。筆を握る手には、年上の姉がそっと手を添えています。脇に置かれた木馬からは、遊びを中断して机に座ったばかりの時間も感じられます。\n\n紙に書かれているのは「いろは歌」の冒頭です。一文字ずつ筆を動かす場面を、池田蕉園は1909年の二曲屏風に描きました。メトロポリタン美術館は、少年の着物にある橘の模様にも、長寿を願う意味があると解説しています。\n\n池田蕉園は、明治末から大正期に活躍した女性日本画家の一人です。身近な手習いの場面でありながら、着物の模様や金地には繊細な表現が重ねられています。姉弟が何を話しているかは描かれず、二人の短い時間が画面に残されています。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/871866"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-871866-2026-11-10.json",
+        "audit_sha256": "9727b315bcbe3d2524ec227b71010a3aab5b11e94c6be105217a9a4a6ff5b099",
+        "record_sha256": "cd54338d1f6c28d0c690a12535491abb44cac15ae091fa4938ec36d237ebcfcc"
+      }
+    },
+    {
+      "id": "met-827660",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 827660,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/827660",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/827660",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "A Bouquet of Flowers",
+        "title_ja_provisional": "花束",
+        "artist": "Clara Peeters",
+        "creation_date_display": "ca. 1612",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Flemish",
+        "accession_number": "2020.22"
+      },
+      "image": {
+        "image_id": "met-827660-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19451-001.jpg",
+        "source_registry_id": "met-827660",
+        "local_path": "/artworks/met-827660.jpg",
+        "sha256": "a94b3dc7f62f473c164085b76c5f495dd856dbb6dea07891159ed0984329ed21",
+        "byte_length": 128237,
+        "live_image_checked": true,
+        "live_check_scope": "Full original and display JPEG download with SHA256, resized RGB correspondence, GitHub Actions 42750863200; official image composition separately visually compared",
+        "source_accession_number": "2020.22",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-19451-001.jpg",
+          "sha256": "058cae7ad9abdee20937c6dcee7df5aabc32a7547801dde0c8686e4d999906a2",
+          "byte_length": 3742974,
+          "width": 2923,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met API primaryImage and primaryImageSmall; LANCZOS resized-image RMS 6.698",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/827660",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "美しい花束に隠れた細部や時間の意味を探りたい",
+              "reason": "水滴、虫食い、しおれた花、落ちた忘れな草と署名など、観察できる作品固有の手掛かりがある。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "花の衰えや無常についてはMetの解釈であり、作者自身の死生観への直接証言ではない。",
+            "好奇心タグは花と細部の具体的な観察から採用し、作者の研究熱心さだけを根拠にしない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは、露、葉の虫食い、垂れるチューリップなどが花の衰えを暗示し、石の台に落ちた忘れな草の近くに作者が署名した点を指摘する。植物学的観察と静物表現の接点を解説する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/827660"
+          },
+          "creation_context": "1612年頃の板上油彩。17世紀初め、女性画家が裸体モデルを学ぶ機会を制限され、静物画が制作上の重要な分野だった背景をMetが紹介している。",
+          "visual_clues": "暗い背景に色鮮やかな花束と透明なガラス花瓶。しおれた花、虫食い、水滴、台に落ちた花と忘れな草のそばの署名。",
+          "uncertainty_note": "細部の意味はMetの専門的な読解であり、各花への作者の意図が直接明示されたわけではない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met official page and object API checked; JPEG original/display full SHA and resize comparison in Actions 42750863200; image subject compared with museum published image; same assistant separate review is not external independent audit.",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "暗い背景から、色鮮やかな花束が浮かび上がります。赤や淡い桃色、白い花の間に青い小花も交じります。近くで見ると、花びらの傷みや水滴、うつむきかけた花が見つかります。花瓶の外にも花が落ちています。\n\nクララ・ペーテルスはこの静物画を1612年頃に制作しました。メトロポリタン美術館は、花々が見せる美しさと同時に、やがて訪れる衰えにも目を向けた作品だと読み解いています。石の台には忘れな草の枝が落ち、そのそばに画家の署名があります。\n\n当時は女性が裸体モデルを学ぶ機会が限られ、静物画が多くの女性画家にとって重要な分野でした。ペーテルスは花の表面やガラスの反射を丹念に描き、ひとつの花束に異なる時の兆しを並べています。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/827660"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-827660-2026-11-10.json",
+        "audit_sha256": "c4fd583412fabc38c6103df74456d88ba27a9a0b2db6cc1fb2c5d117dfa26a8d",
+        "record_sha256": "ac287fc03bdd1ceab1c7c91caf9e7254e3c6a9251cd9413d4002ea2b4fe7b234"
+      }
+    },
+    {
+      "id": "met-436875",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436875,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436875",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436875",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "The Interior of a Woman Painter's Studio",
+        "title_ja_provisional": "女性画家のアトリエ",
+        "artist": "Marie Victoire Lemoine",
+        "creation_date_display": "1789",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "France",
+        "accession_number": "57.103"
+      },
+      "image": {
+        "image_id": "met-436875-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320098.jpg",
+        "source_registry_id": "met-436875",
+        "local_path": "/artworks/met-436875.jpg",
+        "sha256": "352ff3b409b9c9877fcd43f47b4970129beebbc203b8795f9c8ca03f22a744a2",
+        "byte_length": 64769,
+        "live_image_checked": true,
+        "live_check_scope": "Full original and display JPEG download with SHA256, resized RGB correspondence, GitHub Actions 42750863200; official image composition separately visually compared",
+        "source_accession_number": "57.103",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP320098.jpg",
+          "sha256": "893c0050446051f578974cd8891b939998d3cd19f6954fb2e20252a0ce60b87c",
+          "byte_length": 1688367,
+          "width": 3018,
+          "height": 3882,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met API primaryImage and primaryImageSmall; LANCZOS resized-image RMS 4.744",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "希望",
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "希望": 2,
+          "好奇心": 1
+        },
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "日常",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436875",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "制作に向かう人の姿や、新しい可能性に触れたい",
+              "reason": "女性画家の仕事場を舞台に、歴史画に取り組む姿と当時の制約が示される。",
+              "strength": 2
+            },
+            {
+              "situation": "絵の中に描かれた制作中の絵の意味を知りたい",
+              "reason": "画架上の歴史画が当時の画種の序列と女性の制作環境につながる。",
+              "strength": 1
+            }
+          ],
+          "selection_cautions": [
+            "自画像と妹の姿という人物同定はMetの可能性の提示にとどまる。",
+            "希望タグは鑑賞者への入口であり、作者本人の内面の断定ではない。",
+            "1789年の制作と1796年のサロン展示を取り違えない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは、女性画家の理想化された制作室という一般的な題名の一方、身近な人々には作者の自画像と画家の妹マリー・ドニーズ・ヴィレールだと分かった可能性を示す。画架で制作中の歴史画は、当時女性が主に学んだ肖像画や静物画より高く評価された画種だった。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436875"
+          },
+          "creation_context": "フランスで1789年に制作された油彩画。Metによれば、革命後の制度改革で女性画家のサロン出品が拡大した1796年に発表された。",
+          "visual_clues": "明るい衣服でパレットを持つ立ち姿の女性と座って描く女性、画架の大きな未完成の絵、室内の花や椅子が見える。",
+          "uncertainty_note": "Metは作者と妹を描いたという同定を推測とする。人物の実際の会話や心情を作品だけで決めない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "希望"
+          ],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met official page and object API checked; JPEG original/display full SHA and resize comparison in Actions 42750863200; image subject compared with museum published image; same assistant separate review is not external independent audit.",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "明るい服を着た女性が、絵具の載ったパレットを持って立っています。隣では別の女性が座って絵を描き、右奥の画架にはまだ描きかけの大きな作品があります。左に飾られた花や室内の家具も、仕事場の一部として描かれています。\n\nマリー・ヴィクトワール・ルモワーヌはこの作品を1789年に制作しました。メトロポリタン美術館は、立つ女性が作者自身、座る女性が同じく画家だった妹マリー・ドニーズ・ヴィレールである可能性を指摘します。ただし、人物の同定は確定ではありません。\n\n当時の女性画家は肖像画や静物画を学ぶことが多く、歴史画は男性中心の美術教育で最も高位の分野とされていました。画架の未完成作品は、その歴史画にあたります。この絵が公式サロンで公開されたのは1796年。革命後の改革で女性画家の出品機会が広がってからでした。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/436875"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-436875-2026-11-10.json",
+        "audit_sha256": "06b7e0b651bb36119c1a2680482f45e8ef21ee836dfcfb4dd406a3d5e4666e1b",
+        "record_sha256": "c8ab4741cf9359dcf079c6050257ad33e3ad5a911882e5b4d4b2876ed38791d8"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
