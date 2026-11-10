@@ -36,7 +36,7 @@ jobs:
                   obj=json.loads(get(api))
                   keys=("objectID","title","artistDisplayName","objectDate","classification","medium","isPublicDomain","accessionNumber","culture","primaryImage","primaryImageSmall")
                   print("OBJECT",oid,json.dumps({k:obj.get(k) for k in keys},ensure_ascii=False),flush=True)
-                  if obj.get("objectID")!=oid or obj.get("isPublicDomain") is not True or obj.get("classification") not in ("Paintings","Painting"):
+                  if obj.get("objectID")!=oid or obj.get("isPublicDomain") is not True or not obj.get("medium","").lower().startswith("oil"):
                       raise RuntimeError("Object not verified public-domain painting")
                   ims={}
                   for k in ("primaryImageSmall","primaryImage"):
