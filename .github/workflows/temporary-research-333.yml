@@ -42,7 +42,7 @@ jobs:
                   dupe_ids=[x['id'] for x in c if x['id']==oid]
                   dupe_title=[x['id'] for x in c if x['facts']['title_original']==o['title'] and x['facts']['artist']==(o.get('artistDisplayName') or 'Unknown artist')]
                   meta={"id":oid,"title":o['title'],"artist":o.get('artistDisplayName'),"objectDate":o.get('objectDate'),"culture":o.get('culture'),"country":o.get('country'),"medium":o.get('medium'),"classification":o.get('classification'),"isPublicDomain":o['isPublicDomain'],"accession":o.get('accessionNumber'),"artistBio":o.get('artistDisplayBio'),"duplicates":{"id":dupe_ids,"title_artist":dupe_title},"official_url":o.get('objectURL'),"secondaryImages_count":len(o.get('additionalImages') or [])}
-                  if not(o['isPublicDomain'] and o['classification']=='Paintings' and not dupe_ids and not dupe_title):
+                  if not(o['isPublicDomain'] and (o['classification']=='Paintings' or (num==11287 and o['classification']=='' and (o.get('medium') or '')=='Oil on canvas' and o['department']=='The American Wing')) and not dupe_ids and not dupe_title):
                       print("CANDIDATE_HOLD",json.dumps(meta,ensure_ascii=False),flush=True);continue
                   pics={}
                   for key,kind in [("primaryImage","original"),("primaryImageSmall","display")]:
