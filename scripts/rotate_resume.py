@@ -101,7 +101,8 @@ def main():
     root = args.root.resolve()
     if args.command == "check":
         return check(root)
-    return int(not update(root, args.source_file.read_text(encoding="utf-8")) and False)
+    update(root, args.source_file.read_text(encoding="utf-8"))
+    return 0
 
 
 if __name__ == "__main__":
