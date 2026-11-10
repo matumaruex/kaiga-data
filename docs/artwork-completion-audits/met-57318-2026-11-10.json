@@ -1,0 +1,105 @@
+{
+  "schema_version": "artwork-v2-new-registration-1",
+  "id": "met-57318",
+  "checked_on": "2026-11-10",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-57318.json",
+  "candidate_sha256": "1705daa96103c83c974b227a82929951d87a2574b5d467985b0d836af9b75870",
+  "draft_path": "drafts/visitor-explanations/met-57318.json",
+  "draft_sha256": "82a1b8bea7f745bf5f2e972a56a90c9d638c51b6af05a1414aaeaea4f93a2b65",
+  "baseline": {
+    "artworks_sha256": "29d2b10934903c588d70f02ae9ee96c049c793bc5831e1f9d23ac2307c00ad20",
+    "image_registry_sha256": "2dc68c418dafc366534f2594f7f8b231580db50b72246f588ac8a36499f712cc"
+  },
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/57318",
+      "location": "Met Overview on three crows and ink gradations, artist's recurring crow motif, signed Zeshin and oval Tairyūkyo seal; Artwork Details 51.137.3",
+      "finding": "Met explains perspective via ink gradation, recurring crow subject, signature and seal; no fixed allegory or artist emotion established.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/57318",
+      "location": "Met API objectID, artistDisplayName, objectDate, accessionNumber, classification, Public Domain flag, original and small image URLs",
+      "finding": "Met object metadata and exact JPEG bytes reconfirmed after full SHA256 checks in https://github.com/matumaruex/kaiga-data/actions/runs/42760271445.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 release for public domain artwork images",
+      "finding": "Artwork is marked Public Domain and its official image is eligible for CC0; modern text rights are separate.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/57318",
+      "finding": "The Met explicitly marks the specific artwork Public Domain; this does not cover modern museum prose."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met primary-image and Open Access policy allow reuse of this PD work's image; full SHA and visually verified."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/57318",
+      "finding": "New original Japanese writing based on source facts, not long copying or close translation; legal certainty not guaranteed."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same assistant rechecked source facts and visual observations separately from drafting, with direct Met API and image file re-download. Verified original/display SHA256 and resized pixel RMS; official-source visual previews in https://github.com/matumaruex/kaiga-data/actions/runs/42760271445.",
+    "limitations": "Not a different model or independent human expert. Legal reuse is an evidence-based assessment, not legal opinion. Previews examined; not every full-resolution pixel visually inspected.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met 57318, accession 51.137.3, exact title/artist/date and Public Domain.",
+      "image_match": "細長い縦の掛軸で、淡い余白の下半分を三羽のカラスが斜めに飛ぶ。一羽は小さく淡く、二羽は下のほうに濃く描かれ、下方に署名と印がある。 Original and display JPEGs match exact Met object 57318 and both versions agree (RGB RMS 3.2925); official original preview visually checked.",
+      "historical_interpretation": "Met explains perspective via ink gradation, recurring crow subject, signature and seal; no fixed allegory or artist emotion established.",
+      "emotion": "Only {} linked as viewing index; no claims about figures' private feelings.",
+      "visitor_text": "New Japanese explanation checked for accuracy and independent wording.",
+      "rights": "Artwork PD, official image CC0, museum prose separately considered."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP279654.jpg",
+      "sha256": "33db013b1acff6266e7f10305e3042ea783eb903f706d878967e5fd8223c0910",
+      "byte_length": 65821,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "細長い縦の掛軸で、淡い余白の下半分を三羽のカラスが斜めに飛ぶ。一羽は小さく淡く、二羽は下のほうに濃く描かれ、下方に署名と印がある。 Original and display JPEGs match exact Met object 57318 and both versions agree (RGB RMS 3.2925); official original preview visually checked.",
+      "checked_on": "2026-11-10"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP279654.jpg",
+      "sha256": "b711e0b75b497ca18dbd48d5d115d4a4788771b5b4bd95d7ab837def8bb3c6d1",
+      "byte_length": 622893,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "observation": "細長い縦の掛軸で、淡い余白の下半分を三羽のカラスが斜めに飛ぶ。一羽は小さく淡く、二羽は下のほうに濃く描かれ、下方に署名と印がある。 Original and display JPEGs match exact Met object 57318 and both versions agree (RGB RMS 3.2925); official original preview visually checked.",
+      "checked_on": "2026-11-10"
+    }
+  ],
+  "notes": [
+    "User explicitly approved three selected works.",
+    "Same-assistant source/visual second pass not external expert review.",
+    "No changes to previously registered artworks."
+  ]
+}

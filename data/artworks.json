@@ -37801,6 +37801,124 @@
         "audit_sha256": "719ec38c25e22e383348e331129326f3b781109924a7a18530558b79f25a7ba4",
         "record_sha256": "6e96fc9349e1f35bf11178e659901e24f78022343615b9f4484d88e3a40fc121"
       }
+    },
+    {
+      "id": "met-57318",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 57318,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/57318",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/57318",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "Three Crows in Flight",
+        "title_ja_provisional": "三羽黒鳥図",
+        "artist": "Shibata Zeshin",
+        "creation_date_display": "19th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "51.137.3"
+      },
+      "image": {
+        "image_id": "met-57318-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP279654.jpg",
+        "source_registry_id": "met-57318",
+        "local_path": "/artworks/met-57318.jpg",
+        "sha256": "33db013b1acff6266e7f10305e3042ea783eb903f706d878967e5fd8223c0910",
+        "byte_length": 65821,
+        "live_image_checked": true,
+        "live_check_scope": "Met full JPEG bytes/SHA256 and pixel fit at RMS 3.2925; image viewed in official-source GitHub Actions https://github.com/matumaruex/kaiga-data/actions/runs/42760271445",
+        "source_accession_number": "51.137.3",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP279654.jpg",
+          "sha256": "b711e0b75b497ca18dbd48d5d115d4a4788771b5b4bd95d7ab837def8bb3c6d1",
+          "byte_length": 622893,
+          "width": 533,
+          "height": 2000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Official original/display downscale RMS 3.2925",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "自然"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/57318",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "余白と墨の濃淡から鳥の動きや遠近を見つめたい",
+              "reason": "細長い掛軸の三羽のカラスは、異なる墨色で飛ぶ鳥の奥行きを感じさせる。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "余白だけを根拠に孤独や不安の感情タグを付けない。",
+            "金地の《烏鷺図屏風》や赤い夕空の版画と区別する。Met所蔵51.137.3は墨画の掛軸。",
+            "三羽のカラスに特定の寓意や作者の感情を込めたという直接証言は確認できない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metは、柴田是真が繰り返しカラスを題材にし、この掛軸の三羽の鳥に墨の濃淡の差を付けることで遠近を表現したと解説する。「是真」の署名と楕円の「対柳居」印も記録する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/57318"
+          },
+          "creation_context": "19世紀の日本で制作された絹本墨画の掛軸。Met所蔵番号51.137.3。同作家のカラス三羽と白鷺二羽を描いた金地屏風は別作品。",
+          "visual_clues": "細長い縦の掛軸で、淡い余白の下半分を三羽のカラスが斜めに飛ぶ。一羽は小さく淡く、二羽は下のほうに濃く描かれ、下方に署名と印がある。",
+          "uncertainty_note": "正確な制作年、鳥の寓意、作者の心情は未確認。静けさは画面のトーンであり、感情タグの強制はしない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met website, object API, original JPEG visual preview and exact SHA check https://github.com/matumaruex/kaiga-data/actions/runs/42760271445; same assistant separate-pass analysis not external scholarly audit.",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "縦に細長い画面には、広い余白が残されています。その下のほうを、三羽のカラスが斜めに横切ります。近くに見える鳥と遠くに見える鳥では墨の濃さが違い、わずかな筆づかいが空の奥行きを生んでいます。\n\n柴田是真が19世紀に描いた《三羽黒鳥図》です。絹に墨で描かれた掛軸で、画面には「是真」の署名と楕円形の印があります。メトロポリタン美術館は、是真が繰り返しカラスを題材にしたこと、濃淡の変化で遠近を感じさせる構成を解説しています。\n\n同じ作者には、金色の屏風にカラスと白鷺を描いた作品もあります。この掛軸では色彩や背景を大きく広げず、鳥の羽と身体の向き、残された空間に目を向けさせます。カラスたちの行く先や作者の込めた象徴的な意味までを、確かな資料から決めることはできません。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/57318"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-57318-2026-11-10.json",
+        "audit_sha256": "51b4926404acfcc84748e8e2b2e7211db42c239fab79098b356a3624dfa3b6c0",
+        "record_sha256": "c56bfa381caa2ab79c132a23762e834bfdea52a7f466a50730d28b7ddf4d8be2"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
