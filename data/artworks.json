@@ -38654,6 +38654,373 @@
         "audit_sha256": "d1830b65556e433151b21e52c8db42ab2c422d33a01f5cbbdeec4cb14046ead9",
         "record_sha256": "d4fe5f515d521adf5992e72d73dfd9c2a380c1f55e170d425a5f1d998679fb53"
       }
+    },
+    {
+      "id": "met-764094",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 764094,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/764094",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764094",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "Our Lady of Cocharcas",
+        "title_ja_provisional": "コチャルカスの聖母",
+        "artist": "Unknown",
+        "creation_date_display": "1759",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Peru (Cuzco)",
+        "accession_number": "2019.14"
+      },
+      "image": {
+        "image_id": "met-764094-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18755-015.jpg",
+        "source_registry_id": "met-764094",
+        "local_path": "/artworks/met-764094.jpg",
+        "sha256": "7cd23dc34fe49c79097be5372e1f9375f2f98fc9a99df9b7c82d92c3fc054dd7",
+        "byte_length": 154576,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met API original+web-large full JPEG hashes and dimensions, downscale RMS, https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+        "source_accession_number": "2019.14",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18755-015.jpg",
+          "sha256": "436cb0b6d99ada0b73fb8d70a0e04ebc73ab8b3ce364d9d770f368cb97b48b8e",
+          "byte_length": 4911718,
+          "width": 2927,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Official original to web-large downscale RGB RMS 6.6959",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 2
+        },
+        "tones": [
+          "にぎわい"
+        ],
+        "themes": [
+          "共同体",
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/764094",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "宗教的な行列とアンデスの風景が一枚に重なる絵を味わいたい",
+              "reason": "Metの作品別解説によれば、コチャルカスの聖母の奇跡の像がアンデスの険しい山間にある行列用の祭壇に示され、周囲の曲がりくねった山道には巡礼者や信心深い人々が配される。像を周囲の人物より著しく大きく描くことで、像と場所の神聖さが強調される。9月8日の聖母祭に結びつく巡礼行列を描いたと考えられている。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "奇跡は信仰の伝承として紹介し、史実として実証された出来事とは扱わない。巡礼行列を描いたという説も推定表現。",
+            "行列が実際の特定日の様子そのものと断定しない。制作した画家の名前も不詳。画中の聖母像への奇跡の信仰と作品の物理的効果は別。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metの作品別解説によれば、コチャルカスの聖母の奇跡の像がアンデスの険しい山間にある行列用の祭壇に示され、周囲の曲がりくねった山道には巡礼者や信心深い人々が配される。像を周囲の人物より著しく大きく描くことで、像と場所の神聖さが強調される。9月8日の聖母祭に結びつく巡礼行列を描いたと考えられている。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/764094"
+          },
+          "creation_context": "1759, Peru (Cuzco); Oil and gold on canvas, accession 2019.14.",
+          "visual_clues": "画面の中心を大きく占める冠を戴いた聖母子像は天蓋と豪華な装飾に囲まれ、両側には山道を行く小さな巡礼者、遠くの教会や集落が描かれる。Met作品別画像で画面を確認。オリジナルと表示JPEGの全量ハッシュ・画素縮小一致は公式APIに基づくGitHub Actionsで確認。",
+          "uncertainty_note": "行列が実際の特定日の様子そのものと断定しない。制作した画家の名前も不詳。画中の聖母像への奇跡の信仰と作品の物理的効果は別。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "畏敬"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same assistant separate pass; Met exact images full hashes in https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "中央には、大きな冠を戴いた聖母子像。刺繍のように細かな衣と天蓋のまわりから目を外すと、その両側の険しい山道に、驚くほど小さな人々がいることに気づきます。\n\n《コチャルカスの聖母》は1759年、ペルーのクスコ地方で描かれた油彩画です。聖母の像を行列用の祭壇に据え、まわりには山間を行く巡礼者や信者たちを描いています。メトロポリタン美術館は、毎年9月8日の聖母祭に関連する巡礼行列を表した可能性を指摘しています。\n\n聖母子像が人々よりはるかに大きいのは、遠近法だけでは説明できません。小さな旅人をたどり、大きな像へ視線を戻すと、人々がその場所に寄せてきた信仰の重みが、画面の尺度からも伝わってきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/764094"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-764094-2026-11-10.json",
+        "audit_sha256": "9ce3b31f857f9c9082696a32b7f9a852df65ec29bb9158371ae4f86df1d22a4b",
+        "record_sha256": "1b7ea942575a33d15c7fef6a78f2240fa69f2d01fcf1d0fddded03ba59385e7c"
+      }
+    },
+    {
+      "id": "met-635384",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 635384,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/635384",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/635384",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "The Baptism of Christ",
+        "title_ja_provisional": "キリストの洗礼",
+        "artist": "Nicolás Enríquez",
+        "creation_date_display": "1773",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Mexican",
+        "accession_number": "2014.171"
+      },
+      "image": {
+        "image_id": "met-635384-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP356935.jpg",
+        "source_registry_id": "met-635384",
+        "local_path": "/artworks/met-635384.jpg",
+        "sha256": "381e0a5eef3c8f6bc852979411c099bd1917373ef7633760a58aebfbcf5e149c",
+        "byte_length": 67464,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met API original+web-large full JPEG hashes and dimensions, downscale RMS, https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+        "source_accession_number": "2014.171",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP356935.jpg",
+          "sha256": "b3800790438aeb5afbb3b5db31bbca0bcf8826ed7249db30f805ab31fa4051ff",
+          "byte_length": 2333469,
+          "width": 2921,
+          "height": 3884,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Official original to web-large downscale RGB RMS 3.7764",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/635384",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "宗教画の細部と制作を依頼した人の背景を結びつけて考えたい",
+              "reason": "Metの作品別解説では、メキシコの画家ニコラス・エンリケスが1773年、スペイン生まれの商人フアン・バウティスタ・エチェベリアの私的礼拝のために制作した五枚組のうちの一枚。洗礼者ヨハネは依頼人の名に関係する聖人であり、水の透明な滴とキリストの水に入った足を細やかに表している。銘文は依頼人の信仰によって描かれたことを伝える。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "宗教の主題があるだけで特定の鑑賞者の感情を決めつけない。絵画に宗教的効能を保証しない。",
+            "依頼人の内心や五枚組のすべての展示場所は本作品の解説だけでは断定しない。洗礼の奇跡の実証ではなく宗教主題の絵画。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metの作品別解説では、メキシコの画家ニコラス・エンリケスが1773年、スペイン生まれの商人フアン・バウティスタ・エチェベリアの私的礼拝のために制作した五枚組のうちの一枚。洗礼者ヨハネは依頼人の名に関係する聖人であり、水の透明な滴とキリストの水に入った足を細やかに表している。銘文は依頼人の信仰によって描かれたことを伝える。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/635384"
+          },
+          "creation_context": "1773, Mexican; Oil on copper, accession 2014.171.",
+          "visual_clues": "川に足をつけたキリストが画面左寄りに立ち、右側の赤い衣をまとった洗礼者ヨハネがその頭へ水を注ぐ。上方には鳩と雲間の人物が描かれる。Met公式作品画像で確認し、公式API提供の大小JPEGの全量ハッシュと縮小一致も確認。",
+          "uncertainty_note": "依頼人の内心や五枚組のすべての展示場所は本作品の解説だけでは断定しない。洗礼の奇跡の実証ではなく宗教主題の絵画。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same assistant separate pass; Met exact images full hashes in https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "川に立つキリストの頭へ、洗礼者ヨハネが水を注ぎます。足は川の中に入り、ヨハネの赤い衣の向こうには、木々と空が広がっています。\n\nこの《キリストの洗礼》は1773年、メキシコの画家ニコラス・エンリケスが銅板に描いた作品です。エンリケスは商人フアン・バウティスタ・エチェベリアの個人的な信仰のため、五枚組の絵を制作しました。依頼主の名前にもつながる聖ヨハネの場面が選ばれ、水滴や川に沈むキリストの足まで丁寧に描かれています。\n\n大きな宗教上の出来事を伝える一方で、画家は小さな水の動きにも目を向けています。誰のために、どんな場面を選んで描いたのかを知ると、静かな画面に別の奥行きが生まれます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/635384"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-635384-2026-11-10.json",
+        "audit_sha256": "4edbcd4c712dd674d28f9248c2a11a74e41dcbe14b19d21fb196b5aa2630a425",
+        "record_sha256": "42553dcd76f4a11b85138d7fb0cb6d51ea36fe2ea0cfc93f45eb1aa1c5d9dfe5"
+      }
+    },
+    {
+      "id": "met-16580",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 16580,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/16580",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/16580",
+        "record_checked_on": "2026-11-10"
+      },
+      "facts": {
+        "title_original": "Art Students",
+        "title_ja_provisional": "美術を学ぶ女性たち",
+        "artist": "Louis Lang",
+        "creation_date_display": "ca. 1871",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "American",
+        "accession_number": "1999.143"
+      },
+      "image": {
+        "image_id": "met-16580-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-19092-001.jpg",
+        "source_registry_id": "met-16580",
+        "local_path": "/artworks/met-16580.jpg",
+        "sha256": "4bcbae9cd800e72a99d4b0054a77ad9257985aa6c58bf02b42bc9cbe2522ef68",
+        "byte_length": 122047,
+        "live_image_checked": true,
+        "live_check_scope": "Official Met API original+web-large full JPEG hashes and dimensions, downscale RMS, https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+        "source_accession_number": "1999.143",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-19092-001.jpg",
+          "sha256": "857339e8f34b9a44fa99718e25387af5ace5bc523fa59057047dc9742b9a9ca0",
+          "byte_length": 4824227,
+          "width": 3476,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Official original to web-large downscale RGB RMS 5.1767",
+          "last_full_sha_checked_on": "2026-11-10",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2
+        },
+        "tones": [
+          "にぎわい"
+        ],
+        "themes": [
+          "日常",
+          "共同体",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/16580",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "何かを学ぶ人々の姿や、女性が芸術を学んだ歴史に触れたい",
+              "reason": "Metによると、ドイツ生まれのルイス・ラングは1867年からニューヨークのブロードウェイと西28丁目にあった自身のアトリエで女性向けの絵画教室を開いた。本作にはパレット、絵具、版画の本、石膏像、建築の断片、画架といった学習道具が集まる。1860年代後半には女性が専門家として美術を学ぶ場が私塾から教育機関へ広がり、クーパー・ユニオン（1859年創設）やレディース・アート・アソシエーション（1867年設立）もあった。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "人物が必ず希望や喜びを感じていたと断定しない。絵の場面から当時の全女性の教育機会を一般化しない。",
+            "絵に描かれた女性たちの実名、卒業後の進路、画家の内心は資料で確定されていない。美術教育の拡大を描くことと当時の機会が平等だったことは同じではない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metによると、ドイツ生まれのルイス・ラングは1867年からニューヨークのブロードウェイと西28丁目にあった自身のアトリエで女性向けの絵画教室を開いた。本作にはパレット、絵具、版画の本、石膏像、建築の断片、画架といった学習道具が集まる。1860年代後半には女性が専門家として美術を学ぶ場が私塾から教育機関へ広がり、クーパー・ユニオン（1859年創設）やレディース・アート・アソシエーション（1867年設立）もあった。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/16580"
+          },
+          "creation_context": "ca. 1871, American; Oil on canvas, accession 1999.143.",
+          "visual_clues": "室内には画架に向かう女性、紙に絵を描く人物、石膏像を眺める女性などがいる。壁に石膏像や彫刻、右端に図版が並び、室内の奥にも人物が見える。Met作品別画像で確認し、公式APIからの大小JPEGのハッシュ・縮小一致を別工程で確認。",
+          "uncertainty_note": "絵に描かれた女性たちの実名、卒業後の進路、画家の内心は資料で確定されていない。美術教育の拡大を描くことと当時の機会が平等だったことは同じではない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-10",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same assistant separate pass; Met exact images full hashes in https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "明るい室内では、何人もの女性がそれぞれ別の作業に取り組んでいます。画架に向かう人、紙に描く人、石膏像を見つめる人。机や壁には、絵具のほかにも版画集や彫刻などの教材が並びます。\n\nこの《美術を学ぶ女性たち》を描いたルイス・ラングは、1867年からニューヨークの自分のアトリエで女性に美術を教えていました。作品が描かれた1871年頃には、女性が芸術を専門的に学べる場所が私的な教室から学校へも広がり始めていました。\n\n画面の人物たちは、ひとつの場を共有しながら違う対象を見ています。誰かの人生や将来をこの一枚から言い当てることはできませんが、学ぶために道具と場所を持つことの意味を、教室の細部が伝えています。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/16580"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-10"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-16580-2026-11-10.json",
+        "audit_sha256": "e65a1735c41d0975a24d94c78aa5ecfc05810f7158d8869435c5cc835f492bfe",
+        "record_sha256": "38293eabd97baff37dca2cfe8528ef1cc82216ceea1ec921f964e54a76f7029c"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

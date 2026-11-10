@@ -1,0 +1,155 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-16580",
+  "artwork": {
+    "id": "met-16580",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 16580,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/16580",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/16580",
+      "record_checked_on": "2026-11-10"
+    },
+    "facts": {
+      "title_original": "Art Students",
+      "title_ja_provisional": "美術を学ぶ女性たち",
+      "artist": "Louis Lang",
+      "creation_date_display": "ca. 1871",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "American",
+      "accession_number": "1999.143"
+    },
+    "image": {
+      "image_id": "met-16580-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-19092-001.jpg",
+      "source_registry_id": "met-16580",
+      "local_path": "/artworks/met-16580.jpg",
+      "sha256": "4bcbae9cd800e72a99d4b0054a77ad9257985aa6c58bf02b42bc9cbe2522ef68",
+      "byte_length": 122047,
+      "live_image_checked": true,
+      "live_check_scope": "Official Met API original+web-large full JPEG hashes and dimensions, downscale RMS, https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+      "source_accession_number": "1999.143",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-19092-001.jpg",
+        "sha256": "857339e8f34b9a44fa99718e25387af5ace5bc523fa59057047dc9742b9a9ca0",
+        "byte_length": 4824227,
+        "width": 3476,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Official original to web-large downscale RGB RMS 5.1767",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 2
+      },
+      "tones": [
+        "にぎわい"
+      ],
+      "themes": [
+        "日常",
+        "共同体",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/16580",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "何かを学ぶ人々の姿や、女性が芸術を学んだ歴史に触れたい",
+            "reason": "Metによると、ドイツ生まれのルイス・ラングは1867年からニューヨークのブロードウェイと西28丁目にあった自身のアトリエで女性向けの絵画教室を開いた。本作にはパレット、絵具、版画の本、石膏像、建築の断片、画架といった学習道具が集まる。1860年代後半には女性が専門家として美術を学ぶ場が私塾から教育機関へ広がり、クーパー・ユニオン（1859年創設）やレディース・アート・アソシエーション（1867年設立）もあった。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "人物が必ず希望や喜びを感じていたと断定しない。絵の場面から当時の全女性の教育機会を一般化しない。",
+          "絵に描かれた女性たちの実名、卒業後の進路、画家の内心は資料で確定されていない。美術教育の拡大を描くことと当時の機会が平等だったことは同じではない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metによると、ドイツ生まれのルイス・ラングは1867年からニューヨークのブロードウェイと西28丁目にあった自身のアトリエで女性向けの絵画教室を開いた。本作にはパレット、絵具、版画の本、石膏像、建築の断片、画架といった学習道具が集まる。1860年代後半には女性が専門家として美術を学ぶ場が私塾から教育機関へ広がり、クーパー・ユニオン（1859年創設）やレディース・アート・アソシエーション（1867年設立）もあった。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/16580"
+        },
+        "creation_context": "ca. 1871, American; Oil on canvas, accession 1999.143.",
+        "visual_clues": "室内には画架に向かう女性、紙に絵を描く人物、石膏像を眺める女性などがいる。壁に石膏像や彫刻、右端に図版が並び、室内の奥にも人物が見える。Met作品別画像で確認し、公式APIからの大小JPEGのハッシュ・縮小一致を別工程で確認。",
+        "uncertainty_note": "絵に描かれた女性たちの実名、卒業後の進路、画家の内心は資料で確定されていない。美術教育の拡大を描くことと当時の機会が平等だったことは同じではない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-10",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same assistant separate pass; Met exact images full hashes in https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "明るい室内では、何人もの女性がそれぞれ別の作業に取り組んでいます。画架に向かう人、紙に描く人、石膏像を見つめる人。机や壁には、絵具のほかにも版画集や彫刻などの教材が並びます。\n\nこの《美術を学ぶ女性たち》を描いたルイス・ラングは、1867年からニューヨークの自分のアトリエで女性に美術を教えていました。作品が描かれた1871年頃には、女性が芸術を専門的に学べる場所が私的な教室から学校へも広がり始めていました。\n\n画面の人物たちは、ひとつの場を共有しながら違う対象を見ています。誰かの人生や将来をこの一枚から言い当てることはできませんが、学ぶために道具と場所を持つことの意味を、教室の細部が伝えています。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/16580"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-10"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-16580",
+    "title": "Art Students",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/16580",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/16580",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-19092-001.jpg",
+      "sha256": "4bcbae9cd800e72a99d4b0054a77ad9257985aa6c58bf02b42bc9cbe2522ef68",
+      "byte_length": 122047,
+      "last_http_sha_checked_on": "2026-11-10",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-19092-001.jpg",
+        "sha256": "857339e8f34b9a44fa99718e25387af5ace5bc523fa59057047dc9742b9a9ca0",
+        "byte_length": 4824227,
+        "width": 3476,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Official original to web-large downscale RGB RMS 5.1767",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "1999.143"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-635384",
+  "artwork": {
+    "id": "met-635384",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 635384,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/635384",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/635384",
+      "record_checked_on": "2026-11-10"
+    },
+    "facts": {
+      "title_original": "The Baptism of Christ",
+      "title_ja_provisional": "キリストの洗礼",
+      "artist": "Nicolás Enríquez",
+      "creation_date_display": "1773",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Mexican",
+      "accession_number": "2014.171"
+    },
+    "image": {
+      "image_id": "met-635384-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP356935.jpg",
+      "source_registry_id": "met-635384",
+      "local_path": "/artworks/met-635384.jpg",
+      "sha256": "381e0a5eef3c8f6bc852979411c099bd1917373ef7633760a58aebfbcf5e149c",
+      "byte_length": 67464,
+      "live_image_checked": true,
+      "live_check_scope": "Official Met API original+web-large full JPEG hashes and dimensions, downscale RMS, https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+      "source_accession_number": "2014.171",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP356935.jpg",
+        "sha256": "b3800790438aeb5afbb3b5db31bbca0bcf8826ed7249db30f805ab31fa4051ff",
+        "byte_length": 2333469,
+        "width": 2921,
+        "height": 3884,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Official original to web-large downscale RGB RMS 3.7764",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [],
+      "emotion_strengths": {},
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/635384",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "宗教画の細部と制作を依頼した人の背景を結びつけて考えたい",
+            "reason": "Metの作品別解説では、メキシコの画家ニコラス・エンリケスが1773年、スペイン生まれの商人フアン・バウティスタ・エチェベリアの私的礼拝のために制作した五枚組のうちの一枚。洗礼者ヨハネは依頼人の名に関係する聖人であり、水の透明な滴とキリストの水に入った足を細やかに表している。銘文は依頼人の信仰によって描かれたことを伝える。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "宗教の主題があるだけで特定の鑑賞者の感情を決めつけない。絵画に宗教的効能を保証しない。",
+          "依頼人の内心や五枚組のすべての展示場所は本作品の解説だけでは断定しない。洗礼の奇跡の実証ではなく宗教主題の絵画。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metの作品別解説では、メキシコの画家ニコラス・エンリケスが1773年、スペイン生まれの商人フアン・バウティスタ・エチェベリアの私的礼拝のために制作した五枚組のうちの一枚。洗礼者ヨハネは依頼人の名に関係する聖人であり、水の透明な滴とキリストの水に入った足を細やかに表している。銘文は依頼人の信仰によって描かれたことを伝える。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/635384"
+        },
+        "creation_context": "1773, Mexican; Oil on copper, accession 2014.171.",
+        "visual_clues": "川に足をつけたキリストが画面左寄りに立ち、右側の赤い衣をまとった洗礼者ヨハネがその頭へ水を注ぐ。上方には鳩と雲間の人物が描かれる。Met公式作品画像で確認し、公式API提供の大小JPEGの全量ハッシュと縮小一致も確認。",
+        "uncertainty_note": "依頼人の内心や五枚組のすべての展示場所は本作品の解説だけでは断定しない。洗礼の奇跡の実証ではなく宗教主題の絵画。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-10",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same assistant separate pass; Met exact images full hashes in https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "川に立つキリストの頭へ、洗礼者ヨハネが水を注ぎます。足は川の中に入り、ヨハネの赤い衣の向こうには、木々と空が広がっています。\n\nこの《キリストの洗礼》は1773年、メキシコの画家ニコラス・エンリケスが銅板に描いた作品です。エンリケスは商人フアン・バウティスタ・エチェベリアの個人的な信仰のため、五枚組の絵を制作しました。依頼主の名前にもつながる聖ヨハネの場面が選ばれ、水滴や川に沈むキリストの足まで丁寧に描かれています。\n\n大きな宗教上の出来事を伝える一方で、画家は小さな水の動きにも目を向けています。誰のために、どんな場面を選んで描いたのかを知ると、静かな画面に別の奥行きが生まれます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/635384"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-10"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-635384",
+    "title": "The Baptism of Christ",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/635384",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/635384",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP356935.jpg",
+      "sha256": "381e0a5eef3c8f6bc852979411c099bd1917373ef7633760a58aebfbcf5e149c",
+      "byte_length": 67464,
+      "last_http_sha_checked_on": "2026-11-10",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42783837759",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP356935.jpg",
+        "sha256": "b3800790438aeb5afbb3b5db31bbca0bcf8826ed7249db30f805ab31fa4051ff",
+        "byte_length": 2333469,
+        "width": 2921,
+        "height": 3884,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Official original to web-large downscale RGB RMS 3.7764",
+        "last_full_sha_checked_on": "2026-11-10",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2014.171"
+  }
+}
