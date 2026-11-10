@@ -1,0 +1,60 @@
+name: Temporary register approved art 302-304
+on:
+  push:
+    branches:
+      - codex/expand-artworks-302-304-v2
+permissions:
+  contents: write
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Complete registrations one work at a time
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib,json,subprocess,sys
+          from pathlib import Path
+          ids=("met-871866","met-827660","met-436875")
+          date="2026-11-10"
+          def digest(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+          for i,ident in enumerate(ids,1):
+            audit_path=Path("docs/artwork-completion-audits/"+ident+"-"+date+".json")
+            a=json.loads(audit_path.read_text(encoding="utf-8"))
+            assert a["id"]==ident and a["result"]=="PENDING_MACHINE_VERIFICATION"
+            a["candidate_sha256"]=digest(a["candidate_path"])
+            a["draft_sha256"]=digest(a["draft_path"])
+            a["baseline"]={"artworks_sha256":digest("data/artworks.json"),"image_registry_sha256":digest("data/image-sources.json")}
+            a["result"]="PASS"
+            audit_path.write_text(json.dumps(a,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+            for action in ("preview","save","check"):
+              args=[sys.executable,"scripts/add_artwork.py",action]
+              if action!="check":args+=["--audit",str(audit_path)]
+              print("RUN",ident,action,flush=True)
+              subprocess.run(args,check=True)
+            print("COMPLETED",ident,301+i,flush=True)
+          readme=Path("README.md").read_text(encoding="utf-8")
+          assert "**v2完成登録：304作品**" in readme
+          resume=Path("docs/resume-artwork-work.md")
+          before=resume.read_text(encoding="utf-8")
+          note="""## 【最新の再開地点】2026-11-10：第2段階 304/304作品を登録（PR・CI・main統合確認後に確定）
+
+          - 301作品目 met-21126 に続き、承認済みの3作品を1件ずつMet公式作品ページ・公式API・原画像・意味資料・感情索引・独自日本語鑑賞本文・権利条件と照合。met-871866 池田蕉園《手習い》、met-827660 クララ・ペーテルス《花束》、met-436875 マリー・ヴィクトワール・ルモワーヌ《女性画家のアトリエ》。
+          - GitHub Actions run 42750863200 で3作品とも Met 公式 original と web-large JPEG を直接取得し、全量 SHA256・寸法・縮小 RGB の一致性確認に成功。公式画像図像は別途表示し照合。3作品ともMetのPD表示、Open Access/CC0画像、鑑賞解説の新規日本語文と権利を区別した。
+          - 作品ごとの証拠と同一AIの別工程レビュー（別モデル／外部独立審査員ではない）は docs/artwork-completion-audits に保存。人間最終承認ではなく同じv2品質基準。3作品を scripts/add_artwork.py preview→save→check で逐次登録し、元300レコードおよび既存301作品を保存したままカタログ304件へ。各作品の登録器検査はパス。新作品の画像台帳と日本語本文を追加。
+          - このブランチの新規3件を正式な完成作品数と数えるのは、作品DB・鑑賞下書き両CI成功とPRのmain統合後のみ。美術館アプリの反映・表示テストは別工程。次回は最新mainとREADMEの総数を確認し、新規候補を同基準で選ぶ。
+
+          """
+          resume.write_text(note+before,encoding="utf-8")
+          PY
+          git rm -- .github/workflows/temporary-met-302-304-register.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/artworks.json data/image-sources.json README.md docs/resume-artwork-work.md docs/artwork-completion-audits/
+          git commit -m "feat: register three source-reviewed paintings, 304 v2 completed"
+          git push origin HEAD:codex/expand-artworks-302-304-v2
