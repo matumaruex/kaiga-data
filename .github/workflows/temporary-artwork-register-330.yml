@@ -1,0 +1,33 @@
+name: Temporary audited artwork registration 330-332
+on:
+  push:
+    branches:
+      - codex/expand-artworks-330-332-20261111
+permissions:
+  contents: write
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet pillow requests
+      - name: Register individually with version-bound source audits and full suite
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path=Path('scripts/_tmp_register_330_332.py')
+          s=path.read_text(encoding='utf-8')
+          old="call('python','scripts/'+script,'check' if script in ('complete_artwork.py','add_artwork.py') else '')"
+          assert old in s
+          s=s.replace(old,"call('python','scripts/'+script,*(['check'] if script in ('complete_artwork.py','add_artwork.py') else []))")
+          s=s.replace('\\`','`')
+          path.write_text(s,encoding='utf-8')
+          PY
+          python scripts/_tmp_register_330_332.py
