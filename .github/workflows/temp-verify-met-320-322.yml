@@ -4,7 +4,7 @@ on:
     branches: [main]
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   verify:
     runs-on: ubuntu-latest
@@ -51,3 +51,19 @@ jobs:
                   print("ERROR",oid,repr(e),flush=True);failures.append(f"{oid}: {e}")
           if failures:raise SystemExit("FAILED "+str(failures))
           PY
+
+      - name: Register 320-322 only after all checks pass
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/temp_register_320_322.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/artworks.json data/image-sources.json README.md docs/resume-artwork-work.md docs/history/resume-updates.md
+          git add drafts/artwork-additions/met-{319625,454054,860960}.json
+          git add drafts/visitor-explanations/met-{319625,454054,860960}.json
+          git add docs/artwork-completion-audits/met-{319625,454054,860960}-2026-11-10.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: add Met 320-322 with official-source review"
+            git push origin HEAD:codex/expand-artworks-320-322-v2
+          fi
