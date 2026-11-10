@@ -126,12 +126,16 @@ def main():
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--online", action="store_true")
     args = parser.parse_args()
-    from scripts.add_artwork import load
+    import json
+    def load(path):
+        return json.loads(path.read_text(encoding="utf-8"))
     root = args.root.resolve()
     audit_path = (root / args.audit).resolve()
     require(audit_path.is_relative_to(root / "docs/artwork-completion-audits"),
             "audit path outside completion audits")
     audit = load(audit_path)
+    require(audit.get("schema_version") == "artwork-v2-new-registration-2",
+            "official-source verifier requires new audit v2")
     proposal = load(root / audit["candidate_path"])
     art = proposal["artwork"]
     require(audit["id"] == art["id"], "audit and artwork ID differ")
