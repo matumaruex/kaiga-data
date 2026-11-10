@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Guard the verified 2026-10-20 300-work museum catalog snapshot.
+"""Guard the verified baseline of 300 works while allowing audited additions.
 
 Fail closed on partial artwork/registry updates, accidental held-work
 promotion, unexpected removals, stale README headline, or mislabeled painter
-attribution. Bump EXPECTED_* deliberately when approving a catalog expansion.
+attribution. EXPECTED_* values are protected baseline minimums, not growth ceilings.
 This static audit does NOT claim human approval or live source availability.
 """
 from collections import Counter
@@ -49,11 +49,20 @@ def main():
             errors.append(detail)
     ids = [a["id"] for a in works]
     recids = [a["id"] for a in entries]
-    require(len(works) == EXPECTED_ARTWORKS, f"Expected {EXPECTED_ARTWORKS} works, got {len(works)}")
-    require(len(entries) == EXPECTED_IMAGES, f"Expected {EXPECTED_IMAGES} source records, got {len(entries)}")
+    baseline = read("data/baseline-300-ids.json")
+    baseline_ids = baseline.get("ids", [])
+    require(baseline.get("schema_version") == "baseline-300-ids-v1"
+            and len(baseline_ids) == EXPECTED_ARTWORKS
+            and len(set(baseline_ids)) == EXPECTED_ARTWORKS, "Invalid baseline of original 300 IDs")
+    require(set(baseline_ids) <= set(ids), "An original completed artwork ID was removed")
+    require(len(works) >= EXPECTED_ARTWORKS, f"Catalog shrank below {EXPECTED_ARTWORKS} works")
+    require(len(entries) == len(works) + len(EXPECTED_HELD_IMAGES),
+            "Added artworks must each have one matching image source record")
     require(len(ids) == len(set(ids)), "Duplicate artwork IDs")
     require(len(recids) == len(set(recids)), "Duplicate image source IDs")
-    require(Counter(k.split("-")[0] for k in ids) == {"aic": EXPECTED_AIC, "met": EXPECTED_MET}, "Museum totals differ")
+    museums = Counter(k.split("-")[0] for k in ids)
+    require(museums["aic"] >= EXPECTED_AIC and museums["met"] >= EXPECTED_MET
+            and set(museums) <= {"aic", "met"}, "Museum counts decreased or unsupported source was added")
     require(set(recids) - set(ids) == EXPECTED_HELD_IMAGES, "Orphaned image records changed")
     require(all(k in recids for k in ids), "Artworks missing image registry")
     byid = {r["id"]: r["image_source"] for r in entries}
@@ -110,8 +119,8 @@ def main():
         require(all(k not in c for k in ("interpretation", "source_context_note", "alternate_reading")),
                 f"{ident}: obsolete legacy explanation still present")
         require(bool(c["meaning_basis"]["scholarly_interpretation"]["summary"]), f"{ident}: missing meaning basis")
-    require(highcount == EXPECTED_HIGH_RES, f"Expected {EXPECTED_HIGH_RES} high-res source records, got {highcount}")
-    require(canonicalcount == 21, f"Expected 21 canonical artist records, got {canonicalcount}")
+    require(highcount >= EXPECTED_HIGH_RES, "Verified high-resolution baseline shrank")
+    require(canonicalcount >= 21, "Canonical artist baseline shrank")
     for n in range(16, 23):
         batch = read(f"data/candidates-batch-{n:03}.json")
         for candidate in batch["works"]:
@@ -128,7 +137,11 @@ def main():
     # farther down the README, so never infer staleness from its byte offset.
     heading = "## 現在の登録状況"
     current_summary = readme.split(heading, 1)[1].split("\n## ", 1)[0] if heading in readme else ""
-    require("**試験登録：300作品**" in current_summary, "README current 300 work summary is stale")
+    require("**試験登録：300作品**" in current_summary, "README historical 300 work baseline missing")
+    marker_start, marker_end = "<!-- EXPANSION_COUNT_START -->", "<!-- EXPANSION_COUNT_END -->"
+    live_summary = readme.split(marker_start, 1)[1].split(marker_end, 1)[0] if marker_start in readme and marker_end in readme else ""
+    require(f"**v2完成登録：{len(works)}作品**" in live_summary,
+            f"README live count stale: {len(works)}")
     require("画像台帳は**301件**" in current_summary, "README 301 source image summary is stale")
     if errors:
         print("FAIL: snapshot integrity", len(errors))
