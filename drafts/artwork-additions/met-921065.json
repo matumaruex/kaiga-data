@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-921065",
+  "artwork": {
+    "id": "met-921065",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 921065,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/921065",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/921065",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Portrait of Nicolás Matías Fernández Méndez",
+      "title_ja_provisional": "ニコラス・マティアス・フェルナンデス・メンデスの肖像",
+      "artist": "José Campeche",
+      "creation_date_display": "ca. 1800",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Puerto Rico (artist and sitter context; Met API culture unspecified)",
+      "accession_number": "2025.243"
+    },
+    "image": {
+      "image_id": "met-921065-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-40070-001.jpg",
+      "source_registry_id": "met-921065",
+      "local_path": "/artworks/met-921065.jpg",
+      "sha256": "9253191cb7a6686145c77502ad9b2f2e7ff9b8a9727ee767b623c579254b7f42",
+      "byte_length": 70627,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42929134131",
+      "source_accession_number": "2025.243",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-40070-001.jpg",
+        "sha256": "038ddc233c20243397e62ce5a884e0f53aadb6c90ce53ca037b1b55a10f482ec",
+        "byte_length": 2401955,
+        "width": 3176,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 3.18572",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [],
+      "emotion_strengths": {},
+      "tones": [
+        "落ち着き"
+      ],
+      "themes": [
+        "共同体",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/921065",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "小さな木板の肖像画から、植民地期プエルトリコの人物表現と社会を考えたい",
+            "reason": "Met公式作品Overviewによると、アフリカ系のルーツを持つカンペチェは18世紀末のプエルトリコを代表する画家で、植民地社会の要請に応じて官吏や商人など多様な肖像画を制作した。本作は私的肖像の保存状態が極めて良い例で、被写体は大西洋とカリブ海をまたぐ交易に関わった役人・商人ニコラス・マティアス・フェルナンデス・メンデス。赤い制服と、背景の架空の石造りの枠が人物の存在を強調している。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "男性の財力や内面、交易による個人的行動の詳細を推測しない。アーティストの出自を作品のAPIにない文化項目と同一視しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met公式作品Overviewによると、アフリカ系のルーツを持つカンペチェは18世紀末のプエルトリコを代表する画家で、植民地社会の要請に応じて官吏や商人など多様な肖像画を制作した。本作は私的肖像の保存状態が極めて良い例で、被写体は大西洋とカリブ海をまたぐ交易に関わった役人・商人ニコラス・マティアス・フェルナンデス・メンデス。赤い制服と、背景の架空の石造りの枠が人物の存在を強調している。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/921065"
+        },
+        "creation_context": "ca. 1800; ; Oil on wood panel; accession 2025.243",
+        "visual_clues": "赤い上着を着た成熟した男性が正面へ視線を向け、無地に近い暗色の背景と石造りを模した枠に囲まれている。Met公式同一作品画像の図像に基づく。",
+        "uncertainty_note": "男性の財力や内面、交易による個人的行動の詳細を推測しない。アーティストの出自を作品のAPIにない文化項目と同一視しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42929134131",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "赤い制服の上着を着たフェルナンデスは、こちらをまっすぐ見つめています。背景には細かな物語や風景が描かれず、石造りを模した枠が人物を際立たせています。\n\n描かれたニコラス・マティアス・フェルナンデス・メンデスは、プエルトリコの役人であり、カリブ海と大西洋を結ぶ交易に関わった商人でした。画家ホセ・カンペチェは18世紀末のプエルトリコで多くの肖像画を残しました。この作品は、カンペチェの個人肖像画の中でも保存状態が非常によい例だと説明されています。\n\n小さな木板に描かれた顔と服の輪郭をたどると、装飾を抑えながら人物の存在感を伝える工夫が見えてきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/921065"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-921065",
+    "title": "Portrait of Nicolás Matías Fernández Méndez",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/921065",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/921065",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-40070-001.jpg",
+      "sha256": "9253191cb7a6686145c77502ad9b2f2e7ff9b8a9727ee767b623c579254b7f42",
+      "byte_length": 70627,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42929134131",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-40070-001.jpg",
+        "sha256": "038ddc233c20243397e62ce5a884e0f53aadb6c90ce53ca037b1b55a10f482ec",
+        "byte_length": 2401955,
+        "width": 3176,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 3.18572",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2025.243"
+  }
+}
