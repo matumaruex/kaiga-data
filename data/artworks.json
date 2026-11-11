@@ -43887,6 +43887,371 @@
         "audit_sha256": "9abbb4caebddf28bcaaaa27a7a3997a95525e1feb326027f8c0a4a211897f7f3",
         "record_sha256": "cb0a6827e66eb8aa62f74f356254dc55ec4a557407d79e5238479b4c3f6911e4"
       }
+    },
+    {
+      "id": "met-436831",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436831,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436831",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436831",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "An Extensive Wooded Landscape",
+        "title_ja_provisional": "広大な森の風景",
+        "artist": "Philips Koninck",
+        "creation_date_display": "1670s",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "The Netherlands (artist nationality; Met API culture unspecified)",
+        "accession_number": "1980.4"
+      },
+      "image": {
+        "image_id": "met-436831-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146508.jpg",
+        "source_registry_id": "met-436831",
+        "local_path": "/artworks/met-436831.jpg",
+        "sha256": "67f5c99f15c3d8ac100542cbd4074dd528598e55f0b40d10aa06ced7faa2b851",
+        "byte_length": 71608,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42951949511",
+        "source_accession_number": "1980.4",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146508.jpg",
+          "sha256": "911753abe515a5718ae94b4eb266c4323741662101442271ff5d02eadad74088",
+          "byte_length": 3001959,
+          "width": 3907,
+          "height": 2893,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 5.82669",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436831",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "オランダ17世紀の大空と遠くまで続く平野を眺め、実景と想像を合わせる風景画の作り方を知りたい",
+              "reason": "Met公式の作品別Overviewは、この作品の地形がオランダ東部ヘルダーラント地方に着想を得た可能性があるものの、表現された風景は想像上のものと説明する。当時の画家は野外素描を資料にしつつ、画室で一つの風景を組み立てることが多かった。オランダ・アムステルダム国立美術館にある1676年の類似した川の風景には、右側に同じ優雅な狩猟用の舟『ヤハト』が描かれている。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "ヘルダーラントの特定場所を写した実景として断定しない。絵の船が狩猟用船かどうかはMet本文を根拠とし、画面で小さな細部が明瞭に見えるとは言わない。人々の感情や作者の実体験は推測しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式の作品別Overviewは、この作品の地形がオランダ東部ヘルダーラント地方に着想を得た可能性があるものの、表現された風景は想像上のものと説明する。当時の画家は野外素描を資料にしつつ、画室で一つの風景を組み立てることが多かった。オランダ・アムステルダム国立美術館にある1676年の類似した川の風景には、右側に同じ優雅な狩猟用の舟『ヤハト』が描かれている。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436831"
+          },
+          "creation_context": "1670s; ; Oil on canvas; accession 1980.4",
+          "visual_clues": "Met公式同一作品の原寸JPEGと表示JPEGを縮小比較し、実画像を確認。横長の風景の上半分を広い灰青色の曇り空が占める。中央の低く長い地平線、左の木立と人のいる小道、右下に曲がる川と、緑の草地・遠景の村が描かれている。小さな舟の種類は公式Overviewによる。",
+          "uncertainty_note": "ヘルダーラントの特定場所を写した実景として断定しない。絵の船が狩猟用船かどうかはMet本文を根拠とし、画面で小さな細部が明瞭に見えるとは言わない。人々の感情や作者の実体験は推測しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42951949511",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "雲が重なる広い空の下に、森の木々と、遠くまで続く平野が広がります。画面の左には木立と道があり、右には大きく曲がる川が見えます。近くの木々から遠い地平線まで、視線がゆっくり移動する構図です。\n\nこの風景の地形は、オランダ東部のヘルダーラント地方に着想を得た可能性があります。しかし、特定の景色を正確に写した絵ではなく、想像上の風景です。17世紀のオランダの風景画家は、自然の中で描いた素描を参考にしながら、画室で一つの風景を組み立てることが多くありました。\n\n画家フィリプス・コーニンクは、低い地平線と大きな空によって、土地の広さを感じさせています。川沿いの小さな人影や舟を探すと、遠くまで続く風景の中に人の営みが見えてきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/436831"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-436831-2026-11-11.json",
+        "audit_sha256": "5e6b07b734633ddbd743b65414d5961ced7b5e3791dc6a18931785a693ff9e32",
+        "record_sha256": "8e245adaf67544229933f0af2c12918fea1d5576c00d6dc16e1c44efd308ebb2"
+      }
+    },
+    {
+      "id": "met-441356",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 441356,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/441356",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/441356",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "A Cairo Bazaar",
+        "title_ja_provisional": "カイロの市場",
+        "artist": "Adrien Dauzats",
+        "creation_date_display": "1839",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Egypt (depicted location); French painter (Met API culture unspecified)",
+        "accession_number": "2018.209"
+      },
+      "image": {
+        "image_id": "met-441356-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-15439-001.jpg",
+        "source_registry_id": "met-441356",
+        "local_path": "/artworks/met-441356.jpg",
+        "sha256": "256fa11a3de51261956af0d409823d08c45db40ba4b65fc2f8699eb807dabf14",
+        "byte_length": 116021,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42951949511",
+        "source_accession_number": "2018.209",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-15439-001.jpg",
+          "sha256": "c2c5b411004abaa4df1a149af7ba10f1c161dc959af740ef1f2e1e52c6e030a1",
+          "byte_length": 3666416,
+          "width": 2998,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 6.20665",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "にぎわい"
+        ],
+        "themes": [
+          "都市",
+          "日常",
+          "共同体"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/441356",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "カイロの市場の混雑とモスクの塔を、19世紀のフランス人画家の眼で描いた小さな絵から味わいたい",
+              "reason": "Met公式作品別Overviewによると、フランスの画家アドリアン・ドーザは1830年にエジプトへ行き、約9年後にこの小さな木板の油彩画を描いた。板の絵具層は特によい保存状態にある。画家は初期に劇場の舞台装置の絵を学んでおり、空間を大胆に切り取る構図や明暗の効果、雲の前に浮かぶモスクのドームとミナレットの描写にその経験がうかがえる。実際の1830年の現地風景をそのまま描いたとまでは断定しない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "市場の具体的な店名・地名、絵の中の人物の民族や社会的役割を断定しない。画家はフランス人で描かれた文化・場所はエジプト・カイロであることを区別する。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品別Overviewによると、フランスの画家アドリアン・ドーザは1830年にエジプトへ行き、約9年後にこの小さな木板の油彩画を描いた。板の絵具層は特によい保存状態にある。画家は初期に劇場の舞台装置の絵を学んでおり、空間を大胆に切り取る構図や明暗の効果、雲の前に浮かぶモスクのドームとミナレットの描写にその経験がうかがえる。実際の1830年の現地風景をそのまま描いたとまでは断定しない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/441356"
+          },
+          "creation_context": "1839; ; Oil on wood; accession 2018.209",
+          "visual_clues": "Met公式の主画像と原寸JPEGを目視。小さな縦長の板絵に、左右の古い建物に囲まれた市場の通り、手前の布で覆われた屋台や小さな人影。中央の奥にミナレット二本とドーム、白い雲が明るく広がる空。狭い路地の視線が塔へ上がる構図。",
+          "uncertainty_note": "市場の具体的な店名・地名、絵の中の人物の民族や社会的役割を断定しない。画家はフランス人で描かれた文化・場所はエジプト・カイロであることを区別する。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42951949511",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "建物が迫る市場の通りに、日よけの布や屋台、人々の姿が重なっています。その奥にはモスクのドームと二本の高い塔が現れ、雲の明るい空に向かって伸びています。\n\nフランスの画家ドーザは1830年にエジプトを訪れました。それからおよそ9年後、1839年にこの小さな木板の油彩画を制作しています。画家は若い頃、劇場の舞台装置を描く仕事を学んでいました。その経験が、建物に囲まれた狭い道から遠くの塔を見せる構図や、光と影の表現に現れていると美術館は説明しています。\n\nにぎやかな通りから上空へ視線を動かすと、街の生活と大きな建築が一つの画面につながります。絵の小ささも意識しながら、細部を探してみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/441356"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-441356-2026-11-11.json",
+        "audit_sha256": "7fa6f8ddd962164ad89a6755a6cff6ff1c96b6ab6494eb832212683f78c1d44a",
+        "record_sha256": "1a3c4d7411dae2a2a3a3dd1db2d3b4111194841a5597a43082f9c7c9e9d46478"
+      }
+    },
+    {
+      "id": "met-45770",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 45770,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/45770",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45770",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Two Girls Catching Fireflies",
+        "title_ja_provisional": "蛍狩りを楽しむ二人の女性",
+        "artist": "Kawamata Tsunemasa",
+        "creation_date_display": "first half of the 18th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "36.100.87"
+      },
+      "image": {
+        "image_id": "met-45770-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-45140-002.jpg",
+        "source_registry_id": "met-45770",
+        "local_path": "/artworks/met-45770.jpg",
+        "sha256": "3a94de0399284d3fbd5c70be5ac9cb4bdd1b624632e2a0ed2b4ceb36f7f95bfb",
+        "byte_length": 66722,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42951949511",
+        "source_accession_number": "36.100.87",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-45140-002.jpg",
+          "sha256": "eae5c4a5948e44d5d143b35b8c4f6d8cd3f20f27a7897323bdebefcee4897801",
+          "byte_length": 2687702,
+          "width": 2998,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 4.57213",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "喜び"
+        ],
+        "emotion_strengths": {
+          "喜び": 1
+        },
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "日常",
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/45770",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "江戸時代の夏の夜、蛍の光や細い木々と人物から涼しさを感じる風俗画を見たい",
+              "reason": "Met公式作品別Overviewによると、暗い衣装の年上の女性が少女に付き添い、少女は小さな籠の中の蛍を眺めている。背の高い木と曲がりながら流れる小川が画面を縁取り、茂みから飛び立つ蛍と細身の人物二人が夕涼みの感覚を生む。作者の川又常正は、若い女性の人形のような繊細な姿を特色とする川又派の浮世絵画家で、その型は後の鈴木春信によって洗練された。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作者の意図や二人の実際の血縁関係は不明であり、母娘とは断定しない。年上の女性・少女という公式の人物記述に留める。時刻は夏の夕涼みという文脈で捉えるが特定の日付は分からない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品別Overviewによると、暗い衣装の年上の女性が少女に付き添い、少女は小さな籠の中の蛍を眺めている。背の高い木と曲がりながら流れる小川が画面を縁取り、茂みから飛び立つ蛍と細身の人物二人が夕涼みの感覚を生む。作者の川又常正は、若い女性の人形のような繊細な姿を特色とする川又派の浮世絵画家で、その型は後の鈴木春信によって洗練された。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/45770"
+          },
+          "creation_context": "first half of the 18th century; Japan; Hanging scroll; ink, color, and gold on silk; accession 36.100.87",
+          "visual_clues": "Met公式同一作品の原寸・表示JPEGを縮小照合して目視。縦長の絹の掛軸に薄い茶の余白、中央に高い木の幹と枝、右下に赤い着物の小さな少女と暗い衣の年上の女性が並ぶ。水の流れと暗い草が画面の下側に描かれる。サムネイルから小さな蛍の点を一つずつ判別したと主張しない。",
+          "uncertainty_note": "作者の意図や二人の実際の血縁関係は不明であり、母娘とは断定しない。年上の女性・少女という公式の人物記述に留める。時刻は夏の夕涼みという文脈で捉えるが特定の日付は分からない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "喜び"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42951949511",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "細長い画面の中に、大きく伸びた木と、流れの曲がる小川が描かれています。手前にいるのは、赤い着物の少女と暗い衣装の年上の女性です。少女は小さな籠に捕まえた蛍を眺めています。\n\n蛍は茂みのあたりから舞い上がり、木の枝や水の流れとともに夏の夕暮れの涼しさを感じさせます。背の高い木と曲がりくねった小川が二人を囲み、細く柔らかな人物の姿を引き立てています。\n\n作者の川又常正は18世紀前半に活躍した浮世絵画家です。若い女性を人形のように繊細に描く川又派の様式は、後の鈴木春信にも受け継がれました。画面の小さな人物を探しながら、静かな夏の夜の一場面を味わえます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/45770"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-45770-2026-11-11.json",
+        "audit_sha256": "3238b593a66bd96772a9b497429b23c38e7cd7d6a2b2c76746bef11df820e150",
+        "record_sha256": "59b86157dcb1da5ed5955f1520a584663d10e1baedc3744124a77cfde7454e8e"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

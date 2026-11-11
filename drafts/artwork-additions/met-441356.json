@@ -1,0 +1,154 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-441356",
+  "artwork": {
+    "id": "met-441356",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 441356,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/441356",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/441356",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "A Cairo Bazaar",
+      "title_ja_provisional": "カイロの市場",
+      "artist": "Adrien Dauzats",
+      "creation_date_display": "1839",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Egypt (depicted location); French painter (Met API culture unspecified)",
+      "accession_number": "2018.209"
+    },
+    "image": {
+      "image_id": "met-441356-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-15439-001.jpg",
+      "source_registry_id": "met-441356",
+      "local_path": "/artworks/met-441356.jpg",
+      "sha256": "256fa11a3de51261956af0d409823d08c45db40ba4b65fc2f8699eb807dabf14",
+      "byte_length": 116021,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42951949511",
+      "source_accession_number": "2018.209",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-15439-001.jpg",
+        "sha256": "c2c5b411004abaa4df1a149af7ba10f1c161dc959af740ef1f2e1e52c6e030a1",
+        "byte_length": 3666416,
+        "width": 2998,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 6.20665",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "にぎわい"
+      ],
+      "themes": [
+        "都市",
+        "日常",
+        "共同体"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/441356",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "カイロの市場の混雑とモスクの塔を、19世紀のフランス人画家の眼で描いた小さな絵から味わいたい",
+            "reason": "Met公式作品別Overviewによると、フランスの画家アドリアン・ドーザは1830年にエジプトへ行き、約9年後にこの小さな木板の油彩画を描いた。板の絵具層は特によい保存状態にある。画家は初期に劇場の舞台装置の絵を学んでおり、空間を大胆に切り取る構図や明暗の効果、雲の前に浮かぶモスクのドームとミナレットの描写にその経験がうかがえる。実際の1830年の現地風景をそのまま描いたとまでは断定しない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "市場の具体的な店名・地名、絵の中の人物の民族や社会的役割を断定しない。画家はフランス人で描かれた文化・場所はエジプト・カイロであることを区別する。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met公式作品別Overviewによると、フランスの画家アドリアン・ドーザは1830年にエジプトへ行き、約9年後にこの小さな木板の油彩画を描いた。板の絵具層は特によい保存状態にある。画家は初期に劇場の舞台装置の絵を学んでおり、空間を大胆に切り取る構図や明暗の効果、雲の前に浮かぶモスクのドームとミナレットの描写にその経験がうかがえる。実際の1830年の現地風景をそのまま描いたとまでは断定しない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/441356"
+        },
+        "creation_context": "1839; ; Oil on wood; accession 2018.209",
+        "visual_clues": "Met公式の主画像と原寸JPEGを目視。小さな縦長の板絵に、左右の古い建物に囲まれた市場の通り、手前の布で覆われた屋台や小さな人影。中央の奥にミナレット二本とドーム、白い雲が明るく広がる空。狭い路地の視線が塔へ上がる構図。",
+        "uncertainty_note": "市場の具体的な店名・地名、絵の中の人物の民族や社会的役割を断定しない。画家はフランス人で描かれた文化・場所はエジプト・カイロであることを区別する。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42951949511",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "建物が迫る市場の通りに、日よけの布や屋台、人々の姿が重なっています。その奥にはモスクのドームと二本の高い塔が現れ、雲の明るい空に向かって伸びています。\n\nフランスの画家ドーザは1830年にエジプトを訪れました。それからおよそ9年後、1839年にこの小さな木板の油彩画を制作しています。画家は若い頃、劇場の舞台装置を描く仕事を学んでいました。その経験が、建物に囲まれた狭い道から遠くの塔を見せる構図や、光と影の表現に現れていると美術館は説明しています。\n\nにぎやかな通りから上空へ視線を動かすと、街の生活と大きな建築が一つの画面につながります。絵の小ささも意識しながら、細部を探してみてください。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/441356"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-441356",
+    "title": "A Cairo Bazaar",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/441356",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/441356",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-15439-001.jpg",
+      "sha256": "256fa11a3de51261956af0d409823d08c45db40ba4b65fc2f8699eb807dabf14",
+      "byte_length": 116021,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42951949511",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-15439-001.jpg",
+        "sha256": "c2c5b411004abaa4df1a149af7ba10f1c161dc959af740ef1f2e1e52c6e030a1",
+        "byte_length": 3666416,
+        "width": 2998,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 6.20665",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2018.209"
+  }
+}
