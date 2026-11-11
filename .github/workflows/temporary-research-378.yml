@@ -19,7 +19,7 @@ jobs:
           python - <<'PY'
           import json,requests,io,hashlib,math,time,base64
           from PIL import Image,ImageStat,ImageChops
-          ids=[45680,78140,36064,436826]
+          ids=[74661,45680]
           old=json.load(open('data/artworks.json'))['artworks']
           assert len(old)==377
           def get(url):
