@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-75552",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-75552.json",
+  "candidate_sha256": "5a974fa49704543384805bdaaa043bbd4fa0bf196a6f0bc44281a879ca0b8bc3",
+  "draft_path": "drafts/visitor-explanations/met-75552.json",
+  "draft_sha256": "6c03d1fb6632a97f346df34802f46c3b96ff320be18e5d70970a5d04c8ee8b56",
+  "baseline": {
+    "artworks_sha256": "db347d2e21671fab92659956a44707a310d09501d5865ca820f83e9e03db7fcb",
+    "image_registry_sha256": "0db89a8504bfac07d52db986d79a848ecce215a856cdaceb6b9916c1c6314ff2"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/75552",
+      "source_excerpt": "The boys of summer try their skill at ferrying",
+      "visitor_claim": "夏の子供たちは小舟を操り、お互いを運ぼうとしています",
+      "source_section": "Met exact-object Overview: summer boat play"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/75552",
+      "source_excerpt": "winter squad braves uneven footing to shepherd",
+      "visitor_claim": "子供たちが足元に気をつけながら大きな雪玉を運んでいます",
+      "source_section": "Met exact-object Overview: winter snow play"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/75552",
+      "location": "Met object Overview and Artwork Details: Met exact-object Overview: summer boat play | Met exact-object Overview: winter snow play",
+      "finding": "Met公式作品別Overviewは、一双の屏風で夏と冬それぞれの子供の遊びを対比する。夏には小舟で互いを運ぼうとする少年たち、冬には足元の悪い雪原で雪玉を押す一団が現れ、一人の子供は荒天に頓着せず動き回る。中国の宮廷庭園で遊ぶ皇子を描く伝統から着想を得ながら、簡素な景観へ更新した例と位置づけられている。円山応震は円山派三代目。 Visual subject based on specific same-object source image: Met公式主表示画像（2009_511a.jpg）を縮小して目視。横長の六曲屏風の中に細く淡い水景と小さな人影、右側の岸辺の植生が見え、余白の大きい画面。対になるもう一隻を主画像が写しているかのように言わない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/75552",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42942527720",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/75552",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42942527720"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/75552",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 75552, Children Playing in Summer and Winter, Maruyama Ōshin, early 19th century, 2009.511.1, .2. Attribution caveats and source classifications preserved.",
+      "image_match": "Met公式主表示画像（2009_511a.jpg）を縮小して目視。横長の六曲屏風の中に細く淡い水景と小さな人影、右側の岸辺の植生が見え、余白の大きい画面。対になるもう一隻を主画像が写しているかのように言わない。 API official primary JPEG complete hashes/dimensions, downscale RMS 9.70640.",
+      "historical_interpretation": "Met公式作品別Overviewは、一双の屏風で夏と冬それぞれの子供の遊びを対比する。夏には小舟で互いを運ぼうとする少年たち、冬には足元の悪い雪原で雪玉を押す一団が現れ、一人の子供は荒天に頓着せず動き回る。中国の宮廷庭園で遊ぶ皇子を描く伝統から着想を得ながら、簡素な景観へ更新した例と位置づけられている。円山応震は円山派三代目。 Limits: 公式主画像は一双のうち一隻の図像に限定される。もう一隻の雪遊びはMetのOverviewを根拠に記述し、主画像で実見したとは主張しない。子供たちの実際の名前や具体的な遊戯の場所は推定しない。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['喜び', '好奇心']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/2009_511a.jpg",
+      "sha256": "1238f0ce1a398cd34538664ca6e7f3ddca6399bc0cb3398eab995e4d103802cf",
+      "byte_length": 142223,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式主表示画像（2009_511a.jpg）を縮小して目視。横長の六曲屏風の中に細く淡い水景と小さな人影、右側の岸辺の植生が見え、余白の大きい画面。対になるもう一隻を主画像が写しているかのように言わない。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42942527720"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/2009_511a.jpg",
+      "sha256": "e62724fb7650fd9479f025adac913e0cb6869b4410ee254acf60cb8a1744a908",
+      "byte_length": 1194348,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式主表示画像（2009_511a.jpg）を縮小して目視。横長の六曲屏風の中に細く淡い水景と小さな人影、右側の岸辺の植生が見え、余白の大きい画面。対になるもう一隻を主画像が写しているかのように言わない。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42942527720"
+    }
+  ],
+  "notes": [
+    "Sequential addition 345; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}

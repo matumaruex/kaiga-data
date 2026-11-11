@@ -42029,6 +42029,380 @@
         "audit_sha256": "4d9bf673e4898efe82aef41b6905bedab64c69d7b320c3a8b64fb1b4aee80568",
         "record_sha256": "221259164e963e3e3febdc8c9a20eb13353ea867a420029cc6c38be3f97543e8"
       }
+    },
+    {
+      "id": "met-75552",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 75552,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/75552",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/75552",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Children Playing in Summer and Winter",
+        "title_ja_provisional": "夏と冬の子供遊び",
+        "artist": "Maruyama Ōshin",
+        "creation_date_display": "early 19th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2009.511.1, .2"
+      },
+      "image": {
+        "image_id": "met-75552-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/2009_511a.jpg",
+        "source_registry_id": "met-75552",
+        "local_path": "/artworks/met-75552.jpg",
+        "sha256": "1238f0ce1a398cd34538664ca6e7f3ddca6399bc0cb3398eab995e4d103802cf",
+        "byte_length": 142223,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42942527720",
+        "source_accession_number": "2009.511.1, .2",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/2009_511a.jpg",
+          "sha256": "e62724fb7650fd9479f025adac913e0cb6869b4410ee254acf60cb8a1744a908",
+          "byte_length": 1194348,
+          "width": 2000,
+          "height": 806,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 9.70640",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "喜び",
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "喜び": 2,
+          "好奇心": 1
+        },
+        "tones": [
+          "にぎわい"
+        ],
+        "themes": [
+          "日常",
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/75552",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "一双の屏風に描かれた夏の舟遊びと冬の雪遊びを、季節をまたぐ子供の動きとして見比べたい",
+              "reason": "Met公式作品別Overviewは、一双の屏風で夏と冬それぞれの子供の遊びを対比する。夏には小舟で互いを運ぼうとする少年たち、冬には足元の悪い雪原で雪玉を押す一団が現れ、一人の子供は荒天に頓着せず動き回る。中国の宮廷庭園で遊ぶ皇子を描く伝統から着想を得ながら、簡素な景観へ更新した例と位置づけられている。円山応震は円山派三代目。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "公式主画像は一双のうち一隻の図像に限定される。もう一隻の雪遊びはMetのOverviewを根拠に記述し、主画像で実見したとは主張しない。子供たちの実際の名前や具体的な遊戯の場所は推定しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品別Overviewは、一双の屏風で夏と冬それぞれの子供の遊びを対比する。夏には小舟で互いを運ぼうとする少年たち、冬には足元の悪い雪原で雪玉を押す一団が現れ、一人の子供は荒天に頓着せず動き回る。中国の宮廷庭園で遊ぶ皇子を描く伝統から着想を得ながら、簡素な景観へ更新した例と位置づけられている。円山応震は円山派三代目。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/75552"
+          },
+          "creation_context": "early 19th century; Japan; Pair of six-panel folding screens; ink, color, and gold on paper; accession 2009.511.1, .2",
+          "visual_clues": "Met公式主表示画像（2009_511a.jpg）を縮小して目視。横長の六曲屏風の中に細く淡い水景と小さな人影、右側の岸辺の植生が見え、余白の大きい画面。対になるもう一隻を主画像が写しているかのように言わない。",
+          "uncertainty_note": "公式主画像は一双のうち一隻の図像に限定される。もう一隻の雪遊びはMetのOverviewを根拠に記述し、主画像で実見したとは主張しない。子供たちの実際の名前や具体的な遊戯の場所は推定しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喜び"
+          ],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42942527720",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "広い余白のある水辺に、小さな子供たちの姿が点々と描かれています。静かな景色の中で、人影を探すほど遊びの動きが見えてくる屏風です。\n\nこの作品は、夏と冬の遊びを描いた一双の六曲屏風です。夏の子供たちは小舟を操り、お互いを運ぼうとしています。もう一方の冬の画面では、子供たちが足元に気をつけながら大きな雪玉を運んでいます。現在の公式主画像は一双のうち一隻なので、二つの季節を比較するときには対になる画面の存在も意識するとよいでしょう。\n\n美術館は、中国の宮廷で子供が遊ぶ絵画の伝統を踏まえつつ、円山応震がそれを簡素な日本の風景へ置き換えたと説明しています。広々とした自然の中に描かれた、小さな冒険に目を向けてみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/75552"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-75552-2026-11-11.json",
+        "audit_sha256": "2603af11b9e54cc2f4de0e1bcccae27078d077bb47c251c4bc6c8426d5708ce7",
+        "record_sha256": "06b83463127426402c0b5c7fe66e4a4fcd0c952adfeb0e605acff9a99505e830"
+      }
+    },
+    {
+      "id": "met-40197",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 40197,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/40197",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/40197",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "River Hamlet",
+        "title_ja_provisional": "江村図",
+        "artist": "Unidentified artist",
+        "creation_date_display": "12th–13th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "China",
+        "accession_number": "1989.363.27"
+      },
+      "image": {
+        "image_id": "met-40197-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP153520.jpg",
+        "source_registry_id": "met-40197",
+        "local_path": "/artworks/met-40197.jpg",
+        "sha256": "2a7ebdda774e45bd5cf1b1d348e21382c2a3d8a50cbafae2adc4be229abc295f",
+        "byte_length": 63594,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42942527720",
+        "source_accession_number": "1989.363.27",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP153520.jpg",
+          "sha256": "4cac6a9f26ac35e8fa9c0830e155080719d76ef2f6eac95fcb5d932d77fe60eb",
+          "byte_length": 3188517,
+          "width": 4000,
+          "height": 3683,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 5.35734",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "安心"
+        ],
+        "emotion_strengths": {
+          "安心": 1
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "自然",
+          "居場所",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/40197",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "南宋の雪景山水における塗り残しの技法と、水辺の小さな家の静けさを味わいたい",
+              "reason": "Met作品別Overviewでは、広い川の近くの素朴な家に、舟を岸につけた漁師が坂を上って戻る場面だと説明。新雪の白さを描くために岩と地面は塗り残し、空と水のほうへ薄墨を施すという、通常の水墨表現を逆にした技法が用いられる。静謐な光景を、中国文化における川が象徴する質素でよい暮らしのイメージとも結びつける。元来の団扇画を後世に画帖の一葉へと仕立てた作品。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "画中の小人物の表情を推測しない。雪が塗り残しで表現されるという技法はMet作品別解説に依拠。右側の文字の筆者や時代は確かめていないので独自の作者推定をしない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewでは、広い川の近くの素朴な家に、舟を岸につけた漁師が坂を上って戻る場面だと説明。新雪の白さを描くために岩と地面は塗り残し、空と水のほうへ薄墨を施すという、通常の水墨表現を逆にした技法が用いられる。静謐な光景を、中国文化における川が象徴する質素でよい暮らしのイメージとも結びつける。元来の団扇画を後世に画帖の一葉へと仕立てた作品。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/40197"
+          },
+          "creation_context": "12th–13th century; China; Fan mounted as an album leaf; ink and color on silk; accession 1989.363.27",
+          "visual_clues": "Met公式主画像（DP153520.jpg）の縮小を目視。ベージュの余白に円形の古い扇面が一枚置かれ、その中に淡い水面と岸の小屋、右側の木々や山が描かれる。扇面の外側の左下に赤い印、右側には縦書きの書の付属面が映る。扇面内の人物はごく小さいので、明確に視認できない部分はMet本文による。",
+          "uncertainty_note": "画中の小人物の表情を推測しない。雪が塗り残しで表現されるという技法はMet作品別解説に依拠。右側の文字の筆者や時代は確かめていないので独自の作者推定をしない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "安心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42942527720",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "円い扇面の中には、広い川と岸辺の小さな家があります。川の大きな広がりのそばに、素朴な小屋が描かれています。山と木々の輪郭は薄く、冬の静けさが画面を包んでいます。\n\nメトロポリタン美術館の解説では、舟を岸につけた漁師が、家へ続く坂道を上っていく場面とされています。画家は雪に覆われた岩と地面を塗り残しています。その代わりに空と川へ淡く墨を重ねることで、降り積もった雪の白さを表現しました。\n\nこの絵は12〜13世紀の中国・南宋時代の作品です。もとは扇に描かれ、現在は画帖の一葉として伝わっています。小さな家と広い水面の対比から、静かで質素な暮らしを思い描くことができます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/40197"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-40197-2026-11-11.json",
+        "audit_sha256": "a6b046fed9ab391d13391b150bf0b291c20e327db9c59e8ece36d4719bc499ea",
+        "record_sha256": "d3134414298c76c9f21cd1dea80627dd9b205622779dd4d2da91eaed8e5a2fa9"
+      }
+    },
+    {
+      "id": "met-77169",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 77169,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/77169",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/77169",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Egrets and Crows",
+        "title_ja_provisional": "烏鷺図屏風",
+        "artist": "Shibata Zeshin",
+        "creation_date_display": "late 19th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2011.572.3"
+      },
+      "image": {
+        "image_id": "met-77169-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP268682.jpg",
+        "source_registry_id": "met-77169",
+        "local_path": "/artworks/met-77169.jpg",
+        "sha256": "9618cb30ec5d6c391813d9fbf6d1a06d0b9831f8790e1c1ec9a2b99301c1329a",
+        "byte_length": 225897,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42942527720",
+        "source_accession_number": "2011.572.3",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP268682.jpg",
+          "sha256": "645bf369c80d0209578a50468e2daefa80b3926a8d21392c5de294893006335c",
+          "byte_length": 2170064,
+          "width": 1963,
+          "height": 1514,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 7.31462",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "自然"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/77169",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "金地の屏風に描かれた白鷺と黒いカラスの対比や、漆を使った描画技法を観察したい",
+              "reason": "Met公式作品別Overviewは、金箔地の二面に二羽の白鷺が静止し三羽のカラスが飛ぶ対照的な光景を描くと説明。白鷺の白色部分は金箔を切り抜き下地の紙を露出させることで表現した。黒いカラスには墨の代わりに漆を用い、光沢を生み出す。作者柴田是真は漆芸の名手としても知られ、二面は元来別々の木枠へ表装されていたもので、円山四条派と琳派双方の要素を組み合わせる。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "屏風は金地に『白鷺2羽・烏3羽』を確認できるが、鳥たちの個別の動機や寓意は断定しない。過去の別々の額装と現状二曲屏風の違いを保持。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品別Overviewは、金箔地の二面に二羽の白鷺が静止し三羽のカラスが飛ぶ対照的な光景を描くと説明。白鷺の白色部分は金箔を切り抜き下地の紙を露出させることで表現した。黒いカラスには墨の代わりに漆を用い、光沢を生み出す。作者柴田是真は漆芸の名手としても知られ、二面は元来別々の木枠へ表装されていたもので、円山四条派と琳派双方の要素を組み合わせる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/77169"
+          },
+          "creation_context": "late 19th century; Japan; Individual panels remounted as a two-panel folding screen; colored lacquer, white pigment, and gold leaf on paper; accession 2011.572.3",
+          "visual_clues": "Met公式主画像（DP268682.jpg）を縮小して目視。左右二面の金地屏風、左の空間には黒いカラスが三羽飛び、右の枝には白鷺が二羽とまる。枝は上から曲線的に入って、カラスの斜めの動きと鳥の静止状態を対置する。",
+          "uncertainty_note": "屏風は金地に『白鷺2羽・烏3羽』を確認できるが、鳥たちの個別の動機や寓意は断定しない。過去の別々の額装と現状二曲屏風の違いを保持。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42942527720",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "金色の背景を二つに分けるように、左では黒いカラスが空を飛び、右では白いサギが枝にとまっています。二羽の白鷺がとまり、三羽のカラスが飛んでいます。色も動きも対照的で、画面にははっきりしたリズムがあります。\n\nこの絵を描いた柴田是真は、漆工芸の名手でもありました。白いサギは金箔を切り抜いて紙の色を見せる方法で描き、墨の代わりに漆を用いて、黒い鳥に艶やかな光を与えています。絵画と漆芸の技術を組み合わせた表現です。\n\nもともと二面は別々の木枠に納められ、現在は二曲屏風として並んでいます。動くカラスと静止したサギを交互に見比べると、金地の余白そのものが構図の一部になっていることが感じられます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/77169"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-77169-2026-11-11.json",
+        "audit_sha256": "7b90ba58dd057d573619f861764725ac0cc537377836728664c75a6d6ee10214",
+        "record_sha256": "d4ee7db4a0c033ddb7c517b2f8563095ab4235c9f3ba986474b3451140141d41"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

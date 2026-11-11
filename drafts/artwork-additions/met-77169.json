@@ -1,0 +1,152 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-77169",
+  "artwork": {
+    "id": "met-77169",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 77169,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/77169",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/77169",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Egrets and Crows",
+      "title_ja_provisional": "烏鷺図屏風",
+      "artist": "Shibata Zeshin",
+      "creation_date_display": "late 19th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "2011.572.3"
+    },
+    "image": {
+      "image_id": "met-77169-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP268682.jpg",
+      "source_registry_id": "met-77169",
+      "local_path": "/artworks/met-77169.jpg",
+      "sha256": "9618cb30ec5d6c391813d9fbf6d1a06d0b9831f8790e1c1ec9a2b99301c1329a",
+      "byte_length": 225897,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42942527720",
+      "source_accession_number": "2011.572.3",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP268682.jpg",
+        "sha256": "645bf369c80d0209578a50468e2daefa80b3926a8d21392c5de294893006335c",
+        "byte_length": 2170064,
+        "width": 1963,
+        "height": 1514,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 7.31462",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "落ち着き"
+      ],
+      "themes": [
+        "自然"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/77169",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "金地の屏風に描かれた白鷺と黒いカラスの対比や、漆を使った描画技法を観察したい",
+            "reason": "Met公式作品別Overviewは、金箔地の二面に二羽の白鷺が静止し三羽のカラスが飛ぶ対照的な光景を描くと説明。白鷺の白色部分は金箔を切り抜き下地の紙を露出させることで表現した。黒いカラスには墨の代わりに漆を用い、光沢を生み出す。作者柴田是真は漆芸の名手としても知られ、二面は元来別々の木枠へ表装されていたもので、円山四条派と琳派双方の要素を組み合わせる。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "屏風は金地に『白鷺2羽・烏3羽』を確認できるが、鳥たちの個別の動機や寓意は断定しない。過去の別々の額装と現状二曲屏風の違いを保持。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met公式作品別Overviewは、金箔地の二面に二羽の白鷺が静止し三羽のカラスが飛ぶ対照的な光景を描くと説明。白鷺の白色部分は金箔を切り抜き下地の紙を露出させることで表現した。黒いカラスには墨の代わりに漆を用い、光沢を生み出す。作者柴田是真は漆芸の名手としても知られ、二面は元来別々の木枠へ表装されていたもので、円山四条派と琳派双方の要素を組み合わせる。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/77169"
+        },
+        "creation_context": "late 19th century; Japan; Individual panels remounted as a two-panel folding screen; colored lacquer, white pigment, and gold leaf on paper; accession 2011.572.3",
+        "visual_clues": "Met公式主画像（DP268682.jpg）を縮小して目視。左右二面の金地屏風、左の空間には黒いカラスが三羽飛び、右の枝には白鷺が二羽とまる。枝は上から曲線的に入って、カラスの斜めの動きと鳥の静止状態を対置する。",
+        "uncertainty_note": "屏風は金地に『白鷺2羽・烏3羽』を確認できるが、鳥たちの個別の動機や寓意は断定しない。過去の別々の額装と現状二曲屏風の違いを保持。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42942527720",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "金色の背景を二つに分けるように、左では黒いカラスが空を飛び、右では白いサギが枝にとまっています。二羽の白鷺がとまり、三羽のカラスが飛んでいます。色も動きも対照的で、画面にははっきりしたリズムがあります。\n\nこの絵を描いた柴田是真は、漆工芸の名手でもありました。白いサギは金箔を切り抜いて紙の色を見せる方法で描き、墨の代わりに漆を用いて、黒い鳥に艶やかな光を与えています。絵画と漆芸の技術を組み合わせた表現です。\n\nもともと二面は別々の木枠に納められ、現在は二曲屏風として並んでいます。動くカラスと静止したサギを交互に見比べると、金地の余白そのものが構図の一部になっていることが感じられます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/77169"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-77169",
+    "title": "Egrets and Crows",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/77169",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/77169",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP268682.jpg",
+      "sha256": "9618cb30ec5d6c391813d9fbf6d1a06d0b9831f8790e1c1ec9a2b99301c1329a",
+      "byte_length": 225897,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42942527720",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP268682.jpg",
+        "sha256": "645bf369c80d0209578a50468e2daefa80b3926a8d21392c5de294893006335c",
+        "byte_length": 2170064,
+        "width": 1963,
+        "height": 1514,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 7.31462",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2011.572.3"
+  }
+}
