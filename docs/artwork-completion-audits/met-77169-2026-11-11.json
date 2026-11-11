@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-77169",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-77169.json",
+  "candidate_sha256": "d3a32706858ed471b1883fead02985ef4bf335d0afc97b0bfa60b7950f6ce7a8",
+  "draft_path": "drafts/visitor-explanations/met-77169.json",
+  "draft_sha256": "11828e429f20bbac02ca96d084e4584d8da69008a01a4444b6588b719022107c",
+  "baseline": {
+    "artworks_sha256": "58e9f26461755bf8980f9e49b51b4d94a3a2fcdabc8a28b6ba2b8d91e625b444",
+    "image_registry_sha256": "2f6f35560fe5a5d008e282d0b62b8abb1e7c975c3b7b10d024cf5c758daf9cef"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/77169",
+      "source_excerpt": "two egrets at rest and three crows in flight",
+      "visitor_claim": "二羽の白鷺がとまり、三羽のカラスが飛んでいます",
+      "source_section": "Met exact-object Overview: subjects and contrast"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/77169",
+      "source_excerpt": "the lacquer employed in place of ink adds",
+      "visitor_claim": "墨の代わりに漆を用いて、黒い鳥に艶やかな光を与えています",
+      "source_section": "Met exact-object Overview: lacquer rather than ink"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/77169",
+      "location": "Met object Overview and Artwork Details: Met exact-object Overview: subjects and contrast | Met exact-object Overview: lacquer rather than ink",
+      "finding": "Met公式作品別Overviewは、金箔地の二面に二羽の白鷺が静止し三羽のカラスが飛ぶ対照的な光景を描くと説明。白鷺の白色部分は金箔を切り抜き下地の紙を露出させることで表現した。黒いカラスには墨の代わりに漆を用い、光沢を生み出す。作者柴田是真は漆芸の名手としても知られ、二面は元来別々の木枠へ表装されていたもので、円山四条派と琳派双方の要素を組み合わせる。 Visual subject based on specific same-object source image: Met公式主画像（DP268682.jpg）を縮小して目視。左右二面の金地屏風、左の空間には黒いカラスが三羽飛び、右の枝には白鷺が二羽とまる。枝は上から曲線的に入って、カラスの斜めの動きと鳥の静止状態を対置する。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/77169",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42942527720",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/77169",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42942527720"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/77169",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 77169, Egrets and Crows, Shibata Zeshin, late 19th century, 2011.572.3. Attribution caveats and source classifications preserved.",
+      "image_match": "Met公式主画像（DP268682.jpg）を縮小して目視。左右二面の金地屏風、左の空間には黒いカラスが三羽飛び、右の枝には白鷺が二羽とまる。枝は上から曲線的に入って、カラスの斜めの動きと鳥の静止状態を対置する。 API official primary JPEG complete hashes/dimensions, downscale RMS 7.31462.",
+      "historical_interpretation": "Met公式作品別Overviewは、金箔地の二面に二羽の白鷺が静止し三羽のカラスが飛ぶ対照的な光景を描くと説明。白鷺の白色部分は金箔を切り抜き下地の紙を露出させることで表現した。黒いカラスには墨の代わりに漆を用い、光沢を生み出す。作者柴田是真は漆芸の名手としても知られ、二面は元来別々の木枠へ表装されていたもので、円山四条派と琳派双方の要素を組み合わせる。 Limits: 屏風は金地に『白鷺2羽・烏3羽』を確認できるが、鳥たちの個別の動機や寓意は断定しない。過去の別々の額装と現状二曲屏風の違いを保持。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['好奇心']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP268682.jpg",
+      "sha256": "9618cb30ec5d6c391813d9fbf6d1a06d0b9831f8790e1c1ec9a2b99301c1329a",
+      "byte_length": 225897,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式主画像（DP268682.jpg）を縮小して目視。左右二面の金地屏風、左の空間には黒いカラスが三羽飛び、右の枝には白鷺が二羽とまる。枝は上から曲線的に入って、カラスの斜めの動きと鳥の静止状態を対置する。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42942527720"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP268682.jpg",
+      "sha256": "645bf369c80d0209578a50468e2daefa80b3926a8d21392c5de294893006335c",
+      "byte_length": 2170064,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式主画像（DP268682.jpg）を縮小して目視。左右二面の金地屏風、左の空間には黒いカラスが三羽飛び、右の枝には白鷺が二羽とまる。枝は上から曲線的に入って、カラスの斜めの動きと鳥の静止状態を対置する。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42942527720"
+    }
+  ],
+  "notes": [
+    "Sequential addition 347; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}

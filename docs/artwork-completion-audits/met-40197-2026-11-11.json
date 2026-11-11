@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-40197",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-40197.json",
+  "candidate_sha256": "c2ed970488134ec0737833a73df9ed0cb1a8cc210e6910d2d1af91bde72aa842",
+  "draft_path": "drafts/visitor-explanations/met-40197.json",
+  "draft_sha256": "1629327b4bc7d61ef71fc30d4edab49868842ce4d93a9b076b2e75b59e647a5b",
+  "baseline": {
+    "artworks_sha256": "3cd010335082446ed7256544f95992573ef110e7b7b7e23d78a5e7dd4cad6ee2",
+    "image_registry_sha256": "d8096c2c7cd1853a88dd59a7004e3537f1a8889eeae2711bd5c3136dbcaff0a8"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/40197",
+      "source_excerpt": "A rustic dwelling sits by a broad expanse of river",
+      "visitor_claim": "川の大きな広がりのそばに、素朴な小屋が描かれています",
+      "source_section": "Met exact-object Overview: humble home and wide river"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/40197",
+      "source_excerpt": "the painter has left rocks and earth unpainted",
+      "visitor_claim": "画家は雪に覆われた岩と地面を塗り残しています",
+      "source_section": "Met exact-object Overview: negative space for snowfall"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/40197",
+      "location": "Met object Overview and Artwork Details: Met exact-object Overview: humble home and wide river | Met exact-object Overview: negative space for snowfall",
+      "finding": "Met作品別Overviewでは、広い川の近くの素朴な家に、舟を岸につけた漁師が坂を上って戻る場面だと説明。新雪の白さを描くために岩と地面は塗り残し、空と水のほうへ薄墨を施すという、通常の水墨表現を逆にした技法が用いられる。静謐な光景を、中国文化における川が象徴する質素でよい暮らしのイメージとも結びつける。元来の団扇画を後世に画帖の一葉へと仕立てた作品。 Visual subject based on specific same-object source image: Met公式主画像（DP153520.jpg）の縮小を目視。ベージュの余白に円形の古い扇面が一枚置かれ、その中に淡い水面と岸の小屋、右側の木々や山が描かれる。扇面の外側の左下に赤い印、右側には縦書きの書の付属面が映る。扇面内の人物はごく小さいので、明確に視認できない部分はMet本文による。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/40197",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42942527720",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/40197",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42942527720"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/40197",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 40197, River Hamlet, Unidentified artist, 12th–13th century, 1989.363.27. Attribution caveats and source classifications preserved.",
+      "image_match": "Met公式主画像（DP153520.jpg）の縮小を目視。ベージュの余白に円形の古い扇面が一枚置かれ、その中に淡い水面と岸の小屋、右側の木々や山が描かれる。扇面の外側の左下に赤い印、右側には縦書きの書の付属面が映る。扇面内の人物はごく小さいので、明確に視認できない部分はMet本文による。 API official primary JPEG complete hashes/dimensions, downscale RMS 5.35734.",
+      "historical_interpretation": "Met作品別Overviewでは、広い川の近くの素朴な家に、舟を岸につけた漁師が坂を上って戻る場面だと説明。新雪の白さを描くために岩と地面は塗り残し、空と水のほうへ薄墨を施すという、通常の水墨表現を逆にした技法が用いられる。静謐な光景を、中国文化における川が象徴する質素でよい暮らしのイメージとも結びつける。元来の団扇画を後世に画帖の一葉へと仕立てた作品。 Limits: 画中の小人物の表情を推測しない。雪が塗り残しで表現されるという技法はMet作品別解説に依拠。右側の文字の筆者や時代は確かめていないので独自の作者推定をしない。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['安心']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP153520.jpg",
+      "sha256": "2a7ebdda774e45bd5cf1b1d348e21382c2a3d8a50cbafae2adc4be229abc295f",
+      "byte_length": 63594,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式主画像（DP153520.jpg）の縮小を目視。ベージュの余白に円形の古い扇面が一枚置かれ、その中に淡い水面と岸の小屋、右側の木々や山が描かれる。扇面の外側の左下に赤い印、右側には縦書きの書の付属面が映る。扇面内の人物はごく小さいので、明確に視認できない部分はMet本文による。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42942527720"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP153520.jpg",
+      "sha256": "4cac6a9f26ac35e8fa9c0830e155080719d76ef2f6eac95fcb5d932d77fe60eb",
+      "byte_length": 3188517,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式主画像（DP153520.jpg）の縮小を目視。ベージュの余白に円形の古い扇面が一枚置かれ、その中に淡い水面と岸の小屋、右側の木々や山が描かれる。扇面の外側の左下に赤い印、右側には縦書きの書の付属面が映る。扇面内の人物はごく小さいので、明確に視認できない部分はMet本文による。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42942527720"
+    }
+  ],
+  "notes": [
+    "Sequential addition 346; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}

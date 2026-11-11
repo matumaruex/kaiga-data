@@ -1,0 +1,158 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-75552",
+  "artwork": {
+    "id": "met-75552",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 75552,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/75552",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/75552",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Children Playing in Summer and Winter",
+      "title_ja_provisional": "夏と冬の子供遊び",
+      "artist": "Maruyama Ōshin",
+      "creation_date_display": "early 19th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "2009.511.1, .2"
+    },
+    "image": {
+      "image_id": "met-75552-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/2009_511a.jpg",
+      "source_registry_id": "met-75552",
+      "local_path": "/artworks/met-75552.jpg",
+      "sha256": "1238f0ce1a398cd34538664ca6e7f3ddca6399bc0cb3398eab995e4d103802cf",
+      "byte_length": 142223,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42942527720",
+      "source_accession_number": "2009.511.1, .2",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/2009_511a.jpg",
+        "sha256": "e62724fb7650fd9479f025adac913e0cb6869b4410ee254acf60cb8a1744a908",
+        "byte_length": 1194348,
+        "width": 2000,
+        "height": 806,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 9.70640",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "喜び",
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "喜び": 2,
+        "好奇心": 1
+      },
+      "tones": [
+        "にぎわい"
+      ],
+      "themes": [
+        "日常",
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/75552",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "一双の屏風に描かれた夏の舟遊びと冬の雪遊びを、季節をまたぐ子供の動きとして見比べたい",
+            "reason": "Met公式作品別Overviewは、一双の屏風で夏と冬それぞれの子供の遊びを対比する。夏には小舟で互いを運ぼうとする少年たち、冬には足元の悪い雪原で雪玉を押す一団が現れ、一人の子供は荒天に頓着せず動き回る。中国の宮廷庭園で遊ぶ皇子を描く伝統から着想を得ながら、簡素な景観へ更新した例と位置づけられている。円山応震は円山派三代目。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "公式主画像は一双のうち一隻の図像に限定される。もう一隻の雪遊びはMetのOverviewを根拠に記述し、主画像で実見したとは主張しない。子供たちの実際の名前や具体的な遊戯の場所は推定しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met公式作品別Overviewは、一双の屏風で夏と冬それぞれの子供の遊びを対比する。夏には小舟で互いを運ぼうとする少年たち、冬には足元の悪い雪原で雪玉を押す一団が現れ、一人の子供は荒天に頓着せず動き回る。中国の宮廷庭園で遊ぶ皇子を描く伝統から着想を得ながら、簡素な景観へ更新した例と位置づけられている。円山応震は円山派三代目。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/75552"
+        },
+        "creation_context": "early 19th century; Japan; Pair of six-panel folding screens; ink, color, and gold on paper; accession 2009.511.1, .2",
+        "visual_clues": "Met公式主表示画像（2009_511a.jpg）を縮小して目視。横長の六曲屏風の中に細く淡い水景と小さな人影、右側の岸辺の植生が見え、余白の大きい画面。対になるもう一隻を主画像が写しているかのように言わない。",
+        "uncertainty_note": "公式主画像は一双のうち一隻の図像に限定される。もう一隻の雪遊びはMetのOverviewを根拠に記述し、主画像で実見したとは主張しない。子供たちの実際の名前や具体的な遊戯の場所は推定しない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "喜び"
+        ],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42942527720",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "広い余白のある水辺に、小さな子供たちの姿が点々と描かれています。静かな景色の中で、人影を探すほど遊びの動きが見えてくる屏風です。\n\nこの作品は、夏と冬の遊びを描いた一双の六曲屏風です。夏の子供たちは小舟を操り、お互いを運ぼうとしています。もう一方の冬の画面では、子供たちが足元に気をつけながら大きな雪玉を運んでいます。現在の公式主画像は一双のうち一隻なので、二つの季節を比較するときには対になる画面の存在も意識するとよいでしょう。\n\n美術館は、中国の宮廷で子供が遊ぶ絵画の伝統を踏まえつつ、円山応震がそれを簡素な日本の風景へ置き換えたと説明しています。広々とした自然の中に描かれた、小さな冒険に目を向けてみてください。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/75552"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-75552",
+    "title": "Children Playing in Summer and Winter",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/75552",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/75552",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/2009_511a.jpg",
+      "sha256": "1238f0ce1a398cd34538664ca6e7f3ddca6399bc0cb3398eab995e4d103802cf",
+      "byte_length": 142223,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42942527720",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/2009_511a.jpg",
+        "sha256": "e62724fb7650fd9479f025adac913e0cb6869b4410ee254acf60cb8a1744a908",
+        "byte_length": 1194348,
+        "width": 2000,
+        "height": 806,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 9.70640",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2009.511.1, .2"
+  }
+}
