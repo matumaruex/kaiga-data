@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-853896",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-853896.json",
+  "candidate_sha256": "b9e134f8284876729ee66dc736759c0b2485aac5d1095fd1ea0b618aca4487e9",
+  "draft_path": "drafts/visitor-explanations/met-853896.json",
+  "draft_sha256": "d00a8f77965d3529019d6e4b9c9d657e2c59ea7949a8f23bd68256c6972f4a75",
+  "baseline": {
+    "artworks_sha256": "97eb74fe1f2dd3ac54689457d636adc1fdb550e71826c7c489c91b2d7dd07280",
+    "image_registry_sha256": "987b2c4ffaad22124f6f56e25974ffc5ad21929864ac69bd04d8f84541b161e1"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853896",
+      "source_excerpt": "Books are the most important motif in the genre",
+      "visitor_claim": "書物はこの画題の中心となるモチーフで",
+      "source_section": "Overview: role of books in munbangdo"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853896",
+      "source_excerpt": "incorporates Western linear perspective and shading techniques",
+      "visitor_claim": "西洋の線遠近法と陰影の表現を取り入れ",
+      "source_section": "Overview: adopted Western perspective and shading"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/853896",
+      "location": "Met object Overview and Artwork Details: Overview: role of books in munbangdo | Overview: adopted Western perspective and shading",
+      "finding": "Metの作品別Overviewによれば、19世紀朝鮮の書斎図『文房図（ムンバンド）』に属する二曲屏風で、18世紀に成立した画題。儒教の経典や通俗小説などの本の背表紙に題名が書かれた珍しい例で、書物が最も重要なモチーフ。西洋の線遠近法と陰影の技術で棚の奥行きや器物の量感を表し、陶磁器は教養、桃は長寿、種の見える切ったスイカは子孫繁栄を象徴する。もともとの表装では二面を横につなげて一つの段差のある書棚に見せていた。二曲屏風は角の場所に置くために作られることもあった。 Visual subject based on specific same-object source image: Met公式の表示画像と原寸画像を目視。濃いベージュの横に並ぶ二面の屏風で、それぞれの狭い画面内部に書棚と重なった本・器・果物・文房具が描かれ、遠近法で棚の奥へ向かう空間を見せている。表装された二面の間は現在縦の継ぎ目として見える。狭いサムネイルから書名の個々を判読したとは主張しない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853896",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42950522740",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853896",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42950522740"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853896",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 853896, Books and Scholarly Accoutrements, Unidentified artist, 19th century, 2024.89.6. Attribution caveats and source classifications preserved.",
+      "image_match": "Met公式の表示画像と原寸画像を目視。濃いベージュの横に並ぶ二面の屏風で、それぞれの狭い画面内部に書棚と重なった本・器・果物・文房具が描かれ、遠近法で棚の奥へ向かう空間を見せている。表装された二面の間は現在縦の継ぎ目として見える。狭いサムネイルから書名の個々を判読したとは主張しない。 API official primary JPEG complete hashes/dimensions, downscale RMS 6.86891.",
+      "historical_interpretation": "Metの作品別Overviewによれば、19世紀朝鮮の書斎図『文房図（ムンバンド）』に属する二曲屏風で、18世紀に成立した画題。儒教の経典や通俗小説などの本の背表紙に題名が書かれた珍しい例で、書物が最も重要なモチーフ。西洋の線遠近法と陰影の技術で棚の奥行きや器物の量感を表し、陶磁器は教養、桃は長寿、種の見える切ったスイカは子孫繁栄を象徴する。もともとの表装では二面を横につなげて一つの段差のある書棚に見せていた。二曲屏風は角の場所に置くために作られることもあった。 Limits: 描かれた書物の書名は公式解説に基づくが、実画面の縮小画像ですべて判読できたとは言わない。果物の象徴は当時の図像として理解し、現代科学的効能の主張にしない。作者は不詳。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['好奇心']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-40204-001.jpg",
+      "sha256": "d4e5f3aad707eeacc34eac6a55845157fd97fad6c525c8791528e39e403ade58",
+      "byte_length": 93442,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式の表示画像と原寸画像を目視。濃いベージュの横に並ぶ二面の屏風で、それぞれの狭い画面内部に書棚と重なった本・器・果物・文房具が描かれ、遠近法で棚の奥へ向かう空間を見せている。表装された二面の間は現在縦の継ぎ目として見える。狭いサムネイルから書名の個々を判読したとは主張しない。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42950522740"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-40204-001.jpg",
+      "sha256": "44b63f71aba65a9c23e3e7447ed089be824161468a5d2aa582b53665517ddab0",
+      "byte_length": 2532403,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式の表示画像と原寸画像を目視。濃いベージュの横に並ぶ二面の屏風で、それぞれの狭い画面内部に書棚と重なった本・器・果物・文房具が描かれ、遠近法で棚の奥へ向かう空間を見せている。表装された二面の間は現在縦の継ぎ目として見える。狭いサムネイルから書名の個々を判読したとは主張しない。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42950522740"
+    }
+  ],
+  "notes": [
+    "Sequential addition 359; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}

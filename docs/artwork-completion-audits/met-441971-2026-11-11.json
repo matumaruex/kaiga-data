@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-441971",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-441971.json",
+  "candidate_sha256": "d7c70c2ef111811923482df12c81fbe9e2fcf67978e38b92aa4ce0e6db85e20f",
+  "draft_path": "drafts/visitor-explanations/met-441971.json",
+  "draft_sha256": "1fc33d5621d31887d0262e249783f9b78f9ff8c9f9a9d09cad8927e4a9a0bf70",
+  "baseline": {
+    "artworks_sha256": "2360a5e4bb7fc0702304102bd54d35d63f4535ea0ae50b857593c8187c6edefb",
+    "image_registry_sha256": "b8c3328c2f6eebacb07e56288149a79b55e7e5ff4fd04ca8576d3cc7fb902fc6"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/441971",
+      "source_excerpt": "his eyes red with tears and his hands clasped in prayer",
+      "visitor_claim": "涙で赤くなった目と祈りのために組んだ手が",
+      "source_section": "Overview: tear-red eyes and clasped hands"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/441971",
+      "source_excerpt": "became central to Catholic devotional practices",
+      "visitor_claim": "涙を流す悔悟が信仰の実践において大切にされ",
+      "source_section": "Overview: tears in devotional practice"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/441971",
+      "location": "Met object Overview and Artwork Details: Overview: tear-red eyes and clasped hands | Overview: tears in devotional practice",
+      "finding": "メトロポリタン美術館の作品別Overviewによれば、スペイン出身でイタリアで活動したフセペ・デ・リベーラの初期作品。イエスを否認した後の聖ペテロを描き、涙で赤くなった目と、祈りのために合わせた手が、罪の重みを示す。宗教的な告白の一形式として激しい涙を流す行為は、当時のカトリックの信仰実践で重要な位置を占め、詩や歌にも取り上げられた。作品が史料に現れる最初は1644年ローマの枢機卿ベネデット・モナルディ・バルデスキの収蔵記録。 Visual subject based on specific same-object source image: Met公式の同一作品JPEGを縮小画像で目視。暗い背景の前に、灰色の髭と薄い髪の年配の男性が黄褐色の重い上着をまとい、身体を大きく曲げて左上を見つめる。左側で両手を寄せ、顔に弱い光が当たる。色数を抑えた暗い油彩で、主題を孤立させる構図。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/441971",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42950522740",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/441971",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42950522740"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/441971",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 441971, The Tears of Saint Peter, Jusepe de Ribera (called Lo Spagnoletto), ca. 1612–13, 2012.416. Attribution caveats and source classifications preserved.",
+      "image_match": "Met公式の同一作品JPEGを縮小画像で目視。暗い背景の前に、灰色の髭と薄い髪の年配の男性が黄褐色の重い上着をまとい、身体を大きく曲げて左上を見つめる。左側で両手を寄せ、顔に弱い光が当たる。色数を抑えた暗い油彩で、主題を孤立させる構図。 API official primary JPEG complete hashes/dimensions, downscale RMS 2.75106.",
+      "historical_interpretation": "メトロポリタン美術館の作品別Overviewによれば、スペイン出身でイタリアで活動したフセペ・デ・リベーラの初期作品。イエスを否認した後の聖ペテロを描き、涙で赤くなった目と、祈りのために合わせた手が、罪の重みを示す。宗教的な告白の一形式として激しい涙を流す行為は、当時のカトリックの信仰実践で重要な位置を占め、詩や歌にも取り上げられた。作品が史料に現れる最初は1644年ローマの枢機卿ベネデット・モナルディ・バルデスキの収蔵記録。 Limits: 聖ペテロの後悔はキリスト教の物語とMetの作品解釈として扱い、史実として断言しない。ペテロの具体的な言葉や涙の原因を画面から直接判読したとは言わず、公式解説に依拠する。画家の信仰心の実際は推測しない。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['悲しみ']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP286357.jpg",
+      "sha256": "165965b0a9ceb8b4bafef2a81b39cb353ce85c9b417b7537810cb0585e2b8f44",
+      "byte_length": 44549,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式の同一作品JPEGを縮小画像で目視。暗い背景の前に、灰色の髭と薄い髪の年配の男性が黄褐色の重い上着をまとい、身体を大きく曲げて左上を見つめる。左側で両手を寄せ、顔に弱い光が当たる。色数を抑えた暗い油彩で、主題を孤立させる構図。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42950522740"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP286357.jpg",
+      "sha256": "d3575d5455b46be66e0fc14e7ee1e7daf9194d2e8f68bd29d99608fea4a6e68e",
+      "byte_length": 1684900,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式の同一作品JPEGを縮小画像で目視。暗い背景の前に、灰色の髭と薄い髪の年配の男性が黄褐色の重い上着をまとい、身体を大きく曲げて左上を見つめる。左側で両手を寄せ、顔に弱い光が当たる。色数を抑えた暗い油彩で、主題を孤立させる構図。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42950522740"
+    }
+  ],
+  "notes": [
+    "Sequential addition 357; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}

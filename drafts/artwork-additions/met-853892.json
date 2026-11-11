@@ -1,0 +1,157 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-853892",
+  "artwork": {
+    "id": "met-853892",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 853892,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/853892",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853892",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Dragon and carp",
+      "title_ja_provisional": "龍と鯉",
+      "artist": "Unidentified artist",
+      "creation_date_display": "late 19th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Korea",
+      "accession_number": "2024.89.3"
+    },
+    "image": {
+      "image_id": "met-853892-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-37218-001.jpg",
+      "source_registry_id": "met-853892",
+      "local_path": "/artworks/met-853892.jpg",
+      "sha256": "d647fc9d1a55e7b6f1dca45c9bede8a84111b4f437269f7a46a80e6ddcdb22d7",
+      "byte_length": 159015,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42950522740",
+      "source_accession_number": "2024.89.3",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-37218-001.jpg",
+        "sha256": "cba1b5e59898d384bac1618e377a14ea3cbee0c6462ada464c3d2903735e02e1",
+        "byte_length": 3083464,
+        "width": 2562,
+        "height": 3814,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 9.93830",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "希望",
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "希望": 2,
+        "畏敬": 1
+      },
+      "tones": [
+        "高揚"
+      ],
+      "themes": [
+        "共同体",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/853892",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "朝鮮の龍と鯉を描いた絵に、立身出世や努力をたとえる物語と色彩の対照を見つけたい",
+            "reason": "Metの作品別Overviewによれば、上部では暗い渦巻く雲と波から龍が現れ、下の長方形の蓮池には三匹の鯉が泳ぐ。龍は力と幸運を、鯉は粘り強さと強い意志を象徴する。鯉が激流を逆に泳いで跳び上がり龍になる伝説は、官吏採用試験を突破する困難を示す比喩として知られ、男児の将来の成功への願いとも結びついた。上部の円形画面は墨と色で力強く塗り、下部の水面は余白を使って柔らかく表現する。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "龍と鯉の象徴は朝鮮時代の図像解釈であり、超自然的な変身を事実として述べない。特定の受験者や持ち主の願いを断定しない。作者は不明。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metの作品別Overviewによれば、上部では暗い渦巻く雲と波から龍が現れ、下の長方形の蓮池には三匹の鯉が泳ぐ。龍は力と幸運を、鯉は粘り強さと強い意志を象徴する。鯉が激流を逆に泳いで跳び上がり龍になる伝説は、官吏採用試験を突破する困難を示す比喩として知られ、男児の将来の成功への願いとも結びついた。上部の円形画面は墨と色で力強く塗り、下部の水面は余白を使って柔らかく表現する。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/853892"
+        },
+        "creation_context": "late 19th century; Korea; Framed painting; ink and color on paper; accession 2024.89.3",
+        "visual_clues": "Met公式表示JPEGの同一作品サムネイルを目視。長方形の紙の上半分にほぼ円形の枠内で鱗のある龍が大きくうねり、龍の周囲に濃い灰黒の波・雲と色のある花状の装飾。下半分の薄い線描の長方形の池に三匹の魚が泳ぎ、蓮の茎と花が立つ。上の強い動きと下の静けさが対照的。",
+        "uncertainty_note": "龍と鯉の象徴は朝鮮時代の図像解釈であり、超自然的な変身を事実として述べない。特定の受験者や持ち主の願いを断定しない。作者は不明。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "希望"
+        ],
+        "secondary": [
+          "畏敬"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42950522740",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "画面上では、大きな龍が暗い雲と波の中から姿を現しています。その下には長方形の蓮池があり、三匹の鯉が静かな水面を泳いでいます。上の濃い色と激しい動き、下の淡い線と余白が鮮やかな対照を作っています。\n\n朝鮮時代の絵画では、龍は力や幸運を、鯉は粘り強さや強い意志を表すことがありました。鯉が流れに逆らって泳ぎ、跳び上がることで龍になるという伝説もあります。この物語は、難しい官吏採用試験を乗り越えることのたとえとなり、将来の成功を願う意味にもつながりました。\n\n龍のうねる線と、池で泳ぐ鯉の姿を見比べると、力強さと静けさが一枚の中に収められているのが分かります。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/853892"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-853892",
+    "title": "Dragon and carp",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/853892",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/853892",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-37218-001.jpg",
+      "sha256": "d647fc9d1a55e7b6f1dca45c9bede8a84111b4f437269f7a46a80e6ddcdb22d7",
+      "byte_length": 159015,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42950522740",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-37218-001.jpg",
+        "sha256": "cba1b5e59898d384bac1618e377a14ea3cbee0c6462ada464c3d2903735e02e1",
+        "byte_length": 3083464,
+        "width": 2562,
+        "height": 3814,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 9.93830",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2024.89.3"
+  }
+}
