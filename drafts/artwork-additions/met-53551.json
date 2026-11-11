@@ -1,0 +1,154 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-53551",
+  "artwork": {
+    "id": "met-53551",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 53551,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/53551",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/53551",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Interior with Woman, Child and Nurse",
+      "title_ja_provisional": "女性と子ども、乳母のいる室内",
+      "artist": "Unidentified artist",
+      "creation_date_display": "late 18th–early 19th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "China",
+      "accession_number": "44.121"
+    },
+    "image": {
+      "image_id": "met-53551-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-35307-002.jpg",
+      "source_registry_id": "met-53551",
+      "local_path": "/artworks/met-53551.jpg",
+      "sha256": "5dca38aff9bd84cc2ced13b6be914a33acb87ba3142f791da3389179df94b96e",
+      "byte_length": 161489,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42967173997",
+      "source_accession_number": "44.121",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-35307-002.jpg",
+        "sha256": "95f119d2c2ee90680da36f4f71a71c86044e5f3185247667b581d5f4165027fd",
+        "byte_length": 3813816,
+        "width": 2999,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 7.96181",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "落ち着き"
+      ],
+      "themes": [
+        "日常",
+        "共同体",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/53551",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "清代中国の美人画で、西洋風の壁紙や室内に取り入れられた遠近感の工夫を探したい",
+            "reason": "Met公式作品別Overviewによると、清代中国で女性を描いた『美人画（meiren）』は商業市場向けに作られ、西洋で流行した技法を取り入れることがあった。一方、将来の雍正帝の円明園（夏宮）の読書室のような上層の空間にも美人画が飾られた。本作品はトロンプ・ルイユ（だまし絵）の空間表現を使い、ヨーロッパ式の壁紙や建築要素で飾られた室内へ覗き込むように見せる。複数の場面をつなぎ、戸外の風景と女性・子ども・乳母の姿の間を鑑賞者の目が移動するよう設計される。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "描かれた実在の住居や人物の固有名は特定せず、すべての美人画が輸出用だったとは誤解させない。建築・壁紙は西洋風の表現として美術館の説明に基づき、画面の場所がヨーロッパとは言わない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met公式作品別Overviewによると、清代中国で女性を描いた『美人画（meiren）』は商業市場向けに作られ、西洋で流行した技法を取り入れることがあった。一方、将来の雍正帝の円明園（夏宮）の読書室のような上層の空間にも美人画が飾られた。本作品はトロンプ・ルイユ（だまし絵）の空間表現を使い、ヨーロッパ式の壁紙や建築要素で飾られた室内へ覗き込むように見せる。複数の場面をつなぎ、戸外の風景と女性・子ども・乳母の姿の間を鑑賞者の目が移動するよう設計される。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/53551"
+        },
+        "creation_context": "late 18th–early 19th century; China; Hanging scroll; ink and color on silk; accession 44.121",
+        "visual_clues": "Met公式同一作品のフルJPEGと表示版を目視し照合。縦長の室内図で、上下に装飾縁のある画面内に、緑の窓外の樹木、室内の複数の柱・開口部、中央左の女性と子ども、右側で向かい合う乳母、奥へ入る床の線と鮮やかな家具を描く。壁面や扉の奥行きを重ねた様子を確認。",
+        "uncertainty_note": "描かれた実在の住居や人物の固有名は特定せず、すべての美人画が輸出用だったとは誤解させない。建築・壁紙は西洋風の表現として美術館の説明に基づき、画面の場所がヨーロッパとは言わない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42967173997",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "細長い絵の中に、いくつもの扉や柱が重なる室内が広がっています。女性と子ども、そのそばにいる乳母が描かれ、奥の窓からは緑の木々が見えます。部屋の奥まで視線が入り込むような構図です。\n\n清代の中国では、こうした女性像を描いた作品が『美人画』と呼ばれていました。商業市場向けにも制作され、西洋で流行した絵画技法を取り入れた例があります。この作品の部屋は、ヨーロッパ風の壁紙や建築の要素を使い、だまし絵のように奥行きを見せています。\n\n戸外の風景、幾重にも重なる室内、女性と子どもの姿へと順番に目を移してみてください。一つの平らな画面なのに、複数の部屋を歩いているように感じられる工夫が楽しめます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/53551"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-53551",
+    "title": "Interior with Woman, Child and Nurse",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/53551",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/53551",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-35307-002.jpg",
+      "sha256": "5dca38aff9bd84cc2ced13b6be914a33acb87ba3142f791da3389179df94b96e",
+      "byte_length": 161489,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42967173997",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-35307-002.jpg",
+        "sha256": "95f119d2c2ee90680da36f4f71a71c86044e5f3185247667b581d5f4165027fd",
+        "byte_length": 3813816,
+        "width": 2999,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 7.96181",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "44.121"
+  }
+}

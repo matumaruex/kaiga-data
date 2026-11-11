@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-45229",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-45229.json",
+  "candidate_sha256": "469fa2abfca8cc555fd0bf69b919d05f5be2387147718956a8db779271f03979",
+  "draft_path": "drafts/visitor-explanations/met-45229.json",
+  "draft_sha256": "89e535e28dbcae28f6c6c339f89d45fe7d14a92775369522dab3bc020924a1db",
+  "baseline": {
+    "artworks_sha256": "a89f39c2f5f3a46accde74463350ef53c69a23a73e8ec72fb868e0828198d8ac",
+    "image_registry_sha256": "6d22c27bc5d166672c179385b980b49aafc2d3b9a58f5915735e80d9982305f2"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/45229",
+      "source_excerpt": "A few economic brush strokes create the figure of a fox-priest",
+      "visitor_claim": "わずかな筆遣いで狐僧の姿を生み出しています",
+      "source_section": "Overview: sparse strokes depicting a fox-priest"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/45229",
+      "source_excerpt": "the protagonist in the comic kyōgen play The Fox Trapper",
+      "visitor_claim": "狂言『釣狐』に登場する、僧に化けた狐です",
+      "source_section": "Overview: fox-priest in the kyōgen play"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/45229",
+      "location": "Met object Overview and Artwork Details: Overview: sparse strokes depicting a fox-priest | Overview: fox-priest in the kyōgen play",
+      "finding": "Met公式作品別Overviewによると、京都の陶工永樂保全は、文人と親交を持ち中国風の趣味に通じ、鮮やかな色彩の陶器や金を使った作品で知られた。しかしこの掛軸では、非常に少ない筆の線で、杖を持つ僧の姿に化けた狐を表す。人物は狂言『釣狐（The Fox Trapper）』の主人公で、添えられた謎めいた詩は僧衣を着た者も内心は狐のままでありうると警告する。作家の晩年の事業上の失敗が作品の質に影響した可能性をMetは推測するが、確定ではない。 Visual subject based on specific same-object source image: Met公式同一作品の元画像と表示画像を視認して照合。淡い茶色の細長い紙の下部に墨の濃い線を使った、頭が長く前に出た狐のような僧姿の小人物。細い杖を斜め左へ伸ばす。上方の大きな余白には縦書きの詩文が数行あり、最下部に落款。人物はごく少ない線で描かれる。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45229",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42967173997",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/45229",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42967173997"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/45229",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 45229, Fox with Staff (Hakuzōsu), Eiraku Hozen, after 1848, 36.100.95. Attribution caveats and source classifications preserved.",
+      "image_match": "Met公式同一作品の元画像と表示画像を視認して照合。淡い茶色の細長い紙の下部に墨の濃い線を使った、頭が長く前に出た狐のような僧姿の小人物。細い杖を斜め左へ伸ばす。上方の大きな余白には縦書きの詩文が数行あり、最下部に落款。人物はごく少ない線で描かれる。 API official primary JPEG complete hashes/dimensions, downscale RMS 2.94384.",
+      "historical_interpretation": "Met公式作品別Overviewによると、京都の陶工永樂保全は、文人と親交を持ち中国風の趣味に通じ、鮮やかな色彩の陶器や金を使った作品で知られた。しかしこの掛軸では、非常に少ない筆の線で、杖を持つ僧の姿に化けた狐を表す。人物は狂言『釣狐（The Fox Trapper）』の主人公で、添えられた謎めいた詩は僧衣を着た者も内心は狐のままでありうると警告する。作家の晩年の事業上の失敗が作品の質に影響した可能性をMetは推測するが、確定ではない。 Limits: 作品の狐が実在した僧であるとは言わず狂言の登場人物として説明。作家の商売上の経験と心理を因果関係として断定しない。狂言題名の英訳はMetの表記で、和名『釣狐』は作品解説の『The Fox Trapper』に対応する一般名。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['好奇心']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/36_100_95_O2_sf.jpg",
+      "sha256": "caf40f4d6019d5c8b9719cc06b40d65a25b914b8c4aaaf44a9467fecf6c30091",
+      "byte_length": 29777,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式同一作品の元画像と表示画像を視認して照合。淡い茶色の細長い紙の下部に墨の濃い線を使った、頭が長く前に出た狐のような僧姿の小人物。細い杖を斜め左へ伸ばす。上方の大きな余白には縦書きの詩文が数行あり、最下部に落款。人物はごく少ない線で描かれる。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42967173997"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/36_100_95_O2_sf.jpg",
+      "sha256": "d99d306b0ab2a65781b4b487ff226b690a3f0c586b970fc0b428b4bd83f8001a",
+      "byte_length": 531150,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式同一作品の元画像と表示画像を視認して照合。淡い茶色の細長い紙の下部に墨の濃い線を使った、頭が長く前に出た狐のような僧姿の小人物。細い杖を斜め左へ伸ばす。上方の大きな余白には縦書きの詩文が数行あり、最下部に落款。人物はごく少ない線で描かれる。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42967173997"
+    }
+  ],
+  "notes": [
+    "Sequential addition 371; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}

@@ -45000,6 +45000,376 @@
         "audit_sha256": "7f153b876b4045edf0310f57e81d622ca28ffffa411e715b8105a86f956d4b55",
         "record_sha256": "24400c477df5d3ba1507d780afb270ee37c7856e994b8f98ab514bca37a17431"
       }
+    },
+    {
+      "id": "met-53551",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 53551,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/53551",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/53551",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Interior with Woman, Child and Nurse",
+        "title_ja_provisional": "女性と子ども、乳母のいる室内",
+        "artist": "Unidentified artist",
+        "creation_date_display": "late 18th–early 19th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "China",
+        "accession_number": "44.121"
+      },
+      "image": {
+        "image_id": "met-53551-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-35307-002.jpg",
+        "source_registry_id": "met-53551",
+        "local_path": "/artworks/met-53551.jpg",
+        "sha256": "5dca38aff9bd84cc2ced13b6be914a33acb87ba3142f791da3389179df94b96e",
+        "byte_length": 161489,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42967173997",
+        "source_accession_number": "44.121",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-35307-002.jpg",
+          "sha256": "95f119d2c2ee90680da36f4f71a71c86044e5f3185247667b581d5f4165027fd",
+          "byte_length": 3813816,
+          "width": 2999,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 7.96181",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "日常",
+          "共同体",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/53551",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "清代中国の美人画で、西洋風の壁紙や室内に取り入れられた遠近感の工夫を探したい",
+              "reason": "Met公式作品別Overviewによると、清代中国で女性を描いた『美人画（meiren）』は商業市場向けに作られ、西洋で流行した技法を取り入れることがあった。一方、将来の雍正帝の円明園（夏宮）の読書室のような上層の空間にも美人画が飾られた。本作品はトロンプ・ルイユ（だまし絵）の空間表現を使い、ヨーロッパ式の壁紙や建築要素で飾られた室内へ覗き込むように見せる。複数の場面をつなぎ、戸外の風景と女性・子ども・乳母の姿の間を鑑賞者の目が移動するよう設計される。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "描かれた実在の住居や人物の固有名は特定せず、すべての美人画が輸出用だったとは誤解させない。建築・壁紙は西洋風の表現として美術館の説明に基づき、画面の場所がヨーロッパとは言わない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品別Overviewによると、清代中国で女性を描いた『美人画（meiren）』は商業市場向けに作られ、西洋で流行した技法を取り入れることがあった。一方、将来の雍正帝の円明園（夏宮）の読書室のような上層の空間にも美人画が飾られた。本作品はトロンプ・ルイユ（だまし絵）の空間表現を使い、ヨーロッパ式の壁紙や建築要素で飾られた室内へ覗き込むように見せる。複数の場面をつなぎ、戸外の風景と女性・子ども・乳母の姿の間を鑑賞者の目が移動するよう設計される。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/53551"
+          },
+          "creation_context": "late 18th–early 19th century; China; Hanging scroll; ink and color on silk; accession 44.121",
+          "visual_clues": "Met公式同一作品のフルJPEGと表示版を目視し照合。縦長の室内図で、上下に装飾縁のある画面内に、緑の窓外の樹木、室内の複数の柱・開口部、中央左の女性と子ども、右側で向かい合う乳母、奥へ入る床の線と鮮やかな家具を描く。壁面や扉の奥行きを重ねた様子を確認。",
+          "uncertainty_note": "描かれた実在の住居や人物の固有名は特定せず、すべての美人画が輸出用だったとは誤解させない。建築・壁紙は西洋風の表現として美術館の説明に基づき、画面の場所がヨーロッパとは言わない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42967173997",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "細長い絵の中に、いくつもの扉や柱が重なる室内が広がっています。女性と子ども、そのそばにいる乳母が描かれ、奥の窓からは緑の木々が見えます。部屋の奥まで視線が入り込むような構図です。\n\n清代の中国では、こうした女性像を描いた作品が『美人画』と呼ばれていました。商業市場向けにも制作され、西洋で流行した絵画技法を取り入れた例があります。この作品の部屋は、ヨーロッパ風の壁紙や建築の要素を使い、だまし絵のように奥行きを見せています。\n\n戸外の風景、幾重にも重なる室内、女性と子どもの姿へと順番に目を移してみてください。一つの平らな画面なのに、複数の部屋を歩いているように感じられる工夫が楽しめます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/53551"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-53551-2026-11-11.json",
+        "audit_sha256": "f03dd2d3b347162a9397e34ea15fd178c1e0ed0eb4b0fd70d552e467dc215aab",
+        "record_sha256": "c749b890d5fa30801862cfa5437ee820eff204b71dce9d396fc2ed44fe197c56"
+      }
+    },
+    {
+      "id": "met-437405",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437405,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437405",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437405",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "A Young Woman as a Shepherdess",
+        "title_ja_provisional": "羊飼いに扮した若い女性",
+        "artist": "Govert Flinck",
+        "creation_date_display": "17世紀（Met作品APIでは制作年の記載なし）",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "The Netherlands (artist origin; Met API culture unspecified)",
+        "accession_number": "60.71.15"
+      },
+      "image": {
+        "image_id": "met-437405-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146492.jpg",
+        "source_registry_id": "met-437405",
+        "local_path": "/artworks/met-437405.jpg",
+        "sha256": "cde0ba36ed7bbc5c7e18d27452cb9029245f7e686a0e08b93b412c60406f53d2",
+        "byte_length": 70517,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42967173997",
+        "source_accession_number": "60.71.15",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146492.jpg",
+          "sha256": "d3da1d60f9790ee8d24c7035a3d321d79847777acd177c31e8ce9af25cfe3a57",
+          "byte_length": 2528369,
+          "width": 2833,
+          "height": 3722,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 5.27113",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "余韻"
+        ],
+        "themes": [
+          "時間",
+          "共同体"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437405",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "レンブラントと弟子フリンクの画風の近さや、作品の誤った署名が後世に起こした誤認を考えたい",
+              "reason": "Met公式作品別Overviewによると、レンブラントの弟子ホーフェルト・フリンクは、師に学んだ、古代や劇場の世界を連想させる装飾的な衣装の人物像を描いた。この作品の若い女性は花冠、ベール、羊飼いの杖を身に着け、理想化された牧歌のヒロインの姿をとる。フリンク独自の表現は光る衣服の質感、精緻な花、細く傾いた肩の線に現れる。18世紀までには絵にレンブラントを装う偽の署名が加えられ、弟子の絵が師のものと誤認されて20世紀後半まで伝わることさえあった。制作年はMet APIの作品欄では未記載。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "モデルをレンブラントの妻サスキアと断定しない。作品はフリンク作で、レンブラントの名前の署名は偽物であると明確に区別する。制作年を出典にない1633年などで確定しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品別Overviewによると、レンブラントの弟子ホーフェルト・フリンクは、師に学んだ、古代や劇場の世界を連想させる装飾的な衣装の人物像を描いた。この作品の若い女性は花冠、ベール、羊飼いの杖を身に着け、理想化された牧歌のヒロインの姿をとる。フリンク独自の表現は光る衣服の質感、精緻な花、細く傾いた肩の線に現れる。18世紀までには絵にレンブラントを装う偽の署名が加えられ、弟子の絵が師のものと誤認されて20世紀後半まで伝わることさえあった。制作年はMet APIの作品欄では未記載。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437405"
+          },
+          "creation_context": "; ; Oil on canvas, transferred from wood; accession 60.71.15",
+          "visual_clues": "Met公式原寸画像と表示JPEGの縮小一致・実画面を目視。暗い楕円形の画面に、白っぽい衣と肩を覆う薄い布、花冠をまとった若い女性が右へ少し身体を向け、こちらを見ている。頭上には花冠、右側の暗い背景で肩の輪郭が細く傾く。左上にはほのかに明かり。",
+          "uncertainty_note": "モデルをレンブラントの妻サスキアと断定しない。作品はフリンク作で、レンブラントの名前の署名は偽物であると明確に区別する。制作年を出典にない1633年などで確定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42967173997",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "暗い楕円形の画面の中で、若い女性がこちらを見つめています。頭には花冠をつけ、薄いベールと羊飼いの杖を持った、物語の中の羊飼いを思わせる姿です。衣服の柔らかな光と、細かな花の描写が目を引きます。\n\n作者ホーフェルト・フリンクはレンブラントの弟子でした。師にならって劇場や古代世界を連想させる衣装の人物を描きながら、きらめく布地や肩の輪郭には自分の表現も加えました。この絵には18世紀までに、レンブラント作と見せかける偽の署名が加えられていたことが分かっています。\n\n絵そのものを眺めるだけでなく、作品が誰の手で描かれたと信じられてきたかにも注目してみてください。美しい肖像の背後に、美術品が伝わる中で起きた誤解の歴史が見えてきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/437405"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-437405-2026-11-11.json",
+        "audit_sha256": "1357783d2974e44eed50bfa74d37e3d610daa266a79997bb17888d87e07a46f2",
+        "record_sha256": "961d5de489088729993c458c549e7b4bd246eb02251651aecb9462071ab9b75c"
+      }
+    },
+    {
+      "id": "met-45229",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 45229,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/45229",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45229",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Fox with Staff (Hakuzōsu)",
+        "title_ja_provisional": "杖を持つ狐（白蔵主）",
+        "artist": "Eiraku Hozen",
+        "creation_date_display": "after 1848",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "36.100.95"
+      },
+      "image": {
+        "image_id": "met-45229-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/36_100_95_O2_sf.jpg",
+        "source_registry_id": "met-45229",
+        "local_path": "/artworks/met-45229.jpg",
+        "sha256": "caf40f4d6019d5c8b9719cc06b40d65a25b914b8c4aaaf44a9467fecf6c30091",
+        "byte_length": 29777,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42967173997",
+        "source_accession_number": "36.100.95",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/36_100_95_O2_sf.jpg",
+          "sha256": "d99d306b0ab2a65781b4b487ff226b690a3f0c586b970fc0b428b4bd83f8001a",
+          "byte_length": 531150,
+          "width": 1683,
+          "height": 2969,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 2.94384",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2
+        },
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "日常",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/45229",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "江戸の狂言に登場する僧に化けた狐を、永樂保全の簡潔な筆遣いと添えた詩で味わいたい",
+              "reason": "Met公式作品別Overviewによると、京都の陶工永樂保全は、文人と親交を持ち中国風の趣味に通じ、鮮やかな色彩の陶器や金を使った作品で知られた。しかしこの掛軸では、非常に少ない筆の線で、杖を持つ僧の姿に化けた狐を表す。人物は狂言『釣狐（The Fox Trapper）』の主人公で、添えられた謎めいた詩は僧衣を着た者も内心は狐のままでありうると警告する。作家の晩年の事業上の失敗が作品の質に影響した可能性をMetは推測するが、確定ではない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作品の狐が実在した僧であるとは言わず狂言の登場人物として説明。作家の商売上の経験と心理を因果関係として断定しない。狂言題名の英訳はMetの表記で、和名『釣狐』は作品解説の『The Fox Trapper』に対応する一般名。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品別Overviewによると、京都の陶工永樂保全は、文人と親交を持ち中国風の趣味に通じ、鮮やかな色彩の陶器や金を使った作品で知られた。しかしこの掛軸では、非常に少ない筆の線で、杖を持つ僧の姿に化けた狐を表す。人物は狂言『釣狐（The Fox Trapper）』の主人公で、添えられた謎めいた詩は僧衣を着た者も内心は狐のままでありうると警告する。作家の晩年の事業上の失敗が作品の質に影響した可能性をMetは推測するが、確定ではない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/45229"
+          },
+          "creation_context": "after 1848; Japan; Hanging scroll; ink on paper; accession 36.100.95",
+          "visual_clues": "Met公式同一作品の元画像と表示画像を視認して照合。淡い茶色の細長い紙の下部に墨の濃い線を使った、頭が長く前に出た狐のような僧姿の小人物。細い杖を斜め左へ伸ばす。上方の大きな余白には縦書きの詩文が数行あり、最下部に落款。人物はごく少ない線で描かれる。",
+          "uncertainty_note": "作品の狐が実在した僧であるとは言わず狂言の登場人物として説明。作家の商売上の経験と心理を因果関係として断定しない。狂言題名の英訳はMetの表記で、和名『釣狐』は作品解説の『The Fox Trapper』に対応する一般名。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42967173997",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "細長い掛軸の下に、杖を持った不思議な姿が小さく描かれています。僧のように見えますが、その顔つきには狐を思わせる特徴があります。少ない墨の線で人物の形を表し、上には余白と詩が大きく残されています。\n\n描かれているのは、狂言『釣狐』に登場する、僧に化けた狐です。作者の永樂保全は、京都で色鮮やかな陶器や金を使った作品を作った陶工でもありました。この掛軸では、わずかな筆遣いで狐僧の姿を生み出しています。\n\n添えられた詩は、僧衣をまとっていても内心は狐のままかもしれない、と見る人に注意を促しています。余白と短い線、風刺めいた言葉を重ねると、簡潔な表現の面白さが感じられます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/45229"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-45229-2026-11-11.json",
+        "audit_sha256": "c87cdc0dd53d726555141c6b713b02d8e07e888383957ce478755f778a12081c",
+        "record_sha256": "499d8767f63c4a7982325f8d2825d8b381466329eb1e6679dc3ebb38e2de8ce2"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
