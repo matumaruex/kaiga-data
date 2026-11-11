@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-437920",
+  "artwork": {
+    "id": "met-437920",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 437920,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/437920",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437920",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "A Vase with Flowers",
+      "title_ja_provisional": "花瓶に生けた花",
+      "artist": "Jacob Vosmaer",
+      "creation_date_display": "probably 1613",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Netherlands (Delft artist; Met API culture unspecified)",
+      "accession_number": "71.5"
+    },
+    "image": {
+      "image_id": "met-437920-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145940.jpg",
+      "source_registry_id": "met-437920",
+      "local_path": "/artworks/met-437920.jpg",
+      "sha256": "8a580c3a39258d2a28c0e94854fb2581d9380ca9a40f9b94a25f54b9ea311016",
+      "byte_length": 88678,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42932375742",
+      "source_accession_number": "71.5",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP145940.jpg",
+        "sha256": "1398f9e6565a7fe0fa78008ebc040a6e958b44e3bbbd3af684081fe4573f46f6",
+        "byte_length": 1918695,
+        "width": 2764,
+        "height": 3721,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 5.03198",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [],
+      "emotion_strengths": {},
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/437920",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "暗い背景に浮かび上がる花と、後世に切り詰められた静物画の構図を見つめたい",
+            "reason": "Met公式Overviewによれば、デルフトの画家ヤコプ・フォスマールは花の静物画を早くから専門にした画家の一人で、当時の花の絵には、画家自身が実物を見ず図鑑でのみ知る珍しい植物も描かれた。Metはこの板絵が1870年より前に左右を切り詰め、上部を約9インチ切除され、画面上部のクラウン・インペリアル（ユリ科の花）が途中で切れていると説明する。制作年は『probably 1613』で確定年ではない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "制作年は『おそらく1613年』とする。個々の花を確証なくすべて品種同定しない。画面上端の切断は制作時ではなく1870年以前の後世の変更として説明する。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met公式Overviewによれば、デルフトの画家ヤコプ・フォスマールは花の静物画を早くから専門にした画家の一人で、当時の花の絵には、画家自身が実物を見ず図鑑でのみ知る珍しい植物も描かれた。Metはこの板絵が1870年より前に左右を切り詰め、上部を約9インチ切除され、画面上部のクラウン・インペリアル（ユリ科の花）が途中で切れていると説明する。制作年は『probably 1613』で確定年ではない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/437920"
+        },
+        "creation_context": "probably 1613; ; Oil on wood; accession 71.5",
+        "visual_clues": "暗い背景を背に大きな金属製の水差し形の花器に赤、桃色、青、黄、白の花々が挿される。石のような台の上に落ちた花弁と小さなトカゲ状の生き物が見える。公式同一作品IDの原画像と表示JPEGで主題と寸法を照合。",
+        "uncertainty_note": "制作年は『おそらく1613年』とする。個々の花を確証なくすべて品種同定しない。画面上端の切断は制作時ではなく1870年以前の後世の変更として説明する。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42932375742",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "暗い背景から、赤や桃色、青、黄色の花々が浮かび上がっています。大きな水差し形の花器を中心に茎が曲線を描き、花弁には細かい光と影が重ねられています。足元には落ちた花の一部も見えます。\n\nこの絵を描いたヤコプ・フォスマールは、17世紀初めのオランダで花の静物画を早くから専門にした画家の一人です。当時は、珍しい花を実物ではなく植物図鑑で知り、描くこともありました。制作年は、おそらく1613年とされています。\n\n現在の画面は制作当初の大きさではありません。メトロポリタン美術館によれば、1870年より前に板絵の左右と上部が切り詰められ、上端に描かれた花の一部が失われています。残る花の密集した姿を見ながら、かつての画面の広がりを想像することもできます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437920"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-437920",
+    "title": "A Vase with Flowers",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/437920",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/437920",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145940.jpg",
+      "sha256": "8a580c3a39258d2a28c0e94854fb2581d9380ca9a40f9b94a25f54b9ea311016",
+      "byte_length": 88678,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42932375742",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP145940.jpg",
+        "sha256": "1398f9e6565a7fe0fa78008ebc040a6e958b44e3bbbd3af684081fe4573f46f6",
+        "byte_length": 1918695,
+        "width": 2764,
+        "height": 3721,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 5.03198",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "71.5"
+  }
+}
