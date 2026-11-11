@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-816194",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-816194.json",
+  "candidate_sha256": "6ae69a26e35ccf6b5451a6f21628e75787b520e4ba23c03270d508f10634663c",
+  "draft_path": "drafts/visitor-explanations/met-816194.json",
+  "draft_sha256": "d2c8ba2cb6f105b04c47cf18d1505635c55726dec710cd926703df2af6aacd2e",
+  "baseline": {
+    "artworks_sha256": "fbdb8e92874e14abf9d301c35d25783dabc5e47a6c3afe01ba12eaf9729fa493",
+    "image_registry_sha256": "619c02ee8ad77c4072fadb87be57037227f8741f9f68152dcc0203e4fb69e09e"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/816194",
+      "source_excerpt": "Two boats are visible along the grassy shoreline",
+      "visitor_claim": "水際には二艘の舟があり、一方の舟は岸から離れようとしています",
+      "source_section": "Overview: boats along shoreline"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/816194",
+      "source_excerpt": "he served as art connoisseur and consultant to the Ashikaga shoguns",
+      "visitor_claim": "相阿弥は足利将軍家で美術の鑑定や助言を担い",
+      "source_section": "Overview: Sōami role and imported Chinese artworks"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/816194",
+      "location": "Met object Overview and Artwork Details: Overview: boats along shoreline | Overview: Sōami role and imported Chinese artworks",
+      "finding": "Met作品別Overviewによると、この画面は柔らかい墨のにじみで水辺の地形と樹木を表し、岸のそばに舟が2艘見える。相阿弥は室町時代の阿弥派の絵師の一人で、足利将軍家の美術鑑定や助言に携わり、中国からもたらされた絵画にも通じていた。中国・南宋の禅僧牧谿の墨表現に学んだと説明される。 Visual subject based on specific same-object source image: ほのかに暗い水辺へ下る丘、枝垂れる柳、左下の小舟、右側の小道をたどる小人物が、淡い墨の景色に置かれる。外縁の古い装丁と朱印も同一作品の公式表示で視認した。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/816194",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42927377170",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/816194",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42927377170"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/816194",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 816194: Landscape; Attributed to Sōami, 15th–early 16th century; 2018.853.7. API artist differs in attribution framing if supplied; museum page preserves attribution. American Wing classification blank is restricted to verified oil painting 11287.",
+      "image_match": "ほのかに暗い水辺へ下る丘、枝垂れる柳、左下の小舟、右側の小道をたどる小人物が、淡い墨の景色に置かれる。外縁の古い装丁と朱印も同一作品の公式表示で視認した。 API official primary JPEG complete hashes/dimensions, downscale RMS 3.84715.",
+      "historical_interpretation": "Met作品別Overviewによると、この画面は柔らかい墨のにじみで水辺の地形と樹木を表し、岸のそばに舟が2艘見える。相阿弥は室町時代の阿弥派の絵師の一人で、足利将軍家の美術鑑定や助言に携わり、中国からもたらされた絵画にも通じていた。中国・南宋の禅僧牧谿の墨表現に学んだと説明される。 Limits: 『Attributed to』であり相阿弥本人の筆と断定しない。画中人物の感情や特定の実景・季節を推定しない。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: []",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-17102-002.jpg",
+      "sha256": "64532fa928de1c4ec9ed5046dddd8aa856220501a237a3c4dbb113905d87efd8",
+      "byte_length": 89782,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "ほのかに暗い水辺へ下る丘、枝垂れる柳、左下の小舟、右側の小道をたどる小人物が、淡い墨の景色に置かれる。外縁の古い装丁と朱印も同一作品の公式表示で視認した。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42927377170"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-17102-002.jpg",
+      "sha256": "7fbc9b2f4ef4182c555f9b96f6a93448170980350a26d77c461dd8ce99acb513",
+      "byte_length": 4017906,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "ほのかに暗い水辺へ下る丘、枝垂れる柳、左下の小舟、右側の小道をたどる小人物が、淡い墨の景色に置かれる。外縁の古い装丁と朱印も同一作品の公式表示で視認した。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42927377170"
+    }
+  ],
+  "notes": [
+    "Sequential addition 333; prior artworks and image-source records unchanged.",
+    "Source Overview passages independently read via official museum page 2026-11-11. Separate AI pass is not human expert.",
+    "The 2026 Korean accession is a separate eight-panel screen (929265), not the older ten-panel Jang-attributed screen (646996)."
+  ]
+}

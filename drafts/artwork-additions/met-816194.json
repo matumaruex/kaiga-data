@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-816194",
+  "artwork": {
+    "id": "met-816194",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 816194,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/816194",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/816194",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Landscape",
+      "title_ja_provisional": "山水図",
+      "artist": "Attributed to Sōami",
+      "creation_date_display": "15th–early 16th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "2018.853.7"
+    },
+    "image": {
+      "image_id": "met-816194-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-17102-002.jpg",
+      "source_registry_id": "met-816194",
+      "local_path": "/artworks/met-816194.jpg",
+      "sha256": "64532fa928de1c4ec9ed5046dddd8aa856220501a237a3c4dbb113905d87efd8",
+      "byte_length": 89782,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42927377170",
+      "source_accession_number": "2018.853.7",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-17102-002.jpg",
+        "sha256": "7fbc9b2f4ef4182c555f9b96f6a93448170980350a26d77c461dd8ce99acb513",
+        "byte_length": 4017906,
+        "width": 4000,
+        "height": 3002,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 3.84715",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [],
+      "emotion_strengths": {},
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/816194",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "水墨の淡い濃淡と、室町時代の中国画からの影響を眺めたい",
+            "reason": "Met作品別Overviewによると、この画面は柔らかい墨のにじみで水辺の地形と樹木を表し、岸のそばに舟が2艘見える。相阿弥は室町時代の阿弥派の絵師の一人で、足利将軍家の美術鑑定や助言に携わり、中国からもたらされた絵画にも通じていた。中国・南宋の禅僧牧谿の墨表現に学んだと説明される。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "『Attributed to』であり相阿弥本人の筆と断定しない。画中人物の感情や特定の実景・季節を推定しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによると、この画面は柔らかい墨のにじみで水辺の地形と樹木を表し、岸のそばに舟が2艘見える。相阿弥は室町時代の阿弥派の絵師の一人で、足利将軍家の美術鑑定や助言に携わり、中国からもたらされた絵画にも通じていた。中国・南宋の禅僧牧谿の墨表現に学んだと説明される。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/816194"
+        },
+        "creation_context": "15th–early 16th century; Japan; Hanging scroll; ink on paper; accession 2018.853.7",
+        "visual_clues": "ほのかに暗い水辺へ下る丘、枝垂れる柳、左下の小舟、右側の小道をたどる小人物が、淡い墨の景色に置かれる。外縁の古い装丁と朱印も同一作品の公式表示で視認した。",
+        "uncertainty_note": "『Attributed to』であり相阿弥本人の筆と断定しない。画中人物の感情や特定の実景・季節を推定しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42927377170",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "低い丘が水辺へなだらかに下り、枝を垂らす柳のそばに小さな舟が見えます。右側には道を歩く人物が描かれ、薄くにじむ墨が、地面や木々とその奥の空間をつなげています。\n\nこの山水画は、室町時代の絵師・相阿弥の作と伝えられていますが、作者の確定には至っていません。水際には二艘の舟があり、一方の舟は岸から離れようとしています。相阿弥は足利将軍家で美術の鑑定や助言を担い、中国から伝わった絵画にも親しんだ人物でした。\n\n濃い輪郭で一つ一つを囲うのではなく、墨の濃淡によって枝や地形が現れては消えていきます。舟や小さな人影をたどると、余白を含めた画面の広さが感じられます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/816194"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-816194",
+    "title": "Landscape",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/816194",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/816194",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-17102-002.jpg",
+      "sha256": "64532fa928de1c4ec9ed5046dddd8aa856220501a237a3c4dbb113905d87efd8",
+      "byte_length": 89782,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42927377170",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-17102-002.jpg",
+        "sha256": "7fbc9b2f4ef4182c555f9b96f6a93448170980350a26d77c461dd8ce99acb513",
+        "byte_length": 4017906,
+        "width": 4000,
+        "height": 3002,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 3.84715",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2018.853.7"
+  }
+}

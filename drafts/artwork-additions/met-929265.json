@@ -1,0 +1,153 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-929265",
+  "artwork": {
+    "id": "met-929265",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 929265,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/929265",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/929265",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Birds, Animals, and Still-lifes",
+      "title_ja_provisional": "鳥・動物・静物図屏風",
+      "artist": "Jang Seung-eop (장승업 張承業, sobriquet: Owon 오원 吾園)",
+      "creation_date_display": "late 19th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Korea",
+      "accession_number": "2026.527.1"
+    },
+    "image": {
+      "image_id": "met-929265-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-45714-001.jpg",
+      "source_registry_id": "met-929265",
+      "local_path": "/artworks/met-929265.jpg",
+      "sha256": "27f3ab9a41e06b7a6e682baaed0fd13e5b2b08157646edb0f4a9940076add496",
+      "byte_length": 90271,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42927377170",
+      "source_accession_number": "2026.527.1",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-45714-001.jpg",
+        "sha256": "36c763bf5dab83985d7b97f475f5dcc12d037a5d897f375fa9a0934557b68ad3",
+        "byte_length": 2420631,
+        "width": 4000,
+        "height": 2204,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 10.24511",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "落ち着き"
+      ],
+      "themes": [
+        "自然",
+        "日常"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/929265",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "八枚の屏風で鳥や動物、花枝、器物の描き方の違いを見比べたい",
+            "reason": "Met作品別Overviewによると、この八曲屏風には鳥と花、動物、器物と枝を描く静物という三つのジャンルが一つに収められる。十九世紀の朝鮮では『器皿折枝図』という器物と植物を描くジャンルが発達した。Metは作者を示す根拠として第一扇裏側の題箋と第八扇に押された作者の印二つを挙げる。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "作品ごとの鳥や動物を特定種と断定しない。題箋と印を記すが作者直筆の全扇確実性までは拡大しない。Metの『器皿折枝図』は一部の静物ジャンルを指し、屏風全体が静物だけではない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによると、この八曲屏風には鳥と花、動物、器物と枝を描く静物という三つのジャンルが一つに収められる。十九世紀の朝鮮では『器皿折枝図』という器物と植物を描くジャンルが発達した。Metは作者を示す根拠として第一扇裏側の題箋と第八扇に押された作者の印二つを挙げる。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/929265"
+        },
+        "creation_context": "late 19th century; Korea; Eight-panel folding screen; ink and color on panel; accession 2026.527.1",
+        "visual_clues": "八曲の縦長の屏風。左側に鳥や枝、中央に脚付きの器物と葉、右側に樹の幹や器物、小獣を墨と淡彩で配している。同一IDのMet公式画像で8枚の画面が一続きの組作品であることを確認。",
+        "uncertainty_note": "作品ごとの鳥や動物を特定種と断定しない。題箋と印を記すが作者直筆の全扇確実性までは拡大しない。Metの『器皿折枝図』は一部の静物ジャンルを指し、屏風全体が静物だけではない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42927377170",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "細長い八枚の画面に、鳥、木の枝、小動物、花、そして形の異なる器物が配置されています。羽を広げた鳥がいる一方、器と植物が静かに並ぶ画面もあり、屏風を横へたどると題材が次々に変わります。\n\nメトロポリタン美術館によれば、この屏風は鳥と花、動物、静物という三種類の絵画ジャンルを合わせたものです。十九世紀の朝鮮では、器物と枝を描く『器皿折枝図』という形式も広まりました。作者を示す手がかりには、第一扇の裏側にある題箋と、第八扇に押された二つの印が挙げられています。\n\n自由な筆の動きと、羽や葉を表す細い線が交互に現れます。八枚をひとつの大きな絵として眺めたり、画面ごとの違いを探したりして楽しめます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/929265"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-929265",
+    "title": "Birds, Animals, and Still-lifes",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/929265",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/929265",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-45714-001.jpg",
+      "sha256": "27f3ab9a41e06b7a6e682baaed0fd13e5b2b08157646edb0f4a9940076add496",
+      "byte_length": 90271,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42927377170",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-45714-001.jpg",
+        "sha256": "36c763bf5dab83985d7b97f475f5dcc12d037a5d897f375fa9a0934557b68ad3",
+        "byte_length": 2420631,
+        "width": 4000,
+        "height": 2204,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 10.24511",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2026.527.1"
+  }
+}
