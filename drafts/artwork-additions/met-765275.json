@@ -1,0 +1,154 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-765275",
+  "artwork": {
+    "id": "met-765275",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 765275,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/765275",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/765275",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "A Woman of the Court Dressed as Radha",
+      "title_ja_provisional": "ラーダーに扮した宮廷女性",
+      "artist": "Attributed to Ramji working in the workshop of Sahib Ram",
+      "creation_date_display": "late 18th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "India (Jaipur, Rajasthan)",
+      "accession_number": "2017.447"
+    },
+    "image": {
+      "image_id": "met-765275-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/LC-TR_310_2017_sr1-002.jpg",
+      "source_registry_id": "met-765275",
+      "local_path": "/artworks/met-765275.jpg",
+      "sha256": "157c7b967157823e41366e99077824c0ae35bbfe63b6b165e0bc445fbb82fb8a",
+      "byte_length": 127371,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42948048573",
+      "source_accession_number": "2017.447",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/LC-TR_310_2017_sr1-002.jpg",
+        "sha256": "0a2b02bf0d5661d262d4077bcfc49c38eadc036be70b8df1f5f2a1b03110da82",
+        "byte_length": 951644,
+        "width": 1943,
+        "height": 2449,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 9.16244",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "未練"
+      ],
+      "emotion_strengths": {
+        "未練": 1
+      },
+      "tones": [
+        "余韻"
+      ],
+      "themes": [
+        "愛情",
+        "他者との距離",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/765275",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "18世紀のジャイプル宮廷絵画で、詩歌のヒロインと美しい服飾表現がどう重なったかを観察したい",
+            "reason": "Met作品別Overviewによると、暗い室内に立つ理想化された宮廷女性は、シンバルと拍子を取る道具を持つ。羽を飾った大きなターバン、緑の長衣、宝石と白真珠の列が華やかに強調される。彼女は恋人と離れた状態の感情を体現する詩的原型のナーヤカーで、背景の青がクリシュナを示唆するため、その恋人ラーダーに扮した女性かもしれないと解釈される。画風からラームジーに仮に帰属するが確定ではない。18世紀末ジャイプル宮廷で短期間に大画面の洗練された作品群が作られた。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "彼女は理想化された人物であり、歴史上の特定の女性とは断定しない。ラーダーは『扮した可能性』のある解釈で確定しない。作者も『Attributed to』で筆者の確定はしない。モデルの実際の恋愛感情を推測しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによると、暗い室内に立つ理想化された宮廷女性は、シンバルと拍子を取る道具を持つ。羽を飾った大きなターバン、緑の長衣、宝石と白真珠の列が華やかに強調される。彼女は恋人と離れた状態の感情を体現する詩的原型のナーヤカーで、背景の青がクリシュナを示唆するため、その恋人ラーダーに扮した女性かもしれないと解釈される。画風からラームジーに仮に帰属するが確定ではない。18世紀末ジャイプル宮廷で短期間に大画面の洗練された作品群が作られた。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/765275"
+        },
+        "creation_context": "late 18th century; India (Jaipur, Rajasthan); Opaque watercolor, gold and silver on paper; accession 2017.447",
+        "visual_clues": "公式原画像から作ったサムネイルを目視。広い薄クリーム色の台紙の中央、赤と金の装飾縁のある縦長の画面。黒っぽい背景に緑の長衣と羽の付いた頭飾りを着けた女性が立ち、左右の手に小さな楽器を持つ。宝石の装飾と明るい顔・首が目立つ。",
+        "uncertainty_note": "彼女は理想化された人物であり、歴史上の特定の女性とは断定しない。ラーダーは『扮した可能性』のある解釈で確定しない。作者も『Attributed to』で筆者の確定はしない。モデルの実際の恋愛感情を推測しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "未練"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42948048573",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "暗い室内を背景に、鮮やかな緑の長衣と羽飾りのついたターバンを身につけた女性が立っています。両手にはシンバルや拍子を取る道具を持ち、白い真珠と宝石が身体の輪郭を明るく飾ります。\n\nこの人物は、恋人と離れた切なさを表現するインドの詩的な女性像「ナーヤカー」として描かれています。青い背景が神クリシュナを連想させるため、その恋人ラーダーに扮した宮廷女性かもしれないとメトロポリタン美術館は解釈しています。\n\n18世紀末、ジャイプルの宮廷では、このような大画面で装飾性の高い絵が一時期制作されました。作者はラームジーの作と考えられていますが、確定していません。人物の姿勢や楽器、宝石の描写とともに、詩の世界を一枚の絵に表す工夫を楽しめます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/765275"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-765275",
+    "title": "A Woman of the Court Dressed as Radha",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/765275",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/765275",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/LC-TR_310_2017_sr1-002.jpg",
+      "sha256": "157c7b967157823e41366e99077824c0ae35bbfe63b6b165e0bc445fbb82fb8a",
+      "byte_length": 127371,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42948048573",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/LC-TR_310_2017_sr1-002.jpg",
+        "sha256": "0a2b02bf0d5661d262d4077bcfc49c38eadc036be70b8df1f5f2a1b03110da82",
+        "byte_length": 951644,
+        "width": 1943,
+        "height": 2449,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 9.16244",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2017.447"
+  }
+}

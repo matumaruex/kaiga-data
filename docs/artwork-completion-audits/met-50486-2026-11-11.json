@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-50486",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-50486.json",
+  "candidate_sha256": "2ee991c960c67702fae854d1d2af4b8706f3ee4a5803951de60c5866d92f621d",
+  "draft_path": "drafts/visitor-explanations/met-50486.json",
+  "draft_sha256": "07392a3d70bc20c0b434fae30ca089d1d0a0ff91f07f523f941ffc5c2a1a8f00",
+  "baseline": {
+    "artworks_sha256": "a6fe27ba6d56fd6243b656382c817006e172fbc9587ed30c55d90f2c52deb14d",
+    "image_registry_sha256": "9969b4373af91b6cc725f0536399717299a27800d16b3d896a2e4c65551311bb"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/50486",
+      "source_excerpt": "His calligraphic brushwork showcases intricate techniques",
+      "visitor_claim": "鋭く尖った葉先や折れ曲がる線には、書道のような精密な筆づかいが見られます",
+      "source_section": "Overview: calligraphic leaves and brushwork"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/50486",
+      "source_excerpt": "Bending but not breaking in the wind, bamboo embodies resilience and fortitude",
+      "visitor_claim": "風を受けてもしなやかに曲がり、折れない竹の姿が粘り強さを表す",
+      "source_section": "Overview: bamboo symbol of resilience"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/50486",
+      "location": "Met object Overview and Artwork Details: Overview: calligraphic leaves and brushwork | Overview: bamboo symbol of resilience",
+      "finding": "Met公式作品別Overviewによると、朝鮮時代の文人画家李霆（タンウン）は世宗大王の玄孫で、詩・書・水墨画に優れた。竹の葉先の細い線や、風を受けた折れたように曲がる葉の描写には書法的な技術が用いられている。濃淡の異なる重なった竹が奥行きを生み、儒教・道教で高潔さや節操の象徴とされる。作品の銘文も、竹が風に折れずにしなる粘り強さを述べる。心情や作者の個人経験に結びつけすぎない。 Visual subject based on specific same-object source image: 公式主JPEGの縮小画像を実際に見て確認。縦長の絹地の下半分には風で右へなびく細い竹や葉が濃墨と薄墨で重なり、上部には墨で書かれた漢字の詩文。全体の上下には青色の装丁や周囲余白が見える。密度の低い竹と余白が主題。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/50486",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42948048573",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/50486",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42948048573"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/50486",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 50486, Bamboo in the Wind, Yi Jeong (artist name: Taneun), early 17th century, 2015.300.299. Attribution caveats and source classifications preserved.",
+      "image_match": "公式主JPEGの縮小画像を実際に見て確認。縦長の絹地の下半分には風で右へなびく細い竹や葉が濃墨と薄墨で重なり、上部には墨で書かれた漢字の詩文。全体の上下には青色の装丁や周囲余白が見える。密度の低い竹と余白が主題。 API official primary JPEG complete hashes/dimensions, downscale RMS 7.28895.",
+      "historical_interpretation": "Met公式作品別Overviewによると、朝鮮時代の文人画家李霆（タンウン）は世宗大王の玄孫で、詩・書・水墨画に優れた。竹の葉先の細い線や、風を受けた折れたように曲がる葉の描写には書法的な技術が用いられている。濃淡の異なる重なった竹が奥行きを生み、儒教・道教で高潔さや節操の象徴とされる。作品の銘文も、竹が風に折れずにしなる粘り強さを述べる。心情や作者の個人経験に結びつけすぎない。 Limits: 実際の嵐や作者の心理状態を断定しない。『希望』は鑑賞者の連想として弱いタグにとどめ、儒教・道教の象徴は美術館の解説に従う。画中銘文は直接翻訳せず公式訳の趣旨のみ示す。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['希望']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP355790.jpg",
+      "sha256": "56edcef599c4dc77e7d6e5914f17e7897c33d2238a4a09d1d7a6b728047cc8d7",
+      "byte_length": 53250,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "公式主JPEGの縮小画像を実際に見て確認。縦長の絹地の下半分には風で右へなびく細い竹や葉が濃墨と薄墨で重なり、上部には墨で書かれた漢字の詩文。全体の上下には青色の装丁や周囲余白が見える。密度の低い竹と余白が主題。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42948048573"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP355790.jpg",
+      "sha256": "509ba497b1763032669bfe57ea68855e007f15af80c727fde81650d3c82e07cd",
+      "byte_length": 1364409,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "公式主JPEGの縮小画像を実際に見て確認。縦長の絹地の下半分には風で右へなびく細い竹や葉が濃墨と薄墨で重なり、上部には墨で書かれた漢字の詩文。全体の上下には青色の装丁や周囲余白が見える。密度の低い竹と余白が主題。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42948048573"
+    }
+  ],
+  "notes": [
+    "Sequential addition 351; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-65003",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-65003.json",
+  "candidate_sha256": "0bcc4dcb60dc884b7a881b5ad2b2fdd6d691b6da49edc6eea034ac2dca1bce6e",
+  "draft_path": "drafts/visitor-explanations/met-65003.json",
+  "draft_sha256": "aebe68d99c6931697937b550dc41b8c6f3c9b5ff62d8db1a4af1fee8afc744da",
+  "baseline": {
+    "artworks_sha256": "bd108616255f3836b79cfbe2861d7038478a658be598d97350b365a736391da5",
+    "image_registry_sha256": "906eff4a171b5ffe1e8c596495128d37ad75bbdb93e672352817696a3db0235f"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/65003",
+      "source_excerpt": "The shield and spear emphasize the nobleman’s status",
+      "visitor_claim": "この貴族が持つ盾と槍は、戦場での役割だけでなく、宮廷での地位も示す",
+      "source_section": "Overview: shield, spear and court status"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/65003",
+      "source_excerpt": "affirm links to the Mughal painting tradition in the Jodhpur court",
+      "visitor_claim": "当時の宮廷がムガル絵画から受けた影響が見られます",
+      "source_section": "Overview: Mughal painting influence"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/65003",
+      "location": "Met object Overview and Artwork Details: Overview: shield, spear and court status | Overview: Mughal painting influence",
+      "finding": "Met公式作品別Overviewでは、マールワール地方の画家がはっきりした色面を用いて騎馬の貴族一人の存在感を際立たせたと述べる。盾と槍は戦場と宮廷での社会的身分を示す。横顔の精緻な描写と控えめな衣服の陰影は、ダルチャンドの下での当時のジョードプル宮廷におけるムガル絵画とのつながりを示す。作品には作者名の確定がないためダルチャンドを作者と断定しない。 Visual subject based on specific same-object source image: Met公式JPEGの縮小画像を実見。緑一色に近い平坦な野原と薄い青灰色の空を背景に、左へ進む黒茶色の馬に、白い上着・頭巻き・赤い腰飾りをつけた人物が乗る。黒い丸盾を横に抱えて細い長槍を立てる。上下に細い装飾枠がある。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/65003",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42948048573",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/65003",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42948048573"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/65003",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 65003, Equestrian Portrait of a Nobleman, Unknown artist (Marwar/Jodhpur court), ca. 1710–20, 2002.411. Attribution caveats and source classifications preserved.",
+      "image_match": "Met公式JPEGの縮小画像を実見。緑一色に近い平坦な野原と薄い青灰色の空を背景に、左へ進む黒茶色の馬に、白い上着・頭巻き・赤い腰飾りをつけた人物が乗る。黒い丸盾を横に抱えて細い長槍を立てる。上下に細い装飾枠がある。 API official primary JPEG complete hashes/dimensions, downscale RMS 5.24868.",
+      "historical_interpretation": "Met公式作品別Overviewでは、マールワール地方の画家がはっきりした色面を用いて騎馬の貴族一人の存在感を際立たせたと述べる。盾と槍は戦場と宮廷での社会的身分を示す。横顔の精緻な描写と控えめな衣服の陰影は、ダルチャンドの下での当時のジョードプル宮廷におけるムガル絵画とのつながりを示す。作品には作者名の確定がないためダルチャンドを作者と断定しない。 Limits: 人物の固有名は不明。『ダルチャンドの下で』の説明は画風の連関であり、本人の筆とは断定しない。実戦中の瞬間や具体的な戦闘は描かれていない。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['畏敬']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156145.jpg",
+      "sha256": "0c8bc01f92088c97a7942607c4de1e0bae83980f9d5b0f2ec81fd3df794d4b57",
+      "byte_length": 235608,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式JPEGの縮小画像を実見。緑一色に近い平坦な野原と薄い青灰色の空を背景に、左へ進む黒茶色の馬に、白い上着・頭巻き・赤い腰飾りをつけた人物が乗る。黒い丸盾を横に抱えて細い長槍を立てる。上下に細い装飾枠がある。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42948048573"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP156145.jpg",
+      "sha256": "0fcc31247f67c8c70cde1631ce7f96882c042d19229ce7df16c9c1dfd2bb8078",
+      "byte_length": 2070932,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式JPEGの縮小画像を実見。緑一色に近い平坦な野原と薄い青灰色の空を背景に、左へ進む黒茶色の馬に、白い上着・頭巻き・赤い腰飾りをつけた人物が乗る。黒い丸盾を横に抱えて細い長槍を立てる。上下に細い装飾枠がある。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42948048573"
+    }
+  ],
+  "notes": [
+    "Sequential addition 353; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}
