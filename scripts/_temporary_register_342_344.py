@@ -45,14 +45,23 @@ def add(spec,sequence):
  for kind,key in (("original","primaryImage"),("display","primaryImageSmall")):
   url,expect_sha,expect_len,width,height=spec["image"][kind]
   require(o[key]==url,"object primary JPEG identity changed")
+  allowed={(expect_sha,expect_len)}
+  if num==39956 and kind=="original":
+   # Official image URL served two distinct bitstreams across verified runs:
+   # 42939871312 (101206 B), 42940134395 (106213 B).
+   # Both decode to the same subject and dimensions; a fresh downscale
+   # comparison against the exact selected display JPEG is mandatory below.
+   allowed.add(("4a9ec667ae09e5053ecd4b5f30d6040ad1fa247c650f3b178845fe23d291ae3a",101206))
   for attempt in range(4):
    b=get(url).content
-   if hashlib.sha256(b).hexdigest()==expect_sha and len(b)==expect_len:break
-   print("RETRY JPEG",id,kind,len(b),hashlib.sha256(b).hexdigest(),flush=True);time.sleep(3+attempt)
-  require(hashlib.sha256(b).hexdigest()==expect_sha and len(b)==expect_len,"JPEG integrity mismatch")
+   actual_sha=hashlib.sha256(b).hexdigest()
+   actual_len=len(b)
+   if (actual_sha,actual_len) in allowed:break
+   print("RETRY JPEG",id,kind,actual_len,actual_sha,flush=True);time.sleep(3+attempt)
+  require((actual_sha,actual_len) in allowed,"JPEG integrity mismatch")
   im=Image.open(io.BytesIO(b));im.load()
   require(im.format=="JPEG" and im.size==(width,height),"JPEG format or dimension changed")
-  docs[kind]=(im.copy().convert("RGB"),{"kind":kind,"url":url,"sha256":expect_sha,"byte_length":expect_len,
+  docs[kind]=(im.copy().convert("RGB"),{"kind":kind,"url":url,"sha256":actual_sha,"byte_length":actual_len,
        "download_status":200,"full_bytes_sha256_checked":True,
        "image_subject_visually_compared":True,"checked_on":DAY,
        "observation":spec["visual"]+" Full original/display exact object JPEG identity/size/dimensions checked in "+RESEARCH_RUN})
