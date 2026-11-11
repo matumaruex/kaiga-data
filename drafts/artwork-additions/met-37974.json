@@ -1,0 +1,157 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-37974",
+  "artwork": {
+    "id": "met-37974",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 37974,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/37974",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/37974",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Maharaja Fateh Singh Hunting Female Bears",
+      "title_ja_provisional": "ファテー・シングの熊狩り",
+      "artist": "Attributed to Pannalai",
+      "creation_date_display": "dated 1917",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Western India, Rajasthan, Udaipur",
+      "accession_number": "1992.7.1"
+    },
+    "image": {
+      "image_id": "met-37974-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DT6831.jpg",
+      "source_registry_id": "met-37974",
+      "local_path": "/artworks/met-37974.jpg",
+      "sha256": "f82ef28ad9839444b7778005f043e0bd58029d1076ff4b8573620a1bcdbb93ba",
+      "byte_length": 132269,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42958124800",
+      "source_accession_number": "1992.7.1",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DT6831.jpg",
+        "sha256": "204eaf0e1eebd9fd1110b53a9ec97709d8049a6a031177915676bd27515fbc68",
+        "byte_length": 3259753,
+        "width": 4000,
+        "height": 3274,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 11.99680",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "不安",
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "不安": 1,
+        "畏敬": 1
+      },
+      "tones": [
+        "緊張"
+      ],
+      "themes": [
+        "自然",
+        "時間",
+        "共同体"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/37974",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "20世紀初頭のインドの宮廷画で、一頭の熊を複数回描いて狩りの時間経過を示す独特の構図を見たい",
+            "reason": "Met作品別Overviewによると、ラージャスターン州メーワールの絵画伝統は20世紀初頭にも続き、狩猟や宮廷の場面が好まれた。ファテー・シングの治世には宮廷への写真の普及に応じたような陰影や遠近法も取り入れられた。画中では王が木の上に身を隠し、熊を近距離から銃で撃つ。熊の姿は同じ絵に五回現れ、時間の推移を表す。粗い地形や枯れ木、深い谷が緊張感を強める。餌で熊を誘い寄せたのはMetの推測にとどまる。作者はパンナライと伝えられるが断定できない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "狩猟対象の熊の実際の個体数と画中で五回繰り返された像を混同しない。熊が餌で誘い寄せられたかは推測。作者はあくまで『Attributed to』。動物虐待を肯定・礼賛する作品解説にはしない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによると、ラージャスターン州メーワールの絵画伝統は20世紀初頭にも続き、狩猟や宮廷の場面が好まれた。ファテー・シングの治世には宮廷への写真の普及に応じたような陰影や遠近法も取り入れられた。画中では王が木の上に身を隠し、熊を近距離から銃で撃つ。熊の姿は同じ絵に五回現れ、時間の推移を表す。粗い地形や枯れ木、深い谷が緊張感を強める。餌で熊を誘い寄せたのはMetの推測にとどまる。作者はパンナライと伝えられるが断定できない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/37974"
+        },
+        "creation_context": "dated 1917; Western India, Rajasthan, Udaipur; Ink, opaque watercolor, and gold on paper; accession 1992.7.1",
+        "visual_clues": "Met原寸・表示JPEGとサムネイルを確認。赤・橙・青の鮮やかな縁の中央に険しい斜面や裸木、谷を埋める淡い緑。左上付近の木の中に小さな人物の姿。熊の動きは複数の位置に繰り返され、主画面は劇的な俯瞰の構図。単独の瞬間を写した写真とは違う。",
+        "uncertainty_note": "狩猟対象の熊の実際の個体数と画中で五回繰り返された像を混同しない。熊が餌で誘い寄せられたかは推測。作者はあくまで『Attributed to』。動物虐待を肯定・礼賛する作品解説にはしない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "不安",
+          "畏敬"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42958124800",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "赤や青の鮮やかな縁取りの内側に、岩の多い斜面と枯れ木、深い谷が描かれています。王は木の上に身を隠して銃を構え、その下には熊の姿が何度も登場します。\n\nこの絵は1917年、インド・メーワール地方で制作されました。狩猟を題材にした宮廷絵画ですが、目を引くのは熊が画面に五回も描かれていることです。これは五頭の熊がいたという意味ではなく、出来事の異なる段階を一枚に収める表現として読むことができます。\n\n当時の宮廷画には写真の普及を受けたと思われる陰影や遠近表現も取り入れられました。厳しい地形と動物の動きをたどると、狩りの危険と緊張が伝わります。作者はパンナライの作とされていますが、確定していません。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/37974"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-37974",
+    "title": "Maharaja Fateh Singh Hunting Female Bears",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/37974",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/37974",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DT6831.jpg",
+      "sha256": "f82ef28ad9839444b7778005f043e0bd58029d1076ff4b8573620a1bcdbb93ba",
+      "byte_length": 132269,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42958124800",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DT6831.jpg",
+        "sha256": "204eaf0e1eebd9fd1110b53a9ec97709d8049a6a031177915676bd27515fbc68",
+        "byte_length": 3259753,
+        "width": 4000,
+        "height": 3274,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 11.99680",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "1992.7.1"
+  }
+}

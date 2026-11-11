@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-13171",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-13171.json",
+  "candidate_sha256": "2d2d6f28cd5b90c0a8cbffe61d922893e45fedeb244eebd0825aa711a3e7fb66",
+  "draft_path": "drafts/visitor-explanations/met-13171.json",
+  "draft_sha256": "9afb2e032c537a6f8c44f83421bbbd4a519fcba4f26f58d37a564f992457da44",
+  "baseline": {
+    "artworks_sha256": "c81d7333fcba32ed75e61dd147df61a13b3c4e37a6e50f3b3e7b17b2983de2ca",
+    "image_registry_sha256": "f2efadd41bc80b14f73475c3da0c588ba977157ff4599b5fdf7fdf09203d715d"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/13171",
+      "source_excerpt": "after his 1892–93 trip to the country",
+      "visitor_claim": "1892〜93年にインドを訪れた後に描かれたと考えられるこの作品",
+      "source_section": "Overview: after the 1892–93 journey"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/13171",
+      "source_excerpt": "preparations for a hunting expedition at a palace in Ajmer",
+      "visitor_claim": "アジュメールの宮殿で狩りの準備をする人々が描かれています",
+      "source_section": "Overview: hunt preparation at Ajmer palace"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/13171",
+      "location": "Met object Overview and Artwork Details: Overview: after the 1892–93 journey | Overview: hunt preparation at Ajmer palace",
+      "finding": "Met公式作品別Overviewによると、画家エドウィン・ロード・ウィークスはボストン生まれでパリで修業し、画家・挿絵画家・写真家・作家・探検家・収集家として活動した。Metは彼をインドを訪れたことが知られる最初のアメリカ人画家とする。作品は1892〜93年の旅行以後に制作された可能性が高く、ラージャスターン州アジュメールの宮殿での狩猟遠征の準備を描く。画家が公刊した旅行記で宮殿の窓が重なった軽やかな建築を述べている。額縁は制作当初のものではない。 Visual subject based on specific same-object source image: Met公式元画像・表示画像と縮小プレビューを照合。縦長の宮殿の中庭。白い多層アーケードと上階の大きく張り出した窓飾り、中央に黒っぽい馬を並べた人物たち、手前に犬や地面の小動物、右手に明るい衣の人物たちがいる。壁の白さと前景の土色が対比される。人物の具体的な民族・名前は見た目から判断しない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/13171",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42958124800",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/13171",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42958124800"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/13171",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 13171, The Rajah Starting on a Hunt, Edwin Lord Weeks, ca. 1895, 15.30.68. Attribution caveats and source classifications preserved.",
+      "image_match": "Met公式元画像・表示画像と縮小プレビューを照合。縦長の宮殿の中庭。白い多層アーケードと上階の大きく張り出した窓飾り、中央に黒っぽい馬を並べた人物たち、手前に犬や地面の小動物、右手に明るい衣の人物たちがいる。壁の白さと前景の土色が対比される。人物の具体的な民族・名前は見た目から判断しない。 API official primary JPEG complete hashes/dimensions, downscale RMS 10.25551.",
+      "historical_interpretation": "Met公式作品別Overviewによると、画家エドウィン・ロード・ウィークスはボストン生まれでパリで修業し、画家・挿絵画家・写真家・作家・探検家・収集家として活動した。Metは彼をインドを訪れたことが知られる最初のアメリカ人画家とする。作品は1892〜93年の旅行以後に制作された可能性が高く、ラージャスターン州アジュメールの宮殿での狩猟遠征の準備を描く。画家が公刊した旅行記で宮殿の窓が重なった軽やかな建築を述べている。額縁は制作当初のものではない。 Limits: インドの具体的な狩猟の成果や遠征目的を推定しない。民族や身分は画中から独自に割り当てない。額縁は後世のものであると区別し、1892〜93年にこの絵が現地で制作されたとは断言しない。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['好奇心']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/ADA3826.jpg",
+      "sha256": "d825c79e9524a4093b437c7bc025ecd5e4b57debbc6e338c618bc54307330db0",
+      "byte_length": 143235,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式元画像・表示画像と縮小プレビューを照合。縦長の宮殿の中庭。白い多層アーケードと上階の大きく張り出した窓飾り、中央に黒っぽい馬を並べた人物たち、手前に犬や地面の小動物、右手に明るい衣の人物たちがいる。壁の白さと前景の土色が対比される。人物の具体的な民族・名前は見た目から判断しない。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42958124800"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/ADA3826.jpg",
+      "sha256": "4079ac29a7da4b4a340f42588351ce679de02d9f7be7a84aae2dd722d5fba200",
+      "byte_length": 1008194,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式元画像・表示画像と縮小プレビューを照合。縦長の宮殿の中庭。白い多層アーケードと上階の大きく張り出した窓飾り、中央に黒っぽい馬を並べた人物たち、手前に犬や地面の小動物、右手に明るい衣の人物たちがいる。壁の白さと前景の土色が対比される。人物の具体的な民族・名前は見た目から判断しない。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42958124800"
+    }
+  ],
+  "notes": [
+    "Sequential addition 367; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}
