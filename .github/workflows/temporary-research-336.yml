@@ -43,6 +43,7 @@ jobs:
                   'accessionNumber':v.get('accessionNumber'),'isPublicDomain':v.get('isPublicDomain'),
                   'duplicate_id':[w['id'] for w in works if w['id']==ident],
                   'duplicate_title_artist':[w['id'] for w in works if w['facts']['title_original']==v.get('title') and w['facts']['artist']==v.get('artistDisplayName')]}
+                  print('CANDIDATE_META',json.dumps(dat,ensure_ascii=False),flush=True)
                   assert v['isPublicDomain'] is True and not dat['duplicate_id'] and not dat['duplicate_title_artist']
                   assert v['classification']=='Paintings' or (n==11269 and v['department']=='The American Wing' and v['medium']=='Oil on canvas')
                   pictures={}
