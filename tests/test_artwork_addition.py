@@ -4,6 +4,8 @@ import hashlib
 import json
 from pathlib import Path
 import shutil
+import subprocess
+import sys
 import tempfile
 import unittest
 
@@ -60,6 +62,11 @@ class ArtworkExpansionTest(unittest.TestCase):
         art["image"]["source_registry_id"] = ident
         art["image"].pop("high_resolution", None)
         art.pop("completion", None)
+        # New v2 registrations rely on version-bound audit evidence, not the
+        # historical three independent "pending" flags.
+        for field in ("ai_content_review_status", "source_evidence_review_status",
+                      "image_subject_match_status"):
+            art["review"].pop(field, None)
         art["curation"]["evidence_url"] = official
         art["curation"]["meaning_basis"]["scholarly_interpretation"]["source_url"] = official
         # The fixture supplies made-up proofs ONLY to test rejecting malformed input.
@@ -173,6 +180,13 @@ class ArtworkExpansionTest(unittest.TestCase):
         self.assertEqual(json.loads(previous)["artworks"], saved[:-1])
         self.assertIn(f"**v2完成登録：{self.baseline_count + 1}作品**",
                       (self.root / "README.md").read_text(encoding="utf-8"))
+        # The real catalog validator must also accept a new completion
+        # without the redundant historical review status triplet.
+        result = subprocess.run(
+            [sys.executable, str(self.root / "scripts/validate_artworks.py")],
+            capture_output=True, text=True, check=False,
+        )
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
         self.audit["baseline"]["artworks_sha256"] = add_artwork.file_sha(
             self.root / "data/artworks.json")
         self.audit["baseline"]["image_registry_sha256"] = add_artwork.file_sha(
