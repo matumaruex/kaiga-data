@@ -19,7 +19,7 @@ jobs:
           python - <<'PY'
           import io,requests,hashlib,math,json,time,traceback
           from PIL import Image, ImageStat, ImageChops
-          ids=[39956,435702,764094,676034]
+          ids=[39956,437898,764092,764096]
           works=json.load(open('data/artworks.json'))['artworks']
           sources=json.load(open('data/image-sources.json'))['records']
           assert len(works)==341
@@ -45,7 +45,7 @@ jobs:
                   'duplicate_title_artist':[w['id'] for w in works if w['facts']['title_original']==v.get('title') and w['facts']['artist']==v.get('artistDisplayName')]}
                   print('CANDIDATE_META',json.dumps(dat,ensure_ascii=False),flush=True)
                   assert v['isPublicDomain'] is True and not dat['duplicate_id'] and not dat['duplicate_title_artist']
-                  assert v['classification']=='Paintings' or (n==764094 and v['department']=='The American Wing' and v['medium']=='Oil and gold on canvas')
+                  assert v['classification']=='Paintings' or (n in (764092,764096) and v['department']=='The American Wing' and v['medium']=='Oil and gold on canvas')
                   pictures={}
                   blobs={}
                   for kind,key in [('original','primaryImage'),('display','primaryImageSmall')]:
