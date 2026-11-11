@@ -43141,6 +43141,378 @@
         "audit_sha256": "158d36d8bc116aafcb60361049ab386adc77af73a25352731785be5486ecf775",
         "record_sha256": "7a4988da4c7e8622fe2ed776bf52f0c4f876970d83f66786d57b857ce99d2edd"
       }
+    },
+    {
+      "id": "met-844779",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 844779,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/844779",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/844779",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Wall painting of the Virgin and Child with donors",
+        "title_ja_provisional": "聖母子と寄進者たちの壁画",
+        "artist": "Northern Highlands artist",
+        "creation_date_display": "ca. 1800",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Ethiopia, Lake Tana region (museum geography; culture unspecified in API)",
+        "accession_number": "2021.170"
+      },
+      "image": {
+        "image_id": "met-844779-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ao/web-large/DP-39222-001.jpg",
+        "source_registry_id": "met-844779",
+        "local_path": "/artworks/met-844779.jpg",
+        "sha256": "1010ba1048114e6b8219c5965361cc8db48148ad5a792db60da3bf64af0e5d44",
+        "byte_length": 248123,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42949317444",
+        "source_accession_number": "2021.170",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ao/original/DP-39222-001.jpg",
+          "sha256": "19bdcd033306e2c3984b292696200ee512f576b0348c01e74077ba81b9c416fb",
+          "byte_length": 6851556,
+          "width": 3212,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 12.44070",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "慈しみ"
+        ],
+        "emotion_strengths": {
+          "慈しみ": 2
+        },
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "共同体",
+          "時間",
+          "愛情"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/844779",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "エチオピアの教会壁画に描かれた聖母子、天使、寄進者と装飾の関係を眺めたい",
+              "reason": "Met作品別Overviewによると、この壁画は1800年頃にエチオピアのタナ湖周辺の教会の装飾として制作された。布地に塗布した石膏下地の上へ鮮やかな黄土・赤・青・白・緑の顔料を使っている。中央の聖母子は黄色と白の編み目模様を持つ鮮やかな青い敷物の上に座り、二人の天使に掲げられた赤い幕で囲まれる。上部の二人の小天使は契約の箱を表す像を掲げ、下部右側には祈る姿勢の寄進者が並ぶ。下部の古典エチオピア語ゲエズ語の銘文は寄進者名を列挙していたが、今なお読めるのは『ブラッタ・フェンタ』という一人の名前だけ。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "宗教的教義を事実として断言せず、画中で表現される信仰として説明。特定の寄進者の身元はMetの判読できる名前以上に断定しない。作者個人は不明で、所蔵館の『Northern Highlands artist』を地理的な仮称として扱う。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによると、この壁画は1800年頃にエチオピアのタナ湖周辺の教会の装飾として制作された。布地に塗布した石膏下地の上へ鮮やかな黄土・赤・青・白・緑の顔料を使っている。中央の聖母子は黄色と白の編み目模様を持つ鮮やかな青い敷物の上に座り、二人の天使に掲げられた赤い幕で囲まれる。上部の二人の小天使は契約の箱を表す像を掲げ、下部右側には祈る姿勢の寄進者が並ぶ。下部の古典エチオピア語ゲエズ語の銘文は寄進者名を列挙していたが、今なお読めるのは『ブラッタ・フェンタ』という一人の名前だけ。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/844779"
+          },
+          "creation_context": "ca. 1800; ; Pigment over gesso on canvas; accession 2021.170",
+          "visual_clues": "公式Met主画像（844779）とオリジナルJPEGを見比べて確認。縦長の大きな画面に青い衣の母が子を抱く中心像、その背後を囲む朱赤の幕、周縁に天使・小さな寄進者・細密な幾何学文様。上部の細かな図像は作品別本文で同定し、サムネイルから細部がすべて読めたとは主張しない。",
+          "uncertainty_note": "宗教的教義を事実として断言せず、画中で表現される信仰として説明。特定の寄進者の身元はMetの判読できる名前以上に断定しない。作者個人は不明で、所蔵館の『Northern Highlands artist』を地理的な仮称として扱う。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "慈しみ"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42949317444",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "大きな壁画の中央に、幼いイエスを抱く聖母マリアが座っています。二人の下には、黄色と白の編み目模様を持つ鮮やかな青い敷物が描かれ、赤い幕を掲げる天使たちが中央の姿を囲みます。\n\n1800年頃のエチオピア・タナ湖周辺で、教会を飾るために作られた絵です。布に石膏下地を施し、赤や青、緑などの顔料を重ねています。画面上部には契約の箱を象徴するものを持つ天使、右下には祈る姿勢の寄進者たちが描かれています。\n\n寄進者の名前は下部にゲエズ語で記されていましたが、現在読み取れるのは『ブラッタ・フェンタ』という名だけです。中央の聖母子から周囲の人物や装飾へ視線を移すと、この絵が共同体の祈りの場に置かれていたことが感じられます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/844779"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-844779-2026-11-11.json",
+        "audit_sha256": "f9d4cb6a4893e17389667b79122326b5e7dd6c1b50db6c93bcc5d2fd276dede4",
+        "record_sha256": "a21098e44e38cb4fbf93634a7787d7a8861efd07f3951d9c1f429f7951acb818"
+      }
+    },
+    {
+      "id": "met-437519",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437519,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437519",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437519",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "A River Landscape",
+        "title_ja_provisional": "川のある風景",
+        "artist": "Théodore Rousseau",
+        "creation_date_display": "ca. 1845–50",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "France (artist nationality; Met API culture unspecified)",
+        "accession_number": "43.86.7"
+      },
+      "image": {
+        "image_id": "met-437519-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP274261.jpg",
+        "source_registry_id": "met-437519",
+        "local_path": "/artworks/met-437519.jpg",
+        "sha256": "b9e9f15b0c0cef8b4c8373151d09a9fc240dd355f83e6a3946d634981ae60752",
+        "byte_length": 160115,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42949317444",
+        "source_accession_number": "43.86.7",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP274261.jpg",
+          "sha256": "38c2559d9bda93094e21086e4cc96f7dc14763b240409abac7380e82aaa00d22",
+          "byte_length": 1639041,
+          "width": 1957,
+          "height": 1300,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 3.01838",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "安心"
+        ],
+        "emotion_strengths": {
+          "安心": 1
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "自然",
+          "日常",
+          "居場所"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437519",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "静かな川沿いの村と、人が暮らす場所としての自然を風景画から感じたい",
+              "reason": "Met公式作品別Overviewは、ルソーが1844年にフランス南西部ランド地方を訪れ、その平坦な地形が本作の田園風景の着想になった可能性を述べる。広い平野と空は彼が以前から好んでいた17世紀オランダ風景画を思わせる。舟を扱う人物と、木々の中の農家へ向かう道は、手つかずの荒野ではない田舎の暮らしを示す。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "ここをランド地方の特定の実景として断定せず、同地方の地形が着想となった『可能性』とする。舟の人物の名前や行先は推測しない。『安心』タグは鑑賞者の穏やかな連想にとどめる。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品別Overviewは、ルソーが1844年にフランス南西部ランド地方を訪れ、その平坦な地形が本作の田園風景の着想になった可能性を述べる。広い平野と空は彼が以前から好んでいた17世紀オランダ風景画を思わせる。舟を扱う人物と、木々の中の農家へ向かう道は、手つかずの荒野ではない田舎の暮らしを示す。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437519"
+          },
+          "creation_context": "ca. 1845–50; ; Oil on wood; accession 43.86.7",
+          "visual_clues": "公式Met主画像437519を縮小JPEGと完全原画像照合で目視。低い地平線の上に雲が多く大きな空、暗い緑と茶色の前景。画面右側の水面に小さな舟と人物が見え、中央には集まった木と丈の高い木、その奥に家が隠れる。画面は横長で彩度を抑えた風景。",
+          "uncertainty_note": "ここをランド地方の特定の実景として断定せず、同地方の地形が着想となった『可能性』とする。舟の人物の名前や行先は推測しない。『安心』タグは鑑賞者の穏やかな連想にとどめる。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "安心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42949317444",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "大きな空の下に、木々の集まる岸辺と穏やかな川が広がっています。水面には小舟を扱う人物が小さく描かれ、木立の奥には農家へ続く道が見えます。\n\n画家テオドール・ルソーは1844年にフランス南西部のランド地方を訪れました。その平坦な地形が、この風景の着想になった可能性があると美術館は説明しています。広い平野と空の表現には、ルソーが敬愛した17世紀オランダの風景画も重なります。\n\n舟を扱う人物や農家へ続く小道があるため、ここはまったく人のいない荒野ではありません。暗い緑の岸辺から明るい水面、そして遠くの空へと視線を動かすと、自然の中に人々の暮らしが溶け込む様子を味わえます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/437519"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-437519-2026-11-11.json",
+        "audit_sha256": "a0edb1e27dfd2eb92b93f7205724deb148d8baa18f0e41b894024d16b45a901d",
+        "record_sha256": "18368362dcc8f64ca3395e88e68e6966fb96ef3acc5242c3583cc868c7911ee9"
+      }
+    },
+    {
+      "id": "met-58451",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 58451,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/58451",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/58451",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "A Raja Smoking a Hookah",
+        "title_ja_provisional": "水たばこを吸うラージャ",
+        "artist": "Unknown artist",
+        "creation_date_display": "ca. 1690–1710",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India (Rajasthan, Kota)",
+        "accession_number": "1981.371.2"
+      },
+      "image": {
+        "image_id": "met-58451-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156143.jpg",
+        "source_registry_id": "met-58451",
+        "local_path": "/artworks/met-58451.jpg",
+        "sha256": "1403ce7f4344d0a527d8a39c84705e7c2bd306fa1005c072e870fef05afeff25",
+        "byte_length": 113471,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42949317444",
+        "source_accession_number": "1981.371.2",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP156143.jpg",
+          "sha256": "0d8f9b9b2e2cf62813da577c9e954a0931726bce06dd59e973ce6216c77108be",
+          "byte_length": 2973892,
+          "width": 3313,
+          "height": 3927,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 8.88325",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "日常",
+          "時間",
+          "共同体"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/58451",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "17世紀末から18世紀初めのコータ宮廷画における色面や人物の姿を鑑賞したい",
+              "reason": "Met公式作品別Overviewによると、17世紀の最終四半世紀にはインド・ラージャスターンのコータで宮廷生活の絵画が制作されていた。この一枚には身元不詳のラージャ（王）が花柄の絨毯を敷いたテラスに座り、水たばこの管を口へ運びながら小さな花の枝も左手に持つ姿が描かれる。右腕を大きな縞模様のクッションへ預け、手前にはパン（キンマ）を入れる箱がある。明るい強い色と浅い空間の処理にはラージプート絵画、肖像形式や薄緑の背景にはムガルとデカン絵画の影響が見られる。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "人物の固有名や具体的な生涯は不明。水たばこの喫煙を推奨しないし、現代的な健康効能も付与しない。技法の影響関係はMetの研究解釈と分けて示す。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品別Overviewによると、17世紀の最終四半世紀にはインド・ラージャスターンのコータで宮廷生活の絵画が制作されていた。この一枚には身元不詳のラージャ（王）が花柄の絨毯を敷いたテラスに座り、水たばこの管を口へ運びながら小さな花の枝も左手に持つ姿が描かれる。右腕を大きな縞模様のクッションへ預け、手前にはパン（キンマ）を入れる箱がある。明るい強い色と浅い空間の処理にはラージプート絵画、肖像形式や薄緑の背景にはムガルとデカン絵画の影響が見られる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/58451"
+          },
+          "creation_context": "ca. 1690–1710; India (Rajasthan, Kota); Ink, opaque watercolor, and gold on paper; accession 1981.371.2",
+          "visual_clues": "Met公式画像58451の主画像縮小と元画像を目視で同定。赤い四角い枠の中で薄緑の背景と遠い水平線、下半分の濃い黄の花柄絨毯。その上に薄桃色衣装とターバンの男性が脚を組むように座り、細い水たばこの管が右下の丸い水たばこ器具へつながり、背後に大型の縞模様クッションがある。人物名は不詳。",
+          "uncertainty_note": "人物の固有名や具体的な生涯は不明。水たばこの喫煙を推奨しないし、現代的な健康効能も付与しない。技法の影響関係はMetの研究解釈と分けて示す。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42949317444",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "花柄の黄色い絨毯の上に、薄桃色の衣装を着たラージャ（王）が座っています。左手では水たばこの管を口に運びながら、小さな花の枝も持ち、右腕は縞模様の大きなクッションに預けています。\n\n17世紀末から18世紀初めのインド・コータでは、宮廷での暮らしを題材にした絵が描かれていました。人物の前には、キンマを入れる箱も置かれています。誰を描いたのかは分かっていません。\n\nこの絵は、ラージプート、デカン、ムガルという異なる絵画伝統を組み合わせています。下半分の鮮やかな色と浅い空間はラージプート絵画の特徴とされ、淡い緑の背景や肖像の形式には他の地域の影響が見られます。色の配分と人物の落ち着いた姿勢を見比べて楽しめます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/58451"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-58451-2026-11-11.json",
+        "audit_sha256": "13d9f61038c2d5f575e21c1e8884d9b560d3abf0c5c39483df56a104aab35574",
+        "record_sha256": "e811850972b38d78c0ad2c15a2c3f1cc0c881f3b08e570fc886863d760a117a2"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

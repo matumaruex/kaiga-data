@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-437519",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-437519.json",
+  "candidate_sha256": "2f6813dd49a7dd8d78a47703ee568f2108e5547e363628a913f7ae3c8f92bc51",
+  "draft_path": "drafts/visitor-explanations/met-437519.json",
+  "draft_sha256": "04d2779ebe729899d8b0209dfff4ffaad65306201bb927cd4241b0b281d4b9a8",
+  "baseline": {
+    "artworks_sha256": "c97f18bd70dbf629507829a7c6aafa4f47703cd55a089a72e6c1acaafea6ec69",
+    "image_registry_sha256": "6002de8e7dd4e28e37386fbb9f00f33ece7ec2c1ca121708efd5dcfa1e2331d4"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437519",
+      "source_excerpt": "whose flat terrain may have inspired the countryside depicted here",
+      "visitor_claim": "その平坦な地形が、この風景の着想になった可能性がある",
+      "source_section": "Overview: Landes terrain as a possible inspiration"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437519",
+      "source_excerpt": "The boatman and the path leading back to the farm",
+      "visitor_claim": "舟を扱う人物や農家へ続く小道があるため",
+      "source_section": "Overview: river boatman and farm path"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437519",
+      "location": "Met object Overview and Artwork Details: Overview: Landes terrain as a possible inspiration | Overview: river boatman and farm path",
+      "finding": "Met公式作品別Overviewは、ルソーが1844年にフランス南西部ランド地方を訪れ、その平坦な地形が本作の田園風景の着想になった可能性を述べる。広い平野と空は彼が以前から好んでいた17世紀オランダ風景画を思わせる。舟を扱う人物と、木々の中の農家へ向かう道は、手つかずの荒野ではない田舎の暮らしを示す。 Visual subject based on specific same-object source image: 公式Met主画像437519を縮小JPEGと完全原画像照合で目視。低い地平線の上に雲が多く大きな空、暗い緑と茶色の前景。画面右側の水面に小さな舟と人物が見え、中央には集まった木と丈の高い木、その奥に家が隠れる。画面は横長で彩度を抑えた風景。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437519",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42949317444",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437519",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42949317444"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437519",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 437519, A River Landscape, Théodore Rousseau, ca. 1845–50, 43.86.7. Attribution caveats and source classifications preserved.",
+      "image_match": "公式Met主画像437519を縮小JPEGと完全原画像照合で目視。低い地平線の上に雲が多く大きな空、暗い緑と茶色の前景。画面右側の水面に小さな舟と人物が見え、中央には集まった木と丈の高い木、その奥に家が隠れる。画面は横長で彩度を抑えた風景。 API official primary JPEG complete hashes/dimensions, downscale RMS 3.01838.",
+      "historical_interpretation": "Met公式作品別Overviewは、ルソーが1844年にフランス南西部ランド地方を訪れ、その平坦な地形が本作の田園風景の着想になった可能性を述べる。広い平野と空は彼が以前から好んでいた17世紀オランダ風景画を思わせる。舟を扱う人物と、木々の中の農家へ向かう道は、手つかずの荒野ではない田舎の暮らしを示す。 Limits: ここをランド地方の特定の実景として断定せず、同地方の地形が着想となった『可能性』とする。舟の人物の名前や行先は推測しない。『安心』タグは鑑賞者の穏やかな連想にとどめる。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['安心']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP274261.jpg",
+      "sha256": "b9e9f15b0c0cef8b4c8373151d09a9fc240dd355f83e6a3946d634981ae60752",
+      "byte_length": 160115,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "公式Met主画像437519を縮小JPEGと完全原画像照合で目視。低い地平線の上に雲が多く大きな空、暗い緑と茶色の前景。画面右側の水面に小さな舟と人物が見え、中央には集まった木と丈の高い木、その奥に家が隠れる。画面は横長で彩度を抑えた風景。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42949317444"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP274261.jpg",
+      "sha256": "38c2559d9bda93094e21086e4cc96f7dc14763b240409abac7380e82aaa00d22",
+      "byte_length": 1639041,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "公式Met主画像437519を縮小JPEGと完全原画像照合で目視。低い地平線の上に雲が多く大きな空、暗い緑と茶色の前景。画面右側の水面に小さな舟と人物が見え、中央には集まった木と丈の高い木、その奥に家が隠れる。画面は横長で彩度を抑えた風景。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42949317444"
+    }
+  ],
+  "notes": [
+    "Sequential addition 355; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-844779",
+  "artwork": {
+    "id": "met-844779",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 844779,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/844779",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/844779",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Wall painting of the Virgin and Child with donors",
+      "title_ja_provisional": "聖母子と寄進者たちの壁画",
+      "artist": "Northern Highlands artist",
+      "creation_date_display": "ca. 1800",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Ethiopia, Lake Tana region (museum geography; culture unspecified in API)",
+      "accession_number": "2021.170"
+    },
+    "image": {
+      "image_id": "met-844779-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ao/web-large/DP-39222-001.jpg",
+      "source_registry_id": "met-844779",
+      "local_path": "/artworks/met-844779.jpg",
+      "sha256": "1010ba1048114e6b8219c5965361cc8db48148ad5a792db60da3bf64af0e5d44",
+      "byte_length": 248123,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42949317444",
+      "source_accession_number": "2021.170",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ao/original/DP-39222-001.jpg",
+        "sha256": "19bdcd033306e2c3984b292696200ee512f576b0348c01e74077ba81b9c416fb",
+        "byte_length": 6851556,
+        "width": 3212,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 12.44070",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "慈しみ"
+      ],
+      "emotion_strengths": {
+        "慈しみ": 2
+      },
+      "tones": [
+        "落ち着き"
+      ],
+      "themes": [
+        "共同体",
+        "時間",
+        "愛情"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/844779",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "エチオピアの教会壁画に描かれた聖母子、天使、寄進者と装飾の関係を眺めたい",
+            "reason": "Met作品別Overviewによると、この壁画は1800年頃にエチオピアのタナ湖周辺の教会の装飾として制作された。布地に塗布した石膏下地の上へ鮮やかな黄土・赤・青・白・緑の顔料を使っている。中央の聖母子は黄色と白の編み目模様を持つ鮮やかな青い敷物の上に座り、二人の天使に掲げられた赤い幕で囲まれる。上部の二人の小天使は契約の箱を表す像を掲げ、下部右側には祈る姿勢の寄進者が並ぶ。下部の古典エチオピア語ゲエズ語の銘文は寄進者名を列挙していたが、今なお読めるのは『ブラッタ・フェンタ』という一人の名前だけ。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "宗教的教義を事実として断言せず、画中で表現される信仰として説明。特定の寄進者の身元はMetの判読できる名前以上に断定しない。作者個人は不明で、所蔵館の『Northern Highlands artist』を地理的な仮称として扱う。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによると、この壁画は1800年頃にエチオピアのタナ湖周辺の教会の装飾として制作された。布地に塗布した石膏下地の上へ鮮やかな黄土・赤・青・白・緑の顔料を使っている。中央の聖母子は黄色と白の編み目模様を持つ鮮やかな青い敷物の上に座り、二人の天使に掲げられた赤い幕で囲まれる。上部の二人の小天使は契約の箱を表す像を掲げ、下部右側には祈る姿勢の寄進者が並ぶ。下部の古典エチオピア語ゲエズ語の銘文は寄進者名を列挙していたが、今なお読めるのは『ブラッタ・フェンタ』という一人の名前だけ。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/844779"
+        },
+        "creation_context": "ca. 1800; ; Pigment over gesso on canvas; accession 2021.170",
+        "visual_clues": "公式Met主画像（844779）とオリジナルJPEGを見比べて確認。縦長の大きな画面に青い衣の母が子を抱く中心像、その背後を囲む朱赤の幕、周縁に天使・小さな寄進者・細密な幾何学文様。上部の細かな図像は作品別本文で同定し、サムネイルから細部がすべて読めたとは主張しない。",
+        "uncertainty_note": "宗教的教義を事実として断言せず、画中で表現される信仰として説明。特定の寄進者の身元はMetの判読できる名前以上に断定しない。作者個人は不明で、所蔵館の『Northern Highlands artist』を地理的な仮称として扱う。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "慈しみ"
+        ],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42949317444",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "大きな壁画の中央に、幼いイエスを抱く聖母マリアが座っています。二人の下には、黄色と白の編み目模様を持つ鮮やかな青い敷物が描かれ、赤い幕を掲げる天使たちが中央の姿を囲みます。\n\n1800年頃のエチオピア・タナ湖周辺で、教会を飾るために作られた絵です。布に石膏下地を施し、赤や青、緑などの顔料を重ねています。画面上部には契約の箱を象徴するものを持つ天使、右下には祈る姿勢の寄進者たちが描かれています。\n\n寄進者の名前は下部にゲエズ語で記されていましたが、現在読み取れるのは『ブラッタ・フェンタ』という名だけです。中央の聖母子から周囲の人物や装飾へ視線を移すと、この絵が共同体の祈りの場に置かれていたことが感じられます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/844779"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-844779",
+    "title": "Wall painting of the Virgin and Child with donors",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/844779",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/844779",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ao/web-large/DP-39222-001.jpg",
+      "sha256": "1010ba1048114e6b8219c5965361cc8db48148ad5a792db60da3bf64af0e5d44",
+      "byte_length": 248123,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42949317444",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ao/original/DP-39222-001.jpg",
+        "sha256": "19bdcd033306e2c3984b292696200ee512f576b0348c01e74077ba81b9c416fb",
+        "byte_length": 6851556,
+        "width": 3212,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 12.44070",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2021.170"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-58451",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-58451.json",
+  "candidate_sha256": "b9cfaf8f8dd6f4efc1c4b223416c503c6cd78f1f7c380aba144c6fd5e211b065",
+  "draft_path": "drafts/visitor-explanations/met-58451.json",
+  "draft_sha256": "67d2d4ac9a76885dc8b3cb615fd648fbfc9e170ec16841d342888b7b2f0c72f4",
+  "baseline": {
+    "artworks_sha256": "3d9fe48879f517d5758e899a4d27bb6034c08148511896359bc0cfed5d05102c",
+    "image_registry_sha256": "23c5009afde250fcdc50f22b9689321ac5e8a1eb06e9038f8ab73561410b953e"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/58451",
+      "source_excerpt": "a terrace covered with a floral carpet",
+      "visitor_claim": "花柄の黄色い絨毯の上に、薄桃色の衣装を着たラージャ（王）が座っています",
+      "source_section": "Overview: raja seated on floral-carpet terrace"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/58451",
+      "source_excerpt": "The painting combines elements of the Rajput, Deccani, and Mughal styles",
+      "visitor_claim": "この絵は、ラージプート、デカン、ムガルという異なる絵画伝統を組み合わせています",
+      "source_section": "Overview: mixing Rajput Deccani Mughal visual conventions"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/58451",
+      "location": "Met object Overview and Artwork Details: Overview: raja seated on floral-carpet terrace | Overview: mixing Rajput Deccani Mughal visual conventions",
+      "finding": "Met公式作品別Overviewによると、17世紀の最終四半世紀にはインド・ラージャスターンのコータで宮廷生活の絵画が制作されていた。この一枚には身元不詳のラージャ（王）が花柄の絨毯を敷いたテラスに座り、水たばこの管を口へ運びながら小さな花の枝も左手に持つ姿が描かれる。右腕を大きな縞模様のクッションへ預け、手前にはパン（キンマ）を入れる箱がある。明るい強い色と浅い空間の処理にはラージプート絵画、肖像形式や薄緑の背景にはムガルとデカン絵画の影響が見られる。 Visual subject based on specific same-object source image: Met公式画像58451の主画像縮小と元画像を目視で同定。赤い四角い枠の中で薄緑の背景と遠い水平線、下半分の濃い黄の花柄絨毯。その上に薄桃色衣装とターバンの男性が脚を組むように座り、細い水たばこの管が右下の丸い水たばこ器具へつながり、背後に大型の縞模様クッションがある。人物名は不詳。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/58451",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42949317444",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/58451",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42949317444"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/58451",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 58451, A Raja Smoking a Hookah, Unknown artist, ca. 1690–1710, 1981.371.2. Attribution caveats and source classifications preserved.",
+      "image_match": "Met公式画像58451の主画像縮小と元画像を目視で同定。赤い四角い枠の中で薄緑の背景と遠い水平線、下半分の濃い黄の花柄絨毯。その上に薄桃色衣装とターバンの男性が脚を組むように座り、細い水たばこの管が右下の丸い水たばこ器具へつながり、背後に大型の縞模様クッションがある。人物名は不詳。 API official primary JPEG complete hashes/dimensions, downscale RMS 8.88325.",
+      "historical_interpretation": "Met公式作品別Overviewによると、17世紀の最終四半世紀にはインド・ラージャスターンのコータで宮廷生活の絵画が制作されていた。この一枚には身元不詳のラージャ（王）が花柄の絨毯を敷いたテラスに座り、水たばこの管を口へ運びながら小さな花の枝も左手に持つ姿が描かれる。右腕を大きな縞模様のクッションへ預け、手前にはパン（キンマ）を入れる箱がある。明るい強い色と浅い空間の処理にはラージプート絵画、肖像形式や薄緑の背景にはムガルとデカン絵画の影響が見られる。 Limits: 人物の固有名や具体的な生涯は不明。水たばこの喫煙を推奨しないし、現代的な健康効能も付与しない。技法の影響関係はMetの研究解釈と分けて示す。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['好奇心']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156143.jpg",
+      "sha256": "1403ce7f4344d0a527d8a39c84705e7c2bd306fa1005c072e870fef05afeff25",
+      "byte_length": 113471,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式画像58451の主画像縮小と元画像を目視で同定。赤い四角い枠の中で薄緑の背景と遠い水平線、下半分の濃い黄の花柄絨毯。その上に薄桃色衣装とターバンの男性が脚を組むように座り、細い水たばこの管が右下の丸い水たばこ器具へつながり、背後に大型の縞模様クッションがある。人物名は不詳。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42949317444"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP156143.jpg",
+      "sha256": "0d8f9b9b2e2cf62813da577c9e954a0931726bce06dd59e973ce6216c77108be",
+      "byte_length": 2973892,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式画像58451の主画像縮小と元画像を目視で同定。赤い四角い枠の中で薄緑の背景と遠い水平線、下半分の濃い黄の花柄絨毯。その上に薄桃色衣装とターバンの男性が脚を組むように座り、細い水たばこの管が右下の丸い水たばこ器具へつながり、背後に大型の縞模様クッションがある。人物名は不詳。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42949317444"
+    }
+  ],
+  "notes": [
+    "Sequential addition 356; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}
