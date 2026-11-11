@@ -1,0 +1,22 @@
+name: Temporary audited Met registration 354-356
+on:
+  push:
+    branches: [codex/expand-artworks-354-356-20261111]
+permissions:
+  contents: write
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    timeout-minutes: 27
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet requests pillow
+      - name: Register three source and image audited artworks and all integrity tests
+        run: |
+          python -m py_compile scripts/_temporary_register_354_356.py
+          python scripts/_temporary_register_354_356.py
