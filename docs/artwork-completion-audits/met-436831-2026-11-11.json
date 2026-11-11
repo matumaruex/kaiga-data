@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-436831",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-436831.json",
+  "candidate_sha256": "6af19e4211dd7a69bcc63b6e061a68c1881cbf02f7604a99539508cfd2893a8d",
+  "draft_path": "drafts/visitor-explanations/met-436831.json",
+  "draft_sha256": "91aab0c45d7fa942d504ea0b4dcde3a350131fb079a3c669cd2f491d2ea237c6",
+  "baseline": {
+    "artworks_sha256": "900b6b8d36063fe4d955da80a8327b384dea2320c4212f5ae98f0055903fa674",
+    "image_registry_sha256": "602ecabd0f7496b26a7e6886fc7133190e57fb9b5ed29831fa65a7f85c4e3961"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/436831",
+      "source_excerpt": "was probably inspired by the eastern Dutch province of Gelderland",
+      "visitor_claim": "オランダ東部のヘルダーラント地方に着想を得た可能性があります",
+      "source_section": "Overview: likely Gelderland inspiration"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/436831",
+      "source_excerpt": "Dutch landscapists usually made up their views in the studio",
+      "visitor_claim": "画室で一つの風景を組み立てることが多くありました",
+      "source_section": "Overview: studio construction"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436831",
+      "location": "Met object Overview and Artwork Details: Overview: likely Gelderland inspiration | Overview: studio construction",
+      "finding": "Met公式の作品別Overviewは、この作品の地形がオランダ東部ヘルダーラント地方に着想を得た可能性があるものの、表現された風景は想像上のものと説明する。当時の画家は野外素描を資料にしつつ、画室で一つの風景を組み立てることが多かった。オランダ・アムステルダム国立美術館にある1676年の類似した川の風景には、右側に同じ優雅な狩猟用の舟『ヤハト』が描かれている。 Visual subject based on specific same-object source image: Met公式同一作品の原寸JPEGと表示JPEGを縮小比較し、実画像を確認。横長の風景の上半分を広い灰青色の曇り空が占める。中央の低く長い地平線、左の木立と人のいる小道、右下に曲がる川と、緑の草地・遠景の村が描かれている。小さな舟の種類は公式Overviewによる。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436831",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42951949511",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/436831",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42951949511"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/436831",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 436831, An Extensive Wooded Landscape, Philips Koninck, 1670s, 1980.4. Attribution caveats and source classifications preserved.",
+      "image_match": "Met公式同一作品の原寸JPEGと表示JPEGを縮小比較し、実画像を確認。横長の風景の上半分を広い灰青色の曇り空が占める。中央の低く長い地平線、左の木立と人のいる小道、右下に曲がる川と、緑の草地・遠景の村が描かれている。小さな舟の種類は公式Overviewによる。 API official primary JPEG complete hashes/dimensions, downscale RMS 5.82669.",
+      "historical_interpretation": "Met公式の作品別Overviewは、この作品の地形がオランダ東部ヘルダーラント地方に着想を得た可能性があるものの、表現された風景は想像上のものと説明する。当時の画家は野外素描を資料にしつつ、画室で一つの風景を組み立てることが多かった。オランダ・アムステルダム国立美術館にある1676年の類似した川の風景には、右側に同じ優雅な狩猟用の舟『ヤハト』が描かれている。 Limits: ヘルダーラントの特定場所を写した実景として断定しない。絵の船が狩猟用船かどうかはMet本文を根拠とし、画面で小さな細部が明瞭に見えるとは言わない。人々の感情や作者の実体験は推測しない。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: []",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146508.jpg",
+      "sha256": "67f5c99f15c3d8ac100542cbd4074dd528598e55f0b40d10aa06ced7faa2b851",
+      "byte_length": 71608,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式同一作品の原寸JPEGと表示JPEGを縮小比較し、実画像を確認。横長の風景の上半分を広い灰青色の曇り空が占める。中央の低く長い地平線、左の木立と人のいる小道、右下に曲がる川と、緑の草地・遠景の村が描かれている。小さな舟の種類は公式Overviewによる。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42951949511"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146508.jpg",
+      "sha256": "911753abe515a5718ae94b4eb266c4323741662101442271ff5d02eadad74088",
+      "byte_length": 3001959,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式同一作品の原寸JPEGと表示JPEGを縮小比較し、実画像を確認。横長の風景の上半分を広い灰青色の曇り空が占める。中央の低く長い地平線、左の木立と人のいる小道、右下に曲がる川と、緑の草地・遠景の村が描かれている。小さな舟の種類は公式Overviewによる。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42951949511"
+    }
+  ],
+  "notes": [
+    "Sequential addition 360; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}

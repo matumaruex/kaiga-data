@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-436831",
+  "artwork": {
+    "id": "met-436831",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 436831,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/436831",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436831",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "An Extensive Wooded Landscape",
+      "title_ja_provisional": "広大な森の風景",
+      "artist": "Philips Koninck",
+      "creation_date_display": "1670s",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "The Netherlands (artist nationality; Met API culture unspecified)",
+      "accession_number": "1980.4"
+    },
+    "image": {
+      "image_id": "met-436831-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146508.jpg",
+      "source_registry_id": "met-436831",
+      "local_path": "/artworks/met-436831.jpg",
+      "sha256": "67f5c99f15c3d8ac100542cbd4074dd528598e55f0b40d10aa06ced7faa2b851",
+      "byte_length": 71608,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42951949511",
+      "source_accession_number": "1980.4",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146508.jpg",
+        "sha256": "911753abe515a5718ae94b4eb266c4323741662101442271ff5d02eadad74088",
+        "byte_length": 3001959,
+        "width": 3907,
+        "height": 2893,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 5.82669",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [],
+      "emotion_strengths": {},
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/436831",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "オランダ17世紀の大空と遠くまで続く平野を眺め、実景と想像を合わせる風景画の作り方を知りたい",
+            "reason": "Met公式の作品別Overviewは、この作品の地形がオランダ東部ヘルダーラント地方に着想を得た可能性があるものの、表現された風景は想像上のものと説明する。当時の画家は野外素描を資料にしつつ、画室で一つの風景を組み立てることが多かった。オランダ・アムステルダム国立美術館にある1676年の類似した川の風景には、右側に同じ優雅な狩猟用の舟『ヤハト』が描かれている。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "ヘルダーラントの特定場所を写した実景として断定しない。絵の船が狩猟用船かどうかはMet本文を根拠とし、画面で小さな細部が明瞭に見えるとは言わない。人々の感情や作者の実体験は推測しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met公式の作品別Overviewは、この作品の地形がオランダ東部ヘルダーラント地方に着想を得た可能性があるものの、表現された風景は想像上のものと説明する。当時の画家は野外素描を資料にしつつ、画室で一つの風景を組み立てることが多かった。オランダ・アムステルダム国立美術館にある1676年の類似した川の風景には、右側に同じ優雅な狩猟用の舟『ヤハト』が描かれている。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/436831"
+        },
+        "creation_context": "1670s; ; Oil on canvas; accession 1980.4",
+        "visual_clues": "Met公式同一作品の原寸JPEGと表示JPEGを縮小比較し、実画像を確認。横長の風景の上半分を広い灰青色の曇り空が占める。中央の低く長い地平線、左の木立と人のいる小道、右下に曲がる川と、緑の草地・遠景の村が描かれている。小さな舟の種類は公式Overviewによる。",
+        "uncertainty_note": "ヘルダーラントの特定場所を写した実景として断定しない。絵の船が狩猟用船かどうかはMet本文を根拠とし、画面で小さな細部が明瞭に見えるとは言わない。人々の感情や作者の実体験は推測しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42951949511",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "雲が重なる広い空の下に、森の木々と、遠くまで続く平野が広がります。画面の左には木立と道があり、右には大きく曲がる川が見えます。近くの木々から遠い地平線まで、視線がゆっくり移動する構図です。\n\nこの風景の地形は、オランダ東部のヘルダーラント地方に着想を得た可能性があります。しかし、特定の景色を正確に写した絵ではなく、想像上の風景です。17世紀のオランダの風景画家は、自然の中で描いた素描を参考にしながら、画室で一つの風景を組み立てることが多くありました。\n\n画家フィリプス・コーニンクは、低い地平線と大きな空によって、土地の広さを感じさせています。川沿いの小さな人影や舟を探すと、遠くまで続く風景の中に人の営みが見えてきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/436831"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-436831",
+    "title": "An Extensive Wooded Landscape",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/436831",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/436831",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146508.jpg",
+      "sha256": "67f5c99f15c3d8ac100542cbd4074dd528598e55f0b40d10aa06ced7faa2b851",
+      "byte_length": 71608,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42951949511",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146508.jpg",
+        "sha256": "911753abe515a5718ae94b4eb266c4323741662101442271ff5d02eadad74088",
+        "byte_length": 3001959,
+        "width": 3907,
+        "height": 2893,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 5.82669",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "1980.4"
+  }
+}

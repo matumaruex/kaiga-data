@@ -1,0 +1,154 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-45770",
+  "artwork": {
+    "id": "met-45770",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 45770,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/45770",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45770",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Two Girls Catching Fireflies",
+      "title_ja_provisional": "蛍狩りを楽しむ二人の女性",
+      "artist": "Kawamata Tsunemasa",
+      "creation_date_display": "first half of the 18th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "36.100.87"
+    },
+    "image": {
+      "image_id": "met-45770-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-45140-002.jpg",
+      "source_registry_id": "met-45770",
+      "local_path": "/artworks/met-45770.jpg",
+      "sha256": "3a94de0399284d3fbd5c70be5ac9cb4bdd1b624632e2a0ed2b4ceb36f7f95bfb",
+      "byte_length": 66722,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42951949511",
+      "source_accession_number": "36.100.87",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-45140-002.jpg",
+        "sha256": "eae5c4a5948e44d5d143b35b8c4f6d8cd3f20f27a7897323bdebefcee4897801",
+        "byte_length": 2687702,
+        "width": 2998,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 4.57213",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "喜び"
+      ],
+      "emotion_strengths": {
+        "喜び": 1
+      },
+      "tones": [
+        "落ち着き"
+      ],
+      "themes": [
+        "日常",
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/45770",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "江戸時代の夏の夜、蛍の光や細い木々と人物から涼しさを感じる風俗画を見たい",
+            "reason": "Met公式作品別Overviewによると、暗い衣装の年上の女性が少女に付き添い、少女は小さな籠の中の蛍を眺めている。背の高い木と曲がりながら流れる小川が画面を縁取り、茂みから飛び立つ蛍と細身の人物二人が夕涼みの感覚を生む。作者の川又常正は、若い女性の人形のような繊細な姿を特色とする川又派の浮世絵画家で、その型は後の鈴木春信によって洗練された。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "作者の意図や二人の実際の血縁関係は不明であり、母娘とは断定しない。年上の女性・少女という公式の人物記述に留める。時刻は夏の夕涼みという文脈で捉えるが特定の日付は分からない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met公式作品別Overviewによると、暗い衣装の年上の女性が少女に付き添い、少女は小さな籠の中の蛍を眺めている。背の高い木と曲がりながら流れる小川が画面を縁取り、茂みから飛び立つ蛍と細身の人物二人が夕涼みの感覚を生む。作者の川又常正は、若い女性の人形のような繊細な姿を特色とする川又派の浮世絵画家で、その型は後の鈴木春信によって洗練された。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/45770"
+        },
+        "creation_context": "first half of the 18th century; Japan; Hanging scroll; ink, color, and gold on silk; accession 36.100.87",
+        "visual_clues": "Met公式同一作品の原寸・表示JPEGを縮小照合して目視。縦長の絹の掛軸に薄い茶の余白、中央に高い木の幹と枝、右下に赤い着物の小さな少女と暗い衣の年上の女性が並ぶ。水の流れと暗い草が画面の下側に描かれる。サムネイルから小さな蛍の点を一つずつ判別したと主張しない。",
+        "uncertainty_note": "作者の意図や二人の実際の血縁関係は不明であり、母娘とは断定しない。年上の女性・少女という公式の人物記述に留める。時刻は夏の夕涼みという文脈で捉えるが特定の日付は分からない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "喜び"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42951949511",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "細長い画面の中に、大きく伸びた木と、流れの曲がる小川が描かれています。手前にいるのは、赤い着物の少女と暗い衣装の年上の女性です。少女は小さな籠に捕まえた蛍を眺めています。\n\n蛍は茂みのあたりから舞い上がり、木の枝や水の流れとともに夏の夕暮れの涼しさを感じさせます。背の高い木と曲がりくねった小川が二人を囲み、細く柔らかな人物の姿を引き立てています。\n\n作者の川又常正は18世紀前半に活躍した浮世絵画家です。若い女性を人形のように繊細に描く川又派の様式は、後の鈴木春信にも受け継がれました。画面の小さな人物を探しながら、静かな夏の夜の一場面を味わえます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/45770"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-45770",
+    "title": "Two Girls Catching Fireflies",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/45770",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/45770",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-45140-002.jpg",
+      "sha256": "3a94de0399284d3fbd5c70be5ac9cb4bdd1b624632e2a0ed2b4ceb36f7f95bfb",
+      "byte_length": 66722,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42951949511",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-45140-002.jpg",
+        "sha256": "eae5c4a5948e44d5d143b35b8c4f6d8cd3f20f27a7897323bdebefcee4897801",
+        "byte_length": 2687702,
+        "width": 2998,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 4.57213",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "36.100.87"
+  }
+}

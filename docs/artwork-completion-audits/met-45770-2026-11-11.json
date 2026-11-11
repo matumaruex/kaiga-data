@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-45770",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-45770.json",
+  "candidate_sha256": "a85c4604239a779c02b9f5787e0257bef571c9afcd1b49a439e2d7a6a2fc37b3",
+  "draft_path": "drafts/visitor-explanations/met-45770.json",
+  "draft_sha256": "b72176415674bcb21673019d0ac0e63f9f7b4d09ce045ad643d3bfb84e632ce4",
+  "baseline": {
+    "artworks_sha256": "e253a63be907786d4bbbfab60b7dd752fe7115a22be6de07ed09adc4f27134af",
+    "image_registry_sha256": "b9dc3775c93da4bf483326e1fa655cce6f1825fdf45ae8ffb7f5c1994116c0e4"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/45770",
+      "source_excerpt": "A young girl accompanied by an older woman (in dark clothing)",
+      "visitor_claim": "手前にいるのは、赤い着物の少女と暗い衣装の年上の女性です",
+      "source_section": "Overview: two women, elder in dark clothing"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/45770",
+      "source_excerpt": "Framed by a tall tree and a meandering stream",
+      "visitor_claim": "背の高い木と曲がりくねった小川が二人を囲み",
+      "source_section": "Overview: tree and meandering stream"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/45770",
+      "location": "Met object Overview and Artwork Details: Overview: two women, elder in dark clothing | Overview: tree and meandering stream",
+      "finding": "Met公式作品別Overviewによると、暗い衣装の年上の女性が少女に付き添い、少女は小さな籠の中の蛍を眺めている。背の高い木と曲がりながら流れる小川が画面を縁取り、茂みから飛び立つ蛍と細身の人物二人が夕涼みの感覚を生む。作者の川又常正は、若い女性の人形のような繊細な姿を特色とする川又派の浮世絵画家で、その型は後の鈴木春信によって洗練された。 Visual subject based on specific same-object source image: Met公式同一作品の原寸・表示JPEGを縮小照合して目視。縦長の絹の掛軸に薄い茶の余白、中央に高い木の幹と枝、右下に赤い着物の小さな少女と暗い衣の年上の女性が並ぶ。水の流れと暗い草が画面の下側に描かれる。サムネイルから小さな蛍の点を一つずつ判別したと主張しない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45770",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42951949511",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/45770",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42951949511"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/45770",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 45770, Two Girls Catching Fireflies, Kawamata Tsunemasa, first half of the 18th century, 36.100.87. Attribution caveats and source classifications preserved.",
+      "image_match": "Met公式同一作品の原寸・表示JPEGを縮小照合して目視。縦長の絹の掛軸に薄い茶の余白、中央に高い木の幹と枝、右下に赤い着物の小さな少女と暗い衣の年上の女性が並ぶ。水の流れと暗い草が画面の下側に描かれる。サムネイルから小さな蛍の点を一つずつ判別したと主張しない。 API official primary JPEG complete hashes/dimensions, downscale RMS 4.57213.",
+      "historical_interpretation": "Met公式作品別Overviewによると、暗い衣装の年上の女性が少女に付き添い、少女は小さな籠の中の蛍を眺めている。背の高い木と曲がりながら流れる小川が画面を縁取り、茂みから飛び立つ蛍と細身の人物二人が夕涼みの感覚を生む。作者の川又常正は、若い女性の人形のような繊細な姿を特色とする川又派の浮世絵画家で、その型は後の鈴木春信によって洗練された。 Limits: 作者の意図や二人の実際の血縁関係は不明であり、母娘とは断定しない。年上の女性・少女という公式の人物記述に留める。時刻は夏の夕涼みという文脈で捉えるが特定の日付は分からない。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['喜び']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-45140-002.jpg",
+      "sha256": "3a94de0399284d3fbd5c70be5ac9cb4bdd1b624632e2a0ed2b4ceb36f7f95bfb",
+      "byte_length": 66722,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式同一作品の原寸・表示JPEGを縮小照合して目視。縦長の絹の掛軸に薄い茶の余白、中央に高い木の幹と枝、右下に赤い着物の小さな少女と暗い衣の年上の女性が並ぶ。水の流れと暗い草が画面の下側に描かれる。サムネイルから小さな蛍の点を一つずつ判別したと主張しない。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42951949511"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-45140-002.jpg",
+      "sha256": "eae5c4a5948e44d5d143b35b8c4f6d8cd3f20f27a7897323bdebefcee4897801",
+      "byte_length": 2687702,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式同一作品の原寸・表示JPEGを縮小照合して目視。縦長の絹の掛軸に薄い茶の余白、中央に高い木の幹と枝、右下に赤い着物の小さな少女と暗い衣の年上の女性が並ぶ。水の流れと暗い草が画面の下側に描かれる。サムネイルから小さな蛍の点を一つずつ判別したと主張しない。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42951949511"
+    }
+  ],
+  "notes": [
+    "Sequential addition 362; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}
