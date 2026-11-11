@@ -1,0 +1,20 @@
+name: Temporary audited Met registration 333-335
+on:
+  push:
+    branches: [codex/expand-artworks-333-335-20261111]
+permissions:
+  contents: write
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet requests pillow
+      - name: Sequential registration, version-bound audits and full regression suite
+        run: python scripts/_temporary_register_333_335.py
