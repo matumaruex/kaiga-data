@@ -1,0 +1,64 @@
+name: Temporary Met candidates image research 351-353
+on:
+  push:
+    branches: [codex/expand-artworks-351-353-20261111]
+permissions:
+  contents: read
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet requests pillow
+      - name: Verify Met official object identities, no duplicates, JPEG pairs, image preview
+        run: |
+          python - <<'PY'
+          import json,requests,io,hashlib,math,time,base64
+          from PIL import Image,ImageStat,ImageChops
+          ids=[50486,765275,10406,58451,65003]
+          old=json.load(open('data/artworks.json'))['artworks']
+          assert len(old)==350
+          def get(url):
+              for n in range(5):
+                  try:
+                      r=requests.get(url,timeout=70,headers={"User-Agent":"PublicArtCatalog/1.0"})
+                      if r.status_code==200:return r
+                      print('HTTP',r.status_code,url,flush=True)
+                  except Exception as e:print('FETCH_ERROR',str(e)[:120],flush=True)
+                  time.sleep(2+n*2)
+              raise RuntimeError(url)
+          for i in ids:
+              try:
+                  o=get(f"https://collectionapi.metmuseum.org/public/collection/v1/objects/{i}").json()
+                  d={'id':'met-'+str(i),'title':o.get('title'),'artistDisplayName':o.get('artistDisplayName'),
+                  'date':o.get('objectDate'),'medium':o.get('medium'),'classification':o.get('classification'),
+                  'department':o.get('department'),'accessionNumber':o.get('accessionNumber'),
+                  'culture':o.get('culture'),'isPublicDomain':o.get('isPublicDomain'),
+                  'duplicate_ids':[x['id'] for x in old if x['id']=='met-'+str(i)],
+                  'duplicate_title_artist':[x['id'] for x in old if x['facts']['title_original']==o.get('title') and x['facts']['artist']==o.get('artistDisplayName')]}
+                  print('CANDIDATE_META',json.dumps(d,ensure_ascii=False),flush=True)
+                  assert o['objectID']==i and o['isPublicDomain'] is True and not d['duplicate_ids'] and not d['duplicate_title_artist']
+                  assert o.get('classification')=='Paintings' or (i==10406 and o.get('department')=='The American Wing' and o.get('medium')=='Oil on canvas')
+                  im={}; imgs={}
+                  for key,tag in [('primaryImage','original'),('primaryImageSmall','display')]:
+                      url=o.get(key,'')
+                      assert url.startswith('https://images.metmuseum.org/'),key
+                      raw=get(url).content
+                      p=Image.open(io.BytesIO(raw));p.load()
+                      assert p.format=='JPEG'
+                      im[tag]=p.convert('RGB')
+                      imgs[tag]={'url':url,'sha256':hashlib.sha256(raw).hexdigest(),'byte_length':len(raw),'width':p.width,'height':p.height}
+                  rms=math.sqrt(sum(v*v for v in ImageStat.Stat(ImageChops.difference(im['original'].resize(im['display'].size,Image.Resampling.LANCZOS),im['display'])).rms)/3)
+                  d['images']=imgs;d['rms']=round(rms,4)
+                  d['sha_collisions']=[x['id'] for x in old if x['image']['sha256']==imgs['display']['sha256']]
+                  assert rms<30 and not d['sha_collisions']
+                  print('CANDIDATE_PASS',json.dumps(d,ensure_ascii=False),flush=True)
+                  th=im['display'].copy();th.thumbnail((250,250))
+                  buf=io.BytesIO();th.save(buf,format='JPEG',quality=50,optimize=True)
+                  print('THUMB',i,base64.b64encode(buf.getvalue()).decode(),flush=True)
+              except Exception as e:print('CANDIDATE_HOLD',i,repr(e),flush=True)
+          PY
