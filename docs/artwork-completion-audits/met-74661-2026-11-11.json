@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-74661",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-74661.json",
+  "candidate_sha256": "ef31281a22c6efbc04c33d2407a2c9cee6623b25166cea249febd18c2535e5a1",
+  "draft_path": "drafts/visitor-explanations/met-74661.json",
+  "draft_sha256": "6e485d836142abaf28f9d4541b4381d4aad3bad5cebc31f1213a32d19dabcae9",
+  "baseline": {
+    "artworks_sha256": "d0d3e44d020c6ace2ffa98479cb8a682b6af5296ee9b913363fe5cea0556a812",
+    "image_registry_sha256": "3c81764df94815513d65fbe42bde8b5ecc01e4ae3dbb82ea42e34916453699ad"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/74661",
+      "source_excerpt": "Elephants were an extremely popular subject in Kotah court painting",
+      "visitor_claim": "象は特に好まれた題材でした。",
+      "source_section": "Met exact Overview: elephants popular in Kotah painting"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/74661",
+      "source_excerpt": "the emphasis is on naturalistically capturing the elephant in motion",
+      "visitor_claim": "走っている象そのものの動きが中心になっています",
+      "source_section": "Met exact Overview: naturalistic emphasis on motion"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/74661",
+      "location": "Met object Overview and Artwork Details: Met exact Overview: elephants popular in Kotah painting | Met exact Overview: naturalistic emphasis on motion",
+      "finding": "Met公式作品別Overviewでは、18世紀半ばのインド、ラージャスターンのコータ宮廷では戦や狩猟が主要な絵画主題で、象はとりわけ人気があったと説明する。本図では人間の存在はほぼ無視され、動いている象の姿を自然に捉えることが中心。媒体は紙に木炭で、所蔵品の題名は表に『Running Elephant』、裏に象の素描練習があることを示す。公式主画像が示すのは表側で、裏の練習線の詳細をこの主画像から見たとは言わない。 Visual subject based on specific same-object source image: Met ID74661公式原寸/表示JPEGを直接目視・縮小照合。横長の薄茶の紙面の中央を、鼻をくねらせ右へ駆ける大きな象が占める。脚を前後に大きく伸ばし、体や背に細い木炭の補助線、背後の左に小さな人影とさらに右端に小さな人物。彩色画でなく木炭の簡潔な素描。主画像は表面のみ。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/74661",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42976021314",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/74661",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42976021314"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/74661",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 74661, Running Elephant (recto); Practice Sheet of Elephant Sketches (verso), Unidentified artist, mid-18th century, 2008.359.14. Attribution caveats and source classifications preserved.",
+      "image_match": "Met ID74661公式原寸/表示JPEGを直接目視・縮小照合。横長の薄茶の紙面の中央を、鼻をくねらせ右へ駆ける大きな象が占める。脚を前後に大きく伸ばし、体や背に細い木炭の補助線、背後の左に小さな人影とさらに右端に小さな人物。彩色画でなく木炭の簡潔な素描。主画像は表面のみ。 API official primary JPEG complete hashes/dimensions, downscale RMS 3.63757.",
+      "historical_interpretation": "Met公式作品別Overviewでは、18世紀半ばのインド、ラージャスターンのコータ宮廷では戦や狩猟が主要な絵画主題で、象はとりわけ人気があったと説明する。本図では人間の存在はほぼ無視され、動いている象の姿を自然に捉えることが中心。媒体は紙に木炭で、所蔵品の題名は表に『Running Elephant』、裏に象の素描練習があることを示す。公式主画像が示すのは表側で、裏の練習線の詳細をこの主画像から見たとは言わない。 Limits: 画中の象が実際に起こした特定の戦闘や狩猟事件を断定しない。象の裏面の構図は公開主画像に映らないため推測で描写しない。『自然主義的』はMetの分析であり動物の行動観察自体を記録した証明ではない。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['好奇心']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP166081.jpg",
+      "sha256": "878ee97839e87596fef8132e852bba12829abdde5d503a8d8d52133d721631c5",
+      "byte_length": 156749,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met ID74661公式原寸/表示JPEGを直接目視・縮小照合。横長の薄茶の紙面の中央を、鼻をくねらせ右へ駆ける大きな象が占める。脚を前後に大きく伸ばし、体や背に細い木炭の補助線、背後の左に小さな人影とさらに右端に小さな人物。彩色画でなく木炭の簡潔な素描。主画像は表面のみ。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42976021314"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP166081.jpg",
+      "sha256": "cde213395bfd7b2339a932a61a3c41122598c37145f7ce6ffe8a75527874da45",
+      "byte_length": 1634779,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met ID74661公式原寸/表示JPEGを直接目視・縮小照合。横長の薄茶の紙面の中央を、鼻をくねらせ右へ駆ける大きな象が占める。脚を前後に大きく伸ばし、体や背に細い木炭の補助線、背後の左に小さな人影とさらに右端に小さな人物。彩色画でなく木炭の簡潔な素描。主画像は表面のみ。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42976021314"
+    }
+  ],
+  "notes": [
+    "Sequential addition 379; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}

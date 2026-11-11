@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-45680",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-45680.json",
+  "candidate_sha256": "91415a4319f3a7d18228d9ef3eae3d0be72b9d395c6701c529435fdb6d517938",
+  "draft_path": "drafts/visitor-explanations/met-45680.json",
+  "draft_sha256": "7cc009ad6aa0ec1d61f66f51bb2d0f59b750fe5a8ed665666beff1b13017f5e9",
+  "baseline": {
+    "artworks_sha256": "90617752e65033a2149f6648146f18d60230150ef424ac5b15bae0d873420736",
+    "image_registry_sha256": "e3a7fe876f366b5c8c44ba02b1d44caf091d5bb9c2e2d747712fdf67b89e39b9"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/45680",
+      "source_excerpt": "lone fishermen, scholars living in reclusion, and mountain travelers",
+      "visitor_claim": "ひとりで釣る漁師や隠れて暮らす学者、山を旅する人物が描かれています",
+      "source_section": "Met exact Overview: three recurring subject motifs"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/45680",
+      "source_excerpt": "This unsigned painting is attributed to Jiang Song",
+      "visitor_claim": "絵には署名がありません。美術館は別作品との比較をもとに画家への帰属を示しています",
+      "source_section": "Met exact Overview: unsigned tentative attribution"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/45680",
+      "location": "Met object Overview and Artwork Details: Met exact Overview: three recurring subject motifs | Met exact Overview: unsigned tentative attribution",
+      "finding": "Met公式作品別Overviewによると、蔣嵩は南京出身で医者・官吏の家柄に生まれながら職業画家として生計を立てた。山水画の主要なモチーフには、ひとりで釣る漁師、隠居した学者、山を行く旅人があり、それらが本作の長い絵巻に含まれる。切り詰めて抽象化した岩山の形、奔放な筆遣い、濃淡を重ねた墨の効果が特徴で、南京の画家史忠の大胆な雪景山水の系譜につながる。本作は署名がなく、ベルリン東洋美術館にある別の四図との比較から蔣嵩の作と『伝』として帰属される。 Visual subject based on specific same-object source image: 公式原JPEG DP204373_CRD.jpgと表示JPEGを実際に見て照合。主画像は約7mの長巻のうち水辺・岩・木・橋や建物のある横長の一場面を切り出した表示で、山や樹木を墨の細線と淡墨で描く。端から端まで全長7mを一枚の主JPEGに記録したと誤解しない。独立した小さな人影の細部はサムネイルだけで全箇所の見分けは難しい。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45680",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42976021314",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/45680",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42976021314"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/45680",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 45680, Winter landscape, Attributed to Jiang Song, first half 16th century, 55.124. Attribution caveats and source classifications preserved.",
+      "image_match": "公式原JPEG DP204373_CRD.jpgと表示JPEGを実際に見て照合。主画像は約7mの長巻のうち水辺・岩・木・橋や建物のある横長の一場面を切り出した表示で、山や樹木を墨の細線と淡墨で描く。端から端まで全長7mを一枚の主JPEGに記録したと誤解しない。独立した小さな人影の細部はサムネイルだけで全箇所の見分けは難しい。 API official primary JPEG complete hashes/dimensions, downscale RMS 9.75866.",
+      "historical_interpretation": "Met公式作品別Overviewによると、蔣嵩は南京出身で医者・官吏の家柄に生まれながら職業画家として生計を立てた。山水画の主要なモチーフには、ひとりで釣る漁師、隠居した学者、山を行く旅人があり、それらが本作の長い絵巻に含まれる。切り詰めて抽象化した岩山の形、奔放な筆遣い、濃淡を重ねた墨の効果が特徴で、南京の画家史忠の大胆な雪景山水の系譜につながる。本作は署名がなく、ベルリン東洋美術館にある別の四図との比較から蔣嵩の作と『伝』として帰属される。 Limits: 『蔣嵩作』は断定でなく署名不在の比較による帰属。長巻全長7.04mのうち掲載画像が一場面を写すことを区別。旅人や漁師や隠者の配置を主画像から全て見たと主張しない。人物の心理や地名は推定しない。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['孤独']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP204373_CRD.jpg",
+      "sha256": "16605c82b1fd3f593ecc13e0ec5f9f509dbc21ac4c4928fec4b32c21a0c58852",
+      "byte_length": 44386,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "公式原JPEG DP204373_CRD.jpgと表示JPEGを実際に見て照合。主画像は約7mの長巻のうち水辺・岩・木・橋や建物のある横長の一場面を切り出した表示で、山や樹木を墨の細線と淡墨で描く。端から端まで全長7mを一枚の主JPEGに記録したと誤解しない。独立した小さな人影の細部はサムネイルだけで全箇所の見分けは難しい。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42976021314"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP204373_CRD.jpg",
+      "sha256": "aaddb4f5b0ce7caf41af8809c6d09a2028589cda6469346c27f768b7b90287da",
+      "byte_length": 244376,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "公式原JPEG DP204373_CRD.jpgと表示JPEGを実際に見て照合。主画像は約7mの長巻のうち水辺・岩・木・橋や建物のある横長の一場面を切り出した表示で、山や樹木を墨の細線と淡墨で描く。端から端まで全長7mを一枚の主JPEGに記録したと誤解しない。独立した小さな人影の細部はサムネイルだけで全箇所の見分けは難しい。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42976021314"
+    }
+  ],
+  "notes": [
+    "Sequential addition 380; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-845805",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-845805.json",
+  "candidate_sha256": "66226320615b464ca53e7b0bef57995f82fb83b5290da23d8177f9a855e23195",
+  "draft_path": "drafts/visitor-explanations/met-845805.json",
+  "draft_sha256": "a1871cc3e4237d5e96abe4bec3e468033a7a9adea294cef943f193b75a105491",
+  "baseline": {
+    "artworks_sha256": "9fc216b987bb055538bc17638bf62bfc6f3b400368e9b74f1c24830de2c1f590",
+    "image_registry_sha256": "d0a762165e8fe383eb36284e87b3a9fbb7513d4e2dd5a564727e6a66b5487484"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/845805",
+      "source_excerpt": "The bold silhouettes of pine trees contrast with gray washes",
+      "visitor_claim": "松の大胆な輪郭と、薄墨を重ねて作る山肌の対比が見どころです",
+      "source_section": "Met exact Overview: silhouetted pine versus wash"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/845805",
+      "source_excerpt": "The upper expanse of the painting is entirely blank",
+      "visitor_claim": "空の広い余白が、夜の静けさを強めています",
+      "source_section": "Met exact Overview: large empty upper field"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/845805",
+      "location": "Met object Overview and Artwork Details: Met exact Overview: silhouetted pine versus wash | Met exact Overview: large empty upper field",
+      "finding": "Met作品別Overviewは1794～95年の月夜山水図を、月を塗り残し（reserve）で表し、雲の細い帯が空を横切る怪しげな雰囲気から龍のイメージも連想される作品と説明。松の大胆な黒い輪郭と、付立筆という穂の長い幅広い筆で輪郭をつけずに描く山肌の薄墨が対照的である。薄墨は一層ごとに乾燥させて重ね、上半分の大きな余白には作者の署名と朱印が置かれる。月夜と雲の画題は蘆雪の生涯を通じて繰り返された。 Visual subject based on specific same-object source image: 公式Met原JPEG・表示JPEGの完全一致条件と縮小RMSを確認し実見。細長い茶色がかった絹地の画面下方には濃墨の松と淡い岩・山の輪郭、真ん中やや右に淡い満月が白く浮く。月の周りをかすかに雲が横切り、上方はほとんど余白。左右の青い表装の縁は絵自体の描写と混同しない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/845805",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42976021314",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/845805",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42976021314"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/845805",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 845805, Moonlit Landscape, Nagasawa Rosetsu 長澤蘆雪, 1794–95, 2020.392. Attribution caveats and source classifications preserved.",
+      "image_match": "公式Met原JPEG・表示JPEGの完全一致条件と縮小RMSを確認し実見。細長い茶色がかった絹地の画面下方には濃墨の松と淡い岩・山の輪郭、真ん中やや右に淡い満月が白く浮く。月の周りをかすかに雲が横切り、上方はほとんど余白。左右の青い表装の縁は絵自体の描写と混同しない。 API official primary JPEG complete hashes/dimensions, downscale RMS 6.76408.",
+      "historical_interpretation": "Met作品別Overviewは1794～95年の月夜山水図を、月を塗り残し（reserve）で表し、雲の細い帯が空を横切る怪しげな雰囲気から龍のイメージも連想される作品と説明。松の大胆な黒い輪郭と、付立筆という穂の長い幅広い筆で輪郭をつけずに描く山肌の薄墨が対照的である。薄墨は一層ごとに乾燥させて重ね、上半分の大きな余白には作者の署名と朱印が置かれる。月夜と雲の画題は蘆雪の生涯を通じて繰り返された。 Limits: 画中の雲が本当に龍を表すと決めつけず、美術館が連想を示すにとどめる。付立筆の技法は美術館の解説に基づく。夜景を実際に現地でその場写生したとはしない。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['畏敬']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/LC-TR_168_1ab_2020_sr1-006.jpg",
+      "sha256": "5d357411d3ee2d1a68b05f79654c06264df15d1a6ce6b7f0f6b30e39ebdabb06",
+      "byte_length": 71939,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "公式Met原JPEG・表示JPEGの完全一致条件と縮小RMSを確認し実見。細長い茶色がかった絹地の画面下方には濃墨の松と淡い岩・山の輪郭、真ん中やや右に淡い満月が白く浮く。月の周りをかすかに雲が横切り、上方はほとんど余白。左右の青い表装の縁は絵自体の描写と混同しない。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42976021314"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/LC-TR_168_1ab_2020_sr1-006.jpg",
+      "sha256": "e0a7a450b4a7aaaf049f3738869febe4ef00d87911e56d4cf7b6fc4b254f8faf",
+      "byte_length": 2235293,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "公式Met原JPEG・表示JPEGの完全一致条件と縮小RMSを確認し実見。細長い茶色がかった絹地の画面下方には濃墨の松と淡い岩・山の輪郭、真ん中やや右に淡い満月が白く浮く。月の周りをかすかに雲が横切り、上方はほとんど余白。左右の青い表装の縁は絵自体の描写と混同しない。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42976021314"
+    }
+  ],
+  "notes": [
+    "Sequential addition 378; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}
