@@ -1,0 +1,154 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-57166",
+  "artwork": {
+    "id": "met-57166",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 57166,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/57166",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/57166",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Fireflies Over the Uji River by Moonlight",
+      "title_ja_provisional": "月夜の宇治川を飛ぶ蛍",
+      "artist": "Suzuki Shōnen",
+      "creation_date_display": "明治時代（1868〜1912年、Met作品ページの時代区分）",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "1979.72"
+    },
+    "image": {
+      "image_id": "met-57166-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-36813-002.jpg",
+      "source_registry_id": "met-57166",
+      "local_path": "/artworks/met-57166.jpg",
+      "sha256": "05f5de99e58073b440b17cbe304ef5bd1c518780b58be298fb8bef84de84a962",
+      "byte_length": 64299,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42958124800",
+      "source_accession_number": "1979.72",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-36813-002.jpg",
+        "sha256": "01d75e26f3dd1e9b17ff321ccce30f9b1f3cb6e909922fc605a6bea9cf8a90a0",
+        "byte_length": 2051548,
+        "width": 1914,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 5.14913",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "寂しさ"
+      ],
+      "emotion_strengths": {
+        "寂しさ": 1
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "自然",
+        "時間",
+        "記憶"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/57166",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "宇治川の夜と蛍の光に、『源氏物語』宇治十帖の音や湿り気まで感じてみたい",
+            "reason": "Met公式作品別Overviewによると、月光の下、京都郊外の宇治川沿いに生える草の上を蛍が飛ぶ風景。この着想は紫式部の11世紀の小説『源氏物語』第45帖にある、仏教への信仰が篤い未亡人ではなく妻に先立たれた皇子と娘二人の隠遁生活、若い宮廷人が二人の娘の楽の音と会話をこっそり聞こうとする場面に由来する。急流の轟き、雨、深い霧のために会話が聞き取りにくい。画家鈴木松年は京都の風景画を専門とし、寺院からの依頼や京都府画学校での日本画教育にも携わった。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "物語の人物を実際に画中で明確に描いているとは述べない。宇治十帖の雰囲気を重ねた作品であって、作者が作品の特定場面をそのまま描き起こしたとは断定しない。制作年代はMet API objectDate空欄のため明治期区分のみ。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met公式作品別Overviewによると、月光の下、京都郊外の宇治川沿いに生える草の上を蛍が飛ぶ風景。この着想は紫式部の11世紀の小説『源氏物語』第45帖にある、仏教への信仰が篤い未亡人ではなく妻に先立たれた皇子と娘二人の隠遁生活、若い宮廷人が二人の娘の楽の音と会話をこっそり聞こうとする場面に由来する。急流の轟き、雨、深い霧のために会話が聞き取りにくい。画家鈴木松年は京都の風景画を専門とし、寺院からの依頼や京都府画学校での日本画教育にも携わった。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/57166"
+        },
+        "creation_context": "; Japan; Hanging scroll; ink, color, and gold on silk; accession 1979.72",
+        "visual_clues": "Metの元画像DP-36813-002と表示画像を目視。細長い掛軸の下方は月の光を映すような斜めの白い水流と河畔の草、奥に暗い木々があり、上半分に暗色の広い夜空。蛍の細かな輝きは画面全体に小さな点として控えめに散る。個別の光点を種類や個数まで断定しない。",
+        "uncertainty_note": "物語の人物を実際に画中で明確に描いているとは述べない。宇治十帖の雰囲気を重ねた作品であって、作者が作品の特定場面をそのまま描き起こしたとは断定しない。制作年代はMet API objectDate空欄のため明治期区分のみ。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "寂しさ"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42958124800",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "暗い夜空の下を、月の光を映す宇治川が流れています。岸辺の草は風に揺れ、その上に蛍の小さな光が見えます。広い暗がりと明るい流れの対照が印象的です。\n\nこの掛軸の着想には、紫式部の『源氏物語』の宇治を舞台にした巻があります。若い宮廷人が、隠れて暮らす二人の姫君の音楽や会話をこっそり聞こうとするものの、川の大きな音や雨、霧に遮られるという場面です。絵の中で物語の人物を探すのではなく、夜の川の音や湿った空気を想像すると、作品が伝えようとする雰囲気が感じられます。\n\n鈴木松年は京都で活動した風景画家でした。流れる水と風になびく葦をたどりながら、静かな画面に隠れた動きを味わえます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/57166"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-57166",
+    "title": "Fireflies Over the Uji River by Moonlight",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/57166",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/57166",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-36813-002.jpg",
+      "sha256": "05f5de99e58073b440b17cbe304ef5bd1c518780b58be298fb8bef84de84a962",
+      "byte_length": 64299,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42958124800",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-36813-002.jpg",
+        "sha256": "01d75e26f3dd1e9b17ff321ccce30f9b1f3cb6e909922fc605a6bea9cf8a90a0",
+        "byte_length": 2051548,
+        "width": 1914,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 5.14913",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "1979.72"
+  }
+}
