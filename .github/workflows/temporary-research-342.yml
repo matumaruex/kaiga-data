@@ -19,7 +19,7 @@ jobs:
           python - <<'PY'
           import io,requests,hashlib,math,json,time,traceback
           from PIL import Image, ImageStat, ImageChops
-          ids=[39956,437898,764092,764096]
+          ids=[39956,437898,764096]
           works=json.load(open('data/artworks.json'))['artworks']
           sources=json.load(open('data/image-sources.json'))['records']
           assert len(works)==341
@@ -63,6 +63,11 @@ jobs:
                   dat['duplicate_primary_sha']=[w['id'] for w in works if w['image']['sha256']==pictures['display']['sha256']]
                   assert rms<30 and not dat['duplicate_primary_sha']
                   print('CANDIDATE_PASS',json.dumps(dat,ensure_ascii=False),flush=True)
+                  import base64
+                  thumb=blobs['display'].copy()
+                  thumb.thumbnail((300,300))
+                  out=io.BytesIO();thumb.save(out,format='JPEG',quality=52,optimize=True)
+                  print('THUMB',n,base64.b64encode(out.getvalue()).decode('ascii'),flush=True)
               except Exception as exc:
                   print('CANDIDATE_HOLD',n,repr(exc),flush=True);traceback.print_exc()
           PY
