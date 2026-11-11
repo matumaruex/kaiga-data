@@ -1,0 +1,22 @@
+name: Temporary audited Met registration 375-377
+on:
+  push:
+    branches: [codex/expand-artworks-375-377-20261111]
+permissions:
+  contents: write
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    timeout-minutes: 28
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet requests pillow
+      - name: Register 375–377 with version-bound source and full JPEG audit, then regression tests
+        run: |
+          python -m py_compile scripts/_temporary_register_375_377.py
+          python scripts/_temporary_register_375_377.py
