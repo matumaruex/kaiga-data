@@ -1,0 +1,20 @@
+name: Temporary audited registration 336-338
+on:
+  push:
+    branches: [codex/expand-artworks-336-338-20261111]
+permissions:
+  contents: write
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet requests pillow
+      - name: Research-verified registration and quality validation
+        run: python scripts/_temporary_register_336_338.py
