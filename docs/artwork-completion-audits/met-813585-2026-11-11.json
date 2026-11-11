@@ -1,0 +1,125 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-813585",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-813585.json",
+  "candidate_sha256": "36a793723d04ec7f253dcd11f711a81894dd779a98129d233465ba52461431f7",
+  "draft_path": "drafts/visitor-explanations/met-813585.json",
+  "draft_sha256": "fc7a105619643ddcdbd4be72374ec38b18f2ae3ea7119f41cfccbb2e914437cd",
+  "baseline": {
+    "artworks_sha256": "b3563d142a573908640dd8f281ab288c58dd0e18e421f131bc77a6a99b292624",
+    "image_registry_sha256": "fca2f83ce28537e6f55e3dc0debfda8ff57c1d327b4335c4553f2b79c12e9cf7"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/813585",
+      "source_excerpt": "were painted in preparation for hand-colored lithographs",
+      "visitor_claim": "彩色石版画の準備として制作されました",
+      "source_section": "Overview: lithograph preparatory painting"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/813585",
+      "source_excerpt": "wife of Sumonyeacathee, Chief of the Otoe-Missouria people",
+      "visitor_claim": "ヘイネ・フジヒニはオトー・ミズーリアの首長スモニャカシーの妻でした",
+      "source_section": "Overview: the subject's identification and community"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/813585",
+      "location": "Met object Overview and Artwork Details: Overview: lithograph preparatory painting | Overview: the subject's identification and community",
+      "finding": "Met公式作品別Overviewによると、ヘンリー・インマンが1832〜33年に描いた『ヘイネ・フジヒニ（Eagle of Delight）』の肖像は、トマス・L・マッケニーの北米先住民史（1836〜44年）の彩色石版画に使うため制作された。元の肖像画は1822年にワシントンに招かれた先住民の指導者たちをチャールズ・バード・キングが生きている姿から描いたが、1865年の火災で焼失した。Metはヘイネ・フジヒニをオトー・ミズーリアの首長スモニャカシーの妻と記し、イヤリングや首飾り、銀の腕輪を指摘。加えてMet公式の記事『Native Perspectives』で本人の子孫Veronica、Rock、Wolf Pipestemは、彼女がオトー・ミズーリアのワシの氏族に生まれ、額の青い入れ墨が家系の高い地位を示し、1822年に夫とともにワシントンへ出向いて部族の主権を守る外交活動を行ったと解説している。これらは子孫の説明であると出典を分けて述べる。 Visual subject based on specific same-object source image: Met公式同一IDの元/表示JPEGを完全照合してサムネイルを目視。赤橙の衣を着た女性の胸から上を正面に近く描く。暗い髪を中央で分けて左右に垂らし、左右に細長い耳飾りと重ねた首飾り、手元に銀色の腕輪。暗い無地の背景。眉間上の青い印がうっすら見えるが、身分の意味は子孫の説明による。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/813585",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42970025681",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/ja/perspectives/native-perspectives",
+      "location": "Met Native Perspectives: Veronica, Rock and Wolf Pipestem on Hayne Hudjihini",
+      "finding": "Met Native Perspectives: descendants Veronica, Rock and Wolf Pipestem (Otoe-Missouria) explain the subject's Eagle clan, forehead tattoo, and 1822 sovereignty-related diplomatic journey; separate from American painter's object overview.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/813585",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42970025681"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/813585",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 813585, Hayne Hudjihini, Eagle of Delight, Henry Inman, 1832–33, 2018.501.1. Attribution caveats and source classifications preserved.",
+      "image_match": "Met公式同一IDの元/表示JPEGを完全照合してサムネイルを目視。赤橙の衣を着た女性の胸から上を正面に近く描く。暗い髪を中央で分けて左右に垂らし、左右に細長い耳飾りと重ねた首飾り、手元に銀色の腕輪。暗い無地の背景。眉間上の青い印がうっすら見えるが、身分の意味は子孫の説明による。 API official primary JPEG complete hashes/dimensions, downscale RMS 3.42897.",
+      "historical_interpretation": "Met公式作品別Overviewによると、ヘンリー・インマンが1832〜33年に描いた『ヘイネ・フジヒニ（Eagle of Delight）』の肖像は、トマス・L・マッケニーの北米先住民史（1836〜44年）の彩色石版画に使うため制作された。元の肖像画は1822年にワシントンに招かれた先住民の指導者たちをチャールズ・バード・キングが生きている姿から描いたが、1865年の火災で焼失した。Metはヘイネ・フジヒニをオトー・ミズーリアの首長スモニャカシーの妻と記し、イヤリングや首飾り、銀の腕輪を指摘。加えてMet公式の記事『Native Perspectives』で本人の子孫Veronica、Rock、Wolf Pipestemは、彼女がオトー・ミズーリアのワシの氏族に生まれ、額の青い入れ墨が家系の高い地位を示し、1822年に夫とともにワシントンへ出向いて部族の主権を守る外交活動を行ったと解説している。これらは子孫の説明であると出典を分けて述べる。 Limits: アメリカ人画家の肖像を『先住民自身が描いた肖像』と混同しない。子孫の声はMet『Native Perspectives』から引用した解釈として記録し、19世紀の米国官僚が刊行した本の目的と先住民当事者の視点を同一視しない。人物の精神状態、本人の写真のような厳密な肖似は断定しない。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: []",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18741-001.jpg",
+      "sha256": "084182117198b9329c471819aa1a6a13f3de1aa86692f1ab53459c57f8164d5e",
+      "byte_length": 83471,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式同一IDの元/表示JPEGを完全照合してサムネイルを目視。赤橙の衣を着た女性の胸から上を正面に近く描く。暗い髪を中央で分けて左右に垂らし、左右に細長い耳飾りと重ねた首飾り、手元に銀色の腕輪。暗い無地の背景。眉間上の青い印がうっすら見えるが、身分の意味は子孫の説明による。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42970025681"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18741-001.jpg",
+      "sha256": "4844da5320ecad6f94ce22080ff357b40396c7504e188b879c21f97a7377ee46",
+      "byte_length": 4329437,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式同一IDの元/表示JPEGを完全照合してサムネイルを目視。赤橙の衣を着た女性の胸から上を正面に近く描く。暗い髪を中央で分けて左右に垂らし、左右に細長い耳飾りと重ねた首飾り、手元に銀色の腕輪。暗い無地の背景。眉間上の青い印がうっすら見えるが、身分の意味は子孫の説明による。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42970025681"
+    }
+  ],
+  "notes": [
+    "Sequential addition 376; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}

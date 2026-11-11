@@ -1,0 +1,158 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-441379",
+  "artwork": {
+    "id": "met-441379",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 441379,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/441379",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/441379",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "The North Cape by Moonlight",
+      "title_ja_provisional": "月光に照らされたノール岬",
+      "artist": "Peder Balke",
+      "creation_date_display": "1848",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Norway (artist's home and depicted landscape; Met API culture unspecified)",
+      "accession_number": "2019.167.4"
+    },
+    "image": {
+      "image_id": "met-441379-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1740-001_cropped.jpg",
+      "source_registry_id": "met-441379",
+      "local_path": "/artworks/met-441379.jpg",
+      "sha256": "9d900f4cf9e0db79df87d43758aac639f319ba5d3f0f6c825a6265c4b32d5a9e",
+      "byte_length": 68092,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42970025681",
+      "source_accession_number": "2019.167.4",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-1740-001_cropped.jpg",
+        "sha256": "6256785d860a5af36221f98bb66b0f3682053bbf524304a0cbccc7df4441cb4c",
+        "byte_length": 1240553,
+        "width": 3928,
+        "height": 2836,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 4.22520",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "畏敬",
+        "孤独"
+      ],
+      "emotion_strengths": {
+        "畏敬": 2,
+        "孤独": 1
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "自然",
+        "記憶",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/441379",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "ノルウェー最北部の岬を月光と暗い雲で描いたロマン主義の海景から、記憶と自然の広がりを感じたい",
+            "reason": "Met公式作品別Overviewによると画家ペーダー・バルケはノール岬を1832年に一度だけ訪れ、その体験が終生の想像力の基点になった。1848年の作品は暗い色調と表現的な筆遣いが成熟期の特徴で、師ヨハン・クリスチャン・ダールの抑制された自然主義と対照的である。1848年秋オスロで本作か別バージョンが展示された際、批評家が題材や瞬間の独特の捉え方に関心を示した。Metの関連記事ではノール岬を船の甲板から見た16年前の記憶に基づくと説明。画面は実景の写真のような再現ではなく劇的な自然の印象を強調する。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "画中の舟に画家本人が乗っているとは主張しない。絵は訪問から16年後に描いたもので、その場での写生と断定しない。1848年に展示されたのがこの個体か別バージョンかは美術館も不確実とする。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met公式作品別Overviewによると画家ペーダー・バルケはノール岬を1832年に一度だけ訪れ、その体験が終生の想像力の基点になった。1848年の作品は暗い色調と表現的な筆遣いが成熟期の特徴で、師ヨハン・クリスチャン・ダールの抑制された自然主義と対照的である。1848年秋オスロで本作か別バージョンが展示された際、批評家が題材や瞬間の独特の捉え方に関心を示した。Metの関連記事ではノール岬を船の甲板から見た16年前の記憶に基づくと説明。画面は実景の写真のような再現ではなく劇的な自然の印象を強調する。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/441379"
+        },
+        "creation_context": "1848; ; Oil on canvas; accession 2019.167.4",
+        "visual_clues": "Met公式元画像と表示JPEGを全バイトのSHAと縮小RMSで照合し目視。横長の低く暗い海面に小舟と複数の小さな人影があり、右側には大きな平たい頂を持つ岩の岬。空には厚い灰黒色の雲が広がり、雲の切れ間から落ちる月光が海面に銀色の帯を作る。淡い月光の狭い領域と黒々した海・岬の対比。",
+        "uncertainty_note": "画中の舟に画家本人が乗っているとは主張しない。絵は訪問から16年後に描いたもので、その場での写生と断定しない。1848年に展示されたのがこの個体か別バージョンかは美術館も不確実とする。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "畏敬"
+        ],
+        "secondary": [
+          "孤独"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42970025681",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "暗い雲が空を覆い、雲の切れ間から落ちる月の光が海面を細く照らしています。手前には小さな舟、その先には大きな岩の岬が広がります。わずかな光と広い暗がりの対比が、自然の大きさを感じさせます。\n\nノルウェーの画家ペーダー・バルケがノール岬を訪れたのは、1832年の一度きりでした。それでもその体験は、生涯を通じて繰り返し描く題材となりました。この絵は訪問から16年後の1848年に制作されています。\n\n暗い色調と勢いのある筆遣いは、バルケが成熟期に好んだ表現です。師であるダールの穏やかな写実とは異なり、月光と岩壁を大胆にまとめています。舟の小ささと岬の大きさを見比べると、人の存在と自然の広がりがいっそう強く感じられます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/441379"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-441379",
+    "title": "The North Cape by Moonlight",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/441379",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/441379",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1740-001_cropped.jpg",
+      "sha256": "9d900f4cf9e0db79df87d43758aac639f319ba5d3f0f6c825a6265c4b32d5a9e",
+      "byte_length": 68092,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42970025681",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-1740-001_cropped.jpg",
+        "sha256": "6256785d860a5af36221f98bb66b0f3682053bbf524304a0cbccc7df4441cb4c",
+        "byte_length": 1240553,
+        "width": 3928,
+        "height": 2836,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 4.22520",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2019.167.4"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-441379",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-441379.json",
+  "candidate_sha256": "804333b8c6c7fe1ced4660e5418abf872910c68ce88fbddc4f31be2c8e1a324e",
+  "draft_path": "drafts/visitor-explanations/met-441379.json",
+  "draft_sha256": "f5635641e83724086f4ea7ffbf6dbf0247a4c2e563109af7d8ded21104dc29ca",
+  "baseline": {
+    "artworks_sha256": "3a9e5f65df1616b89d654752e9570b1bae32a2fe32061bbd50badbbc9888eaf9",
+    "image_registry_sha256": "e54b46394c3e636891a0786e1035b1295bae1d5de0ef47e8686cbc44561928f9"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/441379",
+      "source_excerpt": "Balke visited the North Cape only once, in 1832",
+      "visitor_claim": "ノルウェーの画家ペーダー・バルケがノール岬を訪れたのは、1832年の一度きりでした",
+      "source_section": "Overview: single visit to the North Cape"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/441379",
+      "source_excerpt": "The tenebrous palette and expressive brushwork seen in this moonlit view",
+      "visitor_claim": "暗い色調と勢いのある筆遣いは、バルケが成熟期に好んだ表現です",
+      "source_section": "Overview: palette and brushwork in mature style"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/441379",
+      "location": "Met object Overview and Artwork Details: Overview: single visit to the North Cape | Overview: palette and brushwork in mature style",
+      "finding": "Met公式作品別Overviewによると画家ペーダー・バルケはノール岬を1832年に一度だけ訪れ、その体験が終生の想像力の基点になった。1848年の作品は暗い色調と表現的な筆遣いが成熟期の特徴で、師ヨハン・クリスチャン・ダールの抑制された自然主義と対照的である。1848年秋オスロで本作か別バージョンが展示された際、批評家が題材や瞬間の独特の捉え方に関心を示した。Metの関連記事ではノール岬を船の甲板から見た16年前の記憶に基づくと説明。画面は実景の写真のような再現ではなく劇的な自然の印象を強調する。 Visual subject based on specific same-object source image: Met公式元画像と表示JPEGを全バイトのSHAと縮小RMSで照合し目視。横長の低く暗い海面に小舟と複数の小さな人影があり、右側には大きな平たい頂を持つ岩の岬。空には厚い灰黒色の雲が広がり、雲の切れ間から落ちる月光が海面に銀色の帯を作る。淡い月光の狭い領域と黒々した海・岬の対比。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/441379",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42970025681",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/441379",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42970025681"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/441379",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 441379, The North Cape by Moonlight, Peder Balke, 1848, 2019.167.4. Attribution caveats and source classifications preserved.",
+      "image_match": "Met公式元画像と表示JPEGを全バイトのSHAと縮小RMSで照合し目視。横長の低く暗い海面に小舟と複数の小さな人影があり、右側には大きな平たい頂を持つ岩の岬。空には厚い灰黒色の雲が広がり、雲の切れ間から落ちる月光が海面に銀色の帯を作る。淡い月光の狭い領域と黒々した海・岬の対比。 API official primary JPEG complete hashes/dimensions, downscale RMS 4.22520.",
+      "historical_interpretation": "Met公式作品別Overviewによると画家ペーダー・バルケはノール岬を1832年に一度だけ訪れ、その体験が終生の想像力の基点になった。1848年の作品は暗い色調と表現的な筆遣いが成熟期の特徴で、師ヨハン・クリスチャン・ダールの抑制された自然主義と対照的である。1848年秋オスロで本作か別バージョンが展示された際、批評家が題材や瞬間の独特の捉え方に関心を示した。Metの関連記事ではノール岬を船の甲板から見た16年前の記憶に基づくと説明。画面は実景の写真のような再現ではなく劇的な自然の印象を強調する。 Limits: 画中の舟に画家本人が乗っているとは主張しない。絵は訪問から16年後に描いたもので、その場での写生と断定しない。1848年に展示されたのがこの個体か別バージョンかは美術館も不確実とする。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['畏敬', '孤独']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1740-001_cropped.jpg",
+      "sha256": "9d900f4cf9e0db79df87d43758aac639f319ba5d3f0f6c825a6265c4b32d5a9e",
+      "byte_length": 68092,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式元画像と表示JPEGを全バイトのSHAと縮小RMSで照合し目視。横長の低く暗い海面に小舟と複数の小さな人影があり、右側には大きな平たい頂を持つ岩の岬。空には厚い灰黒色の雲が広がり、雲の切れ間から落ちる月光が海面に銀色の帯を作る。淡い月光の狭い領域と黒々した海・岬の対比。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42970025681"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-1740-001_cropped.jpg",
+      "sha256": "6256785d860a5af36221f98bb66b0f3682053bbf524304a0cbccc7df4441cb4c",
+      "byte_length": 1240553,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式元画像と表示JPEGを全バイトのSHAと縮小RMSで照合し目視。横長の低く暗い海面に小舟と複数の小さな人影があり、右側には大きな平たい頂を持つ岩の岬。空には厚い灰黒色の雲が広がり、雲の切れ間から落ちる月光が海面に銀色の帯を作る。淡い月光の狭い領域と黒々した海・岬の対比。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42970025681"
+    }
+  ],
+  "notes": [
+    "Sequential addition 377; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}

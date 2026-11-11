@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-853449",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-853449.json",
+  "candidate_sha256": "7fbbfdf35f9037dbc5c22091720fc690fedd55d273ff0a73446ac29b9a9e918b",
+  "draft_path": "drafts/visitor-explanations/met-853449.json",
+  "draft_sha256": "fe3931723d079655756ae41aa51e65e0b823b37a60455bca4528e01c6b0ee1e6",
+  "baseline": {
+    "artworks_sha256": "ee183dc0dde0165c4f9448bf9a754169e4911191509e1c82c4e6a769a6e4cbaf",
+    "image_registry_sha256": "d0719586fc07f88fd4dfeeaae40f8b75cef46a426f0d376c4fb8537192d19293"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853449",
+      "source_excerpt": "a sixteen-year-old girl professed the vows of a Conceptionist nun",
+      "visitor_claim": "16歳の少女がメキシコシティの修道院で修道女となった際の肖像画です",
+      "source_section": "Overview: 16-year-old's profession of vows"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853449",
+      "source_excerpt": "The portrait would have been displayed in the home of her parents",
+      "visitor_claim": "この絵はもともと彼女の両親の家に飾られたと考えられています",
+      "source_section": "Overview: intended family-home display"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/853449",
+      "location": "Met object Overview and Artwork Details: Overview: 16-year-old's profession of vows | Overview: intended family-home display",
+      "finding": "Met公式作品別Overviewは、1797年に16歳のフアナ・バルデスがメキシコシティのレヒナ・コエリ修道院で無原罪の御宿り会の修道女となり、ソル・フアナ・デ・ヌエストラ・セニョーラ・デ・グアダルーペという新たな名を得た際の肖像と説明する。『戴冠した修道女』と呼ばれる新スペイン固有のジャンルで、結婚の冠と指輪は『キリストの花嫁』の身分を示す。胸の大きなメダイには聖母マリアとその両親聖ヨアキム・聖アンナ、手に持つ小さな衣装付きの幼子キリスト像は祝福する右手と世界を意味する青い球を持つ。親の家に掲げることで家族の信仰・財産・社会的地位と、離れて暮らす娘の存在を伝えたとMetは述べる。作者ドミンゴ・オルティス。 Visual subject based on specific same-object source image: 公式原寸・表示JPEGとサムネイルを別々に確認。暗い褐色の背景の中に、金色の背の高い冠をかぶり青と白の修道服を着た若い女性が正面からやや斜めに立つ。胸に大きな丸い絵入りの徽章、右手側に衣装を着た幼い人物の小彫像。最下部に細字の銘文帯。新たな宗教名や年齢はMet本文の根拠であり画面から読めたとは主張しない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853449",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42970025681",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853449",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42970025681"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853449",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 853449, Portrait of Sor Juana de Nuestra Señora de Guadalupe, Domingo Ortiz, 1797, 2021.430. Attribution caveats and source classifications preserved.",
+      "image_match": "公式原寸・表示JPEGとサムネイルを別々に確認。暗い褐色の背景の中に、金色の背の高い冠をかぶり青と白の修道服を着た若い女性が正面からやや斜めに立つ。胸に大きな丸い絵入りの徽章、右手側に衣装を着た幼い人物の小彫像。最下部に細字の銘文帯。新たな宗教名や年齢はMet本文の根拠であり画面から読めたとは主張しない。 API official primary JPEG complete hashes/dimensions, downscale RMS 6.51464.",
+      "historical_interpretation": "Met公式作品別Overviewは、1797年に16歳のフアナ・バルデスがメキシコシティのレヒナ・コエリ修道院で無原罪の御宿り会の修道女となり、ソル・フアナ・デ・ヌエストラ・セニョーラ・デ・グアダルーペという新たな名を得た際の肖像と説明する。『戴冠した修道女』と呼ばれる新スペイン固有のジャンルで、結婚の冠と指輪は『キリストの花嫁』の身分を示す。胸の大きなメダイには聖母マリアとその両親聖ヨアキム・聖アンナ、手に持つ小さな衣装付きの幼子キリスト像は祝福する右手と世界を意味する青い球を持つ。親の家に掲げることで家族の信仰・財産・社会的地位と、離れて暮らす娘の存在を伝えたとMetは述べる。作者ドミンゴ・オルティス。 Limits: 本人が自主的に入会した心理や家族の感情を断定しない。『キリストの花嫁』は信仰上の象徴的な呼称。ソル・フアナは著名詩人ソル・フアナ・イネス・デ・ラ・クルスと同一人物ではない。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: []",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-25528-001.jpg",
+      "sha256": "78c661d559c86e483b96eb62f250e94b21b96a0f8ae0a5b12df75cdae1383275",
+      "byte_length": 128698,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "公式原寸・表示JPEGとサムネイルを別々に確認。暗い褐色の背景の中に、金色の背の高い冠をかぶり青と白の修道服を着た若い女性が正面からやや斜めに立つ。胸に大きな丸い絵入りの徽章、右手側に衣装を着た幼い人物の小彫像。最下部に細字の銘文帯。新たな宗教名や年齢はMet本文の根拠であり画面から読めたとは主張しない。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42970025681"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-25528-001.jpg",
+      "sha256": "ad848d5848e92b4e39b7ba129a08904dc58d32d55b207c760afd4650c6e2efd4",
+      "byte_length": 4928598,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "公式原寸・表示JPEGとサムネイルを別々に確認。暗い褐色の背景の中に、金色の背の高い冠をかぶり青と白の修道服を着た若い女性が正面からやや斜めに立つ。胸に大きな丸い絵入りの徽章、右手側に衣装を着た幼い人物の小彫像。最下部に細字の銘文帯。新たな宗教名や年齢はMet本文の根拠であり画面から読めたとは主張しない。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42970025681"
+    }
+  ],
+  "notes": [
+    "Sequential addition 375; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}
