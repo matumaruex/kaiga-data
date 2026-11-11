@@ -1,0 +1,153 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-888892",
+  "artwork": {
+    "id": "met-888892",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 888892,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/888892",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/888892",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Painting of the Qutb Minar",
+      "title_ja_provisional": "クトゥブ・ミナールを描いた細密画",
+      "artist": "Unknown",
+      "creation_date_display": "19th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "India, Delhi (museum geographical attribution; API culture unspecified)",
+      "accession_number": "2024.3.1"
+    },
+    "image": {
+      "image_id": "met-888892-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-32733-001.jpg",
+      "source_registry_id": "met-888892",
+      "local_path": "/artworks/met-888892.jpg",
+      "sha256": "e57e60abc7b4874a19c55d66c1af134373a291622c0602a42eb0089a99b669aa",
+      "byte_length": 88437,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42946160945",
+      "source_accession_number": "2024.3.1",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP-32733-001.jpg",
+        "sha256": "07bf6e9a29d91a1fc819a153f12369b3c9c73a5248abd99a809d6a53e557d0db",
+        "byte_length": 2175679,
+        "width": 3556,
+        "height": 3459,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 6.40095",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "落ち着き"
+      ],
+      "themes": [
+        "都市",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/888892",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "19世紀インドで英国からの訪問者に向けて制作された、歴史建築の小さな観光記念品を鑑賞したい",
+            "reason": "Met公式作品Overviewは、象牙に描かれた円形の細密画で、デリーに13世紀に建てられたモスク付属の塔クトゥブ・ミナールを主題とすると説明する。18世紀ヨーロッパで流行した象牙の円形肖像画が、東インド会社の進出でインドに広がり、訪問者の記念品として著名建築の描写にも転じた。19世紀のインドの画家が英国人旅行者向けに作り、英国へ持ち帰られるものもあった。この個体は黒色の枠と幅広い台紙の中央に円形絵が飾られている。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "材料が象牙である歴史的事実と画像利用の権利は区別。現代の象牙製品の流通を推奨・合法と断言しない。作者と制作地は公式の『Unknown』『Attributed to India, Delhi』の範囲に留める。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met公式作品Overviewは、象牙に描かれた円形の細密画で、デリーに13世紀に建てられたモスク付属の塔クトゥブ・ミナールを主題とすると説明する。18世紀ヨーロッパで流行した象牙の円形肖像画が、東インド会社の進出でインドに広がり、訪問者の記念品として著名建築の描写にも転じた。19世紀のインドの画家が英国人旅行者向けに作り、英国へ持ち帰られるものもあった。この個体は黒色の枠と幅広い台紙の中央に円形絵が飾られている。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/888892"
+        },
+        "creation_context": "19th century; ; Ivory; painted; accession 2024.3.1",
+        "visual_clues": "Met公式表示JPEGサムネイルを実見。正方形の黒い額、白い幅広の余白、中央に小さな丸い画面があり、縦長の塔と周囲の空・赤みがかった遺構・緑の地面が細密に描かれる。額装込みの画像なので、現物全面が象牙の画面だとは記さない。",
+        "uncertainty_note": "材料が象牙である歴史的事実と画像利用の権利は区別。現代の象牙製品の流通を推奨・合法と断言しない。作者と制作地は公式の『Unknown』『Attributed to India, Delhi』の範囲に留める。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42946160945",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "黒い額の広い余白の中心に、小さな円形の絵が収められています。目を近づけると、空にそびえる細長い塔と、その周囲の建物や緑が細かく描かれていることが分かります。\n\nこの象牙の細密画には、インド・デリーのクトゥブ・ミナールが描かれています。塔は13世紀に隣接するモスクのためのミナレットとして建てられました。19世紀のインドの画家たちは、英国からの旅行者に向けてこうした絵を制作しました。建物の名所を円形の小さな画面に収める方法は、ヨーロッパで流行した肖像細密画から発展したものです。\n\n大きな建築を手のひらほどの絵で持ち帰るという、当時の旅の記念品のあり方が感じられます。額の中の小さな景色へ目を凝らす鑑賞を楽しめます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/888892"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-888892",
+    "title": "Painting of the Qutb Minar",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/888892",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/888892",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-32733-001.jpg",
+      "sha256": "e57e60abc7b4874a19c55d66c1af134373a291622c0602a42eb0089a99b669aa",
+      "byte_length": 88437,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42946160945",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP-32733-001.jpg",
+        "sha256": "07bf6e9a29d91a1fc819a153f12369b3c9c73a5248abd99a809d6a53e557d0db",
+        "byte_length": 2175679,
+        "width": 3556,
+        "height": 3459,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 6.40095",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2024.3.1"
+  }
+}

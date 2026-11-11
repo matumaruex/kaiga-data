@@ -42403,6 +42403,374 @@
         "audit_sha256": "7b90ba58dd057d573619f861764725ac0cc537377836728664c75a6d6ee10214",
         "record_sha256": "d4ee7db4a0c033ddb7c517b2f8563095ab4235c9f3ba986474b3451140141d41"
       }
+    },
+    {
+      "id": "met-748432",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 748432,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/748432",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/748432",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "General View of Inner Geumgang",
+        "title_ja_provisional": "金剛内山総図",
+        "artist": "Sin Hak-gwon (artist name: Doam)",
+        "creation_date_display": "mid-19th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Korea",
+        "accession_number": "2017.185"
+      },
+      "image": {
+        "image_id": "met-748432-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-13538-001.jpg",
+        "source_registry_id": "met-748432",
+        "local_path": "/artworks/met-748432.jpg",
+        "sha256": "316a9aba4713af488b6455d60d83e30de0919137c4c906c678c3690b3144ac30",
+        "byte_length": 41779,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42946160945",
+        "source_accession_number": "2017.185",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-13538-001.jpg",
+          "sha256": "13e1dacd04110ef16adc3b84a0f507eedb64fa82285b1ac9084fe57eef91bdbb",
+          "byte_length": 1220905,
+          "width": 4000,
+          "height": 915,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 8.73996",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 1
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/748432",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "朝鮮時代の金剛山の名所を描いた長大なパノラマから風景と旅への憧れをたどりたい",
+              "reason": "Met公式作品Overviewによれば、金剛山の内側の景色を六枚の紙をつなげて横長のパノラマに表し、峰・川・丘・寺院を右から左へ描く。絵の中には著名な名所46か所の名称が記されている。作者申學權は金剛山を描いた先人鄭敾の画風を意識して模し、細い峰を二重の輪郭線で表す点を自分の特徴とした。実際に金剛山を訪れられない人も、こうした絵によって名山への思いを満たしたとMetは説明している。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "山への憧れは資料の一般的な鑑賞者の文脈であり作者個人の実際の旅行経験は断定しない。金剛山は朝鮮半島の名山で、現代国家の文化的帰属を単純化しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品Overviewによれば、金剛山の内側の景色を六枚の紙をつなげて横長のパノラマに表し、峰・川・丘・寺院を右から左へ描く。絵の中には著名な名所46か所の名称が記されている。作者申學權は金剛山を描いた先人鄭敾の画風を意識して模し、細い峰を二重の輪郭線で表す点を自分の特徴とした。実際に金剛山を訪れられない人も、こうした絵によって名山への思いを満たしたとMetは説明している。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/748432"
+          },
+          "creation_context": "mid-19th century; Korea; Six sheets of paper mounted as a single panel; ink and light color on paper; accession 2017.185",
+          "visual_clues": "Met公式主表示JPEGをサムネイルで実見し、原寸JPEGとも同定。極端に横長の単一画面。黄土色がかった地に薄墨で多数の鋭い峰と谷、木々が右から左へ連なり、画面の上部付近に小さな文字が配置されている。小さな名所の個別判読は公式本文に依拠し、目視で全46箇所の名を読めたとは言わない。",
+          "uncertainty_note": "山への憧れは資料の一般的な鑑賞者の文脈であり作者個人の実際の旅行経験は断定しない。金剛山は朝鮮半島の名山で、現代国家の文化的帰属を単純化しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "畏敬"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42946160945",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "細長い画面に、鋭く伸びた山の峰や、谷を縫う川、丘と寺院が次々に現れます。右から左へ視線を送ると、山の奥を旅するように景色がつながっていきます。\n\nこれは19世紀半ばの朝鮮で描かれた金剛山の全景です。画中には名所46か所の名前が書き込まれています。作者の申學權（シン・ハクグォン）は、金剛山を描いた先人・鄭敾（チョン・ソン）の表現を意識しながら、自身の特徴として細い峰の輪郭を二重に描きました。\n\n実際に名山を訪ねられなかった人々も、こうした絵を眺めて旅への思いを深めたとメトロポリタン美術館は説明しています。名所を探す地図のようにも、連続する岩山の表情を楽しむ風景画としても見ることができます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/748432"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-748432-2026-11-11.json",
+        "audit_sha256": "04c573a9026ec55ae61327e6dc6bef5242d2031939c56cff5cec0b0d12684713",
+        "record_sha256": "3d04a246f5eb002c810f7b213100d89e9f7a8cac7afa680b8c1759035c3420fa"
+      }
+    },
+    {
+      "id": "met-888892",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 888892,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/888892",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/888892",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Painting of the Qutb Minar",
+        "title_ja_provisional": "クトゥブ・ミナールを描いた細密画",
+        "artist": "Unknown",
+        "creation_date_display": "19th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India, Delhi (museum geographical attribution; API culture unspecified)",
+        "accession_number": "2024.3.1"
+      },
+      "image": {
+        "image_id": "met-888892-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-32733-001.jpg",
+        "source_registry_id": "met-888892",
+        "local_path": "/artworks/met-888892.jpg",
+        "sha256": "e57e60abc7b4874a19c55d66c1af134373a291622c0602a42eb0089a99b669aa",
+        "byte_length": 88437,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42946160945",
+        "source_accession_number": "2024.3.1",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP-32733-001.jpg",
+          "sha256": "07bf6e9a29d91a1fc819a153f12369b3c9c73a5248abd99a809d6a53e557d0db",
+          "byte_length": 2175679,
+          "width": 3556,
+          "height": 3459,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 6.40095",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "都市",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/888892",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "19世紀インドで英国からの訪問者に向けて制作された、歴史建築の小さな観光記念品を鑑賞したい",
+              "reason": "Met公式作品Overviewは、象牙に描かれた円形の細密画で、デリーに13世紀に建てられたモスク付属の塔クトゥブ・ミナールを主題とすると説明する。18世紀ヨーロッパで流行した象牙の円形肖像画が、東インド会社の進出でインドに広がり、訪問者の記念品として著名建築の描写にも転じた。19世紀のインドの画家が英国人旅行者向けに作り、英国へ持ち帰られるものもあった。この個体は黒色の枠と幅広い台紙の中央に円形絵が飾られている。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "材料が象牙である歴史的事実と画像利用の権利は区別。現代の象牙製品の流通を推奨・合法と断言しない。作者と制作地は公式の『Unknown』『Attributed to India, Delhi』の範囲に留める。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品Overviewは、象牙に描かれた円形の細密画で、デリーに13世紀に建てられたモスク付属の塔クトゥブ・ミナールを主題とすると説明する。18世紀ヨーロッパで流行した象牙の円形肖像画が、東インド会社の進出でインドに広がり、訪問者の記念品として著名建築の描写にも転じた。19世紀のインドの画家が英国人旅行者向けに作り、英国へ持ち帰られるものもあった。この個体は黒色の枠と幅広い台紙の中央に円形絵が飾られている。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/888892"
+          },
+          "creation_context": "19th century; ; Ivory; painted; accession 2024.3.1",
+          "visual_clues": "Met公式表示JPEGサムネイルを実見。正方形の黒い額、白い幅広の余白、中央に小さな丸い画面があり、縦長の塔と周囲の空・赤みがかった遺構・緑の地面が細密に描かれる。額装込みの画像なので、現物全面が象牙の画面だとは記さない。",
+          "uncertainty_note": "材料が象牙である歴史的事実と画像利用の権利は区別。現代の象牙製品の流通を推奨・合法と断言しない。作者と制作地は公式の『Unknown』『Attributed to India, Delhi』の範囲に留める。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42946160945",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "黒い額の広い余白の中心に、小さな円形の絵が収められています。目を近づけると、空にそびえる細長い塔と、その周囲の建物や緑が細かく描かれていることが分かります。\n\nこの象牙の細密画には、インド・デリーのクトゥブ・ミナールが描かれています。塔は13世紀に隣接するモスクのためのミナレットとして建てられました。19世紀のインドの画家たちは、英国からの旅行者に向けてこうした絵を制作しました。建物の名所を円形の小さな画面に収める方法は、ヨーロッパで流行した肖像細密画から発展したものです。\n\n大きな建築を手のひらほどの絵で持ち帰るという、当時の旅の記念品のあり方が感じられます。額の中の小さな景色へ目を凝らす鑑賞を楽しめます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/888892"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-888892-2026-11-11.json",
+        "audit_sha256": "3bdfd9661934f6d1e2803bd63cce23b7e48f8c10d8c246ac60fd030fbef5e088",
+        "record_sha256": "f56148a874bcc413d3320a5840077482ba0cfe61f9ed3d9727e820ca117082ea"
+      }
+    },
+    {
+      "id": "met-436976",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436976,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436976",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436976",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Still Life with Poppy, Insects, and Reptiles",
+        "title_ja_provisional": "ケシと昆虫・爬虫類の静物",
+        "artist": "Otto Marseus van Schrieck",
+        "creation_date_display": "ca. 1670",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Dutch (artist nationality; Met API culture unspecified)",
+        "accession_number": "53.155"
+      },
+      "image": {
+        "image_id": "met-436976-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145933.jpg",
+        "source_registry_id": "met-436976",
+        "local_path": "/artworks/met-436976.jpg",
+        "sha256": "a98a7524e38e5ccc77d248d6eb55d7ee926c2b9b75e5a510b0236fc79e40cf1a",
+        "byte_length": 85062,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42946160945",
+        "source_accession_number": "53.155",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP145933.jpg",
+          "sha256": "9fce409db6611c71ea6f6753dc9b7c7184dc9b8d47c8f0c1c6ee8fc3281921ac",
+          "byte_length": 2338342,
+          "width": 2916,
+          "height": 3722,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 4.66447",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2
+        },
+        "tones": [
+          "緊張"
+        ],
+        "themes": [
+          "自然"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436976",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "17世紀オランダの自然観察から生まれた森の地表の静物画で、小動物の関係を探したい",
+              "reason": "Met公式作品Overviewによれば、マルセウス・ファン・スリークは森の下草を調べることから「嗅ぎ回る人」という呼び名を持ち、実物の自然標本を採取し顕微鏡も使って観察するという17世紀の経験的研究の文化に参加していた。絵は花瓶ではなく野外に生えるケシの周囲で、トカゲ・ヘビ・カタツムリ・チョウなどが関わる森の地表を描いた。複数のモチーフは画室で個別に研究して一つの画面に組み合わせたと説明される。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "画家が実際に野外で一度にこの配置を目撃したとは主張せず、スタジオ内の複合構図として説明する。具体的な捕食の瞬間や画家の思想は、対象のMet本文を越えて断定しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品Overviewによれば、マルセウス・ファン・スリークは森の下草を調べることから「嗅ぎ回る人」という呼び名を持ち、実物の自然標本を採取し顕微鏡も使って観察するという17世紀の経験的研究の文化に参加していた。絵は花瓶ではなく野外に生えるケシの周囲で、トカゲ・ヘビ・カタツムリ・チョウなどが関わる森の地表を描いた。複数のモチーフは画室で個別に研究して一つの画面に組み合わせたと説明される。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436976"
+          },
+          "creation_context": "ca. 1670; ; Oil on canvas; accession 53.155",
+          "visual_clues": "Met公式表示JPEGサムネイルを目視。極端に暗い緑がかった地面に、上部で赤い花を咲かせるケシが目立つ。下部の落ち葉・地面・菌類・小さな生物の形が入り組むが、サムネイルだけで動物の種を全部判読したとは言わない。",
+          "uncertainty_note": "画家が実際に野外で一度にこの配置を目撃したとは主張せず、スタジオ内の複合構図として説明する。具体的な捕食の瞬間や画家の思想は、対象のMet本文を越えて断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42946160945",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "暗い森の地面から、赤いケシの花が立ち上がっています。足元には落ち葉や草が重なり、よく見ると生き物がひそんでいます。花を中心にした明るい静物画とは違い、薄暗い自然の一角そのものが題材です。\n\nオットー・マルセウス・ファン・スリークは、17世紀のオランダで自然を細かく観察した画家でした。採集した自然の標本を調べ、顕微鏡のような新しい道具も観察に使いました。美術館の解説によれば、画面にはトカゲ、ヘビ、カタツムリ、チョウなどが関わり合う様子が描かれています。\n\n描かれた生き物は、一度に同じ場所で見つけたものではなく、画室で個々に研究したモチーフを組み合わせたものです。草の陰や花の下を順に眺めると、絵の中に小さな自然観察の世界が広がります。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/436976"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-436976-2026-11-11.json",
+        "audit_sha256": "ebcf15c25ccb3779851674ce7ec2a52ffaf57484b6f8a82639bca4462d2cc5af",
+        "record_sha256": "40da95abc8a82056f7c6e7536a8406438dcbafc788c58094ff89f7159585b25f"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
