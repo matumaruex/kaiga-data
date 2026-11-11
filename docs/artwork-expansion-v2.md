@@ -15,7 +15,7 @@
 - 導入時の新規登録ソースは **Met（met-ID）とシカゴ美術館（aic-ID）**。サイトの作品IDと画像ホストの許可、既存データの形式を維持する。他館に広げる際は公式API/所蔵館ID・ライセンス・画像ホスト・画像の同定・アプリの安全な配信・テストを一式で追加する。未対応の館を強制登録しない。
 - baseline-300-ids.jsonに保存した既存300作品のID集合は削除しない。画像台帳の整合と既存作者帰属は維持し、新規作品には必ず1件の画像台帳記録とv2完成監査を付ける。
 - 登録案は drafts/artwork-additions/ID.json（作品レコードと画像台帳レコード）、解説と出典の原稿は drafts/visitor-explanations/ID.json、監査は docs/artwork-completion-audits/ID-日付.json に置く。登録監査のスキーマは scripts/add_artwork.py に従う。監査フラグだけを機械的に埋めて「調査済み」としない。
-- **今後の新規登録だけ**監査形式 `artwork-v2-new-registration-2` を使う。`official_text_checks` に「作品別公式ページURL／本文の該当見出し／短い原文抜粋／解説日本語本文の対応箇所」を記録する。`scripts/add_artwork.py` はURLが対象作品の公式ページであること、抜粋が実質的な長さであること、日本語の該当文が登録本文に存在することを検査する。公式ページを実際に読む作業は省略できない。**抜粋が本当に公式ページにあるかは通常のCIでは自動保証しない**（MetがGitHub Actionsからの直接アクセスにHTTP 429を返すため）。オンライン照合は可能な時だけ `python scripts/verify_official_source_text.py --audit docs/artwork-completion-audits/ID-日付.json --online` で追加検査する。取得不能は未確認として記録し、検証したと装わない。**旧監査（既存313件）は過去記録として変更せず、再確認が必要な作品は別途追跡する。**
+- **今後の新規登録だけ**監査形式 `artwork-v2-new-registration-2` を使う。`official_text_checks` に「作品別公式ページURL／本文の該当見出し／短い原文抜粋／解説日本語本文の対応箇所」を記録する。`scripts/add_artwork.py` はURLが対象作品の公式ページであること、抜粋が実質的な長さであること、日本語の該当文が登録本文に存在することを検査する。公式ページを実際に読む作業は省略できない。**抜粋が本当に公式ページにあるかは通常のCIでは自動保証しない**（MetがGitHub Actionsからの直接アクセスにHTTP 429を返すため）。オンライン照合は可能な時だけ `python scripts/verify_official_source_text.py --audit docs/artwork-completion-audits/ID-日付.json --online` で追加検査する。取得不能は未確認として記録し、検証したと装わない。**旧監査（既存313件）は過去記録として変更せず、再確認が必要な作品は別途追跡する。** **新規登録の完成判定は作品別監査記録に一本化し、旧方式の `ai_content_review_status`・`source_evidence_review_status`・`image_subject_match_status` は新規作品へ追加しない。既存の登録済み作品は監査ハッシュとの対応を守るため変更しない。**
 
 - アプリはmainのDBをおおむね24時間キャッシュし、再デプロイ時にはmainの最新版を初期DBへ同期する。追加直後の全利用者への即時反映までは保証しない。
 
