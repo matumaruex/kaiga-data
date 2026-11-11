@@ -1,0 +1,153 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-39956",
+  "artwork": {
+    "id": "met-39956",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 39956,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/39956",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/39956",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Freestanding Screen with Dancer",
+      "title_ja_provisional": "舞姫図・紅葉蒔絵衝立",
+      "artist": "Unknown artist",
+      "creation_date_display": "17th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "29.100.520"
+    },
+    "image": {
+      "image_id": "met-39956-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/29_100_520.JPG",
+      "source_registry_id": "met-39956",
+      "local_path": "/artworks/met-39956.jpg",
+      "sha256": "4b3f3cfbfe68ed492a9f46e57cd1b9a9274e6c66161be7c16876acb1a1e030a0",
+      "byte_length": 65833,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42940134395",
+      "source_accession_number": "29.100.520",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/29_100_520.JPG",
+        "sha256": "a32e2dac628bc781405d0738e9b16544d8b07654565ae385bb135263da5d3646",
+        "byte_length": 106213,
+        "width": 590,
+        "height": 890,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 9.03279",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "余韻"
+      ],
+      "themes": [
+        "日常",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/39956",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "17世紀の舞姫の衣装や所作と、絵画が後世に衝立へ仕立てられた経緯を鑑賞したい",
+            "reason": "Met作品別Overviewは、舞姫の大胆な衣装模様が存在感と動きの流れを強調し、顔と手の繊細な輪郭が感情のニュアンスを伝えると説明。絵画はもとはより大きな構図の一部だった可能性があり、現在の衝立への表装は19世紀。下部の漆器部分は梨地の上に蒔絵の装飾がある。作品制作時期17世紀と表装19世紀を分けて記述する。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "踊りの具体的な曲名・舞台、作者名を断定しない。現在の衝立が17世紀に作られたとはせず、19世紀の表装と区別する。元の大画面は可能性であり確証ではない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewは、舞姫の大胆な衣装模様が存在感と動きの流れを強調し、顔と手の繊細な輪郭が感情のニュアンスを伝えると説明。絵画はもとはより大きな構図の一部だった可能性があり、現在の衝立への表装は19世紀。下部の漆器部分は梨地の上に蒔絵の装飾がある。作品制作時期17世紀と表装19世紀を分けて記述する。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/39956"
+        },
+        "creation_context": "17th century; Japan; Ink, color, and gold on gilt paper, mounted on a lacquered screen; accession 29.100.520",
+        "visual_clues": "Met同一IDの公式JPEGをサムネイル化して目視。黒髪の一人の踊り手が金茶の背景の前で、渦巻き模様のある緑がかった小袖を着て、右手を横に伸ばし扇状の小道具を持つ。足先が左に向くように軽く動きをつけ、長方形の絵画の下に蒔絵風の下部パネルと左右の脚を備えた衝立。",
+        "uncertainty_note": "踊りの具体的な曲名・舞台、作者名を断定しない。現在の衝立が17世紀に作られたとはせず、19世紀の表装と区別する。元の大画面は可能性であり確証ではない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42940134395",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "金色がかった背景の前に、華やかな衣装を着た舞姫が一人立っています。袖や裾の大胆な模様が人物の動きを強調し、顔や手の細い線は所作の繊細さを伝えています。\n\n絵そのものは17世紀の日本で描かれたものです。メトロポリタン美術館によれば、もとはもっと大きな構図の一部だった可能性があります。現在見られる衝立は19世紀に仕立てられたもので、絵の下には「梨地」に「蒔絵」で飾られた部分があります。\n\n踊り手の衣装の模様から、手先の小さな動きへ視線を移してみてください。古い絵画が別の時代の装飾具に組み込まれ、今の姿となったことも作品の見どころです。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/39956"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-39956",
+    "title": "Freestanding Screen with Dancer",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/39956",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/39956",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/29_100_520.JPG",
+      "sha256": "4b3f3cfbfe68ed492a9f46e57cd1b9a9274e6c66161be7c16876acb1a1e030a0",
+      "byte_length": 65833,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42940134395",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/29_100_520.JPG",
+        "sha256": "a32e2dac628bc781405d0738e9b16544d8b07654565ae385bb135263da5d3646",
+        "byte_length": 106213,
+        "width": 590,
+        "height": 890,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 9.03279",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "29.100.520"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-764096",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-764096.json",
+  "candidate_sha256": "54a0d47582327dcd64ad4a95ba6dc67f7c6f73f26e93aa620174c00aad5bce6a",
+  "draft_path": "drafts/visitor-explanations/met-764096.json",
+  "draft_sha256": "4fb39b0d80e0e02fc1bee9a8ebce794aa2e8b4fd3d3079405462a61d090ee28c",
+  "baseline": {
+    "artworks_sha256": "72693dfed82269390af6d3101e48d7dd43843d453cecf82cccb22e5d7d2ea660",
+    "image_registry_sha256": "869245e7c2de4ff761eb3ab400e2610df14a0deed2745a694f21da9356950b1c"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/764096",
+      "source_excerpt": "Mary is represented half-length, holding the infant Christ in her arms",
+      "visitor_claim": "装飾的な衣をまとった聖母マリアが幼いイエスを抱き",
+      "source_section": "Overview: Virgin Mary and infant Christ"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/764096",
+      "source_excerpt": "The painting would have functioned as an aid to individual prayer and contemplation",
+      "visitor_claim": "個人の祈りや瞑想を助けるために使われた絵でした",
+      "source_section": "Overview: use for individual prayer"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/764096",
+      "location": "Met object Overview and Artwork Details: Overview: Virgin Mary and infant Christ | Overview: use for individual prayer",
+      "finding": "Met作品別Overviewでは、クスコ派に属する作品で、聖母の内面に聖霊が宿り受肉の神秘に参加する『聖母の魂』という民間信仰の主題だと解説される。マリアは幼いイエスを抱え、胸元に聖霊を表す鳩、頭上に光輪と天使頭部を伴う。頭部周囲の文字にはIHSと祈願文、下部では翼ある二人のプットーが個人の祈りに用いる銘文を載せた碑文を支える。個人の祈祷・瞑想を助ける絵だった。 Visual subject based on specific same-object source image: 公式同一作品表示JPEGの縮小画像を目視。正面に幼子を抱えたマリアの半身像。頭部の上に赤い文字が弧を描き、胸元に白い鳩、衣装に細密な金の模様。下部に左右一対の小天使、中央に銘文。暗い縁取りと金の光の効果。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764096",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42940134395",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/764096",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42940134395"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/764096",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 764096, The Soul of the Virgin Mary, Unknown artist, 18th century, 2018.836.3. Attribution caveats and source classifications preserved.",
+      "image_match": "公式同一作品表示JPEGの縮小画像を目視。正面に幼子を抱えたマリアの半身像。頭部の上に赤い文字が弧を描き、胸元に白い鳩、衣装に細密な金の模様。下部に左右一対の小天使、中央に銘文。暗い縁取りと金の光の効果。 API official primary JPEG complete hashes/dimensions, downscale RMS 5.83223.",
+      "historical_interpretation": "Met作品別Overviewでは、クスコ派に属する作品で、聖母の内面に聖霊が宿り受肉の神秘に参加する『聖母の魂』という民間信仰の主題だと解説される。マリアは幼いイエスを抱え、胸元に聖霊を表す鳩、頭上に光輪と天使頭部を伴う。頭部周囲の文字にはIHSと祈願文、下部では翼ある二人のプットーが個人の祈りに用いる銘文を載せた碑文を支える。個人の祈祷・瞑想を助ける絵だった。 Limits: 信仰内容と歴史的図像を説明するものであり、宗教的な奇跡の実在を断言しない。文字内容の翻訳はMetが解説した範囲に限り、視認できない細字は断定しない。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: []",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18755-013.jpg",
+      "sha256": "89172ed09bdf2b661ef2b868c87dcf627f05373087a6ea9ddbc4fbffbfcede55",
+      "byte_length": 156100,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "公式同一作品表示JPEGの縮小画像を目視。正面に幼子を抱えたマリアの半身像。頭部の上に赤い文字が弧を描き、胸元に白い鳩、衣装に細密な金の模様。下部に左右一対の小天使、中央に銘文。暗い縁取りと金の光の効果。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42940134395"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18755-013.jpg",
+      "sha256": "54321f3710ffda4b07cabc893f112a4575dbb813e7ac9caab710dc0e96e45f42",
+      "byte_length": 6208339,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "公式同一作品表示JPEGの縮小画像を目視。正面に幼子を抱えたマリアの半身像。頭部の上に赤い文字が弧を描き、胸元に白い鳩、衣装に細密な金の模様。下部に左右一対の小天使、中央に銘文。暗い縁取りと金の光の効果。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42940134395"
+    }
+  ],
+  "notes": [
+    "Sequential addition 344; prior artworks and image-source records unchanged.",
+    "Source Overview passages independently read via official museum page 2026-11-11. Separate AI pass is not human expert.",
+    "Official Met artwork Overview passages were reviewed against same-object catalogue pages and two limited English excerpts were bound to visitor claims."
+  ]
+}

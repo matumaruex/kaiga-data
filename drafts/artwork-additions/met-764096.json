@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-764096",
+  "artwork": {
+    "id": "met-764096",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 764096,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/764096",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764096",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "The Soul of the Virgin Mary",
+      "title_ja_provisional": "聖母マリアの魂",
+      "artist": "Unknown artist",
+      "creation_date_display": "18th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Peru (Cuzco)",
+      "accession_number": "2018.836.3"
+    },
+    "image": {
+      "image_id": "met-764096-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18755-013.jpg",
+      "source_registry_id": "met-764096",
+      "local_path": "/artworks/met-764096.jpg",
+      "sha256": "89172ed09bdf2b661ef2b868c87dcf627f05373087a6ea9ddbc4fbffbfcede55",
+      "byte_length": 156100,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42940134395",
+      "source_accession_number": "2018.836.3",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18755-013.jpg",
+        "sha256": "54321f3710ffda4b07cabc893f112a4575dbb813e7ac9caab710dc0e96e45f42",
+        "byte_length": 6208339,
+        "width": 3385,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 5.83223",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [],
+      "emotion_strengths": {},
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "共同体",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/764096",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "18世紀のクスコ派宗教画が祈りや瞑想に用いられた意図を理解したい",
+            "reason": "Met作品別Overviewでは、クスコ派に属する作品で、聖母の内面に聖霊が宿り受肉の神秘に参加する『聖母の魂』という民間信仰の主題だと解説される。マリアは幼いイエスを抱え、胸元に聖霊を表す鳩、頭上に光輪と天使頭部を伴う。頭部周囲の文字にはIHSと祈願文、下部では翼ある二人のプットーが個人の祈りに用いる銘文を載せた碑文を支える。個人の祈祷・瞑想を助ける絵だった。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "信仰内容と歴史的図像を説明するものであり、宗教的な奇跡の実在を断言しない。文字内容の翻訳はMetが解説した範囲に限り、視認できない細字は断定しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewでは、クスコ派に属する作品で、聖母の内面に聖霊が宿り受肉の神秘に参加する『聖母の魂』という民間信仰の主題だと解説される。マリアは幼いイエスを抱え、胸元に聖霊を表す鳩、頭上に光輪と天使頭部を伴う。頭部周囲の文字にはIHSと祈願文、下部では翼ある二人のプットーが個人の祈りに用いる銘文を載せた碑文を支える。個人の祈祷・瞑想を助ける絵だった。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/764096"
+        },
+        "creation_context": "18th century; Peru (Cuzco); Oil and gold on canvas; accession 2018.836.3",
+        "visual_clues": "公式同一作品表示JPEGの縮小画像を目視。正面に幼子を抱えたマリアの半身像。頭部の上に赤い文字が弧を描き、胸元に白い鳩、衣装に細密な金の模様。下部に左右一対の小天使、中央に銘文。暗い縁取りと金の光の効果。",
+        "uncertainty_note": "信仰内容と歴史的図像を説明するものであり、宗教的な奇跡の実在を断言しない。文字内容の翻訳はMetが解説した範囲に限り、視認できない細字は断定しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42940134395",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "装飾的な衣をまとった聖母マリアが幼いイエスを抱き、胸元には聖霊を示す鳩が描かれています。頭の周囲には文字が弧を描き、画面下には二人の小さな天使が祈りの言葉を記した板を支えています。\n\n18世紀のペルー・クスコで描かれたこの作品は、『聖母マリアの魂』という宗教的な主題を表したものです。マリアの内面に聖霊が宿るという信仰上の意味を、鳩や光、銘文によって示しています。メトロポリタン美術館によると、個人の祈りや瞑想を助けるために使われた絵でした。\n\n顔と幼子の表情を見たあと、胸元の小さな鳩、頭の周囲の文字、画面下の天使へと視線を移してみてください。一つの像に、見る人の祈りを導く要素が重ねられています。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/764096"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-764096",
+    "title": "The Soul of the Virgin Mary",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/764096",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/764096",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18755-013.jpg",
+      "sha256": "89172ed09bdf2b661ef2b868c87dcf627f05373087a6ea9ddbc4fbffbfcede55",
+      "byte_length": 156100,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42940134395",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18755-013.jpg",
+        "sha256": "54321f3710ffda4b07cabc893f112a4575dbb813e7ac9caab710dc0e96e45f42",
+        "byte_length": 6208339,
+        "width": 3385,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 5.83223",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2018.836.3"
+  }
+}
