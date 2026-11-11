@@ -145,7 +145,7 @@ def add(spec,sequence):
             "limitations":"Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
             "areas":["identity","image_match","historical_interpretation","emotion","visitor_text","rights"],
             "findings":{
-              "identity":f"Met object {num}: {o['title']}; {spec['artist']}, {o['objectDate']}; {o['accessionNumber']}. API artist differs in attribution framing if supplied; museum page preserves attribution. American Wing classification blank is restricted to verified oil-on-wood painting 921065." if num in (921065,45655) else f"Met exact object {num} title/date/creator/accession checked.",
+              "identity":f"Met object {num}, {o['title']}, {spec['artist']}, {o['objectDate']}, {o['accessionNumber']}. Attribution caveats and empty American Wing API classification preserved.",
               "image_match":spec["visual"]+f" API official primary JPEG complete hashes/dimensions, downscale RMS {rms:.5f}.",
               "historical_interpretation":spec["history"]+" Limits: "+spec["limits"],
               "emotion":"Artist's subjective mood not asserted; curated tags are grounded and may be zero: "+str(spec["emotions"]),
