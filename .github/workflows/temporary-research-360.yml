@@ -20,7 +20,7 @@ jobs:
           python - <<'PY'
           import json,requests,io,hashlib,math,time,base64
           from PIL import Image,ImageStat,ImageChops
-          ids=[437630,437323,764090,436831,764094]
+          ids=[441356,45770,676034,57166]
           old=json.load(open('data/artworks.json'))['artworks']
           registry=json.load(open('data/image-sources.json'))['records']
           assert len(old)==359
