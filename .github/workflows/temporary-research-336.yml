@@ -63,5 +63,5 @@ jobs:
                   assert rms<30 and not dat['duplicate_primary_sha']
                   print("CANDIDATE_PASS",json.dumps(dat,ensure_ascii=False),flush=True)
               except Exception as exc:
-                  print("CANDIDATE_HOLD",n,str(exc),flush=True)
+                  print("CANDIDATE_HOLD",n,str(exc),flush=True);import traceback;traceback.print_exc()
           PY
