@@ -1,0 +1,159 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-49132",
+  "artwork": {
+    "id": "met-49132",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 49132,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/49132",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/49132",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Wintry mountains",
+      "title_ja_provisional": "冬景山水図",
+      "artist": "Gong Xian",
+      "creation_date_display": "ca. 1679–89",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "China",
+      "accession_number": "1989.363.132"
+    },
+    "image": {
+      "image_id": "met-49132-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-36008-002.jpg",
+      "source_registry_id": "met-49132",
+      "local_path": "/artworks/met-49132.jpg",
+      "sha256": "c11e4308603ce981a7ff8bb0dc0a21e5239bfcadb91aa3282e3ca6498ef66b47",
+      "byte_length": 76819,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42968403594",
+      "source_accession_number": "1989.363.132",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-36008-002.jpg",
+        "sha256": "bcbd63bfbb49d6a262617debfd7fe2bb75f23dca4f15f3de42d9fd7e63bed1af",
+        "byte_length": 1824580,
+        "width": 1698,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 9.64389",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "孤独",
+        "寂しさ"
+      ],
+      "emotion_strengths": {
+        "孤独": 2,
+        "寂しさ": 1
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "自然",
+        "居場所",
+        "時間",
+        "記憶"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/49132",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "清朝初期の中国山水画で、岩や樹木の静かな景色に隠棲への願いと王朝交替期の経験を感じたい",
+            "reason": "Met公式作品別Overviewによれば、画面中央の冬景山水図は17世紀後半に活動した龔賢が描き、その脇の書は収集家・批評家であった周亮工による。山水画に添えられた詩と左右の対聯は、俗世の騒がしさを離れ、静かに独り暮らす隠れ家への憧れを表す。龔賢と周亮工は明から清への王朝交替に伴う征服と復興の混乱を生きた人物で、この願いが特に切実なものとなったとMetは説明する。主画像は中央の冬景山水を示し、両脇の書については作品別Overviewが別作者であると明示する。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "山水画に描かれた具体的な地名や作者の私的な人生の描写と断定しない。清朝への移行期の歴史的な痛みは美術館の解釈に基づくもので、見た目だけで読み取ったとは書かない。書の作者・画の作者を区別する。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met公式作品別Overviewによれば、画面中央の冬景山水図は17世紀後半に活動した龔賢が描き、その脇の書は収集家・批評家であった周亮工による。山水画に添えられた詩と左右の対聯は、俗世の騒がしさを離れ、静かに独り暮らす隠れ家への憧れを表す。龔賢と周亮工は明から清への王朝交替に伴う征服と復興の混乱を生きた人物で、この願いが特に切実なものとなったとMetは説明する。主画像は中央の冬景山水を示し、両脇の書については作品別Overviewが別作者であると明示する。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/49132"
+        },
+        "creation_context": "ca. 1679–89; China; Hanging scroll; ink on paper; accession 1989.363.132",
+        "visual_clues": "Met公式同一IDの元画像と表示JPEGを完全ハッシュ・縮小一致・実見。細長い掛軸の中段から下に、薄墨と濃墨を重ねた岩山や樹木、奥へ流れる白い余白、下方に小さな建物や水辺のような形がある。右上に詩文。左右の書は別作者のものであるため、山水自体の作者と混同しない。",
+        "uncertainty_note": "山水画に描かれた具体的な地名や作者の私的な人生の描写と断定しない。清朝への移行期の歴史的な痛みは美術館の解釈に基づくもので、見た目だけで読み取ったとは書かない。書の作者・画の作者を区別する。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "孤独"
+        ],
+        "secondary": [
+          "寂しさ"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42968403594",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "濃い墨で重ねた山の岩肌と、葉を落としたような細い木々が縦長の画面に続いています。白く残された空間が奥行きを作り、冷えた空気を想像させます。絵に添えられた詩や書も、この作品の大切な部分です。\n\n中央の山水画は龔賢（きょうけん）が描き、脇の書は同時代の収集家・批評家、周亮工によるものです。詩と絵には、世間の騒ぎを離れて静かな隠れ家に退きたいという願いが表されています。\n\n二人は明から清への王朝交替の時代を生き、征服と復興に伴う苦難を経験しました。メトロポリタン美術館は、そうした時代の中で隠棲への願いが切実だったと解説しています。岩山の重なりから小さな人の住む場所へと視線を移すと、静かな風景に込められた思いが伝わってきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/49132"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-49132",
+    "title": "Wintry mountains",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/49132",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/49132",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-36008-002.jpg",
+      "sha256": "c11e4308603ce981a7ff8bb0dc0a21e5239bfcadb91aa3282e3ca6498ef66b47",
+      "byte_length": 76819,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42968403594",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-36008-002.jpg",
+        "sha256": "bcbd63bfbb49d6a262617debfd7fe2bb75f23dca4f15f3de42d9fd7e63bed1af",
+        "byte_length": 1824580,
+        "width": 1698,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 9.64389",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "1989.363.132"
+  }
+}

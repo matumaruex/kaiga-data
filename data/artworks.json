@@ -45370,6 +45370,390 @@
         "audit_sha256": "c87cdc0dd53d726555141c6b713b02d8e07e888383957ce478755f778a12081c",
         "record_sha256": "499d8767f63c4a7982325f8d2825d8b381466329eb1e6679dc3ebb38e2de8ce2"
       }
+    },
+    {
+      "id": "met-764087",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 764087,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/764087",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764087",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Saint Christopher",
+        "title_ja_provisional": "聖クリストフォロス",
+        "artist": "Attributed to Melchor Pérez Holguin",
+        "creation_date_display": "ca. 1710–20",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Bolivia",
+        "accession_number": "2018.652.2"
+      },
+      "image": {
+        "image_id": "met-764087-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-30759-001.jpg",
+        "source_registry_id": "met-764087",
+        "local_path": "/artworks/met-764087.jpg",
+        "sha256": "ad6b91edcbb7369aaffc7992601f231f5955efbadad73e4184e7d01fd0b06e02",
+        "byte_length": 70732,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42968403594",
+        "source_accession_number": "2018.652.2",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-30759-001.jpg",
+          "sha256": "f38dbd1daa85963f717bfe9d534ed5f96e70776f8bc412515eaa226065749aa9",
+          "byte_length": 3256457,
+          "width": 2451,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 3.30523",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬",
+          "不安"
+        ],
+        "emotion_strengths": {
+          "畏敬": 2,
+          "不安": 1
+        },
+        "tones": [
+          "緊張"
+        ],
+        "themes": [
+          "自然",
+          "共同体",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/764087",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "月明かりの川を幼いキリストを背負って渡る聖人の重みと、光の表現に注目したい",
+              "reason": "Met公式作品別Overviewは、巨人の聖クリストフォロスが幼いキリストを肩に載せ荒れた川を渡る伝説を描いたものと説明する。幼子は十字架の付いた大きな球体を持ち、その重みは世界を表す。満月と幼子自身の光が夜の横断を照らし、対岸でランタンを上げる修道士は旅人を助けるよう聖人に諭した隠者である。岩が多い暗い岸辺が危険を感じさせる。絵に署名や制作記録はなく、18世紀初めのポトシ周辺で活動したメルチョール・ペレス・オルギンへの帰属は美術館の判断であり確定ではない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "物語はキリスト教の伝説であり、超自然的な出来事の史実性は断定しない。作者の署名がなく制作記録も未確認のため『伝』と表示する。描かれた小さな子が実際に世界の物理的重量を負っていたとは断言せず、図像上の寓意と説明する。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品別Overviewは、巨人の聖クリストフォロスが幼いキリストを肩に載せ荒れた川を渡る伝説を描いたものと説明する。幼子は十字架の付いた大きな球体を持ち、その重みは世界を表す。満月と幼子自身の光が夜の横断を照らし、対岸でランタンを上げる修道士は旅人を助けるよう聖人に諭した隠者である。岩が多い暗い岸辺が危険を感じさせる。絵に署名や制作記録はなく、18世紀初めのポトシ周辺で活動したメルチョール・ペレス・オルギンへの帰属は美術館の判断であり確定ではない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/764087"
+          },
+          "creation_context": "ca. 1710–20; Bolivia; Oil on canvas; accession 2018.652.2",
+          "visual_clues": "Met公式ID764087の原寸/表示画像を全バイト照合して実見。縦長の暗い油彩画の中央で、足を曲げた大柄の男性が、右肩に座る幼子を支えつつ左手で長い杖を握り、川を渡る。幼子の頭の背後に光、遠い岸の小人物と灯り、左の夜景に暗い樹木が見える。岩や衣服の暗い茶色と、幼子の光が対照的。光の宗教的象徴の意味はMet本文に基づく。",
+          "uncertainty_note": "物語はキリスト教の伝説であり、超自然的な出来事の史実性は断定しない。作者の署名がなく制作記録も未確認のため『伝』と表示する。描かれた小さな子が実際に世界の物理的重量を負っていたとは断言せず、図像上の寓意と説明する。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "畏敬"
+          ],
+          "secondary": [
+            "不安"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42968403594",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "大きな聖人が幼いキリストを荒れた川の向こうへ運んでいます。聖人は長い杖を握り、重みをこらえるように体をかがめています。幼子の手には十字架の付いた大きな球体があり、世界を象徴しています。\n\nこれは、旅人を川の向こうへ運ぶ聖クリストフォロスの伝説を描いた絵です。満月と幼子から広がる光が夜の川を照らし、対岸では隠者が灯りを掲げています。暗い岩場と光の対比から、危険な道のりと信仰上の意味が伝わります。\n\nこの絵には作者の署名や制作を示す記録が残っていません。メトロポリタン美術館は、18世紀初めにボリビアのポトシ周辺で活動した画家、メルチョール・ペレス・オルギンの作と考えていますが、確定しているわけではありません。光を受ける顔と、それを支える体の姿勢を見比べてみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/764087"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-764087-2026-11-11.json",
+        "audit_sha256": "3acd25c7f3df79819fb30a8c7e433a0ea62fff286642608c5a7f0b222c9e056f",
+        "record_sha256": "362ef629fb93b7b3185db535fad071d4b803fb9944a6c678ae09535c48469e21"
+      }
+    },
+    {
+      "id": "met-37895",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 37895,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/37895",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/37895",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Madhumadhavai Ragini:  Page from a Dispersed Ragamala Series (Garland of Musical Modes)",
+        "title_ja_provisional": "マドゥマダヴァイ・ラーギニー（雨を告げるクジャク）",
+        "artist": "Unidentified artist",
+        "creation_date_display": "ca. 1640–50",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India (Rajasthan, Marwar)",
+        "accession_number": "55.121.27"
+      },
+      "image": {
+        "image_id": "met-37895-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156139.jpg",
+        "source_registry_id": "met-37895",
+        "local_path": "/artworks/met-37895.jpg",
+        "sha256": "8a7bc308d97fb32039384052912b5bd933ad3f09aa5dee9dedf4e9dc4e43cbd6",
+        "byte_length": 112430,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42968403594",
+        "source_accession_number": "55.121.27",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP156139.jpg",
+          "sha256": "359a0df9e1bef07ccb442473e655072425d3d545df29b81037d14077c320616a",
+          "byte_length": 2841664,
+          "width": 3151,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 8.32587",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "期待",
+          "不安"
+        ],
+        "emotion_strengths": {
+          "期待": 1,
+          "不安": 1
+        },
+        "tones": [
+          "緊張"
+        ],
+        "themes": [
+          "自然",
+          "愛情",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/37895",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "17世紀インドの音楽の旋法を描くラーガマーラー画で、雨を告げるクジャクと恋の詩がどう結びつくか見たい",
+              "reason": "Met公式個別Overviewでは、ラーギニー『マドゥマダヴァイ』の詩が、雨の気配に鳴くクジャクの声を題材にすると説明する。画面奥の暗くうねる雲と青い斜線が雷雨を暗示し、女性は鳴き声を空腹と取り違えて餌を与えようとする。一方、同時代の鑑賞者は『ナーヤカー・ベーダ』詩に登場するアビサーリカー・ナーヤカー、すなわち嵐の夜に恋人のもとへ出かけるヒロインへの暗示も読み取っただろうとされる。人物・色彩はラージャスターンのマールワール様式で、平面的な建築と色面はマールワー派の絵画とも共通する。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "女性を実在の特定人物や恋人に直接会う瞬間と断定しない。恋の詩はMetの『暗示を読み取っただろう』という解釈として留める。クジャクが実際に空腹であったとは言わず、女性の勘違いとして説明する。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式個別Overviewでは、ラーギニー『マドゥマダヴァイ』の詩が、雨の気配に鳴くクジャクの声を題材にすると説明する。画面奥の暗くうねる雲と青い斜線が雷雨を暗示し、女性は鳴き声を空腹と取り違えて餌を与えようとする。一方、同時代の鑑賞者は『ナーヤカー・ベーダ』詩に登場するアビサーリカー・ナーヤカー、すなわち嵐の夜に恋人のもとへ出かけるヒロインへの暗示も読み取っただろうとされる。人物・色彩はラージャスターンのマールワール様式で、平面的な建築と色面はマールワー派の絵画とも共通する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/37895"
+          },
+          "creation_context": "ca. 1640–50; India (Rajasthan, Marwar); Ink and opaque watercolor on paper; accession 55.121.27",
+          "visual_clues": "Met公式同一作品の原寸・表示JPEGを照合しサムネイル目視。赤い扉を持つ角張った建物の前、赤橙の衣装の女性が左へ腕を伸ばして青緑色の長い尾のあるクジャクに向き合う。左下に黄色い布と黒い円形道具。上の広い暗い雲の地平線に青く波打つ雨の線、装飾的な文字の枠がある。画中の人物の固有名は不明。",
+          "uncertainty_note": "女性を実在の特定人物や恋人に直接会う瞬間と断定しない。恋の詩はMetの『暗示を読み取っただろう』という解釈として留める。クジャクが実際に空腹であったとは言わず、女性の勘違いとして説明する。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "期待",
+            "不安"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42968403594",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "赤い扉の建物のそばで、女性がクジャクに手を伸ばしています。背後の空には黒い雲がうねり、青い線が雨の気配を伝えています。女性の衣装や建築は、はっきりした色の面で描き分けられています。\n\nこの絵は、インドの音楽の旋法を人物や物語で表す『ラーガマーラー』の一葉です。女性はクジャクの鳴き声を空腹のせいだと思い、食べ物を差し出しています。しかし、その声は雨が近づいたことを知らせるものでした。\n\n当時の鑑賞者には、嵐の夜に恋人を訪ねるヒロインの詩も連想させました。小さな行き違いの場面に、雨を待つ自然と恋する人の期待が重ねられています。空の暗さからクジャクの羽、女性の動きへと目を移してみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/37895"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-37895-2026-11-11.json",
+        "audit_sha256": "69a25b4f287495e52c7d459658d7b0d5945728eaf00af5359f4e08fed4b0a349",
+        "record_sha256": "124a1f2ecc07827dd050e399280b6dc1dc09d2767c184d8a816afcac0cdb0ebf"
+      }
+    },
+    {
+      "id": "met-49132",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 49132,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/49132",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/49132",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Wintry mountains",
+        "title_ja_provisional": "冬景山水図",
+        "artist": "Gong Xian",
+        "creation_date_display": "ca. 1679–89",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "China",
+        "accession_number": "1989.363.132"
+      },
+      "image": {
+        "image_id": "met-49132-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-36008-002.jpg",
+        "source_registry_id": "met-49132",
+        "local_path": "/artworks/met-49132.jpg",
+        "sha256": "c11e4308603ce981a7ff8bb0dc0a21e5239bfcadb91aa3282e3ca6498ef66b47",
+        "byte_length": 76819,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42968403594",
+        "source_accession_number": "1989.363.132",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-36008-002.jpg",
+          "sha256": "bcbd63bfbb49d6a262617debfd7fe2bb75f23dca4f15f3de42d9fd7e63bed1af",
+          "byte_length": 1824580,
+          "width": 1698,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 9.64389",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "孤独",
+          "寂しさ"
+        ],
+        "emotion_strengths": {
+          "孤独": 2,
+          "寂しさ": 1
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "自然",
+          "居場所",
+          "時間",
+          "記憶"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/49132",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "清朝初期の中国山水画で、岩や樹木の静かな景色に隠棲への願いと王朝交替期の経験を感じたい",
+              "reason": "Met公式作品別Overviewによれば、画面中央の冬景山水図は17世紀後半に活動した龔賢が描き、その脇の書は収集家・批評家であった周亮工による。山水画に添えられた詩と左右の対聯は、俗世の騒がしさを離れ、静かに独り暮らす隠れ家への憧れを表す。龔賢と周亮工は明から清への王朝交替に伴う征服と復興の混乱を生きた人物で、この願いが特に切実なものとなったとMetは説明する。主画像は中央の冬景山水を示し、両脇の書については作品別Overviewが別作者であると明示する。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "山水画に描かれた具体的な地名や作者の私的な人生の描写と断定しない。清朝への移行期の歴史的な痛みは美術館の解釈に基づくもので、見た目だけで読み取ったとは書かない。書の作者・画の作者を区別する。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品別Overviewによれば、画面中央の冬景山水図は17世紀後半に活動した龔賢が描き、その脇の書は収集家・批評家であった周亮工による。山水画に添えられた詩と左右の対聯は、俗世の騒がしさを離れ、静かに独り暮らす隠れ家への憧れを表す。龔賢と周亮工は明から清への王朝交替に伴う征服と復興の混乱を生きた人物で、この願いが特に切実なものとなったとMetは説明する。主画像は中央の冬景山水を示し、両脇の書については作品別Overviewが別作者であると明示する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/49132"
+          },
+          "creation_context": "ca. 1679–89; China; Hanging scroll; ink on paper; accession 1989.363.132",
+          "visual_clues": "Met公式同一IDの元画像と表示JPEGを完全ハッシュ・縮小一致・実見。細長い掛軸の中段から下に、薄墨と濃墨を重ねた岩山や樹木、奥へ流れる白い余白、下方に小さな建物や水辺のような形がある。右上に詩文。左右の書は別作者のものであるため、山水自体の作者と混同しない。",
+          "uncertainty_note": "山水画に描かれた具体的な地名や作者の私的な人生の描写と断定しない。清朝への移行期の歴史的な痛みは美術館の解釈に基づくもので、見た目だけで読み取ったとは書かない。書の作者・画の作者を区別する。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "孤独"
+          ],
+          "secondary": [
+            "寂しさ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42968403594",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "濃い墨で重ねた山の岩肌と、葉を落としたような細い木々が縦長の画面に続いています。白く残された空間が奥行きを作り、冷えた空気を想像させます。絵に添えられた詩や書も、この作品の大切な部分です。\n\n中央の山水画は龔賢（きょうけん）が描き、脇の書は同時代の収集家・批評家、周亮工によるものです。詩と絵には、世間の騒ぎを離れて静かな隠れ家に退きたいという願いが表されています。\n\n二人は明から清への王朝交替の時代を生き、征服と復興に伴う苦難を経験しました。メトロポリタン美術館は、そうした時代の中で隠棲への願いが切実だったと解説しています。岩山の重なりから小さな人の住む場所へと視線を移すと、静かな風景に込められた思いが伝わってきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/49132"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-49132-2026-11-11.json",
+        "audit_sha256": "f525f2e931e03130a45a1466c910c2ea3bec4d6a424d33e5e976e7625e308e9f",
+        "record_sha256": "0df81c0365680a09b5a34519f3cdcdc15b650e59e595ba92276c3c1dde3ed1ce"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
