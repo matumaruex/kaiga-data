@@ -1,0 +1,22 @@
+name: Temporary audited Met registration 360-362
+on:
+  push:
+    branches: [codex/expand-artworks-360-362-20261111]
+permissions:
+  contents: write
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    timeout-minutes: 27
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet requests pillow
+      - name: Register three verified artworks and run catalog regression tests
+        run: |
+          python -m py_compile scripts/_temporary_register_360_362.py
+          python scripts/_temporary_register_360_362.py
