@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-853892",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-853892.json",
+  "candidate_sha256": "c8441600e43015a0d02b22248428dcb6f979576640bc01f1f2d4a5fb8455b54c",
+  "draft_path": "drafts/visitor-explanations/met-853892.json",
+  "draft_sha256": "4aa86fda5bc9f2fc4ccecb3b625d02d4090231a7b7fc567e16ecd41246dc960b",
+  "baseline": {
+    "artworks_sha256": "d3fdf9c878a0328bdeeee2d6baef3f5bfa30d5a8cebc7e4b5dcecb55db4a6cbe",
+    "image_registry_sha256": "e43a54c8b2cbda3f832f94298c00cdfd73ac33a55205e246e8ddc4c88b365cd9"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853892",
+      "source_excerpt": "A dragon emerges from dark, animated clouds and waves",
+      "visitor_claim": "大きな龍が暗い雲と波の中から姿を現しています",
+      "source_section": "Overview: dragon from dark clouds"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853892",
+      "source_excerpt": "carp represent persistence and strength of character",
+      "visitor_claim": "鯉は粘り強さや強い意志を表す",
+      "source_section": "Overview: carp as perseverance"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/853892",
+      "location": "Met object Overview and Artwork Details: Overview: dragon from dark clouds | Overview: carp as perseverance",
+      "finding": "Metの作品別Overviewによれば、上部では暗い渦巻く雲と波から龍が現れ、下の長方形の蓮池には三匹の鯉が泳ぐ。龍は力と幸運を、鯉は粘り強さと強い意志を象徴する。鯉が激流を逆に泳いで跳び上がり龍になる伝説は、官吏採用試験を突破する困難を示す比喩として知られ、男児の将来の成功への願いとも結びついた。上部の円形画面は墨と色で力強く塗り、下部の水面は余白を使って柔らかく表現する。 Visual subject based on specific same-object source image: Met公式表示JPEGの同一作品サムネイルを目視。長方形の紙の上半分にほぼ円形の枠内で鱗のある龍が大きくうねり、龍の周囲に濃い灰黒の波・雲と色のある花状の装飾。下半分の薄い線描の長方形の池に三匹の魚が泳ぎ、蓮の茎と花が立つ。上の強い動きと下の静けさが対照的。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853892",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42950522740",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853892",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42950522740"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853892",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 853892, Dragon and carp, Unidentified artist, late 19th century, 2024.89.3. Attribution caveats and source classifications preserved.",
+      "image_match": "Met公式表示JPEGの同一作品サムネイルを目視。長方形の紙の上半分にほぼ円形の枠内で鱗のある龍が大きくうねり、龍の周囲に濃い灰黒の波・雲と色のある花状の装飾。下半分の薄い線描の長方形の池に三匹の魚が泳ぎ、蓮の茎と花が立つ。上の強い動きと下の静けさが対照的。 API official primary JPEG complete hashes/dimensions, downscale RMS 9.93830.",
+      "historical_interpretation": "Metの作品別Overviewによれば、上部では暗い渦巻く雲と波から龍が現れ、下の長方形の蓮池には三匹の鯉が泳ぐ。龍は力と幸運を、鯉は粘り強さと強い意志を象徴する。鯉が激流を逆に泳いで跳び上がり龍になる伝説は、官吏採用試験を突破する困難を示す比喩として知られ、男児の将来の成功への願いとも結びついた。上部の円形画面は墨と色で力強く塗り、下部の水面は余白を使って柔らかく表現する。 Limits: 龍と鯉の象徴は朝鮮時代の図像解釈であり、超自然的な変身を事実として述べない。特定の受験者や持ち主の願いを断定しない。作者は不明。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['希望', '畏敬']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-37218-001.jpg",
+      "sha256": "d647fc9d1a55e7b6f1dca45c9bede8a84111b4f437269f7a46a80e6ddcdb22d7",
+      "byte_length": 159015,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式表示JPEGの同一作品サムネイルを目視。長方形の紙の上半分にほぼ円形の枠内で鱗のある龍が大きくうねり、龍の周囲に濃い灰黒の波・雲と色のある花状の装飾。下半分の薄い線描の長方形の池に三匹の魚が泳ぎ、蓮の茎と花が立つ。上の強い動きと下の静けさが対照的。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42950522740"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-37218-001.jpg",
+      "sha256": "cba1b5e59898d384bac1618e377a14ea3cbee0c6462ada464c3d2903735e02e1",
+      "byte_length": 3083464,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式表示JPEGの同一作品サムネイルを目視。長方形の紙の上半分にほぼ円形の枠内で鱗のある龍が大きくうねり、龍の周囲に濃い灰黒の波・雲と色のある花状の装飾。下半分の薄い線描の長方形の池に三匹の魚が泳ぎ、蓮の茎と花が立つ。上の強い動きと下の静けさが対照的。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42950522740"
+    }
+  ],
+  "notes": [
+    "Sequential addition 358; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}

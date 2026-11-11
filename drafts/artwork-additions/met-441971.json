@@ -1,0 +1,153 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-441971",
+  "artwork": {
+    "id": "met-441971",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 441971,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/441971",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/441971",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "The Tears of Saint Peter",
+      "title_ja_provisional": "聖ペテロの涙",
+      "artist": "Jusepe de Ribera (called Lo Spagnoletto)",
+      "creation_date_display": "ca. 1612–13",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Spain / Italy (Spanish artist active in Italy; Met API culture unspecified)",
+      "accession_number": "2012.416"
+    },
+    "image": {
+      "image_id": "met-441971-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP286357.jpg",
+      "source_registry_id": "met-441971",
+      "local_path": "/artworks/met-441971.jpg",
+      "sha256": "165965b0a9ceb8b4bafef2a81b39cb353ce85c9b417b7537810cb0585e2b8f44",
+      "byte_length": 44549,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42950522740",
+      "source_accession_number": "2012.416",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP286357.jpg",
+        "sha256": "d3575d5455b46be66e0fc14e7ee1e7daf9194d2e8f68bd29d99608fea4a6e68e",
+        "byte_length": 1684900,
+        "width": 2721,
+        "height": 3874,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 2.75106",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "悲しみ"
+      ],
+      "emotion_strengths": {
+        "悲しみ": 2
+      },
+      "tones": [
+        "重苦しさ"
+      ],
+      "themes": [
+        "記憶",
+        "共同体"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/441971",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "宗教的な後悔と祈りの感情を、表情や組んだ手・暗い背景から感じ取りたい",
+            "reason": "メトロポリタン美術館の作品別Overviewによれば、スペイン出身でイタリアで活動したフセペ・デ・リベーラの初期作品。イエスを否認した後の聖ペテロを描き、涙で赤くなった目と、祈りのために合わせた手が、罪の重みを示す。宗教的な告白の一形式として激しい涙を流す行為は、当時のカトリックの信仰実践で重要な位置を占め、詩や歌にも取り上げられた。作品が史料に現れる最初は1644年ローマの枢機卿ベネデット・モナルディ・バルデスキの収蔵記録。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "聖ペテロの後悔はキリスト教の物語とMetの作品解釈として扱い、史実として断言しない。ペテロの具体的な言葉や涙の原因を画面から直接判読したとは言わず、公式解説に依拠する。画家の信仰心の実際は推測しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "メトロポリタン美術館の作品別Overviewによれば、スペイン出身でイタリアで活動したフセペ・デ・リベーラの初期作品。イエスを否認した後の聖ペテロを描き、涙で赤くなった目と、祈りのために合わせた手が、罪の重みを示す。宗教的な告白の一形式として激しい涙を流す行為は、当時のカトリックの信仰実践で重要な位置を占め、詩や歌にも取り上げられた。作品が史料に現れる最初は1644年ローマの枢機卿ベネデット・モナルディ・バルデスキの収蔵記録。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/441971"
+        },
+        "creation_context": "ca. 1612–13; ; Oil on canvas; accession 2012.416",
+        "visual_clues": "Met公式の同一作品JPEGを縮小画像で目視。暗い背景の前に、灰色の髭と薄い髪の年配の男性が黄褐色の重い上着をまとい、身体を大きく曲げて左上を見つめる。左側で両手を寄せ、顔に弱い光が当たる。色数を抑えた暗い油彩で、主題を孤立させる構図。",
+        "uncertainty_note": "聖ペテロの後悔はキリスト教の物語とMetの作品解釈として扱い、史実として断言しない。ペテロの具体的な言葉や涙の原因を画面から直接判読したとは言わず、公式解説に依拠する。画家の信仰心の実際は推測しない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "悲しみ"
+        ],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42950522740",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "暗い背景の前に、黄褐色の衣をまとった年配の男性が身をかがめています。目元には涙が浮かび、手を合わせて祈りながら、顔を上へ向けています。わずかな光が顔や衣のひだを浮かび上がらせます。\n\n描かれているのは、イエスとの関係を否定したあとで深く後悔する聖ペテロです。メトロポリタン美術館は、涙で赤くなった目と祈りのために組んだ手が、罪を背負う心の重さを示すと説明しています。当時のカトリックでは、涙を流す悔悟が信仰の実践において大切にされ、詩や歌でもたたえられました。\n\n作者リベーラはスペイン生まれで、主にイタリアで活動した画家です。激しい動きを描くのではなく、暗がりの中に表情と手だけを強調することで、内面の葛藤を伝えています。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/441971"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-441971",
+    "title": "The Tears of Saint Peter",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/441971",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/441971",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP286357.jpg",
+      "sha256": "165965b0a9ceb8b4bafef2a81b39cb353ce85c9b417b7537810cb0585e2b8f44",
+      "byte_length": 44549,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42950522740",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP286357.jpg",
+        "sha256": "d3575d5455b46be66e0fc14e7ee1e7daf9194d2e8f68bd29d99608fea4a6e68e",
+        "byte_length": 1684900,
+        "width": 2721,
+        "height": 3874,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 2.75106",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2012.416"
+  }
+}
