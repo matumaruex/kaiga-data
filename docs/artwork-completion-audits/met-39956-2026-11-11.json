@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-39956",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-39956.json",
+  "candidate_sha256": "31df09378ba7f15fc8ad87918e8c2c3f60b0461fcdf2d372475718531aea7492",
+  "draft_path": "drafts/visitor-explanations/met-39956.json",
+  "draft_sha256": "d83b9058c1dd6171c98a3f8590ed8b68a3092c47a317d685625c105ae21708b1",
+  "baseline": {
+    "artworks_sha256": "6cd91a5163a7c1a31721d5496ef7f5a85a328eac533188bd2100c633fdaf36d4",
+    "image_registry_sha256": "72cd965499ffcd9674061de947f1d763fb80b84c6c45109176e2731abc0c5fd8"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/39956",
+      "source_excerpt": "The bold designs of the dancer’s robe accentuate her striking presence and fluid movements",
+      "visitor_claim": "袖や裾の大胆な模様が人物の動きを強調",
+      "source_section": "Overview: bold robe patterns and movement"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/39956",
+      "source_excerpt": "which may have once been part of a larger composition",
+      "visitor_claim": "もとはもっと大きな構図の一部だった可能性があります",
+      "source_section": "Overview: uncertain original larger composition"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/39956",
+      "location": "Met object Overview and Artwork Details: Overview: bold robe patterns and movement | Overview: uncertain original larger composition",
+      "finding": "Met作品別Overviewは、舞姫の大胆な衣装模様が存在感と動きの流れを強調し、顔と手の繊細な輪郭が感情のニュアンスを伝えると説明。絵画はもとはより大きな構図の一部だった可能性があり、現在の衝立への表装は19世紀。下部の漆器部分は梨地の上に蒔絵の装飾がある。作品制作時期17世紀と表装19世紀を分けて記述する。 Visual subject based on specific same-object source image: Met同一IDの公式JPEGをサムネイル化して目視。黒髪の一人の踊り手が金茶の背景の前で、渦巻き模様のある緑がかった小袖を着て、右手を横に伸ばし扇状の小道具を持つ。足先が左に向くように軽く動きをつけ、長方形の絵画の下に蒔絵風の下部パネルと左右の脚を備えた衝立。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/39956",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42940134395",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/39956",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42940134395"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/39956",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 39956, Freestanding Screen with Dancer, Unknown artist, 17th century, 29.100.520. Attribution caveats and source classifications preserved.",
+      "image_match": "Met同一IDの公式JPEGをサムネイル化して目視。黒髪の一人の踊り手が金茶の背景の前で、渦巻き模様のある緑がかった小袖を着て、右手を横に伸ばし扇状の小道具を持つ。足先が左に向くように軽く動きをつけ、長方形の絵画の下に蒔絵風の下部パネルと左右の脚を備えた衝立。 API official primary JPEG complete hashes/dimensions, downscale RMS 9.03279.",
+      "historical_interpretation": "Met作品別Overviewは、舞姫の大胆な衣装模様が存在感と動きの流れを強調し、顔と手の繊細な輪郭が感情のニュアンスを伝えると説明。絵画はもとはより大きな構図の一部だった可能性があり、現在の衝立への表装は19世紀。下部の漆器部分は梨地の上に蒔絵の装飾がある。作品制作時期17世紀と表装19世紀を分けて記述する。 Limits: 踊りの具体的な曲名・舞台、作者名を断定しない。現在の衝立が17世紀に作られたとはせず、19世紀の表装と区別する。元の大画面は可能性であり確証ではない。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['好奇心']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/29_100_520.JPG",
+      "sha256": "4b3f3cfbfe68ed492a9f46e57cd1b9a9274e6c66161be7c16876acb1a1e030a0",
+      "byte_length": 65833,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met同一IDの公式JPEGをサムネイル化して目視。黒髪の一人の踊り手が金茶の背景の前で、渦巻き模様のある緑がかった小袖を着て、右手を横に伸ばし扇状の小道具を持つ。足先が左に向くように軽く動きをつけ、長方形の絵画の下に蒔絵風の下部パネルと左右の脚を備えた衝立。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42940134395"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/29_100_520.JPG",
+      "sha256": "a32e2dac628bc781405d0738e9b16544d8b07654565ae385bb135263da5d3646",
+      "byte_length": 106213,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met同一IDの公式JPEGをサムネイル化して目視。黒髪の一人の踊り手が金茶の背景の前で、渦巻き模様のある緑がかった小袖を着て、右手を横に伸ばし扇状の小道具を持つ。足先が左に向くように軽く動きをつけ、長方形の絵画の下に蒔絵風の下部パネルと左右の脚を備えた衝立。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42940134395"
+    }
+  ],
+  "notes": [
+    "Sequential addition 342; prior artworks and image-source records unchanged.",
+    "Source Overview passages independently read via official museum page 2026-11-11. Separate AI pass is not human expert.",
+    "Official Met artwork Overview passages were reviewed against same-object catalogue pages and two limited English excerpts were bound to visitor claims."
+  ]
+}

@@ -41672,6 +41672,363 @@
         "audit_sha256": "160cc22824c23e7eca69ca25f24cd9cf32b90432d9f5f424dfaa3f750c737cb8",
         "record_sha256": "bb670abe8c6622d9147f09573f0039428c3186a1fdcce6eb72814bcd3e351f75"
       }
+    },
+    {
+      "id": "met-39956",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 39956,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/39956",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/39956",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Freestanding Screen with Dancer",
+        "title_ja_provisional": "舞姫図・紅葉蒔絵衝立",
+        "artist": "Unknown artist",
+        "creation_date_display": "17th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "29.100.520"
+      },
+      "image": {
+        "image_id": "met-39956-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/29_100_520.JPG",
+        "source_registry_id": "met-39956",
+        "local_path": "/artworks/met-39956.jpg",
+        "sha256": "4b3f3cfbfe68ed492a9f46e57cd1b9a9274e6c66161be7c16876acb1a1e030a0",
+        "byte_length": 65833,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42940134395",
+        "source_accession_number": "29.100.520",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/29_100_520.JPG",
+          "sha256": "a32e2dac628bc781405d0738e9b16544d8b07654565ae385bb135263da5d3646",
+          "byte_length": 106213,
+          "width": 590,
+          "height": 890,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 9.03279",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "余韻"
+        ],
+        "themes": [
+          "日常",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/39956",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "17世紀の舞姫の衣装や所作と、絵画が後世に衝立へ仕立てられた経緯を鑑賞したい",
+              "reason": "Met作品別Overviewは、舞姫の大胆な衣装模様が存在感と動きの流れを強調し、顔と手の繊細な輪郭が感情のニュアンスを伝えると説明。絵画はもとはより大きな構図の一部だった可能性があり、現在の衝立への表装は19世紀。下部の漆器部分は梨地の上に蒔絵の装飾がある。作品制作時期17世紀と表装19世紀を分けて記述する。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "踊りの具体的な曲名・舞台、作者名を断定しない。現在の衝立が17世紀に作られたとはせず、19世紀の表装と区別する。元の大画面は可能性であり確証ではない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewは、舞姫の大胆な衣装模様が存在感と動きの流れを強調し、顔と手の繊細な輪郭が感情のニュアンスを伝えると説明。絵画はもとはより大きな構図の一部だった可能性があり、現在の衝立への表装は19世紀。下部の漆器部分は梨地の上に蒔絵の装飾がある。作品制作時期17世紀と表装19世紀を分けて記述する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/39956"
+          },
+          "creation_context": "17th century; Japan; Ink, color, and gold on gilt paper, mounted on a lacquered screen; accession 29.100.520",
+          "visual_clues": "Met同一IDの公式JPEGをサムネイル化して目視。黒髪の一人の踊り手が金茶の背景の前で、渦巻き模様のある緑がかった小袖を着て、右手を横に伸ばし扇状の小道具を持つ。足先が左に向くように軽く動きをつけ、長方形の絵画の下に蒔絵風の下部パネルと左右の脚を備えた衝立。",
+          "uncertainty_note": "踊りの具体的な曲名・舞台、作者名を断定しない。現在の衝立が17世紀に作られたとはせず、19世紀の表装と区別する。元の大画面は可能性であり確証ではない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42940134395",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "金色がかった背景の前に、華やかな衣装を着た舞姫が一人立っています。袖や裾の大胆な模様が人物の動きを強調し、顔や手の細い線は所作の繊細さを伝えています。\n\n絵そのものは17世紀の日本で描かれたものです。メトロポリタン美術館によれば、もとはもっと大きな構図の一部だった可能性があります。現在見られる衝立は19世紀に仕立てられたもので、絵の下には「梨地」に「蒔絵」で飾られた部分があります。\n\n踊り手の衣装の模様から、手先の小さな動きへ視線を移してみてください。古い絵画が別の時代の装飾具に組み込まれ、今の姿となったことも作品の見どころです。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/39956"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-39956-2026-11-11.json",
+        "audit_sha256": "ad3a781f6bc53fa81211a4f5eacee0eadffec6162630ac6e51ab666816e0b659",
+        "record_sha256": "463dcf74f3439f4bc128d00a04e83d3472144c32cc95a92ef35dd4c630bae5f8"
+      }
+    },
+    {
+      "id": "met-437898",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437898,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437898",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437898",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Madame Grand (Noël Catherine Vorlée, 1761–1835)",
+        "title_ja_provisional": "グラン夫人（ノエル・カトリーヌ・ヴォルレ）の肖像",
+        "artist": "Elisabeth Louise Vigée Le Brun",
+        "creation_date_display": "1783",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "France (artist nationality; Met API culture unspecified)",
+        "accession_number": "50.135.2"
+      },
+      "image": {
+        "image_id": "met-437898-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP320094.jpg",
+        "source_registry_id": "met-437898",
+        "local_path": "/artworks/met-437898.jpg",
+        "sha256": "64cc076812b068a40610fafbe571bde1f4323e5f21c065b3692fcc4b627ddc61",
+        "byte_length": 62839,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42940134395",
+        "source_accession_number": "50.135.2",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP320094.jpg",
+          "sha256": "0b77d80b2073e7ec78f1fe7a7c92d0360b0762b42c4aadc7258ae37aa8744215",
+          "byte_length": 2249298,
+          "width": 3174,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 5.55254",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437898",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "フランス革命前の社交界での肖像画と、モデルの出自・見られ方の関係を考えたい",
+              "reason": "Met公式Overviewによると、ノエル・カトリーヌ・ヴォルレ（のちのグラン夫人）はインドのポンディシェリ近郊でフランス植民地系家庭に生まれ、美貌で知られ後に政治家タレーランの妻になった。周囲は出自を強調して『インド人』の呼称を与えた。ヴィジェ＝ルブランは1783年のサロンに肖像画10点と歴史画3点を出品し、この作品もその中の一つだった。同じ1783年、女性4名だけが所属する王立絵画彫刻アカデミー会員になった。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "人物が実際に歌っていたとはせず『歌うように』はMetがそう表現した描写に留める。『インド人』は当時の周囲による他者化の呼称であり本人の自己認識と混同しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式Overviewによると、ノエル・カトリーヌ・ヴォルレ（のちのグラン夫人）はインドのポンディシェリ近郊でフランス植民地系家庭に生まれ、美貌で知られ後に政治家タレーランの妻になった。周囲は出自を強調して『インド人』の呼称を与えた。ヴィジェ＝ルブランは1783年のサロンに肖像画10点と歴史画3点を出品し、この作品もその中の一つだった。同じ1783年、女性4名だけが所属する王立絵画彫刻アカデミー会員になった。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437898"
+          },
+          "creation_context": "1783; ; Oil on canvas; accession 50.135.2",
+          "visual_clues": "同一作品公式サムネイル実見。暗い地に楕円形の額枠を示す金の線、深緑のソファの前に座る明るい髪の若い女性。淡い銀白色の衣装と青いリボン、頭にも青い飾り。上方へ視線を向け、片腕を低く肘掛けに置き、胸元に青い大きなリボン。",
+          "uncertainty_note": "人物が実際に歌っていたとはせず『歌うように』はMetがそう表現した描写に留める。『インド人』は当時の周囲による他者化の呼称であり本人の自己認識と混同しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42940134395",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "黒っぽい背景の中、明るい髪と青いリボンが目を引きます。白銀色の衣服には柔らかな光が当たり、女性は少し上を見つめています。楕円の画面が、人物へ視線を集める構図です。\n\nモデルは、のちに政治家タレーランの妻となるグラン夫人、ノエル・カトリーヌ・ヴォルレです。インドのポンディシェリ近郊のフランス植民地系の家庭に生まれ、当時の周囲からは、その出自を強調する異国趣味的な呼び名で語られました。\n\nヴィジェ＝ルブランは1783年のサロンに肖像画10点と歴史画3点を出品し、この絵もそのうちの一つです。同年、画家は王立アカデミーに選ばれた数少ない女性会員の一人となりました。衣装の明るさと視線の表情を眺めながら、肖像が人々にどう見せられたのかも考えられます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/437898"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-437898-2026-11-11.json",
+        "audit_sha256": "5eaeb5a9de6381fe354a7f488a8ae245092030b63c6390118e6e4b3228c47f5d",
+        "record_sha256": "e787e313dff2d0e437133a69c98d22e52d0e3d969de7ceec14572cc4753c9307"
+      }
+    },
+    {
+      "id": "met-764096",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 764096,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/764096",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764096",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "The Soul of the Virgin Mary",
+        "title_ja_provisional": "聖母マリアの魂",
+        "artist": "Unknown artist",
+        "creation_date_display": "18th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Peru (Cuzco)",
+        "accession_number": "2018.836.3"
+      },
+      "image": {
+        "image_id": "met-764096-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18755-013.jpg",
+        "source_registry_id": "met-764096",
+        "local_path": "/artworks/met-764096.jpg",
+        "sha256": "89172ed09bdf2b661ef2b868c87dcf627f05373087a6ea9ddbc4fbffbfcede55",
+        "byte_length": 156100,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42940134395",
+        "source_accession_number": "2018.836.3",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18755-013.jpg",
+          "sha256": "54321f3710ffda4b07cabc893f112a4575dbb813e7ac9caab710dc0e96e45f42",
+          "byte_length": 6208339,
+          "width": 3385,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 5.83223",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/764096",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "18世紀のクスコ派宗教画が祈りや瞑想に用いられた意図を理解したい",
+              "reason": "Met作品別Overviewでは、クスコ派に属する作品で、聖母の内面に聖霊が宿り受肉の神秘に参加する『聖母の魂』という民間信仰の主題だと解説される。マリアは幼いイエスを抱え、胸元に聖霊を表す鳩、頭上に光輪と天使頭部を伴う。頭部周囲の文字にはIHSと祈願文、下部では翼ある二人のプットーが個人の祈りに用いる銘文を載せた碑文を支える。個人の祈祷・瞑想を助ける絵だった。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "信仰内容と歴史的図像を説明するものであり、宗教的な奇跡の実在を断言しない。文字内容の翻訳はMetが解説した範囲に限り、視認できない細字は断定しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewでは、クスコ派に属する作品で、聖母の内面に聖霊が宿り受肉の神秘に参加する『聖母の魂』という民間信仰の主題だと解説される。マリアは幼いイエスを抱え、胸元に聖霊を表す鳩、頭上に光輪と天使頭部を伴う。頭部周囲の文字にはIHSと祈願文、下部では翼ある二人のプットーが個人の祈りに用いる銘文を載せた碑文を支える。個人の祈祷・瞑想を助ける絵だった。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/764096"
+          },
+          "creation_context": "18th century; Peru (Cuzco); Oil and gold on canvas; accession 2018.836.3",
+          "visual_clues": "公式同一作品表示JPEGの縮小画像を目視。正面に幼子を抱えたマリアの半身像。頭部の上に赤い文字が弧を描き、胸元に白い鳩、衣装に細密な金の模様。下部に左右一対の小天使、中央に銘文。暗い縁取りと金の光の効果。",
+          "uncertainty_note": "信仰内容と歴史的図像を説明するものであり、宗教的な奇跡の実在を断言しない。文字内容の翻訳はMetが解説した範囲に限り、視認できない細字は断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42940134395",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "装飾的な衣をまとった聖母マリアが幼いイエスを抱き、胸元には聖霊を示す鳩が描かれています。頭の周囲には文字が弧を描き、画面下には二人の小さな天使が祈りの言葉を記した板を支えています。\n\n18世紀のペルー・クスコで描かれたこの作品は、『聖母マリアの魂』という宗教的な主題を表したものです。マリアの内面に聖霊が宿るという信仰上の意味を、鳩や光、銘文によって示しています。メトロポリタン美術館によると、個人の祈りや瞑想を助けるために使われた絵でした。\n\n顔と幼子の表情を見たあと、胸元の小さな鳩、頭の周囲の文字、画面下の天使へと視線を移してみてください。一つの像に、見る人の祈りを導く要素が重ねられています。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/764096"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-764096-2026-11-11.json",
+        "audit_sha256": "4d9bf673e4898efe82aef41b6905bedab64c69d7b320c3a8b64fb1b4aee80568",
+        "record_sha256": "221259164e963e3e3febdc8c9a20eb13353ea867a420029cc6c38be3f97543e8"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
