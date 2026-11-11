@@ -154,7 +154,7 @@ def add(spec,sequence):
         "image_evidence":[docs["display"][1],docs["original"][1]],
         "notes":[f"Sequential addition {sequence}; prior artworks and image-source records unchanged.",
                  "Source Overview passages independently read via official museum page 2026-11-11. Separate AI pass is not human expert.",
-                 "One previously selected met-11269 is already registered and was excluded from this batch. Source excerpts in this audit are from the exact official Met object page."]]}
+                 "One previously selected met-11269 is already registered and was excluded from this batch. Source excerpts in this audit are from the exact official Met object page."]}
  write(audit_path,audit)
  run("python","scripts/verify_official_source_text.py","--audit",audit_path)
  run("python","scripts/add_artwork.py","preview","--audit",audit_path)
