@@ -214,21 +214,24 @@ for art in data.get("artworks", []):
         errors.append(f"{ident}: キュレーション状態が不正")
     if "interpretation_human_approved" in review:
         errors.append(f"{ident}: 廃止した人間承認フラグが残っている")
-    for field in (
+    # Old review flags stay valid on historical records, but newly completed
+    # v2 additions use their version-bound audit as the single completion gate.
+    legacy_fields = (
         "ai_content_review_status",
         "source_evidence_review_status",
         "image_subject_match_status",
-    ):
+    )
+    present = [field for field in legacy_fields if field in review]
+    new_completion = art.get("completion", {}).get("schema_version") == "artwork-completion-v2-new-1"
+    if (present and len(present) != len(legacy_fields)) or (not present and not new_completion):
+        errors.append(f"{ident}: 旧レビュー状態の必須項目が欠落または一部のみ存在する")
+    for field in present:
         if review.get(field) not in ("pending", "verified", "needs_revision"):
             errors.append(f"{ident}: {field} の検証状態が不正")
-    # approved は証拠と内容の確認済みを意味する（人間の承認ではない）。
-    if review.get("curatorial_review_status") == "approved" and any(
-        review.get(field) != "verified"
-        for field in (
-            "ai_content_review_status",
-            "source_evidence_review_status",
-            "image_subject_match_status",
-        )
+    # Only historical flags are consulted here. New v2 registrations are
+    # approved exclusively by their bound source/image/rights audit.
+    if review.get("curatorial_review_status") == "approved" and present and any(
+        review.get(field) != "verified" for field in legacy_fields
     ):
         errors.append(f"{ident}: 証拠検証待ちの作品を公開承認済みにしている")
     for section, keys in (
