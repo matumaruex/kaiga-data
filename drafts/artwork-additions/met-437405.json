@@ -1,0 +1,153 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-437405",
+  "artwork": {
+    "id": "met-437405",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 437405,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/437405",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437405",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "A Young Woman as a Shepherdess",
+      "title_ja_provisional": "羊飼いに扮した若い女性",
+      "artist": "Govert Flinck",
+      "creation_date_display": "17世紀（Met作品APIでは制作年の記載なし）",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "The Netherlands (artist origin; Met API culture unspecified)",
+      "accession_number": "60.71.15"
+    },
+    "image": {
+      "image_id": "met-437405-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146492.jpg",
+      "source_registry_id": "met-437405",
+      "local_path": "/artworks/met-437405.jpg",
+      "sha256": "cde0ba36ed7bbc5c7e18d27452cb9029245f7e686a0e08b93b412c60406f53d2",
+      "byte_length": 70517,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42967173997",
+      "source_accession_number": "60.71.15",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146492.jpg",
+        "sha256": "d3da1d60f9790ee8d24c7035a3d321d79847777acd177c31e8ce9af25cfe3a57",
+        "byte_length": 2528369,
+        "width": 2833,
+        "height": 3722,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 5.27113",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "余韻"
+      ],
+      "themes": [
+        "時間",
+        "共同体"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/437405",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "レンブラントと弟子フリンクの画風の近さや、作品の誤った署名が後世に起こした誤認を考えたい",
+            "reason": "Met公式作品別Overviewによると、レンブラントの弟子ホーフェルト・フリンクは、師に学んだ、古代や劇場の世界を連想させる装飾的な衣装の人物像を描いた。この作品の若い女性は花冠、ベール、羊飼いの杖を身に着け、理想化された牧歌のヒロインの姿をとる。フリンク独自の表現は光る衣服の質感、精緻な花、細く傾いた肩の線に現れる。18世紀までには絵にレンブラントを装う偽の署名が加えられ、弟子の絵が師のものと誤認されて20世紀後半まで伝わることさえあった。制作年はMet APIの作品欄では未記載。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "モデルをレンブラントの妻サスキアと断定しない。作品はフリンク作で、レンブラントの名前の署名は偽物であると明確に区別する。制作年を出典にない1633年などで確定しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met公式作品別Overviewによると、レンブラントの弟子ホーフェルト・フリンクは、師に学んだ、古代や劇場の世界を連想させる装飾的な衣装の人物像を描いた。この作品の若い女性は花冠、ベール、羊飼いの杖を身に着け、理想化された牧歌のヒロインの姿をとる。フリンク独自の表現は光る衣服の質感、精緻な花、細く傾いた肩の線に現れる。18世紀までには絵にレンブラントを装う偽の署名が加えられ、弟子の絵が師のものと誤認されて20世紀後半まで伝わることさえあった。制作年はMet APIの作品欄では未記載。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/437405"
+        },
+        "creation_context": "; ; Oil on canvas, transferred from wood; accession 60.71.15",
+        "visual_clues": "Met公式原寸画像と表示JPEGの縮小一致・実画面を目視。暗い楕円形の画面に、白っぽい衣と肩を覆う薄い布、花冠をまとった若い女性が右へ少し身体を向け、こちらを見ている。頭上には花冠、右側の暗い背景で肩の輪郭が細く傾く。左上にはほのかに明かり。",
+        "uncertainty_note": "モデルをレンブラントの妻サスキアと断定しない。作品はフリンク作で、レンブラントの名前の署名は偽物であると明確に区別する。制作年を出典にない1633年などで確定しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42967173997",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "暗い楕円形の画面の中で、若い女性がこちらを見つめています。頭には花冠をつけ、薄いベールと羊飼いの杖を持った、物語の中の羊飼いを思わせる姿です。衣服の柔らかな光と、細かな花の描写が目を引きます。\n\n作者ホーフェルト・フリンクはレンブラントの弟子でした。師にならって劇場や古代世界を連想させる衣装の人物を描きながら、きらめく布地や肩の輪郭には自分の表現も加えました。この絵には18世紀までに、レンブラント作と見せかける偽の署名が加えられていたことが分かっています。\n\n絵そのものを眺めるだけでなく、作品が誰の手で描かれたと信じられてきたかにも注目してみてください。美しい肖像の背後に、美術品が伝わる中で起きた誤解の歴史が見えてきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437405"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-437405",
+    "title": "A Young Woman as a Shepherdess",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/437405",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/437405",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146492.jpg",
+      "sha256": "cde0ba36ed7bbc5c7e18d27452cb9029245f7e686a0e08b93b412c60406f53d2",
+      "byte_length": 70517,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42967173997",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146492.jpg",
+        "sha256": "d3da1d60f9790ee8d24c7035a3d321d79847777acd177c31e8ce9af25cfe3a57",
+        "byte_length": 2528369,
+        "width": 2833,
+        "height": 3722,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 5.27113",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "60.71.15"
+  }
+}

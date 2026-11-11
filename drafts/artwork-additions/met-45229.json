@@ -1,0 +1,153 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-45229",
+  "artwork": {
+    "id": "met-45229",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 45229,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/45229",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45229",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Fox with Staff (Hakuzōsu)",
+      "title_ja_provisional": "杖を持つ狐（白蔵主）",
+      "artist": "Eiraku Hozen",
+      "creation_date_display": "after 1848",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "36.100.95"
+    },
+    "image": {
+      "image_id": "met-45229-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/36_100_95_O2_sf.jpg",
+      "source_registry_id": "met-45229",
+      "local_path": "/artworks/met-45229.jpg",
+      "sha256": "caf40f4d6019d5c8b9719cc06b40d65a25b914b8c4aaaf44a9467fecf6c30091",
+      "byte_length": 29777,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42967173997",
+      "source_accession_number": "36.100.95",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/36_100_95_O2_sf.jpg",
+        "sha256": "d99d306b0ab2a65781b4b487ff226b690a3f0c586b970fc0b428b4bd83f8001a",
+        "byte_length": 531150,
+        "width": 1683,
+        "height": 2969,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 2.94384",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 2
+      },
+      "tones": [
+        "落ち着き"
+      ],
+      "themes": [
+        "日常",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/45229",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "江戸の狂言に登場する僧に化けた狐を、永樂保全の簡潔な筆遣いと添えた詩で味わいたい",
+            "reason": "Met公式作品別Overviewによると、京都の陶工永樂保全は、文人と親交を持ち中国風の趣味に通じ、鮮やかな色彩の陶器や金を使った作品で知られた。しかしこの掛軸では、非常に少ない筆の線で、杖を持つ僧の姿に化けた狐を表す。人物は狂言『釣狐（The Fox Trapper）』の主人公で、添えられた謎めいた詩は僧衣を着た者も内心は狐のままでありうると警告する。作家の晩年の事業上の失敗が作品の質に影響した可能性をMetは推測するが、確定ではない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "作品の狐が実在した僧であるとは言わず狂言の登場人物として説明。作家の商売上の経験と心理を因果関係として断定しない。狂言題名の英訳はMetの表記で、和名『釣狐』は作品解説の『The Fox Trapper』に対応する一般名。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met公式作品別Overviewによると、京都の陶工永樂保全は、文人と親交を持ち中国風の趣味に通じ、鮮やかな色彩の陶器や金を使った作品で知られた。しかしこの掛軸では、非常に少ない筆の線で、杖を持つ僧の姿に化けた狐を表す。人物は狂言『釣狐（The Fox Trapper）』の主人公で、添えられた謎めいた詩は僧衣を着た者も内心は狐のままでありうると警告する。作家の晩年の事業上の失敗が作品の質に影響した可能性をMetは推測するが、確定ではない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/45229"
+        },
+        "creation_context": "after 1848; Japan; Hanging scroll; ink on paper; accession 36.100.95",
+        "visual_clues": "Met公式同一作品の元画像と表示画像を視認して照合。淡い茶色の細長い紙の下部に墨の濃い線を使った、頭が長く前に出た狐のような僧姿の小人物。細い杖を斜め左へ伸ばす。上方の大きな余白には縦書きの詩文が数行あり、最下部に落款。人物はごく少ない線で描かれる。",
+        "uncertainty_note": "作品の狐が実在した僧であるとは言わず狂言の登場人物として説明。作家の商売上の経験と心理を因果関係として断定しない。狂言題名の英訳はMetの表記で、和名『釣狐』は作品解説の『The Fox Trapper』に対応する一般名。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42967173997",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "細長い掛軸の下に、杖を持った不思議な姿が小さく描かれています。僧のように見えますが、その顔つきには狐を思わせる特徴があります。少ない墨の線で人物の形を表し、上には余白と詩が大きく残されています。\n\n描かれているのは、狂言『釣狐』に登場する、僧に化けた狐です。作者の永樂保全は、京都で色鮮やかな陶器や金を使った作品を作った陶工でもありました。この掛軸では、わずかな筆遣いで狐僧の姿を生み出しています。\n\n添えられた詩は、僧衣をまとっていても内心は狐のままかもしれない、と見る人に注意を促しています。余白と短い線、風刺めいた言葉を重ねると、簡潔な表現の面白さが感じられます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/45229"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-45229",
+    "title": "Fox with Staff (Hakuzōsu)",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/45229",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/45229",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/36_100_95_O2_sf.jpg",
+      "sha256": "caf40f4d6019d5c8b9719cc06b40d65a25b914b8c4aaaf44a9467fecf6c30091",
+      "byte_length": 29777,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42967173997",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/36_100_95_O2_sf.jpg",
+        "sha256": "d99d306b0ab2a65781b4b487ff226b690a3f0c586b970fc0b428b4bd83f8001a",
+        "byte_length": 531150,
+        "width": 1683,
+        "height": 2969,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 2.94384",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "36.100.95"
+  }
+}
