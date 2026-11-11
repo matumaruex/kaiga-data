@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-11287",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-11287.json",
+  "candidate_sha256": "227cf61e90e6b164b5b11e7d44e7b1808cc3f3dae14c875767b17aafc099fff0",
+  "draft_path": "drafts/visitor-explanations/met-11287.json",
+  "draft_sha256": "374695d5956bc384ecdf74f3a66496bd35422c83b76627e89a18a8a500715db5",
+  "baseline": {
+    "artworks_sha256": "1344bdca7b3762a2908b3d1ae4f00e093766ce3bf27e6e9e6584e8c069fa6406",
+    "image_registry_sha256": "684e8bc151f2f9454b664f2c7dcbd3ff26441a317f656447b3a18a927ad0c518"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/11287",
+      "source_excerpt": "his portrayal of a group of fleeing figures indicates",
+      "visitor_claim": "逃げる人々の姿が自由への明確な道筋のない状況を示す",
+      "source_section": "Overview: flight and unclear route to liberty"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/11287",
+      "source_excerpt": "Kaufmann based his Civil War scene on an 1859 composition",
+      "visitor_claim": "画家は、1859年にブラジルを舞台として描かれたフランスの画家ビアールの構図を参考にしました",
+      "source_section": "Overview: compositional reference to Biard"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/11287",
+      "location": "Met object Overview and Artwork Details: Overview: flight and unclear route to liberty | Overview: compositional reference to Biard",
+      "finding": "Met作品別Overviewによると、画家カウフマンはドイツで1848年の政治運動に参加した後、1850年に渡米し南北戦争では北軍兵として従軍した。絵は逃れる一行の進路が明らかでない様子を示す。Metはこの画面がフランソワ＝オーギュスト・ビアールによる1859年作の、ブラジルを舞台とした類似題材の構図を参照したと説明する。 Visual subject based on specific same-object source image: 暗い林の間を複数の大人と子どもが、衣服や荷物を担いで右の明るい場所へ歩く。足元は土の道で、人物の顔と衣服に光が当たり、遠い道筋は視界に入らない。Met原画像と表示画像は同作の構図。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11287",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42927377170",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/11287",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42927377170"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/11287",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 11287: On to Liberty; Theodor Kaufmann, 1867; 1982.443.3. API artist differs in attribution framing if supplied; museum page preserves attribution. American Wing classification blank is restricted to verified oil painting 11287.",
+      "image_match": "暗い林の間を複数の大人と子どもが、衣服や荷物を担いで右の明るい場所へ歩く。足元は土の道で、人物の顔と衣服に光が当たり、遠い道筋は視界に入らない。Met原画像と表示画像は同作の構図。 API official primary JPEG complete hashes/dimensions, downscale RMS 7.64681.",
+      "historical_interpretation": "Met作品別Overviewによると、画家カウフマンはドイツで1848年の政治運動に参加した後、1850年に渡米し南北戦争では北軍兵として従軍した。絵は逃れる一行の進路が明らかでない様子を示す。Metはこの画面がフランソワ＝オーギュスト・ビアールによる1859年作の、ブラジルを舞台とした類似題材の構図を参照したと説明する。 Limits: 画中人物の具体的な名前、逃走の行先や結果は特定しない。実際に作者が南軍の撤退を目撃したかはMetでも推量。ビアールの1859年作とカウフマンの1867年作は別作品。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['不安']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT2100.jpg",
+      "sha256": "a39f746d7190743a49bf4d2922a74df3e559d1b7296a0a5c8f7c05d8b2a6aec6",
+      "byte_length": 72410,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "暗い林の間を複数の大人と子どもが、衣服や荷物を担いで右の明るい場所へ歩く。足元は土の道で、人物の顔と衣服に光が当たり、遠い道筋は視界に入らない。Met原画像と表示画像は同作の構図。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42927377170"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DT2100.jpg",
+      "sha256": "fb03e98cd239b8820dc2ba69b7116c1bcad92be3f0e5835786942f89a51551b1",
+      "byte_length": 1946349,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "暗い林の間を複数の大人と子どもが、衣服や荷物を担いで右の明るい場所へ歩く。足元は土の道で、人物の顔と衣服に光が当たり、遠い道筋は視界に入らない。Met原画像と表示画像は同作の構図。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42927377170"
+    }
+  ],
+  "notes": [
+    "Sequential addition 335; prior artworks and image-source records unchanged.",
+    "Source Overview passages independently read via official museum page 2026-11-11. Separate AI pass is not human expert.",
+    "The 2026 Korean accession is a separate eight-panel screen (929265), not the older ten-panel Jang-attributed screen (646996)."
+  ]
+}

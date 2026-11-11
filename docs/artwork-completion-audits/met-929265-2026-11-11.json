@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-929265",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-929265.json",
+  "candidate_sha256": "4b6a076c48515ddaf0b8240067a7be132dcf500cb216828296a7f9e8048ab00d",
+  "draft_path": "drafts/visitor-explanations/met-929265.json",
+  "draft_sha256": "dc03613e0aad0c4723d6ab18f71be624be429cc9ed8fd662b777d8474fe941f3",
+  "baseline": {
+    "artworks_sha256": "14c5913b59266894e4a9400d69b0d0491819bd9405b621e6b00bd56fd83b2994",
+    "image_registry_sha256": "cdf17a73e9a1db74ace7feaab3bbf7dd2449634557272d91610c1f0175e5f11b"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/929265",
+      "source_excerpt": "This eight-panel folding screen incorporates images from three painting genres",
+      "visitor_claim": "この屏風は鳥と花、動物、静物という三種類の絵画ジャンルを合わせたものです",
+      "source_section": "Overview: three painting genres"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/929265",
+      "source_excerpt": "The theme and authorship are provided by a title slip",
+      "visitor_claim": "作者を示す手がかりには、第一扇の裏側にある題箋と、第八扇に押された二つの印が挙げられています",
+      "source_section": "Overview: title slip and seals"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/929265",
+      "location": "Met object Overview and Artwork Details: Overview: three painting genres | Overview: title slip and seals",
+      "finding": "Met作品別Overviewによると、この八曲屏風には鳥と花、動物、器物と枝を描く静物という三つのジャンルが一つに収められる。十九世紀の朝鮮では『器皿折枝図』という器物と植物を描くジャンルが発達した。Metは作者を示す根拠として第一扇裏側の題箋と第八扇に押された作者の印二つを挙げる。 Visual subject based on specific same-object source image: 八曲の縦長の屏風。左側に鳥や枝、中央に脚付きの器物と葉、右側に樹の幹や器物、小獣を墨と淡彩で配している。同一IDのMet公式画像で8枚の画面が一続きの組作品であることを確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/929265",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42927377170",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/929265",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42927377170"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/929265",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met exact object 929265 title/date/creator/accession checked.",
+      "image_match": "八曲の縦長の屏風。左側に鳥や枝、中央に脚付きの器物と葉、右側に樹の幹や器物、小獣を墨と淡彩で配している。同一IDのMet公式画像で8枚の画面が一続きの組作品であることを確認。 API official primary JPEG complete hashes/dimensions, downscale RMS 10.24511.",
+      "historical_interpretation": "Met作品別Overviewによると、この八曲屏風には鳥と花、動物、器物と枝を描く静物という三つのジャンルが一つに収められる。十九世紀の朝鮮では『器皿折枝図』という器物と植物を描くジャンルが発達した。Metは作者を示す根拠として第一扇裏側の題箋と第八扇に押された作者の印二つを挙げる。 Limits: 作品ごとの鳥や動物を特定種と断定しない。題箋と印を記すが作者直筆の全扇確実性までは拡大しない。Metの『器皿折枝図』は一部の静物ジャンルを指し、屏風全体が静物だけではない。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['好奇心']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-45714-001.jpg",
+      "sha256": "27f3ab9a41e06b7a6e682baaed0fd13e5b2b08157646edb0f4a9940076add496",
+      "byte_length": 90271,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "八曲の縦長の屏風。左側に鳥や枝、中央に脚付きの器物と葉、右側に樹の幹や器物、小獣を墨と淡彩で配している。同一IDのMet公式画像で8枚の画面が一続きの組作品であることを確認。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42927377170"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-45714-001.jpg",
+      "sha256": "36c763bf5dab83985d7b97f475f5dcc12d037a5d897f375fa9a0934557b68ad3",
+      "byte_length": 2420631,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "八曲の縦長の屏風。左側に鳥や枝、中央に脚付きの器物と葉、右側に樹の幹や器物、小獣を墨と淡彩で配している。同一IDのMet公式画像で8枚の画面が一続きの組作品であることを確認。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42927377170"
+    }
+  ],
+  "notes": [
+    "Sequential addition 334; prior artworks and image-source records unchanged.",
+    "Source Overview passages independently read via official museum page 2026-11-11. Separate AI pass is not human expert.",
+    "The 2026 Korean accession is a separate eight-panel screen (929265), not the older ten-panel Jang-attributed screen (646996)."
+  ]
+}

@@ -40596,6 +40596,369 @@
         "audit_sha256": "e71d4c71429e976c113c7da925cf56fd5c127ea3ed239640231e943fa712bea6",
         "record_sha256": "bc2b1198b5f2b30319e2b5f837aca4e6cc1f0c72f92ca151b37eea89c41d3801"
       }
+    },
+    {
+      "id": "met-816194",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 816194,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/816194",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/816194",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Landscape",
+        "title_ja_provisional": "山水図",
+        "artist": "Attributed to Sōami",
+        "creation_date_display": "15th–early 16th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2018.853.7"
+      },
+      "image": {
+        "image_id": "met-816194-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-17102-002.jpg",
+        "source_registry_id": "met-816194",
+        "local_path": "/artworks/met-816194.jpg",
+        "sha256": "64532fa928de1c4ec9ed5046dddd8aa856220501a237a3c4dbb113905d87efd8",
+        "byte_length": 89782,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42927377170",
+        "source_accession_number": "2018.853.7",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-17102-002.jpg",
+          "sha256": "7fbc9b2f4ef4182c555f9b96f6a93448170980350a26d77c461dd8ce99acb513",
+          "byte_length": 4017906,
+          "width": 4000,
+          "height": 3002,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 3.84715",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/816194",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "水墨の淡い濃淡と、室町時代の中国画からの影響を眺めたい",
+              "reason": "Met作品別Overviewによると、この画面は柔らかい墨のにじみで水辺の地形と樹木を表し、岸のそばに舟が2艘見える。相阿弥は室町時代の阿弥派の絵師の一人で、足利将軍家の美術鑑定や助言に携わり、中国からもたらされた絵画にも通じていた。中国・南宋の禅僧牧谿の墨表現に学んだと説明される。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "『Attributed to』であり相阿弥本人の筆と断定しない。画中人物の感情や特定の実景・季節を推定しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによると、この画面は柔らかい墨のにじみで水辺の地形と樹木を表し、岸のそばに舟が2艘見える。相阿弥は室町時代の阿弥派の絵師の一人で、足利将軍家の美術鑑定や助言に携わり、中国からもたらされた絵画にも通じていた。中国・南宋の禅僧牧谿の墨表現に学んだと説明される。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/816194"
+          },
+          "creation_context": "15th–early 16th century; Japan; Hanging scroll; ink on paper; accession 2018.853.7",
+          "visual_clues": "ほのかに暗い水辺へ下る丘、枝垂れる柳、左下の小舟、右側の小道をたどる小人物が、淡い墨の景色に置かれる。外縁の古い装丁と朱印も同一作品の公式表示で視認した。",
+          "uncertainty_note": "『Attributed to』であり相阿弥本人の筆と断定しない。画中人物の感情や特定の実景・季節を推定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42927377170",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "低い丘が水辺へなだらかに下り、枝を垂らす柳のそばに小さな舟が見えます。右側には道を歩く人物が描かれ、薄くにじむ墨が、地面や木々とその奥の空間をつなげています。\n\nこの山水画は、室町時代の絵師・相阿弥の作と伝えられていますが、作者の確定には至っていません。水際には二艘の舟があり、一方の舟は岸から離れようとしています。相阿弥は足利将軍家で美術の鑑定や助言を担い、中国から伝わった絵画にも親しんだ人物でした。\n\n濃い輪郭で一つ一つを囲うのではなく、墨の濃淡によって枝や地形が現れては消えていきます。舟や小さな人影をたどると、余白を含めた画面の広さが感じられます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/816194"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-816194-2026-11-11.json",
+        "audit_sha256": "abf84817c6d188b9fb12c1eea6229844ecf03c90f544b109aa0c02cfce52433c",
+        "record_sha256": "5763263fb046bc297e14427a596bdbd8bd19d999c7bf291f0e4f6e9740b6d9a2"
+      }
+    },
+    {
+      "id": "met-929265",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 929265,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/929265",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/929265",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Birds, Animals, and Still-lifes",
+        "title_ja_provisional": "鳥・動物・静物図屏風",
+        "artist": "Jang Seung-eop (장승업 張承業, sobriquet: Owon 오원 吾園)",
+        "creation_date_display": "late 19th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Korea",
+        "accession_number": "2026.527.1"
+      },
+      "image": {
+        "image_id": "met-929265-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-45714-001.jpg",
+        "source_registry_id": "met-929265",
+        "local_path": "/artworks/met-929265.jpg",
+        "sha256": "27f3ab9a41e06b7a6e682baaed0fd13e5b2b08157646edb0f4a9940076add496",
+        "byte_length": 90271,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42927377170",
+        "source_accession_number": "2026.527.1",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-45714-001.jpg",
+          "sha256": "36c763bf5dab83985d7b97f475f5dcc12d037a5d897f375fa9a0934557b68ad3",
+          "byte_length": 2420631,
+          "width": 4000,
+          "height": 2204,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 10.24511",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "日常"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/929265",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "八枚の屏風で鳥や動物、花枝、器物の描き方の違いを見比べたい",
+              "reason": "Met作品別Overviewによると、この八曲屏風には鳥と花、動物、器物と枝を描く静物という三つのジャンルが一つに収められる。十九世紀の朝鮮では『器皿折枝図』という器物と植物を描くジャンルが発達した。Metは作者を示す根拠として第一扇裏側の題箋と第八扇に押された作者の印二つを挙げる。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作品ごとの鳥や動物を特定種と断定しない。題箋と印を記すが作者直筆の全扇確実性までは拡大しない。Metの『器皿折枝図』は一部の静物ジャンルを指し、屏風全体が静物だけではない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによると、この八曲屏風には鳥と花、動物、器物と枝を描く静物という三つのジャンルが一つに収められる。十九世紀の朝鮮では『器皿折枝図』という器物と植物を描くジャンルが発達した。Metは作者を示す根拠として第一扇裏側の題箋と第八扇に押された作者の印二つを挙げる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/929265"
+          },
+          "creation_context": "late 19th century; Korea; Eight-panel folding screen; ink and color on panel; accession 2026.527.1",
+          "visual_clues": "八曲の縦長の屏風。左側に鳥や枝、中央に脚付きの器物と葉、右側に樹の幹や器物、小獣を墨と淡彩で配している。同一IDのMet公式画像で8枚の画面が一続きの組作品であることを確認。",
+          "uncertainty_note": "作品ごとの鳥や動物を特定種と断定しない。題箋と印を記すが作者直筆の全扇確実性までは拡大しない。Metの『器皿折枝図』は一部の静物ジャンルを指し、屏風全体が静物だけではない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42927377170",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "細長い八枚の画面に、鳥、木の枝、小動物、花、そして形の異なる器物が配置されています。羽を広げた鳥がいる一方、器と植物が静かに並ぶ画面もあり、屏風を横へたどると題材が次々に変わります。\n\nメトロポリタン美術館によれば、この屏風は鳥と花、動物、静物という三種類の絵画ジャンルを合わせたものです。十九世紀の朝鮮では、器物と枝を描く『器皿折枝図』という形式も広まりました。作者を示す手がかりには、第一扇の裏側にある題箋と、第八扇に押された二つの印が挙げられています。\n\n自由な筆の動きと、羽や葉を表す細い線が交互に現れます。八枚をひとつの大きな絵として眺めたり、画面ごとの違いを探したりして楽しめます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/929265"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-929265-2026-11-11.json",
+        "audit_sha256": "69f228a27327b4aca196c7122f4fb7474f1858628e980329253da31182a58325",
+        "record_sha256": "96fa96d45abdff370d4e2e032b8d6f0f8c41a49752151d56ce6082bb81007bee"
+      }
+    },
+    {
+      "id": "met-11287",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 11287,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/11287",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11287",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "On to Liberty",
+        "title_ja_provisional": "自由への道",
+        "artist": "Theodor Kaufmann",
+        "creation_date_display": "1867",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "American",
+        "accession_number": "1982.443.3"
+      },
+      "image": {
+        "image_id": "met-11287-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT2100.jpg",
+        "source_registry_id": "met-11287",
+        "local_path": "/artworks/met-11287.jpg",
+        "sha256": "a39f746d7190743a49bf4d2922a74df3e559d1b7296a0a5c8f7c05d8b2a6aec6",
+        "byte_length": 72410,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42927377170",
+        "source_accession_number": "1982.443.3",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DT2100.jpg",
+          "sha256": "fb03e98cd239b8820dc2ba69b7116c1bcad92be3f0e5835786942f89a51551b1",
+          "byte_length": 1946349,
+          "width": 3811,
+          "height": 2474,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 7.64681",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "不安"
+        ],
+        "emotion_strengths": {
+          "不安": 2
+        },
+        "tones": [
+          "緊張"
+        ],
+        "themes": [
+          "共同体",
+          "居場所"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/11287",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "南北戦争を題材にした歴史画の人物構成と、自由への道が見えない状況を考えたい",
+              "reason": "Met作品別Overviewによると、画家カウフマンはドイツで1848年の政治運動に参加した後、1850年に渡米し南北戦争では北軍兵として従軍した。絵は逃れる一行の進路が明らかでない様子を示す。Metはこの画面がフランソワ＝オーギュスト・ビアールによる1859年作の、ブラジルを舞台とした類似題材の構図を参照したと説明する。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "画中人物の具体的な名前、逃走の行先や結果は特定しない。実際に作者が南軍の撤退を目撃したかはMetでも推量。ビアールの1859年作とカウフマンの1867年作は別作品。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによると、画家カウフマンはドイツで1848年の政治運動に参加した後、1850年に渡米し南北戦争では北軍兵として従軍した。絵は逃れる一行の進路が明らかでない様子を示す。Metはこの画面がフランソワ＝オーギュスト・ビアールによる1859年作の、ブラジルを舞台とした類似題材の構図を参照したと説明する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/11287"
+          },
+          "creation_context": "1867; American; Oil on canvas; accession 1982.443.3",
+          "visual_clues": "暗い林の間を複数の大人と子どもが、衣服や荷物を担いで右の明るい場所へ歩く。足元は土の道で、人物の顔と衣服に光が当たり、遠い道筋は視界に入らない。Met原画像と表示画像は同作の構図。",
+          "uncertainty_note": "画中人物の具体的な名前、逃走の行先や結果は特定しない。実際に作者が南軍の撤退を目撃したかはMetでも推量。ビアールの1859年作とカウフマンの1867年作は別作品。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "不安"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42927377170",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "木々が薄暗く茂る中、大人と子どもが荷物を抱えて歩いています。前へ進む人物もいれば、後ろの人を気にかけるように振り返る人物もいます。画面の右側に光が差しているものの、その先の道がどこへ続くのかは描かれていません。\n\n1867年に描かれたこの絵は、アメリカ南北戦争の時代に自由を求めた人々を題材にしています。メトロポリタン美術館は、逃げる人々の姿が自由への明確な道筋のない状況を示すと説明しています。また画家は、1859年にブラジルを舞台として描かれたフランスの画家ビアールの構図を参考にしました。\n\n荷物を運ぶ姿勢や大人と子どもの距離を追うと、ひとりの英雄ではなく、集団で移動することの困難さが見えてきます。題名が示す『自由へ』という方向と、行く先の見えない画面の緊張を重ねて鑑賞できます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/11287"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-11287-2026-11-11.json",
+        "audit_sha256": "a539aeb15d787e23afb24463eb5c95db7eae29358d5cc0cb7221a0f045a97cf4",
+        "record_sha256": "9c17edbf4f7e66a963fdc9281b9723469211263847736eb54598b14366c6d764"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
