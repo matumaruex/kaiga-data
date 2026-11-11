@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-921065",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-921065.json",
+  "candidate_sha256": "ff576b91cd5899f719954f40b47ec396d24c2916a60da737070652b4e9a554d5",
+  "draft_path": "drafts/visitor-explanations/met-921065.json",
+  "draft_sha256": "759d689006fd248e21371eca39682f83c844726ffc38809b9cd9204083ced8be",
+  "baseline": {
+    "artworks_sha256": "ec11eead56c3d5e6448af902e357d576247ffa5e5722553a45e736172cd7168b",
+    "image_registry_sha256": "25ec224ad6c05a8da03d7df7ad4c633ab3378465f1f16d6a335badecf70aa403"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/921065",
+      "source_excerpt": "an exceptionally well-preserved example of Campeche’s private portraiture",
+      "visitor_claim": "この作品は、カンペチェの個人肖像画の中でも保存状態が非常によい例だと説明されています",
+      "source_section": "Overview: preservation and private portraiture"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/921065",
+      "source_excerpt": "wearing a scarlet uniform jacket, Fernández turns his forthright gaze",
+      "visitor_claim": "赤い制服の上着を着たフェルナンデスは、こちらをまっすぐ見つめています",
+      "source_section": "Overview: scarlet uniform and gaze"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/921065",
+      "location": "Met object Overview and Artwork Details: Overview: preservation and private portraiture | Overview: scarlet uniform and gaze",
+      "finding": "Met公式作品Overviewによると、アフリカ系のルーツを持つカンペチェは18世紀末のプエルトリコを代表する画家で、植民地社会の要請に応じて官吏や商人など多様な肖像画を制作した。本作は私的肖像の保存状態が極めて良い例で、被写体は大西洋とカリブ海をまたぐ交易に関わった役人・商人ニコラス・マティアス・フェルナンデス・メンデス。赤い制服と、背景の架空の石造りの枠が人物の存在を強調している。 Visual subject based on specific same-object source image: 赤い上着を着た成熟した男性が正面へ視線を向け、無地に近い暗色の背景と石造りを模した枠に囲まれている。Met公式同一作品画像の図像に基づく。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/921065",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42929134131",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/921065",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42929134131"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/921065",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 921065, Portrait of Nicolás Matías Fernández Méndez, José Campeche, ca. 1800, 2025.243. Attribution caveats and empty American Wing API classification preserved.",
+      "image_match": "赤い上着を着た成熟した男性が正面へ視線を向け、無地に近い暗色の背景と石造りを模した枠に囲まれている。Met公式同一作品画像の図像に基づく。 API official primary JPEG complete hashes/dimensions, downscale RMS 3.18572.",
+      "historical_interpretation": "Met公式作品Overviewによると、アフリカ系のルーツを持つカンペチェは18世紀末のプエルトリコを代表する画家で、植民地社会の要請に応じて官吏や商人など多様な肖像画を制作した。本作は私的肖像の保存状態が極めて良い例で、被写体は大西洋とカリブ海をまたぐ交易に関わった役人・商人ニコラス・マティアス・フェルナンデス・メンデス。赤い制服と、背景の架空の石造りの枠が人物の存在を強調している。 Limits: 男性の財力や内面、交易による個人的行動の詳細を推測しない。アーティストの出自を作品のAPIにない文化項目と同一視しない。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: []",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-40070-001.jpg",
+      "sha256": "9253191cb7a6686145c77502ad9b2f2e7ff9b8a9727ee767b623c579254b7f42",
+      "byte_length": 70627,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "赤い上着を着た成熟した男性が正面へ視線を向け、無地に近い暗色の背景と石造りを模した枠に囲まれている。Met公式同一作品画像の図像に基づく。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42929134131"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-40070-001.jpg",
+      "sha256": "038ddc233c20243397e62ce5a884e0f53aadb6c90ce53ca037b1b55a10f482ec",
+      "byte_length": 2401955,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "赤い上着を着た成熟した男性が正面へ視線を向け、無地に近い暗色の背景と石造りを模した枠に囲まれている。Met公式同一作品画像の図像に基づく。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42929134131"
+    }
+  ],
+  "notes": [
+    "Sequential addition 338; prior artworks and image-source records unchanged.",
+    "Source Overview passages independently read via official museum page 2026-11-11. Separate AI pass is not human expert.",
+    "One previously selected met-11269 is already registered and was excluded from this batch. Source excerpts in this audit are from the exact official Met object page."
+  ]
+}

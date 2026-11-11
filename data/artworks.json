@@ -40959,6 +40959,356 @@
         "audit_sha256": "a539aeb15d787e23afb24463eb5c95db7eae29358d5cc0cb7221a0f045a97cf4",
         "record_sha256": "9c17edbf4f7e66a963fdc9281b9723469211263847736eb54598b14366c6d764"
       }
+    },
+    {
+      "id": "met-45655",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 45655,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/45655",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45655",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Flowers",
+        "title_ja_provisional": "花蝶図",
+        "artist": "Attributed to Lü Jingfu",
+        "creation_date_display": "14th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "China",
+        "accession_number": "12.37.134"
+      },
+      "image": {
+        "image_id": "met-45655-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DT235402.jpg",
+        "source_registry_id": "met-45655",
+        "local_path": "/artworks/met-45655.jpg",
+        "sha256": "afd5fdeb63866c5b8521ed4adb8413c0114450578cbbdbf5a40b3be799bbb368",
+        "byte_length": 49785,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42929134131",
+        "source_accession_number": "12.37.134",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DT235402.jpg",
+          "sha256": "821957dab4b2e026890437df65775f19340dfb52b10d6ee64ab9934ba81f492d",
+          "byte_length": 1557792,
+          "width": 1989,
+          "height": 3722,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 4.63039",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "自然"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/45655",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "14世紀の中国花鳥画に見られる花や昆虫の描写を丁寧に見たい",
+              "reason": "Met公式作品Overviewは、この掛軸を毗陵派に属する花卉画と説明し、呂敬甫による署名のある作品との類似性から同画家への帰属を示す。元は対になる一組の片方で、芥子や菊などの草花の間に蝶とカマキリ、前景にはサンショウウオ、左右に蘭と白菜を置く。花と小動物の組合せが当時の装飾美術にも見られ、自然界で繰り返される捕食の象徴として読む可能性が論じられている。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作家は『Attributed to』であり真筆の断定を避ける。花や昆虫が必ず特定の政治的寓意を持つとは断言しない。Metが述べる捕食の象徴は一般的な図像解釈として扱う。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品Overviewは、この掛軸を毗陵派に属する花卉画と説明し、呂敬甫による署名のある作品との類似性から同画家への帰属を示す。元は対になる一組の片方で、芥子や菊などの草花の間に蝶とカマキリ、前景にはサンショウウオ、左右に蘭と白菜を置く。花と小動物の組合せが当時の装飾美術にも見られ、自然界で繰り返される捕食の象徴として読む可能性が論じられている。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/45655"
+          },
+          "creation_context": "14th century; China; Hanging scroll; ink and color on silk; accession 12.37.134",
+          "visual_clues": "縦長の絹地に草花の茎が上下に伸び、蝶やカマキリが花の周囲に配置される。中央下には小さなサンショウウオが見える。画面は茶系の地に淡い彩色が重なる。Met所蔵の同一作品IDの公式画像に基づく。",
+          "uncertainty_note": "作家は『Attributed to』であり真筆の断定を避ける。花や昆虫が必ず特定の政治的寓意を持つとは断言しない。Metが述べる捕食の象徴は一般的な図像解釈として扱う。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42929134131",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "淡い茶色の絹地に、細い茎を伸ばす花々と、蝶やカマキリが描かれています。画面手前にはサンショウウオがいて、左右には蘭と白菜が配されています。花弁や羽は、細い筆先と控えめな彩色で表現されています。\n\nこの作品は、14世紀の中国で描かれ、呂敬甫の作と考えられていますが、確定しているわけではありません。かつては一対の画面の片方でした。メトロポリタン美術館は、花と虫の描写を当時の装飾美術とも結びつけ、自然界の捕食関係を象徴する可能性にも触れています。\n\n花だけでなく、その間を飛ぶ虫や地面近くの小動物にも目を向けると、静かな植物画の中に小さな生き物どうしの関係が浮かび上がります。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/45655"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-45655-2026-11-11.json",
+        "audit_sha256": "98f2ced93728b047b41a94e8e42bb20977a76a625650c3ff50e728d16cfa258a",
+        "record_sha256": "48780ee8027ff239b1ee4611b08cfe98cb71b437bbd6bad25289e86d24225eb1"
+      }
+    },
+    {
+      "id": "met-436595",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436595,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436595",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436595",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Fantastic Landscape",
+        "title_ja_provisional": "幻想風景",
+        "artist": "Francesco Guardi",
+        "creation_date_display": "ca. 1765",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Unspecified by Met API (Italian artist; Venetian painting)",
+        "accession_number": "53.225.4"
+      },
+      "image": {
+        "image_id": "met-436595-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT9351.jpg",
+        "source_registry_id": "met-436595",
+        "local_path": "/artworks/met-436595.jpg",
+        "sha256": "c504f684d9a9cb1f6c6c8efe1778aff368053c7c6f732fbc27cb6054ef26bbf1",
+        "byte_length": 73870,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42929134131",
+        "source_accession_number": "53.225.4",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DT9351.jpg",
+          "sha256": "757c2d104fdc6966b0219717bef44172e3420177a136fec70e7580bb9d880fb5",
+          "byte_length": 2582299,
+          "width": 3807,
+          "height": 3113,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 5.20627",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436595",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "実景ではない風景の中に海辺、岩、廃墟、人物を組み合わせる工夫を味わいたい",
+              "reason": "Met公式作品Overviewによると、これは空想の風景『カプリッチョ』であり、ウーディネ近郊のコッロレード・ディ・モンテ・アルバーノ城由来の三作品のうち一つ。画家は装飾用の漆喰の枠に納めるため、制作中または直後に画面の形と大きさを調整した可能性がある。岩場、斜めに傾く木、古典的な廃墟を組み合わせ、漁師とその家族を画面に配置した。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "場所を実際の特定の海岸と断定しない。額装のための形状変更は美術館が可能性として述べた範囲に留める。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品Overviewによると、これは空想の風景『カプリッチョ』であり、ウーディネ近郊のコッロレード・ディ・モンテ・アルバーノ城由来の三作品のうち一つ。画家は装飾用の漆喰の枠に納めるため、制作中または直後に画面の形と大きさを調整した可能性がある。岩場、斜めに傾く木、古典的な廃墟を組み合わせ、漁師とその家族を画面に配置した。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436595"
+          },
+          "creation_context": "ca. 1765; ; Oil on canvas; accession 53.225.4",
+          "visual_clues": "柔らかい雲の下、左に小舟の浮かぶ水辺、中央から右に岩や傾いた木と廃墟があり、小さな人影が点在する。Met公式の同作品ページと原寸・表示主画像から画面構成を照合した。",
+          "uncertainty_note": "場所を実際の特定の海岸と断定しない。額装のための形状変更は美術館が可能性として述べた範囲に留める。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42929134131",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "大きな空の下、左には小舟が浮かぶ水面、右には岩場と傾いた木々、古い建物の廃墟が描かれています。岸には小さな人物が点在し、広い風景に日々の営みを感じさせます。\n\nこの作品は、現実の場所をそのまま描くのではなく、想像上の風景を組み立てる『カプリッチョ』です。岩場、傾いた木々、古代建築の廃墟を組み合わせて描かれています。メトロポリタン美術館によれば、もともとイタリア北東部の城にあった三点のうち一つで、装飾の枠に合わせて画面の形を調整した可能性があります。\n\n人々のいる地面から、樹木や建築の輪郭、空へと視線を動かすと、異なる景色の断片が一つに溶け合う様子を楽しめます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/436595"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-436595-2026-11-11.json",
+        "audit_sha256": "913529d52100229d810e1fd67d926a44a1a754e0c142221c9c2fe89393aa2561",
+        "record_sha256": "d6a69a52330db9de579b7099f6517b8aabdd22555aa578e5f7713e4a609d9d7e"
+      }
+    },
+    {
+      "id": "met-921065",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 921065,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/921065",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/921065",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Portrait of Nicolás Matías Fernández Méndez",
+        "title_ja_provisional": "ニコラス・マティアス・フェルナンデス・メンデスの肖像",
+        "artist": "José Campeche",
+        "creation_date_display": "ca. 1800",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Puerto Rico (artist and sitter context; Met API culture unspecified)",
+        "accession_number": "2025.243"
+      },
+      "image": {
+        "image_id": "met-921065-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-40070-001.jpg",
+        "source_registry_id": "met-921065",
+        "local_path": "/artworks/met-921065.jpg",
+        "sha256": "9253191cb7a6686145c77502ad9b2f2e7ff9b8a9727ee767b623c579254b7f42",
+        "byte_length": 70627,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42929134131",
+        "source_accession_number": "2025.243",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-40070-001.jpg",
+          "sha256": "038ddc233c20243397e62ce5a884e0f53aadb6c90ce53ca037b1b55a10f482ec",
+          "byte_length": 2401955,
+          "width": 3176,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 3.18572",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/921065",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "小さな木板の肖像画から、植民地期プエルトリコの人物表現と社会を考えたい",
+              "reason": "Met公式作品Overviewによると、アフリカ系のルーツを持つカンペチェは18世紀末のプエルトリコを代表する画家で、植民地社会の要請に応じて官吏や商人など多様な肖像画を制作した。本作は私的肖像の保存状態が極めて良い例で、被写体は大西洋とカリブ海をまたぐ交易に関わった役人・商人ニコラス・マティアス・フェルナンデス・メンデス。赤い制服と、背景の架空の石造りの枠が人物の存在を強調している。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "男性の財力や内面、交易による個人的行動の詳細を推測しない。アーティストの出自を作品のAPIにない文化項目と同一視しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品Overviewによると、アフリカ系のルーツを持つカンペチェは18世紀末のプエルトリコを代表する画家で、植民地社会の要請に応じて官吏や商人など多様な肖像画を制作した。本作は私的肖像の保存状態が極めて良い例で、被写体は大西洋とカリブ海をまたぐ交易に関わった役人・商人ニコラス・マティアス・フェルナンデス・メンデス。赤い制服と、背景の架空の石造りの枠が人物の存在を強調している。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/921065"
+          },
+          "creation_context": "ca. 1800; ; Oil on wood panel; accession 2025.243",
+          "visual_clues": "赤い上着を着た成熟した男性が正面へ視線を向け、無地に近い暗色の背景と石造りを模した枠に囲まれている。Met公式同一作品画像の図像に基づく。",
+          "uncertainty_note": "男性の財力や内面、交易による個人的行動の詳細を推測しない。アーティストの出自を作品のAPIにない文化項目と同一視しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42929134131",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "赤い制服の上着を着たフェルナンデスは、こちらをまっすぐ見つめています。背景には細かな物語や風景が描かれず、石造りを模した枠が人物を際立たせています。\n\n描かれたニコラス・マティアス・フェルナンデス・メンデスは、プエルトリコの役人であり、カリブ海と大西洋を結ぶ交易に関わった商人でした。画家ホセ・カンペチェは18世紀末のプエルトリコで多くの肖像画を残しました。この作品は、カンペチェの個人肖像画の中でも保存状態が非常によい例だと説明されています。\n\n小さな木板に描かれた顔と服の輪郭をたどると、装飾を抑えながら人物の存在感を伝える工夫が見えてきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/921065"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-921065-2026-11-11.json",
+        "audit_sha256": "271fedfd9bab875287b9873451d15d6b7e7942e0eb064185c5f18872962c1e3d",
+        "record_sha256": "016cb0a9df467084cae0c54e6584c62aff920f7436bae313dbde1e5599bb5c24"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

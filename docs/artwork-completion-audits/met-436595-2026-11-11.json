@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-436595",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-436595.json",
+  "candidate_sha256": "7d2e91cb3472a95bea366568c49b759dbec9691ff6167289d7c36793d10247a0",
+  "draft_path": "drafts/visitor-explanations/met-436595.json",
+  "draft_sha256": "70f06cb04a8dad99f5fc72e64af40baaf595463300e2e554db2d6a1a3ee95a25",
+  "baseline": {
+    "artworks_sha256": "e6b5e0ad2be5b51162ed255184e9ff8f64ea0d87b093d7c259024d0c757ea500",
+    "image_registry_sha256": "2456fe76b97e864c083fa0c70d4a7a8c95fe19ab451735fc5659deb5122e7e36"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/436595",
+      "source_excerpt": "This imaginary landscape, or capriccio, is one of three",
+      "visitor_claim": "この作品は、現実の場所をそのまま描くのではなく、想像上の風景を組み立てる『カプリッチョ』です",
+      "source_section": "Overview: imaginary capriccio"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/436595",
+      "source_excerpt": "rocky outcroppings, slanting tree trunks, and classical ruins",
+      "visitor_claim": "岩場、傾いた木々、古代建築の廃墟を組み合わせて描かれています",
+      "source_section": "Overview: compositional elements"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436595",
+      "location": "Met object Overview and Artwork Details: Overview: imaginary capriccio | Overview: compositional elements",
+      "finding": "Met公式作品Overviewによると、これは空想の風景『カプリッチョ』であり、ウーディネ近郊のコッロレード・ディ・モンテ・アルバーノ城由来の三作品のうち一つ。画家は装飾用の漆喰の枠に納めるため、制作中または直後に画面の形と大きさを調整した可能性がある。岩場、斜めに傾く木、古典的な廃墟を組み合わせ、漁師とその家族を画面に配置した。 Visual subject based on specific same-object source image: 柔らかい雲の下、左に小舟の浮かぶ水辺、中央から右に岩や傾いた木と廃墟があり、小さな人影が点在する。Met公式の同作品ページと原寸・表示主画像から画面構成を照合した。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436595",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42929134131",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/436595",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42929134131"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/436595",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 436595, Fantastic Landscape, Francesco Guardi, ca. 1765, 53.225.4. Attribution caveats and empty American Wing API classification preserved.",
+      "image_match": "柔らかい雲の下、左に小舟の浮かぶ水辺、中央から右に岩や傾いた木と廃墟があり、小さな人影が点在する。Met公式の同作品ページと原寸・表示主画像から画面構成を照合した。 API official primary JPEG complete hashes/dimensions, downscale RMS 5.20627.",
+      "historical_interpretation": "Met公式作品Overviewによると、これは空想の風景『カプリッチョ』であり、ウーディネ近郊のコッロレード・ディ・モンテ・アルバーノ城由来の三作品のうち一つ。画家は装飾用の漆喰の枠に納めるため、制作中または直後に画面の形と大きさを調整した可能性がある。岩場、斜めに傾く木、古典的な廃墟を組み合わせ、漁師とその家族を画面に配置した。 Limits: 場所を実際の特定の海岸と断定しない。額装のための形状変更は美術館が可能性として述べた範囲に留める。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: []",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT9351.jpg",
+      "sha256": "c504f684d9a9cb1f6c6c8efe1778aff368053c7c6f732fbc27cb6054ef26bbf1",
+      "byte_length": 73870,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "柔らかい雲の下、左に小舟の浮かぶ水辺、中央から右に岩や傾いた木と廃墟があり、小さな人影が点在する。Met公式の同作品ページと原寸・表示主画像から画面構成を照合した。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42929134131"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT9351.jpg",
+      "sha256": "757c2d104fdc6966b0219717bef44172e3420177a136fec70e7580bb9d880fb5",
+      "byte_length": 2582299,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "柔らかい雲の下、左に小舟の浮かぶ水辺、中央から右に岩や傾いた木と廃墟があり、小さな人影が点在する。Met公式の同作品ページと原寸・表示主画像から画面構成を照合した。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42929134131"
+    }
+  ],
+  "notes": [
+    "Sequential addition 337; prior artworks and image-source records unchanged.",
+    "Source Overview passages independently read via official museum page 2026-11-11. Separate AI pass is not human expert.",
+    "One previously selected met-11269 is already registered and was excluded from this batch. Source excerpts in this audit are from the exact official Met object page."
+  ]
+}

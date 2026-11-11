@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-45655",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-45655.json",
+  "candidate_sha256": "aef4b586a5c033cdf8317d8e9aa175ddbe2d40e6cc89e712df25091ca91f55de",
+  "draft_path": "drafts/visitor-explanations/met-45655.json",
+  "draft_sha256": "bff4135683178e360cadb8c04bdab19f598cdd4337061ca50fa6dac1cdca4ea4",
+  "baseline": {
+    "artworks_sha256": "3a2f7d42f93fbcca679d3398a00a07b6c6ce8c03e80726978b11474995cf98c3",
+    "image_registry_sha256": "dacf5f85efaf88369a3d8b0eabe49ab6c16eb6458ed5f87f324f054ec5d5b088"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/45655",
+      "source_excerpt": "Originally one of a matching pair of panels",
+      "visitor_claim": "かつては一対の画面の片方でした",
+      "source_section": "Overview: originally paired panels"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/45655",
+      "source_excerpt": "a salamander in the center foreground is flanked",
+      "visitor_claim": "画面手前にはサンショウウオがいて、左右には蘭と白菜が配されています",
+      "source_section": "Overview: salamander with orchid and cabbage"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/45655",
+      "location": "Met object Overview and Artwork Details: Overview: originally paired panels | Overview: salamander with orchid and cabbage",
+      "finding": "Met公式作品Overviewは、この掛軸を毗陵派に属する花卉画と説明し、呂敬甫による署名のある作品との類似性から同画家への帰属を示す。元は対になる一組の片方で、芥子や菊などの草花の間に蝶とカマキリ、前景にはサンショウウオ、左右に蘭と白菜を置く。花と小動物の組合せが当時の装飾美術にも見られ、自然界で繰り返される捕食の象徴として読む可能性が論じられている。 Visual subject based on specific same-object source image: 縦長の絹地に草花の茎が上下に伸び、蝶やカマキリが花の周囲に配置される。中央下には小さなサンショウウオが見える。画面は茶系の地に淡い彩色が重なる。Met所蔵の同一作品IDの公式画像に基づく。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45655",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42929134131",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/45655",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42929134131"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/45655",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 45655, Flowers, Attributed to Lü Jingfu, 14th century, 12.37.134. Attribution caveats and empty American Wing API classification preserved.",
+      "image_match": "縦長の絹地に草花の茎が上下に伸び、蝶やカマキリが花の周囲に配置される。中央下には小さなサンショウウオが見える。画面は茶系の地に淡い彩色が重なる。Met所蔵の同一作品IDの公式画像に基づく。 API official primary JPEG complete hashes/dimensions, downscale RMS 4.63039.",
+      "historical_interpretation": "Met公式作品Overviewは、この掛軸を毗陵派に属する花卉画と説明し、呂敬甫による署名のある作品との類似性から同画家への帰属を示す。元は対になる一組の片方で、芥子や菊などの草花の間に蝶とカマキリ、前景にはサンショウウオ、左右に蘭と白菜を置く。花と小動物の組合せが当時の装飾美術にも見られ、自然界で繰り返される捕食の象徴として読む可能性が論じられている。 Limits: 作家は『Attributed to』であり真筆の断定を避ける。花や昆虫が必ず特定の政治的寓意を持つとは断言しない。Metが述べる捕食の象徴は一般的な図像解釈として扱う。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: []",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DT235402.jpg",
+      "sha256": "afd5fdeb63866c5b8521ed4adb8413c0114450578cbbdbf5a40b3be799bbb368",
+      "byte_length": 49785,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "縦長の絹地に草花の茎が上下に伸び、蝶やカマキリが花の周囲に配置される。中央下には小さなサンショウウオが見える。画面は茶系の地に淡い彩色が重なる。Met所蔵の同一作品IDの公式画像に基づく。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42929134131"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DT235402.jpg",
+      "sha256": "821957dab4b2e026890437df65775f19340dfb52b10d6ee64ab9934ba81f492d",
+      "byte_length": 1557792,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "縦長の絹地に草花の茎が上下に伸び、蝶やカマキリが花の周囲に配置される。中央下には小さなサンショウウオが見える。画面は茶系の地に淡い彩色が重なる。Met所蔵の同一作品IDの公式画像に基づく。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42929134131"
+    }
+  ],
+  "notes": [
+    "Sequential addition 336; prior artworks and image-source records unchanged.",
+    "Source Overview passages independently read via official museum page 2026-11-11. Separate AI pass is not human expert.",
+    "One previously selected met-11269 is already registered and was excluded from this batch. Source excerpts in this audit are from the exact official Met object page."
+  ]
+}

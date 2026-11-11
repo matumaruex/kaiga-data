@@ -1,0 +1,147 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-436595",
+  "artwork": {
+    "id": "met-436595",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 436595,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/436595",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436595",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Fantastic Landscape",
+      "title_ja_provisional": "幻想風景",
+      "artist": "Francesco Guardi",
+      "creation_date_display": "ca. 1765",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Unspecified by Met API (Italian artist; Venetian painting)",
+      "accession_number": "53.225.4"
+    },
+    "image": {
+      "image_id": "met-436595-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT9351.jpg",
+      "source_registry_id": "met-436595",
+      "local_path": "/artworks/met-436595.jpg",
+      "sha256": "c504f684d9a9cb1f6c6c8efe1778aff368053c7c6f732fbc27cb6054ef26bbf1",
+      "byte_length": 73870,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42929134131",
+      "source_accession_number": "53.225.4",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DT9351.jpg",
+        "sha256": "757c2d104fdc6966b0219717bef44172e3420177a136fec70e7580bb9d880fb5",
+        "byte_length": 2582299,
+        "width": 3807,
+        "height": 3113,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 5.20627",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [],
+      "emotion_strengths": {},
+      "tones": [
+        "余韻"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/436595",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "実景ではない風景の中に海辺、岩、廃墟、人物を組み合わせる工夫を味わいたい",
+            "reason": "Met公式作品Overviewによると、これは空想の風景『カプリッチョ』であり、ウーディネ近郊のコッロレード・ディ・モンテ・アルバーノ城由来の三作品のうち一つ。画家は装飾用の漆喰の枠に納めるため、制作中または直後に画面の形と大きさを調整した可能性がある。岩場、斜めに傾く木、古典的な廃墟を組み合わせ、漁師とその家族を画面に配置した。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "場所を実際の特定の海岸と断定しない。額装のための形状変更は美術館が可能性として述べた範囲に留める。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met公式作品Overviewによると、これは空想の風景『カプリッチョ』であり、ウーディネ近郊のコッロレード・ディ・モンテ・アルバーノ城由来の三作品のうち一つ。画家は装飾用の漆喰の枠に納めるため、制作中または直後に画面の形と大きさを調整した可能性がある。岩場、斜めに傾く木、古典的な廃墟を組み合わせ、漁師とその家族を画面に配置した。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/436595"
+        },
+        "creation_context": "ca. 1765; ; Oil on canvas; accession 53.225.4",
+        "visual_clues": "柔らかい雲の下、左に小舟の浮かぶ水辺、中央から右に岩や傾いた木と廃墟があり、小さな人影が点在する。Met公式の同作品ページと原寸・表示主画像から画面構成を照合した。",
+        "uncertainty_note": "場所を実際の特定の海岸と断定しない。額装のための形状変更は美術館が可能性として述べた範囲に留める。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42929134131",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "大きな空の下、左には小舟が浮かぶ水面、右には岩場と傾いた木々、古い建物の廃墟が描かれています。岸には小さな人物が点在し、広い風景に日々の営みを感じさせます。\n\nこの作品は、現実の場所をそのまま描くのではなく、想像上の風景を組み立てる『カプリッチョ』です。岩場、傾いた木々、古代建築の廃墟を組み合わせて描かれています。メトロポリタン美術館によれば、もともとイタリア北東部の城にあった三点のうち一つで、装飾の枠に合わせて画面の形を調整した可能性があります。\n\n人々のいる地面から、樹木や建築の輪郭、空へと視線を動かすと、異なる景色の断片が一つに溶け合う様子を楽しめます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/436595"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-436595",
+    "title": "Fantastic Landscape",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/436595",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/436595",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT9351.jpg",
+      "sha256": "c504f684d9a9cb1f6c6c8efe1778aff368053c7c6f732fbc27cb6054ef26bbf1",
+      "byte_length": 73870,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42929134131",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DT9351.jpg",
+        "sha256": "757c2d104fdc6966b0219717bef44172e3420177a136fec70e7580bb9d880fb5",
+        "byte_length": 2582299,
+        "width": 3807,
+        "height": 3113,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 5.20627",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "53.225.4"
+  }
+}
