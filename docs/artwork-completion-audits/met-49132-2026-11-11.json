@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-49132",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-49132.json",
+  "candidate_sha256": "53cf3b0fa8410ff8f340356eb5320caabb4eabb4e10eda1f4e7944e1dfed31b1",
+  "draft_path": "drafts/visitor-explanations/met-49132.json",
+  "draft_sha256": "c32d21d09ad944412ee8782611d568f8ee866b097af12892815a9bc1870fc75a",
+  "baseline": {
+    "artworks_sha256": "b45186337613791d7c1f5e7c42252719df8276db0d3b31774abde0060327962a",
+    "image_registry_sha256": "c165b7f7b0f34f6a9707dbe6311618e637cba6a33a64965c61b9be11651901aa"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/49132",
+      "source_excerpt": "reflect the dream of escaping to a solitary retreat",
+      "visitor_claim": "世間の騒ぎを離れて静かな隠れ家に退きたいという願いが表されています",
+      "source_section": "Overview: retreat from worldly affairs"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/49132",
+      "source_excerpt": "the pain of conquest and reconstruction during the Ming-Qing transition",
+      "visitor_claim": "征服と復興に伴う苦難を経験しました",
+      "source_section": "Overview: Ming-Qing historical turbulence"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/49132",
+      "location": "Met object Overview and Artwork Details: Overview: retreat from worldly affairs | Overview: Ming-Qing historical turbulence",
+      "finding": "Met公式作品別Overviewによれば、画面中央の冬景山水図は17世紀後半に活動した龔賢が描き、その脇の書は収集家・批評家であった周亮工による。山水画に添えられた詩と左右の対聯は、俗世の騒がしさを離れ、静かに独り暮らす隠れ家への憧れを表す。龔賢と周亮工は明から清への王朝交替に伴う征服と復興の混乱を生きた人物で、この願いが特に切実なものとなったとMetは説明する。主画像は中央の冬景山水を示し、両脇の書については作品別Overviewが別作者であると明示する。 Visual subject based on specific same-object source image: Met公式同一IDの元画像と表示JPEGを完全ハッシュ・縮小一致・実見。細長い掛軸の中段から下に、薄墨と濃墨を重ねた岩山や樹木、奥へ流れる白い余白、下方に小さな建物や水辺のような形がある。右上に詩文。左右の書は別作者のものであるため、山水自体の作者と混同しない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/49132",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42968403594",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/49132",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42968403594"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/49132",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 49132, Wintry mountains, Gong Xian, ca. 1679–89, 1989.363.132. Attribution caveats and source classifications preserved.",
+      "image_match": "Met公式同一IDの元画像と表示JPEGを完全ハッシュ・縮小一致・実見。細長い掛軸の中段から下に、薄墨と濃墨を重ねた岩山や樹木、奥へ流れる白い余白、下方に小さな建物や水辺のような形がある。右上に詩文。左右の書は別作者のものであるため、山水自体の作者と混同しない。 API official primary JPEG complete hashes/dimensions, downscale RMS 9.64389.",
+      "historical_interpretation": "Met公式作品別Overviewによれば、画面中央の冬景山水図は17世紀後半に活動した龔賢が描き、その脇の書は収集家・批評家であった周亮工による。山水画に添えられた詩と左右の対聯は、俗世の騒がしさを離れ、静かに独り暮らす隠れ家への憧れを表す。龔賢と周亮工は明から清への王朝交替に伴う征服と復興の混乱を生きた人物で、この願いが特に切実なものとなったとMetは説明する。主画像は中央の冬景山水を示し、両脇の書については作品別Overviewが別作者であると明示する。 Limits: 山水画に描かれた具体的な地名や作者の私的な人生の描写と断定しない。清朝への移行期の歴史的な痛みは美術館の解釈に基づくもので、見た目だけで読み取ったとは書かない。書の作者・画の作者を区別する。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['孤独', '寂しさ']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-36008-002.jpg",
+      "sha256": "c11e4308603ce981a7ff8bb0dc0a21e5239bfcadb91aa3282e3ca6498ef66b47",
+      "byte_length": 76819,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式同一IDの元画像と表示JPEGを完全ハッシュ・縮小一致・実見。細長い掛軸の中段から下に、薄墨と濃墨を重ねた岩山や樹木、奥へ流れる白い余白、下方に小さな建物や水辺のような形がある。右上に詩文。左右の書は別作者のものであるため、山水自体の作者と混同しない。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42968403594"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-36008-002.jpg",
+      "sha256": "bcbd63bfbb49d6a262617debfd7fe2bb75f23dca4f15f3de42d9fd7e63bed1af",
+      "byte_length": 1824580,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式同一IDの元画像と表示JPEGを完全ハッシュ・縮小一致・実見。細長い掛軸の中段から下に、薄墨と濃墨を重ねた岩山や樹木、奥へ流れる白い余白、下方に小さな建物や水辺のような形がある。右上に詩文。左右の書は別作者のものであるため、山水自体の作者と混同しない。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42968403594"
+    }
+  ],
+  "notes": [
+    "Sequential addition 374; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}

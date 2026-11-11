@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-764087",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-764087.json",
+  "candidate_sha256": "6c3d2f72c3bc24639f66495d37c2e92ecd0bce1872775096d511cd0679ccf15b",
+  "draft_path": "drafts/visitor-explanations/met-764087.json",
+  "draft_sha256": "c7cc8a8e20159d2ae44ca68bf0b4362b0117c9830b3160609164664e498c58bb",
+  "baseline": {
+    "artworks_sha256": "126f6827673c4ca60b11dd4003b04e4281fefae64a88bce0a7e0d150e8a666d4",
+    "image_registry_sha256": "4b1d66937f6c97d57959f875c3c67f9a8acb3128ad6a96d4350280be1184c1bc"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/764087",
+      "source_excerpt": "The giant Canaanite carries the divine child across the turbulent waters",
+      "visitor_claim": "大きな聖人が幼いキリストを荒れた川の向こうへ運んでいます",
+      "source_section": "Overview: child bearer crossing turbulent river"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/764087",
+      "source_excerpt": "Although the painting is not signed or documented",
+      "visitor_claim": "この絵には作者の署名や制作を示す記録が残っていません",
+      "source_section": "Overview: attribution lacks signed documentation"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/764087",
+      "location": "Met object Overview and Artwork Details: Overview: child bearer crossing turbulent river | Overview: attribution lacks signed documentation",
+      "finding": "Met公式作品別Overviewは、巨人の聖クリストフォロスが幼いキリストを肩に載せ荒れた川を渡る伝説を描いたものと説明する。幼子は十字架の付いた大きな球体を持ち、その重みは世界を表す。満月と幼子自身の光が夜の横断を照らし、対岸でランタンを上げる修道士は旅人を助けるよう聖人に諭した隠者である。岩が多い暗い岸辺が危険を感じさせる。絵に署名や制作記録はなく、18世紀初めのポトシ周辺で活動したメルチョール・ペレス・オルギンへの帰属は美術館の判断であり確定ではない。 Visual subject based on specific same-object source image: Met公式ID764087の原寸/表示画像を全バイト照合して実見。縦長の暗い油彩画の中央で、足を曲げた大柄の男性が、右肩に座る幼子を支えつつ左手で長い杖を握り、川を渡る。幼子の頭の背後に光、遠い岸の小人物と灯り、左の夜景に暗い樹木が見える。岩や衣服の暗い茶色と、幼子の光が対照的。光の宗教的象徴の意味はMet本文に基づく。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764087",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42968403594",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/764087",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42968403594"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/764087",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 764087, Saint Christopher, Attributed to Melchor Pérez Holguin, ca. 1710–20, 2018.652.2. Attribution caveats and source classifications preserved.",
+      "image_match": "Met公式ID764087の原寸/表示画像を全バイト照合して実見。縦長の暗い油彩画の中央で、足を曲げた大柄の男性が、右肩に座る幼子を支えつつ左手で長い杖を握り、川を渡る。幼子の頭の背後に光、遠い岸の小人物と灯り、左の夜景に暗い樹木が見える。岩や衣服の暗い茶色と、幼子の光が対照的。光の宗教的象徴の意味はMet本文に基づく。 API official primary JPEG complete hashes/dimensions, downscale RMS 3.30523.",
+      "historical_interpretation": "Met公式作品別Overviewは、巨人の聖クリストフォロスが幼いキリストを肩に載せ荒れた川を渡る伝説を描いたものと説明する。幼子は十字架の付いた大きな球体を持ち、その重みは世界を表す。満月と幼子自身の光が夜の横断を照らし、対岸でランタンを上げる修道士は旅人を助けるよう聖人に諭した隠者である。岩が多い暗い岸辺が危険を感じさせる。絵に署名や制作記録はなく、18世紀初めのポトシ周辺で活動したメルチョール・ペレス・オルギンへの帰属は美術館の判断であり確定ではない。 Limits: 物語はキリスト教の伝説であり、超自然的な出来事の史実性は断定しない。作者の署名がなく制作記録も未確認のため『伝』と表示する。描かれた小さな子が実際に世界の物理的重量を負っていたとは断言せず、図像上の寓意と説明する。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['畏敬', '不安']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-30759-001.jpg",
+      "sha256": "ad6b91edcbb7369aaffc7992601f231f5955efbadad73e4184e7d01fd0b06e02",
+      "byte_length": 70732,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式ID764087の原寸/表示画像を全バイト照合して実見。縦長の暗い油彩画の中央で、足を曲げた大柄の男性が、右肩に座る幼子を支えつつ左手で長い杖を握り、川を渡る。幼子の頭の背後に光、遠い岸の小人物と灯り、左の夜景に暗い樹木が見える。岩や衣服の暗い茶色と、幼子の光が対照的。光の宗教的象徴の意味はMet本文に基づく。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42968403594"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-30759-001.jpg",
+      "sha256": "f38dbd1daa85963f717bfe9d534ed5f96e70776f8bc412515eaa226065749aa9",
+      "byte_length": 3256457,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "Met公式ID764087の原寸/表示画像を全バイト照合して実見。縦長の暗い油彩画の中央で、足を曲げた大柄の男性が、右肩に座る幼子を支えつつ左手で長い杖を握り、川を渡る。幼子の頭の背後に光、遠い岸の小人物と灯り、左の夜景に暗い樹木が見える。岩や衣服の暗い茶色と、幼子の光が対照的。光の宗教的象徴の意味はMet本文に基づく。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42968403594"
+    }
+  ],
+  "notes": [
+    "Sequential addition 372; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}
