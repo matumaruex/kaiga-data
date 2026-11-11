@@ -45,7 +45,7 @@ jobs:
                   'duplicate_title_artist':[w['id'] for w in works if w['facts']['title_original']==v.get('title') and w['facts']['artist']==v.get('artistDisplayName')]}
                   print('CANDIDATE_META',json.dumps(dat,ensure_ascii=False),flush=True)
                   assert v['isPublicDomain'] is True and not dat['duplicate_id'] and not dat['duplicate_title_artist']
-                  assert v['classification']=='Paintings' or (n==921065 and v['department']=='The American Wing' and v['medium']=='Oil on canvas')
+                  assert v['classification']=='Paintings' or (n==921065 and v['department']=='The American Wing' and v['medium']=='Oil on wood panel')
                   pictures={}
                   blobs={}
                   for kind,key in [('original','primaryImage'),('display','primaryImageSmall')]:
