@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-456949",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-456949.json",
+  "candidate_sha256": "e437ab6afee0e1ef2fd9c7a7de308dc5559a6c85c50b5d47f1110dd82d604f28",
+  "draft_path": "drafts/visitor-explanations/met-456949.json",
+  "draft_sha256": "74537071f8b407eb0374e78284abeb98595c3e299c520deb462ae357836926fa",
+  "baseline": {
+    "artworks_sha256": "f09a90a0e5ff2ea57a0f8753682efbc00539a8143ce563bc362209abcab8f1cb",
+    "image_registry_sha256": "eaffc5d899302118fb8c1d8bd09803c19849154c8a994bee08b77e97e8380709"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/456949",
+      "source_excerpt": "the bat’s fur, eyes, curling claws, and wing veins",
+      "visitor_claim": "黒い翼の筋、茶色い毛、目、曲がった爪まで細かく観察されています",
+      "source_section": "Overview: depicted fur, claws and wing veins"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/456949",
+      "source_excerpt": "It was perhaps made by a follower of Bhawani Das",
+      "visitor_claim": "作者はダース本人ではなく弟子や追随者だった可能性があります",
+      "source_section": "Overview: qualified uncertain attribution"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/456949",
+      "location": "Met object Overview and Artwork Details: Overview: depicted fur, claws and wing veins | Overview: qualified uncertain attribution",
+      "finding": "Met作品別Overviewによると、インドオオコウモリを正面から描き、片翼を大きく広げて、毛皮・目・曲がった爪・翼の静脈まで観察に基づく表現で詳しく示している。バワーニー・ダースはムガル細密画の訓練を受け、英領ベンガル最高裁判事エライジャ・インピーとその妻メアリーの依頼で、カルカッタの邸宅の自然史画を多数制作した。作品はダース自身ではなく、より写実的な描法を使ったその追随者によって描かれた可能性があるため作者は未確定。 Visual subject based on specific same-object source image: 公式の原寸・表示JPEGをサムネイルで直接目視し照合。薄い無地の紙面に黒褐色のコウモリが正面から描かれ、画面左へ水平に片翼を大きく広げ、反対側の翼は立っている。小さな頭部、茶色い毛、関節の折れ目、薄い翼膜に沿う筋が見える。ほかの動物や風景は描かれない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/456949",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42957140730",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/456949",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42957140730"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/456949",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 456949, Great Indian Fruit Bat, Attributed to Bhawani Das or a follower, ca. 1777–82, 2008.312. Attribution caveats and source classifications preserved.",
+      "image_match": "公式の原寸・表示JPEGをサムネイルで直接目視し照合。薄い無地の紙面に黒褐色のコウモリが正面から描かれ、画面左へ水平に片翼を大きく広げ、反対側の翼は立っている。小さな頭部、茶色い毛、関節の折れ目、薄い翼膜に沿う筋が見える。ほかの動物や風景は描かれない。 API official primary JPEG complete hashes/dimensions, downscale RMS 3.97105.",
+      "historical_interpretation": "Met作品別Overviewによると、インドオオコウモリを正面から描き、片翼を大きく広げて、毛皮・目・曲がった爪・翼の静脈まで観察に基づく表現で詳しく示している。バワーニー・ダースはムガル細密画の訓練を受け、英領ベンガル最高裁判事エライジャ・インピーとその妻メアリーの依頼で、カルカッタの邸宅の自然史画を多数制作した。作品はダース自身ではなく、より写実的な描法を使ったその追随者によって描かれた可能性があるため作者は未確定。 Limits: コウモリの種名はMetの同定に基づく。『バワーニー・ダース作』と断定しない。英領時代の注文制作は観察画の来歴の説明であり、画家が特定の個体を生け捕りにして描いたという確証はない。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['好奇心']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/DP167067.jpg",
+      "sha256": "b760b363646d6ac4272416aa8bb2efd9b1166bbe4aa5f38deb07ec8e436f02bd",
+      "byte_length": 33509,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "公式の原寸・表示JPEGをサムネイルで直接目視し照合。薄い無地の紙面に黒褐色のコウモリが正面から描かれ、画面左へ水平に片翼を大きく広げ、反対側の翼は立っている。小さな頭部、茶色い毛、関節の折れ目、薄い翼膜に沿う筋が見える。ほかの動物や風景は描かれない。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42957140730"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/DP167067.jpg",
+      "sha256": "877657234d1677d21cdbb48cb64e244da0fb82f30e3248db0011d1c52a3456d9",
+      "byte_length": 1208973,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "公式の原寸・表示JPEGをサムネイルで直接目視し照合。薄い無地の紙面に黒褐色のコウモリが正面から描かれ、画面左へ水平に片翼を大きく広げ、反対側の翼は立っている。小さな頭部、茶色い毛、関節の折れ目、薄い翼膜に沿う筋が見える。ほかの動物や風景は描かれない。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42957140730"
+    }
+  ],
+  "notes": [
+    "Sequential addition 364; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-437630",
+  "artwork": {
+    "id": "met-437630",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 437630,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/437630",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437630",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Saint Matthew and the Angel",
+      "title_ja_provisional": "聖マタイと天使",
+      "artist": "Giovanni Gerolamo Savoldo",
+      "creation_date_display": "1534年頃（Met作品Overviewによる。APIの年代欄は空欄）",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Italy (artist's cultural context; Met API culture unspecified)",
+      "accession_number": "12.14"
+    },
+    "image": {
+      "image_id": "met-437630-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26762-001.jpg",
+      "source_registry_id": "met-437630",
+      "local_path": "/artworks/met-437630.jpg",
+      "sha256": "791fbe17dba5e3d4f46231dea98e3c62b71c1ebd009c9df6626823ad853866a7",
+      "byte_length": 82537,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42957140730",
+      "source_accession_number": "12.14",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-26762-001.jpg",
+        "sha256": "cb280b039468b75774541a3888e50581ceba61e4601913314d3bd293c1a925f3",
+        "byte_length": 3400241,
+        "width": 4000,
+        "height": 3019,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 3.54833",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "畏敬": 1
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "共同体",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/437630",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "16世紀イタリアの宗教画で、暗がりの人物、書物、灯火が作る複数の光源の効果を観察したい",
+            "reason": "Met個別作品Overviewによれば、聖マタイが天使と目を合わせ、福音書を書くよう霊感を受ける姿を描く。右後方にはエチオピア女王の宮廷で歓待を受ける聖人の物語が小さく描かれるが、左後方の場面は特定が難しい。複数の光源の描き分けから、ヴァザーリが1534年頃ミラノ造幣局長向けの作品として記録した『火のある夜景』に該当する可能性があるとMetは述べる。Met APIのobjectDate欄が空欄であるため年代はOverview由来の参考表記。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "聖マタイの福音書執筆という宗教的場面を表現として説明し、史実とは断言しない。後方左側の出来事の解釈はMetが不明確とするため断定しない。1534年頃は作品の作成年代が確定している意味ではなくMetの関連作品群についての説明に基づく。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met個別作品Overviewによれば、聖マタイが天使と目を合わせ、福音書を書くよう霊感を受ける姿を描く。右後方にはエチオピア女王の宮廷で歓待を受ける聖人の物語が小さく描かれるが、左後方の場面は特定が難しい。複数の光源の描き分けから、ヴァザーリが1534年頃ミラノ造幣局長向けの作品として記録した『火のある夜景』に該当する可能性があるとMetは述べる。Met APIのobjectDate欄が空欄であるため年代はOverview由来の参考表記。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/437630"
+        },
+        "creation_context": "; ; Oil on canvas; accession 12.14",
+        "visual_clues": "同一Met作品IDの公式元JPEGと表示JPEGの内容を直接照合。暗い室内の左手前に赤紫色の衣をまとい机に向かう聖マタイ。ペンと書物のそばで顔を上へ向け、背後の青紫の衣の天使と視線を交わす。右端には小さな建築・人物と火の光。光が頬や衣服の折り目に落ちる。",
+        "uncertainty_note": "聖マタイの福音書執筆という宗教的場面を表現として説明し、史実とは断言しない。後方左側の出来事の解釈はMetが不明確とするため断定しない。1534年頃は作品の作成年代が確定している意味ではなくMetの関連作品群についての説明に基づく。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "畏敬"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42957140730",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "暗い部屋で、赤紫の衣を着た聖マタイが机に向かっています。ペンを持つ手を休め、すぐそばの天使と見つめ合うように顔を上げています。机上の光は、人物の表情や衣服のひだを明るく浮かび上がらせます。\n\nキリスト教の伝承では、天使が聖マタイに福音書を書く霊感を与えます。画面右奥には、マタイがエチオピアの女王の宮廷で迎えられる場面も小さく描かれています。左奥の物語については、所蔵するメトロポリタン美術館も解釈がはっきりしないとしています。\n\n室内の明かりだけでなく、後景に見える火や外の光もこの絵の重要な要素です。美術館は、この複数の光源の効果から、画家サヴォルドが1534年頃に描いたと伝えられる夜景の作品群との関係を指摘しています。明るい部分を順番に追うと、小さな画面の奥にも物語が広がっているのが分かります。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437630"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-437630",
+    "title": "Saint Matthew and the Angel",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/437630",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/437630",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26762-001.jpg",
+      "sha256": "791fbe17dba5e3d4f46231dea98e3c62b71c1ebd009c9df6626823ad853866a7",
+      "byte_length": 82537,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42957140730",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-26762-001.jpg",
+        "sha256": "cb280b039468b75774541a3888e50581ceba61e4601913314d3bd293c1a925f3",
+        "byte_length": 3400241,
+        "width": 4000,
+        "height": 3019,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 3.54833",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "12.14"
+  }
+}

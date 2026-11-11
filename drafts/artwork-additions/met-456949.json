@@ -1,0 +1,153 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-456949",
+  "artwork": {
+    "id": "met-456949",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 456949,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/456949",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/456949",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Great Indian Fruit Bat",
+      "title_ja_provisional": "インドオオコウモリ",
+      "artist": "Attributed to Bhawani Das or a follower",
+      "creation_date_display": "ca. 1777–82",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "India, Calcutta (museum geography; Met API culture unspecified)",
+      "accession_number": "2008.312"
+    },
+    "image": {
+      "image_id": "met-456949-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP167067.jpg",
+      "source_registry_id": "met-456949",
+      "local_path": "/artworks/met-456949.jpg",
+      "sha256": "b760b363646d6ac4272416aa8bb2efd9b1166bbe4aa5f38deb07ec8e436f02bd",
+      "byte_length": 33509,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42957140730",
+      "source_accession_number": "2008.312",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP167067.jpg",
+        "sha256": "877657234d1677d21cdbb48cb64e244da0fb82f30e3248db0011d1c52a3456d9",
+        "byte_length": 1208973,
+        "width": 3905,
+        "height": 2869,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 3.97105",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 2
+      },
+      "tones": [
+        "緊張"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/456949",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "18世紀のインドの自然史画で、コウモリの翼の膜や爪、毛並みを描き分けた観察表現を楽しみたい",
+            "reason": "Met作品別Overviewによると、インドオオコウモリを正面から描き、片翼を大きく広げて、毛皮・目・曲がった爪・翼の静脈まで観察に基づく表現で詳しく示している。バワーニー・ダースはムガル細密画の訓練を受け、英領ベンガル最高裁判事エライジャ・インピーとその妻メアリーの依頼で、カルカッタの邸宅の自然史画を多数制作した。作品はダース自身ではなく、より写実的な描法を使ったその追随者によって描かれた可能性があるため作者は未確定。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "コウモリの種名はMetの同定に基づく。『バワーニー・ダース作』と断定しない。英領時代の注文制作は観察画の来歴の説明であり、画家が特定の個体を生け捕りにして描いたという確証はない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによると、インドオオコウモリを正面から描き、片翼を大きく広げて、毛皮・目・曲がった爪・翼の静脈まで観察に基づく表現で詳しく示している。バワーニー・ダースはムガル細密画の訓練を受け、英領ベンガル最高裁判事エライジャ・インピーとその妻メアリーの依頼で、カルカッタの邸宅の自然史画を多数制作した。作品はダース自身ではなく、より写実的な描法を使ったその追随者によって描かれた可能性があるため作者は未確定。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/456949"
+        },
+        "creation_context": "ca. 1777–82; ; Pencil, ink, and opaque watercolor on paper; accession 2008.312",
+        "visual_clues": "公式の原寸・表示JPEGをサムネイルで直接目視し照合。薄い無地の紙面に黒褐色のコウモリが正面から描かれ、画面左へ水平に片翼を大きく広げ、反対側の翼は立っている。小さな頭部、茶色い毛、関節の折れ目、薄い翼膜に沿う筋が見える。ほかの動物や風景は描かれない。",
+        "uncertainty_note": "コウモリの種名はMetの同定に基づく。『バワーニー・ダース作』と断定しない。英領時代の注文制作は観察画の来歴の説明であり、画家が特定の個体を生け捕りにして描いたという確証はない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42957140730",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "薄い紙の上に、一匹の大きなコウモリが正面から描かれています。片方の翼を横へ大きく伸ばし、もう片方は上に曲げています。黒い翼の筋、茶色い毛、目、曲がった爪まで細かく観察されています。\n\nこれは18世紀後半にインドで描かれた自然史画です。ムガル細密画を学んだ画家バワーニー・ダースは、当時カルカッタに住んでいたイギリス人判事夫妻の依頼で、動植物を調べるための絵を制作しました。この作品もその活動と深く関わっていますが、作者はダース本人ではなく弟子や追随者だった可能性があります。\n\n背景を描き込まず、翼の形と体の細部を見せる構図は、動物の特徴を伝えることに集中しています。毛と薄い翼膜の描き方を見比べると、観察と絵画技術が結びついていることに気づきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/456949"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-456949",
+    "title": "Great Indian Fruit Bat",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/456949",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/456949",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP167067.jpg",
+      "sha256": "b760b363646d6ac4272416aa8bb2efd9b1166bbe4aa5f38deb07ec8e436f02bd",
+      "byte_length": 33509,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42957140730",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP167067.jpg",
+        "sha256": "877657234d1677d21cdbb48cb64e244da0fb82f30e3248db0011d1c52a3456d9",
+        "byte_length": 1208973,
+        "width": 3905,
+        "height": 2869,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 3.97105",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2008.312"
+  }
+}
