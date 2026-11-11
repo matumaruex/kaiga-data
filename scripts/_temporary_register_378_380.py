@@ -42,14 +42,22 @@ def add(spec,sequence):
  for kind,key in (("original","primaryImage"),("display","primaryImageSmall")):
   url,expect_sha,expect_len,width,height=spec["image"][kind]
   require(o[key]==url,"object primary JPEG identity changed")
+  allowed={(expect_sha,expect_len)}
+  if num==74661 and kind=="original":
+   # The Met serves two reproducible source JPEG bitstreams at the same object URL.
+   # 42976021314 verified 1638210B SHA6ae177..., and 42976707754
+   # independently verified 1634779B SHAcde213..., both 2000x1189
+   # and both downscaling to the exact same official display JPEG.
+   allowed.add(("cde213395bfd7b2339a932a61a3c41122598c37145f7ce6ffe8a75527874da45",1634779))
   for attempt in range(4):
    b=get(url).content
-   if hashlib.sha256(b).hexdigest()==expect_sha and len(b)==expect_len:break
-   print("RETRY JPEG",id,kind,len(b),hashlib.sha256(b).hexdigest(),flush=True);time.sleep(3+attempt)
-  require(hashlib.sha256(b).hexdigest()==expect_sha and len(b)==expect_len,"JPEG integrity mismatch")
+   actual_sha=hashlib.sha256(b).hexdigest();actual_len=len(b)
+   if (actual_sha,actual_len) in allowed:break
+   print("RETRY JPEG",id,kind,actual_len,actual_sha,flush=True);time.sleep(3+attempt)
+  require((actual_sha,actual_len) in allowed,"JPEG integrity mismatch")
   im=Image.open(io.BytesIO(b));im.load()
   require(im.format=="JPEG" and im.size==(width,height),"JPEG format or dimension changed")
-  docs[kind]=(im.copy().convert("RGB"),{"kind":kind,"url":url,"sha256":expect_sha,"byte_length":expect_len,
+  docs[kind]=(im.copy().convert("RGB"),{"kind":kind,"url":url,"sha256":actual_sha,"byte_length":actual_len,
        "download_status":200,"full_bytes_sha256_checked":True,
        "image_subject_visually_compared":True,"checked_on":DAY,
        "observation":spec["visual"]+" Full original/display exact object JPEG identity/size/dimensions checked in "+RESEARCH_RUN})
@@ -181,7 +189,7 @@ def main():
 - **完成登録：380作品**。mainのDBとREADMEを正本とする。
 - **次：381作品目から候補調査**。重複・個別の公式Overview本文・実画像と利用権利の照合を一点ずつ行う。
 - 今回378〜380：`met-845805` 長澤蘆雪《月夜山水図》（日本1794〜95年）、`met-74661` 《走る象（表）・象の素描練習（裏）》（インド、コータ、18世紀半ば）、`met-45680` 蔣嵩（伝）《冬景山水図》（中国・明代）。
-- 全件Met作品別OverviewをWebで直接確認し、二つずつの短い正確な英文を日本語鑑賞解説の主張と照合。Met API作品PD・Open Access CC0画像と美術館の現代解説文の権利を区別。原寸/表示JPEGの全SHA256・バイト数・画面サイズ・縮小RMS・画像目視も確認（[一次画像研究](https://github.com/matumaruex/kaiga-data/actions/runs/42976021314)、[長巻の画像研究](https://github.com/matumaruex/kaiga-data/actions/runs/42976227882)）。同じAIによる別工程の監査で外部専門家の査読ではない。
+- 全件Met作品別OverviewをWebで直接確認し、二つずつの短い正確な英文を日本語鑑賞解説の主張と照合。Met API作品PD・Open Access CC0画像と美術館の現代解説文の権利を区別。原寸/表示JPEGの全SHA256・バイト数・画面サイズ・縮小RMS・画像目視も確認（[一次画像研究](https://github.com/matumaruex/kaiga-data/actions/runs/42976021314)、[別JPEGを再確認](https://github.com/matumaruex/kaiga-data/actions/runs/42976707754)、[長巻の画像研究](https://github.com/matumaruex/kaiga-data/actions/runs/42976227882)）。同じAIによる別工程の監査で外部専門家の査読ではない。
 - `met-74661`は公式主画像が表側のみ、`met-45680`は7mの長巻の一部分のみであることを明記。`met-45680`の作者帰属は未確定。すでに登録済みの韓国作品と非PDのエチオピア作品は除外。
 - 既存377作品と画像台帳の以前の部分は変更せず、[新規追加ガイド](artwork-expansion-v2.md) と [v2品質基準](artwork-completion-workflow-v2.md) を継続。
 """
