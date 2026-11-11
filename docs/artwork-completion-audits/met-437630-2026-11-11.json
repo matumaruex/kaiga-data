@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-437630",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-437630.json",
+  "candidate_sha256": "93233de5323cd77c49a4bbdcd078f07653bb10f3a41234711653afe0d8580b46",
+  "draft_path": "drafts/visitor-explanations/met-437630.json",
+  "draft_sha256": "1d6e573d313893386c32612c6c493423cd8877298a6cf0c709255a2d3e8beb1b",
+  "baseline": {
+    "artworks_sha256": "9f36a57e341c697ec2c757155e77381e7b975f611f6c154776adb22de1a1d696",
+    "image_registry_sha256": "e59cb59c0ecdd6f23f0515c3feb62c593eee8307e2feaf732a9abe0f414a3a6a"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437630",
+      "source_excerpt": "Saint Matthew shares a spellbound gaze with an angel",
+      "visitor_claim": "ペンを持つ手を休め、すぐそばの天使と見つめ合うように顔を上げています",
+      "source_section": "Overview: Saint Matthew eye contact with angel"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437630",
+      "source_excerpt": "The various sources of light in the painting suggest",
+      "visitor_claim": "この複数の光源の効果から、画家サヴォルドが1534年頃に描いたと伝えられる夜景の作品群との関係を指摘しています",
+      "source_section": "Overview: various light sources and proposed association"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437630",
+      "location": "Met object Overview and Artwork Details: Overview: Saint Matthew eye contact with angel | Overview: various light sources and proposed association",
+      "finding": "Met個別作品Overviewによれば、聖マタイが天使と目を合わせ、福音書を書くよう霊感を受ける姿を描く。右後方にはエチオピア女王の宮廷で歓待を受ける聖人の物語が小さく描かれるが、左後方の場面は特定が難しい。複数の光源の描き分けから、ヴァザーリが1534年頃ミラノ造幣局長向けの作品として記録した『火のある夜景』に該当する可能性があるとMetは述べる。Met APIのobjectDate欄が空欄であるため年代はOverview由来の参考表記。 Visual subject based on specific same-object source image: 同一Met作品IDの公式元JPEGと表示JPEGの内容を直接照合。暗い室内の左手前に赤紫色の衣をまとい机に向かう聖マタイ。ペンと書物のそばで顔を上へ向け、背後の青紫の衣の天使と視線を交わす。右端には小さな建築・人物と火の光。光が頬や衣服の折り目に落ちる。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437630",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42957140730",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437630",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42957140730"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437630",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 437630, Saint Matthew and the Angel, Giovanni Gerolamo Savoldo, , 12.14. Attribution caveats and source classifications preserved.",
+      "image_match": "同一Met作品IDの公式元JPEGと表示JPEGの内容を直接照合。暗い室内の左手前に赤紫色の衣をまとい机に向かう聖マタイ。ペンと書物のそばで顔を上へ向け、背後の青紫の衣の天使と視線を交わす。右端には小さな建築・人物と火の光。光が頬や衣服の折り目に落ちる。 API official primary JPEG complete hashes/dimensions, downscale RMS 3.54833.",
+      "historical_interpretation": "Met個別作品Overviewによれば、聖マタイが天使と目を合わせ、福音書を書くよう霊感を受ける姿を描く。右後方にはエチオピア女王の宮廷で歓待を受ける聖人の物語が小さく描かれるが、左後方の場面は特定が難しい。複数の光源の描き分けから、ヴァザーリが1534年頃ミラノ造幣局長向けの作品として記録した『火のある夜景』に該当する可能性があるとMetは述べる。Met APIのobjectDate欄が空欄であるため年代はOverview由来の参考表記。 Limits: 聖マタイの福音書執筆という宗教的場面を表現として説明し、史実とは断言しない。後方左側の出来事の解釈はMetが不明確とするため断定しない。1534年頃は作品の作成年代が確定している意味ではなくMetの関連作品群についての説明に基づく。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['畏敬']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26762-001.jpg",
+      "sha256": "791fbe17dba5e3d4f46231dea98e3c62b71c1ebd009c9df6626823ad853866a7",
+      "byte_length": 82537,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "同一Met作品IDの公式元JPEGと表示JPEGの内容を直接照合。暗い室内の左手前に赤紫色の衣をまとい机に向かう聖マタイ。ペンと書物のそばで顔を上へ向け、背後の青紫の衣の天使と視線を交わす。右端には小さな建築・人物と火の光。光が頬や衣服の折り目に落ちる。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42957140730"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-26762-001.jpg",
+      "sha256": "cb280b039468b75774541a3888e50581ceba61e4601913314d3bd293c1a925f3",
+      "byte_length": 3400241,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "同一Met作品IDの公式元JPEGと表示JPEGの内容を直接照合。暗い室内の左手前に赤紫色の衣をまとい机に向かう聖マタイ。ペンと書物のそばで顔を上へ向け、背後の青紫の衣の天使と視線を交わす。右端には小さな建築・人物と火の光。光が頬や衣服の折り目に落ちる。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42957140730"
+    }
+  ],
+  "notes": [
+    "Sequential addition 363; prior artworks and image-source records unchanged.",
+    "Official Overview paragraphs were read directly from the exact museum webpages; source excerpts separately matched to Japanese visitor claims. Review by same AI, not a human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}
