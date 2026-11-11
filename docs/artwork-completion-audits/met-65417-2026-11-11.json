@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-65417",
+  "checked_on": "2026-11-11",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-65417.json",
+  "candidate_sha256": "6455e751c0928f696b0cba592a8dd563b8d41c8f9ed1180cb8d25d0ed6945e35",
+  "draft_path": "drafts/visitor-explanations/met-65417.json",
+  "draft_sha256": "e3a1f91558eb93d4bb298709869b073c4e6a0ec55854ab85a8e557b3d59ef656",
+  "baseline": {
+    "artworks_sha256": "0aedaf1eda7ce712375431ea56bd57af8aaa281aaae6b8dd8f63338d517fa2aa",
+    "image_registry_sha256": "15684fa1e7533501e9f75897dd91681e53dc98fb520f9b807d935b960a311c6d"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/65417",
+      "source_excerpt": "This pair of folding screens is characteristic of Nanban byōbu",
+      "visitor_claim": "これは17世紀初めの日本で制作された、ヨーロッパ人の来航を描く「南蛮屏風」と呼ばれる一双の屏風です",
+      "source_section": "Overview: object type, depicted arrival"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/65417",
+      "source_excerpt": "The left screen depicts carracks arriving at a port with sails lowered",
+      "visitor_claim": "左隻には帆を下ろして港に入る大型船",
+      "source_section": "Overview: left screen ships"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/65417",
+      "location": "Met object Overview and Artwork Details: Overview: object type, depicted arrival | Overview: left screen ships",
+      "finding": "Met公式作品Overviewは、日本の港にヨーロッパ人が来航する南蛮屏風の一双と説明する。左隻には帆を下ろして港へ入る大型の帆船、右隻には船長・乗員の行列と、教会付近で出迎える宣教師たちが描かれる。黒衣のイエズス会士のほか茶衣のフランシスコ会士である可能性がある人物も描かれるが、右隻の中国風の衣装の女性三人は美術館が『完全に想像上の存在』と明言している。鑑賞順は右から左。主表示画像は一双全体ではなくMetの指定した主画像一枚。 Visual subject based on specific same-object source image: 金雲で場面を区切った横長の六曲屏風一隻を主画像として確認した。建物、通りを歩く人々、樹木、色鮮やかな衣服が細かく描かれている。作品は左右一双であり、主画像だけを両隻全体の画像だとは説明しない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/65417",
+      "location": "Object ID, PD, culture, artist, accession, medium, classification and API exact primary images",
+      "finding": "Met API checked; exact original and display JPEG full SHA256/length/dimensions and RMS https://github.com/matumaruex/kaiga-data/actions/runs/42932375742",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Open Access CC0 primary JPEG and public-domain object data rights",
+      "finding": "Public-domain object primary images are published for reuse as CC0; museum Overview text remains separately protected.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/65417",
+      "finding": "Exact Met artwork Public Domain flag on museum page and API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met PD primary JPEG under Open Access/CC0; complete original/display checks https://github.com/matumaruex/kaiga-data/actions/runs/42932375742"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/65417",
+      "finding": "New independently structured Japanese prose relying on direct claim checks; no extensive copy or near-verbatim translation. Not legal counsel."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Independent same-AI second-pass rereading of official exact-work Overview, matching two short verbatim source excerpts to Japanese claims, crosschecking the exact primary visual and official API and images.",
+    "limitations": "Not a separate model, external scholarly review, human expert or legal clearance. Online CI museum HTML may rate-limit so the audit's offline program only checks excerpt structure, not live quote accuracy.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "Met object 65417, Arrival of the Europeans, Unknown artist, first quarter 17th century, 2015.300.109.1, .2. Attribution caveats and source classifications preserved.",
+      "image_match": "金雲で場面を区切った横長の六曲屏風一隻を主画像として確認した。建物、通りを歩く人々、樹木、色鮮やかな衣服が細かく描かれている。作品は左右一双であり、主画像だけを両隻全体の画像だとは説明しない。 API official primary JPEG complete hashes/dimensions, downscale RMS 9.90242.",
+      "historical_interpretation": "Met公式作品Overviewは、日本の港にヨーロッパ人が来航する南蛮屏風の一双と説明する。左隻には帆を下ろして港へ入る大型の帆船、右隻には船長・乗員の行列と、教会付近で出迎える宣教師たちが描かれる。黒衣のイエズス会士のほか茶衣のフランシスコ会士である可能性がある人物も描かれるが、右隻の中国風の衣装の女性三人は美術館が『完全に想像上の存在』と明言している。鑑賞順は右から左。主表示画像は一双全体ではなくMetの指定した主画像一枚。 Limits: 『南蛮』は歴史的な屏風分類の名称として使い、現代の人々の呼称として使わない。女性三人はMetが想像上の存在と述べる一方、すべての人物を個々に史実と断定しない。主画像は一双の片隻とし、もう片方の詳細は作品別Overviewに従う。",
+      "emotion": "Artist's subjective mood not asserted; curated tags are grounded and may be zero: ['好奇心']",
+      "visitor_text": "Original Japanese interpretation in three paragraphs with two grounded, limited official Overview source excerpts.",
+      "rights": "Museum exact-work PD; official Open Access CC0 primary images; independently written Japanese text, not copied museum prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP368004.jpg",
+      "sha256": "d9686368aeaf9838499f985ec778b8909432fb4abd84dec6076a8944eeaf306d",
+      "byte_length": 67164,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "金雲で場面を区切った横長の六曲屏風一隻を主画像として確認した。建物、通りを歩く人々、樹木、色鮮やかな衣服が細かく描かれている。作品は左右一双であり、主画像だけを両隻全体の画像だとは説明しない。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42932375742"
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP368004.jpg",
+      "sha256": "1b8232a98626ea2ce6151d47ae07c64cf70b5b35b040d9c8f25ebb9a15c4f36b",
+      "byte_length": 1827873,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-11",
+      "observation": "金雲で場面を区切った横長の六曲屏風一隻を主画像として確認した。建物、通りを歩く人々、樹木、色鮮やかな衣服が細かく描かれている。作品は左右一双であり、主画像だけを両隻全体の画像だとは説明しない。 Full original/display exact object JPEG identity/size/dimensions checked in https://github.com/matumaruex/kaiga-data/actions/runs/42932375742"
+    }
+  ],
+  "notes": [
+    "Sequential addition 339; prior artworks and image-source records unchanged.",
+    "Source Overview passages independently read via official museum page 2026-11-11. Separate AI pass is not human expert.",
+    "Exact English Overview excerpts were verified against the public Met collection pages; long copyrighted museum text was not copied into visitor descriptions."
+  ]
+}
