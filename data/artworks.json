@@ -45754,6 +45754,371 @@
         "audit_sha256": "f525f2e931e03130a45a1466c910c2ea3bec4d6a424d33e5e976e7625e308e9f",
         "record_sha256": "0df81c0365680a09b5a34519f3cdcdc15b650e59e595ba92276c3c1dde3ed1ce"
       }
+    },
+    {
+      "id": "met-853449",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 853449,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/853449",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853449",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Portrait of Sor Juana de Nuestra Señora de Guadalupe",
+        "title_ja_provisional": "修道女ソル・フアナ・デ・ヌエストラ・セニョーラ・デ・グアダルーペの肖像",
+        "artist": "Domingo Ortiz",
+        "creation_date_display": "1797",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "New Spain (present-day Mexico)",
+        "accession_number": "2021.430"
+      },
+      "image": {
+        "image_id": "met-853449-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-25528-001.jpg",
+        "source_registry_id": "met-853449",
+        "local_path": "/artworks/met-853449.jpg",
+        "sha256": "78c661d559c86e483b96eb62f250e94b21b96a0f8ae0a5b12df75cdae1383275",
+        "byte_length": 128698,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42970025681",
+        "source_accession_number": "2021.430",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-25528-001.jpg",
+          "sha256": "ad848d5848e92b4e39b7ba129a08904dc58d32d55b207c760afd4650c6e2efd4",
+          "byte_length": 4928598,
+          "width": 3268,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 6.51464",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "共同体",
+          "時間",
+          "記憶"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/853449",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "18世紀末メキシコの修道女の肖像から、冠や宗教的装飾が新しい名と社会的身分を示すことを知りたい",
+              "reason": "Met公式作品別Overviewは、1797年に16歳のフアナ・バルデスがメキシコシティのレヒナ・コエリ修道院で無原罪の御宿り会の修道女となり、ソル・フアナ・デ・ヌエストラ・セニョーラ・デ・グアダルーペという新たな名を得た際の肖像と説明する。『戴冠した修道女』と呼ばれる新スペイン固有のジャンルで、結婚の冠と指輪は『キリストの花嫁』の身分を示す。胸の大きなメダイには聖母マリアとその両親聖ヨアキム・聖アンナ、手に持つ小さな衣装付きの幼子キリスト像は祝福する右手と世界を意味する青い球を持つ。親の家に掲げることで家族の信仰・財産・社会的地位と、離れて暮らす娘の存在を伝えたとMetは述べる。作者ドミンゴ・オルティス。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "本人が自主的に入会した心理や家族の感情を断定しない。『キリストの花嫁』は信仰上の象徴的な呼称。ソル・フアナは著名詩人ソル・フアナ・イネス・デ・ラ・クルスと同一人物ではない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品別Overviewは、1797年に16歳のフアナ・バルデスがメキシコシティのレヒナ・コエリ修道院で無原罪の御宿り会の修道女となり、ソル・フアナ・デ・ヌエストラ・セニョーラ・デ・グアダルーペという新たな名を得た際の肖像と説明する。『戴冠した修道女』と呼ばれる新スペイン固有のジャンルで、結婚の冠と指輪は『キリストの花嫁』の身分を示す。胸の大きなメダイには聖母マリアとその両親聖ヨアキム・聖アンナ、手に持つ小さな衣装付きの幼子キリスト像は祝福する右手と世界を意味する青い球を持つ。親の家に掲げることで家族の信仰・財産・社会的地位と、離れて暮らす娘の存在を伝えたとMetは述べる。作者ドミンゴ・オルティス。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/853449"
+          },
+          "creation_context": "1797; New Spain (present-day Mexico); Oil on canvas; accession 2021.430",
+          "visual_clues": "公式原寸・表示JPEGとサムネイルを別々に確認。暗い褐色の背景の中に、金色の背の高い冠をかぶり青と白の修道服を着た若い女性が正面からやや斜めに立つ。胸に大きな丸い絵入りの徽章、右手側に衣装を着た幼い人物の小彫像。最下部に細字の銘文帯。新たな宗教名や年齢はMet本文の根拠であり画面から読めたとは主張しない。",
+          "uncertainty_note": "本人が自主的に入会した心理や家族の感情を断定しない。『キリストの花嫁』は信仰上の象徴的な呼称。ソル・フアナは著名詩人ソル・フアナ・イネス・デ・ラ・クルスと同一人物ではない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42970025681",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "金色の高い冠をかぶり、青と白の修道服をまとった若い女性が描かれています。胸元の丸い徽章には聖母マリアとその両親、手には衣装を着た幼子キリストの小像があります。暗い背景の前に、冠や装飾が明るく浮かび上がっています。\n\nこれは1797年、16歳の少女がメキシコシティの修道院で修道女となった際の肖像画です。もとの名はフアナ・バルデスでしたが、入会を機にソル・フアナ・デ・ヌエストラ・セニョーラ・デ・グアダルーペという新しい宗教名を得ました。冠と指輪は信仰上の『キリストの花嫁』を示しています。\n\nこの絵はもともと彼女の両親の家に飾られたと考えられています。離れて暮らす娘の姿を記念すると同時に、家族の信仰や社会的な地位も示す役割がありました。表情だけでなく、服装や持ち物が一人の人生の転機をどう記録しているかに注目できます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/853449"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-853449-2026-11-11.json",
+        "audit_sha256": "a6db9afceca332728ef9f3ae24586c62a4172812a353fb2ff62b2daaea1da1b1",
+        "record_sha256": "d8891a72a3764f04d4582d3afbf7712efe1490f61a07b58998cc506b0c4b85a9"
+      }
+    },
+    {
+      "id": "met-813585",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 813585,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/813585",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/813585",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "Hayne Hudjihini, Eagle of Delight",
+        "title_ja_provisional": "ヘイネ・フジヒニ（イーグル・オブ・ディライト）の肖像",
+        "artist": "Henry Inman",
+        "creation_date_display": "1832–33",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "United States: American painter depicting Hayne Hudjihini of the Jiwere-Nut'achi (Otoe-Missouria) Nation",
+        "accession_number": "2018.501.1"
+      },
+      "image": {
+        "image_id": "met-813585-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18741-001.jpg",
+        "source_registry_id": "met-813585",
+        "local_path": "/artworks/met-813585.jpg",
+        "sha256": "084182117198b9329c471819aa1a6a13f3de1aa86692f1ab53459c57f8164d5e",
+        "byte_length": 83471,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42970025681",
+        "source_accession_number": "2018.501.1",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18741-001.jpg",
+          "sha256": "4844da5320ecad6f94ce22080ff357b40396c7504e188b879c21f97a7377ee46",
+          "byte_length": 4329437,
+          "width": 3379,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 3.42897",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [],
+        "emotion_strengths": {},
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "共同体",
+          "記憶",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/813585",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "北米先住民オトー・ミズーリアの外交に携わった女性の肖像を、本人の子孫による解説とともに鑑賞したい",
+              "reason": "Met公式作品別Overviewによると、ヘンリー・インマンが1832〜33年に描いた『ヘイネ・フジヒニ（Eagle of Delight）』の肖像は、トマス・L・マッケニーの北米先住民史（1836〜44年）の彩色石版画に使うため制作された。元の肖像画は1822年にワシントンに招かれた先住民の指導者たちをチャールズ・バード・キングが生きている姿から描いたが、1865年の火災で焼失した。Metはヘイネ・フジヒニをオトー・ミズーリアの首長スモニャカシーの妻と記し、イヤリングや首飾り、銀の腕輪を指摘。加えてMet公式の記事『Native Perspectives』で本人の子孫Veronica、Rock、Wolf Pipestemは、彼女がオトー・ミズーリアのワシの氏族に生まれ、額の青い入れ墨が家系の高い地位を示し、1822年に夫とともにワシントンへ出向いて部族の主権を守る外交活動を行ったと解説している。これらは子孫の説明であると出典を分けて述べる。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "アメリカ人画家の肖像を『先住民自身が描いた肖像』と混同しない。子孫の声はMet『Native Perspectives』から引用した解釈として記録し、19世紀の米国官僚が刊行した本の目的と先住民当事者の視点を同一視しない。人物の精神状態、本人の写真のような厳密な肖似は断定しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品別Overviewによると、ヘンリー・インマンが1832〜33年に描いた『ヘイネ・フジヒニ（Eagle of Delight）』の肖像は、トマス・L・マッケニーの北米先住民史（1836〜44年）の彩色石版画に使うため制作された。元の肖像画は1822年にワシントンに招かれた先住民の指導者たちをチャールズ・バード・キングが生きている姿から描いたが、1865年の火災で焼失した。Metはヘイネ・フジヒニをオトー・ミズーリアの首長スモニャカシーの妻と記し、イヤリングや首飾り、銀の腕輪を指摘。加えてMet公式の記事『Native Perspectives』で本人の子孫Veronica、Rock、Wolf Pipestemは、彼女がオトー・ミズーリアのワシの氏族に生まれ、額の青い入れ墨が家系の高い地位を示し、1822年に夫とともにワシントンへ出向いて部族の主権を守る外交活動を行ったと解説している。これらは子孫の説明であると出典を分けて述べる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/813585"
+          },
+          "creation_context": "1832–33; American; Oil on canvas; accession 2018.501.1",
+          "visual_clues": "Met公式同一IDの元/表示JPEGを完全照合してサムネイルを目視。赤橙の衣を着た女性の胸から上を正面に近く描く。暗い髪を中央で分けて左右に垂らし、左右に細長い耳飾りと重ねた首飾り、手元に銀色の腕輪。暗い無地の背景。眉間上の青い印がうっすら見えるが、身分の意味は子孫の説明による。",
+          "uncertainty_note": "アメリカ人画家の肖像を『先住民自身が描いた肖像』と混同しない。子孫の声はMet『Native Perspectives』から引用した解釈として記録し、19世紀の米国官僚が刊行した本の目的と先住民当事者の視点を同一視しない。人物の精神状態、本人の写真のような厳密な肖似は断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42970025681",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "赤い衣を着た女性が、暗い背景の前で静かにこちらを見つめています。髪は左右に分けられ、長い耳飾りと重ねた首飾りが見えます。描かれているのは、オトー・ミズーリア（ジウェレ・ヌタチ）の女性、ヘイネ・フジヒニです。\n\nアメリカ人画家ヘンリー・インマンによるこの肖像は、当時刊行された北米先住民の歴史書に使う彩色石版画の準備として制作されました。ヘイネ・フジヒニはオトー・ミズーリアの首長スモニャカシーの妻でした。彼女を単に肖像のモデルとしてではなく、その社会で役割を担った人物として見ることも大切です。\n\nメトロポリタン美術館が公開した本人の子孫たちの解説によれば、額の青い入れ墨は家系の地位を示し、1822年には夫とともにワシントンを訪れて部族の主権を守る外交活動に携わりました。後世のアメリカ人画家が残した姿と、子孫が伝える本人の歴史の両方を重ねて鑑賞できます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/813585",
+          "https://www.metmuseum.org/ja/perspectives/native-perspectives"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-813585-2026-11-11.json",
+        "audit_sha256": "11a4f520eb66e49621e7bc005f651dfb72b4cbab2a43fc245e766eb8aa483817",
+        "record_sha256": "e493d4e354303f08eecfc0dfc7cffc436820d4b8bdc74ce1ba6cf8522310113d"
+      }
+    },
+    {
+      "id": "met-441379",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 441379,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/441379",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/441379",
+        "record_checked_on": "2026-11-11"
+      },
+      "facts": {
+        "title_original": "The North Cape by Moonlight",
+        "title_ja_provisional": "月光に照らされたノール岬",
+        "artist": "Peder Balke",
+        "creation_date_display": "1848",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Norway (artist's home and depicted landscape; Met API culture unspecified)",
+        "accession_number": "2019.167.4"
+      },
+      "image": {
+        "image_id": "met-441379-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1740-001_cropped.jpg",
+        "source_registry_id": "met-441379",
+        "local_path": "/artworks/met-441379.jpg",
+        "sha256": "9d900f4cf9e0db79df87d43758aac639f319ba5d3f0f6c825a6265c4b32d5a9e",
+        "byte_length": 68092,
+        "live_image_checked": true,
+        "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42970025681",
+        "source_accession_number": "2019.167.4",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-1740-001_cropped.jpg",
+          "sha256": "6256785d860a5af36221f98bb66b0f3682053bbf524304a0cbccc7df4441cb4c",
+          "byte_length": 1240553,
+          "width": 3928,
+          "height": 2836,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Met original/display same-object image downscale RMS 4.22520",
+          "last_full_sha_checked_on": "2026-11-11",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬",
+          "孤独"
+        ],
+        "emotion_strengths": {
+          "畏敬": 2,
+          "孤独": 1
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "自然",
+          "記憶",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/441379",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "ノルウェー最北部の岬を月光と暗い雲で描いたロマン主義の海景から、記憶と自然の広がりを感じたい",
+              "reason": "Met公式作品別Overviewによると画家ペーダー・バルケはノール岬を1832年に一度だけ訪れ、その体験が終生の想像力の基点になった。1848年の作品は暗い色調と表現的な筆遣いが成熟期の特徴で、師ヨハン・クリスチャン・ダールの抑制された自然主義と対照的である。1848年秋オスロで本作か別バージョンが展示された際、批評家が題材や瞬間の独特の捉え方に関心を示した。Metの関連記事ではノール岬を船の甲板から見た16年前の記憶に基づくと説明。画面は実景の写真のような再現ではなく劇的な自然の印象を強調する。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "画中の舟に画家本人が乗っているとは主張しない。絵は訪問から16年後に描いたもので、その場での写生と断定しない。1848年に展示されたのがこの個体か別バージョンかは美術館も不確実とする。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品別Overviewによると画家ペーダー・バルケはノール岬を1832年に一度だけ訪れ、その体験が終生の想像力の基点になった。1848年の作品は暗い色調と表現的な筆遣いが成熟期の特徴で、師ヨハン・クリスチャン・ダールの抑制された自然主義と対照的である。1848年秋オスロで本作か別バージョンが展示された際、批評家が題材や瞬間の独特の捉え方に関心を示した。Metの関連記事ではノール岬を船の甲板から見た16年前の記憶に基づくと説明。画面は実景の写真のような再現ではなく劇的な自然の印象を強調する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/441379"
+          },
+          "creation_context": "1848; ; Oil on canvas; accession 2019.167.4",
+          "visual_clues": "Met公式元画像と表示JPEGを全バイトのSHAと縮小RMSで照合し目視。横長の低く暗い海面に小舟と複数の小さな人影があり、右側には大きな平たい頂を持つ岩の岬。空には厚い灰黒色の雲が広がり、雲の切れ間から落ちる月光が海面に銀色の帯を作る。淡い月光の狭い領域と黒々した海・岬の対比。",
+          "uncertainty_note": "画中の舟に画家本人が乗っているとは主張しない。絵は訪問から16年後に描いたもので、その場での写生と断定しない。1848年に展示されたのがこの個体か別バージョンかは美術館も不確実とする。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "畏敬"
+          ],
+          "secondary": [
+            "孤独"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-11",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42970025681",
+        "ai_content_review_status": "pending",
+        "source_evidence_review_status": "pending",
+        "image_subject_match_status": "pending"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "暗い雲が空を覆い、雲の切れ間から落ちる月の光が海面を細く照らしています。手前には小さな舟、その先には大きな岩の岬が広がります。わずかな光と広い暗がりの対比が、自然の大きさを感じさせます。\n\nノルウェーの画家ペーダー・バルケがノール岬を訪れたのは、1832年の一度きりでした。それでもその体験は、生涯を通じて繰り返し描く題材となりました。この絵は訪問から16年後の1848年に制作されています。\n\n暗い色調と勢いのある筆遣いは、バルケが成熟期に好んだ表現です。師であるダールの穏やかな写実とは異なり、月光と岩壁を大胆にまとめています。舟の小ささと岬の大きさを見比べると、人の存在と自然の広がりがいっそう強く感じられます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/441379"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-11"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-441379-2026-11-11.json",
+        "audit_sha256": "c6a7031a7cb3010e389e1e63126fa038ede02a8477464642ea39bdab8208a449",
+        "record_sha256": "bb1e3160f6075ecc0a303cc5e17082ff04d37a1e7b5524f271863e4ce12c81f5"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
