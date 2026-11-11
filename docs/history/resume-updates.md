@@ -272,3 +272,15 @@
 - 各Met公式作品別Overview原文を直接読み、重要な日本語解説と原文の短い2箇所を対応。作品Public Domain、Met Open Access CC0画像、現代解説本文の権利を区別し、原寸・表示JPEGのSHA256全バイト・寸法・縮小一致・サムネイル目視を確認（[画像調査](https://github.com/matumaruex/kaiga-data/actions/runs/42968403594)）。同一AIの別工程監査で外部の専門家による査読ではない。
 - `met-764087`は作品に署名・制作記録がなく画家への帰属は推定。`met-37895`の詩的暗示も解釈の範囲にとどめる。現行Met APIで`met-438007`はPDでないため今回除外。
 - 既存371作品および画像台帳の過去部分は変更しない。手順は [新規登録ガイド](artwork-expansion-v2.md) と [v2品質基準](artwork-completion-workflow-v2.md)。
+
+---
+
+### 2026-11-11 07:06 UTC
+
+#### 保存前の状態（2026-11-11時点）
+
+- **完成登録：377作品**。正本はmainの作品DBとREADME。
+- **次：378作品目から候補調査**。重複・作品別一次出典本文・画像利用権利を一点ずつ確認。
+- 今回375〜377：`met-853449` ドミンゴ・オルティス《修道女ソル・フアナの肖像》（新スペイン）、`met-813585` ヘンリー・インマン《ヘイネ・フジヒニの肖像》（米国・オトー＝ミズーリアの女性）、`met-441379` ペーダー・バルケ《月光に照らされたノール岬》（ノルウェー）。
+- 各Met作品別公式Overviewの原文2箇所と独自日本語鑑賞解説の主張を照合。先住民女性の肖像では公式の当事者子孫の解説 [Native Perspectives](https://www.metmuseum.org/ja/perspectives/native-perspectives) を追加出典として区別。作品Public Domain／Met Open Access CC0原寸・表示画像／現代の美術館説明文の著作権を分離し、JPEGの完全SHA256・バイト数・寸法・縮小RMSと画像の目視を確認（[画像調査](https://github.com/matumaruex/kaiga-data/actions/runs/42970025681)）。同一AIの別工程での監査であり外部の専門家による査読ではない。
+- `met-764092`はすでにDB登録済みのため除外。既存374作品と画像台帳の従来部分を変更しない。手順は [新規追加ガイド](artwork-expansion-v2.md) と [v2品質基準](artwork-completion-workflow-v2.md) を継続。

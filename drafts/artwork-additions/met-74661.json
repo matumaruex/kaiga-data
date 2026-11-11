@@ -1,0 +1,153 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-74661",
+  "artwork": {
+    "id": "met-74661",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 74661,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/74661",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/74661",
+      "record_checked_on": "2026-11-11"
+    },
+    "facts": {
+      "title_original": "Running Elephant (recto); Practice Sheet of Elephant Sketches (verso)",
+      "title_ja_provisional": "走る象（表）・象の素描練習（裏）",
+      "artist": "Unidentified artist",
+      "creation_date_display": "mid-18th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "India (Rajasthan, Kotah)",
+      "accession_number": "2008.359.14"
+    },
+    "image": {
+      "image_id": "met-74661-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP166081.jpg",
+      "source_registry_id": "met-74661",
+      "local_path": "/artworks/met-74661.jpg",
+      "sha256": "878ee97839e87596fef8132e852bba12829abdde5d503a8d8d52133d721631c5",
+      "byte_length": 156749,
+      "live_image_checked": true,
+      "live_check_scope": "Met official API+full exact JPEG SHA256/dimensions/RMS verified https://github.com/matumaruex/kaiga-data/actions/runs/42976021314",
+      "source_accession_number": "2008.359.14",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP166081.jpg",
+        "sha256": "cde213395bfd7b2339a932a61a3c41122598c37145f7ce6ffe8a75527874da45",
+        "byte_length": 1634779,
+        "width": 2000,
+        "height": 1189,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 3.63757",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 2
+      },
+      "tones": [
+        "高揚"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/74661",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "インド・コータで作られた象の勢いある素描から、足の動きと動物観察に集中した画家の視線を感じたい",
+            "reason": "Met公式作品別Overviewでは、18世紀半ばのインド、ラージャスターンのコータ宮廷では戦や狩猟が主要な絵画主題で、象はとりわけ人気があったと説明する。本図では人間の存在はほぼ無視され、動いている象の姿を自然に捉えることが中心。媒体は紙に木炭で、所蔵品の題名は表に『Running Elephant』、裏に象の素描練習があることを示す。公式主画像が示すのは表側で、裏の練習線の詳細をこの主画像から見たとは言わない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "画中の象が実際に起こした特定の戦闘や狩猟事件を断定しない。象の裏面の構図は公開主画像に映らないため推測で描写しない。『自然主義的』はMetの分析であり動物の行動観察自体を記録した証明ではない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met公式作品別Overviewでは、18世紀半ばのインド、ラージャスターンのコータ宮廷では戦や狩猟が主要な絵画主題で、象はとりわけ人気があったと説明する。本図では人間の存在はほぼ無視され、動いている象の姿を自然に捉えることが中心。媒体は紙に木炭で、所蔵品の題名は表に『Running Elephant』、裏に象の素描練習があることを示す。公式主画像が示すのは表側で、裏の練習線の詳細をこの主画像から見たとは言わない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/74661"
+        },
+        "creation_context": "mid-18th century; India (Rajasthan, Kotah); Charcoal on paper; accession 2008.359.14",
+        "visual_clues": "Met ID74661公式原寸/表示JPEGを直接目視・縮小照合。横長の薄茶の紙面の中央を、鼻をくねらせ右へ駆ける大きな象が占める。脚を前後に大きく伸ばし、体や背に細い木炭の補助線、背後の左に小さな人影とさらに右端に小さな人物。彩色画でなく木炭の簡潔な素描。主画像は表面のみ。",
+        "uncertainty_note": "画中の象が実際に起こした特定の戦闘や狩猟事件を断定しない。象の裏面の構図は公開主画像に映らないため推測で描写しない。『自然主義的』はMetの分析であり動物の行動観察自体を記録した証明ではない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-11",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI reviewed exact official artwork page and image against primary JPEGs, not external expert https://github.com/matumaruex/kaiga-data/actions/runs/42976021314",
+      "ai_content_review_status": "pending",
+      "source_evidence_review_status": "pending",
+      "image_subject_match_status": "pending"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "薄茶色の紙の上を、大きな象が勢いよく走っています。鼻は曲がり、四本の脚は前後に広く伸びています。細い線を重ねた木炭の素描から、重い体が動く瞬間を感じられます。\n\n18世紀半ばのインド・コータでは、宮廷の狩猟や軍事にまつわる絵が多く作られ、象は特に好まれた題材でした。この絵では人の姿よりも、走っている象そのものの動きが中心になっています。\n\n作品には表側の走る象だけでなく、裏側にも象の姿を練習した素描があります。ここに掲載した公式の主画像は表側です。動物の大きな胴と脚の伸び方、鼻の曲がりを順に見ると、画家が線で速度や重みを捉えようとした工夫が伝わってきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/74661"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-11"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-74661",
+    "title": "Running Elephant (recto); Practice Sheet of Elephant Sketches (verso)",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/74661",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/74661",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP166081.jpg",
+      "sha256": "878ee97839e87596fef8132e852bba12829abdde5d503a8d8d52133d721631c5",
+      "byte_length": 156749,
+      "last_http_sha_checked_on": "2026-11-11",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/actions/runs/42976021314",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP166081.jpg",
+        "sha256": "cde213395bfd7b2339a932a61a3c41122598c37145f7ce6ffe8a75527874da45",
+        "byte_length": 1634779,
+        "width": 2000,
+        "height": 1189,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Met original/display same-object image downscale RMS 3.63757",
+        "last_full_sha_checked_on": "2026-11-11",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2008.359.14"
+  }
+}
