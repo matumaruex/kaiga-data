@@ -51,12 +51,12 @@ SPEC={int(k):v for k,v in {
     "text": "白い衣をまとった男性が、両手で開いた本を見つめています。ところが、その姿を支えるはずの椅子は見当たりません。この絵は未完成で、椅子がまだ描かれていないため、人物は空中に座るように見えます。淡い背景と細かな衣の線にも注目してみてください。\n\n1750〜75年頃のインドの人物画です。顔や手には細かな点を重ねた陰影があり、服の折り目も丁寧に表されています。一方で、背景や椅子などの周囲の描写は終わっておらず、制作の途中段階を見せる作品となっています。\n\nムガル宮廷の肖像では、人物の貴重な所持品を周りに描くことがよくありました。しかし、この人物は手に文字のない白い本だけを持っています。何を読む人物なのか、名前や本の題名は明らかではありません。描き込まれた部分と空白を見比べると、完成した肖像では見落としがちな制作の手順に目が向きます。",
     "checks": [
       [
-        "This unfinished painting depicts a seated figure who appears to be floating in space",
+        "as his chair has not yet been painted",
         "この絵は未完成で、椅子がまだ描かれていないため、人物は空中に座るように見えます。",
         "Met exact artwork Overview: unfinished figure appearing suspended"
       ],
       [
-        "only a blank book in his hand",
+        "depicted with only a blank book in his hand",
         "しかし、この人物は手に文字のない白い本だけを持っています。",
         "Met exact artwork Overview: blank book and absence of typical possessions"
       ]
