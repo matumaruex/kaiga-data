@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-910555",
+  "artwork": {
+    "id": "met-910555",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 910555,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/910555",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/910555",
+      "record_checked_on": "2026-11-12"
+    },
+    "facts": {
+      "title_original": "The Thirty-Six Poetic Immortals",
+      "title_ja_provisional": "三十六歌仙図屏風",
+      "artist": "Studio of Kano Takanobu (painting); Konoe Nobutada (inscriptions)",
+      "creation_date_display": "early 17th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "2024.279.1, .2"
+    },
+    "image": {
+      "image_id": "met-910555-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-35700-001.jpg",
+      "source_registry_id": "met-910555",
+      "local_path": "/artworks/met-910555.jpg",
+      "sha256": "a96997945fd91ebde00fdfa14b2269024e3eaebf2cea31d572d5a09ed17003ad",
+      "byte_length": 97081,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-390-392-20261112/docs/artwork-research-evidence/met-390-392-2026-11-12.json",
+      "source_accession_number": "2024.279.1, .2",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-35700-001.jpg",
+        "sha256": "701591e3617deb7a890e118c96eaa8f4e6076c7833fac0eddf11a0a33668b0bc",
+        "byte_length": 2184693,
+        "width": 4000,
+        "height": 2216,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 8.07391",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "懐かしさ"
+      ],
+      "emotion_strengths": {
+        "懐かしさ": 1
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "記憶",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/910555",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "桃山時代の屏風で、三十六人の和歌の名手を描いた人物と近衛信尹の書を合わせて眺めたい",
+            "reason": "Met個別Overviewによれば、狩野孝信の工房が絵を描き、近衛信尹が和歌を書いた17世紀初頭の六曲一双屏風。藤原公任が選んだ三十六歌仙は、僧侶二人、女性五人、その他宮廷の男性を含む。大画面の折り畳み屏風形式として現存する初期の優品。柿本人麻呂と紀貫之の歌が端にある。公式のprimaryImage（DP-35700-001）は対の屏風の一方を写した横長画像で、対の全体を1枚に載せた画像ではない。右から左に鑑賞する形式。画家と書き手は別人で、単独の狩野孝信の直筆作としない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "作品は一双の屏風なのに、配信するprimary JPEGはその一方だけ。36人の歌人が現在の1画像に全員描かれていると書かない。絵は狩野孝信工房、詞書は近衛信尹の仕事として明記。作品別ページにある和歌の全訳は転載しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met個別Overviewによれば、狩野孝信の工房が絵を描き、近衛信尹が和歌を書いた17世紀初頭の六曲一双屏風。藤原公任が選んだ三十六歌仙は、僧侶二人、女性五人、その他宮廷の男性を含む。大画面の折り畳み屏風形式として現存する初期の優品。柿本人麻呂と紀貫之の歌が端にある。公式のprimaryImage（DP-35700-001）は対の屏風の一方を写した横長画像で、対の全体を1枚に載せた画像ではない。右から左に鑑賞する形式。画家と書き手は別人で、単独の狩野孝信の直筆作としない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/910555"
+        },
+        "creation_context": "early 17th century; Japan, Momoyama period; Pair of six-panel folding screens; ink, color, gold, and silver on paper; accession 2024.279.1, .2",
+        "visual_clues": "Met公式API主画像のサムネイルでは、横長の金茶色の六曲屏風の一方に、色彩豊かな衣をまとう貴族らしき人物が横に並んで座り、その上に筆文字の歌が段をなして記されている。金や茶の下地、画面の左右端の装飾枠が見える。二枚のうちの一方だけで、全36人がこの主画像に写っていると誤認しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.0739で対応確認。",
+        "uncertainty_note": "作品は一双の屏風なのに、配信するprimary JPEGはその一方だけ。36人の歌人が現在の1画像に全員描かれていると書かない。絵は狩野孝信工房、詞書は近衛信尹の仕事として明記。作品別ページにある和歌の全訳は転載しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "懐かしさ"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-12",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-390-392-20261112/docs/artwork-research-evidence/met-390-392-2026-11-12.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "横に広がる金茶色の画面に、色鮮やかな衣を着た人々が腰を下ろしています。その上には筆で書かれた和歌が配され、絵と文字が一緒になって人物の姿を伝えています。視線を右から左へ進めると、歌人たちが少しずつ現れてくる構成です。\n\nこれは、平安時代の優れた和歌の作者三十六人を描く、17世紀初めの《三十六歌仙図屏風》です。絵は狩野孝信の工房が制作し、詞書は近衛信尹が担当しました。三十六歌仙には僧侶二人、宮廷の女性五人なども含まれ、古くからの和歌文化を人物像とともに伝えています。\n\n作品は六曲屏風の一双、つまり二つの屏風を組み合わせたものです。ここで使われている公式の主画像は、そのうち一方だけを写しています。画面に見える人物と歌をたどりながら、もう一方にも歌仙の姿と歌が続いていることを思い描いてみてください。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/910555"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-12"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-910555",
+    "title": "The Thirty-Six Poetic Immortals",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/910555",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/910555",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-35700-001.jpg",
+      "sha256": "a96997945fd91ebde00fdfa14b2269024e3eaebf2cea31d572d5a09ed17003ad",
+      "byte_length": 97081,
+      "last_http_sha_checked_on": "2026-11-12",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-390-392-20261112/docs/artwork-research-evidence/met-390-392-2026-11-12.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-35700-001.jpg",
+        "sha256": "701591e3617deb7a890e118c96eaa8f4e6076c7833fac0eddf11a0a33668b0bc",
+        "byte_length": 2184693,
+        "width": 4000,
+        "height": 2216,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 8.07391",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2024.279.1, .2"
+  }
+}

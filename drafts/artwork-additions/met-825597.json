@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-825597",
+  "artwork": {
+    "id": "met-825597",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 825597,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/825597",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/825597",
+      "record_checked_on": "2026-11-12"
+    },
+    "facts": {
+      "title_original": "Attendants at an Imperial Durbar",
+      "title_ja_provisional": "皇帝の謁見式に集まる従者たち",
+      "artist": "Hunhar",
+      "creation_date_display": "ca. 1645",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "India, Mughal court",
+      "accession_number": "2022.180"
+    },
+    "image": {
+      "image_id": "met-825597-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-28157-001.jpg",
+      "source_registry_id": "met-825597",
+      "local_path": "/artworks/met-825597.jpg",
+      "sha256": "4bce04033e03d110c7270627e6b702b0606022ae8ee04056a2cebf9ff5dfcea5",
+      "byte_length": 163386,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-390-392-20261112/docs/artwork-research-evidence/met-390-392-2026-11-12.json",
+      "source_accession_number": "2022.180",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP-28157-001.jpg",
+        "sha256": "fccfb89176b0c6a3a8010f2065c1ae39e3f0de8f72d66cd2d1f7f7ea0788a71d",
+        "byte_length": 4369671,
+        "width": 2991,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 6.72198",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "にぎわい"
+      ],
+      "themes": [
+        "共同体",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/825597",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "ムガル帝国の宮廷儀礼で、象や馬、奏楽者、随員たちがどのように配置されていたかを見たい",
+            "reason": "メトロポリタン美術館の個別Overviewによると、画家フンハルによる1645年頃の絵はシャー・ジャハーン朝の宮廷年代記『パードシャーナーマ』に関係する見開き構図の右側の断片で、欠けた左側にペルシア使節を謁見する皇帝が描かれたとされる。現存画面には使節団のペルシア人（大きなターバン）、ムガル廷臣、馬丁、馬と象がおり、門上のナッカールハーナ（太鼓の家）の楽人が一行を迎える。皇帝をこの主画像に描かれていると断定しない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "見開きの失われた左半にあるはずの皇帝・ペルシア大使の謁見場面が見えているかのように描写しない。写実的な宮廷写真や人物個人の心理として扱わない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "メトロポリタン美術館の個別Overviewによると、画家フンハルによる1645年頃の絵はシャー・ジャハーン朝の宮廷年代記『パードシャーナーマ』に関係する見開き構図の右側の断片で、欠けた左側にペルシア使節を謁見する皇帝が描かれたとされる。現存画面には使節団のペルシア人（大きなターバン）、ムガル廷臣、馬丁、馬と象がおり、門上のナッカールハーナ（太鼓の家）の楽人が一行を迎える。皇帝をこの主画像に描かれていると断定しない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/825597"
+        },
+        "creation_context": "ca. 1645; India, Mughal court; Opaque color and gold on paper; accession 2022.180",
+        "visual_clues": "公式Met APIに結び付くJPEGを見たところ、縦長の色鮮やかな画面の中央に象と鞍飾り、前方・左右に巻物状の頭巾や鮮やかな衣の人物が集まり、上部の建物の窓や欄に楽人らしい一団が並ぶ。金色・紫色の装飾や奥の建物が細かく描かれる。右側断片のみなので、欠けた皇帝のいる別頁を今ある画像と混同しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.722で対応確認。",
+        "uncertainty_note": "見開きの失われた左半にあるはずの皇帝・ペルシア大使の謁見場面が見えているかのように描写しない。写実的な宮廷写真や人物個人の心理として扱わない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-12",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-390-392-20261112/docs/artwork-research-evidence/met-390-392-2026-11-12.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "象と飾り立てられた馬の周りに、華やかな衣装の人々が集まっています。画面の上部、門のような建物に目を上げると、音楽を奏でる一団も見つかります。人々の列と動物の姿を追ううちに、宮廷の儀礼が多くの役割を持つ人々によって支えられていたことが感じられます。\n\nこの絵は、17世紀のムガル帝国を描いた画家フンハルによる1645年頃の作品です。本来の見開き構図の右側にあたる断片で、失われた左側には、皇帝シャー・ジャハーンがペルシアの使節を迎える場面が続いていたと説明されています。つまり、現在の主画像に皇帝本人が見えるわけではありません。\n\n現存する側には、大きなターバンを巻いた使節団の人物やムガル宮廷の廷臣、従者たちが描かれています。門の上の楽人たちは一行を音楽で迎えています。人物が画面の外側へ向いている様子からも、描かれなかった左半分の存在を想像できるでしょう。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/825597"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-12"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-825597",
+    "title": "Attendants at an Imperial Durbar",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/825597",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/825597",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-28157-001.jpg",
+      "sha256": "4bce04033e03d110c7270627e6b702b0606022ae8ee04056a2cebf9ff5dfcea5",
+      "byte_length": 163386,
+      "last_http_sha_checked_on": "2026-11-12",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-390-392-20261112/docs/artwork-research-evidence/met-390-392-2026-11-12.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP-28157-001.jpg",
+        "sha256": "fccfb89176b0c6a3a8010f2065c1ae39e3f0de8f72d66cd2d1f7f7ea0788a71d",
+        "byte_length": 4369671,
+        "width": 2991,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 6.72198",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2022.180"
+  }
+}

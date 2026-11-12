@@ -47562,6 +47562,366 @@
         "audit_sha256": "01294cb221f9c8d095524b29cc6cfe8058002b37f81e11a7aaa543e7301824c4",
         "record_sha256": "a6d83135584e6072750e727df98ab214335b1b7123732ba41466905ced08aa82"
       }
+    },
+    {
+      "id": "met-825597",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 825597,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/825597",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/825597",
+        "record_checked_on": "2026-11-12"
+      },
+      "facts": {
+        "title_original": "Attendants at an Imperial Durbar",
+        "title_ja_provisional": "皇帝の謁見式に集まる従者たち",
+        "artist": "Hunhar",
+        "creation_date_display": "ca. 1645",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India, Mughal court",
+        "accession_number": "2022.180"
+      },
+      "image": {
+        "image_id": "met-825597-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-28157-001.jpg",
+        "source_registry_id": "met-825597",
+        "local_path": "/artworks/met-825597.jpg",
+        "sha256": "4bce04033e03d110c7270627e6b702b0606022ae8ee04056a2cebf9ff5dfcea5",
+        "byte_length": 163386,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-390-392-20261112/docs/artwork-research-evidence/met-390-392-2026-11-12.json",
+        "source_accession_number": "2022.180",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP-28157-001.jpg",
+          "sha256": "fccfb89176b0c6a3a8010f2065c1ae39e3f0de8f72d66cd2d1f7f7ea0788a71d",
+          "byte_length": 4369671,
+          "width": 2991,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 6.72198",
+          "last_full_sha_checked_on": "2026-11-12",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "にぎわい"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/825597",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "ムガル帝国の宮廷儀礼で、象や馬、奏楽者、随員たちがどのように配置されていたかを見たい",
+              "reason": "メトロポリタン美術館の個別Overviewによると、画家フンハルによる1645年頃の絵はシャー・ジャハーン朝の宮廷年代記『パードシャーナーマ』に関係する見開き構図の右側の断片で、欠けた左側にペルシア使節を謁見する皇帝が描かれたとされる。現存画面には使節団のペルシア人（大きなターバン）、ムガル廷臣、馬丁、馬と象がおり、門上のナッカールハーナ（太鼓の家）の楽人が一行を迎える。皇帝をこの主画像に描かれていると断定しない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "見開きの失われた左半にあるはずの皇帝・ペルシア大使の謁見場面が見えているかのように描写しない。写実的な宮廷写真や人物個人の心理として扱わない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "メトロポリタン美術館の個別Overviewによると、画家フンハルによる1645年頃の絵はシャー・ジャハーン朝の宮廷年代記『パードシャーナーマ』に関係する見開き構図の右側の断片で、欠けた左側にペルシア使節を謁見する皇帝が描かれたとされる。現存画面には使節団のペルシア人（大きなターバン）、ムガル廷臣、馬丁、馬と象がおり、門上のナッカールハーナ（太鼓の家）の楽人が一行を迎える。皇帝をこの主画像に描かれていると断定しない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/825597"
+          },
+          "creation_context": "ca. 1645; India, Mughal court; Opaque color and gold on paper; accession 2022.180",
+          "visual_clues": "公式Met APIに結び付くJPEGを見たところ、縦長の色鮮やかな画面の中央に象と鞍飾り、前方・左右に巻物状の頭巾や鮮やかな衣の人物が集まり、上部の建物の窓や欄に楽人らしい一団が並ぶ。金色・紫色の装飾や奥の建物が細かく描かれる。右側断片のみなので、欠けた皇帝のいる別頁を今ある画像と混同しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.722で対応確認。",
+          "uncertainty_note": "見開きの失われた左半にあるはずの皇帝・ペルシア大使の謁見場面が見えているかのように描写しない。写実的な宮廷写真や人物個人の心理として扱わない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-12",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-390-392-20261112/docs/artwork-research-evidence/met-390-392-2026-11-12.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "象と飾り立てられた馬の周りに、華やかな衣装の人々が集まっています。画面の上部、門のような建物に目を上げると、音楽を奏でる一団も見つかります。人々の列と動物の姿を追ううちに、宮廷の儀礼が多くの役割を持つ人々によって支えられていたことが感じられます。\n\nこの絵は、17世紀のムガル帝国を描いた画家フンハルによる1645年頃の作品です。本来の見開き構図の右側にあたる断片で、失われた左側には、皇帝シャー・ジャハーンがペルシアの使節を迎える場面が続いていたと説明されています。つまり、現在の主画像に皇帝本人が見えるわけではありません。\n\n現存する側には、大きなターバンを巻いた使節団の人物やムガル宮廷の廷臣、従者たちが描かれています。門の上の楽人たちは一行を音楽で迎えています。人物が画面の外側へ向いている様子からも、描かれなかった左半分の存在を想像できるでしょう。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/825597"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-12"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-825597-2026-11-12.json",
+        "audit_sha256": "51fd56836396c8e7a05c0511f534820dee2ed60b6b496379e962a0beedba7ca6",
+        "record_sha256": "ffe987687605ff25892c095a3697581521e53409583a711ab30f5ccb82277d45"
+      }
+    },
+    {
+      "id": "met-764095",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 764095,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/764095",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764095",
+        "record_checked_on": "2026-11-12"
+      },
+      "facts": {
+        "title_original": "Christ Carrying the Cross, called \"The Lord of the Fall\"",
+        "title_ja_provisional": "十字架を担うキリスト（《転倒の主》）",
+        "artist": "Unknown Cuzco artist",
+        "creation_date_display": "ca. 1770–75",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Peru (Cuzco)",
+        "accession_number": "2018.652.5"
+      },
+      "image": {
+        "image_id": "met-764095-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18755-007.jpg",
+        "source_registry_id": "met-764095",
+        "local_path": "/artworks/met-764095.jpg",
+        "sha256": "9602787381dedd4036c5fb8ba69820bc2112865b62b3abb668ffaddea9a242db",
+        "byte_length": 200572,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-390-392-20261112/docs/artwork-research-evidence/met-390-392-2026-11-12.json",
+        "source_accession_number": "2018.652.5",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18755-007.jpg",
+          "sha256": "657e51ad09a0e39a4f6fd75ebc648d0fe58bbe5213462732cb7d1a043bb9596f",
+          "byte_length": 6041981,
+          "width": 3013,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 8.89024",
+          "last_full_sha_checked_on": "2026-11-12",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 1
+        },
+        "tones": [
+          "重苦しさ"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/764095",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "18世紀クスコ派の祭壇図で、キリストの彫像と飾り立てられた聖所をどのように絵で表したかを知りたい",
+              "reason": "メトロポリタン美術館の作品別Overviewによれば、本作は『statue painting』すなわち信仰を集める聖像の姿を絵に写した作品。クスコのサン・フランシスコ教会で崇敬されたナザレのキリスト彫像を『真の似姿』として描くことで、原像の奇跡的な力も備わると信じられた。祭壇の階段と天蓋の下にキリスト像があり、周囲には他の彫像、銀製装飾、ろうそく、花、羽根などが密に描かれる。実際に奇跡があったと断定するものではない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "絵が現実の彫像の忠実な『似姿』と信じられたという文化史上の事実と、奇跡の実在を混同しない。作品を現物の彫像や祭壇の写真と呼ばない。作者は不明のクスコ画家。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "メトロポリタン美術館の作品別Overviewによれば、本作は『statue painting』すなわち信仰を集める聖像の姿を絵に写した作品。クスコのサン・フランシスコ教会で崇敬されたナザレのキリスト彫像を『真の似姿』として描くことで、原像の奇跡的な力も備わると信じられた。祭壇の階段と天蓋の下にキリスト像があり、周囲には他の彫像、銀製装飾、ろうそく、花、羽根などが密に描かれる。実際に奇跡があったと断定するものではない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/764095"
+          },
+          "creation_context": "ca. 1770–75; Peru (Cuzco); Oil and gold on canvas; accession 2018.652.5",
+          "visual_clues": "Met公式APIの主画像は黒い外縁を持つ縦長の華やかな祭壇。中央上寄りには下向きの顔のキリスト像が衣をまとう姿、周囲に多数の小さな聖像や左右対称に積まれた銀色・色彩豊かな飾り、下部に階段状の台座が見える。画面外の黒い余白と絵の暗い室内を区別して眺めた。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.8902で対応確認。",
+          "uncertainty_note": "絵が現実の彫像の忠実な『似姿』と信じられたという文化史上の事実と、奇跡の実在を混同しない。作品を現物の彫像や祭壇の写真と呼ばない。作者は不明のクスコ画家。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "畏敬"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-12",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-390-392-20261112/docs/artwork-research-evidence/met-390-392-2026-11-12.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "中央に立つキリストの聖像を、銀色の飾りや小さな像、花やろうそくがぎっしりと取り囲んでいます。人物だけでなく、そこにある祭壇や天蓋の形まで細かく表され、信仰の場全体を一枚の画面に収めています。\n\n1770〜75年頃にペルーのクスコで制作されたこの作品は、彫刻の聖像を描いた「聖像画」の一種です。クスコのサン・フランシスコ教会で崇敬されたナザレのキリスト像を、その祭壇ごと描いています。キリストの聖像は、階段状の祭壇の上にある天蓋の下に置かれています。\n\n当時、このような絵は聖像の「真の似姿」と考えられ、元の像と同じ奇跡の力を持つと信じられることがありました。これは信仰の歴史を示すもので、奇跡の事実を証明するものではありません。中心のキリスト像から周囲の小さな装飾へ目を移すと、何を大切にして礼拝の場が整えられていたかが伝わってきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/764095"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-12"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-764095-2026-11-12.json",
+        "audit_sha256": "8f3b158fef6b39914330c08d82d566a9c3246dc83385d66a92b73913c787d468",
+        "record_sha256": "4a4ad5f6ad224d3a34fd354f14868e99deaf6bf4e30dc08ab64b245a4c80eb64"
+      }
+    },
+    {
+      "id": "met-910555",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 910555,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/910555",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/910555",
+        "record_checked_on": "2026-11-12"
+      },
+      "facts": {
+        "title_original": "The Thirty-Six Poetic Immortals",
+        "title_ja_provisional": "三十六歌仙図屏風",
+        "artist": "Studio of Kano Takanobu (painting); Konoe Nobutada (inscriptions)",
+        "creation_date_display": "early 17th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2024.279.1, .2"
+      },
+      "image": {
+        "image_id": "met-910555-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-35700-001.jpg",
+        "source_registry_id": "met-910555",
+        "local_path": "/artworks/met-910555.jpg",
+        "sha256": "a96997945fd91ebde00fdfa14b2269024e3eaebf2cea31d572d5a09ed17003ad",
+        "byte_length": 97081,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-390-392-20261112/docs/artwork-research-evidence/met-390-392-2026-11-12.json",
+        "source_accession_number": "2024.279.1, .2",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-35700-001.jpg",
+          "sha256": "701591e3617deb7a890e118c96eaa8f4e6076c7833fac0eddf11a0a33668b0bc",
+          "byte_length": 2184693,
+          "width": 4000,
+          "height": 2216,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 8.07391",
+          "last_full_sha_checked_on": "2026-11-12",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "懐かしさ"
+        ],
+        "emotion_strengths": {
+          "懐かしさ": 1
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "記憶",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/910555",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "桃山時代の屏風で、三十六人の和歌の名手を描いた人物と近衛信尹の書を合わせて眺めたい",
+              "reason": "Met個別Overviewによれば、狩野孝信の工房が絵を描き、近衛信尹が和歌を書いた17世紀初頭の六曲一双屏風。藤原公任が選んだ三十六歌仙は、僧侶二人、女性五人、その他宮廷の男性を含む。大画面の折り畳み屏風形式として現存する初期の優品。柿本人麻呂と紀貫之の歌が端にある。公式のprimaryImage（DP-35700-001）は対の屏風の一方を写した横長画像で、対の全体を1枚に載せた画像ではない。右から左に鑑賞する形式。画家と書き手は別人で、単独の狩野孝信の直筆作としない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作品は一双の屏風なのに、配信するprimary JPEGはその一方だけ。36人の歌人が現在の1画像に全員描かれていると書かない。絵は狩野孝信工房、詞書は近衛信尹の仕事として明記。作品別ページにある和歌の全訳は転載しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met個別Overviewによれば、狩野孝信の工房が絵を描き、近衛信尹が和歌を書いた17世紀初頭の六曲一双屏風。藤原公任が選んだ三十六歌仙は、僧侶二人、女性五人、その他宮廷の男性を含む。大画面の折り畳み屏風形式として現存する初期の優品。柿本人麻呂と紀貫之の歌が端にある。公式のprimaryImage（DP-35700-001）は対の屏風の一方を写した横長画像で、対の全体を1枚に載せた画像ではない。右から左に鑑賞する形式。画家と書き手は別人で、単独の狩野孝信の直筆作としない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/910555"
+          },
+          "creation_context": "early 17th century; Japan, Momoyama period; Pair of six-panel folding screens; ink, color, gold, and silver on paper; accession 2024.279.1, .2",
+          "visual_clues": "Met公式API主画像のサムネイルでは、横長の金茶色の六曲屏風の一方に、色彩豊かな衣をまとう貴族らしき人物が横に並んで座り、その上に筆文字の歌が段をなして記されている。金や茶の下地、画面の左右端の装飾枠が見える。二枚のうちの一方だけで、全36人がこの主画像に写っていると誤認しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.0739で対応確認。",
+          "uncertainty_note": "作品は一双の屏風なのに、配信するprimary JPEGはその一方だけ。36人の歌人が現在の1画像に全員描かれていると書かない。絵は狩野孝信工房、詞書は近衛信尹の仕事として明記。作品別ページにある和歌の全訳は転載しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "懐かしさ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-12",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-390-392-20261112/docs/artwork-research-evidence/met-390-392-2026-11-12.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "横に広がる金茶色の画面に、色鮮やかな衣を着た人々が腰を下ろしています。その上には筆で書かれた和歌が配され、絵と文字が一緒になって人物の姿を伝えています。視線を右から左へ進めると、歌人たちが少しずつ現れてくる構成です。\n\nこれは、平安時代の優れた和歌の作者三十六人を描く、17世紀初めの《三十六歌仙図屏風》です。絵は狩野孝信の工房が制作し、詞書は近衛信尹が担当しました。三十六歌仙には僧侶二人、宮廷の女性五人なども含まれ、古くからの和歌文化を人物像とともに伝えています。\n\n作品は六曲屏風の一双、つまり二つの屏風を組み合わせたものです。ここで使われている公式の主画像は、そのうち一方だけを写しています。画面に見える人物と歌をたどりながら、もう一方にも歌仙の姿と歌が続いていることを思い描いてみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/910555"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-12"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-910555-2026-11-12.json",
+        "audit_sha256": "221a363967845d7e699e45e24405c4611216b313371dd70fd22f2ba398b93001",
+        "record_sha256": "0a15dbfecb0e99921802d8bc1259e5af65c5a5a1953108d5ee7f756aa3203149"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
