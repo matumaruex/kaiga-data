@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-764089",
+  "artwork": {
+    "id": "met-764089",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 764089,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/764089",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764089",
+      "record_checked_on": "2026-11-12"
+    },
+    "facts": {
+      "title_original": "Emblem of Folly",
+      "title_ja_provisional": "愚かさの寓意",
+      "artist": "Unknown Cuzco painter, after Boetius Adams Bolswert",
+      "creation_date_display": "18th Century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Peru (Cuzco)",
+      "accession_number": "2018.836.1"
+    },
+    "image": {
+      "image_id": "met-764089-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-30708-001.jpg",
+      "source_registry_id": "met-764089",
+      "local_path": "/artworks/met-764089.jpg",
+      "sha256": "90f9478e883422bf3a361657a28fac6434e779d6f3189105d2c013943e6766e9",
+      "byte_length": 132423,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-384-386-20261112/docs/artwork-research-evidence/met-384-386-2026-11-12.json",
+      "source_accession_number": "2018.836.1",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-30708-001.jpg",
+        "sha256": "eb068c1f08e8ab6e65352aff0e99ada8cd008442eafe46244e416bfe91371249",
+        "byte_length": 5547940,
+        "width": 3493,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 5.25215",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "不安"
+      ],
+      "emotion_strengths": {
+        "不安": 1
+      },
+      "tones": [
+        "緊張"
+      ],
+      "themes": [
+        "愛情",
+        "他者との距離"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/764089",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "クスコ派の寓意画で、道化姿の人間の魂と神の愛を表す翼ある人物の対比を読みたい",
+            "reason": "Met作品別Overviewによれば、この画は1624年初刊のイエズス会士ヘルマン・フーゴーの寓意集『Pia Desideria』に含まれた、ボエティウス・アダムス・ボルスウェルトの版画をもとにした。道化として表される人間の魂アニマと、神の愛アモル・ディウィナの対決。赤い道化帽、棒馬、風車玩具と猫の籠は欲望と軽率さの徴で、アモルは顔を覆って天を指す。失われた図像連作の一部だった可能性は推定で、ボルスウェルトをこの油彩画の作者としない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "この絵の制作者は不明のクスコ画家。ボルスウェルトの版画に『基づく』作品で、彼を画家本人と混同しない。道化は実在人物ではなく魂の寓意。複数作品からなる連作だったと断定しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによれば、この画は1624年初刊のイエズス会士ヘルマン・フーゴーの寓意集『Pia Desideria』に含まれた、ボエティウス・アダムス・ボルスウェルトの版画をもとにした。道化として表される人間の魂アニマと、神の愛アモル・ディウィナの対決。赤い道化帽、棒馬、風車玩具と猫の籠は欲望と軽率さの徴で、アモルは顔を覆って天を指す。失われた図像連作の一部だった可能性は推定で、ボルスウェルトをこの油彩画の作者としない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/764089"
+        },
+        "creation_context": "18th Century; Peru (Cuzco); Oil on canvas; accession 2018.836.1",
+        "visual_clues": "公式API主画像では、左側に赤い羽飾りの道化帽と華やかな服の人物が棒馬にまたがり、長い棒を上へ掲げる。右側に翼のある人物が立ち、顔の一部を手で覆いながらもう一方の手を上に挙げる。二人の間には樹木、暗い背景と地面がある。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.2521で対応確認。",
+        "uncertainty_note": "この絵の制作者は不明のクスコ画家。ボルスウェルトの版画に『基づく』作品で、彼を画家本人と混同しない。道化は実在人物ではなく魂の寓意。複数作品からなる連作だったと断定しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "不安"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-12",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-384-386-20261112/docs/artwork-research-evidence/met-384-386-2026-11-12.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "鮮やかな赤い帽子をかぶった人物が、おもちゃの馬にまたがり、長い棒を高く掲げています。その向かいでは、翼を持つ人物が顔を覆いながら天へ手を向けています。対照的な身ぶりの間に、何かを戒めるような緊張感が生まれています。\n\n18世紀のペルー・クスコで描かれた《愚かさの寓意》です。人間の魂を擬人化した「アニマ」は、道化の姿で表されています。対する神の愛を表すアモルは、顔を覆い、もう一方の手で天を指しています。画中の帽子、風車の玩具、籠に入れた猫などは、軽率さや世俗的な欲望を示すものと解釈されています。\n\nこの図は、17世紀に広く読まれた宗教的な寓意集『ピア・デシデリア』の版画に基づいています。版画を制作したボルスウェルトは、この油彩画の作者ではありません。足元には祈りに関わる聖書の言葉が書かれています。楽しげにも見える道化の動きと、向かいの人物の厳しい仕草を行き来しながら、二つの意味がぶつかる場面を見てみてください。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/764089"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-12"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-764089",
+    "title": "Emblem of Folly",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/764089",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/764089",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-30708-001.jpg",
+      "sha256": "90f9478e883422bf3a361657a28fac6434e779d6f3189105d2c013943e6766e9",
+      "byte_length": 132423,
+      "last_http_sha_checked_on": "2026-11-12",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-384-386-20261112/docs/artwork-research-evidence/met-384-386-2026-11-12.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-30708-001.jpg",
+        "sha256": "eb068c1f08e8ab6e65352aff0e99ada8cd008442eafe46244e416bfe91371249",
+        "byte_length": 5547940,
+        "width": 3493,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 5.25215",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2018.836.1"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-764089",
+  "checked_on": "2026-11-12",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-764089.json",
+  "candidate_sha256": "fdf2ad7fdadde8e95ac702a07a48ea56583ce7b625cd655176abbe655ccd099a",
+  "draft_path": "drafts/visitor-explanations/met-764089.json",
+  "draft_sha256": "627a48e04a809c17665c4a7dabc45afc4e458134c64bd7771a313dcf65232f1e",
+  "baseline": {
+    "artworks_sha256": "8f83f93c0acc3d36ef2919c6001e690646c161f44c9fc841261d723a1ba9f40e",
+    "image_registry_sha256": "f50f2becf1485844943625d52f922df07224df5f63fca105a7550d6e825df725"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/764089",
+      "source_excerpt": "a confrontation between Anima (the human soul), who appears as a fool",
+      "visitor_claim": "人間の魂を擬人化した「アニマ」は、道化の姿で表されています。",
+      "source_section": "Met artwork Overview: Anima personification"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/764089",
+      "source_excerpt": "Amor covers her face in shame and points heavenward",
+      "visitor_claim": "対する神の愛を表すアモルは、顔を覆い、もう一方の手で天を指しています。",
+      "source_section": "Met artwork Overview: Amor divina gestures"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/764089",
+      "location": "Exact artwork Overview and Object Information: Met artwork Overview: Anima personification; Met artwork Overview: Amor divina gestures",
+      "finding": "Met作品別Overviewによれば、この画は1624年初刊のイエズス会士ヘルマン・フーゴーの寓意集『Pia Desideria』に含まれた、ボエティウス・アダムス・ボルスウェルトの版画をもとにした。道化として表される人間の魂アニマと、神の愛アモル・ディウィナの対決。赤い道化帽、棒馬、風車玩具と猫の籠は欲望と軽率さの徴で、アモルは顔を覆って天を指す。失われた図像連作の一部だった可能性は推定で、ボルスウェルトをこの油彩画の作者としない。 Actual image observation: 公式API主画像では、左側に赤い羽飾りの道化帽と華やかな服の人物が棒馬にまたがり、長い棒を上へ掲げる。右側に翼のある人物が立ち、顔の一部を手で覆いながらもう一方の手を上に挙げる。二人の間には樹木、暗い背景と地面がある。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.2521で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764089",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-384-386-20261112/docs/artwork-research-evidence/met-384-386-2026-11-12.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/764089",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-384-386-20261112/docs/artwork-research-evidence/met-384-386-2026-11-12.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/764089",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-764089 Emblem of Folly; Unknown Cuzco painter, after Boetius Adams Bolswert; 18th Century; accession 2018.836.1. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "公式API主画像では、左側に赤い羽飾りの道化帽と華やかな服の人物が棒馬にまたがり、長い棒を上へ掲げる。右側に翼のある人物が立ち、顔の一部を手で覆いながらもう一方の手を上に挙げる。二人の間には樹木、暗い背景と地面がある。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.2521で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-384-386-20261112/docs/artwork-research-evidence/met-384-386-2026-11-12.json",
+      "historical_interpretation": "Met作品別Overviewによれば、この画は1624年初刊のイエズス会士ヘルマン・フーゴーの寓意集『Pia Desideria』に含まれた、ボエティウス・アダムス・ボルスウェルトの版画をもとにした。道化として表される人間の魂アニマと、神の愛アモル・ディウィナの対決。赤い道化帽、棒馬、風車玩具と猫の籠は欲望と軽率さの徴で、アモルは顔を覆って天を指す。失われた図像連作の一部だった可能性は推定で、ボルスウェルトをこの油彩画の作者としない。 Limits: この絵の制作者は不明のクスコ画家。ボルスウェルトの版画に『基づく』作品で、彼を画家本人と混同しない。道化は実在人物ではなく魂の寓意。複数作品からなる連作だったと断定しない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['不安']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-30708-001.jpg",
+      "sha256": "90f9478e883422bf3a361657a28fac6434e779d6f3189105d2c013943e6766e9",
+      "byte_length": 132423,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "公式API主画像では、左側に赤い羽飾りの道化帽と華やかな服の人物が棒馬にまたがり、長い棒を上へ掲げる。右側に翼のある人物が立ち、顔の一部を手で覆いながらもう一方の手を上に挙げる。二人の間には樹木、暗い背景と地面がある。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.2521で対応確認。 Confirmed image belongs to Met artwork 764089, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-30708-001.jpg",
+      "sha256": "eb068c1f08e8ab6e65352aff0e99ada8cd008442eafe46244e416bfe91371249",
+      "byte_length": 5547940,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "公式API主画像では、左側に赤い羽飾りの道化帽と華やかな服の人物が棒馬にまたがり、長い棒を上へ掲げる。右側に翼のある人物が立ち、顔の一部を手で覆いながらもう一方の手を上に挙げる。二人の間には樹木、暗い背景と地面がある。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.2521で対応確認。 Confirmed image belongs to Met artwork 764089, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #386; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "For met-764089, Met distinguishes the unknown Cuzco painter from Boetius Adams Bolswert, the engraver whose composition was followed."
+  ]
+}
