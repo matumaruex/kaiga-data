@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-749135",
+  "checked_on": "2026-11-12",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-749135.json",
+  "candidate_sha256": "77956ef5666eab83d4ba2f1d3243ea3f2316469f115cc690f1dfa0b24828b9e6",
+  "draft_path": "drafts/visitor-explanations/met-749135.json",
+  "draft_sha256": "fb42a1481849fdb7f22625165e8149f71553f2d069dbfae6a8808405f5c40092",
+  "baseline": {
+    "artworks_sha256": "ab14a07f62622dcf05f41baeb180fb4ee51719c36b596da42fe8081c7cbd433d",
+    "image_registry_sha256": "c8e0715b420f4df26c169864e559688a023f20fce2a08413760be011361016be"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/749135",
+      "source_excerpt": "White Mahakala, a wealth deity invoked widely by Tibetan Buddhists",
+      "visitor_claim": "白マハーカーラは、チベット仏教で豊かさを祈る際に信仰される尊格です。",
+      "source_section": "Met exact artwork Overview: wealth deity"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/749135",
+      "source_excerpt": "three wide glaring and fearsome eyes, and six arms",
+      "visitor_claim": "中心のマハーカーラは、三つの大きく見開いた目と六本の腕を持ちます。",
+      "source_section": "Met exact artwork Overview: three eyes and six arms"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/749135",
+      "location": "Exact artwork Overview and Object Information: Met exact artwork Overview: wealth deity; Met exact artwork Overview: three eyes and six arms",
+      "finding": "メトロポリタン美術館の個別Overviewによると、18世紀頃の木綿地に描かれた白マハーカーラ（シャドブジャ・シータ・マハーカーラ）は、チベット仏教で豊かさを願い祈られる尊格。中心像は三つの大きく見開いた恐ろしい目と六本の腕に武器を持ち、周囲には吉祥・守護を示す諸尊が配置される。上方には五仏が置かれ、中心像を見守る構成と説明。恐ろしげな形相は守護尊の図像であり人間の悪意や歴史的暴力の証拠としない。 Actual image observation: 実際のMet API主表示JPEGサムネイルでは、縦長の画面中央に白い身体と複数の腕をもつ尊格があり、背後に赤い光背のようなもの。上部には五つほどの小さな座像が並び、下部には赤や黄の尊像が囲む。全体に濃い青緑の地と多彩な装飾を確認。個々の持物や手の位置は小画像だけで不確定としている。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.161で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/749135",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/749135",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/749135",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-749135 White Mahakala; Unidentified Tibetan artist; ca. 18th century; accession 2018.107. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "実際のMet API主表示JPEGサムネイルでは、縦長の画面中央に白い身体と複数の腕をもつ尊格があり、背後に赤い光背のようなもの。上部には五つほどの小さな座像が並び、下部には赤や黄の尊像が囲む。全体に濃い青緑の地と多彩な装飾を確認。個々の持物や手の位置は小画像だけで不確定としている。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.161で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json",
+      "historical_interpretation": "メトロポリタン美術館の個別Overviewによると、18世紀頃の木綿地に描かれた白マハーカーラ（シャドブジャ・シータ・マハーカーラ）は、チベット仏教で豊かさを願い祈られる尊格。中心像は三つの大きく見開いた恐ろしい目と六本の腕に武器を持ち、周囲には吉祥・守護を示す諸尊が配置される。上方には五仏が置かれ、中心像を見守る構成と説明。恐ろしげな形相は守護尊の図像であり人間の悪意や歴史的暴力の証拠としない。 Limits: 『財を確実にもたらす』という効果を保証せず、チベット仏教の信仰上の役割として説明する。怒りの形相を悪意と単純視しない。作者の個人名は不明。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['畏敬']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-16218-009.jpg",
+      "sha256": "65132a2db3c3841e26f4e639cf39e46b6e08d4e76b495a00be8040f1b55cb96c",
+      "byte_length": 203569,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "実際のMet API主表示JPEGサムネイルでは、縦長の画面中央に白い身体と複数の腕をもつ尊格があり、背後に赤い光背のようなもの。上部には五つほどの小さな座像が並び、下部には赤や黄の尊像が囲む。全体に濃い青緑の地と多彩な装飾を確認。個々の持物や手の位置は小画像だけで不確定としている。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.161で対応確認。 Confirmed image belongs to Met artwork 749135, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-16218-009.jpg",
+      "sha256": "e330d8f8785ee5f26b06c2251b42764a0b7659eeac9f615233c94c07483c78f4",
+      "byte_length": 5284286,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "実際のMet API主表示JPEGサムネイルでは、縦長の画面中央に白い身体と複数の腕をもつ尊格があり、背後に赤い光背のようなもの。上部には五つほどの小さな座像が並び、下部には赤や黄の尊像が囲む。全体に濃い青緑の地と多彩な装飾を確認。個々の持物や手の位置は小画像だけで不確定としている。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.161で対応確認。 Confirmed image belongs to Met artwork 749135, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #397; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 825592 does not identify intoxicant type; 749135 wrathful deity is a wealth protector; 456968 blank book and unfinished chair are directly described in the exact Met Overview."
+  ]
+}

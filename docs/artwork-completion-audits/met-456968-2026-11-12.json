@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-456968",
+  "checked_on": "2026-11-12",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-456968.json",
+  "candidate_sha256": "90798be53528d735f5c4eb0f9d971250418242f7405002d2902af4c712a72601",
+  "draft_path": "drafts/visitor-explanations/met-456968.json",
+  "draft_sha256": "36a987a14e633adada40ae2c1780c5b6dd14f2fdb9d9ffaf02630d03d26808c3",
+  "baseline": {
+    "artworks_sha256": "df71eb7f11f0f0210596461fcf9327ed60a4980a92e6eb5c397bda6a6359b708",
+    "image_registry_sha256": "80f8a68d381520be2786fbb28336e00533716c318285b30da287daf32a5aabb0"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/456968",
+      "source_excerpt": "as his chair has not yet been painted",
+      "visitor_claim": "この絵は未完成で、椅子がまだ描かれていないため、人物は空中に座るように見えます。",
+      "source_section": "Met exact artwork Overview: unfinished figure appearing suspended"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/456968",
+      "source_excerpt": "depicted with only a blank book in his hand",
+      "visitor_claim": "しかし、この人物は手に文字のない白い本だけを持っています。",
+      "source_section": "Met exact artwork Overview: blank book and absence of typical possessions"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/456968",
+      "location": "Exact artwork Overview and Object Information: Met exact artwork Overview: unfinished figure appearing suspended; Met exact artwork Overview: blank book and absence of typical possessions",
+      "finding": "Met個別Overviewによると、1750〜75年頃のこの未完成の人物画では椅子がまだ描かれていないので、読書するように座る人物は空中に浮くように見える。顔や手の点描的な陰影、衣の折り目は細部への注意を示す。ムガル宮廷肖像では所持品に囲まれた人物を描くことが多いが、ここでは文字のない本だけを手にしている。高期ムガル肖像が最盛期を過ぎても伝統は継続したと所蔵館は解説。画家名や書物の題名は不明。 Actual image observation: Met公式APIから得た実JPEGの縮小画像を見た。無地に近い明るい淡褐色の縦長紙面中央に、白色のターバンと縞の長衣をまとった髭のある男性が斜めに座り、両手で開いた白い本を持つ。椅子がなく足元と服の縁が空白の上に浮くように見える。顔と手の濃淡、小さな靴と細い輪郭線が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=3.7624で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/456968",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/456968",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/456968",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-456968 A Nobleman Reading; Unidentified Mughal painter; ca. 1750–75; accession 2009.319a, b. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式APIから得た実JPEGの縮小画像を見た。無地に近い明るい淡褐色の縦長紙面中央に、白色のターバンと縞の長衣をまとった髭のある男性が斜めに座り、両手で開いた白い本を持つ。椅子がなく足元と服の縁が空白の上に浮くように見える。顔と手の濃淡、小さな靴と細い輪郭線が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=3.7624で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json",
+      "historical_interpretation": "Met個別Overviewによると、1750〜75年頃のこの未完成の人物画では椅子がまだ描かれていないので、読書するように座る人物は空中に浮くように見える。顔や手の点描的な陰影、衣の折り目は細部への注意を示す。ムガル宮廷肖像では所持品に囲まれた人物を描くことが多いが、ここでは文字のない本だけを手にしている。高期ムガル肖像が最盛期を過ぎても伝統は継続したと所蔵館は解説。画家名や書物の題名は不明。 Limits: 『読書』は題名上の呼称であり、白い本に実際の文章が書かれていると決め付けない。椅子の不在は未完成のためとMetが説明。作者を特定せず人物の身元も推測しない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/DP273292.jpg",
+      "sha256": "228b136411987b820cada10a6f21b613bbf81b1ffa99a21930340513046b8451",
+      "byte_length": 54090,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met公式APIから得た実JPEGの縮小画像を見た。無地に近い明るい淡褐色の縦長紙面中央に、白色のターバンと縞の長衣をまとった髭のある男性が斜めに座り、両手で開いた白い本を持つ。椅子がなく足元と服の縁が空白の上に浮くように見える。顔と手の濃淡、小さな靴と細い輪郭線が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=3.7624で対応確認。 Confirmed image belongs to Met artwork 456968, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/DP273292.jpg",
+      "sha256": "b41d3503eedfa1b9f91b6104842e381847deba4d0fe78e5d5fafa4269fa8ee94",
+      "byte_length": 2187540,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met公式APIから得た実JPEGの縮小画像を見た。無地に近い明るい淡褐色の縦長紙面中央に、白色のターバンと縞の長衣をまとった髭のある男性が斜めに座り、両手で開いた白い本を持つ。椅子がなく足元と服の縁が空白の上に浮くように見える。顔と手の濃淡、小さな靴と細い輪郭線が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=3.7624で対応確認。 Confirmed image belongs to Met artwork 456968, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #398; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 825592 does not identify intoxicant type; 749135 wrathful deity is a wealth protector; 456968 blank book and unfinished chair are directly described in the exact Met Overview."
+  ]
+}

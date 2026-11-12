@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-456968",
+  "artwork": {
+    "id": "met-456968",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 456968,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/456968",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/456968",
+      "record_checked_on": "2026-11-12"
+    },
+    "facts": {
+      "title_original": "A Nobleman Reading",
+      "title_ja_provisional": "読書する貴族",
+      "artist": "Unidentified Mughal painter",
+      "creation_date_display": "ca. 1750–75",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "India",
+      "accession_number": "2009.319a, b"
+    },
+    "image": {
+      "image_id": "met-456968-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP273292.jpg",
+      "source_registry_id": "met-456968",
+      "local_path": "/artworks/met-456968.jpg",
+      "sha256": "228b136411987b820cada10a6f21b613bbf81b1ffa99a21930340513046b8451",
+      "byte_length": 54090,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json",
+      "source_accession_number": "2009.319a, b",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP273292.jpg",
+        "sha256": "b41d3503eedfa1b9f91b6104842e381847deba4d0fe78e5d5fafa4269fa8ee94",
+        "byte_length": 2187540,
+        "width": 2418,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 3.76238",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "日常",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/456968",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "18世紀のインド細密画で、椅子が描かれていない未完成の肖像と空白の本を観察したい",
+            "reason": "Met個別Overviewによると、1750〜75年頃のこの未完成の人物画では椅子がまだ描かれていないので、読書するように座る人物は空中に浮くように見える。顔や手の点描的な陰影、衣の折り目は細部への注意を示す。ムガル宮廷肖像では所持品に囲まれた人物を描くことが多いが、ここでは文字のない本だけを手にしている。高期ムガル肖像が最盛期を過ぎても伝統は継続したと所蔵館は解説。画家名や書物の題名は不明。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "『読書』は題名上の呼称であり、白い本に実際の文章が書かれていると決め付けない。椅子の不在は未完成のためとMetが説明。作者を特定せず人物の身元も推測しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met個別Overviewによると、1750〜75年頃のこの未完成の人物画では椅子がまだ描かれていないので、読書するように座る人物は空中に浮くように見える。顔や手の点描的な陰影、衣の折り目は細部への注意を示す。ムガル宮廷肖像では所持品に囲まれた人物を描くことが多いが、ここでは文字のない本だけを手にしている。高期ムガル肖像が最盛期を過ぎても伝統は継続したと所蔵館は解説。画家名や書物の題名は不明。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/456968"
+        },
+        "creation_context": "ca. 1750–75; India; Opaque watercolor on paper; accession 2009.319a, b",
+        "visual_clues": "Met公式APIから得た実JPEGの縮小画像を見た。無地に近い明るい淡褐色の縦長紙面中央に、白色のターバンと縞の長衣をまとった髭のある男性が斜めに座り、両手で開いた白い本を持つ。椅子がなく足元と服の縁が空白の上に浮くように見える。顔と手の濃淡、小さな靴と細い輪郭線が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=3.7624で対応確認。",
+        "uncertainty_note": "『読書』は題名上の呼称であり、白い本に実際の文章が書かれていると決め付けない。椅子の不在は未完成のためとMetが説明。作者を特定せず人物の身元も推測しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-12",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "白い衣をまとった男性が、両手で開いた本を見つめています。ところが、その姿を支えるはずの椅子は見当たりません。この絵は未完成で、椅子がまだ描かれていないため、人物は空中に座るように見えます。淡い背景と細かな衣の線にも注目してみてください。\n\n1750〜75年頃のインドの人物画です。顔や手には細かな点を重ねた陰影があり、服の折り目も丁寧に表されています。一方で、背景や椅子などの周囲の描写は終わっておらず、制作の途中段階を見せる作品となっています。\n\nムガル宮廷の肖像では、人物の貴重な所持品を周りに描くことがよくありました。しかし、この人物は手に文字のない白い本だけを持っています。何を読む人物なのか、名前や本の題名は明らかではありません。描き込まれた部分と空白を見比べると、完成した肖像では見落としがちな制作の手順に目が向きます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/456968"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-12"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-456968",
+    "title": "A Nobleman Reading",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/456968",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/456968",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP273292.jpg",
+      "sha256": "228b136411987b820cada10a6f21b613bbf81b1ffa99a21930340513046b8451",
+      "byte_length": 54090,
+      "last_http_sha_checked_on": "2026-11-12",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP273292.jpg",
+        "sha256": "b41d3503eedfa1b9f91b6104842e381847deba4d0fe78e5d5fafa4269fa8ee94",
+        "byte_length": 2187540,
+        "width": 2418,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 3.76238",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2009.319a, b"
+  }
+}
