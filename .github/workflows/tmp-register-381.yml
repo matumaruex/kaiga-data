@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - ".github/workflows/tmp-register-381.yml"
+      - "scripts/tmp_register_381.py"
 permissions:
   contents: write
 jobs:
