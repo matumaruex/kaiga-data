@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-910556",
+  "artwork": {
+    "id": "met-910556",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 910556,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/910556",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/910556",
+      "record_checked_on": "2026-11-12"
+    },
+    "facts": {
+      "title_original": "Portrait of Mu’izz al-Mulk",
+      "title_ja_provisional": "ムイッズ・アル＝ムルクの肖像",
+      "artist": "Unidentified Mughal court painter",
+      "creation_date_display": "ca. 1610",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "India, Mughal court",
+      "accession_number": "2024.356"
+    },
+    "image": {
+      "image_id": "met-910556-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-36357-001.jpg",
+      "source_registry_id": "met-910556",
+      "local_path": "/artworks/met-910556.jpg",
+      "sha256": "589e666f1fe9dc9769984b1f238c275c7da6d60c4d2018040d1ac2634bd6d26a",
+      "byte_length": 110892,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json",
+      "source_accession_number": "2024.356",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP-36357-001.jpg",
+        "sha256": "9f6e1c76bda0dca7245aadb4fc844d4bf6632bd8cc48fde33bbef6969d516df0",
+        "byte_length": 3291981,
+        "width": 2131,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 7.29132",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "落ち着き"
+      ],
+      "themes": [
+        "時間",
+        "共同体"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/910556",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "ムガル帝国の宮廷人物の絹や毛皮の衣装と画中の銘文を眺めたい",
+            "reason": "Met作品別Overviewは1610年頃の肖像の左に書かれた銘文で人物をムイッズ・アル＝ムルクと同定する。彼はアクバルとジャハーンギール両皇帝に仕えたペルシア出身の官吏で、出納官、軍の管理職などを務めた。毛皮の縁や絹、錦の豪華な衣装は高位の地位を示す。銘文の筆致や配置がジャハーンギール自身による署名入りの他例に似ており、皇帝自身が書いた可能性があるが未確定。画家の名はMetの作者情報にない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "人物はペルシア出身だが作品の制作地はインドとして扱う。皇帝ジャハーンギールが銘文を書いたことは可能性にとどめる。作者の心理や画家名を推測しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewは1610年頃の肖像の左に書かれた銘文で人物をムイッズ・アル＝ムルクと同定する。彼はアクバルとジャハーンギール両皇帝に仕えたペルシア出身の官吏で、出納官、軍の管理職などを務めた。毛皮の縁や絹、錦の豪華な衣装は高位の地位を示す。銘文の筆致や配置がジャハーンギール自身による署名入りの他例に似ており、皇帝自身が書いた可能性があるが未確定。画家の名はMetの作者情報にない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/910556"
+        },
+        "creation_context": "ca. 1610; India, Mughal court; Opaque watercolors with shell gold on paper; accession 2024.356",
+        "visual_clues": "Met API画像に対応した原JPEG・表示JPEGの縮小照合後のサムネイルを実見。濃青緑の無地に近い背景に、縦長の全身像。男性は髭と高い頭飾り、黄土色の豪華な上着、淡緑の衣、腰から垂れる白い帯を着け、片手を前に掲げる。左側の黒い筆文字、周囲の赤みの額縁模様が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.2913で対応確認。",
+        "uncertainty_note": "人物はペルシア出身だが作品の制作地はインドとして扱う。皇帝ジャハーンギールが銘文を書いたことは可能性にとどめる。作者の心理や画家名を推測しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-12",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "濃い青緑の背景の前に、長い上着をまとった男性が立っています。絹の衣には金色の細かな文様があり、毛皮の縁や腰から垂れる布が目を引きます。左側には人物を説明する文字が書き込まれ、肖像と記録が一枚に重ねられています。\n\nこの絵の左側の銘文は、描かれた人物をムイッズ・アル＝ムルクと特定しています。彼はペルシア出身で、ムガル帝国のアクバル帝とジャハーンギール帝に仕え、会計や軍の行政に関わる役職を務めました。身につけた豪華な衣装からも、宮廷での高い地位がうかがえます。\n\n銘文の書き方には、ジャハーンギール帝が自ら書いたことが分かっている他の例と似たところがあります。そのため、この銘文も皇帝自身の筆かもしれませんが、確定してはいません。服の模様と画面の文字を行き来しながら、人物の姿がどのように権威と結びつけられたかを眺めてみてください。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/910556"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-12"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-910556",
+    "title": "Portrait of Mu’izz al-Mulk",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/910556",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/910556",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-36357-001.jpg",
+      "sha256": "589e666f1fe9dc9769984b1f238c275c7da6d60c4d2018040d1ac2634bd6d26a",
+      "byte_length": 110892,
+      "last_http_sha_checked_on": "2026-11-12",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP-36357-001.jpg",
+        "sha256": "9f6e1c76bda0dca7245aadb4fc844d4bf6632bd8cc48fde33bbef6969d516df0",
+        "byte_length": 3291981,
+        "width": 2131,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 7.29132",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2024.356"
+  }
+}

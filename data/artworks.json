@@ -47922,6 +47922,366 @@
         "audit_sha256": "221a363967845d7e699e45e24405c4611216b313371dd70fd22f2ba398b93001",
         "record_sha256": "0a15dbfecb0e99921802d8bc1259e5af65c5a5a1953108d5ee7f756aa3203149"
       }
+    },
+    {
+      "id": "met-910557",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 910557,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/910557",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/910557",
+        "record_checked_on": "2026-11-12"
+      },
+      "facts": {
+        "title_original": "An Elevation of the North Side of the Marble Screen Surrounding the Cenotaphs in the Taj Mahal",
+        "title_ja_provisional": "タージ・マハルの記念墓を囲む大理石の透かし屏風の北面図",
+        "artist": "Unidentified artist",
+        "creation_date_display": "ca. 1810–1820",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India, Agra",
+        "accession_number": "2024.210"
+      },
+      "image": {
+        "image_id": "met-910557-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/LC-2024_210.jpg",
+        "source_registry_id": "met-910557",
+        "local_path": "/artworks/met-910557.jpg",
+        "sha256": "40f69a91579296983a7ce2e92fbc02f3462d59059cfa9de4edf3a6868727500e",
+        "byte_length": 149532,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json",
+        "source_accession_number": "2024.210",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/LC-2024_210.jpg",
+          "sha256": "73ff986ae66a9df39bb907b12f6542ec207ff475d20c2bebfceaaef16dc01d28",
+          "byte_length": 4536615,
+          "width": 4000,
+          "height": 2997,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 18.83132",
+          "last_full_sha_checked_on": "2026-11-12",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "記憶",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/910557",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "タージ・マハルの霊廟内部にある大理石の透かし彫りと幾何学・花文様の細部をじっくり見たい",
+              "reason": "Metの作品別Overviewは1810〜1820年頃のこの水彩を、タージ・マハルのムムターズ・マハルと皇帝シャー・ジャハーンのセノタフ（記念墓碑）を囲む精緻なジャーリー（透かし彫り格子）の北面を描いた立面図と説明する。白大理石の格子にはピエトラ・ドゥーラの象嵌によるアラベスクと花の装飾が施されている。こうした建築調査図は、英領インド期の設計・建築・記録文化におけるこの霊廟の影響を伝える。水彩画の作者は公式ページに表示されず、建築設計者本人の作画としない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "墓碑を実際の埋葬空間と混同しない。画家の身元は不明。建築構造物ではなく1810〜20年頃の絵画作品であり、写真や当時の設計図原本と断定しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metの作品別Overviewは1810〜1820年頃のこの水彩を、タージ・マハルのムムターズ・マハルと皇帝シャー・ジャハーンのセノタフ（記念墓碑）を囲む精緻なジャーリー（透かし彫り格子）の北面を描いた立面図と説明する。白大理石の格子にはピエトラ・ドゥーラの象嵌によるアラベスクと花の装飾が施されている。こうした建築調査図は、英領インド期の設計・建築・記録文化におけるこの霊廟の影響を伝える。水彩画の作者は公式ページに表示されず、建築設計者本人の作画としない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/910557"
+          },
+          "creation_context": "ca. 1810–1820; India, Agra; Watercolor and body color on paper; accession 2024.210",
+          "visual_clues": "Met公式object APIの主JPEGを実見。横長の水彩による建築立面図で、濃い背景の前に白い透かし彫りの大理石の屏風が横長に広がる。中央の区画が左右の区画より高く、細い黒い格子穴と花の模様、両端と中央の尖った先端が見える。実際の大理石そのものの写真ではなく紙に描かれた立面図。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=18.8313で対応確認。",
+          "uncertainty_note": "墓碑を実際の埋葬空間と混同しない。画家の身元は不明。建築構造物ではなく1810〜20年頃の絵画作品であり、写真や当時の設計図原本と断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-12",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "深い黒の背景から、白い大理石の格子が浮かび上がっています。中央は高く、左右には低い区画が並び、細かく抜かれた模様と花の装飾が幾重にも重なっています。近くで見ると装飾の密度が際立ち、少し離れると左右対称の建築全体が見えてきます。\n\n1810〜1820年頃に描かれたこの水彩画は、インドのタージ・マハル霊廟にある大理石の透かし屏風の北面を表しています。この屏風は、ムムターズ・マハルと皇帝シャー・ジャハーンの記念墓碑を囲むものです。白大理石の格子には、色石をはめ込むピエトラ・ドゥーラの技法で植物や曲線の文様も施されています。\n\nこれは建築そのものの写真ではなく、形と装飾を丁寧に写し取った絵です。美術館は、このような建築の記録画を、タージ・マハルが当時のデザインや建築研究に及ぼした影響を示す例としています。格子の開いた部分と石の残る部分を交互に追うと、透かし彫りの繊細さが分かります。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/910557"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-12"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-910557-2026-11-12.json",
+        "audit_sha256": "195a6fb14da6f77a0ba167e646d5fc6d288527b3f2629045fae103c688dd4c7f",
+        "record_sha256": "c2cc1f7ef8738977c28256bceab0ddd985c4ee57176e4787bf7c07a3b481cc7d"
+      }
+    },
+    {
+      "id": "met-910556",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 910556,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/910556",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/910556",
+        "record_checked_on": "2026-11-12"
+      },
+      "facts": {
+        "title_original": "Portrait of Mu’izz al-Mulk",
+        "title_ja_provisional": "ムイッズ・アル＝ムルクの肖像",
+        "artist": "Unidentified Mughal court painter",
+        "creation_date_display": "ca. 1610",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India, Mughal court",
+        "accession_number": "2024.356"
+      },
+      "image": {
+        "image_id": "met-910556-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-36357-001.jpg",
+        "source_registry_id": "met-910556",
+        "local_path": "/artworks/met-910556.jpg",
+        "sha256": "589e666f1fe9dc9769984b1f238c275c7da6d60c4d2018040d1ac2634bd6d26a",
+        "byte_length": 110892,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json",
+        "source_accession_number": "2024.356",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP-36357-001.jpg",
+          "sha256": "9f6e1c76bda0dca7245aadb4fc844d4bf6632bd8cc48fde33bbef6969d516df0",
+          "byte_length": 3291981,
+          "width": 2131,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 7.29132",
+          "last_full_sha_checked_on": "2026-11-12",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "時間",
+          "共同体"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/910556",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "ムガル帝国の宮廷人物の絹や毛皮の衣装と画中の銘文を眺めたい",
+              "reason": "Met作品別Overviewは1610年頃の肖像の左に書かれた銘文で人物をムイッズ・アル＝ムルクと同定する。彼はアクバルとジャハーンギール両皇帝に仕えたペルシア出身の官吏で、出納官、軍の管理職などを務めた。毛皮の縁や絹、錦の豪華な衣装は高位の地位を示す。銘文の筆致や配置がジャハーンギール自身による署名入りの他例に似ており、皇帝自身が書いた可能性があるが未確定。画家の名はMetの作者情報にない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "人物はペルシア出身だが作品の制作地はインドとして扱う。皇帝ジャハーンギールが銘文を書いたことは可能性にとどめる。作者の心理や画家名を推測しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewは1610年頃の肖像の左に書かれた銘文で人物をムイッズ・アル＝ムルクと同定する。彼はアクバルとジャハーンギール両皇帝に仕えたペルシア出身の官吏で、出納官、軍の管理職などを務めた。毛皮の縁や絹、錦の豪華な衣装は高位の地位を示す。銘文の筆致や配置がジャハーンギール自身による署名入りの他例に似ており、皇帝自身が書いた可能性があるが未確定。画家の名はMetの作者情報にない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/910556"
+          },
+          "creation_context": "ca. 1610; India, Mughal court; Opaque watercolors with shell gold on paper; accession 2024.356",
+          "visual_clues": "Met API画像に対応した原JPEG・表示JPEGの縮小照合後のサムネイルを実見。濃青緑の無地に近い背景に、縦長の全身像。男性は髭と高い頭飾り、黄土色の豪華な上着、淡緑の衣、腰から垂れる白い帯を着け、片手を前に掲げる。左側の黒い筆文字、周囲の赤みの額縁模様が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.2913で対応確認。",
+          "uncertainty_note": "人物はペルシア出身だが作品の制作地はインドとして扱う。皇帝ジャハーンギールが銘文を書いたことは可能性にとどめる。作者の心理や画家名を推測しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-12",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "濃い青緑の背景の前に、長い上着をまとった男性が立っています。絹の衣には金色の細かな文様があり、毛皮の縁や腰から垂れる布が目を引きます。左側には人物を説明する文字が書き込まれ、肖像と記録が一枚に重ねられています。\n\nこの絵の左側の銘文は、描かれた人物をムイッズ・アル＝ムルクと特定しています。彼はペルシア出身で、ムガル帝国のアクバル帝とジャハーンギール帝に仕え、会計や軍の行政に関わる役職を務めました。身につけた豪華な衣装からも、宮廷での高い地位がうかがえます。\n\n銘文の書き方には、ジャハーンギール帝が自ら書いたことが分かっている他の例と似たところがあります。そのため、この銘文も皇帝自身の筆かもしれませんが、確定してはいません。服の模様と画面の文字を行き来しながら、人物の姿がどのように権威と結びつけられたかを眺めてみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/910556"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-12"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-910556-2026-11-12.json",
+        "audit_sha256": "6a32f58769947dea62badb037e2e68a738ee0e34c6c847254e01ab86ec038df1",
+        "record_sha256": "31d2513df589ef00d52246e19488e9ce03cf081347dbdfc5ceee68ec1bbdf5ca"
+      }
+    },
+    {
+      "id": "met-764093",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 764093,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/764093",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764093",
+        "record_checked_on": "2026-11-12"
+      },
+      "facts": {
+        "title_original": "Saint Barbara",
+        "title_ja_provisional": "聖バルバラ",
+        "artist": "Unknown Quito artist",
+        "creation_date_display": "last quarter 18th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Ecuador (Quito)",
+        "accession_number": "2018.836.2"
+      },
+      "image": {
+        "image_id": "met-764093-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18755-011.jpg",
+        "source_registry_id": "met-764093",
+        "local_path": "/artworks/met-764093.jpg",
+        "sha256": "edd82469427c5b4e19700912b5db701207d3e775e0ac31500505858dc874c030",
+        "byte_length": 155218,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json",
+        "source_accession_number": "2018.836.2",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18755-011.jpg",
+          "sha256": "c47304876c442a68172fff8aa91da6c22ec723d0f9d23cb9eaf316bdf861e44a",
+          "byte_length": 5334650,
+          "width": 3406,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 5.51011",
+          "last_full_sha_checked_on": "2026-11-12",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 1
+        },
+        "tones": [
+          "緊張"
+        ],
+        "themes": [
+          "時間",
+          "共同体"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/764093",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "18世紀末のエクアドル・キトの宗教画に、雲上の聖人と下部に並ぶ殉教伝承の場面を見たい",
+              "reason": "Met作品別Overviewでは、殉教者聖バルバラが雲に乗り天へ向かう姿で描かれる。右手の棕櫚枝は殉教の象徴、左手には聖杯と聖餅。下景の左にある場面は彼女の殉教と剣を振るう処刑人への落雷の伝承で、背後の塔の三つの窓は三位一体を示す。右側は臨終の聖人が最後の秘跡を受ける場面で、学芸員は聖スタニスラウス・コストカの死の場面だろうと推定する。画面中央の囲まれた庭で子羊と聖杯の寓意が示される。物語は伝承・信仰上の解釈であり史実の確証ではない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "聖バルバラにまつわる処刑・落雷・塔の物語は宗教的伝承として書く。右下の人物を確実に聖スタニスラウスと断定しない。棕櫚枝は殉教の象徴という美術館の説明とする。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewでは、殉教者聖バルバラが雲に乗り天へ向かう姿で描かれる。右手の棕櫚枝は殉教の象徴、左手には聖杯と聖餅。下景の左にある場面は彼女の殉教と剣を振るう処刑人への落雷の伝承で、背後の塔の三つの窓は三位一体を示す。右側は臨終の聖人が最後の秘跡を受ける場面で、学芸員は聖スタニスラウス・コストカの死の場面だろうと推定する。画面中央の囲まれた庭で子羊と聖杯の寓意が示される。物語は伝承・信仰上の解釈であり史実の確証ではない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/764093"
+          },
+          "creation_context": "last quarter 18th century; Ecuador (Quito); Oil on canvas; accession 2018.836.2",
+          "visual_clues": "Met API主画像の実見。縦長の油彩画で黄色い布をまとった女性の聖人が画面上半に大きく座り、右手に細長い枝のようなもの、左手に杯が見える。雲のまわりに小さな翼ある人物、左下に塔と小さな人々、中央下に囲われた庭や建築物、右下には別の人物場面が並ぶ。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.5101で対応確認。",
+          "uncertainty_note": "聖バルバラにまつわる処刑・落雷・塔の物語は宗教的伝承として書く。右下の人物を確実に聖スタニスラウスと断定しない。棕櫚枝は殉教の象徴という美術館の説明とする。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "畏敬"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-12",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "画面の上半分で、黄色い布をまとった聖バルバラが雲に乗り、天を見上げています。その周りには小さな天使たちが集まり、下方の風景には塔や人々、別々の場面が細かく描き込まれています。ひとりの聖人の姿と、伝承の物語が同時に見える構成です。\n\n聖バルバラは右手に、殉教を表す棕櫚の枝を持っています。左手には聖杯と聖餅があり、信仰の象徴が身ぶりの中に組み込まれています。彼女は塔に閉じ込められたという伝承で知られ、塔にある三つの窓はキリスト教の三位一体を表しています。\n\nこの作品は18世紀末のエクアドル・キトで制作された作者不明の宗教画です。下の小さな場面には聖バルバラの殉教の伝承などが表され、中央では子羊と杯を用いた信仰の寓意も描かれています。これらは伝承と象徴を可視化したもので、出来事を写真のように記録したものではありません。雲上の姿から下の細部へと視線を移し、ひとつの絵に重ねられた意味を探してみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/764093"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-12"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-764093-2026-11-12.json",
+        "audit_sha256": "8755ba2210b755adfef5a97f164e1e28c9798b967c37b6ee4e0552b335b779ea",
+        "record_sha256": "7e4d0d4b373c0c29e0b4b9875a4ac23901113ed9fe52cca13662cf067b713d4e"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

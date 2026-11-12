@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-910557",
+  "artwork": {
+    "id": "met-910557",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 910557,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/910557",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/910557",
+      "record_checked_on": "2026-11-12"
+    },
+    "facts": {
+      "title_original": "An Elevation of the North Side of the Marble Screen Surrounding the Cenotaphs in the Taj Mahal",
+      "title_ja_provisional": "タージ・マハルの記念墓を囲む大理石の透かし屏風の北面図",
+      "artist": "Unidentified artist",
+      "creation_date_display": "ca. 1810–1820",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "India, Agra",
+      "accession_number": "2024.210"
+    },
+    "image": {
+      "image_id": "met-910557-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/LC-2024_210.jpg",
+      "source_registry_id": "met-910557",
+      "local_path": "/artworks/met-910557.jpg",
+      "sha256": "40f69a91579296983a7ce2e92fbc02f3462d59059cfa9de4edf3a6868727500e",
+      "byte_length": 149532,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json",
+      "source_accession_number": "2024.210",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/LC-2024_210.jpg",
+        "sha256": "73ff986ae66a9df39bb907b12f6542ec207ff475d20c2bebfceaaef16dc01d28",
+        "byte_length": 4536615,
+        "width": 4000,
+        "height": 2997,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 18.83132",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "記憶",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/910557",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "タージ・マハルの霊廟内部にある大理石の透かし彫りと幾何学・花文様の細部をじっくり見たい",
+            "reason": "Metの作品別Overviewは1810〜1820年頃のこの水彩を、タージ・マハルのムムターズ・マハルと皇帝シャー・ジャハーンのセノタフ（記念墓碑）を囲む精緻なジャーリー（透かし彫り格子）の北面を描いた立面図と説明する。白大理石の格子にはピエトラ・ドゥーラの象嵌によるアラベスクと花の装飾が施されている。こうした建築調査図は、英領インド期の設計・建築・記録文化におけるこの霊廟の影響を伝える。水彩画の作者は公式ページに表示されず、建築設計者本人の作画としない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "墓碑を実際の埋葬空間と混同しない。画家の身元は不明。建築構造物ではなく1810〜20年頃の絵画作品であり、写真や当時の設計図原本と断定しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metの作品別Overviewは1810〜1820年頃のこの水彩を、タージ・マハルのムムターズ・マハルと皇帝シャー・ジャハーンのセノタフ（記念墓碑）を囲む精緻なジャーリー（透かし彫り格子）の北面を描いた立面図と説明する。白大理石の格子にはピエトラ・ドゥーラの象嵌によるアラベスクと花の装飾が施されている。こうした建築調査図は、英領インド期の設計・建築・記録文化におけるこの霊廟の影響を伝える。水彩画の作者は公式ページに表示されず、建築設計者本人の作画としない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/910557"
+        },
+        "creation_context": "ca. 1810–1820; India, Agra; Watercolor and body color on paper; accession 2024.210",
+        "visual_clues": "Met公式object APIの主JPEGを実見。横長の水彩による建築立面図で、濃い背景の前に白い透かし彫りの大理石の屏風が横長に広がる。中央の区画が左右の区画より高く、細い黒い格子穴と花の模様、両端と中央の尖った先端が見える。実際の大理石そのものの写真ではなく紙に描かれた立面図。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=18.8313で対応確認。",
+        "uncertainty_note": "墓碑を実際の埋葬空間と混同しない。画家の身元は不明。建築構造物ではなく1810〜20年頃の絵画作品であり、写真や当時の設計図原本と断定しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-12",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "深い黒の背景から、白い大理石の格子が浮かび上がっています。中央は高く、左右には低い区画が並び、細かく抜かれた模様と花の装飾が幾重にも重なっています。近くで見ると装飾の密度が際立ち、少し離れると左右対称の建築全体が見えてきます。\n\n1810〜1820年頃に描かれたこの水彩画は、インドのタージ・マハル霊廟にある大理石の透かし屏風の北面を表しています。この屏風は、ムムターズ・マハルと皇帝シャー・ジャハーンの記念墓碑を囲むものです。白大理石の格子には、色石をはめ込むピエトラ・ドゥーラの技法で植物や曲線の文様も施されています。\n\nこれは建築そのものの写真ではなく、形と装飾を丁寧に写し取った絵です。美術館は、このような建築の記録画を、タージ・マハルが当時のデザインや建築研究に及ぼした影響を示す例としています。格子の開いた部分と石の残る部分を交互に追うと、透かし彫りの繊細さが分かります。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/910557"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-12"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-910557",
+    "title": "An Elevation of the North Side of the Marble Screen Surrounding the Cenotaphs in the Taj Mahal",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/910557",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/910557",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/is/web-large/LC-2024_210.jpg",
+      "sha256": "40f69a91579296983a7ce2e92fbc02f3462d59059cfa9de4edf3a6868727500e",
+      "byte_length": 149532,
+      "last_http_sha_checked_on": "2026-11-12",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/LC-2024_210.jpg",
+        "sha256": "73ff986ae66a9df39bb907b12f6542ec207ff475d20c2bebfceaaef16dc01d28",
+        "byte_length": 4536615,
+        "width": 4000,
+        "height": 2997,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 18.83132",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2024.210"
+  }
+}
