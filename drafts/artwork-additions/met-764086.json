@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-764086",
+  "artwork": {
+    "id": "met-764086",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 764086,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/764086",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764086",
+      "record_checked_on": "2026-11-12"
+    },
+    "facts": {
+      "title_original": "Saint Bonaventure and Saint Anthony of Padua",
+      "title_ja_provisional": "聖ボナヴェントゥラとパドヴァの聖アントニウス",
+      "artist": "Follower of Basilio Santa Cruz Pumacallao",
+      "creation_date_display": "ca. 1670–90",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Peru (Cuzco)",
+      "accession_number": "2018.652.1"
+    },
+    "image": {
+      "image_id": "met-764086-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18755-001.jpg",
+      "source_registry_id": "met-764086",
+      "local_path": "/artworks/met-764086.jpg",
+      "sha256": "e17231adb8bc8c41e1fad39fc3ea850008be2ace4cfd2dc2e9fd3d8635c4d567",
+      "byte_length": 134901,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-381-383-20261112/docs/artwork-research-evidence/met-381-383-2026-11-12.json",
+      "source_accession_number": "2018.652.1",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18755-001.jpg",
+        "sha256": "4be54db57fcbc055f7adbd2c4688611d1284f8041160fdc9ab136af3d8b45430",
+        "byte_length": 6469649,
+        "width": 4000,
+        "height": 3799,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 5.02364",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "畏敬": 1
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "共同体",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/764086",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "17世紀クスコ派の宗教絵画で、翼を持つ二人の聖人と楽器の細部を見たい",
+            "reason": "Met作品別Overviewでは翼を持つフランシスコ会の二人、左の聖ボナヴェントゥラは赤い頭巾、右の聖アントニウスは百合が目印となる。両者はビウエラ系の楽器を弾く。大きな無原罪の聖母と異端の敗北の寓意画の断片で、作者はバシリオ本人と断定されず『Follower of』と帰属される。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "作者をバシリオ本人と断定しない。現存画面は大きな寓意画の一部であり元の全体画面と混同しない。楽器の具体的形状は公式の名称に従う。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewでは翼を持つフランシスコ会の二人、左の聖ボナヴェントゥラは赤い頭巾、右の聖アントニウスは百合が目印となる。両者はビウエラ系の楽器を弾く。大きな無原罪の聖母と異端の敗北の寓意画の断片で、作者はバシリオ本人と断定されず『Follower of』と帰属される。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/764086"
+        },
+        "creation_context": "ca. 1670–90; Peru (Cuzco); Oil on canvas; accession 2018.652.1",
+        "visual_clues": "暗い四角い画面に翼を持つ二人の半身像。左の赤い頭巾と小さな弦楽器、右の褐色の衣と大きな弦楽器、両者の上部の羽根と端の暗い地を実画像で確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.0236で対応確認。",
+        "uncertainty_note": "作者をバシリオ本人と断定しない。現存画面は大きな寓意画の一部であり元の全体画面と混同しない。楽器の具体的形状は公式の名称に従う。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "畏敬"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-12",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-381-383-20261112/docs/artwork-research-evidence/met-381-383-2026-11-12.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "暗い地の上に、翼を持つ二人の修道士が楽器を手に並んでいます。左の人物は赤い頭巾と小さな弦楽器を、右の人物は弓で奏でる楽器を持っています。衣の色と楽器の形の違いを見比べると、二人の役割が少しずつ読み取れます。\n\n描かれているのは聖ボナヴェントゥラとパドヴァの聖アントニウスです。美術館の解説は、二人が翼を持つフランシスコ会の聖人として表されていると説明しています。赤い頭巾と百合の枝は、それぞれの聖人を見分ける手掛かりです。\n\nこの絵は、聖母マリアとフランシスコ会の聖人たちを主題にした大きな寓意画の一部分と考えられています。17世紀後半のペルー・クスコで、バシリオ・サンタ・クルス・プマカリャオの周辺に連なる画家が制作したとされます。小さく残された画面の外側に、かつて続いていた物語を想像してみてください。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/764086"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-12"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-764086",
+    "title": "Saint Bonaventure and Saint Anthony of Padua",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/764086",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/764086",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18755-001.jpg",
+      "sha256": "e17231adb8bc8c41e1fad39fc3ea850008be2ace4cfd2dc2e9fd3d8635c4d567",
+      "byte_length": 134901,
+      "last_http_sha_checked_on": "2026-11-12",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-381-383-20261112/docs/artwork-research-evidence/met-381-383-2026-11-12.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18755-001.jpg",
+        "sha256": "4be54db57fcbc055f7adbd2c4688611d1284f8041160fdc9ab136af3d8b45430",
+        "byte_length": 6469649,
+        "width": 4000,
+        "height": 3799,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 5.02364",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2018.652.1"
+  }
+}

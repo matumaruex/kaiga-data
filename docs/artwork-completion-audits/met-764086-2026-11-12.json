@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-764086",
+  "checked_on": "2026-11-12",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-764086.json",
+  "candidate_sha256": "d3660d4973b15076ea8f9df8ad0453751e3281504706d198a6d2f096759fef8b",
+  "draft_path": "drafts/visitor-explanations/met-764086.json",
+  "draft_sha256": "e2f59e9d967749441630c35ca1ced194a16f72711893d64493483f455bb7da2b",
+  "baseline": {
+    "artworks_sha256": "e6abd99226f2dd98cb4e7473593360b2c18aa15b9bd547934c072e5e0d2e73de",
+    "image_registry_sha256": "66d0746ebc1cf1ce7d9b55280765d7dc6526f30be04a3d3849e9259fa6d2b7c2"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/764086",
+      "source_excerpt": "This painting depicts two winged Franciscans",
+      "visitor_claim": "二人が翼を持つフランシスコ会の聖人として表されていると説明しています。",
+      "source_section": "Overview: winged Franciscan saints"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/764086",
+      "source_excerpt": "The painting is a fragment from a large and complex allegorical composition",
+      "visitor_claim": "この絵は、聖母マリアとフランシスコ会の聖人たちを主題にした大きな寓意画の一部分と考えられています。",
+      "source_section": "Overview: surviving fragment of allegory"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/764086",
+      "location": "Exact artwork Overview and Object Information: Overview: winged Franciscan saints; Overview: surviving fragment of allegory",
+      "finding": "Met作品別Overviewでは翼を持つフランシスコ会の二人、左の聖ボナヴェントゥラは赤い頭巾、右の聖アントニウスは百合が目印となる。両者はビウエラ系の楽器を弾く。大きな無原罪の聖母と異端の敗北の寓意画の断片で、作者はバシリオ本人と断定されず『Follower of』と帰属される。 Actual image observation: 暗い四角い画面に翼を持つ二人の半身像。左の赤い頭巾と小さな弦楽器、右の褐色の衣と大きな弦楽器、両者の上部の羽根と端の暗い地を実画像で確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.0236で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764086",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-381-383-20261112/docs/artwork-research-evidence/met-381-383-2026-11-12.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/764086",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-381-383-20261112/docs/artwork-research-evidence/met-381-383-2026-11-12.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/764086",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-764086 Saint Bonaventure and Saint Anthony of Padua; Follower of Basilio Santa Cruz Pumacallao; ca. 1670–90; accession 2018.652.1. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "暗い四角い画面に翼を持つ二人の半身像。左の赤い頭巾と小さな弦楽器、右の褐色の衣と大きな弦楽器、両者の上部の羽根と端の暗い地を実画像で確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.0236で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-381-383-20261112/docs/artwork-research-evidence/met-381-383-2026-11-12.json",
+      "historical_interpretation": "Met作品別Overviewでは翼を持つフランシスコ会の二人、左の聖ボナヴェントゥラは赤い頭巾、右の聖アントニウスは百合が目印となる。両者はビウエラ系の楽器を弾く。大きな無原罪の聖母と異端の敗北の寓意画の断片で、作者はバシリオ本人と断定されず『Follower of』と帰属される。 Limits: 作者をバシリオ本人と断定しない。現存画面は大きな寓意画の一部であり元の全体画面と混同しない。楽器の具体的形状は公式の名称に従う。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['畏敬']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18755-001.jpg",
+      "sha256": "e17231adb8bc8c41e1fad39fc3ea850008be2ace4cfd2dc2e9fd3d8635c4d567",
+      "byte_length": 134901,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "暗い四角い画面に翼を持つ二人の半身像。左の赤い頭巾と小さな弦楽器、右の褐色の衣と大きな弦楽器、両者の上部の羽根と端の暗い地を実画像で確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.0236で対応確認。 Confirmed image belongs to Met artwork 764086, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18755-001.jpg",
+      "sha256": "4be54db57fcbc055f7adbd2c4688611d1284f8041160fdc9ab136af3d8b45430",
+      "byte_length": 6469649,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "暗い四角い画面に翼を持つ二人の半身像。左の赤い頭巾と小さな弦楽器、右の褐色の衣と大きな弦楽器、両者の上部の羽根と端の暗い地を実画像で確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.0236で対応確認。 Confirmed image belongs to Met artwork 764086, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #383; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "For met-764086, Met webpage states Follower of Basilio Santa Cruz Pumacallao, although API artistDisplayName omits the attribution prefix."
+  ]
+}

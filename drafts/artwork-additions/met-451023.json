@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-451023",
+  "artwork": {
+    "id": "met-451023",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 451023,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/451023",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/451023",
+      "record_checked_on": "2026-11-12"
+    },
+    "facts": {
+      "title_original": "The Lovers",
+      "title_ja_provisional": "恋人たち",
+      "artist": "Riza-yi 'Abbasi",
+      "creation_date_display": "dated 1039 AH/1630 CE",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Iran (Isfahan)",
+      "accession_number": "50.164"
+    },
+    "image": {
+      "image_id": "met-451023-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP240654.jpg",
+      "source_registry_id": "met-451023",
+      "local_path": "/artworks/met-451023.jpg",
+      "sha256": "ca4e61bdd1b8b43b285f98693cbaaf475b4befa1def6a4f9fd950b400231d423",
+      "byte_length": 121178,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-381-383-20261112/docs/artwork-research-evidence/met-381-383-2026-11-12.json",
+      "source_accession_number": "50.164",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP240654.jpg",
+        "sha256": "08465473f31802907e376402bc0c2b67694b11c31aff82c1d8b01eb490bc8708",
+        "byte_length": 2809795,
+        "width": 2386,
+        "height": 3546,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 11.98249",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "慈しみ"
+      ],
+      "emotion_strengths": {
+        "慈しみ": 2
+      },
+      "tones": [
+        "落ち着き"
+      ],
+      "themes": [
+        "愛情",
+        "他者との距離"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/451023",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "サファヴィー朝の絵画に描かれた、二人の親密さと人物を結ぶ線の表現を見たい",
+            "reason": "メトロポリタン美術館の作品別Overviewは、リザーイー・アッバースィーの流麗な描線と独特な色彩、1630年のサファヴィー朝宮廷での官能的題材の扱いを説明する。寄り添う二人が一つの輪郭に収まる構図は美術館の指摘。人物の身元や作者の体験は資料にない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "二人の実在の身元や画家の私生活を断定しない。宮廷文化の解釈は所蔵館の記述として扱う。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "メトロポリタン美術館の作品別Overviewは、リザーイー・アッバースィーの流麗な描線と独特な色彩、1630年のサファヴィー朝宮廷での官能的題材の扱いを説明する。寄り添う二人が一つの輪郭に収まる構図は美術館の指摘。人物の身元や作者の体験は資料にない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/451023"
+        },
+        "creation_context": "dated 1039 AH/1630 CE; Iran (Isfahan); Opaque watercolor, ink, and gold on paper; accession 50.164",
+        "visual_clues": "縦長の紙面で、頭を寄せる二人が互いに腕を回し、青い帽子、緑と茶の衣服、金色の細い植物文様、左下の文字と器が見える。画像端の模様のある縁も確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=11.9825で対応確認。",
+        "uncertainty_note": "二人の実在の身元や画家の私生活を断定しない。宮廷文化の解釈は所蔵館の記述として扱う。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "慈しみ"
+        ],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-12",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-381-383-20261112/docs/artwork-research-evidence/met-381-383-2026-11-12.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "寄り添う二人の姿が、ひと続きの柔らかな輪郭線の中に収められています。頭を傾ける仕草や重なる袖に目を向けると、人物同士の距離がごく近く感じられます。金色の雲や草花は、親密な場面の周囲に静かな装飾を添えています。\n\n《恋人たち》は、17世紀イランの画家リザーイー・アッバースィーが1630年に描いた作品です。メトロポリタン美術館は、書のように流れる線と独特な色彩をこの画家の特徴として説明しています。二人の身体はひとつの輪郭の中で重なり、どこからが一方の形なのか曖昧になるほど密着しています。\n\n美術館はこの抱擁を、当時のサファヴィー朝宮廷で官能的な主題への態度が変わっていた時期と結びつけています。ただし、モデルとなった二人の身元や画家自身の恋愛体験を示すものではありません。指先と衣の境目をたどりながら、線が二人を結ぶ働きを見てみてください。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/451023"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-12"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-451023",
+    "title": "The Lovers",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/451023",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/451023",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP240654.jpg",
+      "sha256": "ca4e61bdd1b8b43b285f98693cbaaf475b4befa1def6a4f9fd950b400231d423",
+      "byte_length": 121178,
+      "last_http_sha_checked_on": "2026-11-12",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-381-383-20261112/docs/artwork-research-evidence/met-381-383-2026-11-12.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP240654.jpg",
+        "sha256": "08465473f31802907e376402bc0c2b67694b11c31aff82c1d8b01eb490bc8708",
+        "byte_length": 2809795,
+        "width": 2386,
+        "height": 3546,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 11.98249",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "50.164"
+  }
+}
