@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-910555",
+  "checked_on": "2026-11-12",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-910555.json",
+  "candidate_sha256": "2bb648229dc081310d093a37e302854fe1ddacc1dd324da9640d0ddf3024e428",
+  "draft_path": "drafts/visitor-explanations/met-910555.json",
+  "draft_sha256": "8a7f1edc16d95702a5695d66b329918a66d751939f62f3a2ebc6c926ad36da23",
+  "baseline": {
+    "artworks_sha256": "59f01ad5a09f4a6591d25b294e739b152d6016e9a3fd862361c9fd0fc6be1b03",
+    "image_registry_sha256": "27c96e1cbd0ccf060a6950d69f36cca1ffc912ac49a57d50f24673fe149dcd9d"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/910555",
+      "source_excerpt": "This pair of screens portraying the Thirty-Six Poetic Immortals",
+      "visitor_claim": "作品は六曲屏風の一双、つまり二つの屏風を組み合わせたものです。",
+      "source_section": "Met exact Overview: pair of screens for the Thirty-Six Poetic Immortals"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/910555",
+      "source_excerpt": "Two were famous monks, five were court ladies",
+      "visitor_claim": "三十六歌仙には僧侶二人、宮廷の女性五人なども含まれ、古くからの和歌文化を人物像とともに伝えています。",
+      "source_section": "Met exact Overview: composition of thirty-six poets"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/910555",
+      "location": "Exact artwork Overview and Object Information: Met exact Overview: pair of screens for the Thirty-Six Poetic Immortals; Met exact Overview: composition of thirty-six poets",
+      "finding": "Met個別Overviewによれば、狩野孝信の工房が絵を描き、近衛信尹が和歌を書いた17世紀初頭の六曲一双屏風。藤原公任が選んだ三十六歌仙は、僧侶二人、女性五人、その他宮廷の男性を含む。大画面の折り畳み屏風形式として現存する初期の優品。柿本人麻呂と紀貫之の歌が端にある。公式のprimaryImage（DP-35700-001）は対の屏風の一方を写した横長画像で、対の全体を1枚に載せた画像ではない。右から左に鑑賞する形式。画家と書き手は別人で、単独の狩野孝信の直筆作としない。 Actual image observation: Met公式API主画像のサムネイルでは、横長の金茶色の六曲屏風の一方に、色彩豊かな衣をまとう貴族らしき人物が横に並んで座り、その上に筆文字の歌が段をなして記されている。金や茶の下地、画面の左右端の装飾枠が見える。二枚のうちの一方だけで、全36人がこの主画像に写っていると誤認しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.0739で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/910555",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-390-392-20261112/docs/artwork-research-evidence/met-390-392-2026-11-12.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/910555",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-390-392-20261112/docs/artwork-research-evidence/met-390-392-2026-11-12.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/910555",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-910555 The Thirty-Six Poetic Immortals; Studio of Kano Takanobu (painting); Konoe Nobutada (inscriptions); early 17th century; accession 2024.279.1, .2. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式API主画像のサムネイルでは、横長の金茶色の六曲屏風の一方に、色彩豊かな衣をまとう貴族らしき人物が横に並んで座り、その上に筆文字の歌が段をなして記されている。金や茶の下地、画面の左右端の装飾枠が見える。二枚のうちの一方だけで、全36人がこの主画像に写っていると誤認しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.0739で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-390-392-20261112/docs/artwork-research-evidence/met-390-392-2026-11-12.json",
+      "historical_interpretation": "Met個別Overviewによれば、狩野孝信の工房が絵を描き、近衛信尹が和歌を書いた17世紀初頭の六曲一双屏風。藤原公任が選んだ三十六歌仙は、僧侶二人、女性五人、その他宮廷の男性を含む。大画面の折り畳み屏風形式として現存する初期の優品。柿本人麻呂と紀貫之の歌が端にある。公式のprimaryImage（DP-35700-001）は対の屏風の一方を写した横長画像で、対の全体を1枚に載せた画像ではない。右から左に鑑賞する形式。画家と書き手は別人で、単独の狩野孝信の直筆作としない。 Limits: 作品は一双の屏風なのに、配信するprimary JPEGはその一方だけ。36人の歌人が現在の1画像に全員描かれていると書かない。絵は狩野孝信工房、詞書は近衛信尹の仕事として明記。作品別ページにある和歌の全訳は転載しない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['懐かしさ']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-35700-001.jpg",
+      "sha256": "a96997945fd91ebde00fdfa14b2269024e3eaebf2cea31d572d5a09ed17003ad",
+      "byte_length": 97081,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met公式API主画像のサムネイルでは、横長の金茶色の六曲屏風の一方に、色彩豊かな衣をまとう貴族らしき人物が横に並んで座り、その上に筆文字の歌が段をなして記されている。金や茶の下地、画面の左右端の装飾枠が見える。二枚のうちの一方だけで、全36人がこの主画像に写っていると誤認しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.0739で対応確認。 Confirmed image belongs to Met artwork 910555, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-35700-001.jpg",
+      "sha256": "701591e3617deb7a890e118c96eaa8f4e6076c7833fac0eddf11a0a33668b0bc",
+      "byte_length": 2184693,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met公式API主画像のサムネイルでは、横長の金茶色の六曲屏風の一方に、色彩豊かな衣をまとう貴族らしき人物が横に並んで座り、その上に筆文字の歌が段をなして記されている。金や茶の下地、画面の左右端の装飾枠が見える。二枚のうちの一方だけで、全36人がこの主画像に写っていると誤認しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.0739で対応確認。 Confirmed image belongs to Met artwork 910555, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #392; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 825597 original right-hand fragment does not show emperor on missing left; Met 910555 primary JPEG shows only one of the pair of six-fold screens, with separate studio painting and Nobutada calligraphy."
+  ]
+}

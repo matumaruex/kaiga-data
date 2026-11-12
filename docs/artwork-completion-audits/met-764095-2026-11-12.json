@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-764095",
+  "checked_on": "2026-11-12",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-764095.json",
+  "candidate_sha256": "47bfe300e1437359832cc3a30b687ee0ce5aadc67bf35818083e5b49726d5495",
+  "draft_path": "drafts/visitor-explanations/met-764095.json",
+  "draft_sha256": "2157884e501878faff6efba5877e26b7aabba805407945c5fd05dc89d74af464",
+  "baseline": {
+    "artworks_sha256": "188aa1e3262fb008146e42a594f5ecc6e56a430c6b50ec29b6b16c40843f5b5d",
+    "image_registry_sha256": "eb3ef1bb0024f5036ac157d5ac86f06301036095e9de958c4d3111c65767eb06"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/764095",
+      "source_excerpt": "This work belongs to the genre of \"statue painting\"",
+      "visitor_claim": "1770〜75年頃にペルーのクスコで制作されたこの作品は、彫刻の聖像を描いた「聖像画」の一種です。",
+      "source_section": "Met exact Overview: genre of statue painting"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/764095",
+      "source_excerpt": "The sacred image of the Nazarene is displayed beneath a baldachin",
+      "visitor_claim": "キリストの聖像は、階段状の祭壇の上にある天蓋の下に置かれています。",
+      "source_section": "Met exact Overview: Nazarene beneath a baldachin"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/764095",
+      "location": "Exact artwork Overview and Object Information: Met exact Overview: genre of statue painting; Met exact Overview: Nazarene beneath a baldachin",
+      "finding": "メトロポリタン美術館の作品別Overviewによれば、本作は『statue painting』すなわち信仰を集める聖像の姿を絵に写した作品。クスコのサン・フランシスコ教会で崇敬されたナザレのキリスト彫像を『真の似姿』として描くことで、原像の奇跡的な力も備わると信じられた。祭壇の階段と天蓋の下にキリスト像があり、周囲には他の彫像、銀製装飾、ろうそく、花、羽根などが密に描かれる。実際に奇跡があったと断定するものではない。 Actual image observation: Met公式APIの主画像は黒い外縁を持つ縦長の華やかな祭壇。中央上寄りには下向きの顔のキリスト像が衣をまとう姿、周囲に多数の小さな聖像や左右対称に積まれた銀色・色彩豊かな飾り、下部に階段状の台座が見える。画面外の黒い余白と絵の暗い室内を区別して眺めた。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.8902で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764095",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-390-392-20261112/docs/artwork-research-evidence/met-390-392-2026-11-12.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/764095",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-390-392-20261112/docs/artwork-research-evidence/met-390-392-2026-11-12.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/764095",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-764095 Christ Carrying the Cross, called \"The Lord of the Fall\"; Unknown Cuzco artist; ca. 1770–75; accession 2018.652.5. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式APIの主画像は黒い外縁を持つ縦長の華やかな祭壇。中央上寄りには下向きの顔のキリスト像が衣をまとう姿、周囲に多数の小さな聖像や左右対称に積まれた銀色・色彩豊かな飾り、下部に階段状の台座が見える。画面外の黒い余白と絵の暗い室内を区別して眺めた。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.8902で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-390-392-20261112/docs/artwork-research-evidence/met-390-392-2026-11-12.json",
+      "historical_interpretation": "メトロポリタン美術館の作品別Overviewによれば、本作は『statue painting』すなわち信仰を集める聖像の姿を絵に写した作品。クスコのサン・フランシスコ教会で崇敬されたナザレのキリスト彫像を『真の似姿』として描くことで、原像の奇跡的な力も備わると信じられた。祭壇の階段と天蓋の下にキリスト像があり、周囲には他の彫像、銀製装飾、ろうそく、花、羽根などが密に描かれる。実際に奇跡があったと断定するものではない。 Limits: 絵が現実の彫像の忠実な『似姿』と信じられたという文化史上の事実と、奇跡の実在を混同しない。作品を現物の彫像や祭壇の写真と呼ばない。作者は不明のクスコ画家。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['畏敬']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18755-007.jpg",
+      "sha256": "9602787381dedd4036c5fb8ba69820bc2112865b62b3abb668ffaddea9a242db",
+      "byte_length": 200572,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met公式APIの主画像は黒い外縁を持つ縦長の華やかな祭壇。中央上寄りには下向きの顔のキリスト像が衣をまとう姿、周囲に多数の小さな聖像や左右対称に積まれた銀色・色彩豊かな飾り、下部に階段状の台座が見える。画面外の黒い余白と絵の暗い室内を区別して眺めた。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.8902で対応確認。 Confirmed image belongs to Met artwork 764095, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18755-007.jpg",
+      "sha256": "657e51ad09a0e39a4f6fd75ebc648d0fe58bbe5213462732cb7d1a043bb9596f",
+      "byte_length": 6041981,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met公式APIの主画像は黒い外縁を持つ縦長の華やかな祭壇。中央上寄りには下向きの顔のキリスト像が衣をまとう姿、周囲に多数の小さな聖像や左右対称に積まれた銀色・色彩豊かな飾り、下部に階段状の台座が見える。画面外の黒い余白と絵の暗い室内を区別して眺めた。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.8902で対応確認。 Confirmed image belongs to Met artwork 764095, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #391; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 825597 original right-hand fragment does not show emperor on missing left; Met 910555 primary JPEG shows only one of the pair of six-fold screens, with separate studio painting and Nobutada calligraphy."
+  ]
+}
