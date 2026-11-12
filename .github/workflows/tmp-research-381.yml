@@ -21,7 +21,7 @@ jobs:
         shell: bash
         run: |
           python3 - <<'PY'
-          import json,hashlib,urllib.request,urllib.error,io,math,datetime,time
+          import json,hashlib,urllib.request,urllib.error,io,math,datetime,time,base64
           from PIL import Image,ImageChops,ImageStat
           ids=[451023,74725,764086]
           out={'research_date':'2026-11-12','works':[]}
@@ -47,7 +47,10 @@ jobs:
                 raw=fetch(url)
                 pic=Image.open(io.BytesIO(raw)).convert('RGB')
                 imgs[typ]={'url':url,'sha256':hashlib.sha256(raw).hexdigest(),'byte_length':len(raw),'width':pic.width,'height':pic.height}
-                if typ=='display': small=pic
+                if typ=='display':
+                  small=pic
+                  thumbnail=pic.copy();thumbnail.thumbnail((320,320));buffer=io.BytesIO();thumbnail.save(buffer,format='JPEG',quality=75)
+                  record['thumbnail_base64']=base64.b64encode(buffer.getvalue()).decode('ascii')
                 else: orig=pic
               if len(imgs)==2:
                 z=orig.resize(small.size,Image.Resampling.LANCZOS)
