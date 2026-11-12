@@ -127,7 +127,7 @@ def prepare(meta,spec,baseline):
          "scholarly_interpretation":{"summary":spec["meaning"],"source_url":official},
          "creation_context":api["objectDate"]+"; "+spec["culture"]+"; "+api["medium"]+"; accession "+api["accessionNumber"],
          "visual_clues":observation,"uncertainty_note":spec["caution"]},
-       "emotion_categories":{"primary":[],"secondary":primary}}
+       "emotion_categories":{"primary":(primary if ident=="met-451023" else []),"secondary":([] if ident=="met-451023" else primary)}}
     art["review"]={"facts_checked_against_museum_api":True,"source_public_domain_flag_checked":True,
       "visual_checked":False,"curatorial_reviewed_on":DATE,"curatorial_review_status":"provisional",
       "curatorial_review_note":"Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. "+RESEARCH_URL}
