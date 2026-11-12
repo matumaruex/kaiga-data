@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-910556",
+  "checked_on": "2026-11-12",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-910556.json",
+  "candidate_sha256": "137ce16011d21ea26c6014f7628a72ba1b4109b970990622c3ec696d150c0116",
+  "draft_path": "drafts/visitor-explanations/met-910556.json",
+  "draft_sha256": "f62e0758e1553fc3c32fc13cb16169e8cfca7810b21864ca5e578bb58e998815",
+  "baseline": {
+    "artworks_sha256": "18f5e6d2fac51f6d3dd35e4653b154e03565f83659f328030d48857a558f31e0",
+    "image_registry_sha256": "6465175db302cbdfb2170e4aa7c36892e8f023abe37d11a7af021fc6396956a4"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/910556",
+      "source_excerpt": "identifies the figure as Mu'izz al-Mulk",
+      "visitor_claim": "この絵の左側の銘文は、描かれた人物をムイッズ・アル＝ムルクと特定しています。",
+      "source_section": "Met exact Overview: identifying inscription"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/910556",
+      "source_excerpt": "it is possible that this caption is in his hand",
+      "visitor_claim": "そのため、この銘文も皇帝自身の筆かもしれませんが、確定してはいません。",
+      "source_section": "Met exact Overview: Jahangir's possible handwriting"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/910556",
+      "location": "Exact artwork Overview and Object Information: Met exact Overview: identifying inscription; Met exact Overview: Jahangir's possible handwriting",
+      "finding": "Met作品別Overviewは1610年頃の肖像の左に書かれた銘文で人物をムイッズ・アル＝ムルクと同定する。彼はアクバルとジャハーンギール両皇帝に仕えたペルシア出身の官吏で、出納官、軍の管理職などを務めた。毛皮の縁や絹、錦の豪華な衣装は高位の地位を示す。銘文の筆致や配置がジャハーンギール自身による署名入りの他例に似ており、皇帝自身が書いた可能性があるが未確定。画家の名はMetの作者情報にない。 Actual image observation: Met API画像に対応した原JPEG・表示JPEGの縮小照合後のサムネイルを実見。濃青緑の無地に近い背景に、縦長の全身像。男性は髭と高い頭飾り、黄土色の豪華な上着、淡緑の衣、腰から垂れる白い帯を着け、片手を前に掲げる。左側の黒い筆文字、周囲の赤みの額縁模様が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.2913で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/910556",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/910556",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/910556",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-910556 Portrait of Mu’izz al-Mulk; Unidentified Mughal court painter; ca. 1610; accession 2024.356. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met API画像に対応した原JPEG・表示JPEGの縮小照合後のサムネイルを実見。濃青緑の無地に近い背景に、縦長の全身像。男性は髭と高い頭飾り、黄土色の豪華な上着、淡緑の衣、腰から垂れる白い帯を着け、片手を前に掲げる。左側の黒い筆文字、周囲の赤みの額縁模様が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.2913で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json",
+      "historical_interpretation": "Met作品別Overviewは1610年頃の肖像の左に書かれた銘文で人物をムイッズ・アル＝ムルクと同定する。彼はアクバルとジャハーンギール両皇帝に仕えたペルシア出身の官吏で、出納官、軍の管理職などを務めた。毛皮の縁や絹、錦の豪華な衣装は高位の地位を示す。銘文の筆致や配置がジャハーンギール自身による署名入りの他例に似ており、皇帝自身が書いた可能性があるが未確定。画家の名はMetの作者情報にない。 Limits: 人物はペルシア出身だが作品の制作地はインドとして扱う。皇帝ジャハーンギールが銘文を書いたことは可能性にとどめる。作者の心理や画家名を推測しない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-36357-001.jpg",
+      "sha256": "589e666f1fe9dc9769984b1f238c275c7da6d60c4d2018040d1ac2634bd6d26a",
+      "byte_length": 110892,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met API画像に対応した原JPEG・表示JPEGの縮小照合後のサムネイルを実見。濃青緑の無地に近い背景に、縦長の全身像。男性は髭と高い頭飾り、黄土色の豪華な上着、淡緑の衣、腰から垂れる白い帯を着け、片手を前に掲げる。左側の黒い筆文字、周囲の赤みの額縁模様が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.2913で対応確認。 Confirmed image belongs to Met artwork 910556, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/DP-36357-001.jpg",
+      "sha256": "9f6e1c76bda0dca7245aadb4fc844d4bf6632bd8cc48fde33bbef6969d516df0",
+      "byte_length": 3291981,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met API画像に対応した原JPEG・表示JPEGの縮小照合後のサムネイルを実見。濃青緑の無地に近い背景に、縦長の全身像。男性は髭と高い頭飾り、黄土色の豪華な上着、淡緑の衣、腰から垂れる白い帯を着け、片手を前に掲げる。左側の黒い筆文字、周囲の赤みの額縁模様が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.2913で対応確認。 Confirmed image belongs to Met artwork 910556, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #394; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 910557 is a painting of a marble cenotaph screen, not a photograph; Met 910556 inscription handwriting is only possibly Jahangir's, and Met 764093 portrays a religious legend rather than documented events."
+  ]
+}

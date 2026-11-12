@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-764093",
+  "checked_on": "2026-11-12",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-764093.json",
+  "candidate_sha256": "3c885f3ee15be55bc892aae432d57aed0e50cc0029fcff64a6695dc301f6eed5",
+  "draft_path": "drafts/visitor-explanations/met-764093.json",
+  "draft_sha256": "171d0ac2c6a4dfc6246ff779b2a77f6c2e981d6295b07cf0275c830c499e6a1f",
+  "baseline": {
+    "artworks_sha256": "78681afa02bf067a6699d9a55137964e69ca839e71d8b6b9cdd7783cb2cefa83",
+    "image_registry_sha256": "7270375772efad651aec423bfe75a5e03bcfe7efe0a91f5c6661edfe8694e1c4"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/764093",
+      "source_excerpt": "a palm branch, a symbol of martyrdom",
+      "visitor_claim": "聖バルバラは右手に、殉教を表す棕櫚の枝を持っています。",
+      "source_section": "Met exact Overview: palm of martyrdom"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/764093",
+      "source_excerpt": "The tower’s three windows, one of which Barbara caused to be added",
+      "visitor_claim": "塔にある三つの窓はキリスト教の三位一体を表しています。",
+      "source_section": "Met exact Overview: tower's three windows"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/764093",
+      "location": "Exact artwork Overview and Object Information: Met exact Overview: palm of martyrdom; Met exact Overview: tower's three windows",
+      "finding": "Met作品別Overviewでは、殉教者聖バルバラが雲に乗り天へ向かう姿で描かれる。右手の棕櫚枝は殉教の象徴、左手には聖杯と聖餅。下景の左にある場面は彼女の殉教と剣を振るう処刑人への落雷の伝承で、背後の塔の三つの窓は三位一体を示す。右側は臨終の聖人が最後の秘跡を受ける場面で、学芸員は聖スタニスラウス・コストカの死の場面だろうと推定する。画面中央の囲まれた庭で子羊と聖杯の寓意が示される。物語は伝承・信仰上の解釈であり史実の確証ではない。 Actual image observation: Met API主画像の実見。縦長の油彩画で黄色い布をまとった女性の聖人が画面上半に大きく座り、右手に細長い枝のようなもの、左手に杯が見える。雲のまわりに小さな翼ある人物、左下に塔と小さな人々、中央下に囲われた庭や建築物、右下には別の人物場面が並ぶ。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.5101で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764093",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/764093",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/764093",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-764093 Saint Barbara; Unknown Quito artist; last quarter 18th century; accession 2018.836.2. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met API主画像の実見。縦長の油彩画で黄色い布をまとった女性の聖人が画面上半に大きく座り、右手に細長い枝のようなもの、左手に杯が見える。雲のまわりに小さな翼ある人物、左下に塔と小さな人々、中央下に囲われた庭や建築物、右下には別の人物場面が並ぶ。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.5101で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json",
+      "historical_interpretation": "Met作品別Overviewでは、殉教者聖バルバラが雲に乗り天へ向かう姿で描かれる。右手の棕櫚枝は殉教の象徴、左手には聖杯と聖餅。下景の左にある場面は彼女の殉教と剣を振るう処刑人への落雷の伝承で、背後の塔の三つの窓は三位一体を示す。右側は臨終の聖人が最後の秘跡を受ける場面で、学芸員は聖スタニスラウス・コストカの死の場面だろうと推定する。画面中央の囲まれた庭で子羊と聖杯の寓意が示される。物語は伝承・信仰上の解釈であり史実の確証ではない。 Limits: 聖バルバラにまつわる処刑・落雷・塔の物語は宗教的伝承として書く。右下の人物を確実に聖スタニスラウスと断定しない。棕櫚枝は殉教の象徴という美術館の説明とする。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['畏敬']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-18755-011.jpg",
+      "sha256": "edd82469427c5b4e19700912b5db701207d3e775e0ac31500505858dc874c030",
+      "byte_length": 155218,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met API主画像の実見。縦長の油彩画で黄色い布をまとった女性の聖人が画面上半に大きく座り、右手に細長い枝のようなもの、左手に杯が見える。雲のまわりに小さな翼ある人物、左下に塔と小さな人々、中央下に囲われた庭や建築物、右下には別の人物場面が並ぶ。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.5101で対応確認。 Confirmed image belongs to Met artwork 764093, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18755-011.jpg",
+      "sha256": "c47304876c442a68172fff8aa91da6c22ec723d0f9d23cb9eaf316bdf861e44a",
+      "byte_length": 5334650,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met API主画像の実見。縦長の油彩画で黄色い布をまとった女性の聖人が画面上半に大きく座り、右手に細長い枝のようなもの、左手に杯が見える。雲のまわりに小さな翼ある人物、左下に塔と小さな人々、中央下に囲われた庭や建築物、右下には別の人物場面が並ぶ。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.5101で対応確認。 Confirmed image belongs to Met artwork 764093, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #395; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 910557 is a painting of a marble cenotaph screen, not a photograph; Met 910556 inscription handwriting is only possibly Jahangir's, and Met 764093 portrays a religious legend rather than documented events."
+  ]
+}

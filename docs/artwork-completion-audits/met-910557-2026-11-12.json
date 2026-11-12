@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-910557",
+  "checked_on": "2026-11-12",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-910557.json",
+  "candidate_sha256": "17d3a8ee93b6b207c8ae43dd7624116db7233f73c866f752bf6813fd510ef970",
+  "draft_path": "drafts/visitor-explanations/met-910557.json",
+  "draft_sha256": "60bbd1ff300806e46dde146f78b486aec8bab51eea4b6fcf48feebf98cf92516",
+  "baseline": {
+    "artworks_sha256": "87e104620210b26f5ac124c3dde545ca59601d8f8220ef90f1e20d09a04aeec3",
+    "image_registry_sha256": "e999506968296ab4a7c70826d1ddc20228df16d8fd932db341d38e13768a77ce"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/910557",
+      "source_excerpt": "the delicate jali screen surrounding the most sacred part",
+      "visitor_claim": "この屏風は、ムムターズ・マハルと皇帝シャー・ジャハーンの記念墓碑を囲むものです。",
+      "source_section": "Met exact Overview: jali encloses cenotaphs"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/910557",
+      "source_excerpt": "inlaid with pietra dura stone mosaics",
+      "visitor_claim": "白大理石の格子には、色石をはめ込むピエトラ・ドゥーラの技法で植物や曲線の文様も施されています。",
+      "source_section": "Met exact Overview: pietra dura inlay"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/910557",
+      "location": "Exact artwork Overview and Object Information: Met exact Overview: jali encloses cenotaphs; Met exact Overview: pietra dura inlay",
+      "finding": "Metの作品別Overviewは1810〜1820年頃のこの水彩を、タージ・マハルのムムターズ・マハルと皇帝シャー・ジャハーンのセノタフ（記念墓碑）を囲む精緻なジャーリー（透かし彫り格子）の北面を描いた立面図と説明する。白大理石の格子にはピエトラ・ドゥーラの象嵌によるアラベスクと花の装飾が施されている。こうした建築調査図は、英領インド期の設計・建築・記録文化におけるこの霊廟の影響を伝える。水彩画の作者は公式ページに表示されず、建築設計者本人の作画としない。 Actual image observation: Met公式object APIの主JPEGを実見。横長の水彩による建築立面図で、濃い背景の前に白い透かし彫りの大理石の屏風が横長に広がる。中央の区画が左右の区画より高く、細い黒い格子穴と花の模様、両端と中央の尖った先端が見える。実際の大理石そのものの写真ではなく紙に描かれた立面図。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=18.8313で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/910557",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/910557",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/910557",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-910557 An Elevation of the North Side of the Marble Screen Surrounding the Cenotaphs in the Taj Mahal; Unidentified artist; ca. 1810–1820; accession 2024.210. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式object APIの主JPEGを実見。横長の水彩による建築立面図で、濃い背景の前に白い透かし彫りの大理石の屏風が横長に広がる。中央の区画が左右の区画より高く、細い黒い格子穴と花の模様、両端と中央の尖った先端が見える。実際の大理石そのものの写真ではなく紙に描かれた立面図。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=18.8313で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-393-395-20261112/docs/artwork-research-evidence/met-393-395-2026-11-12.json",
+      "historical_interpretation": "Metの作品別Overviewは1810〜1820年頃のこの水彩を、タージ・マハルのムムターズ・マハルと皇帝シャー・ジャハーンのセノタフ（記念墓碑）を囲む精緻なジャーリー（透かし彫り格子）の北面を描いた立面図と説明する。白大理石の格子にはピエトラ・ドゥーラの象嵌によるアラベスクと花の装飾が施されている。こうした建築調査図は、英領インド期の設計・建築・記録文化におけるこの霊廟の影響を伝える。水彩画の作者は公式ページに表示されず、建築設計者本人の作画としない。 Limits: 墓碑を実際の埋葬空間と混同しない。画家の身元は不明。建築構造物ではなく1810〜20年頃の絵画作品であり、写真や当時の設計図原本と断定しない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/LC-2024_210.jpg",
+      "sha256": "40f69a91579296983a7ce2e92fbc02f3462d59059cfa9de4edf3a6868727500e",
+      "byte_length": 149532,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met公式object APIの主JPEGを実見。横長の水彩による建築立面図で、濃い背景の前に白い透かし彫りの大理石の屏風が横長に広がる。中央の区画が左右の区画より高く、細い黒い格子穴と花の模様、両端と中央の尖った先端が見える。実際の大理石そのものの写真ではなく紙に描かれた立面図。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=18.8313で対応確認。 Confirmed image belongs to Met artwork 910557, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/LC-2024_210.jpg",
+      "sha256": "73ff986ae66a9df39bb907b12f6542ec207ff475d20c2bebfceaaef16dc01d28",
+      "byte_length": 4536615,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met公式object APIの主JPEGを実見。横長の水彩による建築立面図で、濃い背景の前に白い透かし彫りの大理石の屏風が横長に広がる。中央の区画が左右の区画より高く、細い黒い格子穴と花の模様、両端と中央の尖った先端が見える。実際の大理石そのものの写真ではなく紙に描かれた立面図。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=18.8313で対応確認。 Confirmed image belongs to Met artwork 910557, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #393; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 910557 is a painting of a marble cenotaph screen, not a photograph; Met 910556 inscription handwriting is only possibly Jahangir's, and Met 764093 portrays a religious legend rather than documented events."
+  ]
+}
