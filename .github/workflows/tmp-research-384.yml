@@ -16,6 +16,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Check candidate IDs against actual 383-work database
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          a=json.loads(Path('data/artworks.json').read_text())['artworks']
+          byid={v['id']:v for v in a}
+          candidates=[40429,825596,764089,825597,456967,44760,910556,764091,40431,57239,764095,309529,456968,40635,910555,825594,40430,40428,451022,764088,764090]
+          for number in candidates:
+            ident='met-'+str(number)
+            art=byid.get(ident)
+            print(ident, 'REGISTERED: '+art['facts']['title_original'] if art else 'NOT IN DB',flush=True)
+          PY
       - run: pip install pillow
       - name: Collect actual Met API records and exact original/display JPEG evidence
         shell: bash
