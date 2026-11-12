@@ -46843,6 +46843,365 @@
         "audit_sha256": "8113c1c5aabbecf26d5b6ded9a2da42e879e458974b6974035a39f2ccb412880",
         "record_sha256": "23db6b53f99bdf3c8469380f64d54ad2c695fc8fca370b7f69d9f0be97524cec"
       }
+    },
+    {
+      "id": "met-910553",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 910553,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/910553",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/910553",
+        "record_checked_on": "2026-11-12"
+      },
+      "facts": {
+        "title_original": "Deer amid pines",
+        "title_ja_provisional": "松林の鹿",
+        "artist": "Unidentified Korean artist",
+        "creation_date_display": "16th–17th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Korea",
+        "accession_number": "2024.335"
+      },
+      "image": {
+        "image_id": "met-910553-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-34166-002.jpg",
+        "source_registry_id": "met-910553",
+        "local_path": "/artworks/met-910553.jpg",
+        "sha256": "0316453184a603485b7e32b87a62fa14be4f6724ee4bbf0fde7d29c7d31daabe",
+        "byte_length": 98915,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-384-386-20261112/docs/artwork-research-evidence/met-384-386-2026-11-12.json",
+        "source_accession_number": "2024.335",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-34166-002.jpg",
+          "sha256": "67964b1fcd4b7a037fc9f63b4164e4f63420cd584259c3eb5cfa3bf5fc85c163",
+          "byte_length": 2932447,
+          "width": 2249,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 5.95731",
+          "last_full_sha_checked_on": "2026-11-12",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "希望"
+        ],
+        "emotion_strengths": {
+          "希望": 1
+        },
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/910553",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "朝鮮王朝期の白い鹿と松、赤い太陽に込められた吉祥の意味をゆっくり鑑賞したい",
+              "reason": "Met作品別Overviewは、16〜17世紀朝鮮の白鹿二頭を、道教やシャーマニズムで神々の使いや乗り物と見なされた鹿の伝統と結び付ける。松、花木、青緑色の山、川、霊芝、赤い太陽が吉祥の風景をつくり、誕生日など人生の節目の贈答・展示に用いられた種類の画と説明。ただし、この一幅が実際に誰かへ贈られたという来歴ではない。顔料は抑制され細かな墨描写が特徴。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "鹿が神々の使いや乗り物と考えられたことは所蔵館の解説に基づく。この特定の絵が実際に誕生日の贈り物だったとは断定せず、象徴の宗教的意味をひとつに限定しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewは、16〜17世紀朝鮮の白鹿二頭を、道教やシャーマニズムで神々の使いや乗り物と見なされた鹿の伝統と結び付ける。松、花木、青緑色の山、川、霊芝、赤い太陽が吉祥の風景をつくり、誕生日など人生の節目の贈答・展示に用いられた種類の画と説明。ただし、この一幅が実際に誰かへ贈られたという来歴ではない。顔料は抑制され細かな墨描写が特徴。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/910553"
+          },
+          "creation_context": "16th–17th century; Korea (Joseon dynasty); Hanging scroll; ink and color on paper; accession 2024.335",
+          "visual_clues": "公式Met API主画像から確認した縦長の掛軸。下寄りには白い鹿が二頭立ち、傍らに太い松の幹と枝、地面の岩と植物。奥には淡い山並みと水辺が伸び、空の上方に赤い太陽が見える。広い薄茶色の表装は画中の地面とは区別する。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.9573で対応確認。",
+          "uncertainty_note": "鹿が神々の使いや乗り物と考えられたことは所蔵館の解説に基づく。この特定の絵が実際に誕生日の贈り物だったとは断定せず、象徴の宗教的意味をひとつに限定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "希望"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-12",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-384-386-20261112/docs/artwork-research-evidence/met-384-386-2026-11-12.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "松の太い幹のそばに、白い鹿が二頭、静かに立っています。枝は画面の上方へ広がり、その奥には青緑色の山と水辺が重なります。赤い太陽や点在する草花まで目を移すと、自然のさまざまなものが一枚の中に集められていることに気づきます。\n\nこの絵は、16〜17世紀の朝鮮で描かれた作者不明の掛軸です。道教やシャーマニズムの伝統では、鹿は神々の使いや乗り物として尊ばれていました。ここに描かれた二頭の鹿も、吉祥を示す白い姿で表されています。松や霊芝なども、長寿や幸運を願う画題に結びついています。\n\n美術館は、この種の吉祥画が誕生日など人生の節目に贈られ、飾られたと説明しています。ただし、この絵が誰に贈られたかまでは分かりません。白い鹿の輪郭と松の幹の細かな墨線、遠景の淡い色彩を見比べると、お祝いの意味と落ち着いた風景が一緒に表された様子が見えてきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/910553"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-12"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-910553-2026-11-12.json",
+        "audit_sha256": "886ad8d3fd43b446b94c3426cfd4573b3dd9aca780df77d9f9457de3d06e006c",
+        "record_sha256": "902b4eaba1f6b74e2f40553d67aa5523a4ce87d6064dcf5170eed0273ee3a051"
+      }
+    },
+    {
+      "id": "met-825596",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 825596,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/825596",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/825596",
+        "record_checked_on": "2026-11-12"
+      },
+      "facts": {
+        "title_original": "Two Pigeons",
+        "title_ja_provisional": "二羽の鳩",
+        "artist": "Unidentified Mughal court painter",
+        "creation_date_display": "ca. 1650",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India (Mughal court)",
+        "accession_number": "2022.179"
+      },
+      "image": {
+        "image_id": "met-825596-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-28144-001.jpg",
+        "source_registry_id": "met-825596",
+        "local_path": "/artworks/met-825596.jpg",
+        "sha256": "3b56f355fd053ad2ccdb8e83bba2ebbf27bf974d1c4b162beab5e4611d854309",
+        "byte_length": 105349,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-384-386-20261112/docs/artwork-research-evidence/met-384-386-2026-11-12.json",
+        "source_accession_number": "2022.179",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP-28144-001.jpg",
+          "sha256": "a1a4fdaca93ea4381b647479ed2b3201247b28904576291ce96f291ec1b46876",
+          "byte_length": 4214631,
+          "width": 2471,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 4.96304",
+          "last_full_sha_checked_on": "2026-11-12",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "自然"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/825596",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "ムガル宮廷の細密画で二羽の鳩の羽毛や足輪を見比べたい",
+              "reason": "Met作品別Overviewは17世紀インドの自然の観察を描いた作品として、ムガル皇帝たちが植物と動物を記録する絵を好んだと説明。画面左の鳩の脚に二個の金の足輪があり、宮廷で飼われた鳥だった可能性を示すが確証とは書かれていない。作者個人の氏名は作品ページにもMet APIにもない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "足輪を根拠に皇帝個人の所有だと断定しない。二羽の関係性・性別や画家の心理を推測しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewは17世紀インドの自然の観察を描いた作品として、ムガル皇帝たちが植物と動物を記録する絵を好んだと説明。画面左の鳩の脚に二個の金の足輪があり、宮廷で飼われた鳥だった可能性を示すが確証とは書かれていない。作者個人の氏名は作品ページにもMet APIにもない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/825596"
+          },
+          "creation_context": "ca. 1650; India (Mughal court); Opaque color on paper; accession 2022.179",
+          "visual_clues": "公式API主画像に、縦長の薄茶色い紙の上で灰白色の首と青灰色の翼を持つ鳩が二羽前後に重なり、左手前の鳩は大きく、後ろの鳩は小さめに見える。羽の短い線が丁寧に描かれる。脚元も描写されるが金の足輪の解釈は美術館本文に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.963で対応確認。",
+          "uncertainty_note": "足輪を根拠に皇帝個人の所有だと断定しない。二羽の関係性・性別や画家の心理を推測しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-12",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-384-386-20261112/docs/artwork-research-evidence/met-384-386-2026-11-12.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "薄茶色の紙の上に、二羽の鳩が体を少し重ねるように立っています。青灰色の羽は一枚一枚細かく描き分けられ、明るい胸から濃い翼へと色が移っていきます。よく似た二羽も、頭の位置や体の大きさを見比べると違いが見えてきます。\n\n17世紀半ばのインドで描かれた作品です。ムガル皇帝たちは、身近な世界を描く絵、とくに動植物の観察画にも関心を寄せていました。こうした作品は、宮廷の周囲にいた生き物の姿を詳しく記録する役割も担っていました。\n\n左側の鳩の脚には、二つの金色の足輪が描かれています。美術館はこれを、皇帝のもとで飼われていた鳥かもしれないと考える手掛かりとして説明します。ただし、誰が飼っていたかを確定するものではありません。鳩の脚元から羽の重なりへと視線を戻すと、小さな違いを記録する画家の細かな観察が伝わってきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/825596"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-12"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-825596-2026-11-12.json",
+        "audit_sha256": "049209156b73e343d699fda99fea23b28ef7e7719ebec23f758f53ee6814f1ad",
+        "record_sha256": "988afd3ea9885d61734a7820ae64253e3a27bc816a655631102b8a122bbf22c8"
+      }
+    },
+    {
+      "id": "met-764089",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 764089,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/764089",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764089",
+        "record_checked_on": "2026-11-12"
+      },
+      "facts": {
+        "title_original": "Emblem of Folly",
+        "title_ja_provisional": "愚かさの寓意",
+        "artist": "Unknown Cuzco painter, after Boetius Adams Bolswert",
+        "creation_date_display": "18th Century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Peru (Cuzco)",
+        "accession_number": "2018.836.1"
+      },
+      "image": {
+        "image_id": "met-764089-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-30708-001.jpg",
+        "source_registry_id": "met-764089",
+        "local_path": "/artworks/met-764089.jpg",
+        "sha256": "90f9478e883422bf3a361657a28fac6434e779d6f3189105d2c013943e6766e9",
+        "byte_length": 132423,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-384-386-20261112/docs/artwork-research-evidence/met-384-386-2026-11-12.json",
+        "source_accession_number": "2018.836.1",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-30708-001.jpg",
+          "sha256": "eb068c1f08e8ab6e65352aff0e99ada8cd008442eafe46244e416bfe91371249",
+          "byte_length": 5547940,
+          "width": 3493,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 5.25215",
+          "last_full_sha_checked_on": "2026-11-12",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "不安"
+        ],
+        "emotion_strengths": {
+          "不安": 1
+        },
+        "tones": [
+          "緊張"
+        ],
+        "themes": [
+          "愛情",
+          "他者との距離"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/764089",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "クスコ派の寓意画で、道化姿の人間の魂と神の愛を表す翼ある人物の対比を読みたい",
+              "reason": "Met作品別Overviewによれば、この画は1624年初刊のイエズス会士ヘルマン・フーゴーの寓意集『Pia Desideria』に含まれた、ボエティウス・アダムス・ボルスウェルトの版画をもとにした。道化として表される人間の魂アニマと、神の愛アモル・ディウィナの対決。赤い道化帽、棒馬、風車玩具と猫の籠は欲望と軽率さの徴で、アモルは顔を覆って天を指す。失われた図像連作の一部だった可能性は推定で、ボルスウェルトをこの油彩画の作者としない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "この絵の制作者は不明のクスコ画家。ボルスウェルトの版画に『基づく』作品で、彼を画家本人と混同しない。道化は実在人物ではなく魂の寓意。複数作品からなる連作だったと断定しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによれば、この画は1624年初刊のイエズス会士ヘルマン・フーゴーの寓意集『Pia Desideria』に含まれた、ボエティウス・アダムス・ボルスウェルトの版画をもとにした。道化として表される人間の魂アニマと、神の愛アモル・ディウィナの対決。赤い道化帽、棒馬、風車玩具と猫の籠は欲望と軽率さの徴で、アモルは顔を覆って天を指す。失われた図像連作の一部だった可能性は推定で、ボルスウェルトをこの油彩画の作者としない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/764089"
+          },
+          "creation_context": "18th Century; Peru (Cuzco); Oil on canvas; accession 2018.836.1",
+          "visual_clues": "公式API主画像では、左側に赤い羽飾りの道化帽と華やかな服の人物が棒馬にまたがり、長い棒を上へ掲げる。右側に翼のある人物が立ち、顔の一部を手で覆いながらもう一方の手を上に挙げる。二人の間には樹木、暗い背景と地面がある。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.2521で対応確認。",
+          "uncertainty_note": "この絵の制作者は不明のクスコ画家。ボルスウェルトの版画に『基づく』作品で、彼を画家本人と混同しない。道化は実在人物ではなく魂の寓意。複数作品からなる連作だったと断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "不安"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-12",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-384-386-20261112/docs/artwork-research-evidence/met-384-386-2026-11-12.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "鮮やかな赤い帽子をかぶった人物が、おもちゃの馬にまたがり、長い棒を高く掲げています。その向かいでは、翼を持つ人物が顔を覆いながら天へ手を向けています。対照的な身ぶりの間に、何かを戒めるような緊張感が生まれています。\n\n18世紀のペルー・クスコで描かれた《愚かさの寓意》です。人間の魂を擬人化した「アニマ」は、道化の姿で表されています。対する神の愛を表すアモルは、顔を覆い、もう一方の手で天を指しています。画中の帽子、風車の玩具、籠に入れた猫などは、軽率さや世俗的な欲望を示すものと解釈されています。\n\nこの図は、17世紀に広く読まれた宗教的な寓意集『ピア・デシデリア』の版画に基づいています。版画を制作したボルスウェルトは、この油彩画の作者ではありません。足元には祈りに関わる聖書の言葉が書かれています。楽しげにも見える道化の動きと、向かいの人物の厳しい仕草を行き来しながら、二つの意味がぶつかる場面を見てみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/764089"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-12"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-764089-2026-11-12.json",
+        "audit_sha256": "bac83f28f95ab99bcadaf958ecb10bbcb6ed8eb5a4e236025d518a2a34c3719b",
+        "record_sha256": "2167644dc589a3e07e1fccb1d6e65c77b91ea0771f1879b5989740b444639446"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

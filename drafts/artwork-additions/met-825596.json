@@ -1,0 +1,149 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-825596",
+  "artwork": {
+    "id": "met-825596",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 825596,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/825596",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/825596",
+      "record_checked_on": "2026-11-12"
+    },
+    "facts": {
+      "title_original": "Two Pigeons",
+      "title_ja_provisional": "二羽の鳩",
+      "artist": "Unidentified Mughal court painter",
+      "creation_date_display": "ca. 1650",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "India (Mughal court)",
+      "accession_number": "2022.179"
+    },
+    "image": {
+      "image_id": "met-825596-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-28144-001.jpg",
+      "source_registry_id": "met-825596",
+      "local_path": "/artworks/met-825596.jpg",
+      "sha256": "3b56f355fd053ad2ccdb8e83bba2ebbf27bf974d1c4b162beab5e4611d854309",
+      "byte_length": 105349,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-384-386-20261112/docs/artwork-research-evidence/met-384-386-2026-11-12.json",
+      "source_accession_number": "2022.179",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP-28144-001.jpg",
+        "sha256": "a1a4fdaca93ea4381b647479ed2b3201247b28904576291ce96f291ec1b46876",
+        "byte_length": 4214631,
+        "width": 2471,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 4.96304",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "落ち着き"
+      ],
+      "themes": [
+        "自然"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/825596",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "ムガル宮廷の細密画で二羽の鳩の羽毛や足輪を見比べたい",
+            "reason": "Met作品別Overviewは17世紀インドの自然の観察を描いた作品として、ムガル皇帝たちが植物と動物を記録する絵を好んだと説明。画面左の鳩の脚に二個の金の足輪があり、宮廷で飼われた鳥だった可能性を示すが確証とは書かれていない。作者個人の氏名は作品ページにもMet APIにもない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "足輪を根拠に皇帝個人の所有だと断定しない。二羽の関係性・性別や画家の心理を推測しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewは17世紀インドの自然の観察を描いた作品として、ムガル皇帝たちが植物と動物を記録する絵を好んだと説明。画面左の鳩の脚に二個の金の足輪があり、宮廷で飼われた鳥だった可能性を示すが確証とは書かれていない。作者個人の氏名は作品ページにもMet APIにもない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/825596"
+        },
+        "creation_context": "ca. 1650; India (Mughal court); Opaque color on paper; accession 2022.179",
+        "visual_clues": "公式API主画像に、縦長の薄茶色い紙の上で灰白色の首と青灰色の翼を持つ鳩が二羽前後に重なり、左手前の鳩は大きく、後ろの鳩は小さめに見える。羽の短い線が丁寧に描かれる。脚元も描写されるが金の足輪の解釈は美術館本文に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.963で対応確認。",
+        "uncertainty_note": "足輪を根拠に皇帝個人の所有だと断定しない。二羽の関係性・性別や画家の心理を推測しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-12",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-384-386-20261112/docs/artwork-research-evidence/met-384-386-2026-11-12.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "薄茶色の紙の上に、二羽の鳩が体を少し重ねるように立っています。青灰色の羽は一枚一枚細かく描き分けられ、明るい胸から濃い翼へと色が移っていきます。よく似た二羽も、頭の位置や体の大きさを見比べると違いが見えてきます。\n\n17世紀半ばのインドで描かれた作品です。ムガル皇帝たちは、身近な世界を描く絵、とくに動植物の観察画にも関心を寄せていました。こうした作品は、宮廷の周囲にいた生き物の姿を詳しく記録する役割も担っていました。\n\n左側の鳩の脚には、二つの金色の足輪が描かれています。美術館はこれを、皇帝のもとで飼われていた鳥かもしれないと考える手掛かりとして説明します。ただし、誰が飼っていたかを確定するものではありません。鳩の脚元から羽の重なりへと視線を戻すと、小さな違いを記録する画家の細かな観察が伝わってきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/825596"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-12"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-825596",
+    "title": "Two Pigeons",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/825596",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/825596",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-28144-001.jpg",
+      "sha256": "3b56f355fd053ad2ccdb8e83bba2ebbf27bf974d1c4b162beab5e4611d854309",
+      "byte_length": 105349,
+      "last_http_sha_checked_on": "2026-11-12",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-384-386-20261112/docs/artwork-research-evidence/met-384-386-2026-11-12.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP-28144-001.jpg",
+        "sha256": "a1a4fdaca93ea4381b647479ed2b3201247b28904576291ce96f291ec1b46876",
+        "byte_length": 4214631,
+        "width": 2471,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 4.96304",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2022.179"
+  }
+}

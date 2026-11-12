@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-825596",
+  "checked_on": "2026-11-12",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-825596.json",
+  "candidate_sha256": "51c278650b93d8456af81938c459dbc2749c1d8b5d4483227ad10e30a749f053",
+  "draft_path": "drafts/visitor-explanations/met-825596.json",
+  "draft_sha256": "9d7c51f01f5cd1ff503eef9dbd8e8eaf975621e9d5c59873e6ce72817bacc4fa",
+  "baseline": {
+    "artworks_sha256": "f8e45f9c3047559e25a83828ea70d9b42518f0900af30c26b2601b9cb061d1fa",
+    "image_registry_sha256": "6be02743e5a0ad6f63ae50720cd9f2648fbb0b350f1968a58aa404a09f39542d"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/825596",
+      "source_excerpt": "Mughal emperors were particularly fond of paintings depicting their world",
+      "visitor_claim": "ムガル皇帝たちは、身近な世界を描く絵、とくに動植物の観察画にも関心を寄せていました。",
+      "source_section": "Met artwork Overview: Mughal court and natural history images"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/825596",
+      "source_excerpt": "The pigeon at left has two golden anklets on its feet",
+      "visitor_claim": "左側の鳩の脚には、二つの金色の足輪が描かれています。",
+      "source_section": "Met artwork Overview: gold anklets of pigeon at left"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/825596",
+      "location": "Exact artwork Overview and Object Information: Met artwork Overview: Mughal court and natural history images; Met artwork Overview: gold anklets of pigeon at left",
+      "finding": "Met作品別Overviewは17世紀インドの自然の観察を描いた作品として、ムガル皇帝たちが植物と動物を記録する絵を好んだと説明。画面左の鳩の脚に二個の金の足輪があり、宮廷で飼われた鳥だった可能性を示すが確証とは書かれていない。作者個人の氏名は作品ページにもMet APIにもない。 Actual image observation: 公式API主画像に、縦長の薄茶色い紙の上で灰白色の首と青灰色の翼を持つ鳩が二羽前後に重なり、左手前の鳩は大きく、後ろの鳩は小さめに見える。羽の短い線が丁寧に描かれる。脚元も描写されるが金の足輪の解釈は美術館本文に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.963で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/825596",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-384-386-20261112/docs/artwork-research-evidence/met-384-386-2026-11-12.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/825596",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-384-386-20261112/docs/artwork-research-evidence/met-384-386-2026-11-12.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/825596",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-825596 Two Pigeons; Unidentified Mughal court painter; ca. 1650; accession 2022.179. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "公式API主画像に、縦長の薄茶色い紙の上で灰白色の首と青灰色の翼を持つ鳩が二羽前後に重なり、左手前の鳩は大きく、後ろの鳩は小さめに見える。羽の短い線が丁寧に描かれる。脚元も描写されるが金の足輪の解釈は美術館本文に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.963で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-384-386-20261112/docs/artwork-research-evidence/met-384-386-2026-11-12.json",
+      "historical_interpretation": "Met作品別Overviewは17世紀インドの自然の観察を描いた作品として、ムガル皇帝たちが植物と動物を記録する絵を好んだと説明。画面左の鳩の脚に二個の金の足輪があり、宮廷で飼われた鳥だった可能性を示すが確証とは書かれていない。作者個人の氏名は作品ページにもMet APIにもない。 Limits: 足輪を根拠に皇帝個人の所有だと断定しない。二羽の関係性・性別や画家の心理を推測しない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-28144-001.jpg",
+      "sha256": "3b56f355fd053ad2ccdb8e83bba2ebbf27bf974d1c4b162beab5e4611d854309",
+      "byte_length": 105349,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "公式API主画像に、縦長の薄茶色い紙の上で灰白色の首と青灰色の翼を持つ鳩が二羽前後に重なり、左手前の鳩は大きく、後ろの鳩は小さめに見える。羽の短い線が丁寧に描かれる。脚元も描写されるが金の足輪の解釈は美術館本文に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.963で対応確認。 Confirmed image belongs to Met artwork 825596, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/DP-28144-001.jpg",
+      "sha256": "a1a4fdaca93ea4381b647479ed2b3201247b28904576291ce96f291ec1b46876",
+      "byte_length": 4214631,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "公式API主画像に、縦長の薄茶色い紙の上で灰白色の首と青灰色の翼を持つ鳩が二羽前後に重なり、左手前の鳩は大きく、後ろの鳩は小さめに見える。羽の短い線が丁寧に描かれる。脚元も描写されるが金の足輪の解釈は美術館本文に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.963で対応確認。 Confirmed image belongs to Met artwork 825596, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #385; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "For met-764089, Met distinguishes the unknown Cuzco painter from Boetius Adams Bolswert, the engraver whose composition was followed."
+  ]
+}
