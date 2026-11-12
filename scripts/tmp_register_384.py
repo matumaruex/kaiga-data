@@ -28,7 +28,7 @@ def run(*args):
 def check(c,m):
     if not c:raise ValueError(m)
 
-SPEC={
+SPEC={int(k):v for k,v in {
   "40429": {
     "number": 384,
     "japanese": "湖畔の東屋",
@@ -127,7 +127,7 @@ SPEC={
       ]
     ]
   }
-}
+}.items()}
 
 def prepare(meta,spec,baseline):
     number=spec["number"]
