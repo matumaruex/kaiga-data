@@ -47202,6 +47202,366 @@
         "audit_sha256": "bac83f28f95ab99bcadaf958ecb10bbcb6ed8eb5a4e236025d518a2a34c3719b",
         "record_sha256": "2167644dc589a3e07e1fccb1d6e65c77b91ea0771f1879b5989740b444639446"
       }
+    },
+    {
+      "id": "met-44760",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 44760,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/44760",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/44760",
+        "record_checked_on": "2026-11-12"
+      },
+      "facts": {
+        "title_original": "Birds and Flowers",
+        "title_ja_provisional": "花鳥図（十曲屏風）",
+        "artist": "Unidentified artist",
+        "creation_date_display": "late 19th–early 20th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Korea",
+        "accession_number": "1993.255"
+      },
+      "image": {
+        "image_id": "met-44760-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DT5031.jpg",
+        "source_registry_id": "met-44760",
+        "local_path": "/artworks/met-44760.jpg",
+        "sha256": "614072691e237efb3c9c2a9840392b91a6b5fe1c076be1799513c8dab9d3d731",
+        "byte_length": 81696,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json",
+        "source_accession_number": "1993.255",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DT5031.jpg",
+          "sha256": "fd87bd7db3d9e786dbbde3179bf5298ee711d4d575dec3970f8468cff75f5b5f",
+          "byte_length": 2429274,
+          "width": 3811,
+          "height": 2115,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 10.60524",
+          "last_full_sha_checked_on": "2026-11-12",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "期待"
+        ],
+        "emotion_strengths": {
+          "期待": 1
+        },
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "愛情"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/44760",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "朝鮮王朝末期の花鳥画屏風で、鳥のつがいと季節の草花に込められた願いを眺めたい",
+              "reason": "Met作品別Overviewによると、朝鮮の花鳥画屏風は朝鮮王朝後期に普及し、20世紀まで人気があった。十曲の各扇には花木、草、葦などと一組以上の鳥のつがいが描かれ、虫や第5扇の水生生物も登場する。富・出世・長寿・子孫繁栄などの吉祥、鴛鴦などの雌雄対が婚礼や新婚の部屋にふさわしいとされた象徴を解説。特定の婚礼で実際に用いられたという来歴ではない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "十枚を独立作品として数えず一作品の十曲屏風として扱う。画中の鳥のつがいを全て鴛鴦だと決め付けず、婚礼で実際に使われたと断言しない。制作年代の範囲は19世紀末〜20世紀初頭のまま保つ。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによると、朝鮮の花鳥画屏風は朝鮮王朝後期に普及し、20世紀まで人気があった。十曲の各扇には花木、草、葦などと一組以上の鳥のつがいが描かれ、虫や第5扇の水生生物も登場する。富・出世・長寿・子孫繁栄などの吉祥、鴛鴦などの雌雄対が婚礼や新婚の部屋にふさわしいとされた象徴を解説。特定の婚礼で実際に用いられたという来歴ではない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/44760"
+          },
+          "creation_context": "late 19th–early 20th century; Korea, Joseon dynasty; Ten-panel folding screen; ink and color on silk; accession 1993.255",
+          "visual_clues": "Met APIの原寸・表示画像から作成した実画像サムネイルを確認。横長の十曲屏風が一画面に収まり、淡い黄土色の縦長パネルが十枚並び、各扇の足もとに植物の緑と鳥が点在し、枝や葦が上へ伸びる。幅広い屏風の縁は図柄の一部ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.6052で対応確認。",
+          "uncertainty_note": "十枚を独立作品として数えず一作品の十曲屏風として扱う。画中の鳥のつがいを全て鴛鴦だと決め付けず、婚礼で実際に使われたと断言しない。制作年代の範囲は19世紀末〜20世紀初頭のまま保つ。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "期待"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-12",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "淡い金色を帯びた十枚の画面に、花をつけた木や草、その周囲を行き交う鳥たちが描かれています。横に視線を動かすと、鳥の位置と植物の形が一枚ずつ変わり、屏風全体にゆるやかなリズムが生まれています。\n\n朝鮮王朝末期から20世紀初めにかけて作られた、作者不明の十曲屏風です。各扇には、植物のそばにいる一組以上の鳥のつがいが描かれています。鳥のほか、虫や水辺の生き物も加わり、自然の多彩な姿が細やかに表されています。\n\n花や鳥の多くの意匠は、富や長寿などを願う意味を帯びています。とりわけ雌雄の鳥が一緒にいる図柄は、婚礼や新婚の部屋にもふさわしいとされました。ただし、この屏風が特定の結婚式に使われたと分かっているわけではありません。一扇ずつ眺めた後、少し離れて十枚が作るつながりを見てみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/44760"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-12"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-44760-2026-11-12.json",
+        "audit_sha256": "d68c839ddd6b5e65e3bdd52ac198db672af8702388c7414f038761374e61b902",
+        "record_sha256": "851fb220c4e9079eb85d70173689eaf148b65f9141080a9216e8eb3ec8ceed4b"
+      }
+    },
+    {
+      "id": "met-456967",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 456967,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/456967",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/456967",
+        "record_checked_on": "2026-11-12"
+      },
+      "facts": {
+        "title_original": "A Gathering of Holy Men of Different Faiths",
+        "title_ja_provisional": "異なる信仰の聖者たちの集い",
+        "artist": "Mir Kalan Khan",
+        "creation_date_display": "ca. 1770–75",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India, Lucknow (attributed)",
+        "accession_number": "2009.318"
+      },
+      "image": {
+        "image_id": "met-456967-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP213133.jpg",
+        "source_registry_id": "met-456967",
+        "local_path": "/artworks/met-456967.jpg",
+        "sha256": "3df4334dc3f8876d63793d733fe215d30a93719784279e63247d27713e2c6b0d",
+        "byte_length": 112400,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json",
+        "source_accession_number": "2009.318",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP213133.jpg",
+          "sha256": "630027a9e1bc784af304777608d70b5ce699703b8a131bec236864c9a3c0bd1f",
+          "byte_length": 2981899,
+          "width": 2923,
+          "height": 3848,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.34502",
+          "last_full_sha_checked_on": "2026-11-12",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "共同体",
+          "他者との距離"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/456967",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "18世紀インドの聖者たちの集まりを描いた細密画で、異なる伝統の人物を囲む空間と画家の移動を考えたい",
+              "reason": "Met作品別Overviewによると、異なる信仰の聖者たちが会する既存の有名なムガル絵画をもとにした図。主な人物は画面右からラヴィダース、セーナー、ナームデーヴ、アウガル、カマール、カビールと同定される。画家ミール・カラン・ハーンはムガル宮廷で学んでからラクナウへ移り、シュジャー・ウッダウラとアーサフ・ウッダウラの宮廷画家として模倣される画風を形成。この絵を実際に人物が一堂に会した記録と扱わない。所在地帰属はラクナウと推定。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "描かれた聖者たちが本当に同じ日時に集会した歴史的記録とは扱わない。画家の制作地はMetの『Attributed to India, Lucknow』として推定にとどめ、宗教的同一性や作者の信条を推測しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによると、異なる信仰の聖者たちが会する既存の有名なムガル絵画をもとにした図。主な人物は画面右からラヴィダース、セーナー、ナームデーヴ、アウガル、カマール、カビールと同定される。画家ミール・カラン・ハーンはムガル宮廷で学んでからラクナウへ移り、シュジャー・ウッダウラとアーサフ・ウッダウラの宮廷画家として模倣される画風を形成。この絵を実際に人物が一堂に会した記録と扱わない。所在地帰属はラクナウと推定。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/456967"
+          },
+          "creation_context": "ca. 1770–75; India, Lucknow (attributed); Opaque watercolor and gold on paper; accession 2009.318",
+          "visual_clues": "Met APIで作品に対応する原寸/表示JPEGを照合してサムネイルを直接確認。縦長の装飾的な額縁の内側に、緑の樹木と淡いアーチ状の建造物があり、その前で白い衣の人物を含む複数の男性が左右に向き合うように座る。金色の模様ある縁飾りも確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.345で対応確認。",
+          "uncertainty_note": "描かれた聖者たちが本当に同じ日時に集会した歴史的記録とは扱わない。画家の制作地はMetの『Attributed to India, Lucknow』として推定にとどめ、宗教的同一性や作者の信条を推測しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-12",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "緑の木々と淡い色の建物を背に、白い衣をまとった人々が向かい合うように座っています。頭上の枝、中央の入口、画面を囲む細かな装飾が、集まりの場をひとつの静かな空間としてまとめています。\n\nこの絵は、異なる信仰の聖者たちが集まるというムガル絵画の知られた構図を踏まえています。メトロポリタン美術館は、人物を右からラヴィダース、セーナー、ナームデーヴ、アウガル、カマール、カビールと同定しています。ただし、彼らがこの場所で実際に集まったことを記録した絵ではなく、先行する主題の描き直しです。\n\n画家ミール・カラン・ハーンはムガル宮廷で学んだ後、ラクナウへ移りました。そこで支配者たちに仕える宮廷画家として活動し、後に模倣される画風を築きました。人物同士の向きや間隔に注目すると、異なる伝統をもつ人々を一画面に配置する工夫が見えてきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/456967"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-12"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-456967-2026-11-12.json",
+        "audit_sha256": "645a6429751b1c4d94506309abd70dec531d136d0f6e04df9deac9bf1e1983ee",
+        "record_sha256": "74549dfb59b07b98da0444c617dec5e80b3fc8a0c0e555b4085dbfe4f94efbfc"
+      }
+    },
+    {
+      "id": "met-764091",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 764091,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/764091",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764091",
+        "record_checked_on": "2026-11-12"
+      },
+      "facts": {
+        "title_original": "Our Lady of Valvanera",
+        "title_ja_provisional": "バルバネラの聖母",
+        "artist": "Unknown Cuzco artist",
+        "creation_date_display": "ca. 1770–80",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Peru (Cuzco)",
+        "accession_number": "2018.652.3"
+      },
+      "image": {
+        "image_id": "met-764091-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-17034-002.jpg",
+        "source_registry_id": "met-764091",
+        "local_path": "/artworks/met-764091.jpg",
+        "sha256": "e35f4e42b0a2ea581d8a195063bde961b429442c944066f516c207688f9f34aa",
+        "byte_length": 113798,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json",
+        "source_accession_number": "2018.652.3",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-17034-002.jpg",
+          "sha256": "d0ad4fba62505f0afd2786cb428e70fa42ea4ad03eff98ae46debffe74504782",
+          "byte_length": 3540959,
+          "width": 4000,
+          "height": 3419,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 4.9602",
+          "last_full_sha_checked_on": "2026-11-12",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 1
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/764091",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "18世紀ペルー・クスコ派の聖母像に、樫の木・湧き水・鳥と巡礼地を織り込んだ宗教画の読み方を知りたい",
+              "reason": "Met作品別Overviewは、悔い改めて隠修士となった元盗賊ヌーニョ・オニェスが、幻視で示された樫の樹洞に隠されたバルバネラの聖母像を発見する逸話と説明。湧き水と蜜蜂が像の所在を知らせ、木々に描かれた鮮やかな熱帯鳥は伝説には登場しないが聖域を示す。左中景の教会はバルバネラ修道院。描写された山並みをスペインのラ・リオハの厳密な地理再現としない。所蔵館はフランドルの図像モデルによる可能性が高いとする。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "『発見』は伝承の物語として記す。ペルーの自然を忠実に写生したものと断定せず、人物のモデル特定や宗教的奇跡を歴史的事実として保証しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewは、悔い改めて隠修士となった元盗賊ヌーニョ・オニェスが、幻視で示された樫の樹洞に隠されたバルバネラの聖母像を発見する逸話と説明。湧き水と蜜蜂が像の所在を知らせ、木々に描かれた鮮やかな熱帯鳥は伝説には登場しないが聖域を示す。左中景の教会はバルバネラ修道院。描写された山並みをスペインのラ・リオハの厳密な地理再現としない。所蔵館はフランドルの図像モデルによる可能性が高いとする。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/764091"
+          },
+          "creation_context": "ca. 1770–80; Peru, Cuzco; Oil and gold on canvas; accession 2018.652.3",
+          "visual_clues": "Met APIの原寸/表示JPEGから生成されたサムネイルで中央の装飾的な冠をいただく聖母子が大きな木の幹の空洞のような場所に立つ。枝には赤や黄色の鳥、左側に屋根のある建物、右側に跪く黒褐色の衣の人物、背景には青い山と森がある。外側の黒い余白は画中の闇とは区別する。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.9602で対応確認。",
+          "uncertainty_note": "『発見』は伝承の物語として記す。ペルーの自然を忠実に写生したものと断定せず、人物のモデル特定や宗教的奇跡を歴史的事実として保証しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "畏敬"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-12",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "大きな樹木の下に、冠をいただいた聖母子の像が現れています。枝には鮮やかな色の鳥たちが止まり、左には建物、右には跪く人物が描かれています。遠くの山まで続く豊かな景色の中に、聖なる像を発見する物語が組み込まれています。\n\nこれは18世紀後半のペルー・クスコで描かれた《バルバネラの聖母》です。伝承によれば、かつて盗賊だったヌーニョ・オニェスは悔い改めて隠修士となり、幻視に導かれて聖母像を発見しました。聖母像は、樫の木の洞に隠されていたと伝えられています。湧き水と木の洞の蜜蜂が、その場所を知らせるしるしとなります。\n\n枝にいる色鮮やかな熱帯の鳥は、発見譚には登場しないものの、この場所の神聖さを伝えています。左に見える教会は、聖母像を祀るバルバネラ修道院です。山や木は実際の地形の忠実な記録というより、古い図像の伝統をもとに組み立てられた風景と考えられています。鳥と木と小さな人物をたどると、物語の発見の瞬間が見えてきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/764091"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-12"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-764091-2026-11-12.json",
+        "audit_sha256": "01294cb221f9c8d095524b29cc6cfe8058002b37f81e11a7aaa543e7301824c4",
+        "record_sha256": "a6d83135584e6072750e727df98ab214335b1b7123732ba41466905ced08aa82"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

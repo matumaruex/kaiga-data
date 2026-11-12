@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-44760",
+  "artwork": {
+    "id": "met-44760",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 44760,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/44760",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/44760",
+      "record_checked_on": "2026-11-12"
+    },
+    "facts": {
+      "title_original": "Birds and Flowers",
+      "title_ja_provisional": "花鳥図（十曲屏風）",
+      "artist": "Unidentified artist",
+      "creation_date_display": "late 19th–early 20th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Korea",
+      "accession_number": "1993.255"
+    },
+    "image": {
+      "image_id": "met-44760-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DT5031.jpg",
+      "source_registry_id": "met-44760",
+      "local_path": "/artworks/met-44760.jpg",
+      "sha256": "614072691e237efb3c9c2a9840392b91a6b5fe1c076be1799513c8dab9d3d731",
+      "byte_length": 81696,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json",
+      "source_accession_number": "1993.255",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DT5031.jpg",
+        "sha256": "fd87bd7db3d9e786dbbde3179bf5298ee711d4d575dec3970f8468cff75f5b5f",
+        "byte_length": 2429274,
+        "width": 3811,
+        "height": 2115,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 10.60524",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "期待"
+      ],
+      "emotion_strengths": {
+        "期待": 1
+      },
+      "tones": [
+        "落ち着き"
+      ],
+      "themes": [
+        "自然",
+        "愛情"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/44760",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "朝鮮王朝末期の花鳥画屏風で、鳥のつがいと季節の草花に込められた願いを眺めたい",
+            "reason": "Met作品別Overviewによると、朝鮮の花鳥画屏風は朝鮮王朝後期に普及し、20世紀まで人気があった。十曲の各扇には花木、草、葦などと一組以上の鳥のつがいが描かれ、虫や第5扇の水生生物も登場する。富・出世・長寿・子孫繁栄などの吉祥、鴛鴦などの雌雄対が婚礼や新婚の部屋にふさわしいとされた象徴を解説。特定の婚礼で実際に用いられたという来歴ではない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "十枚を独立作品として数えず一作品の十曲屏風として扱う。画中の鳥のつがいを全て鴛鴦だと決め付けず、婚礼で実際に使われたと断言しない。制作年代の範囲は19世紀末〜20世紀初頭のまま保つ。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによると、朝鮮の花鳥画屏風は朝鮮王朝後期に普及し、20世紀まで人気があった。十曲の各扇には花木、草、葦などと一組以上の鳥のつがいが描かれ、虫や第5扇の水生生物も登場する。富・出世・長寿・子孫繁栄などの吉祥、鴛鴦などの雌雄対が婚礼や新婚の部屋にふさわしいとされた象徴を解説。特定の婚礼で実際に用いられたという来歴ではない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/44760"
+        },
+        "creation_context": "late 19th–early 20th century; Korea, Joseon dynasty; Ten-panel folding screen; ink and color on silk; accession 1993.255",
+        "visual_clues": "Met APIの原寸・表示画像から作成した実画像サムネイルを確認。横長の十曲屏風が一画面に収まり、淡い黄土色の縦長パネルが十枚並び、各扇の足もとに植物の緑と鳥が点在し、枝や葦が上へ伸びる。幅広い屏風の縁は図柄の一部ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.6052で対応確認。",
+        "uncertainty_note": "十枚を独立作品として数えず一作品の十曲屏風として扱う。画中の鳥のつがいを全て鴛鴦だと決め付けず、婚礼で実際に使われたと断言しない。制作年代の範囲は19世紀末〜20世紀初頭のまま保つ。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "期待"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-12",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "淡い金色を帯びた十枚の画面に、花をつけた木や草、その周囲を行き交う鳥たちが描かれています。横に視線を動かすと、鳥の位置と植物の形が一枚ずつ変わり、屏風全体にゆるやかなリズムが生まれています。\n\n朝鮮王朝末期から20世紀初めにかけて作られた、作者不明の十曲屏風です。各扇には、植物のそばにいる一組以上の鳥のつがいが描かれています。鳥のほか、虫や水辺の生き物も加わり、自然の多彩な姿が細やかに表されています。\n\n花や鳥の多くの意匠は、富や長寿などを願う意味を帯びています。とりわけ雌雄の鳥が一緒にいる図柄は、婚礼や新婚の部屋にもふさわしいとされました。ただし、この屏風が特定の結婚式に使われたと分かっているわけではありません。一扇ずつ眺めた後、少し離れて十枚が作るつながりを見てみてください。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/44760"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-12"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-44760",
+    "title": "Birds and Flowers",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/44760",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/44760",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DT5031.jpg",
+      "sha256": "614072691e237efb3c9c2a9840392b91a6b5fe1c076be1799513c8dab9d3d731",
+      "byte_length": 81696,
+      "last_http_sha_checked_on": "2026-11-12",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DT5031.jpg",
+        "sha256": "fd87bd7db3d9e786dbbde3179bf5298ee711d4d575dec3970f8468cff75f5b5f",
+        "byte_length": 2429274,
+        "width": 3811,
+        "height": 2115,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 10.60524",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "1993.255"
+  }
+}

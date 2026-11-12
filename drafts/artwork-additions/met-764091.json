@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-764091",
+  "artwork": {
+    "id": "met-764091",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 764091,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/764091",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764091",
+      "record_checked_on": "2026-11-12"
+    },
+    "facts": {
+      "title_original": "Our Lady of Valvanera",
+      "title_ja_provisional": "バルバネラの聖母",
+      "artist": "Unknown Cuzco artist",
+      "creation_date_display": "ca. 1770–80",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Peru (Cuzco)",
+      "accession_number": "2018.652.3"
+    },
+    "image": {
+      "image_id": "met-764091-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-17034-002.jpg",
+      "source_registry_id": "met-764091",
+      "local_path": "/artworks/met-764091.jpg",
+      "sha256": "e35f4e42b0a2ea581d8a195063bde961b429442c944066f516c207688f9f34aa",
+      "byte_length": 113798,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json",
+      "source_accession_number": "2018.652.3",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-17034-002.jpg",
+        "sha256": "d0ad4fba62505f0afd2786cb428e70fa42ea4ad03eff98ae46debffe74504782",
+        "byte_length": 3540959,
+        "width": 4000,
+        "height": 3419,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 4.9602",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "畏敬": 1
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/764091",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "18世紀ペルー・クスコ派の聖母像に、樫の木・湧き水・鳥と巡礼地を織り込んだ宗教画の読み方を知りたい",
+            "reason": "Met作品別Overviewは、悔い改めて隠修士となった元盗賊ヌーニョ・オニェスが、幻視で示された樫の樹洞に隠されたバルバネラの聖母像を発見する逸話と説明。湧き水と蜜蜂が像の所在を知らせ、木々に描かれた鮮やかな熱帯鳥は伝説には登場しないが聖域を示す。左中景の教会はバルバネラ修道院。描写された山並みをスペインのラ・リオハの厳密な地理再現としない。所蔵館はフランドルの図像モデルによる可能性が高いとする。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "『発見』は伝承の物語として記す。ペルーの自然を忠実に写生したものと断定せず、人物のモデル特定や宗教的奇跡を歴史的事実として保証しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewは、悔い改めて隠修士となった元盗賊ヌーニョ・オニェスが、幻視で示された樫の樹洞に隠されたバルバネラの聖母像を発見する逸話と説明。湧き水と蜜蜂が像の所在を知らせ、木々に描かれた鮮やかな熱帯鳥は伝説には登場しないが聖域を示す。左中景の教会はバルバネラ修道院。描写された山並みをスペインのラ・リオハの厳密な地理再現としない。所蔵館はフランドルの図像モデルによる可能性が高いとする。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/764091"
+        },
+        "creation_context": "ca. 1770–80; Peru, Cuzco; Oil and gold on canvas; accession 2018.652.3",
+        "visual_clues": "Met APIの原寸/表示JPEGから生成されたサムネイルで中央の装飾的な冠をいただく聖母子が大きな木の幹の空洞のような場所に立つ。枝には赤や黄色の鳥、左側に屋根のある建物、右側に跪く黒褐色の衣の人物、背景には青い山と森がある。外側の黒い余白は画中の闇とは区別する。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.9602で対応確認。",
+        "uncertainty_note": "『発見』は伝承の物語として記す。ペルーの自然を忠実に写生したものと断定せず、人物のモデル特定や宗教的奇跡を歴史的事実として保証しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "畏敬"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-12",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "大きな樹木の下に、冠をいただいた聖母子の像が現れています。枝には鮮やかな色の鳥たちが止まり、左には建物、右には跪く人物が描かれています。遠くの山まで続く豊かな景色の中に、聖なる像を発見する物語が組み込まれています。\n\nこれは18世紀後半のペルー・クスコで描かれた《バルバネラの聖母》です。伝承によれば、かつて盗賊だったヌーニョ・オニェスは悔い改めて隠修士となり、幻視に導かれて聖母像を発見しました。聖母像は、樫の木の洞に隠されていたと伝えられています。湧き水と木の洞の蜜蜂が、その場所を知らせるしるしとなります。\n\n枝にいる色鮮やかな熱帯の鳥は、発見譚には登場しないものの、この場所の神聖さを伝えています。左に見える教会は、聖母像を祀るバルバネラ修道院です。山や木は実際の地形の忠実な記録というより、古い図像の伝統をもとに組み立てられた風景と考えられています。鳥と木と小さな人物をたどると、物語の発見の瞬間が見えてきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/764091"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-12"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-764091",
+    "title": "Our Lady of Valvanera",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/764091",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/764091",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-17034-002.jpg",
+      "sha256": "e35f4e42b0a2ea581d8a195063bde961b429442c944066f516c207688f9f34aa",
+      "byte_length": 113798,
+      "last_http_sha_checked_on": "2026-11-12",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-17034-002.jpg",
+        "sha256": "d0ad4fba62505f0afd2786cb428e70fa42ea4ad03eff98ae46debffe74504782",
+        "byte_length": 3540959,
+        "width": 4000,
+        "height": 3419,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 4.9602",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2018.652.3"
+  }
+}
