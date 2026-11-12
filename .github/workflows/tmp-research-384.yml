@@ -23,7 +23,7 @@ jobs:
           from pathlib import Path
           a=json.loads(Path('data/artworks.json').read_text())['artworks']
           byid={v['id']:v for v in a}
-          candidates=[12807,40429,825596,764089,825597,456967,44760,910556,764091,40431,57239,764095,309529,456968,40635,910555,825594,40430,40428,451022,764088,764090]
+          candidates=[910553,12807,40429,825596,764089,825597,456967,44760,910556,764091,40431,57239,764095,309529,456968,40635,910555,825594,40430,40428,451022,764088,764090]
           for number in candidates:
             ident='met-'+str(number)
             art=byid.get(ident)
@@ -36,7 +36,7 @@ jobs:
           python3 - <<'PY'
           import json,hashlib,urllib.request,urllib.error,io,math,datetime,time,base64
           from PIL import Image,ImageChops,ImageStat
-          ids=[12807,825596,764089]
+          ids=[910553,825596,764089]
           out={'research_date':'2026-11-12','works':[]}
           def fetch(url):
             for i in range(4):
