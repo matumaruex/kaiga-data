@@ -208,20 +208,15 @@ def main():
     for ident,spec in sorted(SPEC.items(),key=lambda x:x[1]["number"]):
         baseline={"artworks_sha256":sha("data/artworks.json"),"image_registry_sha256":sha("data/image-sources.json")}
         prepare(works[ident],spec,baseline)
-    state="""# 美術館データの再開地点
-
-## 現在の状態（2026-11-12時点）
+    state="""## 現在の状態（2026-11-12時点）
 
 - **完成登録：383作品**。main統合後の作品DBとREADMEを正本とする。
 - **次：384作品目から候補調査**。重複、Met作品別Overviewの実際の主張、JPEGと権利の照合を作品ごとに続ける。
 - 今回381〜383：`met-451023` リザーイー・アッバースィー《恋人たち》（1630年、イラン）、`met-74725`《イノシシを狩る君主と従者たち》（インド、18世紀初め）、`met-764086`《聖ボナヴェントゥラとパドヴァの聖アントニウス》（17世紀クスコ、作者はバシリオ本人でなくFollower）。
 - 各作品のMet作品別Overviewを直接読んで日本語解説の二つずつの主張に短い実際の英文を対応させた。Met API作品PD、Met Open Access画像CC0、現代の美術館文章の権利は分離して記録。
-- 原寸/表示JPEGの全バイトSHA256とバイト数、実寸、縮小RMS、**公式API画像から生成したサムネイルの実見**で画像照合。研究記録：[`381–383`画像監査](../artwork-research-evidence/met-381-383-2026-11-12.json)。
+- 原寸/表示JPEGの全バイトSHA256とバイト数、実寸、縮小RMS、**公式API画像から生成したサムネイルの実見**で画像照合。研究記録：[`381–383`画像監査](artwork-research-evidence/met-381-383-2026-11-12.json)。
 - 作品ごとの別工程監査は同じAIによるもので、外部専門家・人間の査読ではない。既存380作品と以前の画像台帳部分は変えない。
 
-## 過去の作業履歴
-
-日付別履歴・作品別の問題・PR・出典は [旧再開メモの全文](history/resume-artwork-work-through-2026-11-10.md) と [その後の更新履歴](history/resume-updates.md) に保管する。
 """
     temp=ROOT/"tmp-artwork-resume-381.md"
     temp.write_text(state,encoding="utf-8")
