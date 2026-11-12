@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-456967",
+  "artwork": {
+    "id": "met-456967",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 456967,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/456967",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/456967",
+      "record_checked_on": "2026-11-12"
+    },
+    "facts": {
+      "title_original": "A Gathering of Holy Men of Different Faiths",
+      "title_ja_provisional": "異なる信仰の聖者たちの集い",
+      "artist": "Mir Kalan Khan",
+      "creation_date_display": "ca. 1770–75",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "India, Lucknow (attributed)",
+      "accession_number": "2009.318"
+    },
+    "image": {
+      "image_id": "met-456967-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP213133.jpg",
+      "source_registry_id": "met-456967",
+      "local_path": "/artworks/met-456967.jpg",
+      "sha256": "3df4334dc3f8876d63793d733fe215d30a93719784279e63247d27713e2c6b0d",
+      "byte_length": 112400,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json",
+      "source_accession_number": "2009.318",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP213133.jpg",
+        "sha256": "630027a9e1bc784af304777608d70b5ce699703b8a131bec236864c9a3c0bd1f",
+        "byte_length": 2981899,
+        "width": 2923,
+        "height": 3848,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.34502",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "共同体",
+        "他者との距離"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/456967",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "18世紀インドの聖者たちの集まりを描いた細密画で、異なる伝統の人物を囲む空間と画家の移動を考えたい",
+            "reason": "Met作品別Overviewによると、異なる信仰の聖者たちが会する既存の有名なムガル絵画をもとにした図。主な人物は画面右からラヴィダース、セーナー、ナームデーヴ、アウガル、カマール、カビールと同定される。画家ミール・カラン・ハーンはムガル宮廷で学んでからラクナウへ移り、シュジャー・ウッダウラとアーサフ・ウッダウラの宮廷画家として模倣される画風を形成。この絵を実際に人物が一堂に会した記録と扱わない。所在地帰属はラクナウと推定。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "描かれた聖者たちが本当に同じ日時に集会した歴史的記録とは扱わない。画家の制作地はMetの『Attributed to India, Lucknow』として推定にとどめ、宗教的同一性や作者の信条を推測しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによると、異なる信仰の聖者たちが会する既存の有名なムガル絵画をもとにした図。主な人物は画面右からラヴィダース、セーナー、ナームデーヴ、アウガル、カマール、カビールと同定される。画家ミール・カラン・ハーンはムガル宮廷で学んでからラクナウへ移り、シュジャー・ウッダウラとアーサフ・ウッダウラの宮廷画家として模倣される画風を形成。この絵を実際に人物が一堂に会した記録と扱わない。所在地帰属はラクナウと推定。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/456967"
+        },
+        "creation_context": "ca. 1770–75; India, Lucknow (attributed); Opaque watercolor and gold on paper; accession 2009.318",
+        "visual_clues": "Met APIで作品に対応する原寸/表示JPEGを照合してサムネイルを直接確認。縦長の装飾的な額縁の内側に、緑の樹木と淡いアーチ状の建造物があり、その前で白い衣の人物を含む複数の男性が左右に向き合うように座る。金色の模様ある縁飾りも確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.345で対応確認。",
+        "uncertainty_note": "描かれた聖者たちが本当に同じ日時に集会した歴史的記録とは扱わない。画家の制作地はMetの『Attributed to India, Lucknow』として推定にとどめ、宗教的同一性や作者の信条を推測しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-12",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "緑の木々と淡い色の建物を背に、白い衣をまとった人々が向かい合うように座っています。頭上の枝、中央の入口、画面を囲む細かな装飾が、集まりの場をひとつの静かな空間としてまとめています。\n\nこの絵は、異なる信仰の聖者たちが集まるというムガル絵画の知られた構図を踏まえています。メトロポリタン美術館は、人物を右からラヴィダース、セーナー、ナームデーヴ、アウガル、カマール、カビールと同定しています。ただし、彼らがこの場所で実際に集まったことを記録した絵ではなく、先行する主題の描き直しです。\n\n画家ミール・カラン・ハーンはムガル宮廷で学んだ後、ラクナウへ移りました。そこで支配者たちに仕える宮廷画家として活動し、後に模倣される画風を築きました。人物同士の向きや間隔に注目すると、異なる伝統をもつ人々を一画面に配置する工夫が見えてきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/456967"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-12"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-456967",
+    "title": "A Gathering of Holy Men of Different Faiths",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/456967",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/456967",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP213133.jpg",
+      "sha256": "3df4334dc3f8876d63793d733fe215d30a93719784279e63247d27713e2c6b0d",
+      "byte_length": 112400,
+      "last_http_sha_checked_on": "2026-11-12",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP213133.jpg",
+        "sha256": "630027a9e1bc784af304777608d70b5ce699703b8a131bec236864c9a3c0bd1f",
+        "byte_length": 2981899,
+        "width": 2923,
+        "height": 3848,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.34502",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2009.318"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-764091",
+  "checked_on": "2026-11-12",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-764091.json",
+  "candidate_sha256": "8c6ac29ca70f294f75282748f9b40f66ae56569607fb389fcb4abc31114acee8",
+  "draft_path": "drafts/visitor-explanations/met-764091.json",
+  "draft_sha256": "cc100d5e1e38c9d6d0f0c7cb135322a76c7440814612abfdce9c18cb20796d66",
+  "baseline": {
+    "artworks_sha256": "95ddc8dc683dec34dd47707c56f0ae586bee17289277ed90e767aa865aaf8bc7",
+    "image_registry_sha256": "c4019d44c6dcfffaa80af9624bbf4b62beeb1ac026cd425419a09c9ea9b00e40"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/764091",
+      "source_excerpt": "Hidden in the hollow of an oak tree",
+      "visitor_claim": "聖母像は、樫の木の洞に隠されていたと伝えられています。",
+      "source_section": "Met exact artwork Overview: oak-tree hollow"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/764091",
+      "source_excerpt": "the brightly colored tropical birds in the tree’s branches",
+      "visitor_claim": "枝にいる色鮮やかな熱帯の鳥は、発見譚には登場しないものの、この場所の神聖さを伝えています。",
+      "source_section": "Met exact artwork Overview: tropical birds"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/764091",
+      "location": "Exact artwork Overview and Object Information: Met exact artwork Overview: oak-tree hollow; Met exact artwork Overview: tropical birds",
+      "finding": "Met作品別Overviewは、悔い改めて隠修士となった元盗賊ヌーニョ・オニェスが、幻視で示された樫の樹洞に隠されたバルバネラの聖母像を発見する逸話と説明。湧き水と蜜蜂が像の所在を知らせ、木々に描かれた鮮やかな熱帯鳥は伝説には登場しないが聖域を示す。左中景の教会はバルバネラ修道院。描写された山並みをスペインのラ・リオハの厳密な地理再現としない。所蔵館はフランドルの図像モデルによる可能性が高いとする。 Actual image observation: Met APIの原寸/表示JPEGから生成されたサムネイルで中央の装飾的な冠をいただく聖母子が大きな木の幹の空洞のような場所に立つ。枝には赤や黄色の鳥、左側に屋根のある建物、右側に跪く黒褐色の衣の人物、背景には青い山と森がある。外側の黒い余白は画中の闇とは区別する。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.9602で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/764091",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/764091",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/764091",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-764091 Our Lady of Valvanera; Unknown Cuzco artist; ca. 1770–80; accession 2018.652.3. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met APIの原寸/表示JPEGから生成されたサムネイルで中央の装飾的な冠をいただく聖母子が大きな木の幹の空洞のような場所に立つ。枝には赤や黄色の鳥、左側に屋根のある建物、右側に跪く黒褐色の衣の人物、背景には青い山と森がある。外側の黒い余白は画中の闇とは区別する。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.9602で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json",
+      "historical_interpretation": "Met作品別Overviewは、悔い改めて隠修士となった元盗賊ヌーニョ・オニェスが、幻視で示された樫の樹洞に隠されたバルバネラの聖母像を発見する逸話と説明。湧き水と蜜蜂が像の所在を知らせ、木々に描かれた鮮やかな熱帯鳥は伝説には登場しないが聖域を示す。左中景の教会はバルバネラ修道院。描写された山並みをスペインのラ・リオハの厳密な地理再現としない。所蔵館はフランドルの図像モデルによる可能性が高いとする。 Limits: 『発見』は伝承の物語として記す。ペルーの自然を忠実に写生したものと断定せず、人物のモデル特定や宗教的奇跡を歴史的事実として保証しない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['畏敬']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-17034-002.jpg",
+      "sha256": "e35f4e42b0a2ea581d8a195063bde961b429442c944066f516c207688f9f34aa",
+      "byte_length": 113798,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met APIの原寸/表示JPEGから生成されたサムネイルで中央の装飾的な冠をいただく聖母子が大きな木の幹の空洞のような場所に立つ。枝には赤や黄色の鳥、左側に屋根のある建物、右側に跪く黒褐色の衣の人物、背景には青い山と森がある。外側の黒い余白は画中の闇とは区別する。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.9602で対応確認。 Confirmed image belongs to Met artwork 764091, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-17034-002.jpg",
+      "sha256": "d0ad4fba62505f0afd2786cb428e70fa42ea4ad03eff98ae46debffe74504782",
+      "byte_length": 3540959,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met APIの原寸/表示JPEGから生成されたサムネイルで中央の装飾的な冠をいただく聖母子が大きな木の幹の空洞のような場所に立つ。枝には赤や黄色の鳥、左側に屋根のある建物、右側に跪く黒褐色の衣の人物、背景には青い山と森がある。外側の黒い余白は画中の闇とは区別する。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.9602で対応確認。 Confirmed image belongs to Met artwork 764091, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #389; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "For met-44760, one official primary JPEG shows the full ten-panel screen, not a single individual painting; for met-456967, the meeting is a painted iconographic theme rather than a documentary record."
+  ]
+}

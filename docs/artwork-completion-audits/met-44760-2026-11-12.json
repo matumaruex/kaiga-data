@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-44760",
+  "checked_on": "2026-11-12",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-44760.json",
+  "candidate_sha256": "bfcae631a3ded5fb8f56b75afb6ba9f847896c48728acc6c62e5bb976095a21b",
+  "draft_path": "drafts/visitor-explanations/met-44760.json",
+  "draft_sha256": "227af0f73f8f69b1dccc519e4ed4bc2ad592b56f0425ccd2f7399c1e1f115e39",
+  "baseline": {
+    "artworks_sha256": "421820882b35d10b51e4096ab11896fd24c1adb73b8d71b76e476a679bd77392",
+    "image_registry_sha256": "80aad60a3c9eed02b877b2d453a267b9c05ca87b6ffc5f8e60d9e3437a0f2cf6"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/44760",
+      "source_excerpt": "Each panel portrays one or more pairs of birds",
+      "visitor_claim": "各扇には、植物のそばにいる一組以上の鳥のつがいが描かれています。",
+      "source_section": "Met exact artwork Overview: bird pairs in each panel"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/44760",
+      "source_excerpt": "Many of the motifs have poetic meaning and embody wishes",
+      "visitor_claim": "花や鳥の多くの意匠は、富や長寿などを願う意味を帯びています。",
+      "source_section": "Met exact artwork Overview: auspicious motifs"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/44760",
+      "location": "Exact artwork Overview and Object Information: Met exact artwork Overview: bird pairs in each panel; Met exact artwork Overview: auspicious motifs",
+      "finding": "Met作品別Overviewによると、朝鮮の花鳥画屏風は朝鮮王朝後期に普及し、20世紀まで人気があった。十曲の各扇には花木、草、葦などと一組以上の鳥のつがいが描かれ、虫や第5扇の水生生物も登場する。富・出世・長寿・子孫繁栄などの吉祥、鴛鴦などの雌雄対が婚礼や新婚の部屋にふさわしいとされた象徴を解説。特定の婚礼で実際に用いられたという来歴ではない。 Actual image observation: Met APIの原寸・表示画像から作成した実画像サムネイルを確認。横長の十曲屏風が一画面に収まり、淡い黄土色の縦長パネルが十枚並び、各扇の足もとに植物の緑と鳥が点在し、枝や葦が上へ伸びる。幅広い屏風の縁は図柄の一部ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.6052で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/44760",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/44760",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/44760",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-44760 Birds and Flowers; Unidentified artist; late 19th–early 20th century; accession 1993.255. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met APIの原寸・表示画像から作成した実画像サムネイルを確認。横長の十曲屏風が一画面に収まり、淡い黄土色の縦長パネルが十枚並び、各扇の足もとに植物の緑と鳥が点在し、枝や葦が上へ伸びる。幅広い屏風の縁は図柄の一部ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.6052で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json",
+      "historical_interpretation": "Met作品別Overviewによると、朝鮮の花鳥画屏風は朝鮮王朝後期に普及し、20世紀まで人気があった。十曲の各扇には花木、草、葦などと一組以上の鳥のつがいが描かれ、虫や第5扇の水生生物も登場する。富・出世・長寿・子孫繁栄などの吉祥、鴛鴦などの雌雄対が婚礼や新婚の部屋にふさわしいとされた象徴を解説。特定の婚礼で実際に用いられたという来歴ではない。 Limits: 十枚を独立作品として数えず一作品の十曲屏風として扱う。画中の鳥のつがいを全て鴛鴦だと決め付けず、婚礼で実際に使われたと断言しない。制作年代の範囲は19世紀末〜20世紀初頭のまま保つ。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['期待']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DT5031.jpg",
+      "sha256": "614072691e237efb3c9c2a9840392b91a6b5fe1c076be1799513c8dab9d3d731",
+      "byte_length": 81696,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met APIの原寸・表示画像から作成した実画像サムネイルを確認。横長の十曲屏風が一画面に収まり、淡い黄土色の縦長パネルが十枚並び、各扇の足もとに植物の緑と鳥が点在し、枝や葦が上へ伸びる。幅広い屏風の縁は図柄の一部ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.6052で対応確認。 Confirmed image belongs to Met artwork 44760, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DT5031.jpg",
+      "sha256": "fd87bd7db3d9e786dbbde3179bf5298ee711d4d575dec3970f8468cff75f5b5f",
+      "byte_length": 2429274,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met APIの原寸・表示画像から作成した実画像サムネイルを確認。横長の十曲屏風が一画面に収まり、淡い黄土色の縦長パネルが十枚並び、各扇の足もとに植物の緑と鳥が点在し、枝や葦が上へ伸びる。幅広い屏風の縁は図柄の一部ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.6052で対応確認。 Confirmed image belongs to Met artwork 44760, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #387; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "For met-44760, one official primary JPEG shows the full ten-panel screen, not a single individual painting; for met-456967, the meeting is a painted iconographic theme rather than a documentary record."
+  ]
+}

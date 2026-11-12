@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-456967",
+  "checked_on": "2026-11-12",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-456967.json",
+  "candidate_sha256": "1543aada1489f293d62db3fd77ee2766b70cb24c4c8fa9de5dd47b6f4ce275b4",
+  "draft_path": "drafts/visitor-explanations/met-456967.json",
+  "draft_sha256": "a1d9c203a2355642f23193266ebefaca9661c3da61060597ba1a4eac1cafa1a0",
+  "baseline": {
+    "artworks_sha256": "5dbeb984852f13a9a444a0c0e892885832f73d85a2608ead2f5cfba8ef024b9e",
+    "image_registry_sha256": "efc8e545c701f9036d86f60a724937185a7c9b075ac49d06775d7fdc14d9b803"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/456967",
+      "source_excerpt": "based upon a well-known Mughal painting on the theme",
+      "visitor_claim": "この絵は、異なる信仰の聖者たちが集まるというムガル絵画の知られた構図を踏まえています。",
+      "source_section": "Met exact artwork Overview: source composition"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/456967",
+      "source_excerpt": "the artist Mir Kalan Khan moved to Lucknow",
+      "visitor_claim": "画家ミール・カラン・ハーンはムガル宮廷で学んだ後、ラクナウへ移りました。",
+      "source_section": "Met exact artwork Overview: court artist moved"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/456967",
+      "location": "Exact artwork Overview and Object Information: Met exact artwork Overview: source composition; Met exact artwork Overview: court artist moved",
+      "finding": "Met作品別Overviewによると、異なる信仰の聖者たちが会する既存の有名なムガル絵画をもとにした図。主な人物は画面右からラヴィダース、セーナー、ナームデーヴ、アウガル、カマール、カビールと同定される。画家ミール・カラン・ハーンはムガル宮廷で学んでからラクナウへ移り、シュジャー・ウッダウラとアーサフ・ウッダウラの宮廷画家として模倣される画風を形成。この絵を実際に人物が一堂に会した記録と扱わない。所在地帰属はラクナウと推定。 Actual image observation: Met APIで作品に対応する原寸/表示JPEGを照合してサムネイルを直接確認。縦長の装飾的な額縁の内側に、緑の樹木と淡いアーチ状の建造物があり、その前で白い衣の人物を含む複数の男性が左右に向き合うように座る。金色の模様ある縁飾りも確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.345で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/456967",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/456967",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/456967",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-456967 A Gathering of Holy Men of Different Faiths; Mir Kalan Khan; ca. 1770–75; accession 2009.318. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met APIで作品に対応する原寸/表示JPEGを照合してサムネイルを直接確認。縦長の装飾的な額縁の内側に、緑の樹木と淡いアーチ状の建造物があり、その前で白い衣の人物を含む複数の男性が左右に向き合うように座る。金色の模様ある縁飾りも確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.345で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-387-389-20261112/docs/artwork-research-evidence/met-387-389-2026-11-12.json",
+      "historical_interpretation": "Met作品別Overviewによると、異なる信仰の聖者たちが会する既存の有名なムガル絵画をもとにした図。主な人物は画面右からラヴィダース、セーナー、ナームデーヴ、アウガル、カマール、カビールと同定される。画家ミール・カラン・ハーンはムガル宮廷で学んでからラクナウへ移り、シュジャー・ウッダウラとアーサフ・ウッダウラの宮廷画家として模倣される画風を形成。この絵を実際に人物が一堂に会した記録と扱わない。所在地帰属はラクナウと推定。 Limits: 描かれた聖者たちが本当に同じ日時に集会した歴史的記録とは扱わない。画家の制作地はMetの『Attributed to India, Lucknow』として推定にとどめ、宗教的同一性や作者の信条を推測しない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/DP213133.jpg",
+      "sha256": "3df4334dc3f8876d63793d733fe215d30a93719784279e63247d27713e2c6b0d",
+      "byte_length": 112400,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met APIで作品に対応する原寸/表示JPEGを照合してサムネイルを直接確認。縦長の装飾的な額縁の内側に、緑の樹木と淡いアーチ状の建造物があり、その前で白い衣の人物を含む複数の男性が左右に向き合うように座る。金色の模様ある縁飾りも確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.345で対応確認。 Confirmed image belongs to Met artwork 456967, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/DP213133.jpg",
+      "sha256": "630027a9e1bc784af304777608d70b5ce699703b8a131bec236864c9a3c0bd1f",
+      "byte_length": 2981899,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met APIで作品に対応する原寸/表示JPEGを照合してサムネイルを直接確認。縦長の装飾的な額縁の内側に、緑の樹木と淡いアーチ状の建造物があり、その前で白い衣の人物を含む複数の男性が左右に向き合うように座る。金色の模様ある縁飾りも確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.345で対応確認。 Confirmed image belongs to Met artwork 456967, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #388; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "For met-44760, one official primary JPEG shows the full ten-panel screen, not a single individual painting; for met-456967, the meeting is a painted iconographic theme rather than a documentary record."
+  ]
+}
