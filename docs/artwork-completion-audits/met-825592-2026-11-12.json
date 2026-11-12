@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-825592",
+  "checked_on": "2026-11-12",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-825592.json",
+  "candidate_sha256": "9e8da59617083801b31d50ad158a7dd5bf5decd83ed565c29002ad3e32276af9",
+  "draft_path": "drafts/visitor-explanations/met-825592.json",
+  "draft_sha256": "d037c01ebb49ecac2be3b41e5e959a0917567ecd0e3948f8490c907494d8f10d",
+  "baseline": {
+    "artworks_sha256": "df5c0eb89caa2d449b2960e042a2390c5dbf311be0e3f813dc51e00de913ef02",
+    "image_registry_sha256": "7a59da504cc8a91692d38682156ad1b04cc328c4d614d508dec07b325e6e52d8"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/825592",
+      "source_excerpt": "many of whom appear to be under the influence of intoxicating substances",
+      "visitor_claim": "美術館は、集まった修行者の多くが酩酊させる物質の影響下にあるように見えると説明しています。",
+      "source_section": "Met exact artwork Overview: gathering of mystics and appearance of intoxication"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/825592",
+      "source_excerpt": "One group on the right prepares the mixture in a sieve",
+      "visitor_claim": "右側の一団は、ふるいを使って混合物を用意しています。",
+      "source_section": "Met exact artwork Overview: right-side preparation using a sieve"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/825592",
+      "location": "Exact artwork Overview and Object Information: Met exact artwork Overview: gathering of mystics and appearance of intoxication; Met exact artwork Overview: right-side preparation using a sieve",
+      "finding": "メトロポリタン美術館の個別Overviewによれば、1605〜10年頃のこの絵は多くが酩酊させる物質の影響を受けているように見える神秘主義の修行者（ダルヴィーシュ）たちの集まりを描く。画面右の一団はふるいで混合物を準備し、他の人物は体を傾けたり横たわったりする。美術館は宗教的な恍惚と無秩序との境界を曖昧にする題材と捉え、このようなジャンルが17・18世紀の絵画で広まった初期の例と説明する。使われた物質の種類、彼らの実際の酩酊、個人の信仰の深さは特定できない。 Actual image observation: Met作品APIの主JPEGから作った実画像サムネイルを確認。縦長の画面の内側に彩色された庭園、中央に背の高い木、その周囲には橙や緑、白の衣を着た男性の集団が座り、下方に体を傾けたり座り込む人物が重なる。幾何学的な石の台と淡金色の広い装飾枠が見える。実際の物質や人物心理を画像だけで判断しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.2239で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/825592",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/825592",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/825592",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-825592 A Gathering of Dervishes; Unidentified Indian artist; ca. 1605–10; accession 2022.177. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met作品APIの主JPEGから作った実画像サムネイルを確認。縦長の画面の内側に彩色された庭園、中央に背の高い木、その周囲には橙や緑、白の衣を着た男性の集団が座り、下方に体を傾けたり座り込む人物が重なる。幾何学的な石の台と淡金色の広い装飾枠が見える。実際の物質や人物心理を画像だけで判断しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.2239で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json",
+      "historical_interpretation": "メトロポリタン美術館の個別Overviewによれば、1605〜10年頃のこの絵は多くが酩酊させる物質の影響を受けているように見える神秘主義の修行者（ダルヴィーシュ）たちの集まりを描く。画面右の一団はふるいで混合物を準備し、他の人物は体を傾けたり横たわったりする。美術館は宗教的な恍惚と無秩序との境界を曖昧にする題材と捉え、このようなジャンルが17・18世紀の絵画で広まった初期の例と説明する。使われた物質の種類、彼らの実際の酩酊、個人の信仰の深さは特定できない。 Limits: 酩酊を歴史的な実録や特定薬物の摂取の確定事実として扱わない。宗教的な陶酔と酩酊の境界は美術館の解釈として記す。作者個人の価値判断を断定しない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-32127-001.jpg",
+      "sha256": "eaa417ecf70383fede104e8fbf5ae53d1b64e599059968ff2cb8f948c6c6f473",
+      "byte_length": 208317,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met作品APIの主JPEGから作った実画像サムネイルを確認。縦長の画面の内側に彩色された庭園、中央に背の高い木、その周囲には橙や緑、白の衣を着た男性の集団が座り、下方に体を傾けたり座り込む人物が重なる。幾何学的な石の台と淡金色の広い装飾枠が見える。実際の物質や人物心理を画像だけで判断しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.2239で対応確認。 Confirmed image belongs to Met artwork 825592, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/DP-32127-001.jpg",
+      "sha256": "ec51af8b9295b8dfca35403ea7584c1f60251b1be52c3085af4ec9746af35493",
+      "byte_length": 5316471,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "Met作品APIの主JPEGから作った実画像サムネイルを確認。縦長の画面の内側に彩色された庭園、中央に背の高い木、その周囲には橙や緑、白の衣を着た男性の集団が座り、下方に体を傾けたり座り込む人物が重なる。幾何学的な石の台と淡金色の広い装飾枠が見える。実際の物質や人物心理を画像だけで判断しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.2239で対応確認。 Confirmed image belongs to Met artwork 825592, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #396; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 825592 does not identify intoxicant type; 749135 wrathful deity is a wealth protector; 456968 blank book and unfinished chair are directly described in the exact Met Overview."
+  ]
+}

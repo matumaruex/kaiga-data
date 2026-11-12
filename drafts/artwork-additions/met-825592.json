@@ -1,0 +1,151 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-825592",
+  "artwork": {
+    "id": "met-825592",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 825592,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/825592",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/825592",
+      "record_checked_on": "2026-11-12"
+    },
+    "facts": {
+      "title_original": "A Gathering of Dervishes",
+      "title_ja_provisional": "修行者たちの集い",
+      "artist": "Unidentified Indian artist",
+      "creation_date_display": "ca. 1605–10",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "India, early 17th century",
+      "accession_number": "2022.177"
+    },
+    "image": {
+      "image_id": "met-825592-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-32127-001.jpg",
+      "source_registry_id": "met-825592",
+      "local_path": "/artworks/met-825592.jpg",
+      "sha256": "eaa417ecf70383fede104e8fbf5ae53d1b64e599059968ff2cb8f948c6c6f473",
+      "byte_length": 208317,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json",
+      "source_accession_number": "2022.177",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP-32127-001.jpg",
+        "sha256": "ec51af8b9295b8dfca35403ea7584c1f60251b1be52c3085af4ec9746af35493",
+        "byte_length": 5316471,
+        "width": 2950,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.22393",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "にぎわい",
+        "緊張"
+      ],
+      "themes": [
+        "共同体",
+        "他者との距離"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/825592",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "17世紀初めのインド細密画で、集まる修行者たちの身ぶりと宗教的陶酔の描き方を見たい",
+            "reason": "メトロポリタン美術館の個別Overviewによれば、1605〜10年頃のこの絵は多くが酩酊させる物質の影響を受けているように見える神秘主義の修行者（ダルヴィーシュ）たちの集まりを描く。画面右の一団はふるいで混合物を準備し、他の人物は体を傾けたり横たわったりする。美術館は宗教的な恍惚と無秩序との境界を曖昧にする題材と捉え、このようなジャンルが17・18世紀の絵画で広まった初期の例と説明する。使われた物質の種類、彼らの実際の酩酊、個人の信仰の深さは特定できない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "酩酊を歴史的な実録や特定薬物の摂取の確定事実として扱わない。宗教的な陶酔と酩酊の境界は美術館の解釈として記す。作者個人の価値判断を断定しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "メトロポリタン美術館の個別Overviewによれば、1605〜10年頃のこの絵は多くが酩酊させる物質の影響を受けているように見える神秘主義の修行者（ダルヴィーシュ）たちの集まりを描く。画面右の一団はふるいで混合物を準備し、他の人物は体を傾けたり横たわったりする。美術館は宗教的な恍惚と無秩序との境界を曖昧にする題材と捉え、このようなジャンルが17・18世紀の絵画で広まった初期の例と説明する。使われた物質の種類、彼らの実際の酩酊、個人の信仰の深さは特定できない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/825592"
+        },
+        "creation_context": "ca. 1605–10; India, early 17th century; Opaque color and gold on paper; accession 2022.177",
+        "visual_clues": "Met作品APIの主JPEGから作った実画像サムネイルを確認。縦長の画面の内側に彩色された庭園、中央に背の高い木、その周囲には橙や緑、白の衣を着た男性の集団が座り、下方に体を傾けたり座り込む人物が重なる。幾何学的な石の台と淡金色の広い装飾枠が見える。実際の物質や人物心理を画像だけで判断しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.2239で対応確認。",
+        "uncertainty_note": "酩酊を歴史的な実録や特定薬物の摂取の確定事実として扱わない。宗教的な陶酔と酩酊の境界は美術館の解釈として記す。作者個人の価値判断を断定しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-12",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "木の茂る庭に、色鮮やかな衣を着た修行者たちが集まっています。中央付近では人々が腰を下ろし、下方には体を大きく傾けたり、地面に座り込んだりする姿も見えます。同じ場所にいながら、ひとりひとりの身ぶりが異なることに目を向けてみてください。\n\n1605〜10年頃のインドで描かれた細密画です。美術館は、集まった修行者の多くが酩酊させる物質の影響下にあるように見えると説明しています。右側の一団は、ふるいを使って混合物を用意しています。こうした細部を通じて、修行者たちの集まりは通常の儀礼的な肖像とは違う雰囲気を帯びています。\n\nメトロポリタン美術館は、この絵が宗教的な恍惚と節度を失った状態との境目を曖昧にしていると考えています。ただし、具体的に何を用いていたのか、実際にどのような状態だったのかまで確定できるわけではありません。装飾的な庭の秩序と、自由な身ぶりの対照を見比べると、この作品の独特な表現が浮かびます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/825592"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-12"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-825592",
+    "title": "A Gathering of Dervishes",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/825592",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/825592",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-32127-001.jpg",
+      "sha256": "eaa417ecf70383fede104e8fbf5ae53d1b64e599059968ff2cb8f948c6c6f473",
+      "byte_length": 208317,
+      "last_http_sha_checked_on": "2026-11-12",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP-32127-001.jpg",
+        "sha256": "ec51af8b9295b8dfca35403ea7584c1f60251b1be52c3085af4ec9746af35493",
+        "byte_length": 5316471,
+        "width": 2950,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.22393",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2022.177"
+  }
+}

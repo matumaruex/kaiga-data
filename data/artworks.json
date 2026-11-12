@@ -48282,6 +48282,368 @@
         "audit_sha256": "8755ba2210b755adfef5a97f164e1e28c9798b967c37b6ee4e0552b335b779ea",
         "record_sha256": "7e4d0d4b373c0c29e0b4b9875a4ac23901113ed9fe52cca13662cf067b713d4e"
       }
+    },
+    {
+      "id": "met-825592",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 825592,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/825592",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/825592",
+        "record_checked_on": "2026-11-12"
+      },
+      "facts": {
+        "title_original": "A Gathering of Dervishes",
+        "title_ja_provisional": "修行者たちの集い",
+        "artist": "Unidentified Indian artist",
+        "creation_date_display": "ca. 1605–10",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India, early 17th century",
+        "accession_number": "2022.177"
+      },
+      "image": {
+        "image_id": "met-825592-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-32127-001.jpg",
+        "source_registry_id": "met-825592",
+        "local_path": "/artworks/met-825592.jpg",
+        "sha256": "eaa417ecf70383fede104e8fbf5ae53d1b64e599059968ff2cb8f948c6c6f473",
+        "byte_length": 208317,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json",
+        "source_accession_number": "2022.177",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP-32127-001.jpg",
+          "sha256": "ec51af8b9295b8dfca35403ea7584c1f60251b1be52c3085af4ec9746af35493",
+          "byte_length": 5316471,
+          "width": 2950,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.22393",
+          "last_full_sha_checked_on": "2026-11-12",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "にぎわい",
+          "緊張"
+        ],
+        "themes": [
+          "共同体",
+          "他者との距離"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/825592",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "17世紀初めのインド細密画で、集まる修行者たちの身ぶりと宗教的陶酔の描き方を見たい",
+              "reason": "メトロポリタン美術館の個別Overviewによれば、1605〜10年頃のこの絵は多くが酩酊させる物質の影響を受けているように見える神秘主義の修行者（ダルヴィーシュ）たちの集まりを描く。画面右の一団はふるいで混合物を準備し、他の人物は体を傾けたり横たわったりする。美術館は宗教的な恍惚と無秩序との境界を曖昧にする題材と捉え、このようなジャンルが17・18世紀の絵画で広まった初期の例と説明する。使われた物質の種類、彼らの実際の酩酊、個人の信仰の深さは特定できない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "酩酊を歴史的な実録や特定薬物の摂取の確定事実として扱わない。宗教的な陶酔と酩酊の境界は美術館の解釈として記す。作者個人の価値判断を断定しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "メトロポリタン美術館の個別Overviewによれば、1605〜10年頃のこの絵は多くが酩酊させる物質の影響を受けているように見える神秘主義の修行者（ダルヴィーシュ）たちの集まりを描く。画面右の一団はふるいで混合物を準備し、他の人物は体を傾けたり横たわったりする。美術館は宗教的な恍惚と無秩序との境界を曖昧にする題材と捉え、このようなジャンルが17・18世紀の絵画で広まった初期の例と説明する。使われた物質の種類、彼らの実際の酩酊、個人の信仰の深さは特定できない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/825592"
+          },
+          "creation_context": "ca. 1605–10; India, early 17th century; Opaque color and gold on paper; accession 2022.177",
+          "visual_clues": "Met作品APIの主JPEGから作った実画像サムネイルを確認。縦長の画面の内側に彩色された庭園、中央に背の高い木、その周囲には橙や緑、白の衣を着た男性の集団が座り、下方に体を傾けたり座り込む人物が重なる。幾何学的な石の台と淡金色の広い装飾枠が見える。実際の物質や人物心理を画像だけで判断しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.2239で対応確認。",
+          "uncertainty_note": "酩酊を歴史的な実録や特定薬物の摂取の確定事実として扱わない。宗教的な陶酔と酩酊の境界は美術館の解釈として記す。作者個人の価値判断を断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-12",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "木の茂る庭に、色鮮やかな衣を着た修行者たちが集まっています。中央付近では人々が腰を下ろし、下方には体を大きく傾けたり、地面に座り込んだりする姿も見えます。同じ場所にいながら、ひとりひとりの身ぶりが異なることに目を向けてみてください。\n\n1605〜10年頃のインドで描かれた細密画です。美術館は、集まった修行者の多くが酩酊させる物質の影響下にあるように見えると説明しています。右側の一団は、ふるいを使って混合物を用意しています。こうした細部を通じて、修行者たちの集まりは通常の儀礼的な肖像とは違う雰囲気を帯びています。\n\nメトロポリタン美術館は、この絵が宗教的な恍惚と節度を失った状態との境目を曖昧にしていると考えています。ただし、具体的に何を用いていたのか、実際にどのような状態だったのかまで確定できるわけではありません。装飾的な庭の秩序と、自由な身ぶりの対照を見比べると、この作品の独特な表現が浮かびます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/825592"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-12"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-825592-2026-11-12.json",
+        "audit_sha256": "05b7596ad112ea3d4ab7c97f01b978d722b571a9b1d39be3ce1c67020a947b05",
+        "record_sha256": "d9d2af8318bab82004a875380cab523ab30e855afe73229e14cd80147d8a30d7"
+      }
+    },
+    {
+      "id": "met-749135",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 749135,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/749135",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/749135",
+        "record_checked_on": "2026-11-12"
+      },
+      "facts": {
+        "title_original": "White Mahakala",
+        "title_ja_provisional": "白マハーカーラ",
+        "artist": "Unidentified Tibetan artist",
+        "creation_date_display": "ca. 18th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Tibet",
+        "accession_number": "2018.107"
+      },
+      "image": {
+        "image_id": "met-749135-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-16218-009.jpg",
+        "source_registry_id": "met-749135",
+        "local_path": "/artworks/met-749135.jpg",
+        "sha256": "65132a2db3c3841e26f4e639cf39e46b6e08d4e76b495a00be8040f1b55cb96c",
+        "byte_length": 203569,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json",
+        "source_accession_number": "2018.107",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-16218-009.jpg",
+          "sha256": "e330d8f8785ee5f26b06c2251b42764a0b7659eeac9f615233c94c07483c78f4",
+          "byte_length": 5284286,
+          "width": 2595,
+          "height": 3931,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 8.16103",
+          "last_full_sha_checked_on": "2026-11-12",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 1
+        },
+        "tones": [
+          "緊張",
+          "高揚"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/749135",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "チベット仏教の絵画で、六本の腕を持つ白マハーカーラと周囲の守護神たちの配置を読み解きたい",
+              "reason": "メトロポリタン美術館の個別Overviewによると、18世紀頃の木綿地に描かれた白マハーカーラ（シャドブジャ・シータ・マハーカーラ）は、チベット仏教で豊かさを願い祈られる尊格。中心像は三つの大きく見開いた恐ろしい目と六本の腕に武器を持ち、周囲には吉祥・守護を示す諸尊が配置される。上方には五仏が置かれ、中心像を見守る構成と説明。恐ろしげな形相は守護尊の図像であり人間の悪意や歴史的暴力の証拠としない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "『財を確実にもたらす』という効果を保証せず、チベット仏教の信仰上の役割として説明する。怒りの形相を悪意と単純視しない。作者の個人名は不明。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "メトロポリタン美術館の個別Overviewによると、18世紀頃の木綿地に描かれた白マハーカーラ（シャドブジャ・シータ・マハーカーラ）は、チベット仏教で豊かさを願い祈られる尊格。中心像は三つの大きく見開いた恐ろしい目と六本の腕に武器を持ち、周囲には吉祥・守護を示す諸尊が配置される。上方には五仏が置かれ、中心像を見守る構成と説明。恐ろしげな形相は守護尊の図像であり人間の悪意や歴史的暴力の証拠としない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/749135"
+          },
+          "creation_context": "ca. 18th century; Tibet; Distemper on cotton; accession 2018.107",
+          "visual_clues": "実際のMet API主表示JPEGサムネイルでは、縦長の画面中央に白い身体と複数の腕をもつ尊格があり、背後に赤い光背のようなもの。上部には五つほどの小さな座像が並び、下部には赤や黄の尊像が囲む。全体に濃い青緑の地と多彩な装飾を確認。個々の持物や手の位置は小画像だけで不確定としている。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.161で対応確認。",
+          "uncertainty_note": "『財を確実にもたらす』という効果を保証せず、チベット仏教の信仰上の役割として説明する。怒りの形相を悪意と単純視しない。作者の個人名は不明。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "畏敬"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-12",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "濃い青緑色の画面の中央に、白い身体を持つ尊格が表されています。赤い光背のまわりには小さな尊像が並び、上から下まで細かな模様と色彩で埋め尽くされています。まず中央の姿を見てから、周囲の人物へと視線を広げてみてください。\n\n白マハーカーラは、チベット仏教で豊かさを祈る際に信仰される尊格です。中心のマハーカーラは、三つの大きく見開いた目と六本の腕を持ちます。腕に携えた武器や厳しい表情は、人々を守る力を表す図像として用いられています。\n\n周囲には守護や吉祥に関わる諸尊が配され、上方には五人の仏が描かれています。怖そうに見える表情と、豊かさを願う役割が一つの姿に重なる点が、この絵の特徴です。信仰上の意味を知ったうえで色や配置を見直すと、中央と周囲のつながりが見えてきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/749135"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-12"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-749135-2026-11-12.json",
+        "audit_sha256": "fcb719d1f1db60c5e5eb212257df629f5b228e099ae6e30324e974cfb16b7554",
+        "record_sha256": "ab6e50848e6ceafc3e705708b2b1bfacd2ac654f0a13f07a1d5ce3eae6481aa3"
+      }
+    },
+    {
+      "id": "met-456968",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 456968,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/456968",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/456968",
+        "record_checked_on": "2026-11-12"
+      },
+      "facts": {
+        "title_original": "A Nobleman Reading",
+        "title_ja_provisional": "読書する貴族",
+        "artist": "Unidentified Mughal painter",
+        "creation_date_display": "ca. 1750–75",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India",
+        "accession_number": "2009.319a, b"
+      },
+      "image": {
+        "image_id": "met-456968-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP273292.jpg",
+        "source_registry_id": "met-456968",
+        "local_path": "/artworks/met-456968.jpg",
+        "sha256": "228b136411987b820cada10a6f21b613bbf81b1ffa99a21930340513046b8451",
+        "byte_length": 54090,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json",
+        "source_accession_number": "2009.319a, b",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP273292.jpg",
+          "sha256": "b41d3503eedfa1b9f91b6104842e381847deba4d0fe78e5d5fafa4269fa8ee94",
+          "byte_length": 2187540,
+          "width": 2418,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 3.76238",
+          "last_full_sha_checked_on": "2026-11-12",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "日常",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/456968",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "18世紀のインド細密画で、椅子が描かれていない未完成の肖像と空白の本を観察したい",
+              "reason": "Met個別Overviewによると、1750〜75年頃のこの未完成の人物画では椅子がまだ描かれていないので、読書するように座る人物は空中に浮くように見える。顔や手の点描的な陰影、衣の折り目は細部への注意を示す。ムガル宮廷肖像では所持品に囲まれた人物を描くことが多いが、ここでは文字のない本だけを手にしている。高期ムガル肖像が最盛期を過ぎても伝統は継続したと所蔵館は解説。画家名や書物の題名は不明。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "『読書』は題名上の呼称であり、白い本に実際の文章が書かれていると決め付けない。椅子の不在は未完成のためとMetが説明。作者を特定せず人物の身元も推測しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met個別Overviewによると、1750〜75年頃のこの未完成の人物画では椅子がまだ描かれていないので、読書するように座る人物は空中に浮くように見える。顔や手の点描的な陰影、衣の折り目は細部への注意を示す。ムガル宮廷肖像では所持品に囲まれた人物を描くことが多いが、ここでは文字のない本だけを手にしている。高期ムガル肖像が最盛期を過ぎても伝統は継続したと所蔵館は解説。画家名や書物の題名は不明。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/456968"
+          },
+          "creation_context": "ca. 1750–75; India; Opaque watercolor on paper; accession 2009.319a, b",
+          "visual_clues": "Met公式APIから得た実JPEGの縮小画像を見た。無地に近い明るい淡褐色の縦長紙面中央に、白色のターバンと縞の長衣をまとった髭のある男性が斜めに座り、両手で開いた白い本を持つ。椅子がなく足元と服の縁が空白の上に浮くように見える。顔と手の濃淡、小さな靴と細い輪郭線が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=3.7624で対応確認。",
+          "uncertainty_note": "『読書』は題名上の呼称であり、白い本に実際の文章が書かれていると決め付けない。椅子の不在は未完成のためとMetが説明。作者を特定せず人物の身元も推測しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-12",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "白い衣をまとった男性が、両手で開いた本を見つめています。ところが、その姿を支えるはずの椅子は見当たりません。この絵は未完成で、椅子がまだ描かれていないため、人物は空中に座るように見えます。淡い背景と細かな衣の線にも注目してみてください。\n\n1750〜75年頃のインドの人物画です。顔や手には細かな点を重ねた陰影があり、服の折り目も丁寧に表されています。一方で、背景や椅子などの周囲の描写は終わっておらず、制作の途中段階を見せる作品となっています。\n\nムガル宮廷の肖像では、人物の貴重な所持品を周りに描くことがよくありました。しかし、この人物は手に文字のない白い本だけを持っています。何を読む人物なのか、名前や本の題名は明らかではありません。描き込まれた部分と空白を見比べると、完成した肖像では見落としがちな制作の手順に目が向きます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/456968"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-12"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-456968-2026-11-12.json",
+        "audit_sha256": "14c09428b7a3fb9a42d12da34b481cfd8fdb8b264bbc037f2c7d6a89a56d48c9",
+        "record_sha256": "c5d800c3402cb345d15e7d3d0f6e5c25fee1b990c2958cb4c1e0ac5fe446ae73"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

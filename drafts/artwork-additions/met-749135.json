@@ -1,0 +1,151 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-749135",
+  "artwork": {
+    "id": "met-749135",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 749135,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/749135",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/749135",
+      "record_checked_on": "2026-11-12"
+    },
+    "facts": {
+      "title_original": "White Mahakala",
+      "title_ja_provisional": "白マハーカーラ",
+      "artist": "Unidentified Tibetan artist",
+      "creation_date_display": "ca. 18th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Tibet",
+      "accession_number": "2018.107"
+    },
+    "image": {
+      "image_id": "met-749135-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-16218-009.jpg",
+      "source_registry_id": "met-749135",
+      "local_path": "/artworks/met-749135.jpg",
+      "sha256": "65132a2db3c3841e26f4e639cf39e46b6e08d4e76b495a00be8040f1b55cb96c",
+      "byte_length": 203569,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json",
+      "source_accession_number": "2018.107",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-16218-009.jpg",
+        "sha256": "e330d8f8785ee5f26b06c2251b42764a0b7659eeac9f615233c94c07483c78f4",
+        "byte_length": 5284286,
+        "width": 2595,
+        "height": 3931,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 8.16103",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "畏敬": 1
+      },
+      "tones": [
+        "緊張",
+        "高揚"
+      ],
+      "themes": [
+        "共同体",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/749135",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "チベット仏教の絵画で、六本の腕を持つ白マハーカーラと周囲の守護神たちの配置を読み解きたい",
+            "reason": "メトロポリタン美術館の個別Overviewによると、18世紀頃の木綿地に描かれた白マハーカーラ（シャドブジャ・シータ・マハーカーラ）は、チベット仏教で豊かさを願い祈られる尊格。中心像は三つの大きく見開いた恐ろしい目と六本の腕に武器を持ち、周囲には吉祥・守護を示す諸尊が配置される。上方には五仏が置かれ、中心像を見守る構成と説明。恐ろしげな形相は守護尊の図像であり人間の悪意や歴史的暴力の証拠としない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "『財を確実にもたらす』という効果を保証せず、チベット仏教の信仰上の役割として説明する。怒りの形相を悪意と単純視しない。作者の個人名は不明。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "メトロポリタン美術館の個別Overviewによると、18世紀頃の木綿地に描かれた白マハーカーラ（シャドブジャ・シータ・マハーカーラ）は、チベット仏教で豊かさを願い祈られる尊格。中心像は三つの大きく見開いた恐ろしい目と六本の腕に武器を持ち、周囲には吉祥・守護を示す諸尊が配置される。上方には五仏が置かれ、中心像を見守る構成と説明。恐ろしげな形相は守護尊の図像であり人間の悪意や歴史的暴力の証拠としない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/749135"
+        },
+        "creation_context": "ca. 18th century; Tibet; Distemper on cotton; accession 2018.107",
+        "visual_clues": "実際のMet API主表示JPEGサムネイルでは、縦長の画面中央に白い身体と複数の腕をもつ尊格があり、背後に赤い光背のようなもの。上部には五つほどの小さな座像が並び、下部には赤や黄の尊像が囲む。全体に濃い青緑の地と多彩な装飾を確認。個々の持物や手の位置は小画像だけで不確定としている。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.161で対応確認。",
+        "uncertainty_note": "『財を確実にもたらす』という効果を保証せず、チベット仏教の信仰上の役割として説明する。怒りの形相を悪意と単純視しない。作者の個人名は不明。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "畏敬"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-12",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "濃い青緑色の画面の中央に、白い身体を持つ尊格が表されています。赤い光背のまわりには小さな尊像が並び、上から下まで細かな模様と色彩で埋め尽くされています。まず中央の姿を見てから、周囲の人物へと視線を広げてみてください。\n\n白マハーカーラは、チベット仏教で豊かさを祈る際に信仰される尊格です。中心のマハーカーラは、三つの大きく見開いた目と六本の腕を持ちます。腕に携えた武器や厳しい表情は、人々を守る力を表す図像として用いられています。\n\n周囲には守護や吉祥に関わる諸尊が配され、上方には五人の仏が描かれています。怖そうに見える表情と、豊かさを願う役割が一つの姿に重なる点が、この絵の特徴です。信仰上の意味を知ったうえで色や配置を見直すと、中央と周囲のつながりが見えてきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/749135"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-12"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-749135",
+    "title": "White Mahakala",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/749135",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/749135",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-16218-009.jpg",
+      "sha256": "65132a2db3c3841e26f4e639cf39e46b6e08d4e76b495a00be8040f1b55cb96c",
+      "byte_length": 203569,
+      "last_http_sha_checked_on": "2026-11-12",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-396-398-20261112/docs/artwork-research-evidence/met-396-398-2026-11-12.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-16218-009.jpg",
+        "sha256": "e330d8f8785ee5f26b06c2251b42764a0b7659eeac9f615233c94c07483c78f4",
+        "byte_length": 5284286,
+        "width": 2595,
+        "height": 3931,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 8.16103",
+        "last_full_sha_checked_on": "2026-11-12",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2018.107"
+  }
+}
