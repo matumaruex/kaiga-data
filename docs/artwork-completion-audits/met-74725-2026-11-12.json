@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-74725",
+  "checked_on": "2026-11-12",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-74725.json",
+  "candidate_sha256": "f2c8933b6ec6d328530b5acb1f7291d5b57e0c00825312fe2439a3cfbb8b941b",
+  "draft_path": "drafts/visitor-explanations/met-74725.json",
+  "draft_sha256": "8e6d209c4396130465a79ea69c9113c162185a846ecd1c08aca3963c44da5916",
+  "baseline": {
+    "artworks_sha256": "6574f4fc70613ca7c5a461b5adb5082654da0b2a18ec344ff8fd91e866868904",
+    "image_registry_sha256": "9ee8bb9e67cd573ab2b4171e3c37309c07d36a537602d4a0b5a449d6b2c01968"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/74725",
+      "source_excerpt": "The ruler, attended by standard bearers, appears twice in the composition",
+      "visitor_claim": "旗持ちを従えた君主が画面内に二度登場し、狩りの異なる場面を示しています。",
+      "source_section": "Overview: ruler repeated at two stages"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/74725",
+      "source_excerpt": "The aerial view, fluid action, and confidently executed figures",
+      "visitor_claim": "空から見下ろすような視点と、人馬の軽快な動きが特徴です。",
+      "source_section": "Overview: aerial view and movement"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/74725",
+      "location": "Exact artwork Overview and Object Information: Overview: ruler repeated at two stages; Overview: aerial view and movement",
+      "finding": "Metの作品別Overviewによると、輪光で示された君主と従者たちがイノシシを狩る場面。君主は旗持ちとともに画面内に二度描かれ、同一人物の異なる場面を示す。俯瞰図と軽快な動きが特長で、現場写生または別作品の下図であった可能性はあるが断定されていない。 Actual image observation: 横長の黄ばんだ紙に細い墨線で騎馬隊、徒歩の人々、イノシシが散在する。左上の建物と遠景の丘、小さく描かれた複数の群像と広い空白を確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.5013で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/74725",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-381-383-20261112/docs/artwork-research-evidence/met-381-383-2026-11-12.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/74725",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-381-383-20261112/docs/artwork-research-evidence/met-381-383-2026-11-12.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/74725",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-74725 A Maharana and His Retinue Hunting Boar; Unidentified Mewar court artist; early 18th century; accession 2008.359.46. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "横長の黄ばんだ紙に細い墨線で騎馬隊、徒歩の人々、イノシシが散在する。左上の建物と遠景の丘、小さく描かれた複数の群像と広い空白を確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.5013で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-381-383-20261112/docs/artwork-research-evidence/met-381-383-2026-11-12.json",
+      "historical_interpretation": "Metの作品別Overviewによると、輪光で示された君主と従者たちがイノシシを狩る場面。君主は旗持ちとともに画面内に二度描かれ、同一人物の異なる場面を示す。俯瞰図と軽快な動きが特長で、現場写生または別作品の下図であった可能性はあるが断定されていない。 Limits: 準備画や野外での実地写生を確定事実にしない。暴力性を描いているが作者本人の感情を推定しない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: []",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP166113.jpg",
+      "sha256": "80b8a63c0917bec7c2b24735cb60d2f2e170a327933635cb3a84f01f13c961e3",
+      "byte_length": 62358,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "横長の黄ばんだ紙に細い墨線で騎馬隊、徒歩の人々、イノシシが散在する。左上の建物と遠景の丘、小さく描かれた複数の群像と広い空白を確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.5013で対応確認。 Confirmed image belongs to Met artwork 74725, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP166113.jpg",
+      "sha256": "d0a395884548545ce64d9226d6395e8b15dde5ed8c2b08fa57e261573e930045",
+      "byte_length": 2319893,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "横長の黄ばんだ紙に細い墨線で騎馬隊、徒歩の人々、イノシシが散在する。左上の建物と遠景の丘、小さく描かれた複数の群像と広い空白を確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.5013で対応確認。 Confirmed image belongs to Met artwork 74725, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #382; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "For met-764086, Met webpage states Follower of Basilio Santa Cruz Pumacallao, although API artistDisplayName omits the attribution prefix."
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-451023",
+  "checked_on": "2026-11-12",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-451023.json",
+  "candidate_sha256": "1b6ab107899b5a30dc482908e63067627d9242c3862fdec98cb3d44486d45c62",
+  "draft_path": "drafts/visitor-explanations/met-451023.json",
+  "draft_sha256": "fafed34f9916fe4f0a4d42ebe11eea881f7543ec460a8bf184f5c301d8808c53",
+  "baseline": {
+    "artworks_sha256": "cef3040ba2adc115de0a4accfd7469c9bbe15e0b829fd35b86c18a68eff8118e",
+    "image_registry_sha256": "30a2e5d9f75b53ea2fc2cdd5ba5fb4ce2039310d83db60310fb9ed42c2c074eb"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/451023",
+      "source_excerpt": "with his inventive use of calligraphic line and unusual palette",
+      "visitor_claim": "書のように流れる線と独特な色彩をこの画家の特徴として説明しています。",
+      "source_section": "Overview: calligraphic line and palette"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/451023",
+      "source_excerpt": "the figures are inextricably bound together, merged volumes confined within one outline",
+      "visitor_claim": "二人の身体はひとつの輪郭の中で重なり、どこからが一方の形なのか曖昧になるほど密着しています。",
+      "source_section": "Overview: figures within one outline"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/451023",
+      "location": "Exact artwork Overview and Object Information: Overview: calligraphic line and palette; Overview: figures within one outline",
+      "finding": "メトロポリタン美術館の作品別Overviewは、リザーイー・アッバースィーの流麗な描線と独特な色彩、1630年のサファヴィー朝宮廷での官能的題材の扱いを説明する。寄り添う二人が一つの輪郭に収まる構図は美術館の指摘。人物の身元や作者の体験は資料にない。 Actual image observation: 縦長の紙面で、頭を寄せる二人が互いに腕を回し、青い帽子、緑と茶の衣服、金色の細い植物文様、左下の文字と器が見える。画像端の模様のある縁も確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=11.9825で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/451023",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-381-383-20261112/docs/artwork-research-evidence/met-381-383-2026-11-12.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/451023",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-381-383-20261112/docs/artwork-research-evidence/met-381-383-2026-11-12.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/451023",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-451023 The Lovers; Riza-yi 'Abbasi; dated 1039 AH/1630 CE; accession 50.164. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "縦長の紙面で、頭を寄せる二人が互いに腕を回し、青い帽子、緑と茶の衣服、金色の細い植物文様、左下の文字と器が見える。画像端の模様のある縁も確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=11.9825で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-381-383-20261112/docs/artwork-research-evidence/met-381-383-2026-11-12.json",
+      "historical_interpretation": "メトロポリタン美術館の作品別Overviewは、リザーイー・アッバースィーの流麗な描線と独特な色彩、1630年のサファヴィー朝宮廷での官能的題材の扱いを説明する。寄り添う二人が一つの輪郭に収まる構図は美術館の指摘。人物の身元や作者の体験は資料にない。 Limits: 二人の実在の身元や画家の私生活を断定しない。宮廷文化の解釈は所蔵館の記述として扱う。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['慈しみ']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/DP240654.jpg",
+      "sha256": "ca4e61bdd1b8b43b285f98693cbaaf475b4befa1def6a4f9fd950b400231d423",
+      "byte_length": 121178,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "縦長の紙面で、頭を寄せる二人が互いに腕を回し、青い帽子、緑と茶の衣服、金色の細い植物文様、左下の文字と器が見える。画像端の模様のある縁も確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=11.9825で対応確認。 Confirmed image belongs to Met artwork 451023, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/DP240654.jpg",
+      "sha256": "08465473f31802907e376402bc0c2b67694b11c31aff82c1d8b01eb490bc8708",
+      "byte_length": 2809795,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-12",
+      "observation": "縦長の紙面で、頭を寄せる二人が互いに腕を回し、青い帽子、緑と茶の衣服、金色の細い植物文様、左下の文字と器が見える。画像端の模様のある縁も確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=11.9825で対応確認。 Confirmed image belongs to Met artwork 451023, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #381; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "For met-764086, Met webpage states Follower of Basilio Santa Cruz Pumacallao, although API artistDisplayName omits the attribution prefix."
+  ]
+}
