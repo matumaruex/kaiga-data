@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-853195",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-853195.json",
+  "candidate_sha256": "327049d64a281f4672a4f6cfa7bcc08c164a0aedbbb52753aa71b93c7fbbb233",
+  "draft_path": "drafts/visitor-explanations/met-853195.json",
+  "draft_sha256": "ef12264cebdbb7f3e8c9c6271eb9ee419e4825ea1aa9c89d2c2bcb8a618a0c36",
+  "baseline": {
+    "artworks_sha256": "bd2e8ef75b7f8b0f62c7909a75dbb5012587f4839f4f2dc70b82264381c270d5",
+    "image_registry_sha256": "59f4be9402906a44be7e1e5135dd7ce40cd3212550dacaacb7c45b6742cbba6a"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853195",
+      "source_excerpt": "probably the reflection of the moon in the water below",
+      "visitor_claim": "美術館は、猿が水面に映った月の影をつかもうとしているのかもしれないと説明しています。",
+      "source_section": "Met exact Overview: only probable moon reflection"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853195",
+      "source_excerpt": "the delusional nature of the unawakened mind",
+      "visitor_claim": "水に映る月を求める猿は、禅の教えで、実体のないものにとらわれる心を表すことがあります。",
+      "source_section": "Met exact Overview: Zen teaching on delusion"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/853195",
+      "location": "Exact artwork Overview and Object Information: Met exact Overview: only probable moon reflection; Met exact Overview: Zen teaching on delusion",
+      "finding": "Met作品別Overviewは16世紀の画僧・雪村周継の水墨掛軸に、竹の近くの蔓からぶら下がった一匹のテナガザルが描かれ、下へ伸ばした左手は水面に映る月の影を捕まえようとしているのではないかと説明する。これは禅仏教で目覚めない心が実体のないものを追い求める愚かさを説く画題だとされる。ただし画面に月の反射が明確に描かれているとは断定せず、猿の意図もMetによる図像解釈として書く。雪村は東北で育ち、のちに鎌倉・小田原へ移り、当地の禅院や武家が収集した13世紀中国の牧谿らの画法を研究。右下には『周継』を示す朱印がある。 Actual image observation: Met公式APIの同作品の原寸・表示JPEGを全ダウンロード、ハッシュ・寸法・縮小RMSで照合し、真の主画像サムネイルを目視。縦長の掛軸の中央には淡墨の木か大きな竹と、下方の左寄りにふんわりした毛の猿が枝から垂れ、画面の右側には細い竹の葉。白い地の広い余白と上部の暗い枝がある。水面の月の反射は主画像で明確には見えないため、伝統図像に基づく解釈として扱う。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.0537で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853195",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853195",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853195",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-853195 Gibbon and Bamboo; Sesson Shūkei 雪村周継; 16th century; accession 2021.398.12. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式APIの同作品の原寸・表示JPEGを全ダウンロード、ハッシュ・寸法・縮小RMSで照合し、真の主画像サムネイルを目視。縦長の掛軸の中央には淡墨の木か大きな竹と、下方の左寄りにふんわりした毛の猿が枝から垂れ、画面の右側には細い竹の葉。白い地の広い余白と上部の暗い枝がある。水面の月の反射は主画像で明確には見えないため、伝統図像に基づく解釈として扱う。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.0537で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json",
+      "historical_interpretation": "Met作品別Overviewは16世紀の画僧・雪村周継の水墨掛軸に、竹の近くの蔓からぶら下がった一匹のテナガザルが描かれ、下へ伸ばした左手は水面に映る月の影を捕まえようとしているのではないかと説明する。これは禅仏教で目覚めない心が実体のないものを追い求める愚かさを説く画題だとされる。ただし画面に月の反射が明確に描かれているとは断定せず、猿の意図もMetによる図像解釈として書く。雪村は東北で育ち、のちに鎌倉・小田原へ移り、当地の禅院や武家が収集した13世紀中国の牧谿らの画法を研究。右下には『周継』を示す朱印がある。 Limits: 月や水面に映る反射が明瞭に描かれているかを断定しない。猿の思考や禅の教義は象徴として紹介し、実際に動物が『悟り』を求めると主張しない。画家の『雪村』は雪舟とは別人であることに注意。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-24407-002.jpg",
+      "sha256": "39fa301bfd3263e503a636a37901eba8687ec582cc5634b81eb53d44f7f22ece",
+      "byte_length": 96796,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの同作品の原寸・表示JPEGを全ダウンロード、ハッシュ・寸法・縮小RMSで照合し、真の主画像サムネイルを目視。縦長の掛軸の中央には淡墨の木か大きな竹と、下方の左寄りにふんわりした毛の猿が枝から垂れ、画面の右側には細い竹の葉。白い地の広い余白と上部の暗い枝がある。水面の月の反射は主画像で明確には見えないため、伝統図像に基づく解釈として扱う。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.0537で対応確認。 Confirmed image belongs to Met artwork 853195, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-24407-002.jpg",
+      "sha256": "003afc257e92199a4b080f78791329b4931bd9acef53ebe043af8ffc27ebefa6",
+      "byte_length": 2881827,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの同作品の原寸・表示JPEGを全ダウンロード、ハッシュ・寸法・縮小RMSで照合し、真の主画像サムネイルを目視。縦長の掛軸の中央には淡墨の木か大きな竹と、下方の左寄りにふんわりした毛の猿が枝から垂れ、画面の右側には細い竹の葉。白い地の広い余白と上部の暗い枝がある。水面の月の反射は主画像で明確には見えないため、伝統図像に基づく解釈として扱う。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.0537で対応確認。 Confirmed image belongs to Met artwork 853195, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #428; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 437180 is an oil-on-copper 1740 biblical scene honoring Le Moyne, and his earlier companion work is a distinct painting; Met 670983 could be Ōkyo’s preliminary ink draft or a sketchlike copy of a 1777 colored scroll, not the same scroll; Met 853195 suggests rather than shows the reflected moon and links the monkey to a traditional Zen metaphor."
+  ]
+}

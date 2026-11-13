@@ -51902,6 +51902,369 @@
         "audit_sha256": "772dc94ada025cc963fccc71b78cecf68a67bd6732be99d5297f7a3b75170e78",
         "record_sha256": "6ba917309e9e0668c49eb1b981d07a29c476e79661bc2b917211e2862aa08065"
       }
+    },
+    {
+      "id": "met-437180",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437180,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437180",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437180",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "The Rebuke of Adam and Eve",
+        "title_ja_provisional": "アダムとエヴァへの叱責",
+        "artist": "Charles Joseph Natoire",
+        "creation_date_display": "1740",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "France (eighteenth-century history painting)",
+        "accession_number": "1987.279"
+      },
+      "image": {
+        "image_id": "met-437180-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19456-001.jpg",
+        "source_registry_id": "met-437180",
+        "local_path": "/artworks/met-437180.jpg",
+        "sha256": "162475fc63a140ea4a953d9357ace80a1f50813f80e4a91a3ca75aedef3239f7",
+        "byte_length": 129664,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json",
+        "source_accession_number": "1987.279",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-19456-001.jpg",
+          "sha256": "f12b69174c99a4a5088b0b5698f232e4aa131aa0850ef9454e5e41f5e2c20436",
+          "byte_length": 4327937,
+          "width": 2991,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 4.33384",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "不安"
+        ],
+        "emotion_strengths": {
+          "不安": 1
+        },
+        "tones": [
+          "緊張",
+          "静けさ"
+        ],
+        "themes": [
+          "時間",
+          "他者との距離"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437180",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "エデンの園で叱責されるアダムとエヴァの姿を、涙や身振りと18世紀フランスの絵画表現から読みたい",
+              "reason": "Metの作品別Overviewは、1740年の銅板油彩をシャルル＝ジョゼフ・ナトワールが師フランソワ・ルモワーヌをたたえるために描いたとみられる作品として紹介する。大きさ・支持体が同じルモワーヌの別作品（禁断の果実をエヴァから受け取るアダムの場面）と対になる。絵では上方から天使と神がアダムとエヴァを叱責する。エヴァの頬に光る一粒の涙と柔らかな肌の赤みは、アダムの引き締まった筋肉と対照をなす。師への献呈の意図は所蔵館の解釈で、作者自身の記録の引用ではない。宗教物語の出来事を史実として断定しない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "ルモワーヌの絵と『対』として制作されたとMetが解説するが注文者・目的は推測を含む。禁断の果実を渡す場面そのものは別の絵に描かれ、ここでの主題は叱責。聖書の出来事を歴史的目撃記録として説明しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metの作品別Overviewは、1740年の銅板油彩をシャルル＝ジョゼフ・ナトワールが師フランソワ・ルモワーヌをたたえるために描いたとみられる作品として紹介する。大きさ・支持体が同じルモワーヌの別作品（禁断の果実をエヴァから受け取るアダムの場面）と対になる。絵では上方から天使と神がアダムとエヴァを叱責する。エヴァの頬に光る一粒の涙と柔らかな肌の赤みは、アダムの引き締まった筋肉と対照をなす。師への献呈の意図は所蔵館の解釈で、作者自身の記録の引用ではない。宗教物語の出来事を史実として断定しない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437180"
+          },
+          "creation_context": "1740; France (eighteenth-century history painting); Oil on copper; accession 1987.279",
+          "visual_clues": "Met公式APIによる同一作品の原寸・表示JPEGを全バイトで照合、縮小RMSと実際の主画像サムネイルを確認した。縦長の銅板絵画。上部左には雲に囲まれ赤い布を背にした厳しい表情の大きな人物、その下には翼ある使者。画面下部にエヴァが座り、右のアダムが両手を合わせる。二人の足元には動物と草があり、右上の木と遠くの風景が奥行きを生む。小画像の涙の細部はMetの解説に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.3338で対応確認。",
+          "uncertainty_note": "ルモワーヌの絵と『対』として制作されたとMetが解説するが注文者・目的は推測を含む。禁断の果実を渡す場面そのものは別の絵に描かれ、ここでの主題は叱責。聖書の出来事を歴史的目撃記録として説明しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "不安"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "木々の生い茂る園で、上から現れた人物に向かい、アダムが手を合わせています。エヴァは地面に座り、うつむきがちに顔を向けています。身体の力の入り方を見比べると、二人が同じ場面でも異なる姿で感情を表されていることが分かります。\n\nフランスの画家シャルル＝ジョゼフ・ナトワールが1740年に描いた《アダムとエヴァへの叱責》です。ナトワールは画家フランソワ・ルモワーヌの工房で学び、この作品も師への敬意を表すために描いたと美術館は考えています。ルモワーヌには、同じ大きさの銅板に、アダムがエヴァから禁断の果実を受け取る別の場面を描いた作品があります。\n\nエヴァの頬には涙が一粒光り、その柔らかな肌は、筋肉を強調したアダムの身体と対照をなしています。二人の身ぶりには、罪をめぐる聖書の物語だけでなく、18世紀の画家が人の感情をどう描いたかも表れています。これは宗教物語を題材にした絵であり、出来事を実際に見て描いた記録ではありません。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/437180"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-437180-2026-11-13.json",
+        "audit_sha256": "7b06c4d1cd8151ddaef09bbd36f155d4ef1d304ff4c6fde400fcd07af247e730",
+        "record_sha256": "97ed6e46f7e396a2851d6d854bd8949162ae2d091b2860dd0a12a25f3a0d0a22"
+      }
+    },
+    {
+      "id": "met-670983",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 670983,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/670983",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/670983",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Amusements in Kyoto in the Four Seasons",
+        "title_ja_provisional": "京都四季遊楽図巻",
+        "artist": "Maruyama Ōkyo 円山応挙",
+        "creation_date_display": "late 1770s–early 1780s",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2015.300.199"
+      },
+      "image": {
+        "image_id": "met-670983-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/2015_300_199_D1_Burke.jpg",
+        "source_registry_id": "met-670983",
+        "local_path": "/artworks/met-670983.jpg",
+        "sha256": "091c138afcdcdff1ec8b9dacb51fa2c200c6900990aa2108b564d40d41550d58",
+        "byte_length": 29952,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json",
+        "source_accession_number": "2015.300.199",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/2015_300_199_D1_Burke.jpg",
+          "sha256": "496a78ff7e64dfdfa44c91002f0af73b309589495bea8e199f3f110f9c8d1717",
+          "byte_length": 923069,
+          "width": 4000,
+          "height": 1053,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 6.89089",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "にぎわい",
+          "余韻"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/670983",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "江戸時代の京都の春の花見・夏の納涼・秋の盆踊り・冬の正月準備を巻物で追い、当時の人々の楽しみを探したい",
+              "reason": "Met個別作品Overviewによると円山応挙（1733～1795）は若い頃に京都の玩具店で働き、その後、和画に中国画と西洋の遠近法・写実を取り入れた円山派を創始した。この長さ約5.55メートルの墨画は、名古屋の徳川美術館に所蔵される1777年の彩色絵巻に対する下絵、またはそれを素描風に写した別本と説明され、どちらかは確定していない。場面は右から左へ、保津川沿いの春の桜見物、鴨川での夏の納涼、盆踊りに示される初秋、そして松の苗飾りを整える冬の新年準備へと続く。主画像は絵巻の全長を横長に表示し、人物は非常に小さく見えるが、各場面を拡大して観察できる。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "1777年の徳川美術館彩色本そのものとは別。習作か素描風模写かは所蔵館も二択で断定していない。全長を1枚に収めたMetの主JPEGでは人の細部が判読しづらいため、直接確認できた事実と学芸員解説を区別する。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met個別作品Overviewによると円山応挙（1733～1795）は若い頃に京都の玩具店で働き、その後、和画に中国画と西洋の遠近法・写実を取り入れた円山派を創始した。この長さ約5.55メートルの墨画は、名古屋の徳川美術館に所蔵される1777年の彩色絵巻に対する下絵、またはそれを素描風に写した別本と説明され、どちらかは確定していない。場面は右から左へ、保津川沿いの春の桜見物、鴨川での夏の納涼、盆踊りに示される初秋、そして松の苗飾りを整える冬の新年準備へと続く。主画像は絵巻の全長を横長に表示し、人物は非常に小さく見えるが、各場面を拡大して観察できる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/670983"
+          },
+          "creation_context": "late 1770s–early 1780s; Japan (Edo period); Handscroll; ink on paper; accession 2015.300.199",
+          "visual_clues": "Met APIの原寸・表示JPEGを完全取得して各SHA256/バイト数・サイズ・縮小RGB RMSで照合し、実際の公式主画像を確認。横に非常に長い黄土色の巻物全景に、灰墨の細い人物や木々・建築・舟などが途切れず描かれる。主サムネイルでは各人の細部を特定できないので四季の場面と位置はMet公式作品別Overviewを根拠にした。全長554.8cmの巻物を一作品として扱い、複数画像を別作品としては数えない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.8909で対応確認。",
+          "uncertainty_note": "1777年の徳川美術館彩色本そのものとは別。習作か素描風模写かは所蔵館も二択で断定していない。全長を1枚に収めたMetの主JPEGでは人の細部が判読しづらいため、直接確認できた事実と学芸員解説を区別する。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "横に長い巻物を右から左へ追うと、京都の人々の暮らしが季節とともに移っていきます。春には保津川の岸で桜を楽しみ、夏には鴨川の水辺で涼みます。初秋には盆踊りが描かれ、冬には新年に向けた松の飾りを整える姿が続きます。\n\n作者は江戸時代の京都で活躍した円山応挙です。応挙は中国画の技法や西洋の遠近法にも学び、人物や風景をいきいきと描く円山派を築きました。この絵巻は1770年代後半から1780年代初めの墨画で、徳川美術館にある1777年の彩色版の下絵、またはそれを素描風に写した別の絵と考えられています。どちらなのかは決まっていません。\n\n巻物には一度にすべてを見る絵とは違い、少しずつ開きながら場面に出会う楽しみがあります。墨の細い線で表された人々の姿をたどると、京都の四季の楽しみが連続する時間として感じられます。ここに表示される全景画像では一人ひとりは小さく見えるため、拡大して探すのも面白いでしょう。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/670983"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-670983-2026-11-13.json",
+        "audit_sha256": "3a9428740033d5306eaa813b481d5d8cf2b364edd6d04ccf968859ca0beda0a0",
+        "record_sha256": "91fdcf84ee3e2dd14b18c0a21583241b95d96eac7ce8b1dd7c234f591a1b9b29"
+      }
+    },
+    {
+      "id": "met-853195",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 853195,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/853195",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853195",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Gibbon and Bamboo",
+        "title_ja_provisional": "竹猿猴図",
+        "artist": "Sesson Shūkei 雪村周継",
+        "creation_date_display": "16th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2021.398.12"
+      },
+      "image": {
+        "image_id": "met-853195-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-24407-002.jpg",
+        "source_registry_id": "met-853195",
+        "local_path": "/artworks/met-853195.jpg",
+        "sha256": "39fa301bfd3263e503a636a37901eba8687ec582cc5634b81eb53d44f7f22ece",
+        "byte_length": 96796,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json",
+        "source_accession_number": "2021.398.12",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-24407-002.jpg",
+          "sha256": "003afc257e92199a4b080f78791329b4931bd9acef53ebe043af8ffc27ebefa6",
+          "byte_length": 2881827,
+          "width": 2998,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 5.05368",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/853195",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "墨一色の竹と猿の絵で、猿の手が水面に届かない理由と禅の『水の月』のたとえを味わいたい",
+              "reason": "Met作品別Overviewは16世紀の画僧・雪村周継の水墨掛軸に、竹の近くの蔓からぶら下がった一匹のテナガザルが描かれ、下へ伸ばした左手は水面に映る月の影を捕まえようとしているのではないかと説明する。これは禅仏教で目覚めない心が実体のないものを追い求める愚かさを説く画題だとされる。ただし画面に月の反射が明確に描かれているとは断定せず、猿の意図もMetによる図像解釈として書く。雪村は東北で育ち、のちに鎌倉・小田原へ移り、当地の禅院や武家が収集した13世紀中国の牧谿らの画法を研究。右下には『周継』を示す朱印がある。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "月や水面に映る反射が明瞭に描かれているかを断定しない。猿の思考や禅の教義は象徴として紹介し、実際に動物が『悟り』を求めると主張しない。画家の『雪村』は雪舟とは別人であることに注意。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewは16世紀の画僧・雪村周継の水墨掛軸に、竹の近くの蔓からぶら下がった一匹のテナガザルが描かれ、下へ伸ばした左手は水面に映る月の影を捕まえようとしているのではないかと説明する。これは禅仏教で目覚めない心が実体のないものを追い求める愚かさを説く画題だとされる。ただし画面に月の反射が明確に描かれているとは断定せず、猿の意図もMetによる図像解釈として書く。雪村は東北で育ち、のちに鎌倉・小田原へ移り、当地の禅院や武家が収集した13世紀中国の牧谿らの画法を研究。右下には『周継』を示す朱印がある。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/853195"
+          },
+          "creation_context": "16th century; Japan (sixteenth-century ink painting); Hanging scroll; ink on paper; accession 2021.398.12",
+          "visual_clues": "Met公式APIの同作品の原寸・表示JPEGを全ダウンロード、ハッシュ・寸法・縮小RMSで照合し、真の主画像サムネイルを目視。縦長の掛軸の中央には淡墨の木か大きな竹と、下方の左寄りにふんわりした毛の猿が枝から垂れ、画面の右側には細い竹の葉。白い地の広い余白と上部の暗い枝がある。水面の月の反射は主画像で明確には見えないため、伝統図像に基づく解釈として扱う。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.0537で対応確認。",
+          "uncertainty_note": "月や水面に映る反射が明瞭に描かれているかを断定しない。猿の思考や禅の教義は象徴として紹介し、実際に動物が『悟り』を求めると主張しない。画家の『雪村』は雪舟とは別人であることに注意。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "白い余白の中で、毛のふわりとしたテナガザルが蔓にぶら下がっています。近くには細く伸びる竹の葉。猿は片手を下へ伸ばしていますが、その先に何があるのか、画面からははっきり分かりません。墨の濃淡だけで、柔らかな毛と細い枝が描き分けられています。\n\nこの絵は16世紀の画僧・雪村周継による《竹猿猴図》です。美術館は、猿が水面に映った月の影をつかもうとしているのかもしれないと説明しています。水に映る月を求める猿は、禅の教えで、実体のないものにとらわれる心を表すことがあります。ただし、この絵で月の姿がはっきり見えるわけではありません。\n\n雪村は中国の画家・牧谿らの水墨画を研究し、独自の表現を育てました。画面右下には『周継』と読める朱印も残ります。猿が手を伸ばす先の余白に目を向けると、見えているものと想像するものの間に、この絵の面白さがあるように感じられます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/853195"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-853195-2026-11-13.json",
+        "audit_sha256": "897a071c021e5cfc334be13ce0e84ef545cb30ed157b2ac645e88189228f3556",
+        "record_sha256": "0138267d4779c9f4156c194a7eb6095359b012fc55057427972016e92703cd05"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

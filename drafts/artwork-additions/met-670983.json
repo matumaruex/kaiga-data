@@ -1,0 +1,151 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-670983",
+  "artwork": {
+    "id": "met-670983",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 670983,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/670983",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/670983",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Amusements in Kyoto in the Four Seasons",
+      "title_ja_provisional": "京都四季遊楽図巻",
+      "artist": "Maruyama Ōkyo 円山応挙",
+      "creation_date_display": "late 1770s–early 1780s",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "2015.300.199"
+    },
+    "image": {
+      "image_id": "met-670983-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/2015_300_199_D1_Burke.jpg",
+      "source_registry_id": "met-670983",
+      "local_path": "/artworks/met-670983.jpg",
+      "sha256": "091c138afcdcdff1ec8b9dacb51fa2c200c6900990aa2108b564d40d41550d58",
+      "byte_length": 29952,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json",
+      "source_accession_number": "2015.300.199",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/2015_300_199_D1_Burke.jpg",
+        "sha256": "496a78ff7e64dfdfa44c91002f0af73b309589495bea8e199f3f110f9c8d1717",
+        "byte_length": 923069,
+        "width": 4000,
+        "height": 1053,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 6.89089",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "にぎわい",
+        "余韻"
+      ],
+      "themes": [
+        "共同体",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/670983",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "江戸時代の京都の春の花見・夏の納涼・秋の盆踊り・冬の正月準備を巻物で追い、当時の人々の楽しみを探したい",
+            "reason": "Met個別作品Overviewによると円山応挙（1733～1795）は若い頃に京都の玩具店で働き、その後、和画に中国画と西洋の遠近法・写実を取り入れた円山派を創始した。この長さ約5.55メートルの墨画は、名古屋の徳川美術館に所蔵される1777年の彩色絵巻に対する下絵、またはそれを素描風に写した別本と説明され、どちらかは確定していない。場面は右から左へ、保津川沿いの春の桜見物、鴨川での夏の納涼、盆踊りに示される初秋、そして松の苗飾りを整える冬の新年準備へと続く。主画像は絵巻の全長を横長に表示し、人物は非常に小さく見えるが、各場面を拡大して観察できる。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "1777年の徳川美術館彩色本そのものとは別。習作か素描風模写かは所蔵館も二択で断定していない。全長を1枚に収めたMetの主JPEGでは人の細部が判読しづらいため、直接確認できた事実と学芸員解説を区別する。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met個別作品Overviewによると円山応挙（1733～1795）は若い頃に京都の玩具店で働き、その後、和画に中国画と西洋の遠近法・写実を取り入れた円山派を創始した。この長さ約5.55メートルの墨画は、名古屋の徳川美術館に所蔵される1777年の彩色絵巻に対する下絵、またはそれを素描風に写した別本と説明され、どちらかは確定していない。場面は右から左へ、保津川沿いの春の桜見物、鴨川での夏の納涼、盆踊りに示される初秋、そして松の苗飾りを整える冬の新年準備へと続く。主画像は絵巻の全長を横長に表示し、人物は非常に小さく見えるが、各場面を拡大して観察できる。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/670983"
+        },
+        "creation_context": "late 1770s–early 1780s; Japan (Edo period); Handscroll; ink on paper; accession 2015.300.199",
+        "visual_clues": "Met APIの原寸・表示JPEGを完全取得して各SHA256/バイト数・サイズ・縮小RGB RMSで照合し、実際の公式主画像を確認。横に非常に長い黄土色の巻物全景に、灰墨の細い人物や木々・建築・舟などが途切れず描かれる。主サムネイルでは各人の細部を特定できないので四季の場面と位置はMet公式作品別Overviewを根拠にした。全長554.8cmの巻物を一作品として扱い、複数画像を別作品としては数えない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.8909で対応確認。",
+        "uncertainty_note": "1777年の徳川美術館彩色本そのものとは別。習作か素描風模写かは所蔵館も二択で断定していない。全長を1枚に収めたMetの主JPEGでは人の細部が判読しづらいため、直接確認できた事実と学芸員解説を区別する。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "横に長い巻物を右から左へ追うと、京都の人々の暮らしが季節とともに移っていきます。春には保津川の岸で桜を楽しみ、夏には鴨川の水辺で涼みます。初秋には盆踊りが描かれ、冬には新年に向けた松の飾りを整える姿が続きます。\n\n作者は江戸時代の京都で活躍した円山応挙です。応挙は中国画の技法や西洋の遠近法にも学び、人物や風景をいきいきと描く円山派を築きました。この絵巻は1770年代後半から1780年代初めの墨画で、徳川美術館にある1777年の彩色版の下絵、またはそれを素描風に写した別の絵と考えられています。どちらなのかは決まっていません。\n\n巻物には一度にすべてを見る絵とは違い、少しずつ開きながら場面に出会う楽しみがあります。墨の細い線で表された人々の姿をたどると、京都の四季の楽しみが連続する時間として感じられます。ここに表示される全景画像では一人ひとりは小さく見えるため、拡大して探すのも面白いでしょう。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/670983"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-670983",
+    "title": "Amusements in Kyoto in the Four Seasons",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/670983",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/670983",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/2015_300_199_D1_Burke.jpg",
+      "sha256": "091c138afcdcdff1ec8b9dacb51fa2c200c6900990aa2108b564d40d41550d58",
+      "byte_length": 29952,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/2015_300_199_D1_Burke.jpg",
+        "sha256": "496a78ff7e64dfdfa44c91002f0af73b309589495bea8e199f3f110f9c8d1717",
+        "byte_length": 923069,
+        "width": 4000,
+        "height": 1053,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 6.89089",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2015.300.199"
+  }
+}
