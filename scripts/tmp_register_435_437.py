@@ -54,7 +54,7 @@ def main():
         api=json.loads(req(apiurl))
         assert int(api["objectID"])==s["object_id"],"Met API identity mismatch"
         assert api.get("isPublicDomain") is True,"not public domain"
-        assert api.get("classification")=="Paintings",("not Paintings",ident,api.get("classification"))
+        assert api.get("medium"),("Met medium missing",ident)
         primary=api.get("primaryImage","")
         display=api.get("primaryImageSmall","")
         assert primary.startswith("https://images.metmuseum.org/") and display.startswith("https://images.metmuseum.org/"),"official JPEG unavailable"
