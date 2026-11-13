@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-437013",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-437013.json",
+  "candidate_sha256": "c7215bb44e11670501e0b79b0fdabd9a2f29100aa2ddf0a2a5c91bcbbb478c05",
+  "draft_path": "drafts/visitor-explanations/met-437013.json",
+  "draft_sha256": "54681c006d77ecff67502fa629fcc6dff96348f700f94963cff81068f89f16a3",
+  "baseline": {
+    "artworks_sha256": "6175953483c96e36c727d79e511fdcc9d6329845a691833bbb326297a7eb90d9",
+    "image_registry_sha256": "89a96456a7ad8acf2b91b01393b5ffd7c657b56f40fd244e580b158bae1bca65"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437013",
+      "source_excerpt": "One advantage of the medium was ease of transport",
+      "visitor_claim": "こうした小型の絵は運びやすく、個人の祈りのために広く作られましたが、布に描かれたものは今日では珍しくなっています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437013",
+      "source_excerpt": "Eight surviving examples show this tender Virgin gazing at the Christ Child",
+      "visitor_claim": "メトロポリタン美術館によると、同じ構図の現存例は8点確認されています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437013",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "Met作品別Overviewによると、16世紀初めのアントウェルペンで制作された、亜麻布にテンペラと金で描く小型の聖母子像。当時こうした持ち運びやすい絵は祈りのために多数生産されたが、布絵は今日あまり残っていない。現存する同系統の8点は、授乳を求める幼子を見下ろす聖母を描き、周囲を囲む祈祷文は無原罪の御宿りに関するもの。この祈祷文を唱えることに贖宥（免償）が認められたという宗教史的説明がある。実際に誰が所有し、どの場所で祈ったかは不明。 Visual: 縦長の小さな金色の絵。青い衣の聖母が幼子を胸に抱き、幼子が乳を求めて手を伸ばす。聖母は目を下に向けている。聖母子の周囲に金の光背、細かい金色模様の背景があり、青い字の祈りの文がアーチ状に上と左右を囲む。Metの公式作品画像を直接実見。 Limits: 祈りの文の宗教的効力を現在の事実として保証しない。『8点』はMetが述べる同類の現存例であり、この作の版画原版や絵の制作総数ではない。作者個人や原所有者は不明。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437013",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-437013: API objectID=437013, primary JPEG full downloaded and verified; RMS=10.1416",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437013",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=10.1416."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437013",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and work-specific official museum image when accessible or matching public thumbnail, plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-437013 Virgin and Child / Netherlandish (Antwerp) Painter / Unknown date / 45.170.1",
+      "image_match": "縦長の小さな金色の絵。青い衣の聖母が幼子を胸に抱き、幼子が乳を求めて手を伸ばす。聖母は目を下に向けている。聖母子の周囲に金の光背、細かい金色模様の背景があり、青い字の祈りの文がアーチ状に上と左右を囲む。Metの公式作品画像を直接実見。 Both primary JPEG variants fully downloaded and match (RMS=10.1416).",
+      "historical_interpretation": "Met作品別Overviewによると、16世紀初めのアントウェルペンで制作された、亜麻布にテンペラと金で描く小型の聖母子像。当時こうした持ち運びやすい絵は祈りのために多数生産されたが、布絵は今日あまり残っていない。現存する同系統の8点は、授乳を求める幼子を見下ろす聖母を描き、周囲を囲む祈祷文は無原罪の御宿りに関するもの。この祈祷文を唱えることに贖宥（免償）が認められたという宗教史的説明がある。実際に誰が所有し、どの場所で祈ったかは不明。 Cautions: 祈りの文の宗教的効力を現在の事実として保証しない。『8点』はMetが述べる同類の現存例であり、この作の版画原版や絵の制作総数ではない。作者個人や原所有者は不明。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['慈しみ', '安心']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19629-001.jpg",
+      "sha256": "9b674b3f8dd869431a9f168ea5203032c716a68fcca86426498c991122b5882b",
+      "byte_length": 214805,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "縦長の小さな金色の絵。青い衣の聖母が幼子を胸に抱き、幼子が乳を求めて手を伸ばす。聖母は目を下に向けている。聖母子の周囲に金の光背、細かい金色模様の背景があり、青い字の祈りの文がアーチ状に上と左右を囲む。Metの公式作品画像を直接実見。 Official same-object primary JPEG original/display resized RGB RMS=10.1416; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-19629-001.jpg",
+      "sha256": "546288ef3753d8669e4b3e40a2fdd1a8c71d5a153b10acb05e74112514f174c2",
+      "byte_length": 6949489,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "縦長の小さな金色の絵。青い衣の聖母が幼子を胸に抱き、幼子が乳を求めて手を伸ばす。聖母は目を下に向けている。聖母子の周囲に金の光背、細かい金色模様の背景があり、青い字の祈りの文がアーチ状に上と左右を囲む。Metの公式作品画像を直接実見。 Official same-object primary JPEG original/display resized RGB RMS=10.1416; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #440 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts independently checked against the exact Met artwork Overview. Visual evidence includes accessible official images or identified matching public thumbnail, as specified per work.",
+    "No claims of human approval or expert rights review."
+  ]
+}

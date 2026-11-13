@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-49082",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-49082.json",
+  "candidate_sha256": "8b48f0b4a32b5e0120ad8e29b9e73af0c5e421cec6c2d6ae60c27244eac77232",
+  "draft_path": "drafts/visitor-explanations/met-49082.json",
+  "draft_sha256": "dfeb11b4fa9b75368fa4c2a40f0ec31bdac3ba59dd1788e8ef32888f975674d7",
+  "baseline": {
+    "artworks_sha256": "54d2703ade04b894551e02e7f91c6c33f1c572e8875191a872fad9b5c857b200",
+    "image_registry_sha256": "2117ebdf8090c9bfd890f7d1018106638968b8da7f4bd0b77c8a951561d91e0c"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/49082",
+      "source_excerpt": "A Chinese painter dressed in the style of the Tang dynasty",
+      "visitor_claim": "描かれた画家の装いは古代中国の唐代を思わせます。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/49082",
+      "source_excerpt": "creating an imaginary setting from ancient China",
+      "visitor_claim": "ですが、この屏風自体は江戸時代の日本の作品で、実際に唐代の制作現場を記録した絵ではありません。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/49082",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "Met作品別Overviewによると、江戸で活動した三輪在栄が18世紀に描いた二曲屏風。唐代の服装をした中国の肖像画家が、髪を整える女性を実際に目の前に置いて小さな肖像画を描いている。絵の中の肖像は女性の顔に似せてある。美術館は、西洋の写実表現が当時の日本の画壇に浸透する一方、画中画の舞台を古代中国の想像上の場面とする伝統が共存することに着目する。ただし三輪在栄の経歴は江戸で活動したこと以外ほぼ不明であり、画家本人の具体的意図やモデルは特定できない。 Visual: 金色の地の二曲屏風。画面左の長い衣を着た女性は両手を頭の近くに上げて髪を整え、右側の人物は椅子に座り、女性の顔を描いた小さな絵を前に筆を動かしている。赤い衣の小さな人物が女性の近くにいる。Met個別の公式作品情報と現物図版に紐づいた二次サムネイルを照合。公式JPEG自体の全バイト検査はCIで実施する。 Limits: 中国唐代の制作ではなく、18世紀の日本で古代中国を想像して描いた屏風である。女性や小さな人物の身元は分からない。西洋写実の影響は美術館の解釈であり、作者本人の証言ではない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/49082",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-49082: API objectID=49082, primary JPEG full downloaded and verified; RMS=4.9629",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/49082",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=4.9629."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/49082",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and work-specific official museum image when accessible or matching public thumbnail, plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-49082 Chinese Portrait Painter / Miwa Zaiei / 18th century / 29.100.528",
+      "image_match": "金色の地の二曲屏風。画面左の長い衣を着た女性は両手を頭の近くに上げて髪を整え、右側の人物は椅子に座り、女性の顔を描いた小さな絵を前に筆を動かしている。赤い衣の小さな人物が女性の近くにいる。Met個別の公式作品情報と現物図版に紐づいた二次サムネイルを照合。公式JPEG自体の全バイト検査はCIで実施する。 Both primary JPEG variants fully downloaded and match (RMS=4.9629).",
+      "historical_interpretation": "Met作品別Overviewによると、江戸で活動した三輪在栄が18世紀に描いた二曲屏風。唐代の服装をした中国の肖像画家が、髪を整える女性を実際に目の前に置いて小さな肖像画を描いている。絵の中の肖像は女性の顔に似せてある。美術館は、西洋の写実表現が当時の日本の画壇に浸透する一方、画中画の舞台を古代中国の想像上の場面とする伝統が共存することに着目する。ただし三輪在栄の経歴は江戸で活動したこと以外ほぼ不明であり、画家本人の具体的意図やモデルは特定できない。 Cautions: 中国唐代の制作ではなく、18世紀の日本で古代中国を想像して描いた屏風である。女性や小さな人物の身元は分からない。西洋写実の影響は美術館の解釈であり、作者本人の証言ではない。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['好奇心']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-27191-001.jpg",
+      "sha256": "3f188cf8230183b5a8121a6b036d0d7af4b438143e7be2d97911c0038eb1a26d",
+      "byte_length": 107038,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "金色の地の二曲屏風。画面左の長い衣を着た女性は両手を頭の近くに上げて髪を整え、右側の人物は椅子に座り、女性の顔を描いた小さな絵を前に筆を動かしている。赤い衣の小さな人物が女性の近くにいる。Met個別の公式作品情報と現物図版に紐づいた二次サムネイルを照合。公式JPEG自体の全バイト検査はCIで実施する。 Official same-object primary JPEG original/display resized RGB RMS=4.9629; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-27191-001.jpg",
+      "sha256": "38f9994af6fa3507c8ddea4b50c683e44e2852adc7061cf5252d6917a4ccb728",
+      "byte_length": 3702888,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "金色の地の二曲屏風。画面左の長い衣を着た女性は両手を頭の近くに上げて髪を整え、右側の人物は椅子に座り、女性の顔を描いた小さな絵を前に筆を動かしている。赤い衣の小さな人物が女性の近くにいる。Met個別の公式作品情報と現物図版に紐づいた二次サムネイルを照合。公式JPEG自体の全バイト検査はCIで実施する。 Official same-object primary JPEG original/display resized RGB RMS=4.9629; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #438 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts independently checked against the exact Met artwork Overview. Visual evidence includes accessible official images or identified matching public thumbnail, as specified per work.",
+    "No claims of human approval or expert rights review."
+  ]
+}
