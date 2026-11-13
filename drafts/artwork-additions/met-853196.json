@@ -1,0 +1,151 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-853196",
+  "artwork": {
+    "id": "met-853196",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 853196,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/853196",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853196",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Waka Poem on Chrysanthemums",
+      "title_ja_provisional": "菊の和歌",
+      "artist": "Shōren’in Sonchō Hosshinnō 青蓮院尊朝法親王",
+      "creation_date_display": "late 16th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "2022.432.9"
+    },
+    "image": {
+      "image_id": "met-853196-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-25262-002.jpg",
+      "source_registry_id": "met-853196",
+      "local_path": "/artworks/met-853196.jpg",
+      "sha256": "7d151036c26266468df835fd47923177fc4faa0705c00e4f1be84876980e34a8",
+      "byte_length": 141009,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json",
+      "source_accession_number": "2022.432.9",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-25262-002.jpg",
+        "sha256": "5d32370dfc1ade91bf770e2f5852a38e7696b48c24b5493c1cd2bdd43d8fe685",
+        "byte_length": 5470861,
+        "width": 4000,
+        "height": 3002,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 7.77715",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "静けさ",
+        "余韻"
+      ],
+      "themes": [
+        "時間",
+        "記憶"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/853196",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "一輪の菊を描くのではなく、菊の花が終わる季節を言葉と文字の筆跡で表した和歌を眺めたい",
+            "reason": "Met個別Overviewによれば、16世紀後半の尊朝法親王による和歌懐紙であり、菊が散った後の一年を回想する歌が墨書される。尊朝は和歌の通常の仮名のかわりに、漢字を音で用いる古い草仮名（そうがな）を筆記し、濃く太い仮名が漢字と同じほどの視覚的な重みを持つよう工夫した。青蓮院は室町後期の宮廷書法の主要な拠点であり、尊朝は王家に生まれ、青蓮院の皇族僧として書を学び後進に伝えた。制作された歌会の日付や具体的な状況を示す史料は残らず、菊と皇室の家紋との関係は美術館の図像的な読みとして提示される。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "『菊の和歌』は書の作品であり、菊の花を描いた花鳥画ではない。歌会や制作の個別状況は不明で、皇室の菊紋との連想も推論として扱う。詩の日本語の正確な表記は原文に拠るが、本文では内容を簡潔に意訳するにとどめる。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met個別Overviewによれば、16世紀後半の尊朝法親王による和歌懐紙であり、菊が散った後の一年を回想する歌が墨書される。尊朝は和歌の通常の仮名のかわりに、漢字を音で用いる古い草仮名（そうがな）を筆記し、濃く太い仮名が漢字と同じほどの視覚的な重みを持つよう工夫した。青蓮院は室町後期の宮廷書法の主要な拠点であり、尊朝は王家に生まれ、青蓮院の皇族僧として書を学び後進に伝えた。制作された歌会の日付や具体的な状況を示す史料は残らず、菊と皇室の家紋との関係は美術館の図像的な読みとして提示される。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/853196"
+        },
+        "creation_context": "late 16th century; Japan (court calligraphy, late 16th century); Poetry sheet (waka kaishi) mounted as a hanging scroll; ink on paper; accession 2022.432.9",
+        "visual_clues": "Met作品ID853196の公式原寸・表示JPEGを全バイト取得し、SHA256・寸法・縮小RGB RMSを保存、実際の主画像サムネイルを確認。薄黄色の正方形に近い書面の上部に右から墨書の題字があり、下部に流れるような複数行の墨の線。周囲は緑と金色の布に表装され、字の太さは太細が対照的。花の実物が写生されているのではなく和歌の文字の書。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.7772で対応確認。",
+        "uncertainty_note": "『菊の和歌』は書の作品であり、菊の花を描いた花鳥画ではない。歌会や制作の個別状況は不明で、皇室の菊紋との連想も推論として扱う。詩の日本語の正確な表記は原文に拠るが、本文では内容を簡潔に意訳するにとどめる。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "淡い紙の上を、濃い墨の文字がゆっくりと流れています。菊の花を描いた絵ではなく、菊が咲き終えた後に過ぎる一年を思う和歌を、筆の線そのもので見せる作品です。字の強い部分と細い部分を見比べてみてください。\n\n16世紀後半、皇族で青蓮院の僧でもあった尊朝法親王が記した和歌懐紙です。尊朝は草仮名と呼ばれる、漢字を音として使う古い仮名表記を取り入れ、仮名が漢字と同じような力強さを持つ書き方を試みました。青蓮院は、当時の宮廷書法を学ぶ重要な場所でした。\n\n美術館は、この和歌がどの歌会で、どんな事情から書かれたのかを示す記録は残っていないと説明しています。皇族が菊について詠むことは皇室の菊の紋章も連想させますが、特定の催しを証明するものではありません。歌の意味と墨の線を交互に見ると、書が言葉と造形の両方を伝えることに気づけます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/853196"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-853196",
+    "title": "Waka Poem on Chrysanthemums",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/853196",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/853196",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-25262-002.jpg",
+      "sha256": "7d151036c26266468df835fd47923177fc4faa0705c00e4f1be84876980e34a8",
+      "byte_length": 141009,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-25262-002.jpg",
+        "sha256": "5d32370dfc1ade91bf770e2f5852a38e7696b48c24b5493c1cd2bdd43d8fe685",
+        "byte_length": 5470861,
+        "width": 4000,
+        "height": 3002,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 7.77715",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2022.432.9"
+  }
+}
