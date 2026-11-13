@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-853450",
+  "artwork": {
+    "id": "met-853450",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 853450,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/853450",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853450",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Nun’s Badge with the Virgin of the Immaculate Conception",
+      "title_ja_provisional": "無原罪の聖母を描いた修道女の胸飾り",
+      "artist": "Nicolás Rodríguez Juárez",
+      "creation_date_display": "ca. 1710",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Mexican",
+      "accession_number": "2021.268"
+    },
+    "image": {
+      "image_id": "met-853450-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-26403-001.jpg",
+      "source_registry_id": "met-853450",
+      "local_path": "/artworks/met-853450.jpg",
+      "sha256": "b1335cf220cbf78750bd0d487babd0c59dfe746b63820fa45c140f451fa44c32",
+      "byte_length": 143810,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-414-416-20261113/docs/artwork-research-evidence/met-414-416-2026-11-13.json",
+      "source_accession_number": "2021.268",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-26403-001.jpg",
+        "sha256": "c4bc2e2a46285b35d4ee7f7c0654e9cf8febc0fb2524c46a35d5498cd2d8cdd5",
+        "byte_length": 4718031,
+        "width": 4000,
+        "height": 3968,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 6.84682",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "畏敬": 1
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "共同体",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/853450",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "18世紀初めのメキシコの修道女が身に着けた絵入り胸飾りから、信仰と装身具の規制が生んだ工芸の工夫を知りたい",
+            "reason": "Met作品別Overviewは1710年頃のニコラス・ロドリゲス・フアレスによる絵入りメダリオン（油彩・金彩の銅板、亀甲と銀の額）と説明。メキシコの無原罪懐胎修道会やヒエロニムス会の修道女は修道誓願の際や重要な宗教祝日に胸の上にこの種の絵を着けた。聖母との誓約を示し、旧約の『雅歌』8:6における『心に印を』の言葉に関連づけられる。教会当局が宝飾品を戒め、聖母像の絵を修道服に着けるよう命じたことをきっかけに大型の絵入り徽章が普及し、有力画家へ発注された。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "通常のキャンバス画ではなく、銅板に描かれ、銀・亀甲の額を持つ身に着ける円形の宗教的な絵画作品。これが実際に誰という修道女の所有だったかは資料にない。『誓約の象徴』は歴史的宗教的な意味で実際の超自然的効験の主張ではない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewは1710年頃のニコラス・ロドリゲス・フアレスによる絵入りメダリオン（油彩・金彩の銅板、亀甲と銀の額）と説明。メキシコの無原罪懐胎修道会やヒエロニムス会の修道女は修道誓願の際や重要な宗教祝日に胸の上にこの種の絵を着けた。聖母との誓約を示し、旧約の『雅歌』8:6における『心に印を』の言葉に関連づけられる。教会当局が宝飾品を戒め、聖母像の絵を修道服に着けるよう命じたことをきっかけに大型の絵入り徽章が普及し、有力画家へ発注された。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/853450"
+        },
+        "creation_context": "ca. 1710; Mexico (New Spain, early 18th century); Oil and gold on copper; tortoiseshell and silver frame; accession 2021.268",
+        "visual_clues": "Met公式API主JPEGの原寸と表示版を完全ダウンロードしてハッシュと縮小RMSで照合し、実サムネイルを目視。ほぼ正円の広い褐色の亀甲額装と銀色の飾りが外周に並び、中央の小さな円形画面に青衣の聖母が赤や黄の人物と天使に囲まれている。絵そのものと額装、中央の絵と外側の飾りの違いを確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.8468で対応確認。",
+        "uncertainty_note": "通常のキャンバス画ではなく、銅板に描かれ、銀・亀甲の額を持つ身に着ける円形の宗教的な絵画作品。これが実際に誰という修道女の所有だったかは資料にない。『誓約の象徴』は歴史的宗教的な意味で実際の超自然的効験の主張ではない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "畏敬"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-414-416-20261113/docs/artwork-research-evidence/met-414-416-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "丸い褐色の額には、小さな銀色の飾りが幾重にも並んでいます。その中心には、青い衣の聖母を描いた小さな円形の絵があります。外側の光を反射する装飾と、内側の彩色された人物を見比べると、身に着けるための絵画として作られたことが伝わってきます。\n\nこれは1710年頃にメキシコの画家ニコラス・ロドリゲス・フアレスが制作した修道女の胸飾りです。胸の上に着けるこの絵入りの徽章は、聖母との結びつきを表す目印でした。無原罪懐胎修道会やヒエロニムス会の修道女たちは、修道誓願の時や大切な祝祭に、このような徽章を用いました。\n\n教会当局が高価な装身具を制限し、無原罪の聖母の絵を身に着けるよう求めたことも、この徽章の普及につながりました。絵は金彩を加えた銅板に描かれ、周囲は亀甲と銀の額で飾られています。宝飾品の代わりに作られた絵が、やがて独自の美しさを備えていったことを感じられるでしょう。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/853450"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-853450",
+    "title": "Nun’s Badge with the Virgin of the Immaculate Conception",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/853450",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/853450",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-26403-001.jpg",
+      "sha256": "b1335cf220cbf78750bd0d487babd0c59dfe746b63820fa45c140f451fa44c32",
+      "byte_length": 143810,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-414-416-20261113/docs/artwork-research-evidence/met-414-416-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-26403-001.jpg",
+        "sha256": "c4bc2e2a46285b35d4ee7f7c0654e9cf8febc0fb2524c46a35d5498cd2d8cdd5",
+        "byte_length": 4718031,
+        "width": 4000,
+        "height": 3968,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 6.84682",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2021.268"
+  }
+}

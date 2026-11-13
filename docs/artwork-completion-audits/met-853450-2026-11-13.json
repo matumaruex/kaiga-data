@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-853450",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-853450.json",
+  "candidate_sha256": "86b206dd789615984fc2413bf6c16619a2ca81852943f2f37020e18de271ccd8",
+  "draft_path": "drafts/visitor-explanations/met-853450.json",
+  "draft_sha256": "86987526c6815b9daad506ae7638c189e4f95720b6afdfa277f18a3031d51385",
+  "baseline": {
+    "artworks_sha256": "55bd87d9362233f094f3dd912ac2550306eb76a11ce7429a51758336905be737",
+    "image_registry_sha256": "ca7e92107be7c79d41d3f148dda5950d839abdb2dd9f7cafb2c16a2a70b59b08"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853450",
+      "source_excerpt": "Worn over the heart, the badge was the visible symbol",
+      "visitor_claim": "胸の上に着けるこの絵入りの徽章は、聖母との結びつきを表す目印でした。",
+      "source_section": "Exact Met Overview: badge worn over the heart"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853450",
+      "source_excerpt": "Instructed to wear images of the Virgin of the Immaculate Conception",
+      "visitor_claim": "教会当局が高価な装身具を制限し、無原罪の聖母の絵を身に着けるよう求めたことも、この徽章の普及につながりました。",
+      "source_section": "Exact Met Overview: institutional instruction to wear painted Virgin image"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/853450",
+      "location": "Exact artwork Overview and Object Information: Exact Met Overview: badge worn over the heart; Exact Met Overview: institutional instruction to wear painted Virgin image",
+      "finding": "Met作品別Overviewは1710年頃のニコラス・ロドリゲス・フアレスによる絵入りメダリオン（油彩・金彩の銅板、亀甲と銀の額）と説明。メキシコの無原罪懐胎修道会やヒエロニムス会の修道女は修道誓願の際や重要な宗教祝日に胸の上にこの種の絵を着けた。聖母との誓約を示し、旧約の『雅歌』8:6における『心に印を』の言葉に関連づけられる。教会当局が宝飾品を戒め、聖母像の絵を修道服に着けるよう命じたことをきっかけに大型の絵入り徽章が普及し、有力画家へ発注された。 Actual image observation: Met公式API主JPEGの原寸と表示版を完全ダウンロードしてハッシュと縮小RMSで照合し、実サムネイルを目視。ほぼ正円の広い褐色の亀甲額装と銀色の飾りが外周に並び、中央の小さな円形画面に青衣の聖母が赤や黄の人物と天使に囲まれている。絵そのものと額装、中央の絵と外側の飾りの違いを確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.8468で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853450",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-414-416-20261113/docs/artwork-research-evidence/met-414-416-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853450",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-414-416-20261113/docs/artwork-research-evidence/met-414-416-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853450",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-853450 Nun’s Badge with the Virgin of the Immaculate Conception; Nicolás Rodríguez Juárez; ca. 1710; accession 2021.268. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式API主JPEGの原寸と表示版を完全ダウンロードしてハッシュと縮小RMSで照合し、実サムネイルを目視。ほぼ正円の広い褐色の亀甲額装と銀色の飾りが外周に並び、中央の小さな円形画面に青衣の聖母が赤や黄の人物と天使に囲まれている。絵そのものと額装、中央の絵と外側の飾りの違いを確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.8468で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-414-416-20261113/docs/artwork-research-evidence/met-414-416-2026-11-13.json",
+      "historical_interpretation": "Met作品別Overviewは1710年頃のニコラス・ロドリゲス・フアレスによる絵入りメダリオン（油彩・金彩の銅板、亀甲と銀の額）と説明。メキシコの無原罪懐胎修道会やヒエロニムス会の修道女は修道誓願の際や重要な宗教祝日に胸の上にこの種の絵を着けた。聖母との誓約を示し、旧約の『雅歌』8:6における『心に印を』の言葉に関連づけられる。教会当局が宝飾品を戒め、聖母像の絵を修道服に着けるよう命じたことをきっかけに大型の絵入り徽章が普及し、有力画家へ発注された。 Limits: 通常のキャンバス画ではなく、銅板に描かれ、銀・亀甲の額を持つ身に着ける円形の宗教的な絵画作品。これが実際に誰という修道女の所有だったかは資料にない。『誓約の象徴』は歴史的宗教的な意味で実際の超自然的効験の主張ではない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['畏敬']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP-26403-001.jpg",
+      "sha256": "b1335cf220cbf78750bd0d487babd0c59dfe746b63820fa45c140f451fa44c32",
+      "byte_length": 143810,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式API主JPEGの原寸と表示版を完全ダウンロードしてハッシュと縮小RMSで照合し、実サムネイルを目視。ほぼ正円の広い褐色の亀甲額装と銀色の飾りが外周に並び、中央の小さな円形画面に青衣の聖母が赤や黄の人物と天使に囲まれている。絵そのものと額装、中央の絵と外側の飾りの違いを確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.8468で対応確認。 Confirmed image belongs to Met artwork 853450, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-26403-001.jpg",
+      "sha256": "c4bc2e2a46285b35d4ee7f7c0654e9cf8febc0fb2524c46a35d5498cd2d8cdd5",
+      "byte_length": 4718031,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式API主JPEGの原寸と表示版を完全ダウンロードしてハッシュと縮小RMSで照合し、実サムネイルを目視。ほぼ正円の広い褐色の亀甲額装と銀色の飾りが外周に並び、中央の小さな円形画面に青衣の聖母が赤や黄の人物と天使に囲まれている。絵そのものと額装、中央の絵と外側の飾りの違いを確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.8468で対応確認。 Confirmed image belongs to Met artwork 853450, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #416; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 895417 uses painted silk mounting rather than physical mounting; met-853197 country and old Sotsuon attribution remain unproven; met-853450 is a wearable oil-and-gold copper badge in a tortoiseshell and silver frame rather than canvas."
+  ]
+}

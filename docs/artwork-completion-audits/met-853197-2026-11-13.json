@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-853197",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-853197.json",
+  "candidate_sha256": "492eb24c6757baf80c2c0e0220460c6b39b360397a1bdca9a803775eb68684d8",
+  "draft_path": "drafts/visitor-explanations/met-853197.json",
+  "draft_sha256": "460eb13423ea4165fce36353676dfc46dedc27be87f49f2b0192aacc8238d85b",
+  "baseline": {
+    "artworks_sha256": "3e1df176c444fa59038293210d859b50fa4a6a455b38194fb0883b23184ff6f6",
+    "image_registry_sha256": "d544acc44458dad9a3f92f86a9873d71dfe5771b673fe0c202fe730d70b8e40f"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853197",
+      "source_excerpt": "the squirrel seems to have two tails",
+      "visitor_claim": "リスの尻尾は二本あるようにも見えます。",
+      "source_section": "Exact Met Overview: squirrel appears to have two tails"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853197",
+      "source_excerpt": "The juxtaposition of grapes and squirrels symbolizes family prosperity",
+      "visitor_claim": "この掛軸では、葡萄とリスの組み合わせが家族の繁栄を象徴します。",
+      "source_section": "Exact Met Overview: grapes and squirrels for family prosperity"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/853197",
+      "location": "Exact artwork Overview and Object Information: Exact Met Overview: squirrel appears to have two tails; Exact Met Overview: grapes and squirrels for family prosperity",
+      "finding": "Met個別作品Overviewでは18～19世紀の墨画の制作地が朝鮮か、日本で朝鮮・中国系図像に影響された作家によるものか専門家の間で議論されている。板倉聖哲は民画との様式上の関係から朝鮮18世紀～19世紀初めと推定するが確定していない。画中のリスは左前足で葡萄をつかみ食べ、濃淡や点で毛並みを表す。二本の尻尾があるように見える。葡萄とリスは子孫繁栄を象徴し、松は長寿、竹は忍耐やしなやかな強さを表す。箱書きの中国の禅僧に関する古い帰属は印章と作風が一致せず現在は支持されていない。 Actual image observation: Met公式APIの原寸/表示JPEGを全バイトハッシュとRGB縮小誤差で比較、実画像サムネイルを直接視認。縦長の掛軸の中央には松らしい曲がった幹と葡萄の房・葉が密に重なり、下方の枝にふっくらしたリスがいる。横へ伸びる細い竹の葉と灰墨の地色、枠の紙と上部の墨書が見える。小さな虫や葉の細部の同定は作品別Overviewに基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.7361で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853197",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-414-416-20261113/docs/artwork-research-evidence/met-414-416-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853197",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-414-416-20261113/docs/artwork-research-evidence/met-414-416-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853197",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-853197 Pine, Bamboo, Grape, and Squirrel; Unidentified Artist, probably Korean; 18th–19th century; accession 2022.432.10. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式APIの原寸/表示JPEGを全バイトハッシュとRGB縮小誤差で比較、実画像サムネイルを直接視認。縦長の掛軸の中央には松らしい曲がった幹と葡萄の房・葉が密に重なり、下方の枝にふっくらしたリスがいる。横へ伸びる細い竹の葉と灰墨の地色、枠の紙と上部の墨書が見える。小さな虫や葉の細部の同定は作品別Overviewに基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.7361で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-414-416-20261113/docs/artwork-research-evidence/met-414-416-2026-11-13.json",
+      "historical_interpretation": "Met個別作品Overviewでは18～19世紀の墨画の制作地が朝鮮か、日本で朝鮮・中国系図像に影響された作家によるものか専門家の間で議論されている。板倉聖哲は民画との様式上の関係から朝鮮18世紀～19世紀初めと推定するが確定していない。画中のリスは左前足で葡萄をつかみ食べ、濃淡や点で毛並みを表す。二本の尻尾があるように見える。葡萄とリスは子孫繁栄を象徴し、松は長寿、竹は忍耐やしなやかな強さを表す。箱書きの中国の禅僧に関する古い帰属は印章と作風が一致せず現在は支持されていない。 Limits: 制作国・画家の氏名は確定せず、『おそらく朝鮮の画家』というMetの表記を採用し、文化欄はKorea and Japanと記録。箱書きの中国僧の旧帰属を現在の制作者として扱わない。葡萄とリスの象徴は東アジアの画題上の意味であり家庭の実際の事情を推定するものではない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['希望']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-25263-002.jpg",
+      "sha256": "905c69dd7b9ffdec814d278e40d15f035d62a354721d8740ac58bfcefa12ed89",
+      "byte_length": 94342,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの原寸/表示JPEGを全バイトハッシュとRGB縮小誤差で比較、実画像サムネイルを直接視認。縦長の掛軸の中央には松らしい曲がった幹と葡萄の房・葉が密に重なり、下方の枝にふっくらしたリスがいる。横へ伸びる細い竹の葉と灰墨の地色、枠の紙と上部の墨書が見える。小さな虫や葉の細部の同定は作品別Overviewに基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.7361で対応確認。 Confirmed image belongs to Met artwork 853197, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-25263-002.jpg",
+      "sha256": "c04b629194170e698d7bf136fc8ae05f17aaf14df56ffb66c24d021c89012486",
+      "byte_length": 2623153,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの原寸/表示JPEGを全バイトハッシュとRGB縮小誤差で比較、実画像サムネイルを直接視認。縦長の掛軸の中央には松らしい曲がった幹と葡萄の房・葉が密に重なり、下方の枝にふっくらしたリスがいる。横へ伸びる細い竹の葉と灰墨の地色、枠の紙と上部の墨書が見える。小さな虫や葉の細部の同定は作品別Overviewに基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.7361で対応確認。 Confirmed image belongs to Met artwork 853197, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #415; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 895417 uses painted silk mounting rather than physical mounting; met-853197 country and old Sotsuon attribution remain unproven; met-853450 is a wearable oil-and-gold copper badge in a tortoiseshell and silver frame rather than canvas."
+  ]
+}
