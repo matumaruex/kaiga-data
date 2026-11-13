@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-733038",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-733038.json",
+  "candidate_sha256": "95e92bcd75d455bc1ae5f51791ecf398262a062937713ba91d8987039c1403a9",
+  "draft_path": "drafts/visitor-explanations/met-733038.json",
+  "draft_sha256": "407b7bf9aa162c9723150a6ff8e1bcb373a0a0874c580b37e7247fc965f6ae83",
+  "baseline": {
+    "artworks_sha256": "dc77b2979fb2d1f576e5115092f566b23f9779f113b503d8ffbd29b4fe4078c3",
+    "image_registry_sha256": "2ba0f7b6c52ace76fbcc508d9d487f2be71887709bd8e29e7e8ce5333a0329ce"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/733038",
+      "source_excerpt": "He is depicted in the illumination on the reverse of the first folio",
+      "visitor_claim": "画面の人物は、祈りの詩を著したと伝えられる聖人アバ・ギヨルギス・オブ・セグラで、最初の葉の裏側に描かれています。",
+      "source_section": "Met exact Overview: Giyorgis image on first folio verso"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/733038",
+      "source_excerpt": "this work does not include her image",
+      "visitor_claim": "聖母マリアをたたえる本ですが、この写本にはマリア自身の姿は描かれていません。",
+      "source_section": "Met exact Overview: manuscript excludes Virgin image"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/733038",
+      "location": "Exact artwork Overview and Object Information: Met exact Overview: Giyorgis image on first folio verso; Met exact Overview: manuscript excludes Virgin image",
+      "finding": "Met作品別Overviewによれば17世紀後半のエチオピア正教の聖母マリアへの祈祷書『Arganonä Maryam』。詩文は15世紀の聖人アバ・ギヨルギス・オブ・セグラに伝統的に帰せられ、この写本の最初の葉の裏に彼の姿が描かれている。冒頭の主画像では正面向きの聖人が、上げた両手と幾何学模様の衣で表される。赤・黒・黄土・白の少ない色と鋭い幾何学文様が特徴で、聖母マリアを称賛する書物にもかかわらずマリア本人の姿は描かれていない。写字生バセリョスの名は奥付にあり、彩飾担当の『Ground Hornbill Master』と同一人物かどうかは学術上の議論がある。 Actual image observation: Met作品APIの原寸/表示JPEGを取得しSHA256、バイト数、画像寸法と縮小RMSを照合して実サムネイルを視認。見開きでなく縦長の一葉。黄土色の地に、中央の正面を向いた赤褐色の顔、黒いひげ、赤い光背、上げた両手の聖人。黒い上衣に赤黄の三角の幾何学模様が並び、左右は赤・黒・黄の帯状の枠。主画像にマリアを描いたと誤認しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.6823で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/733038",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/733038",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/733038",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-733038 Arganonä Maryam (The Organ of Mary) prayer book; Attributed to Baselyos (scribe); illumination maker uncertain; late 17th century; accession 2006.99. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met作品APIの原寸/表示JPEGを取得しSHA256、バイト数、画像寸法と縮小RMSを照合して実サムネイルを視認。見開きでなく縦長の一葉。黄土色の地に、中央の正面を向いた赤褐色の顔、黒いひげ、赤い光背、上げた両手の聖人。黒い上衣に赤黄の三角の幾何学模様が並び、左右は赤・黒・黄の帯状の枠。主画像にマリアを描いたと誤認しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.6823で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json",
+      "historical_interpretation": "Met作品別Overviewによれば17世紀後半のエチオピア正教の聖母マリアへの祈祷書『Arganonä Maryam』。詩文は15世紀の聖人アバ・ギヨルギス・オブ・セグラに伝統的に帰せられ、この写本の最初の葉の裏に彼の姿が描かれている。冒頭の主画像では正面向きの聖人が、上げた両手と幾何学模様の衣で表される。赤・黒・黄土・白の少ない色と鋭い幾何学文様が特徴で、聖母マリアを称賛する書物にもかかわらずマリア本人の姿は描かれていない。写字生バセリョスの名は奥付にあり、彩飾担当の『Ground Hornbill Master』と同一人物かどうかは学術上の議論がある。 Limits: 『聖母に捧げた本』でありながら主画像の聖人はマリアではない。伝統的な著作帰属と写字生、彩飾担当を混同しない。バセリョスとGround Hornbill Masterの同一性は議論中。祈りの効験は信仰上のもので実証とはしない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['畏敬']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ao/web-large/DP167981.jpg",
+      "sha256": "1e5167538e78422bc69c70f028b19ff404dffde53fc7d6a7d5d65237b0b9d243",
+      "byte_length": 129256,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met作品APIの原寸/表示JPEGを取得しSHA256、バイト数、画像寸法と縮小RMSを照合して実サムネイルを視認。見開きでなく縦長の一葉。黄土色の地に、中央の正面を向いた赤褐色の顔、黒いひげ、赤い光背、上げた両手の聖人。黒い上衣に赤黄の三角の幾何学模様が並び、左右は赤・黒・黄の帯状の枠。主画像にマリアを描いたと誤認しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.6823で対応確認。 Confirmed image belongs to Met artwork 733038, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ao/original/DP167981.jpg",
+      "sha256": "a034a11065e143e61173cd9b12a7830d558f7a50e3d140972ee2b508236ccf3e",
+      "byte_length": 3126709,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met作品APIの原寸/表示JPEGを取得しSHA256、バイト数、画像寸法と縮小RMSを照合して実サムネイルを視認。見開きでなく縦長の一葉。黄土色の地に、中央の正面を向いた赤褐色の顔、黒いひげ、赤い光背、上げた両手の聖人。黒い上衣に赤黄の三角の幾何学模様が並び、左右は赤・黒・黄の帯状の枠。主画像にマリアを描いたと誤認しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.6823で対応確認。 Confirmed image belongs to Met artwork 733038, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #423; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 733038 depicts Giyorgis of Sägla and not Mary, while Baselyos vs illuminator identity is debated; Met 456969 reproduces a 1505-06 text in a later copy probably produced in Bukhara, and only page 40 is in the primary JPEG; Met 437181 dates to 1749 but appeared in the 1750 Salon, and depicts social display rather than a dated family event."
+  ]
+}

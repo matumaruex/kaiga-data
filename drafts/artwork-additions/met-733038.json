@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-733038",
+  "artwork": {
+    "id": "met-733038",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 733038,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/733038",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/733038",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Arganonä Maryam (The Organ of Mary) prayer book",
+      "title_ja_provisional": "『マリアのオルガン』祈祷書",
+      "artist": "Attributed to Baselyos (scribe); illumination maker uncertain",
+      "creation_date_display": "late 17th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Ethiopia (Lasta region)",
+      "accession_number": "2006.99"
+    },
+    "image": {
+      "image_id": "met-733038-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ao/web-large/DP167981.jpg",
+      "source_registry_id": "met-733038",
+      "local_path": "/artworks/met-733038.jpg",
+      "sha256": "1e5167538e78422bc69c70f028b19ff404dffde53fc7d6a7d5d65237b0b9d243",
+      "byte_length": 129256,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json",
+      "source_accession_number": "2006.99",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ao/original/DP167981.jpg",
+        "sha256": "a034a11065e143e61173cd9b12a7830d558f7a50e3d140972ee2b508236ccf3e",
+        "byte_length": 3126709,
+        "width": 3415,
+        "height": 3841,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.68232",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "畏敬": 1
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "時間",
+        "共同体"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/733038",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "エチオピアの鮮やかな赤と黒の彩飾祈祷書で、正面を向いた聖人の姿と写本を作る人の工夫を見たい",
+            "reason": "Met作品別Overviewによれば17世紀後半のエチオピア正教の聖母マリアへの祈祷書『Arganonä Maryam』。詩文は15世紀の聖人アバ・ギヨルギス・オブ・セグラに伝統的に帰せられ、この写本の最初の葉の裏に彼の姿が描かれている。冒頭の主画像では正面向きの聖人が、上げた両手と幾何学模様の衣で表される。赤・黒・黄土・白の少ない色と鋭い幾何学文様が特徴で、聖母マリアを称賛する書物にもかかわらずマリア本人の姿は描かれていない。写字生バセリョスの名は奥付にあり、彩飾担当の『Ground Hornbill Master』と同一人物かどうかは学術上の議論がある。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "『聖母に捧げた本』でありながら主画像の聖人はマリアではない。伝統的な著作帰属と写字生、彩飾担当を混同しない。バセリョスとGround Hornbill Masterの同一性は議論中。祈りの効験は信仰上のもので実証とはしない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによれば17世紀後半のエチオピア正教の聖母マリアへの祈祷書『Arganonä Maryam』。詩文は15世紀の聖人アバ・ギヨルギス・オブ・セグラに伝統的に帰せられ、この写本の最初の葉の裏に彼の姿が描かれている。冒頭の主画像では正面向きの聖人が、上げた両手と幾何学模様の衣で表される。赤・黒・黄土・白の少ない色と鋭い幾何学文様が特徴で、聖母マリアを称賛する書物にもかかわらずマリア本人の姿は描かれていない。写字生バセリョスの名は奥付にあり、彩飾担当の『Ground Hornbill Master』と同一人物かどうかは学術上の議論がある。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/733038"
+        },
+        "creation_context": "late 17th century; Ethiopia (Lasta region); Parchment, pigment ink, wood, leather, fiber; accession 2006.99",
+        "visual_clues": "Met作品APIの原寸/表示JPEGを取得しSHA256、バイト数、画像寸法と縮小RMSを照合して実サムネイルを視認。見開きでなく縦長の一葉。黄土色の地に、中央の正面を向いた赤褐色の顔、黒いひげ、赤い光背、上げた両手の聖人。黒い上衣に赤黄の三角の幾何学模様が並び、左右は赤・黒・黄の帯状の枠。主画像にマリアを描いたと誤認しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.6823で対応確認。",
+        "uncertainty_note": "『聖母に捧げた本』でありながら主画像の聖人はマリアではない。伝統的な著作帰属と写字生、彩飾担当を混同しない。バセリョスとGround Hornbill Masterの同一性は議論中。祈りの効験は信仰上のもので実証とはしない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "畏敬"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "赤と黒、黄土色で描かれた聖人が、正面からこちらを見つめています。両手を高く上げた姿の周囲には、三角形や十字を組み合わせた模様が幾重にも並びます。色の数は多くありませんが、細い線と繰り返す図形が強い印象を残します。\n\nこれは17世紀後半のエチオピア正教の祈祷書『マリアのオルガン』に収められた彩飾です。聖母マリアをたたえる本ですが、この写本にはマリア自身の姿は描かれていません。画面の人物は、祈りの詩を著したと伝えられる聖人アバ・ギヨルギス・オブ・セグラで、最初の葉の裏側に描かれています。\n\n写本にはバセリョスという写字生の名前が残りますが、文字を書いた人と絵を描いた人が同一だったかは確定していません。幾何学模様の衣や縁飾りは、この写本独自の力強い造形を見せています。開かれた一頁から、祈りの言葉と絵の形が結びついていたことを感じられます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/733038"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-733038",
+    "title": "Arganonä Maryam (The Organ of Mary) prayer book",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/733038",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/733038",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ao/web-large/DP167981.jpg",
+      "sha256": "1e5167538e78422bc69c70f028b19ff404dffde53fc7d6a7d5d65237b0b9d243",
+      "byte_length": 129256,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ao/original/DP167981.jpg",
+        "sha256": "a034a11065e143e61173cd9b12a7830d558f7a50e3d140972ee2b508236ccf3e",
+        "byte_length": 3126709,
+        "width": 3415,
+        "height": 3841,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.68232",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2006.99"
+  }
+}

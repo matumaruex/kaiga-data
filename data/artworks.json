@@ -51541,6 +51541,367 @@
         "audit_sha256": "1f70c74eea6b11d21c4827232e7bbe86be701c8712ad0998c4df81482275e4ab",
         "record_sha256": "e4ec5490d8db934a0af7ce62025ccbabda9862b93fdc8bfce168253db469eafd"
       }
+    },
+    {
+      "id": "met-733038",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 733038,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/733038",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/733038",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Arganonä Maryam (The Organ of Mary) prayer book",
+        "title_ja_provisional": "『マリアのオルガン』祈祷書",
+        "artist": "Attributed to Baselyos (scribe); illumination maker uncertain",
+        "creation_date_display": "late 17th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Ethiopia (Lasta region)",
+        "accession_number": "2006.99"
+      },
+      "image": {
+        "image_id": "met-733038-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ao/web-large/DP167981.jpg",
+        "source_registry_id": "met-733038",
+        "local_path": "/artworks/met-733038.jpg",
+        "sha256": "1e5167538e78422bc69c70f028b19ff404dffde53fc7d6a7d5d65237b0b9d243",
+        "byte_length": 129256,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json",
+        "source_accession_number": "2006.99",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ao/original/DP167981.jpg",
+          "sha256": "a034a11065e143e61173cd9b12a7830d558f7a50e3d140972ee2b508236ccf3e",
+          "byte_length": 3126709,
+          "width": 3415,
+          "height": 3841,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.68232",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 1
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "時間",
+          "共同体"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/733038",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "エチオピアの鮮やかな赤と黒の彩飾祈祷書で、正面を向いた聖人の姿と写本を作る人の工夫を見たい",
+              "reason": "Met作品別Overviewによれば17世紀後半のエチオピア正教の聖母マリアへの祈祷書『Arganonä Maryam』。詩文は15世紀の聖人アバ・ギヨルギス・オブ・セグラに伝統的に帰せられ、この写本の最初の葉の裏に彼の姿が描かれている。冒頭の主画像では正面向きの聖人が、上げた両手と幾何学模様の衣で表される。赤・黒・黄土・白の少ない色と鋭い幾何学文様が特徴で、聖母マリアを称賛する書物にもかかわらずマリア本人の姿は描かれていない。写字生バセリョスの名は奥付にあり、彩飾担当の『Ground Hornbill Master』と同一人物かどうかは学術上の議論がある。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "『聖母に捧げた本』でありながら主画像の聖人はマリアではない。伝統的な著作帰属と写字生、彩飾担当を混同しない。バセリョスとGround Hornbill Masterの同一性は議論中。祈りの効験は信仰上のもので実証とはしない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによれば17世紀後半のエチオピア正教の聖母マリアへの祈祷書『Arganonä Maryam』。詩文は15世紀の聖人アバ・ギヨルギス・オブ・セグラに伝統的に帰せられ、この写本の最初の葉の裏に彼の姿が描かれている。冒頭の主画像では正面向きの聖人が、上げた両手と幾何学模様の衣で表される。赤・黒・黄土・白の少ない色と鋭い幾何学文様が特徴で、聖母マリアを称賛する書物にもかかわらずマリア本人の姿は描かれていない。写字生バセリョスの名は奥付にあり、彩飾担当の『Ground Hornbill Master』と同一人物かどうかは学術上の議論がある。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/733038"
+          },
+          "creation_context": "late 17th century; Ethiopia (Lasta region); Parchment, pigment ink, wood, leather, fiber; accession 2006.99",
+          "visual_clues": "Met作品APIの原寸/表示JPEGを取得しSHA256、バイト数、画像寸法と縮小RMSを照合して実サムネイルを視認。見開きでなく縦長の一葉。黄土色の地に、中央の正面を向いた赤褐色の顔、黒いひげ、赤い光背、上げた両手の聖人。黒い上衣に赤黄の三角の幾何学模様が並び、左右は赤・黒・黄の帯状の枠。主画像にマリアを描いたと誤認しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.6823で対応確認。",
+          "uncertainty_note": "『聖母に捧げた本』でありながら主画像の聖人はマリアではない。伝統的な著作帰属と写字生、彩飾担当を混同しない。バセリョスとGround Hornbill Masterの同一性は議論中。祈りの効験は信仰上のもので実証とはしない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "畏敬"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "赤と黒、黄土色で描かれた聖人が、正面からこちらを見つめています。両手を高く上げた姿の周囲には、三角形や十字を組み合わせた模様が幾重にも並びます。色の数は多くありませんが、細い線と繰り返す図形が強い印象を残します。\n\nこれは17世紀後半のエチオピア正教の祈祷書『マリアのオルガン』に収められた彩飾です。聖母マリアをたたえる本ですが、この写本にはマリア自身の姿は描かれていません。画面の人物は、祈りの詩を著したと伝えられる聖人アバ・ギヨルギス・オブ・セグラで、最初の葉の裏側に描かれています。\n\n写本にはバセリョスという写字生の名前が残りますが、文字を書いた人と絵を描いた人が同一だったかは確定していません。幾何学模様の衣や縁飾りは、この写本独自の力強い造形を見せています。開かれた一頁から、祈りの言葉と絵の形が結びついていたことを感じられます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/733038"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-733038-2026-11-13.json",
+        "audit_sha256": "400c8d3ae88eb9ac76ee1d418cc9024ee0949e2c3cfe4718f53d2967e8ec536a",
+        "record_sha256": "117a95ad8d507544d09d2555a9d0ac8cc0d085e49981bb047d9aeb7c589110ed"
+      }
+    },
+    {
+      "id": "met-456969",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 456969,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/456969",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/456969",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Futuh al-Haramayn (Description of the Holy Cities)",
+        "title_ja_provisional": "『二聖都の案内』彩飾写本",
+        "artist": "Text by Muhi al-Din Lari; illuminator unknown",
+        "creation_date_display": "16th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Central Asia (probably Bukhara; text composed in India)",
+        "accession_number": "2009.343"
+      },
+      "image": {
+        "image_id": "met-456969-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP230665.jpg",
+        "source_registry_id": "met-456969",
+        "local_path": "/artworks/met-456969.jpg",
+        "sha256": "4d858749d730d151d802d38dcc405562cff1b53dcd865c3b893524c005ba3ae0",
+        "byte_length": 99106,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json",
+        "source_accession_number": "2009.343",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP230665.jpg",
+          "sha256": "ebfc79cb84535faefacdc92cb50ef43066677376a67598cada67216fc64df167",
+          "byte_length": 3088461,
+          "width": 2660,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 10.65291",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "時間",
+          "共同体"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/456969",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "16世紀のイスラム巡礼案内に描かれた聖地の鳥瞰図から、道案内と絵の模様の関係を知りたい",
+              "reason": "Met作品別Overviewによれば『フフトゥーフ・アル＝ハラマイン（二聖都の案内）』はメッカとメディナの重要な場所、巡礼の儀礼を解説する詩文である。詩人ムヒー・アッディーン・ラーリーがインドで1505〜06年に文章を完成したが、この展示品は後の16世紀に複写された彩飾写本で、初期にブハラで制作されたと考えられる一例。主画像は40頁目で、中央の黒いカアバを囲む聖域・建造物を鳥瞰図で示し、巡礼者が場所を識別できるよう装飾や文字による目印を置く。地図のような図であり、当時の厳密な測量図・現地写真ではない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "詩の作者ムヒー・アッディーン・ラーリーと、この写本の写字生・挿絵画家は同一とは確認できない。テキストの完成地インドと、本写本の推定制作地ブハラ、聖地の実所在地メッカ/メディナを区別。主画像は40頁で全巻の内容を示すものではなく、実寸測量地図ではない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによれば『フフトゥーフ・アル＝ハラマイン（二聖都の案内）』はメッカとメディナの重要な場所、巡礼の儀礼を解説する詩文である。詩人ムヒー・アッディーン・ラーリーがインドで1505〜06年に文章を完成したが、この展示品は後の16世紀に複写された彩飾写本で、初期にブハラで制作されたと考えられる一例。主画像は40頁目で、中央の黒いカアバを囲む聖域・建造物を鳥瞰図で示し、巡礼者が場所を識別できるよう装飾や文字による目印を置く。地図のような図であり、当時の厳密な測量図・現地写真ではない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/456969"
+          },
+          "creation_context": "16th century; Central Asia (probably Bukhara; text composed in India); Ink, opaque watercolor, gold on paper; accession 2009.343",
+          "visual_clues": "Met公式APIが指す原寸・表示JPEGのSHA256/画像サイズ/縮小RMSを照合し、そのサムネイルを直接確認。縦長の古い羊皮紙風の頁の中央に、黒い四角いカアバらしい建造物が黄色や青い幾何学的区画とともに描かれ、周辺に複数の細いミナレットと彩色の門が配置される。主要な装飾は金・青・赤を含む。本の全ページやメディナの風景までこの一枚に描かれているわけではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.6529で対応確認。",
+          "uncertainty_note": "詩の作者ムヒー・アッディーン・ラーリーと、この写本の写字生・挿絵画家は同一とは確認できない。テキストの完成地インドと、本写本の推定制作地ブハラ、聖地の実所在地メッカ/メディナを区別。主画像は40頁で全巻の内容を示すものではなく、実寸測量地図ではない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "黄みを帯びた写本の頁に、青や金色を使った建物の図が描かれています。中央には黒い立方体のカアバ、その周りには小さな塔や壁が整然と並びます。上から見下ろすような構図で、建物の位置と装飾が一緒に示されています。\n\nこの写本は、イスラム教の二つの聖地メッカとメディナを詩で案内する『フフトゥーフ・アル＝ハラマイン』です。巡礼の際に訪ねる場所や儀礼を知るための書物で、本文は1505～06年にムヒー・アッディーン・ラーリーがインドで完成させました。ここにあるのは、その後の16世紀に写された一冊です。\n\nこの写本は、中央アジアのブハラで作られた初期の写しのひとつと考えられています。ただし、詩を書いた人物が絵も描いたとは分かっていません。今見えるのは40頁目の図で、建物の姿は巡礼の場所を見分ける助けにもなりました。地図のような絵の中に、信仰と旅を結びつける工夫が感じられます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/456969"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-456969-2026-11-13.json",
+        "audit_sha256": "dd80cce811a6b2da611f84471b17dd6fd1908ee5b04c8edc9f7305f4e7dbd71a",
+        "record_sha256": "a99ecd5699c3140fbc3bc9484bd59510d3b84f93ff27a1914999dc4238359d6d"
+      }
+    },
+    {
+      "id": "met-437181",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437181,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437181",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437181",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Madame Marsollier and Her Daughter",
+        "title_ja_provisional": "マルソリエ夫人と娘",
+        "artist": "Jean Marc Nattier",
+        "creation_date_display": "1749",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "France (18th-century court portraiture)",
+        "accession_number": "45.172"
+      },
+      "image": {
+        "image_id": "met-437181-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP247889.jpg",
+        "source_registry_id": "met-437181",
+        "local_path": "/artworks/met-437181.jpg",
+        "sha256": "28007305c5fe9760c0ade414ed03feed55855338efdbdafdca1ac98d0ee905f5",
+        "byte_length": 64441,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json",
+        "source_accession_number": "45.172",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP247889.jpg",
+          "sha256": "a565f6c9fffc2a8384da790debad2ac1c2c1b0f0127502d835129afcde0bf13d",
+          "byte_length": 1853733,
+          "width": 3023,
+          "height": 3864,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 3.62492",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "落ち着き",
+          "にぎわい"
+        ],
+        "themes": [
+          "共同体",
+          "日常"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437181",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "18世紀フランスの母と娘が化粧や衣装を通じて上流社会の振る舞いを学ぶ様子を、華やかな布と人物の視線から眺めたい",
+              "reason": "Met作品別Overviewによるとジャン＝マルク・ナティエが1749年に描き1750年のサロンで公開した、マルソリエ夫人と娘の肖像。18世紀ヨーロッパの上流社会では、友人や知人の前で化粧や身支度を仕上げることは社交の一部だった。この絵では母親が娘へそうした社交儀礼を教え、豪華な衣服と金色の化粧道具が美と礼儀や消費力を示す。マルソリエ夫人は富裕な織物商と結婚し、娘は後にシャミイ侯爵夫人となった。ナティエはフランス王家に好まれた肖像画家で、その選択に家の社会的な上昇志向がうかがえる。娘が実際にこの場で化粧を学ぶ日を記録した絵ではなく演出された肖像である。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "完成年1749年とサロンでの展示年1750年を区別。社交儀礼の演出であり、特定の日の家庭の出来事をそのまま記録したものと断定しない。豪華な姿の解説は上流社交の歴史的文脈として扱い、親子の感情を勝手に決めない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによるとジャン＝マルク・ナティエが1749年に描き1750年のサロンで公開した、マルソリエ夫人と娘の肖像。18世紀ヨーロッパの上流社会では、友人や知人の前で化粧や身支度を仕上げることは社交の一部だった。この絵では母親が娘へそうした社交儀礼を教え、豪華な衣服と金色の化粧道具が美と礼儀や消費力を示す。マルソリエ夫人は富裕な織物商と結婚し、娘は後にシャミイ侯爵夫人となった。ナティエはフランス王家に好まれた肖像画家で、その選択に家の社会的な上昇志向がうかがえる。娘が実際にこの場で化粧を学ぶ日を記録した絵ではなく演出された肖像である。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437181"
+          },
+          "creation_context": "1749; France (18th-century court portraiture); Oil on canvas; accession 45.172",
+          "visual_clues": "Met公式APIの原寸/表示JPEGをダウンロードして完全SHA256と寸法/リサイズRMSを確認した主画像を視認。縦長の画面で左に青いスカートと白い肩衣の母親が座り、右に黄土色の布をまとう少女が金色の盆を差し出している。金の器具と衣装の艶、暗い幕、背景右の柱と空の気配がある。母娘の顔立ちや絵の小道具を丁寧に見せる。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=3.6249で対応確認。",
+          "uncertainty_note": "完成年1749年とサロンでの展示年1750年を区別。社交儀礼の演出であり、特定の日の家庭の出来事をそのまま記録したものと断定しない。豪華な姿の解説は上流社交の歴史的文脈として扱い、親子の感情を勝手に決めない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "青い衣をまとった母親の隣に、金色の盆を差し出す少女が座っています。二人の衣装には光を受ける絹のような艶があり、化粧道具や大きな幕も華やかです。母親の手元から娘の持つ盆へ目を移すと、身支度のひと場面を切り取ったように見えます。\n\n1749年にフランスの肖像画家ジャン＝マルク・ナティエが描いた《マルソリエ夫人と娘》です。18世紀の上流社会では、友人や知人の前で化粧や身支度を仕上げることも、社交の一部でした。この絵では母親が、そうした振る舞いを娘に伝える姿を演出しています。作品は翌1750年のサロンにも出品されました。\n\nマルソリエ家は、王家に好まれた肖像画家を依頼することで、貴族社会に近づくことを望んでいました。娘は後にシャミイ侯爵夫人となります。華やかな布や化粧道具は、美しさだけでなく、当時の礼儀や身分を見せる役割も担っていました。二人の姿から、肖像画が家族の理想をどう描いたか考えてみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/437181"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-437181-2026-11-13.json",
+        "audit_sha256": "772dc94ada025cc963fccc71b78cecf68a67bd6732be99d5297f7a3b75170e78",
+        "record_sha256": "6ba917309e9e0668c49eb1b981d07a29c476e79661bc2b917211e2862aa08065"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

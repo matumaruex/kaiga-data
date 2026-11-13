@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-456969",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-456969.json",
+  "candidate_sha256": "c944f22d2e115bcdc0fbf9eb32f5b6fb46638e04b7a5fd2c4f99dcd74cc8a2e3",
+  "draft_path": "drafts/visitor-explanations/met-456969.json",
+  "draft_sha256": "15b93852b57e441176fdd14d721b24abf9745702e9baf7b6ed52fd10a7f0a531",
+  "baseline": {
+    "artworks_sha256": "22ec416b54d8bf722f7f73bc6addf3aa968c05cb0673699900dff86544570ed1",
+    "image_registry_sha256": "7e89e5038f2af3660c98126bf3a1a58ef9b2d0f5298d0cbe4a3bf60d724ad9ba"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/456969",
+      "source_excerpt": "poetic description of the two holy Muslim sites",
+      "visitor_claim": "この写本は、イスラム教の二つの聖地メッカとメディナを詩で案内する『フフトゥーフ・アル＝ハラマイン』です。",
+      "source_section": "Met exact Overview: poetic description of Mecca and Medina"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/456969",
+      "source_excerpt": "one of the first copies thought to have been made in Bukhara",
+      "visitor_claim": "この写本は、中央アジアのブハラで作られた初期の写しのひとつと考えられています。",
+      "source_section": "Met exact Overview: Bukhara production tentative"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/456969",
+      "location": "Exact artwork Overview and Object Information: Met exact Overview: poetic description of Mecca and Medina; Met exact Overview: Bukhara production tentative",
+      "finding": "Met作品別Overviewによれば『フフトゥーフ・アル＝ハラマイン（二聖都の案内）』はメッカとメディナの重要な場所、巡礼の儀礼を解説する詩文である。詩人ムヒー・アッディーン・ラーリーがインドで1505〜06年に文章を完成したが、この展示品は後の16世紀に複写された彩飾写本で、初期にブハラで制作されたと考えられる一例。主画像は40頁目で、中央の黒いカアバを囲む聖域・建造物を鳥瞰図で示し、巡礼者が場所を識別できるよう装飾や文字による目印を置く。地図のような図であり、当時の厳密な測量図・現地写真ではない。 Actual image observation: Met公式APIが指す原寸・表示JPEGのSHA256/画像サイズ/縮小RMSを照合し、そのサムネイルを直接確認。縦長の古い羊皮紙風の頁の中央に、黒い四角いカアバらしい建造物が黄色や青い幾何学的区画とともに描かれ、周辺に複数の細いミナレットと彩色の門が配置される。主要な装飾は金・青・赤を含む。本の全ページやメディナの風景までこの一枚に描かれているわけではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.6529で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/456969",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/456969",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/456969",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-456969 Futuh al-Haramayn (Description of the Holy Cities); Text by Muhi al-Din Lari; illuminator unknown; 16th century; accession 2009.343. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式APIが指す原寸・表示JPEGのSHA256/画像サイズ/縮小RMSを照合し、そのサムネイルを直接確認。縦長の古い羊皮紙風の頁の中央に、黒い四角いカアバらしい建造物が黄色や青い幾何学的区画とともに描かれ、周辺に複数の細いミナレットと彩色の門が配置される。主要な装飾は金・青・赤を含む。本の全ページやメディナの風景までこの一枚に描かれているわけではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.6529で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json",
+      "historical_interpretation": "Met作品別Overviewによれば『フフトゥーフ・アル＝ハラマイン（二聖都の案内）』はメッカとメディナの重要な場所、巡礼の儀礼を解説する詩文である。詩人ムヒー・アッディーン・ラーリーがインドで1505〜06年に文章を完成したが、この展示品は後の16世紀に複写された彩飾写本で、初期にブハラで制作されたと考えられる一例。主画像は40頁目で、中央の黒いカアバを囲む聖域・建造物を鳥瞰図で示し、巡礼者が場所を識別できるよう装飾や文字による目印を置く。地図のような図であり、当時の厳密な測量図・現地写真ではない。 Limits: 詩の作者ムヒー・アッディーン・ラーリーと、この写本の写字生・挿絵画家は同一とは確認できない。テキストの完成地インドと、本写本の推定制作地ブハラ、聖地の実所在地メッカ/メディナを区別。主画像は40頁で全巻の内容を示すものではなく、実寸測量地図ではない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/DP230665.jpg",
+      "sha256": "4d858749d730d151d802d38dcc405562cff1b53dcd865c3b893524c005ba3ae0",
+      "byte_length": 99106,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIが指す原寸・表示JPEGのSHA256/画像サイズ/縮小RMSを照合し、そのサムネイルを直接確認。縦長の古い羊皮紙風の頁の中央に、黒い四角いカアバらしい建造物が黄色や青い幾何学的区画とともに描かれ、周辺に複数の細いミナレットと彩色の門が配置される。主要な装飾は金・青・赤を含む。本の全ページやメディナの風景までこの一枚に描かれているわけではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.6529で対応確認。 Confirmed image belongs to Met artwork 456969, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/DP230665.jpg",
+      "sha256": "ebfc79cb84535faefacdc92cb50ef43066677376a67598cada67216fc64df167",
+      "byte_length": 3088461,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIが指す原寸・表示JPEGのSHA256/画像サイズ/縮小RMSを照合し、そのサムネイルを直接確認。縦長の古い羊皮紙風の頁の中央に、黒い四角いカアバらしい建造物が黄色や青い幾何学的区画とともに描かれ、周辺に複数の細いミナレットと彩色の門が配置される。主要な装飾は金・青・赤を含む。本の全ページやメディナの風景までこの一枚に描かれているわけではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.6529で対応確認。 Confirmed image belongs to Met artwork 456969, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #424; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 733038 depicts Giyorgis of Sägla and not Mary, while Baselyos vs illuminator identity is debated; Met 456969 reproduces a 1505-06 text in a later copy probably produced in Bukhara, and only page 40 is in the primary JPEG; Met 437181 dates to 1749 but appeared in the 1750 Salon, and depicts social display rather than a dated family event."
+  ]
+}

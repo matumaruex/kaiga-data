@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-456969",
+  "artwork": {
+    "id": "met-456969",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 456969,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/456969",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/456969",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Futuh al-Haramayn (Description of the Holy Cities)",
+      "title_ja_provisional": "『二聖都の案内』彩飾写本",
+      "artist": "Text by Muhi al-Din Lari; illuminator unknown",
+      "creation_date_display": "16th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Central Asia (probably Bukhara; text composed in India)",
+      "accession_number": "2009.343"
+    },
+    "image": {
+      "image_id": "met-456969-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP230665.jpg",
+      "source_registry_id": "met-456969",
+      "local_path": "/artworks/met-456969.jpg",
+      "sha256": "4d858749d730d151d802d38dcc405562cff1b53dcd865c3b893524c005ba3ae0",
+      "byte_length": 99106,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json",
+      "source_accession_number": "2009.343",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP230665.jpg",
+        "sha256": "ebfc79cb84535faefacdc92cb50ef43066677376a67598cada67216fc64df167",
+        "byte_length": 3088461,
+        "width": 2660,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 10.65291",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "時間",
+        "共同体"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/456969",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "16世紀のイスラム巡礼案内に描かれた聖地の鳥瞰図から、道案内と絵の模様の関係を知りたい",
+            "reason": "Met作品別Overviewによれば『フフトゥーフ・アル＝ハラマイン（二聖都の案内）』はメッカとメディナの重要な場所、巡礼の儀礼を解説する詩文である。詩人ムヒー・アッディーン・ラーリーがインドで1505〜06年に文章を完成したが、この展示品は後の16世紀に複写された彩飾写本で、初期にブハラで制作されたと考えられる一例。主画像は40頁目で、中央の黒いカアバを囲む聖域・建造物を鳥瞰図で示し、巡礼者が場所を識別できるよう装飾や文字による目印を置く。地図のような図であり、当時の厳密な測量図・現地写真ではない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "詩の作者ムヒー・アッディーン・ラーリーと、この写本の写字生・挿絵画家は同一とは確認できない。テキストの完成地インドと、本写本の推定制作地ブハラ、聖地の実所在地メッカ/メディナを区別。主画像は40頁で全巻の内容を示すものではなく、実寸測量地図ではない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによれば『フフトゥーフ・アル＝ハラマイン（二聖都の案内）』はメッカとメディナの重要な場所、巡礼の儀礼を解説する詩文である。詩人ムヒー・アッディーン・ラーリーがインドで1505〜06年に文章を完成したが、この展示品は後の16世紀に複写された彩飾写本で、初期にブハラで制作されたと考えられる一例。主画像は40頁目で、中央の黒いカアバを囲む聖域・建造物を鳥瞰図で示し、巡礼者が場所を識別できるよう装飾や文字による目印を置く。地図のような図であり、当時の厳密な測量図・現地写真ではない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/456969"
+        },
+        "creation_context": "16th century; Central Asia (probably Bukhara; text composed in India); Ink, opaque watercolor, gold on paper; accession 2009.343",
+        "visual_clues": "Met公式APIが指す原寸・表示JPEGのSHA256/画像サイズ/縮小RMSを照合し、そのサムネイルを直接確認。縦長の古い羊皮紙風の頁の中央に、黒い四角いカアバらしい建造物が黄色や青い幾何学的区画とともに描かれ、周辺に複数の細いミナレットと彩色の門が配置される。主要な装飾は金・青・赤を含む。本の全ページやメディナの風景までこの一枚に描かれているわけではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.6529で対応確認。",
+        "uncertainty_note": "詩の作者ムヒー・アッディーン・ラーリーと、この写本の写字生・挿絵画家は同一とは確認できない。テキストの完成地インドと、本写本の推定制作地ブハラ、聖地の実所在地メッカ/メディナを区別。主画像は40頁で全巻の内容を示すものではなく、実寸測量地図ではない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "黄みを帯びた写本の頁に、青や金色を使った建物の図が描かれています。中央には黒い立方体のカアバ、その周りには小さな塔や壁が整然と並びます。上から見下ろすような構図で、建物の位置と装飾が一緒に示されています。\n\nこの写本は、イスラム教の二つの聖地メッカとメディナを詩で案内する『フフトゥーフ・アル＝ハラマイン』です。巡礼の際に訪ねる場所や儀礼を知るための書物で、本文は1505～06年にムヒー・アッディーン・ラーリーがインドで完成させました。ここにあるのは、その後の16世紀に写された一冊です。\n\nこの写本は、中央アジアのブハラで作られた初期の写しのひとつと考えられています。ただし、詩を書いた人物が絵も描いたとは分かっていません。今見えるのは40頁目の図で、建物の姿は巡礼の場所を見分ける助けにもなりました。地図のような絵の中に、信仰と旅を結びつける工夫が感じられます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/456969"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-456969",
+    "title": "Futuh al-Haramayn (Description of the Holy Cities)",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/456969",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/456969",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP230665.jpg",
+      "sha256": "4d858749d730d151d802d38dcc405562cff1b53dcd865c3b893524c005ba3ae0",
+      "byte_length": 99106,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP230665.jpg",
+        "sha256": "ebfc79cb84535faefacdc92cb50ef43066677376a67598cada67216fc64df167",
+        "byte_length": 3088461,
+        "width": 2660,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 10.65291",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2009.343"
+  }
+}
