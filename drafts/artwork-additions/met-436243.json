@@ -1,0 +1,154 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-436243",
+  "artwork": {
+    "id": "met-436243",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 436243,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/436243",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436243",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Salvator Mundi",
+      "title_ja_provisional": "世界の救世主",
+      "artist": "Albrecht Dürer",
+      "creation_date_display": "ca. 1505",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Unspecified",
+      "accession_number": "32.100.64"
+    },
+    "image": {
+      "image_id": "met-436243-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-38479-001.jpg",
+      "source_registry_id": "met-436243",
+      "local_path": "/artworks/met-436243.jpg",
+      "sha256": "85aa61920fd51477f71149a1cb03d5e6f324160cb5903a8e771930b741ab1e2d",
+      "byte_length": 125365,
+      "live_image_checked": true,
+      "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+      "source_accession_number": "32.100.64",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-38479-001.jpg",
+        "sha256": "8791d364c5b4b3fa400d31ed7f9ef4fd3cc4a154847ab40aad626149141233fd",
+        "byte_length": 4577238,
+        "width": 3253,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=4.0448",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "畏敬",
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "畏敬": 2,
+        "好奇心": 1
+      },
+      "tones": [
+        "静けさ",
+        "余韻"
+      ],
+      "themes": [
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/436243",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "絵画と下描きの境目をゆっくり見て、完成に至る前の画家の仕事の痕跡を知りたい",
+            "reason": "メトロポリタン美術館の作品別Overviewによれば、アルブレヒト・デューラーが1505年頃に菩提樹（リンデン）の板へ油彩で描いたキリスト像。右手を上げて祝福し、左手には地球を表す球体を持つ、キリストを『世界の救世主』として示す図像。作者はイタリアに出発する直前に制作を始めた可能性があるものの、衣服部分しか完成しなかったとされる。顔と手には非常に精密な下描きが見えるため、絵画と素描の両方として鑑賞できる。作者がなぜ制作を中断したかは確定しない。Metは画面に未完成部分が残ることを研究上の特徴として説明している。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "制作が未完成であることを単なる画力不足と解釈しない。デューラーが制作をやめた理由は不明。下描きが目に見えるという公式解説と、後世の修復で見え方が変わる可能性を混同しない。球体は地球を象徴する宗教図像であり、近代の地球儀の実測図とは考えない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "メトロポリタン美術館の作品別Overviewによれば、アルブレヒト・デューラーが1505年頃に菩提樹（リンデン）の板へ油彩で描いたキリスト像。右手を上げて祝福し、左手には地球を表す球体を持つ、キリストを『世界の救世主』として示す図像。作者はイタリアに出発する直前に制作を始めた可能性があるものの、衣服部分しか完成しなかったとされる。顔と手には非常に精密な下描きが見えるため、絵画と素描の両方として鑑賞できる。作者がなぜ制作を中断したかは確定しない。Metは画面に未完成部分が残ることを研究上の特徴として説明している。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/436243"
+        },
+        "creation_context": "ca. 1505; Unspecified; Oil on linden; accession 32.100.64",
+        "visual_clues": "Met公式作品ページobjectID 436243の表示図版と画像検索で同一所蔵品32.100.64のMet IIIF主画像を視認。縦長の画面で、正面に向く長髪とひげのキリストが深い緑の背景を背に立つ。向かって左は青い衣、右は赤紫の外套。画面左寄りに祝福する右手を上げ、向かって右下に淡い色の球体を左手で支えている。顔や手の細かな仕上げは不均一で、衣の色と線は明瞭。下描きの正確な技法や年代は視認だけで判断せず美術館解説を根拠とする。",
+        "uncertainty_note": "制作が未完成であることを単なる画力不足と解釈しない。デューラーが制作をやめた理由は不明。下描きが目に見えるという公式解説と、後世の修復で見え方が変わる可能性を混同しない。球体は地球を象徴する宗教図像であり、近代の地球儀の実測図とは考えない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "畏敬"
+        ],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Met's exact artwork-specific Overview read directly and matching visual-reference provenance described per work; official Met JPEGs checked in CI. Same AI, not human/expert auditor."
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "深い緑色の背景の前に、長い髪を垂らしたキリストが立っています。青い衣と赤い外套の色が目を引き、上げた右手は祝福のしぐさを示しています。左手にある丸い球体は、地上世界を表すものです。\n\nこれはドイツ・ルネサンスの画家アルブレヒト・デューラーが1505年頃に手がけた《世界の救世主》です。イタリアへ旅立つ直前に制作を始めたと考えられていますが、完成させたのは主に衣服の部分でした。顔や手には細かい下描きの線が残り、絵を描き進める途中の段階をうかがうことができます。\n\nメトロポリタン美術館は、この作品を絵画としてだけでなく、素描としても見ることができると紹介しています。完成した衣服の色彩と、まだ仕上げられていない顔や手の表現を見比べると、普段は完成した絵の下に隠れてしまう画家の仕事が感じられます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/436243"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-436243",
+    "title": "Salvator Mundi",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/436243",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/436243",
+      "license_label": "The Met Open Access / CC0 (public-domain work; official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-38479-001.jpg",
+      "sha256": "85aa61920fd51477f71149a1cb03d5e6f324160cb5903a8e771930b741ab1e2d",
+      "byte_length": 125365,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-453-455-20261113/docs/artwork-research-evidence/met-453-455-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-38479-001.jpg",
+        "sha256": "8791d364c5b4b3fa400d31ed7f9ef4fd3cc4a154847ab40aad626149141233fd",
+        "byte_length": 4577238,
+        "width": 3253,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=4.0448",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "32.100.64"
+  }
+}

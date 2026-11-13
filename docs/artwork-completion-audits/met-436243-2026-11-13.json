@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-436243",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-436243.json",
+  "candidate_sha256": "8f617af42b71322c66258f14f9f1a8e1adec9fef14cec6fc2b07fac6d859c658",
+  "draft_path": "drafts/visitor-explanations/met-436243.json",
+  "draft_sha256": "1400664c8ab88e5ae5219f67e4b84d62a3bd3e787198950253c50f2d141750f2",
+  "baseline": {
+    "artworks_sha256": "0386b5d78a337517822037774c433b2635089c482d5bcbbdfc55030e8501d0cd",
+    "image_registry_sha256": "28263cad4f3073934db4c52c852efde85f986294441b30545b2bdb1070a4449a"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/436243",
+      "source_excerpt": "Dürer, the premier artist of the German Renaissance, probably began this work shortly before he departed for Italy in 1505",
+      "visitor_claim": "イタリアへ旅立つ直前に制作を始めたと考えられていますが、完成させたのは主に衣服の部分でした。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/436243",
+      "source_excerpt": "His unusually extensive and meticulous preparatory drawing on the panel is visible in the unfinished portions of Christ’s face and hands",
+      "visitor_claim": "顔や手には細かい下描きの線が残り、絵を描き進める途中の段階をうかがうことができます。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436243",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "メトロポリタン美術館の作品別Overviewによれば、アルブレヒト・デューラーが1505年頃に菩提樹（リンデン）の板へ油彩で描いたキリスト像。右手を上げて祝福し、左手には地球を表す球体を持つ、キリストを『世界の救世主』として示す図像。作者はイタリアに出発する直前に制作を始めた可能性があるものの、衣服部分しか完成しなかったとされる。顔と手には非常に精密な下描きが見えるため、絵画と素描の両方として鑑賞できる。作者がなぜ制作を中断したかは確定しない。Metは画面に未完成部分が残ることを研究上の特徴として説明している。 Visual: Met公式作品ページobjectID 436243の表示図版と画像検索で同一所蔵品32.100.64のMet IIIF主画像を視認。縦長の画面で、正面に向く長髪とひげのキリストが深い緑の背景を背に立つ。向かって左は青い衣、右は赤紫の外套。画面左寄りに祝福する右手を上げ、向かって右下に淡い色の球体を左手で支えている。顔や手の細かな仕上げは不均一で、衣の色と線は明瞭。下描きの正確な技法や年代は視認だけで判断せず美術館解説を根拠とする。 Limits: 制作が未完成であることを単なる画力不足と解釈しない。デューラーが制作をやめた理由は不明。下描きが目に見えるという公式解説と、後世の修復で見え方が変わる可能性を混同しない。球体は地球を象徴する宗教図像であり、近代の地球儀の実測図とは考えない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436243",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-436243: API objectID=436243, primary JPEG full downloaded and verified; RMS=4.0448",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/436243",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=4.0448."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/436243",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and the work-matched visual references (official Met image for Dürer and Tiepolo; object-title and Met-collection-matched image for Daumier), plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-436243 Salvator Mundi / Albrecht Dürer / ca. 1505 / 32.100.64",
+      "image_match": "Met公式作品ページobjectID 436243の表示図版と画像検索で同一所蔵品32.100.64のMet IIIF主画像を視認。縦長の画面で、正面に向く長髪とひげのキリストが深い緑の背景を背に立つ。向かって左は青い衣、右は赤紫の外套。画面左寄りに祝福する右手を上げ、向かって右下に淡い色の球体を左手で支えている。顔や手の細かな仕上げは不均一で、衣の色と線は明瞭。下描きの正確な技法や年代は視認だけで判断せず美術館解説を根拠とする。 Both primary JPEG variants fully downloaded and match (RMS=4.0448).",
+      "historical_interpretation": "メトロポリタン美術館の作品別Overviewによれば、アルブレヒト・デューラーが1505年頃に菩提樹（リンデン）の板へ油彩で描いたキリスト像。右手を上げて祝福し、左手には地球を表す球体を持つ、キリストを『世界の救世主』として示す図像。作者はイタリアに出発する直前に制作を始めた可能性があるものの、衣服部分しか完成しなかったとされる。顔と手には非常に精密な下描きが見えるため、絵画と素描の両方として鑑賞できる。作者がなぜ制作を中断したかは確定しない。Metは画面に未完成部分が残ることを研究上の特徴として説明している。 Cautions: 制作が未完成であることを単なる画力不足と解釈しない。デューラーが制作をやめた理由は不明。下描きが目に見えるという公式解説と、後世の修復で見え方が変わる可能性を混同しない。球体は地球を象徴する宗教図像であり、近代の地球儀の実測図とは考えない。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['畏敬', '好奇心']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-38479-001.jpg",
+      "sha256": "85aa61920fd51477f71149a1cb03d5e6f324160cb5903a8e771930b741ab1e2d",
+      "byte_length": 125365,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/436243",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436243/2306739/source"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met公式作品ページobjectID 436243の表示図版と画像検索で同一所蔵品32.100.64のMet IIIF主画像を視認。縦長の画面で、正面に向く長髪とひげのキリストが深い緑の背景を背に立つ。向かって左は青い衣、右は赤紫の外套。画面左寄りに祝福する右手を上げ、向かって右下に淡い色の球体を左手で支えている。顔や手の細かな仕上げは不均一で、衣の色と線は明瞭。下描きの正確な技法や年代は視認だけで判断せず美術館解説を根拠とする。 Official same-object primary JPEG original/display resized RGB RMS=4.0448; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-38479-001.jpg",
+      "sha256": "8791d364c5b4b3fa400d31ed7f9ef4fd3cc4a154847ab40aad626149141233fd",
+      "byte_length": 4577238,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/436243",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436243/2306739/source"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met公式作品ページobjectID 436243の表示図版と画像検索で同一所蔵品32.100.64のMet IIIF主画像を視認。縦長の画面で、正面に向く長髪とひげのキリストが深い緑の背景を背に立つ。向かって左は青い衣、右は赤紫の外套。画面左寄りに祝福する右手を上げ、向かって右下に淡い色の球体を左手で支えている。顔や手の細かな仕上げは不均一で、衣の色と線は明瞭。下描きの正確な技法や年代は視認だけで判断せず美術館解説を根拠とする。 Official same-object primary JPEG original/display resized RGB RMS=4.0448; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #453 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}

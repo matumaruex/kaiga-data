@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-436091",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-436091.json",
+  "candidate_sha256": "11a7228d6b988d7aaa7f2e11d02c7cc64a387722bdc446d25541483b8da739af",
+  "draft_path": "drafts/visitor-explanations/met-436091.json",
+  "draft_sha256": "3cc48ee458fd6216202600d4880aef00b8a57941ec18e13cda3c90e0c1b5a6fc",
+  "baseline": {
+    "artworks_sha256": "be809105b429640544188bc25d5cb423a867048a3bf8e3ecc81c7455e9269641",
+    "image_registry_sha256": "f4aedb2d73f0e38cfccb7ff654ce523eb2880e45c4f4ecaff77e7101ebb10063"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/436091",
+      "source_excerpt": "laundresses returning from laundry boats moored on the Seine",
+      "visitor_claim": "画家はアンジュー河岸の仕事場から、そこから戻ってくる洗濯女たちを目にしていたといいます。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/436091",
+      "source_excerpt": "woman tenderly extends her hand to help a child up the steps of the embankment",
+      "visitor_claim": "荷物の重さを感じさせる姿勢で、それでも小さな子供に向けて片手を差し伸べています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436091",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "メトロポリタン美術館によれば、オノレ・ドーミエがパリのアンジュー河岸のアトリエから実際に見えた、セーヌ川の洗濯船から戻る洗濯女を題材にした油彩画。重い荷物を抱えた女性が、河岸の階段を登ろうとする子供へ手を差し伸べる。明るい背後の建物や空に対して働く女性を大きく暗いシルエットで描き、ふつうの労働者に記念碑的な存在感を与える。3点の同構図油彩のうち最も大きく、おそらく最後に描かれたもの。画面左下の制作年の末尾は絵具の劣化で判読しづらく、1893年の記録に1863年と書かれていた。制作年は『1863年頃』として確実ではないことを維持する。子と女性の血縁関係を画面だけから断定しない。 Visual: Met作品436091の公式作品ページと作品タイトル・所蔵品番号47.122に一致する図版を直接視認。縦長の板絵で、黄土色の背景に川沿いの建物と水面のきらめきがある。手前中央に暗い褐色の服を着た女性が身をかがめ、大きな白っぽい洗濯物の束を片側に抱える。左下の階段には小さな子供がいて、女性と子供の手が近づく。画面左に石造りの手すり・階段。歩く方向と手を伸ばす姿勢が物語を作る。 Limits: 絵の女性と子が実際に血縁かどうかは所蔵館解説にないため『母と子』と断定しない。正確な制作年の末尾は劣化で読めず、1863年は1893年の記録によるため留保する。画家のスタジオから見える川岸の働く女性たちを題材にしているが、描かれた人物の実名は分からない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436091",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-436091: API objectID=436091, primary JPEG full downloaded and verified; RMS=6.3267",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/436091",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=6.3267."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/436091",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and the work-matched visual references (official Met image for Dürer and Tiepolo; object-title and Met-collection-matched image for Daumier), plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-436091 The Laundress / Honoré Daumier / 186[3?] / 47.122",
+      "image_match": "Met作品436091の公式作品ページと作品タイトル・所蔵品番号47.122に一致する図版を直接視認。縦長の板絵で、黄土色の背景に川沿いの建物と水面のきらめきがある。手前中央に暗い褐色の服を着た女性が身をかがめ、大きな白っぽい洗濯物の束を片側に抱える。左下の階段には小さな子供がいて、女性と子供の手が近づく。画面左に石造りの手すり・階段。歩く方向と手を伸ばす姿勢が物語を作る。 Both primary JPEG variants fully downloaded and match (RMS=6.3267).",
+      "historical_interpretation": "メトロポリタン美術館によれば、オノレ・ドーミエがパリのアンジュー河岸のアトリエから実際に見えた、セーヌ川の洗濯船から戻る洗濯女を題材にした油彩画。重い荷物を抱えた女性が、河岸の階段を登ろうとする子供へ手を差し伸べる。明るい背後の建物や空に対して働く女性を大きく暗いシルエットで描き、ふつうの労働者に記念碑的な存在感を与える。3点の同構図油彩のうち最も大きく、おそらく最後に描かれたもの。画面左下の制作年の末尾は絵具の劣化で判読しづらく、1893年の記録に1863年と書かれていた。制作年は『1863年頃』として確実ではないことを維持する。子と女性の血縁関係を画面だけから断定しない。 Cautions: 絵の女性と子が実際に血縁かどうかは所蔵館解説にないため『母と子』と断定しない。正確な制作年の末尾は劣化で読めず、1863年は1893年の記録によるため留保する。画家のスタジオから見える川岸の働く女性たちを題材にしているが、描かれた人物の実名は分からない。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['慈しみ', '希望']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2141.jpg",
+      "sha256": "6ca435bd0b7375d80d9e642cf78cbad2fa9660c1adeb5b6140d86785bb717314",
+      "byte_length": 86174,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/436091",
+        "https://www.arthistoryproject.com/artists/honore-daumier/the-laundress/"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met作品436091の公式作品ページと作品タイトル・所蔵品番号47.122に一致する図版を直接視認。縦長の板絵で、黄土色の背景に川沿いの建物と水面のきらめきがある。手前中央に暗い褐色の服を着た女性が身をかがめ、大きな白っぽい洗濯物の束を片側に抱える。左下の階段には小さな子供がいて、女性と子供の手が近づく。画面左に石造りの手すり・階段。歩く方向と手を伸ばす姿勢が物語を作る。 Official same-object primary JPEG original/display resized RGB RMS=6.3267; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT2141.jpg",
+      "sha256": "637a1c8a25b8a07c60db02b6b87e2064df446043f90ec05b2687bab979ed5d41",
+      "byte_length": 2885829,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/436091",
+        "https://www.arthistoryproject.com/artists/honore-daumier/the-laundress/"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met作品436091の公式作品ページと作品タイトル・所蔵品番号47.122に一致する図版を直接視認。縦長の板絵で、黄土色の背景に川沿いの建物と水面のきらめきがある。手前中央に暗い褐色の服を着た女性が身をかがめ、大きな白っぽい洗濯物の束を片側に抱える。左下の階段には小さな子供がいて、女性と子供の手が近づく。画面左に石造りの手すり・階段。歩く方向と手を伸ばす姿勢が物語を作る。 Official same-object primary JPEG original/display resized RGB RMS=6.3267; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #454 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}
