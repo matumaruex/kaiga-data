@@ -1,0 +1,155 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-48949",
+  "artwork": {
+    "id": "met-48949",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 48949,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/48949",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48949",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Shaded Dwellings among Streams and Mountains",
+      "title_ja_provisional": "溪山樾館図",
+      "artist": "Dong Qichang",
+      "creation_date_display": "ca. 1622–25",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "China",
+      "accession_number": "1979.75.2"
+    },
+    "image": {
+      "image_id": "met-48949-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-13850-002.jpg",
+      "source_registry_id": "met-48949",
+      "local_path": "/artworks/met-48949.jpg",
+      "sha256": "561941dc9d67c5fdb82d9db0bdf20da05b81edf104d7a1a3ebdd34850be338eb",
+      "byte_length": 91177,
+      "live_image_checked": true,
+      "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+      "source_accession_number": "1979.75.2",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-13850-002.jpg",
+        "sha256": "9fa3596c02e817ae72929c2948acdd27d2200c4eb2eff6b19dcd15506528b6a7",
+        "byte_length": 2334527,
+        "width": 3001,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=6.5847",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心",
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "好奇心": 2,
+        "畏敬": 1
+      },
+      "tones": [
+        "静けさ",
+        "余韻"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/48949",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "中国の山水画を、実景の写しではなく筆と余白から生まれる空間として眺め、古典に学びながら新しい絵を描くという試みを知りたい",
+            "reason": "メトロポリタン美術館の作品別Overviewによると、明末の文人画家・董其昌が1622〜25年ごろに描いた掛軸で、10世紀の董源の作品を踏まえた山水図。董其昌は同時代の山水画のあり方を批判し、古画の単なる模写ではなく精神的な呼応と個人的な表現を重んじた。筆を動かすことを書に近づけ、線・墨の塊・描かない余白を対置して山や木を構築する。美術館は画面の岩や木を、抽象的で角ばった塊と動きある筆致が結合したものとして分析する。作者の内心を決めつけたり、景色の実在地を指定したりしない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "董源の作品を『踏まえる』とは直接同じ場所を描いたという意味ではない。董其昌の制作動機はメトロポリタン美術館の研究解釈と混同しない。上部の書の全文や土地の名前は翻刻を確認していないため断定しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "メトロポリタン美術館の作品別Overviewによると、明末の文人画家・董其昌が1622〜25年ごろに描いた掛軸で、10世紀の董源の作品を踏まえた山水図。董其昌は同時代の山水画のあり方を批判し、古画の単なる模写ではなく精神的な呼応と個人的な表現を重んじた。筆を動かすことを書に近づけ、線・墨の塊・描かない余白を対置して山や木を構築する。美術館は画面の岩や木を、抽象的で角ばった塊と動きある筆致が結合したものとして分析する。作者の内心を決めつけたり、景色の実在地を指定したりしない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/48949"
+        },
+        "creation_context": "ca. 1622–25; China; Hanging scroll; ink on paper; accession 1979.75.2",
+        "visual_clues": "Met作品48949の作品ページにある公式IIIF主画像（object 48949/image 1703908）を直接開いて視認。縦長の掛軸に墨描の山、木、崖、道筋が重なる。上部には複数行の書と小さな朱印、画面中段にごつごつとした岩や木立、右中段に軽い線で描かれた数棟の家、下部には大胆な筆で描く幹と岩がある。薄い墨の面と紙の白地が山間の空気を示す。原寸JPEGと表示JPEGの全バイト・寸法・縮小一致はGitHub Actionsで別途確認する。",
+        "uncertainty_note": "董源の作品を『踏まえる』とは直接同じ場所を描いたという意味ではない。董其昌の制作動機はメトロポリタン美術館の研究解釈と混同しない。上部の書の全文や土地の名前は翻刻を確認していないため断定しない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": [
+          "畏敬"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Met's exact artwork-specific Overview and official linked IIIF image read and inspected directly in source-review pass; official full JPEG bytes checked in CI. Same AI, not human/expert auditor."
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "白い紙の上に、墨の濃淡で山や木々が積み重なっています。中ほどには小さな建物があり、下へ目を移すと太い幹と岩肌が現れます。上部の文字まで含めて、筆の動きが一枚の掛軸を貫いているようです。\n\nこれは明代の中国で、董其昌が1622〜25年ごろに描いた《溪山樾館図》です。メトロポリタン美術館によると、10世紀の画家・董源の作品を手本にしています。ただし、古い絵をそっくりに写すことが目的だったわけではありません。\n\n董其昌は過去の絵画を研究しながら、書を書くように線や墨の塊を組み立てる表現を探りました。輪郭のはっきりした岩と、白く残した空間のあいだを見ていくと、風景が筆の勢いによって生まれていくように感じられます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/48949"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-48949",
+    "title": "Shaded Dwellings among Streams and Mountains",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/48949",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/48949",
+      "license_label": "The Met Open Access / CC0 (public-domain work; official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-13850-002.jpg",
+      "sha256": "561941dc9d67c5fdb82d9db0bdf20da05b81edf104d7a1a3ebdd34850be338eb",
+      "byte_length": 91177,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-447-449-20261113/docs/artwork-research-evidence/met-447-449-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-13850-002.jpg",
+        "sha256": "9fa3596c02e817ae72929c2948acdd27d2200c4eb2eff6b19dcd15506528b6a7",
+        "byte_length": 2334527,
+        "width": 3001,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=6.5847",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "1979.75.2"
+  }
+}

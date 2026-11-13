@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-437970",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-437970.json",
+  "candidate_sha256": "52cc42b79a759b27c623507c8e54cf982274e3672eaee29ba648159effb75b0e",
+  "draft_path": "drafts/visitor-explanations/met-437970.json",
+  "draft_sha256": "ce6afcb7782597852f461d0b3abfb6d7da06a0c85ae43ddfb368a16ddc3f737a",
+  "baseline": {
+    "artworks_sha256": "8ebb28f1dd8e5d25a51294174f0895d5b0869571da8ff959ff6ad9ec552a0d61",
+    "image_registry_sha256": "14cf85f1c138aa65757b86a38e136dc6ce53551c744329da589c513417535612"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437970",
+      "source_excerpt": "part of a series by Zurbarán representing the thirteen founders of monastic orders",
+      "visitor_claim": "修道会の創設者たちを描いた13点の連作の一つで、壺は聖人にまつわる伝説を示しています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437970",
+      "source_excerpt": "a jar of poisoned wine was fractured when blessed by the saint",
+      "visitor_claim": "毒を盛られた葡萄酒の壺が祝福によって割れ、聖人が難を逃れたという物語です。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437970",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "メトロポリタン美術館の作品別Overviewによると、スペインのフランシスコ・デ・スルバランが1640〜45年ごろに描いた修道院創設者13人の連作の一部。聖ベネディクトゥスはセビリアのトリアナ地区で同時代に作られたタイプの白っぽい葡萄酒の壺を手にする。伝説では毒を盛られた葡萄酒の器が聖人の祝福によって割れ、危難を免れた。画面背景の岩山の中には小さな聖ベネディクトゥスが祈る姿が再登場する。美術館によると1630年代に工房はアメリカ大陸の宣教用に同じ連作の模写を少なくとも2組制作し、リマとメキシコシティに向けられた。これらの模写と本作の制作年は区別する。 Visual: Met作品437970の公式IIIF主画像（437970/image 2116596）を直接開いて視認。縦長の油彩画。黒い修道服の聖人が大きく立ち、左手に白い陶製の酒壺を持ち右手をその上で上げている。左側に岩壁と曇天、遠くの左下に祈るように膝をつく小さな黒衣の人物が見える。画面右は修道服の大きな黒い面が占める。壺が割れた決定的な一瞬は描かれておらず、伝説の器を提示する象徴的描写である。 Limits: 壺そのものが画面上で割れていると記述しない。毒入りの壺の奇跡は聖人伝の『伝説』であり歴史的に実証された出来事とはしない。リマとメキシコシティへ渡ったのは本作自身ではなく工房制作の別の連作の写し。作者個人の信仰やモデルの同定は不明。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437970",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-437970: API objectID=437970, primary JPEG full downloaded and verified; RMS=4.0209",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437970",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=4.0209."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437970",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and each actual official object-linked Met IIIF image, plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-437970 Saint Benedict / Francisco de Zurbarán / ca. 1640–45 / 1976.100.21",
+      "image_match": "Met作品437970の公式IIIF主画像（437970/image 2116596）を直接開いて視認。縦長の油彩画。黒い修道服の聖人が大きく立ち、左手に白い陶製の酒壺を持ち右手をその上で上げている。左側に岩壁と曇天、遠くの左下に祈るように膝をつく小さな黒衣の人物が見える。画面右は修道服の大きな黒い面が占める。壺が割れた決定的な一瞬は描かれておらず、伝説の器を提示する象徴的描写である。 Both primary JPEG variants fully downloaded and match (RMS=4.0209).",
+      "historical_interpretation": "メトロポリタン美術館の作品別Overviewによると、スペインのフランシスコ・デ・スルバランが1640〜45年ごろに描いた修道院創設者13人の連作の一部。聖ベネディクトゥスはセビリアのトリアナ地区で同時代に作られたタイプの白っぽい葡萄酒の壺を手にする。伝説では毒を盛られた葡萄酒の器が聖人の祝福によって割れ、危難を免れた。画面背景の岩山の中には小さな聖ベネディクトゥスが祈る姿が再登場する。美術館によると1630年代に工房はアメリカ大陸の宣教用に同じ連作の模写を少なくとも2組制作し、リマとメキシコシティに向けられた。これらの模写と本作の制作年は区別する。 Cautions: 壺そのものが画面上で割れていると記述しない。毒入りの壺の奇跡は聖人伝の『伝説』であり歴史的に実証された出来事とはしない。リマとメキシコシティへ渡ったのは本作自身ではなく工房制作の別の連作の写し。作者個人の信仰やモデルの同定は不明。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['畏敬', '不安']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25223-001.jpg",
+      "sha256": "e8b4823191e513e060b00e91979524e77a9c14e45240452c13f8640797e8de24",
+      "byte_length": 59151,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met作品437970の公式IIIF主画像（437970/image 2116596）を直接開いて視認。縦長の油彩画。黒い修道服の聖人が大きく立ち、左手に白い陶製の酒壺を持ち右手をその上で上げている。左側に岩壁と曇天、遠くの左下に祈るように膝をつく小さな黒衣の人物が見える。画面右は修道服の大きな黒い面が占める。壺が割れた決定的な一瞬は描かれておらず、伝説の器を提示する象徴的描写である。 Official same-object primary JPEG original/display resized RGB RMS=4.0209; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-25223-001.jpg",
+      "sha256": "79a8500d9cca058ac4c68160a6f401ba7920244a70bb3271072a017f22701d61",
+      "byte_length": 2343957,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met作品437970の公式IIIF主画像（437970/image 2116596）を直接開いて視認。縦長の油彩画。黒い修道服の聖人が大きく立ち、左手に白い陶製の酒壺を持ち右手をその上で上げている。左側に岩壁と曇天、遠くの左下に祈るように膝をつく小さな黒衣の人物が見える。画面右は修道服の大きな黒い面が占める。壺が割れた決定的な一瞬は描かれておらず、伝説の器を提示する象徴的描写である。 Official same-object primary JPEG original/display resized RGB RMS=4.0209; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #449 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official object-linked Met IIIF image was opened directly for each of the three works, then official API primary display/original JPEGs were verified.",
+    "No claims of human approval or expert rights review."
+  ]
+}
