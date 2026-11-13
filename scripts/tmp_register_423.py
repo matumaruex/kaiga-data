@@ -57,7 +57,7 @@ SPEC={int(k):v for k,v in {
         "Met exact Overview: public toilette elite sociability"
       ],
       [
-        "the Marsolliers aspired to aristocracy",
+        "the Marsolliers aspired to aristocracy and, indeed, their daughter",
         "マルソリエ家は、王家に好まれた肖像画家を依頼することで、貴族社会に近づくことを望んでいました。",
         "Met exact Overview: aristocratic aspirations"
       ]
