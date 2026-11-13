@@ -92,7 +92,7 @@ SPEC={int(k):v for k,v in {
       ],
       [
         "early autumn is represented by traditional Obon dances",
-        "初秋には盆踊りが描かれ",
+        "初秋には盆踊りが描かれ、冬には新年に向けた松の飾りを整える姿が続きます。",
         "Met exact Overview: Obon dancing marks early autumn"
       ]
     ]
