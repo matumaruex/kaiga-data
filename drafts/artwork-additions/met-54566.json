@@ -1,0 +1,151 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-54566",
+  "artwork": {
+    "id": "met-54566",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 54566,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/54566",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/54566",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Peacocks, Pine Tree, and Peonies",
+      "title_ja_provisional": "孔雀・松・牡丹図",
+      "artist": "Unidentified Japanese artist, in the style of Lü Ji",
+      "creation_date_display": "probably 19th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "14.76.3"
+    },
+    "image": {
+      "image_id": "met-54566-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/LC-14_76_3_jps-006.jpg",
+      "source_registry_id": "met-54566",
+      "local_path": "/artworks/met-54566.jpg",
+      "sha256": "74cff17b1c56e5e3ee43117d481f958d897f0ea700681ed237fa301edea58f39",
+      "byte_length": 111627,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-420-422-20261113/docs/artwork-research-evidence/met-420-422-2026-11-13.json",
+      "source_accession_number": "14.76.3",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/LC-14_76_3_jps-006.jpg",
+        "sha256": "f92a8acdfe0976a091cb86b306a55bdcb9623efd355b1b76957dd548c3edc2d1",
+        "byte_length": 4248772,
+        "width": 2375,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 5.68366",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "静けさ",
+        "余韻"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/54566",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "大きな孔雀と牡丹、松を描いた花鳥画を、室町以来の中国絵画の影響や後世の修復の跡とともに見たい",
+            "reason": "Met作品別Overviewによると、寧波地域の中国画家・呂紀（15世紀末に活動）の作品が16世紀初頭までに日本へ伝わり、彩色花鳥画に大きく影響した。本作は日本制作で、呂紀の真作に見られる印章の偽の写しを押した『呂紀様式』の作品であり、本人が描いたものではない。制作は19世紀頃と考えられ、19世紀末～20世紀初めの再表装の際に広範な擦れや顔料の剥落が生じた可能性がある。メトロポリタン美術館は表面の損傷を明確に記載。作者不明で帰属を呂紀本人としない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "Met APIのartistDisplayNameは『Lü Ji』だが、公式個別作品ページの表示は『Style of Lü Ji』。後者と学芸員の説明を優先し、呂紀本人の作ではないことを明示する。偽印は作者が本物の呂紀を装った証拠として記録できるが、特定の不正意図や販売経緯は分からない。色落ちは保存状態の説明であり制作時の意図とは区別する。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによると、寧波地域の中国画家・呂紀（15世紀末に活動）の作品が16世紀初頭までに日本へ伝わり、彩色花鳥画に大きく影響した。本作は日本制作で、呂紀の真作に見られる印章の偽の写しを押した『呂紀様式』の作品であり、本人が描いたものではない。制作は19世紀頃と考えられ、19世紀末～20世紀初めの再表装の際に広範な擦れや顔料の剥落が生じた可能性がある。メトロポリタン美術館は表面の損傷を明確に記載。作者不明で帰属を呂紀本人としない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/54566"
+        },
+        "creation_context": "probably 19th century; Japan (Edo–Meiji period); Hanging scroll; ink and color on silk; accession 14.76.3",
+        "visual_clues": "Met公式APIの主画像原寸・表示JPEGを全バイト照合してサムネイルを直接確認。縦長の淡褐色の掛軸の上半分に背の高い松が枝を伸ばし、中央に大きな孔雀らしい青灰色の鳥が二羽重なるように立つ。下方には牡丹の赤や白などの花と岩、草が重なり、全体に色の薄くなった傷みが見える。装飾の細部を実像から過度に読み込まない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.6837で対応確認。",
+        "uncertainty_note": "Met APIのartistDisplayNameは『Lü Ji』だが、公式個別作品ページの表示は『Style of Lü Ji』。後者と学芸員の説明を優先し、呂紀本人の作ではないことを明示する。偽印は作者が本物の呂紀を装った証拠として記録できるが、特定の不正意図や販売経緯は分からない。色落ちは保存状態の説明であり制作時の意図とは区別する。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-420-422-20261113/docs/artwork-research-evidence/met-420-422-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "松の枝の下に、羽を広げるように立つ孔雀と、岩間に咲く牡丹が描かれています。緑や青、花の赤みはところどころ薄くなり、画面の表面にも擦れが見えます。鳥の羽と花びらをたどりながら、絵が長い時間を経て現在に伝わったことにも目を向けてみてください。\n\nこの掛軸は、19世紀頃の日本で描かれた花鳥画です。中国の画家・呂紀の色鮮やかな花鳥画は、16世紀初めには日本に伝わり、後の日本絵画に影響しました。この作品も呂紀の様式にならって制作され、画中には呂紀の本物の印をまねた印章が使われています。呂紀本人が制作した絵ではありません。\n\n美術館は、画面の広い範囲に擦れや顔料の失われた部分があり、後世の表装し直しで傷んだ可能性を指摘しています。薄く見える部分のすべてが、もともとの画家の描き方だったとは限りません。孔雀や花の形と、絵そのものの年月の跡を見比べると、作品がたどってきた歴史も浮かび上がります。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/54566"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-54566",
+    "title": "Peacocks, Pine Tree, and Peonies",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/54566",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/54566",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/LC-14_76_3_jps-006.jpg",
+      "sha256": "74cff17b1c56e5e3ee43117d481f958d897f0ea700681ed237fa301edea58f39",
+      "byte_length": 111627,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-420-422-20261113/docs/artwork-research-evidence/met-420-422-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/LC-14_76_3_jps-006.jpg",
+        "sha256": "f92a8acdfe0976a091cb86b306a55bdcb9623efd355b1b76957dd548c3edc2d1",
+        "byte_length": 4248772,
+        "width": 2375,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 5.68366",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "14.76.3"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-54566",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-54566.json",
+  "candidate_sha256": "40dcb055fcbb91ab815049827314250ed8494647dfaa0b7ab9c7f98a90ffebba",
+  "draft_path": "drafts/visitor-explanations/met-54566.json",
+  "draft_sha256": "cd4684ba07f63881994dbda21edcccd2e0ca6f3437c44d64ca3dfd871acac665",
+  "baseline": {
+    "artworks_sha256": "b89cefe241cd52cc721ed9f51ea59d5069b573832559088426d8f931af15826a",
+    "image_registry_sha256": "15647b9a0c5aa54df804cbe7a7ce06d00e57f5039d6aef2ca540af4b7d029032"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/54566",
+      "source_excerpt": "created in Japan, bears a forged copy of a seal",
+      "visitor_claim": "この作品も呂紀の様式にならって制作され、画中には呂紀の本物の印をまねた印章が使われています。",
+      "source_section": "Exact Met artwork Overview: Japanese Lü Ji-style work and imitated seal"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/54566",
+      "source_excerpt": "widespread abrasion of the surface and loss of pigments",
+      "visitor_claim": "画面の広い範囲に擦れや顔料の失われた部分があり",
+      "source_section": "Exact Met artwork Overview: documented surface abrasion and pigment loss"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/54566",
+      "location": "Exact artwork Overview and Object Information: Exact Met artwork Overview: Japanese Lü Ji-style work and imitated seal; Exact Met artwork Overview: documented surface abrasion and pigment loss",
+      "finding": "Met作品別Overviewによると、寧波地域の中国画家・呂紀（15世紀末に活動）の作品が16世紀初頭までに日本へ伝わり、彩色花鳥画に大きく影響した。本作は日本制作で、呂紀の真作に見られる印章の偽の写しを押した『呂紀様式』の作品であり、本人が描いたものではない。制作は19世紀頃と考えられ、19世紀末～20世紀初めの再表装の際に広範な擦れや顔料の剥落が生じた可能性がある。メトロポリタン美術館は表面の損傷を明確に記載。作者不明で帰属を呂紀本人としない。 Actual image observation: Met公式APIの主画像原寸・表示JPEGを全バイト照合してサムネイルを直接確認。縦長の淡褐色の掛軸の上半分に背の高い松が枝を伸ばし、中央に大きな孔雀らしい青灰色の鳥が二羽重なるように立つ。下方には牡丹の赤や白などの花と岩、草が重なり、全体に色の薄くなった傷みが見える。装飾の細部を実像から過度に読み込まない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.6837で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/54566",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-420-422-20261113/docs/artwork-research-evidence/met-420-422-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/54566",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-420-422-20261113/docs/artwork-research-evidence/met-420-422-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/54566",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-54566 Peacocks, Pine Tree, and Peonies; Unidentified Japanese artist, in the style of Lü Ji; probably 19th century; accession 14.76.3. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式APIの主画像原寸・表示JPEGを全バイト照合してサムネイルを直接確認。縦長の淡褐色の掛軸の上半分に背の高い松が枝を伸ばし、中央に大きな孔雀らしい青灰色の鳥が二羽重なるように立つ。下方には牡丹の赤や白などの花と岩、草が重なり、全体に色の薄くなった傷みが見える。装飾の細部を実像から過度に読み込まない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.6837で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-420-422-20261113/docs/artwork-research-evidence/met-420-422-2026-11-13.json",
+      "historical_interpretation": "Met作品別Overviewによると、寧波地域の中国画家・呂紀（15世紀末に活動）の作品が16世紀初頭までに日本へ伝わり、彩色花鳥画に大きく影響した。本作は日本制作で、呂紀の真作に見られる印章の偽の写しを押した『呂紀様式』の作品であり、本人が描いたものではない。制作は19世紀頃と考えられ、19世紀末～20世紀初めの再表装の際に広範な擦れや顔料の剥落が生じた可能性がある。メトロポリタン美術館は表面の損傷を明確に記載。作者不明で帰属を呂紀本人としない。 Limits: Met APIのartistDisplayNameは『Lü Ji』だが、公式個別作品ページの表示は『Style of Lü Ji』。後者と学芸員の説明を優先し、呂紀本人の作ではないことを明示する。偽印は作者が本物の呂紀を装った証拠として記録できるが、特定の不正意図や販売経緯は分からない。色落ちは保存状態の説明であり制作時の意図とは区別する。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/LC-14_76_3_jps-006.jpg",
+      "sha256": "74cff17b1c56e5e3ee43117d481f958d897f0ea700681ed237fa301edea58f39",
+      "byte_length": 111627,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの主画像原寸・表示JPEGを全バイト照合してサムネイルを直接確認。縦長の淡褐色の掛軸の上半分に背の高い松が枝を伸ばし、中央に大きな孔雀らしい青灰色の鳥が二羽重なるように立つ。下方には牡丹の赤や白などの花と岩、草が重なり、全体に色の薄くなった傷みが見える。装飾の細部を実像から過度に読み込まない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.6837で対応確認。 Confirmed image belongs to Met artwork 54566, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/LC-14_76_3_jps-006.jpg",
+      "sha256": "f92a8acdfe0976a091cb86b306a55bdcb9623efd355b1b76957dd548c3edc2d1",
+      "byte_length": 4248772,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの主画像原寸・表示JPEGを全バイト照合してサムネイルを直接確認。縦長の淡褐色の掛軸の上半分に背の高い松が枝を伸ばし、中央に大きな孔雀らしい青灰色の鳥が二羽重なるように立つ。下方には牡丹の赤や白などの花と岩、草が重なり、全体に色の薄くなった傷みが見える。装飾の細部を実像から過度に読み込まない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.6837で対応確認。 Confirmed image belongs to Met artwork 54566, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #421; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 21186 depicts four named Indigenous leaders during tense US-Lakota relations, not necessarily all of one tribal nation; 54566 is a Japan-made work in the *style* of Lü Ji and has a forged seal and degraded pigments, contrary to simplified API author; 454664 main JPEG shows the illuminated opening of the second volume of seven, made probably in Morocco or southern Spain and later held in Medina."
+  ]
+}
