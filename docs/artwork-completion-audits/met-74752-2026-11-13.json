@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-74752",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-74752.json",
+  "candidate_sha256": "8306a63cac56c3d485566c149d74b4d51f991ef3d3804aa5f1a5e086afac6c18",
+  "draft_path": "drafts/visitor-explanations/met-74752.json",
+  "draft_sha256": "0ef4b943eda648f95573ed706539c894627e91233891b7ffc0835186a76c7678",
+  "baseline": {
+    "artworks_sha256": "560c1f19565d17202fdab48ef0634992e13be72397a35572efd5e6395eec8f8c",
+    "image_registry_sha256": "4fca9339d3895e565483935dcccf6fe35360e2107b3417fac59aec28ff5bdde1"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/74752",
+      "source_excerpt": "the bold use of line to demarcate the architectural forms",
+      "visitor_claim": "建物の輪郭を区切る力強い線が、画面の骨組みをつくっています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/74752",
+      "source_excerpt": "The identification of this ragini is based on a finished, inscribed painting",
+      "visitor_claim": "この絵の題名の同定は、ボストン美術館所蔵の銘文入り完成画との比較に基づきます。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/74752",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "Metの作品別Overviewは、ラージャスターン州ブーンディの18世紀初頭の細密画に、完成前の筆と墨の下描きが残り、建物の輪郭を区切る線が構図の骨格を作ると説明。人物も完成画より直接的で新鮮な印象を与えるとの美術館の判断。同定されたラギニ名はこの紙面の明瞭な銘からではなく、ボストン美術館にある完成・銘文付きの比較作に基づく。ラガマーラーは音楽の旋律型に対応した絵画であり、本作品が音を鳴らす絵ではない。 Visual: 淡い茶色の紙に寺院や宮殿のような建築線が墨で描かれ、画面左下の屋内に男女と思われる二人が座り、上部には屋根や塔、右端に植木が見える。細い線が中心で濃彩に塗り込められていない。作品ID74752のMet公式IIIF画像で直接確認した。 Limits: 特定の音階や人物の感情をこの未完成画だけから断定せず、ラギニ名の同定は別作品の銘文との比較に基づく。未完成であることを画家の失敗とみなさない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/74752",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-74752: API objectID=74752, primary JPEG full downloaded and verified; RMS=10.5170",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/74752",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=10.5170."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/74752",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and real official IIIF object image, plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-74752 Desvarari Ragini: Folio from a ragamala series (Garland of Musical Modes) / Unknown artist / early 18th century / 2008.359.1",
+      "image_match": "淡い茶色の紙に寺院や宮殿のような建築線が墨で描かれ、画面左下の屋内に男女と思われる二人が座り、上部には屋根や塔、右端に植木が見える。細い線が中心で濃彩に塗り込められていない。作品ID74752のMet公式IIIF画像で直接確認した。 Both primary JPEG variants fully downloaded and match (RMS=10.5170).",
+      "historical_interpretation": "Metの作品別Overviewは、ラージャスターン州ブーンディの18世紀初頭の細密画に、完成前の筆と墨の下描きが残り、建物の輪郭を区切る線が構図の骨格を作ると説明。人物も完成画より直接的で新鮮な印象を与えるとの美術館の判断。同定されたラギニ名はこの紙面の明瞭な銘からではなく、ボストン美術館にある完成・銘文付きの比較作に基づく。ラガマーラーは音楽の旋律型に対応した絵画であり、本作品が音を鳴らす絵ではない。 Cautions: 特定の音階や人物の感情をこの未完成画だけから断定せず、ラギニ名の同定は別作品の銘文との比較に基づく。未完成であることを画家の失敗とみなさない。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['好奇心']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP166068.jpg",
+      "sha256": "57789bfd4c7351bb28a157aa882b7069050b024f3bb67fe3c9b3b88bbb96025e",
+      "byte_length": 246187,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "淡い茶色の紙に寺院や宮殿のような建築線が墨で描かれ、画面左下の屋内に男女と思われる二人が座り、上部には屋根や塔、右端に植木が見える。細い線が中心で濃彩に塗り込められていない。作品ID74752のMet公式IIIF画像で直接確認した。 Official same-object primary JPEG original/display resized RGB RMS=10.5170; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP166068.jpg",
+      "sha256": "2a80c07183956b1a90a32e691d4c322438f0a4eb7510fd7a42a07236c17ef2de",
+      "byte_length": 2086659,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "淡い茶色の紙に寺院や宮殿のような建築線が墨で描かれ、画面左下の屋内に男女と思われる二人が座り、上部には屋根や塔、右端に植木が見える。細い線が中心で濃彩に塗り込められていない。作品ID74752のMet公式IIIF画像で直接確認した。 Official same-object primary JPEG original/display resized RGB RMS=10.5170; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #436 with preceding artwork and image-registry records unchanged.",
+    "Both direct HTML Overview excerpts were independently matched in the research pass; same AI also visually inspected the exact Met IIIF image.",
+    "No claims of human approval or expert rights review."
+  ]
+}
