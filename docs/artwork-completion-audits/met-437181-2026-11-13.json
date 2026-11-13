@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-437181",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-437181.json",
+  "candidate_sha256": "7d69c2cdb9da356e1b222cda617782eab84fd538e01863fc881b70b6edbc1d82",
+  "draft_path": "drafts/visitor-explanations/met-437181.json",
+  "draft_sha256": "5be23c35498842bddf9d9718c9026db149c09064cf06422407f52caf3d856780",
+  "baseline": {
+    "artworks_sha256": "b4d5d920396d781349b864fd77d4b217985c2e0ea745493a0fa7d3cd3429b393",
+    "image_registry_sha256": "27e5b3adbdc53e8f4d7ee83e9cc7794de5eb99d4da03ebba3ff490ebc053f30f"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437181",
+      "source_excerpt": "applying makeup and finishing dressing before friends and associates",
+      "visitor_claim": "18世紀の上流社会では、友人や知人の前で化粧や身支度を仕上げることも、社交の一部でした。",
+      "source_section": "Met exact Overview: public toilette elite sociability"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437181",
+      "source_excerpt": "the Marsolliers aspired to aristocracy and, indeed, their daughter",
+      "visitor_claim": "マルソリエ家は、王家に好まれた肖像画家を依頼することで、貴族社会に近づくことを望んでいました。",
+      "source_section": "Met exact Overview: aristocratic aspirations"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437181",
+      "location": "Exact artwork Overview and Object Information: Met exact Overview: public toilette elite sociability; Met exact Overview: aristocratic aspirations",
+      "finding": "Met作品別Overviewによるとジャン＝マルク・ナティエが1749年に描き1750年のサロンで公開した、マルソリエ夫人と娘の肖像。18世紀ヨーロッパの上流社会では、友人や知人の前で化粧や身支度を仕上げることは社交の一部だった。この絵では母親が娘へそうした社交儀礼を教え、豪華な衣服と金色の化粧道具が美と礼儀や消費力を示す。マルソリエ夫人は富裕な織物商と結婚し、娘は後にシャミイ侯爵夫人となった。ナティエはフランス王家に好まれた肖像画家で、その選択に家の社会的な上昇志向がうかがえる。娘が実際にこの場で化粧を学ぶ日を記録した絵ではなく演出された肖像である。 Actual image observation: Met公式APIの原寸/表示JPEGをダウンロードして完全SHA256と寸法/リサイズRMSを確認した主画像を視認。縦長の画面で左に青いスカートと白い肩衣の母親が座り、右に黄土色の布をまとう少女が金色の盆を差し出している。金の器具と衣装の艶、暗い幕、背景右の柱と空の気配がある。母娘の顔立ちや絵の小道具を丁寧に見せる。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=3.6249で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437181",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437181",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437181",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-437181 Madame Marsollier and Her Daughter; Jean Marc Nattier; 1749; accession 45.172. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式APIの原寸/表示JPEGをダウンロードして完全SHA256と寸法/リサイズRMSを確認した主画像を視認。縦長の画面で左に青いスカートと白い肩衣の母親が座り、右に黄土色の布をまとう少女が金色の盆を差し出している。金の器具と衣装の艶、暗い幕、背景右の柱と空の気配がある。母娘の顔立ちや絵の小道具を丁寧に見せる。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=3.6249で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-423-425-20261113/docs/artwork-research-evidence/met-423-425-2026-11-13.json",
+      "historical_interpretation": "Met作品別Overviewによるとジャン＝マルク・ナティエが1749年に描き1750年のサロンで公開した、マルソリエ夫人と娘の肖像。18世紀ヨーロッパの上流社会では、友人や知人の前で化粧や身支度を仕上げることは社交の一部だった。この絵では母親が娘へそうした社交儀礼を教え、豪華な衣服と金色の化粧道具が美と礼儀や消費力を示す。マルソリエ夫人は富裕な織物商と結婚し、娘は後にシャミイ侯爵夫人となった。ナティエはフランス王家に好まれた肖像画家で、その選択に家の社会的な上昇志向がうかがえる。娘が実際にこの場で化粧を学ぶ日を記録した絵ではなく演出された肖像である。 Limits: 完成年1749年とサロンでの展示年1750年を区別。社交儀礼の演出であり、特定の日の家庭の出来事をそのまま記録したものと断定しない。豪華な姿の解説は上流社交の歴史的文脈として扱い、親子の感情を勝手に決めない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP247889.jpg",
+      "sha256": "28007305c5fe9760c0ade414ed03feed55855338efdbdafdca1ac98d0ee905f5",
+      "byte_length": 64441,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの原寸/表示JPEGをダウンロードして完全SHA256と寸法/リサイズRMSを確認した主画像を視認。縦長の画面で左に青いスカートと白い肩衣の母親が座り、右に黄土色の布をまとう少女が金色の盆を差し出している。金の器具と衣装の艶、暗い幕、背景右の柱と空の気配がある。母娘の顔立ちや絵の小道具を丁寧に見せる。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=3.6249で対応確認。 Confirmed image belongs to Met artwork 437181, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP247889.jpg",
+      "sha256": "a565f6c9fffc2a8384da790debad2ac1c2c1b0f0127502d835129afcde0bf13d",
+      "byte_length": 1853733,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの原寸/表示JPEGをダウンロードして完全SHA256と寸法/リサイズRMSを確認した主画像を視認。縦長の画面で左に青いスカートと白い肩衣の母親が座り、右に黄土色の布をまとう少女が金色の盆を差し出している。金の器具と衣装の艶、暗い幕、背景右の柱と空の気配がある。母娘の顔立ちや絵の小道具を丁寧に見せる。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=3.6249で対応確認。 Confirmed image belongs to Met artwork 437181, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #425; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 733038 depicts Giyorgis of Sägla and not Mary, while Baselyos vs illuminator identity is debated; Met 456969 reproduces a 1505-06 text in a later copy probably produced in Bukhara, and only page 40 is in the primary JPEG; Met 437181 dates to 1749 but appeared in the 1750 Salon, and depicts social display rather than a dated family event."
+  ]
+}
