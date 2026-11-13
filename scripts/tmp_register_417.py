@@ -254,7 +254,7 @@ def prepare(meta,spec,baseline):
     print("COMPLETED ARTWORK",number,ident,api["title"],flush=True)
 
 def main():
-    check(len(load("data/artworks.json")["artworks"])==413,"main must have exactly 413 artworks")
+    check(len(load("data/artworks.json")["artworks"])==416,"main must have exactly 416 artworks")
     research=load(EVIDENCE)
     works={x["id"]:x for x in research["works"] if x["id"] in SPEC}
     check(set(works)==set(SPEC),"research IDs mismatch")
