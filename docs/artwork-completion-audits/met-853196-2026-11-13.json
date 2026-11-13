@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-853196",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-853196.json",
+  "candidate_sha256": "5ded6b66830206a4d8afc86f5e3924c1c8417ab85c06deb2af816ee16752d4d1",
+  "draft_path": "drafts/visitor-explanations/met-853196.json",
+  "draft_sha256": "40a8c2a3e0948fdfb229e5ea4d09ab90f3b3350aeb6080a1e18e7e32df72f0e5",
+  "baseline": {
+    "artworks_sha256": "4ad5558da97d1b162fc6e25338b8ea0b2a01ed556b26219b99157eb3c45f1747",
+    "image_registry_sha256": "1a4b18cd6475142488c017399d9965864518b5b97e23b1b044e069f36d295ec0"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853196",
+      "source_excerpt": "by employing sōgana, highly cursive Chinese characters (kanji) used phonetically",
+      "visitor_claim": "尊朝は草仮名と呼ばれる、漢字を音として使う古い仮名表記を取り入れ、仮名が漢字と同じような力強さを持つ書き方を試みました。",
+      "source_section": "Met exact artwork Overview: phonetic sōgana"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853196",
+      "source_excerpt": "We have no surviving evidence documenting the circumstances or poetry gathering",
+      "visitor_claim": "美術館は、この和歌がどの歌会で、どんな事情から書かれたのかを示す記録は残っていないと説明しています。",
+      "source_section": "Met exact artwork Overview: no recorded performance circumstance"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/853196",
+      "location": "Exact artwork Overview and Object Information: Met exact artwork Overview: phonetic sōgana; Met exact artwork Overview: no recorded performance circumstance",
+      "finding": "Met個別Overviewによれば、16世紀後半の尊朝法親王による和歌懐紙であり、菊が散った後の一年を回想する歌が墨書される。尊朝は和歌の通常の仮名のかわりに、漢字を音で用いる古い草仮名（そうがな）を筆記し、濃く太い仮名が漢字と同じほどの視覚的な重みを持つよう工夫した。青蓮院は室町後期の宮廷書法の主要な拠点であり、尊朝は王家に生まれ、青蓮院の皇族僧として書を学び後進に伝えた。制作された歌会の日付や具体的な状況を示す史料は残らず、菊と皇室の家紋との関係は美術館の図像的な読みとして提示される。 Actual image observation: Met作品ID853196の公式原寸・表示JPEGを全バイト取得し、SHA256・寸法・縮小RGB RMSを保存、実際の主画像サムネイルを確認。薄黄色の正方形に近い書面の上部に右から墨書の題字があり、下部に流れるような複数行の墨の線。周囲は緑と金色の布に表装され、字の太さは太細が対照的。花の実物が写生されているのではなく和歌の文字の書。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.7772で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853196",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853196",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853196",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-853196 Waka Poem on Chrysanthemums; Shōren’in Sonchō Hosshinnō 青蓮院尊朝法親王; late 16th century; accession 2022.432.9. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met作品ID853196の公式原寸・表示JPEGを全バイト取得し、SHA256・寸法・縮小RGB RMSを保存、実際の主画像サムネイルを確認。薄黄色の正方形に近い書面の上部に右から墨書の題字があり、下部に流れるような複数行の墨の線。周囲は緑と金色の布に表装され、字の太さは太細が対照的。花の実物が写生されているのではなく和歌の文字の書。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.7772で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json",
+      "historical_interpretation": "Met個別Overviewによれば、16世紀後半の尊朝法親王による和歌懐紙であり、菊が散った後の一年を回想する歌が墨書される。尊朝は和歌の通常の仮名のかわりに、漢字を音で用いる古い草仮名（そうがな）を筆記し、濃く太い仮名が漢字と同じほどの視覚的な重みを持つよう工夫した。青蓮院は室町後期の宮廷書法の主要な拠点であり、尊朝は王家に生まれ、青蓮院の皇族僧として書を学び後進に伝えた。制作された歌会の日付や具体的な状況を示す史料は残らず、菊と皇室の家紋との関係は美術館の図像的な読みとして提示される。 Limits: 『菊の和歌』は書の作品であり、菊の花を描いた花鳥画ではない。歌会や制作の個別状況は不明で、皇室の菊紋との連想も推論として扱う。詩の日本語の正確な表記は原文に拠るが、本文では内容を簡潔に意訳するにとどめる。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-25262-002.jpg",
+      "sha256": "7d151036c26266468df835fd47923177fc4faa0705c00e4f1be84876980e34a8",
+      "byte_length": 141009,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met作品ID853196の公式原寸・表示JPEGを全バイト取得し、SHA256・寸法・縮小RGB RMSを保存、実際の主画像サムネイルを確認。薄黄色の正方形に近い書面の上部に右から墨書の題字があり、下部に流れるような複数行の墨の線。周囲は緑と金色の布に表装され、字の太さは太細が対照的。花の実物が写生されているのではなく和歌の文字の書。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.7772で対応確認。 Confirmed image belongs to Met artwork 853196, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-25262-002.jpg",
+      "sha256": "5d32370dfc1ade91bf770e2f5852a38e7696b48c24b5493c1cd2bdd43d8fe685",
+      "byte_length": 5470861,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met作品ID853196の公式原寸・表示JPEGを全バイト取得し、SHA256・寸法・縮小RGB RMSを保存、実際の主画像サムネイルを確認。薄黄色の正方形に近い書面の上部に右から墨書の題字があり、下部に流れるような複数行の墨の線。周囲は緑と金色の布に表装され、字の太さは太細が対照的。花の実物が写生されているのではなく和歌の文字の書。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.7772で対応確認。 Confirmed image belongs to Met artwork 853196, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #430; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 437182 notes ribbon and hair pentimenti without giving sitter name; met-853196 is an ink calligraphy waka sheet and has no evidence identifying a particular poetry gathering; met-853894 depicts the ancestral shrine and offerings as an alternate support for jesa rituals, not an identified family ceremony."
+  ]
+}

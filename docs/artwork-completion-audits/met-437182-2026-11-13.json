@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-437182",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-437182.json",
+  "candidate_sha256": "eee8ca05816cd8340a7e4bf95b624c2747d34d7e89e2d0657a77ddad2dbe2617",
+  "draft_path": "drafts/visitor-explanations/met-437182.json",
+  "draft_sha256": "5f47674a69bf6cacce9ffa19e7976983147d826c28e79315705f73e34c59313c",
+  "baseline": {
+    "artworks_sha256": "6c7232717aed139b4993f762f1e43d2c8097afc5eaac95538793e385422f276b",
+    "image_registry_sha256": "cd13cddfd7139d06dc580401fb52e836727383f0fff9efe17ce8c090c75f64d8"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437182",
+      "source_excerpt": "Conformity rather than individuality was a hallmark of Nattier’s enormous success",
+      "visitor_claim": "ナティエの肖像では、人物ごとの違いを際立たせるより、白い肌や赤い頬など、共通する流行の美しさが重んじられました。",
+      "source_section": "Met exact artwork Overview: preferred shared aristocratic portrait conventions"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437182",
+      "source_excerpt": "Nattier made several adjustments to the position of the ribbon and hair",
+      "visitor_claim": "美術館は、青いリボンと髪の位置が制作途中で何度か描き直されたことを指摘しています。",
+      "source_section": "Met exact artwork Overview: ribbon and hair pentimenti"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437182",
+      "location": "Exact artwork Overview and Object Information: Met exact artwork Overview: preferred shared aristocratic portrait conventions; Met exact artwork Overview: ribbon and hair pentimenti",
+      "finding": "Metの個別Overviewによると、ナティエはフランスの貴族女性の肖像を数多く手がけ、作品では一人ひとりの差異よりも、白い肌と赤い頬、白粉をつけた髪と穏やかな目鼻立ちを共有する流行が重要だった。本作は1753年の晩年の肖像で、木の幹に署名と年が記されている。色鮮やかな花が周囲に配され、青いリボンが首と肩の素肌を際立たせる。美術館は絵具の下から見える描き直し（ペンティメント）が髪とリボンの位置にあると指摘する。描かれた女性の実際の氏名は題名にもOverviewにも明記されていない。 Actual image observation: Met公式APIから得た原寸と表示用JPEGを実ダウンロードしSHA256・バイト数・画像サイズ・縮小RMSを記録、主画像のサムネイルを直接確認。暗い緑の背景の前に白く粉を吹いたようなまとめ髪の若い女性。胸元に水色の布、首元に小さな濃青のリボン。両手には淡い花束、手前にも花と小さなかごがあり、画面左側に木の幹がある。描き直しはサムネイルでは判読できず公式Overviewの説明に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.0027で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437182",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437182",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437182",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-437182 Portrait of a Woman; Jean Marc Nattier; 1753; accession 1982.60.42. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式APIから得た原寸と表示用JPEGを実ダウンロードしSHA256・バイト数・画像サイズ・縮小RMSを記録、主画像のサムネイルを直接確認。暗い緑の背景の前に白く粉を吹いたようなまとめ髪の若い女性。胸元に水色の布、首元に小さな濃青のリボン。両手には淡い花束、手前にも花と小さなかごがあり、画面左側に木の幹がある。描き直しはサムネイルでは判読できず公式Overviewの説明に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.0027で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json",
+      "historical_interpretation": "Metの個別Overviewによると、ナティエはフランスの貴族女性の肖像を数多く手がけ、作品では一人ひとりの差異よりも、白い肌と赤い頬、白粉をつけた髪と穏やかな目鼻立ちを共有する流行が重要だった。本作は1753年の晩年の肖像で、木の幹に署名と年が記されている。色鮮やかな花が周囲に配され、青いリボンが首と肩の素肌を際立たせる。美術館は絵具の下から見える描き直し（ペンティメント）が髪とリボンの位置にあると指摘する。描かれた女性の実際の氏名は題名にもOverviewにも明記されていない。 Limits: 『個性より共通した流行』は画家の描いた多くの肖像をめぐるMetの様式的解釈であり、描かれた女性の実際の人格を否定しない。木にある署名・年はMetによる情報。透けて見える描き直しの細部は主サムネイルでは確認不能。女性の身元や職業は断定しない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT8872.jpg",
+      "sha256": "78cbdc7f30b4939ac0ea6185728d21a3971e5c2bedfba01117ff176818687429",
+      "byte_length": 85355,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIから得た原寸と表示用JPEGを実ダウンロードしSHA256・バイト数・画像サイズ・縮小RMSを記録、主画像のサムネイルを直接確認。暗い緑の背景の前に白く粉を吹いたようなまとめ髪の若い女性。胸元に水色の布、首元に小さな濃青のリボン。両手には淡い花束、手前にも花と小さなかごがあり、画面左側に木の幹がある。描き直しはサムネイルでは判読できず公式Overviewの説明に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.0027で対応確認。 Confirmed image belongs to Met artwork 437182, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT8872.jpg",
+      "sha256": "d918e525c4cd72e257aced432bd022687c46894d2a33259594da1f85c119abf5",
+      "byte_length": 2834604,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIから得た原寸と表示用JPEGを実ダウンロードしSHA256・バイト数・画像サイズ・縮小RMSを記録、主画像のサムネイルを直接確認。暗い緑の背景の前に白く粉を吹いたようなまとめ髪の若い女性。胸元に水色の布、首元に小さな濃青のリボン。両手には淡い花束、手前にも花と小さなかごがあり、画面左側に木の幹がある。描き直しはサムネイルでは判読できず公式Overviewの説明に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.0027で対応確認。 Confirmed image belongs to Met artwork 437182, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #429; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 437182 notes ribbon and hair pentimenti without giving sitter name; met-853196 is an ink calligraphy waka sheet and has no evidence identifying a particular poetry gathering; met-853894 depicts the ancestral shrine and offerings as an alternate support for jesa rituals, not an identified family ceremony."
+  ]
+}

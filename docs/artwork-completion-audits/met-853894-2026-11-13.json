@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-853894",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-853894.json",
+  "candidate_sha256": "1a228f2dc213b4a2168a9ef006cd79539a7abd74e6de111d0feb83bc769fed1d",
+  "draft_path": "drafts/visitor-explanations/met-853894.json",
+  "draft_sha256": "ca402b7b2ce9a755978fdf56d3570cd84f0d16fb79c6493d08027a4d27b9af6a",
+  "baseline": {
+    "artworks_sha256": "911ee4369f0e857d2c3964b7da01a6b28b0d22b41cc84d545c868020d2b3d7a2",
+    "image_registry_sha256": "5dc9a3cf6e7062a3800d2c5281c6d29b09d02e39a48752f748f64ead05c754f7"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853894",
+      "source_excerpt": "Ceremonial rituals honoring one’s ancestors, called jesa",
+      "visitor_claim": "祖先を祭るチェサという儀礼は朝鮮王朝の社会で重要な役割を担いました。",
+      "source_section": "Met exact artwork Overview: jesa ancestor ceremonies"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853894",
+      "source_excerpt": "Ancestral shrine paintings were used as substitutes by people who did not have a sadang",
+      "visitor_claim": "このような絵は、自宅に専用の祠堂がない人や、家から離れた場所で祭祀を行う人が、実際の祠堂の代わりに使うことがありました。",
+      "source_section": "Met exact artwork Overview: portable stand-in for ancestral shrine"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/853894",
+      "location": "Exact artwork Overview and Object Information: Met exact artwork Overview: jesa ancestor ceremonies; Met exact artwork Overview: portable stand-in for ancestral shrine",
+      "finding": "Met個別Overviewによると、儒教の『孝』は親や祖父母への敬意と尊重を重視し、朝鮮王朝の社会では祖先を祭る祭祀（チェサ）が重要な儀礼だった。祭祀は祠堂（サダン）で祖先の名を書いた位牌を置き、食べ物や酒などの供物を備えた台を前にして行われた。この19世紀の絵は祠堂の外観と供物台を描き、家庭に祠堂を設けない人や、家を離れて儀礼を行う人が祠堂に代えるためにも使ったという。特定家族に結びつく絵であるかは作品ページに明記されず、作者の姓名も不明。 Actual image observation: Met公式APIの主原寸/表示JPEGの完全SHA256と縮小RGB RMSを照合して、実際の主画像サムネイルを確認。額装の縦長の絵。上部に漢字風の文字と模様の帯、その下に屋根と柱を描いた正面向きの建物、中央には花・器・供物を載せた台が整然と並び、左右の植物や飾りと下部の脚付きの台が見える。人間の人物像は主題の中心ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.7962で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853894",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853894",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853894",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-853894 Ancestral shrine painting; Unidentified Korean artist; 19th century; accession 2022.267.1. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式APIの主原寸/表示JPEGの完全SHA256と縮小RGB RMSを照合して、実際の主画像サムネイルを確認。額装の縦長の絵。上部に漢字風の文字と模様の帯、その下に屋根と柱を描いた正面向きの建物、中央には花・器・供物を載せた台が整然と並び、左右の植物や飾りと下部の脚付きの台が見える。人間の人物像は主題の中心ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.7962で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json",
+      "historical_interpretation": "Met個別Overviewによると、儒教の『孝』は親や祖父母への敬意と尊重を重視し、朝鮮王朝の社会では祖先を祭る祭祀（チェサ）が重要な儀礼だった。祭祀は祠堂（サダン）で祖先の名を書いた位牌を置き、食べ物や酒などの供物を備えた台を前にして行われた。この19世紀の絵は祠堂の外観と供物台を描き、家庭に祠堂を設けない人や、家を離れて儀礼を行う人が祠堂に代えるためにも使ったという。特定家族に結びつく絵であるかは作品ページに明記されず、作者の姓名も不明。 Limits: 祭祀の実際の開催場面ではなく、祠堂と供物台を表した絵。どの家の祖先やどの氏族の絵だったかを推測しない。祭礼の効験を事実として述べない。祭祀の重要性は朝鮮王朝の儒教的社会制度の文脈。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['畏敬']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-37217-001.jpg",
+      "sha256": "52cc3a4bc91340a4aea7ecec32062067ec28a5f8878871e0d03dec3f07e5b91d",
+      "byte_length": 159784,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの主原寸/表示JPEGの完全SHA256と縮小RGB RMSを照合して、実際の主画像サムネイルを確認。額装の縦長の絵。上部に漢字風の文字と模様の帯、その下に屋根と柱を描いた正面向きの建物、中央には花・器・供物を載せた台が整然と並び、左右の植物や飾りと下部の脚付きの台が見える。人間の人物像は主題の中心ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.7962で対応確認。 Confirmed image belongs to Met artwork 853894, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-37217-001.jpg",
+      "sha256": "61b30938bd7e4024602f9be99e82a7cbdb608b97c6946b818b18fdb42552d525",
+      "byte_length": 3385727,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの主原寸/表示JPEGの完全SHA256と縮小RGB RMSを照合して、実際の主画像サムネイルを確認。額装の縦長の絵。上部に漢字風の文字と模様の帯、その下に屋根と柱を描いた正面向きの建物、中央には花・器・供物を載せた台が整然と並び、左右の植物や飾りと下部の脚付きの台が見える。人間の人物像は主題の中心ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.7962で対応確認。 Confirmed image belongs to Met artwork 853894, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #431; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 437182 notes ribbon and hair pentimenti without giving sitter name; met-853196 is an ink calligraphy waka sheet and has no evidence identifying a particular poetry gathering; met-853894 depicts the ancestral shrine and offerings as an alternate support for jesa rituals, not an identified family ceremony."
+  ]
+}

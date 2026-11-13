@@ -52265,6 +52265,369 @@
         "audit_sha256": "897a071c021e5cfc334be13ce0e84ef545cb30ed157b2ac645e88189228f3556",
         "record_sha256": "0138267d4779c9f4156c194a7eb6095359b012fc55057427972016e92703cd05"
       }
+    },
+    {
+      "id": "met-437182",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437182,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437182",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437182",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Portrait of a Woman",
+        "title_ja_provisional": "女性の肖像",
+        "artist": "Jean Marc Nattier",
+        "creation_date_display": "1753",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "France (18th-century portrait)",
+        "accession_number": "1982.60.42"
+      },
+      "image": {
+        "image_id": "met-437182-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT8872.jpg",
+        "source_registry_id": "met-437182",
+        "local_path": "/artworks/met-437182.jpg",
+        "sha256": "78cbdc7f30b4939ac0ea6185728d21a3971e5c2bedfba01117ff176818687429",
+        "byte_length": 85355,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json",
+        "source_accession_number": "1982.60.42",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DT8872.jpg",
+          "sha256": "d918e525c4cd72e257aced432bd022687c46894d2a33259594da1f85c119abf5",
+          "byte_length": 2834604,
+          "width": 3002,
+          "height": 3719,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 6.00274",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "日常",
+          "他者との距離"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437182",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "18世紀フランスの女性肖像に描かれた青いリボンと花、柔らかな肌の表現から、流行と個性の関係を考えたい",
+              "reason": "Metの個別Overviewによると、ナティエはフランスの貴族女性の肖像を数多く手がけ、作品では一人ひとりの差異よりも、白い肌と赤い頬、白粉をつけた髪と穏やかな目鼻立ちを共有する流行が重要だった。本作は1753年の晩年の肖像で、木の幹に署名と年が記されている。色鮮やかな花が周囲に配され、青いリボンが首と肩の素肌を際立たせる。美術館は絵具の下から見える描き直し（ペンティメント）が髪とリボンの位置にあると指摘する。描かれた女性の実際の氏名は題名にもOverviewにも明記されていない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "『個性より共通した流行』は画家の描いた多くの肖像をめぐるMetの様式的解釈であり、描かれた女性の実際の人格を否定しない。木にある署名・年はMetによる情報。透けて見える描き直しの細部は主サムネイルでは確認不能。女性の身元や職業は断定しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metの個別Overviewによると、ナティエはフランスの貴族女性の肖像を数多く手がけ、作品では一人ひとりの差異よりも、白い肌と赤い頬、白粉をつけた髪と穏やかな目鼻立ちを共有する流行が重要だった。本作は1753年の晩年の肖像で、木の幹に署名と年が記されている。色鮮やかな花が周囲に配され、青いリボンが首と肩の素肌を際立たせる。美術館は絵具の下から見える描き直し（ペンティメント）が髪とリボンの位置にあると指摘する。描かれた女性の実際の氏名は題名にもOverviewにも明記されていない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437182"
+          },
+          "creation_context": "1753; France (18th-century portrait); Oil on canvas; accession 1982.60.42",
+          "visual_clues": "Met公式APIから得た原寸と表示用JPEGを実ダウンロードしSHA256・バイト数・画像サイズ・縮小RMSを記録、主画像のサムネイルを直接確認。暗い緑の背景の前に白く粉を吹いたようなまとめ髪の若い女性。胸元に水色の布、首元に小さな濃青のリボン。両手には淡い花束、手前にも花と小さなかごがあり、画面左側に木の幹がある。描き直しはサムネイルでは判読できず公式Overviewの説明に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.0027で対応確認。",
+          "uncertainty_note": "『個性より共通した流行』は画家の描いた多くの肖像をめぐるMetの様式的解釈であり、描かれた女性の実際の人格を否定しない。木にある署名・年はMetによる情報。透けて見える描き直しの細部は主サムネイルでは確認不能。女性の身元や職業は断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "暗い緑の背景から、淡い青の布をまとった女性が静かに浮かび上がります。首元には小さな青いリボン、手元には色とりどりの花。白い肌とほのかに赤い頬、粉をまとった髪が、当時の上流社会の装いを伝えています。\n\nこの絵はフランスの画家ジャン＝マルク・ナティエが1753年に描いた肖像画です。ナティエの肖像では、人物ごとの違いを際立たせるより、白い肌や赤い頬など、共通する流行の美しさが重んじられました。画面左の木の幹には、画家の署名と制作年が記されています。\n\n美術館は、青いリボンと髪の位置が制作途中で何度か描き直されたことを指摘しています。表面に残る薄い痕跡から、完成した姿の背後に画家の試行錯誤が見えてきます。ただし、描かれた女性の名前は明らかではありません。リボンや花に目を向けると、この時代に理想とされた美しさの形が感じられます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/437182"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-437182-2026-11-13.json",
+        "audit_sha256": "5c68a51ddeaf1f4846b61dd123053d0ee19b420be452013b6e46aa3f8c0de260",
+        "record_sha256": "3fb9342f3c6cbd97507f2503da1d5f7bc7e4a4dc67cd67abf6aa676eddcc445b"
+      }
+    },
+    {
+      "id": "met-853196",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 853196,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/853196",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853196",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Waka Poem on Chrysanthemums",
+        "title_ja_provisional": "菊の和歌",
+        "artist": "Shōren’in Sonchō Hosshinnō 青蓮院尊朝法親王",
+        "creation_date_display": "late 16th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2022.432.9"
+      },
+      "image": {
+        "image_id": "met-853196-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-25262-002.jpg",
+        "source_registry_id": "met-853196",
+        "local_path": "/artworks/met-853196.jpg",
+        "sha256": "7d151036c26266468df835fd47923177fc4faa0705c00e4f1be84876980e34a8",
+        "byte_length": 141009,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json",
+        "source_accession_number": "2022.432.9",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-25262-002.jpg",
+          "sha256": "5d32370dfc1ade91bf770e2f5852a38e7696b48c24b5493c1cd2bdd43d8fe685",
+          "byte_length": 5470861,
+          "width": 4000,
+          "height": 3002,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 7.77715",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "時間",
+          "記憶"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/853196",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "一輪の菊を描くのではなく、菊の花が終わる季節を言葉と文字の筆跡で表した和歌を眺めたい",
+              "reason": "Met個別Overviewによれば、16世紀後半の尊朝法親王による和歌懐紙であり、菊が散った後の一年を回想する歌が墨書される。尊朝は和歌の通常の仮名のかわりに、漢字を音で用いる古い草仮名（そうがな）を筆記し、濃く太い仮名が漢字と同じほどの視覚的な重みを持つよう工夫した。青蓮院は室町後期の宮廷書法の主要な拠点であり、尊朝は王家に生まれ、青蓮院の皇族僧として書を学び後進に伝えた。制作された歌会の日付や具体的な状況を示す史料は残らず、菊と皇室の家紋との関係は美術館の図像的な読みとして提示される。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "『菊の和歌』は書の作品であり、菊の花を描いた花鳥画ではない。歌会や制作の個別状況は不明で、皇室の菊紋との連想も推論として扱う。詩の日本語の正確な表記は原文に拠るが、本文では内容を簡潔に意訳するにとどめる。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met個別Overviewによれば、16世紀後半の尊朝法親王による和歌懐紙であり、菊が散った後の一年を回想する歌が墨書される。尊朝は和歌の通常の仮名のかわりに、漢字を音で用いる古い草仮名（そうがな）を筆記し、濃く太い仮名が漢字と同じほどの視覚的な重みを持つよう工夫した。青蓮院は室町後期の宮廷書法の主要な拠点であり、尊朝は王家に生まれ、青蓮院の皇族僧として書を学び後進に伝えた。制作された歌会の日付や具体的な状況を示す史料は残らず、菊と皇室の家紋との関係は美術館の図像的な読みとして提示される。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/853196"
+          },
+          "creation_context": "late 16th century; Japan (court calligraphy, late 16th century); Poetry sheet (waka kaishi) mounted as a hanging scroll; ink on paper; accession 2022.432.9",
+          "visual_clues": "Met作品ID853196の公式原寸・表示JPEGを全バイト取得し、SHA256・寸法・縮小RGB RMSを保存、実際の主画像サムネイルを確認。薄黄色の正方形に近い書面の上部に右から墨書の題字があり、下部に流れるような複数行の墨の線。周囲は緑と金色の布に表装され、字の太さは太細が対照的。花の実物が写生されているのではなく和歌の文字の書。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.7772で対応確認。",
+          "uncertainty_note": "『菊の和歌』は書の作品であり、菊の花を描いた花鳥画ではない。歌会や制作の個別状況は不明で、皇室の菊紋との連想も推論として扱う。詩の日本語の正確な表記は原文に拠るが、本文では内容を簡潔に意訳するにとどめる。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "淡い紙の上を、濃い墨の文字がゆっくりと流れています。菊の花を描いた絵ではなく、菊が咲き終えた後に過ぎる一年を思う和歌を、筆の線そのもので見せる作品です。字の強い部分と細い部分を見比べてみてください。\n\n16世紀後半、皇族で青蓮院の僧でもあった尊朝法親王が記した和歌懐紙です。尊朝は草仮名と呼ばれる、漢字を音として使う古い仮名表記を取り入れ、仮名が漢字と同じような力強さを持つ書き方を試みました。青蓮院は、当時の宮廷書法を学ぶ重要な場所でした。\n\n美術館は、この和歌がどの歌会で、どんな事情から書かれたのかを示す記録は残っていないと説明しています。皇族が菊について詠むことは皇室の菊の紋章も連想させますが、特定の催しを証明するものではありません。歌の意味と墨の線を交互に見ると、書が言葉と造形の両方を伝えることに気づけます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/853196"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-853196-2026-11-13.json",
+        "audit_sha256": "d78edf29cb0174867cf114d7119137e0b2ef5a88db451107b21b3f1412f5dad2",
+        "record_sha256": "aa732a3db950b2d9e95e5c259d2147736a0e0bb788a6904073aafb2a53dc8916"
+      }
+    },
+    {
+      "id": "met-853894",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 853894,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/853894",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853894",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Ancestral shrine painting",
+        "title_ja_provisional": "祖先祭祀の祠を描いた絵",
+        "artist": "Unidentified Korean artist",
+        "creation_date_display": "19th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Korea",
+        "accession_number": "2022.267.1"
+      },
+      "image": {
+        "image_id": "met-853894-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-37217-001.jpg",
+        "source_registry_id": "met-853894",
+        "local_path": "/artworks/met-853894.jpg",
+        "sha256": "52cc3a4bc91340a4aea7ecec32062067ec28a5f8878871e0d03dec3f07e5b91d",
+        "byte_length": 159784,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json",
+        "source_accession_number": "2022.267.1",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-37217-001.jpg",
+          "sha256": "61b30938bd7e4024602f9be99e82a7cbdb608b97c6946b818b18fdb42552d525",
+          "byte_length": 3385727,
+          "width": 2616,
+          "height": 3886,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.79615",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/853894",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "朝鮮王朝時代の祭祀の祠と供物を描いた色彩画から、祖先を敬う儀礼と持ち運べる絵の役割を知りたい",
+              "reason": "Met個別Overviewによると、儒教の『孝』は親や祖父母への敬意と尊重を重視し、朝鮮王朝の社会では祖先を祭る祭祀（チェサ）が重要な儀礼だった。祭祀は祠堂（サダン）で祖先の名を書いた位牌を置き、食べ物や酒などの供物を備えた台を前にして行われた。この19世紀の絵は祠堂の外観と供物台を描き、家庭に祠堂を設けない人や、家を離れて儀礼を行う人が祠堂に代えるためにも使ったという。特定家族に結びつく絵であるかは作品ページに明記されず、作者の姓名も不明。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "祭祀の実際の開催場面ではなく、祠堂と供物台を表した絵。どの家の祖先やどの氏族の絵だったかを推測しない。祭礼の効験を事実として述べない。祭祀の重要性は朝鮮王朝の儒教的社会制度の文脈。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met個別Overviewによると、儒教の『孝』は親や祖父母への敬意と尊重を重視し、朝鮮王朝の社会では祖先を祭る祭祀（チェサ）が重要な儀礼だった。祭祀は祠堂（サダン）で祖先の名を書いた位牌を置き、食べ物や酒などの供物を備えた台を前にして行われた。この19世紀の絵は祠堂の外観と供物台を描き、家庭に祠堂を設けない人や、家を離れて儀礼を行う人が祠堂に代えるためにも使ったという。特定家族に結びつく絵であるかは作品ページに明記されず、作者の姓名も不明。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/853894"
+          },
+          "creation_context": "19th century; Korea (Joseon dynasty); Ink and color on paper; accession 2022.267.1",
+          "visual_clues": "Met公式APIの主原寸/表示JPEGの完全SHA256と縮小RGB RMSを照合して、実際の主画像サムネイルを確認。額装の縦長の絵。上部に漢字風の文字と模様の帯、その下に屋根と柱を描いた正面向きの建物、中央には花・器・供物を載せた台が整然と並び、左右の植物や飾りと下部の脚付きの台が見える。人間の人物像は主題の中心ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.7962で対応確認。",
+          "uncertainty_note": "祭祀の実際の開催場面ではなく、祠堂と供物台を表した絵。どの家の祖先やどの氏族の絵だったかを推測しない。祭礼の効験を事実として述べない。祭祀の重要性は朝鮮王朝の儒教的社会制度の文脈。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "畏敬"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "正面を向いた小さな祠の絵には、屋根と柱、器を並べた供物台が整った形で描かれています。上の帯には文字が置かれ、左右の植物や色彩の模様が建物を囲みます。人の姿を描くより、儀礼の場所そのものを画面の中心に据えていることが特徴です。\n\n19世紀の朝鮮で作られた《祖先祭祀の祠を描いた絵》です。儒教では親や祖父母を敬う「孝」が重視され、祖先を祭るチェサという儀礼は朝鮮王朝の社会で重要な役割を担いました。祠堂では祖先の位牌を置き、食べ物や飲み物を供える台を設けていました。\n\nこのような絵は、自宅に専用の祠堂がない人や、家から離れた場所で祭祀を行う人が、実際の祠堂の代わりに使うことがありました。ただし、どの家の儀礼で使われた絵なのかは分かりません。建物の形と供物の配置を見比べると、祖先とのつながりを絵で表そうとした文化が見えてきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/853894"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-853894-2026-11-13.json",
+        "audit_sha256": "3ee8e42b39714f487d6648c24ac9e42e58dbbb9d5d97eda0f6b152ded9ce0234",
+        "record_sha256": "006ac17f3e29a646ecc9bdee0d4c0773caf050c430b0d476311b8be091a1e80c"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

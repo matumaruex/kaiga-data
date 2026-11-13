@@ -1,0 +1,151 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-853894",
+  "artwork": {
+    "id": "met-853894",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 853894,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/853894",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853894",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Ancestral shrine painting",
+      "title_ja_provisional": "祖先祭祀の祠を描いた絵",
+      "artist": "Unidentified Korean artist",
+      "creation_date_display": "19th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Korea",
+      "accession_number": "2022.267.1"
+    },
+    "image": {
+      "image_id": "met-853894-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-37217-001.jpg",
+      "source_registry_id": "met-853894",
+      "local_path": "/artworks/met-853894.jpg",
+      "sha256": "52cc3a4bc91340a4aea7ecec32062067ec28a5f8878871e0d03dec3f07e5b91d",
+      "byte_length": 159784,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json",
+      "source_accession_number": "2022.267.1",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-37217-001.jpg",
+        "sha256": "61b30938bd7e4024602f9be99e82a7cbdb608b97c6946b818b18fdb42552d525",
+        "byte_length": 3385727,
+        "width": 2616,
+        "height": 3886,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.79615",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "畏敬": 1
+      },
+      "tones": [
+        "静けさ",
+        "落ち着き"
+      ],
+      "themes": [
+        "共同体",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/853894",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "朝鮮王朝時代の祭祀の祠と供物を描いた色彩画から、祖先を敬う儀礼と持ち運べる絵の役割を知りたい",
+            "reason": "Met個別Overviewによると、儒教の『孝』は親や祖父母への敬意と尊重を重視し、朝鮮王朝の社会では祖先を祭る祭祀（チェサ）が重要な儀礼だった。祭祀は祠堂（サダン）で祖先の名を書いた位牌を置き、食べ物や酒などの供物を備えた台を前にして行われた。この19世紀の絵は祠堂の外観と供物台を描き、家庭に祠堂を設けない人や、家を離れて儀礼を行う人が祠堂に代えるためにも使ったという。特定家族に結びつく絵であるかは作品ページに明記されず、作者の姓名も不明。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "祭祀の実際の開催場面ではなく、祠堂と供物台を表した絵。どの家の祖先やどの氏族の絵だったかを推測しない。祭礼の効験を事実として述べない。祭祀の重要性は朝鮮王朝の儒教的社会制度の文脈。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met個別Overviewによると、儒教の『孝』は親や祖父母への敬意と尊重を重視し、朝鮮王朝の社会では祖先を祭る祭祀（チェサ）が重要な儀礼だった。祭祀は祠堂（サダン）で祖先の名を書いた位牌を置き、食べ物や酒などの供物を備えた台を前にして行われた。この19世紀の絵は祠堂の外観と供物台を描き、家庭に祠堂を設けない人や、家を離れて儀礼を行う人が祠堂に代えるためにも使ったという。特定家族に結びつく絵であるかは作品ページに明記されず、作者の姓名も不明。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/853894"
+        },
+        "creation_context": "19th century; Korea (Joseon dynasty); Ink and color on paper; accession 2022.267.1",
+        "visual_clues": "Met公式APIの主原寸/表示JPEGの完全SHA256と縮小RGB RMSを照合して、実際の主画像サムネイルを確認。額装の縦長の絵。上部に漢字風の文字と模様の帯、その下に屋根と柱を描いた正面向きの建物、中央には花・器・供物を載せた台が整然と並び、左右の植物や飾りと下部の脚付きの台が見える。人間の人物像は主題の中心ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.7962で対応確認。",
+        "uncertainty_note": "祭祀の実際の開催場面ではなく、祠堂と供物台を表した絵。どの家の祖先やどの氏族の絵だったかを推測しない。祭礼の効験を事実として述べない。祭祀の重要性は朝鮮王朝の儒教的社会制度の文脈。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "畏敬"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "正面を向いた小さな祠の絵には、屋根と柱、器を並べた供物台が整った形で描かれています。上の帯には文字が置かれ、左右の植物や色彩の模様が建物を囲みます。人の姿を描くより、儀礼の場所そのものを画面の中心に据えていることが特徴です。\n\n19世紀の朝鮮で作られた《祖先祭祀の祠を描いた絵》です。儒教では親や祖父母を敬う「孝」が重視され、祖先を祭るチェサという儀礼は朝鮮王朝の社会で重要な役割を担いました。祠堂では祖先の位牌を置き、食べ物や飲み物を供える台を設けていました。\n\nこのような絵は、自宅に専用の祠堂がない人や、家から離れた場所で祭祀を行う人が、実際の祠堂の代わりに使うことがありました。ただし、どの家の儀礼で使われた絵なのかは分かりません。建物の形と供物の配置を見比べると、祖先とのつながりを絵で表そうとした文化が見えてきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/853894"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-853894",
+    "title": "Ancestral shrine painting",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/853894",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/853894",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-37217-001.jpg",
+      "sha256": "52cc3a4bc91340a4aea7ecec32062067ec28a5f8878871e0d03dec3f07e5b91d",
+      "byte_length": 159784,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-429-431-20261113/docs/artwork-research-evidence/met-429-431-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-37217-001.jpg",
+        "sha256": "61b30938bd7e4024602f9be99e82a7cbdb608b97c6946b818b18fdb42552d525",
+        "byte_length": 3385727,
+        "width": 2616,
+        "height": 3886,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.79615",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2022.267.1"
+  }
+}
