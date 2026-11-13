@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-449536",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-449536.json",
+  "candidate_sha256": "d9df36180849a5e9a13fa55026c36b8448b5c178f7a80bee493b2229d046b18d",
+  "draft_path": "drafts/visitor-explanations/met-449536.json",
+  "draft_sha256": "c56ecc47f510f18c3dbb7f8afa251a3068781c794eb3ce73e9a361ce5bf8e8f6",
+  "baseline": {
+    "artworks_sha256": "03cc9bb67bba47f316c0e9d6beefff87a0c5cc2776a16fe5f44ee2674da81558",
+    "image_registry_sha256": "e55614aee9a5463288bcc5355c730ee8505ce51199b5c7e1dda052bee5e1ab99"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/449536",
+      "source_excerpt": "the symbols of the four evangelists—an angel for Saint Matthew",
+      "visitor_claim": "画家サルギスは、大きな頭文字とその周りに、四人の福音書記者を表す天使・獅子・牛・鷲を組み込みました。",
+      "source_section": "Exact Met artwork Overview: four evangelists represented by creatures"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/449536",
+      "source_excerpt": "Bird-shaped letters form the first words of the text",
+      "visitor_claim": "最初の言葉の中には、鳥の形に作られた文字もあります。",
+      "source_section": "Exact Met artwork Overview: bird-shaped initial letters"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/449536",
+      "location": "Exact artwork Overview and Object Information: Exact Met artwork Overview: four evangelists represented by creatures; Exact Met artwork Overview: bird-shaped initial letters",
+      "finding": "Metの個別作品Overviewは1300～1310年頃のアルメニアの写本彩飾画家サルギスによるヨハネ福音書の扉ページとして、最初の大きな頭文字と装飾枠に四福音書記者の象徴（マタイの天使、マルコの獅子、ルカの牛、ヨハネの鷲）を盛り込み、ビザンティン風の幾何学紋様を広げたと説明。文字そのものが鳥の形で書かれた部分があり、上部には孔雀に挟まれ祝福するキリストを置く。古代アルメニアの神学者は鳥を天へ飛び立つ魂の比喩として捉えた。日本語本文は福音書そのものの神学的事実と美術館による図像解釈を分けて書く。 Actual image observation: 実際のMet APIの原寸と表示JPEGのサムネイルを視認。縦長の黄みを帯びた紙の上部に赤・青・金の入り組んだ装飾枠と小さな人物像があり、中央左に巨大な彩色頭文字のような装飾、下に細長い色付き文字列、右に植物や鳥のような細長い装飾がある。紙の隅はやや欠け、装飾文字の形はMet個別解説で確かめた。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=14.5392で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/449536",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-408-410-20261113/docs/artwork-research-evidence/met-408-410-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/449536",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-408-410-20261113/docs/artwork-research-evidence/met-408-410-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/449536",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-449536 Title Page of the Gospel of John; Sargis (illuminator); 1300–1310; accession 38.171.2. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "実際のMet APIの原寸と表示JPEGのサムネイルを視認。縦長の黄みを帯びた紙の上部に赤・青・金の入り組んだ装飾枠と小さな人物像があり、中央左に巨大な彩色頭文字のような装飾、下に細長い色付き文字列、右に植物や鳥のような細長い装飾がある。紙の隅はやや欠け、装飾文字の形はMet個別解説で確かめた。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=14.5392で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-408-410-20261113/docs/artwork-research-evidence/met-408-410-2026-11-13.json",
+      "historical_interpretation": "Metの個別作品Overviewは1300～1310年頃のアルメニアの写本彩飾画家サルギスによるヨハネ福音書の扉ページとして、最初の大きな頭文字と装飾枠に四福音書記者の象徴（マタイの天使、マルコの獅子、ルカの牛、ヨハネの鷲）を盛り込み、ビザンティン風の幾何学紋様を広げたと説明。文字そのものが鳥の形で書かれた部分があり、上部には孔雀に挟まれ祝福するキリストを置く。古代アルメニアの神学者は鳥を天へ飛び立つ魂の比喩として捉えた。日本語本文は福音書そのものの神学的事実と美術館による図像解釈を分けて書く。 Limits: 作品は彩色装飾を施した写本の1ページで、単独の油彩画や宗教書全巻ではない。メトロポリタン美術館によれば彩飾担当はサルギスで、写本本文の筆写者まで同一人物と断定しない。鳥の意味は伝統的な神学の象徴。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/sf38-171-2s1.JPG",
+      "sha256": "dc584305ce661a033df7db91892bd391395d87620748d85d962839aec4ed85df",
+      "byte_length": 131087,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "実際のMet APIの原寸と表示JPEGのサムネイルを視認。縦長の黄みを帯びた紙の上部に赤・青・金の入り組んだ装飾枠と小さな人物像があり、中央左に巨大な彩色頭文字のような装飾、下に細長い色付き文字列、右に植物や鳥のような細長い装飾がある。紙の隅はやや欠け、装飾文字の形はMet個別解説で確かめた。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=14.5392で対応確認。 Confirmed image belongs to Met artwork 449536, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/sf38-171-2s1.JPG",
+      "sha256": "156b4f628b1f98f9c8bf097a3432a58efc441eaa18a9b99ab065a4370ac54ddc",
+      "byte_length": 1218664,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "実際のMet APIの原寸と表示JPEGのサムネイルを視認。縦長の黄みを帯びた紙の上部に赤・青・金の入り組んだ装飾枠と小さな人物像があり、中央左に巨大な彩色頭文字のような装飾、下に細長い色付き文字列、右に植物や鳥のような細長い装飾がある。紙の隅はやや欠け、装飾文字の形はMet個別解説で確かめた。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=14.5392で対応確認。 Confirmed image belongs to Met artwork 449536, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #410; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 448485 is attributed to India rather than definitively sourced; Met 437979 is undated in the official API and object-page record; Met 449536 is a painted book folio, with Sargis credited as illuminator."
+  ]
+}

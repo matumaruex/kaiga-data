@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-449536",
+  "artwork": {
+    "id": "met-449536",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 449536,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/449536",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/449536",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Title Page of the Gospel of John",
+      "title_ja_provisional": "『ヨハネによる福音書』の扉絵",
+      "artist": "Sargis (illuminator)",
+      "creation_date_display": "1300–1310",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Armenia (Siwnik)",
+      "accession_number": "38.171.2"
+    },
+    "image": {
+      "image_id": "met-449536-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/sf38-171-2s1.JPG",
+      "source_registry_id": "met-449536",
+      "local_path": "/artworks/met-449536.jpg",
+      "sha256": "dc584305ce661a033df7db91892bd391395d87620748d85d962839aec4ed85df",
+      "byte_length": 131087,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-408-410-20261113/docs/artwork-research-evidence/met-408-410-2026-11-13.json",
+      "source_accession_number": "38.171.2",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/sf38-171-2s1.JPG",
+        "sha256": "156b4f628b1f98f9c8bf097a3432a58efc441eaa18a9b99ab065a4370ac54ddc",
+        "byte_length": 1218664,
+        "width": 1856,
+        "height": 2472,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 14.53921",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "時間",
+        "共同体"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/449536",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "14世紀初頭のアルメニアの彩飾写本で、動物の姿をした文字と四福音書記者の象徴を眺めたい",
+            "reason": "Metの個別作品Overviewは1300～1310年頃のアルメニアの写本彩飾画家サルギスによるヨハネ福音書の扉ページとして、最初の大きな頭文字と装飾枠に四福音書記者の象徴（マタイの天使、マルコの獅子、ルカの牛、ヨハネの鷲）を盛り込み、ビザンティン風の幾何学紋様を広げたと説明。文字そのものが鳥の形で書かれた部分があり、上部には孔雀に挟まれ祝福するキリストを置く。古代アルメニアの神学者は鳥を天へ飛び立つ魂の比喩として捉えた。日本語本文は福音書そのものの神学的事実と美術館による図像解釈を分けて書く。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "作品は彩色装飾を施した写本の1ページで、単独の油彩画や宗教書全巻ではない。メトロポリタン美術館によれば彩飾担当はサルギスで、写本本文の筆写者まで同一人物と断定しない。鳥の意味は伝統的な神学の象徴。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metの個別作品Overviewは1300～1310年頃のアルメニアの写本彩飾画家サルギスによるヨハネ福音書の扉ページとして、最初の大きな頭文字と装飾枠に四福音書記者の象徴（マタイの天使、マルコの獅子、ルカの牛、ヨハネの鷲）を盛り込み、ビザンティン風の幾何学紋様を広げたと説明。文字そのものが鳥の形で書かれた部分があり、上部には孔雀に挟まれ祝福するキリストを置く。古代アルメニアの神学者は鳥を天へ飛び立つ魂の比喩として捉えた。日本語本文は福音書そのものの神学的事実と美術館による図像解釈を分けて書く。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/449536"
+        },
+        "creation_context": "1300–1310; Armenia (Siwnik); Ink, opaque watercolor, and gold on paper; accession 38.171.2",
+        "visual_clues": "実際のMet APIの原寸と表示JPEGのサムネイルを視認。縦長の黄みを帯びた紙の上部に赤・青・金の入り組んだ装飾枠と小さな人物像があり、中央左に巨大な彩色頭文字のような装飾、下に細長い色付き文字列、右に植物や鳥のような細長い装飾がある。紙の隅はやや欠け、装飾文字の形はMet個別解説で確かめた。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=14.5392で対応確認。",
+        "uncertainty_note": "作品は彩色装飾を施した写本の1ページで、単独の油彩画や宗教書全巻ではない。メトロポリタン美術館によれば彩飾担当はサルギスで、写本本文の筆写者まで同一人物と断定しない。鳥の意味は伝統的な神学の象徴。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-408-410-20261113/docs/artwork-research-evidence/met-408-410-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "紙の上部には、赤や青、金色の細かな模様が重なり、文字の形そのものが絵のように装飾されています。ところどころに鳥や獣、人の姿が見え、文章を読み始める前から視線が細部へと引き込まれます。\n\nこの作品は、1300～1310年頃のアルメニアで制作された『ヨハネによる福音書』の彩飾された扉ページです。画家サルギスは、大きな頭文字とその周りに、四人の福音書記者を表す天使・獅子・牛・鷲を組み込みました。最初の言葉の中には、鳥の形に作られた文字もあります。\n\n上部には二羽の孔雀に囲まれ、人々を祝福するキリストが描かれています。美術館は、アルメニアの初期の神学者が鳥を天へ飛び立つ魂の象徴と捉えたことも紹介しています。幾何学的な模様と生き物の姿をたどると、文字を装飾することが宗教的な意味を伝える手段にもなっていたと分かります。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/449536"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-449536",
+    "title": "Title Page of the Gospel of John",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/449536",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/449536",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/is/web-large/sf38-171-2s1.JPG",
+      "sha256": "dc584305ce661a033df7db91892bd391395d87620748d85d962839aec4ed85df",
+      "byte_length": 131087,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-408-410-20261113/docs/artwork-research-evidence/met-408-410-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/sf38-171-2s1.JPG",
+        "sha256": "156b4f628b1f98f9c8bf097a3432a58efc441eaa18a9b99ab065a4370ac54ddc",
+        "byte_length": 1218664,
+        "width": 1856,
+        "height": 2472,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 14.53921",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "38.171.2"
+  }
+}
