@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-910558",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-910558.json",
+  "candidate_sha256": "80fa79dcda6f6d037bc6bed6f5d1fe8c80dfbcbf9320b1f36f065a311c3f0016",
+  "draft_path": "drafts/visitor-explanations/met-910558.json",
+  "draft_sha256": "7b495c03eb4779d00ed7d4d8bda02757e4c03ae51a435acb0729c641194ca7dd",
+  "baseline": {
+    "artworks_sha256": "b332009d7c10be256e5e10c0cc6091c1e2d9f96ed9f8f84d40f04ed4e51ee13e",
+    "image_registry_sha256": "b58a94b3679974ca3392e813352e071cfb0c70dbc57cb2dcde0db8bdc43f82bd"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/910558",
+      "source_excerpt": "made in 1880 by Indian artist Koodrutoollah",
+      "visitor_claim": "この絵は、インドの画家クドゥラトゥッラーが1880年に制作したものです。",
+      "source_section": "Exact Met Overview: dated inscription and author"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/910558",
+      "source_excerpt": "linear perspective of this work is informed by European engineering drawings",
+      "visitor_claim": "奥へ収束する直線的な遠近法には、ヨーロッパの工学図面の影響が見られます。",
+      "source_section": "Exact Met Overview: engineering drawing perspective"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/910558",
+      "location": "Exact artwork Overview and Object Information: Exact Met Overview: dated inscription and author; Exact Met Overview: engineering drawing perspective",
+      "finding": "Met作品別Overviewによると、1880年制作の銘文によって画家クドゥラトゥッラーの署名と制作年代が分かる。ムムターズ・マハルの墓廟タージ・マハルを正面から描いた建築水彩で、奥行きを示す直線的な遠近法はヨーロッパの工学図面や19世紀半ばの写真の広まりと関連づけられ、一方で外壁の花文様やカリグラフィーのピエトラ・ドゥーラ（石象嵌）の緻密さにはムガル帝国期のインド美術の伝統が見られる。作者の職歴に関するMetの東インド会社の説明と1880年という年代は慎重に扱い、職歴は断定して本文に記さない。 Actual image observation: Met APIの原寸・表示JPEGを完全取得し、実際の縮小画像を実見。横長の明るい地の上に白いタージ・マハルが真正面から左右対称に描かれる。中央の大きな玉葱形ドーム、左右に小さなドーム、両端の細いミナレットと階段・水路につながる手前の直線、建築正面の細い線画が見える。周縁の細い黄土色の額縁枠も確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.1285で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/910558",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-399-401-20261113/docs/artwork-research-evidence/met-399-401-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/910558",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-399-401-20261113/docs/artwork-research-evidence/met-399-401-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/910558",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-910558 A View of the Taj Mahal, Signed by Koodrutoollah; Koodrutoollah; dated 1880; accession 2024.211. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met APIの原寸・表示JPEGを完全取得し、実際の縮小画像を実見。横長の明るい地の上に白いタージ・マハルが真正面から左右対称に描かれる。中央の大きな玉葱形ドーム、左右に小さなドーム、両端の細いミナレットと階段・水路につながる手前の直線、建築正面の細い線画が見える。周縁の細い黄土色の額縁枠も確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.1285で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-399-401-20261113/docs/artwork-research-evidence/met-399-401-2026-11-13.json",
+      "historical_interpretation": "Met作品別Overviewによると、1880年制作の銘文によって画家クドゥラトゥッラーの署名と制作年代が分かる。ムムターズ・マハルの墓廟タージ・マハルを正面から描いた建築水彩で、奥行きを示す直線的な遠近法はヨーロッパの工学図面や19世紀半ばの写真の広まりと関連づけられ、一方で外壁の花文様やカリグラフィーのピエトラ・ドゥーラ（石象嵌）の緻密さにはムガル帝国期のインド美術の伝統が見られる。作者の職歴に関するMetの東インド会社の説明と1880年という年代は慎重に扱い、職歴は断定して本文に記さない。 Limits: タージ・マハルの建設年は絵の制作年1880年とは異なる。現存建築の写真やオリジナルの施工図ではない。署名から示される作者名と制作年を区別し、画家の東インド会社での活動時期・所属の矛盾を推測で補完しない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/ISLRochell2.jpg",
+      "sha256": "312eed3123c96fcb2b3f22bc8e82faaa7bdc3f3d55a807ff7dee5b4e98caf86f",
+      "byte_length": 204906,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met APIの原寸・表示JPEGを完全取得し、実際の縮小画像を実見。横長の明るい地の上に白いタージ・マハルが真正面から左右対称に描かれる。中央の大きな玉葱形ドーム、左右に小さなドーム、両端の細いミナレットと階段・水路につながる手前の直線、建築正面の細い線画が見える。周縁の細い黄土色の額縁枠も確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.1285で対応確認。 Confirmed image belongs to Met artwork 910558, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/ISLRochell2.jpg",
+      "sha256": "08b2860b6f01058c8aec98afaf371db8fa08476cab689e43f0c824d43340f9f0",
+      "byte_length": 3532579,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met APIの原寸・表示JPEGを完全取得し、実際の縮小画像を実見。横長の明るい地の上に白いタージ・マハルが真正面から左右対称に描かれる。中央の大きな玉葱形ドーム、左右に小さなドーム、両端の細いミナレットと階段・水路につながる手前の直線、建築正面の細い線画が見える。周縁の細い黄土色の額縁枠も確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.1285で対応確認。 Confirmed image belongs to Met artwork 910558, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #401; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 853891 shrine provenance is conjectural; Met 670982 beetle species is only probable; Met 910558 East India Company work history is excluded due to chronology concerns."
+  ]
+}

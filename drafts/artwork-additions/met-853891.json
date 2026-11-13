@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-853891",
+  "artwork": {
+    "id": "met-853891",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 853891,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/853891",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853891",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Mountain god with tiger",
+      "title_ja_provisional": "山神と虎",
+      "artist": "Unidentified artist",
+      "creation_date_display": "late 19th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Korea",
+      "accession_number": "2024.89.2"
+    },
+    "image": {
+      "image_id": "met-853891-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/LC-2024_89_2_at-002.jpg",
+      "source_registry_id": "met-853891",
+      "local_path": "/artworks/met-853891.jpg",
+      "sha256": "3f0ecf512e1042e1b80686123c306908208c24af5921907784d8551fb061f2b5",
+      "byte_length": 457368,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-399-401-20261113/docs/artwork-research-evidence/met-399-401-2026-11-13.json",
+      "source_accession_number": "2024.89.2",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/LC-2024_89_2_at-002.jpg",
+        "sha256": "6b45eeb78b0edfd14bfde260c578b54776943dae83b13343b5a547c7a02e02f8",
+        "byte_length": 6506172,
+        "width": 3064,
+        "height": 2667,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 7.4271",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "畏敬": 1
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "自然",
+        "共同体"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/853891",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "朝鮮の民間信仰と仏教が出会う山神図で、虎と赤い衣の神が同居する風景を見たい",
+            "reason": "メトロポリタン美術館の個別Overviewによると、朝鮮で古くから崇敬された山神（サンシン）は通常、白いひげの老人と虎の姿で表される。この絵では赤い大きな衣と冠を付けた威厳ある人物として描かれ、青緑の山水と長寿・節操を示す松、傍らの虎を伴う。朝鮮の在来の山岳信仰が後に仏教と融合したことを示す例とされる。美術館は大きな画面と精緻な仕上げから仏教寺院内の祠に掛けられた可能性を示すが、来歴の確定ではない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "実際に寺院の祠に掛けられた事実は資料未確定で、所蔵館は『おそらく』と述べる。山神の超自然的な働きや絵への信仰上の効験を史実とみなさない。作者名は不明。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "メトロポリタン美術館の個別Overviewによると、朝鮮で古くから崇敬された山神（サンシン）は通常、白いひげの老人と虎の姿で表される。この絵では赤い大きな衣と冠を付けた威厳ある人物として描かれ、青緑の山水と長寿・節操を示す松、傍らの虎を伴う。朝鮮の在来の山岳信仰が後に仏教と融合したことを示す例とされる。美術館は大きな画面と精緻な仕上げから仏教寺院内の祠に掛けられた可能性を示すが、来歴の確定ではない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/853891"
+        },
+        "creation_context": "late 19th century; Korea (Joseon dynasty); Framed painting; ink and color on silk; accession 2024.89.2",
+        "visual_clues": "公式Met APIに紐づく原寸・表示JPEGを取得してサムネイルを目視確認。白い枠に囲われたやや横長の画面。中央の人物は赤い衣と上部に華やかな赤い冠のような帽子を付け、手前左の虎の顔は大きく、目が印象的。背景には青緑の山並みと大きな樹木の枝があり、地面の岩や雲の線が重なる。人と虎は画面中央近くで接する。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.4271で対応確認。",
+        "uncertainty_note": "実際に寺院の祠に掛けられた事実は資料未確定で、所蔵館は『おそらく』と述べる。山神の超自然的な働きや絵への信仰上の効験を史実とみなさない。作者名は不明。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "畏敬"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-399-401-20261113/docs/artwork-research-evidence/met-399-401-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "赤い長衣をまとった人物が、青緑の山を背に正面を向いて座っています。そのすぐそばには大きな虎の顔。虎の目と人物のまなざしを見比べると、画面には穏やかな色彩と強い存在感が同居していることが分かります。\n\nこれは19世紀後半の朝鮮で描かれた、作者不明の《山神と虎》です。朝鮮の伝統的な山神は、白いひげの老人と虎を伴う姿で表されるのが一般的でした。この絵の山神は威厳ある赤い装束と冠を着け、松や山の緑に囲まれています。松は長寿や節操の象徴でもあります。\n\n山神の信仰は、その後の仏教の世界にも取り入れられました。美術館は、この絵が仏教寺院の祠に飾られていた可能性を挙げていますが、実際の設置場所は確定していません。背景の山から虎へ、そして山神の顔へと視線を移すと、自然への敬意を神の姿に託した表現が見えてきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/853891"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-853891",
+    "title": "Mountain god with tiger",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/853891",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/853891",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/LC-2024_89_2_at-002.jpg",
+      "sha256": "3f0ecf512e1042e1b80686123c306908208c24af5921907784d8551fb061f2b5",
+      "byte_length": 457368,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-399-401-20261113/docs/artwork-research-evidence/met-399-401-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/LC-2024_89_2_at-002.jpg",
+        "sha256": "6b45eeb78b0edfd14bfde260c578b54776943dae83b13343b5a547c7a02e02f8",
+        "byte_length": 6506172,
+        "width": 3064,
+        "height": 2667,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 7.4271",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2024.89.2"
+  }
+}

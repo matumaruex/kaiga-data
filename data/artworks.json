@@ -48644,6 +48644,368 @@
         "audit_sha256": "14c09428b7a3fb9a42d12da34b481cfd8fdb8b264bbc037f2c7d6a89a56d48c9",
         "record_sha256": "c5d800c3402cb345d15e7d3d0f6e5c25fee1b990c2958cb4c1e0ac5fe446ae73"
       }
+    },
+    {
+      "id": "met-853891",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 853891,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/853891",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853891",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Mountain god with tiger",
+        "title_ja_provisional": "山神と虎",
+        "artist": "Unidentified artist",
+        "creation_date_display": "late 19th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Korea",
+        "accession_number": "2024.89.2"
+      },
+      "image": {
+        "image_id": "met-853891-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/LC-2024_89_2_at-002.jpg",
+        "source_registry_id": "met-853891",
+        "local_path": "/artworks/met-853891.jpg",
+        "sha256": "3f0ecf512e1042e1b80686123c306908208c24af5921907784d8551fb061f2b5",
+        "byte_length": 457368,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-399-401-20261113/docs/artwork-research-evidence/met-399-401-2026-11-13.json",
+        "source_accession_number": "2024.89.2",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/LC-2024_89_2_at-002.jpg",
+          "sha256": "6b45eeb78b0edfd14bfde260c578b54776943dae83b13343b5a547c7a02e02f8",
+          "byte_length": 6506172,
+          "width": 3064,
+          "height": 2667,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 7.4271",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 1
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "自然",
+          "共同体"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/853891",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "朝鮮の民間信仰と仏教が出会う山神図で、虎と赤い衣の神が同居する風景を見たい",
+              "reason": "メトロポリタン美術館の個別Overviewによると、朝鮮で古くから崇敬された山神（サンシン）は通常、白いひげの老人と虎の姿で表される。この絵では赤い大きな衣と冠を付けた威厳ある人物として描かれ、青緑の山水と長寿・節操を示す松、傍らの虎を伴う。朝鮮の在来の山岳信仰が後に仏教と融合したことを示す例とされる。美術館は大きな画面と精緻な仕上げから仏教寺院内の祠に掛けられた可能性を示すが、来歴の確定ではない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "実際に寺院の祠に掛けられた事実は資料未確定で、所蔵館は『おそらく』と述べる。山神の超自然的な働きや絵への信仰上の効験を史実とみなさない。作者名は不明。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "メトロポリタン美術館の個別Overviewによると、朝鮮で古くから崇敬された山神（サンシン）は通常、白いひげの老人と虎の姿で表される。この絵では赤い大きな衣と冠を付けた威厳ある人物として描かれ、青緑の山水と長寿・節操を示す松、傍らの虎を伴う。朝鮮の在来の山岳信仰が後に仏教と融合したことを示す例とされる。美術館は大きな画面と精緻な仕上げから仏教寺院内の祠に掛けられた可能性を示すが、来歴の確定ではない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/853891"
+          },
+          "creation_context": "late 19th century; Korea (Joseon dynasty); Framed painting; ink and color on silk; accession 2024.89.2",
+          "visual_clues": "公式Met APIに紐づく原寸・表示JPEGを取得してサムネイルを目視確認。白い枠に囲われたやや横長の画面。中央の人物は赤い衣と上部に華やかな赤い冠のような帽子を付け、手前左の虎の顔は大きく、目が印象的。背景には青緑の山並みと大きな樹木の枝があり、地面の岩や雲の線が重なる。人と虎は画面中央近くで接する。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.4271で対応確認。",
+          "uncertainty_note": "実際に寺院の祠に掛けられた事実は資料未確定で、所蔵館は『おそらく』と述べる。山神の超自然的な働きや絵への信仰上の効験を史実とみなさない。作者名は不明。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "畏敬"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-399-401-20261113/docs/artwork-research-evidence/met-399-401-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "赤い長衣をまとった人物が、青緑の山を背に正面を向いて座っています。そのすぐそばには大きな虎の顔。虎の目と人物のまなざしを見比べると、画面には穏やかな色彩と強い存在感が同居していることが分かります。\n\nこれは19世紀後半の朝鮮で描かれた、作者不明の《山神と虎》です。朝鮮の伝統的な山神は、白いひげの老人と虎を伴う姿で表されるのが一般的でした。この絵の山神は威厳ある赤い装束と冠を着け、松や山の緑に囲まれています。松は長寿や節操の象徴でもあります。\n\n山神の信仰は、その後の仏教の世界にも取り入れられました。美術館は、この絵が仏教寺院の祠に飾られていた可能性を挙げていますが、実際の設置場所は確定していません。背景の山から虎へ、そして山神の顔へと視線を移すと、自然への敬意を神の姿に託した表現が見えてきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/853891"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-853891-2026-11-13.json",
+        "audit_sha256": "d2654f54fae3fb26775a7c780476f17857b24028dc61f86c8cb9b341fbc03167",
+        "record_sha256": "982ee681bf41098d089034e6431a27d63b472121cc7656095e8d752e30a01e2e"
+      }
+    },
+    {
+      "id": "met-670982",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 670982,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/670982",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/670982",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Calabash Flowers and Beetle",
+        "title_ja_provisional": "夕顔に虫図",
+        "artist": "Maruyama Ōshin",
+        "creation_date_display": "early 19th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2015.300.200"
+      },
+      "image": {
+        "image_id": "met-670982-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-12232-256.jpg",
+        "source_registry_id": "met-670982",
+        "local_path": "/artworks/met-670982.jpg",
+        "sha256": "b648c6a0059a72b79224d5b02dd6495217e100a4a6e29f9a357bb7d1785ee94d",
+        "byte_length": 70777,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-399-401-20261113/docs/artwork-research-evidence/met-399-401-2026-11-13.json",
+        "source_accession_number": "2015.300.200",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-12232-256.jpg",
+          "sha256": "c1b8404739cf21a332cbf4dbf84fd1739ad7954ef3c13d7a98a9fccd4e2472a0",
+          "byte_length": 2644666,
+          "width": 2998,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 3.95898",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "時間",
+          "愛情"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/670982",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "江戸時代の夕顔の白い花と小さな昆虫を、『源氏物語』の儚い恋の連想と一緒に眺めたい",
+              "reason": "Met作品別Overviewによると、夕顔（ヒョウタン類）は夜にのみ芳しい白い花を咲かせる。『源氏物語』第4帖『夕顔』で、夕暮れの短い開花が一時の恋の出会いと人生のはかなさの比喩となった。作品には鮮やかな緑色の昆虫が描かれ、Metはおそらく花潜り類の甲虫としているが種の厳密な同定ではない。円山応震（1790–1838）は円山応挙の孫で、京都で活動した画家。画面の花と物語の関連は美術館の読みであり、この特定の作品に作者の恋愛体験を投影しない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "『夕顔』は植物と物語に共通する名前であり、画家が具体的な場面を再現したという確定資料ではない。昆虫の種はMetが『おそらく』とするにとどめる。作者の感情・恋愛経験を推測しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによると、夕顔（ヒョウタン類）は夜にのみ芳しい白い花を咲かせる。『源氏物語』第4帖『夕顔』で、夕暮れの短い開花が一時の恋の出会いと人生のはかなさの比喩となった。作品には鮮やかな緑色の昆虫が描かれ、Metはおそらく花潜り類の甲虫としているが種の厳密な同定ではない。円山応震（1790–1838）は円山応挙の孫で、京都で活動した画家。画面の花と物語の関連は美術館の読みであり、この特定の作品に作者の恋愛体験を投影しない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/670982"
+          },
+          "creation_context": "early 19th century; Japan (Edo period); Hanging scroll; ink and color on silk; accession 2015.300.200",
+          "visual_clues": "Met実主画像の表示JPEGと原寸JPEGをSHA256と縮小RMSで照合しサムネイルを実見。縦長の掛軸で淡い黄土色の余白の右側に細く伸びる草の茎、上部に白い夕顔の花と葉、下方に大きな緑色の葉ともう一輪の花。小さな緑の昆虫は細部にいる。余白の広さと細い輪郭の配置が特徴。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=3.959で対応確認。",
+          "uncertainty_note": "『夕顔』は植物と物語に共通する名前であり、画家が具体的な場面を再現したという確定資料ではない。昆虫の種はMetが『おそらく』とするにとどめる。作者の感情・恋愛経験を推測しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-399-401-20261113/docs/artwork-research-evidence/met-399-401-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "余白の多い淡い紙面を、細い夕顔のつるが上へと伸びています。白い花の近くには、小さな緑色の虫も描かれています。大きく描かれた葉と小さな生き物を見比べると、静かな画面の中に異なる大きさの命が息づいているようです。\n\n夕顔は夜にだけ香りのある白い花を開きます。その短い開花は、『源氏物語』第四帖で、はかない恋の出会いや移ろう命と重ねて語られてきました。この作品は、19世紀初めに京都で活躍した円山応震による掛軸です。応震は円山応挙の孫で、人物画や花鳥画など幅広い主題を描きました。\n\n画中の鮮やかな緑の虫は、美術館では甲虫の一種ではないかと考えられていますが、断定はされていません。花の姿を丁寧に観察する絵であると同時に、古い物語を思い出す入口にもなります。夕顔の花の白さと、そのまわりの大きな余白に目を向けてみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/670982"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-670982-2026-11-13.json",
+        "audit_sha256": "dd1fc0f65b493bcd66d902c752e722a43ddca0b3a03dc7f72e6c94f612779736",
+        "record_sha256": "f1b0936839e22be518a4503d58585deb3c6f2df42531c51a00e44696c8d9ee75"
+      }
+    },
+    {
+      "id": "met-910558",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 910558,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/910558",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/910558",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "A View of the Taj Mahal, Signed by Koodrutoollah",
+        "title_ja_provisional": "クドゥラトゥッラー筆《タージ・マハルの眺め》",
+        "artist": "Koodrutoollah",
+        "creation_date_display": "dated 1880",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India (Lucknow)",
+        "accession_number": "2024.211"
+      },
+      "image": {
+        "image_id": "met-910558-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/ISLRochell2.jpg",
+        "source_registry_id": "met-910558",
+        "local_path": "/artworks/met-910558.jpg",
+        "sha256": "312eed3123c96fcb2b3f22bc8e82faaa7bdc3f3d55a807ff7dee5b4e98caf86f",
+        "byte_length": 204906,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-399-401-20261113/docs/artwork-research-evidence/met-399-401-2026-11-13.json",
+        "source_accession_number": "2024.211",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/ISLRochell2.jpg",
+          "sha256": "08b2860b6f01058c8aec98afaf371db8fa08476cab689e43f0c824d43340f9f0",
+          "byte_length": 3532579,
+          "width": 3000,
+          "height": 2248,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 6.12846",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "時間",
+          "記憶"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/910558",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "19世紀インドの画家が描いたタージ・マハルの精密な立面水彩で、建築の左右対称と異文化の描写技術を観察したい",
+              "reason": "Met作品別Overviewによると、1880年制作の銘文によって画家クドゥラトゥッラーの署名と制作年代が分かる。ムムターズ・マハルの墓廟タージ・マハルを正面から描いた建築水彩で、奥行きを示す直線的な遠近法はヨーロッパの工学図面や19世紀半ばの写真の広まりと関連づけられ、一方で外壁の花文様やカリグラフィーのピエトラ・ドゥーラ（石象嵌）の緻密さにはムガル帝国期のインド美術の伝統が見られる。作者の職歴に関するMetの東インド会社の説明と1880年という年代は慎重に扱い、職歴は断定して本文に記さない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "タージ・マハルの建設年は絵の制作年1880年とは異なる。現存建築の写真やオリジナルの施工図ではない。署名から示される作者名と制作年を区別し、画家の東インド会社での活動時期・所属の矛盾を推測で補完しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによると、1880年制作の銘文によって画家クドゥラトゥッラーの署名と制作年代が分かる。ムムターズ・マハルの墓廟タージ・マハルを正面から描いた建築水彩で、奥行きを示す直線的な遠近法はヨーロッパの工学図面や19世紀半ばの写真の広まりと関連づけられ、一方で外壁の花文様やカリグラフィーのピエトラ・ドゥーラ（石象嵌）の緻密さにはムガル帝国期のインド美術の伝統が見られる。作者の職歴に関するMetの東インド会社の説明と1880年という年代は慎重に扱い、職歴は断定して本文に記さない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/910558"
+          },
+          "creation_context": "dated 1880; India (Lucknow); Pen and ink, watercolor on paper; accession 2024.211",
+          "visual_clues": "Met APIの原寸・表示JPEGを完全取得し、実際の縮小画像を実見。横長の明るい地の上に白いタージ・マハルが真正面から左右対称に描かれる。中央の大きな玉葱形ドーム、左右に小さなドーム、両端の細いミナレットと階段・水路につながる手前の直線、建築正面の細い線画が見える。周縁の細い黄土色の額縁枠も確認。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.1285で対応確認。",
+          "uncertainty_note": "タージ・マハルの建設年は絵の制作年1880年とは異なる。現存建築の写真やオリジナルの施工図ではない。署名から示される作者名と制作年を区別し、画家の東インド会社での活動時期・所属の矛盾を推測で補完しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-399-401-20261113/docs/artwork-research-evidence/met-399-401-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "白い大理石の大きなドームを中心に、タージ・マハルの建物が左右対称に描かれています。両端には細い塔、手前には奥へ続く直線が伸びています。色を抑えた水彩の中で、建物の輪郭や正面の装飾がひとつずつ丁寧に追われています。\n\nこの絵は、インドの画家クドゥラトゥッラーが1880年に制作したものです。画面に残る銘文から、作者と制作年が分かります。描かれたタージ・マハルは、ムガル皇帝シャー・ジャハーンが妃ムムターズ・マハルのために建てた霊廟です。\n\n奥へ収束する直線的な遠近法には、ヨーロッパの工学図面の影響が見られます。一方、建物の花や文字の細かな石象嵌には、ムガルの装飾を詳しく伝えようとする視線が表れています。19世紀のインドで、異なる描写技術がひとつの建築図に重ねられたことを、細部をたどりながら確かめられます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/910558"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-910558-2026-11-13.json",
+        "audit_sha256": "8df58151881f903f48a1516485d7648be90eb72352e72158ab546a0b70b43f47",
+        "record_sha256": "5a860c5074ff268631d05fc921cece580792b909d6e6208daf06a2c12db1a9ca"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
