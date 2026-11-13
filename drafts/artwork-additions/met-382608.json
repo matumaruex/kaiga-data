@@ -1,0 +1,152 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-382608",
+  "artwork": {
+    "id": "met-382608",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 382608,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/382608",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/382608",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Still Life with Flowers, a Snail and Insects",
+      "title_ja_provisional": "花とカタツムリと昆虫の静物",
+      "artist": "Joris Hoefnagel",
+      "creation_date_display": "1589",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Netherlandish (Antwerp-born artist)",
+      "accession_number": "2008.110"
+    },
+    "image": {
+      "image_id": "met-382608-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP158476.jpg",
+      "source_registry_id": "met-382608",
+      "local_path": "/artworks/met-382608.jpg",
+      "sha256": "4fa4ae10fbab7784cd04c91e5c611a496bc6b270ceada86d057665ebc94b09d5",
+      "byte_length": 129217,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json",
+      "source_accession_number": "2008.110",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/dp/original/DP158476.jpg",
+        "sha256": "e3035b69818acff33cbbdc384bd5ad7e70f186294b5a4d228c1f75eb6ad3804c",
+        "byte_length": 2314582,
+        "width": 2861,
+        "height": 3505,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 7.96296",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "慈しみ"
+      ],
+      "emotion_strengths": {
+        "慈しみ": 1
+      },
+      "tones": [
+        "静けさ",
+        "余韻"
+      ],
+      "themes": [
+        "愛情",
+        "自然",
+        "記憶"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/382608",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "小さな花束に描かれたカタツムリと蝶や虫の繊細さを見ながら、母に捧げた絵の意味を知りたい",
+            "reason": "Met作品別Overviewによるとヨーリス・フーフナーヘルの1589年制作の小品は16世紀末の精確な自然観察を示す。花束の左右対称の配置は当時の好みに沿い、一部の花の大きさの差と他作品でのモティーフ再利用から、個々の花を別々に観察した習作を組み合わせた可能性が高い。台座のラテン語銘文は母への『愛の記念』として制作したと示す。単なる植物図鑑ではなく親しい相手への個人的献呈として描かれたが、誕生日の贈り物だったかどうかはMet作品個別Overviewからは確定しない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "母に宛てた献呈は銘文で確認できるが、特定の記念日、花それぞれの象徴、実物の植物の分類を推測で断定しない。メトロポリタン美術館の言う個々の花の研究の組み合わせは根拠ある推察。制作は1589年、個々のモチーフと贈り先の話を区別。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによるとヨーリス・フーフナーヘルの1589年制作の小品は16世紀末の精確な自然観察を示す。花束の左右対称の配置は当時の好みに沿い、一部の花の大きさの差と他作品でのモティーフ再利用から、個々の花を別々に観察した習作を組み合わせた可能性が高い。台座のラテン語銘文は母への『愛の記念』として制作したと示す。単なる植物図鑑ではなく親しい相手への個人的献呈として描かれたが、誕生日の贈り物だったかどうかはMet作品個別Overviewからは確定しない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/382608"
+        },
+        "creation_context": "1589; Netherlandish (Antwerp-born artist); Watercolor, gouache, and shell gold on vellum; accession 2008.110",
+        "visual_clues": "Met APIの原寸と表示JPEGを全ダウンロードしてSHA256・バイト数・寸法・縮小RMSを照合し、実際の公式サムネイルを確認。縦長の小さな画面中央に大きなピンク色のバラと青い小花、周囲にクリーム色の花。下部の丸い花器には翅を広げた虫、左右の縁には小さな蝶やトンボに似た虫、右上に殻のあるカタツムリ。最下部に黒地に金色のラテン語銘文がある。実物はヴェラムへの水彩・不透明水彩・金彩で油彩ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.963で対応確認。",
+        "uncertainty_note": "母に宛てた献呈は銘文で確認できるが、特定の記念日、花それぞれの象徴、実物の植物の分類を推測で断定しない。メトロポリタン美術館の言う個々の花の研究の組み合わせは根拠ある推察。制作は1589年、個々のモチーフと贈り先の話を区別。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "慈しみ"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "小さな画面いっぱいに、淡いピンクの大きな花と青い小花が咲いています。周囲にはカタツムリや蝶などの虫が集まり、下の花器にも羽を広げた虫の姿があります。一見すると整った花束ですが、細部を見ていくと、それぞれの生き物が違う形で描き分けられています。\n\n1589年にネーデルラント出身の画家ヨーリス・フーフナーヘルが描いた作品です。個々の花を別々に観察して描いた習作を組み合わせ、花束の構図にしたと考えられています。精密な自然の描写と、左右の釣り合いを意識した配置が特徴です。\n\n台座のラテン語銘文によれば、この作品は母に捧げる「愛の記念」として描かれました。花や虫の形を詳しく記録するだけでなく、親しい相手を思う気持ちも込められた絵です。画面の下の文字から花束へと視線を戻すと、静物の意味が少し違って見えてきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/382608"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-382608",
+    "title": "Still Life with Flowers, a Snail and Insects",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/382608",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/382608",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP158476.jpg",
+      "sha256": "4fa4ae10fbab7784cd04c91e5c611a496bc6b270ceada86d057665ebc94b09d5",
+      "byte_length": 129217,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/dp/original/DP158476.jpg",
+        "sha256": "e3035b69818acff33cbbdc384bd5ad7e70f186294b5a4d228c1f75eb6ad3804c",
+        "byte_length": 2314582,
+        "width": 2861,
+        "height": 3505,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 7.96296",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2008.110"
+  }
+}
