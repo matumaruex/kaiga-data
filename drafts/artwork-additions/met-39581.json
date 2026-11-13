@@ -1,0 +1,151 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-39581",
+  "artwork": {
+    "id": "met-39581",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 39581,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/39581",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/39581",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Chinese Scholar Contemplating a Waterfall",
+      "title_ja_provisional": "滝を眺める中国の文人",
+      "artist": "Follower of Soga Shōhaku",
+      "creation_date_display": "late18th–early 19th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "1996.104"
+    },
+    "image": {
+      "image_id": "met-39581-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP229823.jpg",
+      "source_registry_id": "met-39581",
+      "local_path": "/artworks/met-39581.jpg",
+      "sha256": "0e9886250c97d50205abd0318c1917480695d12d98a4ce97cd91a4cbde9ff91b",
+      "byte_length": 114089,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-405-407-20261113/docs/artwork-research-evidence/met-405-407-2026-11-13.json",
+      "source_accession_number": "1996.104",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP229823.jpg",
+        "sha256": "2bb86f6665e59c9d1a3de3296786623c56014501c9eda814814b3f6e746b510f",
+        "byte_length": 3078133,
+        "width": 3925,
+        "height": 3563,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.19062",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "不安"
+      ],
+      "emotion_strengths": {
+        "不安": 1
+      },
+      "tones": [
+        "緊張",
+        "静けさ"
+      ],
+      "themes": [
+        "自然",
+        "他者との距離"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/39581",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "大胆な筆づかいで描かれた滝と絶壁の風景で、小さな人影と自然の大きさを見比べたい",
+            "reason": "Metの作品別Overviewは、巨大な山水の中に占める人の小ささを主題とし、左の崖の文人が滝を眺め、右の危うい橋を旅人が渡って寺を目指す構図と説明する。滝の飛沫は龍のように人の上に弧を描き、山並みや枯れ木は穏やかな自然より不穏な自然の強さを強調する。蕭白の奇抜さを模倣した作だが、仕上がりの硬さなどからMetは曽我蕭白本人ではなくその追随者による作とする。Met APIのartistDisplayNameがSoga Shōhakuとなるのに対し公式の個別作品ページの表示はFollower of Soga Shōhakuなので、後者と学芸員による説明を優先する。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "作者は曽我蕭白本人とは断定しない。Met APIとウェブページの帰属表示の差を監査に明記し、所蔵館の個別解説による追随者への帰属を採用。人物の危険や感情は研究者の読みであって当事者の記録ではない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metの作品別Overviewは、巨大な山水の中に占める人の小ささを主題とし、左の崖の文人が滝を眺め、右の危うい橋を旅人が渡って寺を目指す構図と説明する。滝の飛沫は龍のように人の上に弧を描き、山並みや枯れ木は穏やかな自然より不穏な自然の強さを強調する。蕭白の奇抜さを模倣した作だが、仕上がりの硬さなどからMetは曽我蕭白本人ではなくその追随者による作とする。Met APIのartistDisplayNameがSoga Shōhakuとなるのに対し公式の個別作品ページの表示はFollower of Soga Shōhakuなので、後者と学芸員による説明を優先する。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/39581"
+        },
+        "creation_context": "late18th–early 19th century; Japan (Edo period); Two-panel folding screen; ink and gold on paper; accession 1996.104",
+        "visual_clues": "Met APIの原寸・表示JPEGの全バイトハッシュと縮小RMSを調査し、公式主画像サムネイルを視認。金茶色の横長二曲屏風。左寄りに深い落下の滝と向き合う極小の人物が見え、奥には濃淡の山や木、右に木と高所の屋根のある建物がある。巨大な滝の白いしぶきが弧を描く。細部の人物名などは画像だけでは分からない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.1906で対応確認。",
+        "uncertainty_note": "作者は曽我蕭白本人とは断定しない。Met APIとウェブページの帰属表示の差を監査に明記し、所蔵館の個別解説による追随者への帰属を採用。人物の危険や感情は研究者の読みであって当事者の記録ではない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "不安"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-405-407-20261113/docs/artwork-research-evidence/met-405-407-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "画面いっぱいにそびえる山と断崖の中では、人の姿は驚くほど小さく描かれています。左の崖際では文人が遠くの滝を眺め、右側では旅人が細い橋を渡っています。大きく弧を描く滝の飛沫に注目すると、静かな風景の中に不思議な緊張感も感じられます。\n\n江戸時代の絵画《滝を眺める中国の文人》です。曽我蕭白の奇抜な山水画を思わせますが、メトロポリタン美術館は構図や筆づかいの硬さなどから、制作は蕭白本人ではなく、彼の画風を受け継いだ画家によると考えています。従来の美しい山水の趣を借りながらも、この絵では人間が自然の広がりに圧倒されるように描かれています。\n\n右側の人物は、霧の中に続く寺を目指しているようにも見えます。ただし、画中の物語を細部まで断定することはできません。二曲屏風を右から左へ眺め、細い道や滝のしぶきが作る動きを追うと、画面の大きな空間が違って見えてきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/39581"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-39581",
+    "title": "Chinese Scholar Contemplating a Waterfall",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/39581",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/39581",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP229823.jpg",
+      "sha256": "0e9886250c97d50205abd0318c1917480695d12d98a4ce97cd91a4cbde9ff91b",
+      "byte_length": 114089,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-405-407-20261113/docs/artwork-research-evidence/met-405-407-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP229823.jpg",
+        "sha256": "2bb86f6665e59c9d1a3de3296786623c56014501c9eda814814b3f6e746b510f",
+        "byte_length": 3078133,
+        "width": 3925,
+        "height": 3563,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.19062",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "1996.104"
+  }
+}

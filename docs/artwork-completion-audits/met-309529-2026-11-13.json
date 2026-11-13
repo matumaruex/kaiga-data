@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-309529",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-309529.json",
+  "candidate_sha256": "7647cc40d67040423fafa17c4821935ced7639cca304cf821a89aa8420468ddf",
+  "draft_path": "drafts/visitor-explanations/met-309529.json",
+  "draft_sha256": "51229fddf60c884e48697f88cf3f0ef19b815ab78e99b822c58b7612f4815c49",
+  "baseline": {
+    "artworks_sha256": "8041578d8da7b671c7b7de7a3565d136768946b8f54b585bf87b1b181727d7e1",
+    "image_registry_sha256": "518d870872d2bca61f4ceb1a3133bd227124ac851855f59c1ebc69caffc22b97"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/309529",
+      "source_excerpt": "allowed it to be used as a portable personal icon",
+      "visitor_claim": "首から下げて持ち歩く個人用のイコンとして使える造りです。",
+      "source_section": "Exact Met object Overview: wearable portable devotional icon"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/309529",
+      "source_excerpt": "St. George slaying the dragon is represented on the adjacent panel",
+      "visitor_claim": "隣の扉には、聖ゲオルギウスが竜を倒す場面が描かれています。",
+      "source_section": "Exact Met object Overview: St George scene on adjacent painted panel"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/309529",
+      "location": "Exact artwork Overview and Object Information: Exact Met object Overview: wearable portable devotional icon; Exact Met object Overview: St George scene on adjacent painted panel",
+      "finding": "Met作品別Overviewによれば、木製の開閉式小箱の内部に二面の聖画を持ち、上部の穴を利用して首から下げられる個人用イコン。中央の玉座の聖母子を天使たちが囲み、隣の面には白馬に乗った聖ゲオルギウスが槍で竜を倒す場面が描かれる。エチオピア正教の伝統における守護や祈りと結びついた図像で、ヨーロッパのマリア像からの図像的影響を独自の様式へと変えている。Metは制作を18世紀としている一方、木箱は古くても彩色の一部が20世紀に塗り直された可能性に触れる。この推定は確定年代ではなく再制作の断定は避ける。 Actual image observation: Met公式API主画像を原寸/表示とも実取得し、サムネイルで確認。灰色の展示背景に木の小箱が左右に開かれ、左の絵は白馬の聖ゲオルギウスが槍を構える赤青緑の彩色図、右は青い衣の聖母子が玉座に座り、その両側に色鮮やかな天使がいる。上部の吊り下げ用飾りと蝶番、傷んだ彩色の細部も見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.047で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/309529",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-405-407-20261113/docs/artwork-research-evidence/met-405-407-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/309529",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-405-407-20261113/docs/artwork-research-evidence/met-405-407-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/309529",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-309529 Pendant Icon with St. George and the Virgin and Child Enthroned; Northern or Central Highlands artist; 18th century; accession 68.128. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式API主画像を原寸/表示とも実取得し、サムネイルで確認。灰色の展示背景に木の小箱が左右に開かれ、左の絵は白馬の聖ゲオルギウスが槍を構える赤青緑の彩色図、右は青い衣の聖母子が玉座に座り、その両側に色鮮やかな天使がいる。上部の吊り下げ用飾りと蝶番、傷んだ彩色の細部も見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.047で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-405-407-20261113/docs/artwork-research-evidence/met-405-407-2026-11-13.json",
+      "historical_interpretation": "Met作品別Overviewによれば、木製の開閉式小箱の内部に二面の聖画を持ち、上部の穴を利用して首から下げられる個人用イコン。中央の玉座の聖母子を天使たちが囲み、隣の面には白馬に乗った聖ゲオルギウスが槍で竜を倒す場面が描かれる。エチオピア正教の伝統における守護や祈りと結びついた図像で、ヨーロッパのマリア像からの図像的影響を独自の様式へと変えている。Metは制作を18世紀としている一方、木箱は古くても彩色の一部が20世紀に塗り直された可能性に触れる。この推定は確定年代ではなく再制作の断定は避ける。 Limits: 作品は木板に描かれた二面の聖画を持つ携帯具で、平面の一枚絵や油彩キャンバスではない。Metの作品年代は18世紀だが20世紀の再彩色の可能性がある。竜退治は宗教伝承であり史実ではない。公開画像に写るのは開いた状態の二面である。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['畏敬']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ao/web-large/68.128_a.JPG",
+      "sha256": "df671ee0e952ff0be519c06b30d9ab0c6bb4c3d9aa17753b35302692b679d048",
+      "byte_length": 62057,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式API主画像を原寸/表示とも実取得し、サムネイルで確認。灰色の展示背景に木の小箱が左右に開かれ、左の絵は白馬の聖ゲオルギウスが槍を構える赤青緑の彩色図、右は青い衣の聖母子が玉座に座り、その両側に色鮮やかな天使がいる。上部の吊り下げ用飾りと蝶番、傷んだ彩色の細部も見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.047で対応確認。 Confirmed image belongs to Met artwork 309529, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ao/original/68.128_a.JPG",
+      "sha256": "b5575b26cd6f59de723783aafb1b43d5892d0dfc17d068df608d295f335699ce",
+      "byte_length": 694109,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式API主画像を原寸/表示とも実取得し、サムネイルで確認。灰色の展示背景に木の小箱が左右に開かれ、左の絵は白馬の聖ゲオルギウスが槍を構える赤青緑の彩色図、右は青い衣の聖母子が玉座に座り、その両側に色鮮やかな天使がいる。上部の吊り下げ用飾りと蝶番、傷んだ彩色の細部も見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.047で対応確認。 Confirmed image belongs to Met artwork 309529, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #407; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 39581 web art-page and Overview identify artist as a follower of Soga Shōhaku, contrary to simplified API artistDisplayName; Met 309529 notes possible twentieth-century repainting and its medium is two painted wooden panels, not canvas."
+  ]
+}

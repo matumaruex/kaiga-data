@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-845160",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-845160.json",
+  "candidate_sha256": "fbc569329fcc6224451ef08ad320e6e0c3a3884251a03cb564a499719ce1dd2d",
+  "draft_path": "drafts/visitor-explanations/met-845160.json",
+  "draft_sha256": "9b062bb46ebb4ec68361005aa1f5ab5b6d2e2b4a0328cebae6f0e6f549925b70",
+  "baseline": {
+    "artworks_sha256": "0a3e2036497b540f3ae6ce5e8e68e1ef9a980de4ceae2e142875fb0f7c186753",
+    "image_registry_sha256": "1e0de9ec62fdc24d3c554e7c3b7f126cafe677ffe7ca444d983ac82de28fa2da"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/845160",
+      "source_excerpt": "a group of literati gather to partake of sencha",
+      "visitor_claim": "木陰には、文人たちが集まって煎茶を楽しむ場面が描かれています。",
+      "source_section": "Exact Met object Overview: literati gathered for sencha"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/845160",
+      "source_excerpt": "A young servant tends to the ceramic stove",
+      "visitor_claim": "若い従者は、陶製のかまどで湯を沸かしています。",
+      "source_section": "Exact Met object Overview: tea kettle heated by servant"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/845160",
+      "location": "Exact artwork Overview and Object Information: Exact Met object Overview: literati gathered for sencha; Exact Met object Overview: tea kettle heated by servant",
+      "finding": "Met作品別Overviewは、京都で陶工・画家として活動した青木木米の1820年代の絵で、文人たちが中国風の煎茶を楽しむ山中の集まりを描くという。若い従者は陶製のかまどで湯を沸かしている。風景は中国を愛好した日本の都市知識人の文化を示す。山に誰が参加したか、個々の正確な身元、実際にあった会合であることは資料上未確認。 Actual image observation: Met公式主画像の原寸と表示JPEGを取得し同一作品を視認。縦長の掛軸画面に険しい山岳と高木が墨と淡彩で描かれ、下半分に小さな人物たち、山石の間に茶を飲む集まりらしい小空間がある。掛軸の上と下の表装は絵の一部ではない。人物の個人名は識別できない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.9238で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/845160",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-405-407-20261113/docs/artwork-research-evidence/met-405-407-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/845160",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-405-407-20261113/docs/artwork-research-evidence/met-405-407-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/845160",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-845160 Brewing Tea in the Shade of Trees; Aoki Mokubei; 1820s; accession 2020.396.36. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式主画像の原寸と表示JPEGを取得し同一作品を視認。縦長の掛軸画面に険しい山岳と高木が墨と淡彩で描かれ、下半分に小さな人物たち、山石の間に茶を飲む集まりらしい小空間がある。掛軸の上と下の表装は絵の一部ではない。人物の個人名は識別できない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.9238で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-405-407-20261113/docs/artwork-research-evidence/met-405-407-2026-11-13.json",
+      "historical_interpretation": "Met作品別Overviewは、京都で陶工・画家として活動した青木木米の1820年代の絵で、文人たちが中国風の煎茶を楽しむ山中の集まりを描くという。若い従者は陶製のかまどで湯を沸かしている。風景は中国を愛好した日本の都市知識人の文化を示す。山に誰が参加したか、個々の正確な身元、実際にあった会合であることは資料上未確認。 Limits: 青木木米は絵画だけでなく陶工であった事実と、画中の従者の陶製かまどを区別する。茶会を特定の実在の会合や人物と断定しない。煎茶の様式はMetの中国風という説明に従う。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['安心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-26044-002.jpg",
+      "sha256": "ef5571d7bac826f9b2092080acae6768305b17500a968ae5111303b3dbe00486",
+      "byte_length": 169730,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式主画像の原寸と表示JPEGを取得し同一作品を視認。縦長の掛軸画面に険しい山岳と高木が墨と淡彩で描かれ、下半分に小さな人物たち、山石の間に茶を飲む集まりらしい小空間がある。掛軸の上と下の表装は絵の一部ではない。人物の個人名は識別できない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.9238で対応確認。 Confirmed image belongs to Met artwork 845160, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-26044-002.jpg",
+      "sha256": "05a5c0e099a53e5ecb53c393660e4bb6046e6a933341d1e304dc4402d4a726bb",
+      "byte_length": 4550647,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式主画像の原寸と表示JPEGを取得し同一作品を視認。縦長の掛軸画面に険しい山岳と高木が墨と淡彩で描かれ、下半分に小さな人物たち、山石の間に茶を飲む集まりらしい小空間がある。掛軸の上と下の表装は絵の一部ではない。人物の個人名は識別できない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.9238で対応確認。 Confirmed image belongs to Met artwork 845160, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #406; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 39581 web art-page and Overview identify artist as a follower of Soga Shōhaku, contrary to simplified API artistDisplayName; Met 309529 notes possible twentieth-century repainting and its medium is two painted wooden panels, not canvas."
+  ]
+}

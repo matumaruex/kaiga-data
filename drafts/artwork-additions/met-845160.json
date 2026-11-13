@@ -1,0 +1,152 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-845160",
+  "artwork": {
+    "id": "met-845160",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 845160,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/845160",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/845160",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Brewing Tea in the Shade of Trees",
+      "title_ja_provisional": "木陰で煎茶を淹れる",
+      "artist": "Aoki Mokubei",
+      "creation_date_display": "1820s",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "2020.396.36"
+    },
+    "image": {
+      "image_id": "met-845160-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-26044-002.jpg",
+      "source_registry_id": "met-845160",
+      "local_path": "/artworks/met-845160.jpg",
+      "sha256": "ef5571d7bac826f9b2092080acae6768305b17500a968ae5111303b3dbe00486",
+      "byte_length": 169730,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-405-407-20261113/docs/artwork-research-evidence/met-405-407-2026-11-13.json",
+      "source_accession_number": "2020.396.36",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-26044-002.jpg",
+        "sha256": "05a5c0e099a53e5ecb53c393660e4bb6046e6a933341d1e304dc4402d4a726bb",
+        "byte_length": 4550647,
+        "width": 3000,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 8.92378",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "安心"
+      ],
+      "emotion_strengths": {
+        "安心": 1
+      },
+      "tones": [
+        "落ち着き",
+        "静けさ"
+      ],
+      "themes": [
+        "休息",
+        "共同体",
+        "自然"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/845160",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "江戸後期の文人たちが山中の木陰で煎茶を楽しむ、のびやかな交流の風景を見たい",
+            "reason": "Met作品別Overviewは、京都で陶工・画家として活動した青木木米の1820年代の絵で、文人たちが中国風の煎茶を楽しむ山中の集まりを描くという。若い従者は陶製のかまどで湯を沸かしている。風景は中国を愛好した日本の都市知識人の文化を示す。山に誰が参加したか、個々の正確な身元、実際にあった会合であることは資料上未確認。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "青木木米は絵画だけでなく陶工であった事実と、画中の従者の陶製かまどを区別する。茶会を特定の実在の会合や人物と断定しない。煎茶の様式はMetの中国風という説明に従う。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewは、京都で陶工・画家として活動した青木木米の1820年代の絵で、文人たちが中国風の煎茶を楽しむ山中の集まりを描くという。若い従者は陶製のかまどで湯を沸かしている。風景は中国を愛好した日本の都市知識人の文化を示す。山に誰が参加したか、個々の正確な身元、実際にあった会合であることは資料上未確認。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/845160"
+        },
+        "creation_context": "1820s; Japan (Edo period); Hanging scroll; ink and color on paper; accession 2020.396.36",
+        "visual_clues": "Met公式主画像の原寸と表示JPEGを取得し同一作品を視認。縦長の掛軸画面に険しい山岳と高木が墨と淡彩で描かれ、下半分に小さな人物たち、山石の間に茶を飲む集まりらしい小空間がある。掛軸の上と下の表装は絵の一部ではない。人物の個人名は識別できない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.9238で対応確認。",
+        "uncertainty_note": "青木木米は絵画だけでなく陶工であった事実と、画中の従者の陶製かまどを区別する。茶会を特定の実在の会合や人物と断定しない。煎茶の様式はMetの中国風という説明に従う。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "安心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-405-407-20261113/docs/artwork-research-evidence/met-405-407-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "大きな山や木々の下に、小さな人物たちが集まっています。石のかげにある人の姿を探しながら見ていくと、雄大な景色の中に、ほっと一息つくための場所が見つかります。\n\n1820年代、京都の陶工で画家でもあった青木木米が描いた山水画です。木陰には、文人たちが集まって煎茶を楽しむ場面が描かれています。当時の日本の知識人にとって、中国の文化や文芸を愛好することは暮らしの楽しみのひとつでもありました。\n\n若い従者は、陶製のかまどで湯を沸かしています。高い山や豊かな木々に比べると、茶を用意する人々は小さな存在です。それでも彼らのいる場所を見つけると、風景がただの山の眺めではなく、人と人が時間を分け合う場として立ち上がってきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/845160"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-845160",
+    "title": "Brewing Tea in the Shade of Trees",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/845160",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/845160",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-26044-002.jpg",
+      "sha256": "ef5571d7bac826f9b2092080acae6768305b17500a968ae5111303b3dbe00486",
+      "byte_length": 169730,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-405-407-20261113/docs/artwork-research-evidence/met-405-407-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-26044-002.jpg",
+        "sha256": "05a5c0e099a53e5ecb53c393660e4bb6046e6a933341d1e304dc4402d4a726bb",
+        "byte_length": 4550647,
+        "width": 3000,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 8.92378",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2020.396.36"
+  }
+}
