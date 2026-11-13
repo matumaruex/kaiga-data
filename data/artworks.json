@@ -50091,6 +50091,370 @@
         "audit_sha256": "6a0c3a5a4796df0e519a7b12f84b56fd72efc9118e3b430d6827464d54b5cb65",
         "record_sha256": "86b1af90b4d0d0d5ae2255f9f62249ac25ac3ec3e9d052f175fe434bd2f85760"
       }
+    },
+    {
+      "id": "met-49079",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 49079,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/49079",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/49079",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Mountain Landscape",
+        "title_ja_provisional": "山水図",
+        "artist": "Soga Shōhaku",
+        "creation_date_display": "ca. 1761–63",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "36.100.66"
+      },
+      "image": {
+        "image_id": "met-49079-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/36_100_66_O2_sf.jpg",
+        "source_registry_id": "met-49079",
+        "local_path": "/artworks/met-49079.jpg",
+        "sha256": "782c50848c70c46715d0e9ffc26917817c8a71d4d514fceeebebc58438fc0d9f",
+        "byte_length": 272019,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json",
+        "source_accession_number": "36.100.66",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/36_100_66_O2_sf.jpg",
+          "sha256": "5a15a540d8ca8037a7135461133ebe06286a9169ab62a2564c6c537a7e492944",
+          "byte_length": 2272888,
+          "width": 2000,
+          "height": 1646,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 6.27216",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "安心"
+        ],
+        "emotion_strengths": {
+          "安心": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/49079",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "曽我蕭白の初期の山水図で、中国風の楼閣と山並みを見ながら画風の変化を感じたい",
+              "reason": "メトロポリタン美術館の個別Overviewは、1761～63年頃に曽我蕭白が30代初めに制作した山水図として、狩野派の技術的な影響と、湖畔に中国風の楼閣を配し背景に急峻な山を描く構図を指摘する。のちの奇抜な蕭白の絵と異なる保守的な筆づかいゆえに真作を疑う研究者もいるが、作品の署名と印章は初期の作品であることを示すと学芸員は判断する。帰属に議論があった経緯は隠さず、所蔵館の現在の帰属を明示する。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "題名は一般的な山水図。作者帰属には過去に異論が出たが、Met公式個別ページの現在の表記は曽我蕭白本人。前年登録のmet-39581《滝を眺める中国の文人》は蕭白の追随者による別の二曲屏風であり、本作とは別。同題の別山水図と混同しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "メトロポリタン美術館の個別Overviewは、1761～63年頃に曽我蕭白が30代初めに制作した山水図として、狩野派の技術的な影響と、湖畔に中国風の楼閣を配し背景に急峻な山を描く構図を指摘する。のちの奇抜な蕭白の絵と異なる保守的な筆づかいゆえに真作を疑う研究者もいるが、作品の署名と印章は初期の作品であることを示すと学芸員は判断する。帰属に議論があった経緯は隠さず、所蔵館の現在の帰属を明示する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/49079"
+          },
+          "creation_context": "ca. 1761–63; Japan (Edo period); Hanging scroll; ink and color on silk; accession 36.100.66",
+          "visual_clues": "Met APIの原寸・表示JPEGを完全取得し、SHA256と縮小RGB RMSで照合。公式主画像の縮小版を直接確認。淡い黄土色の横長画面に、中央付近の複数の緑色の重なる険しい山があり、左の湖畔と右の樹木・屋根のある楼閣が見える。濃い山の輪郭と薄い遠山の対比、画面の右上に小さな落款と印が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.2722で対応確認。",
+          "uncertainty_note": "題名は一般的な山水図。作者帰属には過去に異論が出たが、Met公式個別ページの現在の表記は曽我蕭白本人。前年登録のmet-39581《滝を眺める中国の文人》は蕭白の追随者による別の二曲屏風であり、本作とは別。同題の別山水図と混同しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "安心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "淡い地の中から、濃い墨と緑で描かれた険しい山が重なって立ち上がっています。山裾には水辺が広がり、右側には木立と中国風の建物が小さく見えます。山の力強い輪郭と、遠景のかすかな色の違いをたどると、奥行きのある風景が広がります。\n\n江戸時代の画家・曽我蕭白が、1761～63年頃に描いた山水図です。この作品には、狩野派の技法から学んだ跡が見られます。湖畔の楼閣と急峻な山を組み合わせた構図には、のちに蕭白が好んだ表現の兆しも見つけられます。\n\n後年の奔放な筆づかいに比べて穏やかなため、かつては作者を疑う意見もありました。しかし、署名と印章は初期の蕭白作品であることを示すと美術館は説明しています。激しい個性を感じる後年の絵と比べると、画家が画風を作っていった道のりも想像できます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/49079"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-49079-2026-11-13.json",
+        "audit_sha256": "4c2d2fa6f977e60ed681ce1d6217e924e493521ea6e73d28705c161d4a5893a4",
+        "record_sha256": "40343468228586a9c90721174650dd266358d3fc26aed70593aa1797a652f9a6"
+      }
+    },
+    {
+      "id": "met-901386",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 901386,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/901386",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/901386",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Tétouan from the Terrace of Cohen’s House, Morocco",
+        "title_ja_provisional": "コーエン家の屋上から望むテトゥアン",
+        "artist": "David Roberts",
+        "creation_date_display": "April 10, 1833",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Morocco (Tétouan), depicted by a British Scottish painter",
+        "accession_number": "2023.506"
+      },
+      "image": {
+        "image_id": "met-901386-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-30739-001.jpg",
+        "source_registry_id": "met-901386",
+        "local_path": "/artworks/met-901386.jpg",
+        "sha256": "e1e609526e93a2f50e3a21e867666c6e3e98c4bbfcda04e934b7bcfd734d5193",
+        "byte_length": 48421,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json",
+        "source_accession_number": "2023.506",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/dp/original/DP-30739-001.jpg",
+          "sha256": "9f46b63bafbc71002351a128dbbb23207e7c2e09b32ef0ebc76d41b61c35f92a",
+          "byte_length": 1722646,
+          "width": 4000,
+          "height": 1418,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 4.45174",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ",
+          "にぎわい"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/901386",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "1833年のモロッコの街を屋上から描いた横長の水彩画で、建物・人々・小さな祝祭の気配を眺めたい",
+              "reason": "Met個別Overviewによれば英国スコットランド出身のデイヴィッド・ロバーツは1833年の初めての北アフリカ旅行中にテトゥアンを訪れた。地元のイスラム当局への登録が必要と知り、セファルディ系ユダヤ人共同体のつながりを通じコーエン家に滞在先と保護を得た。滞在8日間に屋上を中心に数点を描き、うち4点は後にトマス・ロスコーの『スペインとモロッコ』（1838年）の挿絵版画に使われた。屋上の格子状の構造物には植物と布が見え、訪問が過越祭の時期と重なるため音楽が祭りに関係する可能性を美術館が示すが、確定事実にはしない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作者はスコットランド出身でありモロッコ生まれの画家としない。過越祭に関連した奏楽かどうかはMetが『かもしれない』とする仮説。作品は水彩素描であって油彩写真ではない。絵がどこまで正確な街の測量を再現するか断定しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met個別Overviewによれば英国スコットランド出身のデイヴィッド・ロバーツは1833年の初めての北アフリカ旅行中にテトゥアンを訪れた。地元のイスラム当局への登録が必要と知り、セファルディ系ユダヤ人共同体のつながりを通じコーエン家に滞在先と保護を得た。滞在8日間に屋上を中心に数点を描き、うち4点は後にトマス・ロスコーの『スペインとモロッコ』（1838年）の挿絵版画に使われた。屋上の格子状の構造物には植物と布が見え、訪問が過越祭の時期と重なるため音楽が祭りに関係する可能性を美術館が示すが、確定事実にはしない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/901386"
+          },
+          "creation_context": "April 10, 1833; Morocco (Tétouan), depicted by a British Scottish painter; Watercolor and gouache over soft dark graphite on gray paper; accession 2023.506",
+          "visual_clues": "Met公式APIの主画像の実JPEGを取得し、原寸・表示のサイズ、全SHA256と縮小RMSを照合。横長の明るい灰茶色のモロッコの屋根と街並みが遠くまで広がり、左に立つ少人数の人物、画面右寄りに濃い色の小さな人々が集まる屋上の格子と布、遠景に淡い山並みがある。水彩は紙の余白に近い淡色で、写真ではなく画家の観察による描写。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.4517で対応確認。",
+          "uncertainty_note": "作者はスコットランド出身でありモロッコ生まれの画家としない。過越祭に関連した奏楽かどうかはMetが『かもしれない』とする仮説。作品は水彩素描であって油彩写真ではない。絵がどこまで正確な街の測量を再現するか断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "明るい空の下に、淡い色の建物の屋根が遠くまで続いています。広い街並みの中で目を凝らすと、屋上に集まった小さな人々や、布を掛けた格子状の場所が見つかります。手前から遠くの山まで、薄い水彩の重なりで表されています。\n\nスコットランド出身の画家デイヴィッド・ロバーツは、1833年に初めて北アフリカを訪れ、この眺めを描きました。モロッコのテトゥアンでは、地元のユダヤ人共同体とのつながりを通じてコーエン家に滞在し、屋上などから街の景色をスケッチしました。作品は1833年4月10日付の水彩画です。\n\n画家の訪問がユダヤ教の過越祭と重なっていたため、美術館は画中の奏楽が祭りに関係した可能性を示しています。ただし、実際にどの行事だったかは分かりません。屋上の人影を探してから街全体に目を戻すと、日々の暮らしの一場面と広い都市の姿を同時に感じられます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/901386"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-901386-2026-11-13.json",
+        "audit_sha256": "0ee5645a6d13700b84770d548a4c3653ff358ad4b57eb5103dcccc315e6bd4a4",
+        "record_sha256": "e19bf981cf986119f25ac9e35c483bf29c41ade6a30d580a93ea194c00321b8d"
+      }
+    },
+    {
+      "id": "met-382608",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 382608,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/382608",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/382608",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Still Life with Flowers, a Snail and Insects",
+        "title_ja_provisional": "花とカタツムリと昆虫の静物",
+        "artist": "Joris Hoefnagel",
+        "creation_date_display": "1589",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Netherlandish (Antwerp-born artist)",
+        "accession_number": "2008.110"
+      },
+      "image": {
+        "image_id": "met-382608-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP158476.jpg",
+        "source_registry_id": "met-382608",
+        "local_path": "/artworks/met-382608.jpg",
+        "sha256": "4fa4ae10fbab7784cd04c91e5c611a496bc6b270ceada86d057665ebc94b09d5",
+        "byte_length": 129217,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json",
+        "source_accession_number": "2008.110",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/dp/original/DP158476.jpg",
+          "sha256": "e3035b69818acff33cbbdc384bd5ad7e70f186294b5a4d228c1f75eb6ad3804c",
+          "byte_length": 2314582,
+          "width": 2861,
+          "height": 3505,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 7.96296",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "慈しみ"
+        ],
+        "emotion_strengths": {
+          "慈しみ": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "愛情",
+          "自然",
+          "記憶"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/382608",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "小さな花束に描かれたカタツムリと蝶や虫の繊細さを見ながら、母に捧げた絵の意味を知りたい",
+              "reason": "Met作品別Overviewによるとヨーリス・フーフナーヘルの1589年制作の小品は16世紀末の精確な自然観察を示す。花束の左右対称の配置は当時の好みに沿い、一部の花の大きさの差と他作品でのモティーフ再利用から、個々の花を別々に観察した習作を組み合わせた可能性が高い。台座のラテン語銘文は母への『愛の記念』として制作したと示す。単なる植物図鑑ではなく親しい相手への個人的献呈として描かれたが、誕生日の贈り物だったかどうかはMet作品個別Overviewからは確定しない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "母に宛てた献呈は銘文で確認できるが、特定の記念日、花それぞれの象徴、実物の植物の分類を推測で断定しない。メトロポリタン美術館の言う個々の花の研究の組み合わせは根拠ある推察。制作は1589年、個々のモチーフと贈り先の話を区別。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによるとヨーリス・フーフナーヘルの1589年制作の小品は16世紀末の精確な自然観察を示す。花束の左右対称の配置は当時の好みに沿い、一部の花の大きさの差と他作品でのモティーフ再利用から、個々の花を別々に観察した習作を組み合わせた可能性が高い。台座のラテン語銘文は母への『愛の記念』として制作したと示す。単なる植物図鑑ではなく親しい相手への個人的献呈として描かれたが、誕生日の贈り物だったかどうかはMet作品個別Overviewからは確定しない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/382608"
+          },
+          "creation_context": "1589; Netherlandish (Antwerp-born artist); Watercolor, gouache, and shell gold on vellum; accession 2008.110",
+          "visual_clues": "Met APIの原寸と表示JPEGを全ダウンロードしてSHA256・バイト数・寸法・縮小RMSを照合し、実際の公式サムネイルを確認。縦長の小さな画面中央に大きなピンク色のバラと青い小花、周囲にクリーム色の花。下部の丸い花器には翅を広げた虫、左右の縁には小さな蝶やトンボに似た虫、右上に殻のあるカタツムリ。最下部に黒地に金色のラテン語銘文がある。実物はヴェラムへの水彩・不透明水彩・金彩で油彩ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.963で対応確認。",
+          "uncertainty_note": "母に宛てた献呈は銘文で確認できるが、特定の記念日、花それぞれの象徴、実物の植物の分類を推測で断定しない。メトロポリタン美術館の言う個々の花の研究の組み合わせは根拠ある推察。制作は1589年、個々のモチーフと贈り先の話を区別。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "慈しみ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "小さな画面いっぱいに、淡いピンクの大きな花と青い小花が咲いています。周囲にはカタツムリや蝶などの虫が集まり、下の花器にも羽を広げた虫の姿があります。一見すると整った花束ですが、細部を見ていくと、それぞれの生き物が違う形で描き分けられています。\n\n1589年にネーデルラント出身の画家ヨーリス・フーフナーヘルが描いた作品です。個々の花を別々に観察して描いた習作を組み合わせ、花束の構図にしたと考えられています。精密な自然の描写と、左右の釣り合いを意識した配置が特徴です。\n\n台座のラテン語銘文によれば、この作品は母に捧げる「愛の記念」として描かれました。花や虫の形を詳しく記録するだけでなく、親しい相手を思う気持ちも込められた絵です。画面の下の文字から花束へと視線を戻すと、静物の意味が少し違って見えてきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/382608"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-382608-2026-11-13.json",
+        "audit_sha256": "112eaa9322324e0516f5f42c69a95809f3064471483a3ec4b7f60ac6c6bb6992",
+        "record_sha256": "436230e18dab94bc31e4a9d2ee58b253ae09aa8aca7dec91ddf6de581cab1752"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

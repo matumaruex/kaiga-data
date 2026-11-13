@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-382608",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-382608.json",
+  "candidate_sha256": "842648ee93d29c6d7cddcad4a6b152872e61ca2b65a60cc483f857ab4be83b6e",
+  "draft_path": "drafts/visitor-explanations/met-382608.json",
+  "draft_sha256": "700b7166434c42ab6fe1600d2a0ecca552250c8ef9085d7bdf4324c9b248e7e4",
+  "baseline": {
+    "artworks_sha256": "980eb7fd8a7213d315f78d4c325121cba9f327fa962fbea147a72b2a8e432398",
+    "image_registry_sha256": "4643e2f910b91e3a9065c7c565b863a08b68409e2fe7a428337214a1a9d4f724"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/382608",
+      "source_excerpt": "he used individual flower studies to form his bouquet",
+      "visitor_claim": "個々の花を別々に観察して描いた習作を組み合わせ、花束の構図にしたと考えられています。",
+      "source_section": "Exact Met Overview: combined individual flower studies"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/382608",
+      "source_excerpt": "made this drawing for his mother ‘as a monument of love’",
+      "visitor_claim": "この作品は母に捧げる「愛の記念」として描かれました。",
+      "source_section": "Exact Met Overview: Latin inscription dedicates image to mother"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/382608",
+      "location": "Exact artwork Overview and Object Information: Exact Met Overview: combined individual flower studies; Exact Met Overview: Latin inscription dedicates image to mother",
+      "finding": "Met作品別Overviewによるとヨーリス・フーフナーヘルの1589年制作の小品は16世紀末の精確な自然観察を示す。花束の左右対称の配置は当時の好みに沿い、一部の花の大きさの差と他作品でのモティーフ再利用から、個々の花を別々に観察した習作を組み合わせた可能性が高い。台座のラテン語銘文は母への『愛の記念』として制作したと示す。単なる植物図鑑ではなく親しい相手への個人的献呈として描かれたが、誕生日の贈り物だったかどうかはMet作品個別Overviewからは確定しない。 Actual image observation: Met APIの原寸と表示JPEGを全ダウンロードしてSHA256・バイト数・寸法・縮小RMSを照合し、実際の公式サムネイルを確認。縦長の小さな画面中央に大きなピンク色のバラと青い小花、周囲にクリーム色の花。下部の丸い花器には翅を広げた虫、左右の縁には小さな蝶やトンボに似た虫、右上に殻のあるカタツムリ。最下部に黒地に金色のラテン語銘文がある。実物はヴェラムへの水彩・不透明水彩・金彩で油彩ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.963で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/382608",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/382608",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/382608",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-382608 Still Life with Flowers, a Snail and Insects; Joris Hoefnagel; 1589; accession 2008.110. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met APIの原寸と表示JPEGを全ダウンロードしてSHA256・バイト数・寸法・縮小RMSを照合し、実際の公式サムネイルを確認。縦長の小さな画面中央に大きなピンク色のバラと青い小花、周囲にクリーム色の花。下部の丸い花器には翅を広げた虫、左右の縁には小さな蝶やトンボに似た虫、右上に殻のあるカタツムリ。最下部に黒地に金色のラテン語銘文がある。実物はヴェラムへの水彩・不透明水彩・金彩で油彩ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.963で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json",
+      "historical_interpretation": "Met作品別Overviewによるとヨーリス・フーフナーヘルの1589年制作の小品は16世紀末の精確な自然観察を示す。花束の左右対称の配置は当時の好みに沿い、一部の花の大きさの差と他作品でのモティーフ再利用から、個々の花を別々に観察した習作を組み合わせた可能性が高い。台座のラテン語銘文は母への『愛の記念』として制作したと示す。単なる植物図鑑ではなく親しい相手への個人的献呈として描かれたが、誕生日の贈り物だったかどうかはMet作品個別Overviewからは確定しない。 Limits: 母に宛てた献呈は銘文で確認できるが、特定の記念日、花それぞれの象徴、実物の植物の分類を推測で断定しない。メトロポリタン美術館の言う個々の花の研究の組み合わせは根拠ある推察。制作は1589年、個々のモチーフと贈り先の話を区別。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['慈しみ']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP158476.jpg",
+      "sha256": "4fa4ae10fbab7784cd04c91e5c611a496bc6b270ceada86d057665ebc94b09d5",
+      "byte_length": 129217,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met APIの原寸と表示JPEGを全ダウンロードしてSHA256・バイト数・寸法・縮小RMSを照合し、実際の公式サムネイルを確認。縦長の小さな画面中央に大きなピンク色のバラと青い小花、周囲にクリーム色の花。下部の丸い花器には翅を広げた虫、左右の縁には小さな蝶やトンボに似た虫、右上に殻のあるカタツムリ。最下部に黒地に金色のラテン語銘文がある。実物はヴェラムへの水彩・不透明水彩・金彩で油彩ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.963で対応確認。 Confirmed image belongs to Met artwork 382608, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/dp/original/DP158476.jpg",
+      "sha256": "e3035b69818acff33cbbdc384bd5ad7e70f186294b5a4d228c1f75eb6ad3804c",
+      "byte_length": 2314582,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met APIの原寸と表示JPEGを全ダウンロードしてSHA256・バイト数・寸法・縮小RMSを照合し、実際の公式サムネイルを確認。縦長の小さな画面中央に大きなピンク色のバラと青い小花、周囲にクリーム色の花。下部の丸い花器には翅を広げた虫、左右の縁には小さな蝶やトンボに似た虫、右上に殻のあるカタツムリ。最下部に黒地に金色のラテン語銘文がある。実物はヴェラムへの水彩・不透明水彩・金彩で油彩ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.963で対応確認。 Confirmed image belongs to Met artwork 382608, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #413; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 49079 signature and seal support original early Soga Shōhaku despite previous doubts; Met 901386 Passover music is a curatorial possibility rather than an established event; Met 382608 is a miniature watercolor dedication to the artist’s mother, not an oil canvas."
+  ]
+}

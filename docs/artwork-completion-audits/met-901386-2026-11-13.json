@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-901386",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-901386.json",
+  "candidate_sha256": "269b5f26155730c2077119ed2dd7001c1571ba46d1dff8923ad8bedece6d30c8",
+  "draft_path": "drafts/visitor-explanations/met-901386.json",
+  "draft_sha256": "58c6055c424abb1e09de3c2cbc20d474bc3b1d6939b3995ba68dca7756ccb098",
+  "baseline": {
+    "artworks_sha256": "8db313c9c17868e508766c75e92ca2140593f26cccf2b3e3b673c7cff831b445",
+    "image_registry_sha256": "a11600772c92cc3fe5833334aa181ee6c07d56295d34bad5732cf2f16f93d078"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/901386",
+      "source_excerpt": "Roberts made this panoramic view during his first visit",
+      "visitor_claim": "ロバーツは、1833年に初めて北アフリカを訪れ、この眺めを描きました。",
+      "source_section": "Exact Met Overview: first North Africa visit"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/901386",
+      "source_excerpt": "the musicians may be performing for a related celebration",
+      "visitor_claim": "美術館は画中の奏楽が祭りに関係した可能性を示しています。",
+      "source_section": "Exact Met Overview: Passover-period music only a possibility"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/901386",
+      "location": "Exact artwork Overview and Object Information: Exact Met Overview: first North Africa visit; Exact Met Overview: Passover-period music only a possibility",
+      "finding": "Met個別Overviewによれば英国スコットランド出身のデイヴィッド・ロバーツは1833年の初めての北アフリカ旅行中にテトゥアンを訪れた。地元のイスラム当局への登録が必要と知り、セファルディ系ユダヤ人共同体のつながりを通じコーエン家に滞在先と保護を得た。滞在8日間に屋上を中心に数点を描き、うち4点は後にトマス・ロスコーの『スペインとモロッコ』（1838年）の挿絵版画に使われた。屋上の格子状の構造物には植物と布が見え、訪問が過越祭の時期と重なるため音楽が祭りに関係する可能性を美術館が示すが、確定事実にはしない。 Actual image observation: Met公式APIの主画像の実JPEGを取得し、原寸・表示のサイズ、全SHA256と縮小RMSを照合。横長の明るい灰茶色のモロッコの屋根と街並みが遠くまで広がり、左に立つ少人数の人物、画面右寄りに濃い色の小さな人々が集まる屋上の格子と布、遠景に淡い山並みがある。水彩は紙の余白に近い淡色で、写真ではなく画家の観察による描写。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.4517で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/901386",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/901386",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/901386",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-901386 Tétouan from the Terrace of Cohen’s House, Morocco; David Roberts; April 10, 1833; accession 2023.506. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式APIの主画像の実JPEGを取得し、原寸・表示のサイズ、全SHA256と縮小RMSを照合。横長の明るい灰茶色のモロッコの屋根と街並みが遠くまで広がり、左に立つ少人数の人物、画面右寄りに濃い色の小さな人々が集まる屋上の格子と布、遠景に淡い山並みがある。水彩は紙の余白に近い淡色で、写真ではなく画家の観察による描写。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.4517で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json",
+      "historical_interpretation": "Met個別Overviewによれば英国スコットランド出身のデイヴィッド・ロバーツは1833年の初めての北アフリカ旅行中にテトゥアンを訪れた。地元のイスラム当局への登録が必要と知り、セファルディ系ユダヤ人共同体のつながりを通じコーエン家に滞在先と保護を得た。滞在8日間に屋上を中心に数点を描き、うち4点は後にトマス・ロスコーの『スペインとモロッコ』（1838年）の挿絵版画に使われた。屋上の格子状の構造物には植物と布が見え、訪問が過越祭の時期と重なるため音楽が祭りに関係する可能性を美術館が示すが、確定事実にはしない。 Limits: 作者はスコットランド出身でありモロッコ生まれの画家としない。過越祭に関連した奏楽かどうかはMetが『かもしれない』とする仮説。作品は水彩素描であって油彩写真ではない。絵がどこまで正確な街の測量を再現するか断定しない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-30739-001.jpg",
+      "sha256": "e1e609526e93a2f50e3a21e867666c6e3e98c4bbfcda04e934b7bcfd734d5193",
+      "byte_length": 48421,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの主画像の実JPEGを取得し、原寸・表示のサイズ、全SHA256と縮小RMSを照合。横長の明るい灰茶色のモロッコの屋根と街並みが遠くまで広がり、左に立つ少人数の人物、画面右寄りに濃い色の小さな人々が集まる屋上の格子と布、遠景に淡い山並みがある。水彩は紙の余白に近い淡色で、写真ではなく画家の観察による描写。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.4517で対応確認。 Confirmed image belongs to Met artwork 901386, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/dp/original/DP-30739-001.jpg",
+      "sha256": "9f46b63bafbc71002351a128dbbb23207e7c2e09b32ef0ebc76d41b61c35f92a",
+      "byte_length": 1722646,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの主画像の実JPEGを取得し、原寸・表示のサイズ、全SHA256と縮小RMSを照合。横長の明るい灰茶色のモロッコの屋根と街並みが遠くまで広がり、左に立つ少人数の人物、画面右寄りに濃い色の小さな人々が集まる屋上の格子と布、遠景に淡い山並みがある。水彩は紙の余白に近い淡色で、写真ではなく画家の観察による描写。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.4517で対応確認。 Confirmed image belongs to Met artwork 901386, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #412; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 49079 signature and seal support original early Soga Shōhaku despite previous doubts; Met 901386 Passover music is a curatorial possibility rather than an established event; Met 382608 is a miniature watercolor dedication to the artist’s mother, not an oil canvas."
+  ]
+}

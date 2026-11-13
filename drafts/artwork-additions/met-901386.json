@@ -1,0 +1,151 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-901386",
+  "artwork": {
+    "id": "met-901386",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 901386,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/901386",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/901386",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Tétouan from the Terrace of Cohen’s House, Morocco",
+      "title_ja_provisional": "コーエン家の屋上から望むテトゥアン",
+      "artist": "David Roberts",
+      "creation_date_display": "April 10, 1833",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Morocco (Tétouan), depicted by a British Scottish painter",
+      "accession_number": "2023.506"
+    },
+    "image": {
+      "image_id": "met-901386-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-30739-001.jpg",
+      "source_registry_id": "met-901386",
+      "local_path": "/artworks/met-901386.jpg",
+      "sha256": "e1e609526e93a2f50e3a21e867666c6e3e98c4bbfcda04e934b7bcfd734d5193",
+      "byte_length": 48421,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json",
+      "source_accession_number": "2023.506",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/dp/original/DP-30739-001.jpg",
+        "sha256": "9f46b63bafbc71002351a128dbbb23207e7c2e09b32ef0ebc76d41b61c35f92a",
+        "byte_length": 1722646,
+        "width": 4000,
+        "height": 1418,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 4.45174",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "静けさ",
+        "にぎわい"
+      ],
+      "themes": [
+        "共同体",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/901386",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "1833年のモロッコの街を屋上から描いた横長の水彩画で、建物・人々・小さな祝祭の気配を眺めたい",
+            "reason": "Met個別Overviewによれば英国スコットランド出身のデイヴィッド・ロバーツは1833年の初めての北アフリカ旅行中にテトゥアンを訪れた。地元のイスラム当局への登録が必要と知り、セファルディ系ユダヤ人共同体のつながりを通じコーエン家に滞在先と保護を得た。滞在8日間に屋上を中心に数点を描き、うち4点は後にトマス・ロスコーの『スペインとモロッコ』（1838年）の挿絵版画に使われた。屋上の格子状の構造物には植物と布が見え、訪問が過越祭の時期と重なるため音楽が祭りに関係する可能性を美術館が示すが、確定事実にはしない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "作者はスコットランド出身でありモロッコ生まれの画家としない。過越祭に関連した奏楽かどうかはMetが『かもしれない』とする仮説。作品は水彩素描であって油彩写真ではない。絵がどこまで正確な街の測量を再現するか断定しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met個別Overviewによれば英国スコットランド出身のデイヴィッド・ロバーツは1833年の初めての北アフリカ旅行中にテトゥアンを訪れた。地元のイスラム当局への登録が必要と知り、セファルディ系ユダヤ人共同体のつながりを通じコーエン家に滞在先と保護を得た。滞在8日間に屋上を中心に数点を描き、うち4点は後にトマス・ロスコーの『スペインとモロッコ』（1838年）の挿絵版画に使われた。屋上の格子状の構造物には植物と布が見え、訪問が過越祭の時期と重なるため音楽が祭りに関係する可能性を美術館が示すが、確定事実にはしない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/901386"
+        },
+        "creation_context": "April 10, 1833; Morocco (Tétouan), depicted by a British Scottish painter; Watercolor and gouache over soft dark graphite on gray paper; accession 2023.506",
+        "visual_clues": "Met公式APIの主画像の実JPEGを取得し、原寸・表示のサイズ、全SHA256と縮小RMSを照合。横長の明るい灰茶色のモロッコの屋根と街並みが遠くまで広がり、左に立つ少人数の人物、画面右寄りに濃い色の小さな人々が集まる屋上の格子と布、遠景に淡い山並みがある。水彩は紙の余白に近い淡色で、写真ではなく画家の観察による描写。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.4517で対応確認。",
+        "uncertainty_note": "作者はスコットランド出身でありモロッコ生まれの画家としない。過越祭に関連した奏楽かどうかはMetが『かもしれない』とする仮説。作品は水彩素描であって油彩写真ではない。絵がどこまで正確な街の測量を再現するか断定しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "明るい空の下に、淡い色の建物の屋根が遠くまで続いています。広い街並みの中で目を凝らすと、屋上に集まった小さな人々や、布を掛けた格子状の場所が見つかります。手前から遠くの山まで、薄い水彩の重なりで表されています。\n\nスコットランド出身の画家デイヴィッド・ロバーツは、1833年に初めて北アフリカを訪れ、この眺めを描きました。モロッコのテトゥアンでは、地元のユダヤ人共同体とのつながりを通じてコーエン家に滞在し、屋上などから街の景色をスケッチしました。作品は1833年4月10日付の水彩画です。\n\n画家の訪問がユダヤ教の過越祭と重なっていたため、美術館は画中の奏楽が祭りに関係した可能性を示しています。ただし、実際にどの行事だったかは分かりません。屋上の人影を探してから街全体に目を戻すと、日々の暮らしの一場面と広い都市の姿を同時に感じられます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/901386"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-901386",
+    "title": "Tétouan from the Terrace of Cohen’s House, Morocco",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/901386",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/901386",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/dp/web-large/DP-30739-001.jpg",
+      "sha256": "e1e609526e93a2f50e3a21e867666c6e3e98c4bbfcda04e934b7bcfd734d5193",
+      "byte_length": 48421,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/dp/original/DP-30739-001.jpg",
+        "sha256": "9f46b63bafbc71002351a128dbbb23207e7c2e09b32ef0ebc76d41b61c35f92a",
+        "byte_length": 1722646,
+        "width": 4000,
+        "height": 1418,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 4.45174",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2023.506"
+  }
+}

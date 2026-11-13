@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-49079",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-49079.json",
+  "candidate_sha256": "657f4272155c5de9fa067a6d30d60bf80258fcd878ad41737a6e323b38a6b21f",
+  "draft_path": "drafts/visitor-explanations/met-49079.json",
+  "draft_sha256": "e8eebb539d63508764f2f14de9f607373f71e5d3f7aec67348ec24de1d66b6ab",
+  "baseline": {
+    "artworks_sha256": "78802b891fe01346ae0290d5675eeb8246f285ac4f8e7510b8f702bebccd7fcd",
+    "image_registry_sha256": "4def9b8576dc8d08b00ba41288ef0f5c71138eb491c9fb8b1db3745420dbfd5d"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/49079",
+      "source_excerpt": "demonstrates his indebtedness to Kano School technique",
+      "visitor_claim": "この作品には、狩野派の技法から学んだ跡が見られます。",
+      "source_section": "Exact Met Overview: indebtedness to Kano School technique"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/49079",
+      "source_excerpt": "the signature and seal all point to work of his early career",
+      "visitor_claim": "しかし、署名と印章は初期の蕭白作品であることを示すと美術館は説明しています。",
+      "source_section": "Exact Met Overview: signature/seal and early-career attribution"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/49079",
+      "location": "Exact artwork Overview and Object Information: Exact Met Overview: indebtedness to Kano School technique; Exact Met Overview: signature/seal and early-career attribution",
+      "finding": "メトロポリタン美術館の個別Overviewは、1761～63年頃に曽我蕭白が30代初めに制作した山水図として、狩野派の技術的な影響と、湖畔に中国風の楼閣を配し背景に急峻な山を描く構図を指摘する。のちの奇抜な蕭白の絵と異なる保守的な筆づかいゆえに真作を疑う研究者もいるが、作品の署名と印章は初期の作品であることを示すと学芸員は判断する。帰属に議論があった経緯は隠さず、所蔵館の現在の帰属を明示する。 Actual image observation: Met APIの原寸・表示JPEGを完全取得し、SHA256と縮小RGB RMSで照合。公式主画像の縮小版を直接確認。淡い黄土色の横長画面に、中央付近の複数の緑色の重なる険しい山があり、左の湖畔と右の樹木・屋根のある楼閣が見える。濃い山の輪郭と薄い遠山の対比、画面の右上に小さな落款と印が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.2722で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/49079",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/49079",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/49079",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-49079 Mountain Landscape; Soga Shōhaku; ca. 1761–63; accession 36.100.66. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met APIの原寸・表示JPEGを完全取得し、SHA256と縮小RGB RMSで照合。公式主画像の縮小版を直接確認。淡い黄土色の横長画面に、中央付近の複数の緑色の重なる険しい山があり、左の湖畔と右の樹木・屋根のある楼閣が見える。濃い山の輪郭と薄い遠山の対比、画面の右上に小さな落款と印が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.2722で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json",
+      "historical_interpretation": "メトロポリタン美術館の個別Overviewは、1761～63年頃に曽我蕭白が30代初めに制作した山水図として、狩野派の技術的な影響と、湖畔に中国風の楼閣を配し背景に急峻な山を描く構図を指摘する。のちの奇抜な蕭白の絵と異なる保守的な筆づかいゆえに真作を疑う研究者もいるが、作品の署名と印章は初期の作品であることを示すと学芸員は判断する。帰属に議論があった経緯は隠さず、所蔵館の現在の帰属を明示する。 Limits: 題名は一般的な山水図。作者帰属には過去に異論が出たが、Met公式個別ページの現在の表記は曽我蕭白本人。前年登録のmet-39581《滝を眺める中国の文人》は蕭白の追随者による別の二曲屏風であり、本作とは別。同題の別山水図と混同しない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['安心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/36_100_66_O2_sf.jpg",
+      "sha256": "782c50848c70c46715d0e9ffc26917817c8a71d4d514fceeebebc58438fc0d9f",
+      "byte_length": 272019,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met APIの原寸・表示JPEGを完全取得し、SHA256と縮小RGB RMSで照合。公式主画像の縮小版を直接確認。淡い黄土色の横長画面に、中央付近の複数の緑色の重なる険しい山があり、左の湖畔と右の樹木・屋根のある楼閣が見える。濃い山の輪郭と薄い遠山の対比、画面の右上に小さな落款と印が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.2722で対応確認。 Confirmed image belongs to Met artwork 49079, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/36_100_66_O2_sf.jpg",
+      "sha256": "5a15a540d8ca8037a7135461133ebe06286a9169ab62a2564c6c537a7e492944",
+      "byte_length": 2272888,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met APIの原寸・表示JPEGを完全取得し、SHA256と縮小RGB RMSで照合。公式主画像の縮小版を直接確認。淡い黄土色の横長画面に、中央付近の複数の緑色の重なる険しい山があり、左の湖畔と右の樹木・屋根のある楼閣が見える。濃い山の輪郭と薄い遠山の対比、画面の右上に小さな落款と印が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.2722で対応確認。 Confirmed image belongs to Met artwork 49079, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #411; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 49079 signature and seal support original early Soga Shōhaku despite previous doubts; Met 901386 Passover music is a curatorial possibility rather than an established event; Met 382608 is a miniature watercolor dedication to the artist’s mother, not an oil canvas."
+  ]
+}

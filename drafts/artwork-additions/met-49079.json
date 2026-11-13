@@ -1,0 +1,151 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-49079",
+  "artwork": {
+    "id": "met-49079",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 49079,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/49079",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/49079",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Mountain Landscape",
+      "title_ja_provisional": "山水図",
+      "artist": "Soga Shōhaku",
+      "creation_date_display": "ca. 1761–63",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "36.100.66"
+    },
+    "image": {
+      "image_id": "met-49079-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/36_100_66_O2_sf.jpg",
+      "source_registry_id": "met-49079",
+      "local_path": "/artworks/met-49079.jpg",
+      "sha256": "782c50848c70c46715d0e9ffc26917817c8a71d4d514fceeebebc58438fc0d9f",
+      "byte_length": 272019,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json",
+      "source_accession_number": "36.100.66",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/36_100_66_O2_sf.jpg",
+        "sha256": "5a15a540d8ca8037a7135461133ebe06286a9169ab62a2564c6c537a7e492944",
+        "byte_length": 2272888,
+        "width": 2000,
+        "height": 1646,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 6.27216",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "安心"
+      ],
+      "emotion_strengths": {
+        "安心": 1
+      },
+      "tones": [
+        "静けさ",
+        "落ち着き"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/49079",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "曽我蕭白の初期の山水図で、中国風の楼閣と山並みを見ながら画風の変化を感じたい",
+            "reason": "メトロポリタン美術館の個別Overviewは、1761～63年頃に曽我蕭白が30代初めに制作した山水図として、狩野派の技術的な影響と、湖畔に中国風の楼閣を配し背景に急峻な山を描く構図を指摘する。のちの奇抜な蕭白の絵と異なる保守的な筆づかいゆえに真作を疑う研究者もいるが、作品の署名と印章は初期の作品であることを示すと学芸員は判断する。帰属に議論があった経緯は隠さず、所蔵館の現在の帰属を明示する。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "題名は一般的な山水図。作者帰属には過去に異論が出たが、Met公式個別ページの現在の表記は曽我蕭白本人。前年登録のmet-39581《滝を眺める中国の文人》は蕭白の追随者による別の二曲屏風であり、本作とは別。同題の別山水図と混同しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "メトロポリタン美術館の個別Overviewは、1761～63年頃に曽我蕭白が30代初めに制作した山水図として、狩野派の技術的な影響と、湖畔に中国風の楼閣を配し背景に急峻な山を描く構図を指摘する。のちの奇抜な蕭白の絵と異なる保守的な筆づかいゆえに真作を疑う研究者もいるが、作品の署名と印章は初期の作品であることを示すと学芸員は判断する。帰属に議論があった経緯は隠さず、所蔵館の現在の帰属を明示する。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/49079"
+        },
+        "creation_context": "ca. 1761–63; Japan (Edo period); Hanging scroll; ink and color on silk; accession 36.100.66",
+        "visual_clues": "Met APIの原寸・表示JPEGを完全取得し、SHA256と縮小RGB RMSで照合。公式主画像の縮小版を直接確認。淡い黄土色の横長画面に、中央付近の複数の緑色の重なる険しい山があり、左の湖畔と右の樹木・屋根のある楼閣が見える。濃い山の輪郭と薄い遠山の対比、画面の右上に小さな落款と印が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.2722で対応確認。",
+        "uncertainty_note": "題名は一般的な山水図。作者帰属には過去に異論が出たが、Met公式個別ページの現在の表記は曽我蕭白本人。前年登録のmet-39581《滝を眺める中国の文人》は蕭白の追随者による別の二曲屏風であり、本作とは別。同題の別山水図と混同しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "安心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "淡い地の中から、濃い墨と緑で描かれた険しい山が重なって立ち上がっています。山裾には水辺が広がり、右側には木立と中国風の建物が小さく見えます。山の力強い輪郭と、遠景のかすかな色の違いをたどると、奥行きのある風景が広がります。\n\n江戸時代の画家・曽我蕭白が、1761～63年頃に描いた山水図です。この作品には、狩野派の技法から学んだ跡が見られます。湖畔の楼閣と急峻な山を組み合わせた構図には、のちに蕭白が好んだ表現の兆しも見つけられます。\n\n後年の奔放な筆づかいに比べて穏やかなため、かつては作者を疑う意見もありました。しかし、署名と印章は初期の蕭白作品であることを示すと美術館は説明しています。激しい個性を感じる後年の絵と比べると、画家が画風を作っていった道のりも想像できます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/49079"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-49079",
+    "title": "Mountain Landscape",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/49079",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/49079",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/36_100_66_O2_sf.jpg",
+      "sha256": "782c50848c70c46715d0e9ffc26917817c8a71d4d514fceeebebc58438fc0d9f",
+      "byte_length": 272019,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-411-413-20261113/docs/artwork-research-evidence/met-411-413-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/36_100_66_O2_sf.jpg",
+        "sha256": "5a15a540d8ca8037a7135461133ebe06286a9169ab62a2564c6c537a7e492944",
+        "byte_length": 2272888,
+        "width": 2000,
+        "height": 1646,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 6.27216",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "36.100.66"
+  }
+}
