@@ -1,0 +1,129 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-73261",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-73261.json",
+  "candidate_sha256": "c7ee74342d2ee4f03d81ffcb7ca886eee31d87fa291c8db7c54e33a3d6148f55",
+  "draft_path": "drafts/visitor-explanations/met-73261.json",
+  "draft_sha256": "83526993d9f8501fb18d09517efff93b2f51d0a8276cd5a9c7fa8298e269a915",
+  "baseline": {
+    "artworks_sha256": "69fde408c25130b4ddcdd947bef19490090ad81abff3a431a6f991532b496fec",
+    "image_registry_sha256": "f791021a1da00c7a97a31c52fecac52aa1dc2bd33f7c4c4f0816d4dfecb6f7ee"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/73261",
+      "source_excerpt": "A nobleman ascends a rope to visit his lover",
+      "visitor_claim": "貴人が城壁に守られた宮殿へ縄を使って忍び入り、恋人を訪ねようとする場面です。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/73261",
+      "source_excerpt": "quietude of the sleeping cows and guards",
+      "visitor_claim": "下では衛兵や牛が眠り、屋外の大きな出来事には気づいていないようです。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/73261",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "Metの作品別Overviewによると、1800〜10年ごろのラージャスターン・メーワール絵画で、作者はチョーカへの帰属作。貴人が城壁の内側に横たわる恋人のもとへ縄を登り、寝静まった衛兵と牛が目立たぬ静かな夜に、鮮やかな衣の主要人物と激しくうねる黒い雷雲が対照をなす。秘密の逢瀬は当時の詩歌にも現れる題材で、夜の暗さを強調した演出は父バグタを継いだチョーカの新機軸とされる。画面で誰が実在の人物か、どの詩を直接描いたかは所蔵館も確定していない。Metの出版物の同作図版に、屋根に縄を固定する侍女と下部の馬が見える。 Visual: Met objectID 73261、2006.451の《Escapade at Night:》は、Met公式作品ページの図版とMet出版物の同定済み図版、および同じ所蔵品番号を示す記事中の詳細クロップで照合した。横長の暗い夜景で、左の高い建物の上部には横たわる女性と二人の侍女、建物外壁の縄を登る男性がいる。下部には寝ている衛兵、馬とその近くの人物が配され、空は黒い帯状の雷雲で覆われる。縄の実際の固定方法を図だけから断定しない。画像検索で紛れた赤い馬の昼景（Met object 75994）は別作品なので使わない。公式API原寸と表示画像の一致はCIで確認する。 Limits: 作者はチョーカ『に帰属』とされ、直筆確定とはしていない。登場する人物を特定の王侯とは呼ばない。夜景・嵐雲は絵の演出で、実際の天候記録ではない。画像検索に紛れたobject 75994の馬上人物画は別作品であり混同しない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/73261",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-73261: API objectID=73261, primary JPEG full downloaded and verified; RMS=6.1067",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/73261",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=6.1067."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/73261",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and each artwork's specifically identified visual reference (official IIIF, Met-provided Commons image, or Met publication and linked closeups respectively), plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-73261 Escapade at Night: / Chokha / ca. 1800–10 / 2006.451",
+      "image_match": "Met objectID 73261、2006.451の《Escapade at Night:》は、Met公式作品ページの図版とMet出版物の同定済み図版、および同じ所蔵品番号を示す記事中の詳細クロップで照合した。横長の暗い夜景で、左の高い建物の上部には横たわる女性と二人の侍女、建物外壁の縄を登る男性がいる。下部には寝ている衛兵、馬とその近くの人物が配され、空は黒い帯状の雷雲で覆われる。縄の実際の固定方法を図だけから断定しない。画像検索で紛れた赤い馬の昼景（Met object 75994）は別作品なので使わない。公式API原寸と表示画像の一致はCIで確認する。 Both primary JPEG variants fully downloaded and match (RMS=6.1067).",
+      "historical_interpretation": "Metの作品別Overviewによると、1800〜10年ごろのラージャスターン・メーワール絵画で、作者はチョーカへの帰属作。貴人が城壁の内側に横たわる恋人のもとへ縄を登り、寝静まった衛兵と牛が目立たぬ静かな夜に、鮮やかな衣の主要人物と激しくうねる黒い雷雲が対照をなす。秘密の逢瀬は当時の詩歌にも現れる題材で、夜の暗さを強調した演出は父バグタを継いだチョーカの新機軸とされる。画面で誰が実在の人物か、どの詩を直接描いたかは所蔵館も確定していない。Metの出版物の同作図版に、屋根に縄を固定する侍女と下部の馬が見える。 Cautions: 作者はチョーカ『に帰属』とされ、直筆確定とはしていない。登場する人物を特定の王侯とは呼ばない。夜景・嵐雲は絵の演出で、実際の天候記録ではない。画像検索に紛れたobject 75994の馬上人物画は別作品であり混同しない。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['期待', '不安']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP146534.jpg",
+      "sha256": "fbe3b469a102e26662f6d4d3e24cedbfeadef0434836d08b11652645d56fedd5",
+      "byte_length": 79920,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/73261",
+        "https://commons.wikimedia.org/wiki/File:Escapade_at_Night-_A_Nobleman_Climbs_a_Rope_to_Visit_His_Lover_(IA_mma_escapade_at_night_a_nobleman_climbs_a_rope_to_visit_his_lover_73261).jpg",
+        "https://www.asiaresearchnews.com/content/love-and-longing-clandestine-meeting-lovers-19th-century-painting-0"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met objectID 73261、2006.451の《Escapade at Night:》は、Met公式作品ページの図版とMet出版物の同定済み図版、および同じ所蔵品番号を示す記事中の詳細クロップで照合した。横長の暗い夜景で、左の高い建物の上部には横たわる女性と二人の侍女、建物外壁の縄を登る男性がいる。下部には寝ている衛兵、馬とその近くの人物が配され、空は黒い帯状の雷雲で覆われる。縄の実際の固定方法を図だけから断定しない。画像検索で紛れた赤い馬の昼景（Met object 75994）は別作品なので使わない。公式API原寸と表示画像の一致はCIで確認する。 Official same-object primary JPEG original/display resized RGB RMS=6.1067; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP146534.jpg",
+      "sha256": "3d4c42ee27560d8812c63350f5778b24942c9b4e6f1d288cd9ceaea4b17757e0",
+      "byte_length": 3568117,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/73261",
+        "https://commons.wikimedia.org/wiki/File:Escapade_at_Night-_A_Nobleman_Climbs_a_Rope_to_Visit_His_Lover_(IA_mma_escapade_at_night_a_nobleman_climbs_a_rope_to_visit_his_lover_73261).jpg",
+        "https://www.asiaresearchnews.com/content/love-and-longing-clandestine-meeting-lovers-19th-century-painting-0"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met objectID 73261、2006.451の《Escapade at Night:》は、Met公式作品ページの図版とMet出版物の同定済み図版、および同じ所蔵品番号を示す記事中の詳細クロップで照合した。横長の暗い夜景で、左の高い建物の上部には横たわる女性と二人の侍女、建物外壁の縄を登る男性がいる。下部には寝ている衛兵、馬とその近くの人物が配され、空は黒い帯状の雷雲で覆われる。縄の実際の固定方法を図だけから断定しない。画像検索で紛れた赤い馬の昼景（Met object 75994）は別作品なので使わない。公式API原寸と表示画像の一致はCIで確認する。 Official same-object primary JPEG original/display resized RGB RMS=6.1067; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #451 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}

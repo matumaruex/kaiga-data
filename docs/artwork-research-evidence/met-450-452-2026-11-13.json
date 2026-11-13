@@ -1,0 +1,170 @@
+{
+  "checked_on": "2026-11-13",
+  "method": "Live Met API primary original/display full JPEG SHA256/size and RGB correspondence; exact Met artwork Overview read directly. Visual references vary by work: direct official IIIF for Sha Fu, Commons' Met-provided exact image for Gauguin, and Met publication with identified cropped details for Chokha. CI separately verifies each official Met original/display JPEG pair.",
+  "artworks": [
+    {
+      "id": "met-436451",
+      "objectID": 436451,
+      "title": "Tahitian Landscape",
+      "artist": "Paul Gauguin",
+      "date": "1892",
+      "accession": "39.182",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/436451",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436451",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/436451",
+          "source_excerpt": "Although the authorship of this picture was once questioned",
+          "visitor_claim": "かつては本当にゴーギャンの作品なのか疑われたこともありましたが、美術館は洗浄後の再調査によって帰属が確かめられたと説明しています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/436451",
+          "source_excerpt": "drawings related to the couple and the horse in this picture",
+          "visitor_claim": "画面の二人と馬に関連する素描も残っています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "正しい作品はMet objectID 436451・所蔵品番号39.182の《Tahitian Landscape》（1892年）。The MetからWikimedia CommonsにCC0提供された同一作品の図版を確認。画面は縦長で、手前左に長衣の人物二人が並び、画面中ほどに茶色の馬が頭を下げて草を食む。周囲には濃緑と赤褐色の樹木や茂み、左奥に小さな小屋の屋根が見える。空と木立は太く塗り重ねられ、遠くへ続く道の明るい色が対照的。よく流通する黄緑色の野原・椰子・一本道の別作《Tahitian Landscape》（1893年とする図版）とは明確に区別した。公式API原寸・表示JPEGのハッシュと画像の一致はCIで確認する。",
+      "visual_source_urls": [
+        "https://commons.wikimedia.org/wiki/File:Tahitian_Landscape_MET_DP-14936-043.jpg",
+        "https://www.metmuseum.org/art/collection/search/436451"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-043.jpg",
+          "sha256": "4e124b2f9f86d2fcf56edc076c8f66a54b864310aebf4945996caa1c63e50542",
+          "byte_length": 178064,
+          "size_px": [
+            462,
+            624
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-043.jpg",
+          "sha256": "01195e1a9459df7a80ab22550b137e9febb53837362713b5c574a102d64c9692",
+          "byte_length": 7116784,
+          "size_px": [
+            2963,
+            4000
+          ]
+        }
+      ],
+      "resized_rgb_rms": 6.6225
+    },
+    {
+      "id": "met-73261",
+      "objectID": 73261,
+      "title": "Escapade at Night:",
+      "artist": "Chokha",
+      "date": "ca. 1800–10",
+      "accession": "2006.451",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/73261",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/73261",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/73261",
+          "source_excerpt": "A nobleman ascends a rope to visit his lover",
+          "visitor_claim": "貴人が城壁に守られた宮殿へ縄を使って忍び入り、恋人を訪ねようとする場面です。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/73261",
+          "source_excerpt": "quietude of the sleeping cows and guards",
+          "visitor_claim": "下では衛兵や牛が眠り、屋外の大きな出来事には気づいていないようです。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "Met objectID 73261、2006.451の《Escapade at Night:》は、Met公式作品ページの図版とMet出版物の同定済み図版、および同じ所蔵品番号を示す記事中の詳細クロップで照合した。横長の暗い夜景で、左の高い建物の上部には横たわる女性と二人の侍女、建物外壁の縄を登る男性がいる。下部には寝ている衛兵、馬とその近くの人物が配され、空は黒い帯状の雷雲で覆われる。縄の実際の固定方法を図だけから断定しない。画像検索で紛れた赤い馬の昼景（Met object 75994）は別作品なので使わない。公式API原寸と表示画像の一致はCIで確認する。",
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/73261",
+        "https://commons.wikimedia.org/wiki/File:Escapade_at_Night-_A_Nobleman_Climbs_a_Rope_to_Visit_His_Lover_(IA_mma_escapade_at_night_a_nobleman_climbs_a_rope_to_visit_his_lover_73261).jpg",
+        "https://www.asiaresearchnews.com/content/love-and-longing-clandestine-meeting-lovers-19th-century-painting-0"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP146534.jpg",
+          "sha256": "fbe3b469a102e26662f6d4d3e24cedbfeadef0434836d08b11652645d56fedd5",
+          "byte_length": 79920,
+          "size_px": [
+            600,
+            461
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP146534.jpg",
+          "sha256": "3d4c42ee27560d8812c63350f5778b24942c9b4e6f1d288cd9ceaea4b17757e0",
+          "byte_length": 3568117,
+          "size_px": [
+            4000,
+            3075
+          ]
+        }
+      ],
+      "resized_rgb_rms": 6.1067
+    },
+    {
+      "id": "met-36187",
+      "objectID": 36187,
+      "title": "Squirrel and Grapes",
+      "artist": "Sha Fu",
+      "date": "dated 1894",
+      "accession": "1986.267.77",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/36187",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/36187",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/36187",
+          "source_excerpt": "destroyed by the Taiping occupation in 1860",
+          "visitor_claim": "沙家はもともと蘇州で木版画の店を営んでいましたが、1860年の太平天国軍による占領で店が失われ、沙馥は上海に移りました。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/36187",
+          "source_excerpt": "Fans were gifts often exchanged among friends",
+          "visitor_claim": "扇は友人への贈り物にも使われ、人々は好みの画家と交流することも楽しんだそうです。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "Met objectID 36187/image 158345 の公式IIIF主画像を直接開いて視認。淡いベージュの広い扇面の上側から枝と蔓がのび、紫がかった実と緑の葉が点在する。灰色の栗鼠が葡萄のつるを横切り、細く長い尾が左に伸びる。左端には書と朱印があり、右下にも朱印。扇の折り目が画面を斜めに横切り、現在はアルバムの一葉として保存されている。種の細かな分類や銘文の翻刻を画像だけから確定しない。",
+      "visual_source_urls": [
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/36187/158345/main-image",
+        "https://www.metmuseum.org/art/collection/search/36187"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP161446.jpg",
+          "sha256": "a6695cd1bd0aaccce9601363875fc80b1148e9af5ddbcdddab31490a2e985d90",
+          "byte_length": 68393,
+          "size_px": [
+            598,
+            298
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP161446.jpg",
+          "sha256": "7fb5f4322b8fbb847876074fb90d45377b9a5d52907de199f766b7e04dfb8d3a",
+          "byte_length": 478457,
+          "size_px": [
+            2000,
+            996
+          ]
+        }
+      ],
+      "resized_rgb_rms": 4.9918
+    }
+  ],
+  "limitations": [
+    "Same AI review, not an independent human/expert",
+    "Per-work visual-reference provenance and limitations documented; official Met original/display JPEGs downloaded and RGB correspondence checked"
+  ]
+}

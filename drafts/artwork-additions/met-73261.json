@@ -1,0 +1,155 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-73261",
+  "artwork": {
+    "id": "met-73261",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 73261,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/73261",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/73261",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Escapade at Night:",
+      "title_ja_provisional": "夜の密会",
+      "artist": "Chokha",
+      "creation_date_display": "ca. 1800–10",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "India (Rajasthan, Mewar)",
+      "accession_number": "2006.451"
+    },
+    "image": {
+      "image_id": "met-73261-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP146534.jpg",
+      "source_registry_id": "met-73261",
+      "local_path": "/artworks/met-73261.jpg",
+      "sha256": "fbe3b469a102e26662f6d4d3e24cedbfeadef0434836d08b11652645d56fedd5",
+      "byte_length": 79920,
+      "live_image_checked": true,
+      "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+      "source_accession_number": "2006.451",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP146534.jpg",
+        "sha256": "3d4c42ee27560d8812c63350f5778b24942c9b4e6f1d288cd9ceaea4b17757e0",
+        "byte_length": 3568117,
+        "width": 4000,
+        "height": 3075,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=6.1067",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "期待",
+        "不安"
+      ],
+      "emotion_strengths": {
+        "期待": 2,
+        "不安": 1
+      },
+      "tones": [
+        "緊張",
+        "静けさ"
+      ],
+      "themes": [
+        "愛情",
+        "他者との距離"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/73261",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "眠る衛兵や牛の静かな夜と忍び入る恋人の動きを比べながら、インドの宮廷絵画の物語を読み解きたい",
+            "reason": "Metの作品別Overviewによると、1800〜10年ごろのラージャスターン・メーワール絵画で、作者はチョーカへの帰属作。貴人が城壁の内側に横たわる恋人のもとへ縄を登り、寝静まった衛兵と牛が目立たぬ静かな夜に、鮮やかな衣の主要人物と激しくうねる黒い雷雲が対照をなす。秘密の逢瀬は当時の詩歌にも現れる題材で、夜の暗さを強調した演出は父バグタを継いだチョーカの新機軸とされる。画面で誰が実在の人物か、どの詩を直接描いたかは所蔵館も確定していない。Metの出版物の同作図版に、屋根に縄を固定する侍女と下部の馬が見える。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "作者はチョーカ『に帰属』とされ、直筆確定とはしていない。登場する人物を特定の王侯とは呼ばない。夜景・嵐雲は絵の演出で、実際の天候記録ではない。画像検索に紛れたobject 75994の馬上人物画は別作品であり混同しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metの作品別Overviewによると、1800〜10年ごろのラージャスターン・メーワール絵画で、作者はチョーカへの帰属作。貴人が城壁の内側に横たわる恋人のもとへ縄を登り、寝静まった衛兵と牛が目立たぬ静かな夜に、鮮やかな衣の主要人物と激しくうねる黒い雷雲が対照をなす。秘密の逢瀬は当時の詩歌にも現れる題材で、夜の暗さを強調した演出は父バグタを継いだチョーカの新機軸とされる。画面で誰が実在の人物か、どの詩を直接描いたかは所蔵館も確定していない。Metの出版物の同作図版に、屋根に縄を固定する侍女と下部の馬が見える。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/73261"
+        },
+        "creation_context": "ca. 1800–10; India (Rajasthan, Mewar); Opaque watercolor, ink and gold on paper; accession 2006.451",
+        "visual_clues": "Met objectID 73261、2006.451の《Escapade at Night:》は、Met公式作品ページの図版とMet出版物の同定済み図版、および同じ所蔵品番号を示す記事中の詳細クロップで照合した。横長の暗い夜景で、左の高い建物の上部には横たわる女性と二人の侍女、建物外壁の縄を登る男性がいる。下部には寝ている衛兵、馬とその近くの人物が配され、空は黒い帯状の雷雲で覆われる。縄の実際の固定方法を図だけから断定しない。画像検索で紛れた赤い馬の昼景（Met object 75994）は別作品なので使わない。公式API原寸と表示画像の一致はCIで確認する。",
+        "uncertainty_note": "作者はチョーカ『に帰属』とされ、直筆確定とはしていない。登場する人物を特定の王侯とは呼ばない。夜景・嵐雲は絵の演出で、実際の天候記録ではない。画像検索に紛れたobject 75994の馬上人物画は別作品であり混同しない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "期待"
+        ],
+        "secondary": [
+          "不安"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Met's exact artwork-specific Overview read directly and matching visual-reference provenance described per work; official Met JPEGs checked in CI. Same AI, not human/expert auditor."
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "暗い空を大きな黒い雲が覆い、左の宮殿では男が一本の縄を登っています。建物の中には恋人の女性。下では衛兵や牛が眠り、屋外の大きな出来事には気づいていないようです。眠る人々の静けさと、密かに動く男の姿が対照的です。\n\nインドのメーワール地方で、1800〜10年ごろに描かれた《夜の密会》。画家チョーカの作と考えられていますが、作者の帰属には留保があります。貴人が城壁に守られた宮殿へ縄を使って忍び入り、恋人を訪ねようとする場面です。\n\nこうした秘密の逢瀬は当時の詩にも繰り返し現れました。美術館は、黒い雷雲と鮮やかな衣装の人物を対比させる夜の表現を、チョーカの工夫として紹介しています。縄の行く先を目で追ったあと、眠っている人々に目を戻すと、物語の緊張がいっそう強まります。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/73261"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-73261",
+    "title": "Escapade at Night:",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/73261",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/73261",
+      "license_label": "The Met Open Access / CC0 (public-domain work; official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP146534.jpg",
+      "sha256": "fbe3b469a102e26662f6d4d3e24cedbfeadef0434836d08b11652645d56fedd5",
+      "byte_length": 79920,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-450-452-20261113/docs/artwork-research-evidence/met-450-452-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP146534.jpg",
+        "sha256": "3d4c42ee27560d8812c63350f5778b24942c9b4e6f1d288cd9ceaea4b17757e0",
+        "byte_length": 3568117,
+        "width": 4000,
+        "height": 3075,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=6.1067",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2006.451"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-36187",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-36187.json",
+  "candidate_sha256": "3c303054e70f3d22f9675652245a99aabcb8da62c0d740bc5923b06c740a72bb",
+  "draft_path": "drafts/visitor-explanations/met-36187.json",
+  "draft_sha256": "d891ded89befbf59b7a212fd8b85f87673d5eadc321da7c8867cdc3ae30486a0",
+  "baseline": {
+    "artworks_sha256": "b245a12f9076edbac31f2720891e59d7e8ac56e3eb2216aa62d6d0a6b76e2129",
+    "image_registry_sha256": "2d5cb2403635c84db0fd36f14f6083de787d358555853ad8e90ad77d2d378f10"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/36187",
+      "source_excerpt": "destroyed by the Taiping occupation in 1860",
+      "visitor_claim": "沙家はもともと蘇州で木版画の店を営んでいましたが、1860年の太平天国軍による占領で店が失われ、沙馥は上海に移りました。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/36187",
+      "source_excerpt": "Fans were gifts often exchanged among friends",
+      "visitor_claim": "扇は友人への贈り物にも使われ、人々は好みの画家と交流することも楽しんだそうです。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/36187",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "メトロポリタン美術館の作品別Overviewによると、清代1894年の沙馥の扇面。蘇州の沙家は木版画を売る店を営んでいたが、1860年の太平天国軍の占領で失い、沙馥は上海に避難して絵画の家業を続けた。当時は廉価な扇面に人気の題材を描いて生計を立てることが、上海の新しい美術市場でも評価された。扇は友人同士が贈り合う品で、画家自身と交流することを楽しむ中流層の顧客が存在した。公式画像では葡萄の蔓からぶら下がる灰色の栗鼠、淡い紫の葡萄、薄い葉が扇形の紙に描かれている。歴史的な難民移動と『幸運・長寿』など特定の象徴解釈を直結させない。 Visual: Met objectID 36187/image 158345 の公式IIIF主画像を直接開いて視認。淡いベージュの広い扇面の上側から枝と蔓がのび、紫がかった実と緑の葉が点在する。灰色の栗鼠が葡萄のつるを横切り、細く長い尾が左に伸びる。左端には書と朱印があり、右下にも朱印。扇の折り目が画面を斜めに横切り、現在はアルバムの一葉として保存されている。種の細かな分類や銘文の翻刻を画像だけから確定しない。 Limits: 沙馥を17世紀の画家と誤認しない。太平天国軍による蘇州占領と店の破壊のあと上海に移った、という歴史は美術館の説明に基づく。題材の栗鼠・葡萄に定まった吉祥的意味があったと、出典なしに断定しない。販売用の扇面画であったことと、この特定の一枚が誰に贈られたかは区別する。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/36187",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-36187: API objectID=36187, primary JPEG full downloaded and verified; RMS=4.9918",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/36187",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=4.9918."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/36187",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and each artwork's specifically identified visual reference (official IIIF, Met-provided Commons image, or Met publication and linked closeups respectively), plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-36187 Squirrel and Grapes / Sha Fu / dated 1894 / 1986.267.77",
+      "image_match": "Met objectID 36187/image 158345 の公式IIIF主画像を直接開いて視認。淡いベージュの広い扇面の上側から枝と蔓がのび、紫がかった実と緑の葉が点在する。灰色の栗鼠が葡萄のつるを横切り、細く長い尾が左に伸びる。左端には書と朱印があり、右下にも朱印。扇の折り目が画面を斜めに横切り、現在はアルバムの一葉として保存されている。種の細かな分類や銘文の翻刻を画像だけから確定しない。 Both primary JPEG variants fully downloaded and match (RMS=4.9918).",
+      "historical_interpretation": "メトロポリタン美術館の作品別Overviewによると、清代1894年の沙馥の扇面。蘇州の沙家は木版画を売る店を営んでいたが、1860年の太平天国軍の占領で失い、沙馥は上海に避難して絵画の家業を続けた。当時は廉価な扇面に人気の題材を描いて生計を立てることが、上海の新しい美術市場でも評価された。扇は友人同士が贈り合う品で、画家自身と交流することを楽しむ中流層の顧客が存在した。公式画像では葡萄の蔓からぶら下がる灰色の栗鼠、淡い紫の葡萄、薄い葉が扇形の紙に描かれている。歴史的な難民移動と『幸運・長寿』など特定の象徴解釈を直結させない。 Cautions: 沙馥を17世紀の画家と誤認しない。太平天国軍による蘇州占領と店の破壊のあと上海に移った、という歴史は美術館の説明に基づく。題材の栗鼠・葡萄に定まった吉祥的意味があったと、出典なしに断定しない。販売用の扇面画であったことと、この特定の一枚が誰に贈られたかは区別する。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['好奇心', '安心']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP161446.jpg",
+      "sha256": "a6695cd1bd0aaccce9601363875fc80b1148e9af5ddbcdddab31490a2e985d90",
+      "byte_length": 68393,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/36187/158345/main-image",
+        "https://www.metmuseum.org/art/collection/search/36187"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met objectID 36187/image 158345 の公式IIIF主画像を直接開いて視認。淡いベージュの広い扇面の上側から枝と蔓がのび、紫がかった実と緑の葉が点在する。灰色の栗鼠が葡萄のつるを横切り、細く長い尾が左に伸びる。左端には書と朱印があり、右下にも朱印。扇の折り目が画面を斜めに横切り、現在はアルバムの一葉として保存されている。種の細かな分類や銘文の翻刻を画像だけから確定しない。 Official same-object primary JPEG original/display resized RGB RMS=4.9918; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP161446.jpg",
+      "sha256": "7fb5f4322b8fbb847876074fb90d45377b9a5d52907de199f766b7e04dfb8d3a",
+      "byte_length": 478457,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/36187/158345/main-image",
+        "https://www.metmuseum.org/art/collection/search/36187"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met objectID 36187/image 158345 の公式IIIF主画像を直接開いて視認。淡いベージュの広い扇面の上側から枝と蔓がのび、紫がかった実と緑の葉が点在する。灰色の栗鼠が葡萄のつるを横切り、細く長い尾が左に伸びる。左端には書と朱印があり、右下にも朱印。扇の折り目が画面を斜めに横切り、現在はアルバムの一葉として保存されている。種の細かな分類や銘文の翻刻を画像だけから確定しない。 Official same-object primary JPEG original/display resized RGB RMS=4.9918; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #452 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}

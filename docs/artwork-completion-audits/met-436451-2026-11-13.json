@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-436451",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-436451.json",
+  "candidate_sha256": "8a111f2481e6a461ecbb88911e35a4ef538da6087a4868ca876dfe7e5f7365bf",
+  "draft_path": "drafts/visitor-explanations/met-436451.json",
+  "draft_sha256": "d1e0f18adbbef3bfc4d5e685426ffe102a92202fd6585302393f7783fb1f7240",
+  "baseline": {
+    "artworks_sha256": "8056705424a7bce160ab47761162fba955df962be12cf3488855a4e39bb17a6d",
+    "image_registry_sha256": "b1787df17599e4c643e76e6d9edc249617d430429ac6a8e2b504115365177dc1"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/436451",
+      "source_excerpt": "Although the authorship of this picture was once questioned",
+      "visitor_claim": "かつては本当にゴーギャンの作品なのか疑われたこともありましたが、美術館は洗浄後の再調査によって帰属が確かめられたと説明しています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/436451",
+      "source_excerpt": "drawings related to the couple and the horse in this picture",
+      "visitor_claim": "画面の二人と馬に関連する素描も残っています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436451",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "メトロポリタン美術館の作品別Overviewは、1892年のゴーギャンの《Tahitian Landscape》について、かつて作者帰属に疑問が呈されたが、洗浄と再調査によって最初のタヒチ滞在期の制作と確かめられたと述べる。木々や草に囲まれた小屋、二人の人物と馬が小さく現れる。二人と馬に関係する素描も残り、風景の細部を観察していたことがうかがえる。1939年の寄贈によりメトロポリタン美術館に入った最初のゴーギャン作品。絵の中の二人の身元や関係を推定で埋めない。画題はタヒチだが制作したのはフランス人画家で、先住民の暮らしを中立的に記録した一次史料として扱わない。 Visual: 正しい作品はMet objectID 436451・所蔵品番号39.182の《Tahitian Landscape》（1892年）。The MetからWikimedia CommonsにCC0提供された同一作品の図版を確認。画面は縦長で、手前左に長衣の人物二人が並び、画面中ほどに茶色の馬が頭を下げて草を食む。周囲には濃緑と赤褐色の樹木や茂み、左奥に小さな小屋の屋根が見える。空と木立は太く塗り重ねられ、遠くへ続く道の明るい色が対照的。よく流通する黄緑色の野原・椰子・一本道の別作《Tahitian Landscape》（1893年とする図版）とは明確に区別した。公式API原寸・表示JPEGのハッシュと画像の一致はCIで確認する。 Limits: 『タヒチの風景』という同題のゴーギャン別作と混同しない（本作は二人と馬が前景に登場）。過去に作者帰属が疑われたことと、現在は科学調査・再検討により認められていることを両方記す。二人の人物の具体的な身元や作者の意図、タヒチの人々の生活の全体像を推測しない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436451",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-436451: API objectID=436451, primary JPEG full downloaded and verified; RMS=6.6225",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/436451",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=6.6225."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/436451",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and each artwork's specifically identified visual reference (official IIIF, Met-provided Commons image, or Met publication and linked closeups respectively), plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-436451 Tahitian Landscape / Paul Gauguin / 1892 / 39.182",
+      "image_match": "正しい作品はMet objectID 436451・所蔵品番号39.182の《Tahitian Landscape》（1892年）。The MetからWikimedia CommonsにCC0提供された同一作品の図版を確認。画面は縦長で、手前左に長衣の人物二人が並び、画面中ほどに茶色の馬が頭を下げて草を食む。周囲には濃緑と赤褐色の樹木や茂み、左奥に小さな小屋の屋根が見える。空と木立は太く塗り重ねられ、遠くへ続く道の明るい色が対照的。よく流通する黄緑色の野原・椰子・一本道の別作《Tahitian Landscape》（1893年とする図版）とは明確に区別した。公式API原寸・表示JPEGのハッシュと画像の一致はCIで確認する。 Both primary JPEG variants fully downloaded and match (RMS=6.6225).",
+      "historical_interpretation": "メトロポリタン美術館の作品別Overviewは、1892年のゴーギャンの《Tahitian Landscape》について、かつて作者帰属に疑問が呈されたが、洗浄と再調査によって最初のタヒチ滞在期の制作と確かめられたと述べる。木々や草に囲まれた小屋、二人の人物と馬が小さく現れる。二人と馬に関係する素描も残り、風景の細部を観察していたことがうかがえる。1939年の寄贈によりメトロポリタン美術館に入った最初のゴーギャン作品。絵の中の二人の身元や関係を推定で埋めない。画題はタヒチだが制作したのはフランス人画家で、先住民の暮らしを中立的に記録した一次史料として扱わない。 Cautions: 『タヒチの風景』という同題のゴーギャン別作と混同しない（本作は二人と馬が前景に登場）。過去に作者帰属が疑われたことと、現在は科学調査・再検討により認められていることを両方記す。二人の人物の具体的な身元や作者の意図、タヒチの人々の生活の全体像を推測しない。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['好奇心', '安心']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-043.jpg",
+      "sha256": "4e124b2f9f86d2fcf56edc076c8f66a54b864310aebf4945996caa1c63e50542",
+      "byte_length": 178064,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://commons.wikimedia.org/wiki/File:Tahitian_Landscape_MET_DP-14936-043.jpg",
+        "https://www.metmuseum.org/art/collection/search/436451"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "正しい作品はMet objectID 436451・所蔵品番号39.182の《Tahitian Landscape》（1892年）。The MetからWikimedia CommonsにCC0提供された同一作品の図版を確認。画面は縦長で、手前左に長衣の人物二人が並び、画面中ほどに茶色の馬が頭を下げて草を食む。周囲には濃緑と赤褐色の樹木や茂み、左奥に小さな小屋の屋根が見える。空と木立は太く塗り重ねられ、遠くへ続く道の明るい色が対照的。よく流通する黄緑色の野原・椰子・一本道の別作《Tahitian Landscape》（1893年とする図版）とは明確に区別した。公式API原寸・表示JPEGのハッシュと画像の一致はCIで確認する。 Official same-object primary JPEG original/display resized RGB RMS=6.6225; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-043.jpg",
+      "sha256": "01195e1a9459df7a80ab22550b137e9febb53837362713b5c574a102d64c9692",
+      "byte_length": 7116784,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://commons.wikimedia.org/wiki/File:Tahitian_Landscape_MET_DP-14936-043.jpg",
+        "https://www.metmuseum.org/art/collection/search/436451"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "正しい作品はMet objectID 436451・所蔵品番号39.182の《Tahitian Landscape》（1892年）。The MetからWikimedia CommonsにCC0提供された同一作品の図版を確認。画面は縦長で、手前左に長衣の人物二人が並び、画面中ほどに茶色の馬が頭を下げて草を食む。周囲には濃緑と赤褐色の樹木や茂み、左奥に小さな小屋の屋根が見える。空と木立は太く塗り重ねられ、遠くへ続く道の明るい色が対照的。よく流通する黄緑色の野原・椰子・一本道の別作《Tahitian Landscape》（1893年とする図版）とは明確に区別した。公式API原寸・表示JPEGのハッシュと画像の一致はCIで確認する。 Official same-object primary JPEG original/display resized RGB RMS=6.6225; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #450 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}
