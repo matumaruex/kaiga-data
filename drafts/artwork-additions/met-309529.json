@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-309529",
+  "artwork": {
+    "id": "met-309529",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 309529,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/309529",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/309529",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Pendant Icon with St. George and the Virgin and Child Enthroned",
+      "title_ja_provisional": "聖ゲオルギウスと玉座の聖母子の携帯イコン",
+      "artist": "Northern or Central Highlands artist",
+      "creation_date_display": "18th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Ethiopia (Ethiopian Orthodox Christianity)",
+      "accession_number": "68.128"
+    },
+    "image": {
+      "image_id": "met-309529-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ao/web-large/68.128_a.JPG",
+      "source_registry_id": "met-309529",
+      "local_path": "/artworks/met-309529.jpg",
+      "sha256": "df671ee0e952ff0be519c06b30d9ab0c6bb4c3d9aa17753b35302692b679d048",
+      "byte_length": 62057,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-405-407-20261113/docs/artwork-research-evidence/met-405-407-2026-11-13.json",
+      "source_accession_number": "68.128",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ao/original/68.128_a.JPG",
+        "sha256": "b5575b26cd6f59de723783aafb1b43d5892d0dfc17d068df608d295f335699ce",
+        "byte_length": 694109,
+        "width": 2884,
+        "height": 2140,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 8.04699",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "畏敬": 1
+      },
+      "tones": [
+        "落ち着き"
+      ],
+      "themes": [
+        "共同体",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/309529",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "エチオピアの小さな二面の携帯用聖画を開いて、聖母子と竜退治の二つの図像が並ぶ意味を見たい",
+            "reason": "Met作品別Overviewによれば、木製の開閉式小箱の内部に二面の聖画を持ち、上部の穴を利用して首から下げられる個人用イコン。中央の玉座の聖母子を天使たちが囲み、隣の面には白馬に乗った聖ゲオルギウスが槍で竜を倒す場面が描かれる。エチオピア正教の伝統における守護や祈りと結びついた図像で、ヨーロッパのマリア像からの図像的影響を独自の様式へと変えている。Metは制作を18世紀としている一方、木箱は古くても彩色の一部が20世紀に塗り直された可能性に触れる。この推定は確定年代ではなく再制作の断定は避ける。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "作品は木板に描かれた二面の聖画を持つ携帯具で、平面の一枚絵や油彩キャンバスではない。Metの作品年代は18世紀だが20世紀の再彩色の可能性がある。竜退治は宗教伝承であり史実ではない。公開画像に写るのは開いた状態の二面である。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによれば、木製の開閉式小箱の内部に二面の聖画を持ち、上部の穴を利用して首から下げられる個人用イコン。中央の玉座の聖母子を天使たちが囲み、隣の面には白馬に乗った聖ゲオルギウスが槍で竜を倒す場面が描かれる。エチオピア正教の伝統における守護や祈りと結びついた図像で、ヨーロッパのマリア像からの図像的影響を独自の様式へと変えている。Metは制作を18世紀としている一方、木箱は古くても彩色の一部が20世紀に塗り直された可能性に触れる。この推定は確定年代ではなく再制作の断定は避ける。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/309529"
+        },
+        "creation_context": "18th century; Ethiopia (Ethiopian Orthodox Christianity); Wood, pigment, metal hinge; accession 68.128",
+        "visual_clues": "Met公式API主画像を原寸/表示とも実取得し、サムネイルで確認。灰色の展示背景に木の小箱が左右に開かれ、左の絵は白馬の聖ゲオルギウスが槍を構える赤青緑の彩色図、右は青い衣の聖母子が玉座に座り、その両側に色鮮やかな天使がいる。上部の吊り下げ用飾りと蝶番、傷んだ彩色の細部も見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=8.047で対応確認。",
+        "uncertainty_note": "作品は木板に描かれた二面の聖画を持つ携帯具で、平面の一枚絵や油彩キャンバスではない。Metの作品年代は18世紀だが20世紀の再彩色の可能性がある。竜退治は宗教伝承であり史実ではない。公開画像に写るのは開いた状態の二面である。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "畏敬"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-405-407-20261113/docs/artwork-research-evidence/met-405-407-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "小さな木の扉を開くと、左右に異なる聖画が現れます。左には白馬に乗り槍を構える聖ゲオルギウス。右には玉座に座る聖母子が描かれています。小さな画面ながら、鮮やかな青や赤、緑が人物の姿をはっきりと伝えています。\n\nこれはエチオピア正教の信仰に用いられた小さな携帯用聖画です。首から下げて持ち歩く個人用のイコンとして使える造りです。隣の扉には、聖ゲオルギウスが竜を倒す場面が描かれています。聖母子の図像にはヨーロッパから伝わった表現の影響も見られますが、天使たちの姿や衣服はエチオピア独自の絵画の伝統に沿って描き直されています。\n\n所蔵館はこの作品を18世紀のものとしていますが、絵の具や表現を調べた結果、後の20世紀に塗り直された部分がある可能性も指摘しています。すべてが制作当初の状態で残っているとは限りません。持ち運べる大きさと絵の組み合わせを見比べると、身近な祈りの道具としての姿が浮かびます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/309529"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-309529",
+    "title": "Pendant Icon with St. George and the Virgin and Child Enthroned",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/309529",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/309529",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ao/web-large/68.128_a.JPG",
+      "sha256": "df671ee0e952ff0be519c06b30d9ab0c6bb4c3d9aa17753b35302692b679d048",
+      "byte_length": 62057,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-405-407-20261113/docs/artwork-research-evidence/met-405-407-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ao/original/68.128_a.JPG",
+        "sha256": "b5575b26cd6f59de723783aafb1b43d5892d0dfc17d068df608d295f335699ce",
+        "byte_length": 694109,
+        "width": 2884,
+        "height": 2140,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 8.04699",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "68.128"
+  }
+}
