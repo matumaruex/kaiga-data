@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-48949",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-48949.json",
+  "candidate_sha256": "ba52b263f201d66a604fe6ce30017e8330eb0edca1df32cb1adfba5b9bff7900",
+  "draft_path": "drafts/visitor-explanations/met-48949.json",
+  "draft_sha256": "49fbdf9317536d532676584e63802276c68d83e91ef80f617f0f7399f5c8ddc0",
+  "baseline": {
+    "artworks_sha256": "b329093c11cc6e12ba9eaba6e34f445563f6c4b4587f67c7076131c8947084de",
+    "image_registry_sha256": "d81c64ceedf8ab657b276d232283220b35fb2a80ba79a9d9ee1c003c1a8a3ad3"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/48949",
+      "source_excerpt": "sought a creative reconstruction of the past through the critical study of ancient styles",
+      "visitor_claim": "ただし、古い絵をそっくりに写すことが目的だったわけではありません。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/48949",
+      "source_excerpt": "Approaching painting as though it were calligraphy, Dong alternated positive and negative patterns",
+      "visitor_claim": "董其昌は過去の絵画を研究しながら、書を書くように線や墨の塊を組み立てる表現を探りました。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/48949",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "メトロポリタン美術館の作品別Overviewによると、明末の文人画家・董其昌が1622〜25年ごろに描いた掛軸で、10世紀の董源の作品を踏まえた山水図。董其昌は同時代の山水画のあり方を批判し、古画の単なる模写ではなく精神的な呼応と個人的な表現を重んじた。筆を動かすことを書に近づけ、線・墨の塊・描かない余白を対置して山や木を構築する。美術館は画面の岩や木を、抽象的で角ばった塊と動きある筆致が結合したものとして分析する。作者の内心を決めつけたり、景色の実在地を指定したりしない。 Visual: Met作品48949の作品ページにある公式IIIF主画像（object 48949/image 1703908）を直接開いて視認。縦長の掛軸に墨描の山、木、崖、道筋が重なる。上部には複数行の書と小さな朱印、画面中段にごつごつとした岩や木立、右中段に軽い線で描かれた数棟の家、下部には大胆な筆で描く幹と岩がある。薄い墨の面と紙の白地が山間の空気を示す。原寸JPEGと表示JPEGの全バイト・寸法・縮小一致はGitHub Actionsで別途確認する。 Limits: 董源の作品を『踏まえる』とは直接同じ場所を描いたという意味ではない。董其昌の制作動機はメトロポリタン美術館の研究解釈と混同しない。上部の書の全文や土地の名前は翻刻を確認していないため断定しない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48949",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-48949: API objectID=48949, primary JPEG full downloaded and verified; RMS=6.5847",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/48949",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=6.5847."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/48949",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and each actual official object-linked Met IIIF image, plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-48949 Shaded Dwellings among Streams and Mountains / Dong Qichang / ca. 1622–25 / 1979.75.2",
+      "image_match": "Met作品48949の作品ページにある公式IIIF主画像（object 48949/image 1703908）を直接開いて視認。縦長の掛軸に墨描の山、木、崖、道筋が重なる。上部には複数行の書と小さな朱印、画面中段にごつごつとした岩や木立、右中段に軽い線で描かれた数棟の家、下部には大胆な筆で描く幹と岩がある。薄い墨の面と紙の白地が山間の空気を示す。原寸JPEGと表示JPEGの全バイト・寸法・縮小一致はGitHub Actionsで別途確認する。 Both primary JPEG variants fully downloaded and match (RMS=6.5847).",
+      "historical_interpretation": "メトロポリタン美術館の作品別Overviewによると、明末の文人画家・董其昌が1622〜25年ごろに描いた掛軸で、10世紀の董源の作品を踏まえた山水図。董其昌は同時代の山水画のあり方を批判し、古画の単なる模写ではなく精神的な呼応と個人的な表現を重んじた。筆を動かすことを書に近づけ、線・墨の塊・描かない余白を対置して山や木を構築する。美術館は画面の岩や木を、抽象的で角ばった塊と動きある筆致が結合したものとして分析する。作者の内心を決めつけたり、景色の実在地を指定したりしない。 Cautions: 董源の作品を『踏まえる』とは直接同じ場所を描いたという意味ではない。董其昌の制作動機はメトロポリタン美術館の研究解釈と混同しない。上部の書の全文や土地の名前は翻刻を確認していないため断定しない。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['好奇心', '畏敬']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-13850-002.jpg",
+      "sha256": "561941dc9d67c5fdb82d9db0bdf20da05b81edf104d7a1a3ebdd34850be338eb",
+      "byte_length": 91177,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met作品48949の作品ページにある公式IIIF主画像（object 48949/image 1703908）を直接開いて視認。縦長の掛軸に墨描の山、木、崖、道筋が重なる。上部には複数行の書と小さな朱印、画面中段にごつごつとした岩や木立、右中段に軽い線で描かれた数棟の家、下部には大胆な筆で描く幹と岩がある。薄い墨の面と紙の白地が山間の空気を示す。原寸JPEGと表示JPEGの全バイト・寸法・縮小一致はGitHub Actionsで別途確認する。 Official same-object primary JPEG original/display resized RGB RMS=6.5847; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-13850-002.jpg",
+      "sha256": "9fa3596c02e817ae72929c2948acdd27d2200c4eb2eff6b19dcd15506528b6a7",
+      "byte_length": 2334527,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met作品48949の作品ページにある公式IIIF主画像（object 48949/image 1703908）を直接開いて視認。縦長の掛軸に墨描の山、木、崖、道筋が重なる。上部には複数行の書と小さな朱印、画面中段にごつごつとした岩や木立、右中段に軽い線で描かれた数棟の家、下部には大胆な筆で描く幹と岩がある。薄い墨の面と紙の白地が山間の空気を示す。原寸JPEGと表示JPEGの全バイト・寸法・縮小一致はGitHub Actionsで別途確認する。 Official same-object primary JPEG original/display resized RGB RMS=6.5847; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #447 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official object-linked Met IIIF image was opened directly for each of the three works, then official API primary display/original JPEGs were verified.",
+    "No claims of human approval or expert rights review."
+  ]
+}
