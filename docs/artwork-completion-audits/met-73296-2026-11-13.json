@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-73296",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-73296.json",
+  "candidate_sha256": "820497d879eef19b4949e5cd0d6b7610330e41e2eb62a7479169863104c649f7",
+  "draft_path": "drafts/visitor-explanations/met-73296.json",
+  "draft_sha256": "6d1bd59e63dfa956c90fbcf4e8bc406f3799fa40d320f115f3760ac0fe2b932b",
+  "baseline": {
+    "artworks_sha256": "dd9c5a5804462cc830c2103718e27198b0d6dc6faf4512ad9aca32b06b2824c5",
+    "image_registry_sha256": "c3ab022a2973bb89006e9016fc9d7b0506177e1110d18036d82cb544fbb638fa"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/73296",
+      "source_excerpt": "a rare form of Krishna, Navagunjara, consisting of nine (nava) animal parts",
+      "visitor_claim": "ナヴァグンジャラは、九つの動物の部分が合わさった珍しいクリシュナの姿です。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/73296",
+      "source_excerpt": "appears to Arjuna after he has thrown down his weapons",
+      "visitor_claim": "『マハーバーラタ』では、武器を置いたアルジュナの前にこの姿で現れます。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/73296",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "Met作品73296《Navagunjara, a Universal Form of Krishna》の作品別Overviewを確認。1835年ごろのインド、ラージャスターン地方（ジョードプルは疑問符付き）の絵画。ナヴァグンジャラはヒンドゥー教のクリシュナ神の珍しい形で、9つの動物の部分がひとつにつながる。『マハーバーラタ』では神の前で武器を捨てたアルジュナにこの姿で現れると説明される。水彩とインク、金を用いた絵は、1830年のWaterman and Sonsの透かしのある欧州製の紙に制作された。作者名は公式ページに記載なし。青い鳥状の首と頭、花を持つ人の腕、太い四肢、しま模様、曲がる尾が視認できるが、身体の各部分を特定の動物と一対一で固定する追加の資料は示されていない。 Visual: Met作品73296の公式IIIF画像73296/146401/main-imageを直接開き視認。淡い生成りの紙に、頭は青い鳥のような長い首と赤いくちばし、紅色の冠を持つ。向かって左の人間の腕が桃色の花を掲げ、胸には黄緑と金色の飾り、背には赤い丸いこぶのような部分。四肢の形が異なり、向かって右の後ろ脚は虎に似たしま模様、尾は長く細く上向きにうねる。余白の多い平面上に不思議な動物が一頭描かれる。右下の形は複数の生物を合わせた神の表象であり、現実の動物の記録ではない。 Limits: ナヴァグンジャラは神話上の複合的な姿であり、実在動物とみなさない。九つの動物の各部の名称まではMet Overviewに一覧がないので、見た目だけで確定しない。ジョードプルの帰属には公式表記どおり疑問符がある。1830年は紙の透かしの年であり作品制作年は1835年ごろ。作者名や本人の意図は確認できない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/73296",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-73296: API objectID=73296, primary JPEG full downloaded and verified; RMS=6.1239",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/73296",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=6.1239."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/73296",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and the artwork-specific visual sources: direct official Met IIIF images for met-11127 (44025), met-73296 (146401) and met-37815 (150854), plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-73296 Navagunjara, a Universal Form of Krishna / Unknown artist / ca. 1835 / 2006.240",
+      "image_match": "Met作品73296の公式IIIF画像73296/146401/main-imageを直接開き視認。淡い生成りの紙に、頭は青い鳥のような長い首と赤いくちばし、紅色の冠を持つ。向かって左の人間の腕が桃色の花を掲げ、胸には黄緑と金色の飾り、背には赤い丸いこぶのような部分。四肢の形が異なり、向かって右の後ろ脚は虎に似たしま模様、尾は長く細く上向きにうねる。余白の多い平面上に不思議な動物が一頭描かれる。右下の形は複数の生物を合わせた神の表象であり、現実の動物の記録ではない。 Both primary JPEG variants fully downloaded and match (RMS=6.1239).",
+      "historical_interpretation": "Met作品73296《Navagunjara, a Universal Form of Krishna》の作品別Overviewを確認。1835年ごろのインド、ラージャスターン地方（ジョードプルは疑問符付き）の絵画。ナヴァグンジャラはヒンドゥー教のクリシュナ神の珍しい形で、9つの動物の部分がひとつにつながる。『マハーバーラタ』では神の前で武器を捨てたアルジュナにこの姿で現れると説明される。水彩とインク、金を用いた絵は、1830年のWaterman and Sonsの透かしのある欧州製の紙に制作された。作者名は公式ページに記載なし。青い鳥状の首と頭、花を持つ人の腕、太い四肢、しま模様、曲がる尾が視認できるが、身体の各部分を特定の動物と一対一で固定する追加の資料は示されていない。 Cautions: ナヴァグンジャラは神話上の複合的な姿であり、実在動物とみなさない。九つの動物の各部の名称まではMet Overviewに一覧がないので、見た目だけで確定しない。ジョードプルの帰属には公式表記どおり疑問符がある。1830年は紙の透かしの年であり作品制作年は1835年ごろ。作者名や本人の意図は確認できない。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['好奇心', '畏敬']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP140154.jpg",
+      "sha256": "8dc5172feb1409ae50e53ed1c83eed7724998cbf43e66788ceb8fb014b5ed58e",
+      "byte_length": 60518,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/73296",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/73296/146401/main-image"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met作品73296の公式IIIF画像73296/146401/main-imageを直接開き視認。淡い生成りの紙に、頭は青い鳥のような長い首と赤いくちばし、紅色の冠を持つ。向かって左の人間の腕が桃色の花を掲げ、胸には黄緑と金色の飾り、背には赤い丸いこぶのような部分。四肢の形が異なり、向かって右の後ろ脚は虎に似たしま模様、尾は長く細く上向きにうねる。余白の多い平面上に不思議な動物が一頭描かれる。右下の形は複数の生物を合わせた神の表象であり、現実の動物の記録ではない。 Official same-object primary JPEG original/display resized RGB RMS=6.1239; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP140154.jpg",
+      "sha256": "6e7127ecf5a095b2e1973d4e73db997d0b0b8d3424f5d7e2c2614a9a732c4e82",
+      "byte_length": 2137205,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/73296",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/73296/146401/main-image"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met作品73296の公式IIIF画像73296/146401/main-imageを直接開き視認。淡い生成りの紙に、頭は青い鳥のような長い首と赤いくちばし、紅色の冠を持つ。向かって左の人間の腕が桃色の花を掲げ、胸には黄緑と金色の飾り、背には赤い丸いこぶのような部分。四肢の形が異なり、向かって右の後ろ脚は虎に似たしま模様、尾は長く細く上向きにうねる。余白の多い平面上に不思議な動物が一頭描かれる。右下の形は複数の生物を合わせた神の表象であり、現実の動物の記録ではない。 Official same-object primary JPEG original/display resized RGB RMS=6.1239; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #463 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}

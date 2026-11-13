@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-11127",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-11127.json",
+  "candidate_sha256": "a2ab0256edf202e6782b53d5553b907e76148b0f63373b994475ac41ab2b32cb",
+  "draft_path": "drafts/visitor-explanations/met-11127.json",
+  "draft_sha256": "08c76e13ce28d18c61252c113fa6f5128cb19282b55c5757fd4b7f6cf0534a2d",
+  "baseline": {
+    "artworks_sha256": "09372d08d6b635067971cad8656f958c2899017dba12374d64a5a69a9904d53e",
+    "image_registry_sha256": "d0f3233f829494256fdc20b7141de88380ed30d6061f671b868cc6bd9fc28a63"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/11127",
+      "source_excerpt": "sitting outside his seaside studio one summer evening in 1894",
+      "visitor_claim": "1894年の夏の夕方、海辺のアトリエの外にいたという逸話が伝わっています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/11127",
+      "source_excerpt": "was the result of that impulse and four or five hours’ work",
+      "visitor_claim": "初期の伝記によれば、思いつきからわずか4、5時間ほどで描かれたといいます。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/11127",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "Met所蔵のウィンズロー・ホーマー《Moonlight, Wood Island Light》（1894年、油彩・カンヴァス、受入番号11.116.2）。作品固有のMet Overviewは、画家の初期伝記作者による1894年夏の夕方の逸話を紹介する。海辺のアトリエにいたホーマーが着想を得て、画材を持ち岩場へ下り、短時間で制作したと伝えられる。ただし本人の日記ではなく後年の伝記が伝える話として扱う。画面では月は直接描かれず、暗い海と岩に広がる銀色の反射、波の青緑、右の水平線近くの小さな赤い灯台の光が確認できる。Met所蔵の1982年のホーマー解説資料でも月は雲に隠れ、赤い灯台の灯りと月光の反射を説明する。自然表現を主題とし、作者の感情を断定しない。 Visual: Met公式作品ページから公式IIIF画像11127/44025/main-imageを直接視認。横長の夜の海景。黒く沈む岩場を手前に置き、波のうねりが青緑に盛り上がり、泡や濡れた岩に黄白色の反射が広がる。画面上部は雲の多い暗灰色の空で、月そのものは見えない。水平線の右寄りに小さな赤い点があり、灯台の光と解される。人物の姿や近景の灯台建物は見えない。1880年代の別のホーマーの海景とは作品IDと構図で区別する。 Limits: 1894年夏の着想・制作時間は画家本人の当日記録ではなくMet Overviewが紹介する初期の伝記作者の逸話としてのみ扱う。月が画面上に描かれているとは記述しない。赤い小点を確認できても灯台の建物全体を描いたとは書かない。静けさや畏敬は鑑賞上の見方でありホーマー本人の心理証言ではない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11127",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-11127: API objectID=11127, primary JPEG full downloaded and verified; RMS=5.6542",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/11127",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=5.6542."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/11127",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and the artwork-specific visual sources: direct official Met IIIF images for met-11127 (44025), met-73296 (146401) and met-37815 (150854), plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-11127 Moonlight, Wood Island Light / Winslow Homer / 1894 / 11.116.2",
+      "image_match": "Met公式作品ページから公式IIIF画像11127/44025/main-imageを直接視認。横長の夜の海景。黒く沈む岩場を手前に置き、波のうねりが青緑に盛り上がり、泡や濡れた岩に黄白色の反射が広がる。画面上部は雲の多い暗灰色の空で、月そのものは見えない。水平線の右寄りに小さな赤い点があり、灯台の光と解される。人物の姿や近景の灯台建物は見えない。1880年代の別のホーマーの海景とは作品IDと構図で区別する。 Both primary JPEG variants fully downloaded and match (RMS=5.6542).",
+      "historical_interpretation": "Met所蔵のウィンズロー・ホーマー《Moonlight, Wood Island Light》（1894年、油彩・カンヴァス、受入番号11.116.2）。作品固有のMet Overviewは、画家の初期伝記作者による1894年夏の夕方の逸話を紹介する。海辺のアトリエにいたホーマーが着想を得て、画材を持ち岩場へ下り、短時間で制作したと伝えられる。ただし本人の日記ではなく後年の伝記が伝える話として扱う。画面では月は直接描かれず、暗い海と岩に広がる銀色の反射、波の青緑、右の水平線近くの小さな赤い灯台の光が確認できる。Met所蔵の1982年のホーマー解説資料でも月は雲に隠れ、赤い灯台の灯りと月光の反射を説明する。自然表現を主題とし、作者の感情を断定しない。 Cautions: 1894年夏の着想・制作時間は画家本人の当日記録ではなくMet Overviewが紹介する初期の伝記作者の逸話としてのみ扱う。月が画面上に描かれているとは記述しない。赤い小点を確認できても灯台の建物全体を描いたとは書かない。静けさや畏敬は鑑賞上の見方でありホーマー本人の心理証言ではない。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['畏敬', '孤独']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP232469.jpg",
+      "sha256": "8bc5aa022ebc40c3b5d355ece7a613457aa9af269c5afbe70f3478c9a209a014",
+      "byte_length": 64043,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/11127",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/11127/44025/main-image"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met公式作品ページから公式IIIF画像11127/44025/main-imageを直接視認。横長の夜の海景。黒く沈む岩場を手前に置き、波のうねりが青緑に盛り上がり、泡や濡れた岩に黄白色の反射が広がる。画面上部は雲の多い暗灰色の空で、月そのものは見えない。水平線の右寄りに小さな赤い点があり、灯台の光と解される。人物の姿や近景の灯台建物は見えない。1880年代の別のホーマーの海景とは作品IDと構図で区別する。 Official same-object primary JPEG original/display resized RGB RMS=5.6542; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DP232469.jpg",
+      "sha256": "c76017b91d5b146edf69f87a3371699a3b6deb411fa58a2128726fac4bad6ced",
+      "byte_length": 2436476,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/11127",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/11127/44025/main-image"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met公式作品ページから公式IIIF画像11127/44025/main-imageを直接視認。横長の夜の海景。黒く沈む岩場を手前に置き、波のうねりが青緑に盛り上がり、泡や濡れた岩に黄白色の反射が広がる。画面上部は雲の多い暗灰色の空で、月そのものは見えない。水平線の右寄りに小さな赤い点があり、灯台の光と解される。人物の姿や近景の灯台建物は見えない。1880年代の別のホーマーの海景とは作品IDと構図で区別する。 Official same-object primary JPEG original/display resized RGB RMS=5.6542; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #462 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}

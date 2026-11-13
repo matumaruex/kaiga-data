@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-37815",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-37815.json",
+  "candidate_sha256": "b4fd8cea4479bc77562f2388bcac3341afad75c463af7fe116fb63d6e93a98fa",
+  "draft_path": "drafts/visitor-explanations/met-37815.json",
+  "draft_sha256": "25a678bd00423a3c9227a1fd02970fbee33641ba735a31638ff95916144e8b52",
+  "baseline": {
+    "artworks_sha256": "411741cb5984f8fd25a37665503aa6b6f6f813442a5244f9a538b267d88c225a",
+    "image_registry_sha256": "1c6880e3b7dfde255eb7b4b51a675f2d385b57daab6cd06eefbd3986d18503f9"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/37815",
+      "source_excerpt": "Krishna approaches Radha and a go-between who has facilitated their meeting",
+      "visitor_claim": "クリシュナがラーダーと、二人の仲を取り持った人物に近づいています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/37815",
+      "source_excerpt": "The open pavilion and empty bed, allusions to a possible passionate encounter",
+      "visitor_claim": "開かれたあずまやと空の寝台は、これからの親密な出会いをほのめかします。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/37815",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "Met作品37815《Krishna and Radha, Page from a Dispersed Rasikapriya (Verses Celebrating Aspects of Love)》の固有Overviewを確認。1660〜70年ごろ、インド・ラージャスターン、ブーンディ地方の絵画。クリシュナがラーダーと二人の仲を取り持つ人物に近づく場面。開かれたあずまやと空の寝台は恋人たちの親密な出会いの可能性を暗示する、詩『ラシカプリヤ』の表現。模様の細かい宮殿的建築や緑の植物を宝石のような色で描くブーンディの様式で、Metはムガル画派との接触が自然表現の写実性を高めたと説明する。画面は縦長で金色の文字帯が上部にあり、三人は下部の庭園で向かい合い、白い柱と吊り下がった寝台が関係を暗示している。作者個人の名前や詩の具体的な節はページの情報だけで特定しない。 Visual: Met作品37815の公式IIIF画像37815/150854/main-imageを直接開いて視認。縦長の赤枠の中央に黄地のインド文字の詩文、その下に白い小塔が並ぶ模様の建築、濃青の空。下の庭では向かって右の青い顔のクリシュナが、左側の二人の女性と向き合う。白い柱の奥に装飾のある吊り下がった寝台が見え、両側に豊かな緑と細かい花が配置される。目視で女性二人のどちらがラーダーかを衣服だけで断定しない。 Limits: 二人の女性の役割はMet Overviewがラーダーと仲介者を述べている範囲にとどめ、画面上の左右で取り違えない。空の寝台は親密な出会いの可能性を示唆する図像で、すでに出来事が起きたと断定しない。『ラシカプリヤ』を宗教的・宮廷的な詩画文化として扱い、実在の二人の恋愛記録とはしない。ムガル画派との接触はMetの美術史的説明で画家本人の発言ではない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/37815",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-37815: API objectID=37815, primary JPEG full downloaded and verified; RMS=12.7930",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/37815",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=12.7930."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/37815",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and the artwork-specific visual sources: direct official Met IIIF images for met-11127 (44025), met-73296 (146401) and met-37815 (150854), plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-37815 Krishna and Radha, Page from a Dispersed Rasikapriya (Verses Celebrating Aspects of Love) / Unknown artist / ca. 1660–70 / 1990.23",
+      "image_match": "Met作品37815の公式IIIF画像37815/150854/main-imageを直接開いて視認。縦長の赤枠の中央に黄地のインド文字の詩文、その下に白い小塔が並ぶ模様の建築、濃青の空。下の庭では向かって右の青い顔のクリシュナが、左側の二人の女性と向き合う。白い柱の奥に装飾のある吊り下がった寝台が見え、両側に豊かな緑と細かい花が配置される。目視で女性二人のどちらがラーダーかを衣服だけで断定しない。 Both primary JPEG variants fully downloaded and match (RMS=12.7930).",
+      "historical_interpretation": "Met作品37815《Krishna and Radha, Page from a Dispersed Rasikapriya (Verses Celebrating Aspects of Love)》の固有Overviewを確認。1660〜70年ごろ、インド・ラージャスターン、ブーンディ地方の絵画。クリシュナがラーダーと二人の仲を取り持つ人物に近づく場面。開かれたあずまやと空の寝台は恋人たちの親密な出会いの可能性を暗示する、詩『ラシカプリヤ』の表現。模様の細かい宮殿的建築や緑の植物を宝石のような色で描くブーンディの様式で、Metはムガル画派との接触が自然表現の写実性を高めたと説明する。画面は縦長で金色の文字帯が上部にあり、三人は下部の庭園で向かい合い、白い柱と吊り下がった寝台が関係を暗示している。作者個人の名前や詩の具体的な節はページの情報だけで特定しない。 Cautions: 二人の女性の役割はMet Overviewがラーダーと仲介者を述べている範囲にとどめ、画面上の左右で取り違えない。空の寝台は親密な出会いの可能性を示唆する図像で、すでに出来事が起きたと断定しない。『ラシカプリヤ』を宗教的・宮廷的な詩画文化として扱い、実在の二人の恋愛記録とはしない。ムガル画派との接触はMetの美術史的説明で画家本人の発言ではない。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['期待', '喜び']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156124.jpg",
+      "sha256": "336c7b69b97b1589a455af1fc3ff6c28900538c8b9b6bad13f1fa6e3cf8cdeb8",
+      "byte_length": 111622,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/37815",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/37815/150854/main-image"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met作品37815の公式IIIF画像37815/150854/main-imageを直接開いて視認。縦長の赤枠の中央に黄地のインド文字の詩文、その下に白い小塔が並ぶ模様の建築、濃青の空。下の庭では向かって右の青い顔のクリシュナが、左側の二人の女性と向き合う。白い柱の奥に装飾のある吊り下がった寝台が見え、両側に豊かな緑と細かい花が配置される。目視で女性二人のどちらがラーダーかを衣服だけで断定しない。 Official same-object primary JPEG original/display resized RGB RMS=12.7930; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP156124.jpg",
+      "sha256": "dd500fe8c08fb7e05214ada72c53672517e485bacdd5bf19d3735156a2480fd8",
+      "byte_length": 2582478,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/37815",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/37815/150854/main-image"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met作品37815の公式IIIF画像37815/150854/main-imageを直接開いて視認。縦長の赤枠の中央に黄地のインド文字の詩文、その下に白い小塔が並ぶ模様の建築、濃青の空。下の庭では向かって右の青い顔のクリシュナが、左側の二人の女性と向き合う。白い柱の奥に装飾のある吊り下がった寝台が見え、両側に豊かな緑と細かい花が配置される。目視で女性二人のどちらがラーダーかを衣服だけで断定しない。 Official same-object primary JPEG original/display resized RGB RMS=12.7930; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #464 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}
