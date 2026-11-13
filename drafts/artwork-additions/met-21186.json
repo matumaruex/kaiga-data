@@ -1,0 +1,151 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-21186",
+  "artwork": {
+    "id": "met-21186",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 21186,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/21186",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/21186",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Studies of Native American Leaders Made at Fort Laramie",
+      "title_ja_provisional": "ララミー砦で描かれた先住民の指導者たちの習作",
+      "artist": "Albert Bierstadt",
+      "creation_date_display": "ca. 1859",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "American",
+      "accession_number": "2012.1"
+    },
+    "image": {
+      "image_id": "met-21186-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP277400.jpg",
+      "source_registry_id": "met-21186",
+      "local_path": "/artworks/met-21186.jpg",
+      "sha256": "4426cedd41f694f4f07d526e057536fc3ddf3aa8bc1e594287f8033197a91703",
+      "byte_length": 38540,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-420-422-20261113/docs/artwork-research-evidence/met-420-422-2026-11-13.json",
+      "source_accession_number": "2012.1",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP277400.jpg",
+        "sha256": "d5d609e692f2b810dce787789636c3efd00364489afcec6ea066311d4fde72ec",
+        "byte_length": 1544962,
+        "width": 3905,
+        "height": 2993,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 3.85576",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "静けさ",
+        "緊張"
+      ],
+      "themes": [
+        "共同体",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/21186",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "1859年のアメリカ先住民の四人の肖像習作から、画家が人物の表情や服装をどう捉えたか、当時の複雑な歴史とともに考えたい",
+            "reason": "Met作品別Overviewによれば、アルバート・ビアスタットは1859年6月にフレデリック・ランダー大佐の西部測量遠征隊に参加し、現在のワイオミング州にあるララミー砦に到着した。米政府とラコタ（テトン・スー）との関係が緊迫していた時期で、画家は現地で出会った先住民の人々をスケッチし、その中にこの四人の指導者の習作がある。各人の衣装と顔立ちを観察し、頭の下に名前を書いた。1863年の大型絵画《ロッキー山脈、ランダーズ・ピーク》の前景に描かれた男性の一部が、この習作に由来した可能性がある。四人が全員ラコタ族であるかなど個々の所属を一括して断定しない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "西部遠征は米国政府と先住民の緊張関係の中で行われたことを明記。四人の民族・姓名や意向を美術館Overviewにない推測で断定しない。1863年の大型作との図像の関係は可能性であり、同一作品ではない。作者の目線は画家による記録であり先住民本人の声を直接代表するものではない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによれば、アルバート・ビアスタットは1859年6月にフレデリック・ランダー大佐の西部測量遠征隊に参加し、現在のワイオミング州にあるララミー砦に到着した。米政府とラコタ（テトン・スー）との関係が緊迫していた時期で、画家は現地で出会った先住民の人々をスケッチし、その中にこの四人の指導者の習作がある。各人の衣装と顔立ちを観察し、頭の下に名前を書いた。1863年の大型絵画《ロッキー山脈、ランダーズ・ピーク》の前景に描かれた男性の一部が、この習作に由来した可能性がある。四人が全員ラコタ族であるかなど個々の所属を一括して断定しない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/21186"
+        },
+        "creation_context": "ca. 1859; United States (Fort Laramie, present-day Wyoming); Oil and graphite on paper; accession 2012.1",
+        "visual_clues": "Met APIの原寸と表示JPEGを全バイトで調査し、主画像サムネイルを直接確認。横長で薄いベージュ色の紙の上に四人の胸から上の肖像が離れて置かれている。左に横顔の男性、中央上に黄褐色の衣をまとう男性、右上に長髪の男性、下中央に赤い衣をまとった男性の正面寄りの肖像。ところどころ文字の書き込みが見え、背景はほぼ描き込まれていない。背景の欠落は未完成の失敗とは断定しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=3.8558で対応確認。",
+        "uncertainty_note": "西部遠征は米国政府と先住民の緊張関係の中で行われたことを明記。四人の民族・姓名や意向を美術館Overviewにない推測で断定しない。1863年の大型作との図像の関係は可能性であり、同一作品ではない。作者の目線は画家による記録であり先住民本人の声を直接代表するものではない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-420-422-20261113/docs/artwork-research-evidence/met-420-422-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "薄い紙の上に、四人の人物の顔と肩が、少しずつ間隔をあけて描かれています。横を向く人、正面に近い角度でこちらを見る人。服の色や髪の流れも一人ずつ違い、頭の下には名前の書き込みがあります。背景をほとんど描かないことで、視線は自然とそれぞれの顔に向かいます。\n\nこの習作は1859年、画家アルバート・ビアスタットが、現在のアメリカ・ワイオミング州にあるララミー砦で制作しました。彼は政府の西部遠征隊に同行し、そこで出会った先住民の四人の指導者を描いています。当時は、ラコタの人々とアメリカ政府との関係が緊迫していた時期でした。\n\n画家は服装や顔立ちを観察し、一人ひとりの名前も書き添えました。四年後に発表した大作《ロッキー山脈、ランダーズ・ピーク》の人物の一部は、この習作をもとにした可能性があります。ただし、この絵は画家が捉えた姿であり、描かれた人々の考えまで伝えるものではありません。それぞれの肖像を見比べながら、記録する人と記録される人の関係にも目を向けてみてください。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/21186"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-21186",
+    "title": "Studies of Native American Leaders Made at Fort Laramie",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/21186",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/21186",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP277400.jpg",
+      "sha256": "4426cedd41f694f4f07d526e057536fc3ddf3aa8bc1e594287f8033197a91703",
+      "byte_length": 38540,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-420-422-20261113/docs/artwork-research-evidence/met-420-422-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ad/original/DP277400.jpg",
+        "sha256": "d5d609e692f2b810dce787789636c3efd00364489afcec6ea066311d4fde72ec",
+        "byte_length": 1544962,
+        "width": 3905,
+        "height": 2993,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 3.85576",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2012.1"
+  }
+}

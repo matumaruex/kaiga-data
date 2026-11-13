@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-454664",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-454664.json",
+  "candidate_sha256": "430e591f2b1b34bec6c6b1bcccdbf04077c4d00c678e7f289cc87cfc5457d875",
+  "draft_path": "drafts/visitor-explanations/met-454664.json",
+  "draft_sha256": "d89a4d82c4c53879f9f8866d4551ccd3abad92ec1789dfb624c7f443087c93a5",
+  "baseline": {
+    "artworks_sha256": "11019ca311a56060814b2773a9cfb2feb12bcedb1e971d2cb8ea412ec905e938",
+    "image_registry_sha256": "69e721fb34dfbd04859d2a75df5a18107d3794a0d2b36743a4216c622e5506be"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/454664",
+      "source_excerpt": "the second volume of a seven-part Qur'an manuscript",
+      "visitor_claim": "全七巻のうち第二巻にあたります。",
+      "source_section": "Exact Met artwork Overview: second of seven volumes"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/454664",
+      "source_excerpt": "designs of Andalusian and North African tiles",
+      "visitor_claim": "アンダルシアや北アフリカの建築を飾ったタイルにも通じる",
+      "source_section": "Exact Met artwork Overview: Andalusian and North African tile comparanda"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/454664",
+      "location": "Exact artwork Overview and Object Information: Exact Met artwork Overview: second of seven volumes; Exact Met artwork Overview: Andalusian and North African tile comparanda",
+      "finding": "Met作品別Overviewによれば、この写本は七巻本『クルアーン』の第二巻で、奥付は残っていない。見開きの冒頭には複雑に入り組む幾何学的な帯模様が金・色彩で表され、アンダルシアと北アフリカのタイル装飾に近い。書き込みから、かつてマディーナでモロッコからの滞在者を受け入れていたリバート（宿泊所）の文庫に属していたと分かる。作品の制作地は『モロッコまたはスペイン南部と推定』で、マディーナで制作されたという意味ではない。媒体は羊皮紙への墨・金・不透明水彩を使った彩飾写本で単独の絵画キャンバスではない。 Actual image observation: Met公式APIの実際の原寸・表示JPEGを完全取得してSHA256、寸法、縮小RMSとともに主画像を視認。横長に開いた古い羊皮紙の見開き二ページで、左と右の中央にほぼ正方形の入り組んだ金・黄土色・赤の幾何学的な帯模様が対称に配置される。外側の余白には丸い飾り、細部には青い小さな点があり、紙面は年月で黄ばんでいる。現画像にクルアーン全巻が写るという意味ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.355で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/454664",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-420-422-20261113/docs/artwork-research-evidence/met-420-422-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/454664",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-420-422-20261113/docs/artwork-research-evidence/met-420-422-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/454664",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-454664 Section from a Qur'an Manuscript; Unidentified North African or Andalusian manuscript illuminator; ca. 1300; accession 2004.90. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式APIの実際の原寸・表示JPEGを完全取得してSHA256、寸法、縮小RMSとともに主画像を視認。横長に開いた古い羊皮紙の見開き二ページで、左と右の中央にほぼ正方形の入り組んだ金・黄土色・赤の幾何学的な帯模様が対称に配置される。外側の余白には丸い飾り、細部には青い小さな点があり、紙面は年月で黄ばんでいる。現画像にクルアーン全巻が写るという意味ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.355で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-420-422-20261113/docs/artwork-research-evidence/met-420-422-2026-11-13.json",
+      "historical_interpretation": "Met作品別Overviewによれば、この写本は七巻本『クルアーン』の第二巻で、奥付は残っていない。見開きの冒頭には複雑に入り組む幾何学的な帯模様が金・色彩で表され、アンダルシアと北アフリカのタイル装飾に近い。書き込みから、かつてマディーナでモロッコからの滞在者を受け入れていたリバート（宿泊所）の文庫に属していたと分かる。作品の制作地は『モロッコまたはスペイン南部と推定』で、マディーナで制作されたという意味ではない。媒体は羊皮紙への墨・金・不透明水彩を使った彩飾写本で単独の絵画キャンバスではない。 Limits: この品は七巻本のうちの第二巻に相当する写本で、主JPEGは冒頭の彩飾された見開きのみ。制作地はモロッコまたは南スペインのいずれかで未確定。マディーナの文庫にかつて属したことと、マディーナで制作されたかを混同しない。宗教書の意味を断定的に説明しない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['畏敬']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/DP236393.jpg",
+      "sha256": "a3d2333fa341581517512260fd33585c7d740ea01d040d02b7c97ab0bd544371",
+      "byte_length": 72514,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの実際の原寸・表示JPEGを完全取得してSHA256、寸法、縮小RMSとともに主画像を視認。横長に開いた古い羊皮紙の見開き二ページで、左と右の中央にほぼ正方形の入り組んだ金・黄土色・赤の幾何学的な帯模様が対称に配置される。外側の余白には丸い飾り、細部には青い小さな点があり、紙面は年月で黄ばんでいる。現画像にクルアーン全巻が写るという意味ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.355で対応確認。 Confirmed image belongs to Met artwork 454664, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/DP236393.jpg",
+      "sha256": "3f381453ddb74c420f9441dc2b841c82b19ea5ee36dfb452758a363c9ce51f55",
+      "byte_length": 2299656,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの実際の原寸・表示JPEGを完全取得してSHA256、寸法、縮小RMSとともに主画像を視認。横長に開いた古い羊皮紙の見開き二ページで、左と右の中央にほぼ正方形の入り組んだ金・黄土色・赤の幾何学的な帯模様が対称に配置される。外側の余白には丸い飾り、細部には青い小さな点があり、紙面は年月で黄ばんでいる。現画像にクルアーン全巻が写るという意味ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.355で対応確認。 Confirmed image belongs to Met artwork 454664, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #422; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 21186 depicts four named Indigenous leaders during tense US-Lakota relations, not necessarily all of one tribal nation; 54566 is a Japan-made work in the *style* of Lü Ji and has a forged seal and degraded pigments, contrary to simplified API author; 454664 main JPEG shows the illuminated opening of the second volume of seven, made probably in Morocco or southern Spain and later held in Medina."
+  ]
+}

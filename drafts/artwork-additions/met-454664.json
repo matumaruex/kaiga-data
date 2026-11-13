@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-454664",
+  "artwork": {
+    "id": "met-454664",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 454664,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/454664",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/454664",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Section from a Qur'an Manuscript",
+      "title_ja_provisional": "装飾された『クルアーン』写本の一巻",
+      "artist": "Unidentified North African or Andalusian manuscript illuminator",
+      "creation_date_display": "ca. 1300",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Attributed to Morocco or southern Spain",
+      "accession_number": "2004.90"
+    },
+    "image": {
+      "image_id": "met-454664-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP236393.jpg",
+      "source_registry_id": "met-454664",
+      "local_path": "/artworks/met-454664.jpg",
+      "sha256": "a3d2333fa341581517512260fd33585c7d740ea01d040d02b7c97ab0bd544371",
+      "byte_length": 72514,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-420-422-20261113/docs/artwork-research-evidence/met-420-422-2026-11-13.json",
+      "source_accession_number": "2004.90",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP236393.jpg",
+        "sha256": "3f381453ddb74c420f9441dc2b841c82b19ea5ee36dfb452758a363c9ce51f55",
+        "byte_length": 2299656,
+        "width": 3939,
+        "height": 2225,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 10.35497",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "畏敬": 1
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "時間",
+        "共同体"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/454664",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "イスラム世界の1300年頃の写本にある細かな金と色彩の幾何学装飾を眺め、タイル模様とのつながりを知りたい",
+            "reason": "Met作品別Overviewによれば、この写本は七巻本『クルアーン』の第二巻で、奥付は残っていない。見開きの冒頭には複雑に入り組む幾何学的な帯模様が金・色彩で表され、アンダルシアと北アフリカのタイル装飾に近い。書き込みから、かつてマディーナでモロッコからの滞在者を受け入れていたリバート（宿泊所）の文庫に属していたと分かる。作品の制作地は『モロッコまたはスペイン南部と推定』で、マディーナで制作されたという意味ではない。媒体は羊皮紙への墨・金・不透明水彩を使った彩飾写本で単独の絵画キャンバスではない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "この品は七巻本のうちの第二巻に相当する写本で、主JPEGは冒頭の彩飾された見開きのみ。制作地はモロッコまたは南スペインのいずれかで未確定。マディーナの文庫にかつて属したことと、マディーナで制作されたかを混同しない。宗教書の意味を断定的に説明しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによれば、この写本は七巻本『クルアーン』の第二巻で、奥付は残っていない。見開きの冒頭には複雑に入り組む幾何学的な帯模様が金・色彩で表され、アンダルシアと北アフリカのタイル装飾に近い。書き込みから、かつてマディーナでモロッコからの滞在者を受け入れていたリバート（宿泊所）の文庫に属していたと分かる。作品の制作地は『モロッコまたはスペイン南部と推定』で、マディーナで制作されたという意味ではない。媒体は羊皮紙への墨・金・不透明水彩を使った彩飾写本で単独の絵画キャンバスではない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/454664"
+        },
+        "creation_context": "ca. 1300; Attributed to Morocco or southern Spain; Ink, gold, and opaque watercolor on parchment; accession 2004.90",
+        "visual_clues": "Met公式APIの実際の原寸・表示JPEGを完全取得してSHA256、寸法、縮小RMSとともに主画像を視認。横長に開いた古い羊皮紙の見開き二ページで、左と右の中央にほぼ正方形の入り組んだ金・黄土色・赤の幾何学的な帯模様が対称に配置される。外側の余白には丸い飾り、細部には青い小さな点があり、紙面は年月で黄ばんでいる。現画像にクルアーン全巻が写るという意味ではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.355で対応確認。",
+        "uncertainty_note": "この品は七巻本のうちの第二巻に相当する写本で、主JPEGは冒頭の彩飾された見開きのみ。制作地はモロッコまたは南スペインのいずれかで未確定。マディーナの文庫にかつて属したことと、マディーナで制作されたかを混同しない。宗教書の意味を断定的に説明しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "畏敬"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-420-422-20261113/docs/artwork-research-evidence/met-420-422-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "古い羊皮紙を開いた見開きに、金色や赤、青を交えた細かな幾何学模様が並んでいます。左右の正方形の飾りはよく似ていますが、細い線を追うと幾重にも帯が組み合わされているのが分かります。縁にある丸い装飾も、中央の模様を囲むように配置されています。\n\nこれは1300年頃の『クルアーン』写本で、全七巻のうち第二巻にあたります。冒頭の華やかな見開きには、アンダルシアや北アフリカの建築を飾ったタイルにも通じる、組みひものような幾何学模様が描かれています。制作されたのはモロッコまたはスペイン南部と推定されていますが、正確には分かっていません。\n\n写本の余白に残る書き込みから、かつて聖地マディーナにある、モロッコから来た人々が宿泊する施設の文庫に収められていたことがうかがえます。ただし、それは制作地を示すものではありません。ここに見えるのは本の冒頭にある装飾見開きです。ページの中心と縁の模様を見比べながら、本の形で受け継がれてきた装飾の美しさを味わってみてください。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/454664"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-454664",
+    "title": "Section from a Qur'an Manuscript",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/454664",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/454664",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP236393.jpg",
+      "sha256": "a3d2333fa341581517512260fd33585c7d740ea01d040d02b7c97ab0bd544371",
+      "byte_length": 72514,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-420-422-20261113/docs/artwork-research-evidence/met-420-422-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP236393.jpg",
+        "sha256": "3f381453ddb74c420f9441dc2b841c82b19ea5ee36dfb452758a363c9ce51f55",
+        "byte_length": 2299656,
+        "width": 3939,
+        "height": 2225,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 10.35497",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2004.90"
+  }
+}
