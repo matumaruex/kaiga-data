@@ -1,0 +1,169 @@
+{
+  "checked_on": "2026-11-13",
+  "method": "Live Met API primary original/display full JPEG SHA256/size and RGB correspondence; exact Met artwork Overview read directly. Official Met original JPEG for met-45734, and official Met IIIF images for met-438009/796161 and met-10482/34224 were directly viewed. Direct Met IIIF for met-45734 timed out, and this is noted individually. CI verifies each official Met API original/display JPEG pair.",
+  "artworks": [
+    {
+      "id": "met-45734",
+      "objectID": 45734,
+      "title": "Quail and Millet",
+      "artist": "Kiyohara Yukinobu",
+      "date": "late 17th century",
+      "accession": "36.100.45",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/45734",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45734",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/45734",
+          "source_excerpt": "one of the few known female painters of the Edo period",
+          "visitor_claim": "雪信は、当時の日本で名前が伝わる数少ない女性画家の一人。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/45734",
+          "source_excerpt": "delicate hint of domestic harmony in the disposition of the quail",
+          "visitor_claim": "メトロポリタン美術館は、二羽の鶉の配置と揺れる粟の茎に、家庭の穏やかな調和を感じ取っています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "Met公式作品ページの作品個別画像からリンクされたMet公式original JPEG https://images.metmuseum.org/CRDImages/as/original/DP251139.jpg を直接開いて視認した。縦長の絹本掛軸の中央上部には広い淡黄の余白。右上から長く細い粟の葉と穂が曲がり、右下の地面に茶色い斑点を持つ鶉が直立し、その左の淡い色の鶉は体を丸め頭を下げている。二羽の足元には細い草や小さな点描、右下に墨書と朱印。遠近のある山や大きな家屋を付け加えない。Met IIIF 45734/188321/main-image は検索ツールから時間切れで表示できなかったため、実際に直接視認した公式original JPEGを視覚証拠とする。",
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/45734",
+        "https://images.metmuseum.org/CRDImages/as/original/DP251139.jpg"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP251139.jpg",
+          "sha256": "2c3ff57c7ca7bc06b2eb8d3a14c1c0a0c85276a3e4d09bf92f0edfd43de09fcd",
+          "byte_length": 38711,
+          "size_px": [
+            299,
+            623
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP251139.jpg",
+          "sha256": "9afbcc5d53486a12c1a86666ee1accb4b3e8fe2e724a74a42294be96e18f2cdf",
+          "byte_length": 1425773,
+          "size_px": [
+            1916,
+            3992
+          ]
+        }
+      ],
+      "resized_rgb_rms": 4.9216
+    },
+    {
+      "id": "met-438009",
+      "objectID": 438009,
+      "title": "The Pink Dress (Albertie-Marguerite Carré, later Madame Ferdinand-Henri Himmes, 1854–1935)",
+      "artist": "Berthe Morisot",
+      "date": "ca. 1870",
+      "accession": "2003.20.8",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/438009",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/438009",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/438009",
+          "source_excerpt": "witnessed this painting being made at the Villa Fodor",
+          "visitor_claim": "肖像画家ジャック＝エミール・ブランシュは、カレの家族の住まいで、この絵が制作される様子を目撃したと記しています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/438009",
+          "source_excerpt": "But the painting required several sessions, since Morisot",
+          "visitor_claim": "けれどもブランシュの証言によれば、制作は数回に分かれ、モリゾは描いた部分に何度も手を入れたそうです。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "Met公式作品ページのIIIF 438009/796161/main-image を直接開いて確認。横長油彩画。髪を高く結い上げた若い女性が淡いピンクのフリルのある長衣を着て、淡い青灰色のソファに正面向きで座る。向かって左奥のテーブル上には赤い花を交えた葉の多い花瓶、画面右側には黄いろい点模様のある青灰色のクッション、片腕がそこにのせられている。もう片方の手は膝に下がり、首元に黒い細い帯がある。上半分には褐色・灰色の暗い壁を置き、衣装の明るさが目立つ。輪郭や布に緩く素早い筆触が見えるが制作が一回で済んだとは推定しない。",
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/438009",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/438009/796161/main-image"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1927.jpg",
+          "sha256": "9a3d6336e8316fccdf62112dcd2f9c0cff77a73ae60060262eea29c93f71d977",
+          "byte_length": 111235,
+          "size_px": [
+            599,
+            487
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1927.jpg",
+          "sha256": "7505dd7d09ea07bafc339b8081a76859e4db88f1f87a954b15de623b05b73e02",
+          "byte_length": 3355594,
+          "size_px": [
+            3807,
+            3095
+          ]
+        }
+      ],
+      "resized_rgb_rms": 6.7737
+    },
+    {
+      "id": "met-10482",
+      "objectID": 10482,
+      "title": "The Parthenon",
+      "artist": "Frederic Edwin Church",
+      "date": "1871",
+      "accession": "15.30.67",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/10482",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/10482",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/10482",
+          "source_excerpt": "visited Greece in 1869 and spent several weeks in Athens",
+          "visitor_claim": "チャーチは1869年にギリシャを訪れ、アテネで数週間かけて遺跡をスケッチしました。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/10482",
+          "source_excerpt": "Church designed the painting’s impressive frame",
+          "visitor_claim": "画家はこの絵のために額のデザインまで手がけました。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "Met公式作品ページのIIIF 10482/34224/main-image を直接開いて視認。横長の油絵。画面の左寄り中景にパルテノン神殿の長いドーリア式列柱、夕方に近い赤褐色の光に染まる外壁。画面の手前には巨大な円柱の輪切りのような石材と割れた柱頭・石塊が散乱。右端に巨大な一本の古代の柱が画面の上下を貫き、遠くの神殿を縁取る。空は鈍い青、右奥に裸の丘。絵の奥の小さな人影は視認しづらいので人口規模や人物の役割を断定しない。実際の額は画像の画面外で、画中に額を描いたとは書かない。",
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/10482",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/10482/34224/main-image"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT1540.jpg",
+          "sha256": "8b1be321f38f35e9cedf17e20011925ed6c04285e6970501bb8cd6241782ba6b",
+          "byte_length": 67201,
+          "size_px": [
+            599,
+            370
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DT1540.jpg",
+          "sha256": "add3bab1e2a11349c11c5f9ae4a5c89eb30acb24877ae047ad520e67af3fedd4",
+          "byte_length": 2023989,
+          "size_px": [
+            3811,
+            2356
+          ]
+        }
+      ],
+      "resized_rgb_rms": 7.5432
+    }
+  ],
+  "limitations": [
+    "Same AI review, not an independent human/expert",
+    "Per-work visual-reference provenance and limitations documented; official Met original/display JPEGs downloaded and RGB correspondence checked"
+  ]
+}

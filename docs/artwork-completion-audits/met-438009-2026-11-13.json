@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-438009",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-438009.json",
+  "candidate_sha256": "c12ee790204563074192b8d92158330b58adb0630db1a5f262a50036006b05d1",
+  "draft_path": "drafts/visitor-explanations/met-438009.json",
+  "draft_sha256": "1e7d66408a278d3eb1f703c0e0df959babaa05d31c8dd6b26cc55b55ccd5f454",
+  "baseline": {
+    "artworks_sha256": "b5a0eefdb1215e96ee71ade93fe08cde52a7dbffa50d8d744abf6429f3059bf1",
+    "image_registry_sha256": "64bc68f2cd088f59abda57425b2e1dc012618b181b56216d5cce033cf1744566"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/438009",
+      "source_excerpt": "witnessed this painting being made at the Villa Fodor",
+      "visitor_claim": "肖像画家ジャック＝エミール・ブランシュは、カレの家族の住まいで、この絵が制作される様子を目撃したと記しています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/438009",
+      "source_excerpt": "But the painting required several sessions, since Morisot",
+      "visitor_claim": "けれどもブランシュの証言によれば、制作は数回に分かれ、モリゾは描いた部分に何度も手を入れたそうです。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/438009",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "Met作品438009《The Pink Dress》（ca.1870）の作品固有のOverviewを直接確認。画家ベルト・モリゾが、若い女性アルベルティ＝マルグリット・カレを家族の屋敷Villa Fodorで描いた初期作の一つ。肖像画家ジャック＝エミール・ブランシュは制作をその場で目撃し、モデルの淡いピンクの服と画面全体の明るさに言及している。彼は制作に数回の座り直しがあり、モリゾが何度も描き直したとも述べる。したがって一日で描いた即興の絵とは説明しない。画面は淡い青灰色の長椅子に座る若い女性が、襞の多いピンクのドレスをまとい、画面左側の花瓶、左手を置いた膝、右手を預けた柄のあるクッション、淡い壁面・暗い奥の対比で構成される。人物が内省的か緊張しているかは受け手の印象でありモデルの内心を確定できない。Metは作品を作者の現存する数少ない初期作の一つとする。 Visual: Met公式作品ページのIIIF 438009/796161/main-image を直接開いて確認。横長油彩画。髪を高く結い上げた若い女性が淡いピンクのフリルのある長衣を着て、淡い青灰色のソファに正面向きで座る。向かって左奥のテーブル上には赤い花を交えた葉の多い花瓶、画面右側には黄いろい点模様のある青灰色のクッション、片腕がそこにのせられている。もう片方の手は膝に下がり、首元に黒い細い帯がある。上半分には褐色・灰色の暗い壁を置き、衣装の明るさが目立つ。輪郭や布に緩く素早い筆触が見えるが制作が一回で済んだとは推定しない。 Limits: ジャック＝エミール・ブランシュはこの絵の作者ではなく制作を目撃した画家として紹介する。屋敷Villa Fodorはモデルの家族の住居。人物名はメトロポリタン美術館の題名どおりアルベルティ＝マルグリット・カレ（のちのヒメス夫人）。現行の作品年は『ca.1870』とする。ブランシュの証言は後の記録であり、それを元に作者の心理や具体的な制作回数を確定しない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/438009",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-438009: API objectID=438009, primary JPEG full downloaded and verified; RMS=6.7737",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/438009",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=6.7737."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/438009",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and the artwork-specific visual sources: official Met original JPEG for met-45734 (Met IIIF timed out), and direct official IIIF for met-438009 (796161) and met-10482 (34224), plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-438009 The Pink Dress (Albertie-Marguerite Carré, later Madame Ferdinand-Henri Himmes, 1854–1935) / Berthe Morisot / ca. 1870 / 2003.20.8",
+      "image_match": "Met公式作品ページのIIIF 438009/796161/main-image を直接開いて確認。横長油彩画。髪を高く結い上げた若い女性が淡いピンクのフリルのある長衣を着て、淡い青灰色のソファに正面向きで座る。向かって左奥のテーブル上には赤い花を交えた葉の多い花瓶、画面右側には黄いろい点模様のある青灰色のクッション、片腕がそこにのせられている。もう片方の手は膝に下がり、首元に黒い細い帯がある。上半分には褐色・灰色の暗い壁を置き、衣装の明るさが目立つ。輪郭や布に緩く素早い筆触が見えるが制作が一回で済んだとは推定しない。 Both primary JPEG variants fully downloaded and match (RMS=6.7737).",
+      "historical_interpretation": "Met作品438009《The Pink Dress》（ca.1870）の作品固有のOverviewを直接確認。画家ベルト・モリゾが、若い女性アルベルティ＝マルグリット・カレを家族の屋敷Villa Fodorで描いた初期作の一つ。肖像画家ジャック＝エミール・ブランシュは制作をその場で目撃し、モデルの淡いピンクの服と画面全体の明るさに言及している。彼は制作に数回の座り直しがあり、モリゾが何度も描き直したとも述べる。したがって一日で描いた即興の絵とは説明しない。画面は淡い青灰色の長椅子に座る若い女性が、襞の多いピンクのドレスをまとい、画面左側の花瓶、左手を置いた膝、右手を預けた柄のあるクッション、淡い壁面・暗い奥の対比で構成される。人物が内省的か緊張しているかは受け手の印象でありモデルの内心を確定できない。Metは作品を作者の現存する数少ない初期作の一つとする。 Cautions: ジャック＝エミール・ブランシュはこの絵の作者ではなく制作を目撃した画家として紹介する。屋敷Villa Fodorはモデルの家族の住居。人物名はメトロポリタン美術館の題名どおりアルベルティ＝マルグリット・カレ（のちのヒメス夫人）。現行の作品年は『ca.1870』とする。ブランシュの証言は後の記録であり、それを元に作者の心理や具体的な制作回数を確定しない。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['好奇心', '懐かしさ']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1927.jpg",
+      "sha256": "9a3d6336e8316fccdf62112dcd2f9c0cff77a73ae60060262eea29c93f71d977",
+      "byte_length": 111235,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/438009",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/438009/796161/main-image"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met公式作品ページのIIIF 438009/796161/main-image を直接開いて確認。横長油彩画。髪を高く結い上げた若い女性が淡いピンクのフリルのある長衣を着て、淡い青灰色のソファに正面向きで座る。向かって左奥のテーブル上には赤い花を交えた葉の多い花瓶、画面右側には黄いろい点模様のある青灰色のクッション、片腕がそこにのせられている。もう片方の手は膝に下がり、首元に黒い細い帯がある。上半分には褐色・灰色の暗い壁を置き、衣装の明るさが目立つ。輪郭や布に緩く素早い筆触が見えるが制作が一回で済んだとは推定しない。 Official same-object primary JPEG original/display resized RGB RMS=6.7737; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DT1927.jpg",
+      "sha256": "7505dd7d09ea07bafc339b8081a76859e4db88f1f87a954b15de623b05b73e02",
+      "byte_length": 3355594,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/438009",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/438009/796161/main-image"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met公式作品ページのIIIF 438009/796161/main-image を直接開いて確認。横長油彩画。髪を高く結い上げた若い女性が淡いピンクのフリルのある長衣を着て、淡い青灰色のソファに正面向きで座る。向かって左奥のテーブル上には赤い花を交えた葉の多い花瓶、画面右側には黄いろい点模様のある青灰色のクッション、片腕がそこにのせられている。もう片方の手は膝に下がり、首元に黒い細い帯がある。上半分には褐色・灰色の暗い壁を置き、衣装の明るさが目立つ。輪郭や布に緩く素早い筆触が見えるが制作が一回で済んだとは推定しない。 Official same-object primary JPEG original/display resized RGB RMS=6.7737; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #466 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}
