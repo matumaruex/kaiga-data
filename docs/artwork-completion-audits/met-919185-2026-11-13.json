@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-919185",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-919185.json",
+  "candidate_sha256": "af26e9d94890af3f3d824421c077a9f82a8e9e64d29cf5d435c0d7a926f23a81",
+  "draft_path": "drafts/visitor-explanations/met-919185.json",
+  "draft_sha256": "70d39ff892bf2bd9b29d4db8e94402bfd1b15abbe3e22c2773b240957a37f985",
+  "baseline": {
+    "artworks_sha256": "18a08656ef1f559e561eaae1bd2b4b2f49158c17bd2164a0b30b42aa22ced626",
+    "image_registry_sha256": "5ce9ba71ebef6c2db59d9897f92d3562f8f3d30cb95b848496e555448397227d"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/919185",
+      "source_excerpt": "This oil-on-canvas painting depicts two Qajar beauties, possibly sisters.",
+      "visitor_claim": "女性たちは姉妹かもしれませんが、誰なのかは分かっていません。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/919185",
+      "source_excerpt": "imported Western cut-crystal goblet and decanter they hold",
+      "visitor_claim": "手元には、西洋からもたらされたカットガラスの杯とデカンタが描かれています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/919185",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "メトロポリタン美術館の作品別Overviewによれば、19世紀第2四半期のイラン・ガージャール朝の女性を二人並べた油彩画。姉妹である可能性はあるが身元の特定できる肖像ではない。真珠や宝石を散りばめた衣装と髪飾り、輸入品の西洋製カットガラスのグラス・デカンタによって宮廷の女性の華やかな装いが示される。美術館は、当時しばしば描かれたハーレムの女性や芸能者というより、宮廷に属する女性像だろうと解釈している。アーモンド形の目、つながった眉、すぼめた唇、ほくろと衣装の描写に基づき年代が推定されている。姉妹の血縁や実在のモデルは確定していない。 Visual: Met作品919185の所蔵館作品ページとリンク先の公式主画像を照合。暗緑色に近い背景の前に二人の女性が肩を寄せて立ち、向かって左は赤い袖の衣装、右は黒っぽい衣装。二人とも額のまわりに宝石飾り、首には白い真珠の列、胸元には彩色豊かな花模様を持つ。中央の手元に透明な器物と小ぶりの容器を持つ。左右の人物の関係は画面だけでは断定できない。 Limits: 『姉妹』は所蔵館も可能性に留める。特定人物の肖像画だとは記さない。女性を『ハーレムの住人』『踊り子』と断定しない。西洋製ガラス器は所蔵館が輸入品と説明するもので、制作場所や交易経路の詳細は不明。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/919185",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-919185: API objectID=919185, primary JPEG full downloaded and verified; RMS=10.3115",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/919185",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=10.3115."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/919185",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and each actual official object-linked Met IIIF image, plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-919185 Two Beauties / Unknown artist / second quarter of the 19th century / 2024.572",
+      "image_match": "Met作品919185の所蔵館作品ページとリンク先の公式主画像を照合。暗緑色に近い背景の前に二人の女性が肩を寄せて立ち、向かって左は赤い袖の衣装、右は黒っぽい衣装。二人とも額のまわりに宝石飾り、首には白い真珠の列、胸元には彩色豊かな花模様を持つ。中央の手元に透明な器物と小ぶりの容器を持つ。左右の人物の関係は画面だけでは断定できない。 Both primary JPEG variants fully downloaded and match (RMS=10.3115).",
+      "historical_interpretation": "メトロポリタン美術館の作品別Overviewによれば、19世紀第2四半期のイラン・ガージャール朝の女性を二人並べた油彩画。姉妹である可能性はあるが身元の特定できる肖像ではない。真珠や宝石を散りばめた衣装と髪飾り、輸入品の西洋製カットガラスのグラス・デカンタによって宮廷の女性の華やかな装いが示される。美術館は、当時しばしば描かれたハーレムの女性や芸能者というより、宮廷に属する女性像だろうと解釈している。アーモンド形の目、つながった眉、すぼめた唇、ほくろと衣装の描写に基づき年代が推定されている。姉妹の血縁や実在のモデルは確定していない。 Cautions: 『姉妹』は所蔵館も可能性に留める。特定人物の肖像画だとは記さない。女性を『ハーレムの住人』『踊り子』と断定しない。西洋製ガラス器は所蔵館が輸入品と説明するもので、制作場所や交易経路の詳細は不明。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['好奇心', '畏敬']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/LC-2024_572.jpg",
+      "sha256": "1d330928e7b5a43748737cc51d8954de35ecfd85a23abd749bdb53f46c68631d",
+      "byte_length": 136800,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met作品919185の所蔵館作品ページとリンク先の公式主画像を照合。暗緑色に近い背景の前に二人の女性が肩を寄せて立ち、向かって左は赤い袖の衣装、右は黒っぽい衣装。二人とも額のまわりに宝石飾り、首には白い真珠の列、胸元には彩色豊かな花模様を持つ。中央の手元に透明な器物と小ぶりの容器を持つ。左右の人物の関係は画面だけでは断定できない。 Official same-object primary JPEG original/display resized RGB RMS=10.3115; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/LC-2024_572.jpg",
+      "sha256": "f5a810cbb36fccd375f7506329829f9ed5c798927834aa189344ef9bc52d2508",
+      "byte_length": 145815,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met作品919185の所蔵館作品ページとリンク先の公式主画像を照合。暗緑色に近い背景の前に二人の女性が肩を寄せて立ち、向かって左は赤い袖の衣装、右は黒っぽい衣装。二人とも額のまわりに宝石飾り、首には白い真珠の列、胸元には彩色豊かな花模様を持つ。中央の手元に透明な器物と小ぶりの容器を持つ。左右の人物の関係は画面だけでは断定できない。 Official same-object primary JPEG original/display resized RGB RMS=10.3115; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #444 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official object-linked Met IIIF image was opened directly for each of the three works, then official API primary display/original JPEGs were verified.",
+    "No claims of human approval or expert rights review."
+  ]
+}

@@ -54088,6 +54088,380 @@
         "audit_sha256": "1b8b8a7ea4ad87e5ac3d48921ca5a5bde13e26f6deedec638ad5f40007c0579f",
         "record_sha256": "6ec641a7fb9ce092421562841178c19e632ba69f7e3523a83dcaeeb0743ff280"
       }
+    },
+    {
+      "id": "met-919185",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 919185,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/919185",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/919185",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Two Beauties",
+        "title_ja_provisional": "二人の美女",
+        "artist": "Unknown artist",
+        "creation_date_display": "second quarter of the 19th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Iran",
+        "accession_number": "2024.572"
+      },
+      "image": {
+        "image_id": "met-919185-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/LC-2024_572.jpg",
+        "source_registry_id": "met-919185",
+        "local_path": "/artworks/met-919185.jpg",
+        "sha256": "1d330928e7b5a43748737cc51d8954de35ecfd85a23abd749bdb53f46c68631d",
+        "byte_length": 136800,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "2024.572",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/LC-2024_572.jpg",
+          "sha256": "f5a810cbb36fccd375f7506329829f9ed5c798927834aa189344ef9bc52d2508",
+          "byte_length": 145815,
+          "width": 396,
+          "height": 718,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=10.3115",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心",
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2,
+          "畏敬": 1
+        },
+        "tones": [
+          "落ち着き"
+        ],
+        "themes": [
+          "他者との距離",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/919185",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "装飾豊かな衣装と装身具を細かく見比べ、近代イランの宮廷女性の表象と輸入ガラス器の取り合わせを楽しみたい",
+              "reason": "メトロポリタン美術館の作品別Overviewによれば、19世紀第2四半期のイラン・ガージャール朝の女性を二人並べた油彩画。姉妹である可能性はあるが身元の特定できる肖像ではない。真珠や宝石を散りばめた衣装と髪飾り、輸入品の西洋製カットガラスのグラス・デカンタによって宮廷の女性の華やかな装いが示される。美術館は、当時しばしば描かれたハーレムの女性や芸能者というより、宮廷に属する女性像だろうと解釈している。アーモンド形の目、つながった眉、すぼめた唇、ほくろと衣装の描写に基づき年代が推定されている。姉妹の血縁や実在のモデルは確定していない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "『姉妹』は所蔵館も可能性に留める。特定人物の肖像画だとは記さない。女性を『ハーレムの住人』『踊り子』と断定しない。西洋製ガラス器は所蔵館が輸入品と説明するもので、制作場所や交易経路の詳細は不明。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "メトロポリタン美術館の作品別Overviewによれば、19世紀第2四半期のイラン・ガージャール朝の女性を二人並べた油彩画。姉妹である可能性はあるが身元の特定できる肖像ではない。真珠や宝石を散りばめた衣装と髪飾り、輸入品の西洋製カットガラスのグラス・デカンタによって宮廷の女性の華やかな装いが示される。美術館は、当時しばしば描かれたハーレムの女性や芸能者というより、宮廷に属する女性像だろうと解釈している。アーモンド形の目、つながった眉、すぼめた唇、ほくろと衣装の描写に基づき年代が推定されている。姉妹の血縁や実在のモデルは確定していない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/919185"
+          },
+          "creation_context": "second quarter of the 19th century; Iran; Oil on canvas; accession 2024.572",
+          "visual_clues": "Met作品919185の所蔵館作品ページとリンク先の公式主画像を照合。暗緑色に近い背景の前に二人の女性が肩を寄せて立ち、向かって左は赤い袖の衣装、右は黒っぽい衣装。二人とも額のまわりに宝石飾り、首には白い真珠の列、胸元には彩色豊かな花模様を持つ。中央の手元に透明な器物と小ぶりの容器を持つ。左右の人物の関係は画面だけでは断定できない。",
+          "uncertainty_note": "『姉妹』は所蔵館も可能性に留める。特定人物の肖像画だとは記さない。女性を『ハーレムの住人』『踊り子』と断定しない。西洋製ガラス器は所蔵館が輸入品と説明するもので、制作場所や交易経路の詳細は不明。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": [
+            "畏敬"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met's exact artwork-specific Overview and official linked IIIF image read and inspected directly in source-review pass; official full JPEG bytes checked in CI. Same AI, not human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "暗い背景の前に、宝石で飾られた二人の女性が肩を寄せています。赤い袖と黒い衣装の対比、額を囲む髪飾り、幾重にも連なる真珠の首飾り。細部を見ていくと、衣服の華やかさに目を奪われます。\n\n19世紀前半、イランのガージャール朝時代に描かれた《二人の美女》です。女性たちは姉妹かもしれませんが、誰なのかは分かっていません。手元には、西洋からもたらされたカットガラスの杯とデカンタが描かれています。\n\nメトロポリタン美術館は、二人が実在の特定人物というより、宮廷の女性の優雅さを表した像だと考えています。つながった眉や小さく結ばれた唇、衣装の模様も、この絵の年代を考える手がかりです。まずは二人の表情を見比べ、次に手元のガラス器や細かな装飾へと視線を動かしてみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/919185"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-919185-2026-11-13.json",
+        "audit_sha256": "51e9c2221af4172c4b284ac1faf9ddfec4490ee4fab3de295fc119c05f61a0fe",
+        "record_sha256": "6861a910eb6883a186ef3cd4ca60dfcac5bd011cc30ded85b53277bba379f768"
+      }
+    },
+    {
+      "id": "met-73259",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 73259,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/73259",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/73259",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Maharaja Baghji with Courtiers and His Infant Son",
+        "title_ja_provisional": "廷臣と幼い息子に囲まれたマハラジャ・バグジ",
+        "artist": "Ala Bagas",
+        "creation_date_display": "ca. 1750",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India (Rajasthan, Mewar)",
+        "accession_number": "2006.286"
+      },
+      "image": {
+        "image_id": "met-73259-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-42642-001.jpg",
+        "source_registry_id": "met-73259",
+        "local_path": "/artworks/met-73259.jpg",
+        "sha256": "7c6537a64d4ca23e7a80f685bb1edc41788784b250db42f9df9a0ad1c1bd2972",
+        "byte_length": 213835,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "2006.286",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-42642-001.jpg",
+          "sha256": "b234245406f86e05e3e3fa7f17f013122fb4a91cbc910771410942a3b9f413e0",
+          "byte_length": 3088098,
+          "width": 2343,
+          "height": 3412,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=11.1244",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心",
+          "慈しみ"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2,
+          "慈しみ": 1
+        },
+        "tones": [
+          "にぎわい"
+        ],
+        "themes": [
+          "共同体",
+          "日常",
+          "愛情"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/73259",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "華やかな宮廷の絵で、貴人の衣装や敷物の意匠から小さな子どもの玩具までじっくり観察したい",
+              "reason": "メトロポリタン美術館の作品別Overviewによると、1750年ごろインド・ラージャスターン地方メーワールでアラ・バガスが制作した宮廷細密画。1710～1734年に統治したマハラジャ・バグジが、宮殿の部屋で廷臣・楽師とともに座り、幼い息子がおもちゃの数々で遊んでいる。王の在位と制作年には差があり、この絵は必ずしも治世中の現場写生ではない。画面の織物、敷物、日用品の細密な描写が豊か。描かれた子の具体的身元や画家の感情は根拠なしに確定しない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "王は1710～34年に統治した人物で、絵の制作は約1750年とされるため、制作時点に王が健在だったと誤認させない。幼子の名は資料上不明。王の個人的な心情や楽師が奏でていた曲を作り出さない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "メトロポリタン美術館の作品別Overviewによると、1750年ごろインド・ラージャスターン地方メーワールでアラ・バガスが制作した宮廷細密画。1710～1734年に統治したマハラジャ・バグジが、宮殿の部屋で廷臣・楽師とともに座り、幼い息子がおもちゃの数々で遊んでいる。王の在位と制作年には差があり、この絵は必ずしも治世中の現場写生ではない。画面の織物、敷物、日用品の細密な描写が豊か。描かれた子の具体的身元や画家の感情は根拠なしに確定しない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/73259"
+          },
+          "creation_context": "ca. 1750; India (Rajasthan, Mewar); Ink, opaque watercolor, silver and gold on paper; accession 2006.286",
+          "visual_clues": "Met作品73259の所蔵館作品画像を視認。縦長画面の中央に赤・橙色の模様ある衣を着た貴人が大きな丸い座布団のような物の前に座り、足元に小さな子どもと玩具が描かれる。画面左右に男性たちが配置され、上半分を宮殿の白い壁、青いアーチ、飾りのある寝台や椅子が占める。敷物や器に細かな意匠がある。個々の人物の実名は公式解説の範囲のみ。",
+          "uncertainty_note": "王は1710～34年に統治した人物で、絵の制作は約1750年とされるため、制作時点に王が健在だったと誤認させない。幼子の名は資料上不明。王の個人的な心情や楽師が奏でていた曲を作り出さない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": [
+            "慈しみ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met's exact artwork-specific Overview and official linked IIIF image read and inspected directly in source-review pass; official full JPEG bytes checked in CI. Same AI, not human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "赤い衣装の人物を囲むように、廷臣や楽師が並んでいます。舞台のように整えられた宮殿の部屋には、白い壁と青いアーチ、模様の細かな敷物や布が重なり、見る場所ごとに新しい飾りが見つかります。\n\n中央に座るのはインドのマハラジャ・バグジ。1750年ごろ、画家アラ・バガスが描いた宮廷の一場面です。王の周囲には廷臣と楽師たちが集まり、足元では幼い息子がおもちゃを並べて遊んでいます。\n\nこの絵が制作されたのは、バグジの在位期間より後とされています。目の前の出来事をその場で記録したものと決めつけず、宮廷の暮らしをどのように見せようとした絵なのかを想像すると、違った見え方がしてきます。豪華な布地と、足元の小さなおもちゃの対比にも注目してみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/73259"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-73259-2026-11-13.json",
+        "audit_sha256": "b1938f7d3459dfd9a6f75598530bcb6161be8b20285a10c02bac59605b729a64",
+        "record_sha256": "29b6750c825600ab40699a27355180505701be2427fb5515f67382d602db950a"
+      }
+    },
+    {
+      "id": "met-74813",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 74813,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/74813",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/74813",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Shakyamuni triad",
+        "title_ja_provisional": "釈迦三尊図",
+        "artist": "Unidentified artist",
+        "creation_date_display": "1565",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Korea",
+        "accession_number": "2015.300.298"
+      },
+      "image": {
+        "image_id": "met-74813-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP355788.jpg",
+        "source_registry_id": "met-74813",
+        "local_path": "/artworks/met-74813.jpg",
+        "sha256": "d7e596486882a81c8ecbf28d66632c2b380d5a74f54dbc9fb7d89e0f8b99dcaa",
+        "byte_length": 66164,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "2015.300.298",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP355788.jpg",
+          "sha256": "892cc5d8d4d60a129b752214c8c9ef762580410f8d6de1af71df8c2026467835",
+          "byte_length": 3118261,
+          "width": 2616,
+          "height": 3880,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=6.2464",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬",
+          "希望"
+        ],
+        "emotion_strengths": {
+          "畏敬": 2,
+          "希望": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "共同体",
+          "愛情"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/74813",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "金色の筆致や三尊の姿から朝鮮王朝の王室仏教を知り、祈願のための大規模な仏画制作という歴史に触れたい",
+              "reason": "メトロポリタン美術館の作品別Overviewによると、1565年、朝鮮王朝の宮廷で文定王后が発願した仏画の一つ。中央には歴史上の仏陀である釈迦が坐し、向かって両側に知恵を象徴する文殊菩薩と信者を守護するとされる普賢菩薩が配される。ふつうの持物である獅子と象は描かれない。金色の銘文により、文定王后が息子・明宗の健康を祈り、王世子誕生と会厳寺復興を祝うために制作させたとされる。釈迦、弥勒、薬師、阿弥陀の4種の三尊を各100点、計400点制作した大規模な奉納の一部。現存数はわずか。仏教が政策上は抑制された時代にも王室の信仰が重要だったという所蔵館の見方に依拠する。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作者は不明、王后自身が描いた作品ではない。制作400点は同じ釈迦三尊が400という意味ではなく、4種の三尊を各100点。『獅子・象がない』は図像上の特徴で、文殊と普賢がいないことを意味しない。宗教的な祈りの効力や政治家の内心を保証しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "メトロポリタン美術館の作品別Overviewによると、1565年、朝鮮王朝の宮廷で文定王后が発願した仏画の一つ。中央には歴史上の仏陀である釈迦が坐し、向かって両側に知恵を象徴する文殊菩薩と信者を守護するとされる普賢菩薩が配される。ふつうの持物である獅子と象は描かれない。金色の銘文により、文定王后が息子・明宗の健康を祈り、王世子誕生と会厳寺復興を祝うために制作させたとされる。釈迦、弥勒、薬師、阿弥陀の4種の三尊を各100点、計400点制作した大規模な奉納の一部。現存数はわずか。仏教が政策上は抑制された時代にも王室の信仰が重要だったという所蔵館の見方に依拠する。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/74813"
+          },
+          "creation_context": "1565; Korea; Hanging scroll; color and gold on silk; accession 2015.300.298",
+          "visual_clues": "Met作品74813の公式作品別IIIF主画像を直接開いて視認。縦長の掛け軸で、褐色の暗い地に中央上部の釈迦如来が大きく座り、左右下部に少し小さな二人の菩薩が立つ。釈迦の顔や手、光背が金色、赤・緑の衣の文様は細かく、脇の背景には縦の金文字。獅子と象は主画面に見えない。画像中の銘文は翻刻せず、Met作品解説を情報源とする。",
+          "uncertainty_note": "作者は不明、王后自身が描いた作品ではない。制作400点は同じ釈迦三尊が400という意味ではなく、4種の三尊を各100点。『獅子・象がない』は図像上の特徴で、文殊と普賢がいないことを意味しない。宗教的な祈りの効力や政治家の内心を保証しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "畏敬"
+          ],
+          "secondary": [
+            "希望"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met's exact artwork-specific Overview and official linked IIIF image read and inspected directly in source-review pass; official full JPEG bytes checked in CI. Same AI, not human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "暗い地の中央に釈迦が座り、左右には二人の菩薩が立っています。金色の光背や細い衣の模様が、赤や緑の彩色と重なり、静かな画面に独特の輝きを生み出しています。\n\n1565年の朝鮮王朝で描かれた《釈迦三尊図》です。釈迦の左右にいるのは文殊菩薩と普賢菩薩。二人は通常結びつけられる獅子や象を伴わず、すらりとした姿で表現されています。\n\n画中の金色の銘文によると、この絵は文定王后が息子の明宗の健康を祈り、王世子の誕生や会厳寺の復興を祝うために制作を命じたものです。釈迦だけでなく弥勒・薬師・阿弥陀を表す三尊も含め、計400点の仏画が作られたとされますが、残るのはわずかです。上から下へ三尊の姿をたどると、一枚の絵に込められた当時の王室の信仰の大きさが伝わってきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/74813"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-74813-2026-11-13.json",
+        "audit_sha256": "8f4e1af2604639605f24ee18dd819a99ea1de38737b9a86a51b0c8635c8a94bd",
+        "record_sha256": "27b260e1309d605bea90ff2382b34b4dd4e9ba7ba49bfd8656066a23d91d19ba"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
