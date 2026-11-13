@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-437333",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-437333.json",
+  "candidate_sha256": "78a6ca98de965f666ebdb4ba61a39aba889e3f68c64d3801375f8786a5c0f1d0",
+  "draft_path": "drafts/visitor-explanations/met-437333.json",
+  "draft_sha256": "d8caffacba38ef1fea1c2245432163693fc1ab9cbc76bfaec4ed8be8e8e090fe",
+  "baseline": {
+    "artworks_sha256": "2e58f49743d1b50d9f6119171c14211c32afe35827ea2186ffb0f1028d9c7248",
+    "image_registry_sha256": "e4df24969f32c72180f364cef89fb7659bec938f5d753dc391a8dd84ef0eb70a"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437333",
+      "source_excerpt": "Pilate has been given monumental form in this rare depiction",
+      "visitor_claim": "画面の中央でピラトは大きく描かれ、手を洗うしぐさに視線が集まります。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437333",
+      "source_excerpt": "The young African attendant is given a central role",
+      "visitor_claim": "若いアフリカ系の従者は構図の中心近くに置かれ、その表情も物語の重みを伝えています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437333",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "Met作品別Overviewはマタイによる福音書のピラトの手洗いを説明し、キリストが背景で十字架へ向かう様子と、大きく描かれたピラトだけでなく隣の若いアフリカ系の従者の中心性を評価。1663年、マルタで制作された画面。マルタの地中海奴隷交易と多民族状況に触れ、画家プレーティの家に1668年に『エチオピア人』と記載された被奴隷者3人がいた記録も挙げる。ただし画中の少年の身分・実モデルとの同定はしない。 Visual: 暗色の室内で中央の男性が浅い盆に手を差し入れて洗っており、背後に若い黒人の従者がいる。右上の人物は水差しを持つ。右下に甲冑の男性、左奥に門の前の群衆と十字架に向かうキリストが描かれる。作品ID437333のMet公式IIIF画像で直接確認した。 Limits: 聖書の物語の歴史的真偽は絵の資料から検証できない。1668年に記録された画家の被奴隷者を、画中の少年と同一人物とは断定しない。ピラトが無罪になった事実を描いたとも受け取らない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437333",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-437333: API objectID=437333, primary JPEG full downloaded and verified; RMS=3.5270",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437333",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=3.5270."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437333",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and real official IIIF object image, plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-437333 Pilate Washing His Hands / Mattia Preti (Il Cavalier Calabrese) / 1663 / 1978.402",
+      "image_match": "暗色の室内で中央の男性が浅い盆に手を差し入れて洗っており、背後に若い黒人の従者がいる。右上の人物は水差しを持つ。右下に甲冑の男性、左奥に門の前の群衆と十字架に向かうキリストが描かれる。作品ID437333のMet公式IIIF画像で直接確認した。 Both primary JPEG variants fully downloaded and match (RMS=3.5270).",
+      "historical_interpretation": "Met作品別Overviewはマタイによる福音書のピラトの手洗いを説明し、キリストが背景で十字架へ向かう様子と、大きく描かれたピラトだけでなく隣の若いアフリカ系の従者の中心性を評価。1663年、マルタで制作された画面。マルタの地中海奴隷交易と多民族状況に触れ、画家プレーティの家に1668年に『エチオピア人』と記載された被奴隷者3人がいた記録も挙げる。ただし画中の少年の身分・実モデルとの同定はしない。 Cautions: 聖書の物語の歴史的真偽は絵の資料から検証できない。1668年に記録された画家の被奴隷者を、画中の少年と同一人物とは断定しない。ピラトが無罪になった事実を描いたとも受け取らない。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['不安', '好奇心']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP277246.jpg",
+      "sha256": "9dae86c3166b0f383e69e1a2a16882deb680ff0960217756a3c9177304f503ed",
+      "byte_length": 70720,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "暗色の室内で中央の男性が浅い盆に手を差し入れて洗っており、背後に若い黒人の従者がいる。右上の人物は水差しを持つ。右下に甲冑の男性、左奥に門の前の群衆と十字架に向かうキリストが描かれる。作品ID437333のMet公式IIIF画像で直接確認した。 Official same-object primary JPEG original/display resized RGB RMS=3.5270; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP277246.jpg",
+      "sha256": "757fe4b7e14540b63994cd42259cb3181023dd0f4d727b33707dc9508855a8c4",
+      "byte_length": 2541607,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "暗色の室内で中央の男性が浅い盆に手を差し入れて洗っており、背後に若い黒人の従者がいる。右上の人物は水差しを持つ。右下に甲冑の男性、左奥に門の前の群衆と十字架に向かうキリストが描かれる。作品ID437333のMet公式IIIF画像で直接確認した。 Official same-object primary JPEG original/display resized RGB RMS=3.5270; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #437 with preceding artwork and image-registry records unchanged.",
+    "Both direct HTML Overview excerpts were independently matched in the research pass; same AI also visually inspected the exact Met IIIF image.",
+    "No claims of human approval or expert rights review."
+  ]
+}

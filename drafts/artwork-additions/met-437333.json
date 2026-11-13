@@ -1,0 +1,155 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-437333",
+  "artwork": {
+    "id": "met-437333",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 437333,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/437333",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437333",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Pilate Washing His Hands",
+      "title_ja_provisional": "手を洗うピラト",
+      "artist": "Mattia Preti (Il Cavalier Calabrese)",
+      "creation_date_display": "1663",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Unspecified",
+      "accession_number": "1978.402"
+    },
+    "image": {
+      "image_id": "met-437333-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP277246.jpg",
+      "source_registry_id": "met-437333",
+      "local_path": "/artworks/met-437333.jpg",
+      "sha256": "9dae86c3166b0f383e69e1a2a16882deb680ff0960217756a3c9177304f503ed",
+      "byte_length": 70720,
+      "live_image_checked": true,
+      "live_check_scope": "Met artwork-specific IIIF visually checked by same AI; full original/display JPEG SHA, dimensions and RGB comparison in research evidence.",
+      "source_accession_number": "1978.402",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP277246.jpg",
+        "sha256": "757fe4b7e14540b63994cd42259cb3181023dd0f4d727b33707dc9508855a8c4",
+        "byte_length": 2541607,
+        "width": 3438,
+        "height": 3842,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=3.5270",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "不安",
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "不安": 2,
+        "好奇心": 1
+      },
+      "tones": [
+        "緊張",
+        "重苦しさ"
+      ],
+      "themes": [
+        "他者との距離",
+        "共同体"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/437333",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "聖書の責任の場面を、ピラト本人だけでなく従者や周辺人物の表情から読み取りたい",
+            "reason": "Met作品別Overviewはマタイによる福音書のピラトの手洗いを説明し、キリストが背景で十字架へ向かう様子と、大きく描かれたピラトだけでなく隣の若いアフリカ系の従者の中心性を評価。1663年、マルタで制作された画面。マルタの地中海奴隷交易と多民族状況に触れ、画家プレーティの家に1668年に『エチオピア人』と記載された被奴隷者3人がいた記録も挙げる。ただし画中の少年の身分・実モデルとの同定はしない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "聖書の物語の歴史的真偽は絵の資料から検証できない。1668年に記録された画家の被奴隷者を、画中の少年と同一人物とは断定しない。ピラトが無罪になった事実を描いたとも受け取らない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewはマタイによる福音書のピラトの手洗いを説明し、キリストが背景で十字架へ向かう様子と、大きく描かれたピラトだけでなく隣の若いアフリカ系の従者の中心性を評価。1663年、マルタで制作された画面。マルタの地中海奴隷交易と多民族状況に触れ、画家プレーティの家に1668年に『エチオピア人』と記載された被奴隷者3人がいた記録も挙げる。ただし画中の少年の身分・実モデルとの同定はしない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/437333"
+        },
+        "creation_context": "1663; Unspecified; Oil on canvas; accession 1978.402",
+        "visual_clues": "暗色の室内で中央の男性が浅い盆に手を差し入れて洗っており、背後に若い黒人の従者がいる。右上の人物は水差しを持つ。右下に甲冑の男性、左奥に門の前の群衆と十字架に向かうキリストが描かれる。作品ID437333のMet公式IIIF画像で直接確認した。",
+        "uncertainty_note": "聖書の物語の歴史的真偽は絵の資料から検証できない。1668年に記録された画家の被奴隷者を、画中の少年と同一人物とは断定しない。ピラトが無罪になった事実を描いたとも受け取らない。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "不安"
+        ],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Met specific Overview and official IIIF were observed by the same AI, not a human/expert auditor; complete Met API JPEG bytes checked in CI."
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "暗い空間の中央で、頭に帽子をかぶった男性が盆の水で手を洗っています。背後の若い従者はその動きを見つめ、右には水差しを持つ人物、手前には甲冑の男性がいます。画面の中央でピラトは大きく描かれ、手を洗うしぐさに視線が集まります。\n\n1663年、イタリア出身の画家マッティア・プレーティがマルタで制作した《手を洗うピラト》です。新約聖書の物語で、ローマの総督ピラトはイエスの処刑を前に自分の責任を否定するしぐさとして手を洗います。奥には十字架へ連れられていくイエスの姿も見えます。\n\n若いアフリカ系の従者は構図の中心近くに置かれ、その表情も物語の重みを伝えています。美術館は、この絵が描かれたマルタの多民族社会と奴隷交易の歴史にも触れています。ただし、画中の少年が誰だったのか、その身分が何だったのかまでは確認されていません。中心人物の手元から周囲の人々へ視線を移すと、同じ場面の中の異なる立場が見えてきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437333"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-437333",
+    "title": "Pilate Washing His Hands",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/437333",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/437333",
+      "license_label": "The Met Open Access / CC0 (public-domain work; official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP277246.jpg",
+      "sha256": "9dae86c3166b0f383e69e1a2a16882deb680ff0960217756a3c9177304f503ed",
+      "byte_length": 70720,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-435-437-20261113/docs/artwork-research-evidence/met-435-437-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP277246.jpg",
+        "sha256": "757fe4b7e14540b63994cd42259cb3181023dd0f4d727b33707dc9508855a8c4",
+        "byte_length": 2541607,
+        "width": 3438,
+        "height": 3842,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=3.5270",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "1978.402"
+  }
+}
