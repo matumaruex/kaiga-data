@@ -56339,6 +56339,378 @@
         "audit_sha256": "2b5bb29cce590753304703b6d60cdae53bbfe5ab2b42730e6e6a99d87a389a8f",
         "record_sha256": "735297526529073f316ee25441f961f1e354a3fe046b57b0aad539e427c267b5"
       }
+    },
+    {
+      "id": "met-11127",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 11127,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/11127",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11127",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Moonlight, Wood Island Light",
+        "title_ja_provisional": "月光、ウッドアイランドの灯",
+        "artist": "Winslow Homer",
+        "creation_date_display": "1894",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "American",
+        "accession_number": "11.116.2"
+      },
+      "image": {
+        "image_id": "met-11127-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP232469.jpg",
+        "source_registry_id": "met-11127",
+        "local_path": "/artworks/met-11127.jpg",
+        "sha256": "8bc5aa022ebc40c3b5d355ece7a613457aa9af269c5afbe70f3478c9a209a014",
+        "byte_length": 64043,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "11.116.2",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP232469.jpg",
+          "sha256": "c76017b91d5b146edf69f87a3371699a3b6deb411fa58a2128726fac4bad6ced",
+          "byte_length": 2436476,
+          "width": 3909,
+          "height": 2970,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=5.6542",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬",
+          "孤独"
+        ],
+        "emotion_strengths": {
+          "畏敬": 2,
+          "孤独": 1
+        },
+        "tones": [
+          "静けさ",
+          "緊張"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/11127",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "夜の海と岩に反射する月光を眺め、静けさの中に残る波の力をじっくり感じたい",
+              "reason": "Met所蔵のウィンズロー・ホーマー《Moonlight, Wood Island Light》（1894年、油彩・カンヴァス、受入番号11.116.2）。作品固有のMet Overviewは、画家の初期伝記作者による1894年夏の夕方の逸話を紹介する。海辺のアトリエにいたホーマーが着想を得て、画材を持ち岩場へ下り、短時間で制作したと伝えられる。ただし本人の日記ではなく後年の伝記が伝える話として扱う。画面では月は直接描かれず、暗い海と岩に広がる銀色の反射、波の青緑、右の水平線近くの小さな赤い灯台の光が確認できる。Met所蔵の1982年のホーマー解説資料でも月は雲に隠れ、赤い灯台の灯りと月光の反射を説明する。自然表現を主題とし、作者の感情を断定しない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "1894年夏の着想・制作時間は画家本人の当日記録ではなくMet Overviewが紹介する初期の伝記作者の逸話としてのみ扱う。月が画面上に描かれているとは記述しない。赤い小点を確認できても灯台の建物全体を描いたとは書かない。静けさや畏敬は鑑賞上の見方でありホーマー本人の心理証言ではない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met所蔵のウィンズロー・ホーマー《Moonlight, Wood Island Light》（1894年、油彩・カンヴァス、受入番号11.116.2）。作品固有のMet Overviewは、画家の初期伝記作者による1894年夏の夕方の逸話を紹介する。海辺のアトリエにいたホーマーが着想を得て、画材を持ち岩場へ下り、短時間で制作したと伝えられる。ただし本人の日記ではなく後年の伝記が伝える話として扱う。画面では月は直接描かれず、暗い海と岩に広がる銀色の反射、波の青緑、右の水平線近くの小さな赤い灯台の光が確認できる。Met所蔵の1982年のホーマー解説資料でも月は雲に隠れ、赤い灯台の灯りと月光の反射を説明する。自然表現を主題とし、作者の感情を断定しない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/11127"
+          },
+          "creation_context": "1894; American; Oil on canvas; accession 11.116.2",
+          "visual_clues": "Met公式作品ページから公式IIIF画像11127/44025/main-imageを直接視認。横長の夜の海景。黒く沈む岩場を手前に置き、波のうねりが青緑に盛り上がり、泡や濡れた岩に黄白色の反射が広がる。画面上部は雲の多い暗灰色の空で、月そのものは見えない。水平線の右寄りに小さな赤い点があり、灯台の光と解される。人物の姿や近景の灯台建物は見えない。1880年代の別のホーマーの海景とは作品IDと構図で区別する。",
+          "uncertainty_note": "1894年夏の着想・制作時間は画家本人の当日記録ではなくMet Overviewが紹介する初期の伝記作者の逸話としてのみ扱う。月が画面上に描かれているとは記述しない。赤い小点を確認できても灯台の建物全体を描いたとは書かない。静けさや畏敬は鑑賞上の見方でありホーマー本人の心理証言ではない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "畏敬"
+          ],
+          "secondary": [
+            "孤独"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Each exact Met artwork-specific Overview and accessible work-matched image was independently examined; all three official Met IIIF main images were directly opened and examined. Official primary JPEG hashes checked in CI. Same AI, not a human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "黒い岩場へ波が押し寄せ、白い泡に月光がかすかに映っています。海の向こうは暗く、水平線の右寄りには赤い小さな灯り。月そのものは見えず、光の反射だけが夜の海を浮かび上がらせます。\n\n1894年、アメリカの画家ウィンズロー・ホーマーが描いた《月光、ウッドアイランドの灯》です。月光の白と波の青緑を、幅のある筆の動きで重ねています。画面には静けさと、岩に砕ける波の強さが同時にあります。\n\n1894年の夏の夕方、海辺のアトリエの外にいたという逸話が伝わっています。初期の伝記によれば、思いつきからわずか4、5時間ほどで描かれたといいます。これは本人の日記ではなく伝記の記述ですが、暗い海に瞬間の光をとらえようとした絵の勢いを考える手がかりになります。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/11127"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-11127-2026-11-13.json",
+        "audit_sha256": "276babc8d3ee945dcf81b5ec0eb552f46368fe08e5a247bac5ad5420df1484d8",
+        "record_sha256": "af5edfbf1c15ff47d3cd0c3faef2da8503c591509427514b3bfc1ae45c43be76"
+      }
+    },
+    {
+      "id": "met-73296",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 73296,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/73296",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/73296",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Navagunjara, a Universal Form of Krishna",
+        "title_ja_provisional": "ナヴァグンジャラ、クリシュナの宇宙的な姿",
+        "artist": "Unknown artist",
+        "creation_date_display": "ca. 1835",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India (Rajasthan, Jodhpur[?])",
+        "accession_number": "2006.240"
+      },
+      "image": {
+        "image_id": "met-73296-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP140154.jpg",
+        "source_registry_id": "met-73296",
+        "local_path": "/artworks/met-73296.jpg",
+        "sha256": "8dc5172feb1409ae50e53ed1c83eed7724998cbf43e66788ceb8fb014b5ed58e",
+        "byte_length": 60518,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "2006.240",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP140154.jpg",
+          "sha256": "6e7127ecf5a095b2e1973d4e73db997d0b0b8d3424f5d7e2c2614a9a732c4e82",
+          "byte_length": 2137205,
+          "width": 3937,
+          "height": 2540,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=6.1239",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心",
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2,
+          "畏敬": 1
+        },
+        "tones": [
+          "高揚"
+        ],
+        "themes": [
+          "記憶"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/73296",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "鳥・人・獣の特徴が入り交じる神話の図像から、同じ姿に何種類の動物が含まれるのか発見したい",
+              "reason": "Met作品73296《Navagunjara, a Universal Form of Krishna》の作品別Overviewを確認。1835年ごろのインド、ラージャスターン地方（ジョードプルは疑問符付き）の絵画。ナヴァグンジャラはヒンドゥー教のクリシュナ神の珍しい形で、9つの動物の部分がひとつにつながる。『マハーバーラタ』では神の前で武器を捨てたアルジュナにこの姿で現れると説明される。水彩とインク、金を用いた絵は、1830年のWaterman and Sonsの透かしのある欧州製の紙に制作された。作者名は公式ページに記載なし。青い鳥状の首と頭、花を持つ人の腕、太い四肢、しま模様、曲がる尾が視認できるが、身体の各部分を特定の動物と一対一で固定する追加の資料は示されていない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "ナヴァグンジャラは神話上の複合的な姿であり、実在動物とみなさない。九つの動物の各部の名称まではMet Overviewに一覧がないので、見た目だけで確定しない。ジョードプルの帰属には公式表記どおり疑問符がある。1830年は紙の透かしの年であり作品制作年は1835年ごろ。作者名や本人の意図は確認できない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品73296《Navagunjara, a Universal Form of Krishna》の作品別Overviewを確認。1835年ごろのインド、ラージャスターン地方（ジョードプルは疑問符付き）の絵画。ナヴァグンジャラはヒンドゥー教のクリシュナ神の珍しい形で、9つの動物の部分がひとつにつながる。『マハーバーラタ』では神の前で武器を捨てたアルジュナにこの姿で現れると説明される。水彩とインク、金を用いた絵は、1830年のWaterman and Sonsの透かしのある欧州製の紙に制作された。作者名は公式ページに記載なし。青い鳥状の首と頭、花を持つ人の腕、太い四肢、しま模様、曲がる尾が視認できるが、身体の各部分を特定の動物と一対一で固定する追加の資料は示されていない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/73296"
+          },
+          "creation_context": "ca. 1835; India (Rajasthan, Jodhpur[?]); Opaque watercolor, ink, and gold on paper; accession 2006.240",
+          "visual_clues": "Met作品73296の公式IIIF画像73296/146401/main-imageを直接開き視認。淡い生成りの紙に、頭は青い鳥のような長い首と赤いくちばし、紅色の冠を持つ。向かって左の人間の腕が桃色の花を掲げ、胸には黄緑と金色の飾り、背には赤い丸いこぶのような部分。四肢の形が異なり、向かって右の後ろ脚は虎に似たしま模様、尾は長く細く上向きにうねる。余白の多い平面上に不思議な動物が一頭描かれる。右下の形は複数の生物を合わせた神の表象であり、現実の動物の記録ではない。",
+          "uncertainty_note": "ナヴァグンジャラは神話上の複合的な姿であり、実在動物とみなさない。九つの動物の各部の名称まではMet Overviewに一覧がないので、見た目だけで確定しない。ジョードプルの帰属には公式表記どおり疑問符がある。1830年は紙の透かしの年であり作品制作年は1835年ごろ。作者名や本人の意図は確認できない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": [
+            "畏敬"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Each exact Met artwork-specific Overview and accessible work-matched image was independently examined; all three official Met IIIF main images were directly opened and examined. Official primary JPEG hashes checked in CI. Same AI, not a human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "青い鳥のような頭と長い首、人間の腕、虎のしま模様のある脚、しなやかに曲がる尾。ひとつの体にさまざまな生き物の特徴が集まり、手には小さな花が掲げられています。\n\nナヴァグンジャラは、九つの動物の部分が合わさった珍しいクリシュナの姿です。『マハーバーラタ』では、武器を置いたアルジュナの前にこの姿で現れます。奇妙な動物を描いた空想画ではなく、神が通常と異なる姿を示す物語の一場面なのです。\n\n1835年ごろ、インドのラージャスターン地方で描かれました。紙には1830年の透かしがあり、ヨーロッパ製の用紙が使われています。作者名は分かっておらず、ジョードプルで作られたかどうかも確定していません。余白の中の多彩な体を、細部まで見比べてみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/73296"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-73296-2026-11-13.json",
+        "audit_sha256": "b494a73ba30e55bce917d5da0af6eaa0570cb959162e1382249ed532b519cbc2",
+        "record_sha256": "90fff8383325ef8a860e9cd9bcb11a03d734243cb99a00dec95952d8a44fa9e0"
+      }
+    },
+    {
+      "id": "met-37815",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 37815,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/37815",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/37815",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Krishna and Radha, Page from a Dispersed Rasikapriya (Verses Celebrating Aspects of Love)",
+        "title_ja_provisional": "クリシュナとラーダー――『ラシカプリヤ』の一頁",
+        "artist": "Unknown artist",
+        "creation_date_display": "ca. 1660–70",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India (Rajasthan, Bundi)",
+        "accession_number": "1990.23"
+      },
+      "image": {
+        "image_id": "met-37815-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156124.jpg",
+        "source_registry_id": "met-37815",
+        "local_path": "/artworks/met-37815.jpg",
+        "sha256": "336c7b69b97b1589a455af1fc3ff6c28900538c8b9b6bad13f1fa6e3cf8cdeb8",
+        "byte_length": 111622,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "1990.23",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP156124.jpg",
+          "sha256": "dd500fe8c08fb7e05214ada72c53672517e485bacdd5bf19d3735156a2480fd8",
+          "byte_length": 2582478,
+          "width": 2548,
+          "height": 3782,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=12.7930",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "期待",
+          "喜び"
+        ],
+        "emotion_strengths": {
+          "期待": 2,
+          "喜び": 1
+        },
+        "tones": [
+          "余韻"
+        ],
+        "themes": [
+          "愛情",
+          "他者との距離"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/37815",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "恋人たちの出会いを暗示する人物間の距離と空の寝台、彩色された宮廷建築を味わいたい",
+              "reason": "Met作品37815《Krishna and Radha, Page from a Dispersed Rasikapriya (Verses Celebrating Aspects of Love)》の固有Overviewを確認。1660〜70年ごろ、インド・ラージャスターン、ブーンディ地方の絵画。クリシュナがラーダーと二人の仲を取り持つ人物に近づく場面。開かれたあずまやと空の寝台は恋人たちの親密な出会いの可能性を暗示する、詩『ラシカプリヤ』の表現。模様の細かい宮殿的建築や緑の植物を宝石のような色で描くブーンディの様式で、Metはムガル画派との接触が自然表現の写実性を高めたと説明する。画面は縦長で金色の文字帯が上部にあり、三人は下部の庭園で向かい合い、白い柱と吊り下がった寝台が関係を暗示している。作者個人の名前や詩の具体的な節はページの情報だけで特定しない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "二人の女性の役割はMet Overviewがラーダーと仲介者を述べている範囲にとどめ、画面上の左右で取り違えない。空の寝台は親密な出会いの可能性を示唆する図像で、すでに出来事が起きたと断定しない。『ラシカプリヤ』を宗教的・宮廷的な詩画文化として扱い、実在の二人の恋愛記録とはしない。ムガル画派との接触はMetの美術史的説明で画家本人の発言ではない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品37815《Krishna and Radha, Page from a Dispersed Rasikapriya (Verses Celebrating Aspects of Love)》の固有Overviewを確認。1660〜70年ごろ、インド・ラージャスターン、ブーンディ地方の絵画。クリシュナがラーダーと二人の仲を取り持つ人物に近づく場面。開かれたあずまやと空の寝台は恋人たちの親密な出会いの可能性を暗示する、詩『ラシカプリヤ』の表現。模様の細かい宮殿的建築や緑の植物を宝石のような色で描くブーンディの様式で、Metはムガル画派との接触が自然表現の写実性を高めたと説明する。画面は縦長で金色の文字帯が上部にあり、三人は下部の庭園で向かい合い、白い柱と吊り下がった寝台が関係を暗示している。作者個人の名前や詩の具体的な節はページの情報だけで特定しない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/37815"
+          },
+          "creation_context": "ca. 1660–70; India (Rajasthan, Bundi); Ink, opaque watercolor, and gold on paper; accession 1990.23",
+          "visual_clues": "Met作品37815の公式IIIF画像37815/150854/main-imageを直接開いて視認。縦長の赤枠の中央に黄地のインド文字の詩文、その下に白い小塔が並ぶ模様の建築、濃青の空。下の庭では向かって右の青い顔のクリシュナが、左側の二人の女性と向き合う。白い柱の奥に装飾のある吊り下がった寝台が見え、両側に豊かな緑と細かい花が配置される。目視で女性二人のどちらがラーダーかを衣服だけで断定しない。",
+          "uncertainty_note": "二人の女性の役割はMet Overviewがラーダーと仲介者を述べている範囲にとどめ、画面上の左右で取り違えない。空の寝台は親密な出会いの可能性を示唆する図像で、すでに出来事が起きたと断定しない。『ラシカプリヤ』を宗教的・宮廷的な詩画文化として扱い、実在の二人の恋愛記録とはしない。ムガル画派との接触はMetの美術史的説明で画家本人の発言ではない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "期待"
+          ],
+          "secondary": [
+            "喜び"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Each exact Met artwork-specific Overview and accessible work-matched image was independently examined; all three official Met IIIF main images were directly opened and examined. Official primary JPEG hashes checked in CI. Same AI, not a human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "白い塔と飾られた壁が上へと積み重なり、画面の下で青い顔のクリシュナが二人の女性と向き合っています。柱の奥には豪華な寝台が吊られ、庭には小さな花や葉が隙間なく描かれています。\n\nクリシュナがラーダーと、二人の仲を取り持った人物に近づいています。開かれたあずまやと空の寝台は、これからの親密な出会いをほのめかします。これは恋愛のさまざまな姿を詠んだ『ラシカプリヤ』を絵にした一頁で、場面が動き出す直前の期待を形にしています。\n\n1660〜70年ごろ、インドのブーンディ地方で描かれました。赤や緑、金色を用いた建物の模様と植物の細部には、この地方の細密画らしい華やかさがあります。描かれていない続きの出来事を想像しながら、人物と空の寝台の距離を見てみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/37815"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-37815-2026-11-13.json",
+        "audit_sha256": "56f21298eae37c42f1fb56de85936519e006bec4bb3d46c4a0865f8b1a5e4dad",
+        "record_sha256": "ce55c6e19456b29d4d76cab65d8ba41763d8df04e67fbb66386116513d6dede3"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
