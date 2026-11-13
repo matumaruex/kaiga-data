@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-656430",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-656430.json",
+  "candidate_sha256": "67a9505fa3aaa7a7c20a653d07ac83a89780289cc7ecc1e7abd50f6fab7bb636",
+  "draft_path": "drafts/visitor-explanations/met-656430.json",
+  "draft_sha256": "63424d038ee9d2b3ca553bfd39b04382fd5b6c2f273cd4a09dfe58d2a3efb90c",
+  "baseline": {
+    "artworks_sha256": "ac2b6d448ab470c6757d8cccd27cf36a919d07ca509eb1576822f0419f2fc7ce",
+    "image_registry_sha256": "655dc9503bbbb328958ee20759b6ea1797b3c45dc91d67b42b667a5e2ac76e6d"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/656430",
+      "source_excerpt": "confirmed by two other extant portraits in Korean collections",
+      "visitor_claim": "韓国に残る別の肖像画二点との比較から、本人と確認されています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/656430",
+      "source_excerpt": "centerpiece of a family shrine dedicated to honoring the family’s male lineages",
+      "visitor_claim": "これは祖先を敬う家の祠堂で、中心になるような肖像画だったと美術館は説明しています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/656430",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "Met作品656430のOverviewを直接確認。18世紀末〜19世紀初頭の朝鮮王朝の肖像画。描かれた人物は学者、書家、官僚として知られた尹東暹（ユン・ドンソム、1710〜1795）で、韓国に現存する別の肖像2点との比較により人物同定は裏付けられる。作者は未詳。老年の官僚が正装で、豹皮の掛けられた背の高い椅子に座り、何も描かれていない背景の前にやや斜め向きで表される。細かく描かれた顔の線と陰影は当時の写実的肖像画の傾向を示す。祖先を記念する家の祠堂で中心的な画像として用いられたとされるが、個別家族の利用記録ではなくMetの機能解釈。帯に付いた犀角・金などの装飾は二品官以上の資格を示す規定と関係し、尹東暹は1790年にその位階に達した。そのため生前なら1790〜95年、死後の追悼制作なら1805年頃までが考えられる。 Visual: Met作品656430の公式IIIF画像656430/1426655/main-imageを直接開いて視認。縦長の絹本の掛軸で、薄い茶色の無地を背景に、黒い冠をかぶり長い黒い礼服を着た老年の男性が椅子に座る。顔はやや向かって左に向き、灰白色の口ひげとあごひげ、肩の背後には白と黒の斑のある豹皮が見える。胸には白い鳥の意匠と赤・青・金の模様がある方形の胸当て、腰には装飾のある帯。座面下の足置きに白い靴先。表情や位階の意味の解釈は公式作品資料を参照する。 Limits: 名前と人物同定は他所の同肖像二点の比較で裏付けられるが、作者は未詳。制作年は1790～1805年頃と範囲で表し、本人の生前制作か死後の追慕画か確定しない。家の祠堂で中心画像として機能したというのはMetの図像・慣習上の推定で、この特定画の祀られていた住所や祭祀記録は不明。画中の鳥や帯の材質を目視だけで断定せず公式説明で確認できる範囲に留める。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/656430",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-656430: API objectID=656430, primary JPEG full downloaded and verified; RMS=6.9499",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/656430",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=6.9499."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/656430",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and the artwork-specific visual sources: direct official Met IIIF images for met-437061 (2004962) and met-656430 (1426655), plus exact work reproduction linked to the Met catalog for met-437328 (official IIIF 794456 not accessible in the research browser, but source is documented), plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-656430 Portrait of Yun Dongseom (1710–1795) / Unidentified artist / ca. 1790–1805 / 2014.605",
+      "image_match": "Met作品656430の公式IIIF画像656430/1426655/main-imageを直接開いて視認。縦長の絹本の掛軸で、薄い茶色の無地を背景に、黒い冠をかぶり長い黒い礼服を着た老年の男性が椅子に座る。顔はやや向かって左に向き、灰白色の口ひげとあごひげ、肩の背後には白と黒の斑のある豹皮が見える。胸には白い鳥の意匠と赤・青・金の模様がある方形の胸当て、腰には装飾のある帯。座面下の足置きに白い靴先。表情や位階の意味の解釈は公式作品資料を参照する。 Both primary JPEG variants fully downloaded and match (RMS=6.9499).",
+      "historical_interpretation": "Met作品656430のOverviewを直接確認。18世紀末〜19世紀初頭の朝鮮王朝の肖像画。描かれた人物は学者、書家、官僚として知られた尹東暹（ユン・ドンソム、1710〜1795）で、韓国に現存する別の肖像2点との比較により人物同定は裏付けられる。作者は未詳。老年の官僚が正装で、豹皮の掛けられた背の高い椅子に座り、何も描かれていない背景の前にやや斜め向きで表される。細かく描かれた顔の線と陰影は当時の写実的肖像画の傾向を示す。祖先を記念する家の祠堂で中心的な画像として用いられたとされるが、個別家族の利用記録ではなくMetの機能解釈。帯に付いた犀角・金などの装飾は二品官以上の資格を示す規定と関係し、尹東暹は1790年にその位階に達した。そのため生前なら1790〜95年、死後の追悼制作なら1805年頃までが考えられる。 Cautions: 名前と人物同定は他所の同肖像二点の比較で裏付けられるが、作者は未詳。制作年は1790～1805年頃と範囲で表し、本人の生前制作か死後の追慕画か確定しない。家の祠堂で中心画像として機能したというのはMetの図像・慣習上の推定で、この特定画の祀られていた住所や祭祀記録は不明。画中の鳥や帯の材質を目視だけで断定せず公式説明で確認できる範囲に留める。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['畏敬', '好奇心']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP341229.jpg",
+      "sha256": "651d118e06f6f5d1e69108b94bbc2ff6d0298be9d3d7a52ccb59c6bc49f4d96e",
+      "byte_length": 68138,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/656430",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/656430/1426655/main-image"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met作品656430の公式IIIF画像656430/1426655/main-imageを直接開いて視認。縦長の絹本の掛軸で、薄い茶色の無地を背景に、黒い冠をかぶり長い黒い礼服を着た老年の男性が椅子に座る。顔はやや向かって左に向き、灰白色の口ひげとあごひげ、肩の背後には白と黒の斑のある豹皮が見える。胸には白い鳥の意匠と赤・青・金の模様がある方形の胸当て、腰には装飾のある帯。座面下の足置きに白い靴先。表情や位階の意味の解釈は公式作品資料を参照する。 Official same-object primary JPEG original/display resized RGB RMS=6.9499; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP341229.jpg",
+      "sha256": "999d1c63e6ffeb245d3caf0cb34fa2037fc94eec873f108b2eceb11cfe7879a1",
+      "byte_length": 2018341,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/656430",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/656430/1426655/main-image"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met作品656430の公式IIIF画像656430/1426655/main-imageを直接開いて視認。縦長の絹本の掛軸で、薄い茶色の無地を背景に、黒い冠をかぶり長い黒い礼服を着た老年の男性が椅子に座る。顔はやや向かって左に向き、灰白色の口ひげとあごひげ、肩の背後には白と黒の斑のある豹皮が見える。胸には白い鳥の意匠と赤・青・金の模様がある方形の胸当て、腰には装飾のある帯。座面下の足置きに白い靴先。表情や位階の意味の解釈は公式作品資料を参照する。 Official same-object primary JPEG original/display resized RGB RMS=6.9499; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #461 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}
