@@ -55213,6 +55213,381 @@
         "audit_sha256": "61045716880e4683a68d1e60c548bd5a66e9826b075551bf4839649bf749d569",
         "record_sha256": "d7e612122a23e2e4b60b02344e06f577412be220f12a14b97575e9d213647898"
       }
+    },
+    {
+      "id": "met-436243",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436243,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436243",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436243",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Salvator Mundi",
+        "title_ja_provisional": "世界の救世主",
+        "artist": "Albrecht Dürer",
+        "creation_date_display": "ca. 1505",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Unspecified",
+        "accession_number": "32.100.64"
+      },
+      "image": {
+        "image_id": "met-436243-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-38479-001.jpg",
+        "source_registry_id": "met-436243",
+        "local_path": "/artworks/met-436243.jpg",
+        "sha256": "85aa61920fd51477f71149a1cb03d5e6f324160cb5903a8e771930b741ab1e2d",
+        "byte_length": 125365,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "32.100.64",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-38479-001.jpg",
+          "sha256": "8791d364c5b4b3fa400d31ed7f9ef4fd3cc4a154847ab40aad626149141233fd",
+          "byte_length": 4577238,
+          "width": 3253,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=4.0448",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬",
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "畏敬": 2,
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436243",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "絵画と下描きの境目をゆっくり見て、完成に至る前の画家の仕事の痕跡を知りたい",
+              "reason": "メトロポリタン美術館の作品別Overviewによれば、アルブレヒト・デューラーが1505年頃に菩提樹（リンデン）の板へ油彩で描いたキリスト像。右手を上げて祝福し、左手には地球を表す球体を持つ、キリストを『世界の救世主』として示す図像。作者はイタリアに出発する直前に制作を始めた可能性があるものの、衣服部分しか完成しなかったとされる。顔と手には非常に精密な下描きが見えるため、絵画と素描の両方として鑑賞できる。作者がなぜ制作を中断したかは確定しない。Metは画面に未完成部分が残ることを研究上の特徴として説明している。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "制作が未完成であることを単なる画力不足と解釈しない。デューラーが制作をやめた理由は不明。下描きが目に見えるという公式解説と、後世の修復で見え方が変わる可能性を混同しない。球体は地球を象徴する宗教図像であり、近代の地球儀の実測図とは考えない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "メトロポリタン美術館の作品別Overviewによれば、アルブレヒト・デューラーが1505年頃に菩提樹（リンデン）の板へ油彩で描いたキリスト像。右手を上げて祝福し、左手には地球を表す球体を持つ、キリストを『世界の救世主』として示す図像。作者はイタリアに出発する直前に制作を始めた可能性があるものの、衣服部分しか完成しなかったとされる。顔と手には非常に精密な下描きが見えるため、絵画と素描の両方として鑑賞できる。作者がなぜ制作を中断したかは確定しない。Metは画面に未完成部分が残ることを研究上の特徴として説明している。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436243"
+          },
+          "creation_context": "ca. 1505; Unspecified; Oil on linden; accession 32.100.64",
+          "visual_clues": "Met公式作品ページobjectID 436243の表示図版と画像検索で同一所蔵品32.100.64のMet IIIF主画像を視認。縦長の画面で、正面に向く長髪とひげのキリストが深い緑の背景を背に立つ。向かって左は青い衣、右は赤紫の外套。画面左寄りに祝福する右手を上げ、向かって右下に淡い色の球体を左手で支えている。顔や手の細かな仕上げは不均一で、衣の色と線は明瞭。下描きの正確な技法や年代は視認だけで判断せず美術館解説を根拠とする。",
+          "uncertainty_note": "制作が未完成であることを単なる画力不足と解釈しない。デューラーが制作をやめた理由は不明。下描きが目に見えるという公式解説と、後世の修復で見え方が変わる可能性を混同しない。球体は地球を象徴する宗教図像であり、近代の地球儀の実測図とは考えない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "畏敬"
+          ],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met's exact artwork-specific Overview read directly and matching visual-reference provenance described per work; official Met JPEGs checked in CI. Same AI, not human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "深い緑色の背景の前に、長い髪を垂らしたキリストが立っています。青い衣と赤い外套の色が目を引き、上げた右手は祝福のしぐさを示しています。左手にある丸い球体は、地上世界を表すものです。\n\nこれはドイツ・ルネサンスの画家アルブレヒト・デューラーが1505年頃に手がけた《世界の救世主》です。イタリアへ旅立つ直前に制作を始めたと考えられていますが、完成させたのは主に衣服の部分でした。顔や手には細かい下描きの線が残り、絵を描き進める途中の段階をうかがうことができます。\n\nメトロポリタン美術館は、この作品を絵画としてだけでなく、素描としても見ることができると紹介しています。完成した衣服の色彩と、まだ仕上げられていない顔や手の表現を見比べると、普段は完成した絵の下に隠れてしまう画家の仕事が感じられます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/436243"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-436243-2026-11-13.json",
+        "audit_sha256": "7125c9e7db8e30ff0143b75b2c20eab7a536af0bba171ba29365b7f4caa5350d",
+        "record_sha256": "ad251d905e39be14af28ca723fd6e7eff3ef7e7143ecaa7206939ab33e178ca0"
+      }
+    },
+    {
+      "id": "met-436091",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436091,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436091",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436091",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "The Laundress",
+        "title_ja_provisional": "洗濯女",
+        "artist": "Honoré Daumier",
+        "creation_date_display": "186[3?]",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Unspecified",
+        "accession_number": "47.122"
+      },
+      "image": {
+        "image_id": "met-436091-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2141.jpg",
+        "source_registry_id": "met-436091",
+        "local_path": "/artworks/met-436091.jpg",
+        "sha256": "6ca435bd0b7375d80d9e642cf78cbad2fa9660c1adeb5b6140d86785bb717314",
+        "byte_length": 86174,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "47.122",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DT2141.jpg",
+          "sha256": "637a1c8a25b8a07c60db02b6b87e2064df446043f90ec05b2687bab979ed5d41",
+          "byte_length": 2885829,
+          "width": 2495,
+          "height": 3722,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=6.3267",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "慈しみ",
+          "希望"
+        ],
+        "emotion_strengths": {
+          "慈しみ": 2,
+          "希望": 1
+        },
+        "tones": [
+          "落ち着き",
+          "余韻"
+        ],
+        "themes": [
+          "日常",
+          "共同体",
+          "愛情"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436091",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "労働の重さを描きつつ子供へ手を差し伸べる姿を眺め、19世紀パリの働く人の日常に思いを寄せたい",
+              "reason": "メトロポリタン美術館によれば、オノレ・ドーミエがパリのアンジュー河岸のアトリエから実際に見えた、セーヌ川の洗濯船から戻る洗濯女を題材にした油彩画。重い荷物を抱えた女性が、河岸の階段を登ろうとする子供へ手を差し伸べる。明るい背後の建物や空に対して働く女性を大きく暗いシルエットで描き、ふつうの労働者に記念碑的な存在感を与える。3点の同構図油彩のうち最も大きく、おそらく最後に描かれたもの。画面左下の制作年の末尾は絵具の劣化で判読しづらく、1893年の記録に1863年と書かれていた。制作年は『1863年頃』として確実ではないことを維持する。子と女性の血縁関係を画面だけから断定しない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "絵の女性と子が実際に血縁かどうかは所蔵館解説にないため『母と子』と断定しない。正確な制作年の末尾は劣化で読めず、1863年は1893年の記録によるため留保する。画家のスタジオから見える川岸の働く女性たちを題材にしているが、描かれた人物の実名は分からない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "メトロポリタン美術館によれば、オノレ・ドーミエがパリのアンジュー河岸のアトリエから実際に見えた、セーヌ川の洗濯船から戻る洗濯女を題材にした油彩画。重い荷物を抱えた女性が、河岸の階段を登ろうとする子供へ手を差し伸べる。明るい背後の建物や空に対して働く女性を大きく暗いシルエットで描き、ふつうの労働者に記念碑的な存在感を与える。3点の同構図油彩のうち最も大きく、おそらく最後に描かれたもの。画面左下の制作年の末尾は絵具の劣化で判読しづらく、1893年の記録に1863年と書かれていた。制作年は『1863年頃』として確実ではないことを維持する。子と女性の血縁関係を画面だけから断定しない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436091"
+          },
+          "creation_context": "186[3?]; Unspecified; Oil on oak; accession 47.122",
+          "visual_clues": "Met作品436091の公式作品ページと作品タイトル・所蔵品番号47.122に一致する図版を直接視認。縦長の板絵で、黄土色の背景に川沿いの建物と水面のきらめきがある。手前中央に暗い褐色の服を着た女性が身をかがめ、大きな白っぽい洗濯物の束を片側に抱える。左下の階段には小さな子供がいて、女性と子供の手が近づく。画面左に石造りの手すり・階段。歩く方向と手を伸ばす姿勢が物語を作る。",
+          "uncertainty_note": "絵の女性と子が実際に血縁かどうかは所蔵館解説にないため『母と子』と断定しない。正確な制作年の末尾は劣化で読めず、1863年は1893年の記録によるため留保する。画家のスタジオから見える川岸の働く女性たちを題材にしているが、描かれた人物の実名は分からない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "慈しみ"
+          ],
+          "secondary": [
+            "希望"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met's exact artwork-specific Overview read directly and matching visual-reference provenance described per work; official Met JPEGs checked in CI. Same AI, not human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "背後に明るい川と建物が広がるなか、洗濯物の大きな束を抱えた女性が階段を上がっています。荷物の重さを感じさせる姿勢で、それでも小さな子供に向けて片手を差し伸べています。\n\nフランスの画家オノレ・ドーミエの《洗濯女》です。パリのセーヌ川には、かつて洗濯をする船が浮かんでいました。画家はアンジュー河岸の仕事場から、そこから戻ってくる洗濯女たちを目にしていたといいます。明るい背景に対し、働く女性の姿は大きく暗く描かれ、日常の人に強い存在感を与えています。\n\nドーミエは同じ構図を油彩で三度描き、この作品はその中で最大のものです。画面の年号は絵具の劣化で最後の数字が読みづらく、かつての記録では1863年とされていました。子供に伸ばした手と、抱えた荷物の重さ。二つの動きが重なるところに目を留めてみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/436091"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-436091-2026-11-13.json",
+        "audit_sha256": "a6bbcc185dd83fb422ca78c4c2bf108dddeb79ce0c22313c2176979d1acfb109",
+        "record_sha256": "d1314218312018a4a48b5ed066588e45bdf8fc642025a02b6b96d890c1396e3f"
+      }
+    },
+    {
+      "id": "met-438129",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 438129,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/438129",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/438129",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "The Meeting of Antony and Cleopatra",
+        "title_ja_provisional": "アントニウスとクレオパトラの出会い",
+        "artist": "Giovanni Battista Tiepolo",
+        "creation_date_display": "ca. 1745–47",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Unspecified",
+        "accession_number": "2019.141.18"
+      },
+      "image": {
+        "image_id": "met-438129-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DT293615.jpg",
+        "source_registry_id": "met-438129",
+        "local_path": "/artworks/met-438129.jpg",
+        "sha256": "ad5857a185b53a2dae2e13eabbd1ddd37ce005ad76905f4c8585d92a47893f87",
+        "byte_length": 100106,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "2019.141.18",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DT293615.jpg",
+          "sha256": "b26aa5a5c163ea7b92a7ab843bedb9e8ab942e65d055929bb2a08d49d86c2b9c",
+          "byte_length": 2626268,
+          "width": 3811,
+          "height": 2631,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=8.3663",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心",
+          "期待"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2,
+          "期待": 1
+        },
+        "tones": [
+          "高揚",
+          "にぎわい"
+        ],
+        "themes": [
+          "他者との距離",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/438129",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "すばやい筆致の油彩下絵に迫力を感じながら、ヨーロッパ人画家が想像した古代エジプトのイメージと実際の歴史を区別して眺めたい",
+              "reason": "メトロポリタン美術館の作品別Overviewによると、1745〜47年頃にジョヴァンニ・バッティスタ・ティエポロが描いた、大規模作品のための油彩スケッチ。素早く生き生きとした筆致で色と形を配置し、巨大な本画の構成を先に検討している。古代ローマの将軍マルクス・アントニウスとエジプトの女王クレオパトラの出会いを題材にする。黒人の従者やターバンを巻いた人物などは当時の欧州観客の異国イメージを示すが、クレオパトラにはエジプト文化に基づかない欧州的な顔立ち・17世紀イタリア風の衣装が与えられている。1752年にこの油彩下絵を見たフランス人の美術愛好家サン＝ノン師とフラゴナールが筆致に強い印象を受けた。18世紀の欧州絵画による古代の想像像で、実際の歴史的衣装の復元とはしない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "クレオパトラの衣装や容貌は古代エジプトの事実に基づく再現ではなく18世紀イタリアの画家の想像表現。17世紀イタリア風の装いとの公式説明に合わせる。従者の描写を当時の異国イメージの記号として述べ、実際の古代エジプトの人種構成をこの絵から推定しない。このキャンバスは大画面の本制作に先立つ油彩スケッチであり、完成した巨大な本画そのものではない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "メトロポリタン美術館の作品別Overviewによると、1745〜47年頃にジョヴァンニ・バッティスタ・ティエポロが描いた、大規模作品のための油彩スケッチ。素早く生き生きとした筆致で色と形を配置し、巨大な本画の構成を先に検討している。古代ローマの将軍マルクス・アントニウスとエジプトの女王クレオパトラの出会いを題材にする。黒人の従者やターバンを巻いた人物などは当時の欧州観客の異国イメージを示すが、クレオパトラにはエジプト文化に基づかない欧州的な顔立ち・17世紀イタリア風の衣装が与えられている。1752年にこの油彩下絵を見たフランス人の美術愛好家サン＝ノン師とフラゴナールが筆致に強い印象を受けた。18世紀の欧州絵画による古代の想像像で、実際の歴史的衣装の復元とはしない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/438129"
+          },
+          "creation_context": "ca. 1745–47; Unspecified; Oil on canvas; accession 2019.141.18",
+          "visual_clues": "Met objectID 438129の公式画像を直接視認。横長の明るい油彩スケッチで、画面中央右に黄色系の大きく広がる衣を着た女性クレオパトラ、左手前に赤い外套のローマの将軍アントニウスがひざまずくような姿で向き合う。後方に大勢の従者、左に旗、画面右に高い石造構造物と樹木が立つ。黄色・赤・青が短い筆致で塗り重ねられ、人物や布地の境目が油彩スケッチらしく軽い。画像で個人の顔や民族を判断せず人物の役割は所蔵館解説に基づく。",
+          "uncertainty_note": "クレオパトラの衣装や容貌は古代エジプトの事実に基づく再現ではなく18世紀イタリアの画家の想像表現。17世紀イタリア風の装いとの公式説明に合わせる。従者の描写を当時の異国イメージの記号として述べ、実際の古代エジプトの人種構成をこの絵から推定しない。このキャンバスは大画面の本制作に先立つ油彩スケッチであり、完成した巨大な本画そのものではない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": [
+            "期待"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met's exact artwork-specific Overview read directly and matching visual-reference provenance described per work; official Met JPEGs checked in CI. Same AI, not human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "鮮やかな黄の衣を広げた女性の前に、赤い外套の男性がひざまずくように身を寄せています。周囲には従者や旗、木々と石造りの建物が並び、細かな筆の動きが場面全体をにぎやかにしています。\n\n18世紀イタリアの画家ティエポロによる《アントニウスとクレオパトラの出会い》です。ローマの将軍とエジプトの女王を描いていますが、この絵は巨大な完成作に先立って描いた油彩のスケッチです。画家は素早い筆づかいで色や人物の配置を試していました。\n\nここに描かれた女王の顔立ちや衣装は、古代エジプトの姿を忠実に再現したものではありません。メトロポリタン美術館は、当時のヨーロッパの想像によって、クレオパトラが17世紀イタリア風の装いで表されていると説明しています。歴史上の出会いの物語と、18世紀の画家が作り上げた華やかな舞台。その両方を意識すると、この絵の面白さが広がります。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/438129"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-438129-2026-11-13.json",
+        "audit_sha256": "3afcc158bfe012421db48580cf218efdf4e06c6e3194dfd65f3035b4b0eac755",
+        "record_sha256": "920bdeabe2e8fbe924db0548338734a92db7514de29d1297925193416dd07a86"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
