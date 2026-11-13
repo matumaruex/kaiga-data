@@ -1,0 +1,129 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-437328",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-437328.json",
+  "candidate_sha256": "628bed38698975ff442b8116542faed5183cbd1c32a383bfdeb8bb97d85b67f7",
+  "draft_path": "drafts/visitor-explanations/met-437328.json",
+  "draft_sha256": "c254f40b665df02576024e0e4cc029127e3d626925d47bc97daac63e30a049ad",
+  "baseline": {
+    "artworks_sha256": "0852ec8d26099a387d6c7d3d36e2ceb079191b1a68f6734ca4438efb64c22b39",
+    "image_registry_sha256": "40fb71346161acb4f0eb6cc3e576e16dcea4d9d0ea5c1bbca545214bc15a5a0c"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437328",
+      "source_excerpt": "the god Bacchus instructed Midas to wash in the Pactolus River",
+      "visitor_claim": "酒神バッカスに教えられて川でその呪いを洗い流そうとします。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437328",
+      "source_excerpt": "Midas here as the smaller, humbled figure behind a classical representation",
+      "visitor_claim": "こちらの目立たない人物こそ、神話のミダス王です。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437328",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "Met作品437328の作品別Overviewを確認。1627年ごろのニコラ・プッサン作。古代神話ではミダス王が触れたものを金にする力を願ったが、食べ物も飲み物も口にできないと悟り、その呪いを解くためバッカス神からパクトロス川で洗うよう教わった。絵ではミダスは画面の主役として中央に大きく座るのではなく、後方の小さくうなだれた人物。前景には横たわる川の擬人像が大きく描かれ、近くに水源や酒神への連想を担う水瓶を持った二人のプット（幼児像）が配される。ローマ到着後初期の制作であり、1871年に創設期のメトロポリタン美術館が購入した最初期の作品のひとつ。神話を歴史的出来事として扱わず、解釈上の寓意も画家本人の証言と混同しない。Metの現在の年代表示は『ca. 1627』で古い出版資料の1624年表記は現行データと区別する。 Visual: Met作品437328の公式ページおよび同一作品を転載した『Midas Washing at the Source of the Pactolus』の画像を視認した。縦長の画面で、茶と緑を基調にした大きな木と岩場の下、奥の左側に頭を下げて身を洗う裸の男、手前に背中を大きく見せて横たわる壮年の川神、下に小さな幼児像と水瓶が見える。中央の横たわる人物と左でうなだれるミダスを取り違えない。Met公式リンクのIIIF 437328/794456/main-imageはリンクとして照合済みだがブラウザの直接取得が失敗したため、視認は同一作品の転載画像に基づく。実際に表示するMet公式API原寸・縮小JPEGの一致と画素寸法・SHAはCIで別途確認する。 Limits: 中央の大きな裸体をミダス王と誤認せず、メトロポリタン美術館の解説どおり川の擬人像とする。触れるものが金になる話や呪いを洗い流す場面は『神話では』と表現し、実際の歴史として扱わない。美術館は現行で『ca. 1627』とし、以前の図録の別の年代を無断で転記しない。Met公式IIIF画像の直接表示に失敗したことを視覚証拠に明示する。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437328",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-437328: API objectID=437328, primary JPEG full downloaded and verified; RMS=4.5913",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437328",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=4.5913."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437328",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and the artwork-specific visual sources: direct official Met IIIF images for met-437061 (2004962) and met-656430 (1426655), plus exact work reproduction linked to the Met catalog for met-437328 (official IIIF 794456 not accessible in the research browser, but source is documented), plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-437328 Midas Washing at the Source of the Pactolus / Nicolas Poussin / ca. 1627 / 71.56",
+      "image_match": "Met作品437328の公式ページおよび同一作品を転載した『Midas Washing at the Source of the Pactolus』の画像を視認した。縦長の画面で、茶と緑を基調にした大きな木と岩場の下、奥の左側に頭を下げて身を洗う裸の男、手前に背中を大きく見せて横たわる壮年の川神、下に小さな幼児像と水瓶が見える。中央の横たわる人物と左でうなだれるミダスを取り違えない。Met公式リンクのIIIF 437328/794456/main-imageはリンクとして照合済みだがブラウザの直接取得が失敗したため、視認は同一作品の転載画像に基づく。実際に表示するMet公式API原寸・縮小JPEGの一致と画素寸法・SHAはCIで別途確認する。 Both primary JPEG variants fully downloaded and match (RMS=4.5913).",
+      "historical_interpretation": "Met作品437328の作品別Overviewを確認。1627年ごろのニコラ・プッサン作。古代神話ではミダス王が触れたものを金にする力を願ったが、食べ物も飲み物も口にできないと悟り、その呪いを解くためバッカス神からパクトロス川で洗うよう教わった。絵ではミダスは画面の主役として中央に大きく座るのではなく、後方の小さくうなだれた人物。前景には横たわる川の擬人像が大きく描かれ、近くに水源や酒神への連想を担う水瓶を持った二人のプット（幼児像）が配される。ローマ到着後初期の制作であり、1871年に創設期のメトロポリタン美術館が購入した最初期の作品のひとつ。神話を歴史的出来事として扱わず、解釈上の寓意も画家本人の証言と混同しない。Metの現在の年代表示は『ca. 1627』で古い出版資料の1624年表記は現行データと区別する。 Cautions: 中央の大きな裸体をミダス王と誤認せず、メトロポリタン美術館の解説どおり川の擬人像とする。触れるものが金になる話や呪いを洗い流す場面は『神話では』と表現し、実際の歴史として扱わない。美術館は現行で『ca. 1627』とし、以前の図録の別の年代を無断で転記しない。Met公式IIIF画像の直接表示に失敗したことを視覚証拠に明示する。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['未練', '好奇心']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP123854.jpg",
+      "sha256": "e7b70408b4302d3cb3eb3d6f99c09bf70c8d454451c242e13cb04ba038b763c0",
+      "byte_length": 60166,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437328",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437328/794456/main-image",
+        "https://www.theepochtimes.com/bright/cleansing-ourselves-of-improper-desires-midas-washing-at-the-source-of-the-pactolus-4764950"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met作品437328の公式ページおよび同一作品を転載した『Midas Washing at the Source of the Pactolus』の画像を視認した。縦長の画面で、茶と緑を基調にした大きな木と岩場の下、奥の左側に頭を下げて身を洗う裸の男、手前に背中を大きく見せて横たわる壮年の川神、下に小さな幼児像と水瓶が見える。中央の横たわる人物と左でうなだれるミダスを取り違えない。Met公式リンクのIIIF 437328/794456/main-imageはリンクとして照合済みだがブラウザの直接取得が失敗したため、視認は同一作品の転載画像に基づく。実際に表示するMet公式API原寸・縮小JPEGの一致と画素寸法・SHAはCIで別途確認する。 Official same-object primary JPEG original/display resized RGB RMS=4.5913; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP123854.jpg",
+      "sha256": "4d0dce433006fee5f49c77bc2e651b78f0daa0f36c64ba6bebb0d4ba705ccd1e",
+      "byte_length": 1780752,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437328",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437328/794456/main-image",
+        "https://www.theepochtimes.com/bright/cleansing-ourselves-of-improper-desires-midas-washing-at-the-source-of-the-pactolus-4764950"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met作品437328の公式ページおよび同一作品を転載した『Midas Washing at the Source of the Pactolus』の画像を視認した。縦長の画面で、茶と緑を基調にした大きな木と岩場の下、奥の左側に頭を下げて身を洗う裸の男、手前に背中を大きく見せて横たわる壮年の川神、下に小さな幼児像と水瓶が見える。中央の横たわる人物と左でうなだれるミダスを取り違えない。Met公式リンクのIIIF 437328/794456/main-imageはリンクとして照合済みだがブラウザの直接取得が失敗したため、視認は同一作品の転載画像に基づく。実際に表示するMet公式API原寸・縮小JPEGの一致と画素寸法・SHAはCIで別途確認する。 Official same-object primary JPEG original/display resized RGB RMS=4.5913; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #460 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}

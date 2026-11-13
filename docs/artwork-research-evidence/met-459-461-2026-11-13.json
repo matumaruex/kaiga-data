@@ -1,0 +1,170 @@
+{
+  "checked_on": "2026-11-13",
+  "method": "Live Met API primary original/display full JPEG SHA256/size and RGB correspondence; exact Met artwork Overview read directly. Official Met IIIF images were directly viewed for met-437061 and met-656430. Exact-work reproduction of met-437328 was visually viewed; its official Met IIIF browser fetch failed. This limit is stated in the individual evidence. CI verifies each official Met API original/display JPEG pair.",
+  "artworks": [
+    {
+      "id": "met-437061",
+      "objectID": 437061,
+      "title": "Salvator Mundi",
+      "artist": "Hans Memling",
+      "date": "1480–85",
+      "accession": "32.100.54",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/437061",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437061",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/437061",
+          "source_excerpt": "he holds a cross-topped globe and raises his right hand in blessing",
+          "visitor_claim": "右手は祝福のしぐさを示し、左手には上に十字架の付いた球体。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/437061",
+          "source_excerpt": "circular format made this picture appropriate for hanging above a bed",
+          "visitor_claim": "メトロポリタン美術館は、小さく丸い形が寝台の上に掛ける祈りの絵に向いていたと説明しています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "作品ページの画像リンクからMet公式IIIF 437061/2004962/main-imageを直接開いて視認。金の円形枠の中に正面を向く長髪のキリストの上半身。淡い赤紫の衣、黒みのある小さな球に細い十字架が立つ。向かって左で右手が祝福の形に持ち上がる。背景は青い空と低い丘、木の多い緑の風景、右上に小さな建造物。円形構図の中心に顔が置かれる。これはデューラーの縦長未完成作品とは別物だと視認した。",
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437061",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437061/2004962/main-image"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19586-001.jpg",
+          "sha256": "34433158929b9384ee4a22ceb7439127b52a0b5891a53eadaf5e91121980870f",
+          "byte_length": 178577,
+          "size_px": [
+            599,
+            596
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-19586-001.jpg",
+          "sha256": "3f78a43779942d28ec98d9634875d5379a4e33252bf93dc95adb2195015ac33a",
+          "byte_length": 6635994,
+          "size_px": [
+            4000,
+            3977
+          ]
+        }
+      ],
+      "resized_rgb_rms": 6.5746
+    },
+    {
+      "id": "met-437328",
+      "objectID": 437328,
+      "title": "Midas Washing at the Source of the Pactolus",
+      "artist": "Nicolas Poussin",
+      "date": "ca. 1627",
+      "accession": "71.56",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/437328",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437328",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/437328",
+          "source_excerpt": "the god Bacchus instructed Midas to wash in the Pactolus River",
+          "visitor_claim": "酒神バッカスに教えられて川でその呪いを洗い流そうとします。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/437328",
+          "source_excerpt": "Midas here as the smaller, humbled figure behind a classical representation",
+          "visitor_claim": "こちらの目立たない人物こそ、神話のミダス王です。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "Met作品437328の公式ページおよび同一作品を転載した『Midas Washing at the Source of the Pactolus』の画像を視認した。縦長の画面で、茶と緑を基調にした大きな木と岩場の下、奥の左側に頭を下げて身を洗う裸の男、手前に背中を大きく見せて横たわる壮年の川神、下に小さな幼児像と水瓶が見える。中央の横たわる人物と左でうなだれるミダスを取り違えない。Met公式リンクのIIIF 437328/794456/main-imageはリンクとして照合済みだがブラウザの直接取得が失敗したため、視認は同一作品の転載画像に基づく。実際に表示するMet公式API原寸・縮小JPEGの一致と画素寸法・SHAはCIで別途確認する。",
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437328",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437328/794456/main-image",
+        "https://www.theepochtimes.com/bright/cleansing-ourselves-of-improper-desires-midas-washing-at-the-source-of-the-pactolus-4764950"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP123854.jpg",
+          "sha256": "e7b70408b4302d3cb3eb3d6f99c09bf70c8d454451c242e13cb04ba038b763c0",
+          "byte_length": 60166,
+          "size_px": [
+            469,
+            625
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP123854.jpg",
+          "sha256": "4d0dce433006fee5f49c77bc2e651b78f0daa0f36c64ba6bebb0d4ba705ccd1e",
+          "byte_length": 1780752,
+          "size_px": [
+            2858,
+            3807
+          ]
+        }
+      ],
+      "resized_rgb_rms": 4.5913
+    },
+    {
+      "id": "met-656430",
+      "objectID": 656430,
+      "title": "Portrait of Yun Dongseom (1710–1795)",
+      "artist": "Unidentified artist",
+      "date": "ca. 1790–1805",
+      "accession": "2014.605",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/656430",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/656430",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/656430",
+          "source_excerpt": "confirmed by two other extant portraits in Korean collections",
+          "visitor_claim": "韓国に残る別の肖像画二点との比較から、本人と確認されています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/656430",
+          "source_excerpt": "centerpiece of a family shrine dedicated to honoring the family’s male lineages",
+          "visitor_claim": "これは祖先を敬う家の祠堂で、中心になるような肖像画だったと美術館は説明しています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "Met作品656430の公式IIIF画像656430/1426655/main-imageを直接開いて視認。縦長の絹本の掛軸で、薄い茶色の無地を背景に、黒い冠をかぶり長い黒い礼服を着た老年の男性が椅子に座る。顔はやや向かって左に向き、灰白色の口ひげとあごひげ、肩の背後には白と黒の斑のある豹皮が見える。胸には白い鳥の意匠と赤・青・金の模様がある方形の胸当て、腰には装飾のある帯。座面下の足置きに白い靴先。表情や位階の意味の解釈は公式作品資料を参照する。",
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/656430",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/656430/1426655/main-image"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP341229.jpg",
+          "sha256": "651d118e06f6f5d1e69108b94bbc2ff6d0298be9d3d7a52ccb59c6bc49f4d96e",
+          "byte_length": 68138,
+          "size_px": [
+            406,
+            625
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP341229.jpg",
+          "sha256": "999d1c63e6ffeb245d3caf0cb34fa2037fc94eec873f108b2eceb11cfe7879a1",
+          "byte_length": 2018341,
+          "size_px": [
+            2522,
+            3880
+          ]
+        }
+      ],
+      "resized_rgb_rms": 6.9499
+    }
+  ],
+  "limitations": [
+    "Same AI review, not an independent human/expert",
+    "Per-work visual-reference provenance and limitations documented; official Met original/display JPEGs downloaded and RGB correspondence checked"
+  ]
+}

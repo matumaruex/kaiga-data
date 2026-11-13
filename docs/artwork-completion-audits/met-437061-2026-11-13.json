@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-437061",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-437061.json",
+  "candidate_sha256": "c3e159f8d191753c9aaa76094070d18478bf21246a9d4d8aa7e304ada2a95c24",
+  "draft_path": "drafts/visitor-explanations/met-437061.json",
+  "draft_sha256": "32b3c65bb485d0fc59f87b0652d0b1ebb8f60e4ff8a3dc353ee3629e7811d524",
+  "baseline": {
+    "artworks_sha256": "501e7aeb28b1c5c3e766b92380abc4e1b71a32f67a10bde148254095b8845686",
+    "image_registry_sha256": "8cb077def42d63cc238a971caeafef8d9a0d4b62263b8199a1c38626575b4f62"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437061",
+      "source_excerpt": "he holds a cross-topped globe and raises his right hand in blessing",
+      "visitor_claim": "右手は祝福のしぐさを示し、左手には上に十字架の付いた球体。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437061",
+      "source_excerpt": "circular format made this picture appropriate for hanging above a bed",
+      "visitor_claim": "メトロポリタン美術館は、小さく丸い形が寝台の上に掛ける祈りの絵に向いていたと説明しています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437061",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "メトロポリタン美術館の作品437061のOverviewを直接確認した。1480〜85年のネーデルラント絵画で、作者表示は『ハンス・メムリンクの工房』でありメムリンク本人の単独制作としない。正面を向くキリストは右手を上げて祝福し、左手で十字架の付いた球を抱える。球は世界を治める救い主という信仰上の図像であり、実在の地球儀を示すものではない。金色の一体型の円形枠を含む全体の直径は27.3cm、描画部分は20.3cmで、寝台の上に掛けられるのに適した小さな祈りの画面だったとMetは説明する。現在の額装場所・注文者・個人的祈りの内容を根拠なく特定しない。すでに登録されているアルブレヒト・デューラーによる別作品《Salvator Mundi》(met-436243)とは、所蔵ID、作者帰属、年代、円形画面、材質が違う。 Visual: 作品ページの画像リンクからMet公式IIIF 437061/2004962/main-imageを直接開いて視認。金の円形枠の中に正面を向く長髪のキリストの上半身。淡い赤紫の衣、黒みのある小さな球に細い十字架が立つ。向かって左で右手が祝福の形に持ち上がる。背景は青い空と低い丘、木の多い緑の風景、右上に小さな建造物。円形構図の中心に顔が置かれる。これはデューラーの縦長未完成作品とは別物だと視認した。 Limits: ハンス・メムリンク本人の確定直筆作とせず工房作とする。円形の小品であることと実際の所有者が寝室に掛けていたという個別史実を混同しない。現代の科学的な地球儀の絵ではなくキリストの『世界の救世主』を表す宗教図像である。デューラーの別作met-436243と同名だが重複ではない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437061",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-437061: API objectID=437061, primary JPEG full downloaded and verified; RMS=6.5746",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437061",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=6.5746."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437061",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and the artwork-specific visual sources: direct official Met IIIF images for met-437061 (2004962) and met-656430 (1426655), plus exact work reproduction linked to the Met catalog for met-437328 (official IIIF 794456 not accessible in the research browser, but source is documented), plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-437061 Salvator Mundi / Hans Memling / 1480–85 / 32.100.54",
+      "image_match": "作品ページの画像リンクからMet公式IIIF 437061/2004962/main-imageを直接開いて視認。金の円形枠の中に正面を向く長髪のキリストの上半身。淡い赤紫の衣、黒みのある小さな球に細い十字架が立つ。向かって左で右手が祝福の形に持ち上がる。背景は青い空と低い丘、木の多い緑の風景、右上に小さな建造物。円形構図の中心に顔が置かれる。これはデューラーの縦長未完成作品とは別物だと視認した。 Both primary JPEG variants fully downloaded and match (RMS=6.5746).",
+      "historical_interpretation": "メトロポリタン美術館の作品437061のOverviewを直接確認した。1480〜85年のネーデルラント絵画で、作者表示は『ハンス・メムリンクの工房』でありメムリンク本人の単独制作としない。正面を向くキリストは右手を上げて祝福し、左手で十字架の付いた球を抱える。球は世界を治める救い主という信仰上の図像であり、実在の地球儀を示すものではない。金色の一体型の円形枠を含む全体の直径は27.3cm、描画部分は20.3cmで、寝台の上に掛けられるのに適した小さな祈りの画面だったとMetは説明する。現在の額装場所・注文者・個人的祈りの内容を根拠なく特定しない。すでに登録されているアルブレヒト・デューラーによる別作品《Salvator Mundi》(met-436243)とは、所蔵ID、作者帰属、年代、円形画面、材質が違う。 Cautions: ハンス・メムリンク本人の確定直筆作とせず工房作とする。円形の小品であることと実際の所有者が寝室に掛けていたという個別史実を混同しない。現代の科学的な地球儀の絵ではなくキリストの『世界の救世主』を表す宗教図像である。デューラーの別作met-436243と同名だが重複ではない。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['畏敬', '安心']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19586-001.jpg",
+      "sha256": "34433158929b9384ee4a22ceb7439127b52a0b5891a53eadaf5e91121980870f",
+      "byte_length": 178577,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437061",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437061/2004962/main-image"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "作品ページの画像リンクからMet公式IIIF 437061/2004962/main-imageを直接開いて視認。金の円形枠の中に正面を向く長髪のキリストの上半身。淡い赤紫の衣、黒みのある小さな球に細い十字架が立つ。向かって左で右手が祝福の形に持ち上がる。背景は青い空と低い丘、木の多い緑の風景、右上に小さな建造物。円形構図の中心に顔が置かれる。これはデューラーの縦長未完成作品とは別物だと視認した。 Official same-object primary JPEG original/display resized RGB RMS=6.5746; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-19586-001.jpg",
+      "sha256": "3f78a43779942d28ec98d9634875d5379a4e33252bf93dc95adb2195015ac33a",
+      "byte_length": 6635994,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437061",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437061/2004962/main-image"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "作品ページの画像リンクからMet公式IIIF 437061/2004962/main-imageを直接開いて視認。金の円形枠の中に正面を向く長髪のキリストの上半身。淡い赤紫の衣、黒みのある小さな球に細い十字架が立つ。向かって左で右手が祝福の形に持ち上がる。背景は青い空と低い丘、木の多い緑の風景、右上に小さな建造物。円形構図の中心に顔が置かれる。これはデューラーの縦長未完成作品とは別物だと視認した。 Official same-object primary JPEG original/display resized RGB RMS=6.5746; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #459 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}
