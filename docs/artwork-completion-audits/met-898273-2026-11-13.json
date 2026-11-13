@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-898273",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-898273.json",
+  "candidate_sha256": "f65f762e3bcf9b5ee0b44332a98daf318d12be1e0e2bc2d0c13b87c7f3b163ee",
+  "draft_path": "drafts/visitor-explanations/met-898273.json",
+  "draft_sha256": "ddc126fe5e196bdabe69ca882b823c8eace4d302ac6843c9dd8e5355e586acbb",
+  "baseline": {
+    "artworks_sha256": "fb298e4dd22eba4ba44ba52dcf34d8e813ec38aba42167dd16ff7c3b2accdb07",
+    "image_registry_sha256": "c2a0154c12871f42440a46f9b8a0780d13fda9d25c0e41c75dd3071dd890b269"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/898273",
+      "source_excerpt": "symbolizing the \"loved and beloved one\"",
+      "visitor_claim": "薔薇とナイチンゲールは、当時の恋愛詩において「愛する者と愛される者」を象徴する組み合わせでした。",
+      "source_section": "Exact Met artwork Overview: love-poetry symbolism"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/898273",
+      "source_excerpt": "who mainly painted scenes for collectors’ albums",
+      "visitor_claim": "画家は、収集家向けのアルバムに収める絵も多く制作しました。",
+      "source_section": "Exact Met artwork Overview: artist's collectors album production"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/898273",
+      "location": "Exact artwork Overview and Object Information: Exact Met artwork Overview: love-poetry symbolism; Exact Met artwork Overview: artist's collectors album production",
+      "finding": "Metの個別Overviewによると、『薔薇とナイチンゲール』は15〜18世紀のオスマンの恋愛詩で『愛する者と愛される者』を象徴する組み合わせである。画面の主画像は薔薇と鳥が描かれたアルバムの葉の片面を写し、裏面（verso）にはチューリップなどの花がある。鮮明な緑の尖った葉と、鳥や花を写実的に描く技法は1720年代以降のイスタンブール絵画の特徴。作者アブドゥッラー・ブハーリーの署名があり、収集家用アルバムの絵を多く描いた画家として美術館が説明。制作都市は『おそらくイスタンブール』にとどまる。 Actual image observation: Met公式object APIの主原寸/表示JPEGを全バイト取得してSHA256と縮小RMSを検査し、実際の主画像サムネイルを確認。縦長の紙面に青と白の波紋模様の大きなマーブル紙の縁。金色の細い二重枠の内側に小さな薔薇の枝があり、ピンクの蕾や開きかけの花の横に一羽の灰色の小鳥が横向きに止まっている。題名は『二羽のナイチンゲール』だが主JPEGには一羽が明瞭で、両面のすべての画像が写るわけではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.0238で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/898273",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/898273",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/898273",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-898273 \"Two Nightingales in a Rose Bush\", Double-Sided Illustrated Leaf from an Ottoman Album; 'Abdullah Bukhari; ca. 1725–45; accession 2023.217. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式object APIの主原寸/表示JPEGを全バイト取得してSHA256と縮小RMSを検査し、実際の主画像サムネイルを確認。縦長の紙面に青と白の波紋模様の大きなマーブル紙の縁。金色の細い二重枠の内側に小さな薔薇の枝があり、ピンクの蕾や開きかけの花の横に一羽の灰色の小鳥が横向きに止まっている。題名は『二羽のナイチンゲール』だが主JPEGには一羽が明瞭で、両面のすべての画像が写るわけではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.0238で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json",
+      "historical_interpretation": "Metの個別Overviewによると、『薔薇とナイチンゲール』は15〜18世紀のオスマンの恋愛詩で『愛する者と愛される者』を象徴する組み合わせである。画面の主画像は薔薇と鳥が描かれたアルバムの葉の片面を写し、裏面（verso）にはチューリップなどの花がある。鮮明な緑の尖った葉と、鳥や花を写実的に描く技法は1720年代以降のイスタンブール絵画の特徴。作者アブドゥッラー・ブハーリーの署名があり、収集家用アルバムの絵を多く描いた画家として美術館が説明。制作都市は『おそらくイスタンブール』にとどまる。 Limits: 主JPEGは両面のうち薔薇と鳥を描いた片面のみ。裏面のチューリップを画像に直接写っていると説明しない。鳥の種や詩の具体的な一篇を断定せず、詩の伝統上の象徴として解説。制作地はMetの『おそらくイスタンブール』。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['慈しみ']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-29346-001.jpg",
+      "sha256": "bd9c6f4eb82d3eaf81d9fd45eed3902516e64ff49207ecdd243e3feff93b4ede",
+      "byte_length": 186466,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式object APIの主原寸/表示JPEGを全バイト取得してSHA256と縮小RMSを検査し、実際の主画像サムネイルを確認。縦長の紙面に青と白の波紋模様の大きなマーブル紙の縁。金色の細い二重枠の内側に小さな薔薇の枝があり、ピンクの蕾や開きかけの花の横に一羽の灰色の小鳥が横向きに止まっている。題名は『二羽のナイチンゲール』だが主JPEGには一羽が明瞭で、両面のすべての画像が写るわけではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.0238で対応確認。 Confirmed image belongs to Met artwork 898273, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/DP-29346-001.jpg",
+      "sha256": "cc8876638b6daf7e7b0a784804efc0d593593648018980ce5ab5a92883d1e4ed",
+      "byte_length": 4260617,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式object APIの主原寸/表示JPEGを全バイト取得してSHA256と縮小RMSを検査し、実際の主画像サムネイルを確認。縦長の紙面に青と白の波紋模様の大きなマーブル紙の縁。金色の細い二重枠の内側に小さな薔薇の枝があり、ピンクの蕾や開きかけの花の横に一羽の灰色の小鳥が横向きに止まっている。題名は『二羽のナイチンゲール』だが主JPEGには一羽が明瞭で、両面のすべての画像が写るわけではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.0238で対応確認。 Confirmed image belongs to Met artwork 898273, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #418; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 440727 precise view location is uncertain; Met 898273 is double-sided and the primary JPEG only depicts the rose and nightingale side; Met 317829 depicts four icon surfaces but the primary JPEG only depicts two of them and this is not the older registered Ethiopian met-309529."
+  ]
+}

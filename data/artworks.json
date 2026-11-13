@@ -50817,6 +50817,368 @@
         "audit_sha256": "80d6e39a2b429a8a34055395b2049960954fa010dea299b18dd5cefc03d382ba",
         "record_sha256": "71dc84d0a815a710b2565122a7a989dde65052d089343fb2db1fb6c7129367ff"
       }
+    },
+    {
+      "id": "met-440727",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 440727,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/440727",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/440727",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "German Landscape with View toward a Broad Valley",
+        "title_ja_provisional": "広い谷を見下ろすドイツの風景",
+        "artist": "Fritz Petzholdt",
+        "creation_date_display": "ca. 1829–30",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Danish painter, German landscape",
+        "accession_number": "2009.285"
+      },
+      "image": {
+        "image_id": "met-440727-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP212416.jpg",
+        "source_registry_id": "met-440727",
+        "local_path": "/artworks/met-440727.jpg",
+        "sha256": "4428759ea5ebd2849fe3a0e8c63e01916d38d3c7d5eb426f517ec6502bc27afa",
+        "byte_length": 68483,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json",
+        "source_accession_number": "2009.285",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP212416.jpg",
+          "sha256": "4f7a6588b470c3a9def478621e26723917d253d9beec19e1c90b686a27c8f73d",
+          "byte_length": 2411047,
+          "width": 3911,
+          "height": 2210,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 6.54746",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "安心"
+        ],
+        "emotion_strengths": {
+          "安心": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/440727",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "19世紀のデンマーク人画家が描いた静かなドイツの丘陵風景で、手前の崖と遠い山を見比べたい",
+              "reason": "メトロポリタン美術館の個別Overviewは、デンマーク黄金時代の絵画を牽引したクリストファー・ヴィルヘルム・エッカースベルグの弟子の中で、フリッツ・ペッツホルトが風景画に専念した唯一の画家だったと説明。この小さな風景の正確な場所は未確定だが、1829年と翌1830年に彼がスケッチをしたドイツで制作されたとみられる。作品は1829〜30年頃の紙に油彩で描いた画で、後にキャンバスへ貼り付けられている。ドイツの特定都市や谷の名前を推測しない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作者はデンマーク人、制作対象はドイツのどこかという区別。正確な描画場所はMet公式も未特定で、特定の村や渓谷を断定しない。作品の支持体は紙に油彩で後からキャンバスに貼ったもの。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "メトロポリタン美術館の個別Overviewは、デンマーク黄金時代の絵画を牽引したクリストファー・ヴィルヘルム・エッカースベルグの弟子の中で、フリッツ・ペッツホルトが風景画に専念した唯一の画家だったと説明。この小さな風景の正確な場所は未確定だが、1829年と翌1830年に彼がスケッチをしたドイツで制作されたとみられる。作品は1829〜30年頃の紙に油彩で描いた画で、後にキャンバスへ貼り付けられている。ドイツの特定都市や谷の名前を推測しない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/440727"
+          },
+          "creation_context": "ca. 1829–30; Danish painter, German landscape; Oil on paper, laid down on canvas; accession 2009.285",
+          "visual_clues": "Metの原寸・表示JPEGのSHA256/サイズ/寸法/縮小RMSを確認し、実主画像のサムネイルを視認。横長の絵で左側の前景に褐色の切り立った丘、上面に緑の草と低い樹木、中央から右の奥に深く続く谷と霞む低山、上に淡い灰色の雲の空が見える。明るい右側と暗い左の崖に注目。近景には小さな道らしい線もあるが位置は特定しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.5475で対応確認。",
+          "uncertainty_note": "作者はデンマーク人、制作対象はドイツのどこかという区別。正確な描画場所はMet公式も未特定で、特定の村や渓谷を断定しない。作品の支持体は紙に油彩で後からキャンバスに貼ったもの。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "安心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "手前には、草の生えた褐色の崖が横たわり、その奥へ緑の谷と低い山並みが続いています。左の暗い斜面から右の明るい遠景へ目を移すと、小さな画面の中にも広い空気が感じられます。雲の下には、遠い丘が淡く重なっています。\n\nこの絵は1829～30年頃、デンマーク人画家フリッツ・ペッツホルトが描いた風景画です。彼はデンマーク絵画の黄金時代を代表するエッカースベルグの弟子で、その門下では珍しく、風景画に専念した画家でした。紙に油彩で描かれ、のちにキャンバスへ貼り付けられています。\n\n美術館によると、描かれた場所の正確な位置はまだ分かっていません。ただし、画家が1829年と翌年に訪れてスケッチしたドイツの風景と考えられています。名前の分からない谷であっても、崖の近さと山の遠さを見比べるだけで、画家が捉えた景色の広がりを楽しめます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/440727"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-440727-2026-11-13.json",
+        "audit_sha256": "ae6cf8a320aa6083db94e805e443aae30f16f7a797706fd44250ed54fa79ecd9",
+        "record_sha256": "14da1a4e792d0d049e039a500d743410ce0446d747b03c33fd012c7fe80cf90d"
+      }
+    },
+    {
+      "id": "met-898273",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 898273,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/898273",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/898273",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "\"Two Nightingales in a Rose Bush\", Double-Sided Illustrated Leaf from an Ottoman Album",
+        "title_ja_provisional": "薔薇の枝にとまるナイチンゲール（両面彩飾葉）",
+        "artist": "'Abdullah Bukhari",
+        "creation_date_display": "ca. 1725–45",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Turkey (probably Istanbul, Ottoman Empire)",
+        "accession_number": "2023.217"
+      },
+      "image": {
+        "image_id": "met-898273-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-29346-001.jpg",
+        "source_registry_id": "met-898273",
+        "local_path": "/artworks/met-898273.jpg",
+        "sha256": "bd9c6f4eb82d3eaf81d9fd45eed3902516e64ff49207ecdd243e3feff93b4ede",
+        "byte_length": 186466,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json",
+        "source_accession_number": "2023.217",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP-29346-001.jpg",
+          "sha256": "cc8876638b6daf7e7b0a784804efc0d593593648018980ce5ab5a92883d1e4ed",
+          "byte_length": 4260617,
+          "width": 2732,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.02382",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "慈しみ"
+        ],
+        "emotion_strengths": {
+          "慈しみ": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "愛情",
+          "自然"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/898273",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "18世紀オスマン帝国の薔薇とナイチンゲールの絵を、恋の詩に登場する『愛する者と愛される者』の象徴として見たい",
+              "reason": "Metの個別Overviewによると、『薔薇とナイチンゲール』は15〜18世紀のオスマンの恋愛詩で『愛する者と愛される者』を象徴する組み合わせである。画面の主画像は薔薇と鳥が描かれたアルバムの葉の片面を写し、裏面（verso）にはチューリップなどの花がある。鮮明な緑の尖った葉と、鳥や花を写実的に描く技法は1720年代以降のイスタンブール絵画の特徴。作者アブドゥッラー・ブハーリーの署名があり、収集家用アルバムの絵を多く描いた画家として美術館が説明。制作都市は『おそらくイスタンブール』にとどまる。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "主JPEGは両面のうち薔薇と鳥を描いた片面のみ。裏面のチューリップを画像に直接写っていると説明しない。鳥の種や詩の具体的な一篇を断定せず、詩の伝統上の象徴として解説。制作地はMetの『おそらくイスタンブール』。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metの個別Overviewによると、『薔薇とナイチンゲール』は15〜18世紀のオスマンの恋愛詩で『愛する者と愛される者』を象徴する組み合わせである。画面の主画像は薔薇と鳥が描かれたアルバムの葉の片面を写し、裏面（verso）にはチューリップなどの花がある。鮮明な緑の尖った葉と、鳥や花を写実的に描く技法は1720年代以降のイスタンブール絵画の特徴。作者アブドゥッラー・ブハーリーの署名があり、収集家用アルバムの絵を多く描いた画家として美術館が説明。制作都市は『おそらくイスタンブール』にとどまる。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/898273"
+          },
+          "creation_context": "ca. 1725–45; Turkey (probably Istanbul, Ottoman Empire); Opaque watercolor with black ink, shell, and gold leaf on paper, with a marbled paper margin; accession 2023.217",
+          "visual_clues": "Met公式object APIの主原寸/表示JPEGを全バイト取得してSHA256と縮小RMSを検査し、実際の主画像サムネイルを確認。縦長の紙面に青と白の波紋模様の大きなマーブル紙の縁。金色の細い二重枠の内側に小さな薔薇の枝があり、ピンクの蕾や開きかけの花の横に一羽の灰色の小鳥が横向きに止まっている。題名は『二羽のナイチンゲール』だが主JPEGには一羽が明瞭で、両面のすべての画像が写るわけではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.0238で対応確認。",
+          "uncertainty_note": "主JPEGは両面のうち薔薇と鳥を描いた片面のみ。裏面のチューリップを画像に直接写っていると説明しない。鳥の種や詩の具体的な一篇を断定せず、詩の伝統上の象徴として解説。制作地はMetの『おそらくイスタンブール』。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "慈しみ"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "青く波打つ模様の紙の中央に、小さな薔薇の枝が描かれています。蕾のそばには灰色の小鳥が止まり、花や葉の形は細い線で丁寧に表されています。周囲の華やかな紙の模様と、中央の静かな自然の描写を見比べてみてください。\n\nこの作品は、18世紀のオスマン帝国で活躍したアブドゥッラー・ブハーリーによる彩飾画です。薔薇とナイチンゲールは、当時の恋愛詩において「愛する者と愛される者」を象徴する組み合わせでした。鳥と花を写実的に描き、尖った緑の葉を配する表現は、1720年代からイスタンブールで発展した絵画の特徴とされています。\n\n画家は、収集家向けのアルバムに収める絵も多く制作しました。この作品も両面に絵のあるアルバムの一葉で、裏面にはチューリップなどの花が描かれています。ここに表示される主画像は薔薇のある片面です。花と小鳥の間のわずかな距離に、古い詩が重ねた意味を思い浮かべてみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/898273"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-898273-2026-11-13.json",
+        "audit_sha256": "c5cec65a346a803cfeab8fb6b3241bf12132424cb8e72d461188b6d5a1fb5585",
+        "record_sha256": "0b83b18e506a19368098eb2579283a09ef81f60f4208ba9f59c0d6fc2d568f56"
+      }
+    },
+    {
+      "id": "met-317829",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 317829,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/317829",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/317829",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Double Diptych Icon Pendant",
+        "title_ja_provisional": "四面の絵を持つ携帯用二連イコン",
+        "artist": "Unidentified Amhara or Tigrinya artist",
+        "creation_date_display": "early 18th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Amhara or Tigrinya peoples",
+        "accession_number": "1997.81.1"
+      },
+      "image": {
+        "image_id": "met-317829-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ao/web-large/DP-25652-001.jpg",
+        "source_registry_id": "met-317829",
+        "local_path": "/artworks/met-317829.jpg",
+        "sha256": "7c2c08ad39cf9fe25fe0ec5eca368e1c212f829846c81353138f7b5a70d359f9",
+        "byte_length": 98069,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json",
+        "source_accession_number": "1997.81.1",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ao/original/DP-25652-001.jpg",
+          "sha256": "f8bcd35b4f9ba3169f2d5e6067fa9fc0794bb2b7112380d6f96b3141f18a0936",
+          "byte_length": 2609295,
+          "width": 4000,
+          "height": 2960,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.70908",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 1
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/317829",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "エチオピアの首から下げられる小さな宗教画で、聖母子と聖ゲオルギウス、裏面の受難や復活をつなぐ仕組みを知りたい",
+              "reason": "Metの個別Overviewは18世紀初めのエチオピアの二連の両面イコンとして、首から紐で下げて持ち歩く貴族の個人信仰用具と解説する。表と裏・外側のふたを合わせてキリスト教主題が四面描かれる。主画像の開いた片側には聖母子と剣を持つ大天使たち、左の内ふたには白馬に乗り竜を倒す聖ゲオルギウス。裏側には十字架上のキリストと両脇の聖母マリア、聖ヨハネ、別の面にはアダムとエヴァを起こす復活のキリスト。主画像だけで四面すべてが見えると誤解させない。エチオピアのゴンダールで17世紀後半に発達した、黒い太い輪郭と平面的なピンク・橙色の顔彩の様式を示す。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "同じエチオピアでも既登録met-309529の別作品（1997.81.1対68.128）なので画像と所蔵番号で区別。写真に写るのは開いた片面の二画面だけで、裏側の主題は公式Overviewを根拠に記述する。宗教的伝承の場面を史実だと断定しない。作者の氏名や特定宗派内の所有者は不明。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metの個別Overviewは18世紀初めのエチオピアの二連の両面イコンとして、首から紐で下げて持ち歩く貴族の個人信仰用具と解説する。表と裏・外側のふたを合わせてキリスト教主題が四面描かれる。主画像の開いた片側には聖母子と剣を持つ大天使たち、左の内ふたには白馬に乗り竜を倒す聖ゲオルギウス。裏側には十字架上のキリストと両脇の聖母マリア、聖ヨハネ、別の面にはアダムとエヴァを起こす復活のキリスト。主画像だけで四面すべてが見えると誤解させない。エチオピアのゴンダールで17世紀後半に発達した、黒い太い輪郭と平面的なピンク・橙色の顔彩の様式を示す。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/317829"
+          },
+          "creation_context": "early 18th century; Ethiopia (Amhara or Tigrinya peoples); Wood, tempera pigment, string; accession 1997.81.1",
+          "visual_clues": "Met公式APIの原寸・表示用の実JPEG全バイトハッシュ、寸法、縮小RMSを記録し、主画像サムネイルを直接視認。展示用の灰色背景の前に小さい絵入り木製容器が左右に開いており、左の小板には白馬で竜へ槍を向ける聖ゲオルギウス、右には正面を向く聖母子と左右の天使。外枠の黄色～金の縁、上部の筒状の吊り紐部分も見える。裏側の十字架や復活の絵はこの主JPEGでは見えない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.7091で対応確認。",
+          "uncertainty_note": "同じエチオピアでも既登録met-309529の別作品（1997.81.1対68.128）なので画像と所蔵番号で区別。写真に写るのは開いた片面の二画面だけで、裏側の主題は公式Overviewを根拠に記述する。宗教的伝承の場面を史実だと断定しない。作者の氏名や特定宗派内の所有者は不明。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "畏敬"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "小さな木の扉を開くと、左右に異なる宗教画が見えます。左には白馬に乗り槍を構える聖ゲオルギウス、右には幼いキリストを抱く聖母マリアと天使たち。人物の黒い輪郭と鮮やかな赤や金色が、手のひらほどの画面を印象深くしています。\n\nこれは18世紀初めのエチオピアで作られた携帯用のイコンです。紐で首から下げて持ち歩く個人用の宗教画として使われました。両面を合わせると四つの宗教的な場面が描かれ、聖母子や竜を倒す聖ゲオルギウスのほか、反対側にはキリストの磔刑や復活も表されています。\n\n今表示されている主画像には、開いた片側の二画面だけが写っています。エチオピアのゴンダールで発達した、太い輪郭線と平面的な色彩の様式も見どころです。身に着けるほど小さな品に、信仰の物語が幾重にも収められていることを想像してみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/317829"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-317829-2026-11-13.json",
+        "audit_sha256": "43030feb4a1b82a1de590ef0f1f2fb92300a1dbae55aa8d244f86c6e338d6c44",
+        "record_sha256": "502c7e173875d463baa0169e60b6bdb9b51bb518a045f7534fb48aea14b085fb"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

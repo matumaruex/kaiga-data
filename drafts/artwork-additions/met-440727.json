@@ -1,0 +1,151 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-440727",
+  "artwork": {
+    "id": "met-440727",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 440727,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/440727",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/440727",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "German Landscape with View toward a Broad Valley",
+      "title_ja_provisional": "広い谷を見下ろすドイツの風景",
+      "artist": "Fritz Petzholdt",
+      "creation_date_display": "ca. 1829–30",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Danish painter, German landscape",
+      "accession_number": "2009.285"
+    },
+    "image": {
+      "image_id": "met-440727-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP212416.jpg",
+      "source_registry_id": "met-440727",
+      "local_path": "/artworks/met-440727.jpg",
+      "sha256": "4428759ea5ebd2849fe3a0e8c63e01916d38d3c7d5eb426f517ec6502bc27afa",
+      "byte_length": 68483,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json",
+      "source_accession_number": "2009.285",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP212416.jpg",
+        "sha256": "4f7a6588b470c3a9def478621e26723917d253d9beec19e1c90b686a27c8f73d",
+        "byte_length": 2411047,
+        "width": 3911,
+        "height": 2210,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 6.54746",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "安心"
+      ],
+      "emotion_strengths": {
+        "安心": 1
+      },
+      "tones": [
+        "静けさ",
+        "落ち着き"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/440727",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "19世紀のデンマーク人画家が描いた静かなドイツの丘陵風景で、手前の崖と遠い山を見比べたい",
+            "reason": "メトロポリタン美術館の個別Overviewは、デンマーク黄金時代の絵画を牽引したクリストファー・ヴィルヘルム・エッカースベルグの弟子の中で、フリッツ・ペッツホルトが風景画に専念した唯一の画家だったと説明。この小さな風景の正確な場所は未確定だが、1829年と翌1830年に彼がスケッチをしたドイツで制作されたとみられる。作品は1829〜30年頃の紙に油彩で描いた画で、後にキャンバスへ貼り付けられている。ドイツの特定都市や谷の名前を推測しない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "作者はデンマーク人、制作対象はドイツのどこかという区別。正確な描画場所はMet公式も未特定で、特定の村や渓谷を断定しない。作品の支持体は紙に油彩で後からキャンバスに貼ったもの。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "メトロポリタン美術館の個別Overviewは、デンマーク黄金時代の絵画を牽引したクリストファー・ヴィルヘルム・エッカースベルグの弟子の中で、フリッツ・ペッツホルトが風景画に専念した唯一の画家だったと説明。この小さな風景の正確な場所は未確定だが、1829年と翌1830年に彼がスケッチをしたドイツで制作されたとみられる。作品は1829〜30年頃の紙に油彩で描いた画で、後にキャンバスへ貼り付けられている。ドイツの特定都市や谷の名前を推測しない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/440727"
+        },
+        "creation_context": "ca. 1829–30; Danish painter, German landscape; Oil on paper, laid down on canvas; accession 2009.285",
+        "visual_clues": "Metの原寸・表示JPEGのSHA256/サイズ/寸法/縮小RMSを確認し、実主画像のサムネイルを視認。横長の絵で左側の前景に褐色の切り立った丘、上面に緑の草と低い樹木、中央から右の奥に深く続く谷と霞む低山、上に淡い灰色の雲の空が見える。明るい右側と暗い左の崖に注目。近景には小さな道らしい線もあるが位置は特定しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.5475で対応確認。",
+        "uncertainty_note": "作者はデンマーク人、制作対象はドイツのどこかという区別。正確な描画場所はMet公式も未特定で、特定の村や渓谷を断定しない。作品の支持体は紙に油彩で後からキャンバスに貼ったもの。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "安心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "手前には、草の生えた褐色の崖が横たわり、その奥へ緑の谷と低い山並みが続いています。左の暗い斜面から右の明るい遠景へ目を移すと、小さな画面の中にも広い空気が感じられます。雲の下には、遠い丘が淡く重なっています。\n\nこの絵は1829～30年頃、デンマーク人画家フリッツ・ペッツホルトが描いた風景画です。彼はデンマーク絵画の黄金時代を代表するエッカースベルグの弟子で、その門下では珍しく、風景画に専念した画家でした。紙に油彩で描かれ、のちにキャンバスへ貼り付けられています。\n\n美術館によると、描かれた場所の正確な位置はまだ分かっていません。ただし、画家が1829年と翌年に訪れてスケッチしたドイツの風景と考えられています。名前の分からない谷であっても、崖の近さと山の遠さを見比べるだけで、画家が捉えた景色の広がりを楽しめます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/440727"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-440727",
+    "title": "German Landscape with View toward a Broad Valley",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/440727",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/440727",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP212416.jpg",
+      "sha256": "4428759ea5ebd2849fe3a0e8c63e01916d38d3c7d5eb426f517ec6502bc27afa",
+      "byte_length": 68483,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP212416.jpg",
+        "sha256": "4f7a6588b470c3a9def478621e26723917d253d9beec19e1c90b686a27c8f73d",
+        "byte_length": 2411047,
+        "width": 3911,
+        "height": 2210,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 6.54746",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2009.285"
+  }
+}
