@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-436966",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-436966.json",
+  "candidate_sha256": "b44605695876d990ab301a814dc1a624bb337c0a015d83cae911b1ffc251d7a8",
+  "draft_path": "drafts/visitor-explanations/met-436966.json",
+  "draft_sha256": "fd5a520c6a62f4f164283f6be553de6ce39e48ccc59436b509174ccd36776176",
+  "baseline": {
+    "artworks_sha256": "c04240769fe4e9cdf5ee417f787d7ced14010184091e45e735365dc9dd157091",
+    "image_registry_sha256": "e5239ac55304e8da04dbc9dc74f2351a9276f3de173321a137f35747fc8e613e"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/436966",
+      "source_excerpt": "arrives to witness the newborn Christ Child",
+      "visitor_claim": "羊飼いたちは、生まれたばかりのキリストに会いに来たところです。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/436966",
+      "source_excerpt": "blue and gold robes extend into clouds filled with cherubs",
+      "visitor_claim": "マリアの青と金色の衣は、幼子のまわりを舞う小さな天使たちの雲へとつながるように描かれています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/436966",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "Met作品別Overviewによれば1450年の少し後、若きアンドレア・マンテーニャが描いたキリスト降誕に駆けつける羊飼いたちの場面。長年の労働で傷んだ衣服の羊飼いたちが、天使による知らせを受けて幼子のもとに来る。聖母マリアとキリストは自然界と神聖なものをつなぐものとして描かれ、聖母の青と金の衣が幼子の周囲の天使たちを含む雲に伸びていく。手前の岩や奥の道、建物と植物が緻密に描かれ、当時フェラーラで流行したネーデルラント絵画への反応がうかがえる。フェラーラ公ボルソ・デステの発注かもしれないが確定していない。技法はテンペラ画で、元の木板からキャンバスへ移されたとMetに記載されている。 Visual: 2026-11-13、Met公式作品436966の主画像（IIIF 799944/main-image）を直接開き視認。横長の画面。左手前で黄色い布をまとうヨセフが肘をついて目を閉じる。中央で青いマント・赤い衣のマリアが両手を合わせ、地面に横たわる赤子に祈る。赤子のまわりには小さな天使がいる。右側では粗末な服の羊飼いたちが身をかがめ、奥には細い曲がり道と岩山、木、建物、動物が緻密に続く。マリアの青い布のまわりの金色の天使たちの描写をMet説明と照合した。絵の登場人物を実在する目撃者と誤認しない。 Limits: 聖書の降誕物語を歴史的な目撃記録としては扱わない。『ボルソ・デステの注文』は可能性で確定ではない。顔や衣が写実的なのは画家の美術的表現であり、実在の場所を描いたとは断定できない。現在の支持体がキャンバスでも、もとは木板に描かれていたという技法情報を区別する。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436966",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-436966: API objectID=436966, primary JPEG full downloaded and verified; RMS=8.1344",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/436966",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=8.1344."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/436966",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and the exact work-specific Met IIIF main images (835145/2064912, 437926/799853, 436966/799944) opened and visually reviewed directly, plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-436966 The Adoration of the Shepherds / Andrea Mantegna / shortly after 1450 / 32.130.2",
+      "image_match": "2026-11-13、Met公式作品436966の主画像（IIIF 799944/main-image）を直接開き視認。横長の画面。左手前で黄色い布をまとうヨセフが肘をついて目を閉じる。中央で青いマント・赤い衣のマリアが両手を合わせ、地面に横たわる赤子に祈る。赤子のまわりには小さな天使がいる。右側では粗末な服の羊飼いたちが身をかがめ、奥には細い曲がり道と岩山、木、建物、動物が緻密に続く。マリアの青い布のまわりの金色の天使たちの描写をMet説明と照合した。絵の登場人物を実在する目撃者と誤認しない。 Both primary JPEG variants fully downloaded and match (RMS=8.1344).",
+      "historical_interpretation": "Met作品別Overviewによれば1450年の少し後、若きアンドレア・マンテーニャが描いたキリスト降誕に駆けつける羊飼いたちの場面。長年の労働で傷んだ衣服の羊飼いたちが、天使による知らせを受けて幼子のもとに来る。聖母マリアとキリストは自然界と神聖なものをつなぐものとして描かれ、聖母の青と金の衣が幼子の周囲の天使たちを含む雲に伸びていく。手前の岩や奥の道、建物と植物が緻密に描かれ、当時フェラーラで流行したネーデルラント絵画への反応がうかがえる。フェラーラ公ボルソ・デステの発注かもしれないが確定していない。技法はテンペラ画で、元の木板からキャンバスへ移されたとMetに記載されている。 Cautions: 聖書の降誕物語を歴史的な目撃記録としては扱わない。『ボルソ・デステの注文』は可能性で確定ではない。顔や衣が写実的なのは画家の美術的表現であり、実在の場所を描いたとは断定できない。現在の支持体がキャンバスでも、もとは木板に描かれていたという技法情報を区別する。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['慈しみ', '畏敬']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP213831.jpg",
+      "sha256": "e78eccc44f0af61a3ed5272221de98aa1dd41069540901a74f6f2efca026c090",
+      "byte_length": 106876,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/436966",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436966/799944/main-image"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "2026-11-13、Met公式作品436966の主画像（IIIF 799944/main-image）を直接開き視認。横長の画面。左手前で黄色い布をまとうヨセフが肘をついて目を閉じる。中央で青いマント・赤い衣のマリアが両手を合わせ、地面に横たわる赤子に祈る。赤子のまわりには小さな天使がいる。右側では粗末な服の羊飼いたちが身をかがめ、奥には細い曲がり道と岩山、木、建物、動物が緻密に続く。マリアの青い布のまわりの金色の天使たちの描写をMet説明と照合した。絵の登場人物を実在する目撃者と誤認しない。 Official same-object primary JPEG original/display resized RGB RMS=8.1344; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP213831.jpg",
+      "sha256": "03dc8f5602352e7b175d0cc4b61d881f2a85785958018c52d4b389bf5a28ac2b",
+      "byte_length": 2994396,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/436966",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436966/799944/main-image"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "2026-11-13、Met公式作品436966の主画像（IIIF 799944/main-image）を直接開き視認。横長の画面。左手前で黄色い布をまとうヨセフが肘をついて目を閉じる。中央で青いマント・赤い衣のマリアが両手を合わせ、地面に横たわる赤子に祈る。赤子のまわりには小さな天使がいる。右側では粗末な服の羊飼いたちが身をかがめ、奥には細い曲がり道と岩山、木、建物、動物が緻密に続く。マリアの青い布のまわりの金色の天使たちの描写をMet説明と照合した。絵の登場人物を実在する目撃者と誤認しない。 Official same-object primary JPEG original/display resized RGB RMS=8.1344; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #458 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}

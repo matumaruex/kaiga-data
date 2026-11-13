@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-835145",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-835145.json",
+  "candidate_sha256": "6d6df669699123ec84d05dd702ade13baaebd352491cf2c8560827d91d4ca626",
+  "draft_path": "drafts/visitor-explanations/met-835145.json",
+  "draft_sha256": "66a571705a2a7be8129ab94054f217aa5e27d8a2bb462a5327abb71758858c35",
+  "baseline": {
+    "artworks_sha256": "182df40d8ac6280ba35a2ea4cab173099b6846d947611db7ae8ef3f8795564e8",
+    "image_registry_sha256": "e82b73fbe49780d4f6bf09bf545dd256071ad1fa188486aeb1516170afbf84e2"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/835145",
+      "source_excerpt": "displayed in a niche in a palace or pavilion",
+      "visitor_claim": "もとは宮殿や離宮の壁のくぼみに収められ、ほかの王侯の肖像などと一緒に部屋を飾っていたと考えられています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/835145",
+      "source_excerpt": "attention to detail and patterning characteristic of Persian painting",
+      "visitor_claim": "細かな衣装の模様にはペルシア絵画の伝統が感じられ、一方で油彩の表現にはヨーロッパの技法も取り入れられています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/835145",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "Met作品別Overviewを直接確認。1820年ごろイランで制作された、作者未詳のガージャール朝の若い王子の油彩肖像画。人物は後に1834〜1848年に統治したムハンマド・ミルザー・ガージャールかもしれないが同定は確実でない。もとは宮殿または離宮の壁のくぼみに納められ、君主・王子たちや女性像・静物画と一緒に空間を飾ったと考えられる。ペルシアの細密な文様への関心と、ヨーロッパ由来の油彩・人物表現の慣例とが合わさった19世紀初頭の様式。個人の内心・政治的役割・実際の居室は特定されない。 Visual: 2026-11-13、Met公式作品835145の画像リンク（IIIF 2064912/main-image）を直接開き視認。長方形で縦長、豪華な赤い天幕の下に細長い黒い帽子をかぶった王子が正面を向いて立ち、深い青緑色の長衣に金色の縁取り・華やかな花柄の布・朱色の腰帯。向かって左の机上には花瓶に花、右には背の高い装飾的な水たばこの器具がある。王子は手を胸元で重ねている。本人の正体は画像だけでは分からず、作者未詳とする。 Limits: 王子を確実にムハンマド・ミルザーと断定しない。王子が描かれたのは即位（1834年）以前の約1820年とされる。壁のくぼみへの展示はMetの研究説明であり実際の設置場所は不明。水たばこの器具が画中にあることから王子本人が喫煙していたとは推測しない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/835145",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-835145: API objectID=835145, primary JPEG full downloaded and verified; RMS=9.7023",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/835145",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=9.7023."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/835145",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and the exact work-specific Met IIIF main images (835145/2064912, 437926/799853, 436966/799944) opened and visually reviewed directly, plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-835145 A Young Prince / Unknown artist / ca. 1820 / 2019.405",
+      "image_match": "2026-11-13、Met公式作品835145の画像リンク（IIIF 2064912/main-image）を直接開き視認。長方形で縦長、豪華な赤い天幕の下に細長い黒い帽子をかぶった王子が正面を向いて立ち、深い青緑色の長衣に金色の縁取り・華やかな花柄の布・朱色の腰帯。向かって左の机上には花瓶に花、右には背の高い装飾的な水たばこの器具がある。王子は手を胸元で重ねている。本人の正体は画像だけでは分からず、作者未詳とする。 Both primary JPEG variants fully downloaded and match (RMS=9.7023).",
+      "historical_interpretation": "Met作品別Overviewを直接確認。1820年ごろイランで制作された、作者未詳のガージャール朝の若い王子の油彩肖像画。人物は後に1834〜1848年に統治したムハンマド・ミルザー・ガージャールかもしれないが同定は確実でない。もとは宮殿または離宮の壁のくぼみに納められ、君主・王子たちや女性像・静物画と一緒に空間を飾ったと考えられる。ペルシアの細密な文様への関心と、ヨーロッパ由来の油彩・人物表現の慣例とが合わさった19世紀初頭の様式。個人の内心・政治的役割・実際の居室は特定されない。 Cautions: 王子を確実にムハンマド・ミルザーと断定しない。王子が描かれたのは即位（1834年）以前の約1820年とされる。壁のくぼみへの展示はMetの研究説明であり実際の設置場所は不明。水たばこの器具が画中にあることから王子本人が喫煙していたとは推測しない。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['好奇心', '畏敬']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/LC-2019_405.jpg",
+      "sha256": "769dc0933482b5e8535d40728ea72e3e78c2348bf4c5637cec4ad0abc4429995",
+      "byte_length": 155138,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/835145",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/835145/2064912/main-image"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "2026-11-13、Met公式作品835145の画像リンク（IIIF 2064912/main-image）を直接開き視認。長方形で縦長、豪華な赤い天幕の下に細長い黒い帽子をかぶった王子が正面を向いて立ち、深い青緑色の長衣に金色の縁取り・華やかな花柄の布・朱色の腰帯。向かって左の机上には花瓶に花、右には背の高い装飾的な水たばこの器具がある。王子は手を胸元で重ねている。本人の正体は画像だけでは分からず、作者未詳とする。 Official same-object primary JPEG original/display resized RGB RMS=9.7023; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/LC-2019_405.jpg",
+      "sha256": "aed09d7f9227ab354c8bd20190fa73033890081c7d19806e7c4c2b38450ce116",
+      "byte_length": 4019865,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/835145",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/835145/2064912/main-image"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "2026-11-13、Met公式作品835145の画像リンク（IIIF 2064912/main-image）を直接開き視認。長方形で縦長、豪華な赤い天幕の下に細長い黒い帽子をかぶった王子が正面を向いて立ち、深い青緑色の長衣に金色の縁取り・華やかな花柄の布・朱色の腰帯。向かって左の机上には花瓶に花、右には背の高い装飾的な水たばこの器具がある。王子は手を胸元で重ねている。本人の正体は画像だけでは分からず、作者未詳とする。 Official same-object primary JPEG original/display resized RGB RMS=9.7023; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #456 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}
