@@ -1,8 +1,8 @@
 name: One-off Met artworks 435-437 registration
 on:
-  push:
+  pull_request:
     branches:
-      - codex/artworks-435-437-20261113
+      - main
     paths:
       - .github/workflows/tmp_register_435_437.yml
       - scripts/tmp_register_435_437.py
@@ -17,6 +17,7 @@ jobs:
       - name: Check out current research branch
         uses: actions/checkout@v4
         with:
+          ref: codex/artworks-435-437-20261113
           fetch-depth: 0
           persist-credentials: true
       - name: Set up Python
