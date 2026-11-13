@@ -54837,6 +54837,382 @@
         "audit_sha256": "7eec66331b774d467eede2b09022cb6731d00b69ae8d12bddc39ed1150b91549",
         "record_sha256": "7135cd075264d3e3ef8dacbaf9ea083245eee36247c70c6a20226906acc1e916"
       }
+    },
+    {
+      "id": "met-436451",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436451,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436451",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436451",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Tahitian Landscape",
+        "title_ja_provisional": "タヒチの風景",
+        "artist": "Paul Gauguin",
+        "creation_date_display": "1892",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Unspecified",
+        "accession_number": "39.182"
+      },
+      "image": {
+        "image_id": "met-436451-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14936-043.jpg",
+        "source_registry_id": "met-436451",
+        "local_path": "/artworks/met-436451.jpg",
+        "sha256": "4e124b2f9f86d2fcf56edc076c8f66a54b864310aebf4945996caa1c63e50542",
+        "byte_length": 178064,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "39.182",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-043.jpg",
+          "sha256": "01195e1a9459df7a80ab22550b137e9febb53837362713b5c574a102d64c9692",
+          "byte_length": 7116784,
+          "width": 2963,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=6.6225",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心",
+          "安心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2,
+          "安心": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "自然",
+          "他者との距離"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436451",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "絵筆の勢いが生む色と風景の小さな細部を見比べ、タヒチを描いたフランス人画家の視線を考えたい",
+              "reason": "メトロポリタン美術館の作品別Overviewは、1892年のゴーギャンの《Tahitian Landscape》について、かつて作者帰属に疑問が呈されたが、洗浄と再調査によって最初のタヒチ滞在期の制作と確かめられたと述べる。木々や草に囲まれた小屋、二人の人物と馬が小さく現れる。二人と馬に関係する素描も残り、風景の細部を観察していたことがうかがえる。1939年の寄贈によりメトロポリタン美術館に入った最初のゴーギャン作品。絵の中の二人の身元や関係を推定で埋めない。画題はタヒチだが制作したのはフランス人画家で、先住民の暮らしを中立的に記録した一次史料として扱わない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "『タヒチの風景』という同題のゴーギャン別作と混同しない（本作は二人と馬が前景に登場）。過去に作者帰属が疑われたことと、現在は科学調査・再検討により認められていることを両方記す。二人の人物の具体的な身元や作者の意図、タヒチの人々の生活の全体像を推測しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "メトロポリタン美術館の作品別Overviewは、1892年のゴーギャンの《Tahitian Landscape》について、かつて作者帰属に疑問が呈されたが、洗浄と再調査によって最初のタヒチ滞在期の制作と確かめられたと述べる。木々や草に囲まれた小屋、二人の人物と馬が小さく現れる。二人と馬に関係する素描も残り、風景の細部を観察していたことがうかがえる。1939年の寄贈によりメトロポリタン美術館に入った最初のゴーギャン作品。絵の中の二人の身元や関係を推定で埋めない。画題はタヒチだが制作したのはフランス人画家で、先住民の暮らしを中立的に記録した一次史料として扱わない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436451"
+          },
+          "creation_context": "1892; Unspecified; Oil on canvas; accession 39.182",
+          "visual_clues": "正しい作品はMet objectID 436451・所蔵品番号39.182の《Tahitian Landscape》（1892年）。The MetからWikimedia CommonsにCC0提供された同一作品の図版を確認。画面は縦長で、手前左に長衣の人物二人が並び、画面中ほどに茶色の馬が頭を下げて草を食む。周囲には濃緑と赤褐色の樹木や茂み、左奥に小さな小屋の屋根が見える。空と木立は太く塗り重ねられ、遠くへ続く道の明るい色が対照的。よく流通する黄緑色の野原・椰子・一本道の別作《Tahitian Landscape》（1893年とする図版）とは明確に区別した。公式API原寸・表示JPEGのハッシュと画像の一致はCIで確認する。",
+          "uncertainty_note": "『タヒチの風景』という同題のゴーギャン別作と混同しない（本作は二人と馬が前景に登場）。過去に作者帰属が疑われたことと、現在は科学調査・再検討により認められていることを両方記す。二人の人物の具体的な身元や作者の意図、タヒチの人々の生活の全体像を推測しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": [
+            "安心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met's exact artwork-specific Overview read directly and matching visual-reference provenance described per work; official Met JPEGs checked in CI. Same AI, not human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "濃い緑の木々に囲まれた道に、二人の人物が並んで立っています。そばには草を食む馬。遠くに小さな小屋も見えます。植物の緑と土の赤褐色が重なり、人物たちは広い風景の中に小さく置かれています。\n\nフランスの画家ポール・ゴーギャンが1892年、最初のタヒチ滞在中に描いた《タヒチの風景》です。かつては本当にゴーギャンの作品なのか疑われたこともありましたが、美術館は洗浄後の再調査によって帰属が確かめられたと説明しています。\n\n画面の二人と馬に関連する素描も残っています。大胆に重ねた色の間に、現地で目にした小さな細部が織り込まれているのです。描かれた人々が誰かは分かりません。風景の鮮やかさを味わうと同時に、タヒチを訪れた外からの画家が見た光景であることも意識して眺めてみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/436451"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-436451-2026-11-13.json",
+        "audit_sha256": "d79442b4a4d5ada673c794524dbd887a25c6b749ab3098e81a00f8bff8fa565b",
+        "record_sha256": "35c5167d804c98066d145ef0a4ac2f3a2460338d653198e0cbfb917e2fc2cda0"
+      }
+    },
+    {
+      "id": "met-73261",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 73261,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/73261",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/73261",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Escapade at Night:",
+        "title_ja_provisional": "夜の密会",
+        "artist": "Chokha",
+        "creation_date_display": "ca. 1800–10",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India (Rajasthan, Mewar)",
+        "accession_number": "2006.451"
+      },
+      "image": {
+        "image_id": "met-73261-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP146534.jpg",
+        "source_registry_id": "met-73261",
+        "local_path": "/artworks/met-73261.jpg",
+        "sha256": "fbe3b469a102e26662f6d4d3e24cedbfeadef0434836d08b11652645d56fedd5",
+        "byte_length": 79920,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "2006.451",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP146534.jpg",
+          "sha256": "3d4c42ee27560d8812c63350f5778b24942c9b4e6f1d288cd9ceaea4b17757e0",
+          "byte_length": 3568117,
+          "width": 4000,
+          "height": 3075,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=6.1067",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "期待",
+          "不安"
+        ],
+        "emotion_strengths": {
+          "期待": 2,
+          "不安": 1
+        },
+        "tones": [
+          "緊張",
+          "静けさ"
+        ],
+        "themes": [
+          "愛情",
+          "他者との距離"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/73261",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "眠る衛兵や牛の静かな夜と忍び入る恋人の動きを比べながら、インドの宮廷絵画の物語を読み解きたい",
+              "reason": "Metの作品別Overviewによると、1800〜10年ごろのラージャスターン・メーワール絵画で、作者はチョーカへの帰属作。貴人が城壁の内側に横たわる恋人のもとへ縄を登り、寝静まった衛兵と牛が目立たぬ静かな夜に、鮮やかな衣の主要人物と激しくうねる黒い雷雲が対照をなす。秘密の逢瀬は当時の詩歌にも現れる題材で、夜の暗さを強調した演出は父バグタを継いだチョーカの新機軸とされる。画面で誰が実在の人物か、どの詩を直接描いたかは所蔵館も確定していない。Metの出版物の同作図版に、屋根に縄を固定する侍女と下部の馬が見える。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作者はチョーカ『に帰属』とされ、直筆確定とはしていない。登場する人物を特定の王侯とは呼ばない。夜景・嵐雲は絵の演出で、実際の天候記録ではない。画像検索に紛れたobject 75994の馬上人物画は別作品であり混同しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metの作品別Overviewによると、1800〜10年ごろのラージャスターン・メーワール絵画で、作者はチョーカへの帰属作。貴人が城壁の内側に横たわる恋人のもとへ縄を登り、寝静まった衛兵と牛が目立たぬ静かな夜に、鮮やかな衣の主要人物と激しくうねる黒い雷雲が対照をなす。秘密の逢瀬は当時の詩歌にも現れる題材で、夜の暗さを強調した演出は父バグタを継いだチョーカの新機軸とされる。画面で誰が実在の人物か、どの詩を直接描いたかは所蔵館も確定していない。Metの出版物の同作図版に、屋根に縄を固定する侍女と下部の馬が見える。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/73261"
+          },
+          "creation_context": "ca. 1800–10; India (Rajasthan, Mewar); Opaque watercolor, ink and gold on paper; accession 2006.451",
+          "visual_clues": "Met objectID 73261、2006.451の《Escapade at Night:》は、Met公式作品ページの図版とMet出版物の同定済み図版、および同じ所蔵品番号を示す記事中の詳細クロップで照合した。横長の暗い夜景で、左の高い建物の上部には横たわる女性と二人の侍女、建物外壁の縄を登る男性がいる。下部には寝ている衛兵、馬とその近くの人物が配され、空は黒い帯状の雷雲で覆われる。縄の実際の固定方法を図だけから断定しない。画像検索で紛れた赤い馬の昼景（Met object 75994）は別作品なので使わない。公式API原寸と表示画像の一致はCIで確認する。",
+          "uncertainty_note": "作者はチョーカ『に帰属』とされ、直筆確定とはしていない。登場する人物を特定の王侯とは呼ばない。夜景・嵐雲は絵の演出で、実際の天候記録ではない。画像検索に紛れたobject 75994の馬上人物画は別作品であり混同しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "期待"
+          ],
+          "secondary": [
+            "不安"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met's exact artwork-specific Overview read directly and matching visual-reference provenance described per work; official Met JPEGs checked in CI. Same AI, not human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "暗い空を大きな黒い雲が覆い、左の宮殿では男が一本の縄を登っています。建物の中には恋人の女性。下では衛兵や牛が眠り、屋外の大きな出来事には気づいていないようです。眠る人々の静けさと、密かに動く男の姿が対照的です。\n\nインドのメーワール地方で、1800〜10年ごろに描かれた《夜の密会》。画家チョーカの作と考えられていますが、作者の帰属には留保があります。貴人が城壁に守られた宮殿へ縄を使って忍び入り、恋人を訪ねようとする場面です。\n\nこうした秘密の逢瀬は当時の詩にも繰り返し現れました。美術館は、黒い雷雲と鮮やかな衣装の人物を対比させる夜の表現を、チョーカの工夫として紹介しています。縄の行く先を目で追ったあと、眠っている人々に目を戻すと、物語の緊張がいっそう強まります。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/73261"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-73261-2026-11-13.json",
+        "audit_sha256": "940373ef803ced51835cec2235e8ccb5773e1a9985393f7eeef41cbaed28d8a6",
+        "record_sha256": "c30695526470014fa45feba76369dfc9c920a2ac35d5191f1db1fbcbf2993446"
+      }
+    },
+    {
+      "id": "met-36187",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 36187,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/36187",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/36187",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Squirrel and Grapes",
+        "title_ja_provisional": "栗鼠と葡萄",
+        "artist": "Sha Fu",
+        "creation_date_display": "dated 1894",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "China",
+        "accession_number": "1986.267.77"
+      },
+      "image": {
+        "image_id": "met-36187-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP161446.jpg",
+        "source_registry_id": "met-36187",
+        "local_path": "/artworks/met-36187.jpg",
+        "sha256": "a6695cd1bd0aaccce9601363875fc80b1148e9af5ddbcdddab31490a2e985d90",
+        "byte_length": 68393,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "1986.267.77",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP161446.jpg",
+          "sha256": "7fb5f4322b8fbb847876074fb90d45377b9a5d52907de199f766b7e04dfb8d3a",
+          "byte_length": 478457,
+          "width": 2000,
+          "height": 996,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=4.9918",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心",
+          "安心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2,
+          "安心": 1
+        },
+        "tones": [
+          "落ち着き",
+          "静けさ"
+        ],
+        "themes": [
+          "自然",
+          "日常",
+          "共同体"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/36187",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "扇面の淡い葡萄と栗鼠を眺め、清末の上海で絵画が市場や日々の贈り物と結びついた背景を知りたい",
+              "reason": "メトロポリタン美術館の作品別Overviewによると、清代1894年の沙馥の扇面。蘇州の沙家は木版画を売る店を営んでいたが、1860年の太平天国軍の占領で失い、沙馥は上海に避難して絵画の家業を続けた。当時は廉価な扇面に人気の題材を描いて生計を立てることが、上海の新しい美術市場でも評価された。扇は友人同士が贈り合う品で、画家自身と交流することを楽しむ中流層の顧客が存在した。公式画像では葡萄の蔓からぶら下がる灰色の栗鼠、淡い紫の葡萄、薄い葉が扇形の紙に描かれている。歴史的な難民移動と『幸運・長寿』など特定の象徴解釈を直結させない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "沙馥を17世紀の画家と誤認しない。太平天国軍による蘇州占領と店の破壊のあと上海に移った、という歴史は美術館の説明に基づく。題材の栗鼠・葡萄に定まった吉祥的意味があったと、出典なしに断定しない。販売用の扇面画であったことと、この特定の一枚が誰に贈られたかは区別する。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "メトロポリタン美術館の作品別Overviewによると、清代1894年の沙馥の扇面。蘇州の沙家は木版画を売る店を営んでいたが、1860年の太平天国軍の占領で失い、沙馥は上海に避難して絵画の家業を続けた。当時は廉価な扇面に人気の題材を描いて生計を立てることが、上海の新しい美術市場でも評価された。扇は友人同士が贈り合う品で、画家自身と交流することを楽しむ中流層の顧客が存在した。公式画像では葡萄の蔓からぶら下がる灰色の栗鼠、淡い紫の葡萄、薄い葉が扇形の紙に描かれている。歴史的な難民移動と『幸運・長寿』など特定の象徴解釈を直結させない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/36187"
+          },
+          "creation_context": "dated 1894; China; Folding fan mounted as an album leaf; ink and color on alum paper; accession 1986.267.77",
+          "visual_clues": "Met objectID 36187/image 158345 の公式IIIF主画像を直接開いて視認。淡いベージュの広い扇面の上側から枝と蔓がのび、紫がかった実と緑の葉が点在する。灰色の栗鼠が葡萄のつるを横切り、細く長い尾が左に伸びる。左端には書と朱印があり、右下にも朱印。扇の折り目が画面を斜めに横切り、現在はアルバムの一葉として保存されている。種の細かな分類や銘文の翻刻を画像だけから確定しない。",
+          "uncertainty_note": "沙馥を17世紀の画家と誤認しない。太平天国軍による蘇州占領と店の破壊のあと上海に移った、という歴史は美術館の説明に基づく。題材の栗鼠・葡萄に定まった吉祥的意味があったと、出典なしに断定しない。販売用の扇面画であったことと、この特定の一枚が誰に贈られたかは区別する。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": [
+            "安心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met's exact artwork-specific Overview read directly and matching visual-reference provenance described per work; official Met JPEGs checked in CI. Same AI, not human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "薄い紙の上で、灰色の栗鼠が葡萄の蔓を伝っています。つぶつぶの実と柔らかな葉は淡い色で描かれ、左には文字と赤い印。扇の曲線に沿って眺めると、枝の広がりと小さな動物の動きが自然につながって見えます。\n\n1894年、中国・清代の画家、沙馥が描いた《栗鼠と葡萄》です。沙家はもともと蘇州で木版画の店を営んでいましたが、1860年の太平天国軍による占領で店が失われ、沙馥は上海に移りました。そこで家伝の絵画技術を生かして活動を続けます。\n\n当時の上海では、手に取りやすい扇面に親しみやすい題材を描く画家も、支持を集めていました。扇は友人への贈り物にも使われ、人々は好みの画家と交流することも楽しんだそうです。小さな栗鼠と葡萄の絵から、絵が暮らしの中で贈られ、眺められていた様子を想像できます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/36187"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-36187-2026-11-13.json",
+        "audit_sha256": "61045716880e4683a68d1e60c548bd5a66e9826b075551bf4839649bf749d569",
+        "record_sha256": "d7e612122a23e2e4b60b02344e06f577412be220f12a14b97575e9d213647898"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
