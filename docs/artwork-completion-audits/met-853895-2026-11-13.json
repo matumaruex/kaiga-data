@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-853895",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-853895.json",
+  "candidate_sha256": "13b59d6658c3114b3112ec06f01b9c78f231f81c0e8ba77ca0c9a6682e19c005",
+  "draft_path": "drafts/visitor-explanations/met-853895.json",
+  "draft_sha256": "8af2ea50f3495726f41c6128efd415498107a90775553f4b5345a21574141bab",
+  "baseline": {
+    "artworks_sha256": "fbd4f991520d43754228c3487ef424ee98edc1f553e61db20afcb9377adca81c",
+    "image_registry_sha256": "3d2d222a289d4455f788c4e497829143d1e62d3acde0df9d916f54a43b51ca24"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853895",
+      "source_excerpt": "these paintings would have originally been one screen with eight panels",
+      "visitor_claim": "現在は四面ずつの二組になっていますが、もとは八面が一続きの屏風でした。",
+      "source_section": "Met exact Overview: original eight-panel screen later split into two sets"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853895",
+      "source_excerpt": "Pairs of ducks, peacocks, chickens, and mythological phoenixes",
+      "visitor_claim": "鴨や孔雀、鶏や想像上の鳳凰がつがいで描かれ、恋や子孫の繁栄を連想させます。",
+      "source_section": "Met exact Overview: paired birds and their symbolic meanings"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/853895",
+      "location": "Exact artwork Overview and Object Information: Met exact Overview: original eight-panel screen later split into two sets; Met exact Overview: paired birds and their symbolic meanings",
+      "finding": "Met個別作品Overviewによると、東アジアの花鳥画は10世紀までに確立し、朝鮮では18世紀から花鳥屏風が広まり20世紀まで好まれた。19世紀の本品は現在二組の四面屏風に分かれるが、元は八面が一続きの屏風であった。鴨・孔雀・鶏・架空の鳳凰のつがいは恋愛と子宝、鶴・松・霊芝・竹・蓮は長寿と徳の吉祥を示す。八面を右から左に追うと、新年の朝日と松のそばの鶴から始まり、秋の葉の中の鳳凰まで四季の移ろいをたどる読み方もできる。公式画像が見せる四面と、元の八面構成は混同しない。 Actual image observation: Met API公式主原寸・表示JPEGを全バイトSHA256、バイト長、寸法、縮小RMSで突き合わせた実画像サムネイルを視認。横長の画面は枠で区切られた四つの縦長の屏風面で、淡い紙地に赤や桃色の草花、鳥の組み合わせ、右端近くには赤い日輪と松らしい樹形、左端には花が描かれる。主画像は四面を示し、八面全体の細部はこの画像だけでは見られない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.2642で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853895",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853895",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853895",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-853895 Birds and Flowers; Unidentified Korean artist; 19th century; accession 2024.89.5a, b. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met API公式主原寸・表示JPEGを全バイトSHA256、バイト長、寸法、縮小RMSで突き合わせた実画像サムネイルを視認。横長の画面は枠で区切られた四つの縦長の屏風面で、淡い紙地に赤や桃色の草花、鳥の組み合わせ、右端近くには赤い日輪と松らしい樹形、左端には花が描かれる。主画像は四面を示し、八面全体の細部はこの画像だけでは見られない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.2642で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json",
+      "historical_interpretation": "Met個別作品Overviewによると、東アジアの花鳥画は10世紀までに確立し、朝鮮では18世紀から花鳥屏風が広まり20世紀まで好まれた。19世紀の本品は現在二組の四面屏風に分かれるが、元は八面が一続きの屏風であった。鴨・孔雀・鶏・架空の鳳凰のつがいは恋愛と子宝、鶴・松・霊芝・竹・蓮は長寿と徳の吉祥を示す。八面を右から左に追うと、新年の朝日と松のそばの鶴から始まり、秋の葉の中の鳳凰まで四季の移ろいをたどる読み方もできる。公式画像が見せる四面と、元の八面構成は混同しない。 Limits: 作者は不明。現在は四面ずつの二組に分かれた元八面の作品であり、四面しか存在しないと説明しない。花鳥の吉祥性は文化的象徴であり、家庭に実際の幸運が訪れると保証しない。主画像の四面だけを全体の八面の完全な再現と扱わない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-27292-001.jpg",
+      "sha256": "93a937487a58c8bf976b20332bb68c38945f84ec3059e84484445acde259dd89",
+      "byte_length": 79677,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met API公式主原寸・表示JPEGを全バイトSHA256、バイト長、寸法、縮小RMSで突き合わせた実画像サムネイルを視認。横長の画面は枠で区切られた四つの縦長の屏風面で、淡い紙地に赤や桃色の草花、鳥の組み合わせ、右端近くには赤い日輪と松らしい樹形、左端には花が描かれる。主画像は四面を示し、八面全体の細部はこの画像だけでは見られない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.2642で対応確認。 Confirmed image belongs to Met artwork 853895, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-27292-001.jpg",
+      "sha256": "da5ddf46a2d91a2a5009e283bf59a9e3fb481fdacaf63e9be501e9a265f0c10a",
+      "byte_length": 2670570,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met API公式主原寸・表示JPEGを全バイトSHA256、バイト長、寸法、縮小RMSで突き合わせた実画像サムネイルを視認。横長の画面は枠で区切られた四つの縦長の屏風面で、淡い紙地に赤や桃色の草花、鳥の組み合わせ、右端近くには赤い日輪と松らしい樹形、左端には花が描かれる。主画像は四面を示し、八面全体の細部はこの画像だけでは見られない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.2642で対応確認。 Confirmed image belongs to Met artwork 853895, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #432; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 853895 once formed a single eight-panel screen, now two four-panel sets, with bird/flower auspicious symbolism; Met 845161 imagines Wang Xizhi’s Orchid Pavilion gathering from ancient Chinese tradition, not a firsthand scene; Met 437183 portrays Madame Bergeret de Frouville as Diana, with painted disguise props and no proof of actual hunting activity."
+  ]
+}

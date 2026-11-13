@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-437183",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-437183.json",
+  "candidate_sha256": "26a214e7cc002a3f761426f1c7cefde44fa7de69128128f05ef4a1653ffde190",
+  "draft_path": "drafts/visitor-explanations/met-437183.json",
+  "draft_sha256": "24d6bebc05299a29b8ddfb71028f8364fa240d3c36cb88f93b0640c459dd99b7",
+  "baseline": {
+    "artworks_sha256": "9fe6dea9b0f22938f738606b6bced80abccfadcef273fb707ddd96403072fa3c",
+    "image_registry_sha256": "b8961418c67757c4afe5ca2940e5c46d6ddebb987166d21cce9dbaaa10faa4ff"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437183",
+      "source_excerpt": "Nattier used her disguise when portraying many of his female sitters",
+      "visitor_claim": "ナティエはほかの女性肖像でもディアナの姿を取り入れ、当時の髪型や化粧と、弓や矢筒、豹の毛皮などの小道具を組み合わせました。",
+      "source_section": "Met exact Overview: Diana disguise in multiple Nattier portraits"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437183",
+      "source_excerpt": "including the bow, quiver, and panther skin",
+      "visitor_claim": "上品にまとめた髪や化粧は18世紀の装いですが、弓や矢筒は神話の世界を思い起こさせます。",
+      "source_section": "Met exact Overview: mythological props bow quiver panther-skin, but Japanese claim names only bow and quiver"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437183",
+      "location": "Exact artwork Overview and Object Information: Met exact Overview: Diana disguise in multiple Nattier portraits; Met exact Overview: mythological props bow quiver panther-skin, but Japanese claim names only bow and quiver",
+      "finding": "Met個別作品Overviewによれば1756年のナティエによるベルジュレ・ド・フルーヴィル夫人の肖像。狩猟の女神ディアナは女性の美徳と力を表し、一方でニンフに囲まれて森で水浴びする姿が官能的に描かれる場合もある。ナティエは多くの女性の肖像でディアナの姿を借り、現代風の髪型・化粧と、弓、矢筒、豹の毛皮などの小道具を重ね合わせて、日常を超えた神話的な存在として見せた。美術館はこの演出を仮装や演劇を愛する当時の社交界に特徴的だとする。夫はブーシェやユベール・ロベールなどの画家の重要なパトロンだった。実際の狩猟活動や女神への信仰心の証拠とはしない。 Actual image observation: Met公式APIの原寸JPEG・表示JPEGを完全ダウンロードし全SHA256、ファイルサイズ、寸法、縮小RMSを照合して主画像サムネイルを見た。縦長の油彩で背景左の大木と暗い森、中央に淡い肌の女性が赤い大きなスカートと白い衣をまとい、弓を立てて持つ。胸元にまだら模様の豹皮、肩の近くに矢筒、光を受けた顔と当時風にまとめられた髪が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.4619で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437183",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437183",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437183",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-437183 Madame Bergeret de Frouville as Diana; Jean Marc Nattier; 1756; accession 03.37.3. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式APIの原寸JPEG・表示JPEGを完全ダウンロードし全SHA256、ファイルサイズ、寸法、縮小RMSを照合して主画像サムネイルを見た。縦長の油彩で背景左の大木と暗い森、中央に淡い肌の女性が赤い大きなスカートと白い衣をまとい、弓を立てて持つ。胸元にまだら模様の豹皮、肩の近くに矢筒、光を受けた顔と当時風にまとめられた髪が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.4619で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json",
+      "historical_interpretation": "Met個別作品Overviewによれば1756年のナティエによるベルジュレ・ド・フルーヴィル夫人の肖像。狩猟の女神ディアナは女性の美徳と力を表し、一方でニンフに囲まれて森で水浴びする姿が官能的に描かれる場合もある。ナティエは多くの女性の肖像でディアナの姿を借り、現代風の髪型・化粧と、弓、矢筒、豹の毛皮などの小道具を重ね合わせて、日常を超えた神話的な存在として見せた。美術館はこの演出を仮装や演劇を愛する当時の社交界に特徴的だとする。夫はブーシェやユベール・ロベールなどの画家の重要なパトロンだった。実際の狩猟活動や女神への信仰心の証拠とはしない。 Limits: 肖像の人物は実在のベルジュレ・ド・フルーヴィル夫人だが、女神ディアナ本人の姿を見た絵ではない。弓矢や豹皮は肖像のための小道具であり、本人が狩猟家だったとは断定しない。ディアナを『貞淑さだけの象徴』と単純化せず、所蔵館の説明する複数の意味を尊重する。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169499.jpg",
+      "sha256": "352120079a90f33414b2bd7691a004ab2d982c2dd54d9dddcd2355155f87daa3",
+      "byte_length": 232063,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの原寸JPEG・表示JPEGを完全ダウンロードし全SHA256、ファイルサイズ、寸法、縮小RMSを照合して主画像サムネイルを見た。縦長の油彩で背景左の大木と暗い森、中央に淡い肌の女性が赤い大きなスカートと白い衣をまとい、弓を立てて持つ。胸元にまだら模様の豹皮、肩の近くに矢筒、光を受けた顔と当時風にまとめられた髪が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.4619で対応確認。 Confirmed image belongs to Met artwork 437183, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP169499.jpg",
+      "sha256": "b73e7da85c5dbe1238557d4f33f8c5ca49736d351c4a4b47d9c9bfddc02ff344",
+      "byte_length": 1917658,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの原寸JPEG・表示JPEGを完全ダウンロードし全SHA256、ファイルサイズ、寸法、縮小RMSを照合して主画像サムネイルを見た。縦長の油彩で背景左の大木と暗い森、中央に淡い肌の女性が赤い大きなスカートと白い衣をまとい、弓を立てて持つ。胸元にまだら模様の豹皮、肩の近くに矢筒、光を受けた顔と当時風にまとめられた髪が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.4619で対応確認。 Confirmed image belongs to Met artwork 437183, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #434; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 853895 once formed a single eight-panel screen, now two four-panel sets, with bird/flower auspicious symbolism; Met 845161 imagines Wang Xizhi’s Orchid Pavilion gathering from ancient Chinese tradition, not a firsthand scene; Met 437183 portrays Madame Bergeret de Frouville as Diana, with painted disguise props and no proof of actual hunting activity."
+  ]
+}

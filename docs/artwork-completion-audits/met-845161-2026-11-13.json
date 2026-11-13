@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-845161",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-845161.json",
+  "candidate_sha256": "decc3927b792511da828d60159a4ee9da18703a5b5f5083cc59089ad2ce99fb1",
+  "draft_path": "drafts/visitor-explanations/met-845161.json",
+  "draft_sha256": "d7e7daece2e8bd0f5ea623bfc40f5ae7cc4f94bc11f144894c4d26d74d4ad8ff",
+  "baseline": {
+    "artworks_sha256": "fb575f1a28aa4cb014861556a0ca30df6eda2e68961bb44ee7762c34939b25ff",
+    "image_registry_sha256": "f1a469fbabd84a5c36c6b1f4f54b37cbfe6ed4c0e6144c5e3a1f4635c6576470"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/845161",
+      "source_excerpt": "where they composed poetry and drank wine from cups sent downstream",
+      "visitor_claim": "伝承では、一同は流れる杯の酒を楽しみながら詩を作りました。",
+      "source_section": "Met exact Overview: wine cups and poetry in the winding stream gathering"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/845161",
+      "source_excerpt": "Wang is shown seated within the pavilion, a scroll spread before him",
+      "visitor_claim": "王羲之は亭の中で巻物を広げ、筆を持つ姿として描かれています。",
+      "source_section": "Met exact Overview: Wang Xizhi shown writing at pavilion"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/845161",
+      "location": "Exact artwork Overview and Object Information: Met exact Overview: wine cups and poetry in the winding stream gathering; Met exact Overview: Wang Xizhi shown writing at pavilion",
+      "finding": "Met作品別Overviewによると原在中が1829年に描いた蘭亭曲水図は、中国の名書家・王羲之（約303〜361年）の伝説的な蘭亭の集いを想像して構成した風景。伝承では王羲之が41人を流れる小川のほとりへ招き、下流へ流れる杯の酒を飲みながら詩を作り、その序文が中国・日本の文人に長く記憶された。画中には青く輝く衣の人物たちが川岸に集まり、王羲之は亭の中で巻物を広げ筆を持っている。鮮やかな青と緑の山水色彩は古い中国の青緑山水（せいりょくさんすい）に由来。歴史的な集いの想像図であり1829年の京都で実際に集会が開かれた記録ではない。 Actual image observation: Met APIが紐づける原寸・表示JPEGの全SHA256、バイト長、寸法と縮小RMSを比較、主画像サムネイルを直接確認。縦長の絹本掛軸で背後に淡い山々、下の緑色の河畔と大きく曲がる水路の周囲に数多い青衣の小さな人物が散らばる。右寄りの木立のそばに屋根のある亭と人物、川岸の緑が目立つ。人物個々の同定はMet公式解説に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.9342で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/845161",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/845161",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/845161",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-845161 Orchid Pavilion by a Winding Stream; Hara Zaichū 原在中; 1829; accession 2020.396.37. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met APIが紐づける原寸・表示JPEGの全SHA256、バイト長、寸法と縮小RMSを比較、主画像サムネイルを直接確認。縦長の絹本掛軸で背後に淡い山々、下の緑色の河畔と大きく曲がる水路の周囲に数多い青衣の小さな人物が散らばる。右寄りの木立のそばに屋根のある亭と人物、川岸の緑が目立つ。人物個々の同定はMet公式解説に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.9342で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json",
+      "historical_interpretation": "Met作品別Overviewによると原在中が1829年に描いた蘭亭曲水図は、中国の名書家・王羲之（約303〜361年）の伝説的な蘭亭の集いを想像して構成した風景。伝承では王羲之が41人を流れる小川のほとりへ招き、下流へ流れる杯の酒を飲みながら詩を作り、その序文が中国・日本の文人に長く記憶された。画中には青く輝く衣の人物たちが川岸に集まり、王羲之は亭の中で巻物を広げ筆を持っている。鮮やかな青と緑の山水色彩は古い中国の青緑山水（せいりょくさんすい）に由来。歴史的な集いの想像図であり1829年の京都で実際に集会が開かれた記録ではない。 Limits: 描かれたのは古代中国の文人の集いを江戸時代の画家が想像した場面で、当日の記録や測量図ではない。王羲之と41人の集いは題材の歴史伝承として説明。『蘭亭序』の名声と実際の画面に描かれた小場面を区別し、杯の位置を実画像から断定しない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-26045-002.jpg",
+      "sha256": "fd87106f8d3af5f40be9fe0fb439751a50d7d6205ac1e10ffd0bcbd92098344c",
+      "byte_length": 113135,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met APIが紐づける原寸・表示JPEGの全SHA256、バイト長、寸法と縮小RMSを比較、主画像サムネイルを直接確認。縦長の絹本掛軸で背後に淡い山々、下の緑色の河畔と大きく曲がる水路の周囲に数多い青衣の小さな人物が散らばる。右寄りの木立のそばに屋根のある亭と人物、川岸の緑が目立つ。人物個々の同定はMet公式解説に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.9342で対応確認。 Confirmed image belongs to Met artwork 845161, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-26045-002.jpg",
+      "sha256": "fd7ed97162ecdab3c792b37f556308e4d9bee41e9ff7540606db48af5f466846",
+      "byte_length": 3014174,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met APIが紐づける原寸・表示JPEGの全SHA256、バイト長、寸法と縮小RMSを比較、主画像サムネイルを直接確認。縦長の絹本掛軸で背後に淡い山々、下の緑色の河畔と大きく曲がる水路の周囲に数多い青衣の小さな人物が散らばる。右寄りの木立のそばに屋根のある亭と人物、川岸の緑が目立つ。人物個々の同定はMet公式解説に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.9342で対応確認。 Confirmed image belongs to Met artwork 845161, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #433; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 853895 once formed a single eight-panel screen, now two four-panel sets, with bird/flower auspicious symbolism; Met 845161 imagines Wang Xizhi’s Orchid Pavilion gathering from ancient Chinese tradition, not a firsthand scene; Met 437183 portrays Madame Bergeret de Frouville as Diana, with painted disguise props and no proof of actual hunting activity."
+  ]
+}

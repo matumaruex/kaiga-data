@@ -1,0 +1,151 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-437183",
+  "artwork": {
+    "id": "met-437183",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 437183,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/437183",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437183",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Madame Bergeret de Frouville as Diana",
+      "title_ja_provisional": "狩猟の女神ディアナに扮したベルジュレ・ド・フルーヴィル夫人",
+      "artist": "Jean Marc Nattier",
+      "creation_date_display": "1756",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "France (18th-century court portrait)",
+      "accession_number": "03.37.3"
+    },
+    "image": {
+      "image_id": "met-437183-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169499.jpg",
+      "source_registry_id": "met-437183",
+      "local_path": "/artworks/met-437183.jpg",
+      "sha256": "352120079a90f33414b2bd7691a004ab2d982c2dd54d9dddcd2355155f87daa3",
+      "byte_length": 232063,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json",
+      "source_accession_number": "03.37.3",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP169499.jpg",
+        "sha256": "b73e7da85c5dbe1238557d4f33f8c5ca49736d351c4a4b47d9c9bfddc02ff344",
+        "byte_length": 1917658,
+        "width": 1489,
+        "height": 1935,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 4.46191",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "静けさ",
+        "高揚"
+      ],
+      "themes": [
+        "共同体",
+        "他者との距離"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/437183",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "18世紀フランスの女性がディアナ女神に扮した肖像で、弓や矢筒、豹の毛皮と当時の装いがどう組み合わされたか見たい",
+            "reason": "Met個別作品Overviewによれば1756年のナティエによるベルジュレ・ド・フルーヴィル夫人の肖像。狩猟の女神ディアナは女性の美徳と力を表し、一方でニンフに囲まれて森で水浴びする姿が官能的に描かれる場合もある。ナティエは多くの女性の肖像でディアナの姿を借り、現代風の髪型・化粧と、弓、矢筒、豹の毛皮などの小道具を重ね合わせて、日常を超えた神話的な存在として見せた。美術館はこの演出を仮装や演劇を愛する当時の社交界に特徴的だとする。夫はブーシェやユベール・ロベールなどの画家の重要なパトロンだった。実際の狩猟活動や女神への信仰心の証拠とはしない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "肖像の人物は実在のベルジュレ・ド・フルーヴィル夫人だが、女神ディアナ本人の姿を見た絵ではない。弓矢や豹皮は肖像のための小道具であり、本人が狩猟家だったとは断定しない。ディアナを『貞淑さだけの象徴』と単純化せず、所蔵館の説明する複数の意味を尊重する。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met個別作品Overviewによれば1756年のナティエによるベルジュレ・ド・フルーヴィル夫人の肖像。狩猟の女神ディアナは女性の美徳と力を表し、一方でニンフに囲まれて森で水浴びする姿が官能的に描かれる場合もある。ナティエは多くの女性の肖像でディアナの姿を借り、現代風の髪型・化粧と、弓、矢筒、豹の毛皮などの小道具を重ね合わせて、日常を超えた神話的な存在として見せた。美術館はこの演出を仮装や演劇を愛する当時の社交界に特徴的だとする。夫はブーシェやユベール・ロベールなどの画家の重要なパトロンだった。実際の狩猟活動や女神への信仰心の証拠とはしない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/437183"
+        },
+        "creation_context": "1756; France (18th-century court portrait); Oil on canvas; accession 03.37.3",
+        "visual_clues": "Met公式APIの原寸JPEG・表示JPEGを完全ダウンロードし全SHA256、ファイルサイズ、寸法、縮小RMSを照合して主画像サムネイルを見た。縦長の油彩で背景左の大木と暗い森、中央に淡い肌の女性が赤い大きなスカートと白い衣をまとい、弓を立てて持つ。胸元にまだら模様の豹皮、肩の近くに矢筒、光を受けた顔と当時風にまとめられた髪が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.4619で対応確認。",
+        "uncertainty_note": "肖像の人物は実在のベルジュレ・ド・フルーヴィル夫人だが、女神ディアナ本人の姿を見た絵ではない。弓矢や豹皮は肖像のための小道具であり、本人が狩猟家だったとは断定しない。ディアナを『貞淑さだけの象徴』と単純化せず、所蔵館の説明する複数の意味を尊重する。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "森を背にした女性が、長い弓を手にこちらを見ています。赤い布が大きく広がり、胸元にはまだら模様の毛皮。上品にまとめた髪や化粧は18世紀の装いですが、弓や矢筒は神話の世界を思い起こさせます。\n\n1756年、フランスの画家ジャン＝マルク・ナティエが、ベルジュレ・ド・フルーヴィル夫人を狩猟の女神ディアナに見立てて描いた肖像画です。ナティエはほかの女性肖像でもディアナの姿を取り入れ、当時の髪型や化粧と、弓や矢筒、豹の毛皮などの小道具を組み合わせました。\n\n女神ディアナは女性の力や美徳を表す一方、神話の絵では森で水浴びする姿が描かれることもありました。美術館は、こうした仮装のような演出を、演劇や仮面舞踏を好んだ当時の社交界の文化と結びつけています。夫人が実際に狩猟をしたという意味ではありません。日常の装いと神話の道具の境目を眺めると、肖像画の見せ方の巧みさが感じられます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437183"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-437183",
+    "title": "Madame Bergeret de Frouville as Diana",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/437183",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/437183",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169499.jpg",
+      "sha256": "352120079a90f33414b2bd7691a004ab2d982c2dd54d9dddcd2355155f87daa3",
+      "byte_length": 232063,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP169499.jpg",
+        "sha256": "b73e7da85c5dbe1238557d4f33f8c5ca49736d351c4a4b47d9c9bfddc02ff344",
+        "byte_length": 1917658,
+        "width": 1489,
+        "height": 1935,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 4.46191",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "03.37.3"
+  }
+}

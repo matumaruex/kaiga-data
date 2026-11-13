@@ -1,0 +1,152 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-845161",
+  "artwork": {
+    "id": "met-845161",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 845161,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/845161",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/845161",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Orchid Pavilion by a Winding Stream",
+      "title_ja_provisional": "蘭亭曲水図",
+      "artist": "Hara Zaichū 原在中",
+      "creation_date_display": "1829",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "2020.396.37"
+    },
+    "image": {
+      "image_id": "met-845161-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-26045-002.jpg",
+      "source_registry_id": "met-845161",
+      "local_path": "/artworks/met-845161.jpg",
+      "sha256": "fd87106f8d3af5f40be9fe0fb439751a50d7d6205ac1e10ffd0bcbd92098344c",
+      "byte_length": 113135,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json",
+      "source_accession_number": "2020.396.37",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-26045-002.jpg",
+        "sha256": "fd7ed97162ecdab3c792b37f556308e4d9bee41e9ff7540606db48af5f466846",
+        "byte_length": 3014174,
+        "width": 2224,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 6.93419",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "にぎわい",
+        "静けさ"
+      ],
+      "themes": [
+        "共同体",
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/845161",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "1829年の日本の山水掛軸で、中国の蘭亭の宴と曲水に杯を流して詩を作る文人たちの様子を眺めたい",
+            "reason": "Met作品別Overviewによると原在中が1829年に描いた蘭亭曲水図は、中国の名書家・王羲之（約303〜361年）の伝説的な蘭亭の集いを想像して構成した風景。伝承では王羲之が41人を流れる小川のほとりへ招き、下流へ流れる杯の酒を飲みながら詩を作り、その序文が中国・日本の文人に長く記憶された。画中には青く輝く衣の人物たちが川岸に集まり、王羲之は亭の中で巻物を広げ筆を持っている。鮮やかな青と緑の山水色彩は古い中国の青緑山水（せいりょくさんすい）に由来。歴史的な集いの想像図であり1829年の京都で実際に集会が開かれた記録ではない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "描かれたのは古代中国の文人の集いを江戸時代の画家が想像した場面で、当日の記録や測量図ではない。王羲之と41人の集いは題材の歴史伝承として説明。『蘭亭序』の名声と実際の画面に描かれた小場面を区別し、杯の位置を実画像から断定しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによると原在中が1829年に描いた蘭亭曲水図は、中国の名書家・王羲之（約303〜361年）の伝説的な蘭亭の集いを想像して構成した風景。伝承では王羲之が41人を流れる小川のほとりへ招き、下流へ流れる杯の酒を飲みながら詩を作り、その序文が中国・日本の文人に長く記憶された。画中には青く輝く衣の人物たちが川岸に集まり、王羲之は亭の中で巻物を広げ筆を持っている。鮮やかな青と緑の山水色彩は古い中国の青緑山水（せいりょくさんすい）に由来。歴史的な集いの想像図であり1829年の京都で実際に集会が開かれた記録ではない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/845161"
+        },
+        "creation_context": "1829; Japan (Edo period); Hanging scroll; ink and color on silk; accession 2020.396.37",
+        "visual_clues": "Met APIが紐づける原寸・表示JPEGの全SHA256、バイト長、寸法と縮小RMSを比較、主画像サムネイルを直接確認。縦長の絹本掛軸で背後に淡い山々、下の緑色の河畔と大きく曲がる水路の周囲に数多い青衣の小さな人物が散らばる。右寄りの木立のそばに屋根のある亭と人物、川岸の緑が目立つ。人物個々の同定はMet公式解説に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.9342で対応確認。",
+        "uncertainty_note": "描かれたのは古代中国の文人の集いを江戸時代の画家が想像した場面で、当日の記録や測量図ではない。王羲之と41人の集いは題材の歴史伝承として説明。『蘭亭序』の名声と実際の画面に描かれた小場面を区別し、杯の位置を実画像から断定しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "山に囲まれた緑の岸辺を、曲がりくねった小川が流れています。青い衣を着た人々が川のそばに集まり、木陰や小さな亭の中にも人物の姿が見えます。まず水の流れを追ってから、離れた場所にいる人々の動きに目を向けてみてください。\n\nこの絵は1829年に原在中が描いた《蘭亭曲水図》です。古代中国の書家・王羲之が友人たちを招いたと伝えられる宴を、江戸時代の画家が想像して表しています。伝承では、一同は流れる杯の酒を楽しみながら詩を作りました。王羲之は亭の中で巻物を広げ、筆を持つ姿として描かれています。\n\n人物の青い衣や深い緑の山々には、中国で古くから伝わる青緑山水の色彩が取り入れられています。王羲之が詩の集まりに寄せた序文は、後の中国と日本の文人にも大きな影響を与えました。曲がる川と人々の配置を眺めると、書と詩を楽しむ時間を絵にした工夫が見えてきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/845161"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-845161",
+    "title": "Orchid Pavilion by a Winding Stream",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/845161",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/845161",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-26045-002.jpg",
+      "sha256": "fd87106f8d3af5f40be9fe0fb439751a50d7d6205ac1e10ffd0bcbd92098344c",
+      "byte_length": 113135,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-26045-002.jpg",
+        "sha256": "fd7ed97162ecdab3c792b37f556308e4d9bee41e9ff7540606db48af5f466846",
+        "byte_length": 3014174,
+        "width": 2224,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 6.93419",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2020.396.37"
+  }
+}
