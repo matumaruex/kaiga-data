@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-670983",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-670983.json",
+  "candidate_sha256": "5c394b3b375e8fc9f81ac29cc71bbb4a8d4f2d7c977ba035f0a605285ea43297",
+  "draft_path": "drafts/visitor-explanations/met-670983.json",
+  "draft_sha256": "1e81f2d7d1346abb489245e8c97723bf8ddf7c9db2b55e5ee337005e7f9daf99",
+  "baseline": {
+    "artworks_sha256": "f8d8d951eefc160a6d74f5126d8e8520932e44ca54f53521b66c789d17b9f21d",
+    "image_registry_sha256": "2215989d68bf83d98816869596c6286d139fc09c48063c0c8f800cad8798d5d7"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/670983",
+      "source_excerpt": "either Ōkyo’s preparatory drawing for, or a sketchlike copy of",
+      "visitor_claim": "この絵巻は1770年代後半から1780年代初めの墨画で、徳川美術館にある1777年の彩色版の下絵、またはそれを素描風に写した別の絵と考えられています。",
+      "source_section": "Met exact Overview: uncertain preparatory drawing versus sketch copy"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/670983",
+      "source_excerpt": "early autumn is represented by traditional Obon dances",
+      "visitor_claim": "初秋には盆踊りが描かれ、冬には新年に向けた松の飾りを整える姿が続きます。",
+      "source_section": "Met exact Overview: Obon dancing marks early autumn"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/670983",
+      "location": "Exact artwork Overview and Object Information: Met exact Overview: uncertain preparatory drawing versus sketch copy; Met exact Overview: Obon dancing marks early autumn",
+      "finding": "Met個別作品Overviewによると円山応挙（1733～1795）は若い頃に京都の玩具店で働き、その後、和画に中国画と西洋の遠近法・写実を取り入れた円山派を創始した。この長さ約5.55メートルの墨画は、名古屋の徳川美術館に所蔵される1777年の彩色絵巻に対する下絵、またはそれを素描風に写した別本と説明され、どちらかは確定していない。場面は右から左へ、保津川沿いの春の桜見物、鴨川での夏の納涼、盆踊りに示される初秋、そして松の苗飾りを整える冬の新年準備へと続く。主画像は絵巻の全長を横長に表示し、人物は非常に小さく見えるが、各場面を拡大して観察できる。 Actual image observation: Met APIの原寸・表示JPEGを完全取得して各SHA256/バイト数・サイズ・縮小RGB RMSで照合し、実際の公式主画像を確認。横に非常に長い黄土色の巻物全景に、灰墨の細い人物や木々・建築・舟などが途切れず描かれる。主サムネイルでは各人の細部を特定できないので四季の場面と位置はMet公式作品別Overviewを根拠にした。全長554.8cmの巻物を一作品として扱い、複数画像を別作品としては数えない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.8909で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/670983",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/670983",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/670983",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-670983 Amusements in Kyoto in the Four Seasons; Maruyama Ōkyo 円山応挙; late 1770s–early 1780s; accession 2015.300.199. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met APIの原寸・表示JPEGを完全取得して各SHA256/バイト数・サイズ・縮小RGB RMSで照合し、実際の公式主画像を確認。横に非常に長い黄土色の巻物全景に、灰墨の細い人物や木々・建築・舟などが途切れず描かれる。主サムネイルでは各人の細部を特定できないので四季の場面と位置はMet公式作品別Overviewを根拠にした。全長554.8cmの巻物を一作品として扱い、複数画像を別作品としては数えない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.8909で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json",
+      "historical_interpretation": "Met個別作品Overviewによると円山応挙（1733～1795）は若い頃に京都の玩具店で働き、その後、和画に中国画と西洋の遠近法・写実を取り入れた円山派を創始した。この長さ約5.55メートルの墨画は、名古屋の徳川美術館に所蔵される1777年の彩色絵巻に対する下絵、またはそれを素描風に写した別本と説明され、どちらかは確定していない。場面は右から左へ、保津川沿いの春の桜見物、鴨川での夏の納涼、盆踊りに示される初秋、そして松の苗飾りを整える冬の新年準備へと続く。主画像は絵巻の全長を横長に表示し、人物は非常に小さく見えるが、各場面を拡大して観察できる。 Limits: 1777年の徳川美術館彩色本そのものとは別。習作か素描風模写かは所蔵館も二択で断定していない。全長を1枚に収めたMetの主JPEGでは人の細部が判読しづらいため、直接確認できた事実と学芸員解説を区別する。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/2015_300_199_D1_Burke.jpg",
+      "sha256": "091c138afcdcdff1ec8b9dacb51fa2c200c6900990aa2108b564d40d41550d58",
+      "byte_length": 29952,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met APIの原寸・表示JPEGを完全取得して各SHA256/バイト数・サイズ・縮小RGB RMSで照合し、実際の公式主画像を確認。横に非常に長い黄土色の巻物全景に、灰墨の細い人物や木々・建築・舟などが途切れず描かれる。主サムネイルでは各人の細部を特定できないので四季の場面と位置はMet公式作品別Overviewを根拠にした。全長554.8cmの巻物を一作品として扱い、複数画像を別作品としては数えない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.8909で対応確認。 Confirmed image belongs to Met artwork 670983, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/2015_300_199_D1_Burke.jpg",
+      "sha256": "496a78ff7e64dfdfa44c91002f0af73b309589495bea8e199f3f110f9c8d1717",
+      "byte_length": 923069,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met APIの原寸・表示JPEGを完全取得して各SHA256/バイト数・サイズ・縮小RGB RMSで照合し、実際の公式主画像を確認。横に非常に長い黄土色の巻物全景に、灰墨の細い人物や木々・建築・舟などが途切れず描かれる。主サムネイルでは各人の細部を特定できないので四季の場面と位置はMet公式作品別Overviewを根拠にした。全長554.8cmの巻物を一作品として扱い、複数画像を別作品としては数えない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.8909で対応確認。 Confirmed image belongs to Met artwork 670983, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #427; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 437180 is an oil-on-copper 1740 biblical scene honoring Le Moyne, and his earlier companion work is a distinct painting; Met 670983 could be Ōkyo’s preliminary ink draft or a sketchlike copy of a 1777 colored scroll, not the same scroll; Met 853195 suggests rather than shows the reflected moon and links the monkey to a traditional Zen metaphor."
+  ]
+}

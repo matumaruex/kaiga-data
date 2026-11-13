@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-437180",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-437180.json",
+  "candidate_sha256": "195a0b7badb4506b96aef1ba46051bf55a37ef3014cda13efa8cfe8c01277fe5",
+  "draft_path": "drafts/visitor-explanations/met-437180.json",
+  "draft_sha256": "dec53d87d64d229abb1d78caa8d1a642a71a276d2582fc6372d961330ea1b5bd",
+  "baseline": {
+    "artworks_sha256": "7f8c45688744acf7ac0a0fd1cd29903569a1478ae5f927153e544fa1688d58d2",
+    "image_registry_sha256": "15feaef753e6ff53c12d024d96573205e01f289132ff69724c13763f2f961210"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437180",
+      "source_excerpt": "trained in the studio of François Le Moyne",
+      "visitor_claim": "ナトワールは画家フランソワ・ルモワーヌの工房で学び",
+      "source_section": "Met exact Overview: Natoire trained under Le Moyne"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437180",
+      "source_excerpt": "a tear glistening on her cheek, contrasted with Adam’s taut musculature",
+      "visitor_claim": "エヴァの頬には涙が一粒光り、その柔らかな肌は、筋肉を強調したアダムの身体と対照をなしています。",
+      "source_section": "Met exact Overview: Eve tear contrasting Adam's muscles"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437180",
+      "location": "Exact artwork Overview and Object Information: Met exact Overview: Natoire trained under Le Moyne; Met exact Overview: Eve tear contrasting Adam's muscles",
+      "finding": "Metの作品別Overviewは、1740年の銅板油彩をシャルル＝ジョゼフ・ナトワールが師フランソワ・ルモワーヌをたたえるために描いたとみられる作品として紹介する。大きさ・支持体が同じルモワーヌの別作品（禁断の果実をエヴァから受け取るアダムの場面）と対になる。絵では上方から天使と神がアダムとエヴァを叱責する。エヴァの頬に光る一粒の涙と柔らかな肌の赤みは、アダムの引き締まった筋肉と対照をなす。師への献呈の意図は所蔵館の解釈で、作者自身の記録の引用ではない。宗教物語の出来事を史実として断定しない。 Actual image observation: Met公式APIによる同一作品の原寸・表示JPEGを全バイトで照合、縮小RMSと実際の主画像サムネイルを確認した。縦長の銅板絵画。上部左には雲に囲まれ赤い布を背にした厳しい表情の大きな人物、その下には翼ある使者。画面下部にエヴァが座り、右のアダムが両手を合わせる。二人の足元には動物と草があり、右上の木と遠くの風景が奥行きを生む。小画像の涙の細部はMetの解説に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.3338で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437180",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437180",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437180",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-437180 The Rebuke of Adam and Eve; Charles Joseph Natoire; 1740; accession 1987.279. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式APIによる同一作品の原寸・表示JPEGを全バイトで照合、縮小RMSと実際の主画像サムネイルを確認した。縦長の銅板絵画。上部左には雲に囲まれ赤い布を背にした厳しい表情の大きな人物、その下には翼ある使者。画面下部にエヴァが座り、右のアダムが両手を合わせる。二人の足元には動物と草があり、右上の木と遠くの風景が奥行きを生む。小画像の涙の細部はMetの解説に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.3338で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json",
+      "historical_interpretation": "Metの作品別Overviewは、1740年の銅板油彩をシャルル＝ジョゼフ・ナトワールが師フランソワ・ルモワーヌをたたえるために描いたとみられる作品として紹介する。大きさ・支持体が同じルモワーヌの別作品（禁断の果実をエヴァから受け取るアダムの場面）と対になる。絵では上方から天使と神がアダムとエヴァを叱責する。エヴァの頬に光る一粒の涙と柔らかな肌の赤みは、アダムの引き締まった筋肉と対照をなす。師への献呈の意図は所蔵館の解釈で、作者自身の記録の引用ではない。宗教物語の出来事を史実として断定しない。 Limits: ルモワーヌの絵と『対』として制作されたとMetが解説するが注文者・目的は推測を含む。禁断の果実を渡す場面そのものは別の絵に描かれ、ここでの主題は叱責。聖書の出来事を歴史的目撃記録として説明しない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['不安']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19456-001.jpg",
+      "sha256": "162475fc63a140ea4a953d9357ace80a1f50813f80e4a91a3ca75aedef3239f7",
+      "byte_length": 129664,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIによる同一作品の原寸・表示JPEGを全バイトで照合、縮小RMSと実際の主画像サムネイルを確認した。縦長の銅板絵画。上部左には雲に囲まれ赤い布を背にした厳しい表情の大きな人物、その下には翼ある使者。画面下部にエヴァが座り、右のアダムが両手を合わせる。二人の足元には動物と草があり、右上の木と遠くの風景が奥行きを生む。小画像の涙の細部はMetの解説に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.3338で対応確認。 Confirmed image belongs to Met artwork 437180, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-19456-001.jpg",
+      "sha256": "f12b69174c99a4a5088b0b5698f232e4aa131aa0850ef9454e5e41f5e2c20436",
+      "byte_length": 4327937,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIによる同一作品の原寸・表示JPEGを全バイトで照合、縮小RMSと実際の主画像サムネイルを確認した。縦長の銅板絵画。上部左には雲に囲まれ赤い布を背にした厳しい表情の大きな人物、その下には翼ある使者。画面下部にエヴァが座り、右のアダムが両手を合わせる。二人の足元には動物と草があり、右上の木と遠くの風景が奥行きを生む。小画像の涙の細部はMetの解説に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.3338で対応確認。 Confirmed image belongs to Met artwork 437180, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #426; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 437180 is an oil-on-copper 1740 biblical scene honoring Le Moyne, and his earlier companion work is a distinct painting; Met 670983 could be Ōkyo’s preliminary ink draft or a sketchlike copy of a 1777 colored scroll, not the same scroll; Met 853195 suggests rather than shows the reflected moon and links the monkey to a traditional Zen metaphor."
+  ]
+}

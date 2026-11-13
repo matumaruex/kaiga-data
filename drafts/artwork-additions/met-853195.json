@@ -1,0 +1,151 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-853195",
+  "artwork": {
+    "id": "met-853195",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 853195,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/853195",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853195",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Gibbon and Bamboo",
+      "title_ja_provisional": "竹猿猴図",
+      "artist": "Sesson Shūkei 雪村周継",
+      "creation_date_display": "16th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "2021.398.12"
+    },
+    "image": {
+      "image_id": "met-853195-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-24407-002.jpg",
+      "source_registry_id": "met-853195",
+      "local_path": "/artworks/met-853195.jpg",
+      "sha256": "39fa301bfd3263e503a636a37901eba8687ec582cc5634b81eb53d44f7f22ece",
+      "byte_length": 96796,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json",
+      "source_accession_number": "2021.398.12",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-24407-002.jpg",
+        "sha256": "003afc257e92199a4b080f78791329b4931bd9acef53ebe043af8ffc27ebefa6",
+        "byte_length": 2881827,
+        "width": 2998,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 5.05368",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "静けさ",
+        "余韻"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/853195",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "墨一色の竹と猿の絵で、猿の手が水面に届かない理由と禅の『水の月』のたとえを味わいたい",
+            "reason": "Met作品別Overviewは16世紀の画僧・雪村周継の水墨掛軸に、竹の近くの蔓からぶら下がった一匹のテナガザルが描かれ、下へ伸ばした左手は水面に映る月の影を捕まえようとしているのではないかと説明する。これは禅仏教で目覚めない心が実体のないものを追い求める愚かさを説く画題だとされる。ただし画面に月の反射が明確に描かれているとは断定せず、猿の意図もMetによる図像解釈として書く。雪村は東北で育ち、のちに鎌倉・小田原へ移り、当地の禅院や武家が収集した13世紀中国の牧谿らの画法を研究。右下には『周継』を示す朱印がある。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "月や水面に映る反射が明瞭に描かれているかを断定しない。猿の思考や禅の教義は象徴として紹介し、実際に動物が『悟り』を求めると主張しない。画家の『雪村』は雪舟とは別人であることに注意。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewは16世紀の画僧・雪村周継の水墨掛軸に、竹の近くの蔓からぶら下がった一匹のテナガザルが描かれ、下へ伸ばした左手は水面に映る月の影を捕まえようとしているのではないかと説明する。これは禅仏教で目覚めない心が実体のないものを追い求める愚かさを説く画題だとされる。ただし画面に月の反射が明確に描かれているとは断定せず、猿の意図もMetによる図像解釈として書く。雪村は東北で育ち、のちに鎌倉・小田原へ移り、当地の禅院や武家が収集した13世紀中国の牧谿らの画法を研究。右下には『周継』を示す朱印がある。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/853195"
+        },
+        "creation_context": "16th century; Japan (sixteenth-century ink painting); Hanging scroll; ink on paper; accession 2021.398.12",
+        "visual_clues": "Met公式APIの同作品の原寸・表示JPEGを全ダウンロード、ハッシュ・寸法・縮小RMSで照合し、真の主画像サムネイルを目視。縦長の掛軸の中央には淡墨の木か大きな竹と、下方の左寄りにふんわりした毛の猿が枝から垂れ、画面の右側には細い竹の葉。白い地の広い余白と上部の暗い枝がある。水面の月の反射は主画像で明確には見えないため、伝統図像に基づく解釈として扱う。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.0537で対応確認。",
+        "uncertainty_note": "月や水面に映る反射が明瞭に描かれているかを断定しない。猿の思考や禅の教義は象徴として紹介し、実際に動物が『悟り』を求めると主張しない。画家の『雪村』は雪舟とは別人であることに注意。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "白い余白の中で、毛のふわりとしたテナガザルが蔓にぶら下がっています。近くには細く伸びる竹の葉。猿は片手を下へ伸ばしていますが、その先に何があるのか、画面からははっきり分かりません。墨の濃淡だけで、柔らかな毛と細い枝が描き分けられています。\n\nこの絵は16世紀の画僧・雪村周継による《竹猿猴図》です。美術館は、猿が水面に映った月の影をつかもうとしているのかもしれないと説明しています。水に映る月を求める猿は、禅の教えで、実体のないものにとらわれる心を表すことがあります。ただし、この絵で月の姿がはっきり見えるわけではありません。\n\n雪村は中国の画家・牧谿らの水墨画を研究し、独自の表現を育てました。画面右下には『周継』と読める朱印も残ります。猿が手を伸ばす先の余白に目を向けると、見えているものと想像するものの間に、この絵の面白さがあるように感じられます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/853195"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-853195",
+    "title": "Gibbon and Bamboo",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/853195",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/853195",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-24407-002.jpg",
+      "sha256": "39fa301bfd3263e503a636a37901eba8687ec582cc5634b81eb53d44f7f22ece",
+      "byte_length": 96796,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-426-428-20261113/docs/artwork-research-evidence/met-426-428-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-24407-002.jpg",
+        "sha256": "003afc257e92199a4b080f78791329b4931bd9acef53ebe043af8ffc27ebefa6",
+        "byte_length": 2881827,
+        "width": 2998,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 5.05368",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2021.398.12"
+  }
+}
