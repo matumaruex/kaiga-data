@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-45734",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-45734.json",
+  "candidate_sha256": "b0b6259ece3aa71b92e10929596545576aa0648dd18691e762ab8a972325d19f",
+  "draft_path": "drafts/visitor-explanations/met-45734.json",
+  "draft_sha256": "b0016733f1c7444f037a21bbaf64869ff80364296a6d560f45914bef2c41f446",
+  "baseline": {
+    "artworks_sha256": "c08c6b3d260cbb5bd89529a74616bf3bcefc8f1c738637056a4933f09cb61ba9",
+    "image_registry_sha256": "ba4f5724c2395717a492359096ca39e888a5243fb27b58854967452ec057fa91"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/45734",
+      "source_excerpt": "one of the few known female painters of the Edo period",
+      "visitor_claim": "雪信は、当時の日本で名前が伝わる数少ない女性画家の一人。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/45734",
+      "source_excerpt": "delicate hint of domestic harmony in the disposition of the quail",
+      "visitor_claim": "メトロポリタン美術館は、二羽の鶉の配置と揺れる粟の茎に、家庭の穏やかな調和を感じ取っています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/45734",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "Met作品45734《Quail and Millet》（粟に鶉図）の作品固有のOverviewを直接確認。17世紀後半の江戸期に女性画家・清原雪信（1643–1682）が描いた絹本着色の掛軸。雪信は画家久隅守景の娘であり、室町期の水墨画の伝統的な主題を個人的な絵画表現へと改めた。Metは非対称構図と写実性を12世紀中国の院体画の系統に関連づけ、鶉たちの配置と風に揺れる穀物の茎に、家庭的な調和の繊細な暗示を見出している。これは画家本人が明言した意図ではなくMetの解釈。画像から見えるのは、ほとんど無地の淡い背景、画面右上から垂れる穂の群れ、下部の地面に立つ褐色斑の鶉と、その左で頭を下げ身を丸めた淡色の鶉。白い鳥を卵と混同しない。右下に署名・朱印がある。実物の所蔵館ID、作者、用材、年代を確認している。 Visual: Met公式作品ページの作品個別画像からリンクされたMet公式original JPEG https://images.metmuseum.org/CRDImages/as/original/DP251139.jpg を直接開いて視認した。縦長の絹本掛軸の中央上部には広い淡黄の余白。右上から長く細い粟の葉と穂が曲がり、右下の地面に茶色い斑点を持つ鶉が直立し、その左の淡い色の鶉は体を丸め頭を下げている。二羽の足元には細い草や小さな点描、右下に墨書と朱印。遠近のある山や大きな家屋を付け加えない。Met IIIF 45734/188321/main-image は検索ツールから時間切れで表示できなかったため、実際に直接視認した公式original JPEGを視覚証拠とする。 Limits: 淡色の鶉を卵と断定しない。画面に人や建物は描かれていない。『家庭的な調和』はMet学芸員の図像解釈であり清原雪信本人の明文化された目的ではない。江戸時代の女性画家は一人もいなかったという言い方はせず、『数少ない名が伝わる女性画家の一人』とする。雪信の父久隅守景は画家だが、当作品の制作に参加したとは記録されていない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45734",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-45734: API objectID=45734, primary JPEG full downloaded and verified; RMS=4.9216",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/45734",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=4.9216."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/45734",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and the artwork-specific visual sources: official Met original JPEG for met-45734 (Met IIIF timed out), and direct official IIIF for met-438009 (796161) and met-10482 (34224), plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-45734 Quail and Millet / Kiyohara Yukinobu / late 17th century / 36.100.45",
+      "image_match": "Met公式作品ページの作品個別画像からリンクされたMet公式original JPEG https://images.metmuseum.org/CRDImages/as/original/DP251139.jpg を直接開いて視認した。縦長の絹本掛軸の中央上部には広い淡黄の余白。右上から長く細い粟の葉と穂が曲がり、右下の地面に茶色い斑点を持つ鶉が直立し、その左の淡い色の鶉は体を丸め頭を下げている。二羽の足元には細い草や小さな点描、右下に墨書と朱印。遠近のある山や大きな家屋を付け加えない。Met IIIF 45734/188321/main-image は検索ツールから時間切れで表示できなかったため、実際に直接視認した公式original JPEGを視覚証拠とする。 Both primary JPEG variants fully downloaded and match (RMS=4.9216).",
+      "historical_interpretation": "Met作品45734《Quail and Millet》（粟に鶉図）の作品固有のOverviewを直接確認。17世紀後半の江戸期に女性画家・清原雪信（1643–1682）が描いた絹本着色の掛軸。雪信は画家久隅守景の娘であり、室町期の水墨画の伝統的な主題を個人的な絵画表現へと改めた。Metは非対称構図と写実性を12世紀中国の院体画の系統に関連づけ、鶉たちの配置と風に揺れる穀物の茎に、家庭的な調和の繊細な暗示を見出している。これは画家本人が明言した意図ではなくMetの解釈。画像から見えるのは、ほとんど無地の淡い背景、画面右上から垂れる穂の群れ、下部の地面に立つ褐色斑の鶉と、その左で頭を下げ身を丸めた淡色の鶉。白い鳥を卵と混同しない。右下に署名・朱印がある。実物の所蔵館ID、作者、用材、年代を確認している。 Cautions: 淡色の鶉を卵と断定しない。画面に人や建物は描かれていない。『家庭的な調和』はMet学芸員の図像解釈であり清原雪信本人の明文化された目的ではない。江戸時代の女性画家は一人もいなかったという言い方はせず、『数少ない名が伝わる女性画家の一人』とする。雪信の父久隅守景は画家だが、当作品の制作に参加したとは記録されていない。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['安心', '慈しみ']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP251139.jpg",
+      "sha256": "2c3ff57c7ca7bc06b2eb8d3a14c1c0a0c85276a3e4d09bf92f0edfd43de09fcd",
+      "byte_length": 38711,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/45734",
+        "https://images.metmuseum.org/CRDImages/as/original/DP251139.jpg"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met公式作品ページの作品個別画像からリンクされたMet公式original JPEG https://images.metmuseum.org/CRDImages/as/original/DP251139.jpg を直接開いて視認した。縦長の絹本掛軸の中央上部には広い淡黄の余白。右上から長く細い粟の葉と穂が曲がり、右下の地面に茶色い斑点を持つ鶉が直立し、その左の淡い色の鶉は体を丸め頭を下げている。二羽の足元には細い草や小さな点描、右下に墨書と朱印。遠近のある山や大きな家屋を付け加えない。Met IIIF 45734/188321/main-image は検索ツールから時間切れで表示できなかったため、実際に直接視認した公式original JPEGを視覚証拠とする。 Official same-object primary JPEG original/display resized RGB RMS=4.9216; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP251139.jpg",
+      "sha256": "9afbcc5d53486a12c1a86666ee1accb4b3e8fe2e724a74a42294be96e18f2cdf",
+      "byte_length": 1425773,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/45734",
+        "https://images.metmuseum.org/CRDImages/as/original/DP251139.jpg"
+      ],
+      "checked_on": "2026-11-13",
+      "observation": "Met公式作品ページの作品個別画像からリンクされたMet公式original JPEG https://images.metmuseum.org/CRDImages/as/original/DP251139.jpg を直接開いて視認した。縦長の絹本掛軸の中央上部には広い淡黄の余白。右上から長く細い粟の葉と穂が曲がり、右下の地面に茶色い斑点を持つ鶉が直立し、その左の淡い色の鶉は体を丸め頭を下げている。二羽の足元には細い草や小さな点描、右下に墨書と朱印。遠近のある山や大きな家屋を付け加えない。Met IIIF 45734/188321/main-image は検索ツールから時間切れで表示できなかったため、実際に直接視認した公式original JPEGを視覚証拠とする。 Official same-object primary JPEG original/display resized RGB RMS=4.9216; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #465 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}
