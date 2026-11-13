@@ -11,7 +11,7 @@ import sys
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 DATE="2026-11-13"
 EVIDENCE="docs/artwork-research-evidence/met-399-401-2026-11-13.json"
-RESEARCH_URL="https://github.com/matumaruex/kaiga-data/blob/codex/artworks-399-401-20261112/"+EVIDENCE
+RESEARCH_URL="https://github.com/matumaruex/kaiga-data/blob/codex/artworks-399-401-20261113/"+EVIDENCE
 LICENSE_URL="https://www.metmuseum.org/hubs/open-access"
 
 def load(p):
