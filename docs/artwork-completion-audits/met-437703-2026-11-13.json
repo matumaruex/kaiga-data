@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-437703",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-437703.json",
+  "candidate_sha256": "fe4cd87866833eebb24f79ea6bb7085f1b6029affca8283960db86c88e4b1a97",
+  "draft_path": "drafts/visitor-explanations/met-437703.json",
+  "draft_sha256": "067373350373e3e9b151c041ac5df6b61ae270efb400c23553ebee5781c7a905",
+  "baseline": {
+    "artworks_sha256": "2b32081b1794edce3661438386a02592d79ed7c19bf777bb42032e23620788f1",
+    "image_registry_sha256": "26930bdd09decade7bdf9e894f36ec16b49da173809b85ed6d7d6950cdebf607"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437703",
+      "source_excerpt": "Two maids clean fish and peel vegetables in the foreground",
+      "visitor_claim": "二人の女中が魚を整え、野菜の皮をむく場面を、器物の質感にも目を向けた静物画のような構成で描いています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437703",
+      "source_excerpt": "a mischievous cat, an open birdcage",
+      "visitor_claim": "右下には猫、奥には開いた鳥籠。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437703",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "メトロポリタン美術館によると、1643年ごろにオランダの画家ヘンドリック・ソルフが木板に描いた《A Kitchen》は、二人の女中による魚の手入れと野菜の皮むきという家事を静物画のように描く。前景には光る真鍮器と陶器が並ぶ。さらに猫、開いた鳥籠、女中二人の間の暗がりにかろうじて見える抱き合う男女という細部がある。Metは当時の観者には陶器さえ性的な含意を帯びたと解説する。現代の誰もがその解釈を共有した・画家が具体的な物語を確定したとまでは言わない。 Visual: Met作品437703の公式IIIF主画像を直接開いて視認。暗い室内、左手に高い窓、窓のそばに白い頭巾・肩掛けの女性が立ち、手前中央にしゃがんで大きな容器に手を入れる別の女性がいる。床に魚と丸い金属容器、右下には黒っぽい猫。奥の天井付近に鳥籠が吊るされている。二人の女性の間の暗がりの男女は公式解説で存在を確認したが、主画像の縮小視認では鮮明でないことを明示する。 Limits: 右下の猫や開いた鳥籠、暗い背景の男女などは公式Overviewに基づいて説明する。暗がりの人物の身元・関係を断定しない。陶器の性的含意はMetの17世紀の図像慣例の解釈として記述する。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437703",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-437703: API objectID=437703, primary JPEG full downloaded and verified; RMS=3.4547",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437703",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=3.4547."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437703",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and each actual official object-linked Met IIIF image, plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-437703 A Kitchen / Hendrick Sorgh / ca. 1643 / 89.15.7",
+      "image_match": "Met作品437703の公式IIIF主画像を直接開いて視認。暗い室内、左手に高い窓、窓のそばに白い頭巾・肩掛けの女性が立ち、手前中央にしゃがんで大きな容器に手を入れる別の女性がいる。床に魚と丸い金属容器、右下には黒っぽい猫。奥の天井付近に鳥籠が吊るされている。二人の女性の間の暗がりの男女は公式解説で存在を確認したが、主画像の縮小視認では鮮明でないことを明示する。 Both primary JPEG variants fully downloaded and match (RMS=3.4547).",
+      "historical_interpretation": "メトロポリタン美術館によると、1643年ごろにオランダの画家ヘンドリック・ソルフが木板に描いた《A Kitchen》は、二人の女中による魚の手入れと野菜の皮むきという家事を静物画のように描く。前景には光る真鍮器と陶器が並ぶ。さらに猫、開いた鳥籠、女中二人の間の暗がりにかろうじて見える抱き合う男女という細部がある。Metは当時の観者には陶器さえ性的な含意を帯びたと解説する。現代の誰もがその解釈を共有した・画家が具体的な物語を確定したとまでは言わない。 Cautions: 右下の猫や開いた鳥籠、暗い背景の男女などは公式Overviewに基づいて説明する。暗がりの人物の身元・関係を断定しない。陶器の性的含意はMetの17世紀の図像慣例の解釈として記述する。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['好奇心']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145945.jpg",
+      "sha256": "7d4b1c11284923ef4497c9a08fc98fd39c384474e717bf7c6ad4591ec8529e50",
+      "byte_length": 64594,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met作品437703の公式IIIF主画像を直接開いて視認。暗い室内、左手に高い窓、窓のそばに白い頭巾・肩掛けの女性が立ち、手前中央にしゃがんで大きな容器に手を入れる別の女性がいる。床に魚と丸い金属容器、右下には黒っぽい猫。奥の天井付近に鳥籠が吊るされている。二人の女性の間の暗がりの男女は公式解説で存在を確認したが、主画像の縮小視認では鮮明でないことを明示する。 Official same-object primary JPEG original/display resized RGB RMS=3.4547; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP145945.jpg",
+      "sha256": "fd912bdb97f9e2aa67b78c57f69442a14ab0ee7898b5084362e026340a97ccd9",
+      "byte_length": 2346967,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met作品437703の公式IIIF主画像を直接開いて視認。暗い室内、左手に高い窓、窓のそばに白い頭巾・肩掛けの女性が立ち、手前中央にしゃがんで大きな容器に手を入れる別の女性がいる。床に魚と丸い金属容器、右下には黒っぽい猫。奥の天井付近に鳥籠が吊るされている。二人の女性の間の暗がりの男女は公式解説で存在を確認したが、主画像の縮小視認では鮮明でないことを明示する。 Official same-object primary JPEG original/display resized RGB RMS=3.4547; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #443 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official object-linked Met IIIF image was opened directly for each of the three works, then official API primary display/original JPEGs were verified.",
+    "No claims of human approval or expert rights review."
+  ]
+}

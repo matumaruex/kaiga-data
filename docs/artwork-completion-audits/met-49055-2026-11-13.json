@@ -1,0 +1,119 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-49055",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-49055.json",
+  "candidate_sha256": "5ab45dc10c74198a9779aa5b1bdb465c9082fb2d299f70b38b1225ed54af9172",
+  "draft_path": "drafts/visitor-explanations/met-49055.json",
+  "draft_sha256": "622ffc82077f9a2b0097d81fc9ee55cf635e31b3bb972b186d938b750261aa97",
+  "baseline": {
+    "artworks_sha256": "17c35268a9cc67f7b7f3b18571a11c6f44a40eee622e9aed6c6ad507e37dc622",
+    "image_registry_sha256": "afe4d343fde0d91e763623abf779b1076c0108c4e0e0a8dfcabf99ada40d7abb"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/49055",
+      "source_excerpt": "One has a stack of books by his side",
+      "visitor_claim": "水辺の亭には二人の男性が座り、一人はそばに本を積み、もう一人は扇を持って語り合っています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/49055",
+      "source_excerpt": "the scene strongly evokes the atmosphere of a garden",
+      "visitor_claim": "背景には川と山が広がっていますが、美術館は、亭が配置された庭園に人々が集まるような雰囲気にも注目しています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/49055",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "メトロポリタン美術館の陳洪綬による17世紀半ばの《Landscape》のOverviewによれば、水辺の亭に二人の文人が座り、一人は本を傍らに積み、もう一人は扇を持って語らう。従者が酒または茶、琴（qin）を運ぶ。琴は文人の嗜みに最もふさわしい楽器と位置づけられていたと説明される。大きな川と遠い山並みが背景にあるが、亭を配置した庭園に集うような雰囲気も感じさせる。庭そのものを現実に写したと断言しない。作品の物理的形態は金紙に墨と色で描いた扇面をアルバム一葉に仕立てたもの。 Visual: Met作品49055の公式IIIF主画像を直接開いて視認。扇形の金茶色の紙を生かした横長画面。左側に木々と岩肌が重なり、中央上寄りの屋根のある小亭に人物が見える。右側は薄い線による遠景の山と川の余白が広い。小さな人物の手にある扇や楽器の確認は美術館作品解説によるもので、この縮小画像だけから細部を新たに断定しない。 Limits: 画面の亭を作者が実際に訪ねた特定の庭・場所とは断定しない。人々の名前や実際に演奏された音楽は分からない。所蔵館の『庭を思わせる』は空間表現に関する解釈。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/49055",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-49055: API objectID=49055, primary JPEG full downloaded and verified; RMS=7.3205",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/49055",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=7.3205."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/49055",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and each actual official object-linked Met IIIF image, plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-49055 Landscape / Chen Hongshou / mid-17th century / 1989.363.126",
+      "image_match": "Met作品49055の公式IIIF主画像を直接開いて視認。扇形の金茶色の紙を生かした横長画面。左側に木々と岩肌が重なり、中央上寄りの屋根のある小亭に人物が見える。右側は薄い線による遠景の山と川の余白が広い。小さな人物の手にある扇や楽器の確認は美術館作品解説によるもので、この縮小画像だけから細部を新たに断定しない。 Both primary JPEG variants fully downloaded and match (RMS=7.3205).",
+      "historical_interpretation": "メトロポリタン美術館の陳洪綬による17世紀半ばの《Landscape》のOverviewによれば、水辺の亭に二人の文人が座り、一人は本を傍らに積み、もう一人は扇を持って語らう。従者が酒または茶、琴（qin）を運ぶ。琴は文人の嗜みに最もふさわしい楽器と位置づけられていたと説明される。大きな川と遠い山並みが背景にあるが、亭を配置した庭園に集うような雰囲気も感じさせる。庭そのものを現実に写したと断言しない。作品の物理的形態は金紙に墨と色で描いた扇面をアルバム一葉に仕立てたもの。 Cautions: 画面の亭を作者が実際に訪ねた特定の庭・場所とは断定しない。人々の名前や実際に演奏された音楽は分からない。所蔵館の『庭を思わせる』は空間表現に関する解釈。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['好奇心', '安心']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP153876.jpg",
+      "sha256": "1b78cfee6042b84b2d84196bd7090b7309d8cd9a7e95970995fd7206903f8629",
+      "byte_length": 55478,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met作品49055の公式IIIF主画像を直接開いて視認。扇形の金茶色の紙を生かした横長画面。左側に木々と岩肌が重なり、中央上寄りの屋根のある小亭に人物が見える。右側は薄い線による遠景の山と川の余白が広い。小さな人物の手にある扇や楽器の確認は美術館作品解説によるもので、この縮小画像だけから細部を新たに断定しない。 Official same-object primary JPEG original/display resized RGB RMS=7.3205; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP153876.jpg",
+      "sha256": "8dee3e78bae1aff30952623c33cadefb84ba09a3084d4da5631ec0c0f2d8052d",
+      "byte_length": 2067160,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met作品49055の公式IIIF主画像を直接開いて視認。扇形の金茶色の紙を生かした横長画面。左側に木々と岩肌が重なり、中央上寄りの屋根のある小亭に人物が見える。右側は薄い線による遠景の山と川の余白が広い。小さな人物の手にある扇や楽器の確認は美術館作品解説によるもので、この縮小画像だけから細部を新たに断定しない。 Official same-object primary JPEG original/display resized RGB RMS=7.3205; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #442 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official object-linked Met IIIF image was opened directly for each of the three works, then official API primary display/original JPEGs were verified.",
+    "No claims of human approval or expert rights review."
+  ]
+}
