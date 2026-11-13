@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-317829",
+  "artwork": {
+    "id": "met-317829",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 317829,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/317829",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/317829",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Double Diptych Icon Pendant",
+      "title_ja_provisional": "四面の絵を持つ携帯用二連イコン",
+      "artist": "Unidentified Amhara or Tigrinya artist",
+      "creation_date_display": "early 18th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Amhara or Tigrinya peoples",
+      "accession_number": "1997.81.1"
+    },
+    "image": {
+      "image_id": "met-317829-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ao/web-large/DP-25652-001.jpg",
+      "source_registry_id": "met-317829",
+      "local_path": "/artworks/met-317829.jpg",
+      "sha256": "7c2c08ad39cf9fe25fe0ec5eca368e1c212f829846c81353138f7b5a70d359f9",
+      "byte_length": 98069,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json",
+      "source_accession_number": "1997.81.1",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ao/original/DP-25652-001.jpg",
+        "sha256": "f8bcd35b4f9ba3169f2d5e6067fa9fc0794bb2b7112380d6f96b3141f18a0936",
+        "byte_length": 2609295,
+        "width": 4000,
+        "height": 2960,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.70908",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "畏敬": 1
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "共同体",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/317829",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "エチオピアの首から下げられる小さな宗教画で、聖母子と聖ゲオルギウス、裏面の受難や復活をつなぐ仕組みを知りたい",
+            "reason": "Metの個別Overviewは18世紀初めのエチオピアの二連の両面イコンとして、首から紐で下げて持ち歩く貴族の個人信仰用具と解説する。表と裏・外側のふたを合わせてキリスト教主題が四面描かれる。主画像の開いた片側には聖母子と剣を持つ大天使たち、左の内ふたには白馬に乗り竜を倒す聖ゲオルギウス。裏側には十字架上のキリストと両脇の聖母マリア、聖ヨハネ、別の面にはアダムとエヴァを起こす復活のキリスト。主画像だけで四面すべてが見えると誤解させない。エチオピアのゴンダールで17世紀後半に発達した、黒い太い輪郭と平面的なピンク・橙色の顔彩の様式を示す。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "同じエチオピアでも既登録met-309529の別作品（1997.81.1対68.128）なので画像と所蔵番号で区別。写真に写るのは開いた片面の二画面だけで、裏側の主題は公式Overviewを根拠に記述する。宗教的伝承の場面を史実だと断定しない。作者の氏名や特定宗派内の所有者は不明。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metの個別Overviewは18世紀初めのエチオピアの二連の両面イコンとして、首から紐で下げて持ち歩く貴族の個人信仰用具と解説する。表と裏・外側のふたを合わせてキリスト教主題が四面描かれる。主画像の開いた片側には聖母子と剣を持つ大天使たち、左の内ふたには白馬に乗り竜を倒す聖ゲオルギウス。裏側には十字架上のキリストと両脇の聖母マリア、聖ヨハネ、別の面にはアダムとエヴァを起こす復活のキリスト。主画像だけで四面すべてが見えると誤解させない。エチオピアのゴンダールで17世紀後半に発達した、黒い太い輪郭と平面的なピンク・橙色の顔彩の様式を示す。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/317829"
+        },
+        "creation_context": "early 18th century; Ethiopia (Amhara or Tigrinya peoples); Wood, tempera pigment, string; accession 1997.81.1",
+        "visual_clues": "Met公式APIの原寸・表示用の実JPEG全バイトハッシュ、寸法、縮小RMSを記録し、主画像サムネイルを直接視認。展示用の灰色背景の前に小さい絵入り木製容器が左右に開いており、左の小板には白馬で竜へ槍を向ける聖ゲオルギウス、右には正面を向く聖母子と左右の天使。外枠の黄色～金の縁、上部の筒状の吊り紐部分も見える。裏側の十字架や復活の絵はこの主JPEGでは見えない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.7091で対応確認。",
+        "uncertainty_note": "同じエチオピアでも既登録met-309529の別作品（1997.81.1対68.128）なので画像と所蔵番号で区別。写真に写るのは開いた片面の二画面だけで、裏側の主題は公式Overviewを根拠に記述する。宗教的伝承の場面を史実だと断定しない。作者の氏名や特定宗派内の所有者は不明。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "畏敬"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "小さな木の扉を開くと、左右に異なる宗教画が見えます。左には白馬に乗り槍を構える聖ゲオルギウス、右には幼いキリストを抱く聖母マリアと天使たち。人物の黒い輪郭と鮮やかな赤や金色が、手のひらほどの画面を印象深くしています。\n\nこれは18世紀初めのエチオピアで作られた携帯用のイコンです。紐で首から下げて持ち歩く個人用の宗教画として使われました。両面を合わせると四つの宗教的な場面が描かれ、聖母子や竜を倒す聖ゲオルギウスのほか、反対側にはキリストの磔刑や復活も表されています。\n\n今表示されている主画像には、開いた片側の二画面だけが写っています。エチオピアのゴンダールで発達した、太い輪郭線と平面的な色彩の様式も見どころです。身に着けるほど小さな品に、信仰の物語が幾重にも収められていることを想像してみてください。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/317829"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-317829",
+    "title": "Double Diptych Icon Pendant",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/317829",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/317829",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ao/web-large/DP-25652-001.jpg",
+      "sha256": "7c2c08ad39cf9fe25fe0ec5eca368e1c212f829846c81353138f7b5a70d359f9",
+      "byte_length": 98069,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ao/original/DP-25652-001.jpg",
+        "sha256": "f8bcd35b4f9ba3169f2d5e6067fa9fc0794bb2b7112380d6f96b3141f18a0936",
+        "byte_length": 2609295,
+        "width": 4000,
+        "height": 2960,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.70908",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "1997.81.1"
+  }
+}

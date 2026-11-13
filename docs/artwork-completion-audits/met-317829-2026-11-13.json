@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-317829",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-317829.json",
+  "candidate_sha256": "a922b92a7fe8474f5401d46a7c41a4a4c000683f02080b37d280db8bf11f6847",
+  "draft_path": "drafts/visitor-explanations/met-317829.json",
+  "draft_sha256": "30c0c18acf6a5d167c5b74982f9c6df5aef7f43d4efaf7c12af3bddfe28e4de9",
+  "baseline": {
+    "artworks_sha256": "4a24ab8172aab3efa2c7c98546ac43225ba5da14f0203488d58468e872f731f1",
+    "image_registry_sha256": "f6fe34acb2df47fe5581d2c8c25f297b299e8421f27ea454079cc1d5d29bc810"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/317829",
+      "source_excerpt": "pendant icons worn suspended by a cord around the neck",
+      "visitor_claim": "紐で首から下げて持ち歩く個人用の宗教画として使われました。",
+      "source_section": "Exact Met artwork Overview: suspension by neck cord"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/317829",
+      "source_excerpt": "The double-sided pendant contains four painted surfaces depicting Christian subject matter",
+      "visitor_claim": "両面を合わせると四つの宗教的な場面が描かれ",
+      "source_section": "Exact Met artwork Overview: four painted Christian surfaces"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/317829",
+      "location": "Exact artwork Overview and Object Information: Exact Met artwork Overview: suspension by neck cord; Exact Met artwork Overview: four painted Christian surfaces",
+      "finding": "Metの個別Overviewは18世紀初めのエチオピアの二連の両面イコンとして、首から紐で下げて持ち歩く貴族の個人信仰用具と解説する。表と裏・外側のふたを合わせてキリスト教主題が四面描かれる。主画像の開いた片側には聖母子と剣を持つ大天使たち、左の内ふたには白馬に乗り竜を倒す聖ゲオルギウス。裏側には十字架上のキリストと両脇の聖母マリア、聖ヨハネ、別の面にはアダムとエヴァを起こす復活のキリスト。主画像だけで四面すべてが見えると誤解させない。エチオピアのゴンダールで17世紀後半に発達した、黒い太い輪郭と平面的なピンク・橙色の顔彩の様式を示す。 Actual image observation: Met公式APIの原寸・表示用の実JPEG全バイトハッシュ、寸法、縮小RMSを記録し、主画像サムネイルを直接視認。展示用の灰色背景の前に小さい絵入り木製容器が左右に開いており、左の小板には白馬で竜へ槍を向ける聖ゲオルギウス、右には正面を向く聖母子と左右の天使。外枠の黄色～金の縁、上部の筒状の吊り紐部分も見える。裏側の十字架や復活の絵はこの主JPEGでは見えない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.7091で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/317829",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/317829",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/317829",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-317829 Double Diptych Icon Pendant; Unidentified Amhara or Tigrinya artist; early 18th century; accession 1997.81.1. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式APIの原寸・表示用の実JPEG全バイトハッシュ、寸法、縮小RMSを記録し、主画像サムネイルを直接視認。展示用の灰色背景の前に小さい絵入り木製容器が左右に開いており、左の小板には白馬で竜へ槍を向ける聖ゲオルギウス、右には正面を向く聖母子と左右の天使。外枠の黄色～金の縁、上部の筒状の吊り紐部分も見える。裏側の十字架や復活の絵はこの主JPEGでは見えない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.7091で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json",
+      "historical_interpretation": "Metの個別Overviewは18世紀初めのエチオピアの二連の両面イコンとして、首から紐で下げて持ち歩く貴族の個人信仰用具と解説する。表と裏・外側のふたを合わせてキリスト教主題が四面描かれる。主画像の開いた片側には聖母子と剣を持つ大天使たち、左の内ふたには白馬に乗り竜を倒す聖ゲオルギウス。裏側には十字架上のキリストと両脇の聖母マリア、聖ヨハネ、別の面にはアダムとエヴァを起こす復活のキリスト。主画像だけで四面すべてが見えると誤解させない。エチオピアのゴンダールで17世紀後半に発達した、黒い太い輪郭と平面的なピンク・橙色の顔彩の様式を示す。 Limits: 同じエチオピアでも既登録met-309529の別作品（1997.81.1対68.128）なので画像と所蔵番号で区別。写真に写るのは開いた片面の二画面だけで、裏側の主題は公式Overviewを根拠に記述する。宗教的伝承の場面を史実だと断定しない。作者の氏名や特定宗派内の所有者は不明。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['畏敬']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ao/web-large/DP-25652-001.jpg",
+      "sha256": "7c2c08ad39cf9fe25fe0ec5eca368e1c212f829846c81353138f7b5a70d359f9",
+      "byte_length": 98069,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの原寸・表示用の実JPEG全バイトハッシュ、寸法、縮小RMSを記録し、主画像サムネイルを直接視認。展示用の灰色背景の前に小さい絵入り木製容器が左右に開いており、左の小板には白馬で竜へ槍を向ける聖ゲオルギウス、右には正面を向く聖母子と左右の天使。外枠の黄色～金の縁、上部の筒状の吊り紐部分も見える。裏側の十字架や復活の絵はこの主JPEGでは見えない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.7091で対応確認。 Confirmed image belongs to Met artwork 317829, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ao/original/DP-25652-001.jpg",
+      "sha256": "f8bcd35b4f9ba3169f2d5e6067fa9fc0794bb2b7112380d6f96b3141f18a0936",
+      "byte_length": 2609295,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの原寸・表示用の実JPEG全バイトハッシュ、寸法、縮小RMSを記録し、主画像サムネイルを直接視認。展示用の灰色背景の前に小さい絵入り木製容器が左右に開いており、左の小板には白馬で竜へ槍を向ける聖ゲオルギウス、右には正面を向く聖母子と左右の天使。外枠の黄色～金の縁、上部の筒状の吊り紐部分も見える。裏側の十字架や復活の絵はこの主JPEGでは見えない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.7091で対応確認。 Confirmed image belongs to Met artwork 317829, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #419; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 440727 precise view location is uncertain; Met 898273 is double-sided and the primary JPEG only depicts the rose and nightingale side; Met 317829 depicts four icon surfaces but the primary JPEG only depicts two of them and this is not the older registered Ethiopian met-309529."
+  ]
+}

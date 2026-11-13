@@ -1,0 +1,151 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-898273",
+  "artwork": {
+    "id": "met-898273",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 898273,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/898273",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/898273",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "\"Two Nightingales in a Rose Bush\", Double-Sided Illustrated Leaf from an Ottoman Album",
+      "title_ja_provisional": "薔薇の枝にとまるナイチンゲール（両面彩飾葉）",
+      "artist": "'Abdullah Bukhari",
+      "creation_date_display": "ca. 1725–45",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Turkey (probably Istanbul, Ottoman Empire)",
+      "accession_number": "2023.217"
+    },
+    "image": {
+      "image_id": "met-898273-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-29346-001.jpg",
+      "source_registry_id": "met-898273",
+      "local_path": "/artworks/met-898273.jpg",
+      "sha256": "bd9c6f4eb82d3eaf81d9fd45eed3902516e64ff49207ecdd243e3feff93b4ede",
+      "byte_length": 186466,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json",
+      "source_accession_number": "2023.217",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP-29346-001.jpg",
+        "sha256": "cc8876638b6daf7e7b0a784804efc0d593593648018980ce5ab5a92883d1e4ed",
+        "byte_length": 4260617,
+        "width": 2732,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.02382",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "慈しみ"
+      ],
+      "emotion_strengths": {
+        "慈しみ": 1
+      },
+      "tones": [
+        "静けさ",
+        "余韻"
+      ],
+      "themes": [
+        "愛情",
+        "自然"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/898273",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "18世紀オスマン帝国の薔薇とナイチンゲールの絵を、恋の詩に登場する『愛する者と愛される者』の象徴として見たい",
+            "reason": "Metの個別Overviewによると、『薔薇とナイチンゲール』は15〜18世紀のオスマンの恋愛詩で『愛する者と愛される者』を象徴する組み合わせである。画面の主画像は薔薇と鳥が描かれたアルバムの葉の片面を写し、裏面（verso）にはチューリップなどの花がある。鮮明な緑の尖った葉と、鳥や花を写実的に描く技法は1720年代以降のイスタンブール絵画の特徴。作者アブドゥッラー・ブハーリーの署名があり、収集家用アルバムの絵を多く描いた画家として美術館が説明。制作都市は『おそらくイスタンブール』にとどまる。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "主JPEGは両面のうち薔薇と鳥を描いた片面のみ。裏面のチューリップを画像に直接写っていると説明しない。鳥の種や詩の具体的な一篇を断定せず、詩の伝統上の象徴として解説。制作地はMetの『おそらくイスタンブール』。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metの個別Overviewによると、『薔薇とナイチンゲール』は15〜18世紀のオスマンの恋愛詩で『愛する者と愛される者』を象徴する組み合わせである。画面の主画像は薔薇と鳥が描かれたアルバムの葉の片面を写し、裏面（verso）にはチューリップなどの花がある。鮮明な緑の尖った葉と、鳥や花を写実的に描く技法は1720年代以降のイスタンブール絵画の特徴。作者アブドゥッラー・ブハーリーの署名があり、収集家用アルバムの絵を多く描いた画家として美術館が説明。制作都市は『おそらくイスタンブール』にとどまる。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/898273"
+        },
+        "creation_context": "ca. 1725–45; Turkey (probably Istanbul, Ottoman Empire); Opaque watercolor with black ink, shell, and gold leaf on paper, with a marbled paper margin; accession 2023.217",
+        "visual_clues": "Met公式object APIの主原寸/表示JPEGを全バイト取得してSHA256と縮小RMSを検査し、実際の主画像サムネイルを確認。縦長の紙面に青と白の波紋模様の大きなマーブル紙の縁。金色の細い二重枠の内側に小さな薔薇の枝があり、ピンクの蕾や開きかけの花の横に一羽の灰色の小鳥が横向きに止まっている。題名は『二羽のナイチンゲール』だが主JPEGには一羽が明瞭で、両面のすべての画像が写るわけではない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.0238で対応確認。",
+        "uncertainty_note": "主JPEGは両面のうち薔薇と鳥を描いた片面のみ。裏面のチューリップを画像に直接写っていると説明しない。鳥の種や詩の具体的な一篇を断定せず、詩の伝統上の象徴として解説。制作地はMetの『おそらくイスタンブール』。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "慈しみ"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "青く波打つ模様の紙の中央に、小さな薔薇の枝が描かれています。蕾のそばには灰色の小鳥が止まり、花や葉の形は細い線で丁寧に表されています。周囲の華やかな紙の模様と、中央の静かな自然の描写を見比べてみてください。\n\nこの作品は、18世紀のオスマン帝国で活躍したアブドゥッラー・ブハーリーによる彩飾画です。薔薇とナイチンゲールは、当時の恋愛詩において「愛する者と愛される者」を象徴する組み合わせでした。鳥と花を写実的に描き、尖った緑の葉を配する表現は、1720年代からイスタンブールで発展した絵画の特徴とされています。\n\n画家は、収集家向けのアルバムに収める絵も多く制作しました。この作品も両面に絵のあるアルバムの一葉で、裏面にはチューリップなどの花が描かれています。ここに表示される主画像は薔薇のある片面です。花と小鳥の間のわずかな距離に、古い詩が重ねた意味を思い浮かべてみてください。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/898273"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-898273",
+    "title": "\"Two Nightingales in a Rose Bush\", Double-Sided Illustrated Leaf from an Ottoman Album",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/898273",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/898273",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP-29346-001.jpg",
+      "sha256": "bd9c6f4eb82d3eaf81d9fd45eed3902516e64ff49207ecdd243e3feff93b4ede",
+      "byte_length": 186466,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/is/original/DP-29346-001.jpg",
+        "sha256": "cc8876638b6daf7e7b0a784804efc0d593593648018980ce5ab5a92883d1e4ed",
+        "byte_length": 4260617,
+        "width": 2732,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.02382",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2023.217"
+  }
+}

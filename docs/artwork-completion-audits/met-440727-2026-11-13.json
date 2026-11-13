@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-440727",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-440727.json",
+  "candidate_sha256": "07d605637962b9e6868cdfc5034ca784e659fb9e1fdcc46fecb81cd017e5b427",
+  "draft_path": "drafts/visitor-explanations/met-440727.json",
+  "draft_sha256": "e5c5ec34a6efab6630d8131e6386350c0c54e235ebea886aa4bd7e0631724915",
+  "baseline": {
+    "artworks_sha256": "9b9e02e24954f17b2320d1c95573a271e3bfefe156b9f22ca6edeef9acb171fd",
+    "image_registry_sha256": "b4930768c22cde895c79dbaa6ab85d7a7b70beabcbcd7b7f46cdbb2384eeeb1e"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/440727",
+      "source_excerpt": "only Petzholdt devoted himself exclusively to landscape",
+      "visitor_claim": "その門下では珍しく、風景画に専念した画家でした。",
+      "source_section": "Exact Met artwork Overview: exclusive devotion to landscape"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/440727",
+      "source_excerpt": "the precise location of this small view has not been determined",
+      "visitor_claim": "描かれた場所の正確な位置はまだ分かっていません。",
+      "source_section": "Exact Met artwork Overview: geographic location remains unknown"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/440727",
+      "location": "Exact artwork Overview and Object Information: Exact Met artwork Overview: exclusive devotion to landscape; Exact Met artwork Overview: geographic location remains unknown",
+      "finding": "メトロポリタン美術館の個別Overviewは、デンマーク黄金時代の絵画を牽引したクリストファー・ヴィルヘルム・エッカースベルグの弟子の中で、フリッツ・ペッツホルトが風景画に専念した唯一の画家だったと説明。この小さな風景の正確な場所は未確定だが、1829年と翌1830年に彼がスケッチをしたドイツで制作されたとみられる。作品は1829〜30年頃の紙に油彩で描いた画で、後にキャンバスへ貼り付けられている。ドイツの特定都市や谷の名前を推測しない。 Actual image observation: Metの原寸・表示JPEGのSHA256/サイズ/寸法/縮小RMSを確認し、実主画像のサムネイルを視認。横長の絵で左側の前景に褐色の切り立った丘、上面に緑の草と低い樹木、中央から右の奥に深く続く谷と霞む低山、上に淡い灰色の雲の空が見える。明るい右側と暗い左の崖に注目。近景には小さな道らしい線もあるが位置は特定しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.5475で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/440727",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/440727",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/440727",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-440727 German Landscape with View toward a Broad Valley; Fritz Petzholdt; ca. 1829–30; accession 2009.285. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Metの原寸・表示JPEGのSHA256/サイズ/寸法/縮小RMSを確認し、実主画像のサムネイルを視認。横長の絵で左側の前景に褐色の切り立った丘、上面に緑の草と低い樹木、中央から右の奥に深く続く谷と霞む低山、上に淡い灰色の雲の空が見える。明るい右側と暗い左の崖に注目。近景には小さな道らしい線もあるが位置は特定しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.5475で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-417-419-20261113/docs/artwork-research-evidence/met-417-419-2026-11-13.json",
+      "historical_interpretation": "メトロポリタン美術館の個別Overviewは、デンマーク黄金時代の絵画を牽引したクリストファー・ヴィルヘルム・エッカースベルグの弟子の中で、フリッツ・ペッツホルトが風景画に専念した唯一の画家だったと説明。この小さな風景の正確な場所は未確定だが、1829年と翌1830年に彼がスケッチをしたドイツで制作されたとみられる。作品は1829〜30年頃の紙に油彩で描いた画で、後にキャンバスへ貼り付けられている。ドイツの特定都市や谷の名前を推測しない。 Limits: 作者はデンマーク人、制作対象はドイツのどこかという区別。正確な描画場所はMet公式も未特定で、特定の村や渓谷を断定しない。作品の支持体は紙に油彩で後からキャンバスに貼ったもの。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['安心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP212416.jpg",
+      "sha256": "4428759ea5ebd2849fe3a0e8c63e01916d38d3c7d5eb426f517ec6502bc27afa",
+      "byte_length": 68483,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Metの原寸・表示JPEGのSHA256/サイズ/寸法/縮小RMSを確認し、実主画像のサムネイルを視認。横長の絵で左側の前景に褐色の切り立った丘、上面に緑の草と低い樹木、中央から右の奥に深く続く谷と霞む低山、上に淡い灰色の雲の空が見える。明るい右側と暗い左の崖に注目。近景には小さな道らしい線もあるが位置は特定しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.5475で対応確認。 Confirmed image belongs to Met artwork 440727, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP212416.jpg",
+      "sha256": "4f7a6588b470c3a9def478621e26723917d253d9beec19e1c90b686a27c8f73d",
+      "byte_length": 2411047,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Metの原寸・表示JPEGのSHA256/サイズ/寸法/縮小RMSを確認し、実主画像のサムネイルを視認。横長の絵で左側の前景に褐色の切り立った丘、上面に緑の草と低い樹木、中央から右の奥に深く続く谷と霞む低山、上に淡い灰色の雲の空が見える。明るい右側と暗い左の崖に注目。近景には小さな道らしい線もあるが位置は特定しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.5475で対応確認。 Confirmed image belongs to Met artwork 440727, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #417; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 440727 precise view location is uncertain; Met 898273 is double-sided and the primary JPEG only depicts the rose and nightingale side; Met 317829 depicts four icon surfaces but the primary JPEG only depicts two of them and this is not the older registered Ethiopian met-309529."
+  ]
+}
