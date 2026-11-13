@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-895417",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-895417.json",
+  "candidate_sha256": "d12bb83542c01afd20590f7d91a70059bbe72f67ba143ea3ac6b9477b262ca14",
+  "draft_path": "drafts/visitor-explanations/met-895417.json",
+  "draft_sha256": "a33e7a47a6d749b091a00764087a8bd6fec528f4e447999a146fc2c8961177c4",
+  "baseline": {
+    "artworks_sha256": "95c9b6e3db0643235a85b828fe8fcf2dba07043d02de3634466c8f43f7282987",
+    "image_registry_sha256": "fd536b05e4bb539502d22b6b7f3523b6ebd15ccc47b2adc15677341bd64cf389"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/895417",
+      "source_excerpt": "The willow branch is believed to ward off evil and illness",
+      "visitor_claim": "柳の枝は災厄や病を遠ざけると信じられました。",
+      "source_section": "Exact Met Overview: belief concerning willow branch"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/895417",
+      "source_excerpt": "are painted using a convention called “painted mounting”",
+      "visitor_claim": "一見すると普通の掛軸の表装に見える部分まで、実際は絹地に描かれた「描表装」です。",
+      "source_section": "Exact Met Overview: painted mounting illusion"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/895417",
+      "location": "Exact artwork Overview and Object Information: Exact Met Overview: belief concerning willow branch; Exact Met Overview: painted mounting illusion",
+      "finding": "メトロポリタン美術館の作品別Overviewによれば、鈴木守一（1823～1889）は雲上に降りる白衣観音を、片手に柳、もう一方に浄水を収めた瓶を持つ楊柳観音として描いた。柳が病や邪悪を避け、甘露が癒やしをもたらすというのは信仰上の象徴。通常の掛軸表装に見える外側の垂れ（風帯）・藍色の経文帯・大きな蓮華までも、一枚の絹に描いた『描表装』という錯視的な工夫。青い帯は『法華経』観音経を画家自身が金字で書写し、白衣の細い線は胡粉、瓶の液体は薄い雲母、光背の金線は盛り上げて表される。鈴木其一の子として江戸琳派を受け継いだ。 Actual image observation: Met APIから得た原寸と表示用主JPEGの全バイトSHA256・リサイズRMSを照合し実際の主画像サムネイルを視認。非常に縦長で薄い地色の中ほどに白い衣の観音が雲の上に立つ。上部には濃い青の横帯と紐のような垂れが描かれ、下部右に大きな白蓮の花が続き、外側には縞模様の濃い縁取りがある。『表装に見える描写』と実際の外装は区別。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.467で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/895417",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-414-416-20261113/docs/artwork-research-evidence/met-414-416-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/895417",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-414-416-20261113/docs/artwork-research-evidence/met-414-416-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/895417",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-895417 White-Robed Willow Kannon; Suzuki Shūitsu 鈴木守一; mid- to late 19th century; accession 2023.753. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met APIから得た原寸と表示用主JPEGの全バイトSHA256・リサイズRMSを照合し実際の主画像サムネイルを視認。非常に縦長で薄い地色の中ほどに白い衣の観音が雲の上に立つ。上部には濃い青の横帯と紐のような垂れが描かれ、下部右に大きな白蓮の花が続き、外側には縞模様の濃い縁取りがある。『表装に見える描写』と実際の外装は区別。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.467で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-414-416-20261113/docs/artwork-research-evidence/met-414-416-2026-11-13.json",
+      "historical_interpretation": "メトロポリタン美術館の作品別Overviewによれば、鈴木守一（1823～1889）は雲上に降りる白衣観音を、片手に柳、もう一方に浄水を収めた瓶を持つ楊柳観音として描いた。柳が病や邪悪を避け、甘露が癒やしをもたらすというのは信仰上の象徴。通常の掛軸表装に見える外側の垂れ（風帯）・藍色の経文帯・大きな蓮華までも、一枚の絹に描いた『描表装』という錯視的な工夫。青い帯は『法華経』観音経を画家自身が金字で書写し、白衣の細い線は胡粉、瓶の液体は薄い雲母、光背の金線は盛り上げて表される。鈴木其一の子として江戸琳派を受け継いだ。 Limits: 柳による除災や甘露による治癒を実証された医学的効能として述べない。外側の装飾的表装の多くは絵として描かれている。制作年代はMetの19世紀中〜後期にとどめ、鈴木其一本人の作品と取り違えない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['畏敬']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-29425-002.jpg",
+      "sha256": "dae30501f7606c87d849d4fdbfd82003f56079a5c86146d2736f636882c28e9f",
+      "byte_length": 73104,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met APIから得た原寸と表示用主JPEGの全バイトSHA256・リサイズRMSを照合し実際の主画像サムネイルを視認。非常に縦長で薄い地色の中ほどに白い衣の観音が雲の上に立つ。上部には濃い青の横帯と紐のような垂れが描かれ、下部右に大きな白蓮の花が続き、外側には縞模様の濃い縁取りがある。『表装に見える描写』と実際の外装は区別。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.467で対応確認。 Confirmed image belongs to Met artwork 895417, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-29425-002.jpg",
+      "sha256": "3998bb5f1ec9506bc7b55149057183cd8d7582d1912da866bdb0b42f616427dc",
+      "byte_length": 2154039,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met APIから得た原寸と表示用主JPEGの全バイトSHA256・リサイズRMSを照合し実際の主画像サムネイルを視認。非常に縦長で薄い地色の中ほどに白い衣の観音が雲の上に立つ。上部には濃い青の横帯と紐のような垂れが描かれ、下部右に大きな白蓮の花が続き、外側には縞模様の濃い縁取りがある。『表装に見える描写』と実際の外装は区別。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.467で対応確認。 Confirmed image belongs to Met artwork 895417, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #414; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 895417 uses painted silk mounting rather than physical mounting; met-853197 country and old Sotsuon attribution remain unproven; met-853450 is a wearable oil-and-gold copper badge in a tortoiseshell and silver frame rather than canvas."
+  ]
+}

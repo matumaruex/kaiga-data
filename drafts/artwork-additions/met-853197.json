@@ -1,0 +1,151 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-853197",
+  "artwork": {
+    "id": "met-853197",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 853197,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/853197",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853197",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Pine, Bamboo, Grape, and Squirrel",
+      "title_ja_provisional": "松竹葡萄栗鼠図",
+      "artist": "Unidentified Artist, probably Korean",
+      "creation_date_display": "18th–19th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Korea and Japan",
+      "accession_number": "2022.432.10"
+    },
+    "image": {
+      "image_id": "met-853197-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-25263-002.jpg",
+      "source_registry_id": "met-853197",
+      "local_path": "/artworks/met-853197.jpg",
+      "sha256": "905c69dd7b9ffdec814d278e40d15f035d62a354721d8740ac58bfcefa12ed89",
+      "byte_length": 94342,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-414-416-20261113/docs/artwork-research-evidence/met-414-416-2026-11-13.json",
+      "source_accession_number": "2022.432.10",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-25263-002.jpg",
+        "sha256": "c04b629194170e698d7bf136fc8ae05f17aaf14df56ffb66c24d021c89012486",
+        "byte_length": 2623153,
+        "width": 3000,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 5.7361",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "希望"
+      ],
+      "emotion_strengths": {
+        "希望": 1
+      },
+      "tones": [
+        "落ち着き",
+        "静けさ"
+      ],
+      "themes": [
+        "自然",
+        "共同体"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/853197",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "葡萄を食べるリスと松竹を描いた掛軸から、家族の繁栄や長寿を願う東アジアの吉祥図像を読みたい",
+            "reason": "Met個別作品Overviewでは18～19世紀の墨画の制作地が朝鮮か、日本で朝鮮・中国系図像に影響された作家によるものか専門家の間で議論されている。板倉聖哲は民画との様式上の関係から朝鮮18世紀～19世紀初めと推定するが確定していない。画中のリスは左前足で葡萄をつかみ食べ、濃淡や点で毛並みを表す。二本の尻尾があるように見える。葡萄とリスは子孫繁栄を象徴し、松は長寿、竹は忍耐やしなやかな強さを表す。箱書きの中国の禅僧に関する古い帰属は印章と作風が一致せず現在は支持されていない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "制作国・画家の氏名は確定せず、『おそらく朝鮮の画家』というMetの表記を採用し、文化欄はKorea and Japanと記録。箱書きの中国僧の旧帰属を現在の制作者として扱わない。葡萄とリスの象徴は東アジアの画題上の意味であり家庭の実際の事情を推定するものではない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met個別作品Overviewでは18～19世紀の墨画の制作地が朝鮮か、日本で朝鮮・中国系図像に影響された作家によるものか専門家の間で議論されている。板倉聖哲は民画との様式上の関係から朝鮮18世紀～19世紀初めと推定するが確定していない。画中のリスは左前足で葡萄をつかみ食べ、濃淡や点で毛並みを表す。二本の尻尾があるように見える。葡萄とリスは子孫繁栄を象徴し、松は長寿、竹は忍耐やしなやかな強さを表す。箱書きの中国の禅僧に関する古い帰属は印章と作風が一致せず現在は支持されていない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/853197"
+        },
+        "creation_context": "18th–19th century; Korea and Japan (Joseon period; origin disputed); Hanging scroll; ink on paper; accession 2022.432.10",
+        "visual_clues": "Met公式APIの原寸/表示JPEGを全バイトハッシュとRGB縮小誤差で比較、実画像サムネイルを直接視認。縦長の掛軸の中央には松らしい曲がった幹と葡萄の房・葉が密に重なり、下方の枝にふっくらしたリスがいる。横へ伸びる細い竹の葉と灰墨の地色、枠の紙と上部の墨書が見える。小さな虫や葉の細部の同定は作品別Overviewに基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=5.7361で対応確認。",
+        "uncertainty_note": "制作国・画家の氏名は確定せず、『おそらく朝鮮の画家』というMetの表記を採用し、文化欄はKorea and Japanと記録。箱書きの中国僧の旧帰属を現在の制作者として扱わない。葡萄とリスの象徴は東アジアの画題上の意味であり家庭の実際の事情を推定するものではない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "希望"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-414-416-20261113/docs/artwork-research-evidence/met-414-416-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "松の幹に絡みつく葡萄のつるから、いくつもの房が垂れ下がっています。枝の下には、葡萄を前足で抱えて食べるリス。墨の濃淡と小さな点で表した毛並みを追うと、リスの尻尾は二本あるようにも見えます。松の葉や竹の細い線にも注目してみてください。\n\nこの掛軸では、葡萄とリスの組み合わせが家族の繁栄を象徴します。葡萄の実の多さは実りや子孫を、常緑の松は長寿、竹は折れにくさを表す吉祥の意匠です。動物と植物が一緒になることで、自然の描写にさまざまな願いが重ねられています。\n\n制作は18～19世紀で、朝鮮の画家による可能性があると考えられていますが、日本の画家によるとする見方もあり、産地は確定していません。かつて箱書きから中国の僧に帰属されたこともありましたが、現在は作品の印章や作風と合わないと説明されています。確定していない歴史はそのまま残し、まずは小さなリスと多くの実が結ぶ図柄を眺めてみてください。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/853197"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-853197",
+    "title": "Pine, Bamboo, Grape, and Squirrel",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/853197",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/853197",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-25263-002.jpg",
+      "sha256": "905c69dd7b9ffdec814d278e40d15f035d62a354721d8740ac58bfcefa12ed89",
+      "byte_length": 94342,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-414-416-20261113/docs/artwork-research-evidence/met-414-416-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-25263-002.jpg",
+        "sha256": "c04b629194170e698d7bf136fc8ae05f17aaf14df56ffb66c24d021c89012486",
+        "byte_length": 2623153,
+        "width": 3000,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 5.7361",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2022.432.10"
+  }
+}
