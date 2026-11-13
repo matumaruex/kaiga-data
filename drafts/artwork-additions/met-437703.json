@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-437703",
+  "artwork": {
+    "id": "met-437703",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 437703,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/437703",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437703",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "A Kitchen",
+      "title_ja_provisional": "台所",
+      "artist": "Hendrick Sorgh",
+      "creation_date_display": "ca. 1643",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Unspecified",
+      "accession_number": "89.15.7"
+    },
+    "image": {
+      "image_id": "met-437703-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145945.jpg",
+      "source_registry_id": "met-437703",
+      "local_path": "/artworks/met-437703.jpg",
+      "sha256": "7d4b1c11284923ef4497c9a08fc98fd39c384474e717bf7c6ad4591ec8529e50",
+      "byte_length": 64594,
+      "live_image_checked": true,
+      "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+      "source_accession_number": "89.15.7",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP145945.jpg",
+        "sha256": "fd912bdb97f9e2aa67b78c57f69442a14ab0ee7898b5084362e026340a97ccd9",
+        "byte_length": 2346967,
+        "width": 3158,
+        "height": 3705,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=3.4547",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 2
+      },
+      "tones": [
+        "落ち着き"
+      ],
+      "themes": [
+        "日常",
+        "他者との距離"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/437703",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "何気ない台所の風景に隠れた猫・鳥籠・人物の細部を探し、17世紀オランダの図像の多義性を楽しみたい",
+            "reason": "メトロポリタン美術館によると、1643年ごろにオランダの画家ヘンドリック・ソルフが木板に描いた《A Kitchen》は、二人の女中による魚の手入れと野菜の皮むきという家事を静物画のように描く。前景には光る真鍮器と陶器が並ぶ。さらに猫、開いた鳥籠、女中二人の間の暗がりにかろうじて見える抱き合う男女という細部がある。Metは当時の観者には陶器さえ性的な含意を帯びたと解説する。現代の誰もがその解釈を共有した・画家が具体的な物語を確定したとまでは言わない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "右下の猫や開いた鳥籠、暗い背景の男女などは公式Overviewに基づいて説明する。暗がりの人物の身元・関係を断定しない。陶器の性的含意はMetの17世紀の図像慣例の解釈として記述する。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "メトロポリタン美術館によると、1643年ごろにオランダの画家ヘンドリック・ソルフが木板に描いた《A Kitchen》は、二人の女中による魚の手入れと野菜の皮むきという家事を静物画のように描く。前景には光る真鍮器と陶器が並ぶ。さらに猫、開いた鳥籠、女中二人の間の暗がりにかろうじて見える抱き合う男女という細部がある。Metは当時の観者には陶器さえ性的な含意を帯びたと解説する。現代の誰もがその解釈を共有した・画家が具体的な物語を確定したとまでは言わない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/437703"
+        },
+        "creation_context": "ca. 1643; Unspecified; Oil on wood; accession 89.15.7",
+        "visual_clues": "Met作品437703の公式IIIF主画像を直接開いて視認。暗い室内、左手に高い窓、窓のそばに白い頭巾・肩掛けの女性が立ち、手前中央にしゃがんで大きな容器に手を入れる別の女性がいる。床に魚と丸い金属容器、右下には黒っぽい猫。奥の天井付近に鳥籠が吊るされている。二人の女性の間の暗がりの男女は公式解説で存在を確認したが、主画像の縮小視認では鮮明でないことを明示する。",
+        "uncertainty_note": "右下の猫や開いた鳥籠、暗い背景の男女などは公式Overviewに基づいて説明する。暗がりの人物の身元・関係を断定しない。陶器の性的含意はMetの17世紀の図像慣例の解釈として記述する。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "好奇心"
+        ],
+        "secondary": []
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Met's exact artwork-specific Overview and official linked IIIF image read and inspected directly in source-review pass; official full JPEG bytes checked in CI. Same AI, not human/expert auditor."
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "暗い台所に、二人の女性がいます。窓際の女性は野菜を手にし、手前の女性は容器の中で魚を洗っているように見えます。床には魚と金属の器が並び、日常の仕事道具に光が当たっています。\n\n1643年ごろ、オランダの画家ヘンドリック・ソルフが描いた《台所》です。二人の女中が魚を整え、野菜の皮をむく場面を、器物の質感にも目を向けた静物画のような構成で描いています。人物だけを追うと見落としそうですが、画面にはほかにも小さな出来事が隠れています。\n\n右下には猫、奥には開いた鳥籠。そして女中たちの間の暗がりには、寄り添う男女の姿もあると美術館は説明します。17世紀の観客には、何気ない陶器さえ恋愛や性的な連想を呼ぶことがあったそうです。明るい手前の仕事場から暗い奥へ目を移すと、日常の風景に別の意味が重ねられていることに気づきます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437703"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-437703",
+    "title": "A Kitchen",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/437703",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/437703",
+      "license_label": "The Met Open Access / CC0 (public-domain work; official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145945.jpg",
+      "sha256": "7d4b1c11284923ef4497c9a08fc98fd39c384474e717bf7c6ad4591ec8529e50",
+      "byte_length": 64594,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-441-443-20261113/docs/artwork-research-evidence/met-441-443-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP145945.jpg",
+        "sha256": "fd912bdb97f9e2aa67b78c57f69442a14ab0ee7898b5084362e026340a97ccd9",
+        "byte_length": 2346967,
+        "width": 3158,
+        "height": 3705,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=3.4547",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "89.15.7"
+  }
+}

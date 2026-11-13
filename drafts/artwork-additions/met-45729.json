@@ -1,0 +1,151 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-45729",
+  "artwork": {
+    "id": "met-45729",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 45729,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/45729",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45729",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Birds and Flowers of Autumn and Winter",
+      "title_ja_provisional": "秋冬花鳥図屏風",
+      "artist": "Kano Chikanobu",
+      "creation_date_display": "early 18th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "66.149"
+    },
+    "image": {
+      "image_id": "met-45729-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DT1609.jpg",
+      "source_registry_id": "met-45729",
+      "local_path": "/artworks/met-45729.jpg",
+      "sha256": "e84158f4c623dffa41276ae5ef1a30f649e4f883eccfc9d3043b722bb335dca8",
+      "byte_length": 81365,
+      "live_image_checked": true,
+      "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+      "source_accession_number": "66.149",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DT1609.jpg",
+        "sha256": "f7f8efe13caf39d6ee501c5bb8ad61eb1c68898e0b185125a768073ca2a68a4c",
+        "byte_length": 2263085,
+        "width": 3811,
+        "height": 1808,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=10.9028",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "安心"
+      ],
+      "emotion_strengths": {
+        "安心": 1
+      },
+      "tones": [
+        "静けさ",
+        "落ち着き"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/45729",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "秋冬を表す鳥や花の細部と金色の屏風の柔らかな光を比べ、季節の移ろいに落ち着きを感じたい",
+            "reason": "メトロポリタン美術館の作品別Overviewによれば、江戸時代初めではなく18世紀初頭の狩野周信による六曲屏風。狩野派は自然の細部を写実的に描きつつ、鳥や植物を繁栄・長寿・調和などの吉祥のしるしにも用いた。金地の画面に、団扇（だんせん）の形をした二つの場面があり、窓のように季節の風景が見える。絹の裏側に施した金箔が柔らかな輝きを生む。画面右は菊、桔梗、葛、すすき、フヨウ、カササギなどの秋、左は山茶花、水仙、枯れ葦、カケス、オナガ、オシドリなどの冬を表す。植物・鳥の意味は狩野派の慣例と所蔵館の説明であり、作者が個々のモチーフに込めた心理的意味の記録ではない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "屏風は秋と冬の二つの画面であり、春夏の実景や作者個人の具体的な寓意を想像で追加しない。鳥の種名と季節の読みは作品別公式Overviewに基づき、公式画面の小さな鳥を単独の目視だけで全種同定したものではない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "メトロポリタン美術館の作品別Overviewによれば、江戸時代初めではなく18世紀初頭の狩野周信による六曲屏風。狩野派は自然の細部を写実的に描きつつ、鳥や植物を繁栄・長寿・調和などの吉祥のしるしにも用いた。金地の画面に、団扇（だんせん）の形をした二つの場面があり、窓のように季節の風景が見える。絹の裏側に施した金箔が柔らかな輝きを生む。画面右は菊、桔梗、葛、すすき、フヨウ、カササギなどの秋、左は山茶花、水仙、枯れ葦、カケス、オナガ、オシドリなどの冬を表す。植物・鳥の意味は狩野派の慣例と所蔵館の説明であり、作者が個々のモチーフに込めた心理的意味の記録ではない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/45729"
+        },
+        "creation_context": "early 18th century; Japan; Six-panel folding screen; ink, gold, and color on silk; accession 66.149",
+        "visual_clues": "Met作品45729の公式IIIF主画像を直接開いて視認。六曲の横長金地屏風の中央に、扇の丸みを思わせる二つの大きな開口状の絵。右には草花や色鮮やかな小鳥がいる草原の風景、左には暗い水辺、木、岩と水鳥が描かれる。上下の金色の地と左右の場面の明暗が異なる。画像は屏風全体の正面を捉え、細部の鳥の品種すべてを画像だけで断定したものではない。",
+        "uncertainty_note": "屏風は秋と冬の二つの画面であり、春夏の実景や作者個人の具体的な寓意を想像で追加しない。鳥の種名と季節の読みは作品別公式Overviewに基づき、公式画面の小さな鳥を単独の目視だけで全種同定したものではない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "安心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Met's exact artwork-specific Overview and official linked IIIF image read and inspected directly in source-review pass; official full JPEG bytes checked in CI. Same AI, not human/expert auditor."
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "金色の屏風に、丸く広がる二つの風景が浮かんでいます。向かって右には花の咲く草むら、左には木と水辺。左右を見比べると、花や鳥の種類だけでなく、風景の明るさや空気の違いまで感じられます。\n\nこれは江戸時代の画家・狩野周信が18世紀初めに描いた《秋冬花鳥図屏風》です。六曲屏風の中に、団扇を思わせる形の二つの絵が置かれ、窓越しに季節を眺めるような構成になっています。絹の裏側に貼った金箔が、画面にやわらかな輝きを与えています。\n\n右側は菊やすすき、鳥たちによる秋、左側は山茶花や水仙、枯れ葦、水鳥などによる冬。美術館は、狩野派の花鳥画が自然を細やかに描くと同時に、繁栄や長寿などの吉祥の意味も担っていたと説明しています。同じ屏風に収まる二つの季節を、ゆっくり行き来するように眺めてみてください。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/45729"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-45729",
+    "title": "Birds and Flowers of Autumn and Winter",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/45729",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/45729",
+      "license_label": "The Met Open Access / CC0 (public-domain work; official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DT1609.jpg",
+      "sha256": "e84158f4c623dffa41276ae5ef1a30f649e4f883eccfc9d3043b722bb335dca8",
+      "byte_length": 81365,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-441-443-20261113/docs/artwork-research-evidence/met-441-443-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DT1609.jpg",
+        "sha256": "f7f8efe13caf39d6ee501c5bb8ad61eb1c68898e0b185125a768073ca2a68a4c",
+        "byte_length": 2263085,
+        "width": 3811,
+        "height": 1808,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=10.9028",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "66.149"
+  }
+}
