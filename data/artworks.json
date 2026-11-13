@@ -52628,6 +52628,371 @@
         "audit_sha256": "3ee8e42b39714f487d6648c24ac9e42e58dbbb9d5d97eda0f6b152ded9ce0234",
         "record_sha256": "006ac17f3e29a646ecc9bdee0d4c0773caf050c430b0d476311b8be091a1e80c"
       }
+    },
+    {
+      "id": "met-853895",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 853895,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/853895",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853895",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Birds and Flowers",
+        "title_ja_provisional": "花鳥図屏風",
+        "artist": "Unidentified Korean artist",
+        "creation_date_display": "19th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Korea",
+        "accession_number": "2024.89.5a, b"
+      },
+      "image": {
+        "image_id": "met-853895-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-27292-001.jpg",
+        "source_registry_id": "met-853895",
+        "local_path": "/artworks/met-853895.jpg",
+        "sha256": "93a937487a58c8bf976b20332bb68c38945f84ec3059e84484445acde259dd89",
+        "byte_length": 79677,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json",
+        "source_accession_number": "2024.89.5a, b",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-27292-001.jpg",
+          "sha256": "da5ddf46a2d91a2a5009e283bf59a9e3fb481fdacaf63e9be501e9a265f0c10a",
+          "byte_length": 2670570,
+          "width": 4000,
+          "height": 2987,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 7.26419",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "にぎわい",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "時間",
+          "愛情"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/853895",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "朝鮮王朝の八面の花鳥屏風で、鶴や孔雀や鳳凰と草花に込められた吉祥の意味、季節の移ろいを眺めたい",
+              "reason": "Met個別作品Overviewによると、東アジアの花鳥画は10世紀までに確立し、朝鮮では18世紀から花鳥屏風が広まり20世紀まで好まれた。19世紀の本品は現在二組の四面屏風に分かれるが、元は八面が一続きの屏風であった。鴨・孔雀・鶏・架空の鳳凰のつがいは恋愛と子宝、鶴・松・霊芝・竹・蓮は長寿と徳の吉祥を示す。八面を右から左に追うと、新年の朝日と松のそばの鶴から始まり、秋の葉の中の鳳凰まで四季の移ろいをたどる読み方もできる。公式画像が見せる四面と、元の八面構成は混同しない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作者は不明。現在は四面ずつの二組に分かれた元八面の作品であり、四面しか存在しないと説明しない。花鳥の吉祥性は文化的象徴であり、家庭に実際の幸運が訪れると保証しない。主画像の四面だけを全体の八面の完全な再現と扱わない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met個別作品Overviewによると、東アジアの花鳥画は10世紀までに確立し、朝鮮では18世紀から花鳥屏風が広まり20世紀まで好まれた。19世紀の本品は現在二組の四面屏風に分かれるが、元は八面が一続きの屏風であった。鴨・孔雀・鶏・架空の鳳凰のつがいは恋愛と子宝、鶴・松・霊芝・竹・蓮は長寿と徳の吉祥を示す。八面を右から左に追うと、新年の朝日と松のそばの鶴から始まり、秋の葉の中の鳳凰まで四季の移ろいをたどる読み方もできる。公式画像が見せる四面と、元の八面構成は混同しない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/853895"
+          },
+          "creation_context": "19th century; Korea (Joseon dynasty); Eight-panel screen mounted as two sets of four panels; ink and color on paper; accession 2024.89.5a, b",
+          "visual_clues": "Met API公式主原寸・表示JPEGを全バイトSHA256、バイト長、寸法、縮小RMSで突き合わせた実画像サムネイルを視認。横長の画面は枠で区切られた四つの縦長の屏風面で、淡い紙地に赤や桃色の草花、鳥の組み合わせ、右端近くには赤い日輪と松らしい樹形、左端には花が描かれる。主画像は四面を示し、八面全体の細部はこの画像だけでは見られない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.2642で対応確認。",
+          "uncertainty_note": "作者は不明。現在は四面ずつの二組に分かれた元八面の作品であり、四面しか存在しないと説明しない。花鳥の吉祥性は文化的象徴であり、家庭に実際の幸運が訪れると保証しない。主画像の四面だけを全体の八面の完全な再現と扱わない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "花や果実の間に、さまざまな鳥たちが描かれています。淡い紙の上に赤や緑の色が重なり、一つひとつの画面が異なる季節や生き物を見せてくれます。鳥の姿を追いながら、草花の形や背景の余白も見比べてみてください。\n\n19世紀の朝鮮で描かれた花鳥図屏風です。現在は四面ずつの二組になっていますが、もとは八面が一続きの屏風でした。鴨や孔雀、鶏や想像上の鳳凰がつがいで描かれ、恋や子孫の繁栄を連想させます。鶴や松、竹や蓮などには、長寿や徳を願う意味が込められています。\n\n八面を右から左へたどると、鶴と松、新年の朝日から始まり、秋の葉の中の鳳凰へと移る四季の流れとしても読めます。今の主画像には二組のうち四面が写っています。色や鳥の配置を見ながら、元の長い屏風を少しずつ開いて鑑賞する様子を想像してみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/853895"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-853895-2026-11-13.json",
+        "audit_sha256": "e383a09a2d3788cc7d3befdc5a0cc3ac6d7804161af8243f972b483f784b2674",
+        "record_sha256": "bd576fc3d79261549bd4b6c3021095b8a4f5cc0742df31b75dd25c81f6cb7c6f"
+      }
+    },
+    {
+      "id": "met-845161",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 845161,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/845161",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/845161",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Orchid Pavilion by a Winding Stream",
+        "title_ja_provisional": "蘭亭曲水図",
+        "artist": "Hara Zaichū 原在中",
+        "creation_date_display": "1829",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2020.396.37"
+      },
+      "image": {
+        "image_id": "met-845161-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-26045-002.jpg",
+        "source_registry_id": "met-845161",
+        "local_path": "/artworks/met-845161.jpg",
+        "sha256": "fd87106f8d3af5f40be9fe0fb439751a50d7d6205ac1e10ffd0bcbd92098344c",
+        "byte_length": 113135,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json",
+        "source_accession_number": "2020.396.37",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-26045-002.jpg",
+          "sha256": "fd7ed97162ecdab3c792b37f556308e4d9bee41e9ff7540606db48af5f466846",
+          "byte_length": 3014174,
+          "width": 2224,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 6.93419",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "にぎわい",
+          "静けさ"
+        ],
+        "themes": [
+          "共同体",
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/845161",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "1829年の日本の山水掛軸で、中国の蘭亭の宴と曲水に杯を流して詩を作る文人たちの様子を眺めたい",
+              "reason": "Met作品別Overviewによると原在中が1829年に描いた蘭亭曲水図は、中国の名書家・王羲之（約303〜361年）の伝説的な蘭亭の集いを想像して構成した風景。伝承では王羲之が41人を流れる小川のほとりへ招き、下流へ流れる杯の酒を飲みながら詩を作り、その序文が中国・日本の文人に長く記憶された。画中には青く輝く衣の人物たちが川岸に集まり、王羲之は亭の中で巻物を広げ筆を持っている。鮮やかな青と緑の山水色彩は古い中国の青緑山水（せいりょくさんすい）に由来。歴史的な集いの想像図であり1829年の京都で実際に集会が開かれた記録ではない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "描かれたのは古代中国の文人の集いを江戸時代の画家が想像した場面で、当日の記録や測量図ではない。王羲之と41人の集いは題材の歴史伝承として説明。『蘭亭序』の名声と実際の画面に描かれた小場面を区別し、杯の位置を実画像から断定しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによると原在中が1829年に描いた蘭亭曲水図は、中国の名書家・王羲之（約303〜361年）の伝説的な蘭亭の集いを想像して構成した風景。伝承では王羲之が41人を流れる小川のほとりへ招き、下流へ流れる杯の酒を飲みながら詩を作り、その序文が中国・日本の文人に長く記憶された。画中には青く輝く衣の人物たちが川岸に集まり、王羲之は亭の中で巻物を広げ筆を持っている。鮮やかな青と緑の山水色彩は古い中国の青緑山水（せいりょくさんすい）に由来。歴史的な集いの想像図であり1829年の京都で実際に集会が開かれた記録ではない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/845161"
+          },
+          "creation_context": "1829; Japan (Edo period); Hanging scroll; ink and color on silk; accession 2020.396.37",
+          "visual_clues": "Met APIが紐づける原寸・表示JPEGの全SHA256、バイト長、寸法と縮小RMSを比較、主画像サムネイルを直接確認。縦長の絹本掛軸で背後に淡い山々、下の緑色の河畔と大きく曲がる水路の周囲に数多い青衣の小さな人物が散らばる。右寄りの木立のそばに屋根のある亭と人物、川岸の緑が目立つ。人物個々の同定はMet公式解説に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=6.9342で対応確認。",
+          "uncertainty_note": "描かれたのは古代中国の文人の集いを江戸時代の画家が想像した場面で、当日の記録や測量図ではない。王羲之と41人の集いは題材の歴史伝承として説明。『蘭亭序』の名声と実際の画面に描かれた小場面を区別し、杯の位置を実画像から断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "山に囲まれた緑の岸辺を、曲がりくねった小川が流れています。青い衣を着た人々が川のそばに集まり、木陰や小さな亭の中にも人物の姿が見えます。まず水の流れを追ってから、離れた場所にいる人々の動きに目を向けてみてください。\n\nこの絵は1829年に原在中が描いた《蘭亭曲水図》です。古代中国の書家・王羲之が友人たちを招いたと伝えられる宴を、江戸時代の画家が想像して表しています。伝承では、一同は流れる杯の酒を楽しみながら詩を作りました。王羲之は亭の中で巻物を広げ、筆を持つ姿として描かれています。\n\n人物の青い衣や深い緑の山々には、中国で古くから伝わる青緑山水の色彩が取り入れられています。王羲之が詩の集まりに寄せた序文は、後の中国と日本の文人にも大きな影響を与えました。曲がる川と人々の配置を眺めると、書と詩を楽しむ時間を絵にした工夫が見えてきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/845161"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-845161-2026-11-13.json",
+        "audit_sha256": "12985e372c27ec35866dfcf4ed1a9a7a9bfc35cc5bf0f3ecde034c3873a0679f",
+        "record_sha256": "d05adf0f99c4231f1e5e15852db46b4e817821872ce374bbf0e7278543a4f071"
+      }
+    },
+    {
+      "id": "met-437183",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437183,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437183",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437183",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Madame Bergeret de Frouville as Diana",
+        "title_ja_provisional": "狩猟の女神ディアナに扮したベルジュレ・ド・フルーヴィル夫人",
+        "artist": "Jean Marc Nattier",
+        "creation_date_display": "1756",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "France (18th-century court portrait)",
+        "accession_number": "03.37.3"
+      },
+      "image": {
+        "image_id": "met-437183-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP169499.jpg",
+        "source_registry_id": "met-437183",
+        "local_path": "/artworks/met-437183.jpg",
+        "sha256": "352120079a90f33414b2bd7691a004ab2d982c2dd54d9dddcd2355155f87daa3",
+        "byte_length": 232063,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json",
+        "source_accession_number": "03.37.3",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP169499.jpg",
+          "sha256": "b73e7da85c5dbe1238557d4f33f8c5ca49736d351c4a4b47d9c9bfddc02ff344",
+          "byte_length": 1917658,
+          "width": 1489,
+          "height": 1935,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 4.46191",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ",
+          "高揚"
+        ],
+        "themes": [
+          "共同体",
+          "他者との距離"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437183",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "18世紀フランスの女性がディアナ女神に扮した肖像で、弓や矢筒、豹の毛皮と当時の装いがどう組み合わされたか見たい",
+              "reason": "Met個別作品Overviewによれば1756年のナティエによるベルジュレ・ド・フルーヴィル夫人の肖像。狩猟の女神ディアナは女性の美徳と力を表し、一方でニンフに囲まれて森で水浴びする姿が官能的に描かれる場合もある。ナティエは多くの女性の肖像でディアナの姿を借り、現代風の髪型・化粧と、弓、矢筒、豹の毛皮などの小道具を重ね合わせて、日常を超えた神話的な存在として見せた。美術館はこの演出を仮装や演劇を愛する当時の社交界に特徴的だとする。夫はブーシェやユベール・ロベールなどの画家の重要なパトロンだった。実際の狩猟活動や女神への信仰心の証拠とはしない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "肖像の人物は実在のベルジュレ・ド・フルーヴィル夫人だが、女神ディアナ本人の姿を見た絵ではない。弓矢や豹皮は肖像のための小道具であり、本人が狩猟家だったとは断定しない。ディアナを『貞淑さだけの象徴』と単純化せず、所蔵館の説明する複数の意味を尊重する。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met個別作品Overviewによれば1756年のナティエによるベルジュレ・ド・フルーヴィル夫人の肖像。狩猟の女神ディアナは女性の美徳と力を表し、一方でニンフに囲まれて森で水浴びする姿が官能的に描かれる場合もある。ナティエは多くの女性の肖像でディアナの姿を借り、現代風の髪型・化粧と、弓、矢筒、豹の毛皮などの小道具を重ね合わせて、日常を超えた神話的な存在として見せた。美術館はこの演出を仮装や演劇を愛する当時の社交界に特徴的だとする。夫はブーシェやユベール・ロベールなどの画家の重要なパトロンだった。実際の狩猟活動や女神への信仰心の証拠とはしない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437183"
+          },
+          "creation_context": "1756; France (18th-century court portrait); Oil on canvas; accession 03.37.3",
+          "visual_clues": "Met公式APIの原寸JPEG・表示JPEGを完全ダウンロードし全SHA256、ファイルサイズ、寸法、縮小RMSを照合して主画像サムネイルを見た。縦長の油彩で背景左の大木と暗い森、中央に淡い肌の女性が赤い大きなスカートと白い衣をまとい、弓を立てて持つ。胸元にまだら模様の豹皮、肩の近くに矢筒、光を受けた顔と当時風にまとめられた髪が見える。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.4619で対応確認。",
+          "uncertainty_note": "肖像の人物は実在のベルジュレ・ド・フルーヴィル夫人だが、女神ディアナ本人の姿を見た絵ではない。弓矢や豹皮は肖像のための小道具であり、本人が狩猟家だったとは断定しない。ディアナを『貞淑さだけの象徴』と単純化せず、所蔵館の説明する複数の意味を尊重する。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-432-434-20261113/docs/artwork-research-evidence/met-432-434-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "森を背にした女性が、長い弓を手にこちらを見ています。赤い布が大きく広がり、胸元にはまだら模様の毛皮。上品にまとめた髪や化粧は18世紀の装いですが、弓や矢筒は神話の世界を思い起こさせます。\n\n1756年、フランスの画家ジャン＝マルク・ナティエが、ベルジュレ・ド・フルーヴィル夫人を狩猟の女神ディアナに見立てて描いた肖像画です。ナティエはほかの女性肖像でもディアナの姿を取り入れ、当時の髪型や化粧と、弓や矢筒、豹の毛皮などの小道具を組み合わせました。\n\n女神ディアナは女性の力や美徳を表す一方、神話の絵では森で水浴びする姿が描かれることもありました。美術館は、こうした仮装のような演出を、演劇や仮面舞踏を好んだ当時の社交界の文化と結びつけています。夫人が実際に狩猟をしたという意味ではありません。日常の装いと神話の道具の境目を眺めると、肖像画の見せ方の巧みさが感じられます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/437183"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-437183-2026-11-13.json",
+        "audit_sha256": "55ae433fe90ba2439ae12d0264b9c5cf2e2a99151b19b6c4150f064d31ca296a",
+        "record_sha256": "207ba325847c80a28489baa753eaa883723ef188bf9ffcf63ba94abd3cc2ae32"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
