@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-853890",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-853890.json",
+  "candidate_sha256": "36c669a2c7b511a8be33fdfac2908aa7da33d4d5e1d9f8c95ae0206371b1230c",
+  "draft_path": "drafts/visitor-explanations/met-853890.json",
+  "draft_sha256": "140ee77e072c2da549233a6163e6b3e6341f8795a82d8d4565ce8ce37cd25743",
+  "baseline": {
+    "artworks_sha256": "e0afe05631a2e31d111b7ff2c99f9d930aad60058032453070ae2ce22b96bee9",
+    "image_registry_sha256": "8d386b14fade7169093704d059e521ac9c894e82f618c9da7eba94bdc67bc59f"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853890",
+      "source_excerpt": "men and women on galloping horses stalking deer",
+      "visitor_claim": "男性だけでなく女性も馬に乗り、鹿や虎などを追う姿が描かれています。",
+      "source_section": "Exact Met Overview: mounted women and men on the hunt"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/853890",
+      "source_excerpt": "the image is a fanciful fiction grounded in the Manchus’ reputation",
+      "visitor_claim": "そのため美術館は、実際の狩猟を記録したというより、狩りの名手とされた満洲の人々を想像して描いた場面と考えています。",
+      "source_section": "Exact Met Overview: imaginative Manchu hunting scene"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/853890",
+      "location": "Exact artwork Overview and Object Information: Exact Met Overview: mounted women and men on the hunt; Exact Met Overview: imaginative Manchu hunting scene",
+      "finding": "Metの個別作品Overviewによれば18～19世紀に狩猟は朝鮮の物語絵の題材となり、屏風は両班の武官に人気だった。本作は19世紀の八曲屏風で、疾走する馬に乗る男女が鹿・虎・猿・象を追う。右側の大きな人物と日傘のような覆いはその随行団での高位を示す。衣装と疎らな北方の山地から隣接する満洲系の人々を想像して描いた可能性があり、朝鮮半島にいない猿や象を含むため実際の狩猟を正確に記録した絵ではないと所蔵館が説明。 Actual image observation: Met公式APIの原寸と表示JPEGを実際に取得し、全画面のサムネイルを視認した。横長の八曲屏風に淡褐色の上部画面と白い下部余白があり、それぞれの扇に騎馬の人物、散在する動物、山の細かな線。画面右端にも人物の集団。サムネイルでは各動物の同定が困難なため、鹿・虎・猿・象の種類は公式Overviewに基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.1795で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853890",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853890",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/853890",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-853890 Hunting screen; Unidentified Korean artists; 19th century; accession 2024.89.1. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式APIの原寸と表示JPEGを実際に取得し、全画面のサムネイルを視認した。横長の八曲屏風に淡褐色の上部画面と白い下部余白があり、それぞれの扇に騎馬の人物、散在する動物、山の細かな線。画面右端にも人物の集団。サムネイルでは各動物の同定が困難なため、鹿・虎・猿・象の種類は公式Overviewに基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.1795で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json",
+      "historical_interpretation": "Metの個別作品Overviewによれば18～19世紀に狩猟は朝鮮の物語絵の題材となり、屏風は両班の武官に人気だった。本作は19世紀の八曲屏風で、疾走する馬に乗る男女が鹿・虎・猿・象を追う。右側の大きな人物と日傘のような覆いはその随行団での高位を示す。衣装と疎らな北方の山地から隣接する満洲系の人々を想像して描いた可能性があり、朝鮮半島にいない猿や象を含むため実際の狩猟を正確に記録した絵ではないと所蔵館が説明。 Limits: 『満洲の人々の北方狩猟』は所蔵館の推定であり現実の現場記録や人物の身元とは断定しない。屏風の八つの扇を別々の八作品として登録しない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-27291-001.jpg",
+      "sha256": "150124cc6d296f6328cd42074b26d4cb21dd1afb0bc075854b1a89380082643a",
+      "byte_length": 60883,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの原寸と表示JPEGを実際に取得し、全画面のサムネイルを視認した。横長の八曲屏風に淡褐色の上部画面と白い下部余白があり、それぞれの扇に騎馬の人物、散在する動物、山の細かな線。画面右端にも人物の集団。サムネイルでは各動物の同定が困難なため、鹿・虎・猿・象の種類は公式Overviewに基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.1795で対応確認。 Confirmed image belongs to Met artwork 853890, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-27291-001.jpg",
+      "sha256": "e0b34b9355064f169dab2cdd76530ed9129e7c98c3ec04d094899f2a77d90dad",
+      "byte_length": 1840303,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIの原寸と表示JPEGを実際に取得し、全画面のサムネイルを視認した。横長の八曲屏風に淡褐色の上部画面と白い下部余白があり、それぞれの扇に騎馬の人物、散在する動物、山の細かな線。画面右端にも人物の集団。サムネイルでは各動物の同定が困難なため、鹿・虎・猿・象の種類は公式Overviewに基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.1795で対応確認。 Confirmed image belongs to Met artwork 853890, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #402; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 853890 portrays a fanciful hunting story rather than historical Manchu field evidence; Met 441967 offered his painting, not definitely delivered; 854905 represents Buddhist wisdom symbolism, not established therapeutic efficacy."
+  ]
+}

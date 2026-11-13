@@ -49006,6 +49006,367 @@
         "audit_sha256": "8df58151881f903f48a1516485d7648be90eb72352e72158ab546a0b70b43f47",
         "record_sha256": "5a860c5074ff268631d05fc921cece580792b909d6e6208daf06a2c12db1a9ca"
       }
+    },
+    {
+      "id": "met-853890",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 853890,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/853890",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853890",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Hunting screen",
+        "title_ja_provisional": "狩猟図屏風",
+        "artist": "Unidentified Korean artists",
+        "creation_date_display": "19th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Korea",
+        "accession_number": "2024.89.1"
+      },
+      "image": {
+        "image_id": "met-853890-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-27291-001.jpg",
+        "source_registry_id": "met-853890",
+        "local_path": "/artworks/met-853890.jpg",
+        "sha256": "150124cc6d296f6328cd42074b26d4cb21dd1afb0bc075854b1a89380082643a",
+        "byte_length": 60883,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json",
+        "source_accession_number": "2024.89.1",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-27291-001.jpg",
+          "sha256": "e0b34b9355064f169dab2cdd76530ed9129e7c98c3ec04d094899f2a77d90dad",
+          "byte_length": 1840303,
+          "width": 4000,
+          "height": 1686,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 7.17952",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "にぎわい"
+        ],
+        "themes": [
+          "自然",
+          "共同体"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/853890",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "朝鮮時代の八曲狩猟図屏風で、騎馬の人々や珍しい動物を描いた想像力と身分表現を見たい",
+              "reason": "Metの個別作品Overviewによれば18～19世紀に狩猟は朝鮮の物語絵の題材となり、屏風は両班の武官に人気だった。本作は19世紀の八曲屏風で、疾走する馬に乗る男女が鹿・虎・猿・象を追う。右側の大きな人物と日傘のような覆いはその随行団での高位を示す。衣装と疎らな北方の山地から隣接する満洲系の人々を想像して描いた可能性があり、朝鮮半島にいない猿や象を含むため実際の狩猟を正確に記録した絵ではないと所蔵館が説明。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "『満洲の人々の北方狩猟』は所蔵館の推定であり現実の現場記録や人物の身元とは断定しない。屏風の八つの扇を別々の八作品として登録しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metの個別作品Overviewによれば18～19世紀に狩猟は朝鮮の物語絵の題材となり、屏風は両班の武官に人気だった。本作は19世紀の八曲屏風で、疾走する馬に乗る男女が鹿・虎・猿・象を追う。右側の大きな人物と日傘のような覆いはその随行団での高位を示す。衣装と疎らな北方の山地から隣接する満洲系の人々を想像して描いた可能性があり、朝鮮半島にいない猿や象を含むため実際の狩猟を正確に記録した絵ではないと所蔵館が説明。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/853890"
+          },
+          "creation_context": "19th century; Korea (Joseon dynasty); Eight-panel folding screen, ink and color on paper; accession 2024.89.1",
+          "visual_clues": "Met公式APIの原寸と表示JPEGを実際に取得し、全画面のサムネイルを視認した。横長の八曲屏風に淡褐色の上部画面と白い下部余白があり、それぞれの扇に騎馬の人物、散在する動物、山の細かな線。画面右端にも人物の集団。サムネイルでは各動物の同定が困難なため、鹿・虎・猿・象の種類は公式Overviewに基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.1795で対応確認。",
+          "uncertainty_note": "『満洲の人々の北方狩猟』は所蔵館の推定であり現実の現場記録や人物の身元とは断定しない。屏風の八つの扇を別々の八作品として登録しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "横に長く広がる八曲屏風の中で、人々が馬を走らせ、動物を追っています。細い筆線で描かれた人物は小さいものの、画面のあちこちで違う動きが生まれています。右側では、周囲より大きく描かれた人物と、その上に差しかけられた覆いが目を引きます。\n\nこの作品は19世紀の朝鮮で描かれた狩猟図です。男性だけでなく女性も馬に乗り、鹿や虎などを追う姿が描かれています。狩猟画は当時、武官を含む両班層に好まれる屏風の題材でした。右端の人物が大きく描かれているのは、随行団の中での重要さを強調するためと説明されています。\n\n画中には、朝鮮半島に生息する鹿や虎だけでなく、猿や象も登場します。そのため美術館は、実際の狩猟を記録したというより、狩りの名手とされた満洲の人々を想像して描いた場面と考えています。騎馬の列をたどりながら、現実の風景と物語的な誇張が混ざる面白さを見てみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/853890"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-853890-2026-11-13.json",
+        "audit_sha256": "7fa62c8e8731617bc458805afd2819ad251a72ef09bad1991e2e724048497808",
+        "record_sha256": "1c2017ceacc21650ce52bb4e6b813f9b527fecb5e8e0ebc6db51dee29eb955f0"
+      }
+    },
+    {
+      "id": "met-441967",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 441967,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/441967",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/441967",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "View over Hallingdal",
+        "title_ja_provisional": "ハリングダールを望む風景",
+        "artist": "Johan Christian Dahl",
+        "creation_date_display": "1844",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Norway (Romantic landscape painting)",
+        "accession_number": "2012.447"
+      },
+      "image": {
+        "image_id": "met-441967-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP278466.jpg",
+        "source_registry_id": "met-441967",
+        "local_path": "/artworks/met-441967.jpg",
+        "sha256": "cbc8c95a00cb94d38d740bd3e6c381aaaf4efba05d107edc4a0d7cdce7bee3d5",
+        "byte_length": 55783,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json",
+        "source_accession_number": "2012.447",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP278466.jpg",
+          "sha256": "8eacb7497b06b665a21d7f4647154632e039f7eb09de44b52701cd996f9dbf51",
+          "byte_length": 2137388,
+          "width": 3915,
+          "height": 2642,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 4.28588",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "記憶"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/441967",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "山に囲まれたノルウェーの谷の夕空を眺めながら、画家が実際に歩いた場所を想像したい",
+              "reason": "Met作品別Overviewによるとノルウェー出身のヨハン・クリスチャン・ダール（1788～1857）は祖国の風景に親しみ、精神性を帯びた自然主義的なロマン主義風景を描いた。画家自身の日記では1844年8月23日に子どもたちと画家ペーダー・バルケとともにハリングダールを訪れスケッチした。同年10月には考古学者クリスチャン・ユルゲンセン・トムセンにこの作品を贈る意向を示した（offerした）と美術館が説明する。画面の特定の日没時刻やその場で油彩を完成させたことは判明しない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "1844年の訪問日はダールの日記に基づくMetの情報。絵を描いた正確な日や現地で仕上げたかどうかまでは未確定。10月の相手への『申し出』と実際の贈呈完了を区別する。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによるとノルウェー出身のヨハン・クリスチャン・ダール（1788～1857）は祖国の風景に親しみ、精神性を帯びた自然主義的なロマン主義風景を描いた。画家自身の日記では1844年8月23日に子どもたちと画家ペーダー・バルケとともにハリングダールを訪れスケッチした。同年10月には考古学者クリスチャン・ユルゲンセン・トムセンにこの作品を贈る意向を示した（offerした）と美術館が説明する。画面の特定の日没時刻やその場で油彩を完成させたことは判明しない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/441967"
+          },
+          "creation_context": "1844; Norway (Romantic landscape painting); Oil on canvas; accession 2012.447",
+          "visual_clues": "実際のMet公式原寸・表示JPEGから生成したサムネイルを目視確認。横長の油彩で濃い青灰色のノルウェー山々が幾重にも重なり、中心には谷。上部の雲の切れ間に桃色から金色の光、手前に針葉樹の梢や茶色い土の丘、右手の森が暗く描かれる。落日のように見えるが光源の時刻を厳密には断定しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.2859で対応確認。",
+          "uncertainty_note": "1844年の訪問日はダールの日記に基づくMetの情報。絵を描いた正確な日や現地で仕上げたかどうかまでは未確定。10月の相手への『申し出』と実際の贈呈完了を区別する。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "畏敬"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "谷の奥へと、青灰色の山並みが幾重にも続いています。手前の木々は暗く、雲の切れ間には淡い桃色の光が残ります。山に囲まれた風景の広さと、足元に近い小さな木の姿を見比べると、遠くを眺める感覚が伝わってきます。\n\nこの風景を描いたのはノルウェーの画家ヨハン・クリスチャン・ダールです。彼は1844年8月23日、子どもたちと画家ペーダー・バルケを伴って、ハリングダールを訪れたことを日記に記しました。作品は同じ1844年の油彩画で、故郷の自然に対するダールの関心と、ロマン主義的な風景表現を示しています。\n\n同年10月、ダールは考古学者クリスチャン・ユルゲンセン・トムセンにこの作品を贈ることを申し出ました。ただし、絵を訪問当日に完成させたという記録ではありません。手前の暗い森から空の明るい部分へ視線を動かしながら、実際の旅の記憶が絵になった様子を想像してみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/441967"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-441967-2026-11-13.json",
+        "audit_sha256": "7472ef8e0c1ea085d0c3d4711dcfedb73af28c8554e8cb44685d879e2190caae",
+        "record_sha256": "5495110b7138d5e0d89d858b866530a2d6bd775e0c20b64192c062c70715a5fd"
+      }
+    },
+    {
+      "id": "met-854905",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 854905,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/854905",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854905",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "The Transcendent Buddha Akshobhya",
+        "title_ja_provisional": "阿閦如来（アクショービヤ）",
+        "artist": "Unidentified Newari artist working in Tibet (per Met)",
+        "creation_date_display": "13th or early 14th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Central Tibet",
+        "accession_number": "2021.288"
+      },
+      "image": {
+        "image_id": "met-854905-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-31793-001.jpg",
+        "source_registry_id": "met-854905",
+        "local_path": "/artworks/met-854905.jpg",
+        "sha256": "e675ef999fb098d953893ebd9779342bb8d2748d991704ce4bdcb0088aa6fb76",
+        "byte_length": 263863,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json",
+        "source_accession_number": "2021.288",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-31793-001.jpg",
+          "sha256": "57ff18a3ef5185fe5bb2d973151c2de58469139a7d8d7c8c226f74775b167f78",
+          "byte_length": 5877235,
+          "width": 3288,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.17192",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 1
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "時間",
+          "共同体"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/854905",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "チベット仏教の古い彩色布画で、青い阿閦如来と周囲の小さな仏たちに込められた知恵と方角の意味を知りたい",
+              "reason": "Met作品別Overviewは13世紀から14世紀初頭の中央チベットの布画について、阿閦如来を『不動の者』といい、金剛乗仏教における五智如来の一尊とする。青い身体、金剛杵（ヴァジュラ）の持物、東方を守護する役割を説明し、怒りを鎮めて智慧へ変容させる力の象徴と解説する。五智如来を表す一組の絵の一枚として祀られたという位置づけ。作者名は不明でMetの詳細欄ではチベットで働いたネワール系の画家とされる。近代にはチベット学者ジュゼッペ・トゥッチの調査旅行で収集されたが収集時期は1928～1948年の調査期間に限定して記す。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "怒りを必ず消すという医学的・心理学的な効果の主張ではなく信仰上の象徴として扱う。画面に五智如来が全員大きく並ぶとはせず、セットを構成する一幅というMetの説明に従う。作者名は特定されていない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewは13世紀から14世紀初頭の中央チベットの布画について、阿閦如来を『不動の者』といい、金剛乗仏教における五智如来の一尊とする。青い身体、金剛杵（ヴァジュラ）の持物、東方を守護する役割を説明し、怒りを鎮めて智慧へ変容させる力の象徴と解説する。五智如来を表す一組の絵の一枚として祀られたという位置づけ。作者名は不明でMetの詳細欄ではチベットで働いたネワール系の画家とされる。近代にはチベット学者ジュゼッペ・トゥッチの調査旅行で収集されたが収集時期は1928～1948年の調査期間に限定して記す。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/854905"
+          },
+          "creation_context": "13th or early 14th century; Central Tibet (Vajrayana); Distemper on cloth; accession 2021.288",
+          "visual_clues": "Met公式APIと同一の原寸と表示JPEGを全バイト照合し、実際のサムネイルを視認。縦長の布画の中央に大きく青い仏が座り、赤い装飾の光背や座、左右の細身の人物、周囲の枠には小さな仏の像が多数段になって描かれる。密な細線と赤・金・青の対照が目立つ。小画像のみでは手の持物の細部は判読困難なため公式本文に従う。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.1719で対応確認。",
+          "uncertainty_note": "怒りを必ず消すという医学的・心理学的な効果の主張ではなく信仰上の象徴として扱う。画面に五智如来が全員大きく並ぶとはせず、セットを構成する一幅というMetの説明に従う。作者名は特定されていない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "畏敬"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "濃い青色の仏が、装飾された台座の中央に静かに座っています。赤い光背を囲んで小さな仏たちの姿が幾段にも並び、細かな模様が画面を埋めています。中心の大きな姿から周囲へ目を移すと、一枚の絵の中に多くの存在が秩序立てて配置されていることが分かります。\n\n阿閦如来は、その名に「不動の者」という意味を持つチベット仏教の尊格です。五智如来のひとりで、東方を守護し、金剛杵を持つ青い姿で表されます。怒りを鎮め、智慧へと変えていく力の象徴として理解されてきました。これは信仰上の意味であり、実際の効能を証明するものではありません。\n\nこの布画は13世紀から14世紀初頭に制作されました。美術館は、もともと五智如来を表す一組の絵の一枚だったと説明しています。作者の氏名は不明で、チベットで活動したネワール系の画家に結びつけられています。中央の青と周囲の赤を見比べると、古い仏教絵画の色と配置の工夫が感じられます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/854905"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-854905-2026-11-13.json",
+        "audit_sha256": "63c21a7e415db8e676a447007724818780c7a47e75a81f16bb187d11b82e2bce",
+        "record_sha256": "6eaa9e332b63d7f8669e4c4170e106653b76c9c908977b25467c88839c9e508a"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

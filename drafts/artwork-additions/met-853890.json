@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-853890",
+  "artwork": {
+    "id": "met-853890",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 853890,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/853890",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/853890",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Hunting screen",
+      "title_ja_provisional": "狩猟図屏風",
+      "artist": "Unidentified Korean artists",
+      "creation_date_display": "19th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Korea",
+      "accession_number": "2024.89.1"
+    },
+    "image": {
+      "image_id": "met-853890-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-27291-001.jpg",
+      "source_registry_id": "met-853890",
+      "local_path": "/artworks/met-853890.jpg",
+      "sha256": "150124cc6d296f6328cd42074b26d4cb21dd1afb0bc075854b1a89380082643a",
+      "byte_length": 60883,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json",
+      "source_accession_number": "2024.89.1",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-27291-001.jpg",
+        "sha256": "e0b34b9355064f169dab2cdd76530ed9129e7c98c3ec04d094899f2a77d90dad",
+        "byte_length": 1840303,
+        "width": 4000,
+        "height": 1686,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 7.17952",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "好奇心"
+      ],
+      "emotion_strengths": {
+        "好奇心": 1
+      },
+      "tones": [
+        "にぎわい"
+      ],
+      "themes": [
+        "自然",
+        "共同体"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/853890",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "朝鮮時代の八曲狩猟図屏風で、騎馬の人々や珍しい動物を描いた想像力と身分表現を見たい",
+            "reason": "Metの個別作品Overviewによれば18～19世紀に狩猟は朝鮮の物語絵の題材となり、屏風は両班の武官に人気だった。本作は19世紀の八曲屏風で、疾走する馬に乗る男女が鹿・虎・猿・象を追う。右側の大きな人物と日傘のような覆いはその随行団での高位を示す。衣装と疎らな北方の山地から隣接する満洲系の人々を想像して描いた可能性があり、朝鮮半島にいない猿や象を含むため実際の狩猟を正確に記録した絵ではないと所蔵館が説明。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "『満洲の人々の北方狩猟』は所蔵館の推定であり現実の現場記録や人物の身元とは断定しない。屏風の八つの扇を別々の八作品として登録しない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Metの個別作品Overviewによれば18～19世紀に狩猟は朝鮮の物語絵の題材となり、屏風は両班の武官に人気だった。本作は19世紀の八曲屏風で、疾走する馬に乗る男女が鹿・虎・猿・象を追う。右側の大きな人物と日傘のような覆いはその随行団での高位を示す。衣装と疎らな北方の山地から隣接する満洲系の人々を想像して描いた可能性があり、朝鮮半島にいない猿や象を含むため実際の狩猟を正確に記録した絵ではないと所蔵館が説明。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/853890"
+        },
+        "creation_context": "19th century; Korea (Joseon dynasty); Eight-panel folding screen, ink and color on paper; accession 2024.89.1",
+        "visual_clues": "Met公式APIの原寸と表示JPEGを実際に取得し、全画面のサムネイルを視認した。横長の八曲屏風に淡褐色の上部画面と白い下部余白があり、それぞれの扇に騎馬の人物、散在する動物、山の細かな線。画面右端にも人物の集団。サムネイルでは各動物の同定が困難なため、鹿・虎・猿・象の種類は公式Overviewに基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=7.1795で対応確認。",
+        "uncertainty_note": "『満洲の人々の北方狩猟』は所蔵館の推定であり現実の現場記録や人物の身元とは断定しない。屏風の八つの扇を別々の八作品として登録しない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "好奇心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "横に長く広がる八曲屏風の中で、人々が馬を走らせ、動物を追っています。細い筆線で描かれた人物は小さいものの、画面のあちこちで違う動きが生まれています。右側では、周囲より大きく描かれた人物と、その上に差しかけられた覆いが目を引きます。\n\nこの作品は19世紀の朝鮮で描かれた狩猟図です。男性だけでなく女性も馬に乗り、鹿や虎などを追う姿が描かれています。狩猟画は当時、武官を含む両班層に好まれる屏風の題材でした。右端の人物が大きく描かれているのは、随行団の中での重要さを強調するためと説明されています。\n\n画中には、朝鮮半島に生息する鹿や虎だけでなく、猿や象も登場します。そのため美術館は、実際の狩猟を記録したというより、狩りの名手とされた満洲の人々を想像して描いた場面と考えています。騎馬の列をたどりながら、現実の風景と物語的な誇張が混ざる面白さを見てみてください。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/853890"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-853890",
+    "title": "Hunting screen",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/853890",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/853890",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-27291-001.jpg",
+      "sha256": "150124cc6d296f6328cd42074b26d4cb21dd1afb0bc075854b1a89380082643a",
+      "byte_length": 60883,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-27291-001.jpg",
+        "sha256": "e0b34b9355064f169dab2cdd76530ed9129e7c98c3ec04d094899f2a77d90dad",
+        "byte_length": 1840303,
+        "width": 4000,
+        "height": 1686,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 7.17952",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2024.89.1"
+  }
+}

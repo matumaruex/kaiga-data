@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-441967",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-441967.json",
+  "candidate_sha256": "386b19fe862fccf23fa7c3f7ea0c1b0b37eb284ed95a34e67eb6b8c52f94760d",
+  "draft_path": "drafts/visitor-explanations/met-441967.json",
+  "draft_sha256": "2497ff977b04aa3f03e0da70f2f79c3579c5c51436c5413ee6552c5849cf3fb5",
+  "baseline": {
+    "artworks_sha256": "7e9bb11f9841a33e1b9da66947eb739dd74c18f055346d4ed8ab1448ce994faf",
+    "image_registry_sha256": "3606c966126107455888dff819a1b0072037bc99c4b8355a8b48b37eb6f0f5d6"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/441967",
+      "source_excerpt": "visited Hallingdal on August 23, 1844",
+      "visitor_claim": "彼は1844年8月23日、子どもたちと画家ペーダー・バルケを伴って、ハリングダールを訪れたことを日記に記しました。",
+      "source_section": "Exact Met Overview: painter's dated diary journey"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/441967",
+      "source_excerpt": "That October, Dahl offered this work to Christian Jürgensen Thomsen",
+      "visitor_claim": "同年10月、ダールは考古学者クリスチャン・ユルゲンセン・トムセンにこの作品を贈ることを申し出ました。",
+      "source_section": "Exact Met Overview: offer to antiquarian Thomsen"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/441967",
+      "location": "Exact artwork Overview and Object Information: Exact Met Overview: painter's dated diary journey; Exact Met Overview: offer to antiquarian Thomsen",
+      "finding": "Met作品別Overviewによるとノルウェー出身のヨハン・クリスチャン・ダール（1788～1857）は祖国の風景に親しみ、精神性を帯びた自然主義的なロマン主義風景を描いた。画家自身の日記では1844年8月23日に子どもたちと画家ペーダー・バルケとともにハリングダールを訪れスケッチした。同年10月には考古学者クリスチャン・ユルゲンセン・トムセンにこの作品を贈る意向を示した（offerした）と美術館が説明する。画面の特定の日没時刻やその場で油彩を完成させたことは判明しない。 Actual image observation: 実際のMet公式原寸・表示JPEGから生成したサムネイルを目視確認。横長の油彩で濃い青灰色のノルウェー山々が幾重にも重なり、中心には谷。上部の雲の切れ間に桃色から金色の光、手前に針葉樹の梢や茶色い土の丘、右手の森が暗く描かれる。落日のように見えるが光源の時刻を厳密には断定しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.2859で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/441967",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/441967",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/441967",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-441967 View over Hallingdal; Johan Christian Dahl; 1844; accession 2012.447. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "実際のMet公式原寸・表示JPEGから生成したサムネイルを目視確認。横長の油彩で濃い青灰色のノルウェー山々が幾重にも重なり、中心には谷。上部の雲の切れ間に桃色から金色の光、手前に針葉樹の梢や茶色い土の丘、右手の森が暗く描かれる。落日のように見えるが光源の時刻を厳密には断定しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.2859で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json",
+      "historical_interpretation": "Met作品別Overviewによるとノルウェー出身のヨハン・クリスチャン・ダール（1788～1857）は祖国の風景に親しみ、精神性を帯びた自然主義的なロマン主義風景を描いた。画家自身の日記では1844年8月23日に子どもたちと画家ペーダー・バルケとともにハリングダールを訪れスケッチした。同年10月には考古学者クリスチャン・ユルゲンセン・トムセンにこの作品を贈る意向を示した（offerした）と美術館が説明する。画面の特定の日没時刻やその場で油彩を完成させたことは判明しない。 Limits: 1844年の訪問日はダールの日記に基づくMetの情報。絵を描いた正確な日や現地で仕上げたかどうかまでは未確定。10月の相手への『申し出』と実際の贈呈完了を区別する。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['畏敬']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP278466.jpg",
+      "sha256": "cbc8c95a00cb94d38d740bd3e6c381aaaf4efba05d107edc4a0d7cdce7bee3d5",
+      "byte_length": 55783,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "実際のMet公式原寸・表示JPEGから生成したサムネイルを目視確認。横長の油彩で濃い青灰色のノルウェー山々が幾重にも重なり、中心には谷。上部の雲の切れ間に桃色から金色の光、手前に針葉樹の梢や茶色い土の丘、右手の森が暗く描かれる。落日のように見えるが光源の時刻を厳密には断定しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.2859で対応確認。 Confirmed image belongs to Met artwork 441967, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP278466.jpg",
+      "sha256": "8eacb7497b06b665a21d7f4647154632e039f7eb09de44b52701cd996f9dbf51",
+      "byte_length": 2137388,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "実際のMet公式原寸・表示JPEGから生成したサムネイルを目視確認。横長の油彩で濃い青灰色のノルウェー山々が幾重にも重なり、中心には谷。上部の雲の切れ間に桃色から金色の光、手前に針葉樹の梢や茶色い土の丘、右手の森が暗く描かれる。落日のように見えるが光源の時刻を厳密には断定しない。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.2859で対応確認。 Confirmed image belongs to Met artwork 441967, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #403; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 853890 portrays a fanciful hunting story rather than historical Manchu field evidence; Met 441967 offered his painting, not definitely delivered; 854905 represents Buddhist wisdom symbolism, not established therapeutic efficacy."
+  ]
+}

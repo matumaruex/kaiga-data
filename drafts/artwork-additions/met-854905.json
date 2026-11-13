@@ -1,0 +1,150 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-854905",
+  "artwork": {
+    "id": "met-854905",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 854905,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/854905",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854905",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "The Transcendent Buddha Akshobhya",
+      "title_ja_provisional": "阿閦如来（アクショービヤ）",
+      "artist": "Unidentified Newari artist working in Tibet (per Met)",
+      "creation_date_display": "13th or early 14th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Central Tibet",
+      "accession_number": "2021.288"
+    },
+    "image": {
+      "image_id": "met-854905-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-31793-001.jpg",
+      "source_registry_id": "met-854905",
+      "local_path": "/artworks/met-854905.jpg",
+      "sha256": "e675ef999fb098d953893ebd9779342bb8d2748d991704ce4bdcb0088aa6fb76",
+      "byte_length": 263863,
+      "live_image_checked": true,
+      "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json",
+      "source_accession_number": "2021.288",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-31793-001.jpg",
+        "sha256": "57ff18a3ef5185fe5bb2d973151c2de58469139a7d8d7c8c226f74775b167f78",
+        "byte_length": 5877235,
+        "width": 3288,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.17192",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "畏敬": 1
+      },
+      "tones": [
+        "静けさ"
+      ],
+      "themes": [
+        "時間",
+        "共同体"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/854905",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "チベット仏教の古い彩色布画で、青い阿閦如来と周囲の小さな仏たちに込められた知恵と方角の意味を知りたい",
+            "reason": "Met作品別Overviewは13世紀から14世紀初頭の中央チベットの布画について、阿閦如来を『不動の者』といい、金剛乗仏教における五智如来の一尊とする。青い身体、金剛杵（ヴァジュラ）の持物、東方を守護する役割を説明し、怒りを鎮めて智慧へ変容させる力の象徴と解説する。五智如来を表す一組の絵の一枚として祀られたという位置づけ。作者名は不明でMetの詳細欄ではチベットで働いたネワール系の画家とされる。近代にはチベット学者ジュゼッペ・トゥッチの調査旅行で収集されたが収集時期は1928～1948年の調査期間に限定して記す。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "怒りを必ず消すという医学的・心理学的な効果の主張ではなく信仰上の象徴として扱う。画面に五智如来が全員大きく並ぶとはせず、セットを構成する一幅というMetの説明に従う。作者名は特定されていない。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewは13世紀から14世紀初頭の中央チベットの布画について、阿閦如来を『不動の者』といい、金剛乗仏教における五智如来の一尊とする。青い身体、金剛杵（ヴァジュラ）の持物、東方を守護する役割を説明し、怒りを鎮めて智慧へ変容させる力の象徴と解説する。五智如来を表す一組の絵の一枚として祀られたという位置づけ。作者名は不明でMetの詳細欄ではチベットで働いたネワール系の画家とされる。近代にはチベット学者ジュゼッペ・トゥッチの調査旅行で収集されたが収集時期は1928～1948年の調査期間に限定して記す。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/854905"
+        },
+        "creation_context": "13th or early 14th century; Central Tibet (Vajrayana); Distemper on cloth; accession 2021.288",
+        "visual_clues": "Met公式APIと同一の原寸と表示JPEGを全バイト照合し、実際のサムネイルを視認。縦長の布画の中央に大きく青い仏が座り、赤い装飾の光背や座、左右の細身の人物、周囲の枠には小さな仏の像が多数段になって描かれる。密な細線と赤・金・青の対照が目立つ。小画像のみでは手の持物の細部は判読困難なため公式本文に従う。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.1719で対応確認。",
+        "uncertainty_note": "怒りを必ず消すという医学的・心理学的な効果の主張ではなく信仰上の象徴として扱う。画面に五智如来が全員大きく並ぶとはせず、セットを構成する一幅というMetの説明に従う。作者名は特定されていない。"
+      },
+      "emotion_categories": {
+        "primary": [],
+        "secondary": [
+          "畏敬"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json"
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "濃い青色の仏が、装飾された台座の中央に静かに座っています。赤い光背を囲んで小さな仏たちの姿が幾段にも並び、細かな模様が画面を埋めています。中心の大きな姿から周囲へ目を移すと、一枚の絵の中に多くの存在が秩序立てて配置されていることが分かります。\n\n阿閦如来は、その名に「不動の者」という意味を持つチベット仏教の尊格です。五智如来のひとりで、東方を守護し、金剛杵を持つ青い姿で表されます。怒りを鎮め、智慧へと変えていく力の象徴として理解されてきました。これは信仰上の意味であり、実際の効能を証明するものではありません。\n\nこの布画は13世紀から14世紀初頭に制作されました。美術館は、もともと五智如来を表す一組の絵の一枚だったと説明しています。作者の氏名は不明で、チベットで活動したネワール系の画家に結びつけられています。中央の青と周囲の赤を見比べると、古い仏教絵画の色と配置の工夫が感じられます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/854905"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-854905",
+    "title": "The Transcendent Buddha Akshobhya",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/854905",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/854905",
+      "license_label": "The Met Open Access / CC0 (Public Domain work, official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-31793-001.jpg",
+      "sha256": "e675ef999fb098d953893ebd9779342bb8d2748d991704ce4bdcb0088aa6fb76",
+      "byte_length": 263863,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP-31793-001.jpg",
+        "sha256": "57ff18a3ef5185fe5bb2d973151c2de58469139a7d8d7c8c226f74775b167f78",
+        "byte_length": 5877235,
+        "width": 3288,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 9.17192",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "2021.288"
+  }
+}
