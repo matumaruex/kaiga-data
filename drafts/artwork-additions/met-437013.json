@@ -1,0 +1,155 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-437013",
+  "artwork": {
+    "id": "met-437013",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 437013,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/437013",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437013",
+      "record_checked_on": "2026-11-13"
+    },
+    "facts": {
+      "title_original": "Virgin and Child",
+      "title_ja_provisional": "聖母子（アントウェルペンの画家）",
+      "artist": "Netherlandish (Antwerp) Painter",
+      "creation_date_display": "Unknown date",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Unspecified",
+      "accession_number": "45.170.1"
+    },
+    "image": {
+      "image_id": "met-437013-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19629-001.jpg",
+      "source_registry_id": "met-437013",
+      "local_path": "/artworks/met-437013.jpg",
+      "sha256": "9b674b3f8dd869431a9f168ea5203032c716a68fcca86426498c991122b5882b",
+      "byte_length": 214805,
+      "live_image_checked": true,
+      "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+      "source_accession_number": "45.170.1",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-19629-001.jpg",
+        "sha256": "546288ef3753d8669e4b3e40a2fdd1a8c71d5a153b10acb05e74112514f174c2",
+        "byte_length": 6949489,
+        "width": 3074,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=10.1416",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "慈しみ",
+        "安心"
+      ],
+      "emotion_strengths": {
+        "慈しみ": 2,
+        "安心": 1
+      },
+      "tones": [
+        "静けさ",
+        "落ち着き"
+      ],
+      "themes": [
+        "愛情",
+        "共同体"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/437013",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "青い衣の聖母と幼子を囲む祈りの文字を眺め、中世から近世へとつながる携帯できる祈祷画の役割を知りたい",
+            "reason": "Met作品別Overviewによると、16世紀初めのアントウェルペンで制作された、亜麻布にテンペラと金で描く小型の聖母子像。当時こうした持ち運びやすい絵は祈りのために多数生産されたが、布絵は今日あまり残っていない。現存する同系統の8点は、授乳を求める幼子を見下ろす聖母を描き、周囲を囲む祈祷文は無原罪の御宿りに関するもの。この祈祷文を唱えることに贖宥（免償）が認められたという宗教史的説明がある。実際に誰が所有し、どの場所で祈ったかは不明。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "祈りの文の宗教的効力を現在の事実として保証しない。『8点』はMetが述べる同類の現存例であり、この作の版画原版や絵の制作総数ではない。作者個人や原所有者は不明。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "Met作品別Overviewによると、16世紀初めのアントウェルペンで制作された、亜麻布にテンペラと金で描く小型の聖母子像。当時こうした持ち運びやすい絵は祈りのために多数生産されたが、布絵は今日あまり残っていない。現存する同系統の8点は、授乳を求める幼子を見下ろす聖母を描き、周囲を囲む祈祷文は無原罪の御宿りに関するもの。この祈祷文を唱えることに贖宥（免償）が認められたという宗教史的説明がある。実際に誰が所有し、どの場所で祈ったかは不明。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/437013"
+        },
+        "creation_context": "Unknown date; Unspecified; Tempera and gold on linen; accession 45.170.1",
+        "visual_clues": "縦長の小さな金色の絵。青い衣の聖母が幼子を胸に抱き、幼子が乳を求めて手を伸ばす。聖母は目を下に向けている。聖母子の周囲に金の光背、細かい金色模様の背景があり、青い字の祈りの文がアーチ状に上と左右を囲む。Metの公式作品画像を直接実見。",
+        "uncertainty_note": "祈りの文の宗教的効力を現在の事実として保証しない。『8点』はMetが述べる同類の現存例であり、この作の版画原版や絵の制作総数ではない。作者個人や原所有者は不明。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "慈しみ"
+        ],
+        "secondary": [
+          "安心"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-13",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Met specific Overview read directly; image visual comparison source and limits recorded per work; exact official JPEG full bytes checked in CI. No human/expert auditor."
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "深い青の衣を着た聖母が、幼子を胸元に抱いています。幼子は乳を求めて手を伸ばし、聖母はその顔を静かに見下ろしています。金色の背景と文字の縁取りが、親密な姿を小さな祈りの空間に包み込んでいます。\n\nこれは16世紀初め、現在のベルギーにあたるアントウェルペン周辺で描かれた聖母子像です。布にテンペラ絵具と金を使って制作されています。こうした小型の絵は運びやすく、個人の祈りのために広く作られましたが、布に描かれたものは今日では珍しくなっています。\n\nメトロポリタン美術館によると、同じ構図の現存例は8点確認されています。周囲を巡る文字は「無原罪の御宿り」に関する祈りで、当時その祈りを唱えることには宗教的な功徳があると考えられていました。ひと目では気づきにくい文字の輪郭に注目すると、絵を見ることと祈ることが近く結びついていた様子を感じ取れます。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437013"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-13"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-437013",
+    "title": "Virgin and Child",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/437013",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/437013",
+      "license_label": "The Met Open Access / CC0 (public-domain work; official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19629-001.jpg",
+      "sha256": "9b674b3f8dd869431a9f168ea5203032c716a68fcca86426498c991122b5882b",
+      "byte_length": 214805,
+      "last_http_sha_checked_on": "2026-11-13",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-438-440-20261113/docs/artwork-research-evidence/met-438-440-2026-11-13.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-19629-001.jpg",
+        "sha256": "546288ef3753d8669e4b3e40a2fdd1a8c71d5a153b10acb05e74112514f174c2",
+        "byte_length": 6949489,
+        "width": 3074,
+        "height": 4000,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=10.1416",
+        "last_full_sha_checked_on": "2026-11-13",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "45.170.1"
+  }
+}

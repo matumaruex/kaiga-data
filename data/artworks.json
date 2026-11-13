@@ -53357,6 +53357,372 @@
         "audit_sha256": "4bc6de23a9bd9f5bab02a76829c8ec4399a4f72f9ed025f3110bee81393c747f",
         "record_sha256": "2c01f6aa762244762ccc633f3cde3fee1333949ad40b0b37327e825e3a50eb38"
       }
+    },
+    {
+      "id": "met-49082",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 49082,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/49082",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/49082",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Chinese Portrait Painter",
+        "title_ja_provisional": "中国の肖像画家",
+        "artist": "Miwa Zaiei",
+        "creation_date_display": "18th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "29.100.528"
+      },
+      "image": {
+        "image_id": "met-49082-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-27191-001.jpg",
+        "source_registry_id": "met-49082",
+        "local_path": "/artworks/met-49082.jpg",
+        "sha256": "3f188cf8230183b5a8121a6b036d0d7af4b438143e7be2d97911c0038eb1a26d",
+        "byte_length": 107038,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "29.100.528",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-27191-001.jpg",
+          "sha256": "38f9994af6fa3507c8ddea4b50c683e44e2852adc7061cf5252d6917a4ccb728",
+          "byte_length": 3702888,
+          "width": 4000,
+          "height": 3284,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=4.9629",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "日常",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/49082",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "目の前の人物を描く肖像画家がさらに絵の中に登場する不思議な画中画を、古代中国への想像と日本の写実表現の交錯として眺めたい",
+              "reason": "Met作品別Overviewによると、江戸で活動した三輪在栄が18世紀に描いた二曲屏風。唐代の服装をした中国の肖像画家が、髪を整える女性を実際に目の前に置いて小さな肖像画を描いている。絵の中の肖像は女性の顔に似せてある。美術館は、西洋の写実表現が当時の日本の画壇に浸透する一方、画中画の舞台を古代中国の想像上の場面とする伝統が共存することに着目する。ただし三輪在栄の経歴は江戸で活動したこと以外ほぼ不明であり、画家本人の具体的意図やモデルは特定できない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "中国唐代の制作ではなく、18世紀の日本で古代中国を想像して描いた屏風である。女性や小さな人物の身元は分からない。西洋写実の影響は美術館の解釈であり、作者本人の証言ではない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによると、江戸で活動した三輪在栄が18世紀に描いた二曲屏風。唐代の服装をした中国の肖像画家が、髪を整える女性を実際に目の前に置いて小さな肖像画を描いている。絵の中の肖像は女性の顔に似せてある。美術館は、西洋の写実表現が当時の日本の画壇に浸透する一方、画中画の舞台を古代中国の想像上の場面とする伝統が共存することに着目する。ただし三輪在栄の経歴は江戸で活動したこと以外ほぼ不明であり、画家本人の具体的意図やモデルは特定できない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/49082"
+          },
+          "creation_context": "18th century; Japan; Two-panel folding screen; ink, color, and gold on paper; accession 29.100.528",
+          "visual_clues": "金色の地の二曲屏風。画面左の長い衣を着た女性は両手を頭の近くに上げて髪を整え、右側の人物は椅子に座り、女性の顔を描いた小さな絵を前に筆を動かしている。赤い衣の小さな人物が女性の近くにいる。Met個別の公式作品情報と現物図版に紐づいた二次サムネイルを照合。公式JPEG自体の全バイト検査はCIで実施する。",
+          "uncertainty_note": "中国唐代の制作ではなく、18世紀の日本で古代中国を想像して描いた屏風である。女性や小さな人物の身元は分からない。西洋写実の影響は美術館の解釈であり、作者本人の証言ではない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": []
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met specific Overview read directly; image visual comparison source and limits recorded per work; exact official JPEG full bytes checked in CI. No human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "金色の地に、髪を整える女性と、小さな絵に向かう画家が描かれています。画家の前にある肖像には女性とよく似た顔が見え、絵の中にもう一つの絵が生まれる様子が面白く感じられます。\n\n18世紀、江戸で活動した三輪在栄による二曲屏風《中国の肖像画家》です。描かれた画家の装いは古代中国の唐代を思わせます。ですが、この屏風自体は江戸時代の日本の作品で、実際に唐代の制作現場を記録した絵ではありません。\n\nメトロポリタン美術館は、目の前にいる人物を写し取る写実的な関心と、古代中国を想像の舞台にする伝統が、一枚の絵の中で交わっている点に注目しています。作者の詳しい生涯は知られていません。女性と描きかけの肖像の顔を見比べると、「似せて描く」という行為そのものが主題になっていることに気づきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/49082"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-49082-2026-11-13.json",
+        "audit_sha256": "18f7d6821e1b70ed60d3fe83e646dc6bbcbd5135a4da95582c7859f645963591",
+        "record_sha256": "a62e8222f1fa9c795c4474370d390f4df7827c8d2b2a49ee272eead608732e45"
+      }
+    },
+    {
+      "id": "met-65586",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 65586,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/65586",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/65586",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "“Trees Encoiled in Vines of Ivy” (Yadorigi)",
+        "title_ja_provisional": "『源氏物語』「宿木」図（俵屋宗達工房）",
+        "artist": "Tawaraya Sōtatsu",
+        "creation_date_display": "early 17th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2006.570"
+      },
+      "image": {
+        "image_id": "met-65586-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-29288-002.jpg",
+        "source_registry_id": "met-65586",
+        "local_path": "/artworks/met-65586.jpg",
+        "sha256": "1b6be0f5fa87bbdc375e7b53c10b6cf4507546cb7f21b305fab84d87555131cc",
+        "byte_length": 155101,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "2006.570",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-29288-002.jpg",
+          "sha256": "ec14a6bfd11ba7e82c862290b6a1c40263140e45b44123ded0af6a72b3b3cb77",
+          "byte_length": 5554739,
+          "width": 4000,
+          "height": 3000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=8.6030",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "他者との距離",
+          "愛情"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/65586",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "『源氏物語』の宇治十帖を彩る絵を眺め、見えない人物の話題が部屋の空気を変える場面を想像したい",
+              "reason": "Met作品別Overviewによると、『源氏物語』第49帖「宿木」を描くこの一幅は、もとは物語の場面を描いた一対の屏風から切り出されたもの。源氏の息子として育てられた薫が宇治の山中で寝床に横たわり、夕方の風を避けるために屏風を置いている。侍女が土地の美しい女性・浮舟の話を持ち出し、薫の関心を引く。鮮明で厚みのある彩色と様式化された風景表現を、俵屋宗達の工房の特色とする。作者は宗達本人ではなく『工房』表記であり、一幅の画面から人物の感情や台詞を直接見たことにはしない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "もとは屏風の一部で現在は掛軸。宗達本人の直筆確定作ではなく工房作。『浮舟』という人物の存在は物語中で語られるもので、この画像に直接浮舟が登場するとは断定しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによると、『源氏物語』第49帖「宿木」を描くこの一幅は、もとは物語の場面を描いた一対の屏風から切り出されたもの。源氏の息子として育てられた薫が宇治の山中で寝床に横たわり、夕方の風を避けるために屏風を置いている。侍女が土地の美しい女性・浮舟の話を持ち出し、薫の関心を引く。鮮明で厚みのある彩色と様式化された風景表現を、俵屋宗達の工房の特色とする。作者は宗達本人ではなく『工房』表記であり、一幅の画面から人物の感情や台詞を直接見たことにはしない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/65586"
+          },
+          "creation_context": "early 17th century; Japan; Hanging scroll; ink, color, and gold on paper; accession 2006.570",
+          "visual_clues": "横長に切り出された物語画が掛軸に仕立てられている。細かな幾何学文様の寝具・屏風、濃い緑の床、赤系の敷物、金色の霞のような背景装飾が目立つ。屏風と屋内の構成によって横たわる人物の姿が部分的に隠れている。Met公式作品画像を実見した視覚記録。",
+          "uncertainty_note": "もとは屏風の一部で現在は掛軸。宗達本人の直筆確定作ではなく工房作。『浮舟』という人物の存在は物語中で語られるもので、この画像に直接浮舟が登場するとは断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met specific Overview read directly; image visual comparison source and limits recorded per work; exact official JPEG full bytes checked in CI. No human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "緑や赤の鮮やかな色彩に、細かな文様の屏風や寝具が組み合わされています。金色の霞のような部分が部屋の形を区切り、室内の一場面を遠くからのぞくような構図になっています。\n\nこれは17世紀初めの日本で、俵屋宗達の工房が制作したとされる『源氏物語』「宿木」の場面です。この《宿木》の画面は、かつて『源氏物語』を描いた一対の屏風の一部でした。いまは切り取られ、掛軸として伝わっています。\n\n物語では、源氏の息子として育った薫が宇治の山あいで寝床に横たわり、夕風を遮る屏風をそばに置いています。侍女が浮舟という女性のことを語り、薫の関心を引く場面です。画面に登場していない人物の存在まで、描かれた室内から想像させるところが魅力です。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/65586"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-65586-2026-11-13.json",
+        "audit_sha256": "43ecf74c65b4c20b9d3999a668b8243bcc84533bc83b88a17834ce085fe65131",
+        "record_sha256": "f41ad009105394a676add484d4b435dd9c071dcd43624eebaa654179261d9381"
+      }
+    },
+    {
+      "id": "met-437013",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437013,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437013",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437013",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Virgin and Child",
+        "title_ja_provisional": "聖母子（アントウェルペンの画家）",
+        "artist": "Netherlandish (Antwerp) Painter",
+        "creation_date_display": "Unknown date",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Unspecified",
+        "accession_number": "45.170.1"
+      },
+      "image": {
+        "image_id": "met-437013-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19629-001.jpg",
+        "source_registry_id": "met-437013",
+        "local_path": "/artworks/met-437013.jpg",
+        "sha256": "9b674b3f8dd869431a9f168ea5203032c716a68fcca86426498c991122b5882b",
+        "byte_length": 214805,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "45.170.1",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-19629-001.jpg",
+          "sha256": "546288ef3753d8669e4b3e40a2fdd1a8c71d5a153b10acb05e74112514f174c2",
+          "byte_length": 6949489,
+          "width": 3074,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=10.1416",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "慈しみ",
+          "安心"
+        ],
+        "emotion_strengths": {
+          "慈しみ": 2,
+          "安心": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "愛情",
+          "共同体"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437013",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "青い衣の聖母と幼子を囲む祈りの文字を眺め、中世から近世へとつながる携帯できる祈祷画の役割を知りたい",
+              "reason": "Met作品別Overviewによると、16世紀初めのアントウェルペンで制作された、亜麻布にテンペラと金で描く小型の聖母子像。当時こうした持ち運びやすい絵は祈りのために多数生産されたが、布絵は今日あまり残っていない。現存する同系統の8点は、授乳を求める幼子を見下ろす聖母を描き、周囲を囲む祈祷文は無原罪の御宿りに関するもの。この祈祷文を唱えることに贖宥（免償）が認められたという宗教史的説明がある。実際に誰が所有し、どの場所で祈ったかは不明。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "祈りの文の宗教的効力を現在の事実として保証しない。『8点』はMetが述べる同類の現存例であり、この作の版画原版や絵の制作総数ではない。作者個人や原所有者は不明。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによると、16世紀初めのアントウェルペンで制作された、亜麻布にテンペラと金で描く小型の聖母子像。当時こうした持ち運びやすい絵は祈りのために多数生産されたが、布絵は今日あまり残っていない。現存する同系統の8点は、授乳を求める幼子を見下ろす聖母を描き、周囲を囲む祈祷文は無原罪の御宿りに関するもの。この祈祷文を唱えることに贖宥（免償）が認められたという宗教史的説明がある。実際に誰が所有し、どの場所で祈ったかは不明。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437013"
+          },
+          "creation_context": "Unknown date; Unspecified; Tempera and gold on linen; accession 45.170.1",
+          "visual_clues": "縦長の小さな金色の絵。青い衣の聖母が幼子を胸に抱き、幼子が乳を求めて手を伸ばす。聖母は目を下に向けている。聖母子の周囲に金の光背、細かい金色模様の背景があり、青い字の祈りの文がアーチ状に上と左右を囲む。Metの公式作品画像を直接実見。",
+          "uncertainty_note": "祈りの文の宗教的効力を現在の事実として保証しない。『8点』はMetが述べる同類の現存例であり、この作の版画原版や絵の制作総数ではない。作者個人や原所有者は不明。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "慈しみ"
+          ],
+          "secondary": [
+            "安心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met specific Overview read directly; image visual comparison source and limits recorded per work; exact official JPEG full bytes checked in CI. No human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "深い青の衣を着た聖母が、幼子を胸元に抱いています。幼子は乳を求めて手を伸ばし、聖母はその顔を静かに見下ろしています。金色の背景と文字の縁取りが、親密な姿を小さな祈りの空間に包み込んでいます。\n\nこれは16世紀初め、現在のベルギーにあたるアントウェルペン周辺で描かれた聖母子像です。布にテンペラ絵具と金を使って制作されています。こうした小型の絵は運びやすく、個人の祈りのために広く作られましたが、布に描かれたものは今日では珍しくなっています。\n\nメトロポリタン美術館によると、同じ構図の現存例は8点確認されています。周囲を巡る文字は「無原罪の御宿り」に関する祈りで、当時その祈りを唱えることには宗教的な功徳があると考えられていました。ひと目では気づきにくい文字の輪郭に注目すると、絵を見ることと祈ることが近く結びついていた様子を感じ取れます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/437013"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-437013-2026-11-13.json",
+        "audit_sha256": "4b3a46083ae5e1b9d7b8c120654c4e03ae5230e7cec5063958a422aec4fa1679",
+        "record_sha256": "535bc152cd3e0430bb235ee09813f4e409eb7302e8b5b118918749e791586906"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
