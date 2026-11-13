@@ -55588,6 +55588,382 @@
         "audit_sha256": "3afcc158bfe012421db48580cf218efdf4e06c6e3194dfd65f3035b4b0eac755",
         "record_sha256": "920bdeabe2e8fbe924db0548338734a92db7514de29d1297925193416dd07a86"
       }
+    },
+    {
+      "id": "met-835145",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 835145,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/835145",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/835145",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "A Young Prince",
+        "title_ja_provisional": "若い王子",
+        "artist": "Unknown artist",
+        "creation_date_display": "ca. 1820",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Iran",
+        "accession_number": "2019.405"
+      },
+      "image": {
+        "image_id": "met-835145-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/LC-2019_405.jpg",
+        "source_registry_id": "met-835145",
+        "local_path": "/artworks/met-835145.jpg",
+        "sha256": "769dc0933482b5e8535d40728ea72e3e78c2348bf4c5637cec4ad0abc4429995",
+        "byte_length": 155138,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "2019.405",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/LC-2019_405.jpg",
+          "sha256": "aed09d7f9227ab354c8bd20190fa73033890081c7d19806e7c4c2b38450ce116",
+          "byte_length": 4019865,
+          "width": 2780,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=9.7023",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心",
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2,
+          "畏敬": 1
+        },
+        "tones": [
+          "落ち着き",
+          "余韻"
+        ],
+        "themes": [
+          "時間",
+          "他者との距離"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/835145",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "ペルシア絵画の緻密な文様とヨーロッパ由来の油彩が出会った華やかなガージャール朝の肖像画を眺め、宮廷装飾の役割を知りたい",
+              "reason": "Met作品別Overviewを直接確認。1820年ごろイランで制作された、作者未詳のガージャール朝の若い王子の油彩肖像画。人物は後に1834〜1848年に統治したムハンマド・ミルザー・ガージャールかもしれないが同定は確実でない。もとは宮殿または離宮の壁のくぼみに納められ、君主・王子たちや女性像・静物画と一緒に空間を飾ったと考えられる。ペルシアの細密な文様への関心と、ヨーロッパ由来の油彩・人物表現の慣例とが合わさった19世紀初頭の様式。個人の内心・政治的役割・実際の居室は特定されない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "王子を確実にムハンマド・ミルザーと断定しない。王子が描かれたのは即位（1834年）以前の約1820年とされる。壁のくぼみへの展示はMetの研究説明であり実際の設置場所は不明。水たばこの器具が画中にあることから王子本人が喫煙していたとは推測しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewを直接確認。1820年ごろイランで制作された、作者未詳のガージャール朝の若い王子の油彩肖像画。人物は後に1834〜1848年に統治したムハンマド・ミルザー・ガージャールかもしれないが同定は確実でない。もとは宮殿または離宮の壁のくぼみに納められ、君主・王子たちや女性像・静物画と一緒に空間を飾ったと考えられる。ペルシアの細密な文様への関心と、ヨーロッパ由来の油彩・人物表現の慣例とが合わさった19世紀初頭の様式。個人の内心・政治的役割・実際の居室は特定されない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/835145"
+          },
+          "creation_context": "ca. 1820; Iran; Oil on canvas; accession 2019.405",
+          "visual_clues": "2026-11-13、Met公式作品835145の画像リンク（IIIF 2064912/main-image）を直接開き視認。長方形で縦長、豪華な赤い天幕の下に細長い黒い帽子をかぶった王子が正面を向いて立ち、深い青緑色の長衣に金色の縁取り・華やかな花柄の布・朱色の腰帯。向かって左の机上には花瓶に花、右には背の高い装飾的な水たばこの器具がある。王子は手を胸元で重ねている。本人の正体は画像だけでは分からず、作者未詳とする。",
+          "uncertainty_note": "王子を確実にムハンマド・ミルザーと断定しない。王子が描かれたのは即位（1834年）以前の約1820年とされる。壁のくぼみへの展示はMetの研究説明であり実際の設置場所は不明。水たばこの器具が画中にあることから王子本人が喫煙していたとは推測しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": [
+            "畏敬"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met's exact artwork-specific Overview and direct official IIIF primary image read and inspected in source pass; full Met JPEGs verified in CI. Same AI, not human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "赤い天幕の下で、黒い背の高い帽子をかぶった若い男性が正面を見つめています。深い色の衣装には細い花模様と金色の飾りが重なり、両脇には花瓶と装飾的な水たばこの器具。人物だけでなく、周囲の品々まで華やかに描かれています。\n\nこれは1820年ごろ、イランのガージャール朝時代に制作された《若い王子》です。描かれたのは後に王位についたムハンマド・ミルザー・ガージャールかもしれませんが、身元は確定していません。もとは宮殿や離宮の壁のくぼみに収められ、ほかの王侯の肖像などと一緒に部屋を飾っていたと考えられています。\n\n細かな衣装の模様にはペルシア絵画の伝統が感じられ、一方で油彩の表現にはヨーロッパの技法も取り入れられています。花瓶から胸元の刺繍、天幕へと視線を動かすと、一人の人物の肖像が宮廷の空間を飾る絵でもあったことが見えてきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/835145"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-835145-2026-11-13.json",
+        "audit_sha256": "471b6498416356a88f4d62c8708cd201a9c9f21630a064400a95cc527cd7b6fc",
+        "record_sha256": "caf92620b73763b42385bf242e4f5488fb2bcb4c509a51a92ad0309d85df3425"
+      }
+    },
+    {
+      "id": "met-437926",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437926,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437926",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437926",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Mezzetin",
+        "title_ja_provisional": "メズタン",
+        "artist": "Antoine Watteau",
+        "creation_date_display": "ca. 1718–20",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Unspecified",
+        "accession_number": "34.138"
+      },
+      "image": {
+        "image_id": "met-437926-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP170811.jpg",
+        "source_registry_id": "met-437926",
+        "local_path": "/artworks/met-437926.jpg",
+        "sha256": "e81b3515bf5d3b942bc376624319501aca96ff2f7bf016b1b77e891453323c3a",
+        "byte_length": 272034,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "34.138",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP170811.jpg",
+          "sha256": "2aeb0b1488b9c44333f033600068c8521172cce817b54b579200c106831abf36",
+          "byte_length": 2343200,
+          "width": 1520,
+          "height": 1932,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=5.1233",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "未練",
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "未練": 2,
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "愛情",
+          "他者との距離"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437926",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "庭で楽器を弾く喜劇の人物と背を向ける彫像を眺め、朗らかな演技と報われない恋の気配の対比を楽しみたい",
+              "reason": "Met作品別Overviewによると、アントワーヌ・ヴァトーが1718〜20年ごろ描いた油彩画。メズタンはイタリア発祥の即興喜劇コメディア・デラルテの定番人物で、パリの舞台でも知られていた。ヴァトーの時代にこのような舞台人物を独立した絵画主題にすることは新しかった。メズタンは横縞の上着、膝丈のズボン、柔らかい帽子、襞襟、短いマントといった衣装で描かれ、性格設定はおせっかいでずる賢く、報われぬ恋に悩むというもの。奥の女性像が彼に背を向けていることが失恋の含みを表すと所蔵館は説明する。これは舞台上の役の属性で、絵のモデルの実生活を述べたものではない。手と服の繊細な筆致がよい状態で保存されている。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "メズタンは架空の喜劇役であり、実在のヴァトーの失恋体験を描いたとしない。ギターに似た楽器は画像で確認できるが、特定の曲名を作らない。女性像が背を向けることはMetの恋愛的解釈で、女性が実際にその場にいる人物ではない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによると、アントワーヌ・ヴァトーが1718〜20年ごろ描いた油彩画。メズタンはイタリア発祥の即興喜劇コメディア・デラルテの定番人物で、パリの舞台でも知られていた。ヴァトーの時代にこのような舞台人物を独立した絵画主題にすることは新しかった。メズタンは横縞の上着、膝丈のズボン、柔らかい帽子、襞襟、短いマントといった衣装で描かれ、性格設定はおせっかいでずる賢く、報われぬ恋に悩むというもの。奥の女性像が彼に背を向けていることが失恋の含みを表すと所蔵館は説明する。これは舞台上の役の属性で、絵のモデルの実生活を述べたものではない。手と服の繊細な筆致がよい状態で保存されている。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437926"
+          },
+          "creation_context": "ca. 1718–20; Unspecified; Oil on canvas; accession 34.138",
+          "visual_clues": "2026-11-13、Met公式作品437926の主画像（IIIF 799853/main-image）を直接開き視認。縦長の画面、緑の茂る庭園の石の腰掛けに足を組んだ演者が座り、胴の細長い撥弦楽器を手に歌っているように顔を上げる。水色・白の縞模様の上着と半ズボン、白いひだ襟、桃色の帽子・マント、白い長靴下。画面左奥の暗い木陰に灰色の女性像があり、演者には背を向ける姿勢。歌の内容や実際に鳴らした音は画像からは分からない。",
+          "uncertainty_note": "メズタンは架空の喜劇役であり、実在のヴァトーの失恋体験を描いたとしない。ギターに似た楽器は画像で確認できるが、特定の曲名を作らない。女性像が背を向けることはMetの恋愛的解釈で、女性が実際にその場にいる人物ではない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "未練"
+          ],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met's exact artwork-specific Overview and direct official IIIF primary image read and inspected in source pass; full Met JPEGs verified in CI. Same AI, not human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "木々が生い茂る庭で、縞模様の衣装を着た男が腰掛け、弦楽器を奏でています。顔を上に向けて何かを歌うような姿と、桃色の帽子や短いマントが、まるで舞台のひとこまを切り取ったようです。\n\n1718〜20年ごろ、フランスの画家ヴァトーが描いた《メズタン》。メズタンは、イタリア発祥の即興喜劇『コメディア・デラルテ』に登場する、おなじみの滑稽な役柄です。おせっかいで抜け目がなく、恋に悩みがちな人物として知られていました。\n\n木陰の奥をよく見ると、男に背を向けた女性の彫像が立っています。美術館は、その姿にメズタンの報われない恋を読み取っています。音楽を奏でる明るい姿と、こちらを見ない石像との取り合わせ。庭を眺める目線を少し変えると、軽やかな喜劇の奥にある寂しさも感じられます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/437926"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-437926-2026-11-13.json",
+        "audit_sha256": "a58cfe6646091b72d113e4dc02e041eaeb1e33cda98358d5d829f5cee15f5b9a",
+        "record_sha256": "ef81b710791ade6bffc22f5fedc98c216efbb45e3676e1a82dd45c8d5bf3d11a"
+      }
+    },
+    {
+      "id": "met-436966",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436966,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436966",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436966",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "The Adoration of the Shepherds",
+        "title_ja_provisional": "羊飼いたちの礼拝",
+        "artist": "Andrea Mantegna",
+        "creation_date_display": "shortly after 1450",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Unspecified",
+        "accession_number": "32.130.2"
+      },
+      "image": {
+        "image_id": "met-436966-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP213831.jpg",
+        "source_registry_id": "met-436966",
+        "local_path": "/artworks/met-436966.jpg",
+        "sha256": "e78eccc44f0af61a3ed5272221de98aa1dd41069540901a74f6f2efca026c090",
+        "byte_length": 106876,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "32.130.2",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP213831.jpg",
+          "sha256": "03dc8f5602352e7b175d0cc4b61d881f2a85785958018c52d4b389bf5a28ac2b",
+          "byte_length": 2994396,
+          "width": 3911,
+          "height": 2879,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=8.1344",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "慈しみ",
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "慈しみ": 2,
+          "畏敬": 1
+        },
+        "tones": [
+          "静けさ",
+          "落ち着き"
+        ],
+        "themes": [
+          "愛情",
+          "共同体",
+          "自然"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436966",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "羊飼いたちの傷んだ服や岩の細部から、宗教物語が人々の身近な風景として描かれるイタリア初期ルネサンスの絵を味わいたい",
+              "reason": "Met作品別Overviewによれば1450年の少し後、若きアンドレア・マンテーニャが描いたキリスト降誕に駆けつける羊飼いたちの場面。長年の労働で傷んだ衣服の羊飼いたちが、天使による知らせを受けて幼子のもとに来る。聖母マリアとキリストは自然界と神聖なものをつなぐものとして描かれ、聖母の青と金の衣が幼子の周囲の天使たちを含む雲に伸びていく。手前の岩や奥の道、建物と植物が緻密に描かれ、当時フェラーラで流行したネーデルラント絵画への反応がうかがえる。フェラーラ公ボルソ・デステの発注かもしれないが確定していない。技法はテンペラ画で、元の木板からキャンバスへ移されたとMetに記載されている。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "聖書の降誕物語を歴史的な目撃記録としては扱わない。『ボルソ・デステの注文』は可能性で確定ではない。顔や衣が写実的なのは画家の美術的表現であり、実在の場所を描いたとは断定できない。現在の支持体がキャンバスでも、もとは木板に描かれていたという技法情報を区別する。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによれば1450年の少し後、若きアンドレア・マンテーニャが描いたキリスト降誕に駆けつける羊飼いたちの場面。長年の労働で傷んだ衣服の羊飼いたちが、天使による知らせを受けて幼子のもとに来る。聖母マリアとキリストは自然界と神聖なものをつなぐものとして描かれ、聖母の青と金の衣が幼子の周囲の天使たちを含む雲に伸びていく。手前の岩や奥の道、建物と植物が緻密に描かれ、当時フェラーラで流行したネーデルラント絵画への反応がうかがえる。フェラーラ公ボルソ・デステの発注かもしれないが確定していない。技法はテンペラ画で、元の木板からキャンバスへ移されたとMetに記載されている。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436966"
+          },
+          "creation_context": "shortly after 1450; Unspecified; Tempera on canvas, transferred from wood; accession 32.130.2",
+          "visual_clues": "2026-11-13、Met公式作品436966の主画像（IIIF 799944/main-image）を直接開き視認。横長の画面。左手前で黄色い布をまとうヨセフが肘をついて目を閉じる。中央で青いマント・赤い衣のマリアが両手を合わせ、地面に横たわる赤子に祈る。赤子のまわりには小さな天使がいる。右側では粗末な服の羊飼いたちが身をかがめ、奥には細い曲がり道と岩山、木、建物、動物が緻密に続く。マリアの青い布のまわりの金色の天使たちの描写をMet説明と照合した。絵の登場人物を実在する目撃者と誤認しない。",
+          "uncertainty_note": "聖書の降誕物語を歴史的な目撃記録としては扱わない。『ボルソ・デステの注文』は可能性で確定ではない。顔や衣が写実的なのは画家の美術的表現であり、実在の場所を描いたとは断定できない。現在の支持体がキャンバスでも、もとは木板に描かれていたという技法情報を区別する。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "慈しみ"
+          ],
+          "secondary": [
+            "畏敬"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Met's exact artwork-specific Overview and direct official IIIF primary image read and inspected in source pass; full Met JPEGs verified in CI. Same AI, not human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "画面中央では、青い衣のマリアが幼いキリストに手を合わせています。左ではヨセフが身体を休め、右からは粗末な衣服を着た羊飼いたちが近づいてきます。石や木々、奥へ曲がる道まで細かく描かれ、人物たちが本当にその風景の中にいるように感じられます。\n\nこれは1450年の少し後、イタリアの画家アンドレア・マンテーニャが描いた《羊飼いたちの礼拝》です。羊飼いたちは、生まれたばかりのキリストに会いに来たところです。天使から誕生を知らされたという宗教的な物語の場面が、傷んだ服や足元の岩まで目を配った絵になっています。\n\nマリアの青と金色の衣は、幼子のまわりを舞う小さな天使たちの雲へとつながるように描かれています。美術館はこの細やかな風景表現に、当時イタリアで注目されたネーデルラント絵画の影響も見ています。手前の小さな人間たちから遠くの自然へと目を動かすと、日常の光景と神聖な物語が重なって見えてきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/436966"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-436966-2026-11-13.json",
+        "audit_sha256": "34e1c4e60a8b00ff0d5e66d8289314b4f2bbc0e7e1c4178b303aca3a3ff0e3aa",
+        "record_sha256": "0d5dccdfa17756bb7bfb35816d8c27725bf00c926535f729c8aad9c43084420d"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
