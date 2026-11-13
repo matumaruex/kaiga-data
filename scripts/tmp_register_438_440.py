@@ -129,7 +129,7 @@ def main():
                        "source_public_domain_flag_checked":True,
                        "visual_checked":False,"curatorial_reviewed_on":DATE,
                        "curatorial_review_status":"provisional",
-                       "curatorial_review_note":"Met specific Overview and official IIIF were observed by the same AI, not a human/expert auditor; complete Met API JPEG bytes checked in CI."},
+                       "curatorial_review_note":"Met specific Overview read directly; image visual comparison source and limits recorded per work; exact official JPEG full bytes checked in CI. No human/expert auditor."},
              "visitor_explanation":visitor}
         proposal={"schema_version":"artwork-addition-proposal-v1","id":ident,
                   "artwork":art,"image_record":image_record}
@@ -199,7 +199,7 @@ def main():
         shell(sys.executable,"scripts/add_artwork.py","check")
         output("SAVED",no,ident)
     dump("docs/artwork-research-evidence/met-438-440-2026-11-13.json",
-         {"checked_on":DATE,"method":"Live Met API primary original/display full bytes and image visual check; exact Met art-page Overviews independently read using web before generation.", "artworks":researched,
+         {"checked_on":DATE,"method":"Live Met API primary original/display full JPEG SHA256/size and RGB correspondence; exact Met artwork Overview read directly. Actual image visual check through official IIIF for two works, identified public thumbnail for one work with limitation disclosed.", "artworks":researched,
           "limitations":["Same AI review, not an independent human/expert","IIIF visual and downloaded API JPEG variants linked by same official object; full byte and resized RGB correspondence checked"]})
     text="## 現在の状態（2026-11-13時点）\n\n"+\
          "- **完成登録：440作品**。main統合後にDBとREADMEが正本。\n"+\
@@ -230,6 +230,6 @@ def main():
           "-c","user.email=41898282+github-actions[bot]@users.noreply.github.com",
           "commit","-m","data: register verified Met artworks 438–440 with exact source and image audits")
     shell("git","push","origin",BRANCH)
-    output("SUCCESS: 437 artworks, new work saved and workflow helpers removed")
+    output("SUCCESS: 440 artworks, new work saved and workflow helpers removed")
 if __name__=="__main__":
     main()
