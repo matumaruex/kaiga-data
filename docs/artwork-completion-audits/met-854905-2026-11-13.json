@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-854905",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-854905.json",
+  "candidate_sha256": "daeb90702cdbe514b4b524c4170ccf1924da60365f9ab31b6095258692adc7e2",
+  "draft_path": "drafts/visitor-explanations/met-854905.json",
+  "draft_sha256": "20caccb7ea44ab7e7017bf9f18d26347c951118cfa05a4bbe2049d253c4d11b8",
+  "baseline": {
+    "artworks_sha256": "5f33dae6e1efb861e2c4612f2a05ecb2bb24738ead650d063403dad64bb9efee",
+    "image_registry_sha256": "94b0dbcbc7a5d6a2c5506c82a3fbe42e4e5d9d05049baf218c8e012f5d76e614"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/854905",
+      "source_excerpt": "the power to pacify aggression and transmute it into wisdom",
+      "visitor_claim": "怒りを鎮め、智慧へと変えていく力の象徴として理解されてきました。",
+      "source_section": "Exact Met Overview: transmuting aggression into wisdom"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/854905",
+      "source_excerpt": "Akshobhya displays the vajra, serves as the protector of the East",
+      "visitor_claim": "五智如来のひとりで、東方を守護し、金剛杵を持つ青い姿で表されます。",
+      "source_section": "Exact Met Overview: Akshobhya's vajra and eastern direction"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/854905",
+      "location": "Exact artwork Overview and Object Information: Exact Met Overview: transmuting aggression into wisdom; Exact Met Overview: Akshobhya's vajra and eastern direction",
+      "finding": "Met作品別Overviewは13世紀から14世紀初頭の中央チベットの布画について、阿閦如来を『不動の者』といい、金剛乗仏教における五智如来の一尊とする。青い身体、金剛杵（ヴァジュラ）の持物、東方を守護する役割を説明し、怒りを鎮めて智慧へ変容させる力の象徴と解説する。五智如来を表す一組の絵の一枚として祀られたという位置づけ。作者名は不明でMetの詳細欄ではチベットで働いたネワール系の画家とされる。近代にはチベット学者ジュゼッペ・トゥッチの調査旅行で収集されたが収集時期は1928～1948年の調査期間に限定して記す。 Actual image observation: Met公式APIと同一の原寸と表示JPEGを全バイト照合し、実際のサムネイルを視認。縦長の布画の中央に大きく青い仏が座り、赤い装飾の光背や座、左右の細身の人物、周囲の枠には小さな仏の像が多数段になって描かれる。密な細線と赤・金・青の対照が目立つ。小画像のみでは手の持物の細部は判読困難なため公式本文に従う。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.1719で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854905",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/854905",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/854905",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-854905 The Transcendent Buddha Akshobhya; Unidentified Newari artist working in Tibet (per Met); 13th or early 14th century; accession 2021.288. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Met公式APIと同一の原寸と表示JPEGを全バイト照合し、実際のサムネイルを視認。縦長の布画の中央に大きく青い仏が座り、赤い装飾の光背や座、左右の細身の人物、周囲の枠には小さな仏の像が多数段になって描かれる。密な細線と赤・金・青の対照が目立つ。小画像のみでは手の持物の細部は判読困難なため公式本文に従う。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.1719で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-402-404-20261113/docs/artwork-research-evidence/met-402-404-2026-11-13.json",
+      "historical_interpretation": "Met作品別Overviewは13世紀から14世紀初頭の中央チベットの布画について、阿閦如来を『不動の者』といい、金剛乗仏教における五智如来の一尊とする。青い身体、金剛杵（ヴァジュラ）の持物、東方を守護する役割を説明し、怒りを鎮めて智慧へ変容させる力の象徴と解説する。五智如来を表す一組の絵の一枚として祀られたという位置づけ。作者名は不明でMetの詳細欄ではチベットで働いたネワール系の画家とされる。近代にはチベット学者ジュゼッペ・トゥッチの調査旅行で収集されたが収集時期は1928～1948年の調査期間に限定して記す。 Limits: 怒りを必ず消すという医学的・心理学的な効果の主張ではなく信仰上の象徴として扱う。画面に五智如来が全員大きく並ぶとはせず、セットを構成する一幅というMetの説明に従う。作者名は特定されていない。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['畏敬']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP-31793-001.jpg",
+      "sha256": "e675ef999fb098d953893ebd9779342bb8d2748d991704ce4bdcb0088aa6fb76",
+      "byte_length": 263863,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIと同一の原寸と表示JPEGを全バイト照合し、実際のサムネイルを視認。縦長の布画の中央に大きく青い仏が座り、赤い装飾の光背や座、左右の細身の人物、周囲の枠には小さな仏の像が多数段になって描かれる。密な細線と赤・金・青の対照が目立つ。小画像のみでは手の持物の細部は判読困難なため公式本文に従う。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.1719で対応確認。 Confirmed image belongs to Met artwork 854905, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP-31793-001.jpg",
+      "sha256": "57ff18a3ef5185fe5bb2d973151c2de58469139a7d8d7c8c226f74775b167f78",
+      "byte_length": 5877235,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Met公式APIと同一の原寸と表示JPEGを全バイト照合し、実際のサムネイルを視認。縦長の布画の中央に大きく青い仏が座り、赤い装飾の光背や座、左右の細身の人物、周囲の枠には小さな仏の像が多数段になって描かれる。密な細線と赤・金・青の対照が目立つ。小画像のみでは手の持物の細部は判読困難なため公式本文に従う。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=9.1719で対応確認。 Confirmed image belongs to Met artwork 854905, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #404; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 853890 portrays a fanciful hunting story rather than historical Manchu field evidence; Met 441967 offered his painting, not definitely delivered; 854905 represents Buddhist wisdom symbolism, not established therapeutic efficacy."
+  ]
+}
