@@ -49730,6 +49730,367 @@
         "audit_sha256": "7fb1fc3d8126d9df57a7cf0c4c0d3a2bda116f4df8e8251014a9d20c148d2265",
         "record_sha256": "f2fda4a8542c3eac2d287905865cc5d086dba674e18b271ba5fc5b11fbef0052"
       }
+    },
+    {
+      "id": "met-448485",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 448485,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/448485",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/448485",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "\"A Gathering of Court Women\", Folio from the Davis Album",
+        "title_ja_provisional": "宮廷女性たちの集い",
+        "artist": "Unidentified artist",
+        "creation_date_display": "late 17th–early 18th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India (attributed)",
+        "accession_number": "30.95.174.27"
+      },
+      "image": {
+        "image_id": "met-448485-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/DP159389.jpg",
+        "source_registry_id": "met-448485",
+        "local_path": "/artworks/met-448485.jpg",
+        "sha256": "dca0f0b572207bba2aed30ef1b3c61e3dd89aa5c52300cbed5cd6afac3a1545e",
+        "byte_length": 92666,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-408-410-20261113/docs/artwork-research-evidence/met-408-410-2026-11-13.json",
+        "source_accession_number": "30.95.174.27",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP159389.jpg",
+          "sha256": "853bb3c1de9453a45cb6d1ee65c7bc4192a00db04ea261df2ee2b2c0efb6f30c",
+          "byte_length": 2385911,
+          "width": 2514,
+          "height": 3751,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 10.34435",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "にぎわい"
+        ],
+        "themes": [
+          "共同体",
+          "日常"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/448485",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "17〜18世紀のインド細密画に描かれた、宮廷女性たちの団らんと色鮮やかな織物や宝飾品を眺めたい",
+              "reason": "Metの個別作品Overviewによると17世紀末～18世紀初めのデイヴィス・アルバムの一葉は、宮廷女性たちが中国に影響を受けた鳳凰・雲模様の織物の上にもたれ、ザクロや桃を食べ、太鼓の音に耳を傾ける場面。女性たちだけでなく乳児の手足にも真珠・ルビー・金の宝飾があしらわれている。宮廷女性たちの生活をうかがわせる希少な図であるという解説で、描かれた特定の集まりを実際の日時の記録として断定していない。制作地は『Attributed to India』で画家名も不明。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "制作地はインドと推定にとどまる。宮廷女性の実生活を写真のように忠実に記録したと断定しない。赤い外枠はアルバムの余白であり絵の場面の一部ではない。画家は不明。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metの個別作品Overviewによると17世紀末～18世紀初めのデイヴィス・アルバムの一葉は、宮廷女性たちが中国に影響を受けた鳳凰・雲模様の織物の上にもたれ、ザクロや桃を食べ、太鼓の音に耳を傾ける場面。女性たちだけでなく乳児の手足にも真珠・ルビー・金の宝飾があしらわれている。宮廷女性たちの生活をうかがわせる希少な図であるという解説で、描かれた特定の集まりを実際の日時の記録として断定していない。制作地は『Attributed to India』で画家名も不明。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/448485"
+          },
+          "creation_context": "late 17th–early 18th century; India (attributed); Ink, opaque watercolor, and gold on paper; accession 30.95.174.27",
+          "visual_clues": "Metの実際の原寸JPEGと表示JPEGを取得してハッシュ・縮小RMSを比較し、API由来の主画像を視認。赤みを帯びた紙の中央の細長い彩色画面で、複数の女性が黄色や赤、白などの衣をまとって並び、下部に大きな太鼓、青い絨毯に似た布と花果・金の飾り、右側の緑の窓のような枠、周囲の広いアルバム紙縁が見える。細かな宝石・果物の種類は公式解説に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.3443で対応確認。",
+          "uncertainty_note": "制作地はインドと推定にとどまる。宮廷女性の実生活を写真のように忠実に記録したと断定しない。赤い外枠はアルバムの余白であり絵の場面の一部ではない。画家は不明。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-408-410-20261113/docs/artwork-research-evidence/met-408-410-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "鮮やかな色の衣服をまとった女性たちが、模様のある布の上に集まっています。果物を口に運ぶ人、音楽に耳を傾ける人がいて、画面の下には太鼓も見えます。人物の周りには、赤や青、金の細かな装飾が重なっています。\n\n17世紀末から18世紀初めにかけてのインドに帰属される細密画で、アルバムの一葉として残りました。女性たちが身を寄せる織物には、中国風の鳳凰や雲の模様が描かれています。ザクロや桃が用意され、室内の集まりの様子が色彩豊かに表されています。\n\n真珠やルビー、金の装身具は女性だけでなく、描かれた幼い子どもの手足にも施されています。美術館は、宮廷の女性たちの暮らしをうかがわせる珍しい場面として紹介しています。ただし、ここで特定の会合が実際に開かれたという記録ではありません。装身具と織物を見比べると、華やかな場面を細部から読み取れます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/448485"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-448485-2026-11-13.json",
+        "audit_sha256": "74de5f608d74db898758ba4c7c8f857f6d9bebf29a24ebd14e038d2794462494",
+        "record_sha256": "013eaa3ad7970d92568feabbf528d9c67ccad6fe076f8f96a276d01484784f75"
+      }
+    },
+    {
+      "id": "met-437979",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 437979,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/437979",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437979",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Ship by Moonlight",
+        "title_ja_provisional": "月夜の船",
+        "artist": "Ivan Konstantinovich Aivazovsky (Hovhannes Aivazian)",
+        "creation_date_display": "undated (year not specified in Met object record)",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Armenian-born in Feodosia, Russian Empire (now Ukraine); Black Sea painter",
+        "accession_number": "1975.280.2"
+      },
+      "image": {
+        "image_id": "met-437979-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23290-001.jpg",
+        "source_registry_id": "met-437979",
+        "local_path": "/artworks/met-437979.jpg",
+        "sha256": "a631871f11a2b5abe47b321df6cb720659d9d0f3128b1c70f85ec65d24d5b19f",
+        "byte_length": 85918,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-408-410-20261113/docs/artwork-research-evidence/met-408-410-2026-11-13.json",
+        "source_accession_number": "1975.280.2",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-23290-001.jpg",
+          "sha256": "f72dd3cc1c52b82062e6dfb3f89bd9fc2b470fe8a0daa1b1d8feab57e4a7a25d",
+          "byte_length": 3487775,
+          "width": 4000,
+          "height": 2701,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 4.33824",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "畏敬": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/437979",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "月明かりの海と沖合の蒸気船が描かれた、19世紀の画家アイヴァゾフスキーの小さな風景画を味わいたい",
+              "reason": "Met作品別Overviewによればアルメニア系で当時ロシア帝国領だったクリミア半島フェオドシヤ生まれの海景画家イワン・アイヴァゾフスキー（1817–1900）が制作した作品。彼は帆船を好んで描いたが、ときにはこの作品のように近代的な蒸気船も題材にした。黒海沿岸の港町で育った経験が彼の海への親近感を育てたとされ、幅広い都市で活動したのち故郷のフェオドシヤに拠点を保ち、1880年にそこに美術館を開いた。所蔵館は本作品の制作年を示していないため、特定年と同館の1880年開館を混同しない。絵の海域を黒海の特定場所と断定しない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "画家はアルメニア系でロシア帝国領クリミア（現在はウクライナの国際承認された領土）出身。作品の年代・描かれた海域はMetに明記なし。蒸気船の解釈は公式個別解説に従う。月の位置と海面の色彩は実画面の観察として区別する。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met作品別Overviewによればアルメニア系で当時ロシア帝国領だったクリミア半島フェオドシヤ生まれの海景画家イワン・アイヴァゾフスキー（1817–1900）が制作した作品。彼は帆船を好んで描いたが、ときにはこの作品のように近代的な蒸気船も題材にした。黒海沿岸の港町で育った経験が彼の海への親近感を育てたとされ、幅広い都市で活動したのち故郷のフェオドシヤに拠点を保ち、1880年にそこに美術館を開いた。所蔵館は本作品の制作年を示していないため、特定年と同館の1880年開館を混同しない。絵の海域を黒海の特定場所と断定しない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/437979"
+          },
+          "creation_context": "; Armenian-born in Feodosia, Russian Empire (now Ukraine); Black Sea painter; Oil on canvas; accession 1975.280.2",
+          "visual_clues": "Met API原寸・表示JPEGを実取得、SHA256と縮小RMSで照合し、公式主画像を視認。幅広い小さな油彩画で青灰色の月夜、左上寄りに丸い黄白色の月、その光が前景の波打つ海に反射する。画面右寄りの遠くの水平線には細長い船体・マスト・煙突状の構造物の船があり、手前には暗い岸辺がある。波に光る細い帯と暗い空が印象的。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=4.3382で対応確認。",
+          "uncertainty_note": "画家はアルメニア系でロシア帝国領クリミア（現在はウクライナの国際承認された領土）出身。作品の年代・描かれた海域はMetに明記なし。蒸気船の解釈は公式個別解説に従う。月の位置と海面の色彩は実画面の観察として区別する。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "畏敬"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-408-410-20261113/docs/artwork-research-evidence/met-408-410-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "薄い月の光が、暗い海面の波に細く反射しています。遠くには、マストと煙突のある船の姿。近くの岸辺は暗く沈み、月から海へと続く明るさが画面の奥行きを生んでいます。\n\nこの小さな油彩画は、海景を数多く描いたイワン・アイヴァゾフスキーの作品です。帆船を好んだ画家でしたが、ときにはこの絵のような近代的な蒸気船も描きました。月明かりの海に機械の船が浮かぶところに、自然の光と新しい時代の風景が重なっています。\n\n画家は当時ロシア帝国領だったクリミア半島の港町フェオドシヤで、アルメニア系の家族に生まれました。黒海の近くで育ったことは、海を描く関心につながったと美術館は説明しています。ただし、この絵がどの海を描いたのか、正確にいつ制作されたかまでは分かりません。月の光と船の影をたどりながら、静かな海の広がりを感じてみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/437979"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-437979-2026-11-13.json",
+        "audit_sha256": "8a4bcaffa7c5d8eb5eb7da1b8d55dd4b2a1457b00e150959d06e4f25c250349e",
+        "record_sha256": "6cabc643171eef42d8b9fec527927c7dd8fe7cf067f2e0ec2143e74d4d102df7"
+      }
+    },
+    {
+      "id": "met-449536",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 449536,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/449536",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/449536",
+        "record_checked_on": "2026-11-13"
+      },
+      "facts": {
+        "title_original": "Title Page of the Gospel of John",
+        "title_ja_provisional": "『ヨハネによる福音書』の扉絵",
+        "artist": "Sargis (illuminator)",
+        "creation_date_display": "1300–1310",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Armenia (Siwnik)",
+        "accession_number": "38.171.2"
+      },
+      "image": {
+        "image_id": "met-449536-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/is/web-large/sf38-171-2s1.JPG",
+        "source_registry_id": "met-449536",
+        "local_path": "/artworks/met-449536.jpg",
+        "sha256": "dc584305ce661a033df7db91892bd391395d87620748d85d962839aec4ed85df",
+        "byte_length": 131087,
+        "live_image_checked": true,
+        "live_check_scope": "Live Met API and both actual official JPEG full SHA256/bytes, resize RMS and same-AI viewed thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-408-410-20261113/docs/artwork-research-evidence/met-408-410-2026-11-13.json",
+        "source_accession_number": "38.171.2",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/sf38-171-2s1.JPG",
+          "sha256": "156b4f628b1f98f9c8bf097a3432a58efc441eaa18a9b99ab065a4370ac54ddc",
+          "byte_length": 1218664,
+          "width": 1856,
+          "height": 2472,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API primary original/display, RGB downscale RMS 14.53921",
+          "last_full_sha_checked_on": "2026-11-13",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ"
+        ],
+        "themes": [
+          "時間",
+          "共同体"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/449536",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "14世紀初頭のアルメニアの彩飾写本で、動物の姿をした文字と四福音書記者の象徴を眺めたい",
+              "reason": "Metの個別作品Overviewは1300～1310年頃のアルメニアの写本彩飾画家サルギスによるヨハネ福音書の扉ページとして、最初の大きな頭文字と装飾枠に四福音書記者の象徴（マタイの天使、マルコの獅子、ルカの牛、ヨハネの鷲）を盛り込み、ビザンティン風の幾何学紋様を広げたと説明。文字そのものが鳥の形で書かれた部分があり、上部には孔雀に挟まれ祝福するキリストを置く。古代アルメニアの神学者は鳥を天へ飛び立つ魂の比喩として捉えた。日本語本文は福音書そのものの神学的事実と美術館による図像解釈を分けて書く。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "作品は彩色装飾を施した写本の1ページで、単独の油彩画や宗教書全巻ではない。メトロポリタン美術館によれば彩飾担当はサルギスで、写本本文の筆写者まで同一人物と断定しない。鳥の意味は伝統的な神学の象徴。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Metの個別作品Overviewは1300～1310年頃のアルメニアの写本彩飾画家サルギスによるヨハネ福音書の扉ページとして、最初の大きな頭文字と装飾枠に四福音書記者の象徴（マタイの天使、マルコの獅子、ルカの牛、ヨハネの鷲）を盛り込み、ビザンティン風の幾何学紋様を広げたと説明。文字そのものが鳥の形で書かれた部分があり、上部には孔雀に挟まれ祝福するキリストを置く。古代アルメニアの神学者は鳥を天へ飛び立つ魂の比喩として捉えた。日本語本文は福音書そのものの神学的事実と美術館による図像解釈を分けて書く。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/449536"
+          },
+          "creation_context": "1300–1310; Armenia (Siwnik); Ink, opaque watercolor, and gold on paper; accession 38.171.2",
+          "visual_clues": "実際のMet APIの原寸と表示JPEGのサムネイルを視認。縦長の黄みを帯びた紙の上部に赤・青・金の入り組んだ装飾枠と小さな人物像があり、中央左に巨大な彩色頭文字のような装飾、下に細長い色付き文字列、右に植物や鳥のような細長い装飾がある。紙の隅はやや欠け、装飾文字の形はMet個別解説で確かめた。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=14.5392で対応確認。",
+          "uncertainty_note": "作品は彩色装飾を施した写本の1ページで、単独の油彩画や宗教書全巻ではない。メトロポリタン美術館によれば彩飾担当はサルギスで、写本本文の筆写者まで同一人物と断定しない。鳥の意味は伝統的な神学の象徴。"
+        },
+        "emotion_categories": {
+          "primary": [],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-13",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Same AI conducted separate real-page and JPEG thumbnail review; not human or independent expert. https://github.com/matumaruex/kaiga-data/blob/codex/artworks-408-410-20261113/docs/artwork-research-evidence/met-408-410-2026-11-13.json"
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "紙の上部には、赤や青、金色の細かな模様が重なり、文字の形そのものが絵のように装飾されています。ところどころに鳥や獣、人の姿が見え、文章を読み始める前から視線が細部へと引き込まれます。\n\nこの作品は、1300～1310年頃のアルメニアで制作された『ヨハネによる福音書』の彩飾された扉ページです。画家サルギスは、大きな頭文字とその周りに、四人の福音書記者を表す天使・獅子・牛・鷲を組み込みました。最初の言葉の中には、鳥の形に作られた文字もあります。\n\n上部には二羽の孔雀に囲まれ、人々を祝福するキリストが描かれています。美術館は、アルメニアの初期の神学者が鳥を天へ飛び立つ魂の象徴と捉えたことも紹介しています。幾何学的な模様と生き物の姿をたどると、文字を装飾することが宗教的な意味を伝える手段にもなっていたと分かります。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/449536"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-13"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-449536-2026-11-13.json",
+        "audit_sha256": "6a0c3a5a4796df0e519a7b12f84b56fd72efc9118e3b430d6827464d54b5cb65",
+        "record_sha256": "86b1af90b4d0d0d5ae2255f9f62249ac25ac3ec3e9d052f175fe434bd2f85760"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

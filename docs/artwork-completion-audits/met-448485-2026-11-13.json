@@ -1,0 +1,120 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-448485",
+  "checked_on": "2026-11-13",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-448485.json",
+  "candidate_sha256": "75911f4fadf1b82fcc535380be1eb9bd4bde840ff1648136eef17662d6bb1ce6",
+  "draft_path": "drafts/visitor-explanations/met-448485.json",
+  "draft_sha256": "be1c1e6611b73a9ce9cde04208ac820f17d8f0a8c4c6279948431008c76d133a",
+  "baseline": {
+    "artworks_sha256": "52e8a59fa533b28aec88d0ca526cd869ae3018ff03df81f9e6d0cb7d6b9ebe49",
+    "image_registry_sha256": "326689ee71a9567504dfec54984874c9b2d6dd0a00b76dca495d954fe7688c79"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/448485",
+      "source_excerpt": "reclining on textiles with Chinese-inspired phoenixes and clouds",
+      "visitor_claim": "女性たちが身を寄せる織物には、中国風の鳳凰や雲の模様が描かれています。",
+      "source_section": "Exact Met artwork Overview: Chinese-inspired textile designs"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/448485",
+      "source_excerpt": "eating pomegranates and peaches, and listening to the drum",
+      "visitor_claim": "ザクロや桃が用意され、室内の集まりの様子が色彩豊かに表されています。",
+      "source_section": "Exact Met artwork Overview: fruit and percussion in court gathering"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/448485",
+      "location": "Exact artwork Overview and Object Information: Exact Met artwork Overview: Chinese-inspired textile designs; Exact Met artwork Overview: fruit and percussion in court gathering",
+      "finding": "Metの個別作品Overviewによると17世紀末～18世紀初めのデイヴィス・アルバムの一葉は、宮廷女性たちが中国に影響を受けた鳳凰・雲模様の織物の上にもたれ、ザクロや桃を食べ、太鼓の音に耳を傾ける場面。女性たちだけでなく乳児の手足にも真珠・ルビー・金の宝飾があしらわれている。宮廷女性たちの生活をうかがわせる希少な図であるという解説で、描かれた特定の集まりを実際の日時の記録として断定していない。制作地は『Attributed to India』で画家名も不明。 Actual image observation: Metの実際の原寸JPEGと表示JPEGを取得してハッシュ・縮小RMSを比較し、API由来の主画像を視認。赤みを帯びた紙の中央の細長い彩色画面で、複数の女性が黄色や赤、白などの衣をまとって並び、下部に大きな太鼓、青い絨毯に似た布と花果・金の飾り、右側の緑の窓のような枠、周囲の広いアルバム紙縁が見える。細かな宝石・果物の種類は公式解説に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.3443で対応確認。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/448485",
+      "location": "Exact Met object API ID, artwork public-domain flag and primary JPEG URLs",
+      "finding": "Actual official API data and full original/display SHA256, sizes, dimensions and RMS checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-408-410-20261113/docs/artwork-research-evidence/met-408-410-2026-11-13.json",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access policy for images of public-domain works",
+      "finding": "Met primary image CC0/Open Access. Modern explanatory Overview is a separate copyrighted text.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/448485",
+      "finding": "Public Domain on exact object web page and isPublicDomain true via live Met API."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Met original and display primary JPEG under Open Access CC0, with actual complete fingerprints and observed matching thumbnails: https://github.com/matumaruex/kaiga-data/blob/codex/artworks-408-410-20261113/docs/artwork-research-evidence/met-408-410-2026-11-13.json"
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/448485",
+      "finding": "Original Japanese interpretive explanation; two short English primary-Overview excerpts only in internal audit; no lengthy museum text reused. Not a legal opinion."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI's separate pass reread the exact official artwork Overview and object details, matched two exact short source passages to distinct Japanese claims, and viewed thumbnails from the actual fetched API primary display JPEG with full original/display byte hashes and resized RGB comparison.",
+    "limitations": "No separate model, human scholarly reviewer, lawyer, or final site-release approval. Online museum-page fetch can be rate-limited in GitHub Actions; user-visible prose is independent, not an official translation.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-448485 \"A Gathering of Court Women\", Folio from the Davis Album; Unidentified artist; late 17th–early 18th century; accession 30.95.174.27. Correct attribution uncertainty as on exact artwork page.",
+      "image_match": "Metの実際の原寸JPEGと表示JPEGを取得してハッシュ・縮小RMSを比較し、API由来の主画像を視認。赤みを帯びた紙の中央の細長い彩色画面で、複数の女性が黄色や赤、白などの衣をまとって並び、下部に大きな太鼓、青い絨毯に似た布と花果・金の飾り、右側の緑の窓のような枠、周囲の広いアルバム紙縁が見える。細かな宝石・果物の種類は公式解説に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.3443で対応確認。 Actual Met JPEG identities and size checked in https://github.com/matumaruex/kaiga-data/blob/codex/artworks-408-410-20261113/docs/artwork-research-evidence/met-408-410-2026-11-13.json",
+      "historical_interpretation": "Metの個別作品Overviewによると17世紀末～18世紀初めのデイヴィス・アルバムの一葉は、宮廷女性たちが中国に影響を受けた鳳凰・雲模様の織物の上にもたれ、ザクロや桃を食べ、太鼓の音に耳を傾ける場面。女性たちだけでなく乳児の手足にも真珠・ルビー・金の宝飾があしらわれている。宮廷女性たちの生活をうかがわせる希少な図であるという解説で、描かれた特定の集まりを実際の日時の記録として断定していない。制作地は『Attributed to India』で画家名も不明。 Limits: 制作地はインドと推定にとどまる。宮廷女性の実生活を写真のように忠実に記録したと断定しない。赤い外枠はアルバムの余白であり絵の場面の一部ではない。画家は不明。",
+      "emotion": "Emotion tags are curator-facing possibilities, not claims about artist psychology: ['好奇心']",
+      "visitor_text": "Japanese visitor prose separately checked against actual Met Overview and image with two concise verbatim excerpts.",
+      "rights": "Object flagged Public Domain by Met page/API; primary image under Met Open Access CC0; modern Overview protected, independently authored Japanese prose."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/DP159389.jpg",
+      "sha256": "dca0f0b572207bba2aed30ef1b3c61e3dd89aa5c52300cbed5cd6afac3a1545e",
+      "byte_length": 92666,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Metの実際の原寸JPEGと表示JPEGを取得してハッシュ・縮小RMSを比較し、API由来の主画像を視認。赤みを帯びた紙の中央の細長い彩色画面で、複数の女性が黄色や赤、白などの衣をまとって並び、下部に大きな太鼓、青い絨毯に似た布と花果・金の飾り、右側の緑の窓のような枠、周囲の広いアルバム紙縁が見える。細かな宝石・果物の種類は公式解説に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.3443で対応確認。 Confirmed image belongs to Met artwork 448485, not lookalike search results."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/DP159389.jpg",
+      "sha256": "853bb3c1de9453a45cb6d1ee65c7bc4192a00db04ea261df2ee2b2c0efb6f30c",
+      "byte_length": 2385911,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "checked_on": "2026-11-13",
+      "observation": "Metの実際の原寸JPEGと表示JPEGを取得してハッシュ・縮小RMSを比較し、API由来の主画像を視認。赤みを帯びた紙の中央の細長い彩色画面で、複数の女性が黄色や赤、白などの衣をまとって並び、下部に大きな太鼓、青い絨毯に似た布と花果・金の飾り、右側の緑の窓のような枠、周囲の広いアルバム紙縁が見える。細かな宝石・果物の種類は公式解説に基づく。 Met公式原寸と表示JPEGを全バイトSHA256で取得し、縮小RMS=10.3443で対応確認。 Confirmed image belongs to Met artwork 448485, not lookalike search results."
+    }
+  ],
+  "notes": [
+    "Sequential registration #408; earlier artwork and registry prefixes retained.",
+    "Individual official Overview was directly reread from Met webpage and excerpts checked against actual Japanese visitor text.",
+    "Research image thumbnails were generated from actual Met API primary display JPEG and observed; separate review by same AI, not an independent human auditor.",
+    "Met 448485 is attributed to India rather than definitively sourced; Met 437979 is undated in the official API and object-page record; Met 449536 is a painted book folio, with Sargis credited as illuminator."
+  ]
+}
