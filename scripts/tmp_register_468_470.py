@@ -8,7 +8,7 @@ from PIL import Image, ImageChops, ImageStat
 ROOT=Path(__file__).resolve().parents[1]
 os.chdir(ROOT)
 DATE="2026-11-14"
-BRANCH="codex/artworks-468-470-20261113"
+BRANCH="codex/artworks-468-470-20261114"
 OA="https://www.metmuseum.org/hubs/open-access"
 BASE="https://www.metmuseum.org/art/collection/search/"
 API="https://collectionapi.metmuseum.org/public/collection/v1/objects/"
