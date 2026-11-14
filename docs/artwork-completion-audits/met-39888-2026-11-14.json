@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-39888",
+  "checked_on": "2026-11-14",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-39888.json",
+  "candidate_sha256": "2b1cb06186116081b1e846e5ed2a7ee516d1918496757b14494844a0e813939b",
+  "draft_path": "drafts/visitor-explanations/met-39888.json",
+  "draft_sha256": "90e20c1b443ca43a2a266a61bafffc143a27e8212327627eab9c321a2c464ad0",
+  "baseline": {
+    "artworks_sha256": "3a21d1c8c43687b69d0aa0bf07fc8cf3b3c04f5e324459d8121ba34df93c2180",
+    "image_registry_sha256": "395f1328077eee8f0c24a7f72763aa8e4f7d76e810ce34fa98c4df4b8dc034f6"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/39888",
+      "source_excerpt": "distant mountains with a flock of flying geese",
+      "visitor_claim": "メトロポリタン美術館は、遠くの山々と雁の群れが、この画題を見分ける手がかりだと説明しています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/39888",
+      "source_excerpt": "The style of the work is in the manner of An Gyeon",
+      "visitor_claim": "筆づかいや構成は朝鮮の宮廷画家・安堅の様式に近いと考えられていますが、安堅自身の作と確認されたわけではありません。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/39888",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "メトロポリタン美術館作品39888《Wild geese descending to sandbar》の作品個別Overview（https://www.metmuseum.org/art/collection/search/39888）を2026-11-14に直接閲覧し、公式メインIIIF画像39888/149682を直接視認して確認。作者は不詳、朝鮮王朝、15世紀後半から16世紀初頭の絹本墨画の掛軸。中国湖南省の瀟水・湘江流域を主題とする『瀟湘八景』の一場面で、空を飛び砂州へ下りる雁が図像を特定する。中国宋代の詩画で成立した主題は朝鮮で15～16世紀に大いに受容され、朝鮮の作者が独自に描き直したとMetは論じる。もとは一連の組作品の一部とされ、前景・中景・遠景の三段構成と繊細な墨の濃淡が特徴。15世紀朝鮮の宮廷画家安堅（An Gyeon）の画風『に倣う』とMetは説明するが、安堅の直筆としてはおらず作者不詳。画像上は上部右に漢字の詩文、濃い墨の山々、中央の薄い靄と長く伸びる砂州、極小の雁の列、水面、下部の木と小舟の形。実在の湖南地方を朝鮮人が現地で写生した確証はない。 Visual: 実際に作品のMet公式ページからリンクされた https://collectionapi.metmuseum.org/api/collection/v1/iiif/39888/149682/main-image を開き視認した。縦長の絹本掛軸、淡黄色の装丁が外周にあり、画面上部右側に縦書きの漢字詩。上半には重なった尖った山と霧、やや下に水辺へ伸びる細い陸地とごく小さな雁の点の連なり。中段・下段は広い淡い川面を空け、手前には樹木、数隻の小船らしき黒い形、岸辺の細い草木がある。色彩画ではなく墨の濃淡による渋い山水。どの小さな点が雁か、どの船に人が乗っているかを画像だけで断定しない。Metの個別Overviewと同一作品画像の形状が一致。 Limits: 本画は朝鮮で制作されたが、図像が描く瀟湘八景は中国湖南地方に由来する。作者名は不詳で『安堅風』という様式説明を作者確定と混同しない。シリーズ原本の全貌・所在は未確定なので『組作品の一部とみられる』に留める。雁は公式画題・公式解説に基づいて同定するが画像では極小。作品内の漢字の詩を翻訳する場合は出典・翻訳研究が必要で、今回は本文を創作しない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/39888",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-39888: API objectID=39888, primary JPEG full downloaded and verified; RMS=5.8850",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/39888",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=5.8850."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/39888",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and the artwork-specific visual sources: official Met IIIF 39888/149682, 441933/802838, and 37896/150870 were opened and visually checked, plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-39888 Wild geese descending to sandbar / Unidentified artist / late 15th–early 16th century / 1992.337",
+      "image_match": "実際に作品のMet公式ページからリンクされた https://collectionapi.metmuseum.org/api/collection/v1/iiif/39888/149682/main-image を開き視認した。縦長の絹本掛軸、淡黄色の装丁が外周にあり、画面上部右側に縦書きの漢字詩。上半には重なった尖った山と霧、やや下に水辺へ伸びる細い陸地とごく小さな雁の点の連なり。中段・下段は広い淡い川面を空け、手前には樹木、数隻の小船らしき黒い形、岸辺の細い草木がある。色彩画ではなく墨の濃淡による渋い山水。どの小さな点が雁か、どの船に人が乗っているかを画像だけで断定しない。Metの個別Overviewと同一作品画像の形状が一致。 Both primary JPEG variants fully downloaded and match (RMS=5.8850).",
+      "historical_interpretation": "メトロポリタン美術館作品39888《Wild geese descending to sandbar》の作品個別Overview（https://www.metmuseum.org/art/collection/search/39888）を2026-11-14に直接閲覧し、公式メインIIIF画像39888/149682を直接視認して確認。作者は不詳、朝鮮王朝、15世紀後半から16世紀初頭の絹本墨画の掛軸。中国湖南省の瀟水・湘江流域を主題とする『瀟湘八景』の一場面で、空を飛び砂州へ下りる雁が図像を特定する。中国宋代の詩画で成立した主題は朝鮮で15～16世紀に大いに受容され、朝鮮の作者が独自に描き直したとMetは論じる。もとは一連の組作品の一部とされ、前景・中景・遠景の三段構成と繊細な墨の濃淡が特徴。15世紀朝鮮の宮廷画家安堅（An Gyeon）の画風『に倣う』とMetは説明するが、安堅の直筆としてはおらず作者不詳。画像上は上部右に漢字の詩文、濃い墨の山々、中央の薄い靄と長く伸びる砂州、極小の雁の列、水面、下部の木と小舟の形。実在の湖南地方を朝鮮人が現地で写生した確証はない。 Cautions: 本画は朝鮮で制作されたが、図像が描く瀟湘八景は中国湖南地方に由来する。作者名は不詳で『安堅風』という様式説明を作者確定と混同しない。シリーズ原本の全貌・所在は未確定なので『組作品の一部とみられる』に留める。雁は公式画題・公式解説に基づいて同定するが画像では極小。作品内の漢字の詩を翻訳する場合は出典・翻訳研究が必要で、今回は本文を創作しない。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['安心', '懐かしさ']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DT6930.jpg",
+      "sha256": "7d7ee08d7e3c4c68130199d820994474bab1289da82ce64c334cb9b4d071aa66",
+      "byte_length": 40925,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/39888",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/39888/149682/main-image"
+      ],
+      "checked_on": "2026-11-14",
+      "observation": "実際に作品のMet公式ページからリンクされた https://collectionapi.metmuseum.org/api/collection/v1/iiif/39888/149682/main-image を開き視認した。縦長の絹本掛軸、淡黄色の装丁が外周にあり、画面上部右側に縦書きの漢字詩。上半には重なった尖った山と霧、やや下に水辺へ伸びる細い陸地とごく小さな雁の点の連なり。中段・下段は広い淡い川面を空け、手前には樹木、数隻の小船らしき黒い形、岸辺の細い草木がある。色彩画ではなく墨の濃淡による渋い山水。どの小さな点が雁か、どの船に人が乗っているかを画像だけで断定しない。Metの個別Overviewと同一作品画像の形状が一致。 Official same-object primary JPEG original/display resized RGB RMS=5.8850; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DT6930.jpg",
+      "sha256": "512c852cadd8ea70f4aa96277ff43484343ce86c6c295f84a69ce0e41cc95c28",
+      "byte_length": 1321188,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/39888",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/39888/149682/main-image"
+      ],
+      "checked_on": "2026-11-14",
+      "observation": "実際に作品のMet公式ページからリンクされた https://collectionapi.metmuseum.org/api/collection/v1/iiif/39888/149682/main-image を開き視認した。縦長の絹本掛軸、淡黄色の装丁が外周にあり、画面上部右側に縦書きの漢字詩。上半には重なった尖った山と霧、やや下に水辺へ伸びる細い陸地とごく小さな雁の点の連なり。中段・下段は広い淡い川面を空け、手前には樹木、数隻の小船らしき黒い形、岸辺の細い草木がある。色彩画ではなく墨の濃淡による渋い山水。どの小さな点が雁か、どの船に人が乗っているかを画像だけで断定しない。Metの個別Overviewと同一作品画像の形状が一致。 Official same-object primary JPEG original/display resized RGB RMS=5.8850; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #480 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}
