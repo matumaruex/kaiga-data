@@ -1,0 +1,169 @@
+{
+  "checked_on": "2026-11-14",
+  "method": "Live Met API primary original/display full JPEG SHA256/size and RGB correspondence; exact Met artwork Overview read directly. Official Met IIIF views 39888/149682, 441933/802838, and 37896/150870 were directly viewed and compared with the corresponding artwork-specific Met Overview descriptions. CI verifies each official Met API original/display JPEG pair.",
+  "artworks": [
+    {
+      "id": "met-39888",
+      "objectID": 39888,
+      "title": "Wild geese descending to sandbar",
+      "artist": "Unidentified artist",
+      "date": "late 15th–early 16th century",
+      "accession": "1992.337",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/39888",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/39888",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/39888",
+          "source_excerpt": "distant mountains with a flock of flying geese",
+          "visitor_claim": "メトロポリタン美術館は、遠くの山々と雁の群れが、この画題を見分ける手がかりだと説明しています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/39888",
+          "source_excerpt": "The style of the work is in the manner of An Gyeon",
+          "visitor_claim": "筆づかいや構成は朝鮮の宮廷画家・安堅の様式に近いと考えられていますが、安堅自身の作と確認されたわけではありません。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "実際に作品のMet公式ページからリンクされた https://collectionapi.metmuseum.org/api/collection/v1/iiif/39888/149682/main-image を開き視認した。縦長の絹本掛軸、淡黄色の装丁が外周にあり、画面上部右側に縦書きの漢字詩。上半には重なった尖った山と霧、やや下に水辺へ伸びる細い陸地とごく小さな雁の点の連なり。中段・下段は広い淡い川面を空け、手前には樹木、数隻の小船らしき黒い形、岸辺の細い草木がある。色彩画ではなく墨の濃淡による渋い山水。どの小さな点が雁か、どの船に人が乗っているかを画像だけで断定しない。Metの個別Overviewと同一作品画像の形状が一致。",
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/39888",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/39888/149682/main-image"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DT6930.jpg",
+          "sha256": "7d7ee08d7e3c4c68130199d820994474bab1289da82ce64c334cb9b4d071aa66",
+          "byte_length": 40925,
+          "size_px": [
+            281,
+            624
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DT6930.jpg",
+          "sha256": "512c852cadd8ea70f4aa96277ff43484343ce86c6c295f84a69ce0e41cc95c28",
+          "byte_length": 1321188,
+          "size_px": [
+            1675,
+            3722
+          ]
+        }
+      ],
+      "resized_rgb_rms": 5.885
+    },
+    {
+      "id": "met-441933",
+      "objectID": 441933,
+      "title": "Moonlight, Strandgade 30",
+      "artist": "Vilhelm Hammershøi",
+      "date": "1900–1906",
+      "accession": "2012.203",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/441933",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/441933",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/441933",
+          "source_excerpt": "deep lavender hues and velvety brushwork to capture the effect of moonlight",
+          "visitor_claim": "同じ居間を朝や昼にも描いており、この絵では深い薄紫色と柔らかな筆づかいで月光を表しています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/441933",
+          "source_excerpt": "can be glimpsed another part of the artist’s apartment",
+          "visitor_claim": "窓の向こうには、中庭を隔てた同じ住まいの別の部分も見えると美術館は説明しています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "Met公式作品ページ https://www.metmuseum.org/art/collection/search/441933 のメイン画像をクリックし、公式IIIF https://collectionapi.metmuseum.org/api/collection/v1/iiif/441933/802838/main-image を直接視認。横長の室内画で、画面中央やや左に縦に長い多格子の窓、右に装飾のない閉じた茶褐色の扉。壁は紫と灰を混ぜた沈んだ色で、下部には木の腰壁の枠。室内に人・椅子・テーブルがなく、下端の暗い床には窓の格子形をした白っぽい四角の月光が斜めに差し込む。窓の向こうは灰色で中庭の先がかすかに透ける。扉が今後開くかどうか、誰かが戻るかどうかは画面から分からない。",
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/441933",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/441933/802838/main-image"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP273105.jpg",
+          "sha256": "1527a5632b560abe412faaad06422d014bfebddbb41f31a2d31f54a1e2588727",
+          "byte_length": 68469,
+          "size_px": [
+            600,
+            479
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP273105.jpg",
+          "sha256": "418da7d5d0d59bf7097c25a12cc65a57e825aface7bcb64a4d19240e2e2929d3",
+          "byte_length": 2658660,
+          "size_px": [
+            3905,
+            3118
+          ]
+        }
+      ],
+      "resized_rgb_rms": 4.5397
+    },
+    {
+      "id": "met-37896",
+      "objectID": 37896,
+      "title": "Ladies in a Pavilion: Page from a Dispersed Ragamala Series (Garland of Musical Modes)",
+      "artist": "Unknown artist",
+      "date": "ca. 1640–50",
+      "accession": "55.121.28",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/37896",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/37896",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/37896",
+          "source_excerpt": "two women sit in conversation while a third looks on",
+          "visitor_claim": "美術館の説明では、二人が会話し、もう一人がそれを見守っている場面です。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/37896",
+          "source_excerpt": "Marwari taste for saturated red and orange earth tones",
+          "visitor_claim": "メトロポリタン美術館は、濃い赤と橙の土色がマールワール地方の絵画に特徴的だと指摘しています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "Met公式作品ページ https://www.metmuseum.org/art/collection/search/37896 の公式画像リンク https://collectionapi.metmuseum.org/api/collection/v1/iiif/37896/150870/main-image を直接開いて視認。縦長紙の内側に赤い軒のある四角い東屋。上部に黒いデーヴァナーガリー系の書き込みが見える。向かって左には赤い花柄のスカートと白い布をまとう立ち姿の女性、真ん中にはオレンジ色の丸く大きなスカートをまとい左手を顎へ添える座った女性、右下には暗い赤の裾の衣装で膝を曲げ、手を上げる女性。壁は深緑、下部は淡い青灰色の地面、右に朱色の細い花草の文様。具体的な音楽演奏を示す楽器は直接見えないので演奏風景と呼ばない。",
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/37896",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/37896/150870/main-image"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP156140.jpg",
+          "sha256": "2a0e88a06f714f157627e80aa15ecd880916f4117a9b23294ed31b163a23e2a0",
+          "byte_length": 119860,
+          "size_px": [
+            510,
+            625
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP156140.jpg",
+          "sha256": "e0e695da30e4756a4e6bf3ca0be427d6998202131715df2805d070cd6bc3236f",
+          "byte_length": 3065128,
+          "size_px": [
+            3266,
+            4000
+          ]
+        }
+      ],
+      "resized_rgb_rms": 8.3699
+    }
+  ],
+  "limitations": [
+    "Same AI review, not an independent human/expert",
+    "Per-work visual-reference provenance and limitations documented; official Met original/display JPEGs downloaded and RGB correspondence checked"
+  ]
+}
