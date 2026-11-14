@@ -1,0 +1,170 @@
+{
+  "checked_on": "2026-11-14",
+  "method": "Live Met API primary original/display full JPEG SHA256/size and RGB correspondence; exact Met artwork Overview read directly. Official Met IIIF for met-21209/1587545 and met-437192/795865 were viewed, as well as two official Met alternate IIIF images of met-451403 (870491 and 888069). First met-451403 IIIF 904159 failed and this is documented. CI verifies each official Met API original/display JPEG pair.",
+  "artworks": [
+    {
+      "id": "met-451403",
+      "objectID": 451403,
+      "title": "Wine Drinking in a Spring Garden",
+      "artist": "Unknown artist",
+      "date": "ca. 1430",
+      "accession": "57.51.24",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/451403",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/451403",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/451403",
+          "source_excerpt": "The youth offering a cup of wine to a maiden",
+          "visitor_claim": "メトロポリタン美術館は、若者が女性へ酒の杯を捧げる様子を、詩にも描かれたペルシャの宮廷文化の理想的な場面と説明しています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/451403",
+          "source_excerpt": "Chinese elements are seen in the arrangement of figures",
+          "visitor_claim": "美術館は、人物の横並びの配置や花枝の曲線などに中国絵画の影響を見ています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "Met公式対象作品ページ https://www.metmuseum.org/art/collection/search/451403 に掲載の公式IIIF画像451403/870491/main-imageと451403/888069/main-imageを実際に直接開いて照合。メインリンク451403/904159/main-imageは取得失敗したが、同一対象作品の残る2画像を見た。絹の地色に、左から青い長衣の立つ人物、青い衣装のひざまずく若者、中央の白い花の咲く樹木にもたれる緑色の衣装の女性、右端には青い頭巾と長衣をまとった人物が立つ。跪く人物は浅い皿または杯を差し出す。樹木の白い花枝が画面上部を伸びる。背景には宮殿や大きな山を描かず、無地に近い黄褐色。公式IIIFの実視認により人物人数・位置と花木を確認した。",
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/451403",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/451403/870491/main-image",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/451403/888069/main-image"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/is/web-large/DP240660.jpg",
+          "sha256": "2b6b6edd0b368ac8314087f863fd6703f939991ae78a92f29a59762966cde630",
+          "byte_length": 90638,
+          "size_px": [
+            599,
+            432
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP240660.jpg",
+          "sha256": "408ba53b1f90ac1c111fdce4bbc9e0e6f94ce8eaba96fdeb6166e29f1cd5b3ca",
+          "byte_length": 3175054,
+          "size_px": [
+            3830,
+            2763
+          ]
+        }
+      ],
+      "resized_rgb_rms": 8.0121
+    },
+    {
+      "id": "met-21209",
+      "objectID": 21209,
+      "title": "Self Portrait",
+      "artist": "Unknown Artist",
+      "date": "ca. 1800–1805",
+      "accession": "2014.512",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/21209",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/21209",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/21209",
+          "source_excerpt": "a miniature painter depicts himself with the tools of his trade",
+          "visitor_claim": "この画家は自分自身を、制作中の道具とともに描いています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/21209",
+          "source_excerpt": "he is believed to have been biracial and likely worked",
+          "visitor_claim": "メトロポリタン美術館は、画家が複数の人種的背景を持つ人物だったと考えられ、作品が見つかったニューオーリンズ周辺で活動した可能性が高いと説明しています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "Met作品ページ https://www.metmuseum.org/art/collection/search/21209 の公式IIIF 21209/1587545/main-imageを2026-11-14に直接開いて画像を確認。画像はグレー背景の額縁と上部の丸い吊り金具を含み、額内は正方形の小さな人物画。男性は黒に近い紺の上着、白い巻き襟と柄のある橙色のベスト、濃い短髪でこちらを見る。画面左に絵筆を伸ばし、もう片手は小さな白い楕円の絵具パレットを持つ。左下の机に置かれた小さな肖像は女性の顔が描かれ、緑色に縁取られた矩形内にある。右背後は縦棒を持つ茶色の木の椅子。背景は青灰色で左上に斜めに走る暗い影。画像だけから本人の出生地や人種的背景は確定不能。",
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/21209",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/21209/1587545/main-image"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DP701353.jpg",
+          "sha256": "15133e720a7047a7306441df91669d035a003025682b689473d4edb4d6570532",
+          "byte_length": 68817,
+          "size_px": [
+            439,
+            624
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP701353.jpg",
+          "sha256": "22043a09ff66f55b68532f670fbf7d2c099e65ddf157571d48a1cf42473b1d0c",
+          "byte_length": 2617477,
+          "size_px": [
+            2725,
+            3872
+          ]
+        }
+      ],
+      "resized_rgb_rms": 4.1103
+    },
+    {
+      "id": "met-437192",
+      "objectID": 437192,
+      "title": "Sports on a Frozen River",
+      "artist": "Aert van der Neer",
+      "date": "ca. 1660",
+      "accession": "32.100.11",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/437192",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437192",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/437192",
+          "source_excerpt": "part of a period of pronounced global cooling known as the Little Ice Age",
+          "visitor_claim": "17世紀は『小氷期』と呼ばれる寒冷な時期の一部で、メトロポリタン美術館は、この冬景色から当時の暮らしを垣間見られると説明しています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/437192",
+          "source_excerpt": "The luminous sunset is reflected in the ice",
+          "visitor_claim": "美術館は、夕日が氷に映る光の効果に注目しています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "Met公式作品ページ https://www.metmuseum.org/art/collection/search/437192 に直接リンクされた公式IIIF https://collectionapi.metmuseum.org/api/collection/v1/iiif/437192/795865/main-image を直接開いて図像を確認。横長の絵の前景には雪の残る茶色い河岸と枯草、手前の岸で数人が身を寄せ長い棒を持つ。中景の凍った河面には小さな人物が散らばり、スケート靴や棒のような道具で遊び、奥に伸びる川が遠近を示す。両岸の左には家屋や木の電柱に似た細い帆柱風の線、右にも家並み。上空は灰色い雲が低く垂れ、中心右奥の地平線に赤橙の夕日が見え、氷面に光が縦に反射する。人物の正確な名前や年齢は推定不能。",
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437192",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437192/795865/main-image"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146485.jpg",
+          "sha256": "6248fb7650b182bb23fc93ab1cf1ce2bd0633bc103430f9cd8f4612dba333e24",
+          "byte_length": 73931,
+          "size_px": [
+            599,
+            395
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146485.jpg",
+          "sha256": "f4ef6c26cc9c4822e85398509eae2864c4a542ffacafc281087f59fce90e1eec",
+          "byte_length": 2663824,
+          "size_px": [
+            3899,
+            2573
+          ]
+        }
+      ],
+      "resized_rgb_rms": 6.5599
+    }
+  ],
+  "limitations": [
+    "Same AI review, not an independent human/expert",
+    "Per-work visual-reference provenance and limitations documented; official Met original/display JPEGs downloaded and RGB correspondence checked"
+  ]
+}
