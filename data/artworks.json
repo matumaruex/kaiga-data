@@ -57086,6 +57086,381 @@
         "audit_sha256": "44b03a5a265bd7511b944a5c73506777332414e1c920d09f07bf069dde938e41",
         "record_sha256": "4d58897ab2fbb1fa90f92fc33376828dfd1a481b174d2eedc9c4c178f06c17bb"
       }
+    },
+    {
+      "id": "met-11979",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 11979,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/11979",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11979",
+        "record_checked_on": "2026-11-14"
+      },
+      "facts": {
+        "title_original": "Moonlight Marine",
+        "title_ja_provisional": "月光の海",
+        "artist": "Albert Pinkham Ryder",
+        "creation_date_display": "1870–90",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "American",
+        "accession_number": "34.55"
+      },
+      "image": {
+        "image_id": "met-11979-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT240273.jpg",
+        "source_registry_id": "met-11979",
+        "local_path": "/artworks/met-11979.jpg",
+        "sha256": "594687c235ce7cb2e9af7352ba9ad43e76df46f996d1d271588403f3d730dffa",
+        "byte_length": 154352,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "34.55",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DT240273.jpg",
+          "sha256": "1f9c50f52d2c791239033d453ea88e3d67ab01150c2087bcfbe2ca3e946c03a5",
+          "byte_length": 4508807,
+          "width": 3777,
+          "height": 3594,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=8.8173",
+          "last_full_sha_checked_on": "2026-11-14",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "孤独",
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "孤独": 2,
+          "好奇心": 1
+        },
+        "tones": [
+          "静けさ",
+          "余韻"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/11979",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "月明かりを受ける船と雲の曖昧な輪郭を眺め、夜の海の静けさと時間による絵の変化を感じたい",
+              "reason": "メトロポリタン美術館の作品11979《Moonlight Marine》の個別Overviewと正式作品情報を確認。アルバート・ピンカム・ライダー（1847–1917）が1870～90年に描いた小さな木板上の油彩（蝋を含む可能性もある）。ライダーは捕鯨港ニューベッドフォードに生まれ、1870年ニューヨークへ移った後も海に親しんだ。知人の船長はライダーが月明かりの夜に船に来てハドソン川の船や雲と月の光を観察したと回想している。ただしこの固有作品をその船上で制作したことを示す証言ではない。Metは絵具を厚く何層も重ねた結果、絵が完成した後に雲・帆・船体の輪郭が変化したと記す。実画像には暗い海、左右に黒い帆のシルエット、淡黄の空と月を囲むように流れる黒い雲がある。静けさや不安の印象は視覚的な鑑賞の解釈で、作者心理の証言ではない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "制作年は1870–90年という範囲であり、特定年に固定しない。船長の回想はライダーの日頃の観察行動を語るもので、この絵がその夜の船上で描かれた直接証拠ではない。油彩には蝋を含む可能性があるとMetは留保する。厚塗りによって完成後に画面の形が変わっており、現在の帆や雲の輪郭を制作当時のままと断定しない。月夜から孤独な作者という心理は推測しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "メトロポリタン美術館の作品11979《Moonlight Marine》の個別Overviewと正式作品情報を確認。アルバート・ピンカム・ライダー（1847–1917）が1870～90年に描いた小さな木板上の油彩（蝋を含む可能性もある）。ライダーは捕鯨港ニューベッドフォードに生まれ、1870年ニューヨークへ移った後も海に親しんだ。知人の船長はライダーが月明かりの夜に船に来てハドソン川の船や雲と月の光を観察したと回想している。ただしこの固有作品をその船上で制作したことを示す証言ではない。Metは絵具を厚く何層も重ねた結果、絵が完成した後に雲・帆・船体の輪郭が変化したと記す。実画像には暗い海、左右に黒い帆のシルエット、淡黄の空と月を囲むように流れる黒い雲がある。静けさや不安の印象は視覚的な鑑賞の解釈で、作者心理の証言ではない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/11979"
+          },
+          "creation_context": "1870–90; American; Oil and possibly wax on wood panel; accession 34.55",
+          "visual_clues": "2026-11-14に作品ID11979のMet作品ページで、その画像リンクから公式IIIF 11979/44883/main-imageを直接開いて図像を確認。ほぼ正方形の小さな板絵で、下部に黒緑色の暗い海、左右に二枚の黒い帆のような三角形と小さな船体、中心の空に淡黄色の月、上部を横切る黒い雲のかたまり。黄色い光は雲の縁や水平線付近に滲む。画面の全体に細いひび割れのような線が入り、現在の表面状態が描かれた当初と同じではない可能性がある。Metの公式主画像で確認した内容だが、人物の感情や船名は認定できない。",
+          "uncertainty_note": "制作年は1870–90年という範囲であり、特定年に固定しない。船長の回想はライダーの日頃の観察行動を語るもので、この絵がその夜の船上で描かれた直接証拠ではない。油彩には蝋を含む可能性があるとMetは留保する。厚塗りによって完成後に画面の形が変わっており、現在の帆や雲の輪郭を制作当時のままと断定しない。月夜から孤独な作者という心理は推測しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "孤独"
+          ],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-14",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Each exact Met artwork-specific Overview and accessible work-matched image was independently examined; two official Met main IIIF views were inspected and an alternate Met IIIF image of the third work was inspected. Official primary JPEG hashes checked in CI. Same AI, not a human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "暗い海の上に、帆を掲げた船の形が黒く浮かんでいます。空を横切る重い雲のあいだから淡い月の光がにじみ、水平線も海面も、はっきりした境目を失っているようです。\n\nアメリカの画家アルバート・ピンカム・ライダーが1870～90年の間に描いた《月光の海》です。ライダーは捕鯨港だったニューベッドフォードに生まれ、ニューヨークへ移ってからも海に親しみました。知人の船長は、彼が月夜に船を訪れ、川を行き交う船や雲を観察していたと回想しています。\n\nこの小さな板絵には、完成した後の時間も刻まれています。絵の具を厚く何層も重ねたため、完成後に雲や帆、船体の輪郭が変化したと美術館は説明しています。いま見える月夜は、画家の筆だけでなく、長い年月によっても姿を変えてきたのです。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/11979"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-14"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-11979-2026-11-14.json",
+        "audit_sha256": "bf0cde2628a72867728331bba6d1767033e072b2c70cb96a1e16e2a1163d3b6a",
+        "record_sha256": "6bb0be4970109d3ce7abeebf0496ffc6a0c194857a0cb8f67305877e2c07028c"
+      }
+    },
+    {
+      "id": "met-40003",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 40003,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/40003",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/40003",
+        "record_checked_on": "2026-11-14"
+      },
+      "facts": {
+        "title_original": "Travelers in a Wintry Forest",
+        "title_ja_provisional": "冬の林を行く旅人",
+        "artist": "Unidentified artist",
+        "creation_date_display": "early 12th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "China",
+        "accession_number": "1972.121"
+      },
+      "image": {
+        "image_id": "met-40003-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP154079.jpg",
+        "source_registry_id": "met-40003",
+        "local_path": "/artworks/met-40003.jpg",
+        "sha256": "4dc344671c694c3bafce7ed4a8c61d34191de03ad070a1ca5e437ce194d9677e",
+        "byte_length": 58341,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "1972.121",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP154079.jpg",
+          "sha256": "fb187ceaae944b6714c5315cec939831963622eae7860c4e578c99ca83338c5c",
+          "byte_length": 2931533,
+          "width": 4000,
+          "height": 3001,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=3.3224",
+          "last_full_sha_checked_on": "2026-11-14",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "畏敬",
+          "孤独"
+        ],
+        "emotion_strengths": {
+          "畏敬": 2,
+          "孤独": 1
+        },
+        "tones": [
+          "静けさ",
+          "重苦しさ"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/40003",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "冬枯れの大木と驢馬に乗る小さな旅人を見つけ、東アジアの山水画に込められた時間と徳の象徴を読み取りたい",
+              "reason": "メトロポリタン美術館所蔵作品40003《Travelers in a Wintry Forest》（12世紀初頭、北宋系の絹本水墨淡彩掛軸）。現在の作者表示は「Unidentified artist」で、五代北宋時代の李成（919–967）への帰属は『伝李成』とされ、本人直筆の確定作ではない。Met作品固有Overviewは画家・米芾が記した李成の有名な構図をこの作品が踏まえると説明する。古い巨大松は徳ある人物の象徴として解釈され、幼木から朽ちた老木までの木々が成長と衰退という自然の循環を表す。絵の下部に笠をかぶり驢馬に乗る文人が小さく描かれ、山中で世の秩序を求める隠者の理想と関連づけられる。この寓意はMetの美術史的説明であり、作者が自作の意味を明言したものではない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "李成の直筆と断定しない。Metの現在の作者表示は未詳、伝李成であり、年代は李成の死後にあたる12世紀初頭。画家自身の心理的意図と美術館による松の寓意の解釈を区別する。旅人は下部に小さく見えるため人物の顔・服装・身分は推定しない。山の情景を特定の地名・実在の旅路と結びつけない。公式の最初のIIIF main-imageリンク149055は閲覧不能であり、別の同一Met作品画像149054で確認した限界を記録する。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "メトロポリタン美術館所蔵作品40003《Travelers in a Wintry Forest》（12世紀初頭、北宋系の絹本水墨淡彩掛軸）。現在の作者表示は「Unidentified artist」で、五代北宋時代の李成（919–967）への帰属は『伝李成』とされ、本人直筆の確定作ではない。Met作品固有Overviewは画家・米芾が記した李成の有名な構図をこの作品が踏まえると説明する。古い巨大松は徳ある人物の象徴として解釈され、幼木から朽ちた老木までの木々が成長と衰退という自然の循環を表す。絵の下部に笠をかぶり驢馬に乗る文人が小さく描かれ、山中で世の秩序を求める隠者の理想と関連づけられる。この寓意はMetの美術史的説明であり、作者が自作の意味を明言したものではない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/40003"
+          },
+          "creation_context": "early 12th century; China; Hanging scroll; ink and color on silk; accession 1972.121",
+          "visual_clues": "2026-11-14にMetの作品40003固有の公式IIIF画像40003/149054/main-imageを直接開いて視認した。正規の初回リンク40003/149055はブラウザで取得に失敗したため、同一作品ページの追加画像である149054の全体像を視認した。縦長の絹本掛軸、上部に墨書の題字、下部に跋文がある。中央の絵は褐色の冬山、左端に大きくねじれた古木の幹、細く枝を伸ばす葉の落ちた木々、崖と岩が続く。下の小径には小さな笠をかぶった旅人が驢馬に乗り山道を進む。雪が深く積もるというより寒々しい枯れ枝の景観で、画面の色は濃茶・灰・淡い黄。追加画像149057には樹木の部分拡大もあり同じ作品の細部と確認できる。",
+          "uncertainty_note": "李成の直筆と断定しない。Metの現在の作者表示は未詳、伝李成であり、年代は李成の死後にあたる12世紀初頭。画家自身の心理的意図と美術館による松の寓意の解釈を区別する。旅人は下部に小さく見えるため人物の顔・服装・身分は推定しない。山の情景を特定の地名・実在の旅路と結びつけない。公式の最初のIIIF main-imageリンク149055は閲覧不能であり、別の同一Met作品画像149054で確認した限界を記録する。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "畏敬"
+          ],
+          "secondary": [
+            "孤独"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-14",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Each exact Met artwork-specific Overview and accessible work-matched image was independently examined; two official Met main IIIF views were inspected and an alternate Met IIIF image of the third work was inspected. Official primary JPEG hashes checked in CI. Same AI, not a human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "枝を落とした木々と、大きく曲がる古い松が冬の林を覆っています。画面の下には驢馬に乗った小さな旅人。人の姿は目立たず、木の幹や岩の重なりのほうが、ずっと大きく描かれています。\n\n《冬の林を行く旅人》は中国で12世紀初めに描かれたとされる掛軸です。かつて名画家・李成の作品と考えられていましたが、現在の作者は未詳です。この作品は李成の有名な構図を踏まえている、とメトロポリタン美術館は説明しています。\n\n大きな松は、徳のある人物を象徴すると美術館は説明しています。周囲の若木や折れた老木は、ものが育ち、衰えていく時間を思わせます。冬の山に入る小さな旅人と、何代もの時間を生きる木々。その大きさの違いから、静かな力強さが伝わってきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/40003"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-14"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-40003-2026-11-14.json",
+        "audit_sha256": "d93fd5c4c19f0c18fed6fae01ae48e29db3251463fe5e6e3d3023b626426e026",
+        "record_sha256": "2cd8b48da9570fc587b260dd8472353bb517dd57978c1f1ca55027b43198d8eb"
+      }
+    },
+    {
+      "id": "met-44523",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 44523,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/44523",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/44523",
+        "record_checked_on": "2026-11-14"
+      },
+      "facts": {
+        "title_original": "Birds and Flowers of the Four Seasons",
+        "title_ja_provisional": "四季花鳥図屏風",
+        "artist": "Unknown artist",
+        "creation_date_display": "late 16th century",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "1987.342.1, .2"
+      },
+      "image": {
+        "image_id": "met-44523-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP284317.jpg",
+        "source_registry_id": "met-44523",
+        "local_path": "/artworks/met-44523.jpg",
+        "sha256": "73c5afcc15e2953919b325086bbc6e23edc546fae87def84d067fa72259041a2",
+        "byte_length": 182368,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "1987.342.1, .2",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP284317.jpg",
+          "sha256": "c6a3bf68c92bb4d765a4614ea5c6a8293c3d951d4a80d6f5037418dc7e454ef2",
+          "byte_length": 1581309,
+          "width": 1976,
+          "height": 919,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=10.3085",
+          "last_full_sha_checked_on": "2026-11-14",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "喜び",
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "喜び": 2,
+          "畏敬": 1
+        },
+        "tones": [
+          "高揚",
+          "にぎわい"
+        ],
+        "themes": [
+          "自然",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/44523",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "金箔の大きな屏風に描かれた鶴と松竹、季節の草花をたどり、絵の華やかさに浸りたい",
+              "reason": "メトロポリタン美術館の作品44523《Birds and Flowers of the Four Seasons》を個別の作品解説と資料で照合。16世紀末の桃山時代、日本で制作された六曲一双の屏風。現行Metでは個人作家の確定帰属はなく「Japan」を作者欄に置く。花の移り変わりが春から冬の季節をたどり、鶴は長寿を願う吉祥の象徴。金箔を敷いた地に鮮やかな色と力強い墨の輪郭を重ねる大胆な装飾は狩野元信によって確立した絵の系統に典型的で、樹木の大きな誇張は狩野永徳の表現を思わせるとMetは論じる。これは狩野元信または永徳が実際に筆を執った証明ではない。制作当時の都の寺院や邸宅の豪華な趣味を反映するという文化史の解釈。Met 44523の公式ページには屏風の各部分を示す複数画像があり、公式IIIF 44523/204058/main-imageを視認した。金地の片隻の中に松・竹・曲線状の水辺・鶴が見え、別の隻を写真に写したものではない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "現在の公式作者欄に個人名の確定はない。狩野元信・狩野永徳は美術史的な様式比較に用いられ、作者だと断定しない。六曲一双＝六つ折り屏風二隻の組であり、Met APIのprimaryImageが片隻のみを示す可能性を画像説明と作品形式で区別する。季節が一枚に全て見えるとは限らず、春から冬への展開は二隻を通じたMet説明として書く。鶴を野生動物の生態学的観察と決めず、長寿を表す伝統意匠であると区別する。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "メトロポリタン美術館の作品44523《Birds and Flowers of the Four Seasons》を個別の作品解説と資料で照合。16世紀末の桃山時代、日本で制作された六曲一双の屏風。現行Metでは個人作家の確定帰属はなく「Japan」を作者欄に置く。花の移り変わりが春から冬の季節をたどり、鶴は長寿を願う吉祥の象徴。金箔を敷いた地に鮮やかな色と力強い墨の輪郭を重ねる大胆な装飾は狩野元信によって確立した絵の系統に典型的で、樹木の大きな誇張は狩野永徳の表現を思わせるとMetは論じる。これは狩野元信または永徳が実際に筆を執った証明ではない。制作当時の都の寺院や邸宅の豪華な趣味を反映するという文化史の解釈。Met 44523の公式ページには屏風の各部分を示す複数画像があり、公式IIIF 44523/204058/main-imageを視認した。金地の片隻の中に松・竹・曲線状の水辺・鶴が見え、別の隻を写真に写したものではない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/44523"
+          },
+          "creation_context": "late 16th century; Japan; Pair of six-panel folding screens; ink, color, gold, and gold leaf on paper; accession 1987.342.1, .2",
+          "visual_clues": "2026-11-14にMet作品44523の公式画像リンクからIIIF 44523/204058/main-imageを直接開いて確認。横長、六つの縦長パネルを区切る黒い線を持つ金色の屏風で、左端の竹・上空の小鳥、中左に濃紺で渦巻く水流と大きな緑の松、右寄りに背の高い白鶴とその下の複数の鶴、下部の花々が描かれる。金箔地の明るい無地を大きく残す一方で枝や茂みは勢いよく伸びる。公式の画像一覧は一双の構成要素にまたがるため、今回直接確認したのは最初の片隻の画像。これ一枚だけを二隻の全体図とは称しない。",
+          "uncertainty_note": "現在の公式作者欄に個人名の確定はない。狩野元信・狩野永徳は美術史的な様式比較に用いられ、作者だと断定しない。六曲一双＝六つ折り屏風二隻の組であり、Met APIのprimaryImageが片隻のみを示す可能性を画像説明と作品形式で区別する。季節が一枚に全て見えるとは限らず、春から冬への展開は二隻を通じたMet説明として書く。鶴を野生動物の生態学的観察と決めず、長寿を表す伝統意匠であると区別する。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喜び"
+          ],
+          "secondary": [
+            "畏敬"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-14",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Each exact Met artwork-specific Overview and accessible work-matched image was independently examined; two official Met main IIIF views were inspected and an alternate Met IIIF image of the third work was inspected. Official primary JPEG hashes checked in CI. Same AI, not a human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "金色の地に、大きく枝を伸ばした松と竹。紺色の水の流れが画面を横切り、白い鶴が立ち、ほかの鳥たちが空を飛んでいます。植物の形は力強い墨の線で縁取られ、余白の金箔まで光を放っているようです。\n\n《四季花鳥図屏風》は16世紀末、桃山時代の日本で作られた六曲一双の屏風です。草花は春から冬へ季節をたどるように配置され、鶴は長寿を願う吉祥の題材です。濃い墨の輪郭、鮮やかな色、金箔の地が画面を華やかに見せています。\n\nこうした豪華な花鳥画には狩野派の伝統が感じられますが、画家個人の名前は確定していません。一双の屏風を広げると、絵は室内の大きな空間を占めます。次々に現れる鳥や季節の草花を目で追いながら、当時の寺院や邸宅にあった華やかな時間を想像してみてください。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/44523"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-14"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-44523-2026-11-14.json",
+        "audit_sha256": "63c248b65954e733d7264b18809b0e1e0dd97f91f25aa268af059eaa8d40fc6f",
+        "record_sha256": "faea75f1a4345c72e4b22b092ef0394773e1e6ddce87af808edd6f09fea7f8e2"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",

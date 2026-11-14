@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-11979",
+  "checked_on": "2026-11-14",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-11979.json",
+  "candidate_sha256": "c848995d3f122b489a4480dd35a06cf01ae8cc188dcf9978ba79a66111965f85",
+  "draft_path": "drafts/visitor-explanations/met-11979.json",
+  "draft_sha256": "f6978e9ef099b42dc79818d79f65a7b86734b309e1ce2cddf107018d8d68c8ae",
+  "baseline": {
+    "artworks_sha256": "3d9a1a9dacccf66d291fe53d9826c178a9559bae3f4b6ea8a946abddc87c5d11",
+    "image_registry_sha256": "246bc1fd2ea10b5cf482b3354016b8ddae12db8c51aeda86f0b224a3759e0ca8"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/11979",
+      "source_excerpt": "Raised in the whaling port of New Bedford",
+      "visitor_claim": "ライダーは捕鯨港だったニューベッドフォードに生まれ、ニューヨークへ移ってからも海に親しみました。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/11979",
+      "source_excerpt": "Ryder’s habit of applying pigment in many thick layers has caused changes",
+      "visitor_claim": "絵の具を厚く何層も重ねたため、完成後に雲や帆、船体の輪郭が変化したと美術館は説明しています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/11979",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "メトロポリタン美術館の作品11979《Moonlight Marine》の個別Overviewと正式作品情報を確認。アルバート・ピンカム・ライダー（1847–1917）が1870～90年に描いた小さな木板上の油彩（蝋を含む可能性もある）。ライダーは捕鯨港ニューベッドフォードに生まれ、1870年ニューヨークへ移った後も海に親しんだ。知人の船長はライダーが月明かりの夜に船に来てハドソン川の船や雲と月の光を観察したと回想している。ただしこの固有作品をその船上で制作したことを示す証言ではない。Metは絵具を厚く何層も重ねた結果、絵が完成した後に雲・帆・船体の輪郭が変化したと記す。実画像には暗い海、左右に黒い帆のシルエット、淡黄の空と月を囲むように流れる黒い雲がある。静けさや不安の印象は視覚的な鑑賞の解釈で、作者心理の証言ではない。 Visual: 2026-11-14に作品ID11979のMet作品ページで、その画像リンクから公式IIIF 11979/44883/main-imageを直接開いて図像を確認。ほぼ正方形の小さな板絵で、下部に黒緑色の暗い海、左右に二枚の黒い帆のような三角形と小さな船体、中心の空に淡黄色の月、上部を横切る黒い雲のかたまり。黄色い光は雲の縁や水平線付近に滲む。画面の全体に細いひび割れのような線が入り、現在の表面状態が描かれた当初と同じではない可能性がある。Metの公式主画像で確認した内容だが、人物の感情や船名は認定できない。 Limits: 制作年は1870–90年という範囲であり、特定年に固定しない。船長の回想はライダーの日頃の観察行動を語るもので、この絵がその夜の船上で描かれた直接証拠ではない。油彩には蝋を含む可能性があるとMetは留保する。厚塗りによって完成後に画面の形が変わっており、現在の帆や雲の輪郭を制作当時のままと断定しない。月夜から孤独な作者という心理は推測しない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11979",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-11979: API objectID=11979, primary JPEG full downloaded and verified; RMS=8.8173",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/11979",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=8.8173."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/11979",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and the artwork-specific visual sources: official Met main IIIF for met-11979 (44883) and met-44523 (204058), and alternate official IIIF for met-40003 (149054) because its first link (149055) failed, plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-11979 Moonlight Marine / Albert Pinkham Ryder / 1870–90 / 34.55",
+      "image_match": "2026-11-14に作品ID11979のMet作品ページで、その画像リンクから公式IIIF 11979/44883/main-imageを直接開いて図像を確認。ほぼ正方形の小さな板絵で、下部に黒緑色の暗い海、左右に二枚の黒い帆のような三角形と小さな船体、中心の空に淡黄色の月、上部を横切る黒い雲のかたまり。黄色い光は雲の縁や水平線付近に滲む。画面の全体に細いひび割れのような線が入り、現在の表面状態が描かれた当初と同じではない可能性がある。Metの公式主画像で確認した内容だが、人物の感情や船名は認定できない。 Both primary JPEG variants fully downloaded and match (RMS=8.8173).",
+      "historical_interpretation": "メトロポリタン美術館の作品11979《Moonlight Marine》の個別Overviewと正式作品情報を確認。アルバート・ピンカム・ライダー（1847–1917）が1870～90年に描いた小さな木板上の油彩（蝋を含む可能性もある）。ライダーは捕鯨港ニューベッドフォードに生まれ、1870年ニューヨークへ移った後も海に親しんだ。知人の船長はライダーが月明かりの夜に船に来てハドソン川の船や雲と月の光を観察したと回想している。ただしこの固有作品をその船上で制作したことを示す証言ではない。Metは絵具を厚く何層も重ねた結果、絵が完成した後に雲・帆・船体の輪郭が変化したと記す。実画像には暗い海、左右に黒い帆のシルエット、淡黄の空と月を囲むように流れる黒い雲がある。静けさや不安の印象は視覚的な鑑賞の解釈で、作者心理の証言ではない。 Cautions: 制作年は1870–90年という範囲であり、特定年に固定しない。船長の回想はライダーの日頃の観察行動を語るもので、この絵がその夜の船上で描かれた直接証拠ではない。油彩には蝋を含む可能性があるとMetは留保する。厚塗りによって完成後に画面の形が変わっており、現在の帆や雲の輪郭を制作当時のままと断定しない。月夜から孤独な作者という心理は推測しない。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['孤独', '好奇心']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT240273.jpg",
+      "sha256": "594687c235ce7cb2e9af7352ba9ad43e76df46f996d1d271588403f3d730dffa",
+      "byte_length": 154352,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/11979",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/11979/44883/main-image"
+      ],
+      "checked_on": "2026-11-14",
+      "observation": "2026-11-14に作品ID11979のMet作品ページで、その画像リンクから公式IIIF 11979/44883/main-imageを直接開いて図像を確認。ほぼ正方形の小さな板絵で、下部に黒緑色の暗い海、左右に二枚の黒い帆のような三角形と小さな船体、中心の空に淡黄色の月、上部を横切る黒い雲のかたまり。黄色い光は雲の縁や水平線付近に滲む。画面の全体に細いひび割れのような線が入り、現在の表面状態が描かれた当初と同じではない可能性がある。Metの公式主画像で確認した内容だが、人物の感情や船名は認定できない。 Official same-object primary JPEG original/display resized RGB RMS=8.8173; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ad/original/DT240273.jpg",
+      "sha256": "1f9c50f52d2c791239033d453ea88e3d67ab01150c2087bcfbe2ca3e946c03a5",
+      "byte_length": 4508807,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/11979",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/11979/44883/main-image"
+      ],
+      "checked_on": "2026-11-14",
+      "observation": "2026-11-14に作品ID11979のMet作品ページで、その画像リンクから公式IIIF 11979/44883/main-imageを直接開いて図像を確認。ほぼ正方形の小さな板絵で、下部に黒緑色の暗い海、左右に二枚の黒い帆のような三角形と小さな船体、中心の空に淡黄色の月、上部を横切る黒い雲のかたまり。黄色い光は雲の縁や水平線付近に滲む。画面の全体に細いひび割れのような線が入り、現在の表面状態が描かれた当初と同じではない可能性がある。Metの公式主画像で確認した内容だが、人物の感情や船名は認定できない。 Official same-object primary JPEG original/display resized RGB RMS=8.8173; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #468 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}

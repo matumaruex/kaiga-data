@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-44523",
+  "checked_on": "2026-11-14",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-44523.json",
+  "candidate_sha256": "52d9235dc6774676b8e4f36b8e9835406e2d6eb4ee207e72c53ea5a95639b746",
+  "draft_path": "drafts/visitor-explanations/met-44523.json",
+  "draft_sha256": "4c241e0fd161b1766ce9b1cc5e016a4af7462fddf45dd0fa7594190b1c19747b",
+  "baseline": {
+    "artworks_sha256": "c6f3cbe654dcdf27f1ae6e7e89bd163bf9aa5c023c1cbac4ab08b5dd092bb947",
+    "image_registry_sha256": "9e684b4332bff9c5b881e90c24396066f7e2c492cdd3abe146d3a4aad9e88224"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/44523",
+      "source_excerpt": "flowers shown in a seasonal progression from spring to winter",
+      "visitor_claim": "草花は春から冬へ季節をたどるように配置され、鶴は長寿を願う吉祥の題材です。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/44523",
+      "source_excerpt": "brilliant colors, strong ink outlines, gold-leaf background",
+      "visitor_claim": "濃い墨の輪郭、鮮やかな色、金箔の地が画面を華やかに見せています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/44523",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "メトロポリタン美術館の作品44523《Birds and Flowers of the Four Seasons》を個別の作品解説と資料で照合。16世紀末の桃山時代、日本で制作された六曲一双の屏風。現行Metでは個人作家の確定帰属はなく「Japan」を作者欄に置く。花の移り変わりが春から冬の季節をたどり、鶴は長寿を願う吉祥の象徴。金箔を敷いた地に鮮やかな色と力強い墨の輪郭を重ねる大胆な装飾は狩野元信によって確立した絵の系統に典型的で、樹木の大きな誇張は狩野永徳の表現を思わせるとMetは論じる。これは狩野元信または永徳が実際に筆を執った証明ではない。制作当時の都の寺院や邸宅の豪華な趣味を反映するという文化史の解釈。Met 44523の公式ページには屏風の各部分を示す複数画像があり、公式IIIF 44523/204058/main-imageを視認した。金地の片隻の中に松・竹・曲線状の水辺・鶴が見え、別の隻を写真に写したものではない。 Visual: 2026-11-14にMet作品44523の公式画像リンクからIIIF 44523/204058/main-imageを直接開いて確認。横長、六つの縦長パネルを区切る黒い線を持つ金色の屏風で、左端の竹・上空の小鳥、中左に濃紺で渦巻く水流と大きな緑の松、右寄りに背の高い白鶴とその下の複数の鶴、下部の花々が描かれる。金箔地の明るい無地を大きく残す一方で枝や茂みは勢いよく伸びる。公式の画像一覧は一双の構成要素にまたがるため、今回直接確認したのは最初の片隻の画像。これ一枚だけを二隻の全体図とは称しない。 Limits: 現在の公式作者欄に個人名の確定はない。狩野元信・狩野永徳は美術史的な様式比較に用いられ、作者だと断定しない。六曲一双＝六つ折り屏風二隻の組であり、Met APIのprimaryImageが片隻のみを示す可能性を画像説明と作品形式で区別する。季節が一枚に全て見えるとは限らず、春から冬への展開は二隻を通じたMet説明として書く。鶴を野生動物の生態学的観察と決めず、長寿を表す伝統意匠であると区別する。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/44523",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-44523: API objectID=44523, primary JPEG full downloaded and verified; RMS=10.3085",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/44523",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=10.3085."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/44523",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and the artwork-specific visual sources: official Met main IIIF for met-11979 (44883) and met-44523 (204058), and alternate official IIIF for met-40003 (149054) because its first link (149055) failed, plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-44523 Birds and Flowers of the Four Seasons / Unknown artist / late 16th century / 1987.342.1, .2",
+      "image_match": "2026-11-14にMet作品44523の公式画像リンクからIIIF 44523/204058/main-imageを直接開いて確認。横長、六つの縦長パネルを区切る黒い線を持つ金色の屏風で、左端の竹・上空の小鳥、中左に濃紺で渦巻く水流と大きな緑の松、右寄りに背の高い白鶴とその下の複数の鶴、下部の花々が描かれる。金箔地の明るい無地を大きく残す一方で枝や茂みは勢いよく伸びる。公式の画像一覧は一双の構成要素にまたがるため、今回直接確認したのは最初の片隻の画像。これ一枚だけを二隻の全体図とは称しない。 Both primary JPEG variants fully downloaded and match (RMS=10.3085).",
+      "historical_interpretation": "メトロポリタン美術館の作品44523《Birds and Flowers of the Four Seasons》を個別の作品解説と資料で照合。16世紀末の桃山時代、日本で制作された六曲一双の屏風。現行Metでは個人作家の確定帰属はなく「Japan」を作者欄に置く。花の移り変わりが春から冬の季節をたどり、鶴は長寿を願う吉祥の象徴。金箔を敷いた地に鮮やかな色と力強い墨の輪郭を重ねる大胆な装飾は狩野元信によって確立した絵の系統に典型的で、樹木の大きな誇張は狩野永徳の表現を思わせるとMetは論じる。これは狩野元信または永徳が実際に筆を執った証明ではない。制作当時の都の寺院や邸宅の豪華な趣味を反映するという文化史の解釈。Met 44523の公式ページには屏風の各部分を示す複数画像があり、公式IIIF 44523/204058/main-imageを視認した。金地の片隻の中に松・竹・曲線状の水辺・鶴が見え、別の隻を写真に写したものではない。 Cautions: 現在の公式作者欄に個人名の確定はない。狩野元信・狩野永徳は美術史的な様式比較に用いられ、作者だと断定しない。六曲一双＝六つ折り屏風二隻の組であり、Met APIのprimaryImageが片隻のみを示す可能性を画像説明と作品形式で区別する。季節が一枚に全て見えるとは限らず、春から冬への展開は二隻を通じたMet説明として書く。鶴を野生動物の生態学的観察と決めず、長寿を表す伝統意匠であると区別する。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['喜び', '畏敬']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP284317.jpg",
+      "sha256": "73c5afcc15e2953919b325086bbc6e23edc546fae87def84d067fa72259041a2",
+      "byte_length": 182368,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/44523",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/44523/204058/main-image"
+      ],
+      "checked_on": "2026-11-14",
+      "observation": "2026-11-14にMet作品44523の公式画像リンクからIIIF 44523/204058/main-imageを直接開いて確認。横長、六つの縦長パネルを区切る黒い線を持つ金色の屏風で、左端の竹・上空の小鳥、中左に濃紺で渦巻く水流と大きな緑の松、右寄りに背の高い白鶴とその下の複数の鶴、下部の花々が描かれる。金箔地の明るい無地を大きく残す一方で枝や茂みは勢いよく伸びる。公式の画像一覧は一双の構成要素にまたがるため、今回直接確認したのは最初の片隻の画像。これ一枚だけを二隻の全体図とは称しない。 Official same-object primary JPEG original/display resized RGB RMS=10.3085; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP284317.jpg",
+      "sha256": "c6a3bf68c92bb4d765a4614ea5c6a8293c3d951d4a80d6f5037418dc7e454ef2",
+      "byte_length": 1581309,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/44523",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/44523/204058/main-image"
+      ],
+      "checked_on": "2026-11-14",
+      "observation": "2026-11-14にMet作品44523の公式画像リンクからIIIF 44523/204058/main-imageを直接開いて確認。横長、六つの縦長パネルを区切る黒い線を持つ金色の屏風で、左端の竹・上空の小鳥、中左に濃紺で渦巻く水流と大きな緑の松、右寄りに背の高い白鶴とその下の複数の鶴、下部の花々が描かれる。金箔地の明るい無地を大きく残す一方で枝や茂みは勢いよく伸びる。公式の画像一覧は一双の構成要素にまたがるため、今回直接確認したのは最初の片隻の画像。これ一枚だけを二隻の全体図とは称しない。 Official same-object primary JPEG original/display resized RGB RMS=10.3085; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #470 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "checked_on": "2026-11-14",
+  "method": "Live Met API primary original/display full JPEG SHA256/size and RGB correspondence; exact Met artwork Overview read directly. Official Met main IIIF views for met-11979/44883 and met-44523/204058, plus official alternate IIIF of met-40003/149054, were directly viewed. Met 40003 first IIIF image 149055 failed to load and that limitation is noted. CI verifies each official Met API original/display JPEG pair.",
+  "artworks": [
+    {
+      "id": "met-11979",
+      "objectID": 11979,
+      "title": "Moonlight Marine",
+      "artist": "Albert Pinkham Ryder",
+      "date": "1870–90",
+      "accession": "34.55",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/11979",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/11979",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/11979",
+          "source_excerpt": "Raised in the whaling port of New Bedford",
+          "visitor_claim": "ライダーは捕鯨港だったニューベッドフォードに生まれ、ニューヨークへ移ってからも海に親しみました。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/11979",
+          "source_excerpt": "Ryder’s habit of applying pigment in many thick layers has caused changes",
+          "visitor_claim": "絵の具を厚く何層も重ねたため、完成後に雲や帆、船体の輪郭が変化したと美術館は説明しています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "2026-11-14に作品ID11979のMet作品ページで、その画像リンクから公式IIIF 11979/44883/main-imageを直接開いて図像を確認。ほぼ正方形の小さな板絵で、下部に黒緑色の暗い海、左右に二枚の黒い帆のような三角形と小さな船体、中心の空に淡黄色の月、上部を横切る黒い雲のかたまり。黄色い光は雲の縁や水平線付近に滲む。画面の全体に細いひび割れのような線が入り、現在の表面状態が描かれた当初と同じではない可能性がある。Metの公式主画像で確認した内容だが、人物の感情や船名は認定できない。",
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/11979",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/11979/44883/main-image"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/ad/web-large/DT240273.jpg",
+          "sha256": "594687c235ce7cb2e9af7352ba9ad43e76df46f996d1d271588403f3d730dffa",
+          "byte_length": 154352,
+          "size_px": [
+            599,
+            570
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DT240273.jpg",
+          "sha256": "1f9c50f52d2c791239033d453ea88e3d67ab01150c2087bcfbe2ca3e946c03a5",
+          "byte_length": 4508807,
+          "size_px": [
+            3777,
+            3594
+          ]
+        }
+      ],
+      "resized_rgb_rms": 8.8173
+    },
+    {
+      "id": "met-40003",
+      "objectID": 40003,
+      "title": "Travelers in a Wintry Forest",
+      "artist": "Unidentified artist",
+      "date": "early 12th century",
+      "accession": "1972.121",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/40003",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/40003",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/40003",
+          "source_excerpt": "follows a well-known composition by Li Cheng as described by Mi Fu",
+          "visitor_claim": "この作品は李成の有名な構図を踏まえている、とメトロポリタン美術館は説明しています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/40003",
+          "source_excerpt": "the great pine, symbolizing the virtuous gentleman",
+          "visitor_claim": "大きな松は、徳のある人物を象徴すると美術館は説明しています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "2026-11-14にMetの作品40003固有の公式IIIF画像40003/149054/main-imageを直接開いて視認した。正規の初回リンク40003/149055はブラウザで取得に失敗したため、同一作品ページの追加画像である149054の全体像を視認した。縦長の絹本掛軸、上部に墨書の題字、下部に跋文がある。中央の絵は褐色の冬山、左端に大きくねじれた古木の幹、細く枝を伸ばす葉の落ちた木々、崖と岩が続く。下の小径には小さな笠をかぶった旅人が驢馬に乗り山道を進む。雪が深く積もるというより寒々しい枯れ枝の景観で、画面の色は濃茶・灰・淡い黄。追加画像149057には樹木の部分拡大もあり同じ作品の細部と確認できる。",
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/40003",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/40003/149054/main-image",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/40003/149057/main-image"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP154079.jpg",
+          "sha256": "4dc344671c694c3bafce7ed4a8c61d34191de03ad070a1ca5e437ce194d9677e",
+          "byte_length": 58341,
+          "size_px": [
+            600,
+            450
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP154079.jpg",
+          "sha256": "fb187ceaae944b6714c5315cec939831963622eae7860c4e578c99ca83338c5c",
+          "byte_length": 2931533,
+          "size_px": [
+            4000,
+            3001
+          ]
+        }
+      ],
+      "resized_rgb_rms": 3.3224
+    },
+    {
+      "id": "met-44523",
+      "objectID": 44523,
+      "title": "Birds and Flowers of the Four Seasons",
+      "artist": "Unknown artist",
+      "date": "late 16th century",
+      "accession": "1987.342.1, .2",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/44523",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/44523",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/44523",
+          "source_excerpt": "flowers shown in a seasonal progression from spring to winter",
+          "visitor_claim": "草花は春から冬へ季節をたどるように配置され、鶴は長寿を願う吉祥の題材です。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/44523",
+          "source_excerpt": "brilliant colors, strong ink outlines, gold-leaf background",
+          "visitor_claim": "濃い墨の輪郭、鮮やかな色、金箔の地が画面を華やかに見せています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "2026-11-14にMet作品44523の公式画像リンクからIIIF 44523/204058/main-imageを直接開いて確認。横長、六つの縦長パネルを区切る黒い線を持つ金色の屏風で、左端の竹・上空の小鳥、中左に濃紺で渦巻く水流と大きな緑の松、右寄りに背の高い白鶴とその下の複数の鶴、下部の花々が描かれる。金箔地の明るい無地を大きく残す一方で枝や茂みは勢いよく伸びる。公式の画像一覧は一双の構成要素にまたがるため、今回直接確認したのは最初の片隻の画像。これ一枚だけを二隻の全体図とは称しない。",
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/44523",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/44523/204058/main-image"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP284317.jpg",
+          "sha256": "73c5afcc15e2953919b325086bbc6e23edc546fae87def84d067fa72259041a2",
+          "byte_length": 182368,
+          "size_px": [
+            600,
+            279
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP284317.jpg",
+          "sha256": "c6a3bf68c92bb4d765a4614ea5c6a8293c3d951d4a80d6f5037418dc7e454ef2",
+          "byte_length": 1581309,
+          "size_px": [
+            1976,
+            919
+          ]
+        }
+      ],
+      "resized_rgb_rms": 10.3085
+    }
+  ],
+  "limitations": [
+    "Same AI review, not an independent human/expert",
+    "Per-work visual-reference provenance and limitations documented; official Met original/display JPEGs downloaded and RGB correspondence checked"
+  ]
+}
