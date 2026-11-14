@@ -1,0 +1,127 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-437192",
+  "checked_on": "2026-11-14",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-437192.json",
+  "candidate_sha256": "d8a283179e17c7727f09c58b6f69a16ca41064384a9f6b84b6df3c4d4aeaf3ec",
+  "draft_path": "drafts/visitor-explanations/met-437192.json",
+  "draft_sha256": "7d890760b39abc0b873f12565ecd974026d610613a8f142edb7e699ad0f0003d",
+  "baseline": {
+    "artworks_sha256": "bdf56c02a757632bd4d8e4baaf5c70cc295b9bea7d5980b1518d2ed3da14639a",
+    "image_registry_sha256": "4cb50f4ba1990379d3d2256751cd042de573661948b4876f17eeae1ea0588d24"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437192",
+      "source_excerpt": "part of a period of pronounced global cooling known as the Little Ice Age",
+      "visitor_claim": "17世紀は『小氷期』と呼ばれる寒冷な時期の一部で、メトロポリタン美術館は、この冬景色から当時の暮らしを垣間見られると説明しています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/437192",
+      "source_excerpt": "The luminous sunset is reflected in the ice",
+      "visitor_claim": "美術館は、夕日が氷に映る光の効果に注目しています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/437192",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "メトロポリタン美術館作品437192《Sports on a Frozen River》の作品別Overviewと実物画像を照合。アールト・ファン・デル・ネール（1603/4–1677）が1660年ごろ、木板に油彩で描いた冬景色。中心には氷が張った川でスケート・そり・冬の遊戯を楽しむ人々、遠方に沈む明るい橙色の夕日、両岸には家並みと木、前景には雪まじりの岸辺がある。メトロポリタン美術館は17世紀の寒冷な時期を『小氷期（Little Ice Age）』と呼び、この絵は当時の冬の生活をうかがわせると説明。また光と大気を油彩で表すことへの画家の関心が氷上の風景を理想的な主題とし、氷に夕日の光が映る点を明記する。Overviewには小氷期の原因について人間活動・アメリカでの植民地化後の環境変化を論じる研究者がいるとも書かれているが、原因は議論があり、本作品から特定原因を立証できないため鑑賞者本文には含めない。 Visual: Met公式作品ページ https://www.metmuseum.org/art/collection/search/437192 に直接リンクされた公式IIIF https://collectionapi.metmuseum.org/api/collection/v1/iiif/437192/795865/main-image を直接開いて図像を確認。横長の絵の前景には雪の残る茶色い河岸と枯草、手前の岸で数人が身を寄せ長い棒を持つ。中景の凍った河面には小さな人物が散らばり、スケート靴や棒のような道具で遊び、奥に伸びる川が遠近を示す。両岸の左には家屋や木の電柱に似た細い帆柱風の線、右にも家並み。上空は灰色い雲が低く垂れ、中心右奥の地平線に赤橙の夕日が見え、氷面に光が縦に反射する。人物の正確な名前や年齢は推定不能。 Limits: 1660年ごろという大まかな年代を守る。小氷期は当時の広い歴史的な気候状況であり一枚の絵が世界の気温を測定した資料ではない。植民地化による環境変化が小氷期を引き起こしたという因果関係は研究仮説として紹介されるが、確定科学的事実・作者の意図と扱わず、鑑賞者向け本文には踏み込まない。氷上の全員を同じ遊戯（全員スケート）と断定しない。現代の冬が暖かくなった比較はMetの解説にあるが地方差や年変動にも留意する。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/437192",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-437192: API objectID=437192, primary JPEG full downloaded and verified; RMS=6.5599",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437192",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=6.5599."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/437192",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and the artwork-specific visual sources: official Met IIIF for met-21209 (1587545) and met-437192 (795865), and official alternate IIIF met-451403 (870491 and 888069) since first page image 904159 failed, plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-437192 Sports on a Frozen River / Aert van der Neer / ca. 1660 / 32.100.11",
+      "image_match": "Met公式作品ページ https://www.metmuseum.org/art/collection/search/437192 に直接リンクされた公式IIIF https://collectionapi.metmuseum.org/api/collection/v1/iiif/437192/795865/main-image を直接開いて図像を確認。横長の絵の前景には雪の残る茶色い河岸と枯草、手前の岸で数人が身を寄せ長い棒を持つ。中景の凍った河面には小さな人物が散らばり、スケート靴や棒のような道具で遊び、奥に伸びる川が遠近を示す。両岸の左には家屋や木の電柱に似た細い帆柱風の線、右にも家並み。上空は灰色い雲が低く垂れ、中心右奥の地平線に赤橙の夕日が見え、氷面に光が縦に反射する。人物の正確な名前や年齢は推定不能。 Both primary JPEG variants fully downloaded and match (RMS=6.5599).",
+      "historical_interpretation": "メトロポリタン美術館作品437192《Sports on a Frozen River》の作品別Overviewと実物画像を照合。アールト・ファン・デル・ネール（1603/4–1677）が1660年ごろ、木板に油彩で描いた冬景色。中心には氷が張った川でスケート・そり・冬の遊戯を楽しむ人々、遠方に沈む明るい橙色の夕日、両岸には家並みと木、前景には雪まじりの岸辺がある。メトロポリタン美術館は17世紀の寒冷な時期を『小氷期（Little Ice Age）』と呼び、この絵は当時の冬の生活をうかがわせると説明。また光と大気を油彩で表すことへの画家の関心が氷上の風景を理想的な主題とし、氷に夕日の光が映る点を明記する。Overviewには小氷期の原因について人間活動・アメリカでの植民地化後の環境変化を論じる研究者がいるとも書かれているが、原因は議論があり、本作品から特定原因を立証できないため鑑賞者本文には含めない。 Cautions: 1660年ごろという大まかな年代を守る。小氷期は当時の広い歴史的な気候状況であり一枚の絵が世界の気温を測定した資料ではない。植民地化による環境変化が小氷期を引き起こしたという因果関係は研究仮説として紹介されるが、確定科学的事実・作者の意図と扱わず、鑑賞者向け本文には踏み込まない。氷上の全員を同じ遊戯（全員スケート）と断定しない。現代の冬が暖かくなった比較はMetの解説にあるが地方差や年変動にも留意する。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['喜び', '懐かしさ']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146485.jpg",
+      "sha256": "6248fb7650b182bb23fc93ab1cf1ce2bd0633bc103430f9cd8f4612dba333e24",
+      "byte_length": 73931,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437192",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437192/795865/main-image"
+      ],
+      "checked_on": "2026-11-14",
+      "observation": "Met公式作品ページ https://www.metmuseum.org/art/collection/search/437192 に直接リンクされた公式IIIF https://collectionapi.metmuseum.org/api/collection/v1/iiif/437192/795865/main-image を直接開いて図像を確認。横長の絵の前景には雪の残る茶色い河岸と枯草、手前の岸で数人が身を寄せ長い棒を持つ。中景の凍った河面には小さな人物が散らばり、スケート靴や棒のような道具で遊び、奥に伸びる川が遠近を示す。両岸の左には家屋や木の電柱に似た細い帆柱風の線、右にも家並み。上空は灰色い雲が低く垂れ、中心右奥の地平線に赤橙の夕日が見え、氷面に光が縦に反射する。人物の正確な名前や年齢は推定不能。 Official same-object primary JPEG original/display resized RGB RMS=6.5599; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/ep/original/DP146485.jpg",
+      "sha256": "f4ef6c26cc9c4822e85398509eae2864c4a542ffacafc281087f59fce90e1eec",
+      "byte_length": 2663824,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/437192",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/437192/795865/main-image"
+      ],
+      "checked_on": "2026-11-14",
+      "observation": "Met公式作品ページ https://www.metmuseum.org/art/collection/search/437192 に直接リンクされた公式IIIF https://collectionapi.metmuseum.org/api/collection/v1/iiif/437192/795865/main-image を直接開いて図像を確認。横長の絵の前景には雪の残る茶色い河岸と枯草、手前の岸で数人が身を寄せ長い棒を持つ。中景の凍った河面には小さな人物が散らばり、スケート靴や棒のような道具で遊び、奥に伸びる川が遠近を示す。両岸の左には家屋や木の電柱に似た細い帆柱風の線、右にも家並み。上空は灰色い雲が低く垂れ、中心右奥の地平線に赤橙の夕日が見え、氷面に光が縦に反射する。人物の正確な名前や年齢は推定不能。 Official same-object primary JPEG original/display resized RGB RMS=6.5599; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #476 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}

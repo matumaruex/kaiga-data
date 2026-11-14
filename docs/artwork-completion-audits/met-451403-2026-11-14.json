@@ -1,0 +1,129 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-451403",
+  "checked_on": "2026-11-14",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-451403.json",
+  "candidate_sha256": "141c09e299b8b4d11e771f99670dd8609f48fa469716aef55d39ace0eba0e7b9",
+  "draft_path": "drafts/visitor-explanations/met-451403.json",
+  "draft_sha256": "6a38f8f54a489d9ba407010404487b415700a97eb125549b6e84cdb3ecd48ae4",
+  "baseline": {
+    "artworks_sha256": "e141189bf429d57123d61a59d2e103284b0696f586ffac2e60cade537251f2c0",
+    "image_registry_sha256": "c85f64fb4d9bf7b94529e9082ca4a0681a144295f6af6b0a0b921e9dcc7c59ba"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/451403",
+      "source_excerpt": "The youth offering a cup of wine to a maiden",
+      "visitor_claim": "メトロポリタン美術館は、若者が女性へ酒の杯を捧げる様子を、詩にも描かれたペルシャの宮廷文化の理想的な場面と説明しています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/451403",
+      "source_excerpt": "Chinese elements are seen in the arrangement of figures",
+      "visitor_claim": "美術館は、人物の横並びの配置や花枝の曲線などに中国絵画の影響を見ています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/451403",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "メトロポリタン美術館の作品451403《Wine Drinking in a Spring Garden》を作品別Overview、画像、作品情報で照合した。1430年ごろの作品、制作地はイランに帰属、タブリーズの可能性があるという留保つきで、無染色の絹に不透明水彩と金。作者個人は不詳。メトロポリタン美術館は、若者が女性に酒盃を捧げる姿を、ペルシャの詩と絵画に表現された宮廷的な理想と説明する。ティムール朝の画家が中国の図像を参照したことは多く、この作品では水平線上に並ぶ人物、背景の空白、花咲くスモモ類の枝の曲線、金糸刺繍の文様、染めていない絹の使用に中国由来の要素を認めている。原画の図像上は花咲く木の周りに4人の人物が横並びに位置し、一人が片ひざで盃を差し出している。誰の恋愛・婚姻が実在したかは分からず、架空の宮廷的場面として扱う。 Visual: Met公式対象作品ページ https://www.metmuseum.org/art/collection/search/451403 に掲載の公式IIIF画像451403/870491/main-imageと451403/888069/main-imageを実際に直接開いて照合。メインリンク451403/904159/main-imageは取得失敗したが、同一対象作品の残る2画像を見た。絹の地色に、左から青い長衣の立つ人物、青い衣装のひざまずく若者、中央の白い花の咲く樹木にもたれる緑色の衣装の女性、右端には青い頭巾と長衣をまとった人物が立つ。跪く人物は浅い皿または杯を差し出す。樹木の白い花枝が画面上部を伸びる。背景には宮殿や大きな山を描かず、無地に近い黄褐色。公式IIIFの実視認により人物人数・位置と花木を確認した。 Limits: 制作地は『イラン、タブリーズの可能性』として所蔵館が留保し、断定しない。特定の史実の宴会でも実在の恋人たちでもない。人物の顔の表情から関係性を作り込まない。中国美術からの影響はMetの研究上の説明であり作者本人が語ったものではない。画像の一番目のMet IIIF 904159は取得不能だったが同一ページの870491と888069で視覚確認した。Met資料ではCodices分類でも絵画的な絹本挿絵として本アプリの絵画登録対象に扱う。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/451403",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-451403: API objectID=451403, primary JPEG full downloaded and verified; RMS=8.0121",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/451403",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=8.0121."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/451403",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and the artwork-specific visual sources: official Met IIIF for met-21209 (1587545) and met-437192 (795865), and official alternate IIIF met-451403 (870491 and 888069) since first page image 904159 failed, plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-451403 Wine Drinking in a Spring Garden / Unknown artist / ca. 1430 / 57.51.24",
+      "image_match": "Met公式対象作品ページ https://www.metmuseum.org/art/collection/search/451403 に掲載の公式IIIF画像451403/870491/main-imageと451403/888069/main-imageを実際に直接開いて照合。メインリンク451403/904159/main-imageは取得失敗したが、同一対象作品の残る2画像を見た。絹の地色に、左から青い長衣の立つ人物、青い衣装のひざまずく若者、中央の白い花の咲く樹木にもたれる緑色の衣装の女性、右端には青い頭巾と長衣をまとった人物が立つ。跪く人物は浅い皿または杯を差し出す。樹木の白い花枝が画面上部を伸びる。背景には宮殿や大きな山を描かず、無地に近い黄褐色。公式IIIFの実視認により人物人数・位置と花木を確認した。 Both primary JPEG variants fully downloaded and match (RMS=8.0121).",
+      "historical_interpretation": "メトロポリタン美術館の作品451403《Wine Drinking in a Spring Garden》を作品別Overview、画像、作品情報で照合した。1430年ごろの作品、制作地はイランに帰属、タブリーズの可能性があるという留保つきで、無染色の絹に不透明水彩と金。作者個人は不詳。メトロポリタン美術館は、若者が女性に酒盃を捧げる姿を、ペルシャの詩と絵画に表現された宮廷的な理想と説明する。ティムール朝の画家が中国の図像を参照したことは多く、この作品では水平線上に並ぶ人物、背景の空白、花咲くスモモ類の枝の曲線、金糸刺繍の文様、染めていない絹の使用に中国由来の要素を認めている。原画の図像上は花咲く木の周りに4人の人物が横並びに位置し、一人が片ひざで盃を差し出している。誰の恋愛・婚姻が実在したかは分からず、架空の宮廷的場面として扱う。 Cautions: 制作地は『イラン、タブリーズの可能性』として所蔵館が留保し、断定しない。特定の史実の宴会でも実在の恋人たちでもない。人物の顔の表情から関係性を作り込まない。中国美術からの影響はMetの研究上の説明であり作者本人が語ったものではない。画像の一番目のMet IIIF 904159は取得不能だったが同一ページの870491と888069で視覚確認した。Met資料ではCodices分類でも絵画的な絹本挿絵として本アプリの絵画登録対象に扱う。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['好奇心', '慈しみ']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/is/web-large/DP240660.jpg",
+      "sha256": "2b6b6edd0b368ac8314087f863fd6703f939991ae78a92f29a59762966cde630",
+      "byte_length": 90638,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/451403",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/451403/870491/main-image",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/451403/888069/main-image"
+      ],
+      "checked_on": "2026-11-14",
+      "observation": "Met公式対象作品ページ https://www.metmuseum.org/art/collection/search/451403 に掲載の公式IIIF画像451403/870491/main-imageと451403/888069/main-imageを実際に直接開いて照合。メインリンク451403/904159/main-imageは取得失敗したが、同一対象作品の残る2画像を見た。絹の地色に、左から青い長衣の立つ人物、青い衣装のひざまずく若者、中央の白い花の咲く樹木にもたれる緑色の衣装の女性、右端には青い頭巾と長衣をまとった人物が立つ。跪く人物は浅い皿または杯を差し出す。樹木の白い花枝が画面上部を伸びる。背景には宮殿や大きな山を描かず、無地に近い黄褐色。公式IIIFの実視認により人物人数・位置と花木を確認した。 Official same-object primary JPEG original/display resized RGB RMS=8.0121; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/is/original/DP240660.jpg",
+      "sha256": "408ba53b1f90ac1c111fdce4bbc9e0e6f94ce8eaba96fdeb6166e29f1cd5b3ca",
+      "byte_length": 3175054,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/451403",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/451403/870491/main-image",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/451403/888069/main-image"
+      ],
+      "checked_on": "2026-11-14",
+      "observation": "Met公式対象作品ページ https://www.metmuseum.org/art/collection/search/451403 に掲載の公式IIIF画像451403/870491/main-imageと451403/888069/main-imageを実際に直接開いて照合。メインリンク451403/904159/main-imageは取得失敗したが、同一対象作品の残る2画像を見た。絹の地色に、左から青い長衣の立つ人物、青い衣装のひざまずく若者、中央の白い花の咲く樹木にもたれる緑色の衣装の女性、右端には青い頭巾と長衣をまとった人物が立つ。跪く人物は浅い皿または杯を差し出す。樹木の白い花枝が画面上部を伸びる。背景には宮殿や大きな山を描かず、無地に近い黄褐色。公式IIIFの実視認により人物人数・位置と花木を確認した。 Official same-object primary JPEG original/display resized RGB RMS=8.0121; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #474 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}
