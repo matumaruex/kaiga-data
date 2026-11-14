@@ -1,0 +1,129 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-55450",
+  "checked_on": "2026-11-14",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-55450.json",
+  "candidate_sha256": "30c4695cdaf33658cd629ec7d78e93754874da18ab424b30344b4be3392f33fc",
+  "draft_path": "drafts/visitor-explanations/met-55450.json",
+  "draft_sha256": "5237b5fb827fcaf55c87da3b076d5481db17dea93269181196dd9bd6e5aee6fe",
+  "baseline": {
+    "artworks_sha256": "f26f207cebb53808599ae29018d33d4b00082d0506f81e14d40d7df0484e9bba",
+    "image_registry_sha256": "f814ccca5bcde89a0bd56ca7c06cd0cc7cf9658a9773241de16e349e5f5d2649"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/55450",
+      "source_excerpt": "The costumed dances known as bugaku have been customary in Japanese court rituals",
+      "visitor_claim": "舞楽は8世紀ごろから日本の宮廷儀礼や祭礼で受け継がれてきた舞踊で、メトロポリタン美術館は、その歴史が唐の文化の受容にまでさかのぼると説明しています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/55450",
+      "source_excerpt": "Thirty-five dancing figures fill the remaining panels",
+      "visitor_claim": "太鼓・笛・笙を奏でる人々のそばで、35人の踊り手が金地の上に配置されています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/55450",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "Met公式作品55450《Bugaku Dancers》の個別Overview・作品詳細・公式画像を直接確認。作者は狩野安信（1614–1685）、江戸時代、六曲屏風、金地の紙に墨と色彩・金。作品ページでは具体的な単一年の制作年を示さない。舞楽は奈良時代の8世紀に唐からの文化などを通じ日本の宮廷儀礼や祭礼で行われた仮面・華麗な衣装の舞。左に金襴の大きな幔幕で覆われた高台に太鼓・笛・笙の奏者があり、残る金箔の画面に計35人の踊り手がさまざまな姿勢で散らばる。左上には『法眼永真筆』と読める署名と安信の印章。Met Overviewは安信が1662年に法眼の称号を得て1685年没まで使用したと説明しており、そこから1650年と断定しない。現行Metは一作品の6曲屏風として掲載。画像 https://images.metmuseum.org/CRDImages/as/original/DP149562.jpg は6パネルの全体像を示し、公式IIIFの追加画像55450/147885/main-imageは左端の奏者と踊り手の部分拡大。これらの現物描写に沿い、作者自身の宗教観を推測しない。 Visual: Met公式作品55450ページのIIIF第一画像55450/147884/main-imageはウェブ取得失敗。しかし作品検索結果に示された同一作品・Met公式オリジナルJPEG https://images.metmuseum.org/CRDImages/as/original/DP149562.jpg を直接開いて6パネル全体像を視認。長方形を横に並べた6枚の金箔地の屏風。左端の赤と黒の幔幕の中に楽器を構えた奏者、屏風全域に赤・緑・青・黒などの色の鮮やかな衣装の小人、異なる手足の動きで踊る集団。左上近辺に細い縦書き。さらに同一ページのIIIF追加画像55450/147885/main-imageを直接視認し、幔幕下の大きな丸い太鼓と周辺の踊り手を拡大確認した。35人という数は画像を自力で数えたのではなくMet Overviewの記述。 Limits: Met個別ページに制作の単一年なし。署名の『法眼永真筆』と1662年以降使用の事実から正確な制作年を確定することはできない。計35人の踊り手はMet解説の人数で、左の奏者とは別に説明する。最初のIIIF画像147884が取得できなかった事実を記録し、公式原寸JPEG DP149562.jpg で全体像を確認した。屏風の実体は一隻6パネルであり、この登録が一双二隻の作品と誤記しない。資料にない音楽の具体的な音色や踊り手の個人名を捏造しない。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/55450",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-55450: API objectID=55450, primary JPEG full downloaded and verified; RMS=13.3154",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/55450",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=13.3154."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/55450",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and the artwork-specific visual sources: official Met main IIIF for met-436310 (2181549) and met-72721 (149522), and official original Met JPEG DP149562.jpg plus alternate IIIF (147885) for met-55450; initial IIIF (147884) failed, plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-55450 Bugaku Dancers / Kano Yasunobu / Unknown date / 2000.453",
+      "image_match": "Met公式作品55450ページのIIIF第一画像55450/147884/main-imageはウェブ取得失敗。しかし作品検索結果に示された同一作品・Met公式オリジナルJPEG https://images.metmuseum.org/CRDImages/as/original/DP149562.jpg を直接開いて6パネル全体像を視認。長方形を横に並べた6枚の金箔地の屏風。左端の赤と黒の幔幕の中に楽器を構えた奏者、屏風全域に赤・緑・青・黒などの色の鮮やかな衣装の小人、異なる手足の動きで踊る集団。左上近辺に細い縦書き。さらに同一ページのIIIF追加画像55450/147885/main-imageを直接視認し、幔幕下の大きな丸い太鼓と周辺の踊り手を拡大確認した。35人という数は画像を自力で数えたのではなくMet Overviewの記述。 Both primary JPEG variants fully downloaded and match (RMS=13.3154).",
+      "historical_interpretation": "Met公式作品55450《Bugaku Dancers》の個別Overview・作品詳細・公式画像を直接確認。作者は狩野安信（1614–1685）、江戸時代、六曲屏風、金地の紙に墨と色彩・金。作品ページでは具体的な単一年の制作年を示さない。舞楽は奈良時代の8世紀に唐からの文化などを通じ日本の宮廷儀礼や祭礼で行われた仮面・華麗な衣装の舞。左に金襴の大きな幔幕で覆われた高台に太鼓・笛・笙の奏者があり、残る金箔の画面に計35人の踊り手がさまざまな姿勢で散らばる。左上には『法眼永真筆』と読める署名と安信の印章。Met Overviewは安信が1662年に法眼の称号を得て1685年没まで使用したと説明しており、そこから1650年と断定しない。現行Metは一作品の6曲屏風として掲載。画像 https://images.metmuseum.org/CRDImages/as/original/DP149562.jpg は6パネルの全体像を示し、公式IIIFの追加画像55450/147885/main-imageは左端の奏者と踊り手の部分拡大。これらの現物描写に沿い、作者自身の宗教観を推測しない。 Cautions: Met個別ページに制作の単一年なし。署名の『法眼永真筆』と1662年以降使用の事実から正確な制作年を確定することはできない。計35人の踊り手はMet解説の人数で、左の奏者とは別に説明する。最初のIIIF画像147884が取得できなかった事実を記録し、公式原寸JPEG DP149562.jpg で全体像を確認した。屏風の実体は一隻6パネルであり、この登録が一双二隻の作品と誤記しない。資料にない音楽の具体的な音色や踊り手の個人名を捏造しない。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['喜び', '好奇心']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP149562.jpg",
+      "sha256": "5d613666898f26d4210dd42710cc1f1f1345ae400e7e7ca35e0501a6f9b08832",
+      "byte_length": 89102,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/55450",
+        "https://images.metmuseum.org/CRDImages/as/original/DP149562.jpg",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/55450/147885/main-image"
+      ],
+      "checked_on": "2026-11-14",
+      "observation": "Met公式作品55450ページのIIIF第一画像55450/147884/main-imageはウェブ取得失敗。しかし作品検索結果に示された同一作品・Met公式オリジナルJPEG https://images.metmuseum.org/CRDImages/as/original/DP149562.jpg を直接開いて6パネル全体像を視認。長方形を横に並べた6枚の金箔地の屏風。左端の赤と黒の幔幕の中に楽器を構えた奏者、屏風全域に赤・緑・青・黒などの色の鮮やかな衣装の小人、異なる手足の動きで踊る集団。左上近辺に細い縦書き。さらに同一ページのIIIF追加画像55450/147885/main-imageを直接視認し、幔幕下の大きな丸い太鼓と周辺の踊り手を拡大確認した。35人という数は画像を自力で数えたのではなくMet Overviewの記述。 Official same-object primary JPEG original/display resized RGB RMS=13.3154; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP149562.jpg",
+      "sha256": "835b341eda4568e855dbcf6e64eac99d550276d8f21093c3abb19fb6864df5ee",
+      "byte_length": 2188140,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/55450",
+        "https://images.metmuseum.org/CRDImages/as/original/DP149562.jpg",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/55450/147885/main-image"
+      ],
+      "checked_on": "2026-11-14",
+      "observation": "Met公式作品55450ページのIIIF第一画像55450/147884/main-imageはウェブ取得失敗。しかし作品検索結果に示された同一作品・Met公式オリジナルJPEG https://images.metmuseum.org/CRDImages/as/original/DP149562.jpg を直接開いて6パネル全体像を視認。長方形を横に並べた6枚の金箔地の屏風。左端の赤と黒の幔幕の中に楽器を構えた奏者、屏風全域に赤・緑・青・黒などの色の鮮やかな衣装の小人、異なる手足の動きで踊る集団。左上近辺に細い縦書き。さらに同一ページのIIIF追加画像55450/147885/main-imageを直接視認し、幔幕下の大きな丸い太鼓と周辺の踊り手を拡大確認した。35人という数は画像を自力で数えたのではなくMet Overviewの記述。 Official same-object primary JPEG original/display resized RGB RMS=13.3154; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #473 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}

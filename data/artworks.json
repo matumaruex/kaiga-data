@@ -57461,6 +57461,381 @@
         "audit_sha256": "63c248b65954e733d7264b18809b0e1e0dd97f91f25aa268af059eaa8d40fc6f",
         "record_sha256": "faea75f1a4345c72e4b22b092ef0394773e1e6ddce87af808edd6f09fea7f8e2"
       }
+    },
+    {
+      "id": "met-436310",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 436310,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/436310",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436310",
+        "record_checked_on": "2026-11-14"
+      },
+      "facts": {
+        "title_original": "Portrait of a Prelate",
+        "title_ja_provisional": "高位聖職者の肖像",
+        "artist": "Lavinia Fontana",
+        "creation_date_display": "ca. 1580",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Unspecified",
+        "accession_number": "62.122.141"
+      },
+      "image": {
+        "image_id": "met-436310-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26943-001.jpg",
+        "source_registry_id": "met-436310",
+        "local_path": "/artworks/met-436310.jpg",
+        "sha256": "ae60f16bc203bf6e8a8301d5b6d2276afa6b52df7f3af6ab01135657b1a21083",
+        "byte_length": 75486,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "62.122.141",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-26943-001.jpg",
+          "sha256": "8cba3050d2d1fa5e1bb35d05ea8d55dacaffcbf10172669fd8668d476e981b9a",
+          "byte_length": 3637539,
+          "width": 3973,
+          "height": 4000,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=3.0786",
+          "last_full_sha_checked_on": "2026-11-14",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心",
+          "畏敬"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2,
+          "畏敬": 1
+        },
+        "tones": [
+          "落ち着き",
+          "余韻"
+        ],
+        "themes": [
+          "日常",
+          "他者との距離"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/436310",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "小さな円形の肖像に顔を近づけるように、衣服の縫い目や髭の筆づかいをじっくり眺めたい",
+              "reason": "Met公式作品436310《Portrait of a Prelate》の作品個別Overviewと画像を直接照合。現行公式レコードは画家ラヴィニア・フォンターナ、1580年ごろ、銅板に油彩、直径14cmの小さな円形肖像画。Metはフォンターナを当時最も名高い女性画家と評し、とりわけ肖像画で知られたと説明する。これほど小さな円形の画面で、右下の本がつくる影、手の甲の浮き出た血管、袖口の縫い目や襟元のレースを細やかな筆致で描いた。ひげの線は他より輪郭を見分けやすく、顔の生き生きとした質感を生むという見方もMet解説に明記。Metの別の学術刊行物（2003年）ではフォンターナ『に帰属』と記され、モデルの身元不明と説明している。現行の公開作品欄では作者はフォンターナと表記されるが、この学術上の帰属不確実性は解説では注意する。人物は高位聖職者だと作品名から説明するが実名を特定しない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "Met公式現行画家名はLavinia Fontanaだが、Met学術刊行物では『attributed to』表記もあるため、制作に学術上の留保があると記録する。描かれた高位聖職者の実名はMet学術記述では不明。円形14cmは実物の大きさで拡大表示時のピクセル数ではない。細かな表現への言及はMetの解説由来であり、画家が特定の感情を込めたと断定しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品436310《Portrait of a Prelate》の作品個別Overviewと画像を直接照合。現行公式レコードは画家ラヴィニア・フォンターナ、1580年ごろ、銅板に油彩、直径14cmの小さな円形肖像画。Metはフォンターナを当時最も名高い女性画家と評し、とりわけ肖像画で知られたと説明する。これほど小さな円形の画面で、右下の本がつくる影、手の甲の浮き出た血管、袖口の縫い目や襟元のレースを細やかな筆致で描いた。ひげの線は他より輪郭を見分けやすく、顔の生き生きとした質感を生むという見方もMet解説に明記。Metの別の学術刊行物（2003年）ではフォンターナ『に帰属』と記され、モデルの身元不明と説明している。現行の公開作品欄では作者はフォンターナと表記されるが、この学術上の帰属不確実性は解説では注意する。人物は高位聖職者だと作品名から説明するが実名を特定しない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/436310"
+          },
+          "creation_context": "ca. 1580; Unspecified; Oil on copper; accession 62.122.141",
+          "visual_clues": "Met公式作品ページ https://www.metmuseum.org/art/collection/search/436310 から正確にリンクされた公式IIIF https://collectionapi.metmuseum.org/api/collection/v1/iiif/436310/2181549/main-image を直接開いて画像を視認。黒色の円形外の正方形画像を除き、絵は直径の小さな円形。黒い帽子とほぼ黒い衣服を着たひげのある男性が斜めにこちらを向き、片手で茶色の薄い開いた本か紙束を持つ。顔と白く細い襟が淡く照らされ、向かって左下には赤褐色の椅子。右下に白い袖口を持つ手。背後は地味な焦茶。銅板の裏書など画像で直接見えない要素を画像根拠にしない。",
+          "uncertainty_note": "Met公式現行画家名はLavinia Fontanaだが、Met学術刊行物では『attributed to』表記もあるため、制作に学術上の留保があると記録する。描かれた高位聖職者の実名はMet学術記述では不明。円形14cmは実物の大きさで拡大表示時のピクセル数ではない。細かな表現への言及はMetの解説由来であり、画家が特定の感情を込めたと断定しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": [
+            "畏敬"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-14",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Each exact Met artwork-specific Overview and accessible work-matched image was independently examined; official Met main IIIF images were inspected for 436310 and 72721; for 55450 the official original JPEG and an alternate Met IIIF detail were inspected. Official primary JPEG hashes checked in CI. Same AI, not a human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "暗い服を着た男性が、薄い本を手にこちらへ顔を向けています。黒い帽子や服を背景に、白い襟、ひげ、指先がくっきり浮かびます。近づいてみると、袖口の模様や本の影まで描き分けられていることに気づきます。\n\n《高位聖職者の肖像》は、16世紀のイタリアで活躍した画家ラヴィニア・フォンターナによるとされる作品です。1580年ごろの制作で、銅板に描かれた円形の絵の直径は、わずか14センチメートル。描かれた男性の名前は特定されていません。\n\nメトロポリタン美術館は、この小ささの中に表現された緻密な技術を高く評価しています。顔のひげには、ほかの部分よりも一筋ずつ分かる細い筆づかいが使われています。大きな画面とは違って、小さな絵に近寄るほど、描く人と見る人の距離まで縮まるように感じられます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/436310"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-14"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-436310-2026-11-14.json",
+        "audit_sha256": "9753ab72e46a5fb874f08653bb419919b50165706895a1264e918d4528c01988",
+        "record_sha256": "ea5051ca0bfd5440fdfd3dede8e7202de97c31c6ef4582820acb6826b704856c"
+      }
+    },
+    {
+      "id": "met-72721",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 72721,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/72721",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/72721",
+        "record_checked_on": "2026-11-14"
+      },
+      "facts": {
+        "title_original": "Krishna and Balarama within a Walled Palace:  Page from a Dispersed Bhagavata Purana (Ancient Stories of Lord Vishnu)",
+        "title_ja_provisional": "城壁に囲まれた宮殿のクリシュナとバララーマ",
+        "artist": "Unknown artist",
+        "creation_date_display": "ca. 1700",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "India (Rajasthan, Bikaner)",
+        "accession_number": "2005.361"
+      },
+      "image": {
+        "image_id": "met-72721-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP152348.jpg",
+        "source_registry_id": "met-72721",
+        "local_path": "/artworks/met-72721.jpg",
+        "sha256": "4b6a43c9a196b7a4a38e24be7b77687f66bce49b6fb2a39f7eba7a779684d783",
+        "byte_length": 117394,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "2005.361",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP152348.jpg",
+          "sha256": "7db3cd426c384ed03e18bb40dcdf3b8b90dc45ca8648fe0bf62ee10b61dd9813",
+          "byte_length": 3088275,
+          "width": 3871,
+          "height": 2984,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=9.8459",
+          "last_full_sha_checked_on": "2026-11-14",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "好奇心",
+          "喜び"
+        ],
+        "emotion_strengths": {
+          "好奇心": 2,
+          "喜び": 1
+        },
+        "tones": [
+          "にぎわい",
+          "高揚"
+        ],
+        "themes": [
+          "共同体",
+          "愛情"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/72721",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "小さな画面に詰まった宮殿の内外の物語をたどり、行列のにぎわいと信仰の静けさを一緒に味わいたい",
+              "reason": "Met公式作品72721の個別Overviewと原資料を直接照合。ラージャスターン州ビーカーネールの1700年ごろの『バーガヴァタ・プラーナ』写本から離れた彩色画（紙に墨と不透明水彩）。館の作者欄には特定作家の名前なし。中心に白い城壁で囲まれた建築が立ち、要塞の内側の大広間にクリシュナとその兄弟バララーマが座る。騎馬兵・戦車の御者・戦士の行列が画面の四方へ向かう複雑な物語を小さな画面にまとめる。Met公式Overviewは高層の部屋で女性たちがクリシュナとラーダーの絵姿を礼拝している点に注目し、叙事的な物語と宗教的な崇敬が重なると指摘する。見える人物群や宗教画の象徴に関する記述はMet学芸員の解釈であり特定の出来事の日時は断定できない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "『城壁に囲まれた宮殿』は神話・信仰に関係する図像で、実際に存在した具体的な宮殿と断定しない。画家個人は不明である。『ラーダーとクリシュナを礼拝する』のは最上部の部屋の女性たちで、中央に座るクリシュナとバララーマの人物二名と混同しない。四方向に進むのは馬・戦車・戦士たちの行列で、戦闘中や特定の戦争の絵と断定しない。Met説明を超えて神話場面の詳細を創作しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品72721の個別Overviewと原資料を直接照合。ラージャスターン州ビーカーネールの1700年ごろの『バーガヴァタ・プラーナ』写本から離れた彩色画（紙に墨と不透明水彩）。館の作者欄には特定作家の名前なし。中心に白い城壁で囲まれた建築が立ち、要塞の内側の大広間にクリシュナとその兄弟バララーマが座る。騎馬兵・戦車の御者・戦士の行列が画面の四方へ向かう複雑な物語を小さな画面にまとめる。Met公式Overviewは高層の部屋で女性たちがクリシュナとラーダーの絵姿を礼拝している点に注目し、叙事的な物語と宗教的な崇敬が重なると指摘する。見える人物群や宗教画の象徴に関する記述はMet学芸員の解釈であり特定の出来事の日時は断定できない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/72721"
+          },
+          "creation_context": "ca. 1700; India (Rajasthan, Bikaner); Ink and opaque watercolor on paper; accession 2005.361",
+          "visual_clues": "Met公式個別画像 https://collectionapi.metmuseum.org/api/collection/v1/iiif/72721/149522/main-image を直接表示し観察した。横長の紙の周囲には摩耗した茶色い余白。中央は階層になった白い宮殿で、正面の黒い扉の上に複数の人物が座り、一番上の階の明るい区画に小さく礼拝する女性たち。背景の庭には並んだ緑の樹木。屋上より上側にも騎馬の隊列、下部全面にも戦車・馬・槍や旗を持つ色とりどりの行列が左右へ広がる。宮殿の中では人物の顔を個別に特定しづらいので、クリシュナ・バララーマの同定は公式Overviewに拠り、容貌だけから断定しない。",
+          "uncertainty_note": "『城壁に囲まれた宮殿』は神話・信仰に関係する図像で、実際に存在した具体的な宮殿と断定しない。画家個人は不明である。『ラーダーとクリシュナを礼拝する』のは最上部の部屋の女性たちで、中央に座るクリシュナとバララーマの人物二名と混同しない。四方向に進むのは馬・戦車・戦士たちの行列で、戦闘中や特定の戦争の絵と断定しない。Met説明を超えて神話場面の詳細を創作しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "好奇心"
+          ],
+          "secondary": [
+            "喜び"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-14",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Each exact Met artwork-specific Overview and accessible work-matched image was independently examined; official Met main IIIF images were inspected for 436310 and 72721; for 55450 the official original JPEG and an alternate Met IIIF detail were inspected. Official primary JPEG hashes checked in CI. Same AI, not a human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "白い城壁に囲まれた宮殿。そのまわりを、馬に乗る人々や旗を掲げた戦車の行列が取り囲んでいます。庭の木々は整然と並び、小さな人物たちは画面の上にも下にも広がっています。一枚の絵の中で、いくつもの場面が同時に動いているようです。\n\n《城壁に囲まれた宮殿のクリシュナとバララーマ》は、1700年ごろのインド・ラージャスターン地方で描かれた細密画です。メトロポリタン美術館によれば、戦士や騎馬兵、戦車の行列は四方へ向かっています。中央の建物の中に座るのは、クリシュナとその兄弟バララーマです。\n\n宮殿の上階には、クリシュナとラーダーの絵姿を拝む女性たちも描かれています。外を行き交う大勢の人々の動きと、建物の内側にある信仰の場面。画面の隅から隅へ目を運ぶと、物語のにぎわいと祈りの静けさが重なって見えてきます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/72721"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-14"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-72721-2026-11-14.json",
+        "audit_sha256": "7bc3c517b1d7b64e6348458872e69aa2317db4f3a6242938c1a6002d660d8bdd",
+        "record_sha256": "ef7486089a33199bd8d4855598fc118265894eb8258718338800873c3b3ddade"
+      }
+    },
+    {
+      "id": "met-55450",
+      "source": {
+        "museum": "Metropolitan Museum of Art",
+        "artwork_id": 55450,
+        "artwork_url": "https://www.metmuseum.org/art/collection/search/55450",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/55450",
+        "record_checked_on": "2026-11-14"
+      },
+      "facts": {
+        "title_original": "Bugaku Dancers",
+        "title_ja_provisional": "舞楽図屏風",
+        "artist": "Kano Yasunobu",
+        "creation_date_display": "Unknown date",
+        "type": "Painting",
+        "is_public_domain_at_source": true,
+        "culture": "Japan",
+        "accession_number": "2000.453"
+      },
+      "image": {
+        "image_id": "met-55450-primary",
+        "iiif_base": null,
+        "iiif_reference_url": null,
+        "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP149562.jpg",
+        "source_registry_id": "met-55450",
+        "local_path": "/artworks/met-55450.jpg",
+        "sha256": "5d613666898f26d4210dd42710cc1f1f1345ae400e7e7ca35e0501a6f9b08832",
+        "byte_length": 89102,
+        "live_image_checked": true,
+        "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+        "source_accession_number": "2000.453",
+        "high_resolution": {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP149562.jpg",
+          "sha256": "835b341eda4568e855dbcf6e64eac99d550276d8f21093c3abb19fb6864df5ee",
+          "byte_length": 2188140,
+          "width": 3811,
+          "height": 1797,
+          "verification": "complete_jpeg_sha256_and_downscale_match",
+          "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=13.3154",
+          "last_full_sha_checked_on": "2026-11-14",
+          "human_visual_checked": false
+        }
+      },
+      "curation": {
+        "emotions": [
+          "喜び",
+          "好奇心"
+        ],
+        "emotion_strengths": {
+          "喜び": 2,
+          "好奇心": 1
+        },
+        "tones": [
+          "にぎわい",
+          "高揚"
+        ],
+        "themes": [
+          "共同体",
+          "時間"
+        ],
+        "evidence_url": "https://www.metmuseum.org/art/collection/search/55450",
+        "search_profile": {
+          "fitting_situations": [
+            {
+              "situation": "金地の屏風に描かれた異なる衣装や踊りの姿勢を見比べ、音のない画面から舞楽の華やかさを味わいたい",
+              "reason": "Met公式作品55450《Bugaku Dancers》の個別Overview・作品詳細・公式画像を直接確認。作者は狩野安信（1614–1685）、江戸時代、六曲屏風、金地の紙に墨と色彩・金。作品ページでは具体的な単一年の制作年を示さない。舞楽は奈良時代の8世紀に唐からの文化などを通じ日本の宮廷儀礼や祭礼で行われた仮面・華麗な衣装の舞。左に金襴の大きな幔幕で覆われた高台に太鼓・笛・笙の奏者があり、残る金箔の画面に計35人の踊り手がさまざまな姿勢で散らばる。左上には『法眼永真筆』と読める署名と安信の印章。Met Overviewは安信が1662年に法眼の称号を得て1685年没まで使用したと説明しており、そこから1650年と断定しない。現行Metは一作品の6曲屏風として掲載。画像 https://images.metmuseum.org/CRDImages/as/original/DP149562.jpg は6パネルの全体像を示し、公式IIIFの追加画像55450/147885/main-imageは左端の奏者と踊り手の部分拡大。これらの現物描写に沿い、作者自身の宗教観を推測しない。",
+              "strength": 2
+            }
+          ],
+          "selection_cautions": [
+            "Met個別ページに制作の単一年なし。署名の『法眼永真筆』と1662年以降使用の事実から正確な制作年を確定することはできない。計35人の踊り手はMet解説の人数で、左の奏者とは別に説明する。最初のIIIF画像147884が取得できなかった事実を記録し、公式原寸JPEG DP149562.jpg で全体像を確認した。屏風の実体は一隻6パネルであり、この登録が一双二隻の作品と誤記しない。資料にない音楽の具体的な音色や踊り手の個人名を捏造しない。"
+          ],
+          "review_status": "evidence_reviewed"
+        },
+        "meaning_basis": {
+          "author_intent": {
+            "status": "not_verified_for_this_work",
+            "summary": null,
+            "source_url": null
+          },
+          "scholarly_interpretation": {
+            "summary": "Met公式作品55450《Bugaku Dancers》の個別Overview・作品詳細・公式画像を直接確認。作者は狩野安信（1614–1685）、江戸時代、六曲屏風、金地の紙に墨と色彩・金。作品ページでは具体的な単一年の制作年を示さない。舞楽は奈良時代の8世紀に唐からの文化などを通じ日本の宮廷儀礼や祭礼で行われた仮面・華麗な衣装の舞。左に金襴の大きな幔幕で覆われた高台に太鼓・笛・笙の奏者があり、残る金箔の画面に計35人の踊り手がさまざまな姿勢で散らばる。左上には『法眼永真筆』と読める署名と安信の印章。Met Overviewは安信が1662年に法眼の称号を得て1685年没まで使用したと説明しており、そこから1650年と断定しない。現行Metは一作品の6曲屏風として掲載。画像 https://images.metmuseum.org/CRDImages/as/original/DP149562.jpg は6パネルの全体像を示し、公式IIIFの追加画像55450/147885/main-imageは左端の奏者と踊り手の部分拡大。これらの現物描写に沿い、作者自身の宗教観を推測しない。",
+            "source_url": "https://www.metmuseum.org/art/collection/search/55450"
+          },
+          "creation_context": "Unknown date; Japan; Six-panel screen; ink, color, and gold on gilded paper; accession 2000.453",
+          "visual_clues": "Met公式作品55450ページのIIIF第一画像55450/147884/main-imageはウェブ取得失敗。しかし作品検索結果に示された同一作品・Met公式オリジナルJPEG https://images.metmuseum.org/CRDImages/as/original/DP149562.jpg を直接開いて6パネル全体像を視認。長方形を横に並べた6枚の金箔地の屏風。左端の赤と黒の幔幕の中に楽器を構えた奏者、屏風全域に赤・緑・青・黒などの色の鮮やかな衣装の小人、異なる手足の動きで踊る集団。左上近辺に細い縦書き。さらに同一ページのIIIF追加画像55450/147885/main-imageを直接視認し、幔幕下の大きな丸い太鼓と周辺の踊り手を拡大確認した。35人という数は画像を自力で数えたのではなくMet Overviewの記述。",
+          "uncertainty_note": "Met個別ページに制作の単一年なし。署名の『法眼永真筆』と1662年以降使用の事実から正確な制作年を確定することはできない。計35人の踊り手はMet解説の人数で、左の奏者とは別に説明する。最初のIIIF画像147884が取得できなかった事実を記録し、公式原寸JPEG DP149562.jpg で全体像を確認した。屏風の実体は一隻6パネルであり、この登録が一双二隻の作品と誤記しない。資料にない音楽の具体的な音色や踊り手の個人名を捏造しない。"
+        },
+        "emotion_categories": {
+          "primary": [
+            "喜び"
+          ],
+          "secondary": [
+            "好奇心"
+          ]
+        }
+      },
+      "review": {
+        "facts_checked_against_museum_api": true,
+        "source_public_domain_flag_checked": true,
+        "visual_checked": false,
+        "curatorial_reviewed_on": "2026-11-14",
+        "curatorial_review_status": "provisional",
+        "curatorial_review_note": "Each exact Met artwork-specific Overview and accessible work-matched image was independently examined; official Met main IIIF images were inspected for 436310 and 72721; for 55450 the official original JPEG and an alternate Met IIIF detail were inspected. Official primary JPEG hashes checked in CI. Same AI, not a human/expert auditor."
+      },
+      "visitor_explanation": {
+        "language": "ja",
+        "text": "金色の屏風いっぱいに、色鮮やかな衣装を着た人々が舞っています。列を作る人、身をひねる人、長い袖を広げる人。左端の大きな幔幕の下には楽器を奏でる人々がいて、画面のあちこちに踊りの動きが散りばめられています。\n\n狩野安信による《舞楽図屏風》です。舞楽は8世紀ごろから日本の宮廷儀礼や祭礼で受け継がれてきた舞踊で、メトロポリタン美術館は、その歴史が唐の文化の受容にまでさかのぼると説明しています。太鼓・笛・笙を奏でる人々のそばで、35人の踊り手が金地の上に配置されています。\n\n画面の左上には『法眼永真筆』という署名があり、安信の印章も添えられています。安信がこの称号を使ったのは1662年以降ですが、絵の制作年を一つの年には決められません。金箔の余白をはさんだ一人ひとりの姿勢を追いかけると、音が聞こえない画面からも踊りのリズムが感じられます。",
+        "source_urls": [
+          "https://www.metmuseum.org/art/collection/search/55450"
+        ],
+        "review": {
+          "content_status": "verified",
+          "source_status": "verified",
+          "rights_status": "verified",
+          "reviewed_on": "2026-11-14"
+        }
+      },
+      "completion": {
+        "schema_version": "artwork-completion-v2-new-1",
+        "audit_path": "docs/artwork-completion-audits/met-55450-2026-11-14.json",
+        "audit_sha256": "3f597cdfea5add6d35ef7b95c73c900bebcae224293269bcc68fc9f8908a4a13",
+        "record_sha256": "084181bcd9335f442984df3f8d2ceeff05cdb3addd734bb2cf36c60121bb242e"
+      }
     }
   ],
   "last_reviewed_on": "2026-10-20",
