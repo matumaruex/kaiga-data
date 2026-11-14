@@ -1,0 +1,129 @@
+{
+  "schema_version": "artwork-v2-new-registration-2",
+  "id": "met-40003",
+  "checked_on": "2026-11-14",
+  "result": "PASS",
+  "unresolved_material_issues": [],
+  "candidate_path": "drafts/artwork-additions/met-40003.json",
+  "candidate_sha256": "b32cb491c94cb4e5acc37906b429e962dc9b37e918c6ac2dd7e6b204ed29d955",
+  "draft_path": "drafts/visitor-explanations/met-40003.json",
+  "draft_sha256": "a610db5cb068d8293a0a95b0f5934bc0e1fe7c437b52366eac6c735f93f7831c",
+  "baseline": {
+    "artworks_sha256": "4c26fae7ebe0bc06fbb54b3cf98b48474d327773350e05ffe036b4951ba75f07",
+    "image_registry_sha256": "723d2a59a8f66d599db280a7e077c6ec751f7908a6163bc18ab9eeed571d20e5"
+  },
+  "official_text_checks": [
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/40003",
+      "source_excerpt": "follows a well-known composition by Li Cheng as described by Mi Fu",
+      "visitor_claim": "この作品は李成の有名な構図を踏まえている、とメトロポリタン美術館は説明しています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    },
+    {
+      "source_url": "https://www.metmuseum.org/art/collection/search/40003",
+      "source_excerpt": "the great pine, symbolizing the virtuous gentleman",
+      "visitor_claim": "大きな松は、徳のある人物を象徴すると美術館は説明しています。",
+      "source_section": "Met artwork-specific Overview (read directly in research pass)"
+    }
+  ],
+  "source_evidence": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/40003",
+      "location": "Actual artwork Overview and object information; two matching English excerpts",
+      "finding": "メトロポリタン美術館所蔵作品40003《Travelers in a Wintry Forest》（12世紀初頭、北宋系の絹本水墨淡彩掛軸）。現在の作者表示は「Unidentified artist」で、五代北宋時代の李成（919–967）への帰属は『伝李成』とされ、本人直筆の確定作ではない。Met作品固有Overviewは画家・米芾が記した李成の有名な構図をこの作品が踏まえると説明する。古い巨大松は徳ある人物の象徴として解釈され、幼木から朽ちた老木までの木々が成長と衰退という自然の循環を表す。絵の下部に笠をかぶり驢馬に乗る文人が小さく描かれ、山中で世の秩序を求める隠者の理想と関連づけられる。この寓意はMetの美術史的説明であり、作者が自作の意味を明言したものではない。 Visual: 2026-11-14にMetの作品40003固有の公式IIIF画像40003/149054/main-imageを直接開いて視認した。正規の初回リンク40003/149055はブラウザで取得に失敗したため、同一作品ページの追加画像である149054の全体像を視認した。縦長の絹本掛軸、上部に墨書の題字、下部に跋文がある。中央の絵は褐色の冬山、左端に大きくねじれた古木の幹、細く枝を伸ばす葉の落ちた木々、崖と岩が続く。下の小径には小さな笠をかぶった旅人が驢馬に乗り山道を進む。雪が深く積もるというより寒々しい枯れ枝の景観で、画面の色は濃茶・灰・淡い黄。追加画像149057には樹木の部分拡大もあり同じ作品の細部と確認できる。 Limits: 李成の直筆と断定しない。Metの現在の作者表示は未詳、伝李成であり、年代は李成の死後にあたる12世紀初頭。画家自身の心理的意図と美術館による松の寓意の解釈を区別する。旅人は下部に小さく見えるため人物の顔・服装・身分は推定しない。山の情景を特定の地名・実在の旅路と結びつけない。公式の最初のIIIF main-imageリンク149055は閲覧不能であり、別の同一Met作品画像149054で確認した限界を記録する。",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/40003",
+      "location": "Met live object API public-domain flag, object ID, official original/display JPEG URLs",
+      "finding": "met-40003: API objectID=40003, primary JPEG full downloaded and verified; RMS=3.3224",
+      "checked_against_source": true
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "location": "Met Open Access CC0 policy for JPEG reproductions of public domain works",
+      "finding": "The Met states primary JPEGs of public-domain objects are available under CC0; separate modern explanatory-text rights were not waived.",
+      "checked_against_source": true
+    }
+  ],
+  "rights": {
+    "artwork": {
+      "verified": true,
+      "public_domain": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/40003",
+      "finding": "Exact Met artwork page says Public Domain; live object API isPublicDomain true."
+    },
+    "image": {
+      "verified": true,
+      "permitted_for_site_use": true,
+      "source_url": "https://www.metmuseum.org/hubs/open-access",
+      "finding": "Official Met Open Access CC0; full display and original JPEG SHA256/lengths/dimensions and matching image RMS=3.3224."
+    },
+    "text": {
+      "verified": true,
+      "independent_japanese_prose": true,
+      "source_url": "https://www.metmuseum.org/art/collection/search/40003",
+      "finding": "Independently written Japanese prose from primary source facts and directly observed imagery, not a translation of the Met Overview. Quoted English source snippets confined to internal audit; no expert legal assurance."
+    }
+  },
+  "separate_pass_review": {
+    "result": "PASS",
+    "method": "Same AI separate substantive check of the exact object-specific Met Overview (two brief source excerpts mapped to Japanese claims) and the artwork-specific visual sources: official Met main IIIF for met-11979 (44883) and met-44523 (204058), and alternate official IIIF for met-40003 (149054) because its first link (149055) failed, plus GitHub Actions live Met API full-original/display JPEG SHA256, dimensions and downscale comparison. Automated structural checks do not by themselves prove historical correctness.",
+    "limitations": "AI's separate research/review passes, not an independent human, model or academic scholar. CI may be rate-limited if it independently fetches the Overview; source excerpts had been directly read through the research browser.",
+    "areas": [
+      "identity",
+      "image_match",
+      "historical_interpretation",
+      "emotion",
+      "visitor_text",
+      "rights"
+    ],
+    "findings": {
+      "identity": "met-40003 Travelers in a Wintry Forest / Unidentified artist / early 12th century / 1972.121",
+      "image_match": "2026-11-14にMetの作品40003固有の公式IIIF画像40003/149054/main-imageを直接開いて視認した。正規の初回リンク40003/149055はブラウザで取得に失敗したため、同一作品ページの追加画像である149054の全体像を視認した。縦長の絹本掛軸、上部に墨書の題字、下部に跋文がある。中央の絵は褐色の冬山、左端に大きくねじれた古木の幹、細く枝を伸ばす葉の落ちた木々、崖と岩が続く。下の小径には小さな笠をかぶった旅人が驢馬に乗り山道を進む。雪が深く積もるというより寒々しい枯れ枝の景観で、画面の色は濃茶・灰・淡い黄。追加画像149057には樹木の部分拡大もあり同じ作品の細部と確認できる。 Both primary JPEG variants fully downloaded and match (RMS=3.3224).",
+      "historical_interpretation": "メトロポリタン美術館所蔵作品40003《Travelers in a Wintry Forest》（12世紀初頭、北宋系の絹本水墨淡彩掛軸）。現在の作者表示は「Unidentified artist」で、五代北宋時代の李成（919–967）への帰属は『伝李成』とされ、本人直筆の確定作ではない。Met作品固有Overviewは画家・米芾が記した李成の有名な構図をこの作品が踏まえると説明する。古い巨大松は徳ある人物の象徴として解釈され、幼木から朽ちた老木までの木々が成長と衰退という自然の循環を表す。絵の下部に笠をかぶり驢馬に乗る文人が小さく描かれ、山中で世の秩序を求める隠者の理想と関連づけられる。この寓意はMetの美術史的説明であり、作者が自作の意味を明言したものではない。 Cautions: 李成の直筆と断定しない。Metの現在の作者表示は未詳、伝李成であり、年代は李成の死後にあたる12世紀初頭。画家自身の心理的意図と美術館による松の寓意の解釈を区別する。旅人は下部に小さく見えるため人物の顔・服装・身分は推定しない。山の情景を特定の地名・実在の旅路と結びつけない。公式の最初のIIIF main-imageリンク149055は閲覧不能であり、別の同一Met作品画像149054で確認した限界を記録する。",
+      "emotion": "Judged curator-side tag links, not viewer predictions: ['畏敬', '孤独']",
+      "visitor_text": "Original Japanese visitor paragraphs checked against two exact short passages on this artwork-specific Met Overview.",
+      "rights": "Public-domain object, Met OA/CC0 image, contemporary prose treated as distinct copyrighted text."
+    }
+  },
+  "image_evidence": [
+    {
+      "kind": "display",
+      "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP154079.jpg",
+      "sha256": "4dc344671c694c3bafce7ed4a8c61d34191de03ad070a1ca5e437ce194d9677e",
+      "byte_length": 58341,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/40003",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/40003/149054/main-image",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/40003/149057/main-image"
+      ],
+      "checked_on": "2026-11-14",
+      "observation": "2026-11-14にMetの作品40003固有の公式IIIF画像40003/149054/main-imageを直接開いて視認した。正規の初回リンク40003/149055はブラウザで取得に失敗したため、同一作品ページの追加画像である149054の全体像を視認した。縦長の絹本掛軸、上部に墨書の題字、下部に跋文がある。中央の絵は褐色の冬山、左端に大きくねじれた古木の幹、細く枝を伸ばす葉の落ちた木々、崖と岩が続く。下の小径には小さな笠をかぶった旅人が驢馬に乗り山道を進む。雪が深く積もるというより寒々しい枯れ枝の景観で、画面の色は濃茶・灰・淡い黄。追加画像149057には樹木の部分拡大もあり同じ作品の細部と確認できる。 Official same-object primary JPEG original/display resized RGB RMS=3.3224; not a human visual signoff."
+    },
+    {
+      "kind": "original",
+      "url": "https://images.metmuseum.org/CRDImages/as/original/DP154079.jpg",
+      "sha256": "fb187ceaae944b6714c5315cec939831963622eae7860c4e578c99ca83338c5c",
+      "byte_length": 2931533,
+      "download_status": 200,
+      "full_bytes_sha256_checked": true,
+      "image_subject_visually_compared": true,
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/40003",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/40003/149054/main-image",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/40003/149057/main-image"
+      ],
+      "checked_on": "2026-11-14",
+      "observation": "2026-11-14にMetの作品40003固有の公式IIIF画像40003/149054/main-imageを直接開いて視認した。正規の初回リンク40003/149055はブラウザで取得に失敗したため、同一作品ページの追加画像である149054の全体像を視認した。縦長の絹本掛軸、上部に墨書の題字、下部に跋文がある。中央の絵は褐色の冬山、左端に大きくねじれた古木の幹、細く枝を伸ばす葉の落ちた木々、崖と岩が続く。下の小径には小さな笠をかぶった旅人が驢馬に乗り山道を進む。雪が深く積もるというより寒々しい枯れ枝の景観で、画面の色は濃茶・灰・淡い黄。追加画像149057には樹木の部分拡大もあり同じ作品の細部と確認できる。 Official same-object primary JPEG original/display resized RGB RMS=3.3224; not a human visual signoff."
+    }
+  ],
+  "notes": [
+    "New sequential registration #469 with preceding artwork and image-registry records unchanged.",
+    "Two excerpts checked against exact Met artwork Overview. Official or independently identified artwork-specific image visually inspected with provenance separately recorded. Official API primary JPEGs verified for size, SHA and downscale match.",
+    "No claims of human approval or expert rights review."
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "schema_version": "artwork-addition-proposal-v1",
+  "id": "met-44523",
+  "artwork": {
+    "id": "met-44523",
+    "source": {
+      "museum": "Metropolitan Museum of Art",
+      "artwork_id": 44523,
+      "artwork_url": "https://www.metmuseum.org/art/collection/search/44523",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/44523",
+      "record_checked_on": "2026-11-14"
+    },
+    "facts": {
+      "title_original": "Birds and Flowers of the Four Seasons",
+      "title_ja_provisional": "四季花鳥図屏風",
+      "artist": "Unknown artist",
+      "creation_date_display": "late 16th century",
+      "type": "Painting",
+      "is_public_domain_at_source": true,
+      "culture": "Japan",
+      "accession_number": "1987.342.1, .2"
+    },
+    "image": {
+      "image_id": "met-44523-primary",
+      "iiif_base": null,
+      "iiif_reference_url": null,
+      "display_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP284317.jpg",
+      "source_registry_id": "met-44523",
+      "local_path": "/artworks/met-44523.jpg",
+      "sha256": "73c5afcc15e2953919b325086bbc6e23edc546fae87def84d067fa72259041a2",
+      "byte_length": 182368,
+      "live_image_checked": true,
+      "live_check_scope": "Work-specific visual matching and limitations recorded in research evidence; actual primary JPEG full bytes, dimensions and RGB downscale independently checked.",
+      "source_accession_number": "1987.342.1, .2",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP284317.jpg",
+        "sha256": "c6a3bf68c92bb4d765a4614ea5c6a8293c3d951d4a80d6f5037418dc7e454ef2",
+        "byte_length": 1581309,
+        "width": 1976,
+        "height": 919,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=10.3085",
+        "last_full_sha_checked_on": "2026-11-14",
+        "human_visual_checked": false
+      }
+    },
+    "curation": {
+      "emotions": [
+        "喜び",
+        "畏敬"
+      ],
+      "emotion_strengths": {
+        "喜び": 2,
+        "畏敬": 1
+      },
+      "tones": [
+        "高揚",
+        "にぎわい"
+      ],
+      "themes": [
+        "自然",
+        "時間"
+      ],
+      "evidence_url": "https://www.metmuseum.org/art/collection/search/44523",
+      "search_profile": {
+        "fitting_situations": [
+          {
+            "situation": "金箔の大きな屏風に描かれた鶴と松竹、季節の草花をたどり、絵の華やかさに浸りたい",
+            "reason": "メトロポリタン美術館の作品44523《Birds and Flowers of the Four Seasons》を個別の作品解説と資料で照合。16世紀末の桃山時代、日本で制作された六曲一双の屏風。現行Metでは個人作家の確定帰属はなく「Japan」を作者欄に置く。花の移り変わりが春から冬の季節をたどり、鶴は長寿を願う吉祥の象徴。金箔を敷いた地に鮮やかな色と力強い墨の輪郭を重ねる大胆な装飾は狩野元信によって確立した絵の系統に典型的で、樹木の大きな誇張は狩野永徳の表現を思わせるとMetは論じる。これは狩野元信または永徳が実際に筆を執った証明ではない。制作当時の都の寺院や邸宅の豪華な趣味を反映するという文化史の解釈。Met 44523の公式ページには屏風の各部分を示す複数画像があり、公式IIIF 44523/204058/main-imageを視認した。金地の片隻の中に松・竹・曲線状の水辺・鶴が見え、別の隻を写真に写したものではない。",
+            "strength": 2
+          }
+        ],
+        "selection_cautions": [
+          "現在の公式作者欄に個人名の確定はない。狩野元信・狩野永徳は美術史的な様式比較に用いられ、作者だと断定しない。六曲一双＝六つ折り屏風二隻の組であり、Met APIのprimaryImageが片隻のみを示す可能性を画像説明と作品形式で区別する。季節が一枚に全て見えるとは限らず、春から冬への展開は二隻を通じたMet説明として書く。鶴を野生動物の生態学的観察と決めず、長寿を表す伝統意匠であると区別する。"
+        ],
+        "review_status": "evidence_reviewed"
+      },
+      "meaning_basis": {
+        "author_intent": {
+          "status": "not_verified_for_this_work",
+          "summary": null,
+          "source_url": null
+        },
+        "scholarly_interpretation": {
+          "summary": "メトロポリタン美術館の作品44523《Birds and Flowers of the Four Seasons》を個別の作品解説と資料で照合。16世紀末の桃山時代、日本で制作された六曲一双の屏風。現行Metでは個人作家の確定帰属はなく「Japan」を作者欄に置く。花の移り変わりが春から冬の季節をたどり、鶴は長寿を願う吉祥の象徴。金箔を敷いた地に鮮やかな色と力強い墨の輪郭を重ねる大胆な装飾は狩野元信によって確立した絵の系統に典型的で、樹木の大きな誇張は狩野永徳の表現を思わせるとMetは論じる。これは狩野元信または永徳が実際に筆を執った証明ではない。制作当時の都の寺院や邸宅の豪華な趣味を反映するという文化史の解釈。Met 44523の公式ページには屏風の各部分を示す複数画像があり、公式IIIF 44523/204058/main-imageを視認した。金地の片隻の中に松・竹・曲線状の水辺・鶴が見え、別の隻を写真に写したものではない。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/44523"
+        },
+        "creation_context": "late 16th century; Japan; Pair of six-panel folding screens; ink, color, gold, and gold leaf on paper; accession 1987.342.1, .2",
+        "visual_clues": "2026-11-14にMet作品44523の公式画像リンクからIIIF 44523/204058/main-imageを直接開いて確認。横長、六つの縦長パネルを区切る黒い線を持つ金色の屏風で、左端の竹・上空の小鳥、中左に濃紺で渦巻く水流と大きな緑の松、右寄りに背の高い白鶴とその下の複数の鶴、下部の花々が描かれる。金箔地の明るい無地を大きく残す一方で枝や茂みは勢いよく伸びる。公式の画像一覧は一双の構成要素にまたがるため、今回直接確認したのは最初の片隻の画像。これ一枚だけを二隻の全体図とは称しない。",
+        "uncertainty_note": "現在の公式作者欄に個人名の確定はない。狩野元信・狩野永徳は美術史的な様式比較に用いられ、作者だと断定しない。六曲一双＝六つ折り屏風二隻の組であり、Met APIのprimaryImageが片隻のみを示す可能性を画像説明と作品形式で区別する。季節が一枚に全て見えるとは限らず、春から冬への展開は二隻を通じたMet説明として書く。鶴を野生動物の生態学的観察と決めず、長寿を表す伝統意匠であると区別する。"
+      },
+      "emotion_categories": {
+        "primary": [
+          "喜び"
+        ],
+        "secondary": [
+          "畏敬"
+        ]
+      }
+    },
+    "review": {
+      "facts_checked_against_museum_api": true,
+      "source_public_domain_flag_checked": true,
+      "visual_checked": false,
+      "curatorial_reviewed_on": "2026-11-14",
+      "curatorial_review_status": "provisional",
+      "curatorial_review_note": "Each exact Met artwork-specific Overview and accessible work-matched image was independently examined; two official Met main IIIF views were inspected and an alternate Met IIIF image of the third work was inspected. Official primary JPEG hashes checked in CI. Same AI, not a human/expert auditor."
+    },
+    "visitor_explanation": {
+      "language": "ja",
+      "text": "金色の地に、大きく枝を伸ばした松と竹。紺色の水の流れが画面を横切り、白い鶴が立ち、ほかの鳥たちが空を飛んでいます。植物の形は力強い墨の線で縁取られ、余白の金箔まで光を放っているようです。\n\n《四季花鳥図屏風》は16世紀末、桃山時代の日本で作られた六曲一双の屏風です。草花は春から冬へ季節をたどるように配置され、鶴は長寿を願う吉祥の題材です。濃い墨の輪郭、鮮やかな色、金箔の地が画面を華やかに見せています。\n\nこうした豪華な花鳥画には狩野派の伝統が感じられますが、画家個人の名前は確定していません。一双の屏風を広げると、絵は室内の大きな空間を占めます。次々に現れる鳥や季節の草花を目で追いながら、当時の寺院や邸宅にあった華やかな時間を想像してみてください。",
+      "source_urls": [
+        "https://www.metmuseum.org/art/collection/search/44523"
+      ],
+      "review": {
+        "content_status": "verified",
+        "source_status": "verified",
+        "rights_status": "verified",
+        "reviewed_on": "2026-11-14"
+      }
+    }
+  },
+  "image_record": {
+    "id": "met-44523",
+    "title": "Birds and Flowers of the Four Seasons",
+    "official_artwork_url": "https://www.metmuseum.org/art/collection/search/44523",
+    "origin": "met_official_primary",
+    "in_shared_catalog": true,
+    "verification": "met_primary_jpeg_http_verified",
+    "image_source": {
+      "type": "met_open_access",
+      "official_image_page": "https://www.metmuseum.org/art/collection/search/44523",
+      "license_label": "The Met Open Access / CC0 (public-domain work; official primary JPEG)",
+      "license_url": "https://www.metmuseum.org/hubs/open-access",
+      "verified_download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP284317.jpg",
+      "sha256": "73c5afcc15e2953919b325086bbc6e23edc546fae87def84d067fa72259041a2",
+      "byte_length": 182368,
+      "last_http_sha_checked_on": "2026-11-14",
+      "last_verification_evidence": "https://github.com/matumaruex/kaiga-data/blob/codex/artworks-468-470-20261114/docs/artwork-research-evidence/met-468-470-2026-11-14.json",
+      "license_review_status": "official_OA_confirmed_release_review_pending",
+      "high_resolution": {
+        "url": "https://images.metmuseum.org/CRDImages/as/original/DP284317.jpg",
+        "sha256": "c6a3bf68c92bb4d765a4614ea5c6a8293c3d951d4a80d6f5037418dc7e454ef2",
+        "byte_length": 1581309,
+        "width": 1976,
+        "height": 919,
+        "verification": "complete_jpeg_sha256_and_downscale_match",
+        "source_identity_basis": "Same Met API object primary original/display; resized RGB RMS=10.3085",
+        "last_full_sha_checked_on": "2026-11-14",
+        "human_visual_checked": false
+      }
+    },
+    "accession_number": "1987.342.1, .2"
+  }
+}
