@@ -1,0 +1,170 @@
+{
+  "checked_on": "2026-11-14",
+  "method": "Live Met API primary original/display full JPEG SHA256/size and RGB correspondence; exact Met artwork Overview read directly. Official Met main IIIF views for met-436310/2181549 and met-72721/149522 were directly viewed, along with official original full JPEG DP149562.jpg and extra Met IIIF detail 55450/147885 for met-55450. First 55450 IIIF 147884 failed to load and this is noted individually. CI verifies each official Met API original/display JPEG pair.",
+  "artworks": [
+    {
+      "id": "met-436310",
+      "objectID": 436310,
+      "title": "Portrait of a Prelate",
+      "artist": "Lavinia Fontana",
+      "date": "ca. 1580",
+      "accession": "62.122.141",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/436310",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436310",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/436310",
+          "source_excerpt": "This roundel’s minuscule scale required impressive control and tight paint handling",
+          "visitor_claim": "メトロポリタン美術館は、この小ささの中に表現された緻密な技術を高く評価しています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/436310",
+          "source_excerpt": "except in the beard, where deliberately distinct lines lend verisimilitude",
+          "visitor_claim": "顔のひげには、ほかの部分よりも一筋ずつ分かる細い筆づかいが使われています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "Met公式作品ページ https://www.metmuseum.org/art/collection/search/436310 から正確にリンクされた公式IIIF https://collectionapi.metmuseum.org/api/collection/v1/iiif/436310/2181549/main-image を直接開いて画像を視認。黒色の円形外の正方形画像を除き、絵は直径の小さな円形。黒い帽子とほぼ黒い衣服を着たひげのある男性が斜めにこちらを向き、片手で茶色の薄い開いた本か紙束を持つ。顔と白く細い襟が淡く照らされ、向かって左下には赤褐色の椅子。右下に白い袖口を持つ手。背後は地味な焦茶。銅板の裏書など画像で直接見えない要素を画像根拠にしない。",
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/436310",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436310/2181549/main-image"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-26943-001.jpg",
+          "sha256": "ae60f16bc203bf6e8a8301d5b6d2276afa6b52df7f3af6ab01135657b1a21083",
+          "byte_length": 75486,
+          "size_px": [
+            600,
+            604
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-26943-001.jpg",
+          "sha256": "8cba3050d2d1fa5e1bb35d05ea8d55dacaffcbf10172669fd8668d476e981b9a",
+          "byte_length": 3637539,
+          "size_px": [
+            3973,
+            4000
+          ]
+        }
+      ],
+      "resized_rgb_rms": 3.0786
+    },
+    {
+      "id": "met-72721",
+      "objectID": 72721,
+      "title": "Krishna and Balarama within a Walled Palace:  Page from a Dispersed Bhagavata Purana (Ancient Stories of Lord Vishnu)",
+      "artist": "Unknown artist",
+      "date": "ca. 1700",
+      "accession": "2005.361",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/72721",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/72721",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/72721",
+          "source_excerpt": "Processions of warriors, charioteers, and horsemen depart in four directions",
+          "visitor_claim": "メトロポリタン美術館によれば、戦士や騎馬兵、戦車の行列は四方へ向かっています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/72721",
+          "source_excerpt": "inside the fortified pavilion, sit Krishna and his brother Balarama",
+          "visitor_claim": "中央の建物の中に座るのは、クリシュナとその兄弟バララーマです。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "Met公式個別画像 https://collectionapi.metmuseum.org/api/collection/v1/iiif/72721/149522/main-image を直接表示し観察した。横長の紙の周囲には摩耗した茶色い余白。中央は階層になった白い宮殿で、正面の黒い扉の上に複数の人物が座り、一番上の階の明るい区画に小さく礼拝する女性たち。背景の庭には並んだ緑の樹木。屋上より上側にも騎馬の隊列、下部全面にも戦車・馬・槍や旗を持つ色とりどりの行列が左右へ広がる。宮殿の中では人物の顔を個別に特定しづらいので、クリシュナ・バララーマの同定は公式Overviewに拠り、容貌だけから断定しない。",
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/72721",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/72721/149522/main-image"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP152348.jpg",
+          "sha256": "4b6a43c9a196b7a4a38e24be7b77687f66bce49b6fb2a39f7eba7a779684d783",
+          "byte_length": 117394,
+          "size_px": [
+            599,
+            462
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP152348.jpg",
+          "sha256": "7db3cd426c384ed03e18bb40dcdf3b8b90dc45ca8648fe0bf62ee10b61dd9813",
+          "byte_length": 3088275,
+          "size_px": [
+            3871,
+            2984
+          ]
+        }
+      ],
+      "resized_rgb_rms": 9.8459
+    },
+    {
+      "id": "met-55450",
+      "objectID": 55450,
+      "title": "Bugaku Dancers",
+      "artist": "Kano Yasunobu",
+      "date": "",
+      "accession": "2000.453",
+      "publicDomain": true,
+      "official_url": "https://www.metmuseum.org/art/collection/search/55450",
+      "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/55450",
+      "source_excerpt_checks": [
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/55450",
+          "source_excerpt": "The costumed dances known as bugaku have been customary in Japanese court rituals",
+          "visitor_claim": "舞楽は8世紀ごろから日本の宮廷儀礼や祭礼で受け継がれてきた舞踊で、メトロポリタン美術館は、その歴史が唐の文化の受容にまでさかのぼると説明しています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        },
+        {
+          "source_url": "https://www.metmuseum.org/art/collection/search/55450",
+          "source_excerpt": "Thirty-five dancing figures fill the remaining panels",
+          "visitor_claim": "太鼓・笛・笙を奏でる人々のそばで、35人の踊り手が金地の上に配置されています。",
+          "source_section": "Met artwork-specific Overview (read directly in research pass)"
+        }
+      ],
+      "visual_observation": "Met公式作品55450ページのIIIF第一画像55450/147884/main-imageはウェブ取得失敗。しかし作品検索結果に示された同一作品・Met公式オリジナルJPEG https://images.metmuseum.org/CRDImages/as/original/DP149562.jpg を直接開いて6パネル全体像を視認。長方形を横に並べた6枚の金箔地の屏風。左端の赤と黒の幔幕の中に楽器を構えた奏者、屏風全域に赤・緑・青・黒などの色の鮮やかな衣装の小人、異なる手足の動きで踊る集団。左上近辺に細い縦書き。さらに同一ページのIIIF追加画像55450/147885/main-imageを直接視認し、幔幕下の大きな丸い太鼓と周辺の踊り手を拡大確認した。35人という数は画像を自力で数えたのではなくMet Overviewの記述。",
+      "visual_source_urls": [
+        "https://www.metmuseum.org/art/collection/search/55450",
+        "https://images.metmuseum.org/CRDImages/as/original/DP149562.jpg",
+        "https://collectionapi.metmuseum.org/api/collection/v1/iiif/55450/147885/main-image"
+      ],
+      "main_primary_jpegs": [
+        {
+          "kind": "display",
+          "url": "https://images.metmuseum.org/CRDImages/as/web-large/DP149562.jpg",
+          "sha256": "5d613666898f26d4210dd42710cc1f1f1345ae400e7e7ca35e0501a6f9b08832",
+          "byte_length": 89102,
+          "size_px": [
+            598,
+            282
+          ]
+        },
+        {
+          "kind": "original",
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP149562.jpg",
+          "sha256": "835b341eda4568e855dbcf6e64eac99d550276d8f21093c3abb19fb6864df5ee",
+          "byte_length": 2188140,
+          "size_px": [
+            3811,
+            1797
+          ]
+        }
+      ],
+      "resized_rgb_rms": 13.3154
+    }
+  ],
+  "limitations": [
+    "Same AI review, not an independent human/expert",
+    "Per-work visual-reference provenance and limitations documented; official Met original/display JPEGs downloaded and RGB correspondence checked"
+  ]
+}
