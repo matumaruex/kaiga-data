@@ -12,6 +12,8 @@
 
 ## 作業を再開するとき
 
+AI向けの共通作業指示は [AGENTS.md](AGENTS.md) にあります。進捗・登録手順・品質基準は以下の文書が正本です。
+
 1. [現在の再開地点](docs/resume-artwork-work.md) — 完成数・次の着手・未解決事項
 2. [新規作品の追加手順](docs/artwork-expansion-v2.md) — 候補調査、制作、登録
 3. [作品の共通品質基準](docs/artwork-completion-workflow-v2.md) — 作品ごとの完成条件
