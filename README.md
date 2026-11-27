@@ -1,6 +1,6 @@
 # 絵画データベース
 
-実在する絵画の資料・画像情報・鑑賞者向け日本語解説を管理するデータリポジトリ。展示アプリ本体は別リポジトリ。
+実在する絵画の資料・画像情報・鑑賞者向け日本語解説を管理するデータリポジトリ。展示アプリ本体は [お前の美術館](https://github.com/matumaruex/omaenobizyutu/tree/codex/museum-preview)（別リポジトリ）。
 
 ## 登録状況
 
@@ -20,10 +20,8 @@ AI向けの共通作業指示は [AGENTS.md](AGENTS.md) にあります。進捗
 
 作品データは `data/artworks.json`、画像台帳は `data/image-sources.json`、作品別の監査記録は `docs/artwork-completion-audits/`。登録・形式確認は `scripts/` と GitHub Actions で行う。
 
+その他の作業（画像・出典の再検証、既存作品の監査、検査コードなど）は [作業別ガイド](docs/README.md) へ。
+
 ## 過去の記録
 
-初期300作品の制作過程・日付別状況・当時の手順は以下に保管。現在の作業手順や登録数とは分けて参照する。
-
-- [以前のREADME全体](docs/history/README-through-2026-11-10.md)
-- [旧・完成運用ガイド](docs/history/artwork-completion-workflow-v2-through-2026-11-10.md)
-- [以前の詳細な再開履歴](docs/history/resume-artwork-work-through-2026-11-10.md)
+[履歴資料の目次](docs/history/README.md) から必要な資料を探す。過去の件数・承認方式・計画は現行の作業指示ではない。
